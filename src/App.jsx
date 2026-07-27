@@ -124,6 +124,9 @@ function App() {
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-favorites', JSON.stringify(favorites)) }, [favorites])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-notes', JSON.stringify(notes)) }, [notes])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-sidebar-collapsed', JSON.stringify(sidebarCollapsed)) }, [sidebarCollapsed])
+  useEffect(() => {
+    if (typeof window !== 'undefined' && window.innerWidth <= 720 && window.localStorage.getItem('med-sidebar-collapsed') === null) setSidebarCollapsed(true)
+  }, [])
 
   const filteredGroups = useMemo(() => {
     const query = search.trim().toLowerCase()
