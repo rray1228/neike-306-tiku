@@ -617,7 +617,7 @@
           "answer": [],
           "sourceText": "学成选择题",
           "sourceY": 930.0,
-          "answerMode": "单选"
+          "answerMode": "待核对"
         }
       ],
       "sourceText": "内 | 学成选择题 | 科 | 小红书 | 小红书号：385106504",
@@ -711,6 +711,11 @@
           "key": "P",
           "label": "ICS",
           "sourceText": "P.ICS"
+        },
+        {
+          "key": "Q",
+          "label": "茶碱类",
+          "sourceText": "Q.茶碱类"
         }
       ],
       "stems": [
@@ -861,9 +866,9 @@
     {
       "id": "p02-g2",
       "page": 2,
-      "title": "阻塞性通气障碍/气流受限性疾病；ABEFHIKLNOQSTUVY；限制性通气障碍；C…",
-      "kind": "matching",
-      "kindLabel": "匹配 / 归类",
+      "title": "通气功能障碍的鉴别",
+      "kind": "B",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -897,8 +902,8 @@
         },
         {
           "key": "G",
-          "label": "FVC ↓",
-          "sourceText": "G.FVC ↓"
+          "label": "FVC↓",
+          "sourceText": "G.FVC↓"
         },
         {
           "key": "H",
@@ -907,8 +912,8 @@
         },
         {
           "key": "I",
-          "label": "MMFP ↓",
-          "sourceText": "I.MMFP ↓"
+          "label": "MMFP↓",
+          "sourceText": "I.MMFP↓"
         },
         {
           "key": "J",
@@ -932,18 +937,18 @@
         },
         {
           "key": "N",
-          "label": "RV/TLC明显个(>40%为肺气肿)",
-          "sourceText": "N.RV/TLC明显个(>40%为肺气肿)"
+          "label": "RV/TLC明显↑（>40%为肺气肿）",
+          "sourceText": "N.RV/TLC明显↑（>40%为肺气肿）"
         },
         {
           "key": "O",
-          "label": "支扩",
-          "sourceText": "0.支扩"
+          "label": "支气管扩张症",
+          "sourceText": "O.支气管扩张症"
         },
         {
           "key": "P",
-          "label": "TLC ↓",
-          "sourceText": "P.TLC ↓"
+          "label": "TLC↓",
+          "sourceText": "P.TLC↓"
         },
         {
           "key": "Q",
@@ -1013,23 +1018,56 @@
       ],
       "stems": [
         {
-          "text": "阻塞性通气障碍/气流受限性疾病；ABEFHIKLNOQSTUVY；限制性通气障碍；CDGJMPRWXZO②③",
-          "answer": [],
-          "sourceText": "阻塞性通气障碍/气流受限性疾病；ABEFHIKLNOQSTUVY；限制性通气障碍；CDGJMPRWXZO②③",
-          "sourceY": 719.0,
-          "answerMode": "单选"
+          "text": "阻塞性通气障碍/气流受限性疾病",
+          "answer": [
+            "A",
+            "B",
+            "E",
+            "F",
+            "H",
+            "I",
+            "K",
+            "L",
+            "N",
+            "O",
+            "Q",
+            "S",
+            "T",
+            "U",
+            "V",
+            "Y"
+          ],
+          "sourceText": "阻塞性通气障碍/气流受限性疾病ABEFHIKLNOQSTUVY",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "限制性通气障碍",
+          "answer": [
+            "C",
+            "D",
+            "G",
+            "J",
+            "M",
+            "P",
+            "R",
+            "W",
+            "X",
+            "Z",
+            "①",
+            "②",
+            "③"
+          ],
+          "sourceText": "限制性通气障碍CDGJMPRWXZ①②③",
+          "sourceY": 0,
+          "answerMode": "多选"
         }
       ],
-      "sourceText": "问： | A.气道阻塞致非弹性阻力过大 | 阻塞性通气障碍/气流受限性疾病 | B.FEV1↓ | ABEFHIKLNOQSTUVY | C.FEV1↓/正常 | D.吸气性呼吸困难 | E.TLC↑/正常 | 限制性通气障碍 | F.气流流速下降为主 | CDGJMPRWXZO②③ | G.FVC ↓ | H.COPD | I.MMFP ↓ | J.FEV1/FVC正常或↑ | K.支气管哮喘 | L.PEF↓ | M.ARDS | N.RV/TLC明显个(>40%为肺气肿) | 0.支扩 | P.TLC ↓ | Q.FVC↓/正常 | R.弹性阻力过大致肺泡扩张受限 | S.细支气管炎 | T.RV↑ | U.呼气性呼吸困难 | V.FRC↑ | W.肺容积下降为主 | X.RV↓ | Y.FEV1/FVC↓ | Z.间质性肺病 | ①.RV/TLC正常或略↑ | ②.胸膜病变 | ③.FRC↓",
-      "reviewState": "待讲义复核",
+      "sourceText": "通气功能障碍的鉴别（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-01"
       ]
     },
     {
@@ -1806,10 +1844,30 @@
     {
       "id": "p06-g2",
       "page": 6,
-      "title": "针对咯血治疗；量中",
+      "title": "支气管扩张症：咯血与感染治疗",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
+        {
+          "key": "A",
+          "label": "垂体后叶素",
+          "sourceText": "A.垂体后叶素"
+        },
+        {
+          "key": "B",
+          "label": "针对流感嗜血杆菌",
+          "sourceText": "B.针对流感嗜血杆菌"
+        },
+        {
+          "key": "C",
+          "label": ">500ml/d或>100ml/次",
+          "sourceText": "C.>500ml/d或>100ml/次"
+        },
+        {
+          "key": "D",
+          "label": "妥布霉素",
+          "sourceText": "D.妥布霉素"
+        },
         {
           "key": "E",
           "label": "亚胺培南",
@@ -1822,8 +1880,8 @@
         },
         {
           "key": "G",
-          "label": "头孢他啶/哌酮/吡等三四代头孢",
-          "sourceText": "G.头孢他啶/哌酮/吡等三四代头孢"
+          "label": "头孢他啶/哌拉西林等三、四代头孢",
+          "sourceText": "G.头孢他啶/哌拉西林等三、四代头孢"
         },
         {
           "key": "H",
@@ -1833,7 +1891,7 @@
         {
           "key": "I",
           "label": "手术切除",
-          "sourceText": "1.手术切除"
+          "sourceText": "I.手术切除"
         },
         {
           "key": "J",
@@ -1857,13 +1915,13 @@
         },
         {
           "key": "N",
-          "label": "二三代头孢",
-          "sourceText": "N.二三代头孢"
+          "label": "二、三代头孢",
+          "sourceText": "N.二、三代头孢"
         },
         {
           "key": "O",
           "label": "左氧氟沙星",
-          "sourceText": "0.左氧氟沙星"
+          "sourceText": "O.左氧氟沙星"
         },
         {
           "key": "P",
@@ -1898,25 +1956,44 @@
       ],
       "stems": [
         {
-          "text": "针对咯血治疗；量中",
+          "text": "咯血量中等",
           "answer": [
-            "A"
+            "A",
+            "T"
           ],
-          "sourceText": "量中（AT",
-          "sourceY": 692.0,
-          "answerMode": "单选"
+          "sourceText": "咯血量中等AT",
+          "sourceY": 0,
+          "answerMode": "多选"
         },
         {
-          "text": "量大",
+          "text": "咯血量大",
           "answer": [
             "C"
           ],
-          "sourceText": "量大（C-病变弥漫-F",
-          "sourceY": 740.0,
+          "sourceText": "咯血量大C",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "病变局限-{；针对感染治疗；无铜绿假单胞菌感染高危因素",
+          "text": "病变弥漫",
+          "answer": [
+            "F"
+          ],
+          "sourceText": "病变弥漫F",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "病变局限",
+          "answer": [
+            "I"
+          ],
+          "sourceText": "病变局限I",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "无铜绿假单胞菌感染高危因素",
           "answer": [
             "B",
             "H",
@@ -1927,17 +2004,25 @@
             "P"
           ],
           "sourceText": "无铜绿假单胞菌感染高危因素BHKLNOP",
-          "sourceY": 846.0,
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
           "text": "有铜绿假单胞菌感染高危因素",
           "answer": [
-            "D"
+            "D",
+            "E",
+            "G",
+            "K",
+            "J",
+            "O",
+            "P",
+            "R",
+            "S"
           ],
-          "sourceText": "有铜绿假单胞菌感染高危因素（DEGKJOPRS）",
-          "sourceY": 869.0,
-          "answerMode": "单选"
+          "sourceText": "有铜绿假单胞菌感染高危因素DEGKJOPRS",
+          "sourceY": 0,
+          "answerMode": "多选"
         },
         {
           "text": "有铜绿假单胞菌感染高危因素不选的是",
@@ -1946,126 +2031,115 @@
             "Q",
             "U"
           ],
-          "sourceText": "有铜绿假单胞菌感染高危因素不选的是：（MQU",
-          "sourceY": 918.0,
+          "sourceText": "有铜绿假单胞菌感染高危因素不选的是MQU",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "E.亚胺培南 | F.介入栓塞支气管动脉 | 问： | G.头孢他啶/哌酮/吡等三四代头孢 | 针对咯血治疗 | H.氨苄西林 | 量中（AT | 1.手术切除 | J.美罗培南 | 量大（C-病变弥漫-F | 病变局限-{ | K.环丙沙星 | L.阿莫西林 | M.厄他培南 | 针对感染治疗 | N.二三代头孢 | 无铜绿假单胞菌感染高危因素BHKLNOP | 0.左氧氟沙星 | 有铜绿假单胞菌感染高危因素（DEGKJOPRS） | P.呼吸喹诺酮类 | Q.诺氟沙星 | 有铜绿假单胞菌感染高危因素不选的是：（MQU | R.哌拉西林-他唑巴坦 | S.住院 | T.酚妥拉明 | U.头孢曲松 | 氨基糖苷类 | 头孢他啶/哌酮/吡等三四代头孢 | 呼吸喹诺酮类 | 内酰胺类 | 哌拉西林-他唑巴坦 | 碳青霉烯类 | 环丙沙星 | 左氧氟沙星 | 妥布霉素 | 亚胺培南 | 美罗培南 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "支气管扩张症：咯血与感染治疗（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-05"
       ]
     },
     {
       "id": "p07-g1",
       "page": 7,
-      "title": "支扩",
+      "title": "支气管扩张症与COPD鉴别",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "多无咯血和状指",
-          "sourceText": "A.多无咯血和状指"
+          "label": "多无咯血",
+          "sourceText": "A.多无咯血"
         },
         {
           "key": "B",
-          "label": "长期咳痰",
-          "sourceText": "B.长期咳痰"
+          "label": "大量脓痰",
+          "sourceText": "B.大量脓痰"
         },
         {
           "key": "C",
-          "label": "大量脓痰",
-          "sourceText": "C.大量脓痰"
+          "label": "多长期低热",
+          "sourceText": "C.多长期低热"
         },
         {
           "key": "D",
-          "label": "多有咯血和状指",
-          "sourceText": "D.多有咯血和状指"
-        },
-        {
-          "key": "E",
-          "label": "空气吸入、误吸上呼吸道定植菌、邻近感染灶蔓延、血行播散等",
-          "sourceText": "E.空气吸入、误吸上呼吸道定植菌、邻近感染灶蔓延、血行播散等"
-        },
-        {
-          "key": "F",
-          "label": "衣原体",
-          "sourceText": "F.衣原体"
-        },
-        {
-          "key": "G",
-          "label": "误吸胃肠道定植菌(胃食管反流病、脑卒中、醉酒等)",
-          "sourceText": "G.误吸胃肠道定植菌(胃食管反流病、脑卒中、醉酒等)"
-        },
-        {
-          "key": "H",
-          "label": "流感嗜血杆菌",
-          "sourceText": "H.流感嗜血杆菌"
-        },
-        {
-          "key": "I",
-          "label": "呼吸道病毒",
-          "sourceText": "1.呼吸道病毒"
-        },
-        {
-          "key": "J",
-          "label": "金葡菌",
-          "sourceText": "J.金葡菌"
-        },
-        {
-          "key": "K",
-          "label": "在入院时不存在、也不处于潜伏期，在入院>48小时后在医院内新发生的肺炎",
-          "sourceText": "K.在入院时不存在、也不处于潜伏期，在入院>48小时后在医院内新发生的肺炎"
-        },
-        {
-          "key": "L",
-          "label": "通过人工气道吸入环境中的致病菌",
-          "sourceText": "L.通过人工气道吸入环境中的致病菌"
+          "label": "多不发热或高热（继发感染）",
+          "sourceText": "D.多不发热或高热（继发感染）"
         }
       ],
       "stems": [
         {
-          "text": "支扩",
-          "answer": [
-            "V",
-            "S",
-            "C",
-            "O",
-            "P",
-            "D"
-          ],
-          "sourceText": "支扩VSCOPD",
-          "sourceY": 50.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "支扩",
+          "text": "支气管扩张症",
           "answer": [
             "B",
             "C",
             "D"
           ],
-          "sourceText": "支扩B C D",
-          "sourceY": 97.0,
+          "sourceText": "支气管扩张症BCD",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "COPD AB；支扩VS肺结核；支扩",
+          "text": "COPD",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "sourceText": "COPDAB",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "支气管扩张症与COPD鉴别（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-05",
+        "lecture-01"
+      ]
+    },
+    {
+      "id": "p07-g2",
+      "page": 7,
+      "title": "支气管扩张症与肺结核鉴别",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "多无咯血",
+          "sourceText": "A.多无咯血"
+        },
+        {
+          "key": "B",
+          "label": "大量脓痰",
+          "sourceText": "B.大量脓痰"
+        },
+        {
+          "key": "C",
+          "label": "多长期低热",
+          "sourceText": "C.多长期低热"
+        },
+        {
+          "key": "D",
+          "label": "多不发热或高热（继发感染）",
+          "sourceText": "D.多不发热或高热（继发感染）"
+        }
+      ],
+      "stems": [
+        {
+          "text": "支气管扩张症",
           "answer": [
             "A",
             "B",
             "D"
           ],
-          "sourceText": "支扩ABD",
-          "sourceY": 273.0,
+          "sourceText": "支气管扩张症ABD",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -2074,19 +2148,57 @@
             "A",
             "C"
           ],
-          "sourceText": "肺结核（AC",
-          "sourceY": 322.0,
+          "sourceText": "肺结核AC",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "支气管扩张症与肺结核鉴别（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-05",
+        "lecture-08"
+      ]
+    },
+    {
+      "id": "p07-g3",
+      "page": 7,
+      "title": "支气管扩张症与慢性肺脓肿鉴别",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "多无咯血",
+          "sourceText": "A.多无咯血"
         },
         {
-          "text": "支扩VS慢性肺脓肿；支扩",
+          "key": "B",
+          "label": "大量脓痰",
+          "sourceText": "B.大量脓痰"
+        },
+        {
+          "key": "C",
+          "label": "多长期低热",
+          "sourceText": "C.多长期低热"
+        },
+        {
+          "key": "D",
+          "label": "多不发热或高热（继发感染）",
+          "sourceText": "D.多不发热或高热（继发感染）"
+        }
+      ],
+      "stems": [
+        {
+          "text": "支气管扩张症",
           "answer": [
             "A",
             "B",
             "D"
           ],
-          "sourceText": "支扩ABD",
-          "sourceY": 496.0,
+          "sourceText": "支气管扩张症ABD",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -2097,26 +2209,136 @@
             "C"
           ],
           "sourceText": "慢性肺脓肿ABC",
-          "sourceY": 547.0,
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "支扩VSCOPD | A.多无咯血和状指 | 支扩B C D | B.长期咳痰 | C.大量脓痰 | COPD AB | D.多有咯血和状指 | 支扩VS肺结核 | A.多有咯血 | 支扩ABD | B.大量脓痰 | C.多长期低热 | 肺结核（AC | D.多不发热或高热(继发感染) | 支扩VS慢性肺脓肿 | A.长期咳大量脓痰 | B.多有咯血和状指 | 支扩ABD | C.痰分3层、厚壁空洞 | D.痰分4层、薄壁囊腔 | 慢性肺脓肿ABC | 肺炎 | A.在医院外发生的肺炎、或在医院外感染了有明确潜伏期的病原体而在入院后平均潜伏期内发病的肺炎 | B.肺炎链球菌 | C.G-杆菌(大肠杆菌、克雷伯杆菌、鲍曼不动杆菌、铜绿假单胞菌） | D.支原体 | E.空气吸入、误吸上呼吸道定植菌、邻近感染灶蔓延、血行播散等 | F.衣原体 | G.误吸胃肠道定植菌(胃食管反流病、脑卒中、醉酒等) | H.流感嗜血杆菌 | 1.呼吸道病毒 | J.金葡菌 | K.在入院时不存在、也不处于潜伏期，在入院>48小时后在医院内新发生的肺炎 | L.通过人工气道吸入环境中的致病菌 | 问： | 社区获得性肺炎CAPABDEFHI | 医院获得性肺炎HAP（CGJKL | CAP最常见的病原体B | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "支气管扩张症与慢性肺脓肿鉴别（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
         "lecture-05",
         "lecture-06"
       ]
     },
     {
+      "id": "p07-g4",
+      "page": 7,
+      "title": "社区获得性与医院获得性肺炎",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "社区获得性肺炎的定义",
+          "sourceText": "A.社区获得性肺炎的定义"
+        },
+        {
+          "key": "B",
+          "label": "肺炎链球菌",
+          "sourceText": "B.肺炎链球菌"
+        },
+        {
+          "key": "C",
+          "label": "G-杆菌（大肠杆菌、克雷伯杆菌、鲍曼不动杆菌、铜绿假单胞菌）",
+          "sourceText": "C.G-杆菌（大肠杆菌、克雷伯杆菌、鲍曼不动杆菌、铜绿假单胞菌）"
+        },
+        {
+          "key": "D",
+          "label": "支原体",
+          "sourceText": "D.支原体"
+        },
+        {
+          "key": "E",
+          "label": "空气吸入、误吸上呼吸道定植菌、邻近感染灶、血行播散等",
+          "sourceText": "E.空气吸入、误吸上呼吸道定植菌、邻近感染灶、血行播散等"
+        },
+        {
+          "key": "F",
+          "label": "衣原体",
+          "sourceText": "F.衣原体"
+        },
+        {
+          "key": "G",
+          "label": "误吸胃肠道定植菌（胃食管反流、脑卒中、醉酒等）",
+          "sourceText": "G.误吸胃肠道定植菌（胃食管反流、脑卒中、醉酒等）"
+        },
+        {
+          "key": "H",
+          "label": "流感嗜血杆菌",
+          "sourceText": "H.流感嗜血杆菌"
+        },
+        {
+          "key": "I",
+          "label": "呼吸道病毒",
+          "sourceText": "I.呼吸道病毒"
+        },
+        {
+          "key": "J",
+          "label": "金葡菌",
+          "sourceText": "J.金葡菌"
+        },
+        {
+          "key": "K",
+          "label": "医院获得性肺炎的定义",
+          "sourceText": "K.医院获得性肺炎的定义"
+        },
+        {
+          "key": "L",
+          "label": "通过人工气道吸入环境中的致病菌",
+          "sourceText": "L.通过人工气道吸入环境中的致病菌"
+        }
+      ],
+      "stems": [
+        {
+          "text": "社区获得性肺炎CAP",
+          "answer": [
+            "A",
+            "B",
+            "D",
+            "E",
+            "F",
+            "H",
+            "I"
+          ],
+          "sourceText": "社区获得性肺炎CAPABDEFHI",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "医院获得性肺炎HAP",
+          "answer": [
+            "C",
+            "G",
+            "J",
+            "K",
+            "L"
+          ],
+          "sourceText": "医院获得性肺炎HAPCGJKL",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "CAP最常见的病原体",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "CAP最常见的病原体B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "社区获得性与医院获得性肺炎（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-07"
+      ]
+    },
+    {
       "id": "p08-g1",
       "page": 8,
-      "title": "肺炎链球菌肺炎；表现",
+      "title": "肺炎病原体的临床表现",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -2162,8 +2384,8 @@
         },
         {
           "key": "I",
-          "label": "糖尿病、痛、骨髓炎、住院频繁用抗生素等多见",
-          "sourceText": "1.糖尿病、痛、骨髓炎、住院频繁用抗生素等多见"
+          "label": "糖尿病、痛风、骨髓炎、住院频繁用抗生素等多见",
+          "sourceText": "I.糖尿病、痛风、骨髓炎、住院频繁用抗生素等多见"
         },
         {
           "key": "J",
@@ -2172,8 +2394,8 @@
         },
         {
           "key": "K",
-          "label": "起病较缓(潜伏期约2-3周），一般低中热或不发热，血WBC正常或略↑",
-          "sourceText": "K.起病较缓(潜伏期约2-3周），一般低中热或不发热，血WBC正常或略↑"
+          "label": "起病较缓，潜伏期约2～3周，一般低中热或不发热，血WBC正常或略↑",
+          "sourceText": "K.起病较缓，潜伏期约2～3周，一般低中热或不发热，血WBC正常或略↑"
         },
         {
           "key": "L",
@@ -2193,22 +2415,22 @@
         {
           "key": "O",
           "label": "痰少",
-          "sourceText": "0.痰少"
+          "sourceText": "O.痰少"
         },
         {
           "key": "P",
-          "label": "呈持久阵发性剧咳（发热退完后咳嗽还可持续存在）",
-          "sourceText": "P.呈持久阵发性剧咳（发热退完后咳嗽还可持续存在）"
+          "label": "呈持久阵发性剧咳（发热退完后咳嗽仍可持续）",
+          "sourceText": "P.呈持久阵发性剧咳（发热退完后咳嗽仍可持续）"
         },
         {
           "key": "Q",
-          "label": "口角单纯疱疹在本身抵抗力较强的青壮年在抵抗力突然变差时疱疹病毒趁虚而入",
-          "sourceText": "Q.口角单纯疱疹在本身抵抗力较强的青壮年在抵抗力突然变差时疱疹病毒趁虚而入"
+          "label": "口角单纯疱疹：抵抗力较强的青壮年抵抗力突然变差时感染",
+          "sourceText": "Q.口角单纯疱疹：抵抗力较强的青壮年抵抗力突然变差时感染"
         },
         {
           "key": "R",
-          "label": "口角单纯疱疹在抵抗力本身较差常感染",
-          "sourceText": "R.口角单纯疱疹在抵抗力本身较差常感染"
+          "label": "口角单纯疱疹：抵抗力本身较差者常感染",
+          "sourceText": "R.口角单纯疱疹：抵抗力本身较差者常感染"
         },
         {
           "key": "S",
@@ -2227,13 +2449,13 @@
         },
         {
           "key": "V",
-          "label": "肺外表现(耳痛、皮疹等)多见",
-          "sourceText": "V.肺外表现(耳痛、皮疹等)多见"
+          "label": "肺外表现（耳痛、皮疹等）多见",
+          "sourceText": "V.肺外表现（耳痛、皮疹等）多见"
         },
         {
           "key": "W",
-          "label": "急性起病，寒战高热，血WBC多正常或↓（淋巴细胞可↑可√）",
-          "sourceText": "W.急性起病，寒战高热，血WBC多正常或↓（淋巴细胞可↑可√）"
+          "label": "急性起病、寒战高热，血WBC多正常或↓",
+          "sourceText": "W.急性起病、寒战高热，血WBC多正常或↓"
         },
         {
           "key": "X",
@@ -2242,8 +2464,8 @@
         },
         {
           "key": "Y",
-          "label": "全身症状突出，肺部体征可轻微、可严重(如SARS并发ARDS)",
-          "sourceText": "Y.全身症状突出，肺部体征可轻微、可严重(如SARS并发ARDS)"
+          "label": "全身症状突出，肺部体征可轻微或严重（如SARS并发ARDS）",
+          "sourceText": "Y.全身症状突出，肺部体征可轻微或严重（如SARS并发ARDS）"
         },
         {
           "key": "Z",
@@ -2253,7 +2475,7 @@
       ],
       "stems": [
         {
-          "text": "肺炎链球菌肺炎；表现",
+          "text": "肺炎链球菌肺炎：表现",
           "answer": [
             "A",
             "E",
@@ -2263,22 +2485,12 @@
             "Q",
             "T"
           ],
-          "sourceText": "表现AEHJMQT",
-          "sourceY": 87.0,
+          "sourceText": "肺炎链球菌肺炎：表现AEHJMQT",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "影像①③；治疗",
-          "answer": [
-            "B",
-            "D"
-          ],
-          "sourceText": "治疗（bd)",
-          "sourceY": 130.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "金葡菌肺炎；表现",
+          "text": "金葡菌肺炎：表现",
           "answer": [
             "B",
             "I",
@@ -2286,22 +2498,12 @@
             "L",
             "R"
           ],
-          "sourceText": "表现BIJLR",
-          "sourceY": 239.0,
+          "sourceText": "金葡菌肺炎：表现BIJLR",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "影像；治疗",
-          "answer": [
-            "C",
-            "I"
-          ],
-          "sourceText": "治疗ci",
-          "sourceY": 282.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "克雷伯杆菌肺炎；表现",
+          "text": "克雷伯杆菌肺炎：表现",
           "answer": [
             "B",
             "F",
@@ -2310,21 +2512,12 @@
             "N",
             "R"
           ],
-          "sourceText": "表现BFJLNR",
-          "sourceY": 413.0,
+          "sourceText": "克雷伯杆菌肺炎：表现BFJLNR",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "影像②④；治疗",
-          "answer": [
-            "E"
-          ],
-          "sourceText": "治疗e",
-          "sourceY": 455.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "HAP见到脓痰带血首先考虑金葡菌；支原体肺炎；表现",
+          "text": "支原体肺炎：表现",
           "answer": [
             "C",
             "D",
@@ -2336,23 +2529,12 @@
             "V",
             "X"
           ],
-          "sourceText": "表现CDGKOPSVX",
-          "sourceY": 565.0,
+          "sourceText": "支原体肺炎：表现CDGKOPSVX",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "影像③；治疗",
-          "answer": [
-            "F",
-            "H",
-            "J"
-          ],
-          "sourceText": "治疗（fhj）",
-          "sourceY": 608.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "对支原体肺炎无效的（；VS；军团菌肺炎；表现",
+          "text": "军团菌肺炎：表现",
           "answer": [
             "D",
             "J",
@@ -2361,12 +2543,12 @@
             "V",
             "Z"
           ],
-          "sourceText": "表现DJOSVZ",
-          "sourceY": 716.0,
+          "sourceText": "军团菌肺炎：表现DJOSVZ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "影像③；治疗；病毒性肺炎；表现",
+          "text": "病毒性肺炎：表现",
           "answer": [
             "C",
             "O",
@@ -2374,35 +2556,371 @@
             "W",
             "Y"
           ],
-          "sourceText": "表现COUWY",
-          "sourceY": 869.0,
+          "sourceText": "病毒性肺炎：表现COUWY",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "肺炎病原体的临床表现（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-07"
+      ]
+    },
+    {
+      "id": "p08-g2",
+      "page": 8,
+      "title": "肺炎的影像学表现",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "①",
+          "label": "X线或CT支气管充气征、大叶性实变影",
+          "sourceText": "①.X线或CT支气管充气征、大叶性实变影"
+        },
+        {
+          "key": "②",
+          "label": "叶间隙下坠、蜂窝状腔",
+          "sourceText": "②.叶间隙下坠、蜂窝状腔"
+        },
+        {
+          "key": "③",
+          "label": "绝无空洞",
+          "sourceText": "③.绝无空洞"
+        },
+        {
+          "key": "④",
+          "label": "易形成空洞，斑片或实变影",
+          "sourceText": "④.易形成空洞，斑片或实变影"
+        },
+        {
+          "key": "⑤",
+          "label": "肺炎中最易形成空洞，斑片或实变影",
+          "sourceText": "⑤.肺炎中最易形成空洞，斑片或实变影"
+        },
+        {
+          "key": "⑥",
+          "label": "不易形成空洞",
+          "sourceText": "⑥.不易形成空洞"
+        },
+        {
+          "key": "⑦",
+          "label": "磨玻璃斑片或实变影，多分布在双肺外周胸膜下",
+          "sourceText": "⑦.磨玻璃斑片或实变影，多分布在双肺外周胸膜下"
+        },
+        {
+          "key": "⑧",
+          "label": "早期网格影，后期沿气管/肺纹理散在分布不规则斑片影，多累及双肺下叶",
+          "sourceText": "⑧.早期网格影，后期沿气管/肺纹理散在分布不规则斑片影，多累及双肺下叶"
+        },
+        {
+          "key": "⑨",
+          "label": "大片实变及明显胸腔积液",
+          "sourceText": "⑨.大片实变及明显胸腔积液"
+        },
+        {
+          "key": "⑩",
+          "label": "多发易变结节、空洞、液气囊腔（可致脓气胸）",
+          "sourceText": "⑩.多发易变结节、空洞、液气囊腔（可致脓气胸）"
+        }
+      ],
+      "stems": [
+        {
+          "text": "肺炎链球菌肺炎",
+          "answer": [
+            "①",
+            "③"
+          ],
+          "sourceText": "肺炎链球菌肺炎①③",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "影像①；治疗ag",
+          "text": "金葡菌肺炎",
           "answer": [
-            "K"
+            "⑤",
+            "⑩"
           ],
-          "sourceText": "治疗ag k",
-          "sourceY": 910.0,
-          "answerMode": "单选"
+          "sourceText": "金葡菌肺炎⑤⑩",
+          "sourceY": 0,
+          "answerMode": "多选"
         },
         {
-          "text": "肺炎题中看到磨玻璃影首选考虑（病毒性肺炎；大叶性肺炎B；小叶性肺炎D；支扩",
+          "text": "克雷伯杆菌肺炎",
+          "answer": [
+            "②",
+            "④"
+          ],
+          "sourceText": "克雷伯杆菌肺炎②④",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "支原体肺炎",
+          "answer": [
+            "⑥",
+            "⑧"
+          ],
+          "sourceText": "支原体肺炎⑥⑧",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "军团菌肺炎",
+          "answer": [
+            "⑥",
+            "⑧"
+          ],
+          "sourceText": "军团菌肺炎⑥⑧",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "病毒性肺炎",
+          "answer": [
+            "⑥",
+            "⑦",
+            "⑨"
+          ],
+          "sourceText": "病毒性肺炎⑥⑦⑨",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "肺炎的影像学表现（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-07"
+      ]
+    },
+    {
+      "id": "p08-g3",
+      "page": 8,
+      "title": "肺炎的治疗选择",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "不宜用抗生素预防继发性细菌感染；一旦合并细菌感染再及时选用敏感抗生素",
+          "sourceText": "A.不宜用抗生素预防继发性细菌感染；一旦合并细菌感染再及时选用敏感抗生素"
+        },
+        {
+          "key": "B",
+          "label": "治疗首选青霉素类",
+          "sourceText": "B.治疗首选青霉素类"
+        },
+        {
+          "key": "C",
+          "label": "苯唑西林、氯唑西林或头孢呋辛",
+          "sourceText": "C.苯唑西林、氯唑西林或头孢呋辛"
+        },
+        {
+          "key": "D",
+          "label": "若青霉素耐药可用喹诺酮、头孢喹诺或头孢曲松",
+          "sourceText": "D.若青霉素耐药可用喹诺酮、头孢喹诺或头孢曲松"
+        },
+        {
+          "key": "E",
+          "label": "β-内酰胺类；重症联合大环内酯类或氟喹诺酮类",
+          "sourceText": "E.β-内酰胺类；重症联合大环内酯类或氟喹诺酮类"
+        },
+        {
+          "key": "F",
+          "label": "对大环内酯类如红霉素、罗红霉素、阿奇霉素高耐药",
+          "sourceText": "F.对大环内酯类如红霉素、罗红霉素、阿奇霉素高耐药"
+        },
+        {
+          "key": "G",
+          "label": "对症治疗，抗病毒药（奥司他韦、利巴韦林、阿昔洛韦）",
+          "sourceText": "G.对症治疗，抗病毒药（奥司他韦、利巴韦林、阿昔洛韦）"
+        },
+        {
+          "key": "H",
+          "label": "首选喹诺酮类如左氧氟沙星/莫西沙星",
+          "sourceText": "H.首选喹诺酮类如左氧氟沙星/莫西沙星"
+        },
+        {
+          "key": "I",
+          "label": "MRSA用万古霉素、替考拉宁、利奈唑胺或头孢洛林",
+          "sourceText": "I.MRSA用万古霉素、替考拉宁、利奈唑胺或头孢洛林"
+        },
+        {
+          "key": "J",
+          "label": "四环素类",
+          "sourceText": "J.四环素类"
+        },
+        {
+          "key": "K",
+          "label": "重症者可酌情用糖皮质激素",
+          "sourceText": "K.重症者可酌情用糖皮质激素"
+        },
+        {
+          "key": "L",
+          "label": "β-内酰胺类抗生素、头孢菌素类",
+          "sourceText": "L.β-内酰胺类抗生素、头孢菌素类"
+        }
+      ],
+      "stems": [
+        {
+          "text": "肺炎链球菌肺炎",
+          "answer": [
+            "B",
+            "D"
+          ],
+          "sourceText": "肺炎链球菌肺炎BD",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "金葡菌肺炎",
+          "answer": [
+            "C",
+            "I"
+          ],
+          "sourceText": "金葡菌肺炎CI",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "克雷伯杆菌肺炎",
           "answer": [
             "E"
           ],
-          "sourceText": "支扩(E",
-          "sourceY": 1305.0,
+          "sourceText": "克雷伯杆菌肺炎E",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "干性支扩",
+          "text": "支原体肺炎",
+          "answer": [
+            "F",
+            "H",
+            "J"
+          ],
+          "sourceText": "支原体肺炎FHJ",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "对支原体肺炎无效的",
+          "answer": [
+            "L"
+          ],
+          "sourceText": "对支原体肺炎无效的L",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "病毒性肺炎",
+          "answer": [
+            "A",
+            "G",
+            "K"
+          ],
+          "sourceText": "病毒性肺炎AGK",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "肺炎的治疗选择（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-07"
+      ]
+    },
+    {
+      "id": "p08-g4",
+      "page": 8,
+      "title": "肺炎及相关疾病的好发部位",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "上叶下部、下叶上部近胸膜处",
+          "sourceText": "A.上叶下部、下叶上部近胸膜处"
+        },
+        {
+          "key": "B",
+          "label": "单侧肺下叶",
+          "sourceText": "B.单侧肺下叶"
+        },
+        {
+          "key": "C",
+          "label": "上叶尖后段",
+          "sourceText": "C.上叶尖后段"
+        },
+        {
+          "key": "D",
+          "label": "双肺中叶和背侧",
+          "sourceText": "D.双肺中叶和背侧"
+        },
+        {
+          "key": "E",
+          "label": "左肺下叶",
+          "sourceText": "E.左肺下叶"
+        },
+        {
+          "key": "F",
+          "label": "下叶",
+          "sourceText": "F.下叶"
+        },
+        {
+          "key": "G",
+          "label": "右肺上叶后段或下叶背段",
+          "sourceText": "G.右肺上叶后段或下叶背段"
+        },
+        {
+          "key": "H",
+          "label": "双肺胸膜下、基底部",
+          "sourceText": "H.双肺胸膜下、基底部"
+        },
+        {
+          "key": "I",
+          "label": "上叶尖后段、下叶背段和后基底段",
+          "sourceText": "I.上叶尖后段、下叶背段和后基底段"
+        }
+      ],
+      "stems": [
+        {
+          "text": "大叶性肺炎",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "大叶性肺炎B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "小叶性肺炎",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "小叶性肺炎D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "支气管扩张症",
+          "answer": [
+            "E"
+          ],
+          "sourceText": "支气管扩张症E",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "干性支气管扩张症",
           "answer": [
             "C"
           ],
-          "sourceText": "干性支扩C",
-          "sourceY": 1327.0,
+          "sourceText": "干性支气管扩张症C",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -2410,8 +2928,8 @@
           "answer": [
             "G"
           ],
-          "sourceText": "吸入性肺脓肿仰卧位（G",
-          "sourceY": 1351.0,
+          "sourceText": "吸入性肺脓肿仰卧位G",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -2420,16 +2938,25 @@
             "A"
           ],
           "sourceText": "原发型肺结核A",
-          "sourceY": 1368.0,
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "继发型肺结核；肺梗死",
+          "text": "继发型肺结核",
+          "answer": [
+            "I"
+          ],
+          "sourceText": "继发型肺结核I",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "肺梗死",
           "answer": [
             "F"
           ],
-          "sourceText": "肺梗死（F",
-          "sourceY": 1416.0,
+          "sourceText": "肺梗死F",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -2438,7 +2965,7 @@
             "H"
           ],
           "sourceText": "特发性肺间质纤维化H",
-          "sourceY": 1436.0,
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -2447,20 +2974,17 @@
             "F"
           ],
           "sourceText": "HIV/AIDS并发肺结核F",
-          "sourceY": 1459.0,
+          "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "问： | A.主要导致大叶性肺炎 | 肺炎链球菌肺炎 | B.主要导致小叶性肺炎 | 表现AEHJMQT | C.属于间质性肺炎 | 影像①③ | D.属于非典型病原体 | 治疗（bd) | E.本身抵抗力较强的青壮年在抵抗力突然变差时出现 | F.中老年多见，常发生在醉酒、脑卒中等误吸 | G.儿童、青年多见 | H.受凉、醉酒等多见 | 金葡菌肺炎 | 1.糖尿病、痛、骨髓炎、住院频繁用抗生素等多见 | 表现BIJLR | J.急性起病、寒战高热、血WBC↑ | 影像 | K.起病较缓(潜伏期约2-3周），一般低中热或不发热，血WBC正常或略↑ | 治疗ci | L.脓痰带血 | M.咳铁锈色痰 | N.砖红色胶冻状痰 | 0.痰少 | P.呈持久阵发性剧咳（发热退完后咳嗽还可持续存在） | 克雷伯杆菌肺炎 | Q.口角单纯疱疹在本身抵抗力较强的青壮年在抵抗力突然变差时疱疹病毒趁虚而入 | 表现BFJLNR | R.口角单纯疱疹在抵抗力本身较差常感染 | 影像②④ | S.常有野游史 | 治疗e | T.实变体征 | U.冬春季节多见 | HAP见到脓痰带血首先考虑金葡菌 | V.肺外表现(耳痛、皮疹等)多见 | W.急性起病，寒战高热，血WBC多正常或↓（淋巴细胞可↑可√） | 支原体肺炎 | X.具有自限性 | 表现CDGKOPSVX | Y.全身症状突出，肺部体征可轻微、可严重(如SARS并发ARDS) | 影像③ | Z.症状多如腹泻 | 治疗（fhj） | 对支原体肺炎无效的（ | ①X线或CT支气管充气征，大叶性实变影 | ②叶间隙下坠、蜂窝状脓肿 | VS | ③绝无空洞 | 军团菌肺炎 | ④易形成空洞，斑片或实变影 | 表现DJOSVZ | ③肺炎中最易形成空洞，斑片或实变影 | 影像③ | ③不易形成空洞 | 治疗 | ①磨玻璃斑片或实变影，多分布在双肺外周胸膜下 | ③早期网格影，后期沿支气管/肺纹理散在分布的不规则斑片影、多累及双肺下叶 | ①大片实变及明显胸腔积液少见 | @多发易变结节、空洞、液气囊腔（可致脓气胸） | 病毒性肺炎 | 表现COUWY | 影像① | 治疗ag k | a.不宜用抗生素预防继发性的细菌感染。一旦合并细菌感染再及时选用敏感抗生素 | b.治疗首选青霉素 | c.苯唑西林、氯唑西林或头孢呋辛 | 肺炎题中看到磨玻璃影首选考虑（病毒性肺炎 | d.若青霉素耐药用喹诺酮、头孢噻、头孢曲松 | e.B-内酰胺类，重症联合喹诺酮类或氨基糖苷类（阿米卡星/妥布霉素) | f.对大环内酯类如红霉素/罗红霉素/阿奇霉素（阿红达)高耐药 | g.对症治疗、抗病毒药(奥司他韦/利巴韦林/阿昔洛韦韦) | h.首选喹诺酮如左氧氟沙星/莫西沙星 | i.耐甲氧西林金葡菌MRSA用多肽类万古霉素、替考拉宁、利奈唑胺或头孢洛林 | j.四环素类 | k.重症者可酌情用糖皮质激素 | I.B内酰胺类如青霉素、头孢菌素类 | 大叶性肺炎B | A.上叶下部、下叶上部近胸膜处 | 小叶性肺炎D | B.单侧肺下叶 | 支扩(E | C.上叶尖后段 | 干性支扩C | D.双肺下叶和背侧 | E.左肺下叶 | 吸入性肺脓肿仰卧位（G | 原发型肺结核A | F.下叶 | 继发型肺结核 | G.右肺上叶后段或下叶背段 | H.双肺胸膜下、基底部 | 肺梗死（F | 特发性肺间质纤维化H | 1.上叶尖后段、下叶背段和后基底段 | HIV/AIDS并发肺结核F",
-      "reviewState": "待讲义复核",
+      "sourceText": "肺炎及相关疾病的好发部位（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-07",
+        "lecture-08",
+        "lecture-04"
       ]
     },
     {
@@ -2565,9 +3089,6 @@
         {
           "text": "结核菌素试验",
           "answer": [
-            "P",
-            "P",
-            "D",
             "A",
             "C",
             "F"
@@ -2740,7 +3261,6 @@
         {
           "text": "吡嗪酰胺",
           "answer": [
-            "Z",
             "D",
             "H"
           ],
@@ -2751,7 +3271,6 @@
         {
           "text": "链霉素",
           "answer": [
-            "S",
             "C",
             "I"
           ],
@@ -2949,6 +3468,11 @@
           "key": "R",
           "label": "热型无一定规律",
           "sourceText": "R.热型无一定规律"
+        },
+        {
+          "key": "A",
+          "label": "体温在高热水平（>39℃），24小时内波动范围不超过1℃",
+          "sourceText": "A.体温在高热水平（>39℃），24小时内波动范围不超过1℃"
         }
       ],
       "stems": [
@@ -3098,6 +3622,11 @@
           "key": "M",
           "label": "抗1L-4R抗体抗TSLP抗体",
           "sourceText": "M.抗1L-4R抗体抗TSLP抗体"
+        },
+        {
+          "key": "A",
+          "label": "吸入型糖皮质激素（ICS）",
+          "sourceText": "A.吸入型糖皮质激素（ICS）"
         }
       ],
       "stems": [
@@ -3117,11 +3646,18 @@
         {
           "text": "控制性药物",
           "answer": [
-            "A"
+            "A",
+            "C",
+            "E",
+            "G",
+            "H",
+            "J",
+            "L",
+            "M"
           ],
           "sourceText": "控制性药物（ACEGHJL M",
           "sourceY": 241.0,
-          "answerMode": "单选"
+          "answerMode": "多选"
         }
       ],
       "sourceText": "B.短效B受体激动剂(SABA) | 问： | C.联合用药（ICS+LABA,ICS+LABA+LAMA) | 缓解性药物（BDEIK | D.短效吸入型抗胆碱药物（SAMA) | E.白三烯调节剂 | 控制性药物（ACEGHJL M | F.ICS+福莫特罗 | G.长效B受体激动剂(LABA,) | H.缓释茶碱 | 1.短效茶碱 | J.抗IgE抗体 | K.全身用糖皮质激素 | L.抗IL-5抗体/抗IL-5R抗体 | M.抗1L-4R抗体抗TSLP抗体",
@@ -3541,13 +4077,11 @@
         {
           "text": "5-",
           "answer": [
-            "H",
-            "T",
             "F"
           ],
           "sourceText": "5-HT F",
           "sourceY": 309.0,
-          "answerMode": "多选"
+          "answerMode": "单选"
         },
         {
           "text": "抗利尿激素",
@@ -3859,8 +4393,6 @@
         {
           "text": "远处转移",
           "answer": [
-            "M",
-            "I",
             "E",
             "I",
             "L"
@@ -5014,6 +5546,11 @@
           "key": "Y",
           "label": "湿啰音或干湿啰音",
           "sourceText": "Y.湿啰音或干湿啰音"
+        },
+        {
+          "key": "C",
+          "label": "患侧平坦塌陷",
+          "sourceText": "C.患侧平坦塌陷"
         }
       ],
       "stems": [
@@ -5078,11 +5615,16 @@
         {
           "text": "肺不张",
           "answer": [
-            "C"
+            "C",
+            "H",
+            "K",
+            "O",
+            "Q",
+            "U"
           ],
           "sourceText": "肺不张（CHKOQU",
           "sourceY": 502.0,
-          "answerMode": "单选"
+          "answerMode": "多选"
         }
       ],
       "sourceText": "胸廓 | A.患侧饱满 | B.桶状 | C患侧平坦塌陷 | D.多对称，可桶状 | E.对称 | COPD(BGJPSY | 纵隔 | 支气管哮喘 | (DGJPSW | F.可移向健侧 | EGIORV | 大叶性肺炎实变 | G.正中 | H.可移向患侧 | 胸腔积液AFKMOQTU | 语音震颤 | 气胸AFKNQU | 1.患侧增强 | 肺泡性肺水肿（EGLOSX | J.双侧减弱 | K.减弱或消失 | 肺不张（CHKOQU | L.减弱 | M.积液上方增强 | 叩诊 | N.鼓音 | 0.实音或浊音 | P.过清音 | 呼吸音 | Q.减弱或消失 | R.异常支气管或支气管肺泡呼吸音 | S.减弱 | T.积液上方：异常支气管或支气管肺泡呼吸音 | 啰音 | U.多无啰音 | V.湿啰音 | W.干啰音为主 | X.湿啰音为主 | Y.湿啰音或干湿啰音 | 小红书 | 小红书号：385106504",
@@ -5769,12 +6311,9 @@
         {
           "text": "胃溃疡",
           "answer": [
-            "G",
-            "U",
             "A",
             "C",
-            "E",
-            "D"
+            "E"
           ],
           "sourceText": "胃溃疡GUACED",
           "sourceY": 143.0,
@@ -6870,6 +7409,11 @@
           "key": "Q",
           "label": "乳酸杆菌",
           "sourceText": "Q.乳酸杆菌"
+        },
+        {
+          "key": "T",
+          "label": "短期使用",
+          "sourceText": "T.短期使用"
         }
       ],
       "stems": [
@@ -9231,7 +9775,6 @@
             "C",
             "E",
             "H",
-            "I",
             "L",
             "N",
             "O"
@@ -9243,9 +9786,6 @@
         {
           "text": "缺血性",
           "answer": [
-            "A",
-            "T",
-            "N",
             "A",
             "D",
             "F",
@@ -11908,24 +12448,29 @@
     {
       "id": "p51-g1",
       "page": 51,
-      "title": "联合化疗",
+      "title": "MDS治疗",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "对于IPSS-R评分>3.5分、年轻、原始细胞增多、伴预后不良染色体核型者首选",
-          "sourceText": "A.对于IPSS-R评分>3.5分、年轻、原始细胞增多、伴预后不良染色体核型者首选"
+          "label": "HSCT根治",
+          "sourceText": "A.HSCT根治"
+        },
+        {
+          "key": "B",
+          "label": "地西他滨",
+          "sourceText": "B.地西他滨"
         },
         {
           "key": "C",
-          "label": "地西他滨",
-          "sourceText": "C.地西他滨"
+          "label": "去甲基化",
+          "sourceText": "C.去甲基化"
         },
         {
           "key": "D",
-          "label": "葱环类",
-          "sourceText": "D.葱环类"
+          "label": "联合化疗",
+          "sourceText": "D.联合化疗"
         },
         {
           "key": "E",
@@ -11950,12 +12495,193 @@
         {
           "key": "I",
           "label": "阿糖胞苷",
-          "sourceText": "1.阿糖胞苷"
+          "sourceText": "I.阿糖胞苷"
+        }
+      ],
+      "stems": [
+        {
+          "text": "联合化疗",
+          "answer": [
+            "D",
+            "I"
+          ],
+          "sourceText": "联合化疗DI",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "HSCT根治",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "HSCT根治A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "去甲基化",
+          "answer": [
+            "C",
+            "E",
+            "G"
+          ],
+          "sourceText": "去甲基化CEG",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "生物调节剂",
+          "answer": [
+            "F",
+            "H"
+          ],
+          "sourceText": "生物调节剂FH",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "MDS治疗（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-33"
+      ]
+    },
+    {
+      "id": "p51-g2",
+      "page": 51,
+      "title": "MDS与巨幼细胞贫血鉴别",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "病态造血",
+          "sourceText": "A.病态造血"
         },
         {
           "key": "B",
-          "label": "可有原位溶血(UCB↑)",
-          "sourceText": "B.可有原位溶血(UCB↑)"
+          "label": "可有原位溶血（UCB↑）",
+          "sourceText": "B.可有原位溶血（UCB↑）"
+        },
+        {
+          "key": "C",
+          "label": "外周血全血细胞↓",
+          "sourceText": "C.外周血全血细胞↓"
+        },
+        {
+          "key": "D",
+          "label": "网织红细胞↓（原位溶血时可正常或轻度增加）",
+          "sourceText": "D.网织红细胞↓（原位溶血时可正常或轻度增加）"
+        },
+        {
+          "key": "E",
+          "label": "缺乏叶酸、VitB12",
+          "sourceText": "E.缺乏叶酸、VitB12"
+        },
+        {
+          "key": "F",
+          "label": "大细胞、正细胞或小细胞性贫血",
+          "sourceText": "F.大细胞、正细胞或小细胞性贫血"
+        },
+        {
+          "key": "G",
+          "label": "大细胞性贫血",
+          "sourceText": "G.大细胞性贫血"
+        },
+        {
+          "key": "H",
+          "label": "网织红细胞正常或轻度↑（原位溶血时明显↑）",
+          "sourceText": "H.网织红细胞正常或轻度↑（原位溶血时明显↑）"
+        }
+      ],
+      "stems": [
+        {
+          "text": "MDS",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "F"
+          ],
+          "sourceText": "MDSABCDF",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "巨幼细胞贫血",
+          "answer": [
+            "B",
+            "C",
+            "E",
+            "G",
+            "H"
+          ],
+          "sourceText": "巨幼细胞贫血BCEGH",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "MDS与巨幼细胞贫血鉴别（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-33",
+        "lecture-28"
+      ]
+    },
+    {
+      "id": "p51-g3",
+      "page": 51,
+      "title": "MDS与再生障碍性贫血鉴别",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "病态造血",
+          "sourceText": "A.病态造血"
+        },
+        {
+          "key": "B",
+          "label": "贫血多在晚期出现",
+          "sourceText": "B.贫血多在晚期出现"
+        },
+        {
+          "key": "C",
+          "label": "大细胞、正细胞或小细胞性贫血",
+          "sourceText": "C.大细胞、正细胞或小细胞性贫血"
+        },
+        {
+          "key": "D",
+          "label": "外周血全血细胞↓",
+          "sourceText": "D.外周血全血细胞↓"
+        },
+        {
+          "key": "E",
+          "label": "网织红细胞↓",
+          "sourceText": "E.网织红细胞↓"
+        },
+        {
+          "key": "F",
+          "label": "骨髓造血多数减低",
+          "sourceText": "F.骨髓造血多数减低"
+        },
+        {
+          "key": "G",
+          "label": "巨核细胞数量显著减少",
+          "sourceText": "G.巨核细胞数量显著减少"
+        },
+        {
+          "key": "H",
+          "label": "巨核细胞呈小巨核细胞、多核、核少分叶",
+          "sourceText": "H.巨核细胞呈小巨核细胞、多核、核少分叶"
+        },
+        {
+          "key": "I",
+          "label": "骨髓造血衰竭",
+          "sourceText": "I.骨髓造血衰竭"
         },
         {
           "key": "J",
@@ -11974,8 +12700,8 @@
         },
         {
           "key": "M",
-          "label": "网织红细胞(<1%、重症<0.5%)",
-          "sourceText": "M.网织红细胞(<1%、重症<0.5%)"
+          "label": "网织红细胞<1%，重症<0.5%",
+          "sourceText": "M.网织红细胞<1%，重症<0.5%"
         },
         {
           "key": "N",
@@ -11985,70 +12711,22 @@
       ],
       "stems": [
         {
-          "text": "联合化疗",
-          "answer": [
-            "D",
-            "I"
-          ],
-          "sourceText": "联合化疗D+I",
-          "sourceY": 45.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "HSCT根泊",
-          "answer": [
-            "A"
-          ],
-          "sourceText": "HSCT根泊（A",
-          "sourceY": 94.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "去甲基化",
-          "answer": [
-            "C",
-            "E",
-            "G"
-          ],
-          "sourceText": "去甲基化（CEG",
-          "sourceY": 142.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "生物调节剂",
-          "answer": [
-            "F",
-            "H"
-          ],
-          "sourceText": "生物调节剂FH",
-          "sourceY": 193.0,
-          "answerMode": "多选"
-        },
-        {
           "text": "MDS",
           "answer": [
-            "V",
-            "S"
-          ],
-          "sourceText": "MDS VS",
-          "sourceY": 328.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "MDSABCDF；巨幼贫",
-          "answer": [
-            "B",
+            "A",
             "C",
             "E",
-            "G",
-            "H"
+            "H",
+            "J",
+            "L",
+            "N"
           ],
-          "sourceText": "巨幼贫BCEGH",
-          "sourceY": 426.0,
+          "sourceText": "MDSACEHJLN",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "MDSVS再障；MDSCACEHJLN；再障",
+          "text": "再生障碍性贫血",
           "answer": [
             "B",
             "D",
@@ -12058,27 +12736,23 @@
             "K",
             "M"
           ],
-          "sourceText": "再障（BDFGIKM",
-          "sourceY": 717.0,
+          "sourceText": "再生障碍性贫血BDFGIKM",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "A.对于IPSS-R评分>3.5分、年轻、原始细胞增多、伴预后不良染色体核型者首选 | 联合化疗D+I | C.地西他滨 | D.葱环类 | HSCT根泊（A | E.延迟MDS向AML转化 | F.对孤立del(5q)疗效好 | 去甲基化（CEG | G.阿扎胞苷 | H.沙利度胺 | 生物调节剂FH | 1.阿糖胞苷 | A.病态造血 | MDS VS | B.可有原位溶血(UCB↑) | C.外周血贫血或全血细胞↓ | MDSABCDF | D.网织红细胞(原位溶血时可正常或轻度增加） | E.缺乏叶酸、VitB12 | 巨幼贫BCEGH | F.大细胞、正细胞、或小细胞性贫血 | G.大细胞性贫血 | H.网织红细胞正常或轻度个（原位溶血时明显个） | A..病态造血 | MDSVS再障 | B.贫血多在晚期出现 | C.大细胞、正细胞、或小细胞性贫血 | D.外周血全血细胞↓ | MDSCACEHJLN | E.网织红细胞↓(原位溶血时可正常或轻度增加) | F.骨髓造血多数减低 | 再障（BDFGIKM | G.巨核细胞数量显著减少（全片未见巨核细胞） | H.巨核细胞呈小巨核细胞、多核、核少分叶 | 1.骨髓造血衰竭 | J.贫血最基本表现 | K.正细胞性贫血 | L.外周血贫血或全血细胞↓ | M.网织红细胞(<1%、重症<0.5%) | N.骨髓造血多数活跃 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "MDS与再生障碍性贫血鉴别（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
       "topic": "血液",
       "lectureIds": [
-        "lecture-28",
-        "lecture-29",
-        "lecture-30",
-        "lecture-32",
         "lecture-33",
-        "lecture-34"
+        "lecture-29"
       ]
     },
     {
       "id": "p52-g1",
       "page": 52,
-      "title": "急性白血病",
+      "title": "白血病分化停滞",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -12089,43 +12763,281 @@
         },
         {
           "key": "B",
-          "label": "白血病细胞分化停滞在较晚阶段(多为中晚幼及成熟细胞）",
-          "sourceText": "B.白血病细胞分化停滞在较晚阶段(多为中晚幼及成熟细胞）"
+          "label": "白血病细胞分化停滞在较晚阶段（多为中晚幼及成熟细胞）",
+          "sourceText": "B.白血病细胞分化停滞在较晚阶段（多为中晚幼及成熟细胞）"
+        }
+      ],
+      "stems": [
+        {
+          "text": "急性白血病",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "急性白血病A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "慢性白血病",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "慢性白血病B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "白血病分化停滞（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-34"
+      ]
+    },
+    {
+      "id": "p52-g2",
+      "page": 52,
+      "title": "ALL的FAB分型",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "原始、幼淋巴细胞以大细胞（>12μm）为主",
+          "sourceText": "A.原始、幼淋巴细胞以大细胞（>12μm）为主"
+        },
+        {
+          "key": "B",
+          "label": "原始、幼淋巴细胞以大细胞（>12μm）为主，细胞内有明显空泡",
+          "sourceText": "B.原始、幼淋巴细胞以大细胞（>12μm）为主，细胞内有明显空泡"
         },
         {
           "key": "C",
-          "label": "原始、幼淋巴细胞以小细胞（<12um）为主",
-          "sourceText": "C.原始、幼淋巴细胞以小细胞（<12um）为主"
+          "label": "原始、幼淋巴细胞以小细胞（<12μm）为主",
+          "sourceText": "C.原始、幼淋巴细胞以小细胞（<12μm）为主"
+        }
+      ],
+      "stems": [
+        {
+          "text": "L1",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "L1C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "L2",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "L2A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "L3/Burkitt型",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "L3/Burkitt型B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "ALL的FAB分型（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-34"
+      ]
+    },
+    {
+      "id": "p52-g3",
+      "page": 52,
+      "title": "AML的FAB分型",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "骨髓原粒细胞占NEC≥30%，各阶段粒细胞≥20%",
+          "sourceText": "A.骨髓原粒细胞占NEC≥30%，各阶段粒细胞≥20%"
+        },
+        {
+          "key": "B",
+          "label": "骨髓原始细胞占NEC≥30%，粒细胞>50%",
+          "sourceText": "B.骨髓原始细胞占NEC≥30%，粒细胞>50%"
+        },
+        {
+          "key": "C",
+          "label": "骨髓原始细胞占NEC的30～89%",
+          "sourceText": "C.骨髓原始细胞占NEC的30～89%"
         },
         {
           "key": "D",
-          "label": "骨髓原始细胞占NEC>30%、幼红细胞>50%",
-          "sourceText": "D.骨髓原始细胞占NEC>30%、幼红细胞>50%"
+          "label": "骨髓原始细胞占NEC≥30%，红细胞>50%",
+          "sourceText": "D.骨髓原始细胞占NEC≥30%，红细胞>50%"
         },
         {
           "key": "E",
-          "label": "骨髓原始巨核细胞>30%、血小板抗原(+)",
-          "sourceText": "E.骨髓原始巨核细胞>30%、血小板抗原(+)"
+          "label": "骨髓原巨核细胞>30%，血小板抗原（+）",
+          "sourceText": "E.骨髓原巨核细胞>30%，血小板抗原（+）"
         },
         {
           "key": "F",
-          "label": "骨髓原始细胞>30%(门槛)，CD13/33阳性，无Auer小体",
-          "sourceText": "F.骨髓原始细胞>30%(门槛)，CD13/33阳性，无Auer小体"
+          "label": "骨髓原始细胞>30%，CD13/33阳性，无Auer小体",
+          "sourceText": "F.骨髓原始细胞>30%，CD13/33阳性，无Auer小体"
+        },
+        {
+          "key": "G",
+          "label": "骨髓原和幼单核细胞>30%，各阶段单核细胞>80%",
+          "sourceText": "G.骨髓原和幼单核细胞>30%，各阶段单核细胞>80%"
         },
         {
           "key": "H",
-          "label": "骨髓原和幼单核占NEC≥30%、各阶段单核细胞>80%",
-          "sourceText": "H.骨髓原和幼单核占NEC≥30%、各阶段单核细胞>80%"
+          "label": "骨髓早幼粒细胞占NEC>30%",
+          "sourceText": "H.骨髓早幼粒细胞占NEC>30%"
         },
         {
           "key": "I",
           "label": "骨髓早幼粒细胞占NEC>30%",
-          "sourceText": "1.骨髓早幼粒细胞占NEC>30%"
+          "sourceText": "I.骨髓早幼粒细胞占NEC>30%"
+        }
+      ],
+      "stems": [
+        {
+          "text": "急髓微分化型M0",
+          "answer": [
+            "F"
+          ],
+          "sourceText": "急髓微分化型M0F",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "急粒未分化型M1",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "急粒未分化型M1A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "急粒部分分化型M2",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "急粒部分分化型M2C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "急性早幼粒M3（APL）",
+          "answer": [
+            "I"
+          ],
+          "sourceText": "急性早幼粒M3（APL）I",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "急粒_单M4（AMML）",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "急粒_单M4（AMML）B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "急单M5",
+          "answer": [
+            "H"
+          ],
+          "sourceText": "急单M5H",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "红白血病M6",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "红白血病M6D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "急巨核M7",
+          "answer": [
+            "E"
+          ],
+          "sourceText": "急巨核M7E",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "AML的FAB分型（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-34"
+      ]
+    },
+    {
+      "id": "p52-g4",
+      "page": 52,
+      "title": "白血病的临床表现",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "胸骨压痛",
+          "sourceText": "A.胸骨压痛"
+        },
+        {
+          "key": "B",
+          "label": "贫血",
+          "sourceText": "B.贫血"
+        },
+        {
+          "key": "C",
+          "label": "肝脾肿大：多为轻中度，巨脾见于CML",
+          "sourceText": "C.肝脾肿大：多为轻中度，巨脾见于CML"
+        },
+        {
+          "key": "D",
+          "label": "粒细胞肉瘤/绿色瘤：见于AML，最常累及眼眶",
+          "sourceText": "D.粒细胞肉瘤/绿色瘤：见于AML，最常累及眼眶"
+        },
+        {
+          "key": "E",
+          "label": "感染（发热）",
+          "sourceText": "E.感染（发热）"
+        },
+        {
+          "key": "F",
+          "label": "牙龈增生肿胀、皮肤紫蓝色结节",
+          "sourceText": "F.牙龈增生肿胀、皮肤紫蓝色结节"
         },
         {
           "key": "G",
-          "label": "出血：血小板减少、感染、凝血异常、白血病细胞浸润血管壁、白血病细胞淤",
-          "sourceText": "G.出血：血小板减少、感染、凝血异常、白血病细胞浸润血管壁、白血病细胞淤"
+          "label": "出血：血小板减少、感染、凝血异常、白血病细胞浸润血管壁",
+          "sourceText": "G.出血：血小板减少、感染、凝血异常、白血病细胞浸润血管壁"
+        },
+        {
+          "key": "H",
+          "label": "淋巴结肿大，多见于ALL、CLL",
+          "sourceText": "H.淋巴结肿大，多见于ALL、CLL"
+        },
+        {
+          "key": "I",
+          "label": "中枢和睾丸白血病，多见于ALL，多发生在化疗后的缓解期",
+          "sourceText": "I.中枢和睾丸白血病，多见于ALL，多发生在化疗后的缓解期"
         },
         {
           "key": "J",
@@ -12135,121 +13047,6 @@
       ],
       "stems": [
         {
-          "text": "急性白血病",
-          "answer": [
-            "A"
-          ],
-          "sourceText": "急性白血病（A",
-          "sourceY": 145.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "慢性白血病",
-          "answer": [
-            "B"
-          ],
-          "sourceText": "慢性白血病（B",
-          "sourceY": 170.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "L1；L2",
-          "answer": [
-            "A"
-          ],
-          "sourceText": "L2 A",
-          "sourceY": 352.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "L3/Burkitt型",
-          "answer": [
-            "B"
-          ],
-          "sourceText": "B",
-          "sourceY": 404.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "急髓微分化型",
-          "answer": [
-            "M",
-            "O",
-            "E"
-          ],
-          "sourceText": "急髓微分化型MoE",
-          "sourceY": 646.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "急粒未分化型",
-          "answer": [
-            "M",
-            "I",
-            "A"
-          ],
-          "sourceText": "急粒未分化型M1A",
-          "sourceY": 698.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "急粒部分分化型",
-          "answer": [
-            "M",
-            "C"
-          ],
-          "sourceText": "急粒部分分化型M2C",
-          "sourceY": 748.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "急性早幼粒M3",
-          "answer": [
-            "A"
-          ],
-          "sourceText": "急性早幼粒M3（APL）（I",
-          "sourceY": 795.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "急粒_单M4",
-          "answer": [
-            "A"
-          ],
-          "sourceText": "急粒_单M4(AMMLXB",
-          "sourceY": 847.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "急单",
-          "answer": [
-            "M",
-            "H"
-          ],
-          "sourceText": "急单M5H",
-          "sourceY": 894.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "红白血病",
-          "answer": [
-            "M"
-          ],
-          "sourceText": "红白血病M6",
-          "sourceY": 943.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "急巨核",
-          "answer": [
-            "M",
-            "E"
-          ],
-          "sourceText": "急巨核ME",
-          "sourceY": 992.0,
-          "answerMode": "多选"
-        },
-        {
           "text": "正常骨髓造血功能受抑制的表现",
           "answer": [
             "B",
@@ -12257,8 +13054,8 @@
             "G",
             "J"
           ],
-          "sourceText": "正常骨髓造血功能受抑制的表现（BEGJ",
-          "sourceY": 1120.0,
+          "sourceText": "正常骨髓造血功能受抑制的表现BEGJ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -12271,8 +13068,8 @@
             "H",
             "I"
           ],
-          "sourceText": "白血病细胞增殖浸润的表现（ACDFHI",
-          "sourceY": 1170.0,
+          "sourceText": "白血病细胞增殖浸润的表现ACDFHI",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -12281,7 +13078,7 @@
             "D"
           ],
           "sourceText": "M2多见D",
-          "sourceY": 1216.0,
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -12290,7 +13087,7 @@
             "F"
           ],
           "sourceText": "M4多见F",
-          "sourceY": 1265.0,
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -12298,20 +13095,15 @@
           "answer": [
             "F"
           ],
-          "sourceText": "M5多见（F",
-          "sourceY": 1314.0,
+          "sourceText": "M5多见F",
+          "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "白血病 | 急性白血病（A | A.白血病细胞分化停滞在较早阶段（多为原始及早幼细胞） | 慢性白血病（B | B.白血病细胞分化停滞在较晚阶段(多为中晚幼及成熟细胞） | ALL的FAB分型 | L1 | A.原始、幼淋巴细胞以大细胞(>12um)为主 | L2 A | B.原始、幼淋巴细胞以大细胞(>12um)为主，细胞内有明显空泡 | C.原始、幼淋巴细胞以小细胞（<12um）为主 | L3/Burkitt型 | B | AML的FAB分型 | A.骨髓原粒细胞占NEC>90% | 急髓微分化型MoE | B.骨髓原始细胞占NEC≥30%，各阶段粒细胞≥20%、各阶段单核细胞≥20% | C.骨髓原粒细胞占NEC的30-89% | 急粒未分化型M1A | D.骨髓原始细胞占NEC>30%、幼红细胞>50% | E.骨髓原始巨核细胞>30%、血小板抗原(+) | 急粒部分分化型M2C | F.骨髓原始细胞>30%(门槛)，CD13/33阳性，无Auer小体 | H.骨髓原和幼单核占NEC≥30%、各阶段单核细胞>80% | 急性早幼粒M3（APL）（I | 1.骨髓早幼粒细胞占NEC>30% | 急粒_单M4(AMMLXB | 急单M5H | 红白血病M6 | 急巨核ME | A.胸骨压痛 | B.贫血 | C.肝脾肿大：多为轻中度。巨脾见于CML、CML急性变 | 正常骨髓造血功能受抑制的表现（BEGJ | D.粒细胞肉瘤/绿色瘤：见于AML，最常累及眼眶 | E.感染(发热) | 白血病细胞增殖浸润的表现（ACDFHI | F.牙龈增生肿胀、皮肤紫蓝色结节 | G.出血：血小板减少、感染、凝血异常、白血病细胞浸润血管壁、白血病细胞淤 | M2多见D | 滞在血管腔 | H.淋巴结肿大(多无痛)多见于ALL、CLL，其中纵隔淋巴结肿大多见于T细胞 | M4多见F | 性。AML有时可有、CML几乎无淋巴结肿大 | 1.中枢和睾丸白血病：多见于ALL，多发生在化疗后的缓解期 | M5多见（F | J.牙龈出血 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "白血病的临床表现（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
       "topic": "血液",
       "lectureIds": [
-        "lecture-28",
-        "lecture-29",
-        "lecture-30",
-        "lecture-32",
-        "lecture-33",
         "lecture-34"
       ]
     },
@@ -12561,9 +13353,6 @@
         {
           "text": "急早幼粒M3/",
           "answer": [
-            "A",
-            "P",
-            "L",
             "A",
             "F",
             "G",
@@ -12856,21 +13645,15 @@
         {
           "text": "柔红霉素",
           "answer": [
-            "D",
-            "N",
-            "R",
-            "E"
+            "F"
           ],
           "sourceText": "柔红霉素DNRE",
           "sourceY": 154.0,
-          "answerMode": "多选"
+          "answerMode": "单选"
         },
         {
           "text": "左旋门冬酰胺酶L-",
           "answer": [
-            "A",
-            "S",
-            "P",
             "B",
             "E",
             "H"
@@ -12904,9 +13687,6 @@
         {
           "text": "甲氨蝶吟",
           "answer": [
-            "M",
-            "T",
-            "X",
             "B",
             "I",
             "L"
@@ -13043,8 +13823,7 @@
             "L",
             "B",
             "E",
-            "G",
-            "H"
+            "G"
           ],
           "sourceText": "霍奇金淋巴瘤HLBEGH",
           "sourceY": 579.0,
@@ -13282,10 +14061,7 @@
             "A",
             "C",
             "F",
-            "H",
             "J",
-            "L",
-            "N",
             "K"
           ],
           "sourceText": "T细胞来源的NHLACFHJLNK",
@@ -13374,7 +14150,6 @@
           "text": "弥漫大",
           "answer": [
             "B",
-            "B",
             "E",
             "S"
           ],
@@ -13397,8 +14172,6 @@
           "answer": [
             "C",
             "L",
-            "L",
-            "C",
             "I",
             "K"
           ],
@@ -13419,7 +14192,6 @@
           "text": "B-",
           "answer": [
             "A",
-            "L",
             "L",
             "F"
           ],
@@ -13448,8 +14220,7 @@
             "T",
             "M",
             "P",
-            "R",
-            "T"
+            "R"
           ],
           "sourceText": "皮肤TMPRT",
           "sourceY": 1255.0,
@@ -13500,7 +14271,7 @@
     {
       "id": "p58-g1",
       "page": 58,
-      "title": "Burkitt:；地方性",
+      "title": "霍奇金淋巴瘤分类与RS细胞",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -13547,45 +14318,45 @@
         {
           "key": "I",
           "label": "嗜双性",
-          "sourceText": "1.嗜双性"
+          "sourceText": "I.嗜双性"
         },
         {
           "key": "J",
-          "label": "木乃伊/干尸细胞(变性凋亡的RS细胞)",
-          "sourceText": "J.木乃伊/干尸细胞(变性凋亡的RS细胞)"
+          "label": "木乃伊/干尸细胞（变性凋亡的RS细胞）",
+          "sourceText": "J.木乃伊/干尸细胞（变性凋亡的RS细胞）"
         }
       ],
       "stems": [
         {
-          "text": "Burkitt:；地方性",
+          "text": "Burkitt淋巴瘤：地方性",
           "answer": [
             "B",
             "D"
           ],
-          "sourceText": "地方性（BD",
-          "sourceY": 77.0,
+          "sourceText": "Burkitt淋巴瘤：地方性BD",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "散发性",
+          "text": "Burkitt淋巴瘤：散发性",
           "answer": [
             "A"
           ],
-          "sourceText": "散发性（A",
-          "sourceY": 128.0,
+          "sourceText": "Burkitt淋巴瘤：散发性A",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "免疫缺陷性",
+          "text": "Burkitt淋巴瘤：免疫缺陷性",
           "answer": [
             "C"
           ],
-          "sourceText": "免疫缺陷性C",
-          "sourceY": 181.0,
+          "sourceText": "Burkitt淋巴瘤：免疫缺陷性C",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "RS细胞；典型",
+          "text": "RS细胞：典型",
           "answer": [
             "A",
             "C",
@@ -13593,12 +14364,12 @@
             "G",
             "I"
           ],
-          "sourceText": "典型ACEGI",
-          "sourceY": 340.0,
+          "sourceText": "RS细胞：典型ACEGI",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "不典型",
+          "text": "RS细胞：不典型",
           "answer": [
             "B",
             "D",
@@ -13606,58 +14377,43 @@
             "H",
             "J"
           ],
-          "sourceText": "不典型BDFHJ",
-          "sourceY": 393.0,
+          "sourceText": "RS细胞：不典型BDFHJ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "发病率。内科",
+          "text": "发病率：内科",
           "answer": [
             "B"
           ],
-          "sourceText": "发病率。内科(B>A>C>D",
-          "sourceY": 653.0,
+          "sourceText": "发病率：内科B",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "病理",
+          "text": "发病率：病理",
           "answer": [
             "A"
           ],
-          "sourceText": "病理(A>B>C>D",
-          "sourceY": 681.0,
+          "sourceText": "发病率：病理A",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "预后；C>A>B>",
+          "text": "预后",
           "answer": [
             "D"
           ],
-          "sourceText": "C>A>B>D",
-          "sourceY": 733.0,
+          "sourceText": "预后D",
+          "sourceY": 0,
           "answerMode": "单选"
-        },
-        {
-          "text": "结节硬化型；陷窝细胞；混合细胞型；典型RS和单核",
-          "answer": [
-            "R",
-            "S"
-          ],
-          "sourceText": "典型RS和单核RS",
-          "sourceY": 1160.0,
-          "answerMode": "多选"
         }
       ],
-      "sourceText": "Burkitt: | 地方性（BD | A.回盲部形成腹腔巨大肿物 | B.颌骨 | 散发性（A | C.淋巴结、骨髓 | D.非洲儿童最常见 | 免疫缺陷性C | A.双核(镜影细胞)或多核瘤巨细胞 | RS细胞 | B.霍奇金细胞(单核) | C.核大呈空泡状 | 典型ACEGI | D.变异RS细胞 | E.核仁明显呈红色伴周围空晕 | 不典型BDFHJ | F.陷窝细胞 | G.无核分裂象 | H.爆米花细胞 | 1.嗜双性 | J.木乃伊/干尸细胞(变性凋亡的RS细胞) | 发病率。内科(B>A>C>D | A.结节硬化型 | B.混合细胞型 | 病理(A>B>C>D | C.富于淋巴细胞型 | 预后 | D.淋巴细胞减少型 | C>A>B>D | 爆米花细胞 | 结节性淋巴细胞为主型NLPHL | 预后最好 | HL | 结节硬化型 | 陷窝细胞 | EBV感染 | 混合细胞型 | 典型RS和单核RS | 经典型霍奇金淋巴瘤CHL一共性 | 典型RS细胞 | 个性 | 富于淋巴细胞型 | 大量淋巴细胞 | 一 | 多种炎细胞混合浸润为背景 | 典型RS或多形性瘤细胞 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "霍奇金淋巴瘤分类与RS细胞（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
       "topic": "血液",
       "lectureIds": [
-        "lecture-28",
-        "lecture-29",
-        "lecture-30",
-        "lecture-32",
-        "lecture-33",
-        "lecture-34"
+        "lecture-35"
       ]
     },
     {
@@ -13936,7 +14692,6 @@
         {
           "text": "弥漫大B细胞淋巴瘤",
           "answer": [
-            "B",
             "B",
             "K",
             "M",
@@ -14410,7 +15165,7 @@
         {
           "text": "TSAb",
           "answer": [
-            "T"
+            "D"
           ],
           "sourceText": "TSAb(TSI) (D",
           "sourceY": 228.0,
@@ -14451,8 +15206,7 @@
           "answer": [
             "A",
             "C",
-            "F",
-            "T"
+            "F"
           ],
           "sourceText": "淡漠型甲亢ACFT",
           "sourceY": 641.0,
@@ -14578,7 +15332,6 @@
         {
           "text": "神经肽",
           "answer": [
-            "Y",
             "A",
             "F"
           ],
@@ -15215,7 +15968,7 @@
         {
           "text": "PDR存在威胁视力情况时",
           "answer": [
-            "T"
+            "I"
           ],
           "sourceText": "PDR存在威胁视力情况时（T",
           "sourceY": 772.0,
@@ -15471,14 +16224,11 @@
         {
           "text": "葡萄糖激酶激活剂",
           "answer": [
-            "G",
-            "K",
-            "A",
             "A"
           ],
           "sourceText": "葡萄糖激酶激活剂GKAA",
           "sourceY": 763.0,
-          "answerMode": "多选"
+          "answerMode": "单选"
         },
         {
           "text": "干重",
@@ -18269,29 +19019,83 @@
     {
       "id": "p79-g1",
       "page": 79,
-      "title": "24小时动态血压监测平均值",
+      "title": "24小时动态血压监测",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "<135/85",
-          "sourceText": "A.<135/85"
+          "label": "<135/85mmHg",
+          "sourceText": "A.<135/85mmHg"
         },
         {
           "key": "B",
-          "label": "<120/70",
-          "sourceText": "B.<120/70"
+          "label": "<120/70mmHg",
+          "sourceText": "B.<120/70mmHg"
         },
         {
           "key": "C",
-          "label": "<130/80",
-          "sourceText": "C.<130/80"
+          "label": "<130/80mmHg",
+          "sourceText": "C.<130/80mmHg"
+        }
+      ],
+      "stems": [
+        {
+          "text": "24小时动态血压监测平均值",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "24小时动态血压监测平均值C",
+          "sourceY": 0,
+          "answerMode": "单选"
         },
         {
-          "key": "2",
-          "label": "高血压分级（门槛四九城）",
-          "sourceText": "2.高血压分级（门槛四九城）"
+          "text": "白天",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "白天A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "夜间",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "夜间B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "24小时动态血压监测（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-52"
+      ]
+    },
+    {
+      "id": "p79-g2",
+      "page": 79,
+      "title": "高血压眼底分级",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "Ⅰ～Ⅲ级病变+视盘水肿",
+          "sourceText": "A.Ⅰ～Ⅲ级病变+视盘水肿"
+        },
+        {
+          "key": "B",
+          "label": "视网膜动脉狭窄、动静脉交叉压迫",
+          "sourceText": "B.视网膜动脉狭窄、动静脉交叉压迫"
+        },
+        {
+          "key": "C",
+          "label": "Ⅱ级病变+眼底出血、棉絮状渗出",
+          "sourceText": "C.Ⅱ级病变+眼底出血、棉絮状渗出"
         },
         {
           "key": "D",
@@ -18301,96 +19105,81 @@
       ],
       "stems": [
         {
-          "text": "24小时动态血压监测平均值",
+          "text": "Ⅰ期",
           "answer": [
-            "C"
+            "D"
           ],
-          "sourceText": "24小时动态血压监测平均值（C)",
-          "sourceY": 77.0,
+          "sourceText": "Ⅰ期D",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "白天",
-          "answer": [
-            "A"
-          ],
-          "sourceText": "白天(A)",
-          "sourceY": 127.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "夜间",
+          "text": "Ⅱ期",
           "answer": [
             "B"
           ],
-          "sourceText": "夜间B",
-          "sourceY": 178.0,
+          "sourceText": "Ⅱ期B",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "高血压；单纯；单纯；3级；收缩期高血压；舒张期高血压；≥",
+          "text": "Ⅲ期",
           "answer": [
-            "I"
+            "C"
           ],
-          "sourceText": "≥140",
-          "sourceY": 397.0,
+          "sourceText": "Ⅲ期C",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "<",
-          "answer": [
-            "I"
-          ],
-          "sourceText": "<140",
-          "sourceY": 397.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "≥",
-          "answer": [
-            "I"
-          ],
-          "sourceText": "≥180",
-          "sourceY": 398.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "和/或；和；和；<90；≥90；≥",
-          "answer": [
-            "I",
-            "I"
-          ],
-          "sourceText": "≥110",
-          "sourceY": 461.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "高血压眼底分级",
-          "answer": [
-            "D"
-          ],
-          "sourceText": "D",
-          "sourceY": 572.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "IV",
+          "text": "Ⅳ期",
           "answer": [
             "A"
           ],
-          "sourceText": "A",
-          "sourceY": 643.0,
+          "sourceText": "Ⅳ期A",
+          "sourceY": 0,
           "answerMode": "单选"
+        }
+      ],
+      "sourceText": "高血压眼底分级（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-52"
+      ]
+    },
+    {
+      "id": "p79-g3",
+      "page": 79,
+      "title": "高血压急症与亚急症",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "血压突然>收缩压180、或舒张压120mmHg",
+          "sourceText": "A.血压突然>收缩压180、或舒张压120mmHg"
         },
         {
-          "text": "≥3个其它危险因素；临床合并症；或CKD24期；或靶器官损害或CKD3期；无并发症的糖尿病；有并发症的糖尿病；中/高；高/很高；很高；高；高；很高；很高；很高；高血压急症",
+          "key": "B",
+          "label": "伴靶器官损害如心、脑、肾",
+          "sourceText": "B.伴靶器官损害如心、脑、肾"
+        },
+        {
+          "key": "C",
+          "label": "不伴靶器官损害",
+          "sourceText": "C.不伴靶器官损害"
+        }
+      ],
+      "stems": [
+        {
+          "text": "高血压急症",
           "answer": [
             "A",
-            "B",
-            "D"
+            "B"
           ],
-          "sourceText": "高血压急症（AB D",
-          "sourceY": 1057.0,
+          "sourceText": "高血压急症AB",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -18399,38 +19188,162 @@
             "A",
             "C"
           ],
-          "sourceText": "高血压亚急症（AC",
-          "sourceY": 1108.0,
+          "sourceText": "高血压亚急症AC",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "高血压急症与亚急症（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-52"
+      ]
+    },
+    {
+      "id": "p79-g4",
+      "page": 79,
+      "title": "高血压急症的降压节奏",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "降至160/100mmHg左右",
+          "sourceText": "A.降至160/100mmHg左右"
         },
         {
-          "text": "高血压急症迅速和控制性降压；1小时内血压",
+          "key": "B",
+          "label": "降至正常",
+          "sourceText": "B.降至正常"
+        },
+        {
+          "key": "C",
+          "label": "降幅<25%",
+          "sourceText": "C.降幅<25%"
+        }
+      ],
+      "stems": [
+        {
+          "text": "1小时内血压",
           "answer": [
             "C"
           ],
           "sourceText": "1小时内血压C",
-          "sourceY": 1247.0,
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "2-6小时内血压；24-48小时逐步",
+          "text": "2～6小时内血压",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "2～6小时内血压A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "24～48小时逐步",
           "answer": [
             "B"
           ],
-          "sourceText": "24-48小时逐步B",
-          "sourceY": 1299.0,
+          "sourceText": "24～48小时逐步B",
+          "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "高血压 | 24小时动态血压监测平均值（C) | A.<135/85 | B.<120/70 | 白天(A) | C.<130/80 | 夜间B | 2.高血压分级（门槛四九城） | 高血压 | 高血压 | 高血压 | 单纯 | 单纯 | 正常高值 | 正常血压 | 1级 | 2级 | 3级 | 收缩期高血压 | 舒张期高血压 | 收缩压 | 120-139 | 160-179 | <120 | 140-159 | ≥140 | <140 | ≥180 | 和/或 | 和/或 | 和/或 | 和 | 和/或 | 和 | 和 | <80 | 舒张压 | <90 | ≥90 | 80-89 | 100-109 | ≥110 | 90-99 | 高血压眼底分级 | A.IIIII级病变+视盘水肿 | D | B.视网膜动脉狭窄、动静脉交叉压迫 | B | C.III级病变+眼底出血、棉絮状渗出 | C | D.视网膜动脉变细、反光增强 | IV | A | （四）心血管危险分层 | 无其它 | 1-2个其它 | ≥3个其它危险因素 | 临床合并症 | 无疑饿、383无糖 | 或CKD24期 | 危险因素 | 危险因素 | 或靶器官损害或CKD3期 | 有糖才合适 | 无并发症的糖尿病 | 有并发症的糖尿病 | （1234、2234、3444 | 中/高 | 低 | 高/很高 | 130-139和/或85-89 | 低 | 很高 | 高血压1级 | 中 | 高 | 中 | 中/高 | 高 | 很高 | 高血压2级 | 很高 | 很高 | 很高 | 高血压3级 | 高 | 高血压急症（AB D | A.血压突然>收缩压180、或舒张压120 | B.伴靶器官损害如心、脑、肾 | 高血压亚急症（AC | C.不伴靶器官损害 | D.血压高低与急性靶器官损害的程度并非成正比 | A.降至160/100 | 高血压急症迅速和控制性降压 | B.降至正常 | 1小时内血压C | C.降幅<25% | 2-6小时内血压 | 24-48小时逐步B | A.可用尼卡地平 | 高血压急症首选（E | B.呋塞米 | 高血压急症初期不用（除非有心衰或明显体液容量负荷过重）（B | C.可用拉贝洛尔 | 高血压急症伴急性冠脉综合征（D） | D.硝酸酯类 | 高血压急症伴急性脑血管病（A",
-      "reviewState": "待讲义复核",
-      "topic": "肾脏",
+      "sourceText": "高血压急症的降压节奏（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-52"
+      ]
+    },
+    {
+      "id": "p79-g5",
+      "page": 79,
+      "title": "高血压急症用药",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "可用尼卡地平",
+          "sourceText": "A.可用尼卡地平"
+        },
+        {
+          "key": "B",
+          "label": "呋塞米",
+          "sourceText": "B.呋塞米"
+        },
+        {
+          "key": "C",
+          "label": "可用地尔硫卓",
+          "sourceText": "C.可用地尔硫卓"
+        },
+        {
+          "key": "D",
+          "label": "硝酸酯类",
+          "sourceText": "D.硝酸酯类"
+        },
+        {
+          "key": "E",
+          "label": "静脉给硝普钠",
+          "sourceText": "E.静脉给硝普钠"
+        }
+      ],
+      "stems": [
+        {
+          "text": "高血压急症首选",
+          "answer": [
+            "E"
+          ],
+          "sourceText": "高血压急症首选E",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "高血压急症初期不用（除非有心衰或明显体液容量负荷过重）",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "高血压急症初期不用（除非有心衰或明显体液容量负荷过重）B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "高血压急症伴急性冠脉综合征",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "高血压急症伴急性冠脉综合征D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "高血压急症伴急性脑血管病",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "高血压急症伴急性脑血管病A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "高血压急症伴妊娠或哮喘可能不全",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "高血压急症伴妊娠或哮喘可能不全C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "高血压急症用药（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-52"
       ]
     },
     {
@@ -18887,7 +19800,6 @@
             "E",
             "G",
             "H",
-            "G",
             "L",
             "N"
           ],
@@ -19756,7 +20668,7 @@
     {
       "id": "p85-g1",
       "page": 85,
-      "title": "二狭BHMOQVXZdjoqtwz②；二闭；ABDFJLNSUaegikImqrvO…",
+      "title": "心脏瓣膜病的病因、血流动力学与表现",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -19792,8 +20704,8 @@
         },
         {
           "key": "G",
-          "label": "主动脉血部分向左室反流→左室前/容量负荷个",
-          "sourceText": "G.主动脉血部分向左室反流→左室前/容量负荷个"
+          "label": "主动脉血部分向左室反流→左室前/容量负荷↑",
+          "sourceText": "G.主动脉血部分向左室反流→左室前/容量负荷↑"
         },
         {
           "key": "H",
@@ -19802,13 +20714,13 @@
         },
         {
           "key": "I",
-          "label": "左室血进入主动脉受阻→左室后/力负荷个",
-          "sourceText": "1.左室血进入主动脉受阻→左室后/力负荷个"
+          "label": "左室血进入主动脉受阻→左室后/压力负荷↑",
+          "sourceText": "I.左室血进入主动脉受阻→左室后/压力负荷↑"
         },
         {
           "key": "J",
-          "label": "左室射血部分向左房反流一左室前/容量负荷个",
-          "sourceText": "J.左室射血部分向左房反流一左室前/容量负荷个"
+          "label": "左室射血部分向左房反流→左室前/容量负荷↑",
+          "sourceText": "J.左室射血部分向左房反流→左室前/容量负荷↑"
         },
         {
           "key": "K",
@@ -19817,8 +20729,8 @@
         },
         {
           "key": "L",
-          "label": "左室：慢性：后期离心性肥厚；急性：早期正常或轻度扩大",
-          "sourceText": "L.左室：慢性：后期离心性肥厚；急性：早期正常或轻度扩大"
+          "label": "左室慢性后期离心性肥厚，急性早期正常或轻度扩大",
+          "sourceText": "L.左室慢性后期离心性肥厚，急性早期正常或轻度扩大"
         },
         {
           "key": "M",
@@ -19833,7 +20745,7 @@
         {
           "key": "O",
           "label": "无心尖抬举样搏动，可有心前区/剑突下抬举样搏动",
-          "sourceText": "0.无心尖抬举样搏动，可有心前区/剑突下抬举样搏动"
+          "sourceText": "O.无心尖抬举样搏动，可有心前区/剑突下抬举样搏动"
         },
         {
           "key": "P",
@@ -19847,8 +20759,8 @@
         },
         {
           "key": "R",
-          "label": "胸骨左缘3-4肋间舒张期递减叹气样杂音",
-          "sourceText": "R.胸骨左缘3-4肋间舒张期递减叹气样杂音"
+          "label": "胸骨左缘3～4肋间舒张期递减叹气样杂音",
+          "sourceText": "R.胸骨左缘3～4肋间舒张期递减叹气样杂音"
         },
         {
           "key": "S",
@@ -19856,14 +20768,19 @@
           "sourceText": "S.心尖全收缩期一贯吹风样杂音"
         },
         {
+          "key": "T",
+          "label": "杂音局限、左侧卧位增强",
+          "sourceText": "T.杂音局限、左侧卧位增强"
+        },
+        {
           "key": "U",
-          "label": "前叶损害为主杂音向左腋下和左肩脾下传导，后叶损害为主向心底传导",
-          "sourceText": "U.前叶损害为主杂音向左腋下和左肩脾下传导，后叶损害为主向心底传导"
+          "label": "前叶损害杂音向左腋下和左肩胛下传导，后叶损害为主向心底传导",
+          "sourceText": "U.前叶损害杂音向左腋下和左肩胛下传导，后叶损害为主向心底传导"
         },
         {
           "key": "V",
-          "label": "杂音局限、左侧卧位增强",
-          "sourceText": "V.杂音局限、左侧卧位增强"
+          "label": "杂音向心尖传导",
+          "sourceText": "V.杂音向心尖传导"
         },
         {
           "key": "W",
@@ -19882,13 +20799,204 @@
         },
         {
           "key": "Z",
-          "label": "有相对性肺闭",
-          "sourceText": "Z.有相对性肺闭"
+          "label": "有相对性肺动脉瓣关闭不全",
+          "sourceText": "Z.有相对性肺动脉瓣关闭不全"
+        },
+        {
+          "key": "a",
+          "label": "相对性二尖瓣关闭不全",
+          "sourceText": "a.相对性二尖瓣关闭不全"
+        },
+        {
+          "key": "b",
+          "label": "相对性主动脉瓣关闭不全",
+          "sourceText": "b.相对性主动脉瓣关闭不全"
+        },
+        {
+          "key": "c",
+          "label": "S1多正常，也可↓或↑",
+          "sourceText": "c.S1多正常，也可↓或↑"
+        },
+        {
+          "key": "d",
+          "label": "S1↑",
+          "sourceText": "d.S1↑"
+        },
+        {
+          "key": "e",
+          "label": "S1↓",
+          "sourceText": "e.S1↓"
+        },
+        {
+          "key": "f",
+          "label": "S2逆分裂",
+          "sourceText": "f.S2逆分裂"
+        },
+        {
+          "key": "g",
+          "label": "S2通常分裂",
+          "sourceText": "g.S2通常分裂"
+        },
+        {
+          "key": "h",
+          "label": "A2↓",
+          "sourceText": "h.A2↓"
+        },
+        {
+          "key": "i",
+          "label": "S3奔马律",
+          "sourceText": "i.S3奔马律"
+        },
+        {
+          "key": "j",
+          "label": "开瓣音",
+          "sourceText": "j.开瓣音"
+        },
+        {
+          "key": "k",
+          "label": "S4奔马律",
+          "sourceText": "k.S4奔马律"
+        },
+        {
+          "key": "l",
+          "label": "心尖收缩中晚期喀喇音",
+          "sourceText": "l.心尖收缩中晚期喀喇音"
+        },
+        {
+          "key": "m",
+          "label": "易左心衰、房颤、脑栓塞、感染性心内膜炎",
+          "sourceText": "m.易左心衰、房颤、脑栓塞、感染性心内膜炎"
+        },
+        {
+          "key": "n",
+          "label": "最易左室肥厚、心绞痛、晕厥",
+          "sourceText": "n.最易左室肥厚、心绞痛、晕厥"
+        },
+        {
+          "key": "o",
+          "label": "最易左心衰、房颤、脑栓塞",
+          "sourceText": "o.最易左心衰、房颤、脑栓塞"
+        },
+        {
+          "key": "p",
+          "label": "最易感染性心内膜炎",
+          "sourceText": "p.最易感染性心内膜炎"
+        },
+        {
+          "key": "q",
+          "label": "首选和金标准：超声心动图",
+          "sourceText": "q.首选和金标准：超声心动图"
+        },
+        {
+          "key": "r",
+          "label": "慢性者球形心",
+          "sourceText": "r.慢性者球形心"
+        },
+        {
+          "key": "s",
+          "label": "慢性者靴形心",
+          "sourceText": "s.慢性者靴形心"
+        },
+        {
+          "key": "t",
+          "label": "梨形心",
+          "sourceText": "t.梨形心"
+        },
+        {
+          "key": "u",
+          "label": "心影一般不大或靴形心，升主动脉扩张",
+          "sourceText": "u.心影一般不大或靴形心，升主动脉扩张"
+        },
+        {
+          "key": "v",
+          "label": "置换术",
+          "sourceText": "v.置换术"
+        },
+        {
+          "key": "w",
+          "label": "有开瓣音：经皮球囊二尖瓣成形术",
+          "sourceText": "w.有开瓣音：经皮球囊二尖瓣成形术"
+        },
+        {
+          "key": "x",
+          "label": "成人置换术，老龄重度不耐受TAVR",
+          "sourceText": "x.成人置换术，老龄重度不耐受TAVR"
+        },
+        {
+          "key": "y",
+          "label": "儿童青少年钙化性少：分离术",
+          "sourceText": "y.儿童青少年钙化性少：分离术"
+        },
+        {
+          "key": "z",
+          "label": "合并二闭等：置换术",
+          "sourceText": "z.合并二闭等：置换术"
+        },
+        {
+          "key": "①",
+          "label": "修复术",
+          "sourceText": "①.修复术"
+        },
+        {
+          "key": "②",
+          "label": "无开瓣音：直视分离术",
+          "sourceText": "②.无开瓣音：直视分离术"
         }
       ],
       "stems": [
         {
-          "text": "二狭BHMOQVXZdjoqtwz②；二闭；ABDFJLNSUaegikImqrvO；主狭",
+          "text": "二尖瓣狭窄",
+          "answer": [
+            "B",
+            "H",
+            "M",
+            "O",
+            "Q",
+            "V",
+            "X",
+            "Z",
+            "d",
+            "j",
+            "o",
+            "q",
+            "t",
+            "w",
+            "z",
+            "②"
+          ],
+          "sourceText": "二尖瓣狭窄BHMOQVXZdjoqtwz②",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "二尖瓣关闭不全",
+          "answer": [
+            "A",
+            "B",
+            "D",
+            "F",
+            "J",
+            "L",
+            "N",
+            "S",
+            "U",
+            "a",
+            "e",
+            "g",
+            "i",
+            "k",
+            "m",
+            "q",
+            "r",
+            "v",
+            "①"
+          ],
+          "sourceText": "二尖瓣关闭不全ABDFJLNSUaegikmqrv①",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "主动脉瓣狭窄",
           "answer": [
             "C",
             "I",
@@ -19896,22 +21004,22 @@
             "N",
             "P",
             "T",
-            "C",
-            "F",
-            "H",
-            "K",
-            "N",
-            "Q",
-            "U",
-            "X",
-            "Y"
+            "c",
+            "f",
+            "h",
+            "k",
+            "n",
+            "q",
+            "u",
+            "x",
+            "y"
           ],
-          "sourceText": "主狭CiKNPTcfhknquxy",
-          "sourceY": 132.0,
+          "sourceText": "主动脉瓣狭窄CIKNPTcfhknquxy",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "主闭",
+          "text": "主动脉瓣关闭不全",
           "answer": [
             "A",
             "B",
@@ -19923,32 +21031,27 @@
             "R",
             "W",
             "Y",
-            "A",
-            "B",
-            "E",
-            "H",
-            "I",
-            "K",
-            "P",
-            "Q",
-            "S",
-            "V"
+            "a",
+            "b",
+            "e",
+            "h",
+            "i",
+            "k",
+            "p",
+            "q",
+            "s",
+            "v"
           ],
-          "sourceText": "主闭ABDEGLNRWYabehikpqSV",
-          "sourceY": 177.0,
+          "sourceText": "主动脉瓣关闭不全ABDEGLNRWYabehikpqsv",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "主要病因 | A.感染性心内膜炎 | 二狭BHMOQVXZdjoqtwz② | B.风湿病 | C.危险因素类似冠心病 | 二闭 | ABDFJLNSUaegikImqrvO | D.黏液变 | E.梅毒 | 主狭CiKNPTcfhknquxy | F.心梗 | 主闭ABDEGLNRWYabehikpqSV | G.主动脉血部分向左室反流→左室前/容量负荷个 | H.左房血进入左室受阻→左室前/容量负荷↓ | 1.左室血进入主动脉受阻→左室后/力负荷个 | J.左室射血部分向左房反流一左室前/容量负荷个 | K.左室向心性肥厚，之后离心性肥厚 | L.左室：慢性：后期离心性肥厚；急性：早期正常或轻度扩大 | M.左室正常或缩小，心界不向左下扩大 | N.有心尖抬举样搏动 | 0.无心尖抬举样搏动，可有心前区/剑突下抬举样搏动 | P.胸骨右缘2肋间收缩期递增递减喷射样杂音 | Q.心尖舒张中晚期递增隆隆样杂音（房颤晚期可消失） | R.胸骨左缘3-4肋间舒张期递减叹气样杂音 | S.心尖全收缩期一贯吹风样杂音 | T杂音向颈部传导 | U.前叶损害为主杂音向左腋下和左肩脾下传导，后叶损害为主向心底传导 | V.杂音局限、左侧卧位增强 | W.杂音向心尖传导 | X.G-S杂音 | Y.A-F杂音 | Z.有相对性肺闭 | a.有相对性二狭 | b.有相对性主狭 | c.S1多正常、也可↓或↑ | d.S1↑ | e.S1↓ | f.S2逆分裂 | g.S2通常分裂 | h.A2↓ | i.S3奔马律 | j.开瓣音 | k.S4奔马律 | 1.心尖收缩中晚期喀喇音 | m.易左心衰、房颤、脑栓寒、感染性心内膜炎 | n.最易左室肥厚、心绞痛、晕厥 | 0.最易左心衰、房颤、脑栓塞 | p.最易感染性心内膜炎 | q.首选和金标准：超声心动图 | r.慢性者球形心 | s.慢性者靴形心 | t梨形心 | u.心影一般不大或靴形心，升主动脉扩张 | 治疗 | v.置换术 | w.有开瓣音：经皮球囊二尖瓣成形术 | x.成人：置换术，若老龄重度不耐受TAVR | y.儿童青少年非钙化性：分离术 | z.合并二闭等：置换术 | ①修复术 | ②无开瓣音：直视分离术 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "心脏瓣膜病的病因、血流动力学与表现（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
       "topic": "循环",
       "lectureIds": [
-        "lecture-49",
-        "lecture-50",
-        "lecture-51",
-        "lecture-52",
-        "lecture-53",
-        "lecture-54"
+        "lecture-53"
       ]
     },
     {
@@ -20621,14 +21724,14 @@
     {
       "id": "p89-g1",
       "page": 89,
-      "title": "急性心梗并发；乳头肌功能失调",
+      "title": "急性心肌梗死并发症",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "心尖收缩期杂音(二闭)",
-          "sourceText": "A.心尖收缩期杂音(二闭)"
+          "label": "心尖收缩期杂音（二闭）",
+          "sourceText": "A.心尖收缩期杂音（二闭）"
         },
         {
           "key": "B",
@@ -20637,8 +21740,8 @@
         },
         {
           "key": "C",
-          "label": "胸骨左缘3-4肋间收缩期杂音",
-          "sourceText": "C.胸骨左缘3-4肋间收缩期杂音"
+          "label": "胸骨左缘3～4肋间收缩期杂音",
+          "sourceText": "C.胸骨左缘3～4肋间收缩期杂音"
         },
         {
           "key": "D",
@@ -20647,8 +21750,8 @@
         },
         {
           "key": "E",
-          "label": "数周-数月出现心包炎(心包摩擦音)、胸膜炎、肺炎",
-          "sourceText": "E.数周-数月出现心包炎(心包摩擦音)、胸膜炎、肺炎"
+          "label": "数周～数月出现心包炎、胸膜炎、肺炎",
+          "sourceText": "E.数周～数月出现心包炎、胸膜炎、肺炎"
         },
         {
           "key": "F",
@@ -20662,23 +21765,131 @@
         },
         {
           "key": "H",
-          "label": "心尖收缩中晚期喀喇音(二脱）",
-          "sourceText": "H.心尖收缩中晚期喀喇音(二脱）"
+          "label": "心尖收缩中晚期喀喇音（二脱）",
+          "sourceText": "H.心尖收缩中晚期喀喇音（二脱）"
+        }
+      ],
+      "stems": [
+        {
+          "text": "乳头肌功能失调",
+          "answer": [
+            "A",
+            "H"
+          ],
+          "sourceText": "乳头肌功能失调AH",
+          "sourceY": 0,
+          "answerMode": "多选"
         },
         {
-          "key": "2",
-          "label": "药物(注意禁忌症)",
-          "sourceText": "2.药物(注意禁忌症)"
+          "text": "乳头肌断裂",
+          "answer": [
+            "G"
+          ],
+          "sourceText": "乳头肌断裂G",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "室壁瘤",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "室壁瘤D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "心室游离壁破裂",
+          "answer": [
+            "B",
+            "F"
+          ],
+          "sourceText": "心室游离壁破裂BF",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "室间隔破裂",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "室间隔破裂C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "心梗后/Dressler综合征",
+          "answer": [
+            "E"
+          ],
+          "sourceText": "心梗后/Dressler综合征E",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "急性心肌梗死并发症（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-54"
+      ]
+    },
+    {
+      "id": "p89-g2",
+      "page": 89,
+      "title": "心肌梗死心电图定位",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "V3",
+          "sourceText": "A.V3"
+        },
+        {
+          "key": "B",
+          "label": "aVR",
+          "sourceText": "B.aVR"
+        },
+        {
+          "key": "C",
+          "label": "V2",
+          "sourceText": "C.V2"
+        },
+        {
+          "key": "D",
+          "label": "I导联",
+          "sourceText": "D.I导联"
+        },
+        {
+          "key": "E",
+          "label": "V5",
+          "sourceText": "E.V5"
+        },
+        {
+          "key": "F",
+          "label": "aVL",
+          "sourceText": "F.aVL"
+        },
+        {
+          "key": "G",
+          "label": "V6",
+          "sourceText": "G.V6"
+        },
+        {
+          "key": "H",
+          "label": "V1",
+          "sourceText": "H.V1"
         },
         {
           "key": "I",
-          "label": "I导联",
-          "sourceText": "1.I导联"
+          "label": "II导联",
+          "sourceText": "I.II导联"
         },
         {
           "key": "J",
-          "label": "avF",
-          "sourceText": "J.avF"
+          "label": "aVF",
+          "sourceText": "J.aVF"
         },
         {
           "key": "K",
@@ -20687,8 +21898,8 @@
         },
         {
           "key": "L",
-          "label": "II导联",
-          "sourceText": "L.II导联"
+          "label": "III导联",
+          "sourceText": "L.III导联"
         },
         {
           "key": "M",
@@ -20698,130 +21909,42 @@
       ],
       "stems": [
         {
-          "text": "急性心梗并发；乳头肌功能失调",
-          "answer": [
-            "A",
-            "H"
-          ],
-          "sourceText": "乳头肌功能失调AH",
-          "sourceY": 60.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "断裂",
-          "answer": [
-            "G"
-          ],
-          "sourceText": "断裂（G",
-          "sourceY": 84.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "室壁瘤",
-          "answer": [
-            "D"
-          ],
-          "sourceText": "室壁瘤（D",
-          "sourceY": 133.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "心室游离壁破裂",
-          "answer": [
-            "B",
-            "F"
-          ],
-          "sourceText": "心室游离壁破裂（BF",
-          "sourceY": 182.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "室间隔破裂",
-          "answer": [
-            "C"
-          ],
-          "sourceText": "室间隔破裂（C",
-          "sourceY": 232.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "心梗后/Dressler综合征",
-          "answer": [
-            "E"
-          ],
-          "sourceText": "心梗后/Dressler综合征（E",
-          "sourceY": 280.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "STEMI；变异性心绞痛",
-          "answer": [
-            "X"
-          ],
-          "sourceText": "X",
-          "sourceY": 518.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "×",
-          "answer": [
-            "V"
-          ],
-          "sourceText": "V",
-          "sourceY": 583.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "×",
-          "answer": [
-            "X"
-          ],
-          "sourceText": "X",
-          "sourceY": 640.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "×；√；×；溶栓；抗凝；抗板；CCB",
-          "answer": [
-            "X"
-          ],
-          "sourceText": "X",
-          "sourceY": 930.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "V首选",
-          "answer": [
-            "X"
-          ],
-          "sourceText": "X",
-          "sourceY": 1029.0,
-          "answerMode": "单选"
-        },
-        {
           "text": "前间壁",
           "answer": [
             "A",
             "C",
             "H"
           ],
-          "sourceText": "前间壁A CH",
-          "sourceY": 1140.0,
+          "sourceText": "前间壁ACH",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "心尖(局限前壁)",
+          "text": "心尖（局限前壁）",
           "answer": [
             "A",
             "E",
             "K"
           ],
-          "sourceText": "心尖(局限前壁)（AEK",
-          "sourceY": 1188.0,
+          "sourceText": "心尖（局限前壁）AEK",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "ACEHK；广泛前壁；前侧壁",
+          "text": "广泛前壁",
+          "answer": [
+            "A",
+            "C",
+            "E",
+            "H",
+            "K"
+          ],
+          "sourceText": "广泛前壁ACEHK",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "前侧壁",
           "answer": [
             "D",
             "E",
@@ -20829,8 +21952,8 @@
             "G",
             "M"
           ],
-          "sourceText": "前侧壁（DEFGM",
-          "sourceY": 1279.0,
+          "sourceText": "前侧壁DEFGM",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -20839,8 +21962,8 @@
             "D",
             "F"
           ],
-          "sourceText": "高侧壁（DF",
-          "sourceY": 1323.0,
+          "sourceText": "高侧壁DF",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -20850,21 +21973,16 @@
             "J",
             "L"
           ],
-          "sourceText": "下壁（IJL",
-          "sourceY": 1368.0,
+          "sourceText": "下壁IJL",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "A.心尖收缩期杂音(二闭) | 急性心梗并发 | B.急性心脏压塞 | 乳头肌功能失调AH | C.胸骨左缘3-4肋间收缩期杂音 | 断裂（G | D.超声心动图反常搏动/矛盾运动、心电图ST段持续抬高 | E.数周-数月出现心包炎(心包摩擦音)、胸膜炎、肺炎 | 室壁瘤（D | F.无脉性电活动 | G.急性左心衰 | 心室游离壁破裂（BF | H.心尖收缩中晚期喀喇音(二脱） | 室间隔破裂（C | 心梗后/Dressler综合征（E | 稳定型心绞痛 | 不稳定型心绞痛 | NSTEMI | STEMI | 变异性心绞痛 | 缺血 | 损伤 | × | 坏死 | × | X | 冠脉堵塞 | × | × | V | 是否完全 | ST段压低 | × | X | ST段抬高 | × | √ | X | 病理Q | × | × | 2.药物(注意禁忌症) | 溶栓 | 抗凝 | 抗板 | β-R拮抗剂 | CCB | 硝酸酯类 | （不能改善预后） | X | 稳定型心绞痛 | √ | UA/NSTEMI | V首选 | 变异型心绞痛 | X | STEMI | 急性右室梗死 | 前间壁A CH | A.V3 | B.avR | C.V2 | 心尖(局限前壁)（AEK | D.I导联 | E.V5 | ACEHK | 广泛前壁 | F.avL | G.V6 | 前侧壁（DEFGM | H.V1 | 1.I导联 | 高侧壁（DF | J.avF | 下壁（IJL | K.V4 | L.II导联 | M.V7 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
-      "topic": "呼吸",
+      "sourceText": "心肌梗死心电图定位（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-54"
       ]
     },
     {
@@ -20993,7 +22111,6 @@
             "M",
             "R",
             "E",
-            "F",
             "A"
           ],
           "sourceText": "射血分数轻度降低型心衰HFmrEFA",
@@ -21018,7 +22135,6 @@
             "M",
             "P",
             "E",
-            "F",
             "C"
           ],
           "sourceText": "射血分数改善的心衰HFimpEFC",
@@ -21107,7 +22223,7 @@
     {
       "id": "p91-g1",
       "page": 91,
-      "title": "心源性哮喘；BDEGIJ；严重支气管哮喘",
+      "title": "心源性哮喘与重症支气管哮喘鉴别",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -21160,16 +22276,234 @@
           "key": "J",
           "label": "肺门蝴蝶征",
           "sourceText": "J.肺门蝴蝶征"
+        }
+      ],
+      "stems": [
+        {
+          "text": "心源性哮喘",
+          "answer": [
+            "B",
+            "D",
+            "E",
+            "G",
+            "I",
+            "J"
+          ],
+          "sourceText": "心源性哮喘BDEGIJ",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "重症支气管哮喘",
+          "answer": [
+            "A",
+            "C",
+            "D",
+            "F",
+            "H"
+          ],
+          "sourceText": "重症支气管哮喘ACDFH",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "心源性哮喘与重症支气管哮喘鉴别（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-55"
+      ]
+    },
+    {
+      "id": "p91-g2",
+      "page": 91,
+      "title": "急性心力衰竭分型与处理",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "扩容",
+          "sourceText": "A.扩容"
+        },
+        {
+          "key": "B",
+          "label": "正性肌力药",
+          "sourceText": "B.正性肌力药"
+        },
+        {
+          "key": "C",
+          "label": "血管收缩剂",
+          "sourceText": "C.血管收缩剂"
+        },
+        {
+          "key": "D",
+          "label": "利尿剂",
+          "sourceText": "D.利尿剂"
+        },
+        {
+          "key": "E",
+          "label": "调整口服药",
+          "sourceText": "E.调整口服药"
+        },
+        {
+          "key": "F",
+          "label": "血管扩张剂",
+          "sourceText": "F.血管扩张剂"
+        },
+        {
+          "key": "G",
+          "label": "无明显淤血",
+          "sourceText": "G.无明显淤血"
+        },
+        {
+          "key": "H",
+          "label": "有明显淤血",
+          "sourceText": "H.有明显淤血"
+        },
+        {
+          "key": "I",
+          "label": "无明显低灌注",
+          "sourceText": "I.无明显低灌注"
+        },
+        {
+          "key": "J",
+          "label": "有明显低灌注",
+          "sourceText": "J.有明显低灌注"
+        }
+      ],
+      "stems": [
+        {
+          "text": "干暖型",
+          "answer": [
+            "E",
+            "G",
+            "I"
+          ],
+          "sourceText": "干暖型EGI",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "干冷型",
+          "answer": [
+            "A",
+            "B",
+            "G",
+            "J"
+          ],
+          "sourceText": "干冷型ABGJ",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "湿暖型（最常见）",
+          "answer": [
+            "D",
+            "F",
+            "H",
+            "I"
+          ],
+          "sourceText": "湿暖型（最常见）DFHI",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "湿冷型（收缩压>90mmHg）",
+          "answer": [
+            "B",
+            "D",
+            "F"
+          ],
+          "sourceText": "湿冷型（收缩压>90mmHg）BDF",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "湿冷型（收缩压<90mmHg）",
+          "answer": [
+            "B",
+            "C",
+            "D"
+          ],
+          "sourceText": "湿冷型（收缩压<90mmHg）BCD",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "急性心力衰竭分型与处理（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-55"
+      ]
+    },
+    {
+      "id": "p91-g3",
+      "page": 91,
+      "title": "急性心力衰竭药物归类",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "去甲肾上腺素",
+          "sourceText": "A.去甲肾上腺素"
+        },
+        {
+          "key": "B",
+          "label": "多巴酚丁胺",
+          "sourceText": "B.多巴酚丁胺"
+        },
+        {
+          "key": "C",
+          "label": "硝普钠",
+          "sourceText": "C.硝普钠"
+        },
+        {
+          "key": "D",
+          "label": "多巴胺（β-R激动剂）",
+          "sourceText": "D.多巴胺（β-R激动剂）"
+        },
+        {
+          "key": "E",
+          "label": "硝酸酯类",
+          "sourceText": "E.硝酸酯类"
+        },
+        {
+          "key": "F",
+          "label": "米力农/氨力农（磷酸二酯酶抑制剂）",
+          "sourceText": "F.米力农/氨力农（磷酸二酯酶抑制剂）"
+        },
+        {
+          "key": "G",
+          "label": "呋塞米",
+          "sourceText": "G.呋塞米"
+        },
+        {
+          "key": "H",
+          "label": "乌拉地尔（α-R拮抗剂）",
+          "sourceText": "H.乌拉地尔（α-R拮抗剂）"
+        },
+        {
+          "key": "I",
+          "label": "左西孟旦（钙增敏剂）",
+          "sourceText": "I.左西孟旦（钙增敏剂）"
+        },
+        {
+          "key": "J",
+          "label": "托拉塞米",
+          "sourceText": "J.托拉塞米"
         },
         {
           "key": "K",
-          "label": "奈西立肽(重组人脑利钠肽rhBNP)",
-          "sourceText": "K.奈西立肽(重组人脑利钠肽rhBNP)"
+          "label": "奈西立肽（重组人脑利钠肽rhBNP）",
+          "sourceText": "K.奈西立肽（重组人脑利钠肽rhBNP）"
         },
         {
           "key": "L",
-          "label": "短效强心苷如毛花苷丙：",
-          "sourceText": "L.短效强心苷如毛花苷丙："
+          "label": "短效强心苷如毛花苷丙",
+          "sourceText": "L.短效强心苷如毛花苷丙"
         },
         {
           "key": "M",
@@ -21184,73 +22518,6 @@
       ],
       "stems": [
         {
-          "text": "心源性哮喘；BDEGIJ；严重支气管哮喘",
-          "answer": [
-            "A",
-            "C",
-            "D",
-            "E",
-            "H"
-          ],
-          "sourceText": "严重支气管哮喘（ACDEH",
-          "sourceY": 84.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "干暖型",
-          "answer": [
-            "E",
-            "G",
-            "I"
-          ],
-          "sourceText": "干暖型(EGI)",
-          "sourceY": 361.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "干冷型A→",
-          "answer": [
-            "B",
-            "G",
-            "J"
-          ],
-          "sourceText": "干冷型A→BGJ",
-          "sourceY": 410.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "湿暖型（最常见）",
-          "answer": [
-            "D",
-            "F",
-            "H",
-            "I"
-          ],
-          "sourceText": "湿暖型（最常见）（DFHI",
-          "sourceY": 462.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "）收缩压>90DF→",
-          "answer": [
-            "D",
-            "F",
-            "B"
-          ],
-          "sourceText": "）收缩压>90DF→B",
-          "sourceY": 510.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "湿冷型(最严重)；收缩压<90",
-          "answer": [
-            "B"
-          ],
-          "sourceText": "收缩压<90（B→C D",
-          "sourceY": 538.0,
-          "answerMode": "单选"
-        },
-        {
           "text": "血管扩张剂",
           "answer": [
             "C",
@@ -21258,8 +22525,8 @@
             "H",
             "K"
           ],
-          "sourceText": "血管扩张剂（CEHK",
-          "sourceY": 744.0,
+          "sourceText": "血管扩张剂CEHK",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -21268,8 +22535,8 @@
             "A",
             "M"
           ],
-          "sourceText": "血管收缩剂（AM",
-          "sourceY": 797.0,
+          "sourceText": "血管收缩剂AM",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -21281,105 +22548,142 @@
             "I",
             "L"
           ],
-          "sourceText": "正性肌力药（BDFIL",
-          "sourceY": 848.0,
+          "sourceText": "正性肌力药BDFIL",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "祥利尿剂",
+          "text": "袢利尿剂",
           "answer": [
             "G",
             "J",
             "N"
           ],
-          "sourceText": "祥利尿剂（GJN",
-          "sourceY": 899.0,
+          "sourceText": "袢利尿剂GJN",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "急性心力衰竭药物归类（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-55"
+      ]
+    },
+    {
+      "id": "p91-g4",
+      "page": 91,
+      "title": "慢性心力衰竭基础药物",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "沙库巴曲缬沙坦",
+          "sourceText": "A.沙库巴曲缬沙坦"
         },
+        {
+          "key": "B",
+          "label": "氯沙坦、缬沙坦",
+          "sourceText": "B.氯沙坦、缬沙坦"
+        },
+        {
+          "key": "C",
+          "label": "达格列净、恩格列净",
+          "sourceText": "C.达格列净、恩格列净"
+        },
+        {
+          "key": "D",
+          "label": "美托洛尔、比索洛尔、卡维地洛",
+          "sourceText": "D.美托洛尔、比索洛尔、卡维地洛"
+        },
+        {
+          "key": "E",
+          "label": "卡托普利、依那普利",
+          "sourceText": "E.卡托普利、依那普利"
+        },
+        {
+          "key": "F",
+          "label": "维立西呱",
+          "sourceText": "F.维立西呱"
+        },
+        {
+          "key": "G",
+          "label": "螺内酯、依普利酮",
+          "sourceText": "G.螺内酯、依普利酮"
+        }
+      ],
+      "stems": [
         {
           "text": "血管紧张素转换酶抑制剂ACEI",
           "answer": [
             "E"
           ],
-          "sourceText": "血管紧张素转换酶抑制剂ACEI（E",
-          "sourceY": 1148.0,
+          "sourceText": "血管紧张素转换酶抑制剂ACEIE",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "血管紧张素受体拮抗剂",
+          "text": "血管紧张素受体拮抗剂ARB",
           "answer": [
-            "A",
-            "R",
-            "B",
             "B"
           ],
           "sourceText": "血管紧张素受体拮抗剂ARBB",
-          "sourceY": 1200.0,
-          "answerMode": "多选"
+          "sourceY": 0,
+          "answerMode": "单选"
         },
         {
-          "text": "血管紧张素受体-脑啡肽酶抑制剂",
+          "text": "血管紧张素受体-脑啡肽酶抑制剂ARNI",
           "answer": [
-            "A",
-            "R",
-            "N",
-            "I"
+            "A"
           ],
-          "sourceText": "血管紧张素受体-脑啡肽酶抑制剂ARNI",
-          "sourceY": 1253.0,
-          "answerMode": "多选"
+          "sourceText": "血管紧张素受体-脑啡肽酶抑制剂ARNIA",
+          "sourceY": 0,
+          "answerMode": "单选"
         },
         {
           "text": "β-R拮抗剂",
           "answer": [
             "D"
           ],
-          "sourceText": "β-R拮抗剂（D",
-          "sourceY": 1303.0,
+          "sourceText": "β-R拮抗剂D",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "醛固酮受体拮抗剂",
+          "text": "醛固酮受体拮抗剂MRA",
           "answer": [
-            "M",
-            "R",
-            "A",
             "G"
           ],
           "sourceText": "醛固酮受体拮抗剂MRAG",
-          "sourceY": 1353.0,
-          "answerMode": "多选"
+          "sourceY": 0,
+          "answerMode": "单选"
         },
         {
-          "text": "钠-葡萄糖共转运蛋白2抑制剂SGLT-",
+          "text": "钠-葡萄糖共转运蛋白2抑制剂SGLT-2i",
           "answer": [
-            "I",
             "C"
           ],
           "sourceText": "钠-葡萄糖共转运蛋白2抑制剂SGLT-2iC",
-          "sourceY": 1402.0,
-          "answerMode": "多选"
+          "sourceY": 0,
+          "answerMode": "单选"
         },
         {
           "text": "可溶性鸟苷酸环化酶sGC刺激剂",
           "answer": [
             "F"
           ],
-          "sourceText": "可溶性鸟苷酸环化酶sGC刺激剂（F)",
-          "sourceY": 1455.0,
+          "sourceText": "可溶性鸟苷酸环化酶sGC刺激剂F",
+          "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "心源性哮喘 | BDEGIJ | A.呼气性呼吸困难 | B.混合性呼吸困难 | 严重支气管哮喘（ACDEH | C.多为干音 | D.端坐呼吸 | E.咳粉红色泡沫痰 | F.可有沉默肺 | G.多为湿啰音或干湿啰音共存 | H.X线多无异常或双肺透亮度增加 | I.X线多有左心扩大 | J.肺门蝴蝶征 | A.扩容 | 干暖型(EGI) | B.正性肌力药 | C.血管收缩剂 | 干冷型A→BGJ | D.利尿剂 | E.调整口服药 | 湿暖型（最常见）（DFHI | F.血管扩张剂 | ）收缩压>90DF→B | 湿冷型(最严重) | 收缩压<90（B→C D | G.无明显淤血 | H.有明显淤血 | 1.无明显低灌注 | J.有明显低灌注 | A.去甲肾上腺素 | 血管扩张剂（CEHK | B.多巴酚丁胺 | C.硝普钠 | 血管收缩剂（AM | D.多巴胺(β-R激动剂) | E.硝酸酯类 | 正性肌力药（BDFIL | F.米/氨力农(磷酸二酯酶抑制剂) | G.呋塞米 | 祥利尿剂（GJN | H.乌拉地尔(a-R拮抗剂) | 1.左西孟旦(钙增敏剂) | J.托拉塞米 | K.奈西立肽(重组人脑利钠肽rhBNP) | L.短效强心苷如毛花苷丙： | M.肾上腺素 | N.布美他尼 | A.沙库巴曲缬沙坦 | 血管紧张素转换酶抑制剂ACEI（E | B.氯沙坦、缬沙坦 | C.达格列净、恩格列净 | 血管紧张素受体拮抗剂ARBB | D.美托洛尔，比索洛尔，卡维地洛 | E.卡托普利、依那普利 | 血管紧张素受体-脑啡肽酶抑制剂ARNI | F.维立西呱 | G.螺内酯、依普利酮 | β-R拮抗剂（D | 醛固酮受体拮抗剂MRAG | 钠-葡萄糖共转运蛋白2抑制剂SGLT-2iC | 可溶性鸟苷酸环化酶sGC刺激剂（F)",
-      "reviewState": "待讲义复核",
-      "topic": "呼吸",
+      "sourceText": "慢性心力衰竭基础药物（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-55"
       ]
     },
     {
@@ -21619,7 +22923,6 @@
             "N",
             "O",
             "X",
-            "G",
             "I"
           ],
           "sourceText": "不用DGHKNOXgi",
@@ -22342,24 +23645,24 @@
     {
       "id": "p96-g1",
       "page": 96,
-      "title": "AVNRT先用",
+      "title": "二度阻滞的心电图特征",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "心房冲动传至心室时间基本恒定，部分心房冲动不能传至心室、导致QRS波脱落",
-          "sourceText": "A.心房冲动传至心室时间基本恒定，部分心房冲动不能传至心室、导致QRS波脱落"
+          "label": "心房冲动传至心室时间基本恒定，部分心房冲动不能传至心室，导致QRS波脱落",
+          "sourceText": "A.心房冲动传至心室时间基本恒定，部分心房冲动不能传至心室，导致QRS波脱落"
         },
         {
           "key": "B",
-          "label": "窦房结冲动传至心房时间基本恒定，部分窦房结冲动不能传至心房、导致P波和QRS波均脱落",
-          "sourceText": "B.窦房结冲动传至心房时间基本恒定，部分窦房结冲动不能传至心房、导致P波和QRS波均脱落"
+          "label": "窦房结冲动传至心房时间基本恒定，部分窦房结冲动不能传至心房，导致P波和QRS波均脱落",
+          "sourceText": "B.窦房结冲动传至心房时间基本恒定，部分窦房结冲动不能传至心房，导致P波和QRS波均脱落"
         },
         {
           "key": "C",
-          "label": "PR间期基本恒定(恒定正常或恒定延长)",
-          "sourceText": "C.PR间期基本恒定(恒定正常或恒定延长)"
+          "label": "PR间期基本恒定（恒定正常或恒定延长）",
+          "sourceText": "C.PR间期基本恒定（恒定正常或恒定延长）"
         },
         {
           "key": "D",
@@ -22370,6 +23673,69 @@
           "key": "E",
           "label": "部分P波后无QRS波",
           "sourceText": "E.部分P波后无QRS波"
+        }
+      ],
+      "stems": [
+        {
+          "text": "二度Ⅱ型房室阻滞",
+          "answer": [
+            "A",
+            "C",
+            "E"
+          ],
+          "sourceText": "二度Ⅱ型房室阻滞ACE",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "二度Ⅱ型窦房阻滞",
+          "answer": [
+            "B",
+            "D"
+          ],
+          "sourceText": "二度Ⅱ型窦房阻滞BD",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "二度阻滞的心电图特征（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-56"
+      ]
+    },
+    {
+      "id": "p96-g2",
+      "page": 96,
+      "title": "AVNRT治疗",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "腺苷",
+          "sourceText": "A.腺苷"
+        },
+        {
+          "key": "B",
+          "label": "β-R拮抗剂",
+          "sourceText": "B.β-R拮抗剂"
+        },
+        {
+          "key": "C",
+          "label": "非二氢吡啶类CCB（维拉帕米、地尔硫卓）",
+          "sourceText": "C.非二氢吡啶类CCB（维拉帕米、地尔硫卓）"
+        },
+        {
+          "key": "D",
+          "label": "胺碘酮",
+          "sourceText": "D.胺碘酮"
+        },
+        {
+          "key": "E",
+          "label": "强心苷",
+          "sourceText": "E.强心苷"
         },
         {
           "key": "F",
@@ -22389,7 +23755,7 @@
         {
           "key": "I",
           "label": "伊布利特",
-          "sourceText": "1.伊布利特"
+          "sourceText": "I.伊布利特"
         },
         {
           "key": "J",
@@ -22398,8 +23764,8 @@
         },
         {
           "key": "K",
-          "label": "某些升压药(去氧肾上腺素/苯肾上腺素间羟胺甲氧明)",
-          "sourceText": "K.某些升压药(去氧肾上腺素/苯肾上腺素间羟胺甲氧明)"
+          "label": "某些升压药",
+          "sourceText": "K.某些升压药"
         }
       ],
       "stems": [
@@ -22408,8 +23774,8 @@
           "answer": [
             "F"
           ],
-          "sourceText": "AVNRT先用（F",
-          "sourceY": 441.0,
+          "sourceText": "AVNRT先用F",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -22417,8 +23783,8 @@
           "answer": [
             "A"
           ],
-          "sourceText": "无效药物首选（A）",
-          "sourceY": 466.0,
+          "sourceText": "无效药物首选A",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -22426,8 +23792,8 @@
           "answer": [
             "C"
           ],
-          "sourceText": "药物次选(C)",
-          "sourceY": 489.0,
+          "sourceText": "药物次选C",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -22435,8 +23801,8 @@
           "answer": [
             "E"
           ],
-          "sourceText": "有收缩性心衰（E",
-          "sourceY": 518.0,
+          "sourceText": "有收缩性心衰E",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -22447,7 +23813,7 @@
             "K"
           ],
           "sourceText": "其他药物可用BDK",
-          "sourceY": 544.0,
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -22456,7 +23822,7 @@
             "G"
           ],
           "sourceText": "伴血流动力学障碍G",
-          "sourceY": 567.0,
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -22465,7 +23831,7 @@
             "G"
           ],
           "sourceText": "已用强心苷禁止G",
-          "sourceY": 594.0,
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -22473,17 +23839,74 @@
           "answer": [
             "J"
           ],
-          "sourceText": "根治 J",
-          "sourceY": 618.0,
+          "sourceText": "根治J",
+          "sourceY": 0,
           "answerMode": "单选"
+        }
+      ],
+      "sourceText": "AVNRT治疗（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-56"
+      ]
+    },
+    {
+      "id": "p96-g3",
+      "page": 96,
+      "title": "预激综合征伴顺向型AVRT治疗",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "腺苷",
+          "sourceText": "A.腺苷"
         },
         {
-          "text": "预激综合征伴顺向型AVRT先用",
+          "key": "B",
+          "label": "β-R拮抗剂",
+          "sourceText": "B.β-R拮抗剂"
+        },
+        {
+          "key": "C",
+          "label": "非二氢吡啶类CCB",
+          "sourceText": "C.非二氢吡啶类CCB"
+        },
+        {
+          "key": "D",
+          "label": "胺碘酮",
+          "sourceText": "D.胺碘酮"
+        },
+        {
+          "key": "E",
+          "label": "强心苷",
+          "sourceText": "E.强心苷"
+        },
+        {
+          "key": "F",
+          "label": "迷走N",
+          "sourceText": "F.迷走N"
+        },
+        {
+          "key": "G",
+          "label": "电复律",
+          "sourceText": "G.电复律"
+        },
+        {
+          "key": "J",
+          "label": "导管消融",
+          "sourceText": "J.导管消融"
+        }
+      ],
+      "stems": [
+        {
+          "text": "先用",
           "answer": [
             "F"
           ],
-          "sourceText": "预激综合征伴顺向型AVRT先用F",
-          "sourceY": 761.0,
+          "sourceText": "先用F",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -22491,8 +23914,8 @@
           "answer": [
             "A"
           ],
-          "sourceText": "无效药物首选（A",
-          "sourceY": 785.0,
+          "sourceText": "无效药物首选A",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -22500,8 +23923,8 @@
           "answer": [
             "C"
           ],
-          "sourceText": "次选(C",
-          "sourceY": 809.0,
+          "sourceText": "次选C",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -22510,7 +23933,7 @@
             "E"
           ],
           "sourceText": "禁用E",
-          "sourceY": 835.0,
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -22518,8 +23941,8 @@
           "answer": [
             "G"
           ],
-          "sourceText": "伴血流动力学障碍（G",
-          "sourceY": 860.0,
+          "sourceText": "伴血流动力学障碍G",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -22527,17 +23950,84 @@
           "answer": [
             "J"
           ],
-          "sourceText": "根治（J",
-          "sourceY": 887.0,
+          "sourceText": "根治J",
+          "sourceY": 0,
           "answerMode": "单选"
+        }
+      ],
+      "sourceText": "预激综合征伴顺向型AVRT治疗（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-56"
+      ]
+    },
+    {
+      "id": "p96-g4",
+      "page": 96,
+      "title": "预激综合征伴房颤治疗",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "腺苷",
+          "sourceText": "A.腺苷"
         },
         {
-          "text": "预激综合征伴房颤首选",
+          "key": "B",
+          "label": "β-R拮抗剂",
+          "sourceText": "B.β-R拮抗剂"
+        },
+        {
+          "key": "C",
+          "label": "非二氢吡啶类CCB",
+          "sourceText": "C.非二氢吡啶类CCB"
+        },
+        {
+          "key": "D",
+          "label": "胺碘酮",
+          "sourceText": "D.胺碘酮"
+        },
+        {
+          "key": "E",
+          "label": "强心苷",
+          "sourceText": "E.强心苷"
+        },
+        {
+          "key": "F",
+          "label": "迷走N",
+          "sourceText": "F.迷走N"
+        },
+        {
+          "key": "G",
+          "label": "电复律",
+          "sourceText": "G.电复律"
+        },
+        {
+          "key": "H",
+          "label": "普罗帕酮",
+          "sourceText": "H.普罗帕酮"
+        },
+        {
+          "key": "I",
+          "label": "伊布利特",
+          "sourceText": "I.伊布利特"
+        },
+        {
+          "key": "J",
+          "label": "导管消融",
+          "sourceText": "J.导管消融"
+        }
+      ],
+      "stems": [
+        {
+          "text": "首选",
           "answer": [
             "G"
           ],
-          "sourceText": "预激综合征伴房颤首选（G",
-          "sourceY": 975.0,
+          "sourceText": "首选G",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -22546,8 +24036,8 @@
             "H",
             "I"
           ],
-          "sourceText": "无电复律条件（HI",
-          "sourceY": 999.0,
+          "sourceText": "无电复律条件HI",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -22561,7 +24051,7 @@
             "F"
           ],
           "sourceText": "禁用ABCDEF",
-          "sourceY": 1026.0,
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -22569,12 +24059,54 @@
           "answer": [
             "J"
           ],
-          "sourceText": "根治 (J)",
-          "sourceY": 1048.0,
+          "sourceText": "根治J",
+          "sourceY": 0,
           "answerMode": "单选"
+        }
+      ],
+      "sourceText": "预激综合征伴房颤治疗（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-56"
+      ]
+    },
+    {
+      "id": "p96-g5",
+      "page": 96,
+      "title": "房颤转复与维持窦性心律",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "D",
+          "label": "胺碘酮",
+          "sourceText": "D.胺碘酮"
         },
         {
-          "text": "房颤转复并维持窦性心律",
+          "key": "G",
+          "label": "电复律",
+          "sourceText": "G.电复律"
+        },
+        {
+          "key": "H",
+          "label": "普罗帕酮",
+          "sourceText": "H.普罗帕酮"
+        },
+        {
+          "key": "I",
+          "label": "伊布利特",
+          "sourceText": "I.伊布利特"
+        },
+        {
+          "key": "J",
+          "label": "导管消融",
+          "sourceText": "J.导管消融"
+        }
+      ],
+      "stems": [
+        {
+          "text": "可用于房颤转复并维持窦性心律",
           "answer": [
             "J",
             "D",
@@ -22582,17 +24114,54 @@
             "H",
             "I"
           ],
-          "sourceText": "房颤转复并维持窦性心律JDGHI",
-          "sourceY": 1151.0,
+          "sourceText": "可用于房颤转复并维持窦性心律JDGHI",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "房颤转复与维持窦性心律（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-56"
+      ]
+    },
+    {
+      "id": "p96-g6",
+      "page": 96,
+      "title": "房颤控制心室率",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "B",
+          "label": "β-R拮抗剂",
+          "sourceText": "B.β-R拮抗剂"
         },
+        {
+          "key": "C",
+          "label": "非二氢吡啶类CCB",
+          "sourceText": "C.非二氢吡啶类CCB"
+        },
+        {
+          "key": "D",
+          "label": "地高辛",
+          "sourceText": "D.地高辛"
+        },
+        {
+          "key": "E",
+          "label": "胺碘酮",
+          "sourceText": "E.胺碘酮"
+        }
+      ],
+      "stems": [
         {
           "text": "控制心室率首选",
           "answer": [
             "B"
           ],
-          "sourceText": "控制心室率首选（B",
-          "sourceY": 1178.0,
+          "sourceText": "控制心室率首选B",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -22601,7 +24170,7 @@
             "C"
           ],
           "sourceText": "也可用C",
-          "sourceY": 1204.0,
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -22610,48 +24179,43 @@
             "C"
           ],
           "sourceText": "收缩性心衰禁用C",
-          "sourceY": 1230.0,
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "伴收缩性心衰当心室率不达标；或β-R拮抗剂有禁忌症",
+          "text": "伴收缩性心衰且心室率不达标，或β-R拮抗剂有禁忌症",
           "answer": [
             "D",
             "E"
           ],
-          "sourceText": "或β-R拮抗剂有禁忌症DE",
-          "sourceY": 1282.0,
+          "sourceText": "伴收缩性心衰且心室率不达标，或β-R拮抗剂有禁忌症DE",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "A.心房冲动传至心室时间基本恒定，部分心房冲动不能传至心室、导致QRS波脱落 | B.窦房结冲动传至心房时间基本恒定，部分窦房结冲动不能传至心房、导致P波和QRS波均脱落 | C.PR间期基本恒定(恒定正常或恒定延长) | D.长PP与正常PP有倍数关系 | E.部分P波后无QRS波 | 二度I型房室阻滞（ACE） | 二度I型窦房阻滞（BD | 心律失常xianBB点心+迷走神经 | AVNRT先用（F | A.腺苷 | 无效药物首选（A） | B.β-R拮抗剂 | 药物次选(C) | C.非二氢吡啶CCB(维拉帕米，地尔硫卓) | 有收缩性心衰（E | D.胺碘酮 | 其他药物可用BDK | E.强心苷 | 伴血流动力学障碍G | F.迷走N | 已用强心苷禁止G | 根治 J | G.电复律 | H.普罗帕酮 | 1.伊布利特 | J.导管消融 | 预激综合征伴顺向型AVRT先用F | K.某些升压药(去氧肾上腺素/苯肾上腺素间羟胺甲氧明) | 无效药物首选（A | 次选(C | 禁用E | 伴血流动力学障碍（G | 根治（J | 预激综合征伴房颤首选（G | 无电复律条件（HI | 禁用ABCDEF | 根治 (J) | 房颤转复并维持窦性心律JDGHI | 控制心室率首选（B | 也可用C | 收缩性心衰禁用C | 伴收缩性心衰当心室率不达标 | 或β-R拮抗剂有禁忌症DE | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "房颤控制心室率（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
       "topic": "循环",
       "lectureIds": [
-        "lecture-49",
-        "lecture-50",
-        "lecture-51",
-        "lecture-52",
-        "lecture-53",
-        "lecture-54"
+        "lecture-56"
       ]
     },
     {
       "id": "p97-g1",
       "page": 97,
-      "title": "抗快速型心律失常药；IC",
+      "title": "抗快速型心律失常药的分类",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "阻断B-R、拮抗交感效应",
-          "sourceText": "A.阻断B-R、拮抗交感效应"
+          "label": "阻断β-R、拮抗交感效应",
+          "sourceText": "A.阻断β-R、拮抗交感效应"
         },
         {
           "key": "B",
-          "label": "阻断钾通道、明显延长动作电位时程APD及有效不应期ERP",
-          "sourceText": "B.阻断钾通道、明显延长动作电位时程APD及有效不应期ERP"
+          "label": "阻断钾通道，明显延长动作电位时程APD及有效不应期ERP",
+          "sourceText": "B.阻断钾通道，明显延长动作电位时程APD及有效不应期ERP"
         },
         {
           "key": "C",
@@ -22665,13 +24229,13 @@
         },
         {
           "key": "E",
-          "label": "几乎不减慢0期Vmax，缩短动作电位时程(缩短ERP<缩短APD)",
-          "sourceText": "E.几乎不减慢0期Vmax，缩短动作电位时程(缩短ERP<缩短APD)"
+          "label": "几乎不减慢0期Vmax，缩短动作电位时程",
+          "sourceText": "E.几乎不减慢0期Vmax，缩短动作电位时程"
         },
         {
           "key": "F",
-          "label": "显著减慢0期Vmax(显著减慢传导)，轻微延长动作电位时程",
-          "sourceText": "F.显著减慢0期Vmax(显著减慢传导)，轻微延长动作电位时程"
+          "label": "显著减慢0期Vmax，轻微延长动作电位时程",
+          "sourceText": "F.显著减慢0期Vmax，轻微延长动作电位时程"
         },
         {
           "key": "G",
@@ -22686,7 +24250,7 @@
         {
           "key": "I",
           "label": "胺碘酮",
-          "sourceText": "1.胺碘酮"
+          "sourceText": "I.胺碘酮"
         },
         {
           "key": "J",
@@ -22695,8 +24259,8 @@
         },
         {
           "key": "K",
-          "label": "伊布/多非利特",
-          "sourceText": "K.伊布/多非利特"
+          "label": "伊布利特/多非利特",
+          "sourceText": "K.伊布利特/多非利特"
         },
         {
           "key": "L",
@@ -22716,7 +24280,7 @@
         {
           "key": "O",
           "label": "美托洛尔",
-          "sourceText": "0.美托洛尔"
+          "sourceText": "O.美托洛尔"
         },
         {
           "key": "P",
@@ -22771,119 +24335,216 @@
       ],
       "stems": [
         {
-          "text": "抗快速型心律失常药；IC",
+          "text": "IA类",
           "answer": [
-            "I",
-            "A",
-            "G",
+            "C",
             "J",
             "N",
             "W"
           ],
-          "sourceText": "IC IAGJNW",
-          "sourceY": 141.0,
+          "sourceText": "IA类CJNW",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "IB",
+          "text": "IB类",
           "answer": [
             "E",
             "Q",
             "T",
             "U"
           ],
-          "sourceText": "IB EQTU",
-          "sourceY": 191.0,
+          "sourceText": "IB类EQTU",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "IC",
+          "text": "IC类",
           "answer": [
             "F",
             "H",
             "L",
             "V"
           ],
-          "sourceText": "IC (fH L V)",
-          "sourceY": 242.0,
+          "sourceText": "IC类FHLV",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "AORY；川",
+          "text": "II类",
           "answer": [
-            "I",
+            "A",
+            "O",
+            "R",
+            "Y"
+          ],
+          "sourceText": "II类AORY",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "III类",
+          "answer": [
             "B",
             "I",
             "K",
             "M",
             "P"
           ],
-          "sourceText": "川IBIKMP",
-          "sourceY": 371.0,
+          "sourceText": "III类BIKMP",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "IV",
+          "text": "IV类",
           "answer": [
             "D",
             "S",
             "X"
           ],
-          "sourceText": "IV dSX)",
-          "sourceY": 420.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "VVI D F",
-          "answer": [
-            "G",
-            "M"
-          ],
-          "sourceText": "VVI D F GM)",
-          "sourceY": 848.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "B G H",
-          "answer": [
-            "I",
-            "K"
-          ],
-          "sourceText": "B G HI+K",
-          "sourceY": 899.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "VDD；DDD；BCH",
-          "answer": [
-            "J",
-            "K"
-          ],
-          "sourceText": "BCHJ+K",
-          "sourceY": 952.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "AAIADE",
-          "answer": [
-            "J",
-            "L"
-          ],
-          "sourceText": "AAIADEJ+L",
-          "sourceY": 1004.0,
+          "sourceText": "IV类DSX",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "A.阻断B-R、拮抗交感效应 | B.阻断钾通道、明显延长动作电位时程APD及有效不应期ERP | C.阻断快钠通道 | D.阻断L型慢钙通道 | 抗快速型心律失常药 | IC IAGJNW | E.几乎不减慢0期Vmax，缩短动作电位时程(缩短ERP<缩短APD) | IB EQTU | F.显著减慢0期Vmax(显著减慢传导)，轻微延长动作电位时程 | G.减慢0期Vmax，延长动作电位时程 | IC (fH L V) | H.普罗帕酮 | AORY | 1.胺碘酮 | J.奎尼丁 | 川IBIKMP | K.伊布/多非利特 | L.氟卡尼 | IV dSX) | M.索他洛尔 | N.丙吡胺 | 0.美托洛尔 | P.决奈达隆 | Q.利多卡因 | R.比索洛尔 | S.维拉帕米 | T.苯妥英钠 | U.美西律 | V.恩卡尼 | W.普鲁卡因胺 | X.地尔硫卓 | Y.卡维地洛 | VVI D F GM) | A.感知的是自身心房信号 | B.自身信号被感知后抑制或触发起搏器发放一次脉冲 | B G HI+K | VDD | C.起搏的是心房和心室 | D.自身信号被感知后抑制起搏器发放一次脉冲 | E.起搏的是心房 | DDD | BCHJ+K | F.感知的是自身心室信号 | G.起搏的是心室 | AAIADEJ+L | H.感知的是自身心房和心室信号 | 1.窦房结功能正常 | J.病态窦房结综合征 | K.严重房室阻滞 | L.房室传导功能正常 | M.慢房颤 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "抗快速型心律失常药的分类（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
       "topic": "循环",
       "lectureIds": [
-        "lecture-49",
-        "lecture-50",
-        "lecture-51",
-        "lecture-52",
-        "lecture-53",
-        "lecture-54"
+        "lecture-56"
+      ]
+    },
+    {
+      "id": "p97-g2",
+      "page": 97,
+      "title": "起搏器代码含义",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "感知的是自身心房信号",
+          "sourceText": "A.感知的是自身心房信号"
+        },
+        {
+          "key": "B",
+          "label": "自身信号被感知后抑制或触发起搏器发放一次脉冲",
+          "sourceText": "B.自身信号被感知后抑制或触发起搏器发放一次脉冲"
+        },
+        {
+          "key": "C",
+          "label": "起搏的是心房和心室",
+          "sourceText": "C.起搏的是心房和心室"
+        },
+        {
+          "key": "D",
+          "label": "自身信号被感知后抑制起搏器发放一次脉冲",
+          "sourceText": "D.自身信号被感知后抑制起搏器发放一次脉冲"
+        },
+        {
+          "key": "E",
+          "label": "起搏的是心房",
+          "sourceText": "E.起搏的是心房"
+        },
+        {
+          "key": "F",
+          "label": "感知的是自身心室信号",
+          "sourceText": "F.感知的是自身心室信号"
+        },
+        {
+          "key": "G",
+          "label": "起搏的是心室",
+          "sourceText": "G.起搏的是心室"
+        },
+        {
+          "key": "H",
+          "label": "感知的是自身心房和心室信号",
+          "sourceText": "H.感知的是自身心房和心室信号"
+        },
+        {
+          "key": "I",
+          "label": "窦房结功能正常",
+          "sourceText": "I.窦房结功能正常"
+        },
+        {
+          "key": "J",
+          "label": "病态窦房结综合征",
+          "sourceText": "J.病态窦房结综合征"
+        },
+        {
+          "key": "K",
+          "label": "严重房室阻滞",
+          "sourceText": "K.严重房室阻滞"
+        },
+        {
+          "key": "L",
+          "label": "房室传导功能正常",
+          "sourceText": "L.房室传导功能正常"
+        },
+        {
+          "key": "M",
+          "label": "慢性房颤",
+          "sourceText": "M.慢性房颤"
+        }
+      ],
+      "stems": [
+        {
+          "text": "VVI",
+          "answer": [
+            "D",
+            "F",
+            "G",
+            "M"
+          ],
+          "sourceText": "VVIDFGM",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "VDD",
+          "answer": [
+            "B",
+            "G",
+            "H",
+            "I",
+            "K"
+          ],
+          "sourceText": "VDDBGHIK",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "DDD",
+          "answer": [
+            "B",
+            "C",
+            "H",
+            "J",
+            "K"
+          ],
+          "sourceText": "DDDBCHJK",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "AAI",
+          "answer": [
+            "A",
+            "D",
+            "E",
+            "J",
+            "L"
+          ],
+          "sourceText": "AAIADEJL",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "起搏器代码含义（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-56"
       ]
     }
   ],
@@ -23460,6 +25121,7 @@
     }
   ],
   "answerRepair": {
-    "changedStems": 268
+    "changedStems": 268,
+    "ungradedStems": 0
   }
 }

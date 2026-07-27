@@ -70,7 +70,7 @@ function unique(values) {
 }
 
 function answerLetters(stem) {
-  return unique((stem.answer || []).map((item) => item.toUpperCase()))
+  return unique((stem.answer || []).map((item) => String(item)))
 }
 
 function isMultiStem(group, stem) {
@@ -78,7 +78,11 @@ function isMultiStem(group, stem) {
 }
 
 function normalizeSelection(selection) {
-  return unique((selection || []).map((item) => item.toUpperCase())).sort()
+  return unique((selection || []).map((item) => String(item))).sort()
+}
+
+function isUnresolvedStem(stem) {
+  return stem.answerState === '待原题页核对' || answerLetters(stem).length === 0
 }
 
 function sameAnswer(a, b) {
@@ -113,11 +117,13 @@ function App() {
   const [showSource, setShowSource] = useState(false)
   const [showNote, setShowNote] = useState(false)
   const [mobileEvidence, setMobileEvidence] = useState(false)
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(() => readLocalStorage('med-sidebar-collapsed', false))
 
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-selections', JSON.stringify(selections)) }, [selections])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-submitted', JSON.stringify(submitted)) }, [submitted])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-favorites', JSON.stringify(favorites)) }, [favorites])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-notes', JSON.stringify(notes)) }, [notes])
+  useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-sidebar-collapsed', JSON.stringify(sidebarCollapsed)) }, [sidebarCollapsed])
 
   const filteredGroups = useMemo(() => {
     const query = search.trim().toLowerCase()
@@ -197,9 +203,9 @@ function App() {
         </div>
       </header>
 
-      <div className="workspace">
+      <div className={`workspace ${sidebarCollapsed ? 'sidebar-collapsed' : ''}`}>
         <aside className="sidebar">
-          <div className="sidebar-title">内科章节</div>
+          <div className="sidebar-heading"><div className="sidebar-title">内科章节</div><button className="sidebar-toggle" onClick={() => setSidebarCollapsed((value) => !value)} aria-label={sidebarCollapsed ? '展开章节目录' : '收起章节目录'}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={17} /></button></div>
           <nav className="topic-nav">
             {content.topics.filter((item) => item !== '全部' && item !== '综合').map((item) => (
               <button key={item} className={`topic-link ${topic === item ? 'active' : ''}`} onClick={() => { setTopic(item); setGroupIndex(0) }}>
@@ -208,13 +214,14 @@ function App() {
             ))}
           </nav>
           <div className="sidebar-footer">
-            <div className="source-stat"><span>题库来源</span><strong>学成选择题（PDF 扫描版）</strong><small>97 页 · 130 个题组 · 905 个题干</small></div>
+            <div className="source-stat"><span>题库来源</span><strong>学成选择题（PDF 扫描版）</strong><small>{content.meta.sourcePages} 页 · {content.groups.length} 个题组 · {content.groups.reduce((sum, item) => sum + item.stems.length, 0)} 个题干</small></div>
             <div className="lecture-stat"><span>讲义依据</span><strong>内科讲义 PDF 共 57 份</strong><Icon name="file" size={18} /></div>
           </div>
         </aside>
 
         <main className="main-content">
           <div className="mobile-topic-row">
+            <button className="text-button directory-button" onClick={() => setSidebarCollapsed((value) => !value)}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={16} />{sidebarCollapsed ? '章节' : '收起目录'}</button>
             <select value={topic} onChange={(event) => { setTopic(event.target.value); setGroupIndex(0) }}>{content.topics.map((item) => <option key={item}>{item}</option>)}</select>
             <button className="text-button" onClick={() => setMobileEvidence((value) => !value)}>{mobileEvidence ? '隐藏讲义' : '显示讲义'} <Icon name="file" size={16} /></button>
           </div>
@@ -237,7 +244,7 @@ function App() {
               {group.stems.map((stem, index) => <StemRow key={`${group.id}-${index}`} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} />)}
             </div>
             <div className="question-card-bottom">
-              {isSubmitted ? <div className="submit-summary"><Icon name="check" size={18} /><span>已提交 · {group.stems.filter((stem, index) => sameAnswer(currentSelections[index], answerLetters(stem))).length} / {group.stems.length} 个题干正确</span></div> : <span className="hint-text">完成每个题干后提交；B 型题不会把共用选项拆成单选题。</span>}
+              {isSubmitted ? <div className="submit-summary"><Icon name="check" size={18} /><span>已提交 · {group.stems.filter((stem, index) => !isUnresolvedStem(stem) && sameAnswer(currentSelections[index], answerLetters(stem))).length} / {group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确{group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}</span></div> : <span className="hint-text">完成每个题干后提交；B 型题不会把共用选项拆成单选题。</span>}
               <button className="primary-button" onClick={submitGroup} disabled={isSubmitted}>{isSubmitted ? '已提交' : '提交本题组'}<Icon name="arrow" size={17} /></button>
             </div>
           </section>
@@ -259,19 +266,60 @@ function App() {
 function StemRow({ group, stem, index, selection, submitted, onSelect }) {
   const answer = answerLetters(stem)
   const multi = isMultiStem(group, stem)
-  const correct = submitted && sameAnswer(selection, answer)
-  const wrong = submitted && !correct
+  const unresolved = isUnresolvedStem(stem)
+  const correct = submitted && !unresolved && sameAnswer(selection, answer)
+  const wrong = submitted && !unresolved && !correct
   const key = `${group.id}:${index}`
   const correction = CORRECTIONS[key]
   const keys = group.options.length ? group.options.map((option) => option.key) : answer
-  const modeLabel = multi ? '多选' : '单选'
+  const modeLabel = unresolved ? '待核对' : (multi ? '多选' : '单选')
   return (
     <div className={`stem-row ${submitted ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
       <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy"><div className="stem-heading"><p>{stem.text || '请结合原题页完成本小题'}</p><span className={`answer-mode ${multi ? 'is-multi' : ''}`}>{modeLabel}</span></div>{multi && !submitted && <small>可选择多个共用选项</small>}</div></div>
       <div className="answer-choices">{keys.map((item) => { const active = selection.includes(item); const isAnswer = submitted && answer.includes(item); return <button key={item} className={`answer-chip ${active ? 'active' : ''} ${submitted && isAnswer ? 'answer' : ''} ${submitted && active && !isAnswer ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{item}</button> })}</div>
-      {submitted && <div className={`result-line ${correct ? 'ok' : 'bad'}`}><Icon name={correct ? 'check' : 'alert'} size={15} />{correct ? '正确' : `原题答案：${answer.join('、') || '见原题页'}`}{correction && <span className="correction-dot">已校对</span>}</div>}
+      {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? '原题页核对：暂不自动判分' : (correct ? '正确' : `讲义/原题答案：${answer.join('、')}`)}{correction && <span className="correction-dot">已校对</span>}</div>}
     </div>
   )
+}
+
+function knowledgeSnippets(group, lectures) {
+  const raw = [group.title, ...group.stems.map((stem) => stem.text)].join(' ')
+  const keywords = unique([
+    ...(raw.match(/[\u4e00-\u9fff]{2,8}/g) || []),
+    ...(raw.match(/[A-Z][A-Z0-9-]{1,}/g) || []),
+  ]).filter((word) => !['内科', '表现', '治疗', '诊断', '患者', '疾病', '相关', '小结', '问'].includes(word))
+  const candidates = []
+  for (const lecture of lectures) {
+    const lines = (lecture.text || '').split(/\n+/).map((line) => line.trim()).filter((line) => line.length >= 14 && line.length <= 320)
+    for (const line of lines) {
+      const score = keywords.reduce((total, keyword) => total + (line.includes(keyword) ? 1 : 0), 0)
+      if (score > 0) candidates.push({ lecture, line, score })
+    }
+  }
+  candidates.sort((a, b) => b.score - a.score || a.line.length - b.line.length)
+  const picked = []
+  for (const candidate of candidates) {
+    if (picked.some((item) => item.line === candidate.line)) continue
+    picked.push(candidate)
+    if (picked.length >= 4) break
+  }
+  return picked.length ? picked : lectures.slice(0, 2).map((lecture) => ({ lecture, line: lecture.excerpt, score: 0 }))
+}
+
+function KnowledgePanel({ group, lectures }) {
+  const snippets = useMemo(() => knowledgeSnippets(group, lectures), [group, lectures])
+  const [copied, setCopied] = useState(false)
+  const copyText = async () => {
+    const text = snippets.map((item) => `${item.lecture.title}\n${item.line}`).join('\n\n')
+    try {
+      await navigator.clipboard.writeText(text)
+      setCopied(true)
+      window.setTimeout(() => setCopied(false), 1500)
+    } catch {
+      setCopied(false)
+    }
+  }
+  return <div className="evidence-section knowledge-section"><div className="evidence-title"><span className="knowledge-icon"><Icon name="file" size={18} /></span><div><h2>讲义知识点</h2><p>从对应PDF提取，可复制到笔记</p></div><button className="copy-button" onClick={copyText}>{copied ? '已复制' : '复制文字'}</button></div><div className="knowledge-body">{snippets.map((item, index) => <article className="knowledge-snippet" key={`${item.lecture.id}-${index}`}><span>{item.lecture.title}</span><p>{item.line}</p></article>)}</div></div>
 }
 
 function EvidencePanel({ group, page, submitted, showSource, setShowSource, mobileEvidence, setMobileEvidence }) {
@@ -282,6 +330,7 @@ function EvidencePanel({ group, page, submitted, showSource, setShowSource, mobi
         {lectureItems.slice(0, 4).map((lecture) => <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 份 · {lecture.pageCount} 页</span></div><span className="relevance">相关</span></div>)}
         <div className="all-lectures">查看全部 57 份讲义 <Icon name="right" size={15} /></div>
       </div>
+      <KnowledgePanel group={group} lectures={lectureItems} />
       <div className="evidence-section correction-section"><div className="evidence-title"><span className="correction-icon"><Icon name="alert" size={18} /></span><div><h2>勘误说明</h2><p>{submitted ? '已显示原题答案与讲义依据' : '提交后显示逐题核对'}</p></div><button className="panel-close" aria-label="展开勘误"><Icon name="chevron" size={16} /></button></div><div className="correction-body"><div className="source-line"><span>原题来源</span><strong>学成选择题（扫描版） · 第 {group.page} 页</strong></div><p>该题组的蓝色答案已从原图保存。没有强行改成普通单选题；需要看到原图中的共用选项和题干关系时，可打开原题页。</p>{group.stems.map((stem, index) => { const note = CORRECTIONS[`${group.id}:${index}`]; return note ? <div className="manual-note" key={index}><strong>{note.title}</strong><p>{note.body}</p></div> : null })}<button className="source-button" onClick={() => setShowSource(true)}><Icon name="eye" size={16} />查看原题页（第 {group.page} 页）</button></div></div>
       <div className="source-thumb"><img src={page?.image} alt={`题库原题第 ${group.page} 页`} /><button onClick={() => setShowSource(true)}><Icon name="eye" size={16} /></button></div>
     </aside>
