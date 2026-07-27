@@ -1035,7 +1035,7 @@
     {
       "id": "p03-g1",
       "page": 3,
-      "title": "I级",
+      "title": "AECOPD分级",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -1072,7 +1072,7 @@
       ],
       "stems": [
         {
-          "text": "I级",
+          "text": "Ⅰ级",
           "answer": [
             "A",
             "C",
@@ -1083,7 +1083,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "I级",
+          "text": "Ⅱ级",
           "answer": [
             "B",
             "D",
@@ -1094,7 +1094,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "III级",
+          "text": "Ⅲ级",
           "answer": [
             "B",
             "E",
@@ -1407,7 +1407,7 @@
     {
       "id": "p05-g2",
       "page": 5,
-      "title": "低氧血症最主要的机制：；COPD",
+      "title": "低氧血症最主要的机制",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -1423,13 +1423,113 @@
         },
         {
           "key": "C",
-          "label": "弥散障碍(DLco↓)",
-          "sourceText": "C.弥散障碍(DLco↓)"
+          "label": "弥散障碍（DLco↓）",
+          "sourceText": "C.弥散障碍（DLco↓）"
         },
         {
           "key": "D",
           "label": "肺内分流",
           "sourceText": "D.肺内分流"
+        }
+      ],
+      "stems": [
+        {
+          "text": "COPD",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "COPDA",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "肺动脉栓塞",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "肺动脉栓塞B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "支气管哮喘",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "支气管哮喘A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "间质性肺疾病",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "间质性肺疾病C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "肺炎",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "肺炎B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "肺泡蛋白沉着症",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "肺泡蛋白沉着症D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "ARDS",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "ARDSD",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "低氧血症最主要的机制（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-04"
+      ]
+    },
+    {
+      "id": "p05-g3",
+      "page": 5,
+      "title": "间质性肺疾病的鉴别",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "支气管肺泡灌洗液（BALF）：中性粒、嗜酸性粒细胞↑",
+          "sourceText": "A.支气管肺泡灌洗液（BALF）：中性粒、嗜酸性粒细胞↑"
+        },
+        {
+          "key": "B",
+          "label": "BALF：CD4 T细胞为主",
+          "sourceText": "B.BALF：CD4 T细胞为主"
+        },
+        {
+          "key": "C",
+          "label": "影像学：磨玻璃影与正常组织截然分开，呈地图样、铺路石样、蝴蝶样（肺门周围肺泡渗出）",
+          "sourceText": "C.影像学：磨玻璃影与正常组织截然分开，呈地图样、铺路石样、蝴蝶样（肺门周围肺泡渗出）"
+        },
+        {
+          "key": "D",
+          "label": "影像学：肺水肿反转形状",
+          "sourceText": "D.影像学：肺水肿反转形状"
         },
         {
           "key": "E",
@@ -1438,8 +1538,8 @@
         },
         {
           "key": "F",
-          "label": "BALF:CD8T细胞↑为主",
-          "sourceText": "F.BALF:CD8T细胞↑为主"
+          "label": "BALF：CD8 T细胞↑为主",
+          "sourceText": "F.BALF：CD8 T细胞↑为主"
         },
         {
           "key": "G",
@@ -1448,13 +1548,13 @@
         },
         {
           "key": "H",
-          "label": "BALF:嗜酸性粒细胞明显↑",
-          "sourceText": "H.BALF:嗜酸性粒细胞明显↑"
+          "label": "BALF：嗜酸性粒细胞明显↑",
+          "sourceText": "H.BALF：嗜酸性粒细胞明显↑"
         },
         {
           "key": "I",
-          "label": "BALF:奶白色、稠厚、分层、PAS(+)",
-          "sourceText": "I.BALF:奶白色、稠厚、分层、PAS(+)"
+          "label": "BALF：奶白色、稠厚、分层、PAS（+）",
+          "sourceText": "I.BALF：奶白色、稠厚、分层、PAS（+）"
         },
         {
           "key": "J",
@@ -1464,67 +1564,67 @@
       ],
       "stems": [
         {
-          "text": "低氧血症最主要的机制：；COPD",
+          "text": "特发性肺间质纤维化",
           "answer": [
-            "A"
+            "A",
+            "E"
           ],
-          "sourceText": "COPD (A",
-          "sourceY": 388.0,
-          "answerMode": "单选"
+          "sourceText": "特发性肺间质纤维化AE",
+          "sourceY": 0,
+          "answerMode": "多选"
         },
         {
-          "text": "肺动脉栓塞",
+          "text": "结节病",
           "answer": [
-            "B"
+            "B",
+            "G"
           ],
-          "sourceText": "B",
-          "sourceY": 416.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "支气管哮喘",
-          "answer": [
-            "A"
-          ],
-          "sourceText": "支气管哮喘（A",
-          "sourceY": 437.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "间质性肺疾病；肺炎",
-          "answer": [
-            "B"
-          ],
-          "sourceText": "肺炎（B",
-          "sourceY": 485.0,
-          "answerMode": "单选"
+          "sourceText": "结节病BG",
+          "sourceY": 0,
+          "answerMode": "多选"
         },
         {
           "text": "肺泡蛋白沉着症",
           "answer": [
-            "D"
+            "C",
+            "I"
           ],
-          "sourceText": "肺泡蛋白沉着症（D",
-          "sourceY": 511.0,
-          "answerMode": "单选"
+          "sourceText": "肺泡蛋白沉着症CI",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "过敏性肺炎",
+          "answer": [
+            "F",
+            "J"
+          ],
+          "sourceText": "过敏性肺炎FJ",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "嗜酸性粒细胞性肺炎",
+          "answer": [
+            "D",
+            "H"
+          ],
+          "sourceText": "嗜酸性粒细胞性肺炎DH",
+          "sourceY": 0,
+          "answerMode": "多选"
         }
       ],
-      "sourceText": "问： | 低氧血症最主要的机制： | A.肺泡通气量↓ | COPD (A | B.VA/Q失调 | 肺动脉栓塞 | B | C.弥散障碍(DLco↓) | 支气管哮喘（A | D.肺内分流 | 间质性肺疾病 | 肺炎（B | 肺泡蛋白沉着症（D | ARDSD | 间质性肺疾病 | A.支气管肺泡灌洗液BALF：中性粒、嗜酸性粒细胞↑ | B.BALF:CD4T细胞为 | C.影像学：磨玻璃影与正常组织截然分开呈地图样、铺路石样、蝴蝶样(肺门周围的肺泡渗出) | D.影像学：肺水肿反转形状(反酸) | E.HRCT：双肺外带胸膜下、基底部分布为主，伴或不伴牵拉支气管扩张 | F.BALF:CD8T细胞↑为主 | G.HRCT：双肺门淋巴结肿大，沿支气管血管束分布的结节 | H.BALF:嗜酸性粒细胞明显↑ | I.BALF:奶白色、稠厚、分层、PAS(+) | J.影像学：磨玻璃斑片影的马赛克征 | 问： | 特发性肺间质纤维化（AE） | 结节病（BG | 肺泡蛋白沉着症 | （ | 过敏性肺炎（FJ | 嗜酸性粒细胞性肺炎（DH",
-      "reviewState": "待讲义复核",
+      "sourceText": "间质性肺疾病的鉴别（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-04"
       ]
     },
     {
-      "id": "p05-g3",
+      "id": "p05-g4",
       "page": 5,
-      "title": "结节病分期：；IC；I",
+      "title": "结节病分期",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -1551,34 +1651,47 @@
       ],
       "stems": [
         {
-          "text": "结节病分期：；IC；I",
+          "text": "Ⅰ期",
           "answer": [
-            "A"
+            "C"
           ],
-          "sourceText": "I A",
-          "sourceY": 1376.0,
+          "sourceText": "Ⅰ期C",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "I川",
+          "text": "Ⅱ期",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "Ⅱ期A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "Ⅲ期",
           "answer": [
             "B"
           ],
-          "sourceText": "I川B",
-          "sourceY": 1426.0,
+          "sourceText": "Ⅲ期B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "Ⅳ期",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "Ⅳ期D",
+          "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "问： | A.双肺门淋巴结肿大、肺部浸润影 | 结节病分期： | B.肺部浸润影 | IC | C.双肺门淋巴结肿大 | D.蜂窝肺、肺纤维化、肺气肿 | I A | I川B | IVD | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "结节病分期（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-04"
       ]
     },
     {
@@ -8091,7 +8204,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "中重症B+D",
+          "text": "中重症",
           "answer": [
             "B",
             "D"
@@ -8111,7 +8224,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "(",
+          "text": "危重",
           "answer": [
             "E",
             "F"
@@ -11472,7 +11585,7 @@
     {
       "id": "p49-g1",
       "page": 49,
-      "title": "I期A亚型",
+      "title": "骨髓瘤分期与治疗",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -11584,7 +11697,7 @@
       ],
       "stems": [
         {
-          "text": "I期A亚型",
+          "text": "Ⅰ期A亚型",
           "answer": [
             "A",
             "C",
@@ -11597,7 +11710,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "I期B亚型",
+          "text": "Ⅰ期B亚型",
           "answer": [
             "C",
             "E",
@@ -11610,7 +11723,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "（",
+          "text": "Ⅲ期A亚型",
           "answer": [
             "A",
             "B",
@@ -11623,7 +11736,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "川期A亚型；川期B亚型",
+          "text": "Ⅲ期B亚型",
           "answer": [
             "G",
             "B",
@@ -11636,7 +11749,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "移植候选者AC+HD",
+          "text": "移植候选者",
           "answer": [
             "F",
             "H"
@@ -11646,7 +11759,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "不适合移植者AC+HDF+HB",
+          "text": "不适合移植者",
           "answer": [
             "C",
             "E",
@@ -11659,13 +11772,9 @@
       ],
       "sourceText": "骨髓瘤 | A.多克隆免疫球蛋白√→感染 | B.骨髓瘤多破坏脊椎尤其腰骶部、胸骨、肋骨、颅骨等含造血骨髓的骨骼(扁骨-构成腔)，患者常有腰痛、胸痛 | C.部分M蛋白为冷球蛋白，可致雷诺现象 | D.本周/游离轻链蛋白 | E.凿孔样溶骨损害 | F.出血倾向：血小板减少、血小板功能异常(被M蛋白包裹)、凝血异常、血管壁受损 | G.骨质疏松 | H.尿本周蛋白、伴或不伴血尿(溢出性蛋白尿) | 1.本周/游离重链蛋白 | J.病理骨折 | K.高尿酸 | L.高钙血症 | M.寒冷引起小动脉阵发性痉挛，呈周期性的苍白、发冷、青紫疼痛、潮红后复原 | N.贫血 | O.淀粉样变性 | P.低血钙 | Q.可有全血细胞减少 | R.髓外浸润：肝、脾、淋巴结、肾等 | S.钱状红细胞、ESR快 | T.静脉肾盂造影 | U.慢性肾衰竭 | 问： | 主要是骨髓瘤细胞浸润破坏所致（BEGJLNQR | 主要是免疫球蛋白或片段（M蛋白）所致（ACFMOS | 主要是肾功能损害CDHKLMORU | 慢性肾衰竭CDKLMOR | A.血肌酐<177、或肌酐清除率>40 | B.Hb<85 | I期A亚型A+C+E+I+F | C.血钙≤2.65 | D.M蛋白量高(lgG>70、IgA>50、本周蛋白>12) | I期B亚型（C+E+G+I+F | E.X线骨骼正常或骨型孤立性浆细胞瘤 | F.Hb >100 | （A+B/D/H/J | 川期A亚型 | G.血肌酐≥177、或肌酐清除率<40 | H.血钙>2.65 | 川期B亚型（G+B/D/H/J | 1.M蛋白量低(lgG<50、lgA<30、本周蛋白<4) | J.X线溶骨病灶>3个 | A.VD | 移植候选者AC+HDF+H | B.MVP | C.硼替佐米 | 不适合移植者AC+HDF+HBC+E+G | D.RD | E.美法仑/马法兰 | F.来那度胺 | G.泼尼松 | H.地塞米松 | 小红书号：385106504",
       "reviewState": "待讲义复核",
-      "topic": "肾脏",
+      "topic": "血液",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-32"
       ]
     },
     {
@@ -13676,7 +13785,7 @@
     {
       "id": "p60-g1",
       "page": 60,
-      "title": "滤泡性",
+      "title": "淋巴瘤特征染色体与免疫表型",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -13813,7 +13922,7 @@
       ],
       "stems": [
         {
-          "text": "滤泡性",
+          "text": "滤泡性淋巴瘤",
           "answer": [
             "B",
             "M",
@@ -13825,7 +13934,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "弥漫大",
+          "text": "弥漫大B细胞淋巴瘤",
           "answer": [
             "B",
             "B",
@@ -13838,7 +13947,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "结外黏膜相关淋巴组织边缘区MALT",
+          "text": "结外黏膜相关淋巴组织边缘区淋巴瘤（MALT）",
           "answer": [
             "E",
             "K"
@@ -13848,7 +13957,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "套",
+          "text": "套细胞淋巴瘤",
           "answer": [
             "G",
             "J",
@@ -13860,7 +13969,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "Burkitt",
+          "text": "Burkitt淋巴瘤",
           "answer": [
             "F",
             "O",
@@ -13872,7 +13981,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "间变性大",
+          "text": "间变性大细胞淋巴瘤",
           "answer": [
             "A",
             "Y"
@@ -13882,7 +13991,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "M3型AML",
+          "text": "M3型急性早幼粒细胞白血病",
           "answer": [
             "C",
             "T"
@@ -13892,7 +14001,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "CML",
+          "text": "慢性髓性白血病（CML）",
           "answer": [
             "B"
           ],
@@ -13910,7 +14019,7 @@
           "answerMode": "单选"
         },
         {
-          "text": "CHL",
+          "text": "经典型霍奇金淋巴瘤（CHL）",
           "answer": [
             "T"
           ],
@@ -13919,7 +14028,7 @@
           "answerMode": "单选"
         },
         {
-          "text": "NLPHL",
+          "text": "结节性淋巴细胞为主型霍奇金淋巴瘤（NLPHL）",
           "answer": [
             "K"
           ],
@@ -13937,7 +14046,7 @@
           "answerMode": "单选"
         },
         {
-          "text": "淋巴母/前体/ALL",
+          "text": "淋巴母细胞/前体细胞白血病（ALL）",
           "answer": [
             "N",
             "V"
@@ -13947,7 +14056,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "小淋巴/CLL",
+          "text": "小淋巴细胞淋巴瘤/CLL",
           "answer": [
             "K",
             "P"
@@ -13957,7 +14066,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "皮肤T/蕈样肉芽肿病/Sezary综合征",
+          "text": "皮肤T细胞淋巴瘤/蕈样肉芽肿病/Sezary综合征",
           "answer": [
             "Q"
           ],
@@ -13966,7 +14075,7 @@
           "answerMode": "单选"
         },
         {
-          "text": "NK/T",
+          "text": "NK/T细胞淋巴瘤",
           "answer": [
             "A"
           ],
@@ -13975,7 +14084,7 @@
           "answerMode": "单选"
         },
         {
-          "text": "M5型",
+          "text": "M5型急性单核细胞白血病",
           "answer": [
             "A",
             "M",
@@ -13987,7 +14096,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "M7型AML",
+          "text": "M7型急性巨核细胞白血病",
           "answer": [
             "X",
             "B"
@@ -15899,24 +16008,29 @@
     {
       "id": "p70-g1",
       "page": 70,
-      "title": "Ig",
+      "title": "抗体小结",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
+          "key": "A",
+          "label": "RF",
+          "sourceText": "A.RF"
+        },
+        {
           "key": "B",
-          "label": "lgA肾病",
-          "sourceText": "B.lgA肾病"
+          "label": "IgA肾病",
+          "sourceText": "B.IgA肾病"
         },
         {
           "key": "C",
-          "label": "温抗体型自免溶",
-          "sourceText": "C.温抗体型自免溶"
+          "label": "温抗体型自身免疫性溶血性贫血",
+          "sourceText": "C.温抗体型自身免疫性溶血性贫血"
         },
         {
           "key": "D",
-          "label": "冷抗体型自免溶",
-          "sourceText": "D.冷抗体型自免溶"
+          "label": "冷抗体型自身免疫性溶血性贫血",
+          "sourceText": "D.冷抗体型自身免疫性溶血性贫血"
         },
         {
           "key": "E",
@@ -15967,39 +16081,32 @@
           "key": "N",
           "label": "分泌性蛋白尿",
           "sourceText": "N.分泌性蛋白尿"
-        },
-        {
-          "key": "A",
-          "label": "多无关节软骨破坏",
-          "sourceText": "A.多无关节软骨破坏"
         }
       ],
       "stems": [
         {
-          "text": "Ig",
+          "text": "IgG",
           "answer": [
-            "G",
             "C",
             "E",
             "G",
             "J",
             "L"
           ],
-          "sourceText": "IgG CEG J L)",
-          "sourceY": 96.0,
+          "sourceText": "IgGCEGJL",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "Ig",
+          "text": "IgM",
           "answer": [
-            "M",
             "A",
             "D",
             "I",
             "M"
           ],
-          "sourceText": "IgM ADIM",
-          "sourceY": 145.0,
+          "sourceText": "IgMADIM",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -16007,21 +16114,109 @@
           "answer": [
             "F"
           ],
-          "sourceText": "F",
-          "sourceY": 197.0,
+          "sourceText": "IgEF",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "BKN；IgA",
+          "text": "IgA",
+          "answer": [
+            "B",
+            "K",
+            "N"
+          ],
+          "sourceText": "IgABKN",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "IgD",
           "answer": [
             "H"
           ],
-          "sourceText": "H",
-          "sourceY": 291.0,
+          "sourceText": "IgDH",
+          "sourceY": 0,
           "answerMode": "单选"
+        }
+      ],
+      "sourceText": "抗体小结（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "风湿",
+      "lectureIds": [
+        "lecture-43"
+      ]
+    },
+    {
+      "id": "p70-g2",
+      "page": 70,
+      "title": "SLE与类风湿关节炎鉴别",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "多无关节软骨破坏",
+          "sourceText": "A.多无关节软骨破坏"
         },
         {
-          "text": "IgD；SLE",
+          "key": "B",
+          "label": "肾少受累",
+          "sourceText": "B.肾少受累"
+        },
+        {
+          "key": "C",
+          "label": "补体C3↓（典型的血管炎）",
+          "sourceText": "C.补体C3↓（典型的血管炎）"
+        },
+        {
+          "key": "D",
+          "label": "活动期血小板↓",
+          "sourceText": "D.活动期血小板↓"
+        },
+        {
+          "key": "E",
+          "label": "关节畸形与活动性无关",
+          "sourceText": "E.关节畸形与活动性无关"
+        },
+        {
+          "key": "F",
+          "label": "治疗：糖皮质激素+免疫抑制剂",
+          "sourceText": "F.治疗：糖皮质激素+免疫抑制剂"
+        },
+        {
+          "key": "G",
+          "label": "多有关节软骨破坏",
+          "sourceText": "G.多有关节软骨破坏"
+        },
+        {
+          "key": "H",
+          "label": "肾多受累",
+          "sourceText": "H.肾多受累"
+        },
+        {
+          "key": "I",
+          "label": "补体C3多正常或轻度↑，伴血管炎可↓",
+          "sourceText": "I.补体C3多正常或轻度↑，伴血管炎可↓"
+        },
+        {
+          "key": "J",
+          "label": "活动期血小板↑",
+          "sourceText": "J.活动期血小板↑"
+        },
+        {
+          "key": "K",
+          "label": "ANA、Sm、SSA、SSB与活动性无关",
+          "sourceText": "K.ANA、Sm、SSA、SSB与活动性无关"
+        },
+        {
+          "key": "L",
+          "label": "治疗：NSAIDs或糖皮质激素+DMARDs",
+          "sourceText": "L.治疗：NSAIDs或糖皮质激素+DMARDs"
+        }
+      ],
+      "stems": [
+        {
+          "text": "SLE",
           "answer": [
             "A",
             "C",
@@ -16030,12 +16225,12 @@
             "H",
             "K"
           ],
-          "sourceText": "SLE ACDFHK",
-          "sourceY": 592.0,
+          "sourceText": "SLEACDFHK",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "类风湿",
+          "text": "类风湿关节炎",
           "answer": [
             "B",
             "E",
@@ -16044,18 +16239,82 @@
             "J",
             "L"
           ],
-          "sourceText": "类风湿（BEGIJL",
-          "sourceY": 643.0,
+          "sourceText": "类风湿关节炎BEGIJL",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "SLE与类风湿关节炎鉴别（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "风湿",
+      "lectureIds": [
+        "lecture-43",
+        "lecture-44",
+        "lecture-45"
+      ]
+    },
+    {
+      "id": "p70-g3",
+      "page": 70,
+      "title": "皮肤病变小结",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "SLE",
+          "sourceText": "A.SLE"
         },
+        {
+          "key": "B",
+          "label": "结节病",
+          "sourceText": "B.结节病"
+        },
+        {
+          "key": "C",
+          "label": "白塞病/贝赫切特病",
+          "sourceText": "C.白塞病/贝赫切特病"
+        },
+        {
+          "key": "D",
+          "label": "炎症性肠病",
+          "sourceText": "D.炎症性肠病"
+        },
+        {
+          "key": "E",
+          "label": "干燥综合征",
+          "sourceText": "E.干燥综合征"
+        },
+        {
+          "key": "F",
+          "label": "风湿病",
+          "sourceText": "F.风湿病"
+        },
+        {
+          "key": "G",
+          "label": "感染性心内膜炎",
+          "sourceText": "G.感染性心内膜炎"
+        },
+        {
+          "key": "H",
+          "label": "结核性风湿症等",
+          "sourceText": "H.结核性风湿症等"
+        },
+        {
+          "key": "I",
+          "label": "伤寒",
+          "sourceText": "I.伤寒"
+        }
+      ],
+      "stems": [
         {
           "text": "环形红斑",
           "answer": [
             "F",
             "H"
           ],
-          "sourceText": "环形红斑（FH",
-          "sourceY": 995.0,
+          "sourceText": "环形红斑FH",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -16063,8 +16322,8 @@
           "answer": [
             "A"
           ],
-          "sourceText": "蝶形或盘状红斑（A",
-          "sourceY": 1042.0,
+          "sourceText": "蝶形或盘状红斑A",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -16075,8 +16334,8 @@
             "D",
             "H"
           ],
-          "sourceText": "结节性红斑（BCDH",
-          "sourceY": 1094.0,
+          "sourceText": "结节性红斑BCDH",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -16084,39 +16343,43 @@
           "answer": [
             "E"
           ],
-          "sourceText": "紫癜样皮疹（E",
-          "sourceY": 1142.0,
+          "sourceText": "紫癜样皮疹E",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "Osler结（亚急性多见)",
+          "text": "Osler结（亚急性心内膜炎多见）",
           "answer": [
             "G"
           ],
-          "sourceText": "Osler结（亚急性多见)G",
-          "sourceY": 1191.0,
+          "sourceText": "Osler结（亚急性心内膜炎多见）G",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "Janeway损害（急性多见）",
+          "text": "Janeway损害（急性心内膜炎多见）",
           "answer": [
             "G"
           ],
-          "sourceText": "Janeway损害（急性多见）G",
-          "sourceY": 1240.0,
+          "sourceText": "Janeway损害（急性心内膜炎多见）G",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "玫瑰疹",
+          "answer": [
+            "I"
+          ],
+          "sourceText": "玫瑰疹I",
+          "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "类风湿关节炎 | 抗体小结 | IgG CEG J L) | A RF | B.lgA肾病 | IgM ADIM | C.温抗体型自免溶 | D.冷抗体型自免溶 | IgE | F | E.ITP | F.支气管哮喘 | BKN | IgA | G.Rh血型系统 | H.骨髓瘤肾功能损害最常见 | H | IgD | I.ABO血型系统天然抗体 | J.骨髓瘤 | K.过敏性紫癜肾炎 | L.SLE | M.检测支原体等提示现症感染 | N.分泌性蛋白尿 | A.多无关节软骨破坏 | B.肾少受累 | SLE ACDFHK | C.补体C3↓(典型的血管炎) | D.活动期血小板↓ | 类风湿（BEGIJL | E.关节畸形与活动性无关 | F.治疗：糖皮质激素+免疫抑制剂 | G.多有关节软骨破坏 | H.肾多受累 | 1.补体C3多正常或轻度↑，伴血管炎可↓ | J.活动期血小板个 | K.ANA、Sm、SSA、SSB与活动性无关 | L.治疗：NSAIDs或糖皮质激素+DMARDs | 皮肤病变小结 | A.SLE | 环形红斑（FH | B.结节病 | 蝶形或盘状红斑（A | C.白塞病/贝赫切特病 | D.炎症性肠病 | E.干燥综合征 | 结节性红斑（BCDH | F.风湿病 | 紫癜样皮疹（E | G.感染性心内膜炎 | H.结核性风湿症等 | Osler结（亚急性多见)G | 1.伤寒 | Janeway损害（急性多见）G | 玫瑰疹 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
-      "topic": "呼吸",
+      "sourceText": "皮肤病变小结（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "风湿",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-43"
       ]
     },
     {
@@ -16279,7 +16542,7 @@
     {
       "id": "p72-g1",
       "page": 72,
-      "title": "呼吸加快",
+      "title": "中毒的呼吸与瞳孔表现",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -16290,8 +16553,8 @@
         },
         {
           "key": "B",
-          "label": "甲醇/酸",
-          "sourceText": "B.甲醇/酸"
+          "label": "甲醇/甲酸",
+          "sourceText": "B.甲醇/甲酸"
         },
         {
           "key": "C",
@@ -16320,13 +16583,13 @@
         },
         {
           "key": "H",
-          "label": "茗碱",
-          "sourceText": "H.茗碱"
+          "label": "莨菪碱",
+          "sourceText": "H.莨菪碱"
         },
         {
           "key": "I",
           "label": "氨基甲酸酯",
-          "sourceText": "1.氨基甲酸酯"
+          "sourceText": "I.氨基甲酸酯"
         },
         {
           "key": "J",
@@ -16337,11 +16600,355 @@
           "key": "K",
           "label": "吗啡",
           "sourceText": "K.吗啡"
+        }
+      ],
+      "stems": [
+        {
+          "text": "呼吸加快",
+          "answer": [
+            "B",
+            "F",
+            "J"
+          ],
+          "sourceText": "呼吸加快BFJ",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "呼吸减慢",
+          "answer": [
+            "A",
+            "K"
+          ],
+          "sourceText": "呼吸减慢AK",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "瞳孔扩大",
+          "answer": [
+            "D",
+            "H"
+          ],
+          "sourceText": "瞳孔扩大DH",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "瞳孔缩小",
+          "answer": [
+            "C",
+            "E",
+            "G",
+            "I",
+            "K"
+          ],
+          "sourceText": "瞳孔缩小CEGIK",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "中毒的呼吸与瞳孔表现（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "中毒",
+      "lectureIds": [
+        "lecture-48"
+      ]
+    },
+    {
+      "id": "p72-g2",
+      "page": 72,
+      "title": "中毒的特殊气味",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "黄磷",
+          "sourceText": "A.黄磷"
+        },
+        {
+          "key": "B",
+          "label": "磷化铝",
+          "sourceText": "B.磷化铝"
+        },
+        {
+          "key": "C",
+          "label": "氰化物",
+          "sourceText": "C.氰化物"
+        },
+        {
+          "key": "D",
+          "label": "铊",
+          "sourceText": "D.铊"
+        },
+        {
+          "key": "E",
+          "label": "硝基苯",
+          "sourceText": "E.硝基苯"
+        },
+        {
+          "key": "F",
+          "label": "含硫物",
+          "sourceText": "F.含硫物"
+        },
+        {
+          "key": "G",
+          "label": "二甲亚砜",
+          "sourceText": "G.二甲亚砜"
+        },
+        {
+          "key": "H",
+          "label": "锌",
+          "sourceText": "H.锌"
+        },
+        {
+          "key": "I",
+          "label": "有机磷",
+          "sourceText": "I.有机磷"
+        },
+        {
+          "key": "J",
+          "label": "甲苯",
+          "sourceText": "J.甲苯"
+        },
+        {
+          "key": "K",
+          "label": "砷",
+          "sourceText": "K.砷"
         },
         {
           "key": "L",
           "label": "酮症酸中毒",
           "sourceText": "L.酮症酸中毒"
+        }
+      ],
+      "stems": [
+        {
+          "text": "蒜味",
+          "answer": [
+            "A",
+            "D",
+            "G",
+            "I",
+            "K"
+          ],
+          "sourceText": "蒜味ADGIK",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "烂苹果味",
+          "answer": [
+            "L"
+          ],
+          "sourceText": "烂苹果味L",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "苦杏仁味",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "苦杏仁味C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "鞋油味",
+          "answer": [
+            "E"
+          ],
+          "sourceText": "鞋油味E",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "臭鸡蛋味（H₂S）",
+          "answer": [
+            "F"
+          ],
+          "sourceText": "臭鸡蛋味（H₂S）F",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "鱼腥味",
+          "answer": [
+            "B",
+            "H"
+          ],
+          "sourceText": "鱼腥味BH",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "胶水味",
+          "answer": [
+            "J"
+          ],
+          "sourceText": "胶水味J",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "中毒的特殊气味（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "中毒",
+      "lectureIds": [
+        "lecture-48"
+      ]
+    },
+    {
+      "id": "p72-g3",
+      "page": 72,
+      "title": "中毒的皮肤颜色改变",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "毒蕈",
+          "sourceText": "A.毒蕈"
+        },
+        {
+          "key": "B",
+          "label": "亚硝酸",
+          "sourceText": "B.亚硝酸"
+        },
+        {
+          "key": "C",
+          "label": "四氯化碳",
+          "sourceText": "C.四氯化碳"
+        },
+        {
+          "key": "D",
+          "label": "硝基苯",
+          "sourceText": "D.硝基苯"
+        },
+        {
+          "key": "E",
+          "label": "鱼胆",
+          "sourceText": "E.鱼胆"
+        },
+        {
+          "key": "F",
+          "label": "苯胺",
+          "sourceText": "F.苯胺"
+        },
+        {
+          "key": "G",
+          "label": "CO",
+          "sourceText": "G.CO"
+        }
+      ],
+      "stems": [
+        {
+          "text": "皮肤发绀",
+          "answer": [
+            "B",
+            "D",
+            "F"
+          ],
+          "sourceText": "皮肤发绀BDF",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "皮肤发黄",
+          "answer": [
+            "A",
+            "C",
+            "E"
+          ],
+          "sourceText": "皮肤发黄ACE",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "皮肤樱桃红",
+          "answer": [
+            "G"
+          ],
+          "sourceText": "皮肤樱桃红G",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "中毒的皮肤颜色改变（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "中毒",
+      "lectureIds": [
+        "lecture-48"
+      ]
+    },
+    {
+      "id": "p72-g4",
+      "page": 72,
+      "title": "中毒的其他表现",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "抗组胺药",
+          "sourceText": "A.抗组胺药"
+        },
+        {
+          "key": "B",
+          "label": "蛇毒",
+          "sourceText": "B.蛇毒"
+        },
+        {
+          "key": "C",
+          "label": "有机磷",
+          "sourceText": "C.有机磷"
+        },
+        {
+          "key": "D",
+          "label": "硝基苯",
+          "sourceText": "D.硝基苯"
+        },
+        {
+          "key": "E",
+          "label": "盐酸",
+          "sourceText": "E.盐酸"
+        },
+        {
+          "key": "F",
+          "label": "敌鼠钠",
+          "sourceText": "F.敌鼠钠"
+        },
+        {
+          "key": "G",
+          "label": "氨基甲酸酯",
+          "sourceText": "G.氨基甲酸酯"
+        },
+        {
+          "key": "H",
+          "label": "苯胺",
+          "sourceText": "H.苯胺"
+        },
+        {
+          "key": "I",
+          "label": "硝酸",
+          "sourceText": "I.硝酸"
+        },
+        {
+          "key": "J",
+          "label": "溴敌隆",
+          "sourceText": "J.溴敌隆"
+        },
+        {
+          "key": "K",
+          "label": "阿托品",
+          "sourceText": "K.阿托品"
+        },
+        {
+          "key": "L",
+          "label": "异烟肼",
+          "sourceText": "L.异烟肼"
         },
         {
           "key": "M",
@@ -16356,7 +16963,7 @@
         {
           "key": "O",
           "label": "铅",
-          "sourceText": "0.铅"
+          "sourceText": "O.铅"
         },
         {
           "key": "P",
@@ -16372,161 +16979,39 @@
           "key": "R",
           "label": "双香豆素/华法林",
           "sourceText": "R.双香豆素/华法林"
+        },
+        {
+          "key": "S",
+          "label": "丙烯酰胺",
+          "sourceText": "S.丙烯酰胺"
+        },
+        {
+          "key": "T",
+          "label": "水杨酸（乙酰水杨酸是阿司匹林）",
+          "sourceText": "T.水杨酸（乙酰水杨酸是阿司匹林）"
         }
       ],
       "stems": [
         {
-          "text": "呼吸加快",
+          "text": "皮肤黏膜灼伤、痂皮（棕色/黄色/黑色）",
           "answer": [
-            "B",
-            "F",
-            "J"
-          ],
-          "sourceText": "呼吸加快BFJ",
-          "sourceY": 83.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "呼吸减慢",
-          "answer": [
-            "A",
-            "K"
-          ],
-          "sourceText": "呼吸减慢AK",
-          "sourceY": 133.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "瞳孔扩大",
-          "answer": [
-            "D",
-            "H"
-          ],
-          "sourceText": "瞳孔扩大（DH",
-          "sourceY": 184.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "瞳孔缩小",
-          "answer": [
-            "C",
             "E",
-            "G",
             "I",
-            "K"
+            "P"
           ],
-          "sourceText": "瞳孔缩小CEGIK",
-          "sourceY": 233.0,
+          "sourceText": "皮肤黏膜灼伤、痂皮（棕色/黄色/黑色）EIP",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "蒜味",
-          "answer": [
-            "A",
-            "D",
-            "G",
-            "I",
-            "K"
-          ],
-          "sourceText": "蒜味ADGIK",
-          "sourceY": 447.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "烂苹果味",
-          "answer": [
-            "L"
-          ],
-          "sourceText": "L",
-          "sourceY": 498.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "苦杏仁味",
-          "answer": [
-            "C"
-          ],
-          "sourceText": "苦杏仁味C",
-          "sourceY": 546.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "鞋油味",
-          "answer": [
-            "E"
-          ],
-          "sourceText": "鞋油味（E",
-          "sourceY": 594.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "臭鸡蛋味",
-          "answer": [
-            "H"
-          ],
-          "sourceText": "臭鸡蛋味(H2S)F)",
-          "sourceY": 642.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "鱼腥味",
-          "answer": [
-            "B",
-            "H"
-          ],
-          "sourceText": "鱼腥味（BH",
-          "sourceY": 691.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "胶水味",
-          "answer": [
-            "J"
-          ],
-          "sourceText": "胶水味（J",
-          "sourceY": 741.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "皮肤发钳",
-          "answer": [
-            "B",
-            "D",
-            "F"
-          ],
-          "sourceText": "皮肤发钳BDF)",
-          "sourceY": 886.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "皮肤发黄",
-          "answer": [
-            "A",
-            "C",
-            "E"
-          ],
-          "sourceText": "皮肤发黄ACE",
-          "sourceY": 935.0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "皮肤樱桃红",
-          "answer": [
-            "G"
-          ],
-          "sourceText": "皮肤樱桃红（G",
-          "sourceY": 985.0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "棕色；皮肤黏膜灼伤疝皮；黄色；黑色；妄",
+          "text": "谵妄",
           "answer": [
             "A",
             "K",
             "N"
           ],
-          "sourceText": "妄（AKN)",
-          "sourceY": 1269.0,
+          "sourceText": "谵妄AKN",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -16539,18 +17024,18 @@
             "S"
           ],
           "sourceText": "肌纤维颤动CGLOS",
-          "sourceY": 1319.0,
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "溶血性贫血和黄痘",
+          "text": "溶血性贫血和黄疸",
           "answer": [
             "D",
             "H",
             "Q"
           ],
-          "sourceText": "溶血性贫血和黄痘（DHQ",
-          "sourceY": 1369.0,
+          "sourceText": "溶血性贫血和黄疸DHQ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -16564,20 +17049,15 @@
             "T"
           ],
           "sourceText": "止凝血障碍和出血BFJMRT",
-          "sourceY": 1417.0,
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "中毒 | 呼吸加快BFJ | A.镇静催眠药 | B.甲醇/酸 | 呼吸减慢AK | C.毛果芸香碱 | D.阿托品 | 瞳孔扩大（DH | E.新斯的明 | F.水杨酸 | 瞳孔缩小CEGIK | G.有机磷 | H.茗碱 | 1.氨基甲酸酯 | J.刺激性气体 | K.吗啡 | 蒜味ADGIK | A.黄磷 | B.磷化铝 | 烂苹果味 | L | C.氰化物 | D.铊 | 苦杏仁味C | E.硝基苯 | F.含硫物 | 鞋油味（E | G.二甲亚矾 | H.锌 | 臭鸡蛋味(H2S)F) | 1.有机磷 | J.甲苯 | 鱼腥味（BH | K.砷 | L.酮症酸中毒 | 胶水味（J | A.毒蕈 | 皮肤发钳BDF) | B.亚硝酸 | C.四氯化碳 | 皮肤发黄ACE | D.硝基苯 | E.鱼胆 | 皮肤樱桃红（G | F.苯胺 | G.CO | A.抗组胺药 | B.蛇毒 | C.有机磷 | D.硝基苯 | 棕色 | 皮肤黏膜灼伤疝皮 | E.盐酸 | 黄色 | F.敌鼠钠 | 黑色 | G.氨基甲酸酯 | H.苯胺 | 妄（AKN) | 1.硝酸 | J.溴敌隆 | 肌纤维颤动CGLOS | K.阿托品 | L.异烟肼 | 溶血性贫血和黄痘（DHQ | M.肝素 | N.乙醇 | 止凝血障碍和出血BFJMRT | 0.铅 | P.硫酸 | Q.砷化氢 | R.双香豆素/华法林 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
-      "topic": "血液",
+      "sourceText": "中毒的其他表现（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
+      "topic": "中毒",
       "lectureIds": [
-        "lecture-28",
-        "lecture-29",
-        "lecture-30",
-        "lecture-32",
-        "lecture-33",
-        "lecture-34"
+        "lecture-48"
       ]
     },
     {

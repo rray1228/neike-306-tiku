@@ -35,7 +35,7 @@ TOPIC_RULES = [
 
 ANSWER_RE = re.compile(r"([A-Za-z0-9]{1,24})\s*[)）】]?\s*$")
 LETTER_OPTION_RE = re.compile(r"^([A-Z]|[a-z]|[0-9]{1,2}|[①②③④⑤⑥⑦⑧⑨⑩])[.。．、]\s*(.+)$")
-COMPACT_OPTION_RE = re.compile(r"^([A-Z])(?=[\u4e00-\u9fff])(.+)$")
+COMPACT_OPTION_RE = re.compile(r"^([A-Z])(?:\s+|(?=[\u4e00-\u9fff]))(.+)$")
 
 ANSWER_OVERRIDES = {
     "p94-g1:0": list("BFIKL"),
