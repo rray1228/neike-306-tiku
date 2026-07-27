@@ -35,6 +35,11 @@ TOPIC_RULES = [
 
 ANSWER_RE = re.compile(r"([A-Za-z0-9]{1,24})\s*[)）】]?\s*$")
 LETTER_OPTION_RE = re.compile(r"^([A-Z]|[a-z]|[0-9]{1,2}|[①②③④⑤⑥⑦⑧⑨⑩])[.。．、]\s*(.+)$")
+COMPACT_OPTION_RE = re.compile(r"^([A-Z])(?=[\u4e00-\u9fff])(.+)$")
+
+ANSWER_OVERRIDES = {
+    "p94-g1:0": list("BFIKL"),
+}
 
 
 def clean_text(text: str) -> str:
@@ -110,6 +115,39 @@ def parse_answer(text: str):
     return prefix, answer
 
 
+def recover_answer_code(text: str, current: list[str], option_keys: set[str]) -> list[str]:
+    """Recover multi-letter answer bubbles that begin inside an OCR bracket."""
+    if not option_keys:
+        return current
+
+    def runs(value: str) -> list[str]:
+        return re.findall(r"[A-Z]{1,24}", value.upper())
+
+    def filtered(value: str) -> list[str]:
+        letters = []
+        for run in runs(value):
+            if run and all(letter in option_keys for letter in run):
+                letters.extend(run)
+        return list(dict.fromkeys(letters))
+
+    closing = max(text.rfind(")"), text.rfind("）"), text.rfind("]"), text.rfind("】"))
+    if closing >= 0:
+        tail = filtered(text[closing + 1 :])
+        if len(tail) > 1:
+            return tail
+
+    for match in re.finditer(r"[（(【\[]\s*([A-Z](?:\s*[A-Z]){1,23})(?=$|[）)】\]])", text.upper()):
+        code = "".join(match.group(1).split())
+        if len(code) > 1 and all(letter in option_keys for letter in code):
+            return list(dict.fromkeys(code))
+
+    if len(current) <= 1:
+        direct = re.search(r"([A-Z]{2,24})\s*$", text.upper())
+        if direct and all(letter in option_keys for letter in direct.group(1)):
+            return list(dict.fromkeys(direct.group(1)))
+    return current
+
+
 def load_ocr(path: Path):
     pages = {}
     for line in path.read_text(encoding="utf-8").splitlines():
@@ -128,6 +166,11 @@ def load_ocr(path: Path):
 
 def option_line(row):
     match = LETTER_OPTION_RE.match(row["text"])
+    if not match:
+        compact = COMPACT_OPTION_RE.match(row["text"])
+        if compact:
+            key, label = compact.groups()
+            return {"key": key.upper(), "label": clean_text(label), "sourceText": row["text"]}
     if not match:
         return None
     key, label = match.groups()
@@ -166,6 +209,7 @@ def extract_groups(page_number: int, rows):
             if not text or text.startswith("问"):
                 continue
             prompt, answer = parse_answer(text)
+            answer = recover_answer_code(text, answer, {item["key"] for item in options})
             if answer:
                 parts = [p for p in pending if p and not p.startswith("问")]
                 if prompt and prompt not in parts:
@@ -203,8 +247,14 @@ def extract_groups(page_number: int, rows):
             else:
                 kind = "source"
                 kind_label = "原题页核对"
+            group_id = f"p{page_number:02d}-g{len(segments)+1}"
+            for stem_index, stem in enumerate(stems):
+                override = ANSWER_OVERRIDES.get(f"{group_id}:{stem_index}")
+                if override:
+                    stem["answer"] = override
+                stem["answerMode"] = "多选" if len(stem.get("answer", [])) > 1 else "单选"
             segments.append({
-                "id": f"p{page_number:02d}-g{len(segments)+1}",
+                "id": group_id,
                 "page": page_number,
                 "title": title,
                 "kind": kind,

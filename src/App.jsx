@@ -85,6 +85,15 @@ function sameAnswer(a, b) {
   return JSON.stringify(normalizeSelection(a)) === JSON.stringify(normalizeSelection(b))
 }
 
+function readLocalStorage(key, fallback) {
+  if (typeof window === 'undefined') return fallback
+  try {
+    return JSON.parse(window.localStorage.getItem(key) || JSON.stringify(fallback))
+  } catch {
+    return fallback
+  }
+}
+
 function topicCounts(groups) {
   const counts = {}
   for (const group of groups) counts[group.topic] = (counts[group.topic] || 0) + group.stems.length
@@ -97,18 +106,18 @@ function App() {
   const [search, setSearch] = useState('')
   const [typeFilter, setTypeFilter] = useState('全部题型')
   const [groupIndex, setGroupIndex] = useState(0)
-  const [selections, setSelections] = useState(() => JSON.parse(localStorage.getItem('med-selections') || '{}'))
-  const [submitted, setSubmitted] = useState(() => JSON.parse(localStorage.getItem('med-submitted') || '{}'))
-  const [favorites, setFavorites] = useState(() => JSON.parse(localStorage.getItem('med-favorites') || '[]'))
-  const [notes, setNotes] = useState(() => JSON.parse(localStorage.getItem('med-notes') || '{}'))
+  const [selections, setSelections] = useState(() => readLocalStorage('med-selections', {}))
+  const [submitted, setSubmitted] = useState(() => readLocalStorage('med-submitted', {}))
+  const [favorites, setFavorites] = useState(() => readLocalStorage('med-favorites', []))
+  const [notes, setNotes] = useState(() => readLocalStorage('med-notes', {}))
   const [showSource, setShowSource] = useState(false)
   const [showNote, setShowNote] = useState(false)
   const [mobileEvidence, setMobileEvidence] = useState(false)
 
-  useEffect(() => localStorage.setItem('med-selections', JSON.stringify(selections)), [selections])
-  useEffect(() => localStorage.setItem('med-submitted', JSON.stringify(submitted)), [submitted])
-  useEffect(() => localStorage.setItem('med-favorites', JSON.stringify(favorites)), [favorites])
-  useEffect(() => localStorage.setItem('med-notes', JSON.stringify(notes)), [notes])
+  useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-selections', JSON.stringify(selections)) }, [selections])
+  useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-submitted', JSON.stringify(submitted)) }, [submitted])
+  useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-favorites', JSON.stringify(favorites)) }, [favorites])
+  useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-notes', JSON.stringify(notes)) }, [notes])
 
   const filteredGroups = useMemo(() => {
     const query = search.trim().toLowerCase()
@@ -219,8 +228,9 @@ function App() {
 
           {showNote && <div className="note-strip"><Icon name="note" size={17} /><input value={notes[group.id] || ''} onChange={(event) => setNotes((previous) => ({ ...previous, [group.id]: event.target.value }))} placeholder="写下你的易错点或记忆口诀…" /></div>}
 
-          {group.options.length > 0 && <div className="option-bank"><div className="section-label"><span>共用选项</span><em>{group.kindLabel}</em></div><div className="option-grid">{group.options.map((option) => <div className="shared-option" key={option.key}><b>{option.key}</b><span>{option.label}</span></div>)}</div></div>}
-
+          <div className={`study-grid ${group.options.length ? '' : 'no-options'}`}>
+          {group.options.length > 0 && <aside className="option-bank option-rail"><div className="section-label"><span>共用选项</span><em>{group.kindLabel}</em></div><div className="option-grid">{group.options.map((option) => <div className="shared-option" key={option.key}><b>{option.key}</b><span>{option.label}</span></div>)}</div><p className="option-rail-hint">选项固定在左侧，右侧题干逐题作答。</p></aside>}
+          <div className="question-side">
           <section className="question-card">
             <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span><span>来源页 {group.page}</span></div>
             <div className="stem-list">
@@ -233,6 +243,8 @@ function App() {
           </section>
 
           <div className="bottom-nav"><button className="pager-button" onClick={() => goTo(-1)}><Icon name="left" size={18} />上一组</button><span>{groupIndex + 1} / {filteredGroups.length}</span><button className="pager-button" onClick={() => goTo(1)}>下一组<Icon name="right" size={18} /></button></div>
+          </div>
+          </div>
           </div>
         </main>
 
@@ -252,9 +264,10 @@ function StemRow({ group, stem, index, selection, submitted, onSelect }) {
   const key = `${group.id}:${index}`
   const correction = CORRECTIONS[key]
   const keys = group.options.length ? group.options.map((option) => option.key) : answer
+  const modeLabel = multi ? '多选' : '单选'
   return (
     <div className={`stem-row ${submitted ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
-      <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy"><p>{stem.text || '请结合原题页完成本小题'}</p>{multi && !submitted && <small>{group.kind === 'B' ? '本题干对应多个共用选项' : '可选择多个选项'}</small>}</div></div>
+      <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy"><div className="stem-heading"><p>{stem.text || '请结合原题页完成本小题'}</p><span className={`answer-mode ${multi ? 'is-multi' : ''}`}>{modeLabel}</span></div>{multi && !submitted && <small>可选择多个共用选项</small>}</div></div>
       <div className="answer-choices">{keys.map((item) => { const active = selection.includes(item); const isAnswer = submitted && answer.includes(item); return <button key={item} className={`answer-chip ${active ? 'active' : ''} ${submitted && isAnswer ? 'answer' : ''} ${submitted && active && !isAnswer ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{item}</button> })}</div>
       {submitted && <div className={`result-line ${correct ? 'ok' : 'bad'}`}><Icon name={correct ? 'check' : 'alert'} size={15} />{correct ? '正确' : `原题答案：${answer.join('、') || '见原题页'}`}{correction && <span className="correction-dot">已校对</span>}</div>}
     </div>
