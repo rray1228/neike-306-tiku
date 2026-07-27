@@ -133,6 +133,8 @@ button:disabled { cursor: default; }
 .submit-summary { display: flex; align-items: center; gap: 7px; color: var(--green); font-size: 13px; font-weight: 600; }
 .primary-button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 0 16px; border: 0; border-radius: 7px; color: white; background: #2265d6; font-size: 13px; font-weight: 700; box-shadow: 0 7px 15px rgba(34,101,214,.2); }
 .primary-button:hover { background: #174fb5; }
+.redo-button { color: #2265d6; border: 1px solid #cbdcf4; background: #f6f9ff; box-shadow: none; }
+.redo-button:hover { color: #174fb5; border-color: #a7c5ef; background: #edf4ff; }
 .primary-button:disabled { color: #7c8a9d; background: #e8edf4; box-shadow: none; }
 .bottom-nav { display: flex; justify-content: center; align-items: center; gap: 28px; padding: 24px 0 0; color: #8491a3; font-size: 13px; }
 .pager-button { display: inline-flex; align-items: center; gap: 8px; border: 0; color: #4b5c74; background: transparent; font-size: 13px; }

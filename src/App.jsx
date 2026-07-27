@@ -170,6 +170,21 @@ function App() {
     setSubmitted((previous) => ({ ...previous, [group.id]: true }))
   }
 
+  function redoGroup() {
+    setSubmitted((previous) => {
+      const next = { ...previous }
+      delete next[group.id]
+      return next
+    })
+    setSelections((previous) => {
+      const next = { ...previous }
+      delete next[group.id]
+      return next
+    })
+    setShowSource(false)
+    setShowNote(false)
+  }
+
   function goTo(offset) {
     if (!filteredGroups.length) return
     setGroupIndex((previous) => (previous + offset + filteredGroups.length) % filteredGroups.length)
@@ -248,7 +263,7 @@ function App() {
             </div>
             <div className="question-card-bottom">
               {isSubmitted ? <div className="submit-summary"><Icon name="check" size={18} /><span>已提交 · {group.stems.filter((stem, index) => !isUnresolvedStem(stem) && sameAnswer(currentSelections[index], answerLetters(stem))).length} / {group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确{group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}</span></div> : <span className="hint-text">完成每个题干后提交；B 型题不会把共用选项拆成单选题。</span>}
-              <button className="primary-button" onClick={submitGroup} disabled={isSubmitted}>{isSubmitted ? '已提交' : '提交本题组'}<Icon name="arrow" size={17} /></button>
+              <button className={`primary-button ${isSubmitted ? 'redo-button' : ''}`} onClick={isSubmitted ? redoGroup : submitGroup}>{isSubmitted ? '重新作答' : '提交本题组'}<Icon name={isSubmitted ? 'right' : 'arrow'} size={17} /></button>
             </div>
           </section>
 
