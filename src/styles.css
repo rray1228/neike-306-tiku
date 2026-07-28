@@ -30,6 +30,9 @@ button:disabled { cursor: default; }
 .brand-copy { display: flex; align-items: baseline; gap: 15px; white-space: nowrap; }
 .brand-copy strong { max-width: min(42vw, 330px); overflow: hidden; color: #0e1728; font-size: 20px; letter-spacing: -.04em; text-overflow: ellipsis; white-space: nowrap; }
 .brand-copy span { color: #718096; font-size: 14px; }
+.subject-switch { display: inline-flex; flex: 0 0 auto; padding: 3px; border: 1px solid var(--line); border-radius: 9px; background: #f5f7fb; }
+.subject-switch button { min-width: 48px; height: 30px; padding: 0 11px; border: 0; border-radius: 6px; color: #6e7d91; background: transparent; font-size: 12px; font-weight: 700; }
+.subject-switch button.active { color: white; background: var(--blue); box-shadow: 0 4px 10px rgba(28,99,220,.2); }
 .progress-strip { display: flex; align-items: center; gap: 11px; flex: 1; justify-content: center; font-size: 13px; color: var(--muted); }
 .progress-strip strong { color: var(--ink); font-size: 13px; }
 .progress-bar { width: 180px; height: 8px; border-radius: 999px; background: #edf0f4; overflow: hidden; }
@@ -194,6 +197,7 @@ button:disabled { cursor: default; }
   .progress-strip .progress-bar { width: 100px; }
   .filter-box { width: 42px; padding: 0; justify-content: center; }
   .filter-box select, .filter-box > svg:last-child { display: none; }
+  .subject-switch button { min-width: 42px; padding-inline: 8px; }
   .workspace { grid-template-columns: 190px minmax(0, 1fr); }
   .workspace.sidebar-collapsed { grid-template-columns: 64px minmax(0, 1fr); }
   .evidence-panel { display: none; }
@@ -206,10 +210,12 @@ button:disabled { cursor: default; }
   .topbar { height: auto; min-height: 64px; flex-wrap: wrap; padding: 12px 14px; }
   .brand-lockup { min-width: auto; flex: 1; }
   .brand-copy strong { max-width: calc(100vw - 190px); font-size: 15px; }
+  .subject-switch { order: 2; margin-left: auto; }
+  .subject-switch button { min-width: 42px; height: 28px; }
   .top-actions { width: 100%; order: 3; }
   .search-box { width: 100%; }
   .filter-box, .top-actions .icon-button { display: none; }
-  .progress-strip { order: 2; flex: 0 0 auto; margin-left: auto; font-size: 11px; }
+  .progress-strip { display: none; }
   .progress-strip strong, .progress-strip > span:last-child { display: none; }
   .workspace { display: block; }
   .sidebar { position: fixed; left: 0; top: 112px; bottom: 0; z-index: 20; width: 250px; display: flex; overflow: auto; box-shadow: 18px 0 40px rgba(25,50,85,.12); transform: translateX(0); transition: transform .2s ease; }

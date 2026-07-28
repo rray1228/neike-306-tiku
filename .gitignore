@@ -9,6 +9,8 @@ coverage/
 playwright-report/
 test-results/
 .cache/
+__pycache__/
+*.py[cod]
 *.log
 .DS_Store
 .env

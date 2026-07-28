@@ -1,5 +1,27 @@
 import { useEffect, useMemo, useState } from 'react'
-import content from './data/med-data.json'
+import medContent from './data/med-data.json'
+import pathologyContent from './data/pathology-data.json'
+
+const SUBJECTS = {
+  med: {
+    label: '内科',
+    title: '内科-学成选择题byBi8bo&戒不掉甜食',
+    subtitle: '306 临床医学综合能力（内科）',
+    sectionLabel: '内科章节',
+    content: medContent,
+    defaultTopic: '呼吸',
+    sourceName: '西综-学成选择题（内科汇总去胶带版）.pdf',
+  },
+  pathology: {
+    label: '病理',
+    title: '病理-学成选择题byBi8bo&戒不掉甜食',
+    subtitle: '306 临床医学综合能力（病理学）',
+    sectionLabel: '病理章节',
+    content: pathologyContent,
+    defaultTopic: '消化系统',
+    sourceName: '病理学西综-学成选择题（去胶带版）.pdf',
+  },
+}
 
 const TOPIC_ICONS = {
   呼吸: 'lungs',
@@ -11,6 +33,18 @@ const TOPIC_ICONS = {
   风湿: 'joint',
   中毒: 'skull',
   综合: 'grid',
+  消化系统: 'stomach',
+  心血管系统: 'heart',
+  呼吸系统: 'lungs',
+  内分泌系统: 'spark',
+  免疫性疾病: 'joint',
+  生殖系统: 'grid',
+  乳腺疾病: 'grid',
+  传染病: 'alert',
+  损伤与修复: 'plus',
+  局部血液循环障碍: 'drop',
+  炎症: 'alert',
+  肿瘤: 'grid',
 }
 
 const CORRECTIONS = {
@@ -119,8 +153,14 @@ function topicCounts(groups) {
 }
 
 function App() {
-  const counts = useMemo(() => topicCounts(content.groups), [])
-  const [topic, setTopic] = useState('呼吸')
+  const [subject, setSubject] = useState(() => {
+    const storedSubject = readLocalStorage('study-subject', 'med')
+    return SUBJECTS[storedSubject] ? storedSubject : 'med'
+  })
+  const subjectConfig = SUBJECTS[subject] || SUBJECTS.med
+  const content = subjectConfig.content
+  const counts = useMemo(() => topicCounts(content.groups), [content])
+  const [topic, setTopic] = useState(() => (SUBJECTS[readLocalStorage('study-subject', 'med')] || SUBJECTS.med).defaultTopic)
   const [search, setSearch] = useState('')
   const [typeFilter, setTypeFilter] = useState('全部题型')
   const [groupIndex, setGroupIndex] = useState(0)
@@ -131,16 +171,18 @@ function App() {
   const [showSource, setShowSource] = useState(false)
   const [showNote, setShowNote] = useState(false)
   const [mobileEvidence, setMobileEvidence] = useState(false)
-  const [sidebarCollapsed, setSidebarCollapsed] = useState(() => readLocalStorage('med-sidebar-collapsed', false))
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(() => {
+    if (typeof window === 'undefined') return false
+    const stored = window.localStorage.getItem('med-sidebar-collapsed')
+    return stored === null ? window.innerWidth <= 720 : readLocalStorage('med-sidebar-collapsed', false)
+  })
 
+  useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('study-subject', JSON.stringify(subject)) }, [subject])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-selections', JSON.stringify(selections)) }, [selections])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-submitted', JSON.stringify(submitted)) }, [submitted])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-favorites', JSON.stringify(favorites)) }, [favorites])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-notes', JSON.stringify(notes)) }, [notes])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-sidebar-collapsed', JSON.stringify(sidebarCollapsed)) }, [sidebarCollapsed])
-  useEffect(() => {
-    if (typeof window !== 'undefined' && window.innerWidth <= 720 && window.localStorage.getItem('med-sidebar-collapsed') === null) setSidebarCollapsed(true)
-  }, [])
 
   const filteredGroups = useMemo(() => {
     const query = search.trim().toLowerCase()
@@ -158,17 +200,17 @@ function App() {
   }, [filteredGroups.length, groupIndex])
 
   const group = filteredGroups[groupIndex] || content.groups[0]
-  const currentSelections = selections[group.id] || {}
-  const isSubmitted = Boolean(submitted[group.id])
-  const totalAnswered = Object.keys(submitted).length
+  const groupStorageId = subject === 'med' ? group.id : `${subject}:${group.id}`
+  const currentSelections = selections[groupStorageId] || {}
+  const isSubmitted = Boolean(submitted[groupStorageId])
   const currentPage = content.pages.find((item) => item.page === group.page)
-  const favorite = favorites.includes(group.id)
+  const favorite = favorites.includes(groupStorageId)
 
   function updateSelection(stemIndex, key) {
     if (isSubmitted) return
     const stem = group.stems[stemIndex]
     setSelections((previous) => {
-      const nextGroup = { ...(previous[group.id] || {}) }
+      const nextGroup = { ...(previous[groupStorageId] || {}) }
       const current = normalizeSelection(nextGroup[stemIndex])
       const multi = isMultiStem(group, stem)
       if (multi) {
@@ -176,23 +218,23 @@ function App() {
       } else {
         nextGroup[stemIndex] = [key]
       }
-      return { ...previous, [group.id]: nextGroup }
+      return { ...previous, [groupStorageId]: nextGroup }
     })
   }
 
   function submitGroup() {
-    setSubmitted((previous) => ({ ...previous, [group.id]: true }))
+    setSubmitted((previous) => ({ ...previous, [groupStorageId]: true }))
   }
 
   function redoGroup() {
     setSubmitted((previous) => {
       const next = { ...previous }
-      delete next[group.id]
+      delete next[groupStorageId]
       return next
     })
     setSelections((previous) => {
       const next = { ...previous }
-      delete next[group.id]
+      delete next[groupStorageId]
       return next
     })
     setShowSource(false)
@@ -213,7 +255,20 @@ function App() {
   }
 
   function toggleFavorite() {
-    setFavorites((previous) => previous.includes(group.id) ? previous.filter((id) => id !== group.id) : [...previous, group.id])
+    setFavorites((previous) => previous.includes(groupStorageId) ? previous.filter((id) => id !== groupStorageId) : [...previous, groupStorageId])
+  }
+
+  function switchSubject(nextSubject) {
+    if (nextSubject === subject) return
+    const nextConfig = SUBJECTS[nextSubject]
+    setSubject(nextSubject)
+    setTopic(nextConfig.defaultTopic)
+    setSearch('')
+    setTypeFilter('全部题型')
+    setGroupIndex(0)
+    setShowSource(false)
+    setShowNote(false)
+    setMobileEvidence(false)
   }
 
   return (
@@ -221,7 +276,10 @@ function App() {
       <header className="topbar">
         <div className="brand-lockup">
           <div className="brand-mark"><Icon name="book" size={23} stroke="white" /></div>
-          <div className="brand-copy"><strong>内科-学成选择题byBi8bo&amp;戒不掉甜食</strong><span>306 临床医学综合能力（内科）</span></div>
+          <div className="brand-copy"><strong>{subjectConfig.title}</strong><span>{subjectConfig.subtitle}</span></div>
+        </div>
+        <div className="subject-switch" aria-label="选择科目">
+          {Object.entries(SUBJECTS).map(([key, item]) => <button key={key} className={subject === key ? 'active' : ''} onClick={() => switchSubject(key)}>{item.label}</button>)}
         </div>
         <div className="progress-strip">
           <span>本轮进度</span><strong>{filteredGroups.length ? `${Math.min(groupIndex + 1, filteredGroups.length)} / ${filteredGroups.length} 组` : '暂无匹配题组'}</strong>
@@ -237,7 +295,7 @@ function App() {
 
       <div className={`workspace ${sidebarCollapsed ? 'sidebar-collapsed' : ''}`}>
         <aside className="sidebar">
-          <div className="sidebar-heading"><div className="sidebar-title">内科章节</div><button className="sidebar-toggle" onClick={() => setSidebarCollapsed((value) => !value)} aria-label={sidebarCollapsed ? '展开章节目录' : '收起章节目录'}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={17} /></button></div>
+          <div className="sidebar-heading"><div className="sidebar-title">{subjectConfig.sectionLabel}</div><button className="sidebar-toggle" onClick={() => setSidebarCollapsed((value) => !value)} aria-label={sidebarCollapsed ? '展开章节目录' : '收起章节目录'}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={17} /></button></div>
           <nav className="topic-nav">
             {content.topics.filter((item) => item !== '全部' && item !== '综合').map((item) => (
               <button key={item} className={`topic-link ${topic === item ? 'active' : ''}`} onClick={() => { setTopic(item); setGroupIndex(0) }}>
@@ -247,7 +305,7 @@ function App() {
           </nav>
           <div className="sidebar-footer">
             <div className="source-stat"><span>题库来源</span><strong>学成选择题（PDF 扫描版）</strong><small>{content.meta.sourcePages} 页 · {content.groups.length} 个题组 · {content.groups.reduce((sum, item) => sum + item.stems.length, 0)} 个题干</small></div>
-            <div className="lecture-stat"><span>讲义依据</span><strong>内科讲义 PDF 共 57 份</strong><Icon name="file" size={18} /></div>
+            <div className="lecture-stat"><span>讲义依据</span><strong>{subjectConfig.label}讲义 PDF 共 {content.meta.lectureCount} 份</strong><Icon name="file" size={18} /></div>
           </div>
         </aside>
 
@@ -257,15 +315,15 @@ function App() {
             <select value={topic} onChange={(event) => { setTopic(event.target.value); setGroupIndex(0) }}>{content.topics.map((item) => <option key={item}>{item}</option>)}</select>
             <button className="text-button" onClick={() => setMobileEvidence((value) => !value)}>{mobileEvidence ? '隐藏讲义' : '显示讲义'} <Icon name="file" size={16} /></button>
           </div>
-          {!filteredGroups.length && <div className="empty-state"><div className="empty-state-icon"><Icon name="search" size={22} /></div><h1>当前筛选下没有题组</h1><p>“中毒”目前没有独立题组；房早等心律失常题已归入循环系统。</p><button className="primary-button" onClick={() => { setTopic('全部'); setSearch(''); setTypeFilter('全部题型'); setGroupIndex(0) }}>显示全部题库 <Icon name="arrow" size={17} /></button></div>}
-          <div className="study-content">
+          {!filteredGroups.length && <div className="empty-state"><div className="empty-state-icon"><Icon name="search" size={22} /></div><h1>当前筛选下没有题组</h1><p>请尝试清除搜索词、切换章节或选择其他题型。</p><button className="primary-button" onClick={() => { setTopic('全部'); setSearch(''); setTypeFilter('全部题型'); setGroupIndex(0) }}>显示全部题库 <Icon name="arrow" size={17} /></button></div>}
+          {filteredGroups.length > 0 && <div className="study-content">
           <div className="breadcrumb"><span>{group.topic || '综合'}</span><Icon name="chevron" size={13} /><span>{group.kindLabel}</span><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></div>
           <div className="content-heading">
             <div><h1>{group.title || '题库原题'}</h1><p>共用选项组保留在本题组内；每个题干独立作答，提交后逐题反馈。</p></div>
             <div className="heading-actions"><button className={`ghost-button ${favorite ? 'selected' : ''}`} onClick={toggleFavorite}><Icon name={favorite ? 'bookmarkFill' : 'bookmark'} size={17} />{favorite ? '已收藏' : '收藏'}</button><button className="ghost-button" onClick={() => setShowNote((value) => !value)}><Icon name="note" size={17} />笔记</button></div>
           </div>
 
-          {showNote && <div className="note-strip"><Icon name="note" size={17} /><input value={notes[group.id] || ''} onChange={(event) => setNotes((previous) => ({ ...previous, [group.id]: event.target.value }))} placeholder="写下你的易错点或记忆口诀…" /></div>}
+          {showNote && <div className="note-strip"><Icon name="note" size={17} /><input value={notes[groupStorageId] || ''} onChange={(event) => setNotes((previous) => ({ ...previous, [groupStorageId]: event.target.value }))} placeholder="写下你的易错点或记忆口诀…" /></div>}
 
           <div className={`study-grid ${group.options.length ? '' : 'no-options'}`}>
           {group.options.length > 0 && <aside className="option-bank option-rail"><div className="section-label"><span>共用选项</span><em>{group.kindLabel}</em></div><div className="option-grid">{group.options.map((option) => <div className="shared-option" key={option.key}><b>{option.key}</b><span>{option.label}</span></div>)}</div><p className="option-rail-hint">选项固定在左侧，右侧题干逐题作答。</p></aside>}
@@ -273,7 +331,7 @@ function App() {
           <section className="question-card">
             <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span><span>来源页 {group.page}</span></div>
             <div className="stem-list">
-              {group.stems.map((stem, index) => <StemRow key={`${group.id}-${index}`} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} />)}
+              {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} subject={subject} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} />)}
             </div>
             <div className="question-card-bottom">
               {isSubmitted ? <div className="submit-summary"><Icon name="check" size={18} /><span>已提交 · {group.stems.filter((stem, index) => !isUnresolvedStem(stem) && sameAnswer(currentSelections[index], answerLetters(stem))).length} / {group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确{group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}</span></div> : <span className="hint-text">完成每个题干后提交；B 型题不会把共用选项拆成单选题。</span>}
@@ -284,13 +342,13 @@ function App() {
           <div className="bottom-nav"><button className="pager-button" onClick={() => goTo(-1)}><Icon name="left" size={18} />上一组</button><span>{groupIndex + 1} / {filteredGroups.length}</span><button className="pager-button" onClick={() => goTo(1)}>下一组<Icon name="right" size={18} /></button></div>
           </div>
           </div>
-          </div>
+          </div>}
         </main>
 
-        {filteredGroups.length ? <EvidencePanel group={group} page={currentPage} submitted={isSubmitted} showSource={showSource} setShowSource={setShowSource} mobileEvidence={mobileEvidence} setMobileEvidence={setMobileEvidence} /> : <EmptyEvidence />}
+        {filteredGroups.length ? <EvidencePanel subject={subject} content={content} group={group} page={currentPage} submitted={isSubmitted} showSource={showSource} setShowSource={setShowSource} mobileEvidence={mobileEvidence} setMobileEvidence={setMobileEvidence} /> : <EmptyEvidence subjectConfig={subjectConfig} />}
       </div>
 
-      {showSource && <SourceModal group={group} page={currentPage} onClose={() => setShowSource(false)} />}
+      {showSource && <SourceModal group={group} page={currentPage} sourceName={subjectConfig.sourceName} onClose={() => setShowSource(false)} />}
       <div className="site-watermark" aria-hidden="true">
         <span>内容制作byBi8bo</span>
         <span>网站制作by戒不掉甜食</span>
@@ -299,14 +357,14 @@ function App() {
   )
 }
 
-function StemRow({ group, stem, index, selection, submitted, onSelect }) {
+function StemRow({ subject, group, stem, index, selection, submitted, onSelect }) {
   const answer = answerLetters(stem)
   const multi = isMultiStem(group, stem)
   const unresolved = isUnresolvedStem(stem)
   const correct = submitted && !unresolved && sameAnswer(selection, answer)
   const wrong = submitted && !unresolved && !correct
   const key = `${group.id}:${index}`
-  const correction = CORRECTIONS[key]
+  const correction = subject === 'med' ? CORRECTIONS[key] : null
   const keys = group.options.length ? group.options.map((option) => option.key) : answer
   const modeLabel = unresolved ? '待核对' : (multi ? '多选' : '单选')
   return (
@@ -318,26 +376,26 @@ function StemRow({ group, stem, index, selection, submitted, onSelect }) {
   )
 }
 
-function EvidencePanel({ group, page, submitted, showSource, setShowSource, mobileEvidence, setMobileEvidence }) {
+function EvidencePanel({ subject, content, group, page, submitted, showSource, setShowSource, mobileEvidence, setMobileEvidence }) {
   const lectureItems = group.lectureIds.map((id) => content.lectures.find((lecture) => lecture.id === id)).filter(Boolean)
   return (
     <aside className={`evidence-panel ${mobileEvidence ? 'mobile-visible' : ''}`}>
       <div className="evidence-section evidence-section-top"><div className="evidence-title"><span className="evidence-icon"><Icon name="check" size={18} /></span><div><h2>讲义依据</h2><p>{lectureItems.length ? `已关联 ${lectureItems.length} 份讲义` : '按章节关联讲义'}</p></div><span className="verified-dot"><Icon name="check" size={13} /></span><button className="panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="chevron" size={16} /></button></div>
         {lectureItems.slice(0, 4).map((lecture) => <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 份 · {lecture.pageCount} 页</span></div><span className="relevance">相关</span></div>)}
-        <div className="all-lectures">查看全部 57 份讲义 <Icon name="right" size={15} /></div>
+        <div className="all-lectures">查看全部 {content.meta.lectureCount} 份讲义 <Icon name="right" size={15} /></div>
       </div>
-      <div className="evidence-section correction-section"><div className="evidence-title"><span className="correction-icon"><Icon name="alert" size={18} /></span><div><h2>勘误说明</h2><p>{submitted ? '已显示原题答案与讲义依据' : '提交后显示逐题核对'}</p></div><button className="panel-close" aria-label="展开勘误"><Icon name="chevron" size={16} /></button></div><div className="correction-body"><div className="source-line"><span>原题来源</span><strong>学成选择题（扫描版） · 第 {group.page} 页</strong></div><p>该题组的蓝色答案已从原图保存。没有强行改成普通单选题；需要看到原图中的共用选项和题干关系时，可打开原题页。</p>{group.stems.map((stem, index) => { const note = CORRECTIONS[`${group.id}:${index}`]; return note ? <div className="manual-note" key={index}><strong>{note.title}</strong><p>{note.body}</p></div> : null })}<button className="source-button" onClick={() => setShowSource(true)}><Icon name="eye" size={16} />查看原题页（第 {group.page} 页）</button></div></div>
+      <div className="evidence-section correction-section"><div className="evidence-title"><span className="correction-icon"><Icon name="alert" size={18} /></span><div><h2>勘误说明</h2><p>{submitted ? '已显示原题答案与讲义依据' : '提交后显示逐题核对'}</p></div><button className="panel-close" aria-label="展开勘误"><Icon name="chevron" size={16} /></button></div><div className="correction-body"><div className="source-line"><span>原题来源</span><strong>学成选择题（扫描版） · 第 {group.page} 页</strong></div><p>该题组的蓝色答案已从原图保存。没有强行改成普通单选题；需要看到原图中的共用选项和题干关系时，可打开原题页。</p>{subject === 'med' ? group.stems.map((stem, index) => { const note = CORRECTIONS[`${group.id}:${index}`]; return note ? <div className="manual-note" key={index}><strong>{note.title}</strong><p>{note.body}</p></div> : null }) : null}<button className="source-button" onClick={() => setShowSource(true)}><Icon name="eye" size={16} />查看原题页（第 {group.page} 页）</button></div></div>
       <div className="source-thumb"><img src={assetPath(page?.image)} alt={`题库原题第 ${group.page} 页`} /><button onClick={() => setShowSource(true)}><Icon name="eye" size={16} /></button></div>
     </aside>
   )
 }
 
-function EmptyEvidence() {
-  return <aside className="evidence-panel empty-evidence"><div className="evidence-section"><div className="evidence-title"><span className="evidence-icon"><Icon name="file" size={18} /></span><div><h2>暂无讲义匹配</h2><p>当前筛选没有题组</p></div></div><div className="empty-evidence-body">切换章节或清除筛选后，这里会显示对应的 57 份内科讲义依据。</div></div></aside>
+function EmptyEvidence({ subjectConfig }) {
+  return <aside className="evidence-panel empty-evidence"><div className="evidence-section"><div className="evidence-title"><span className="evidence-icon"><Icon name="file" size={18} /></span><div><h2>暂无讲义匹配</h2><p>当前筛选没有题组</p></div></div><div className="empty-evidence-body">切换章节或清除筛选后，这里会显示对应的{subjectConfig.label}讲义依据。</div></div></aside>
 }
 
-function SourceModal({ group, page, onClose }) {
-  return <div className="modal-backdrop" onClick={onClose}><div className="source-modal" onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>原题页</span><h2>{group.topic} · 第 {group.page} 页</h2></div><button className="icon-button" onClick={onClose} aria-label="关闭"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap"><img src={assetPath(page?.image)} alt={`原题页 ${group.page}`} /></div><div className="modal-footer"><span>图片来自“西综-学成选择题（内科汇总去胶带版）.pdf”</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
+function SourceModal({ group, page, sourceName, onClose }) {
+  return <div className="modal-backdrop" onClick={onClose}><div className="source-modal" onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>原题页</span><h2>{group.topic} · 第 {group.page} 页</h2></div><button className="icon-button" onClick={onClose} aria-label="关闭"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap"><img src={assetPath(page?.image)} alt={`原题页 ${group.page}`} /></div><div className="modal-footer"><span>图片来自“{sourceName}”</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
 }
 
 export default App
