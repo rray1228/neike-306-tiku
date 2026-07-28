@@ -121,8 +121,12 @@ function answerLetters(stem) {
   return unique((stem.answer || []).map((item) => String(item)))
 }
 
+function isRankingStem(stem) {
+  return stem.answerMode === '排序'
+}
+
 function isMultiStem(group, stem) {
-  return group.kind !== 'B' || answerLetters(stem).length > 1
+  return group.kind !== 'B' || answerLetters(stem).length > 1 || isRankingStem(stem)
 }
 
 function normalizeSelection(selection) {
@@ -133,7 +137,8 @@ function isUnresolvedStem(stem) {
   return stem.answerState === '待原题页核对' || stem.answerMode === '待核对' || answerLetters(stem).length === 0
 }
 
-function sameAnswer(a, b) {
+function sameAnswer(a, b, ordered = false) {
+  if (ordered) return JSON.stringify(unique((a || []).map((item) => String(item)))) === JSON.stringify(unique((b || []).map((item) => String(item))))
   return JSON.stringify(normalizeSelection(a)) === JSON.stringify(normalizeSelection(b))
 }
 
@@ -211,7 +216,8 @@ function App() {
     const stem = group.stems[stemIndex]
     setSelections((previous) => {
       const nextGroup = { ...(previous[groupStorageId] || {}) }
-      const current = normalizeSelection(nextGroup[stemIndex])
+      const ordered = isRankingStem(stem)
+      const current = ordered ? unique((nextGroup[stemIndex] || []).map((item) => String(item))) : normalizeSelection(nextGroup[stemIndex])
       const multi = isMultiStem(group, stem)
       if (multi) {
         nextGroup[stemIndex] = current.includes(key) ? current.filter((item) => item !== key) : [...current, key]
@@ -335,7 +341,7 @@ function App() {
               {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} subject={subject} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} />)}
             </div>
             <div className="question-card-bottom">
-              {isSubmitted ? <div className="submit-summary"><Icon name="check" size={18} /><span>已提交 · {group.stems.filter((stem, index) => !isUnresolvedStem(stem) && sameAnswer(currentSelections[index], answerLetters(stem))).length} / {group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确{group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}</span></div> : <span className="hint-text">完成每个题干后提交；B 型题不会把共用选项拆成单选题。</span>}
+              {isSubmitted ? <div className="submit-summary"><Icon name="check" size={18} /><span>已提交 · {group.stems.filter((stem, index) => !isUnresolvedStem(stem) && sameAnswer(currentSelections[index], answerLetters(stem), isRankingStem(stem))).length} / {group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确{group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}</span></div> : <span className="hint-text">完成每个题干后提交；B 型题不会把共用选项拆成单选题。</span>}
               <button className={`primary-button ${isSubmitted ? 'redo-button' : ''}`} onClick={isSubmitted ? redoGroup : submitGroup}>{isSubmitted ? '重新作答' : '提交本题组'}<Icon name={isSubmitted ? 'right' : 'arrow'} size={17} /></button>
             </div>
           </section>
@@ -391,17 +397,17 @@ function GroupJump({ current, total, onJump }) {
 function StemRow({ subject, group, stem, index, selection, submitted, onSelect }) {
   const answer = answerLetters(stem)
   const multi = isMultiStem(group, stem)
+  const ordered = isRankingStem(stem)
   const unresolved = isUnresolvedStem(stem)
-  const correct = submitted && !unresolved && sameAnswer(selection, answer)
+  const correct = submitted && !unresolved && sameAnswer(selection, answer, ordered)
   const wrong = submitted && !unresolved && !correct
   const key = `${group.id}:${index}`
   const correction = subject === 'med' ? CORRECTIONS[key] : null
   const keys = group.options.length ? group.options.map((option) => option.key) : answer
-  const modeLabel = unresolved ? '待核对' : (multi ? '多选' : '单选')
   return (
     <div className={`stem-row ${submitted ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
-      <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy"><div className="stem-heading"><p>{stem.text || '请结合原题页完成本小题'}</p><span className={`answer-mode ${multi ? 'is-multi' : ''}`}>{modeLabel}</span></div>{multi && !submitted && <small>可选择多个共用选项</small>}</div></div>
-      <div className="answer-choices">{keys.map((item) => { const active = selection.includes(item); const isAnswer = submitted && answer.includes(item); return <button key={item} className={`answer-chip ${active ? 'active' : ''} ${submitted && isAnswer ? 'answer' : ''} ${submitted && active && !isAnswer ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{item}</button> })}</div>
+      <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy"><div className="stem-heading"><p>{stem.text || '请结合原题页完成本小题'}</p><span className={`answer-mode ${multi ? 'is-multi' : ''}`}>{unresolved ? '待核对' : (ordered ? '排序' : (multi ? '多选' : '单选'))}</span></div>{multi && !submitted && <small>{ordered ? '请按题干要求的先后顺序选择' : '可选择多个共用选项'}</small>}</div></div>
+      <div className="answer-choices">{keys.map((item) => { const active = selection.includes(item); const isAnswer = submitted && answer.includes(item); const order = ordered && active ? selection.indexOf(item) + 1 : null; return <button key={item} className={`answer-chip ${active ? 'active' : ''} ${submitted && isAnswer ? 'answer' : ''} ${submitted && active && !isAnswer ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{item}{order && <sup className="rank-order">{order}</sup>}</button> })}</div>
       {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? '原题页核对：暂不自动判分' : (correct ? '正确' : `讲义/原题答案：${answer.join('、')}`)}{correction && <span className="correction-dot">已校对</span>}</div>}
     </div>
   )

@@ -119,7 +119,8 @@ button:disabled { cursor: default; }
 .answer-mode.is-multi { border-color: #b8d2fa; color: var(--blue); background: var(--blue-soft); }
 .stem-copy small { display: block; color: #9aa6b5; font-size: 11px; margin-top: 4px; }
 .answer-choices { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 5px; max-width: 230px; }
-.answer-chip { width: 29px; height: 29px; border: 1px solid #d9e1ec; border-radius: 7px; color: #5f6f85; background: #fbfcfe; font-size: 12px; font-weight: 700; transition: .15s ease; }
+.answer-chip { position: relative; width: 29px; height: 29px; border: 1px solid #d9e1ec; border-radius: 7px; color: #5f6f85; background: #fbfcfe; font-size: 12px; font-weight: 700; transition: .15s ease; }
+.rank-order { position: absolute; top: -5px; right: -4px; min-width: 13px; height: 13px; padding: 0 2px; border-radius: 7px; color: var(--blue); background: #fff; font-size: 9px; line-height: 13px; box-shadow: 0 0 0 1px #b8d2fa; }
 .answer-chip:hover { border-color: #a9c7f7; color: var(--blue); background: #f2f7ff; }
 .answer-chip.active { color: white; border-color: var(--blue); background: var(--blue); box-shadow: 0 4px 10px rgba(28,99,220,.2); }
 .answer-chip:disabled { opacity: 1; }
