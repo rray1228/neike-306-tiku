@@ -249,7 +249,8 @@ function App() {
   }
 
   function jumpTo(index) {
-    setGroupIndex(index)
+    if (!filteredGroups.length) return
+    setGroupIndex(Math.min(Math.max(index, 0), filteredGroups.length - 1))
     setShowSource(false)
     setShowNote(false)
   }
@@ -339,7 +340,7 @@ function App() {
             </div>
           </section>
 
-          <div className="bottom-nav"><button className="pager-button" onClick={() => goTo(-1)}><Icon name="left" size={18} />上一组</button><span>{groupIndex + 1} / {filteredGroups.length}</span><button className="pager-button" onClick={() => goTo(1)}>下一组<Icon name="right" size={18} /></button></div>
+          <div className="bottom-nav"><button className="pager-button" onClick={() => goTo(-1)}><Icon name="left" size={18} />上一组</button><GroupJump key={`${subject}-${groupIndex}-${filteredGroups.length}`} current={groupIndex + 1} total={filteredGroups.length} onJump={jumpTo} /><button className="pager-button" onClick={() => goTo(1)}>下一组<Icon name="right" size={18} /></button></div>
           </div>
           </div>
           </div>}
@@ -354,6 +355,36 @@ function App() {
         <span>网站制作by戒不掉甜食</span>
       </div>
     </div>
+  )
+}
+
+function GroupJump({ current, total, onJump }) {
+  const [value, setValue] = useState(String(current))
+
+  function submitJump(event) {
+    event.preventDefault()
+    const requested = Number.parseInt(value, 10)
+    const next = Number.isFinite(requested) ? Math.min(Math.max(requested, 1), total) : current
+    setValue(String(next))
+    onJump(next - 1)
+  }
+
+  return (
+    <form className="group-jump" onSubmit={submitJump}>
+      <span>跳至</span>
+      <input
+        type="number"
+        inputMode="numeric"
+        min="1"
+        max={total}
+        step="1"
+        value={value}
+        onChange={(event) => setValue(event.target.value)}
+        aria-label={`跳转到第几组，当前范围共 ${total} 组`}
+      />
+      <span>/ {total} 组</span>
+      <button type="submit">跳转</button>
+    </form>
   )
 }
 
