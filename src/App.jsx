@@ -221,7 +221,7 @@ function App() {
       <header className="topbar">
         <div className="brand-lockup">
           <div className="brand-mark"><Icon name="book" size={23} stroke="white" /></div>
-          <div className="brand-copy"><strong>内科题库</strong><span>306 临床医学综合能力（内科）</span></div>
+          <div className="brand-copy"><strong>内科-学成选择题byBi8bo&amp;戒不掉甜食</strong><span>306 临床医学综合能力（内科）</span></div>
         </div>
         <div className="progress-strip">
           <span>本轮进度</span><strong>{filteredGroups.length ? `${Math.min(groupIndex + 1, filteredGroups.length)} / ${filteredGroups.length} 组` : '暂无匹配题组'}</strong>
