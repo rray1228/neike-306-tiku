@@ -6468,7 +6468,7 @@
     {
       "id": "p22-g1",
       "page": 22,
-      "title": "A型/自身免疫性胃炎",
+      "title": "A型与B型慢性萎缩性胃炎",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -6484,28 +6484,28 @@
         },
         {
           "key": "C",
-          "label": "抗壁细胞和内因子抗体+",
-          "sourceText": "C.抗壁细胞和内因子抗体+"
+          "label": "抗壁细胞和内因子抗体阳性",
+          "sourceText": "C.抗壁细胞和内因子抗体阳性"
         },
         {
           "key": "D",
-          "label": "好发部位胃窦",
-          "sourceText": "D.好发部位胃窦"
+          "label": "好发于胃窦",
+          "sourceText": "D.好发于胃窦"
         },
         {
           "key": "E",
-          "label": "胃酸分泌明显↓(缺乏)",
-          "sourceText": "E.胃酸分泌明显↓(缺乏)"
+          "label": "胃酸分泌明显减少或缺乏",
+          "sourceText": "E.胃酸分泌明显减少或缺乏"
         },
         {
           "key": "F",
-          "label": "血胃泌素↑",
-          "sourceText": "F.血胃泌素↑"
+          "label": "血胃泌素升高",
+          "sourceText": "F.血胃泌素升高"
         },
         {
           "key": "G",
-          "label": "巨幼贫(VitB12↓，MCV>100)",
-          "sourceText": "G.巨幼贫(VitB12↓，MCV>100)"
+          "label": "巨幼细胞贫血（VitB12降低，MCV>100）",
+          "sourceText": "G.巨幼细胞贫血（VitB12降低，MCV>100）"
         },
         {
           "key": "H",
@@ -6515,7 +6515,7 @@
         {
           "key": "I",
           "label": "糖皮质激素",
-          "sourceText": "1.糖皮质激素"
+          "sourceText": "I.糖皮质激素"
         },
         {
           "key": "J",
@@ -6524,28 +6524,28 @@
         },
         {
           "key": "K",
-          "label": "Hp(常伴消化性溃疡)",
-          "sourceText": "K.Hp(常伴消化性溃疡)"
+          "label": "Hp感染（常伴消化性溃疡）",
+          "sourceText": "K.Hp感染（常伴消化性溃疡）"
         },
         {
           "key": "L",
-          "label": "抗壁细胞和内因子抗体-",
-          "sourceText": "L.抗壁细胞和内因子抗体-"
+          "label": "抗壁细胞和内因子抗体阴性",
+          "sourceText": "L.抗壁细胞和内因子抗体阴性"
         },
         {
           "key": "M",
-          "label": "好发部位胃底、胃体",
-          "sourceText": "M.好发部位胃底、胃体"
+          "label": "好发于胃底、胃体",
+          "sourceText": "M.好发于胃底、胃体"
         },
         {
           "key": "N",
-          "label": "胃酸分泌正常或↓",
-          "sourceText": "N.胃酸分泌正常或↓"
+          "label": "胃酸分泌正常或减少",
+          "sourceText": "N.胃酸分泌正常或减少"
         },
         {
           "key": "O",
-          "label": "血胃泌素↓",
-          "sourceText": "O.血胃泌素↓"
+          "label": "血胃泌素降低",
+          "sourceText": "O.血胃泌素降低"
         },
         {
           "key": "P",
@@ -6572,12 +6572,12 @@
             "M",
             "P"
           ],
-          "sourceText": "A型/自身免疫性胃炎BCEFGIJMP",
-          "sourceY": 143.0,
+          "sourceText": "A型/自身免疫性胃炎 BCEFGIJMP",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "B型/多灶菱缩性胃炎",
+          "text": "B型/多灶萎缩性胃炎",
           "answer": [
             "A",
             "D",
@@ -6588,18 +6588,75 @@
             "O",
             "Q"
           ],
-          "sourceText": "B型/多灶菱缩性胃炎（ADHKLNOQ",
-          "sourceY": 195.0,
+          "sourceText": "B型/多灶萎缩性胃炎 ADHKLNOQ",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "A型与B型慢性萎缩性胃炎（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-15"
+      ]
+    },
+    {
+      "id": "p22-g2",
+      "page": 22,
+      "title": "胃酸分泌程度与相关疾病",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "B型胃炎",
+          "sourceText": "A.B型胃炎"
         },
         {
-          "text": "胃酸明显减少/缺乏",
+          "key": "B",
+          "label": "A型胃炎",
+          "sourceText": "B.A型胃炎"
+        },
+        {
+          "key": "C",
+          "label": "胃溃疡Ⅱ/Ⅲ型",
+          "sourceText": "C.胃溃疡Ⅱ/Ⅲ型"
+        },
+        {
+          "key": "D",
+          "label": "B型胃炎伴大量G细胞丧失",
+          "sourceText": "D.B型胃炎伴大量G细胞丧失"
+        },
+        {
+          "key": "E",
+          "label": "胃溃疡Ⅰ/Ⅳ型",
+          "sourceText": "E.胃溃疡Ⅰ/Ⅳ型"
+        },
+        {
+          "key": "F",
+          "label": "胃癌",
+          "sourceText": "F.胃癌"
+        },
+        {
+          "key": "G",
+          "label": "十二指肠溃疡",
+          "sourceText": "G.十二指肠溃疡"
+        },
+        {
+          "key": "H",
+          "label": "胃泌素瘤",
+          "sourceText": "H.胃泌素瘤"
+        }
+      ],
+      "stems": [
+        {
+          "text": "胃酸明显减少或缺乏（MAO=0）",
           "answer": [
             "B",
             "F"
           ],
-          "sourceText": "胃酸明显减少/缺乏(MAO=O)BF",
-          "sourceY": 642.0,
+          "sourceText": "胃酸明显减少或缺乏（MAO=0） BF",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -6607,8 +6664,8 @@
           "answer": [
             "D"
           ],
-          "sourceText": "胃酸减少（D",
-          "sourceY": 696.0,
+          "sourceText": "胃酸减少 D",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -6617,8 +6674,8 @@
             "A",
             "E"
           ],
-          "sourceText": "胃酸正常或减少（AE",
-          "sourceY": 747.0,
+          "sourceText": "胃酸正常或减少 AE",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -6627,8 +6684,8 @@
             "C",
             "G"
           ],
-          "sourceText": "胃酸增加（CG",
-          "sourceY": 800.0,
+          "sourceText": "胃酸增加 CG",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -6636,21 +6693,17 @@
           "answer": [
             "H"
           ],
-          "sourceText": "胃酸明显增加（H",
-          "sourceY": 853.0,
+          "sourceText": "胃酸明显增加 H",
+          "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "A.发病率高 | 问： | B.自身免疫 | A型/自身免疫性胃炎BCEFGIJMP | C.抗壁细胞和内因子抗体+ | D.好发部位胃窦 | B型/多灶菱缩性胃炎（ADHKLNOQ | E.胃酸分泌明显↓(缺乏) | F.血胃泌素↑ | G.巨幼贫(VitB12↓，MCV>100) | H.无恶性贫血 | 1.糖皮质激素 | J.发病率低 | K.Hp(常伴消化性溃疡) | L.抗壁细胞和内因子抗体- | M.好发部位胃底、胃体 | N.胃酸分泌正常或↓ | O.血胃泌素↓ | P.注射VitB12 | Q.根除Hp | A.B型胃炎 | 胃酸明显减少/缺乏(MAO=O)BF | B.A型胃炎 | C.胃溃疡II/III型 | 胃酸减少（D | D.B型胃炎伴大量G细胞丧失 | E.胃溃疡I/IV型 | 胃酸正常或减少（AE | F.胃癌 | G.十二指肠溃疡 | 胃酸增加（CG | H.胃泌素瘤 | 胃酸明显增加（H | 小红书 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "胃酸分泌程度与相关疾病（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "消化",
       "lectureIds": [
-        "lecture-14",
         "lecture-15",
-        "lecture-16",
-        "lecture-17",
-        "lecture-18",
-        "lecture-19"
+        "lecture-16"
       ]
     },
     {
