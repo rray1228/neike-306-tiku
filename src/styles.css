@@ -155,15 +155,6 @@ button:disabled { cursor: default; }
 .lecture-item span { display: block; margin-top: 3px; color: #9ba6b5; font-size: 11px; }
 .lecture-item .relevance { flex: 0 0 auto; color: var(--green); border-radius: 4px; padding: 3px 5px; background: var(--green-soft); }
 .all-lectures { display: flex; justify-content: center; align-items: center; gap: 5px; padding: 12px 0 9px; color: var(--blue); font-size: 12px; cursor: pointer; }
-.knowledge-section { border-color: #d9e8f8; }
-.knowledge-icon { width: 28px; height: 28px; display: grid; place-items: center; color: var(--blue); border-radius: 7px; background: var(--blue-soft); }
-.copy-button { margin-left: auto; border: 1px solid #cbdcf4; border-radius: 6px; padding: 6px 8px; color: var(--blue); background: white; font-size: 11px; white-space: nowrap; }
-.copy-button:hover { background: var(--blue-soft); }
-.knowledge-body { padding: 4px 15px 10px; user-select: text; }
-.knowledge-snippet { padding: 11px 0; border-bottom: 1px solid #eef3f8; }
-.knowledge-snippet:last-child { border-bottom: 0; }
-.knowledge-snippet span { display: block; color: #6d8db9; font-size: 10px; line-height: 1.4; }
-.knowledge-snippet p { margin: 5px 0 0; color: #53647b; font-size: 12px; line-height: 1.65; }
 .correction-section { border-color: #f0dad7; }
 .correction-icon { width: 28px; height: 28px; display: grid; place-items: center; color: var(--coral); border-radius: 7px; background: var(--coral-soft); }
 .correction-body { padding: 14px 15px 16px; }

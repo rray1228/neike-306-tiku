@@ -12413,7 +12413,7 @@
     {
       "id": "p46-g1",
       "page": 46,
-      "title": "遗传球",
+      "title": "溶血性贫血分类与特征",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -12429,13 +12429,13 @@
         },
         {
           "key": "C",
-          "label": "遗传-膜",
-          "sourceText": "C.遗传-膜"
+          "label": "遗传性膜缺陷",
+          "sourceText": "C.遗传性膜缺陷"
         },
         {
           "key": "D",
-          "label": "小细胞低色素、靶形、HbEP",
-          "sourceText": "D.小细胞低色素、靶形、HbEP"
+          "label": "小细胞低色素、靶形红细胞、Hb电泳异常",
+          "sourceText": "D.小细胞低色素、靶形红细胞、Hb电泳异常"
         },
         {
           "key": "E",
@@ -12444,8 +12444,8 @@
         },
         {
           "key": "F",
-          "label": "遗传-酶",
-          "sourceText": "F.遗传-酶"
+          "label": "遗传性酶缺陷",
+          "sourceText": "F.遗传性酶缺陷"
         },
         {
           "key": "G",
@@ -12454,18 +12454,18 @@
         },
         {
           "key": "H",
-          "label": "G6PD测定(确诊)、MHbRT",
-          "sourceText": "H.G6PD测定(确诊)、MHbRT"
+          "label": "G6PD测定（确诊）、MHbRT",
+          "sourceText": "H.G6PD测定（确诊）、MHbRT"
         },
         {
           "key": "I",
           "label": "糖皮质激素",
-          "sourceText": "1.糖皮质激素"
+          "sourceText": "I.糖皮质激素"
         },
         {
           "key": "J",
-          "label": "遗传-珠蛋白",
-          "sourceText": "J.遗传-珠蛋白"
+          "label": "遗传性珠蛋白异常",
+          "sourceText": "J.遗传性珠蛋白异常"
         },
         {
           "key": "K",
@@ -12479,18 +12479,18 @@
         },
         {
           "key": "M",
-          "label": "Coombs(诊断)",
-          "sourceText": "M.Coombs(诊断)"
+          "label": "Coombs试验（诊断）",
+          "sourceText": "M.Coombs试验（诊断）"
         },
         {
           "key": "N",
-          "label": "获得-免疫",
-          "sourceText": "N.获得-免疫"
+          "label": "获得性免疫性",
+          "sourceText": "N.获得性免疫性"
         },
         {
           "key": "O",
           "label": "血涂片球形细胞↑",
-          "sourceText": "0.血涂片球形细胞↑"
+          "sourceText": "O.血涂片球形细胞↑"
         },
         {
           "key": "P",
@@ -12499,8 +12499,8 @@
         },
         {
           "key": "Q",
-          "label": "渗透脆性↑",
-          "sourceText": "Q.渗透脆性↑"
+          "label": "红细胞渗透脆性↑",
+          "sourceText": "Q.红细胞渗透脆性↑"
         },
         {
           "key": "R",
@@ -12509,13 +12509,13 @@
         },
         {
           "key": "S",
-          "label": "获得-膜",
-          "sourceText": "S.获得-膜"
+          "label": "获得性膜缺陷",
+          "sourceText": "S.获得性膜缺陷"
         },
         {
           "key": "T",
-          "label": "晨起酱油尿、可转化为再障、FLAER和CD55/59(-)",
-          "sourceText": "T.晨起酱油尿、可转化为再障、FLAER和CD55/59(-)"
+          "label": "晨起酱油尿；可转化为再障；FLAER和CD55/59（-）",
+          "sourceText": "T.晨起酱油尿；可转化为再障；FLAER和CD55/59（-）"
         },
         {
           "key": "U",
@@ -12525,7 +12525,7 @@
       ],
       "stems": [
         {
-          "text": "遗传球",
+          "text": "遗传性球形红细胞增多症",
           "answer": [
             "A",
             "C",
@@ -12533,8 +12533,8 @@
             "Q",
             "U"
           ],
-          "sourceText": "遗传球ACOQU",
-          "sourceY": 49.0,
+          "sourceText": "遗传性球形红细胞增多症 ACOQU",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -12545,24 +12545,24 @@
             "K",
             "P"
           ],
-          "sourceText": "G6PD缺乏（FHKP",
-          "sourceY": 103.0,
+          "sourceText": "G6PD缺乏 FHKP",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "地贫",
+          "text": "地中海贫血",
           "answer": [
             "A",
             "D",
             "J",
             "L"
           ],
-          "sourceText": "地贫（ADJL",
-          "sourceY": 153.0,
+          "sourceText": "地中海贫血 ADJL",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "温抗体自免溶",
+          "text": "温抗体型自身免疫性溶血性贫血",
           "answer": [
             "A",
             "I",
@@ -12570,20 +12570,20 @@
             "N",
             "O"
           ],
-          "sourceText": "温抗体自免溶（AIMNO",
-          "sourceY": 208.0,
+          "sourceText": "温抗体型自身免疫性溶血性贫血 AIMNO",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "冷抗体自免溶",
+          "text": "冷抗体型自身免疫性溶血性贫血",
           "answer": [
             "E",
             "G",
             "N",
             "R"
           ],
-          "sourceText": "冷抗体自免溶（EGNR",
-          "sourceY": 260.0,
+          "sourceText": "冷抗体型自身免疫性溶血性贫血 EGNR",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -12595,32 +12595,146 @@
             "T",
             "L"
           ],
-          "sourceText": "PNH (BGSTL)",
-          "sourceY": 314.0,
+          "sourceText": "PNH BGSTL",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "溶血性贫血分类与特征（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-30"
+      ]
+    },
+    {
+      "id": "p46-g2",
+      "page": 46,
+      "title": "出血性疾病的骨髓巨核细胞表现",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "巨核细胞数量↓",
+          "sourceText": "A.巨核细胞数量↓"
         },
         {
-          "text": "原发免疫性血小板减少症ITP",
+          "key": "B",
+          "label": "巨核细胞数量正常或↑",
+          "sourceText": "B.巨核细胞数量正常或↑"
+        },
+        {
+          "key": "C",
+          "label": "巨核细胞发育成熟障碍",
+          "sourceText": "C.巨核细胞发育成熟障碍"
+        },
+        {
+          "key": "D",
+          "label": "全片未见巨核细胞",
+          "sourceText": "D.全片未见巨核细胞"
+        },
+        {
+          "key": "E",
+          "label": "全片未见产板型巨核细胞",
+          "sourceText": "E.全片未见产板型巨核细胞"
+        },
+        {
+          "key": "F",
+          "label": "产板型巨核细胞显著减少",
+          "sourceText": "F.产板型巨核细胞显著减少"
+        }
+      ],
+      "stems": [
+        {
+          "text": "原发免疫性血小板减少症（ITP）",
           "answer": [
             "B",
             "C",
             "E",
             "F"
           ],
-          "sourceText": "原发免疫性血小板减少症ITP（BCEF",
-          "sourceY": 716.0,
+          "sourceText": "原发免疫性血小板减少症（ITP） BCEF",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "再障",
+          "text": "再生障碍性贫血",
           "answer": [
             "A",
             "D"
           ],
-          "sourceText": "再障（AD",
-          "sourceY": 768.0,
+          "sourceText": "再生障碍性贫血 AD",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "出血性疾病的骨髓巨核细胞表现（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-31"
+      ]
+    },
+    {
+      "id": "p46-g3",
+      "page": 46,
+      "title": "ITP治疗",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "血小板输注",
+          "sourceText": "A.血小板输注"
         },
+        {
+          "key": "B",
+          "label": "促血小板生成药",
+          "sourceText": "B.促血小板生成药"
+        },
+        {
+          "key": "C",
+          "label": "大剂量糖皮质激素",
+          "sourceText": "C.大剂量糖皮质激素"
+        },
+        {
+          "key": "D",
+          "label": "抗CD20单克隆抗体（利妥昔单抗）",
+          "sourceText": "D.抗CD20单克隆抗体（利妥昔单抗）"
+        },
+        {
+          "key": "E",
+          "label": "丙种免疫球蛋白",
+          "sourceText": "E.丙种免疫球蛋白"
+        },
+        {
+          "key": "F",
+          "label": "rhTPO",
+          "sourceText": "F.rhTPO"
+        },
+        {
+          "key": "G",
+          "label": "长春碱",
+          "sourceText": "G.长春碱"
+        },
+        {
+          "key": "H",
+          "label": "艾曲泊帕/海曲泊帕",
+          "sourceText": "H.艾曲泊帕/海曲泊帕"
+        },
+        {
+          "key": "I",
+          "label": "罗米司亭/普司亭",
+          "sourceText": "I.罗米司亭/普司亭"
+        },
+        {
+          "key": "J",
+          "label": "切脾",
+          "sourceText": "J.切脾"
+        }
+      ],
+      "stems": [
         {
           "text": "急症",
           "answer": [
@@ -12634,8 +12748,8 @@
             "I",
             "J"
           ],
-          "sourceText": "急症ABCEFGHIJ",
-          "sourceY": 987.0,
+          "sourceText": "急症 ABCEFGHIJ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -12644,8 +12758,8 @@
             "C",
             "E"
           ],
-          "sourceText": "一线治疗（CE)",
-          "sourceY": 1038.0,
+          "sourceText": "一线治疗 CE",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -12658,8 +12772,8 @@
             "I",
             "J"
           ],
-          "sourceText": "二线治疗BDFHIJ",
-          "sourceY": 1090.0,
+          "sourceText": "二线治疗 BDFHIJ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -12668,8 +12782,8 @@
             "C",
             "E"
           ],
-          "sourceText": "急症+一线治疗（CE",
-          "sourceY": 1144.0,
+          "sourceText": "急症+一线治疗 CE",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -12681,8 +12795,8 @@
             "I",
             "J"
           ],
-          "sourceText": "急症+二线治疗（BFHIJ",
-          "sourceY": 1198.0,
+          "sourceText": "急症+二线治疗 BFHIJ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -12690,8 +12804,8 @@
           "answer": [
             "A"
           ],
-          "sourceText": "急症首选（A",
-          "sourceY": 1248.0,
+          "sourceText": "急症首选 A",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -12699,8 +12813,8 @@
           "answer": [
             "C"
           ],
-          "sourceText": "一线治疗首选C",
-          "sourceY": 1301.0,
+          "sourceText": "一线治疗首选 C",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -12708,8 +12822,8 @@
           "answer": [
             "E"
           ],
-          "sourceText": "妊娠可用（E",
-          "sourceY": 1355.0,
+          "sourceText": "妊娠可用 E",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -12717,8 +12831,8 @@
           "answer": [
             "C"
           ],
-          "sourceText": "妊娠不可用（C",
-          "sourceY": 1409.0,
+          "sourceText": "妊娠不可用 C",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -12726,23 +12840,18 @@
           "answer": [
             "F",
             "H",
-            "T"
+            "I"
           ],
-          "sourceText": "促血小板生成药（FHT",
-          "sourceY": 1460.0,
+          "sourceText": "促血小板生成药 FHI",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "A.血管外溶血 | 遗传球ACOQU | B.依库珠单抗首选、HSCT根治 | C.遗传-膜 | G6PD缺乏（FHKP | D.小细胞低色素、靶形、HbEP | E.保暖 | 地贫（ADJL | F.遗传-酶 | G.血管内溶血 | 温抗体自免溶（AIMNO | H.G6PD测定(确诊)、MHbRT | 1.糖皮质激素 | 冷抗体自免溶（EGNR | J.遗传-珠蛋白 | K.血管内、外溶血 | PNH (BGSTL) | L.HSCT | M.Coombs(诊断) | N.获得-免疫 | 0.血涂片球形细胞↑ | P.预防为主 | Q.渗透脆性↑ | R.冷凝集素 | S.获得-膜 | T.晨起酱油尿、可转化为再障、FLAER和CD55/59(-) | U.切脾 | 出血性疾病 | 原发免疫性血小板减少症ITP（BCEF | A.巨核细胞数量↓ | B.巨核细胞数量正常/↑ | 再障（AD | C.巨核细胞发育成熟障碍 | D.全片未见巨核细胞 | E.全片未见产板型巨核细胞 | F.产板型巨核细胞显著减少 | A.血小板 | 问：治疗 | B.促血小板生成药 | 急症ABCEFGHIJ | C.大剂量糖皮质激素 | D.抗CD20单克隆抗体（利妥昔单抗) | 一线治疗（CE) | E.丙种免疫球蛋白 | F.rhTPO | 二线治疗BDFHIJ | G.长春碱 | H.艾/海曲泊帕 | 急症+一线治疗（CE | 1.罗米/普司亭 | J.切脾 | 急症+二线治疗（BFHIJ | 急症首选（A | 一线治疗首选C | 妊娠可用（E | 妊娠不可用（C | 促血小板生成药（FHT",
-      "reviewState": "待讲义复核",
+      "sourceText": "ITP治疗（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-28",
-        "lecture-29",
-        "lecture-30",
-        "lecture-32",
-        "lecture-33",
-        "lecture-34"
+        "lecture-31"
       ]
     },
     {
@@ -13102,19 +13211,19 @@
     {
       "id": "p49-g1",
       "page": 49,
-      "title": "骨髓瘤分期与治疗",
+      "title": "骨髓瘤临床表现与病理机制",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "多克隆免疫球蛋白√→感染",
-          "sourceText": "A.多克隆免疫球蛋白√→感染"
+          "label": "多克隆免疫球蛋白↓→感染",
+          "sourceText": "A.多克隆免疫球蛋白↓→感染"
         },
         {
           "key": "B",
-          "label": "骨髓瘤多破坏脊椎尤其腰骶部、胸骨、肋骨、颅骨等含造血骨髓的骨骼(扁骨-构成腔)，患者常有腰痛、胸痛",
-          "sourceText": "B.骨髓瘤多破坏脊椎尤其腰骶部、胸骨、肋骨、颅骨等含造血骨髓的骨骼(扁骨-构成腔)，患者常有腰痛、胸痛"
+          "label": "骨髓瘤多破坏脊椎尤其腰骶部、胸骨、肋骨、颅骨等含造血骨髓的骨骼，常有腰痛、胸痛",
+          "sourceText": "B.骨髓瘤多破坏脊椎尤其腰骶部、胸骨、肋骨、颅骨等含造血骨髓的骨骼，常有腰痛、胸痛"
         },
         {
           "key": "C",
@@ -13123,8 +13232,8 @@
         },
         {
           "key": "D",
-          "label": "本周/游离轻链蛋白",
-          "sourceText": "D.本周/游离轻链蛋白"
+          "label": "本周蛋白/游离轻链蛋白",
+          "sourceText": "D.本周蛋白/游离轻链蛋白"
         },
         {
           "key": "E",
@@ -13133,8 +13242,8 @@
         },
         {
           "key": "F",
-          "label": "出血倾向：血小板减少、血小板功能异常(被M蛋白包裹)、凝血异常、血管壁受损",
-          "sourceText": "F.出血倾向：血小板减少、血小板功能异常(被M蛋白包裹)、凝血异常、血管壁受损"
+          "label": "出血倾向：血小板减少、血小板功能异常、凝血异常、血管壁受损",
+          "sourceText": "F.出血倾向：血小板减少、血小板功能异常、凝血异常、血管壁受损"
         },
         {
           "key": "G",
@@ -13143,13 +13252,13 @@
         },
         {
           "key": "H",
-          "label": "尿本周蛋白、伴或不伴血尿(溢出性蛋白尿)",
-          "sourceText": "H.尿本周蛋白、伴或不伴血尿(溢出性蛋白尿)"
+          "label": "尿本周蛋白，伴或不伴血尿（溢出性蛋白尿）",
+          "sourceText": "H.尿本周蛋白，伴或不伴血尿（溢出性蛋白尿）"
         },
         {
           "key": "I",
-          "label": "本周/游离重链蛋白",
-          "sourceText": "1.本周/游离重链蛋白"
+          "label": "本周蛋白/游离重链蛋白",
+          "sourceText": "I.本周蛋白/游离重链蛋白"
         },
         {
           "key": "J",
@@ -13168,8 +13277,8 @@
         },
         {
           "key": "M",
-          "label": "寒冷引起小动脉阵发性痉挛，呈周期性的苍白、发冷、青紫疼痛、潮红后复原",
-          "sourceText": "M.寒冷引起小动脉阵发性痉挛，呈周期性的苍白、发冷、青紫疼痛、潮红后复原"
+          "label": "寒冷引起小动脉阵发性痉挛，呈苍白、发冷、青紫、疼痛、潮红后复原",
+          "sourceText": "M.寒冷引起小动脉阵发性痉挛，呈苍白、发冷、青紫、疼痛、潮红后复原"
         },
         {
           "key": "N",
@@ -13198,8 +13307,8 @@
         },
         {
           "key": "S",
-          "label": "钱状红细胞、ESR快",
-          "sourceText": "S.钱状红细胞、ESR快"
+          "label": "缗钱状红细胞、ESR快",
+          "sourceText": "S.缗钱状红细胞、ESR快"
         },
         {
           "key": "T",
@@ -13214,6 +13323,135 @@
       ],
       "stems": [
         {
+          "text": "主要是骨髓瘤细胞浸润破坏所致",
+          "answer": [
+            "B",
+            "E",
+            "G",
+            "J",
+            "L",
+            "N",
+            "Q",
+            "R"
+          ],
+          "sourceText": "主要是骨髓瘤细胞浸润破坏所致 BEGJLNQR",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "主要是免疫球蛋白或片段（M蛋白）所致",
+          "answer": [
+            "A",
+            "C",
+            "F",
+            "M",
+            "O",
+            "S"
+          ],
+          "sourceText": "主要是免疫球蛋白或片段（M蛋白）所致 ACFMOS",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "主要是肾功能损害",
+          "answer": [
+            "C",
+            "D",
+            "H",
+            "K",
+            "L",
+            "M",
+            "O",
+            "R",
+            "U"
+          ],
+          "sourceText": "主要是肾功能损害 CDHKLMORU",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "慢性肾衰竭",
+          "answer": [
+            "C",
+            "D",
+            "K",
+            "L",
+            "M",
+            "O",
+            "R"
+          ],
+          "sourceText": "慢性肾衰竭 CDKLMOR",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "骨髓瘤临床表现与病理机制（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-32"
+      ]
+    },
+    {
+      "id": "p49-g2",
+      "page": 49,
+      "title": "骨髓瘤Durie-Salmon分期",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "血肌酐＜177μmol/L，或肌酐清除率＞40ml/min",
+          "sourceText": "A.血肌酐＜177μmol/L，或肌酐清除率＞40ml/min"
+        },
+        {
+          "key": "B",
+          "label": "Hb＜85g/L",
+          "sourceText": "B.Hb＜85g/L"
+        },
+        {
+          "key": "C",
+          "label": "血钙≤2.65mmol/L",
+          "sourceText": "C.血钙≤2.65mmol/L"
+        },
+        {
+          "key": "D",
+          "label": "M蛋白量高（IgG＞70、IgA＞50、本周蛋白＞12）",
+          "sourceText": "D.M蛋白量高（IgG＞70、IgA＞50、本周蛋白＞12）"
+        },
+        {
+          "key": "E",
+          "label": "X线骨骼正常或骨型孤立性浆细胞瘤",
+          "sourceText": "E.X线骨骼正常或骨型孤立性浆细胞瘤"
+        },
+        {
+          "key": "F",
+          "label": "Hb＞100g/L",
+          "sourceText": "F.Hb＞100g/L"
+        },
+        {
+          "key": "G",
+          "label": "血肌酐≥177μmol/L，或肌酐清除率＜40ml/min",
+          "sourceText": "G.血肌酐≥177μmol/L，或肌酐清除率＜40ml/min"
+        },
+        {
+          "key": "H",
+          "label": "血钙＞2.65mmol/L",
+          "sourceText": "H.血钙＞2.65mmol/L"
+        },
+        {
+          "key": "I",
+          "label": "M蛋白量低（IgG＜50、IgA＜30、本周蛋白＜4）",
+          "sourceText": "I.M蛋白量低（IgG＜50、IgA＜30、本周蛋白＜4）"
+        },
+        {
+          "key": "J",
+          "label": "X线溶骨病灶＞3个",
+          "sourceText": "J.X线溶骨病灶＞3个"
+        }
+      ],
+      "stems": [
+        {
           "text": "Ⅰ期A亚型",
           "answer": [
             "A",
@@ -13222,8 +13460,8 @@
             "I",
             "F"
           ],
-          "sourceText": "I期A亚型A+C+E+I+F",
-          "sourceY": 968.0,
+          "sourceText": "Ⅰ期A亚型 ACEIF",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -13235,8 +13473,8 @@
             "I",
             "F"
           ],
-          "sourceText": "I期B亚型（C+E+G+I+F",
-          "sourceY": 1018.0,
+          "sourceText": "Ⅰ期B亚型 CEGIF",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -13248,8 +13486,8 @@
             "H",
             "J"
           ],
-          "sourceText": "（A+B/D/H/J",
-          "sourceY": 1067.0,
+          "sourceText": "Ⅲ期A亚型 ABDHJ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -13261,34 +13499,86 @@
             "H",
             "J"
           ],
-          "sourceText": "川期B亚型（G+B/D/H/J",
-          "sourceY": 1116.0,
+          "sourceText": "Ⅲ期B亚型 GBDHJ",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "骨髓瘤Durie-Salmon分期（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-32"
+      ]
+    },
+    {
+      "id": "p49-g3",
+      "page": 49,
+      "title": "骨髓瘤移植适应证与治疗方案",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "VD：硼替佐米+地塞米松",
+          "sourceText": "A.VD：硼替佐米+地塞米松"
         },
+        {
+          "key": "B",
+          "label": "MVP：美法仑/马法兰+硼替佐米+泼尼松",
+          "sourceText": "B.MVP：美法仑/马法兰+硼替佐米+泼尼松"
+        },
+        {
+          "key": "C",
+          "label": "C+H：硼替佐米+地塞米松",
+          "sourceText": "C.C+H：硼替佐米+地塞米松"
+        },
+        {
+          "key": "D",
+          "label": "RD：来那度胺+地塞米松",
+          "sourceText": "D.RD：来那度胺+地塞米松"
+        },
+        {
+          "key": "E",
+          "label": "F+H：来那度胺+地塞米松",
+          "sourceText": "E.F+H：来那度胺+地塞米松"
+        },
+        {
+          "key": "F",
+          "label": "C+E+G：美法仑/马法兰+硼替佐米+泼尼松",
+          "sourceText": "F.C+E+G：美法仑/马法兰+硼替佐米+泼尼松"
+        }
+      ],
+      "stems": [
         {
           "text": "移植候选者",
           "answer": [
-            "F",
-            "H"
+            "A",
+            "C",
+            "D",
+            "E"
           ],
-          "sourceText": "移植候选者AC+HDF+H",
-          "sourceY": 1263.0,
+          "sourceText": "移植候选者 ACDE",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
           "text": "不适合移植者",
           "answer": [
+            "A",
+            "B",
             "C",
+            "D",
             "E",
-            "G"
+            "F"
           ],
-          "sourceText": "不适合移植者AC+HDF+HBC+E+G",
-          "sourceY": 1312.0,
+          "sourceText": "不适合移植者 ABCDEF",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "骨髓瘤 | A.多克隆免疫球蛋白√→感染 | B.骨髓瘤多破坏脊椎尤其腰骶部、胸骨、肋骨、颅骨等含造血骨髓的骨骼(扁骨-构成腔)，患者常有腰痛、胸痛 | C.部分M蛋白为冷球蛋白，可致雷诺现象 | D.本周/游离轻链蛋白 | E.凿孔样溶骨损害 | F.出血倾向：血小板减少、血小板功能异常(被M蛋白包裹)、凝血异常、血管壁受损 | G.骨质疏松 | H.尿本周蛋白、伴或不伴血尿(溢出性蛋白尿) | 1.本周/游离重链蛋白 | J.病理骨折 | K.高尿酸 | L.高钙血症 | M.寒冷引起小动脉阵发性痉挛，呈周期性的苍白、发冷、青紫疼痛、潮红后复原 | N.贫血 | O.淀粉样变性 | P.低血钙 | Q.可有全血细胞减少 | R.髓外浸润：肝、脾、淋巴结、肾等 | S.钱状红细胞、ESR快 | T.静脉肾盂造影 | U.慢性肾衰竭 | 问： | 主要是骨髓瘤细胞浸润破坏所致（BEGJLNQR | 主要是免疫球蛋白或片段（M蛋白）所致（ACFMOS | 主要是肾功能损害CDHKLMORU | 慢性肾衰竭CDKLMOR | A.血肌酐<177、或肌酐清除率>40 | B.Hb<85 | I期A亚型A+C+E+I+F | C.血钙≤2.65 | D.M蛋白量高(lgG>70、IgA>50、本周蛋白>12) | I期B亚型（C+E+G+I+F | E.X线骨骼正常或骨型孤立性浆细胞瘤 | F.Hb >100 | （A+B/D/H/J | 川期A亚型 | G.血肌酐≥177、或肌酐清除率<40 | H.血钙>2.65 | 川期B亚型（G+B/D/H/J | 1.M蛋白量低(lgG<50、lgA<30、本周蛋白<4) | J.X线溶骨病灶>3个 | A.VD | 移植候选者AC+HDF+H | B.MVP | C.硼替佐米 | 不适合移植者AC+HDF+HBC+E+G | D.RD | E.美法仑/马法兰 | F.来那度胺 | G.泼尼松 | H.地塞米松 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "骨髓瘤移植适应证与治疗方案（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-32"
@@ -13868,7 +14158,7 @@
           "answer": [
             "A"
           ],
-          "sourceText": "急性白血病A",
+          "sourceText": "急性白血病 A",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -13877,13 +14167,13 @@
           "answer": [
             "B"
           ],
-          "sourceText": "慢性白血病B",
+          "sourceText": "慢性白血病 B",
           "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "白血病分化停滞（已按讲义规范化）",
-      "reviewState": "已按讲义校对",
+      "sourceText": "白血病分化停滞（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-34"
@@ -13898,18 +14188,18 @@
       "options": [
         {
           "key": "A",
-          "label": "原始、幼淋巴细胞以大细胞（>12μm）为主",
-          "sourceText": "A.原始、幼淋巴细胞以大细胞（>12μm）为主"
+          "label": "原始、幼淋巴细胞以大细胞（＞12μm）为主",
+          "sourceText": "A.原始、幼淋巴细胞以大细胞（＞12μm）为主"
         },
         {
           "key": "B",
-          "label": "原始、幼淋巴细胞以大细胞（>12μm）为主，细胞内有明显空泡",
-          "sourceText": "B.原始、幼淋巴细胞以大细胞（>12μm）为主，细胞内有明显空泡"
+          "label": "原始、幼淋巴细胞以大细胞（＞12μm）为主，细胞内有明显空泡",
+          "sourceText": "B.原始、幼淋巴细胞以大细胞（＞12μm）为主，细胞内有明显空泡"
         },
         {
           "key": "C",
-          "label": "原始、幼淋巴细胞以小细胞（<12μm）为主",
-          "sourceText": "C.原始、幼淋巴细胞以小细胞（<12μm）为主"
+          "label": "原始、幼淋巴细胞以小细胞（＜12μm）为主",
+          "sourceText": "C.原始、幼淋巴细胞以小细胞（＜12μm）为主"
         }
       ],
       "stems": [
@@ -13918,7 +14208,7 @@
           "answer": [
             "C"
           ],
-          "sourceText": "L1C",
+          "sourceText": "L1 C",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -13927,7 +14217,7 @@
           "answer": [
             "A"
           ],
-          "sourceText": "L2A",
+          "sourceText": "L2 A",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -13936,13 +14226,13 @@
           "answer": [
             "B"
           ],
-          "sourceText": "L3/Burkitt型B",
+          "sourceText": "L3/Burkitt型 B",
           "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "ALL的FAB分型（已按讲义规范化）",
-      "reviewState": "已按讲义校对",
+      "sourceText": "ALL的FAB分型（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-34"
@@ -13957,13 +14247,13 @@
       "options": [
         {
           "key": "A",
-          "label": "骨髓原粒细胞占NEC≥30%，各阶段粒细胞≥20%",
-          "sourceText": "A.骨髓原粒细胞占NEC≥30%，各阶段粒细胞≥20%"
+          "label": "骨髓原粒细胞占NEC≥90%",
+          "sourceText": "A.骨髓原粒细胞占NEC≥90%"
         },
         {
           "key": "B",
-          "label": "骨髓原始细胞占NEC≥30%，粒细胞>50%",
-          "sourceText": "B.骨髓原始细胞占NEC≥30%，粒细胞>50%"
+          "label": "骨髓原始细胞占NEC≥30%，各阶段粒细胞＞20%",
+          "sourceText": "B.骨髓原始细胞占NEC≥30%，各阶段粒细胞＞20%"
         },
         {
           "key": "C",
@@ -13972,33 +14262,33 @@
         },
         {
           "key": "D",
-          "label": "骨髓原始细胞占NEC≥30%，红细胞>50%",
-          "sourceText": "D.骨髓原始细胞占NEC≥30%，红细胞>50%"
+          "label": "骨髓原始细胞占NEC≥30%，幼红细胞＞50%",
+          "sourceText": "D.骨髓原始细胞占NEC≥30%，幼红细胞＞50%"
         },
         {
           "key": "E",
-          "label": "骨髓原巨核细胞>30%，血小板抗原（+）",
-          "sourceText": "E.骨髓原巨核细胞>30%，血小板抗原（+）"
+          "label": "骨髓原巨核细胞＞30%，血小板抗原（+）",
+          "sourceText": "E.骨髓原巨核细胞＞30%，血小板抗原（+）"
         },
         {
           "key": "F",
-          "label": "骨髓原始细胞>30%，CD13/33阳性，无Auer小体",
-          "sourceText": "F.骨髓原始细胞>30%，CD13/33阳性，无Auer小体"
+          "label": "骨髓原始细胞＞30%（门槛），CD13/33阳性，无Auer小体",
+          "sourceText": "F.骨髓原始细胞＞30%（门槛），CD13/33阳性，无Auer小体"
         },
         {
           "key": "G",
-          "label": "骨髓原和幼单核细胞>30%，各阶段单核细胞>80%",
-          "sourceText": "G.骨髓原和幼单核细胞>30%，各阶段单核细胞>80%"
+          "label": "骨髓原和幼单核细胞占NEC＞30%，各阶段单核细胞＞80%",
+          "sourceText": "G.骨髓原和幼单核细胞占NEC＞30%，各阶段单核细胞＞80%"
         },
         {
           "key": "H",
-          "label": "骨髓早幼粒细胞占NEC>30%",
-          "sourceText": "H.骨髓早幼粒细胞占NEC>30%"
+          "label": "骨髓早幼粒细胞占NEC＞30%",
+          "sourceText": "H.骨髓早幼粒细胞占NEC＞30%"
         },
         {
           "key": "I",
-          "label": "骨髓早幼粒细胞占NEC>30%",
-          "sourceText": "I.骨髓早幼粒细胞占NEC>30%"
+          "label": "骨髓早幼粒细胞占NEC＞30%",
+          "sourceText": "I.骨髓早幼粒细胞占NEC＞30%"
         }
       ],
       "stems": [
@@ -14007,7 +14297,7 @@
           "answer": [
             "F"
           ],
-          "sourceText": "急髓微分化型M0F",
+          "sourceText": "急髓微分化型M0 F",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -14016,7 +14306,7 @@
           "answer": [
             "A"
           ],
-          "sourceText": "急粒未分化型M1A",
+          "sourceText": "急粒未分化型M1 A",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -14025,7 +14315,7 @@
           "answer": [
             "C"
           ],
-          "sourceText": "急粒部分分化型M2C",
+          "sourceText": "急粒部分分化型M2 C",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -14034,16 +14324,16 @@
           "answer": [
             "I"
           ],
-          "sourceText": "急性早幼粒M3（APL）I",
+          "sourceText": "急性早幼粒M3（APL） I",
           "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "急粒_单M4（AMML）",
+          "text": "急粒-单M4（AMML）",
           "answer": [
             "B"
           ],
-          "sourceText": "急粒_单M4（AMML）B",
+          "sourceText": "急粒-单M4（AMML） B",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -14052,7 +14342,7 @@
           "answer": [
             "H"
           ],
-          "sourceText": "急单M5H",
+          "sourceText": "急单M5 H",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -14061,7 +14351,7 @@
           "answer": [
             "D"
           ],
-          "sourceText": "红白血病M6D",
+          "sourceText": "红白血病M6 D",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -14070,13 +14360,13 @@
           "answer": [
             "E"
           ],
-          "sourceText": "急巨核M7E",
+          "sourceText": "急巨核M7 E",
           "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "AML的FAB分型（已按讲义规范化）",
-      "reviewState": "已按讲义校对",
+      "sourceText": "AML的FAB分型（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-34"
@@ -14149,7 +14439,7 @@
             "G",
             "J"
           ],
-          "sourceText": "正常骨髓造血功能受抑制的表现BEGJ",
+          "sourceText": "正常骨髓造血功能受抑制的表现 BEGJ",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -14163,7 +14453,7 @@
             "H",
             "I"
           ],
-          "sourceText": "白血病细胞增殖浸润的表现ACDFHI",
+          "sourceText": "白血病细胞增殖浸润的表现 ACDFHI",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -14172,7 +14462,7 @@
           "answer": [
             "D"
           ],
-          "sourceText": "M2多见D",
+          "sourceText": "M2多见 D",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -14181,7 +14471,7 @@
           "answer": [
             "F"
           ],
-          "sourceText": "M4多见F",
+          "sourceText": "M4多见 F",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -14190,13 +14480,13 @@
           "answer": [
             "F"
           ],
-          "sourceText": "M5多见F",
+          "sourceText": "M5多见 F",
           "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "白血病的临床表现（已按讲义规范化）",
-      "reviewState": "已按讲义校对",
+      "sourceText": "白血病的临床表现（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-34"
@@ -14205,7 +14495,7 @@
     {
       "id": "p53-g1",
       "page": 53,
-      "title": "中枢白血病",
+      "title": "中枢白血病与睾丸白血病",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -14252,7 +14542,7 @@
         {
           "key": "I",
           "label": "糖皮质激素",
-          "sourceText": "1.糖皮质激素"
+          "sourceText": "I.糖皮质激素"
         },
         {
           "key": "J",
@@ -14261,23 +14551,8 @@
         },
         {
           "key": "K",
-          "label": "头痛、呕吐、颈项强直，脑脊液内原始或幼稚细胞",
-          "sourceText": "K.头痛、呕吐、颈项强直，脑脊液内原始或幼稚细胞"
-        },
-        {
-          "key": "L",
-          "label": "CD14",
-          "sourceText": "L.CD14"
-        },
-        {
-          "key": "M",
-          "label": "t(8;21)(q22;q22)→>RUNX-RUNXiT",
-          "sourceText": "M.t(8;21)(q22;q22)→>RUNX-RUNXiT"
-        },
-        {
-          "key": "N",
-          "label": "MPO/POX 强(+)",
-          "sourceText": "N.MPO/POX 强(+)"
+          "label": "头痛、呕吐、颈项强直，脑脊液内有原始或幼稚细胞",
+          "sourceText": "K.头痛、呕吐、颈项强直，脑脊液内有原始或幼稚细胞"
         }
       ],
       "stems": [
@@ -14292,8 +14567,8 @@
             "I",
             "K"
           ],
-          "sourceText": "中枢白血病（BDEFHIK",
-          "sourceY": 40.0,
+          "sourceText": "中枢白血病 BDEFHIK",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -14304,8 +14579,8 @@
             "G",
             "J"
           ],
-          "sourceText": "睾丸白血病ACGJ",
-          "sourceY": 88.0,
+          "sourceText": "睾丸白血病 ACGJ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -14313,18 +14588,90 @@
           "answer": [
             "F"
           ],
-          "sourceText": "中枢白血病治疗首选（F",
-          "sourceY": 138.0,
+          "sourceText": "中枢白血病治疗首选 F",
+          "sourceY": 0,
           "answerMode": "单选"
+        }
+      ],
+      "sourceText": "中枢白血病与睾丸白血病（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-34"
+      ]
+    },
+    {
+      "id": "p53-g2",
+      "page": 53,
+      "title": "白血病细胞来源与免疫表型",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "表达CD13/33/117",
+          "sourceText": "A.表达CD13/33/117"
         },
+        {
+          "key": "B",
+          "label": "CD19/20/79a等",
+          "sourceText": "B.CD19/20/79a等"
+        },
+        {
+          "key": "C",
+          "label": "CD14",
+          "sourceText": "C.CD14"
+        },
+        {
+          "key": "D",
+          "label": "CD1/2/3/4/5/7/8等",
+          "sourceText": "D.CD1/2/3/4/5/7/8等"
+        },
+        {
+          "key": "E",
+          "label": "表达CD9",
+          "sourceText": "E.表达CD9"
+        },
+        {
+          "key": "F",
+          "label": "CD16/56",
+          "sourceText": "F.CD16/56"
+        },
+        {
+          "key": "G",
+          "label": "血小板GP",
+          "sourceText": "G.血小板GP"
+        },
+        {
+          "key": "H",
+          "label": "血型糖蛋白",
+          "sourceText": "H.血型糖蛋白"
+        },
+        {
+          "key": "I",
+          "label": "不表达CD34和HLA-DR",
+          "sourceText": "I.不表达CD34和HLA-DR"
+        },
+        {
+          "key": "J",
+          "label": "CD41/61",
+          "sourceText": "J.CD41/61"
+        },
+        {
+          "key": "K",
+          "label": "CD10",
+          "sourceText": "K.CD10"
+        }
+      ],
+      "stems": [
         {
           "text": "B淋巴细胞来源",
           "answer": [
             "B",
             "K"
           ],
-          "sourceText": "B淋巴细胞来源（BK",
-          "sourceY": 400.0,
+          "sourceText": "B淋巴细胞来源 BK",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -14333,8 +14680,8 @@
             "D",
             "K"
           ],
-          "sourceText": "T淋巴细胞来源（DK",
-          "sourceY": 451.0,
+          "sourceText": "T淋巴细胞来源 DK",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -14342,8 +14689,8 @@
           "answer": [
             "F"
           ],
-          "sourceText": "NK细胞来源（F",
-          "sourceY": 499.0,
+          "sourceText": "NK细胞来源 F",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -14353,45 +14700,82 @@
             "E",
             "I"
           ],
-          "sourceText": "M3型（AEI",
-          "sourceY": 548.0,
+          "sourceText": "M3型 AEI",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "单核细胞来源",
+          "text": "单核细胞来源（M4、M5型）",
           "answer": [
-            "M"
+            "C"
           ],
-          "sourceText": "单核细胞来源(M4、M5型)（C",
-          "sourceY": 598.0,
+          "sourceText": "单核细胞来源（M4、M5型） C",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "红细胞来源",
+          "text": "红细胞来源（M6型）",
           "answer": [
-            "M"
+            "H"
           ],
-          "sourceText": "红细胞来源(M6型)H",
-          "sourceY": 646.0,
+          "sourceText": "红细胞来源（M6型） H",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "巨核细胞来源",
+          "text": "巨核细胞来源（M7型）",
           "answer": [
             "G",
             "J"
           ],
-          "sourceText": "巨核细胞来源(M7型）（GJ",
-          "sourceY": 696.0,
+          "sourceText": "巨核细胞来源（M7型） GJ",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "白血病细胞来源与免疫表型（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-34"
+      ]
+    },
+    {
+      "id": "p53-g3",
+      "page": 53,
+      "title": "AML细胞遗传学与预后",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "t(15;17)(q22;q12)形成PML-RARA",
+          "sourceText": "A.t(15;17)(q22;q12)形成PML-RARA"
         },
+        {
+          "key": "B",
+          "label": "t(8;21)(q22;q22)形成RUNX-RUNX1T1（AML1-ETO）",
+          "sourceText": "B.t(8;21)(q22;q22)形成RUNX-RUNX1T1（AML1-ETO）"
+        },
+        {
+          "key": "C",
+          "label": "t(9;22)(q34;q11)形成BCR-ABL、t(6;9)、11q23异常、-5/5q-、-7",
+          "sourceText": "C.t(9;22)(q34;q11)形成BCR-ABL、t(6;9)、11q23异常、-5/5q-、-7"
+        },
+        {
+          "key": "D",
+          "label": "t(16;16)(p13;q22)形成CBFB-MYH11，M4Eo型可出现inv(16)",
+          "sourceText": "D.t(16;16)(p13;q22)形成CBFB-MYH11，M4Eo型可出现inv(16)"
+        }
+      ],
+      "stems": [
         {
           "text": "M2型",
           "answer": [
             "B"
           ],
-          "sourceText": "M2型B",
-          "sourceY": 813.0,
+          "sourceText": "M2型 B",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -14399,8 +14783,8 @@
           "answer": [
             "A"
           ],
-          "sourceText": "M3型A",
-          "sourceY": 865.0,
+          "sourceText": "M3型 A",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -14408,8 +14792,8 @@
           "answer": [
             "D"
           ],
-          "sourceText": "M4型D",
-          "sourceY": 913.0,
+          "sourceText": "M4型 D",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -14419,8 +14803,8 @@
             "B",
             "D"
           ],
-          "sourceText": "预后良好ABD",
-          "sourceY": 962.0,
+          "sourceText": "预后良好 ABD",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -14428,10 +14812,97 @@
           "answer": [
             "C"
           ],
-          "sourceText": "预后不良（C",
-          "sourceY": 1012.0,
+          "sourceText": "预后不良 C",
+          "sourceY": 0,
           "answerMode": "单选"
+        }
+      ],
+      "sourceText": "AML细胞遗传学与预后（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-34"
+      ]
+    },
+    {
+      "id": "p53-g4",
+      "page": 53,
+      "title": "AML各亚型临床与实验室特征",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "骨髓早幼粒细胞＞30%",
+          "sourceText": "A.骨髓早幼粒细胞＞30%"
         },
+        {
+          "key": "B",
+          "label": "最易绿色瘤",
+          "sourceText": "B.最易绿色瘤"
+        },
+        {
+          "key": "C",
+          "label": "MPO/POX（-）～（+），NSE（+）且NaF抑制（+）",
+          "sourceText": "C.MPO/POX（-）～（+），NSE（+）且NaF抑制（+）"
+        },
+        {
+          "key": "D",
+          "label": "骨髓原粒细胞30～89%",
+          "sourceText": "D.骨髓原粒细胞30～89%"
+        },
+        {
+          "key": "E",
+          "label": "各阶段单核细胞＞80%",
+          "sourceText": "E.各阶段单核细胞＞80%"
+        },
+        {
+          "key": "F",
+          "label": "t(15;17)(q22;q12)→PML-RARA",
+          "sourceText": "F.t(15;17)(q22;q12)→PML-RARA"
+        },
+        {
+          "key": "G",
+          "label": "最易DIC，成堆Auer小体",
+          "sourceText": "G.最易DIC，成堆Auer小体"
+        },
+        {
+          "key": "H",
+          "label": "CD13/33/117、9，不表达CD34和HLA-DR",
+          "sourceText": "H.CD13/33/117、9，不表达CD34和HLA-DR"
+        },
+        {
+          "key": "I",
+          "label": "MPO/POX（-）～（+）",
+          "sourceText": "I.MPO/POX（-）～（+）"
+        },
+        {
+          "key": "J",
+          "label": "最易牙龈增生肿胀、皮肤紫蓝色结节",
+          "sourceText": "J.最易牙龈增生肿胀、皮肤紫蓝色结节"
+        },
+        {
+          "key": "K",
+          "label": "NSE（-）～（+）",
+          "sourceText": "K.NSE（-）～（+）"
+        },
+        {
+          "key": "L",
+          "label": "CD14",
+          "sourceText": "L.CD14"
+        },
+        {
+          "key": "M",
+          "label": "t(8;21)(q22;q22)→RUNX-RUNX1T1",
+          "sourceText": "M.t(8;21)(q22;q22)→RUNX-RUNX1T1"
+        },
+        {
+          "key": "N",
+          "label": "MPO/POX强（+）",
+          "sourceText": "N.MPO/POX强（+）"
+        }
+      ],
+      "stems": [
         {
           "text": "急粒部分分化M2",
           "answer": [
@@ -14441,12 +14912,12 @@
             "K",
             "M"
           ],
-          "sourceText": "急粒部分分化M2（BDIKM",
-          "sourceY": 1140.0,
+          "sourceText": "急粒部分分化M2 BDIKM",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "急早幼粒M3/",
+          "text": "急早幼粒M3/APL",
           "answer": [
             "A",
             "F",
@@ -14455,8 +14926,8 @@
             "K",
             "N"
           ],
-          "sourceText": "急早幼粒M3/APLAFGHKN",
-          "sourceY": 1189.0,
+          "sourceText": "急早幼粒M3/APL AFGHKN",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -14468,20 +14939,15 @@
             "J",
             "L"
           ],
-          "sourceText": "急单M5CEIJ L",
-          "sourceY": 1238.0,
+          "sourceText": "急单M5 CEIJL",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "中枢白血病（BDEFHIK | A.次常见髓外浸润部位 | B.多见于儿童 | 睾丸白血病ACGJ | C.多为睾丸一侧无痛性肿大 | D.最常见髓外浸润部位 | 中枢白血病治疗首选（F | E.多用鞘内注射化疗 | F.甲氨蝶呤 | G.双侧睾丸局部放疗 | H.阿糖胞苷 | 1.糖皮质激素 | J.多见于幼儿和青年 | K.头痛、呕吐、颈项强直，脑脊液内原始或幼稚细胞 | B淋巴细胞来源（BK | A.表达CD13/33/117 | B.CD19/20/79a等 | T淋巴细胞来源（DK | C.CD14 | D.CD1/2/3/4/5/7/8等 | NK细胞来源（F | E.表达CD9 | F.CD16/56 | G.血小板GP | M3型（AEI | H.血型糖蛋白 | 1.不表达CD34和HLA-DR | 单核细胞来源(M4、M5型)（C | J.CD41/61 | 红细胞来源(M6型)H | K.CD10 | 巨核细胞来源(M7型）（GJ | A.t(15;17)(q22;q12)形成PML-RARA | M2型B | B.t(8;21)(q22;q22)形成RUNX-RUNXiT(AML1-ETO) | C.t(9;22)(q34;q11)形成BCR-ABL、t(6;9)、11q23异常、-5/5q-、-7 | M3型A | D.t(16;16)(p13;q22)形成CBFB-MYH11。M4Eo型可出现inv(16) | M4型D | 预后良好ABD | 预后不良（C | A.骨髓早幼粒>30% | 急粒部分分化M2（BDIKM | B.最易绿色瘤 | C.MPO/POX(-)~(+)NSE(+)且 NaF抑制(+) | 急早幼粒M3/APLAFGHKN | D.骨髓原粒30-89% | E.各阶段单核>80% | 急单M5CEIJ L | F.t(15;17)(q22;ql2)→PML-RARA | G.最易DIC、成堆Auer小体 | H.CD13/33/117、9，不表达CD34和HLA-DR | 1.MPO/POX(-)~(+) | J.最易牙龈增生肿胀、皮肤紫蓝色结节 | K.NSE(-)~(+) | L.CD14 | M.t(8;21)(q22;q22)→>RUNX-RUNXiT | N.MPO/POX 强(+) | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "AML各亚型临床与实验室特征（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-28",
-        "lecture-29",
-        "lecture-30",
-        "lecture-32",
-        "lecture-33",
         "lecture-34"
       ]
     },
@@ -18786,7 +19252,7 @@
     {
       "id": "p69-g1",
       "page": 69,
-      "title": "系统性硬化症",
+      "title": "风湿系统常见疾病鉴别",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -18797,13 +19263,13 @@
         },
         {
           "key": "B",
-          "label": "栋状指",
-          "sourceText": "B.栋状指"
+          "label": "杵状指",
+          "sourceText": "B.杵状指"
         },
         {
           "key": "C",
-          "label": "眶周上眼脸紫红色水肿斑",
-          "sourceText": "C.眶周上眼脸紫红色水肿斑"
+          "label": "眶周上眼睑紫红色水肿斑",
+          "sourceText": "C.眶周上眼睑紫红色水肿斑"
         },
         {
           "key": "D",
@@ -18812,8 +19278,8 @@
         },
         {
           "key": "E",
-          "label": "Gottron征(双手关节伸面脱屑性斑丘疹)",
-          "sourceText": "E.Gottron征(双手关节伸面脱屑性斑丘疹)"
+          "label": "Gottron征（双手关节伸面脱屑性斑丘疹）",
+          "sourceText": "E.Gottron征（双手关节伸面脱屑性斑丘疹）"
         },
         {
           "key": "F",
@@ -18833,7 +19299,7 @@
         {
           "key": "I",
           "label": "肺底爆裂音",
-          "sourceText": "1.肺底爆裂音"
+          "sourceText": "I.肺底爆裂音"
         },
         {
           "key": "J",
@@ -18859,21 +19325,6 @@
           "key": "N",
           "label": "单侧第一跖趾关节",
           "sourceText": "N.单侧第一跖趾关节"
-        },
-        {
-          "key": "O",
-          "label": "习惯性自发性流产",
-          "sourceText": "0.习惯性自发性流产"
-        },
-        {
-          "key": "P",
-          "label": "Sm",
-          "sourceText": "P.Sm"
-        },
-        {
-          "key": "Q",
-          "label": "血小板↓",
-          "sourceText": "Q.血小板↓"
         }
       ],
       "stems": [
@@ -18888,8 +19339,8 @@
             "K",
             "M"
           ],
-          "sourceText": "系统性硬化症（ABDFIKM",
-          "sourceY": 135.0,
+          "sourceText": "系统性硬化症 ABDFIKM",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -18901,8 +19352,8 @@
             "H",
             "J"
           ],
-          "sourceText": "炎症性肌病如皮肌炎（CEGHJ",
-          "sourceY": 181.0,
+          "sourceText": "炎症性肌病如皮肌炎 CEGHJ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -18911,12 +19362,114 @@
             "L",
             "N"
           ],
-          "sourceText": "痛风（LN",
-          "sourceY": 223.0,
+          "sourceText": "痛风 LN",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "风湿系统常见疾病鉴别（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "风湿",
+      "lectureIds": [
+        "lecture-43"
+      ]
+    },
+    {
+      "id": "p69-g2",
+      "page": 69,
+      "title": "系统性红斑狼疮相关抗体",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "抗红细胞抗体（Coombs试验）",
+          "sourceText": "A.抗红细胞抗体（Coombs试验）"
         },
         {
-          "text": "自身抗体；抗核抗体谱",
+          "key": "B",
+          "label": "抗核抗体ANA",
+          "sourceText": "B.抗核抗体ANA"
+        },
+        {
+          "key": "C",
+          "label": "狼疮抗凝物（梅毒血清试验假阳性）",
+          "sourceText": "C.狼疮抗凝物（梅毒血清试验假阳性）"
+        },
+        {
+          "key": "D",
+          "label": "抗双链dsDNA抗体",
+          "sourceText": "D.抗双链dsDNA抗体"
+        },
+        {
+          "key": "E",
+          "label": "抗血小板抗体",
+          "sourceText": "E.抗血小板抗体"
+        },
+        {
+          "key": "F",
+          "label": "抗可提取核抗原ENA抗体谱",
+          "sourceText": "F.抗可提取核抗原ENA抗体谱"
+        },
+        {
+          "key": "G",
+          "label": "抗心磷脂抗体",
+          "sourceText": "G.抗心磷脂抗体"
+        },
+        {
+          "key": "H",
+          "label": "抗神经元抗体",
+          "sourceText": "H.抗神经元抗体"
+        },
+        {
+          "key": "I",
+          "label": "SSA（Ro）",
+          "sourceText": "I.SSA（Ro）"
+        },
+        {
+          "key": "J",
+          "label": "抗β2糖蛋白抗体（β2-GPI）",
+          "sourceText": "J.抗β2糖蛋白抗体（β2-GPI）"
+        },
+        {
+          "key": "K",
+          "label": "SSB（La）",
+          "sourceText": "K.SSB（La）"
+        },
+        {
+          "key": "L",
+          "label": "RNP",
+          "sourceText": "L.RNP"
+        },
+        {
+          "key": "M",
+          "label": "血管血栓形成（可发生在所有血管）",
+          "sourceText": "M.血管血栓形成（可发生在所有血管）"
+        },
+        {
+          "key": "N",
+          "label": "rRNP（抗核糖体抗体）",
+          "sourceText": "N.rRNP（抗核糖体抗体）"
+        },
+        {
+          "key": "O",
+          "label": "习惯性自发性流产",
+          "sourceText": "O.习惯性自发性流产"
+        },
+        {
+          "key": "P",
+          "label": "Sm",
+          "sourceText": "P.Sm"
+        },
+        {
+          "key": "Q",
+          "label": "血小板↓",
+          "sourceText": "Q.血小板↓"
+        }
+      ],
+      "stems": [
+        {
+          "text": "自身抗体",
           "answer": [
             "B",
             "D",
@@ -18927,8 +19480,8 @@
             "N",
             "P"
           ],
-          "sourceText": "抗核抗体谱BDFIKLNP",
-          "sourceY": 653.0,
+          "sourceText": "自身抗体 BDFIKLNP",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -18941,8 +19494,8 @@
             "O",
             "Q"
           ],
-          "sourceText": "抗磷脂抗体（CGJMOQ",
-          "sourceY": 704.0,
+          "sourceText": "抗磷脂抗体 CGJMOQ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -18952,17 +19505,49 @@
             "E",
             "H"
           ],
-          "sourceText": "抗组织细胞抗体（AEH",
-          "sourceY": 750.0,
+          "sourceText": "抗组织细胞抗体 AEH",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "系统性红斑狼疮相关抗体（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "风湿",
+      "lectureIds": [
+        "lecture-44"
+      ]
+    },
+    {
+      "id": "p69-g3",
+      "page": 69,
+      "title": "SLE抗体的临床意义",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "抗核抗体ANA",
+          "sourceText": "A.抗核抗体ANA"
         },
+        {
+          "key": "B",
+          "label": "抗双链dsDNA抗体",
+          "sourceText": "B.抗双链dsDNA抗体"
+        },
+        {
+          "key": "C",
+          "label": "Sm（标记）",
+          "sourceText": "C.Sm（标记）"
+        }
+      ],
+      "stems": [
         {
           "text": "确诊和判断活动性最佳",
           "answer": [
             "B"
           ],
-          "sourceText": "确诊和判断活动性最佳（B）",
-          "sourceY": 1142.0,
+          "sourceText": "确诊和判断活动性最佳 B",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -18970,8 +19555,8 @@
           "answer": [
             "C"
           ],
-          "sourceText": "特异性最高C)",
-          "sourceY": 1161.0,
+          "sourceText": "特异性最高 C",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -18979,8 +19564,8 @@
           "answer": [
             "A"
           ],
-          "sourceText": "敏感性最高（A)",
-          "sourceY": 1187.0,
+          "sourceText": "敏感性最高 A",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -18989,8 +19574,8 @@
             "B",
             "C"
           ],
-          "sourceText": "标记BC",
-          "sourceY": 1215.0,
+          "sourceText": "标记 BC",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -18998,8 +19583,8 @@
           "answer": [
             "C"
           ],
-          "sourceText": "早期或不典型者诊断或回顾性诊断（C）",
-          "sourceY": 1239.0,
+          "sourceText": "早期或不典型者诊断或回顾性诊断 C",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -19007,8 +19592,8 @@
           "answer": [
             "B"
           ],
-          "sourceText": "与狼疮肾相关（B)",
-          "sourceY": 1264.0,
+          "sourceText": "与狼疮肾相关 B",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -19017,7 +19602,7 @@
             "A"
           ],
           "sourceText": "筛查 A",
-          "sourceY": 1288.0,
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -19025,20 +19610,16 @@
           "answer": [
             "A"
           ],
-          "sourceText": "阴性可排除SLE（A",
-          "sourceY": 1314.0,
+          "sourceText": "阴性可排除SLE A",
+          "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "风湿总论 | A.抗核仁抗体 | 系统性硬化症（ABDFIKM | B.栋状指 | C.眶周上眼脸紫红色水肿斑 | 炎症性肌病如皮肌炎（CEGHJ | D.指端溃疡 | E.Gottron征(双手关节伸面脱屑性斑丘疹) | 痛风（LN | F.雷诺现象 | G.颈部V形充血 | H.技工手 | 1.肺底爆裂音 | J.抗合成酶和Jo-1抗体 | K.抗Scl-70抗体 | L.起病急、夜间痛 | M.抗着丝点抗体 | N.单侧第一跖趾关节 | 系统性红斑狼疮 | A.抗红细胞抗体(Coombs试验） | 自身抗体 | B.抗核抗体ANA | 抗核抗体谱BDFIKLNP | C.狼疮抗凝物(梅毒血清试验假阳性) | D抗双链dsDNA抗体 | 抗磷脂抗体（CGJMOQ | E.抗血小板抗体 | F.抗可提取核抗原ENA抗体谱 | 抗组织细胞抗体（AEH | G.抗心磷脂抗体 | H.抗神经元抗体 | I.SSA (Ro) | J.抗β2糖蛋白抗体(β2-GPI) | K.SSB (La) | L.RNP | M.血管血栓形成(可发生在所有血管) | N.rRNP(抗核糖体抗体) | 0.习惯性自发性流产 | P.Sm | Q.血小板↓ | A.抗核抗体ANA | 确诊和判断活动性最佳（B） | B.抗双链dsDNA抗体 | 特异性最高C) | C.Sm(标记) | 敏感性最高（A) | 标记BC | 早期或不典型者诊断或回顾性诊断（C） | 与狼疮肾相关（B) | 筛查 A | 阴性可排除SLE（A | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "SLE抗体的临床意义（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "风湿",
       "lectureIds": [
-        "lecture-43",
-        "lecture-44",
-        "lecture-45",
-        "lecture-46",
-        "lecture-47"
+        "lecture-44"
       ]
     },
     {

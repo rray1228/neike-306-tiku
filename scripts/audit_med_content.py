@@ -67,6 +67,14 @@ def main() -> None:
     assert [item["label"] for item in by_id["p07-g1"]["options"]] == ["多无咯血", "长期咳痰", "大量脓痰", "多有咯血和杵状指"]
     assert [stem["text"] for stem in by_id["p07-g1"]["stems"]] == ["支气管扩张症", "COPD"]
     assert len(by_id["p19-g1"]["stems"]) == 7, "p19 comparison bank was merged or truncated"
+    assert [group["id"] for group in payload["groups"] if group["page"] == 46] == ["p46-g1", "p46-g2", "p46-g3"]
+    assert [group["id"] for group in payload["groups"] if group["page"] == 49] == ["p49-g1", "p49-g2", "p49-g3"]
+    assert [group["id"] for group in payload["groups"] if group["page"] == 52] == ["p52-g1", "p52-g2", "p52-g3", "p52-g4"]
+    assert [group["id"] for group in payload["groups"] if group["page"] == 53] == ["p53-g1", "p53-g2", "p53-g3", "p53-g4"]
+    assert [group["id"] for group in payload["groups"] if group["page"] == 69] == ["p69-g1", "p69-g2", "p69-g3"]
+    assert by_id["p46-g3"]["stems"][-1]["answer"] == list("FHI")
+    assert by_id["p53-g1"]["stems"][1]["answer"] == list("ACGJ")
+    assert by_id["p69-g1"]["options"][1]["label"] == "杵状指"
     assert len([group for group in payload["groups"] if group["page"] == 61]) == 3
     assert len([group for group in payload["groups"] if group["page"] == 64]) == 2
     assert by_id["p64-g1"]["topic"] == "内分泌"

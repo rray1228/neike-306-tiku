@@ -308,46 +308,6 @@ function StemRow({ group, stem, index, selection, submitted, onSelect }) {
   )
 }
 
-function knowledgeSnippets(group, lectures) {
-  const raw = [group.title, ...group.stems.map((stem) => stem.text)].join(' ')
-  const keywords = unique([
-    ...(raw.match(/[\u4e00-\u9fff]{2,8}/g) || []),
-    ...(raw.match(/[A-Z][A-Z0-9-]{1,}/g) || []),
-  ]).filter((word) => !['内科', '表现', '治疗', '诊断', '患者', '疾病', '相关', '小结', '问'].includes(word))
-  const candidates = []
-  for (const lecture of lectures) {
-    const lines = (lecture.text || '').split(/\n+/).map((line) => line.trim()).filter((line) => line.length >= 14 && line.length <= 320)
-    for (const line of lines) {
-      const score = keywords.reduce((total, keyword) => total + (line.includes(keyword) ? 1 : 0), 0)
-      if (score > 0) candidates.push({ lecture, line, score })
-    }
-  }
-  candidates.sort((a, b) => b.score - a.score || a.line.length - b.line.length)
-  const picked = []
-  for (const candidate of candidates) {
-    if (picked.some((item) => item.line === candidate.line)) continue
-    picked.push(candidate)
-    if (picked.length >= 4) break
-  }
-  return picked.length ? picked : lectures.slice(0, 2).map((lecture) => ({ lecture, line: lecture.excerpt, score: 0 }))
-}
-
-function KnowledgePanel({ group, lectures }) {
-  const snippets = useMemo(() => knowledgeSnippets(group, lectures), [group, lectures])
-  const [copied, setCopied] = useState(false)
-  const copyText = async () => {
-    const text = snippets.map((item) => `${item.lecture.title}\n${item.line}`).join('\n\n')
-    try {
-      await navigator.clipboard.writeText(text)
-      setCopied(true)
-      window.setTimeout(() => setCopied(false), 1500)
-    } catch {
-      setCopied(false)
-    }
-  }
-  return <div className="evidence-section knowledge-section"><div className="evidence-title"><span className="knowledge-icon"><Icon name="file" size={18} /></span><div><h2>讲义知识点</h2><p>从对应PDF提取，可复制到笔记</p></div><button className="copy-button" onClick={copyText}>{copied ? '已复制' : '复制文字'}</button></div><div className="knowledge-body">{snippets.map((item, index) => <article className="knowledge-snippet" key={`${item.lecture.id}-${index}`}><span>{item.lecture.title}</span><p>{item.line}</p></article>)}</div></div>
-}
-
 function EvidencePanel({ group, page, submitted, showSource, setShowSource, mobileEvidence, setMobileEvidence }) {
   const lectureItems = group.lectureIds.map((id) => content.lectures.find((lecture) => lecture.id === id)).filter(Boolean)
   return (
@@ -356,7 +316,6 @@ function EvidencePanel({ group, page, submitted, showSource, setShowSource, mobi
         {lectureItems.slice(0, 4).map((lecture) => <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 份 · {lecture.pageCount} 页</span></div><span className="relevance">相关</span></div>)}
         <div className="all-lectures">查看全部 57 份讲义 <Icon name="right" size={15} /></div>
       </div>
-      <KnowledgePanel group={group} lectures={lectureItems} />
       <div className="evidence-section correction-section"><div className="evidence-title"><span className="correction-icon"><Icon name="alert" size={18} /></span><div><h2>勘误说明</h2><p>{submitted ? '已显示原题答案与讲义依据' : '提交后显示逐题核对'}</p></div><button className="panel-close" aria-label="展开勘误"><Icon name="chevron" size={16} /></button></div><div className="correction-body"><div className="source-line"><span>原题来源</span><strong>学成选择题（扫描版） · 第 {group.page} 页</strong></div><p>该题组的蓝色答案已从原图保存。没有强行改成普通单选题；需要看到原图中的共用选项和题干关系时，可打开原题页。</p>{group.stems.map((stem, index) => { const note = CORRECTIONS[`${group.id}:${index}`]; return note ? <div className="manual-note" key={index}><strong>{note.title}</strong><p>{note.body}</p></div> : null })}<button className="source-button" onClick={() => setShowSource(true)}><Icon name="eye" size={16} />查看原题页（第 {group.page} 页）</button></div></div>
       <div className="source-thumb"><img src={page?.image} alt={`题库原题第 ${group.page} 页`} /><button onClick={() => setShowSource(true)}><Icon name="eye" size={16} /></button></div>
     </aside>
