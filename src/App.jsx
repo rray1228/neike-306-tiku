@@ -77,6 +77,12 @@ function unique(values) {
   return [...new Set(values)]
 }
 
+function assetPath(path) {
+  if (!path) return path
+  const base = import.meta.env.BASE_URL || '/'
+  return `${base}${String(path).replace(/^\/+/, '')}`
+}
+
 function answerLetters(stem) {
   return unique((stem.answer || []).map((item) => String(item)))
 }
@@ -317,7 +323,7 @@ function EvidencePanel({ group, page, submitted, showSource, setShowSource, mobi
         <div className="all-lectures">查看全部 57 份讲义 <Icon name="right" size={15} /></div>
       </div>
       <div className="evidence-section correction-section"><div className="evidence-title"><span className="correction-icon"><Icon name="alert" size={18} /></span><div><h2>勘误说明</h2><p>{submitted ? '已显示原题答案与讲义依据' : '提交后显示逐题核对'}</p></div><button className="panel-close" aria-label="展开勘误"><Icon name="chevron" size={16} /></button></div><div className="correction-body"><div className="source-line"><span>原题来源</span><strong>学成选择题（扫描版） · 第 {group.page} 页</strong></div><p>该题组的蓝色答案已从原图保存。没有强行改成普通单选题；需要看到原图中的共用选项和题干关系时，可打开原题页。</p>{group.stems.map((stem, index) => { const note = CORRECTIONS[`${group.id}:${index}`]; return note ? <div className="manual-note" key={index}><strong>{note.title}</strong><p>{note.body}</p></div> : null })}<button className="source-button" onClick={() => setShowSource(true)}><Icon name="eye" size={16} />查看原题页（第 {group.page} 页）</button></div></div>
-      <div className="source-thumb"><img src={page?.image} alt={`题库原题第 ${group.page} 页`} /><button onClick={() => setShowSource(true)}><Icon name="eye" size={16} /></button></div>
+      <div className="source-thumb"><img src={assetPath(page?.image)} alt={`题库原题第 ${group.page} 页`} /><button onClick={() => setShowSource(true)}><Icon name="eye" size={16} /></button></div>
     </aside>
   )
 }
@@ -327,7 +333,7 @@ function EmptyEvidence() {
 }
 
 function SourceModal({ group, page, onClose }) {
-  return <div className="modal-backdrop" onClick={onClose}><div className="source-modal" onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>原题页</span><h2>{group.topic} · 第 {group.page} 页</h2></div><button className="icon-button" onClick={onClose} aria-label="关闭"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap"><img src={page?.image} alt={`原题页 ${group.page}`} /></div><div className="modal-footer"><span>图片来自“西综-学成选择题（内科汇总去胶带版）.pdf”</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
+  return <div className="modal-backdrop" onClick={onClose}><div className="source-modal" onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>原题页</span><h2>{group.topic} · 第 {group.page} 页</h2></div><button className="icon-button" onClick={onClose} aria-label="关闭"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap"><img src={assetPath(page?.image)} alt={`原题页 ${group.page}`} /></div><div className="modal-footer"><span>图片来自“西综-学成选择题（内科汇总去胶带版）.pdf”</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
 }
 
 export default App

@@ -1,7 +1,16 @@
 node_modules/
 .pnpm-store/
 dist/
+dist-pages/
 .next/
 .wrangler/
+.vercel/
+coverage/
+playwright-report/
+test-results/
+.cache/
 *.log
 .DS_Store
+.env
+.env.*
+!.env.example
