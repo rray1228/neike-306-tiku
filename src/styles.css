@@ -23,6 +23,7 @@ button, input, select { font: inherit; }
 button { cursor: pointer; }
 button:disabled { cursor: default; }
 .app-shell { min-height: 100vh; background: linear-gradient(180deg, #fafbfd 0, #f7f9fc 100%); }
+.site-watermark { position: fixed; right: max(12px, env(safe-area-inset-right)); bottom: max(10px, env(safe-area-inset-bottom)); z-index: 1; display: flex; flex-direction: column; align-items: flex-end; gap: 2px; padding: 4px 7px; border-radius: 6px; color: rgba(49,70,96,.48); background: rgba(255,255,255,.48); font-size: 10px; line-height: 1.3; letter-spacing: .02em; pointer-events: none; user-select: none; white-space: nowrap; }
 .topbar { height: 72px; padding: 0 24px; display: flex; align-items: center; gap: 26px; border-bottom: 1px solid var(--line); background: rgba(255,255,255,.92); position: sticky; top: 0; z-index: 10; backdrop-filter: blur(18px); }
 .brand-lockup { display: flex; align-items: center; gap: 13px; min-width: 320px; }
 .brand-mark { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 8px; background: #2466d7; box-shadow: 0 7px 16px rgba(36,102,215,.22); }
@@ -237,4 +238,5 @@ button:disabled { cursor: default; }
   .source-thumb { width: 100%; }
   .modal-backdrop { padding: 10px; }
   .modal-footer { align-items: flex-start; flex-direction: column; }
+  .site-watermark { right: max(8px, env(safe-area-inset-right)); bottom: max(8px, env(safe-area-inset-bottom)); padding: 3px 5px; font-size: 9px; }
 }

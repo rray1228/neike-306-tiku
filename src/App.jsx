@@ -291,6 +291,10 @@ function App() {
       </div>
 
       {showSource && <SourceModal group={group} page={currentPage} onClose={() => setShowSource(false)} />}
+      <div className="site-watermark" aria-hidden="true">
+        <span>内容制作byBi8bo</span>
+        <span>网站制作by戒不掉甜食</span>
+      </div>
     </div>
   )
 }
