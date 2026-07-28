@@ -12983,46 +12983,6 @@
           "key": "N",
           "label": "维生素K缺乏症",
           "sourceText": "N.维生素K缺乏症"
-        },
-        {
-          "key": "O",
-          "label": "凝血酶时间TT",
-          "sourceText": "O.凝血酶时间TT"
-        },
-        {
-          "key": "P",
-          "label": "PS",
-          "sourceText": "P.PS"
-        },
-        {
-          "key": "Q",
-          "label": "血管性血友病因子vWF",
-          "sourceText": "Q.血管性血友病因子vWF"
-        },
-        {
-          "key": "R",
-          "label": "D-二聚体",
-          "sourceText": "R.D-二聚体"
-        },
-        {
-          "key": "S",
-          "label": "FVIIl抗体",
-          "sourceText": "S.FVIIl抗体"
-        },
-        {
-          "key": "T",
-          "label": "纤溶酶原",
-          "sourceText": "T.纤溶酶原"
-        },
-        {
-          "key": "U",
-          "label": "狼疮抗凝物",
-          "sourceText": "U.狼疮抗凝物"
-        },
-        {
-          "key": "V",
-          "label": "t-PA",
-          "sourceText": "V.t-PA"
         }
       ],
       "stems": [
@@ -13081,9 +13041,142 @@
           "sourceText": "复合性止血机制异常（JM",
           "sourceY": 254.0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "血管壁异常（B | A.尿毒症 | B.过敏性紫癜(四肢对称分布) | 血小板数量减少DFHJL | C.肝硬化 | D.再障 | E.感染 | 血小板质量异常（AEGI | F.白血病 | G.血小板无力症 | 凝血异常（ACKN | H.ITP | 复合性止血机制异常（JM | 1.巨大血小板综合征 | J.DIC | K.血友病 | L.脾亢 | M.血管性血友病 | N.维生素K缺乏症 | BT | PT | APTT | 血管性血友病 | 延长 | 延长 | 正常 | 血友病 | 正常 | 延长 | 正常 | 填：延长or正常 | 血管检测（CFKNQ | A.活化部分凝血活酶时间APTT | B.心磷脂抗体 | 凝血检测ATO | C.出血时间BT | D.PAI | 抗凝检测BEJMNPSU | E.AT | F.束臂/毛细血管脆性试验CRT | G.鱼精蛋白副凝3P试验 | 纤溶检测（DGHLRTV | H.PIC | 1.凝血酶原时间PT | J.PC | K.内皮素ET | L.FDP | M.TAT(凝血酶-抗凝血酶复合物) | N.凝血酶/血栓调节蛋白TM | O.凝血酶时间TT | P.PS | Q.血管性血友病因子vWF | R.D-二聚体 | S.FVIIl抗体 | T.纤溶酶原 | U.狼疮抗凝物 | V.t-PA | 小红书号：385106504",
+      "sourceText": "血管壁异常（B） | 血小板数量减少（DFHJL） | 血小板质量异常（AEGI） | 凝血异常（ACKN） | 复合性止血机制异常（JM） | A.尿毒症 | B.过敏性紫癜(四肢对称分布) | C.肝硬化 | D.再障 | E.感染 | F.白血病 | G.血小板无力症 | H.ITP | I.巨大血小板综合征 | J.DIC | K.血友病 | L.脾亢 | M.血管性血友病 | N.维生素K缺乏症",
+      "reviewState": "已按原题页校正选项匹配",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-14",
+        "lecture-15",
+        "lecture-16",
+        "lecture-17",
+        "lecture-18",
+        "lecture-19"
+      ]
+    },
+    {
+      "id": "p47-g2",
+      "page": 47,
+      "title": "止血相关检测",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "活化部分凝血活酶时间APTT",
+          "sourceText": "A.活化部分凝血活酶时间APTT"
         },
         {
-          "text": "PT；APTT；延长；正常；延长；正常；血管检测",
+          "key": "B",
+          "label": "心磷脂抗体",
+          "sourceText": "B.心磷脂抗体"
+        },
+        {
+          "key": "C",
+          "label": "出血时间BT",
+          "sourceText": "C.出血时间BT"
+        },
+        {
+          "key": "D",
+          "label": "PAI",
+          "sourceText": "D.PAI"
+        },
+        {
+          "key": "E",
+          "label": "AT",
+          "sourceText": "E.AT"
+        },
+        {
+          "key": "F",
+          "label": "束臂/毛细血管脆性试验CRT",
+          "sourceText": "F.束臂/毛细血管脆性试验CRT"
+        },
+        {
+          "key": "G",
+          "label": "鱼精蛋白副凝3P试验",
+          "sourceText": "G.鱼精蛋白副凝3P试验"
+        },
+        {
+          "key": "H",
+          "label": "PIC",
+          "sourceText": "H.PIC"
+        },
+        {
+          "key": "I",
+          "label": "凝血酶原时间PT",
+          "sourceText": "I.凝血酶原时间PT"
+        },
+        {
+          "key": "J",
+          "label": "PC",
+          "sourceText": "J.PC"
+        },
+        {
+          "key": "K",
+          "label": "内皮素ET",
+          "sourceText": "K.内皮素ET"
+        },
+        {
+          "key": "L",
+          "label": "FDP",
+          "sourceText": "L.FDP"
+        },
+        {
+          "key": "M",
+          "label": "TAT(凝血酶-抗凝血酶复合物)",
+          "sourceText": "M.TAT(凝血酶-抗凝血酶复合物)"
+        },
+        {
+          "key": "N",
+          "label": "凝血酶/血栓调节蛋白TM",
+          "sourceText": "N.凝血酶/血栓调节蛋白TM"
+        },
+        {
+          "key": "O",
+          "label": "凝血酶时间TT",
+          "sourceText": "O.凝血酶时间TT"
+        },
+        {
+          "key": "P",
+          "label": "PS",
+          "sourceText": "P.PS"
+        },
+        {
+          "key": "Q",
+          "label": "血管性血友病因子vWF",
+          "sourceText": "Q.血管性血友病因子vWF"
+        },
+        {
+          "key": "R",
+          "label": "D-二聚体",
+          "sourceText": "R.D-二聚体"
+        },
+        {
+          "key": "S",
+          "label": "FVIII抗体",
+          "sourceText": "S.FVIII抗体"
+        },
+        {
+          "key": "T",
+          "label": "纤溶酶原",
+          "sourceText": "T.纤溶酶原"
+        },
+        {
+          "key": "U",
+          "label": "狼疮抗凝物",
+          "sourceText": "U.狼疮抗凝物"
+        },
+        {
+          "key": "V",
+          "label": "t-PA",
+          "sourceText": "V.t-PA"
+        }
+      ],
+      "stems": [
+        {
+          "text": "血管检测",
           "answer": [
             "C",
             "F",
@@ -13099,10 +13192,10 @@
           "text": "凝血检测",
           "answer": [
             "A",
-            "T",
+            "I",
             "O"
           ],
-          "sourceText": "凝血检测ATO",
+          "sourceText": "凝血检测AIO",
           "sourceY": 738.0,
           "answerMode": "多选"
         },
@@ -13138,8 +13231,8 @@
           "answerMode": "多选"
         }
       ],
-      "sourceText": "血管壁异常（B | A.尿毒症 | B.过敏性紫癜(四肢对称分布) | 血小板数量减少DFHJL | C.肝硬化 | D.再障 | E.感染 | 血小板质量异常（AEGI | F.白血病 | G.血小板无力症 | 凝血异常（ACKN | H.ITP | 复合性止血机制异常（JM | 1.巨大血小板综合征 | J.DIC | K.血友病 | L.脾亢 | M.血管性血友病 | N.维生素K缺乏症 | BT | PT | APTT | 血管性血友病 | 延长 | 延长 | 正常 | 血友病 | 正常 | 延长 | 正常 | 填：延长or正常 | 血管检测（CFKNQ | A.活化部分凝血活酶时间APTT | B.心磷脂抗体 | 凝血检测ATO | C.出血时间BT | D.PAI | 抗凝检测BEJMNPSU | E.AT | F.束臂/毛细血管脆性试验CRT | G.鱼精蛋白副凝3P试验 | 纤溶检测（DGHLRTV | H.PIC | 1.凝血酶原时间PT | J.PC | K.内皮素ET | L.FDP | M.TAT(凝血酶-抗凝血酶复合物) | N.凝血酶/血栓调节蛋白TM | O.凝血酶时间TT | P.PS | Q.血管性血友病因子vWF | R.D-二聚体 | S.FVIIl抗体 | T.纤溶酶原 | U.狼疮抗凝物 | V.t-PA | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "A.活化部分凝血活酶时间APTT | B.心磷脂抗体 | C.出血时间BT | D.PAI | E.AT | F.束臂/毛细血管脆性试验CRT | G.鱼精蛋白副凝3P试验 | H.PIC | I.凝血酶原时间PT | J.PC | K.内皮素ET | L.FDP | M.TAT(凝血酶-抗凝血酶复合物) | N.凝血酶/血栓调节蛋白TM | O.凝血酶时间TT | P.PS | Q.血管性血友病因子vWF | R.D-二聚体 | S.FVIII抗体 | T.纤溶酶原 | U.狼疮抗凝物 | V.t-PA | 血管检测（CFKNQ | 凝血检测AIO | 抗凝检测BEJMNPSU | 纤溶检测（DGHLRTV",
+      "reviewState": "已按原题页校正选项匹配",
       "topic": "血液",
       "lectureIds": [
         "lecture-14",
