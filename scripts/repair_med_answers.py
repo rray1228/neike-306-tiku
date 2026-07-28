@@ -15,6 +15,8 @@ import json
 import re
 from pathlib import Path
 
+from manual_med_review import apply_manual_review
+
 
 MANUAL = {
     # COPD treatment notes contain classification letters before the actual
@@ -606,6 +608,8 @@ def main() -> None:
             group["reviewState"] = "部分题干待原题页核对"
         elif group.get("reviewState") == "部分题干待原题页核对":
             group["reviewState"] = "待讲义复核"
+
+    apply_manual_review(payload)
 
     previous_repairs = int(payload.get("answerRepair", {}).get("changedStems", 0))
     payload.setdefault("answerRepair", {})["changedStems"] = max(previous_repairs, changed, 268)

@@ -30,6 +30,14 @@ const CORRECTIONS = {
     title: '讲义校对 · 高血压急症',
     body: '高血压急症降压节奏：1 小时内降幅不超过 25%，2–6 小时降至约 160/100 mmHg，24–48 小时逐步降至正常；不应一次性快速降到正常。',
   },
+  'p27-g1:0': {
+    title: '原题页待核对 · 选项池不完整',
+    body: '原图的溃疡性结肠炎答案泡含 Y，但页面可见选项只到 X。已保留可核实的答案并标为待核对，不把看不见的 Y 当作有效选项。',
+  },
+  'p66-g2:3': {
+    title: '原题页待核对 · 选项池不完整',
+    body: '原图“自主神经病变”的答案泡含 G，但该题左侧可见选项只到 F。已取消强行判分，待补齐原始选项后再恢复。',
+  },
 }
 
 function Icon({ name, size = 20, stroke = 'currentColor' }) {
@@ -82,7 +90,7 @@ function normalizeSelection(selection) {
 }
 
 function isUnresolvedStem(stem) {
-  return stem.answerState === '待原题页核对' || answerLetters(stem).length === 0
+  return stem.answerState === '待原题页核对' || stem.answerMode === '待核对' || answerLetters(stem).length === 0
 }
 
 function sameAnswer(a, b) {
