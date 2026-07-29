@@ -6774,9 +6774,10 @@
           "answer": [
             "A",
             "C",
-            "E"
+            "E",
+            "I"
           ],
-          "sourceText": "胃溃疡GUACED",
+          "sourceText": "胃溃疡GU ACEI",
           "sourceY": 143.0,
           "answerMode": "多选"
         },
