@@ -6810,7 +6810,7 @@
     {
       "id": "p23-g2",
       "page": 23,
-      "title": "肠鸣音↑",
+      "title": "肠鸣音变化",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -6841,8 +6841,8 @@
         },
         {
           "key": "F",
-          "label": "机械性肠梗阻(亢进呈金属音调)",
-          "sourceText": "F.机械性肠梗阻(亢进呈金属音调)"
+          "label": "机械性肠梗阻（亢进呈金属音调）",
+          "sourceText": "F.机械性肠梗阻（亢进呈金属音调）"
         },
         {
           "key": "G",
@@ -6857,7 +6857,7 @@
         {
           "key": "I",
           "label": "痉挛性肠梗阻",
-          "sourceText": "1.痉挛性肠梗阻"
+          "sourceText": "I.痉挛性肠梗阻"
         },
         {
           "key": "J",
@@ -6897,7 +6897,7 @@
             "N"
           ],
           "sourceText": "肠鸣音↑BDFILN",
-          "sourceY": 675,
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -6913,57 +6913,104 @@
             "M"
           ],
           "sourceText": "肠鸣音↓ACEGHJKM",
-          "sourceY": 732,
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "肠鸣音变化（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-14",
+        "lecture-15",
+        "lecture-16",
+        "lecture-17",
+        "lecture-18",
+        "lecture-19"
+      ]
+    },
+    {
+      "id": "p23-g3",
+      "page": 23,
+      "title": "上消化道出血量",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "可有黑便",
+          "sourceText": "A.可有黑便"
         },
         {
-          "text": "5ml",
+          "key": "B",
+          "label": "可有头晕、心悸、乏力等症状",
+          "sourceText": "B.可有头晕、心悸、乏力等症状"
+        },
+        {
+          "key": "C",
+          "label": "粪隐血试验阳性",
+          "sourceText": "C.粪隐血试验阳性"
+        },
+        {
+          "key": "D",
+          "label": "可有呕血",
+          "sourceText": "D.可有呕血"
+        },
+        {
+          "key": "E",
+          "label": "可休克",
+          "sourceText": "E.可休克"
+        }
+      ],
+      "stems": [
+        {
+          "text": "5 ml",
           "answer": [
             "C"
           ],
-          "sourceText": "5ml C",
-          "sourceY": 1152,
+          "sourceText": "5 mlC",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "50ml",
+          "text": "50 ml",
           "answer": [
             "A"
           ],
-          "sourceText": "50ml (A",
-          "sourceY": 1214,
+          "sourceText": "50 mlA",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "250ml",
+          "text": "250 ml",
           "answer": [
             "D"
           ],
-          "sourceText": "250ml(D",
-          "sourceY": 1272,
+          "sourceText": "250 mlD",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": ">400ml",
+          "text": ">400 ml",
           "answer": [
             "B"
           ],
-          "sourceText": ">400ml(B",
-          "sourceY": 1331,
+          "sourceText": ">400 mlB",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": ">800-1000ml",
+          "text": ">800–1000 ml",
           "answer": [
             "E"
           ],
-          "sourceText": ">800-1000ml(E",
-          "sourceY": 1388,
+          "sourceText": ">800–1000 mlE",
+          "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "A.麻痹性肠梗阻 | 问： | B.消化道出血 | 肠鸣音↑BDFILN | C.腹腔内出血 | D.肠道炎症和结核 | 肠鸣音↓ACEGHJKM | E.腹膜炎 | F.机械性肠梗阻(亢进呈金属音调) | G.腹水 | H.低血钾 | 1.痉挛性肠梗阻 | J.阿托品 | K.阿片药 | L.铅中毒 | M.中毒性巨结肠 | N.急性肠炎 | A.可有黑便 | 问：出血量 | B.可有头晕/心悸/乏力等症状 | 5ml C | C.粪隐血试验阳性 | D.可有呕血 | 50ml (A | E.可休克 | 250ml(D | >400ml(B | >800-1000ml(E | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "上消化道出血量（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "消化",
       "lectureIds": [
         "lecture-14",
@@ -6977,7 +7024,276 @@
     {
       "id": "p24-g1",
       "page": 24,
-      "title": "毕I式",
+      "title": "消化性溃疡并发症",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "多数与服用NSAIDs有关",
+          "sourceText": "A.多数与服用NSAIDs有关"
+        },
+        {
+          "key": "B",
+          "label": "呕血（多为咖啡样血液）、黑便",
+          "sourceText": "B.呕血（多为咖啡样血液）、黑便"
+        },
+        {
+          "key": "C",
+          "label": "背部痛",
+          "sourceText": "C.背部痛"
+        },
+        {
+          "key": "D",
+          "label": "突发上腹刀割样剧痛",
+          "sourceText": "D.突发上腹刀割样剧痛"
+        },
+        {
+          "key": "E",
+          "label": "餐后很快腹痛、反复呕吐（隔夜酸宿食、不含胆汁）",
+          "sourceText": "E.餐后很快腹痛、反复呕吐（隔夜酸宿食、不含胆汁）"
+        },
+        {
+          "key": "F",
+          "label": "肠鸣音↑",
+          "sourceText": "F.肠鸣音↑"
+        },
+        {
+          "key": "G",
+          "label": "肠鸣音↓",
+          "sourceText": "G.肠鸣音↓"
+        },
+        {
+          "key": "H",
+          "label": "急性腹膜炎：腹膜刺激征（压痛、反跳痛、肌紧张呈板状腹）",
+          "sourceText": "H.急性腹膜炎：腹膜刺激征（压痛、反跳痛、肌紧张呈板状腹）"
+        },
+        {
+          "key": "I",
+          "label": "低钾低氯碱中毒",
+          "sourceText": "I.低钾低氯碱中毒"
+        },
+        {
+          "key": "J",
+          "label": "肝浊音界缩小/消失（最有价值体征）",
+          "sourceText": "J.肝浊音界缩小/消失（最有价值体征）"
+        },
+        {
+          "key": "K",
+          "label": "GU癌变率<1%（边缘开始），DU不癌变",
+          "sourceText": "K.GU癌变率<1%（边缘开始），DU不癌变"
+        },
+        {
+          "key": "L",
+          "label": "胃酸缺乏",
+          "sourceText": "L.胃酸缺乏"
+        },
+        {
+          "key": "M",
+          "label": "有时可穿透至胰腺致淀粉酶增高",
+          "sourceText": "M.有时可穿透至胰腺致淀粉酶增高"
+        },
+        {
+          "key": "N",
+          "label": "胃型、胃蠕动波、振水音",
+          "sourceText": "N.胃型、胃蠕动波、振水音"
+        },
+        {
+          "key": "O",
+          "label": "有时可穿破入空腔器官形成瘘管",
+          "sourceText": "O.有时可穿破入空腔器官形成瘘管"
+        },
+        {
+          "key": "P",
+          "label": "疼痛与体重减轻最常见",
+          "sourceText": "P.疼痛与体重减轻最常见"
+        },
+        {
+          "key": "Q",
+          "label": "粪隐血可持续阳性",
+          "sourceText": "Q.粪隐血可持续阳性"
+        },
+        {
+          "key": "R",
+          "label": "可有转移性右下腹痛",
+          "sourceText": "R.可有转移性右下腹痛"
+        },
+        {
+          "key": "S",
+          "label": "胃溃疡病患者腹痛开始不规律",
+          "sourceText": "S.胃溃疡病患者腹痛开始不规律"
+        },
+        {
+          "key": "T",
+          "label": "若发热、右上腹痛、呕逆—膈下脓肿",
+          "sourceText": "T.若发热、右上腹痛、呕逆—膈下脓肿"
+        },
+        {
+          "key": "U",
+          "label": "保守治疗>8周无效",
+          "sourceText": "U.保守治疗>8周无效"
+        },
+        {
+          "key": "V",
+          "label": "可有穿孔性大出血（腹水>1000 ml）",
+          "sourceText": "V.可有穿孔性大出血（腹水>1000 ml）"
+        },
+        {
+          "key": "W",
+          "label": "不缓解→瘘痿性为主—内镜或胃大部切除术（术前用抗生素）",
+          "sourceText": "W.不缓解→瘘痿性为主—内镜或胃大部切除术（术前用抗生素）"
+        },
+        {
+          "key": "X",
+          "label": "已休克（收缩压<90 mmHg）首选补充血容量（补平衡盐溶液）",
+          "sourceText": "X.已休克（收缩压<90 mmHg）首选补充血容量（补平衡盐溶液）"
+        },
+        {
+          "key": "Y",
+          "label": "首先禁食补液、胃肠减压",
+          "sourceText": "Y.首先禁食补液、胃肠减压"
+        },
+        {
+          "key": "①",
+          "label": "缓解—痉挛或水肿性为主",
+          "sourceText": "①.缓解—痉挛或水肿性为主"
+        },
+        {
+          "key": "②",
+          "label": "首选X线：膈下新月形游离气体",
+          "sourceText": "②.首选X线：膈下新月形游离气体"
+        },
+        {
+          "key": "③",
+          "label": "补液（补KCl+平衡盐或5%葡萄糖盐水或生理盐水）",
+          "sourceText": "③.补液（补KCl+平衡盐或5%葡萄糖盐水或生理盐水）"
+        },
+        {
+          "key": "④",
+          "label": "手术为主，配合化疗",
+          "sourceText": "④.手术为主，配合化疗"
+        },
+        {
+          "key": "⑤",
+          "label": "腹腔穿刺：抽出黄色浑浊含胆汁食物残渣",
+          "sourceText": "⑤.腹腔穿刺：抽出黄色浑浊含胆汁食物残渣"
+        },
+        {
+          "key": "⑥",
+          "label": "高渗温盐水洗胃（减轻胃壁水肿）",
+          "sourceText": "⑥.高渗温盐水洗胃（减轻胃壁水肿）"
+        },
+        {
+          "key": "⑦",
+          "label": "内科无效可急症剖腹探查行贯穿缝扎术",
+          "sourceText": "⑦.内科无效可急症剖腹探查行贯穿缝扎术"
+        },
+        {
+          "key": "⑧",
+          "label": "对于饱餐后或弥漫性腹膜炎最佳治疗是修补缝合术（争取8小时内）",
+          "sourceText": "⑧.对于饱餐后或弥漫性腹膜炎最佳治疗是修补缝合术（争取8小时内）"
+        }
+      ],
+      "stems": [
+        {
+          "text": "出血",
+          "answer": [
+            "B",
+            "F",
+            "X",
+            "⑦"
+          ],
+          "sourceText": "出血BFX⑦",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "急性穿孔",
+          "answer": [
+            "D",
+            "G",
+            "H",
+            "J",
+            "R",
+            "T",
+            "V"
+          ],
+          "sourceText": "急性穿孔DGHJRTV",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "穿孔",
+          "answer": [
+            "A",
+            "Y",
+            "②",
+            "⑤",
+            "⑧"
+          ],
+          "sourceText": "穿孔AY②⑤⑧",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "慢性穿孔",
+          "answer": [
+            "C",
+            "M",
+            "O"
+          ],
+          "sourceText": "慢性穿孔CMO",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "幽门梗阻",
+          "answer": [
+            "E",
+            "I",
+            "N",
+            "W",
+            "Y",
+            "①",
+            "③",
+            "⑥"
+          ],
+          "sourceText": "幽门梗阻EINWY①③⑥",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "癌变",
+          "answer": [
+            "K",
+            "L",
+            "P",
+            "Q",
+            "S",
+            "U",
+            "④"
+          ],
+          "sourceText": "癌变KLPQSU④",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "消化性溃疡并发症（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-14",
+        "lecture-15",
+        "lecture-16",
+        "lecture-17",
+        "lecture-18",
+        "lecture-19"
+      ]
+    },
+    {
+      "id": "p24-g2",
+      "page": 24,
+      "title": "毕I式与毕II式",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -6988,8 +7304,8 @@
         },
         {
           "key": "B",
-          "label": "将十二指肠残端缝闭、旷置，作残胃和近端空肠吻合，吻合口直径3-4cm",
-          "sourceText": "B.将十二指肠残端缝闭、旷置，作残胃和近端空肠吻合，吻合口直径3-4cm"
+          "label": "将十二指肠残端缝闭、旷置，作残胃和近端空肠吻合，吻合口直径3–4 cm",
+          "sourceText": "B.将十二指肠残端缝闭、旷置，作残胃和近端空肠吻合，吻合口直径3–4 cm"
         },
         {
           "key": "E",
@@ -7021,23 +7337,23 @@
             "G"
           ],
           "sourceText": "毕I式AEG",
-          "sourceY": 1119,
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "毕I式",
+          "text": "毕II式",
           "answer": [
             "B",
             "F",
             "H"
           ],
-          "sourceText": "毕I式（BFH",
-          "sourceY": 1179,
+          "sourceText": "毕II式BFH",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "问： | A.适合I型胃溃疡 | 毕I式AEG | B.将十二指肠残端缝闭、旷置，作残胃和近端空肠吻合，吻合口直径3-4cm | E.并发症少，但吻合口张力高、溃疡易复发 | 毕I式（BFH | F.适合十二指肠溃疡等 | G.作残胃与十二指肠吻合 | H.复发率低，但并发症多",
-      "reviewState": "待讲义复核",
+      "sourceText": "毕I式与毕II式（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "消化",
       "lectureIds": [
         "lecture-14",
@@ -7051,7 +7367,103 @@
     {
       "id": "p25-g1",
       "page": 25,
-      "title": "术后早期并发症",
+      "title": "胃切除术胃肠吻合方式",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "部分胃断端",
+          "sourceText": "A.部分胃断端"
+        },
+        {
+          "key": "B",
+          "label": "输入段对胃大弯",
+          "sourceText": "B.输入段对胃大弯"
+        },
+        {
+          "key": "C",
+          "label": "结肠后",
+          "sourceText": "C.结肠后"
+        },
+        {
+          "key": "D",
+          "label": "输入段对胃小弯",
+          "sourceText": "D.输入段对胃小弯"
+        },
+        {
+          "key": "E",
+          "label": "结肠前",
+          "sourceText": "E.结肠前"
+        },
+        {
+          "key": "F",
+          "label": "全部胃断端",
+          "sourceText": "F.全部胃断端"
+        }
+      ],
+      "stems": [
+        {
+          "text": "Hoffmeister法",
+          "answer": [
+            "A",
+            "C",
+            "D"
+          ],
+          "sourceText": "Hoffmeister法ACD",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "Polya法",
+          "answer": [
+            "C",
+            "D",
+            "F"
+          ],
+          "sourceText": "Polya法CDF",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "Moynihan法",
+          "answer": [
+            "B",
+            "E",
+            "F"
+          ],
+          "sourceText": "Moynihan法BEF",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "Eiselsberg法",
+          "answer": [
+            "A",
+            "D",
+            "E"
+          ],
+          "sourceText": "Eiselsberg法ADE",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "胃切除术胃肠吻合方式（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-14",
+        "lecture-15",
+        "lecture-16",
+        "lecture-17",
+        "lecture-18",
+        "lecture-19"
+      ]
+    },
+    {
+      "id": "p25-g2",
+      "page": 25,
+      "title": "胃切除术后并发症",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -7098,7 +7510,7 @@
         {
           "key": "I",
           "label": "营养性并发症：巨幼贫、缺铁贫、体重减轻、脂肪泻、骨病",
-          "sourceText": "1.营养性并发症：巨幼贫、缺铁贫、体重减轻、脂肪泻、骨病"
+          "sourceText": "I.营养性并发症：巨幼贫、缺铁贫、体重减轻、脂肪泻、骨病"
         },
         {
           "key": "J",
@@ -7116,8 +7528,8 @@
             "H",
             "J"
           ],
-          "sourceText": "术后早期并发症（BDFHJ",
-          "sourceY": 384,
+          "sourceText": "术后早期并发症BDFHJ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -7129,35 +7541,87 @@
             "G",
             "I"
           ],
-          "sourceText": "术后远期并发症（ACEGI",
-          "sourceY": 442,
+          "sourceText": "术后远期并发症ACEGI",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "胃切除术后并发症（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-14",
+        "lecture-15",
+        "lecture-16",
+        "lecture-17",
+        "lecture-18",
+        "lecture-19"
+      ]
+    },
+    {
+      "id": "p25-g3",
+      "page": 25,
+      "title": "倾倒综合征",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "进食后2–4小时",
+          "sourceText": "A.进食后2–4小时"
         },
         {
-          "text": "早期",
+          "key": "B",
+          "label": "低血压等血容量不足的表现",
+          "sourceText": "B.低血压等血容量不足的表现"
+        },
+        {
+          "key": "C",
+          "label": "不伴呕吐",
+          "sourceText": "C.不伴呕吐"
+        },
+        {
+          "key": "D",
+          "label": "进食后30分钟",
+          "sourceText": "D.进食后30分钟"
+        },
+        {
+          "key": "E",
+          "label": "餐后低血糖",
+          "sourceText": "E.餐后低血糖"
+        },
+        {
+          "key": "F",
+          "label": "可呕吐",
+          "sourceText": "F.可呕吐"
+        }
+      ],
+      "stems": [
+        {
+          "text": "早期倾倒综合征",
           "answer": [
             "B",
             "D",
             "F"
           ],
-          "sourceText": "早期BDF",
-          "sourceY": 758,
+          "sourceText": "早期倾倒综合征BDF",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "晚期",
+          "text": "晚期倾倒综合征",
           "answer": [
             "A",
             "C",
             "E"
           ],
-          "sourceText": "晚期ACE)",
-          "sourceY": 816,
+          "sourceText": "晚期倾倒综合征ACE",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "A.倾倒综合征 | 问： | B.胃瘫 | 术后早期并发症（BDFHJ | C.碱性反流性胃炎 | D.出血 | 术后远期并发症（ACEGI | E.溃疡复发、吻合口溃疡 | F.胃肠壁缺血坏死、吻合口漏或破裂 | G.残胃癌 | H.十二指肠残端漏或破裂 | 1.营养性并发症：巨幼贫、缺铁贫、体重减轻、脂肪泻、骨病 | J.梗阻 | 问：倾倒综合征 | A.进食后2-4小时 | 早期BDF | B.低血压等血容量不足的表现 | C.不伴呕吐 | 晚期ACE) | D.进食后30分钟 | E.餐后低血糖 | F.可呕吐 | 食物 | 胆汁 | 急性完全性输入祥梗阻 | × | 慢性不完全性输入祥梗阻 | 输出祥梗阻 | 吻合口梗阻",
-      "reviewState": "待讲义复核",
+      "sourceText": "倾倒综合征（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "消化",
       "lectureIds": [
         "lecture-14",
@@ -7779,141 +8243,325 @@
       "lectureIds": []
     },
     {
-      "id": "p29-g1",
-      "page": 29,
-      "title": "肠结核溃疡型",
-      "kind": "multi",
-      "kindLabel": "多项选择",
+      "id": "p28-g2",
+      "page": 28,
+      "title": "溃疡性结肠炎药物分层",
+      "kind": "B",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "好发年龄青壮年",
-          "sourceText": "A.好发年龄青壮年"
+          "label": "生物制剂和口服小分子药物",
+          "sourceText": "A.生物制剂和口服小分子药物"
         },
         {
           "key": "B",
-          "label": "好发回盲部",
-          "sourceText": "B.好发回盲部"
+          "label": "免疫抑制剂",
+          "sourceText": "B.免疫抑制剂"
         },
         {
           "key": "C",
-          "label": "可有体重下降",
-          "sourceText": "C.可有体重下降"
+          "label": "氨基水杨酸制剂",
+          "sourceText": "C.氨基水杨酸制剂"
         },
         {
           "key": "D",
-          "label": "环/横形溃疡",
-          "sourceText": "D.环/横形溃疡"
+          "label": "糖皮质激素",
+          "sourceText": "D.糖皮质激素"
+        }
+      ],
+      "stems": [
+        {
+          "text": "5-ASA疗效不佳或重度UC（腹泻≥6次/天）首选",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "5-ASA疗效不佳或重度UC（腹泻≥6次/天）首选D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "主要用于ASA和GC不佳的缓解期维持治疗",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "主要用于ASA和GC不佳的缓解期维持治疗B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "不用于缓解期维持治疗",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "不用于缓解期维持治疗D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "用于轻、中度UC活动期诱导缓解和缓解期维持治疗",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "用于轻、中度UC活动期诱导缓解和缓解期维持治疗C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "不单独用于活动期诱导缓解",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "不单独用于活动期诱导缓解B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "只用于活动期诱导缓解",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "只用于活动期诱导缓解D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "在活动期诱导缓解和缓解期维持治疗均有较好疗效",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "在活动期诱导缓解和缓解期维持治疗均有较好疗效A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "溃疡性结肠炎药物分层（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "消化",
+      "lectureIds": []
+    },
+    {
+      "id": "p28-g3",
+      "page": 28,
+      "title": "炎症性肠病治疗选择",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "氨基水杨酸制剂",
+          "sourceText": "A.氨基水杨酸制剂"
+        },
+        {
+          "key": "B",
+          "label": "糖皮质激素",
+          "sourceText": "B.糖皮质激素"
+        },
+        {
+          "key": "C",
+          "label": "免疫抑制剂",
+          "sourceText": "C.免疫抑制剂"
+        },
+        {
+          "key": "D",
+          "label": "生物制剂和口服小分子药物",
+          "sourceText": "D.生物制剂和口服小分子药物"
         },
         {
           "key": "E",
-          "label": "最常见并发症是肠梗阻",
-          "sourceText": "E.最常见并发症是肠梗阻"
+          "label": "外科治疗",
+          "sourceText": "E.外科治疗"
+        }
+      ],
+      "stems": [
+        {
+          "text": "活动期诱导缓解",
+          "answer": [
+            "B",
+            "C",
+            "D"
+          ],
+          "sourceText": "活动期诱导缓解BCD",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "缓解期维持治疗",
+          "answer": [
+            "C",
+            "D"
+          ],
+          "sourceText": "缓解期维持治疗CD",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "肛瘘",
+          "answer": [
+            "D",
+            "E"
+          ],
+          "sourceText": "肛瘘DE",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "炎症性肠病治疗选择（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "消化",
+      "lectureIds": []
+    },
+    {
+      "id": "p29-g1",
+      "page": 29,
+      "title": "肠结核、克罗恩病与溃疡性结肠炎鉴别",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "腹痛",
+          "sourceText": "A.腹痛"
+        },
+        {
+          "key": "B",
+          "label": "右下腹或脐周包块",
+          "sourceText": "B.右下腹或脐周包块"
+        },
+        {
+          "key": "C",
+          "label": "低热、盗汗",
+          "sourceText": "C.低热、盗汗"
+        },
+        {
+          "key": "D",
+          "label": "结核菌素试验阳性",
+          "sourceText": "D.结核菌素试验阳性"
+        },
+        {
+          "key": "E",
+          "label": "瘘管形成",
+          "sourceText": "E.瘘管形成"
         },
         {
           "key": "F",
-          "label": "低热多见",
-          "sourceText": "F.低热多见"
+          "label": "腹泻",
+          "sourceText": "F.腹泻"
         },
         {
           "key": "G",
-          "label": "肠梗阻少见",
-          "sourceText": "G.肠梗阻少见"
+          "label": "脓血便",
+          "sourceText": "G.脓血便"
         },
         {
           "key": "H",
-          "label": "可有急性肠穿孔",
-          "sourceText": "H.可有急性肠穿孔"
+          "label": "节段性病变",
+          "sourceText": "H.节段性病变"
         },
         {
           "key": "I",
-          "label": "少见急性肠穿孔(发生多见于中毒性巨结肠)",
-          "sourceText": "1.少见急性肠穿孔(发生多见于中毒性巨结肠)"
+          "label": "连续性病变",
+          "sourceText": "I.连续性病变"
         },
         {
           "key": "J",
-          "label": "多见痿管，腹腔脓肿，肛周病变",
-          "sourceText": "J.多见痿管，腹腔脓肿，肛周病变"
+          "label": "肛周病变",
+          "sourceText": "J.肛周病变"
         },
         {
           "key": "K",
-          "label": "节段分布的纵行裂隙状溃疡、鹅卵石/铺路石样",
-          "sourceText": "K.节段分布的纵行裂隙状溃疡、鹅卵石/铺路石样"
+          "label": "口腔溃疡",
+          "sourceText": "K.口腔溃疡"
         },
         {
           "key": "L",
-          "label": "干酪肉芽肿",
-          "sourceText": "L.干酪肉芽肿"
+          "label": "回盲部好发",
+          "sourceText": "L.回盲部好发"
         },
         {
           "key": "M",
-          "label": "多为右下腹痛",
-          "sourceText": "M.多为右下腹痛"
+          "label": "非干酪样肉芽肿",
+          "sourceText": "M.非干酪样肉芽肿"
         },
         {
           "key": "N",
-          "label": "好发回肠末端及邻近结肠",
-          "sourceText": "N.好发回肠末端及邻近结肠"
+          "label": "干酪样肉芽肿",
+          "sourceText": "N.干酪样肉芽肿"
         },
         {
           "key": "O",
           "label": "可有肠外表现",
-          "sourceText": "0.可有肠外表现"
+          "sourceText": "O.可有肠外表现"
         },
         {
           "key": "P",
-          "label": "少见肠外表现",
-          "sourceText": "P.少见肠外表现"
+          "label": "横行溃疡",
+          "sourceText": "P.横行溃疡"
         },
         {
           "key": "Q",
-          "label": "非干酪肉芽肿",
-          "sourceText": "Q.非干酪肉芽肿"
+          "label": "纵行溃疡",
+          "sourceText": "Q.纵行溃疡"
         },
         {
           "key": "R",
-          "label": "连续分布的浅溃疡",
-          "sourceText": "R.连续分布的浅溃疡"
+          "label": "伪息肉",
+          "sourceText": "R.伪息肉"
         },
         {
           "key": "S",
-          "label": "不发热或低热多见",
-          "sourceText": "S.不发热或低热多见"
+          "label": "铅管征",
+          "sourceText": "S.铅管征"
         },
         {
           "key": "T",
-          "label": "多为左下腹痛",
-          "sourceText": "T.多为左下腹痛"
+          "label": "浅溃疡",
+          "sourceText": "T.浅溃疡"
         },
         {
           "key": "U",
-          "label": "跳跃征",
-          "sourceText": "U.跳跃征"
+          "label": "瘢痕收缩",
+          "sourceText": "U.瘢痕收缩"
         },
         {
           "key": "V",
-          "label": "线样征、鹅卵石征、铺路石征",
-          "sourceText": "V.线样征、鹅卵石征、铺路石征"
+          "label": "腹腔脓肿",
+          "sourceText": "V.腹腔脓肿"
         },
         {
           "key": "W",
-          "label": "可有铅管征",
-          "sourceText": "W.可有铅管征"
+          "label": "里急后重",
+          "sourceText": "W.里急后重"
         },
         {
           "key": "X",
-          "label": "抗结核治疗",
-          "sourceText": "X.抗结核治疗"
+          "label": "肠腔狭窄",
+          "sourceText": "X.肠腔狭窄"
         },
         {
           "key": "Y",
-          "label": "ASA(UC)→泼尼松→硫唑嘌呤一英夫利昔单抗升阶梯治疗",
-          "sourceText": "Y.ASA(UC)→泼尼松→硫唑嘌呤一英夫利昔单抗升阶梯治疗"
+          "label": "腹泻为主",
+          "sourceText": "Y.腹泻为主"
         },
         {
           "key": "Z",
-          "label": "好发直肠及乙状结肠",
-          "sourceText": "Z.好发直肠及乙状结肠"
+          "label": "黏液脓血便",
+          "sourceText": "Z.黏液脓血便"
+        },
+        {
+          "key": "①",
+          "label": "多无脓血便和里急后重",
+          "sourceText": "①.多无脓血便和里急后重"
+        },
+        {
+          "key": "②",
+          "label": "多有脓血便和里急后重",
+          "sourceText": "②.多有脓血便和里急后重"
+        },
+        {
+          "key": "③",
+          "label": "若累及左侧结肠即可有脓血便和里急后重",
+          "sourceText": "③.若累及左侧结肠即可有脓血便和里急后重"
         }
       ],
       "stems": [
@@ -7932,15 +8580,59 @@
             "P",
             "U",
             "X",
-            "O"
+            "O",
+            "①"
           ],
-          "sourceText": "肠结核溃疡型ABCDEFHLMPUXO",
-          "sourceY": 83,
+          "sourceText": "肠结核溃疡型ABCDEFHLMPUXO①",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "克罗恩病",
+          "answer": [
+            "A",
+            "C",
+            "E",
+            "H",
+            "J",
+            "K",
+            "M",
+            "N",
+            "O",
+            "Q",
+            "S",
+            "V",
+            "Y",
+            "①",
+            "③"
+          ],
+          "sourceText": "克罗恩病ACEHJKMNOQSVY①③",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "溃疡性结肠炎",
+          "answer": [
+            "A",
+            "C",
+            "G",
+            "I",
+            "O",
+            "R",
+            "S",
+            "T",
+            "W",
+            "Y",
+            "Z",
+            "②"
+          ],
+          "sourceText": "溃疡性结肠炎ACGIORSTWYZ②",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "A.好发年龄青壮年 | 问： | B.好发回盲部 | 肠结核溃疡型ABCDEFHLMPUXO | C.可有体重下降 | D.环/横形溃疡 | E.最常见并发症是肠梗阻 | 克罗恩病ACEHJKMNOQSVYO③ | F.低热多见 | G.肠梗阻少见 | 溃疡性结肠炎ACGIORSTWYZ② | H.可有急性肠穿孔 | 1.少见急性肠穿孔(发生多见于中毒性巨结肠) | J.多见痿管，腹腔脓肿，肛周病变 | K.节段分布的纵行裂隙状溃疡、鹅卵石/铺路石样 | L.干酪肉芽肿 | M.多为右下腹痛 | N.好发回肠末端及邻近结肠 | 0.可有肠外表现 | P.少见肠外表现 | Q.非干酪肉芽肿 | R.连续分布的浅溃疡 | S.不发热或低热多见 | T.多为左下腹痛 | U.跳跃征 | V.线样征、鹅卵石征、铺路石征 | W.可有铅管征 | X.抗结核治疗 | Y.ASA(UC)→泼尼松→硫唑嘌呤一英夫利昔单抗升阶梯治疗 | Z.好发直肠及乙状结肠 | ①多无脓血便和里急后重 | ②多有脓血便和里急后重 | ③若累及左边即可有脓血便和里急后重",
-      "reviewState": "待讲义复核",
+      "sourceText": "肠结核、克罗恩病与溃疡性结肠炎鉴别（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "消化",
       "lectureIds": [
         "lecture-14",
@@ -8058,94 +8750,99 @@
     {
       "id": "p30-g1",
       "page": 30,
-      "title": "解痉止痛",
+      "title": "肠易激综合征用药",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "利福昔明",
-          "sourceText": "A.利福昔明"
+          "label": "利福昔明等肠道不吸收的抗生素",
+          "sourceText": "A.利福昔明等肠道不吸收的抗生素"
         },
         {
           "key": "B",
-          "label": "匹维溴铵",
-          "sourceText": "B.匹维溴铵"
+          "label": "匹维溴铵等肠道平滑肌解痉剂",
+          "sourceText": "B.匹维溴铵等肠道平滑肌解痉剂"
         },
         {
           "key": "C",
-          "label": "洛哌丁胺",
-          "sourceText": "C.洛哌丁胺"
+          "label": "洛哌丁胺等阿片受体激动剂",
+          "sourceText": "C.洛哌丁胺等阿片受体激动剂"
         },
         {
           "key": "D",
-          "label": "奥替溴铵",
-          "sourceText": "D.奥替溴铵"
+          "label": "曲美布汀等神经递质调节剂",
+          "sourceText": "D.曲美布汀等神经递质调节剂"
         },
         {
           "key": "E",
-          "label": "蒙脱石散",
-          "sourceText": "E.蒙脱石散"
+          "label": "蒙脱石散等吸附剂",
+          "sourceText": "E.蒙脱石散等吸附剂"
         },
         {
           "key": "F",
-          "label": "曲美布汀",
-          "sourceText": "F.曲美布汀"
+          "label": "复方地芬诺酯等止泻药",
+          "sourceText": "F.复方地芬诺酯等止泻药"
         },
         {
           "key": "G",
-          "label": "鸟苷酸环化酶激动剂",
-          "sourceText": "G.鸟苷酸环化酶激动剂"
+          "label": "聚乙二醇等渗透性泻剂",
+          "sourceText": "G.聚乙二醇等渗透性泻剂"
         },
         {
           "key": "H",
-          "label": "阿尔维林",
-          "sourceText": "H.阿尔维林"
+          "label": "莨菪碱类解痉药",
+          "sourceText": "H.莨菪碱类解痉药"
         },
         {
           "key": "I",
-          "label": "抗胆碱药",
-          "sourceText": "1.抗胆碱药"
+          "label": "促分泌剂",
+          "sourceText": "I.促分泌剂"
         },
         {
           "key": "J",
-          "label": "5-HT再摄取抑制剂",
-          "sourceText": "J.5-HT再摄取抑制剂"
+          "label": "益生菌",
+          "sourceText": "J.益生菌"
+        },
+        {
+          "key": "K",
+          "label": "地芬诺酯",
+          "sourceText": "K.地芬诺酯"
         },
         {
           "key": "L",
-          "label": "药用炭",
-          "sourceText": "L.药用炭"
+          "label": "短期用药",
+          "sourceText": "L.短期用药"
         },
         {
           "key": "M",
-          "label": "双歧杆菌",
-          "sourceText": "M.双歧杆菌"
+          "label": "缓解便秘",
+          "sourceText": "M.缓解便秘"
         },
         {
           "key": "N",
-          "label": "聚乙二醇",
-          "sourceText": "N.聚乙二醇"
+          "label": "泻药",
+          "sourceText": "N.泻药"
         },
         {
           "key": "O",
-          "label": "CI通道激动剂",
-          "sourceText": "O.CI通道激动剂"
+          "label": "调节内脏感觉",
+          "sourceText": "O.调节内脏感觉"
         },
         {
           "key": "P",
-          "label": "三环类抗抑郁药阿米替林",
-          "sourceText": "P.三环类抗抑郁药阿米替林"
+          "label": "肠道炎症和菌群失调",
+          "sourceText": "P.肠道炎症和菌群失调"
         },
         {
           "key": "Q",
-          "label": "乳酸杆菌",
-          "sourceText": "Q.乳酸杆菌"
+          "label": "调节肠道炎症和菌群失调",
+          "sourceText": "Q.调节肠道炎症和菌群失调"
         },
         {
           "key": "T",
-          "label": "短期使用",
-          "sourceText": "T.短期使用"
+          "label": "短期应用",
+          "sourceText": "T.短期应用"
         }
       ],
       "stems": [
@@ -8158,18 +8855,21 @@
             "H",
             "I"
           ],
-          "sourceText": "解痉止痛（BDFHI",
-          "sourceY": 155,
+          "sourceText": "解痉止痛BDFHI",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
           "text": "止泻",
           "answer": [
-            "C"
+            "C",
+            "E",
+            "K",
+            "L"
           ],
-          "sourceText": "止泻（CEKL",
-          "sourceY": 204,
-          "answerMode": "单选"
+          "sourceText": "止泻CEKL",
+          "sourceY": 0,
+          "answerMode": "多选"
         },
         {
           "text": "缓解便秘",
@@ -8179,18 +8879,29 @@
             "O"
           ],
           "sourceText": "缓解便秘GNO",
-          "sourceY": 252,
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "GJP；调节内脏感觉；调节肠道炎症和菌群失调",
+          "text": "调节内脏感觉",
+          "answer": [
+            "G",
+            "J",
+            "P"
+          ],
+          "sourceText": "调节内脏感觉GJP",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "调节肠道炎症和菌群失调",
           "answer": [
             "A",
             "M",
             "Q"
           ],
-          "sourceText": "调节肠道炎症和菌群失调（AMQ",
-          "sourceY": 348,
+          "sourceText": "调节肠道炎症和菌群失调AMQ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -8198,8 +8909,8 @@
           "answer": [
             "A"
           ],
-          "sourceText": "肠道不吸收的抗生素（A",
-          "sourceY": 427,
+          "sourceText": "肠道不吸收的抗生素A",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -8210,18 +8921,19 @@
             "F",
             "H"
           ],
-          "sourceText": "肠道平滑肌解痉剂（BDFH",
-          "sourceY": 452,
+          "sourceText": "肠道平滑肌解痉剂BDFH",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
           "text": "阿片受体激动剂",
           "answer": [
-            "C"
+            "C",
+            "K"
           ],
-          "sourceText": "阿片受体激动剂（CK",
-          "sourceY": 477,
-          "answerMode": "单选"
+          "sourceText": "阿片受体激动剂CK",
+          "sourceY": 0,
+          "answerMode": "多选"
         },
         {
           "text": "吸附剂",
@@ -8229,8 +8941,8 @@
             "E",
             "L"
           ],
-          "sourceText": "吸附剂（EL",
-          "sourceY": 501,
+          "sourceText": "吸附剂EL",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -8238,8 +8950,8 @@
           "answer": [
             "N"
           ],
-          "sourceText": "渗透性泻剂（N",
-          "sourceY": 525,
+          "sourceText": "渗透性泻剂N",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -8248,8 +8960,8 @@
             "G",
             "O"
           ],
-          "sourceText": "促分泌剂（GO",
-          "sourceY": 550,
+          "sourceText": "促分泌剂GO",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -8258,8 +8970,8 @@
             "J",
             "P"
           ],
-          "sourceText": "神经递质调节剂（JP",
-          "sourceY": 572,
+          "sourceText": "神经递质调节剂JP",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -8268,8 +8980,8 @@
             "M",
             "Q"
           ],
-          "sourceText": "益生菌(MQ",
-          "sourceY": 596,
+          "sourceText": "益生菌MQ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -8279,12 +8991,12 @@
             "T"
           ],
           "sourceText": "短期用AT",
-          "sourceY": 648,
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "A.利福昔明 | 问： | B.匹维溴铵 | 解痉止痛（BDFHI | C.洛哌丁胺 | D.奥替溴铵 | 止泻（CEKL | E.蒙脱石散 | F.曲美布汀 | 缓解便秘GNO | G.鸟苷酸环化酶激动剂 | H.阿尔维林 | GJP | 调节内脏感觉 | 1.抗胆碱药 | J.5-HT再摄取抑制剂 | 调节肠道炎症和菌群失调（AMQ | K地芬诺酯 | L.药用炭 | M.双歧杆菌 | 肠道不吸收的抗生素（A | N.聚乙二醇 | 肠道平滑肌解痉剂（BDFH | O.CI通道激动剂 | 阿片受体激动剂（CK | P.三环类抗抑郁药阿米替林 | 吸附剂（EL | Q.乳酸杆菌 | 渗透性泻剂（N | 促分泌剂（GO | 神经递质调节剂（JP | 益生菌(MQ | 短期用AT | 肝性脑病 | A.有扑翼样震颤",
-      "reviewState": "待讲义复核",
+      "sourceText": "肠易激综合征用药（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "消化",
       "lectureIds": [
         "lecture-14",
@@ -8298,104 +9010,104 @@
     {
       "id": "p30-g2",
       "page": 30,
-      "title": "O期",
-      "kind": "matching",
-      "kindLabel": "匹配 / 归类",
+      "title": "肝性脑病分期",
+      "kind": "B",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "有扑翼样震颤",
-          "sourceText": "A.有扑翼样震颤"
+          "label": "轻度性格改变和行为异常",
+          "sourceText": "A.轻度性格改变和行为异常"
         },
         {
           "key": "B",
-          "label": "无扑翼样震颤",
-          "sourceText": "B.无扑翼样震颤"
+          "label": "扑翼样震颤",
+          "sourceText": "B.扑翼样震颤"
         },
         {
           "key": "C",
-          "label": "昏睡能唤醒神志不清",
-          "sourceText": "C.昏睡能唤醒神志不清"
+          "label": "脑电图正常",
+          "sourceText": "C.脑电图正常"
         },
         {
           "key": "D",
-          "label": "腱反射肌张力正常",
-          "sourceText": "D.腱反射肌张力正常"
+          "label": "腱反射、肌张力增强",
+          "sourceText": "D.腱反射、肌张力增强"
         },
         {
           "key": "E",
-          "label": "腱反射肌张力增高",
-          "sourceText": "E.腱反射肌张力增高"
+          "label": "嗜睡、反应迟钝",
+          "sourceText": "E.嗜睡、反应迟钝"
         },
         {
           "key": "F",
-          "label": "前驱期",
-          "sourceText": "F.前驱期"
+          "label": "昏睡、可唤醒",
+          "sourceText": "F.昏睡、可唤醒"
         },
         {
           "key": "G",
-          "label": "有脑电图异常",
-          "sourceText": "G.有脑电图异常"
+          "label": "脑电图普遍性慢波",
+          "sourceText": "G.脑电图普遍性慢波"
         },
         {
           "key": "H",
-          "label": "仅心理智能异常",
-          "sourceText": "H.仅心理智能异常"
+          "label": "扑翼样震颤消失",
+          "sourceText": "H.扑翼样震颤消失"
         },
         {
           "key": "I",
-          "label": "病理征阳性",
-          "sourceText": "1.病理征阳性"
+          "label": "昏迷但对疼痛刺激有反应",
+          "sourceText": "I.昏迷但对疼痛刺激有反应"
         },
         {
           "key": "J",
-          "label": "昏迷前期",
-          "sourceText": "J.昏迷前期"
+          "label": "昏迷且对疼痛刺激无反应",
+          "sourceText": "J.昏迷且对疼痛刺激无反应"
         },
         {
           "key": "K",
-          "label": "腱反射肌张力浅昏迷增高，深昏迷降低",
-          "sourceText": "K.腱反射肌张力浅昏迷增高，深昏迷降低"
+          "label": "腱反射、肌张力：浅昏迷增高，深昏迷降低",
+          "sourceText": "K.腱反射、肌张力：浅昏迷增高，深昏迷降低"
         },
         {
           "key": "L",
-          "label": "轻度性格精神异常(焦虑、健忘、睡眠倒错)",
-          "sourceText": "L.轻度性格精神异常(焦虑、健忘、睡眠倒错)"
+          "label": "定向力障碍",
+          "sourceText": "L.定向力障碍"
         },
         {
           "key": "M",
-          "label": "昏睡期",
-          "sourceText": "M.昏睡期"
+          "label": "书写障碍",
+          "sourceText": "M.书写障碍"
         },
         {
           "key": "N",
-          "label": "无脑电图异常",
-          "sourceText": "N.无脑电图异常"
+          "label": "计算力下降",
+          "sourceText": "N.计算力下降"
         },
         {
           "key": "O",
-          "label": "行为异常定向障碍嗜睡、意识错乱",
-          "sourceText": "O.行为异常定向障碍嗜睡、意识错乱"
+          "label": "O期：无异常",
+          "sourceText": "O.O期：无异常"
         },
         {
           "key": "P",
-          "label": "昏迷期",
-          "sourceText": "P.昏迷期"
+          "label": "血氨升高",
+          "sourceText": "P.血氨升高"
         },
         {
           "key": "Q",
-          "label": "病理征阴性",
-          "sourceText": "Q.病理征阴性"
+          "label": "深腱反射消失",
+          "sourceText": "Q.深腱反射消失"
         },
         {
           "key": "R",
-          "label": "昏迷不能唤醒",
-          "sourceText": "R.昏迷不能唤醒"
+          "label": "病理反射阳性",
+          "sourceText": "R.病理反射阳性"
         },
         {
           "key": "S",
-          "label": "潜伏期",
-          "sourceText": "S.潜伏期"
+          "label": "脑电图三相波",
+          "sourceText": "S.脑电图三相波"
         }
       ],
       "stems": [
@@ -8409,13 +9121,69 @@
             "Q",
             "S"
           ],
-          "sourceText": "O期（BDHNQS",
-          "sourceY": 920,
+          "sourceText": "O期BDHNQS",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "1期",
+          "answer": [
+            "A",
+            "D",
+            "F",
+            "L",
+            "N",
+            "Q"
+          ],
+          "sourceText": "1期ADFLNQ",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "2期",
+          "answer": [
+            "A",
+            "E",
+            "G",
+            "I",
+            "J",
+            "O"
+          ],
+          "sourceText": "2期AEGIJO",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "3期",
+          "answer": [
+            "A",
+            "C",
+            "E",
+            "G",
+            "I",
+            "M"
+          ],
+          "sourceText": "3期ACEGIM",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "4期",
+          "answer": [
+            "B",
+            "G",
+            "K",
+            "P",
+            "Q",
+            "R"
+          ],
+          "sourceText": "4期BGKPQR",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "A.有扑翼样震颤 | 问: | B.无扑翼样震颤 | O期（BDHNQS | C.昏睡能唤醒神志不清 | D.腱反射肌张力正常 | ADFLNQ | 1期 | E.腱反射肌张力增高 | F.前驱期 | 2期 | AEGIJO | G.有脑电图异常 | H.仅心理智能异常 | 3期 | ACEGIM | 1.病理征阳性 | J.昏迷前期 | 4期 | BGKPQR | K.腱反射肌张力浅昏迷增高，深昏迷降低 | L.轻度性格精神异常(焦虑、健忘、睡眠倒错) | M.昏睡期 | N.无脑电图异常 | O.行为异常定向障碍嗜睡、意识错乱 | P.昏迷期 | Q.病理征阴性 | R.昏迷不能唤醒 | S.潜伏期 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "肝性脑病分期（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "消化",
       "lectureIds": [
         "lecture-14",
@@ -8559,7 +9327,7 @@
     {
       "id": "p31-g2",
       "page": 31,
-      "title": "最早、最常见转移",
+      "title": "原发性肝癌转移",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -8591,8 +9359,8 @@
             "A",
             "C"
           ],
-          "sourceText": "最早、最常见转移（AC",
-          "sourceY": 749,
+          "sourceText": "最早、最常见转移AC",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -8600,31 +9368,13 @@
           "answer": [
             "B"
           ],
-          "sourceText": "最早、最常见的淋巴转移（B",
-          "sourceY": 811,
-          "answerMode": "单选"
-        },
-        {
-          "text": "肝细胞供氧主要来自",
-          "answer": [
-            "B"
-          ],
-          "sourceText": "B",
-          "sourceY": 937,
-          "answerMode": "单选"
-        },
-        {
-          "text": "肝细胞供血主要来自；LA；HCC供血主要来自",
-          "answer": [
-            "B"
-          ],
-          "sourceText": "B",
-          "sourceY": 1063,
+          "sourceText": "最早、最常见的淋巴转移B",
+          "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "A.肝内沿门静脉分支血道转移至肝脏本身 | 问： | B.肝门淋巴结 | 最早、最常见转移（AC | C.血道转移 | D.淋巴结转移 | 最早、最常见的淋巴转移（B | 肝细胞供氧主要来自 | B | A.门静脉 | B.肝动脉 | 肝细胞供血主要来自 | LA | HCC供血主要来自 | B | A.不符合手术指征选择_一，部分不适合一期手术者经此方法可获得手术机会",
-      "reviewState": "待讲义复核",
+      "sourceText": "原发性肝癌转移（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "消化",
       "lectureIds": [
         "lecture-14",
@@ -8637,6 +9387,65 @@
     },
     {
       "id": "p31-g3",
+      "page": 31,
+      "title": "肝脏血液供应",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "门静脉",
+          "sourceText": "A.门静脉"
+        },
+        {
+          "key": "B",
+          "label": "肝动脉",
+          "sourceText": "B.肝动脉"
+        }
+      ],
+      "stems": [
+        {
+          "text": "肝细胞供氧主要来自",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "肝细胞供氧主要来自B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "肝细胞供血主要来自",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "肝细胞供血主要来自A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "肝细胞癌供血主要来自",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "肝细胞癌供血主要来自B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "肝脏血液供应（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-14",
+        "lecture-15",
+        "lecture-16",
+        "lecture-17",
+        "lecture-18",
+        "lecture-19"
+      ]
+    },
+    {
+      "id": "p31-g4",
       "page": 31,
       "title": "首选治疗方案",
       "kind": "B",
@@ -8839,13 +9648,22 @@
           "answerMode": "单选"
         },
         {
-          "text": "胃肠道癌转移至肝（；肝血管瘤",
+          "text": "胃肠道癌转移至肝",
+          "answer": [
+            "F"
+          ],
+          "sourceText": "胃肠道癌转移至肝F",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "肝血管瘤",
           "answer": [
             "E",
             "H"
           ],
-          "sourceText": "肝血管瘤（EH",
-          "sourceY": 161,
+          "sourceText": "肝血管瘤EH",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -9377,9 +10195,9 @@
     {
       "id": "p33-g3",
       "page": 33,
-      "title": "自发性腹膜炎",
-      "kind": "matching",
-      "kindLabel": "匹配 / 归类",
+      "title": "腹膜炎与门静脉血栓形成",
+      "kind": "B",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -9388,8 +10206,8 @@
         },
         {
           "key": "B",
-          "label": "感染表现（腹膜刺激征/低热）",
-          "sourceText": "B.感染表现（腹膜刺激征/低热）"
+          "label": "感染表现（腹膜刺激征、低热）",
+          "sourceText": "B.感染表现（腹膜刺激征、低热）"
         },
         {
           "key": "C",
@@ -9403,23 +10221,42 @@
         },
         {
           "key": "E",
-          "label": "性质为漏出液(SAAG≥11)",
-          "sourceText": "E.性质为漏出液(SAAG≥11)"
+          "label": "性质为漏出液（SAAG≥11）",
+          "sourceText": "E.性质为漏出液（SAAG≥11）"
+        },
+        {
+          "key": "F",
+          "label": "渗出液（SAAG<11、细胞>500且以中性粒细胞为主）",
+          "sourceText": "F.渗出液（SAAG<11、细胞>500且以中性粒细胞为主）"
         }
       ],
       "stems": [
         {
           "text": "自发性腹膜炎",
           "answer": [
-            "A"
+            "A",
+            "B",
+            "F"
           ],
-          "sourceText": "自发性腹膜炎（ABF",
-          "sourceY": 1434,
-          "answerMode": "单选"
+          "sourceText": "自发性腹膜炎ABF",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "门静脉血栓形成",
+          "answer": [
+            "A",
+            "C",
+            "D",
+            "E"
+          ],
+          "sourceText": "门静脉血栓形成ACDE",
+          "sourceY": 0,
+          "answerMode": "多选"
         }
       ],
-      "sourceText": "A.腹痛、腹水可迅速增加 | B.感染表现（腹膜刺激征/低热） | 问： | C.脾脏短期迅速增大 | 自发性腹膜炎（ABF | D.多为血性腹水 | E.性质为漏出液(SAAG≥11) | 门静脉血栓形成ACDE",
-      "reviewState": "待讲义复核",
+      "sourceText": "腹膜炎与门静脉血栓形成（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "消化",
       "lectureIds": [
         "lecture-14",
@@ -9525,7 +10362,7 @@
     {
       "id": "p34-g2",
       "page": 34,
-      "title": "ACDEF；血淀粉酶/脂肪酶；腹水淀粉酶/脂肪酶",
+      "title": "急性胰腺炎相关指标",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -9572,13 +10409,26 @@
       ],
       "stems": [
         {
-          "text": "ACDEF；血淀粉酶/脂肪酶；腹水淀粉酶/脂肪酶",
+          "text": "血淀粉酶/脂肪酶",
+          "answer": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "sourceText": "血淀粉酶/脂肪酶ACDEF",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "腹水淀粉酶/脂肪酶",
           "answer": [
             "B",
             "G"
           ],
-          "sourceText": "腹水淀粉酶/脂肪酶（BG",
-          "sourceY": 520,
+          "sourceText": "腹水淀粉酶/脂肪酶BG",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -9586,8 +10436,8 @@
           "answer": [
             "H"
           ],
-          "sourceText": "H",
-          "sourceY": 573,
+          "sourceText": "血脂肪酶H",
+          "sourceY": 0,
           "answerMode": "单选"
         }
       ],
