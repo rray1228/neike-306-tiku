@@ -419,14 +419,15 @@ function StemRow({ subject, group, stem, index, selection, submitted, onSelect }
   const unresolved = isUnresolvedStem(stem)
   const correct = submitted && !unresolved && sameAnswer(selection, answer, ordered)
   const wrong = submitted && !unresolved && !correct
+  const missed = submitted && !unresolved && answer.some((item) => !selection.includes(item))
   const key = `${group.id}:${index}`
   const correction = subject === 'med' ? CORRECTIONS[key] : null
   const keys = group.options.length ? group.options.map((option) => option.key) : answer
   return (
     <div className={`stem-row ${submitted ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
       <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy"><div className="stem-heading"><p>{stem.text || '请结合原题页完成本小题'}</p><span className={`answer-mode ${multi ? 'is-multi' : ''}`}>{unresolved ? '待核对' : (ordered ? '排序' : (multi ? '多选' : '单选'))}</span></div>{multi && !submitted && <small>{ordered ? '请按题干要求的先后顺序选择' : '可选择多个共用选项'}</small>}</div></div>
-      <div className="answer-choices">{keys.map((item) => { const active = selection.includes(item); const isAnswer = submitted && answer.includes(item); const order = ordered && active ? selection.indexOf(item) + 1 : null; return <button key={item} className={`answer-chip ${active ? 'active' : ''} ${submitted && isAnswer ? 'answer' : ''} ${submitted && active && !isAnswer ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{item}{order && <sup className="rank-order">{order}</sup>}</button> })}</div>
-      {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? '原题页核对：暂不自动判分' : (correct ? '正确' : `讲义/原题答案：${answer.join('、')}`)}{correction && <span className="correction-dot">已校对</span>}</div>}
+      <div className="answer-choices">{keys.map((item) => { const active = selection.includes(item); const isAnswer = submitted && answer.includes(item); const isMissed = submitted && isAnswer && !active; const order = ordered && active ? selection.indexOf(item) + 1 : null; const stateLabel = isMissed ? '，漏选' : (submitted && active && !isAnswer ? '，错选' : ''); return <button key={item} aria-label={`选项 ${item}${stateLabel}`} className={`answer-chip ${active ? 'active' : ''} ${submitted && isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${submitted && active && !isAnswer ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{item}{order && <sup className="rank-order">{order}</sup>}</button> })}</div>
+      {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? '原题页核对：暂不自动判分' : (correct ? '正确' : `讲义/原题答案：${answer.join('、')}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}{correction && <span className="correction-dot">已校对</span>}</div>}
     </div>
   )
 }
