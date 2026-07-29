@@ -9301,11 +9301,6 @@
           "key": "Q",
           "label": "乳酸杆菌",
           "sourceText": "Q.乳酸杆菌"
-        },
-        {
-          "key": "T",
-          "label": "短期用",
-          "sourceText": "T.短期用"
         }
       ],
       "stems": [
@@ -9450,15 +9445,14 @@
         {
           "text": "短期用",
           "answer": [
-            "A",
-            "T"
+            "A"
           ],
-          "sourceText": "短期用AT",
+          "sourceText": "短期用A（原题页答案误写为AT，选项池无T，按讲义和选项池勘误）",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "单选"
         }
       ],
-      "sourceText": "肠易激综合征用药（按原题页重新分组并结合讲义复核）",
+      "sourceText": "肠易激综合征（原题页与讲义复核；短期用药按选项池和讲义勘误为A）",
       "reviewState": "已按原题页与讲义复核",
       "topic": "消化",
       "lectureIds": [
@@ -11044,7 +11038,7 @@
     {
       "id": "p35-g1",
       "page": 35,
-      "title": "微量蛋白尿",
+      "title": "蛋白尿分类",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -11060,8 +11054,8 @@
         },
         {
           "key": "C",
-          "label": "血中小分子蛋白质增多从肾小球滤过、超过了肾小管的重吸收极限",
-          "sourceText": "C.血中小分子蛋白质增多从肾小球滤过、超过了肾小管的重吸收极限"
+          "label": "血中小分子蛋白质增多从肾小球滤过，超过了肾小管的重吸收极限",
+          "sourceText": "C.血中小分子蛋白质增多从肾小球滤过，超过了肾小管的重吸收极限"
         },
         {
           "key": "D",
@@ -11075,13 +11069,13 @@
         },
         {
           "key": "F",
-          "label": "30-300mg/d",
-          "sourceText": "F.30-300mg/d"
+          "label": "30–300 mg/d",
+          "sourceText": "F.30–300 mg/d"
         },
         {
           "key": "G",
-          "label": "多<2g/d",
-          "sourceText": "G.多<2g/d"
+          "label": "多<2 g/d",
+          "sourceText": "G.多<2 g/d"
         },
         {
           "key": "H",
@@ -11091,7 +11085,7 @@
         {
           "key": "I",
           "label": "溶菌酶",
-          "sourceText": "1.溶菌酶"
+          "sourceText": "I.溶菌酶"
         },
         {
           "key": "J",
@@ -11100,13 +11094,13 @@
         },
         {
           "key": "K",
-          "label": "横纹肌溶解的肌红蛋白（如挤压综合征)",
-          "sourceText": "K.横纹肌溶解的肌红蛋白（如挤压综合征)"
+          "label": "横纹肌溶解的肌红蛋白（如挤压综合征）",
+          "sourceText": "K.横纹肌溶解的肌红蛋白（如挤压综合征）"
         },
         {
           "key": "L",
-          "label": "尿中排出lgA增多",
-          "sourceText": "L.尿中排出lgA增多"
+          "label": "尿中排出IgA增多",
+          "sourceText": "L.尿中排出IgA增多"
         },
         {
           "key": "M",
@@ -11120,8 +11114,8 @@
         },
         {
           "key": "O",
-          "label": "B2-微球蛋白",
-          "sourceText": "O.B2-微球蛋白"
+          "label": "β2-微球蛋白",
+          "sourceText": "O.β2-微球蛋白"
         },
         {
           "key": "P",
@@ -11161,22 +11155,49 @@
       ],
       "stems": [
         {
+          "text": "功能性蛋白尿",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "功能性蛋白尿B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "体位性蛋白尿",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "体位性蛋白尿D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
           "text": "微量蛋白尿",
           "answer": [
             "F",
             "J"
           ],
-          "sourceText": "微量蛋白尿（FJ",
-          "sourceY": 164,
+          "sourceText": "微量蛋白尿FJ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "选择性",
+          "text": "肾小球性蛋白尿：选择性",
           "answer": [
             "R"
           ],
-          "sourceText": "选择性（R",
-          "sourceY": 210,
+          "sourceText": "肾小球性蛋白尿：选择性R",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "肾小球性蛋白尿：非选择性",
+          "answer": [
+            "V"
+          ],
+          "sourceText": "肾小球性蛋白尿：非选择性V",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -11190,8 +11211,8 @@
             "O",
             "S"
           ],
-          "sourceText": "肾小管性蛋白尿（AEGIMOS",
-          "sourceY": 280,
+          "sourceText": "肾小管性蛋白尿AEGIMOS",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -11199,8 +11220,8 @@
           "answer": [
             "L"
           ],
-          "sourceText": "分泌性蛋白尿（L",
-          "sourceY": 339,
+          "sourceText": "分泌性蛋白尿L",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -11208,8 +11229,8 @@
           "answer": [
             "P"
           ],
-          "sourceText": "组织性蛋白尿（P",
-          "sourceY": 397,
+          "sourceText": "组织性蛋白尿P",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -11222,17 +11243,78 @@
             "Q",
             "T"
           ],
-          "sourceText": "溢出性蛋白尿（CHKNQT",
-          "sourceY": 455,
+          "sourceText": "溢出性蛋白尿CHKNQT",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "蛋白尿分类（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-24",
+        "lecture-25",
+        "lecture-26",
+        "lecture-27",
+        "lecture-38"
+      ]
+    },
+    {
+      "id": "p35-g2",
+      "page": 35,
+      "title": "尿管型与肾脏病变",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "预后差",
+          "sourceText": "A.预后差"
         },
+        {
+          "key": "B",
+          "label": "肾小球源性血尿",
+          "sourceText": "B.肾小球源性血尿"
+        },
+        {
+          "key": "C",
+          "label": "肾盂肾炎",
+          "sourceText": "C.肾盂肾炎"
+        },
+        {
+          "key": "D",
+          "label": "肾单位长期阻塞（肾衰竭）",
+          "sourceText": "D.肾单位长期阻塞（肾衰竭）"
+        },
+        {
+          "key": "E",
+          "label": "肾脏免疫反应",
+          "sourceText": "E.肾脏免疫反应"
+        },
+        {
+          "key": "F",
+          "label": "肾小管坏死",
+          "sourceText": "F.肾小管坏死"
+        },
+        {
+          "key": "G",
+          "label": "肾小管严重病变",
+          "sourceText": "G.肾小管严重病变"
+        },
+        {
+          "key": "H",
+          "label": "肾小管上皮脂肪变性等（肾病综合征）",
+          "sourceText": "H.肾小管上皮脂肪变性等（肾病综合征）"
+        }
+      ],
+      "stems": [
         {
           "text": "红细胞管型",
           "answer": [
             "B"
           ],
-          "sourceText": "红细胞管型（B",
-          "sourceY": 887,
+          "sourceText": "红细胞管型B",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -11241,8 +11323,8 @@
             "C",
             "E"
           ],
-          "sourceText": "白细胞管型（CE",
-          "sourceY": 942,
+          "sourceText": "白细胞管型CE",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -11253,7 +11335,7 @@
             "G"
           ],
           "sourceText": "蜡样管型ADG",
-          "sourceY": 1004,
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -11261,8 +11343,8 @@
           "answer": [
             "F"
           ],
-          "sourceText": "上皮细胞管型（F",
-          "sourceY": 1062,
+          "sourceText": "上皮细胞管型F",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -11270,17 +11352,58 @@
           "answer": [
             "H"
           ],
-          "sourceText": "脂肪管型（H",
-          "sourceY": 1120,
+          "sourceText": "脂肪管型H",
+          "sourceY": 0,
           "answerMode": "单选"
+        }
+      ],
+      "sourceText": "尿管型与肾脏病变（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-24",
+        "lecture-25",
+        "lecture-26",
+        "lecture-27",
+        "lecture-38"
+      ]
+    },
+    {
+      "id": "p35-g3",
+      "page": 35,
+      "title": "尿路感染相关病原体",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "金葡菌",
+          "sourceText": "A.金葡菌"
         },
+        {
+          "key": "B",
+          "label": "大肠杆菌",
+          "sourceText": "B.大肠杆菌"
+        },
+        {
+          "key": "C",
+          "label": "铜绿假单胞菌",
+          "sourceText": "C.铜绿假单胞菌"
+        },
+        {
+          "key": "D",
+          "label": "变形杆菌",
+          "sourceText": "D.变形杆菌"
+        }
+      ],
+      "stems": [
         {
           "text": "尿路感染最常见的细菌",
           "answer": [
             "B"
           ],
           "sourceText": "尿路感染最常见的细菌B",
-          "sourceY": 1292,
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -11288,8 +11411,8 @@
           "answer": [
             "D"
           ],
-          "sourceText": "伴尿路结石多见于（D",
-          "sourceY": 1352,
+          "sourceText": "伴尿路结石多见于D",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -11298,7 +11421,7 @@
             "A"
           ],
           "sourceText": "血源性尿感多见于A",
-          "sourceY": 1407,
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -11306,13 +11429,13 @@
           "answer": [
             "C"
           ],
-          "sourceText": "尿路器械检查后尿感多见于（C",
-          "sourceY": 1468,
+          "sourceText": "尿路器械检查后尿感多见于C",
+          "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "泌尿系统总论 | A.肾小管对小分子蛋白质的重吸收障碍 | B.运动、发热时出现 | C.血中小分子蛋白质增多从肾小球滤过、超过了肾小管的重吸收极限 | 微量蛋白尿（FJ | D.直立时出现 | 选择性（R | E.VitA结合蛋白 | F.30-300mg/d | G.多<2g/d | 肾小管性蛋白尿（AEGIMOS | H.血管内溶血的血红蛋白 | 1.溶菌酶 | 分泌性蛋白尿（L | J.糖尿病肾病早期 | K.横纹肌溶解的肌红蛋白（如挤压综合征) | 组织性蛋白尿（P | L.尿中排出lgA增多 | M.核糖核酸酶 | 溢出性蛋白尿（CHKNQT | N.骨髓瘤的本周蛋白 | O.B2-微球蛋白 | P.尿中为小分子TH糖蛋白 | Q.凝溶蛋白 | R.终尿以白蛋白为主 | S.轻链蛋白 | T.游离免疫球蛋白的轻链 | U.游离免疫球蛋白的重链 | V.终尿有白蛋白、免疫球蛋白、补体C3等 | A.预后差 | 红细胞管型（B | B.肾小球源性血尿 | C.肾盂肾炎 | 白细胞管型（CE | D.肾单位长期阻塞(肾衰竭) | E.肾脏免疫反应 | 蜡样管型ADG | F.肾小管坏死 | G.肾小管严重病变 | 上皮细胞管型（F | H.肾小管上皮脂肪变性等(肾病综合征) | 脂肪管型（H | 尿路感染 | 尿路感染最常见的细菌B | A.金葡菌 | B.大肠杆菌 | 伴尿路结石多见于（D | C.铜绿假单胞菌 | D.变形杆菌 | 血源性尿感多见于A | 尿路器械检查后尿感多见于（C",
-      "reviewState": "待讲义复核",
+      "sourceText": "尿路感染相关病原体（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "肾脏",
       "lectureIds": [
         "lecture-24",
@@ -11580,7 +11703,7 @@
     {
       "id": "p36-g3",
       "page": 36,
-      "title": "肾前性",
+      "title": "急性肾衰竭病因分类",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -11724,10 +11847,15 @@
     {
       "id": "p37-g1",
       "page": 37,
-      "title": "肾前性",
+      "title": "肾前性与缺血性急性肾损伤",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
+        {
+          "key": "A",
+          "label": "尿比重<1.012",
+          "sourceText": "A.尿比重<1.012"
+        },
         {
           "key": "B",
           "label": "尿渗透压>500",
@@ -11735,8 +11863,8 @@
         },
         {
           "key": "C",
-          "label": "尿钠/(mmol/L)<10",
-          "sourceText": "C.尿钠/(mmol/L)<10"
+          "label": "尿钠（mmol/L）<10",
+          "sourceText": "C.尿钠（mmol/L）<10"
         },
         {
           "key": "D",
@@ -11745,8 +11873,8 @@
         },
         {
           "key": "E",
-          "label": "血尿素氮(mg/dl)/血清肌酐(mg/dl)>20",
-          "sourceText": "E.血尿素氮(mg/dl)/血清肌酐(mg/dl)>20"
+          "label": "血尿素氮（mg/dl）/血清肌酐（mg/dl）>20",
+          "sourceText": "E.血尿素氮（mg/dl）/血清肌酐（mg/dl）>20"
         },
         {
           "key": "F",
@@ -11766,7 +11894,7 @@
         {
           "key": "I",
           "label": "尿比重>1.018",
-          "sourceText": "1.尿比重>1.018"
+          "sourceText": "I.尿比重>1.018"
         },
         {
           "key": "J",
@@ -11775,8 +11903,8 @@
         },
         {
           "key": "K",
-          "label": "尿钠/(mmol/L)>20",
-          "sourceText": "K.尿钠/(mmol/L)>20"
+          "label": "尿钠（mmol/L）>20",
+          "sourceText": "K.尿钠（mmol/L）>20"
         },
         {
           "key": "L",
@@ -11785,8 +11913,8 @@
         },
         {
           "key": "M",
-          "label": "血尿素氮(mg/dl)/血清肌酐(mg/dl)<10~15",
-          "sourceText": "M.血尿素氮(mg/dl)/血清肌酐(mg/dl)<10~15"
+          "label": "血尿素氮（mg/dl）/血清肌酐（mg/dl）<10–15",
+          "sourceText": "M.血尿素氮（mg/dl）/血清肌酐（mg/dl）<10–15"
         },
         {
           "key": "N",
@@ -11796,40 +11924,33 @@
         {
           "key": "O",
           "label": "肾衰指数<1",
-          "sourceText": "0.肾衰指数<1"
+          "sourceText": "O.肾衰指数<1"
         },
         {
           "key": "P",
           "label": "尿沉渣棕色颗粒管型",
           "sourceText": "P.尿沉渣棕色颗粒管型"
-        },
-        {
-          "key": "A",
-          "label": "核糖核酸酶",
-          "sourceText": "A.核糖核酸酶"
         }
       ],
       "stems": [
         {
-          "text": "肾前性",
+          "text": "肾前性AKI",
           "answer": [
-            "A",
-            "K",
-            "I",
             "B",
             "C",
             "E",
             "H",
+            "I",
             "L",
             "N",
             "O"
           ],
           "sourceText": "肾前性AKIBCEHILNO",
-          "sourceY": 111,
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "缺血性",
+          "text": "缺血性ATN",
           "answer": [
             "A",
             "D",
@@ -11841,7 +11962,7 @@
             "P"
           ],
           "sourceText": "缺血性ATNADFGJKMP",
-          "sourceY": 166,
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
@@ -12105,7 +12226,126 @@
     {
       "id": "p38-g1",
       "page": 38,
-      "title": "CKD1",
+      "title": "贫血分级",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "Hb<100 g/L",
+          "sourceText": "A.Hb<100 g/L"
+        },
+        {
+          "key": "B",
+          "label": "Hb60–90 g/L",
+          "sourceText": "B.Hb60–90 g/L"
+        },
+        {
+          "key": "C",
+          "label": "Hb<120 g/L",
+          "sourceText": "C.Hb<120 g/L"
+        },
+        {
+          "key": "D",
+          "label": "Hb<30 g/L",
+          "sourceText": "D.Hb<30 g/L"
+        },
+        {
+          "key": "E",
+          "label": "Hb>90 g/L",
+          "sourceText": "E.Hb>90 g/L"
+        },
+        {
+          "key": "F",
+          "label": "Hb<110 g/L",
+          "sourceText": "F.Hb<110 g/L"
+        },
+        {
+          "key": "G",
+          "label": "Hb30–59 g/L",
+          "sourceText": "G.Hb30–59 g/L"
+        }
+      ],
+      "stems": [
+        {
+          "text": "男性贫血",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "男性贫血C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "女性贫血",
+          "answer": [
+            "F"
+          ],
+          "sourceText": "女性贫血F",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "孕妇贫血",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "孕妇贫血A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "轻度贫血",
+          "answer": [
+            "E"
+          ],
+          "sourceText": "轻度贫血E",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "中度贫血",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "中度贫血B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "重度贫血",
+          "answer": [
+            "G"
+          ],
+          "sourceText": "重度贫血G",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "极重度贫血",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "极重度贫血D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "贫血分级（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-24",
+        "lecture-25",
+        "lecture-26",
+        "lecture-27",
+        "lecture-38"
+      ]
+    },
+    {
+      "id": "p38-g2",
+      "page": 38,
+      "title": "慢性肾脏病分期",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -12116,13 +12356,13 @@
         },
         {
           "key": "B",
-          "label": "GFR 60-89",
-          "sourceText": "B.GFR 60-89"
+          "label": "GFR 60–89",
+          "sourceText": "B.GFR 60–89"
         },
         {
           "key": "C",
-          "label": "血.Cr>707",
-          "sourceText": "C.血.Cr>707"
+          "label": "血Cr>707",
+          "sourceText": "C.血Cr>707"
         },
         {
           "key": "D",
@@ -12136,8 +12376,8 @@
         },
         {
           "key": "F",
-          "label": "血.Cr<177",
-          "sourceText": "F.血.Cr<177"
+          "label": "血Cr<177",
+          "sourceText": "F.血Cr<177"
         },
         {
           "key": "G",
@@ -12146,8 +12386,8 @@
         },
         {
           "key": "H",
-          "label": "GFR 45-59",
-          "sourceText": "H.GFR 45-59"
+          "label": "GFR 45–59",
+          "sourceText": "H.GFR 45–59"
         },
         {
           "key": "I",
@@ -12156,18 +12396,18 @@
         },
         {
           "key": "J",
-          "label": "血.Cr<442",
-          "sourceText": "J.血.Cr<442"
+          "label": "血Cr<442",
+          "sourceText": "J.血Cr<442"
         },
         {
           "key": "K",
-          "label": "GFR 15-29",
-          "sourceText": "K.GFR 15-29"
+          "label": "GFR 15–29",
+          "sourceText": "K.GFR 15–29"
         },
         {
           "key": "L",
-          "label": "GFR 30-44",
-          "sourceText": "L.GFR 30-44"
+          "label": "GFR 30–44",
+          "sourceText": "L.GFR 30–44"
         },
         {
           "key": "M",
@@ -12176,8 +12416,8 @@
         },
         {
           "key": "N",
-          "label": "血.Cr<707",
-          "sourceText": "N.血.Cr<707"
+          "label": "血Cr<707",
+          "sourceText": "N.血Cr<707"
         }
       ],
       "stems": [
@@ -12186,8 +12426,8 @@
           "answer": [
             "D"
           ],
-          "sourceText": "CKD1 (D",
-          "sourceY": 352,
+          "sourceText": "CKD1D",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -12197,9 +12437,27 @@
             "E",
             "F"
           ],
-          "sourceText": "CKD2B EF",
-          "sourceY": 402,
+          "sourceText": "CKD2BEF",
+          "sourceY": 0,
           "answerMode": "多选"
+        },
+        {
+          "text": "CKD3a",
+          "answer": [
+            "H"
+          ],
+          "sourceText": "CKD3aH",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "CKD3b",
+          "answer": [
+            "L"
+          ],
+          "sourceText": "CKD3bL",
+          "sourceY": 0,
+          "answerMode": "单选"
         },
         {
           "text": "CKD4",
@@ -12208,8 +12466,8 @@
             "K",
             "N"
           ],
-          "sourceText": "CKD4 ( G K N",
-          "sourceY": 509,
+          "sourceText": "CKD4GKN",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -12219,10 +12477,96 @@
             "C",
             "I"
           ],
-          "sourceText": "CKD5(A CI",
-          "sourceY": 561,
+          "sourceText": "CKD5ACI",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "慢性肾脏病分期（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-24",
+        "lecture-25",
+        "lecture-26",
+        "lecture-27",
+        "lecture-38"
+      ]
+    },
+    {
+      "id": "p38-g3",
+      "page": 38,
+      "title": "原发性肾小球疾病与免疫机制",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "肺出血-肾炎Goodpasture综合征",
+          "sourceText": "A.肺出血-肾炎Goodpasture综合征"
         },
+        {
+          "key": "B",
+          "label": "中性粒细胞胞浆抗体ANCA",
+          "sourceText": "B.中性粒细胞胞浆抗体ANCA"
+        },
+        {
+          "key": "C",
+          "label": "急进性肾炎I型",
+          "sourceText": "C.急进性肾炎I型"
+        },
+        {
+          "key": "D",
+          "label": "SLE",
+          "sourceText": "D.SLE"
+        },
+        {
+          "key": "E",
+          "label": "急进性肾炎III型",
+          "sourceText": "E.急进性肾炎III型"
+        },
+        {
+          "key": "F",
+          "label": "膜性肾病",
+          "sourceText": "F.膜性肾病"
+        },
+        {
+          "key": "G",
+          "label": "急性肾炎",
+          "sourceText": "G.急性肾炎"
+        },
+        {
+          "key": "H",
+          "label": "显微镜下多血管炎",
+          "sourceText": "H.显微镜下多血管炎"
+        },
+        {
+          "key": "I",
+          "label": "海曼Heymann肾病",
+          "sourceText": "I.海曼Heymann肾病"
+        },
+        {
+          "key": "J",
+          "label": "过敏性紫癜",
+          "sourceText": "J.过敏性紫癜"
+        },
+        {
+          "key": "K",
+          "label": "急进性肾炎II型",
+          "sourceText": "K.急进性肾炎II型"
+        },
+        {
+          "key": "L",
+          "label": "系膜毛细血管性肾炎I型",
+          "sourceText": "L.系膜毛细血管性肾炎I型"
+        },
+        {
+          "key": "M",
+          "label": "Wegener肉芽肿",
+          "sourceText": "M.Wegener肉芽肿"
+        }
+      ],
+      "stems": [
         {
           "text": "原位免疫复合物型",
           "answer": [
@@ -12234,7 +12578,7 @@
             "K"
           ],
           "sourceText": "原位免疫复合物型ACFGIK",
-          "sourceY": 777,
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -12246,8 +12590,8 @@
             "J",
             "L"
           ],
-          "sourceText": "循环免疫复合物型（DGKJL",
-          "sourceY": 830,
+          "sourceText": "循环免疫复合物型DGKJL",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -12259,7 +12603,7 @@
             "M"
           ],
           "sourceText": "自身抗体BEHM",
-          "sourceY": 881,
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -12268,8 +12612,8 @@
             "A",
             "C"
           ],
-          "sourceText": "抗基底膜GBM（AC",
-          "sourceY": 933,
+          "sourceText": "抗基底膜GBMAC",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -12278,8 +12622,8 @@
             "F",
             "I"
           ],
-          "sourceText": "抗足突膜（FI",
-          "sourceY": 986,
+          "sourceText": "抗足突膜FI",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -12287,34 +12631,34 @@
           "answer": [
             "A"
           ],
-          "sourceText": "急进性肾炎I型继发者（A",
-          "sourceY": 1038,
+          "sourceText": "急进性肾炎I型继发者A",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
-          "text": "急进性肾炎I型继发者",
+          "text": "急进性肾炎II型继发者",
           "answer": [
             "D",
             "G",
             "J"
           ],
-          "sourceText": "急进性肾炎I型继发者（DGJ",
-          "sourceY": 1094,
+          "sourceText": "急进性肾炎II型继发者DGJ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "急进性肾炎川型继发者",
+          "text": "急进性肾炎III型继发者",
           "answer": [
             "H",
             "M"
           ],
-          "sourceText": "急进性肾炎川型继发者（HM",
-          "sourceY": 1146,
+          "sourceText": "急进性肾炎III型继发者HM",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "问： | A.尿毒症期 | CKD1 (D | B.GFR 60-89 | C.血.Cr>707 | CKD2B EF | D.GFR>90 | E.代偿期 | F.血.Cr<177 | G.肾衰期 | CKD4 ( G K N | H.GFR 45-59 | I.GFR<15或透析 | CKD5(A CI | J.血.Cr<442 | K.GFR 15-29 | L.GFR 30-44 | M.失代偿期 | N.血.Cr<707 | 原发性肾小球疾病 | A.肺出血-肾炎Goodpasture综合征 | 原位免疫复合物型ACFGIK | B.中性粒细胞胞浆抗体ANCA | C.急进性肾炎I型 | 循环免疫复合物型（DGKJL | D.SLE | 自身抗体BEHM | E.急进性肾炎川型 | F.膜性肾病 | 抗基底膜GBM（AC | G.急性肾炎 | H.显微镜下多血管炎 | 抗足突膜（FI | 1.海曼Heymann 肾病 | J.过敏性紫癜 | 急进性肾炎I型继发者（A | K.急进性肾炎I型 | L.系膜毛细血管性肾炎1型 | M.Wegener肉芽肿 | 急进性肾炎I型继发者（DGJ | 急进性肾炎川型继发者（HM | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "原发性肾小球疾病与免疫机制（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "肾脏",
       "lectureIds": [
         "lecture-24",
@@ -12991,7 +13335,7 @@
     {
       "id": "p41-g1",
       "page": 41,
-      "title": "I型",
+      "title": "肾炎疾病治疗与鉴别",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -13038,7 +13382,7 @@
         {
           "key": "I",
           "label": "血浆置换强化",
-          "sourceText": "1.血浆置换强化"
+          "sourceText": "I.血浆置换强化"
         },
         {
           "key": "J",
@@ -13049,11 +13393,190 @@
           "key": "K",
           "label": "无现症感染不用抗生素",
           "sourceText": "K.无现症感染不用抗生素"
+        }
+      ],
+      "stems": [
+        {
+          "text": "急性肾炎",
+          "answer": [
+            "B",
+            "D",
+            "K"
+          ],
+          "sourceText": "急性肾炎BDK",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "慢性肾炎",
+          "answer": [
+            "D",
+            "E",
+            "J"
+          ],
+          "sourceText": "慢性肾炎DEJ",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "IgA肾病",
+          "answer": [
+            "H",
+            "D"
+          ],
+          "sourceText": "IgA肾病HD",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "急进性肾炎I型",
+          "answer": [
+            "A",
+            "I"
+          ],
+          "sourceText": "急进性肾炎I型AI",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "急进性肾炎II型",
+          "answer": [
+            "A",
+            "F"
+          ],
+          "sourceText": "急进性肾炎II型AF",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "急进性肾炎III型",
+          "answer": [
+            "A",
+            "I",
+            "F"
+          ],
+          "sourceText": "急进性肾炎III型AIF",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "脂性肾病",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "脂性肾病C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "局灶节段性肾小球硬化",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "局灶节段性肾小球硬化C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "系膜增生性肾炎",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "系膜增生性肾炎C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "膜性肾病",
+          "answer": [
+            "G"
+          ],
+          "sourceText": "膜性肾病G",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "系膜毛细血管性肾炎",
+          "answer": [
+            "G"
+          ],
+          "sourceText": "系膜毛细血管性肾炎G",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "肾炎疾病治疗与鉴别（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-24",
+        "lecture-25",
+        "lecture-26",
+        "lecture-27",
+        "lecture-38"
+      ]
+    },
+    {
+      "id": "p41-g2",
+      "page": 41,
+      "title": "急性肾炎与IgA肾病鉴别",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "毛细血管内增生性肾炎",
+          "sourceText": "A.毛细血管内增生性肾炎"
+        },
+        {
+          "key": "B",
+          "label": "继发急进性肾炎、肾病综合征",
+          "sourceText": "B.继发急进性肾炎、肾病综合征"
+        },
+        {
+          "key": "C",
+          "label": "IgA沉积为主",
+          "sourceText": "C.IgA沉积为主"
+        },
+        {
+          "key": "D",
+          "label": "前驱感染1–3周后明显或不明显血尿",
+          "sourceText": "D.前驱感染1–3周后明显或不明显血尿"
+        },
+        {
+          "key": "E",
+          "label": "C3多正常",
+          "sourceText": "E.C3多正常"
+        },
+        {
+          "key": "F",
+          "label": "原发性肾小球疾病",
+          "sourceText": "F.原发性肾小球疾病"
+        },
+        {
+          "key": "G",
+          "label": "多种病理变化",
+          "sourceText": "G.多种病理变化"
+        },
+        {
+          "key": "H",
+          "label": "IgG沉积为主",
+          "sourceText": "H.IgG沉积为主"
+        },
+        {
+          "key": "J",
+          "label": "前驱感染1–3周后明显血尿",
+          "sourceText": "J.前驱感染1–3周后明显血尿"
+        },
+        {
+          "key": "K",
+          "label": "前驱感染1–3天后明显血尿",
+          "sourceText": "K.前驱感染1–3天后明显血尿"
         },
         {
           "key": "L",
-          "label": "C3↓ (8周内恢复)",
-          "sourceText": "L.C3↓ (8周内恢复)"
+          "label": "C3↓（8周内恢复）",
+          "sourceText": "L.C3↓（8周内恢复）"
         },
         {
           "key": "M",
@@ -13063,36 +13586,114 @@
       ],
       "stems": [
         {
-          "text": "I型",
+          "text": "急性肾炎",
           "answer": [
             "A",
-            "I"
+            "F",
+            "H",
+            "J",
+            "L"
           ],
-          "sourceText": "I型(AI)",
-          "sourceY": 146,
+          "sourceText": "急性肾炎AFHJL",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "一型",
+          "text": "IgA肾病",
           "answer": [
-            "A",
-            "F"
+            "C",
+            "E",
+            "F",
+            "G",
+            "K"
           ],
-          "sourceText": "一型AF",
-          "sourceY": 167,
+          "sourceText": "IgA肾病CEFGK",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "川型",
+          "text": "过敏性紫癜肾炎",
           "answer": [
-            "A",
-            "I",
-            "F"
+            "B",
+            "C",
+            "D",
+            "M"
           ],
-          "sourceText": "川型AIF)",
-          "sourceY": 186,
+          "sourceText": "过敏性紫癜肾炎BCDM",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "急性肾炎与IgA肾病鉴别（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-24",
+        "lecture-25",
+        "lecture-26",
+        "lecture-27",
+        "lecture-38"
+      ]
+    },
+    {
+      "id": "p41-g3",
+      "page": 41,
+      "title": "原发性高血压与慢性肾炎鉴别",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "先有高血压再有肾病",
+          "sourceText": "A.先有高血压再有肾病"
         },
+        {
+          "key": "B",
+          "label": "高血压程度较轻或较重",
+          "sourceText": "B.高血压程度较轻或较重"
+        },
+        {
+          "key": "C",
+          "label": "肾小球损害程度重（血尿、蛋白尿、少尿明显）",
+          "sourceText": "C.肾小球损害程度重（血尿、蛋白尿、少尿明显）"
+        },
+        {
+          "key": "D",
+          "label": "中老年多见",
+          "sourceText": "D.中老年多见"
+        },
+        {
+          "key": "E",
+          "label": "靶器官损害少见（若出现提示病情重）",
+          "sourceText": "E.靶器官损害少见（若出现提示病情重）"
+        },
+        {
+          "key": "F",
+          "label": "先有肾病再有高血压",
+          "sourceText": "F.先有肾病再有高血压"
+        },
+        {
+          "key": "G",
+          "label": "高血压程度较重",
+          "sourceText": "G.高血压程度较重"
+        },
+        {
+          "key": "H",
+          "label": "远端小管功能损害（尿浓缩功能↓、夜尿、低比重尿）较肾小球损害早",
+          "sourceText": "H.远端小管功能损害（尿浓缩功能↓、夜尿、低比重尿）较肾小球损害早"
+        },
+        {
+          "key": "I",
+          "label": "青壮年多见",
+          "sourceText": "I.青壮年多见"
+        },
+        {
+          "key": "J",
+          "label": "靶器官损害多见（心、脑、眼底等病变）",
+          "sourceText": "J.靶器官损害多见（心、脑、眼底等病变）"
+        }
+      ],
+      "stems": [
         {
           "text": "原发性高血压",
           "answer": [
@@ -13102,22 +13703,26 @@
             "H",
             "J"
           ],
-          "sourceText": "原发性高血压（ADGHJ",
-          "sourceY": 958,
+          "sourceText": "原发性高血压ADGHJ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
           "text": "慢性肾炎",
           "answer": [
-            "B"
+            "B",
+            "C",
+            "E",
+            "F",
+            "I"
           ],
-          "sourceText": "慢性肾炎（BCEFT",
-          "sourceY": 1010,
-          "answerMode": "单选"
+          "sourceText": "慢性肾炎BCEFI",
+          "sourceY": 0,
+          "answerMode": "多选"
         }
       ],
-      "sourceText": "急性肾炎（B DK | A.强化疗法需配合泼尼松+环磷酰胺 | B.对症治疗为主 | 慢性肾炎DEJ | C.初治单用激素 | D.不用激素+环磷酰胺 | IgA 肾病(H+D | E.不以消除肾炎综合征为目标 | I型(AI) | 急进性肾炎 | 一型AF | F.甲泼尼龙冲击强化 | 川型AIF) | G.初治用激素+环磷酰胺 | 脂性肾病（C） | H.分情况如单纯血尿对症 | 1.血浆置换强化 | 局灶节段性肾小球硬化（C | J.收缩压<120、尿蛋白<1 | K.无现症感染不用抗生素 | 系膜增生性肾炎（C | 膜性肾病（G | 系膜毛细血管性肾炎（G | A.毛细血管内增生性肾炎 | 急性肾炎（AFHJL | B.继发急进性肾炎、肾病综合征 | IgA 肾病(C EF G K | C.lgA沉积为主 | D.前驱感染1-3周后明显或不明显血尿 | E.C3多正常 | 过敏性紫癜肾炎（BCDM | F.原发性肾小球疾病 | G.多种病理变化 | H.lgG沉积为主 | J.前驱感染1-3周后明显血尿 | K.前驱感染1-3天后明显血尿 | L.C3↓ (8周内恢复) | M.疾病特征：双下肢对称出血点 | A.先有高血压再有肾病 | 原发性高血压（ADGHJ | B.高血压程度较轻或较重 | C.肾小球损害程度重（血尿、蛋白尿、少尿明显) | 慢性肾炎（BCEFT | D.中老年多见 | E.靶器官损害少见(若出现提示病情重) | F.先有肾病再有高血压 | G.高血压程度较重 | H.远曲小管功能损害(尿浓缩功能↓、夜尿、低比重尿)较肾小球损害早 | 1.青壮年多见 | J.靶器官损害多见（心、脑、眼底等病变） | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "原发性高血压与慢性肾炎鉴别（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "肾脏",
       "lectureIds": [
         "lecture-24",
