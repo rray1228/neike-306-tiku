@@ -21828,7 +21828,59 @@
           "sourceText": "周围神经 ACE",
           "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖尿病神经病变（原题页上半组，按讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-38"
+      ]
+    },
+    {
+      "id": "p66-g3",
+      "page": 66,
+      "title": "糖尿病弥漫性周围神经病变表现",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "QT间期延长、无症状型心肌梗死、猝死",
+          "sourceText": "A.QT间期延长、无症状型心肌梗死、猝死"
         },
+        {
+          "key": "B",
+          "label": "呈袜/手套式分布",
+          "sourceText": "B.呈袜/手套式分布"
+        },
+        {
+          "key": "C",
+          "label": "胃排空延迟（胃轻瘫）、便秘或腹泻、尿潴留或失禁",
+          "sourceText": "C.胃排空延迟（胃轻瘫）、便秘或腹泻、尿潴留或失禁"
+        },
+        {
+          "key": "D",
+          "label": "电生理检查神经传导减慢",
+          "sourceText": "D.电生理检查神经传导减慢"
+        },
+        {
+          "key": "E",
+          "label": "排汗异常",
+          "sourceText": "E.排汗异常"
+        },
+        {
+          "key": "F",
+          "label": "最常见",
+          "sourceText": "F.最常见"
+        },
+        {
+          "key": "G",
+          "label": "瞳孔改变、直立性低血压、阳痿",
+          "sourceText": "G.瞳孔改变、直立性低血压、阳痿"
+        }
+      ],
+      "stems": [
         {
           "text": "远端对称性多发神经病变",
           "answer": [
@@ -21842,15 +21894,19 @@
         },
         {
           "text": "自主神经病变",
-          "answer": [],
+          "answer": [
+            "A",
+            "C",
+            "E",
+            "G"
+          ],
           "sourceText": "自主神经病变 ACEG",
           "sourceY": 0,
-          "answerMode": "待核对",
-          "answerState": "待原题页核对（原图答案含G，但选项池未见G）"
+          "answerMode": "多选"
         }
       ],
-      "sourceText": "糖尿病神经病变（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "sourceText": "糖尿病神经病变（原题页下半组，按讲义复核）",
+      "reviewState": "已按原题页与讲义复核，已拆分与上半组混在一起的题目",
       "topic": "内分泌",
       "lectureIds": [
         "lecture-38"
