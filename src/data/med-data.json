@@ -3509,7 +3509,7 @@
     {
       "id": "p09-g3",
       "page": 9,
-      "title": "A群",
+      "title": "结核菌群与药物敏感性",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -3547,26 +3547,6 @@
           "key": "G",
           "label": "完全休眠状态、无致病力、无传染性",
           "sourceText": "G.完全休眠状态、无致病力、无传染性"
-        },
-        {
-          "key": "H",
-          "label": "高尿酸",
-          "sourceText": "H.高尿酸"
-        },
-        {
-          "key": "I",
-          "label": "肾毒性、耳毒性",
-          "sourceText": "1.肾毒性、耳毒性"
-        },
-        {
-          "key": "J",
-          "label": "ALT升高3倍以上或黄痘：停药",
-          "sourceText": "J.ALT升高3倍以上或黄痘：停药"
-        },
-        {
-          "key": "K",
-          "label": "视神经炎",
-          "sourceText": "K.视神经炎"
         }
       ],
       "stems": [
@@ -3577,7 +3557,7 @@
             "D"
           ],
           "sourceText": "A群AD",
-          "sourceY": 750,
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -3587,7 +3567,7 @@
             "F"
           ],
           "sourceText": "B群EF",
-          "sourceY": 812,
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -3596,8 +3576,8 @@
             "C",
             "F"
           ],
-          "sourceText": "C群(CF)",
-          "sourceY": 873,
+          "sourceText": "C群CF",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -3606,10 +3586,87 @@
             "B",
             "G"
           ],
-          "sourceText": "D群(BG)",
-          "sourceY": 932,
+          "sourceText": "D群BG",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "结核菌群与药物敏感性（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-01",
+        "lecture-02",
+        "lecture-03",
+        "lecture-04",
+        "lecture-05",
+        "lecture-06"
+      ]
+    },
+    {
+      "id": "p09-g4",
+      "page": 9,
+      "title": "抗结核药物及不良反应",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "周围神经炎（手足麻）→需加VitB6",
+          "sourceText": "A.周围神经炎（手足麻）→需加VitB6"
         },
+        {
+          "key": "B",
+          "label": "能渗入全身各组织，易通过血脑屏障，在于酸性病灶，胸水中药物浓度都很高",
+          "sourceText": "B.能渗入全身各组织，易通过血脑屏障，在于酸性病灶，胸水中药物浓度都很高"
+        },
+        {
+          "key": "C",
+          "label": "在细胞外杀菌",
+          "sourceText": "C.在细胞外杀菌"
+        },
+        {
+          "key": "D",
+          "label": "在细胞内杀菌",
+          "sourceText": "D.在细胞内杀菌"
+        },
+        {
+          "key": "E",
+          "label": "若治疗后一过性转氨酶升高：加用保肝药继续用药",
+          "sourceText": "E.若治疗后一过性转氨酶升高：加用保肝药继续用药"
+        },
+        {
+          "key": "F",
+          "label": "抑菌剂",
+          "sourceText": "F.抑菌剂"
+        },
+        {
+          "key": "G",
+          "label": "杀死细胞外TB",
+          "sourceText": "G.杀死细胞外TB"
+        },
+        {
+          "key": "H",
+          "label": "高尿酸",
+          "sourceText": "H.高尿酸"
+        },
+        {
+          "key": "I",
+          "label": "肾毒性、耳毒性",
+          "sourceText": "I.肾毒性、耳毒性"
+        },
+        {
+          "key": "J",
+          "label": "ALT升高3倍以上或黄疸：停药",
+          "sourceText": "J.ALT升高3倍以上或黄疸：停药"
+        },
+        {
+          "key": "K",
+          "label": "视神经炎",
+          "sourceText": "K.视神经炎"
+        }
+      ],
+      "stems": [
         {
           "text": "异烟肼",
           "answer": [
@@ -3619,7 +3676,7 @@
             "G"
           ],
           "sourceText": "异烟肼HABG",
-          "sourceY": 1086,
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -3630,7 +3687,7 @@
             "J"
           ],
           "sourceText": "利福霉素类如利福平R和利福喷丁EGJ",
-          "sourceY": 1136,
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -3639,8 +3696,8 @@
             "D",
             "H"
           ],
-          "sourceText": "吡嗪酰胺ZDH",
-          "sourceY": 1186,
+          "sourceText": "吡嗪酰胺DH",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -3649,8 +3706,8 @@
             "C",
             "I"
           ],
-          "sourceText": "链霉素SCI",
-          "sourceY": 1233,
+          "sourceText": "链霉素CI",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -3659,13 +3716,13 @@
             "F",
             "K"
           ],
-          "sourceText": "乙胺丁醇E（FK",
-          "sourceY": 1283,
+          "sourceText": "乙胺丁醇EFK",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "问： | A.最活跃，干酪液化处特别多，极易耐药 | A群AD | B.无任何药物敏感 | C.利福平最敏感 | B群EF | D.异烟肼最敏感 | E.吡嗪酰胺最敏感 | C群(CF) | F.处于半静止状态，繁殖速度较慢 | G.完全休眠状态、无致病力、无传染性 | D群(BG) | A.周围神经炎(手足麻)→需加VitB6 | 异烟肼HABG | B.能渗入全身各组织，易通过血脑屏障，在干酪性病灶、胸水中药物浓度都很高 | C.在细胞外杀菌 | 利福霉素类如利福平R和利福喷丁EGJ | D.在细胞内杀菌 | E.若治疗后一过性转氨酶升高：加用保肝药继续用药 | 吡嗪酰胺ZDH | F.抑菌剂 | G.杀细胞内外TB | 链霉素SCI | H.高尿酸 | 1.肾毒性、耳毒性 | 乙胺丁醇E（FK | J.ALT升高3倍以上或黄痘：停药 | K.视神经炎 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "sourceText": "抗结核药物及不良反应（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "呼吸",
       "lectureIds": [
         "lecture-01",
@@ -4186,6 +4243,192 @@
     {
       "id": "p12-g1",
       "page": 12,
+      "title": "呼吸衰竭分型",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "ARDS",
+          "sourceText": "A.ARDS"
+        },
+        {
+          "key": "B",
+          "label": "肺换气障碍为主",
+          "sourceText": "B.肺换气障碍为主"
+        },
+        {
+          "key": "C",
+          "label": "严重哮喘",
+          "sourceText": "C.严重哮喘"
+        },
+        {
+          "key": "D",
+          "label": "肺通气障碍为主",
+          "sourceText": "D.肺通气障碍为主"
+        },
+        {
+          "key": "E",
+          "label": "脑干出血",
+          "sourceText": "E.脑干出血"
+        },
+        {
+          "key": "F",
+          "label": "COPD",
+          "sourceText": "F.COPD"
+        },
+        {
+          "key": "G",
+          "label": "脊柱侧凸/胸廓畸形",
+          "sourceText": "G.脊柱侧凸/胸廓畸形"
+        },
+        {
+          "key": "H",
+          "label": "低浓度吸氧（<35%）",
+          "sourceText": "H.低浓度吸氧（<35%）"
+        },
+        {
+          "key": "I",
+          "label": "镇静催眠剂中毒",
+          "sourceText": "I.镇静催眠剂中毒"
+        },
+        {
+          "key": "J",
+          "label": "PaO₂<60，PaCO₂正常或降低",
+          "sourceText": "J.PaO₂<60，PaCO₂正常或降低"
+        },
+        {
+          "key": "K",
+          "label": "膈肌麻痹（重症肌无力）",
+          "sourceText": "K.膈肌麻痹（重症肌无力）"
+        },
+        {
+          "key": "L",
+          "label": "间质性肺疾病",
+          "sourceText": "L.间质性肺疾病"
+        },
+        {
+          "key": "M",
+          "label": "急性肺栓塞",
+          "sourceText": "M.急性肺栓塞"
+        },
+        {
+          "key": "N",
+          "label": "急性肺水肿/急性左心衰",
+          "sourceText": "N.急性肺水肿/急性左心衰"
+        },
+        {
+          "key": "O",
+          "label": "严重肺部感染",
+          "sourceText": "O.严重肺部感染"
+        },
+        {
+          "key": "P",
+          "label": "PaCO₂>50，伴或不伴低氧血症（治疗后可不伴）",
+          "sourceText": "P.PaCO₂>50，伴或不伴低氧血症（治疗后可不伴）"
+        },
+        {
+          "key": "Q",
+          "label": "高浓度吸氧",
+          "sourceText": "Q.高浓度吸氧"
+        },
+        {
+          "key": "R",
+          "label": "气管异物",
+          "sourceText": "R.气管异物"
+        }
+      ],
+      "stems": [
+        {
+          "text": "I型呼衰",
+          "answer": [
+            "A",
+            "B",
+            "J",
+            "L",
+            "M",
+            "N",
+            "O",
+            "Q"
+          ],
+          "sourceText": "I型呼衰ABJLMNOQ",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "II型呼衰",
+          "answer": [
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "K",
+            "P",
+            "R"
+          ],
+          "sourceText": "II型呼衰CDEFGHIKPR",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "I型呼衰急性",
+          "answer": [
+            "A",
+            "M",
+            "N",
+            "O"
+          ],
+          "sourceText": "I型呼衰急性AMNO",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "I型呼衰慢性或急性",
+          "answer": [
+            "L"
+          ],
+          "sourceText": "I型呼衰慢性或急性L",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "II型呼衰急性",
+          "answer": [
+            "C",
+            "E",
+            "I",
+            "K",
+            "R"
+          ],
+          "sourceText": "II型呼衰急性CEIKR",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "II型呼衰慢性或急性",
+          "answer": [
+            "F",
+            "G"
+          ],
+          "sourceText": "II型呼衰慢性或急性FG",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "呼吸衰竭分型（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-01",
+        "lecture-02"
+      ]
+    },
+    {
+      "id": "p12-g2",
+      "page": 12,
       "title": "肺癌；原发肿瘤引起的",
       "kind": "B",
       "kindLabel": "B型题",
@@ -4516,12 +4759,21 @@
           "answerMode": "多选"
         },
         {
-          "text": "大细胞癌；腺癌",
+          "text": "大细胞癌",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "大细胞癌A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "腺癌",
           "answer": [
             "F"
           ],
-          "sourceText": "F",
-          "sourceY": 778,
+          "sourceText": "腺癌F",
+          "sourceY": 0,
           "answerMode": "单选"
         }
       ],
@@ -4639,12 +4891,21 @@
           "answerMode": "单选"
         },
         {
-          "text": "以肿瘤血管生成为靶点（；以PD-L1为靶点",
+          "text": "以肿瘤血管生成为靶点",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "以肿瘤血管生成为靶点D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "以PD-L1为靶点",
           "answer": [
             "I"
           ],
-          "sourceText": "以PD-L1为靶点（I",
-          "sourceY": 1364,
+          "sourceText": "以PD-L1为靶点I",
+          "sourceY": 0,
           "answerMode": "单选"
         }
       ],
@@ -4897,7 +5158,7 @@
     {
       "id": "p15-g2",
       "page": 15,
-      "title": "渗出性胸水",
+      "title": "胸水病因：渗出液与漏出液",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -5047,21 +5308,31 @@
             "Y"
           ],
           "sourceText": "渗出性胸水CEGIJLNPQRUVWY",
-          "sourceY": 516,
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
           "text": "漏出性胸水",
           "answer": [
-            "G",
-            "I"
+            "A",
+            "B",
+            "D",
+            "F",
+            "H",
+            "K",
+            "M",
+            "O",
+            "S",
+            "T",
+            "V",
+            "X"
           ],
-          "sourceText": "漏出性胸水(ABDFHKMOSTVX(GI)",
-          "sourceY": 578,
+          "sourceText": "漏出性胸水ABDFHKMOSTVX",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "A.右心衰 | 问： | B.肝硬化 | 渗出性胸水CEGIJLNPQRUVWY | C.结核 | D.心包积液 | 漏出性胸水(ABDFHKMOSTVX(GI) | E.普通细菌等感染 | F.营养不良 | G.间皮瘤 | H.缩窄性心包炎 | 1.恶性肿瘤转移 | J.膈下炎症 | K.腹膜透析 | L.类风湿 | M.上腔静脉或奇静脉受阻 | N.SLE | O.血管通透性个→药物过敏 | P.血管通透性↑→炎症 | Q.肺梗死 | R.气胸 | S.血浆胶渗压↓ | T.胸膜毛细血管静水压/血压↑ | U.膈下脓肿 | V.胸膜淋巴引流受阻 | W.肝脓肿 | X.黏液性水肿 | Y.急性胰腺炎 | 小红书号：385106504",
+      "sourceText": "胸水病因：渗出性胸水CEGIJLNPQRUVWY；漏出性胸水ABDFHKMOSTVX（原题页另有GI标注，按病因和讲义复核）",
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
@@ -6040,6 +6311,198 @@
     },
     {
       "id": "p20-g1",
+      "page": 20,
+      "title": "胃食管反流病病因",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "食管蠕动能力下降",
+          "sourceText": "A.食管蠕动能力下降"
+        },
+        {
+          "key": "B",
+          "label": "食管裂孔疝",
+          "sourceText": "B.食管裂孔疝"
+        },
+        {
+          "key": "C",
+          "label": "贲门失弛缓症术后",
+          "sourceText": "C.贲门失弛缓症术后"
+        },
+        {
+          "key": "D",
+          "label": "贲门失弛缓症",
+          "sourceText": "D.贲门失弛缓症"
+        },
+        {
+          "key": "E",
+          "label": "长期饮酒",
+          "sourceText": "E.长期饮酒"
+        },
+        {
+          "key": "F",
+          "label": "胃内压增高（胃排空延迟、胃扩张等）",
+          "sourceText": "F.胃内压增高（胃排空延迟、胃扩张等）"
+        },
+        {
+          "key": "G",
+          "label": "Ach",
+          "sourceText": "G.Ach"
+        },
+        {
+          "key": "H",
+          "label": "腹内压增高（便秘、肥胖、妊娠、腹水等）",
+          "sourceText": "H.腹内压增高（便秘、肥胖、妊娠、腹水等）"
+        },
+        {
+          "key": "I",
+          "label": "高脂食物",
+          "sourceText": "I.高脂食物"
+        },
+        {
+          "key": "J",
+          "label": "治疗GERD药物",
+          "sourceText": "J.治疗GERD药物"
+        },
+        {
+          "key": "K",
+          "label": "巧克力",
+          "sourceText": "K.巧克力"
+        },
+        {
+          "key": "L",
+          "label": "吸烟",
+          "sourceText": "L.吸烟"
+        },
+        {
+          "key": "M",
+          "label": "胰高血糖素",
+          "sourceText": "M.胰高血糖素"
+        },
+        {
+          "key": "N",
+          "label": "促胰液素",
+          "sourceText": "N.促胰液素"
+        },
+        {
+          "key": "O",
+          "label": "胃泌素",
+          "sourceText": "O.胃泌素"
+        },
+        {
+          "key": "P",
+          "label": "缩胆囊素CCK",
+          "sourceText": "P.缩胆囊素CCK"
+        },
+        {
+          "key": "Q",
+          "label": "前列腺素",
+          "sourceText": "Q.前列腺素"
+        },
+        {
+          "key": "R",
+          "label": "胃动素",
+          "sourceText": "R.胃动素"
+        },
+        {
+          "key": "S",
+          "label": "血管活性肠肽VIP",
+          "sourceText": "S.血管活性肠肽VIP"
+        },
+        {
+          "key": "T",
+          "label": "钙拮抗剂CCB",
+          "sourceText": "T.钙拮抗剂CCB"
+        },
+        {
+          "key": "U",
+          "label": "干燥综合征",
+          "sourceText": "U.干燥综合征"
+        },
+        {
+          "key": "V",
+          "label": "地西泮",
+          "sourceText": "V.地西泮"
+        },
+        {
+          "key": "W",
+          "label": "刺激性食物或药物（NSAIDs）",
+          "sourceText": "W.刺激性食物或药物（NSAIDs）"
+        },
+        {
+          "key": "X",
+          "label": "硝酸甘油",
+          "sourceText": "X.硝酸甘油"
+        },
+        {
+          "key": "Y",
+          "label": "抗胆碱药",
+          "sourceText": "Y.抗胆碱药"
+        }
+      ],
+      "stems": [
+        {
+          "text": "抗反流屏障、以LES结构和/或功能障碍",
+          "answer": [
+            "B",
+            "C",
+            "F",
+            "H",
+            "I",
+            "K",
+            "M",
+            "N",
+            "P",
+            "Q",
+            "S",
+            "T",
+            "V",
+            "X",
+            "Y"
+          ],
+          "sourceText": "抗反流屏障、以LES结构和/或功能障碍BCFHIKMNPQSTVXY",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "食管清除作用降低",
+          "answer": [
+            "A",
+            "B",
+            "U"
+          ],
+          "sourceText": "食管清除作用降低ABU",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "食管黏膜屏障功能降低",
+          "answer": [
+            "E",
+            "L",
+            "W"
+          ],
+          "sourceText": "食管黏膜屏障功能降低ELW",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "胃食管反流病病因（按原题页重新分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-01",
+        "lecture-02",
+        "lecture-03",
+        "lecture-04",
+        "lecture-05",
+        "lecture-06"
+      ]
+    },
+    {
+      "id": "p20-g2",
       "page": 20,
       "title": "最常见典型症状",
       "kind": "B",
