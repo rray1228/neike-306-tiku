@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import medContent from './data/med-data.json'
 import pathologyContent from './data/pathology-data.json'
+import surgeryContent from './data/surgery-data.json'
 
 const SUBJECTS = {
   med: {
@@ -20,6 +21,15 @@ const SUBJECTS = {
     content: pathologyContent,
     defaultTopic: '消化系统',
     sourceName: '病理学西综-学成选择题（去胶带版）.pdf',
+  },
+  surgery: {
+    label: '外科',
+    title: '外科-学成选择题byBi8bo&戒不掉甜食',
+    subtitle: '306 临床医学综合能力（外科学）',
+    sectionLabel: '外科章节',
+    content: surgeryContent,
+    defaultTopic: '颈部疾病',
+    sourceName: '外科各论除骨科（去胶带版）.pdf',
   },
 }
 
@@ -45,6 +55,17 @@ const TOPIC_ICONS = {
   局部血液循环障碍: 'drop',
   炎症: 'alert',
   肿瘤: 'grid',
+  颈部疾病: 'spark',
+  乳房疾病: 'grid',
+  胸部疾病: 'lungs',
+  胃十二指肠疾病: 'stomach',
+  腹部损伤与感染: 'alert',
+  小肠与阑尾疾病: 'stomach',
+  结直肠与肛管疾病: 'stomach',
+  腹外疝: 'grid',
+  肝胆胰疾病: 'stomach',
+  周围血管疾病: 'drop',
+  泌尿外科: 'kidney',
 }
 
 const CORRECTIONS = {
@@ -178,8 +199,9 @@ function App() {
   const [mobileEvidence, setMobileEvidence] = useState(false)
   const [sidebarCollapsed, setSidebarCollapsed] = useState(() => {
     if (typeof window === 'undefined') return false
+    if (window.innerWidth <= 720) return true
     const stored = window.localStorage.getItem('med-sidebar-collapsed')
-    return stored === null ? window.innerWidth <= 720 : readLocalStorage('med-sidebar-collapsed', false)
+    return stored === null ? false : readLocalStorage('med-sidebar-collapsed', false)
   })
 
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('study-subject', JSON.stringify(subject)) }, [subject])

@@ -191,6 +191,11 @@ button:disabled { cursor: default; }
 .modal-image-wrap img { max-width: 100%; width: auto; height: auto; border: 1px solid #dfe4ea; box-shadow: 0 10px 30px rgba(28,48,77,.1); }
 .modal-footer { border-top: 1px solid var(--line); color: #8b98a8; font-size: 11px; }
 
+@media (max-width: 1500px) {
+  .brand-lockup { min-width: 260px; }
+  .brand-copy span { display: none; }
+  .search-box { width: 190px; }
+}
 @media (max-width: 1240px) {
   .workspace { grid-template-columns: 220px minmax(460px, 1fr) 320px; }
   .main-content { padding-left: 28px; padding-right: 28px; }

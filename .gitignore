@@ -12,6 +12,7 @@ test-results/
 __pycache__/
 *.py[cod]
 *.log
+surgery/source/
 .DS_Store
 .env
 .env.*
