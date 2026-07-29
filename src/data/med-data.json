@@ -8750,59 +8750,59 @@
     {
       "id": "p30-g1",
       "page": 30,
-      "title": "肠易激综合征用药",
+      "title": "肠易激综合征",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "利福昔明等肠道不吸收的抗生素",
-          "sourceText": "A.利福昔明等肠道不吸收的抗生素"
+          "label": "利福昔明",
+          "sourceText": "A.利福昔明"
         },
         {
           "key": "B",
-          "label": "匹维溴铵等肠道平滑肌解痉剂",
-          "sourceText": "B.匹维溴铵等肠道平滑肌解痉剂"
+          "label": "匹维溴铵",
+          "sourceText": "B.匹维溴铵"
         },
         {
           "key": "C",
-          "label": "洛哌丁胺等阿片受体激动剂",
-          "sourceText": "C.洛哌丁胺等阿片受体激动剂"
+          "label": "洛哌丁胺",
+          "sourceText": "C.洛哌丁胺"
         },
         {
           "key": "D",
-          "label": "曲美布汀等神经递质调节剂",
-          "sourceText": "D.曲美布汀等神经递质调节剂"
+          "label": "奥替溴铵",
+          "sourceText": "D.奥替溴铵"
         },
         {
           "key": "E",
-          "label": "蒙脱石散等吸附剂",
-          "sourceText": "E.蒙脱石散等吸附剂"
+          "label": "蒙脱石散",
+          "sourceText": "E.蒙脱石散"
         },
         {
           "key": "F",
-          "label": "复方地芬诺酯等止泻药",
-          "sourceText": "F.复方地芬诺酯等止泻药"
+          "label": "曲美布汀",
+          "sourceText": "F.曲美布汀"
         },
         {
           "key": "G",
-          "label": "聚乙二醇等渗透性泻剂",
-          "sourceText": "G.聚乙二醇等渗透性泻剂"
+          "label": "鸟苷酸环化酶激动剂",
+          "sourceText": "G.鸟苷酸环化酶激动剂"
         },
         {
           "key": "H",
-          "label": "莨菪碱类解痉药",
-          "sourceText": "H.莨菪碱类解痉药"
+          "label": "阿尔维林",
+          "sourceText": "H.阿尔维林"
         },
         {
           "key": "I",
-          "label": "促分泌剂",
-          "sourceText": "I.促分泌剂"
+          "label": "抗胆碱药",
+          "sourceText": "I.抗胆碱药"
         },
         {
           "key": "J",
-          "label": "益生菌",
-          "sourceText": "J.益生菌"
+          "label": "5-HT再摄取抑制剂",
+          "sourceText": "J.5-HT再摄取抑制剂"
         },
         {
           "key": "K",
@@ -8811,38 +8811,38 @@
         },
         {
           "key": "L",
-          "label": "短期用药",
-          "sourceText": "L.短期用药"
+          "label": "药用炭",
+          "sourceText": "L.药用炭"
         },
         {
           "key": "M",
-          "label": "缓解便秘",
-          "sourceText": "M.缓解便秘"
+          "label": "双歧杆菌",
+          "sourceText": "M.双歧杆菌"
         },
         {
           "key": "N",
-          "label": "泻药",
-          "sourceText": "N.泻药"
+          "label": "聚乙二醇",
+          "sourceText": "N.聚乙二醇"
         },
         {
           "key": "O",
-          "label": "调节内脏感觉",
-          "sourceText": "O.调节内脏感觉"
+          "label": "Cl通道激动剂",
+          "sourceText": "O.Cl通道激动剂"
         },
         {
           "key": "P",
-          "label": "肠道炎症和菌群失调",
-          "sourceText": "P.肠道炎症和菌群失调"
+          "label": "三环类抗抑郁药阿米替林",
+          "sourceText": "P.三环类抗抑郁药阿米替林"
         },
         {
           "key": "Q",
-          "label": "调节肠道炎症和菌群失调",
-          "sourceText": "Q.调节肠道炎症和菌群失调"
+          "label": "乳酸杆菌",
+          "sourceText": "Q.乳酸杆菌"
         },
         {
           "key": "T",
-          "label": "短期应用",
-          "sourceText": "T.短期应用"
+          "label": "短期用",
+          "sourceText": "T.短期用"
         }
       ],
       "stems": [
