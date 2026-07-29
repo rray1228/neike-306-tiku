@@ -14947,9 +14947,10 @@
             "E",
             "G",
             "H",
-            "I"
+            "I",
+            "J"
           ],
-          "sourceText": "红细胞破坏（ACEGHI",
+          "sourceText": "红细胞破坏（ACEGHIJ",
           "sourceY": 856,
           "answerMode": "多选"
         }
