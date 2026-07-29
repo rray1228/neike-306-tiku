@@ -17949,8 +17949,8 @@
         },
         {
           "key": "F",
-          "label": "IA",
-          "sourceText": "F.IA"
+          "label": "IA（伊达比星+阿糖胞苷）",
+          "sourceText": "F.IA（A+K）"
         },
         {
           "key": "G",
@@ -17964,8 +17964,8 @@
         },
         {
           "key": "I",
-          "label": "DA",
-          "sourceText": "I.DA"
+          "label": "DA（柔红霉素+阿糖胞苷）",
+          "sourceText": "I.DA（C+K）"
         },
         {
           "key": "J",
@@ -17984,8 +17984,8 @@
         },
         {
           "key": "M",
-          "label": "HA",
-          "sourceText": "M.HA"
+          "label": "HA（高三尖杉酯碱+阿糖胞苷）",
+          "sourceText": "M.HA（D+K）"
         },
         {
           "key": "N",
@@ -18007,7 +18007,7 @@
             "I",
             "M"
           ],
-          "sourceText": "AML（除M3型） BFIM",
+          "sourceText": "AML（除M3型） BFIM；IA=A+K、DA=C+K、HA=D+K，其中K为阿糖胞苷",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -18246,21 +18246,6 @@
           "key": "M",
           "label": "心肌损害",
           "sourceText": "M.心肌损害"
-        },
-        {
-          "key": "N",
-          "label": "淋巴结几乎无肿大",
-          "sourceText": "N.淋巴结几乎无肿大"
-        },
-        {
-          "key": "O",
-          "label": "Ph染色体可诊断",
-          "sourceText": "O.Ph染色体可诊断"
-        },
-        {
-          "key": "P",
-          "label": "NAP急粒↓、急淋↑",
-          "sourceText": "P.NAP急粒↓、急淋↑"
         }
       ],
       "stems": [
@@ -18336,16 +18321,11 @@
           "answerMode": "单选"
         }
       ],
-      "sourceText": "小结化疗药的副作用： | A.骨髓和性腺抑制 | B.肝功能损害 | 长春新碱VCR（DG | C.出血性膀胱炎 | D.末梢神经炎 | 柔红霉素DNRE | E.过敏反应 | 左旋门冬酰胺酶L-ASPBEH | F.心脏毒性 | G.便秘 | H.胰腺炎 | 环磷酰胺CTX（AB CJ | 阿糖胞苷Ara-CK | 1.肾损害 | J.脱发 | 甲氨蝶吟MTXBIL | 高三尖杉酯碱HHT（M | K.小脑共济失调 | L.粘膜炎 | M.心肌损害 | A.病情发展快 | B.常见血象慢性期：白细胞↑(多>20、可>100)、血小板可↑加速期：红细胞↓、血小板↓或↑ | C.常见骨髓象原始细胞>30%（FAB分型)或>20%(WHO分型) | D.巨脾 | E.淋巴结肿大ALL常有、AML可有 | F.Ph染色体提示预后差 | G.NAP↓，但急性变↑ | H.细胞分化停滞在较早阶段 | 1.细胞分化停滞在较晚阶段 | J.病情发展慢 | K.常见血象红细胞和血小板←，白细胞个 | L.常见骨髓象慢性期：原始细胞<10%，加速期：原始细胞>10%，急变期：原始细胞>20% | M.脾脏轻中度肿大 | N.淋巴结几乎无肿大 | O.Ph染色体可诊断 | P.NAP急粒↓、急淋↑ | 急性白血病（ACEFHKMP | CMLBDGIJLNO | 小红书号：385106504",
+      "sourceText": "小结化疗药的副作用：A.骨髓和性腺抑制；B.肝功能损害；C.出血性膀胱炎；D.末梢神经炎；E.过敏反应；F.心脏毒性；G.便秘；H.胰腺炎；I.肾损害；J.脱发；K.小脑共济失调；L.粘膜炎；M.心肌损害",
       "reviewState": "已按原题页与讲义复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-14",
-        "lecture-15",
-        "lecture-16",
-        "lecture-17",
-        "lecture-18",
-        "lecture-19"
+        "lecture-34"
       ]
     },
     {
