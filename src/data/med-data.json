@@ -32404,8 +32404,8 @@
       "options": [
         {
           "key": "A",
-          "label": "可见逆行P′波（II、III、aVF导联倒置）",
-          "sourceText": "A.可见逆行P′波（II、III、aVF导联倒置）"
+          "label": "可见逆行P′波（Ⅱ、Ⅲ、aVF导联倒置）",
+          "sourceText": "A.可见逆行P′波（Ⅱ、Ⅲ、aVF导联倒置）"
         },
         {
           "key": "B",
@@ -32434,8 +32434,8 @@
         },
         {
           "key": "G",
-          "label": "逆行P波可在QRS波之前、之后或与QRS波重叠",
-          "sourceText": "G.逆行P波可在QRS波之前、之后或与QRS波重叠"
+          "label": "逆行P′波可在QRS波之前（P′R间期＜0.12s）、之后（RP′间期＜0.2s）或与QRS波重叠",
+          "sourceText": "G.逆行P′波可在QRS波之前（P′R间期＜0.12s）、之后（RP′间期＜0.2s）或与QRS波重叠"
         },
         {
           "key": "H",
@@ -32498,9 +32498,10 @@
             "A",
             "D",
             "G",
+            "J",
             "N"
           ],
-          "sourceText": "交界早 ADGN",
+          "sourceText": "交界早 ADGJN",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -32534,13 +32535,13 @@
       "options": [
         {
           "key": "A",
-          "label": "阵发性室上性心动过速",
-          "sourceText": "A.阵发性室上性心动过速"
+          "label": "突发突止（不必预防用药）",
+          "sourceText": "A.突发突止（不必预防用药）"
         },
         {
           "key": "B",
-          "label": "室速",
-          "sourceText": "B.室速"
+          "label": "连续出现3个及以上的宽大畸形QRS波",
+          "sourceText": "B.连续出现3个及以上的宽大畸形QRS波"
         },
         {
           "key": "C",
@@ -32554,8 +32555,8 @@
         },
         {
           "key": "E",
-          "label": "心律绝对不齐（不同RR间距几乎完全均匀）",
-          "sourceText": "E.心律绝对不齐（不同RR间距几乎完全均匀）"
+          "label": "心律绝对规则（不同RR间距几乎完全均匀）",
+          "sourceText": "E.心律绝对规则（不同RR间距几乎完全均匀）"
         },
         {
           "key": "F",
