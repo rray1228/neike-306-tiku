@@ -32108,63 +32108,63 @@
       "options": [
         {
           "key": "A",
-          "label": "心房除极",
-          "sourceText": "A.心房除极"
+          "label": "窦房阻滞",
+          "sourceText": "A.窦房阻滞"
         },
         {
           "key": "B",
-          "label": "异位心律",
-          "sourceText": "B.异位心律"
+          "label": "扑动",
+          "sourceText": "B.扑动"
         },
         {
           "key": "C",
-          "label": "窦性心律不齐",
-          "sourceText": "C.窦性心律不齐"
+          "label": "窦性心动过速",
+          "sourceText": "C.窦性心动过速"
         },
         {
           "key": "D",
-          "label": "早搏",
-          "sourceText": "D.早搏"
+          "label": "逸搏",
+          "sourceText": "D.逸搏"
         },
         {
           "key": "E",
-          "label": "预激综合征",
-          "sourceText": "E.预激综合征"
+          "label": "窦性心动过缓",
+          "sourceText": "E.窦性心动过缓"
         },
         {
           "key": "F",
-          "label": "室内/束支阻滞",
-          "sourceText": "F.室内/束支阻滞"
+          "label": "逸搏心律",
+          "sourceText": "F.逸搏心律"
         },
         {
           "key": "G",
-          "label": "窦性停搏",
-          "sourceText": "G.窦性停搏"
+          "label": "窦性心律不齐",
+          "sourceText": "G.窦性心律不齐"
         },
         {
           "key": "H",
-          "label": "病态窦房结综合征",
-          "sourceText": "H.病态窦房结综合征"
+          "label": "早搏",
+          "sourceText": "H.早搏"
         },
         {
           "key": "I",
-          "label": "折返与旁路异常传导",
-          "sourceText": "I.折返与旁路异常传导"
+          "label": "预激综合征（房室传导途径异常）。折返是快速型心律失常最常见的发生机制",
+          "sourceText": "I.预激综合征（房室传导途径异常）。折返是快速型心律失常最常见的发生机制"
         },
         {
           "key": "J",
-          "label": "传导阻滞",
-          "sourceText": "J.传导阻滞"
+          "label": "室内/束支阻滞",
+          "sourceText": "J.室内/束支阻滞"
         },
         {
           "key": "K",
-          "label": "窦性心律失常",
-          "sourceText": "K.窦性心律失常"
+          "label": "窦性停搏",
+          "sourceText": "K.窦性停搏"
         },
         {
           "key": "L",
-          "label": "房内与房室阻滞",
-          "sourceText": "L.房内与房室阻滞"
+          "label": "病态窦房结综合征",
+          "sourceText": "L.病态窦房结综合征"
         },
         {
           "key": "M",
@@ -32173,8 +32173,8 @@
         },
         {
           "key": "N",
-          "label": "房室阻滞",
-          "sourceText": "N.房室阻滞"
+          "label": "房内与房间阻滞",
+          "sourceText": "N.房内与房间阻滞"
         },
         {
           "key": "O",
