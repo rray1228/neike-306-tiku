@@ -23507,32 +23507,33 @@
         {
           "text": "累及中等大小血管的系统性血管炎",
           "answer": [
-            "D"
+            "D",
+            "I"
           ],
-          "sourceText": "累及中等大小血管的系统性血管炎（D）",
+          "sourceText": "累及中等大小血管的系统性血管炎 DI",
           "sourceY": 104,
-          "answerMode": "单选"
+          "answerMode": "多选"
         },
         {
-          "text": "ANCA 相关血管炎",
+          "text": "累及小血管的系统性血管炎；ANCA相关血管炎（AAV）",
           "answer": [
             "B",
             "J",
             "K"
           ],
-          "sourceText": "ANCA 相关血管炎(AAV）（BJK",
+          "sourceText": "累及小血管的系统性血管炎；ANCA相关血管炎（AAV）BJK",
           "sourceY": 155,
           "answerMode": "多选"
         },
         {
-          "text": "累及小血管的系统性血管炎；免疫复合物性小血管炎",
+          "text": "免疫复合物性小血管炎",
           "answer": [
             "C",
             "E",
             "L",
             "M"
           ],
-          "sourceText": "免疫复合物性小血管炎（CEL M",
+          "sourceText": "免疫复合物性小血管炎 CELM",
           "sourceY": 180,
           "answerMode": "多选"
         },
