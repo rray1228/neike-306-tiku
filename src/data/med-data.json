@@ -11750,7 +11750,7 @@
         {
           "key": "I",
           "label": "尿路梗阻",
-          "sourceText": "1.尿路梗阻"
+          "sourceText": "I.尿路梗阻"
         },
         {
           "key": "J",
@@ -11791,6 +11791,11 @@
           "key": "Q",
           "label": "有效循环血量↓",
           "sourceText": "Q.有效循环血量↓"
+        },
+        {
+          "key": "R",
+          "label": "肾小管阻塞",
+          "sourceText": "R.肾小管阻塞"
         }
       ],
       "stems": [
@@ -11812,11 +11817,16 @@
         {
           "text": "肾性",
           "answer": [
-            "A"
+            "A",
+            "D",
+            "F",
+            "J",
+            "M",
+            "R"
           ],
-          "sourceText": "肾性（ADFJMR",
+          "sourceText": "肾性 ADFJMR",
           "sourceY": 1128,
-          "answerMode": "单选"
+          "answerMode": "多选"
         },
         {
           "text": "肾后性",
