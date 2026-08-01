@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import medContent from './data/med-data.json'
 import pathologyContent from './data/pathology-data.json'
 import surgeryContent from './data/surgery-data.json'
+import physiologyContent from './data/physiology-data.json'
 
 const SUBJECTS = {
   med: {
@@ -30,6 +31,15 @@ const SUBJECTS = {
     content: surgeryContent,
     defaultTopic: '颈部疾病',
     sourceName: '外科各论除骨科（去胶带版）.pdf',
+  },
+  physiology: {
+    label: '生理',
+    title: '生理-学成选择题（2027讲义校正版）',
+    subtitle: '306 临床医学综合能力（生理学）',
+    sectionLabel: '生理章节',
+    content: physiologyContent,
+    defaultTopic: '绪论',
+    sourceName: '天天学成选择题（生理学）.pdf',
   },
 }
 
@@ -66,6 +76,12 @@ const TOPIC_ICONS = {
   肝胆胰疾病: 'stomach',
   周围血管疾病: 'drop',
   泌尿外科: 'kidney',
+  绪论: 'book',
+  细胞基本功能: 'spark',
+  循环系统: 'heart',
+  泌尿系统: 'kidney',
+  感觉系统: 'eye',
+  中枢神经系统: 'grid',
 }
 
 const CORRECTIONS = {
@@ -422,25 +438,28 @@ function StemRow({ subject, group, stem, index, selection, submitted, onSelect }
   const missed = submitted && !unresolved && answer.some((item) => !selection.includes(item))
   const key = `${group.id}:${index}`
   const correction = subject === 'med' ? CORRECTIONS[key] : null
+  const hasGroupCorrection = Boolean(group.reviewNotes?.length)
   const keys = group.options.length ? group.options.map((option) => option.key) : answer
   return (
     <div className={`stem-row ${submitted ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
       <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy"><div className="stem-heading"><p>{stem.text || '请结合原题页完成本小题'}</p><span className={`answer-mode ${multi ? 'is-multi' : ''}`}>{unresolved ? '待核对' : (ordered ? '排序' : (multi ? '多选' : '单选'))}</span></div>{multi && !submitted && <small>{ordered ? '请按题干要求的先后顺序选择' : '可选择多个共用选项'}</small>}</div></div>
       <div className="answer-choices">{keys.map((item) => { const active = selection.includes(item); const isAnswer = submitted && answer.includes(item); const isMissed = submitted && isAnswer && !active; const order = ordered && active ? selection.indexOf(item) + 1 : null; const stateLabel = isMissed ? '，漏选' : (submitted && active && !isAnswer ? '，错选' : ''); return <button key={item} aria-label={`选项 ${item}${stateLabel}`} className={`answer-chip ${active ? 'active' : ''} ${submitted && isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${submitted && active && !isAnswer ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{item}{order && <sup className="rank-order">{order}</sup>}</button> })}</div>
-      {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? '原题页核对：暂不自动判分' : (correct ? '正确' : `讲义/原题答案：${answer.join('、')}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}{correction && <span className="correction-dot">已校对</span>}</div>}
+      {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? '原题页核对：暂不自动判分' : (correct ? '正确' : `讲义/原题答案：${answer.join('、')}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}{(correction || hasGroupCorrection) && <span className="correction-dot">已按今年讲义校对</span>}</div>}
     </div>
   )
 }
 
 function EvidencePanel({ subject, content, group, page, submitted, showSource, setShowSource, mobileEvidence, setMobileEvidence }) {
   const lectureItems = group.lectureIds.map((id) => content.lectures.find((lecture) => lecture.id === id)).filter(Boolean)
+  const reviewNotes = group.reviewNotes || []
+  const currentEvidence = group.lectureEvidence
   return (
     <aside className={`evidence-panel ${mobileEvidence ? 'mobile-visible' : ''}`}>
       <div className="evidence-section evidence-section-top"><div className="evidence-title"><span className="evidence-icon"><Icon name="check" size={18} /></span><div><h2>讲义依据</h2><p>{lectureItems.length ? `已关联 ${lectureItems.length} 份讲义` : '按章节关联讲义'}</p></div><span className="verified-dot"><Icon name="check" size={13} /></span><button className="panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="chevron" size={16} /></button></div>
-        {lectureItems.slice(0, 4).map((lecture) => <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 份 · {lecture.pageCount} 页</span></div><span className="relevance">相关</span></div>)}
+        {lectureItems.slice(0, 4).map((lecture) => <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 讲 · {currentEvidence?.lectureId === lecture.id ? `对应第 ${currentEvidence.page} 页` : `共 ${lecture.pageCount} 页`}</span></div><span className="relevance">已核对</span></div>)}
         <div className="all-lectures">查看全部 {content.meta.lectureCount} 份讲义 <Icon name="right" size={15} /></div>
       </div>
-      <div className="evidence-section correction-section"><div className="evidence-title"><span className="correction-icon"><Icon name="alert" size={18} /></span><div><h2>勘误说明</h2><p>{submitted ? '已显示原题答案与讲义依据' : '提交后显示逐题核对'}</p></div><button className="panel-close" aria-label="展开勘误"><Icon name="chevron" size={16} /></button></div><div className="correction-body"><div className="source-line"><span>原题来源</span><strong>学成选择题（扫描版） · 第 {group.page} 页</strong></div><p>该题组的蓝色答案已从原图保存。没有强行改成普通单选题；需要看到原图中的共用选项和题干关系时，可打开原题页。</p>{subject === 'med' ? group.stems.map((stem, index) => { const note = CORRECTIONS[`${group.id}:${index}`]; return note ? <div className="manual-note" key={index}><strong>{note.title}</strong><p>{note.body}</p></div> : null }) : null}<button className="source-button" onClick={() => setShowSource(true)}><Icon name="eye" size={16} />查看原题页（第 {group.page} 页）</button></div></div>
+      <div className="evidence-section correction-section"><div className="evidence-title"><span className="correction-icon"><Icon name="alert" size={18} /></span><div><h2>勘误说明</h2><p>{reviewNotes.length ? `发现 ${reviewNotes.length} 条需同步修正` : (subject === 'physiology' ? '与今年讲义一致' : (submitted ? '已显示原题答案与讲义依据' : '提交后显示逐题核对'))}</p></div><button className="panel-close" aria-label="展开勘误"><Icon name="chevron" size={16} /></button></div><div className="correction-body"><div className="source-line"><span>原题来源</span><strong>学成选择题（扫描版） · 第 {group.page} 页</strong></div><p>{subject === 'physiology' ? '该题组已与 2027 考研生理讲义逐项核对。若旧资料存在答案或排版问题，下方会保留修改原因和讲义依据。' : '该题组的蓝色答案已从原图保存。没有强行改成普通单选题；需要看到原图中的共用选项和题干关系时，可打开原题页。'}</p>{reviewNotes.map((note, index) => <div className="manual-note" key={`${group.id}-review-${index}`}><strong>{note.title}</strong><p>{note.body}</p></div>)}{subject === 'med' ? group.stems.map((stem, index) => { const note = CORRECTIONS[`${group.id}:${index}`]; return note ? <div className="manual-note" key={index}><strong>{note.title}</strong><p>{note.body}</p></div> : null }) : null}<button className="source-button" onClick={() => setShowSource(true)}><Icon name="eye" size={16} />查看原题页（第 {group.page} 页）</button></div></div>
       <div className="source-thumb"><img src={assetPath(page?.image)} alt={`题库原题第 ${group.page} 页`} /><button onClick={() => setShowSource(true)}><Icon name="eye" size={16} /></button></div>
     </aside>
   )
