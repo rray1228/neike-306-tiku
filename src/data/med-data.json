@@ -23449,8 +23449,8 @@
         },
         {
           "key": "E",
-          "label": "lgA性血管炎",
-          "sourceText": "E.lgA性血管炎"
+          "label": "IgA性血管炎",
+          "sourceText": "E.IgA性血管炎"
         },
         {
           "key": "F",
@@ -23470,7 +23470,7 @@
         {
           "key": "I",
           "label": "川崎病",
-          "sourceText": "1.川崎病"
+          "sourceText": "I.川崎病"
         },
         {
           "key": "J",
@@ -23545,28 +23545,9 @@
           "sourceText": "累及血管大小可变的系统性血管炎AG",
           "sourceY": 232,
           "answerMode": "多选"
-        },
-        {
-          "text": "抗中性粒细胞胞质抗体ANCA:小血管炎；p-ANCA、MPO-ANCA",
-          "answer": [
-            "A",
-            "C"
-          ],
-          "sourceText": "p-ANCA、MPO-ANCA (AC)",
-          "sourceY": 465,
-          "answerMode": "多选"
-        },
-        {
-          "text": "C-ANCA",
-          "answer": [
-            "B"
-          ],
-          "sourceText": "C-ANCA (B",
-          "sourceY": 515,
-          "answerMode": "单选"
         }
       ],
-      "sourceText": "A.科根综合征 | 累及大血管的系统性血管炎（FH | B.嗜酸性肉芽肿性多血管炎 | C.抗肾小球基底膜病 | 累及中等大小血管的系统性血管炎（D） | D.结节性多动脉炎 | E.lgA性血管炎 | ANCA 相关血管炎(AAV）（BJK | 累及小血管的系统性血管炎 | F.大动脉炎 | 免疫复合物性小血管炎（CEL M | G.贝赫切特病 | H.巨细胞动脉炎 | 累及血管大小可变的系统性血管炎AG | 1.川崎病 | J.显微镜下多血管炎 | K.肉芽肿性多血管炎 | L.冷球蛋白性血管炎 | M.低补体血症性荨麻疹性血管炎 | A.嗜酸性肉芽肿性多血管炎 | 抗中性粒细胞胞质抗体ANCA:小血管炎 | B.肉芽肿性多血管炎/Wegener肉芽肿(鞍鼻、咯血) | p-ANCA、MPO-ANCA (AC) | C.显微镜下多血管炎 | C-ANCA (B | 加红书 | 小红书号：385106504",
+      "sourceText": "累及不同口径血管的系统性血管炎分类（按原题页校对）",
       "reviewState": "待讲义复核",
       "topic": "风湿",
       "lectureIds": [
@@ -23575,6 +23556,59 @@
         "lecture-26",
         "lecture-27",
         "lecture-38"
+      ]
+    },
+    {
+      "id": "p71-g2",
+      "page": 71,
+      "title": "ANCA相关血管炎分型",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "嗜酸性肉芽肿性多血管炎",
+          "sourceText": "A.嗜酸性肉芽肿性多血管炎"
+        },
+        {
+          "key": "B",
+          "label": "肉芽肿性多血管炎/Wegener肉芽肿（鞍鼻、咯血）",
+          "sourceText": "B.肉芽肿性多血管炎/Wegener肉芽肿（鞍鼻、咯血）"
+        },
+        {
+          "key": "C",
+          "label": "显微镜下多血管炎",
+          "sourceText": "C.显微镜下多血管炎"
+        }
+      ],
+      "stems": [
+        {
+          "text": "抗中性粒细胞胞质抗体（ANCA）相关小血管炎；p-ANCA、MPO-ANCA",
+          "answer": [
+            "A",
+            "C"
+          ],
+          "sourceText": "p-ANCA、MPO-ANCA AC",
+          "sourceY": 465,
+          "answerMode": "多选"
+        },
+        {
+          "text": "c-ANCA",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "c-ANCA B",
+          "sourceY": 515,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "ANCA相关血管炎分型（按原题页校对）",
+      "reviewState": "已按原题页与讲义校对",
+      "topic": "风湿",
+      "lectureIds": [
+        "lecture-25",
+        "lecture-26",
+        "lecture-27"
       ]
     },
     {
