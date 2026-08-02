@@ -20883,23 +20883,23 @@
       "options": [
         {
           "key": "A",
-          "label": "双侧肾上腺小结节性增生",
-          "sourceText": "A.双侧肾上腺小结节性增生"
+          "label": "若伴乳房、心房黏液瘤、睾丸肿瘤、垂体生长激素瘤为Carney综合征",
+          "sourceText": "A.若伴乳房、心房黏液瘤、睾丸肿瘤、垂体生长激素瘤为Carney综合征"
         },
         {
           "key": "B",
-          "label": "若伴乳腺、乳房、心房黏液瘤、睾丸肿瘤、垂体生长激素瘤为Carney综合征",
-          "sourceText": "B.若伴乳腺、乳房、心房黏液瘤、睾丸肿瘤、垂体生长激素瘤为Carney综合征"
+          "label": "微腺瘤",
+          "sourceText": "B.微腺瘤"
         },
         {
           "key": "C",
-          "label": "微腺瘤",
-          "sourceText": "C.微腺瘤"
+          "label": "多为色素性（原发性色素沉着结节性肾上腺皮质病/Meador综合征）",
+          "sourceText": "C.多为色素性（原发性色素沉着结节性肾上腺皮质病/Meador综合征）"
         },
         {
           "key": "D",
-          "label": "多为色素性（原发性色素沉着结节性肾上腺皮质病/M 病）",
-          "sourceText": "D.多为色素性（原发性色素沉着结节性肾上腺皮质病/M 病）"
+          "label": "小细胞肺癌",
+          "sourceText": "D.小细胞肺癌"
         },
         {
           "key": "E",
