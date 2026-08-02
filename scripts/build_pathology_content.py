@@ -185,6 +185,43 @@ def apply_known_repairs(group: dict) -> dict:
         if not any(item["key"] == "L" for item in group["options"]):
             group["options"].append(option("L", "血胃泌素升高"))
         set_stems(group, [("A型胃炎", "ADEHKLN"), ("B型胃炎", "BCFGIJM")])
+    elif group_id == "p04-g1":
+        # The right-hand answer column spans three stems, while the final six
+        # numbered options continue below the A-Z bank. Restore the complete
+        # source structure and fix OCR glyph substitutions confirmed against
+        # both the page scan and lecture 03.
+        group["options"] = [
+            option("A", "腹水"), option("B", "白蛋白合成障碍"),
+            option("C", "侧支循环形成"), option("D", "凝血因子合成减少"),
+            option("E", "静水压和通透性↑"), option("F", "肝肾综合征（区别内科学）"),
+            option("G", "胃肠瘀血和水肿"), option("H", "肝性脑病/肝昏迷"),
+            option("I", "雌激素灭活障碍"), option("J", "肝处理胆红素障碍"),
+            option("K", "直肠静脉曲张"), option("L", "（最早）瘀血性脾大"),
+            option("M", "蜘蛛痣，肝掌"), option("N", "氨中毒"),
+            option("O", "脾亢致血小板减少"), option("P", "腹壁静脉曲张"),
+            option("Q", "脾亢"), option("R", "低蛋白血症"),
+            option("S", "小叶结构改变致淤胆"), option("T", "食管胃底静脉曲张"),
+            option("U", "睾丸萎缩"), option("V", "淋巴液外溢"),
+            option("W", "血浆胶渗压降低"), option("X", "黄疸"),
+            option("Z", "出血倾向"), option("①", "门-腔侧支循环分流"),
+            option("②", "乳房发育"), option("③", "醛固酮和ADH灭活障碍"),
+            option("④", "白/球蛋白↓或倒置"), option("⑤", "月经不调"),
+            option("⑥", "有效循环血量↓"),
+        ]
+        set_stems(group, [
+            ("肝功能障碍临床表现", "BDFHIJMNRSUWXZ②③④⑤"),
+            ("门脉高压的临床表现", "ACEGKLOPQTV①"),
+            ("腹水形成的机制", "EVW③⑥"),
+        ])
+        group["sourceText"] = (
+            group.get("sourceText", "")
+            .replace("E.静水压和通透性个", "E.静水压和通透性↑")
+            .replace("1.雌激素灭活障碍", "I.雌激素灭活障碍")
+            .replace("U.睾丸菱缩", "U.睾丸萎缩")
+            .replace("④白/球蛋白 或倒置", "④白/球蛋白↓或倒置")
+            .replace("⑥有效循环血量！", "⑥有效循环血量↓")
+        )
+        group["reviewState"] = "已按题册原图与讲义复核"
     elif group_id == "p05-g1":
         set_stems(group, [
             ("大肠癌的癌前病变", "ABCDEFHIJLMNO"),
@@ -352,6 +389,15 @@ def main() -> None:
             continue
         rows = pages[page_number]
         page_text = " ".join(row["text"] for row in rows)
+        if page_number == 4:
+            page_text = (
+                page_text
+                .replace("E.静水压和通透性个", "E.静水压和通透性↑")
+                .replace("1.雌激素灭活障碍", "I.雌激素灭活障碍")
+                .replace("U.睾丸菱缩", "U.睾丸萎缩")
+                .replace("④白/球蛋白 或倒置", "④白/球蛋白↓或倒置")
+                .replace("⑥有效循环血量！", "⑥有效循环血量↓")
+            )
         if page_number == 8:
             page_text = page_text.replace(
                 "B.变态反应为II型", "B.变态反应为III型", 1
