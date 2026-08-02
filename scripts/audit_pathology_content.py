@@ -43,6 +43,21 @@ def main() -> None:
     assert not duplicate_answers, f"duplicate answer keys: {duplicate_answers}"
     assert not invalid_answers, f"answers missing from option bank: {invalid_answers}"
 
+    rheumatism = next(group for group in payload["groups"] if group["id"] == "p08-g1")
+    rheumatism_options = {
+        option["key"]: option["label"] for option in rheumatism["options"]
+    }
+    rheumatism_answers = {
+        stem["text"]: "".join(stem["answer"]) for stem in rheumatism["stems"]
+    }
+    assert rheumatism_options["B"] == "变态反应为III型"
+    assert rheumatism_options["J"] == "变态反应为II型"
+    assert rheumatism_answers == {
+        "风湿": "ACDFJKL",
+        "类风湿": "BEGHILM",
+    }
+    assert rheumatism["reviewState"] == "已按题册原图与讲义复核"
+
     print({
         "groups": len(payload["groups"]),
         "stems": sum(len(group.get("stems", [])) for group in payload["groups"]),

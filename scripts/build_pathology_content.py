@@ -196,6 +196,20 @@ def apply_known_repairs(group: dict) -> dict:
             ("变质渗出期", "ACE"), ("增生期", "B"),
             ("纤维化期", "D"), ("风湿病最有诊断意义的是", "B"),
         ])
+    elif group_id == "p08-g1":
+        # The OCR flattened the Roman numeral III in option B to II. Both the
+        # source-page scan and lecture 07 distinguish rheumatoid arthritis
+        # (type III) from rheumatic disease (type II).
+        for item in group["options"]:
+            if item["key"] == "B":
+                item.update(option("B", "变态反应为III型"))
+            elif item["key"] == "J":
+                item.update(option("J", "变态反应为II型"))
+        set_stems(group, [("风湿", "ACDFJKL"), ("类风湿", "BEGHILM")])
+        group["sourceText"] = group.get("sourceText", "").replace(
+            "B.变态反应为II型", "B.变态反应为III型", 1
+        )
+        group["reviewState"] = "已按题册原图与讲义复核"
     elif group_id == "p11-g1":
         set_stems(group, [("结节性甲状腺肿", "ACFHI"), ("甲状腺腺瘤", "BDEG")])
     elif group_id == "p12-g1":
@@ -338,6 +352,10 @@ def main() -> None:
             continue
         rows = pages[page_number]
         page_text = " ".join(row["text"] for row in rows)
+        if page_number == 8:
+            page_text = page_text.replace(
+                "B.变态反应为II型", "B.变态反应为III型", 1
+            )
         page_topic = topic_for(page_text, page_number)
         page_records.append({
             "page": page_number,
