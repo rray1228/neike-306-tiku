@@ -19888,9 +19888,9 @@
         {
           "text": "慢性髓性白血病（CML）",
           "answer": [
-            "B"
+            "D"
           ],
-          "sourceText": "CML (BCR-ABL)(D",
+          "sourceText": "CML（BCR-ABL）D",
           "sourceY": 286,
           "answerMode": "单选"
         },
@@ -19975,7 +19975,7 @@
           ],
           "sourceText": "M5型AMLU)",
           "sourceY": 507,
-          "answerMode": "多选"
+          "answerMode": "单选"
         },
         {
           "text": "M7型急性巨核细胞白血病",
