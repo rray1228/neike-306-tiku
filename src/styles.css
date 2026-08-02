@@ -168,6 +168,15 @@ button:disabled { cursor: default; }
 .lecture-item span { display: block; margin-top: 3px; color: #9ba6b5; font-size: 11px; }
 .lecture-item .relevance { flex: 0 0 auto; color: var(--green); border-radius: 4px; padding: 3px 5px; background: var(--green-soft); }
 .all-lectures { display: flex; justify-content: center; align-items: center; gap: 5px; padding: 12px 0 9px; color: var(--blue); font-size: 12px; cursor: pointer; }
+.lecture-proof { border-color: #cfe5d9; background: #fbfffd; }
+.lecture-proof-heading { padding: 14px 15px 12px; }
+.lecture-proof-heading span { display: block; margin-bottom: 6px; color: var(--green); font-size: 11px; font-weight: 700; letter-spacing: .05em; }
+.lecture-proof-heading strong { display: block; color: #2f4c3f; font-size: 13px; }
+.lecture-proof-heading p { margin: 7px 0 0; color: #60776c; font-size: 11px; line-height: 1.65; }
+.lecture-proof-image { position: relative; display: block; width: 100%; padding: 0; border: 0; border-top: 1px solid #dcece3; background: #edf6f1; overflow: hidden; text-align: left; }
+.lecture-proof-image img { display: block; width: 100%; height: 230px; object-fit: cover; object-position: center 73%; transition: transform .2s ease; }
+.lecture-proof-image:hover img { transform: scale(1.015); }
+.lecture-proof-image span { position: absolute; right: 9px; bottom: 9px; display: inline-flex; align-items: center; gap: 6px; padding: 7px 9px; border: 1px solid rgba(123,159,141,.4); border-radius: 7px; color: #2f6f51; background: rgba(255,255,255,.94); font-size: 11px; font-weight: 700; box-shadow: 0 5px 14px rgba(33,75,54,.1); }
 .correction-section { border-color: #f0dad7; }
 .correction-icon { width: 28px; height: 28px; display: grid; place-items: center; color: var(--coral); border-radius: 7px; background: var(--coral-soft); }
 .correction-body { padding: 14px 15px 16px; }
@@ -191,6 +200,7 @@ button:disabled { cursor: default; }
 .modal-header h2 { margin: 4px 0 0; color: var(--ink); font-size: 18px; }
 .modal-image-wrap { flex: 1; overflow: auto; padding: 22px; background: #f2f5f8; text-align: center; }
 .modal-image-wrap img { max-width: 100%; width: auto; height: auto; border: 1px solid #dfe4ea; box-shadow: 0 10px 30px rgba(28,48,77,.1); }
+.lecture-modal-image img { width: min(100%, 1489px); }
 .modal-footer { border-top: 1px solid var(--line); color: #8b98a8; font-size: 11px; }
 
 @media (max-width: 1500px) {

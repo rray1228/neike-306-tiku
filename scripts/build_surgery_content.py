@@ -663,6 +663,18 @@ def apply_manual_repairs(groups: list[dict]) -> list[dict]:
         if group_id == "p01-g4":
             for stem in group["stems"]:
                 stem["text"] = stem["text"].replace("近全圾", "近全切")
+        if group_id == "p28-g1":
+            group["lectureEvidence"] = {
+                "lectureId": "lecture-19",
+                "page": 1,
+                "image": "surgery/lecture-pages/lecture-19-page-01.png",
+                "title": "第19讲第1页 · 泌尿系结石",
+                "description": "讲义在“磷酸钙”条目下明确列出“酸化尿液+抗感染”，因此本题答案包含 N。",
+            }
+            group["reviewNotes"] = [{
+                "title": "磷酸钙答案补充 N",
+                "body": "已按第19讲第1页校对：磷酸钙对应“酸化尿液+抗感染”，答案由 AEHLO 修正为 AEHLNO。",
+            }]
         if group_id in SOURCE_VERIFIED_OPTION_GAPS:
             finalize_group(group)
 

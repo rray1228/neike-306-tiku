@@ -207,6 +207,7 @@ function App() {
   const [favorites, setFavorites] = useState(() => readLocalStorage('med-favorites', []))
   const [notes, setNotes] = useState(() => readLocalStorage('med-notes', {}))
   const [showSource, setShowSource] = useState(false)
+  const [showLectureEvidence, setShowLectureEvidence] = useState(false)
   const [showNote, setShowNote] = useState(false)
   const [mobileEvidence, setMobileEvidence] = useState(false)
   const [sidebarCollapsed, setSidebarCollapsed] = useState(() => {
@@ -278,6 +279,7 @@ function App() {
       return next
     })
     setShowSource(false)
+    setShowLectureEvidence(false)
     setShowNote(false)
   }
 
@@ -285,6 +287,7 @@ function App() {
     if (!filteredGroups.length) return
     setGroupIndex((previous) => (previous + offset + filteredGroups.length) % filteredGroups.length)
     setShowSource(false)
+    setShowLectureEvidence(false)
     setShowNote(false)
   }
 
@@ -292,6 +295,7 @@ function App() {
     if (!filteredGroups.length) return
     setGroupIndex(Math.min(Math.max(index, 0), filteredGroups.length - 1))
     setShowSource(false)
+    setShowLectureEvidence(false)
     setShowNote(false)
   }
 
@@ -308,6 +312,7 @@ function App() {
     setTypeFilter('全部题型')
     setGroupIndex(0)
     setShowSource(false)
+    setShowLectureEvidence(false)
     setShowNote(false)
     setMobileEvidence(false)
   }
@@ -386,10 +391,11 @@ function App() {
           </div>}
         </main>
 
-        {filteredGroups.length ? <EvidencePanel subject={subject} content={content} group={group} page={currentPage} submitted={isSubmitted} showSource={showSource} setShowSource={setShowSource} mobileEvidence={mobileEvidence} setMobileEvidence={setMobileEvidence} /> : <EmptyEvidence subjectConfig={subjectConfig} />}
+        {filteredGroups.length ? <EvidencePanel subject={subject} content={content} group={group} page={currentPage} submitted={isSubmitted} setShowSource={setShowSource} setShowLectureEvidence={setShowLectureEvidence} mobileEvidence={mobileEvidence} setMobileEvidence={setMobileEvidence} /> : <EmptyEvidence subjectConfig={subjectConfig} />}
       </div>
 
       {showSource && <SourceModal group={group} page={currentPage} sourceName={subjectConfig.sourceName} onClose={() => setShowSource(false)} />}
+      {showLectureEvidence && group.lectureEvidence && <LectureEvidenceModal evidence={group.lectureEvidence} onClose={() => setShowLectureEvidence(false)} />}
       <div className="site-watermark" aria-hidden="true">
         <span>内容制作byBi8bo</span>
         <span>网站制作by戒不掉甜食</span>
@@ -449,7 +455,7 @@ function StemRow({ subject, group, stem, index, selection, submitted, onSelect }
   )
 }
 
-function EvidencePanel({ subject, content, group, page, submitted, showSource, setShowSource, mobileEvidence, setMobileEvidence }) {
+function EvidencePanel({ subject, content, group, page, submitted, setShowSource, setShowLectureEvidence, mobileEvidence, setMobileEvidence }) {
   const lectureItems = group.lectureIds.map((id) => content.lectures.find((lecture) => lecture.id === id)).filter(Boolean)
   const reviewNotes = group.reviewNotes || []
   const currentEvidence = group.lectureEvidence
@@ -459,6 +465,7 @@ function EvidencePanel({ subject, content, group, page, submitted, showSource, s
         {lectureItems.slice(0, 4).map((lecture) => <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 讲 · {currentEvidence?.lectureId === lecture.id ? `对应第 ${currentEvidence.page} 页` : `共 ${lecture.pageCount} 页`}</span></div><span className="relevance">已核对</span></div>)}
         <div className="all-lectures">查看全部 {content.meta.lectureCount} 份讲义 <Icon name="right" size={15} /></div>
       </div>
+      {currentEvidence && <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><span>讲义校对依据</span><strong>{currentEvidence.title}</strong><p>{currentEvidence.description}</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${currentEvidence.title}`}><img src={assetPath(currentEvidence.image)} alt={`${currentEvidence.title}原页，磷酸钙条目含酸化尿液加抗感染`} /><span><Icon name="eye" size={16} />点击放大查看讲义原页</span></button></div>}
       <div className="evidence-section correction-section"><div className="evidence-title"><span className="correction-icon"><Icon name="alert" size={18} /></span><div><h2>勘误说明</h2><p>{reviewNotes.length ? `发现 ${reviewNotes.length} 条需同步修正` : (subject === 'physiology' ? '与今年讲义一致' : (submitted ? '已显示原题答案与讲义依据' : '提交后显示逐题核对'))}</p></div><button className="panel-close" aria-label="展开勘误"><Icon name="chevron" size={16} /></button></div><div className="correction-body"><div className="source-line"><span>原题来源</span><strong>学成选择题（扫描版） · 第 {group.page} 页</strong></div><p>{subject === 'physiology' ? '该题组已与 2027 考研生理讲义逐项核对。若旧资料存在答案或排版问题，下方会保留修改原因和讲义依据。' : '该题组的蓝色答案已从原图保存。没有强行改成普通单选题；需要看到原图中的共用选项和题干关系时，可打开原题页。'}</p>{reviewNotes.map((note, index) => <div className="manual-note" key={`${group.id}-review-${index}`}><strong>{note.title}</strong><p>{note.body}</p></div>)}{subject === 'med' ? group.stems.map((stem, index) => { const note = CORRECTIONS[`${group.id}:${index}`]; return note ? <div className="manual-note" key={index}><strong>{note.title}</strong><p>{note.body}</p></div> : null }) : null}<button className="source-button" onClick={() => setShowSource(true)}><Icon name="eye" size={16} />查看原题页（第 {group.page} 页）</button></div></div>
       <div className="source-thumb"><img src={assetPath(page?.image)} alt={`题库原题第 ${group.page} 页`} /><button onClick={() => setShowSource(true)}><Icon name="eye" size={16} /></button></div>
     </aside>
@@ -471,6 +478,10 @@ function EmptyEvidence({ subjectConfig }) {
 
 function SourceModal({ group, page, sourceName, onClose }) {
   return <div className="modal-backdrop" onClick={onClose}><div className="source-modal" onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>原题页</span><h2>{group.topic} · 第 {group.page} 页</h2></div><button className="icon-button" onClick={onClose} aria-label="关闭"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap"><img src={assetPath(page?.image)} alt={`原题页 ${group.page}`} /></div><div className="modal-footer"><span>图片来自“{sourceName}”</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
+}
+
+function LectureEvidenceModal({ evidence, onClose }) {
+  return <div className="modal-backdrop" onClick={onClose}><div className="source-modal" role="dialog" aria-modal="true" aria-label="讲义校对依据" onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>讲义校对依据</span><h2>{evidence.title}</h2></div><button className="icon-button" onClick={onClose} aria-label="关闭讲义原页"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap lecture-modal-image"><img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} /></div><div className="modal-footer"><span>{evidence.description}</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
 }
 
 export default App

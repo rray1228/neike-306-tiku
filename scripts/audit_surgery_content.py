@@ -116,6 +116,17 @@ def main() -> None:
         assert {item["text"]: "".join(item["answer"]) for item in group["stems"]} == expected["stems"], \
             f"{group_id}: stem/answer drift"
 
+    phosphate_evidence = groups_by_id["p28-g1"]["lectureEvidence"]
+    assert phosphate_evidence == {
+        "lectureId": "lecture-19",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-19-page-01.png",
+        "title": "第19讲第1页 · 泌尿系结石",
+        "description": "讲义在“磷酸钙”条目下明确列出“酸化尿液+抗感染”，因此本题答案包含 N。",
+    }, "p28-g1: lecture evidence drift"
+    lecture_image = root / "public" / phosphate_evidence["image"]
+    assert lecture_image.exists(), f"missing lecture evidence image: {lecture_image}"
+
     unresolved = [
         f"{group['id']}:{index}"
         for group in payload["groups"]
