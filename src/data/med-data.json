@@ -8883,73 +8883,73 @@
       "options": [
         {
           "key": "A",
-          "label": "腹痛",
-          "sourceText": "A.腹痛"
+          "label": "好发年龄青壮年",
+          "sourceText": "A.好发年龄青壮年"
         },
         {
           "key": "B",
-          "label": "右下腹或脐周包块",
-          "sourceText": "B.右下腹或脐周包块"
+          "label": "好发回盲部",
+          "sourceText": "B.好发回盲部"
         },
         {
           "key": "C",
-          "label": "低热、盗汗",
-          "sourceText": "C.低热、盗汗"
+          "label": "可有体重下降",
+          "sourceText": "C.可有体重下降"
         },
         {
           "key": "D",
-          "label": "结核菌素试验阳性",
-          "sourceText": "D.结核菌素试验阳性"
+          "label": "环/横形溃疡",
+          "sourceText": "D.环/横形溃疡"
         },
         {
           "key": "E",
-          "label": "瘘管形成",
-          "sourceText": "E.瘘管形成"
+          "label": "最常见并发症是肠梗阻",
+          "sourceText": "E.最常见并发症是肠梗阻"
         },
         {
           "key": "F",
-          "label": "腹泻",
-          "sourceText": "F.腹泻"
+          "label": "低热多见",
+          "sourceText": "F.低热多见"
         },
         {
           "key": "G",
-          "label": "脓血便",
-          "sourceText": "G.脓血便"
+          "label": "肠梗阻少见",
+          "sourceText": "G.肠梗阻少见"
         },
         {
           "key": "H",
-          "label": "节段性病变",
-          "sourceText": "H.节段性病变"
+          "label": "可有急性肠穿孔",
+          "sourceText": "H.可有急性肠穿孔"
         },
         {
           "key": "I",
-          "label": "连续性病变",
-          "sourceText": "I.连续性病变"
+          "label": "少见急性肠穿孔（发生多见于中毒性巨结肠）",
+          "sourceText": "I.少见急性肠穿孔（发生多见于中毒性巨结肠）"
         },
         {
           "key": "J",
-          "label": "肛周病变",
-          "sourceText": "J.肛周病变"
+          "label": "多见瘘管、腹腔脓肿、肛周病变",
+          "sourceText": "J.多见瘘管、腹腔脓肿、肛周病变"
         },
         {
           "key": "K",
-          "label": "口腔溃疡",
-          "sourceText": "K.口腔溃疡"
+          "label": "节段分布的纵行裂隙状溃疡、鹅卵石/铺路石样",
+          "sourceText": "K.节段分布的纵行裂隙状溃疡、鹅卵石/铺路石样"
         },
         {
           "key": "L",
-          "label": "回盲部好发",
-          "sourceText": "L.回盲部好发"
+          "label": "干酪肉芽肿",
+          "sourceText": "L.干酪肉芽肿"
         },
         {
           "key": "M",
-          "label": "非干酪样肉芽肿",
-          "sourceText": "M.非干酪样肉芽肿"
+          "label": "多为右下腹痛",
+          "sourceText": "M.多为右下腹痛"
         },
         {
           "key": "N",
-          "label": "干酪样肉芽肿",
-          "sourceText": "N.干酪样肉芽肿"
+          "label": "好发回肠末端及邻近结肠",
+          "sourceText": "N.好发回肠末端及邻近结肠"
         },
         {
           "key": "O",
@@ -8958,58 +8958,58 @@
         },
         {
           "key": "P",
-          "label": "横行溃疡",
-          "sourceText": "P.横行溃疡"
+          "label": "少见肠外表现",
+          "sourceText": "P.少见肠外表现"
         },
         {
           "key": "Q",
-          "label": "纵行溃疡",
-          "sourceText": "Q.纵行溃疡"
+          "label": "非干酪肉芽肿",
+          "sourceText": "Q.非干酪肉芽肿"
         },
         {
           "key": "R",
-          "label": "伪息肉",
-          "sourceText": "R.伪息肉"
+          "label": "连续分布的浅溃疡",
+          "sourceText": "R.连续分布的浅溃疡"
         },
         {
           "key": "S",
-          "label": "铅管征",
-          "sourceText": "S.铅管征"
+          "label": "不发热或低热多见",
+          "sourceText": "S.不发热或低热多见"
         },
         {
           "key": "T",
-          "label": "浅溃疡",
-          "sourceText": "T.浅溃疡"
+          "label": "多为左下腹痛",
+          "sourceText": "T.多为左下腹痛"
         },
         {
           "key": "U",
-          "label": "瘢痕收缩",
-          "sourceText": "U.瘢痕收缩"
+          "label": "跳跃征",
+          "sourceText": "U.跳跃征"
         },
         {
           "key": "V",
-          "label": "腹腔脓肿",
-          "sourceText": "V.腹腔脓肿"
+          "label": "线样征、鹅卵石征、铺路石征",
+          "sourceText": "V.线样征、鹅卵石征、铺路石征"
         },
         {
           "key": "W",
-          "label": "里急后重",
-          "sourceText": "W.里急后重"
+          "label": "可有铅管征",
+          "sourceText": "W.可有铅管征"
         },
         {
           "key": "X",
-          "label": "肠腔狭窄",
-          "sourceText": "X.肠腔狭窄"
+          "label": "抗结核治疗",
+          "sourceText": "X.抗结核治疗"
         },
         {
           "key": "Y",
-          "label": "腹泻为主",
-          "sourceText": "Y.腹泻为主"
+          "label": "ASA（UC）→泼尼松→硫唑嘌呤→英夫利昔单抗阶梯治疗",
+          "sourceText": "Y.ASA（UC）→泼尼松→硫唑嘌呤→英夫利昔单抗阶梯治疗"
         },
         {
           "key": "Z",
-          "label": "黏液脓血便",
-          "sourceText": "Z.黏液脓血便"
+          "label": "好发直肠及乙状结肠",
+          "sourceText": "Z.好发直肠及乙状结肠"
         },
         {
           "key": "①",
@@ -9094,16 +9094,12 @@
           "answerMode": "多选"
         }
       ],
-      "sourceText": "肠结核、克罗恩病与溃疡性结肠炎鉴别（按原题页重新分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "sourceText": "肠结核、克罗恩病与溃疡性结肠炎鉴别（按原题页和讲义校对）",
+      "reviewState": "已按原题页与讲义校对",
       "topic": "消化",
       "lectureIds": [
-        "lecture-14",
-        "lecture-15",
-        "lecture-16",
         "lecture-17",
-        "lecture-18",
-        "lecture-19"
+        "lecture-18"
       ]
     },
     {
