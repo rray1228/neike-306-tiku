@@ -174,6 +174,8 @@ MANUAL_STEMS = {
     "p27-g3": [("膀胱癌", "CF"), ("Tis、Ta、T1", "O"), ("T2、T3、T4", "Q"),
                 ("上尿路癌", "CHJN"), ("肾癌（肾腺癌）", "AGIM"), ("前列腺癌", "BDKL"),
                 ("前列腺癌局限在前列腺", "P"), ("前列腺癌突破前列腺", "R")],
+    "p28-g1": [("草酸钙", "BFILMO"), ("磷酸钙", "AEHLO"),
+                ("尿酸盐", "BCGJP"), ("胱氨酸", "BCDKP")],
     "p28-g3": [("若肾功能极差", "E"), ("多发结石：双侧肾结石", "C"),
                 ("多发结石：双侧输尿管结石", "A"), ("多发结石：一侧肾结石、一侧输尿管结石", "F"),
                 ("结石<0.6cm", "G"), ("膀胱结石尤其<2cm", "B"), ("尿道结石", "D"),
@@ -182,6 +184,29 @@ MANUAL_STEMS = {
     "p29-g3": [("肾挫伤", "B"), ("肾裂伤", "A"), ("肾蒂损伤", "C")],
     "p29-g4": [("持续性尿失禁", "CGJ"), ("充溢性尿失禁", "ABDH"),
                 ("急迫性尿失禁", "EI"), ("压力性尿失禁", "FK")],
+}
+
+MANUAL_OPTIONS = {
+    "p28-g1": [
+        ("A", "易碎"), ("B", "硬"), ("C", "光滑"), ("D", "蜡样"),
+        ("E", "鹿角样"), ("F", "桑葚样"), ("G", "颗粒状"), ("H", "灰白色"),
+        ("I", "棕褐色"), ("J", "红色"), ("K", "黄色"), ("L", "糙"),
+        ("M", "最常见"), ("N", "酸化尿液+抗感染"),
+        ("O", "X线高密度"), ("P", "X线不显影"),
+    ],
+    "p29-g4": [
+        ("A", "尿液不连续从尿道口不自主流出、呈滴沥样、夜间多见"),
+        ("B", "假性尿失禁"),
+        ("C", "完全失去控制排尿的能力，任何时间、体位下尿液均会持续不自主从尿道口流出"),
+        ("D", "患者每次排尿时尿液都难以排尽、膀胱内残余尿逐渐增多、膀胱过度充盈导致膀胱内压超过尿道阻力"),
+        ("E", "多见于膀胱炎、神经源性膀胱、重度膀胱出口梗阻引起的膀胱不稳定收缩"),
+        ("F", "平常控制排尿能力正常，但咳嗽、起立等腹内压增加时少量尿液不自主从尿道口流出"),
+        ("G", "多见于外伤、手术、先天性疾病引起的膀胱颈和尿道括约肌损伤"),
+        ("H", "多见于前列腺增生、肿瘤、尿道狭窄等下尿路慢性梗阻或神经系统疾病导致膀胱逼尿肌收缩无力"),
+        ("I", "严重的尿频、尿急而膀胱不受意识控制就开始排尿"),
+        ("J", "真性尿失禁"),
+        ("K", "多见于多产妇、绝经后引起的阴道前壁支撑力下降和盆腔组织功能障碍或前列腺手术后引起的尿道外括约肌损伤"),
+    ],
 }
 
 MANUAL_TITLES = {
@@ -195,7 +220,8 @@ MANUAL_TITLES = {
     "p20-g3": "胆石症与胆道感染", "p21-g4": "上段/肝门部胆管癌Bismuth-Corlette分型",
     "p23-g2": "胆系疾病英文缩写", "p24-g1": "周围动脉疾病分期",
     "p24-g2": "Rutherford分级", "p25-g1": "周围血管疾病检查",
-    "p27-g3": "泌尿系肿瘤", "p29-g2": "膀胱破裂类型",
+    "p27-g3": "泌尿系肿瘤", "p28-g1": "泌尿系结石成分与特点",
+    "p29-g2": "膀胱破裂类型", "p29-g4": "尿失禁类型",
 }
 
 SKIP_GROUPS = {"p04-g2", "p04-g3", "p16-g3", "p16-g4", "p16-g5"}
@@ -598,6 +624,15 @@ def apply_manual_repairs(groups: list[dict]) -> list[dict]:
         if group_id in MANUAL_STEMS:
             group["stems"] = make_manual_stems(MANUAL_STEMS[group_id])
             group["title"] = MANUAL_TITLES.get(group_id, group["title"])
+            finalize_group(group)
+
+        if group_id in MANUAL_OPTIONS:
+            group["options"] = make_manual_options(MANUAL_OPTIONS[group_id])
+            group["title"] = MANUAL_TITLES.get(group_id, group["title"])
+            group["sourceText"] = " | ".join(
+                [option["sourceText"] for option in group["options"]]
+                + [stem["sourceText"] for stem in group["stems"]]
+            )
             finalize_group(group)
 
         if group_id == "p21-g4":
