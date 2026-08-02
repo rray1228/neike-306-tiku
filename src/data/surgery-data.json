@@ -11879,10 +11879,11 @@
             "E",
             "H",
             "L",
+            "N",
             "O"
           ],
           "answerMode": "多选",
-          "sourceText": "磷酸钙（AEHLO）",
+          "sourceText": "磷酸钙（AEHLNO）",
           "ocrScore": 1.0,
           "reviewMethod": "300dpi原题页人工复核"
         },
@@ -11915,7 +11916,7 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "A.易碎 | B.硬 | C.光滑 | D.蜡样 | E.鹿角样 | F.桑葚样 | G.颗粒状 | H.灰白色 | I.棕褐色 | J.红色 | K.黄色 | L.糙 | M.最常见 | N.酸化尿液+抗感染 | O.X线高密度 | P.X线不显影 | 草酸钙（BFILMO） | 磷酸钙（AEHLO） | 尿酸盐（BCGJP） | 胱氨酸（BCDKP）",
+      "sourceText": "A.易碎 | B.硬 | C.光滑 | D.蜡样 | E.鹿角样 | F.桑葚样 | G.颗粒状 | H.灰白色 | I.棕褐色 | J.红色 | K.黄色 | L.糙 | M.最常见 | N.酸化尿液+抗感染 | O.X线高密度 | P.X线不显影 | 草酸钙（BFILMO） | 磷酸钙（AEHLNO） | 尿酸盐（BCGJP） | 胱氨酸（BCDKP）",
       "reviewState": "已按原题页人工复核",
       "reviewIssues": [],
       "topic": "泌尿外科",

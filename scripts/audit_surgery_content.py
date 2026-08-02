@@ -19,7 +19,7 @@ VERIFIED_GROUPS = {
             "N": "酸化尿液+抗感染", "O": "X线高密度", "P": "X线不显影",
         },
         "stems": {
-            "草酸钙": "BFILMO", "磷酸钙": "AEHLO",
+            "草酸钙": "BFILMO", "磷酸钙": "AEHLNO",
             "尿酸盐": "BCGJP", "胱氨酸": "BCDKP",
         },
     },
