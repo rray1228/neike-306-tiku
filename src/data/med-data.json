@@ -20467,8 +20467,8 @@
         },
         {
           "key": "B",
-          "label": "如痴呆、嗜睡、淡漠",
-          "sourceText": "B.如痴呆、嗜睡、淡漠"
+          "label": "如胺碘酮、大剂量普萘洛尔",
+          "sourceText": "B.如胺碘酮、大剂量普萘洛尔"
         },
         {
           "key": "C",
@@ -20547,9 +20547,10 @@
           "answer": [
             "A",
             "C",
-            "F"
+            "F",
+            "I"
           ],
-          "sourceText": "淡漠型甲亢 ACF",
+          "sourceText": "淡漠型甲亢 ACFI",
           "sourceY": 0,
           "answerMode": "多选"
         },
