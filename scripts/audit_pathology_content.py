@@ -4,6 +4,8 @@
 from __future__ import annotations
 
 import json
+import re
+from collections import Counter
 from pathlib import Path
 
 
@@ -24,13 +26,18 @@ def main() -> None:
 
     invalid_answers = []
     duplicate_answers = []
+    duplicate_option_keys = []
+    glued_answer_stems = []
     missing_images = []
     for page in payload["pages"]:
         image = root / "public" / page["image"]
         if not image.exists():
             missing_images.append(str(image))
     for group in payload["groups"]:
-        keys = {option["key"] for option in group.get("options", [])}
+        option_keys = [option["key"] for option in group.get("options", [])]
+        keys = set(option_keys)
+        if len(option_keys) != len(keys):
+            duplicate_option_keys.append(group["id"])
         for index, stem in enumerate(group.get("stems", [])):
             answer = stem.get("answer", [])
             if len(answer) != len(set(answer)):
@@ -38,10 +45,14 @@ def main() -> None:
             absent = [key for key in answer if key not in keys]
             if absent:
                 invalid_answers.append(f"{group['id']}:{index}={''.join(absent)}")
+            if re.search(r"[；;]\s*[A-Z①-⑥]{1,}\s*$", stem.get("text", "")):
+                glued_answer_stems.append(f"{group['id']}:{index}")
 
     assert not missing_images, f"missing source images: {missing_images}"
     assert not duplicate_answers, f"duplicate answer keys: {duplicate_answers}"
+    assert not duplicate_option_keys, f"duplicate option keys: {duplicate_option_keys}"
     assert not invalid_answers, f"answers missing from option bank: {invalid_answers}"
+    assert not glued_answer_stems, f"answer text glued to stem: {glued_answer_stems}"
 
     cirrhosis = next(group for group in payload["groups"] if group["id"] == "p04-g1")
     cirrhosis_options = {
@@ -94,13 +105,62 @@ def main() -> None:
         assert actual_answers == expected_answers, f"{group_id} answer mismatch"
         assert group["reviewState"] == "已按题册原图与讲义复核"
 
-    thyroid = groups_by_id["p11-g1"]
+    thyroid = groups_by_id["p11-g2"]
     thyroid_answers = {
         stem["text"]: "".join(stem["answer"]) for stem in thyroid["stems"]
     }
     assert thyroid_answers["甲状腺腺瘤"] == "BDEGI"
     assert "I" in thyroid_answers["甲状腺腺瘤"]
     assert thyroid["reviewState"] == "已按题册原图与讲义复核"
+
+    page_counts = Counter(group["page"] for group in payload["groups"])
+    assert {page: page_counts[page] for page in [11, 13, 16, 17, 21, 23, 25, 26, 27, 31, 32, 36]} == {
+        11: 3, 13: 3, 16: 2, 17: 4, 21: 2, 23: 2,
+        25: 2, 26: 4, 27: 2, 31: 1, 32: 3, 36: 2,
+    }
+
+    def assert_answers(group_id: str, expected: list[tuple[str, str]]) -> None:
+        group = groups_by_id[group_id]
+        actual = [(stem["text"], "".join(stem["answer"])) for stem in group["stems"]]
+        assert actual == expected, f"{group_id} answer mismatch: {actual}"
+        assert group["reviewState"] == "已按题册原图与讲义复核"
+
+    answer_snapshots = {
+        "p06-g2": [("急性感染性心内膜炎", "ADFHIKLM"), ("亚急性感染性心内膜炎", "BCDEGJM")],
+        "p08-g3": [("扩张型心肌病", "ADEG"), ("肥厚型心肌病", "BI"), ("限制型心肌病", "CF")],
+        "p11-g1": [("慢性淋巴细胞性/自身免疫性甲状腺炎/桥本", "AFHJLMN"), ("亚急性/肉芽肿性/巨细胞性甲状腺炎", "BCDEGIKO")],
+        "p11-g2": [("结节性甲状腺肿", "ACFHI"), ("甲状腺腺瘤", "BDEGI")],
+        "p11-g3": [("单纯性/弥漫性非毒性甲状腺肿", "AJK"), ("弥漫性毒性甲状腺肿（Graves病）", "BDEF"), ("慢性淋巴细胞性/自身免疫性甲状腺炎/桥本", "BCD"), ("亚急性/肉芽肿性/巨细胞性甲状腺炎", "GHI")],
+        "p13-g2": [("超急性排斥反应", "ADF"), ("急性排斥反应", "BE"), ("慢性排斥反应", "C")],
+        "p13-g3": [("I型速发型", "ADH"), ("II型细胞毒型", "BCEGKMQRU"), ("III型免疫复合物/血管炎型", "FINST"), ("IV型迟发型", "JLOPV")],
+        "p16-g2": [("上皮性肿瘤", "ACDGO"), ("由卵母细胞发生的生殖细胞肿瘤", "BEHJL"), ("由卵泡细胞发生的性索间质肿瘤", "FIKMN")],
+        "p17-g3": [("粒层细胞瘤/颗粒细胞瘤", "ACE"), ("卵泡膜细胞瘤", "BDE")],
+        "p17-g4": [("前列腺增生/肥大", "BEG"), ("前列腺癌", "ACDFG")],
+        "p21-g1": [("流行性脑脊髓膜炎", "AEHILMS"), ("流行性乙型脑炎", "BCDFGJKNOPQR")],
+        "p21-g2": [("细菌性痢疾", "A"), ("中毒性痢疾", "B")],
+        "p23-g1": [("肠结核", "A"), ("肠伤寒", "F"), ("细菌性痢疾", "B"), ("阿米巴", "G"), ("溃疡性结肠炎", "H"), ("克罗恩病", "C"), ("消化性溃疡", "I"), ("胃癌溃疡型", "J"), ("胃泌素瘤", "K"), ("应激性溃疡", "E")],
+        "p23-g2": [("肠结核", "A"), ("肠伤寒", "F"), ("细菌性痢疾", "B"), ("阿米巴", "G"), ("溃疡性结肠炎", "H"), ("克罗恩病", "C"), ("消化性溃疡", "I"), ("胃癌溃疡型", "D"), ("胃泌素瘤", "J"), ("应激性溃疡", "E")],
+        "p24-g3": [("一期愈合", "ABDFIJM"), ("二期愈合", "CEGHKLN")],
+        "p25-g1": [("适应", "BDFOQ"), ("可逆性损伤", "ACEGNPR"), ("意外性细胞死亡", "HJLSUW"), ("调节性细胞死亡", "IKMTV")],
+        "p26-g3": [("营养不良性钙化", "ABCFHJLO"), ("转移性钙化", "DEGIKNPM")],
+        "p26-g4": [("细胞内", "AB"), ("细胞内、间质", "CFG"), ("间质", "DE")],
+        "p27-g2": [("凝固性坏死", "ACFM⑥"), ("液化性坏死", "BDORV⑤"), ("干酪样坏死", "EJP"), ("脂肪坏死（特殊的液化性坏死）", "KSW"), ("纤维素/纤维蛋白样坏死（旧称纤维素/纤维蛋白样变性）", "GHILNQTUXY①③"), ("坏疽", "②④")],
+        "p28-g1": [("干性坏疽", "ADHJM"), ("湿性坏疽", "BEFKL"), ("气性坏疽", "CEGIL")],
+        "p30-g1": [("慢性左心衰", "ADEF"), ("大叶性肺炎", "BCGH")],
+        "p30-g2": [("白色血栓", "ADKNRT"), ("混合血栓", "CILMPUVW"), ("红色血栓", "BEHO"), ("纤维素性血栓", "FGJQSX")],
+        "p31-g1": [("变质性炎", "ACEH"), ("渗出性炎", "BDFGIJKLNOPQSTUVWZ②"), ("增生性炎", "MRX①"), ("浆液性炎", "BDFJ"), ("纤维素性炎", "GNPS"), ("化脓性炎", "IKOQUWZ"), ("出血性炎", "LTV②")],
+        "p32-g1": [("Langhans巨细胞", "ACEG"), ("异物巨细胞", "BDF")],
+        "p32-g3": [("结核", "ABE"), ("风湿病", "CDG"), ("伤寒", "FHJ"), ("梅毒III期", "IMN"), ("慢性血吸虫虫卵", "AOP")],
+        "p33-g1": [("良性肿瘤", "AEFGIMNOSU"), ("恶性肿瘤", "BCDGHJLPQRT")],
+        "p35-g2": [("P53", "ABE"), ("APC", "FGJ"), ("RB", "HM"), ("BRCA", "CI"), ("NF", "DK"), ("WT", "L"), ("VHL", "N")],
+        "p36-g1": [("PDGF", "AC"), ("RAS", "EFHJK①"), ("BRAF", "N②"), ("ABL", "BI③"), ("ERBB2/HER2", "DGJQ③"), ("KIT", "MR③"), ("c-MYC", "O"), ("MYC", "S"), ("CyclinD1", "KT")],
+        "p36-g2": [("生长因子", "A"), ("信号转导蛋白", "CFI"), ("生长因子受体", "BE"), ("转录因子", "GH"), ("细胞周期调节蛋白", "D")],
+        "p37-g2": [("原癌基因", "ACEGJLNOP"), ("抑癌基因", "BDFHIKM")],
+    }
+    for group_id, expected in answer_snapshots.items():
+        assert_answers(group_id, expected)
+    assert "I" in "".join(groups_by_id["p16-g2"]["stems"][2]["answer"])
+    assert "I" in "".join(groups_by_id["p36-g2"]["stems"][1]["answer"])
 
     respiratory_ids = [
         group["id"] for group in payload["groups"] if group["topic"] == "呼吸系统"

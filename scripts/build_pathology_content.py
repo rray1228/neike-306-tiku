@@ -10,11 +10,13 @@ from collections import Counter
 from pathlib import Path
 
 import build_med_content as shared
+from pathology_manual_pages import manual_groups_for_page
 
 
 # Pathology pages were rendered at 150 dpi (767 px wide), while the internal
 # medicine source was OCR'd at roughly 300 dpi.
 shared.RIGHT_X = 350
+OPTION_KEY_ORDER = {key: index for index, key in enumerate("ABCDEFGHIJKLMNOPQRSTUVWXYZ①②③④⑤⑥")}
 
 TOPIC_RULES = [
     ("消化系统", ["胃炎", "消化性溃疡", "胃癌", "大肠癌", "肝硬化", "肝癌", "肠结核", "肠伤寒", "痢疾", "阿米巴", "溃疡好发"]),
@@ -64,12 +66,21 @@ GROUP_TOPIC_OVERRIDES = {
     "p09-g1": "呼吸系统", "p09-g2": "呼吸系统", "p09-g3": "呼吸系统",
     "p10-g1": "呼吸系统", "p10-g2": "呼吸系统", "p10-g3": "呼吸系统",
     "p10-g4": "呼吸系统",
+    "p11-g1": "内分泌系统", "p11-g2": "内分泌系统", "p11-g3": "内分泌系统",
     "p12-g1": "内分泌系统", "p12-g2": "内分泌系统",
-    "p14-g2": "生殖系统", "p17-g1": "生殖系统", "p17-g3": "生殖系统",
-    "p18-g1": "乳腺疾病", "p21-g1": "传染病", "p22-g1": "传染病",
-    "p22-g2": "传染病", "p23-g1": "传染病",
-    "p30-g1": "局部血液循环障碍", "p31-g1": "炎症", "p32-g2": "炎症",
+    "p13-g1": "免疫性疾病", "p13-g2": "免疫性疾病", "p13-g3": "免疫性疾病",
+    "p14-g2": "生殖系统", "p16-g1": "生殖系统", "p16-g2": "生殖系统",
+    "p17-g1": "生殖系统", "p17-g2": "生殖系统", "p17-g3": "生殖系统", "p17-g4": "生殖系统",
+    "p18-g1": "乳腺疾病", "p18-g2": "乳腺疾病",
+    "p21-g1": "传染病", "p21-g2": "传染病", "p22-g1": "传染病",
+    "p22-g2": "传染病", "p23-g1": "传染病", "p23-g2": "传染病",
+    "p25-g1": "损伤与修复", "p25-g2": "损伤与修复",
+    "p26-g1": "损伤与修复", "p26-g2": "损伤与修复", "p26-g3": "损伤与修复", "p26-g4": "损伤与修复",
+    "p27-g1": "损伤与修复", "p27-g2": "损伤与修复",
+    "p30-g1": "局部血液循环障碍", "p30-g2": "局部血液循环障碍",
+    "p31-g1": "炎症", "p32-g1": "炎症", "p32-g2": "炎症", "p32-g3": "炎症",
     "p35-g1": "肿瘤", "p35-g2": "肿瘤",
+    "p36-g1": "肿瘤", "p36-g2": "肿瘤", "p37-g2": "肿瘤",
 }
 
 GROUP_LECTURE_OVERRIDES = {
@@ -80,7 +91,8 @@ GROUP_LECTURE_OVERRIDES = {
     "p09-g1": ["lecture-11"], "p09-g2": ["lecture-11"], "p09-g3": ["lecture-11"],
     "p10-g1": ["lecture-11"], "p10-g2": ["lecture-14"], "p10-g3": ["lecture-14"],
     "p10-g4": ["lecture-14"],
-    "p11-g1": ["lecture-16"], "p12-g1": ["lecture-16"], "p12-g2": ["lecture-16"],
+    "p11-g1": ["lecture-16"], "p11-g2": ["lecture-16"], "p11-g3": ["lecture-16"],
+    "p12-g1": ["lecture-16"], "p12-g2": ["lecture-16"],
 }
 
 TITLE_OVERRIDES = {
@@ -97,10 +109,11 @@ TITLE_OVERRIDES = {
     "p14-g2": "宫颈鳞状上皮内病变分级",
     "p18-g1": "乳腺癌的分类与病理特征",
     "p19-g1": "结核杆菌成分与原发、继发性肺结核",
-    "p21-g1": "常见传染病的病理类型",
+    "p21-g1": "流行性脑脊髓膜炎与流行性乙型脑炎",
     "p31-g1": "炎症的基本类型",
-    "p32-g1": "炎症介质",
-    "p32-g2": "常考肉芽肿",
+    "p32-g1": "多核巨细胞",
+    "p32-g2": "炎症介质的作用",
+    "p32-g3": "常考肉芽肿",
     "p34-g1": "肿瘤标志物与免疫组化",
     "p35-g1": "化学、物理与生物致癌因素",
 }
@@ -304,6 +317,12 @@ def apply_known_repairs(group: dict) -> dict:
             ("腺瘤中最常见的是", "D"),
             ("腺瘤中易癌变的是", "O"),
         ])
+    elif group_id == "p06-g2":
+        set_stems(group, [
+            ("急性感染性心内膜炎", "ADFHIKLM"),
+            ("亚急性感染性心内膜炎", "BCDEGJM"),
+        ])
+        group["reviewState"] = "已按题册原图与讲义复核"
     elif group_id == "p07-g1":
         set_stems(group, [
             ("变质渗出期", "ACE"), ("增生期", "B"),
@@ -322,6 +341,13 @@ def apply_known_repairs(group: dict) -> dict:
         group["sourceText"] = group.get("sourceText", "").replace(
             "B.变态反应为II型", "B.变态反应为III型", 1
         )
+        group["reviewState"] = "已按题册原图与讲义复核"
+    elif group_id == "p08-g3":
+        set_stems(group, [
+            ("扩张型心肌病", "ADEG"),
+            ("肥厚型心肌病", "BI"),
+            ("限制型心肌病", "CF"),
+        ])
         group["reviewState"] = "已按题册原图与讲义复核"
     elif group_id == "p09-g2":
         group["options"] = [
@@ -358,9 +384,6 @@ def apply_known_repairs(group: dict) -> dict:
             *(item["sourceText"] for item in group["options"]),
             *(stem["sourceText"] for stem in group["stems"]),
         ])
-        group["reviewState"] = "已按题册原图与讲义复核"
-    elif group_id == "p11-g1":
-        set_stems(group, [("结节性甲状腺肿", "ACFHI"), ("甲状腺腺瘤", "BDEGI")])
         group["reviewState"] = "已按题册原图与讲义复核"
     elif group_id == "p12-g1":
         group["options"] = [
@@ -424,6 +447,61 @@ def apply_known_repairs(group: dict) -> dict:
             ("肠结核", "ADGH"), ("肠伤寒", "CEIJ"),
             ("急性细菌性痢疾", "FKLM"), ("肠阿米巴", "BGNO"),
         ])
+    elif group_id == "p24-g3":
+        group["options"] = [
+            option("A", "组织缺损少、创缘整齐、无感染"),
+            option("B", "表皮再生在伤后1-2天再生的表皮覆盖伤口"),
+            option("C", "伤口边缘或底部长入大量肉芽组织"), option("D", "伤口收缩不明显"),
+            option("E", "愈合时间长"), option("F", "坏死组织少"), option("G", "炎症反应重"),
+            option("H", "表皮再生在坏死组织清除及感染控制后开始"),
+            option("I", "肉芽组织在伤后2-3天从伤口边缘开始长入"),
+            option("J", "瘢痕组织少、规则、呈线状"), option("K", "伤口收缩明显"),
+            option("L", "坏死组织多"), option("M", "炎症反应轻"),
+            option("N", "瘢痕组织大、不规则"),
+        ]
+        set_stems(group, [("一期愈合", "ABDFIJM"), ("二期愈合", "CEGHKLN")])
+        group["reviewState"] = "已按题册原图与讲义复核"
+    elif group_id == "p28-g1":
+        set_stems(group, [
+            ("干性坏疽", "ADHJM"), ("湿性坏疽", "BEFKL"), ("气性坏疽", "CEGIL"),
+        ])
+        group["reviewState"] = "已按题册原图与讲义复核"
+    elif group_id == "p30-g1":
+        group["options"] = [
+            option("A", "肺褐色硬化"), option("B", "肺肉质变/机化性肺炎"),
+            option("C", "巨噬细胞分解血红蛋白产生含铁血黄素（铁锈色痰）"),
+            option("D", "巨噬细胞分解血红蛋白产生含铁血黄素（心衰细胞）"),
+            option("E", "多累及双侧肺"), option("F", "慢性肺淤血"),
+            option("G", "多累及单侧肺"), option("H", "肺泡的纤维素性炎"),
+        ]
+        set_stems(group, [("慢性左心衰", "ADEF"), ("大叶性肺炎", "BCGH")])
+        group["reviewState"] = "已按题册原图与讲义复核"
+    elif group_id == "p30-g2":
+        group["options"] = [
+            option("A", "血小板/析出性血栓"), option("B", "阻塞性血栓"),
+            option("C", "主要出现在心脏、动脉，可呈球状，可为附壁血栓"),
+            option("D", "主要成分是血小板"), option("E", "主要出现在下肢深静脉"),
+            option("F", "主要成分是纤维素"), option("G", "弥散性血管内凝血"),
+            option("H", "主要成分是纤维素网（充满红细胞）"), option("I", "心梗的左心室"),
+            option("J", "DIC"), option("K", "急性非ST段抬高心梗冠脉内"),
+            option("L", "主要成分是灰白色血小板小梁和纤维素网交替"),
+            option("M", "动脉瘤"), option("N", "延续性血栓：头部"),
+            option("O", "延续性血栓：尾部"), option("P", "层状血栓"),
+            option("Q", "透明/微血栓"), option("R", "主要出现在血流较快的心脏、动脉"),
+            option("S", "主要出现在毛细血管"), option("T", "风湿病、SLE心瓣膜的疣状赘生物"),
+            option("U", "二尖瓣的左心房"), option("V", "动脉粥样硬化溃疡"),
+            option("W", "延续性血栓：体部"), option("X", "超急性排斥反应"),
+        ]
+        set_stems(group, [
+            ("白色血栓", "ADKNRT"), ("混合血栓", "CILMPUVW"),
+            ("红色血栓", "BEHO"), ("纤维素性血栓", "FGJQSX"),
+        ])
+        group["reviewState"] = "已按题册原图与讲义复核"
+    elif group_id == "p33-g1":
+        set_stems(group, [
+            ("良性肿瘤", "AEFGIMNOSU"), ("恶性肿瘤", "BCDGHJLPQRT"),
+        ])
+        group["reviewState"] = "已按题册原图与讲义复核"
     elif group_id == "p33-g2":
         group["options"] = [
             option("A", "来源于上皮组织"), option("B", "发病率低，骨肉瘤等多见于儿童和青少年"),
@@ -458,6 +536,23 @@ def apply_known_repairs(group: dict) -> dict:
             ("亚硝胺类——结构不对称者", "Q"), ("EBV", "GPRT"),
             ("烷化剂", "D"), ("HBV、HCV", "B"), ("紫外线", "IS"), ("Hp", "FL"),
         ])
+    elif group_id == "p35-g2":
+        set_stems(group, [
+            ("P53", "ABE"), ("APC", "FGJ"), ("RB", "HM"), ("BRCA", "CI"),
+            ("NF", "DK"), ("WT", "L"), ("VHL", "N"),
+        ])
+        group["reviewState"] = "已按题册原图与讲义复核"
+    elif group_id == "p37-g2":
+        group["options"] = [
+            option("A", "PDGF"), option("B", "P53"), option("C", "RAS"), option("D", "APC"),
+            option("E", "BRAF"), option("F", "RB"), option("G", "ABL"), option("H", "BRCA"),
+            option("I", "NF"), option("J", "ERBB2/HER2"), option("K", "WT"), option("L", "KIT"),
+            option("M", "VHL"), option("N", "c-MYC"), option("O", "MYC"), option("P", "CyclinD1"),
+        ]
+        set_stems(group, [
+            ("原癌基因", "ACEGJLNOP"), ("抑癌基因", "BDFHIKM"),
+        ])
+        group["reviewState"] = "已按题册原图与讲义复核"
     return group
 
 
@@ -531,13 +626,17 @@ def main() -> None:
             "topic": page_topic,
             "searchText": shared.clean_text(page_text)[:7000],
         })
-        if page_number == 10:
+        manual_groups = manual_groups_for_page(page_number)
+        if manual_groups is not None:
+            extracted_groups = manual_groups
+        elif page_number == 10:
             extracted_groups = repaired_page_10_groups()
         else:
             extracted_groups = shared.extract_groups(page_number, rows) + extra_groups_for_page(page_number)
         for raw_group in extracted_groups:
             group = repair_continuation_group(raw_group)
             group = apply_known_repairs(group)
+            group["options"].sort(key=lambda item: OPTION_KEY_ORDER.get(item["key"], 999))
             for stem in group.get("stems", []):
                 stem["answer"] = list(dict.fromkeys(stem.get("answer", [])))
                 stem["answerMode"] = "多选" if len(stem["answer"]) > 1 else "单选"
