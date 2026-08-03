@@ -3,7 +3,6 @@
 
 from __future__ import annotations
 
-import hashlib
 import json
 import re
 from pathlib import Path
@@ -26,10 +25,6 @@ EXPECTED = {
 }
 
 
-def digest(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
-
-
 def main() -> None:
     root = Path(__file__).resolve().parents[1]
     payload = json.loads((root / "src/data/surgery-fracture-data.json").read_text(encoding="utf-8"))
@@ -47,11 +42,13 @@ def main() -> None:
         assert option_keys == expected_options, f"{group_id}: option keys drift"
         assert actual_stems == expected_stems, f"{group_id}: stems or answers drift"
         assert len(option_keys) == len(set(option_keys)), f"{group_id}: duplicate option keys"
-        assert group["topic"] == "骨折概论"
+        assert group["topic"] == "骨科"
         assert group["lectureIds"] == ["lecture-29"]
-        assert group["reviewState"] == "已按Word题目答案表与讲义人工复核"
+        assert group["reviewState"] == "已完成结构校对"
         assert not group["reviewIssues"]
-        assert group["sourceDocument"] == "surgery/source-documents/骨折概论_学成选择题_题目与答案.docx"
+        assert group["hideSource"] is True
+        assert not group["reviewNotes"]
+        assert not {"sourcePage", "sourceName", "sourceDocument"} & set(group)
         keys = set(option_keys)
         for option in group["options"]:
             assert option["label"].strip() == option["label"] and option["label"]
@@ -67,21 +64,13 @@ def main() -> None:
         assert evidence["lectureId"] == "lecture-29"
         assert (root / "public" / evidence["image"]).exists(), f"{group_id}: missing lecture image"
 
-    fourth = next(group for group in groups if group["id"] == "fracture-g04")
     fifth = next(group for group in groups if group["id"] == "fracture-g05")
-    assert fourth["reviewNotes"][0]["title"] == "答案编号勘误"
-    assert fifth["reviewNotes"][0]["title"] == "补回Word漏组"
     assert [option["label"] for option in fifth["options"]] == [
         "局部无异常活动",
         "局部无压痛",
         "无纵向叩击痛",
         "X线见骨折处有连续性梭形骨痂（骨折线模糊）",
     ]
-
-    source = root / "surgery/source-documents/骨折概论_学成选择题_题目与答案.docx"
-    public_source = root / "public/surgery/source-documents/骨折概论_学成选择题_题目与答案.docx"
-    assert source.exists() and public_source.exists()
-    assert digest(source) == digest(public_source), "public Word source differs from audited source"
 
     print({"groups": 13, "stems": 46, "options": 123, "status": "ok"})
 

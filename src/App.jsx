@@ -7,15 +7,9 @@ import physiologyContent from './data/physiology-data.json'
 
 const combinedSurgeryContent = {
   ...surgeryContent,
-  meta: {
-    ...surgeryContent.meta,
-    sourceLabel: '学成选择题（PDF + Word）',
-    sourcePages: surgeryContent.meta.sourcePages + surgeryFractureContent.meta.sourcePages,
-    extensionSources: [surgeryFractureContent.meta],
-  },
   topics: [
     ...surgeryContent.topics.filter((topic) => topic !== '综合'),
-    '骨折概论',
+    '骨科',
     '综合',
   ],
   groups: [...surgeryContent.groups, ...surgeryFractureContent.groups],
@@ -93,7 +87,7 @@ const TOPIC_ICONS = {
   肝胆胰疾病: 'stomach',
   周围血管疾病: 'drop',
   泌尿外科: 'kidney',
-  骨折概论: 'joint',
+  骨科: 'joint',
   绪论: 'book',
   细胞基本功能: 'spark',
   循环系统: 'heart',
@@ -292,7 +286,7 @@ function App() {
   const groupStorageId = groupStorageKey(subject, group.id)
   const currentSelections = selections[groupStorageId] || {}
   const isSubmitted = Boolean(submitted[groupStorageId])
-  const currentPage = group.sourceDocument ? undefined : content.pages.find((item) => item.page === group.page)
+  const currentPage = content.pages.find((item) => item.page === group.page)
   const favorite = favorites.includes(groupStorageId)
 
   function updateSelection(stemIndex, key) {
@@ -433,7 +427,7 @@ function App() {
           {!filteredGroups.length && <div className="empty-state"><div className="empty-state-icon"><Icon name={favoritesOnly ? 'bookmark' : 'search'} size={22} /></div><h1>{favoritesOnly ? `${notebookName}暂无题组` : '当前筛选下没有题组'}</h1><p>{favoritesOnly ? '点击题组右上角的“收藏”后，它会自动进入当前科目与章节的收藏本。' : '请尝试清除搜索词、切换章节或选择其他题型。'}</p><button className="primary-button" onClick={favoritesOnly ? showAllGroupsInChapter : () => { setTopic('全部'); setSearch(''); setTypeFilter('全部题型'); setGroupIndex(0) }}>{favoritesOnly ? '返回本章全部题组' : '显示全部题库'} <Icon name="arrow" size={17} /></button></div>}
           {filteredGroups.length > 0 && <div className="study-content">
           {favoritesOnly && <div className="favorite-notebook-banner"><span className="favorite-notebook-icon"><Icon name="bookmarkFill" size={18} /></span><div><strong>{notebookName}</strong><small>正在复习已收藏题组 · 共 {filteredGroups.length} 组</small></div><button onClick={showAllGroupsInChapter}>退出收藏本</button></div>}
-          <div className="breadcrumb"><span>{group.topic || '综合'}</span><Icon name="chevron" size={13} /><span>{group.kindLabel}</span><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></div>
+          <div className="breadcrumb"><span>{group.topic || '综合'}</span><Icon name="chevron" size={13} /><span>{group.kindLabel}</span>{group.hideSource ? null : <><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></>}</div>
           <div className="content-heading">
             <div><h1>{group.title || '题库原题'}</h1><p>共用选项组保留在本题组内；每个题干独立作答，提交后逐题反馈。</p></div>
             <div className="heading-actions"><button className={`ghost-button ${favorite ? 'selected' : ''}`} onClick={toggleFavorite} aria-pressed={favorite} title={favorite ? `从${group.topic}收藏本移除` : `收藏到${group.topic}收藏本`}><Icon name={favorite ? 'bookmarkFill' : 'bookmark'} size={17} />{favorite ? '已收藏' : '收藏'}</button><button className="ghost-button" onClick={() => setShowNote((value) => !value)}><Icon name="note" size={17} />笔记</button></div>
@@ -445,7 +439,7 @@ function App() {
           {group.options.length > 0 && <aside className="option-bank option-rail"><div className="section-label"><span>共用选项</span><em>{group.kindLabel}</em></div><div className="option-grid">{group.options.map((option) => <div className="shared-option" key={option.key}><b>{option.key}</b><span>{option.label}</span></div>)}</div><p className="option-rail-hint">选项固定在左侧，右侧题干逐题作答。</p></aside>}
           <div className="question-side">
           <section className="question-card">
-            <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span><span>来源页 {group.page}</span></div>
+            <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span>{group.hideSource ? null : <span>来源页 {group.page}</span>}</div>
             <div className="stem-list">
               {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} subject={subject} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} />)}
             </div>
@@ -529,6 +523,7 @@ function EvidencePanel({ subject, content, group, page, sourceName, submitted, s
   const lectureItems = group.lectureIds.map((id) => content.lectures.find((lecture) => lecture.id === id)).filter(Boolean)
   const reviewNotes = group.reviewNotes || []
   const currentEvidence = group.lectureEvidence
+  const showSourceEvidence = !group.hideSource
   return (
     <aside className={`evidence-panel ${mobileEvidence ? 'mobile-visible' : ''}`}>
       <div className="evidence-section evidence-section-top"><div className="evidence-title"><span className="evidence-icon"><Icon name="check" size={18} /></span><div><h2>讲义依据</h2><p>{lectureItems.length ? `已关联 ${lectureItems.length} 份讲义` : '按章节关联讲义'}</p></div><span className="verified-dot"><Icon name="check" size={13} /></span><button className="panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="chevron" size={16} /></button></div>
@@ -536,7 +531,7 @@ function EvidencePanel({ subject, content, group, page, sourceName, submitted, s
         <div className="all-lectures">查看全部 {content.meta.lectureCount} 份讲义 <Icon name="right" size={15} /></div>
       </div>
       {currentEvidence && <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><span>讲义校对依据</span><strong>{currentEvidence.title}</strong><p>{currentEvidence.description}</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${currentEvidence.title}`}><img src={assetPath(currentEvidence.image)} alt={`${currentEvidence.title}原页`} /><span><Icon name="eye" size={16} />点击放大查看讲义原页</span></button></div>}
-      <div className="evidence-section correction-section"><div className="evidence-title"><span className="correction-icon"><Icon name="alert" size={18} /></span><div><h2>勘误说明</h2><p>{reviewNotes.length ? `发现 ${reviewNotes.length} 条需同步修正` : (subject === 'physiology' ? '与今年讲义一致' : (submitted ? '已显示原题答案与讲义依据' : '提交后显示逐题核对'))}</p></div><button className="panel-close" aria-label="展开勘误"><Icon name="chevron" size={16} /></button></div><div className="correction-body"><div className="source-line"><span>原题来源</span><strong>{sourceName} · 第 {group.sourcePage || group.page} 页</strong></div><p>{group.sourceDocument ? '该题组已从Word原件拆分题干、选项和答案，并与对应讲义逐项复核；原件中的编号或漏题问题已在下方单独说明。' : (subject === 'physiology' ? '该题组已与 2027 考研生理讲义逐项核对。若旧资料存在答案或排版问题，下方会保留修改原因和讲义依据。' : '该题组的蓝色答案已从原图保存。没有强行改成普通单选题；需要看到原图中的共用选项和题干关系时，可打开原题页。')}</p>{reviewNotes.map((note, index) => <div className="manual-note" key={`${group.id}-review-${index}`}><strong>{note.title}</strong><p>{note.body}</p></div>)}{subject === 'med' ? group.stems.map((stem, index) => { const note = CORRECTIONS[`${group.id}:${index}`]; return note ? <div className="manual-note" key={index}><strong>{note.title}</strong><p>{note.body}</p></div> : null }) : null}{group.sourceDocument ? <a className="source-button" href={assetPath(group.sourceDocument)} download><Icon name="file" size={16} />下载Word原件</a> : <button className="source-button" onClick={() => setShowSource(true)}><Icon name="eye" size={16} />查看原题页（第 {group.page} 页）</button>}</div></div>
+      {showSourceEvidence ? <div className="evidence-section correction-section"><div className="evidence-title"><span className="correction-icon"><Icon name="alert" size={18} /></span><div><h2>勘误说明</h2><p>{reviewNotes.length ? `发现 ${reviewNotes.length} 条需同步修正` : (subject === 'physiology' ? '与今年讲义一致' : (submitted ? '已显示原题答案与讲义依据' : '提交后显示逐题核对'))}</p></div><button className="panel-close" aria-label="展开勘误"><Icon name="chevron" size={16} /></button></div><div className="correction-body"><div className="source-line"><span>原题来源</span><strong>{sourceName} · 第 {group.page} 页</strong></div><p>{subject === 'physiology' ? '该题组已与 2027 考研生理讲义逐项核对。若旧资料存在答案或排版问题，下方会保留修改原因和讲义依据。' : '该题组的蓝色答案已从原图保存。没有强行改成普通单选题；需要看到原图中的共用选项和题干关系时，可打开原题页。'}</p>{reviewNotes.map((note, index) => <div className="manual-note" key={`${group.id}-review-${index}`}><strong>{note.title}</strong><p>{note.body}</p></div>)}{subject === 'med' ? group.stems.map((stem, index) => { const note = CORRECTIONS[`${group.id}:${index}`]; return note ? <div className="manual-note" key={index}><strong>{note.title}</strong><p>{note.body}</p></div> : null }) : null}<button className="source-button" onClick={() => setShowSource(true)}><Icon name="eye" size={16} />查看原题页（第 {group.page} 页）</button></div></div> : null}
       {page?.image ? <div className="source-thumb"><img src={assetPath(page.image)} alt={`题库原题第 ${group.page} 页`} /><button onClick={() => setShowSource(true)}><Icon name="eye" size={16} /></button></div> : null}
     </aside>
   )
