@@ -123,6 +123,7 @@ MANUAL_STEMS = {
     "p13-g2": [("内痔截石位", "D"), ("内痔膝胸位", "B"), ("肛裂截石位", "C"), ("肛裂膝胸位", "A")],
     "p13-g5": [("直肠癌", "EGI"), ("直肠息肉", "ACF"), ("痔（内痔）", "H"),
                 ("肛瘘", "B"), ("盆腔脓肿", "J"), ("肛裂", "D")],
+    "p14-g2": [("前", "BD"), ("后", "ACG"), ("上", "DH"), ("下", "FI")],
     "p14-g3": [("内侧", "B"), ("底部", "C"), ("外侧", "A")],
     "p15-g1": [("Richter疝（肠管壁疝）", "B"), ("Littre疝", "A"),
                 ("Maydl疝（逆行性嵌顿疝）", "EC"), ("Amyand疝", "D")],
@@ -216,6 +217,12 @@ MANUAL_TITLES = {
     "p09-g3": "肠梗阻完全性", "p09-g4": "肠梗阻部位",
     "p11-g1": "急性阑尾炎分型", "p12-g2": "直肠癌术式与适应证",
     "p12-g3": "直肠癌术式与肛门括约肌", "p13-g1": "内痔分度",
+    "p14-g1": "股管结构", "p14-g2": "腹股沟管结构",
+    "p14-g3": "直疝三角/海氏三角/Hesselbach 三角", "p14-g4": "疝的组成",
+    "p14-g5": "腹外疝临床分型", "p14-g6": "腹外疝类型与常见内容物",
+    "p15-g1": "特殊类型嵌顿疝", "p15-g2": "腹外疝治疗方式",
+    "p15-g3": "腹股沟疝修补术式", "p15-g4": "传统疝修补术特点",
+    "p16-g1": "股疝、斜疝与直疝鉴别", "p16-g2": "隐睾（阴囊空虚感）治疗",
     "p18-g4": "胰头癌与胆道肿瘤鉴别", "p19-g5": "胆系疾病影像检查",
     "p20-g3": "胆石症与胆道感染", "p21-g4": "上段/肝门部胆管癌Bismuth-Corlette分型",
     "p23-g2": "胆系疾病英文缩写", "p24-g1": "周围动脉疾病分期",
@@ -226,6 +233,10 @@ MANUAL_TITLES = {
 
 SKIP_GROUPS = {"p04-g2", "p04-g3", "p16-g3", "p16-g4", "p16-g5"}
 SOURCE_VERIFIED_OPTION_GAPS = {"p06-g4", "p09-g1", "p14-g2", "p17-g1"}
+SOURCE_VERIFIED_HERNIA_GROUPS = {
+    "p14-g1", "p14-g2", "p14-g3", "p14-g4", "p14-g5", "p14-g6",
+    "p15-g1", "p15-g2", "p15-g3", "p15-g4", "p16-g1", "p16-g2",
+}
 
 
 def clean_text(text: str) -> str:
@@ -648,6 +659,13 @@ def apply_manual_repairs(groups: list[dict]) -> list[dict]:
             "p03-g4": {"C": "长径≤2cm"},
             "p05-g1": {"B": "I、II期"},
             "p06-g4": {"D": "CD117/KIT"},
+            "p15-g1": {
+                "A": "嵌顿内容物为小肠憩室，如 Meckel 憩室",
+                "B": "嵌顿内容物仅为部分肠管壁，局部肿块不明显，多无肠梗阻，易误诊",
+                "C": "即使疝囊内肠管存活，也必须将腹腔内相关肠袢牵出检查，以防遗漏隐匿在腹腔内的坏死肠袢",
+                "D": "嵌顿内容物为阑尾，常感染化脓（appendix）",
+                "E": "嵌顿肠管包括几个肠袢，呈W形",
+            },
             "p20-g3": {
                 "D": "WBC明显↑，常>20×10⁹/L（以中性粒细胞为主），Plt可↓",
                 "L": "好发于肝总管、胆总管下段（汇合部位）",
@@ -675,6 +693,18 @@ def apply_manual_repairs(groups: list[dict]) -> list[dict]:
                 "title": "磷酸钙答案补充 N",
                 "body": "已按第19讲第1页校对：磷酸钙对应“酸化尿液+抗感染”，答案由 AEHLO 修正为 AEHLNO。",
             }]
+        if group_id == "p14-g2":
+            group["reviewNotes"] = [{
+                "title": "腹股沟管下壁答案删除 C",
+                "body": "已对照原题第14页和第12讲第1页：下壁由腹股沟韧带、腔隙韧带构成，答案由 CFI 修正为 FI。",
+            }]
+        if group_id in SOURCE_VERIFIED_HERNIA_GROUPS:
+            group["title"] = MANUAL_TITLES[group_id]
+            group["sourceText"] = " | ".join(
+                [option["sourceText"] for option in group["options"]]
+                + [stem["sourceText"] for stem in group["stems"]]
+            )
+            finalize_group(group)
         if group_id in SOURCE_VERIFIED_OPTION_GAPS:
             finalize_group(group)
 

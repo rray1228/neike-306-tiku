@@ -10,6 +10,16 @@ from pathlib import Path
 
 
 VERIFIED_GROUPS = {
+    "p14-g2": {
+        "title": "腹股沟管结构",
+        "options": {
+            "A": "腹股沟镰（腹内斜肌和腹横肌腱膜构成的联合腱）",
+            "B": "腹外斜肌腱膜（主要）", "C": "腹横筋膜", "D": "腹内斜肌",
+            "F": "腹股沟韧带（腹外斜肌腱膜卷曲形成）", "G": "腹膜",
+            "H": "腹横肌", "I": "腔隙韧带",
+        },
+        "stems": {"前": "BD", "后": "ACG", "上": "DH", "下": "FI"},
+    },
     "p28-g1": {
         "title": "泌尿系结石成分与特点",
         "options": {
@@ -43,6 +53,21 @@ VERIFIED_GROUPS = {
             "急迫性尿失禁": "EI", "压力性尿失禁": "FK",
         },
     },
+}
+
+VERIFIED_HERNIA_GROUPS = {
+    "p14-g1": ("股管结构", "ABCD", {"前": "C", "后": "B", "内": "A", "外": "D"}),
+    "p14-g2": ("腹股沟管结构", "ABCDFGHI", {"前": "BD", "后": "ACG", "上": "DH", "下": "FI"}),
+    "p14-g3": ("直疝三角/海氏三角/Hesselbach 三角", "ABC", {"内侧": "B", "底部": "C", "外侧": "A"}),
+    "p14-g4": ("疝的组成", "AB", {"疝内容物": "B", "疝囊": "A"}),
+    "p14-g5": ("腹外疝临床分型", "ABCDEFGH", {"易复疝": "ACD", "难复疝": "ADE", "嵌顿疝": "ABEGH", "绞窄疝": "BEF"}),
+    "p14-g6": ("腹外疝类型与常见内容物", "ABCDEF", {"易复疝": "B", "难复疝": "D", "特殊的难复疝-滑动性疝": "ACEF"}),
+    "p15-g1": ("特殊类型嵌顿疝", "ABCDE", {"Richter疝（肠管壁疝）": "B", "Littre疝": "A", "Maydl疝（逆行性嵌顿疝）": "EC", "Amyand疝": "D"}),
+    "p15-g2": ("腹外疝治疗方式", "ABCDE", {"保守": "BCE", "单纯疝囊高位结扎": "AD"}),
+    "p15-g3": ("腹股沟疝修补术式", "ABCDEFGH", {"单纯疝修补/无张力疝修补": "CEG", "疝囊高位结扎+修补加强前壁": "A", "加强后壁": "BDFH"}),
+    "p15-g4": ("传统疝修补术特点", "ABCDEF", {"Bassini": "B", "McVay": "ADF", "Shouldice": "CE"}),
+    "p16-g1": ("股疝、斜疝与直疝鉴别", "ABCDEFGHIJKLMNOPQRSTUV", {"股疝": "ADHIKNT", "斜疝": "CFJLMOQSU", "直疝": "BCEGIKPRV"}),
+    "p16-g2": ("隐睾（阴囊空虚感）治疗", "ABCDE", {"1岁内": "D", "1岁后": "A", "2岁前": "E", "睾丸萎缩且对侧睾丸正常": "B", "双侧睾丸不能下降": "C"}),
 }
 
 
@@ -115,6 +140,16 @@ def main() -> None:
             f"{group_id}: option drift"
         assert {item["text"]: "".join(item["answer"]) for item in group["stems"]} == expected["stems"], \
             f"{group_id}: stem/answer drift"
+
+    hernia_ids = {group["id"] for group in payload["groups"] if group["topic"] == "腹外疝"}
+    assert hernia_ids == set(VERIFIED_HERNIA_GROUPS), f"hernia group drift: {sorted(hernia_ids)}"
+    for group_id, (title, option_keys, stems) in VERIFIED_HERNIA_GROUPS.items():
+        group = groups_by_id[group_id]
+        assert group["title"] == title, f"{group_id}: title drift"
+        assert "".join(item["key"] for item in group["options"]) == option_keys, f"{group_id}: option-key drift"
+        assert {item["text"]: "".join(item["answer"]) for item in group["stems"]} == stems, \
+            f"{group_id}: hernia stem/answer drift"
+        assert group["reviewState"] == "已按原题页人工复核", f"{group_id}: review state drift"
 
     phosphate_evidence = groups_by_id["p28-g1"]["lectureEvidence"]
     assert phosphate_evidence == {
