@@ -2,7 +2,24 @@ import { useEffect, useMemo, useState } from 'react'
 import medContent from './data/med-data.json'
 import pathologyContent from './data/pathology-data.json'
 import surgeryContent from './data/surgery-data.json'
+import surgeryFractureContent from './data/surgery-fracture-data.json'
 import physiologyContent from './data/physiology-data.json'
+
+const combinedSurgeryContent = {
+  ...surgeryContent,
+  meta: {
+    ...surgeryContent.meta,
+    sourceLabel: '学成选择题（PDF + Word）',
+    sourcePages: surgeryContent.meta.sourcePages + surgeryFractureContent.meta.sourcePages,
+    extensionSources: [surgeryFractureContent.meta],
+  },
+  topics: [
+    ...surgeryContent.topics.filter((topic) => topic !== '综合'),
+    '骨折概论',
+    '综合',
+  ],
+  groups: [...surgeryContent.groups, ...surgeryFractureContent.groups],
+}
 
 const SUBJECTS = {
   med: {
@@ -28,7 +45,7 @@ const SUBJECTS = {
     title: '外科-学成选择题byBi8bo&戒不掉甜食',
     subtitle: '306 临床医学综合能力（外科学）',
     sectionLabel: '外科章节',
-    content: surgeryContent,
+    content: combinedSurgeryContent,
     defaultTopic: '颈部疾病',
     sourceName: '外科各论除骨科（去胶带版）.pdf',
   },
@@ -76,6 +93,7 @@ const TOPIC_ICONS = {
   肝胆胰疾病: 'stomach',
   周围血管疾病: 'drop',
   泌尿外科: 'kidney',
+  骨折概论: 'joint',
   绪论: 'book',
   细胞基本功能: 'spark',
   循环系统: 'heart',
@@ -274,7 +292,7 @@ function App() {
   const groupStorageId = groupStorageKey(subject, group.id)
   const currentSelections = selections[groupStorageId] || {}
   const isSubmitted = Boolean(submitted[groupStorageId])
-  const currentPage = content.pages.find((item) => item.page === group.page)
+  const currentPage = group.sourceDocument ? undefined : content.pages.find((item) => item.page === group.page)
   const favorite = favorites.includes(groupStorageId)
 
   function updateSelection(stemIndex, key) {
@@ -400,7 +418,7 @@ function App() {
             ))}
           </nav>
           <div className="sidebar-footer">
-            <div className="source-stat"><span>题库来源</span><strong>学成选择题（PDF 扫描版）</strong><small>{content.meta.sourcePages} 页 · {content.groups.length} 个题组 · {content.groups.reduce((sum, item) => sum + item.stems.length, 0)} 个题干</small></div>
+            <div className="source-stat"><span>题库来源</span><strong>{content.meta.sourceLabel || '学成选择题（PDF 扫描版）'}</strong><small>{content.meta.sourcePages} 页 · {content.groups.length} 个题组 · {content.groups.reduce((sum, item) => sum + item.stems.length, 0)} 个题干</small></div>
             <div className="lecture-stat"><span>讲义依据</span><strong>{subjectConfig.label}讲义 PDF 共 {content.meta.lectureCount} 份</strong><Icon name="file" size={18} /></div>
           </div>
         </aside>
@@ -443,10 +461,10 @@ function App() {
           </div>}
         </main>
 
-        {filteredGroups.length ? <EvidencePanel subject={subject} content={content} group={group} page={currentPage} submitted={isSubmitted} setShowSource={setShowSource} setShowLectureEvidence={setShowLectureEvidence} mobileEvidence={mobileEvidence} setMobileEvidence={setMobileEvidence} /> : <EmptyEvidence subjectConfig={subjectConfig} />}
+        {filteredGroups.length ? <EvidencePanel subject={subject} content={content} group={group} page={currentPage} sourceName={group.sourceName || subjectConfig.sourceName} submitted={isSubmitted} setShowSource={setShowSource} setShowLectureEvidence={setShowLectureEvidence} mobileEvidence={mobileEvidence} setMobileEvidence={setMobileEvidence} /> : <EmptyEvidence subjectConfig={subjectConfig} />}
       </div>
 
-      {showSource && <SourceModal group={group} page={currentPage} sourceName={subjectConfig.sourceName} onClose={() => setShowSource(false)} />}
+      {showSource && currentPage && <SourceModal group={group} page={currentPage} sourceName={group.sourceName || subjectConfig.sourceName} onClose={() => setShowSource(false)} />}
       {showLectureEvidence && group.lectureEvidence && <LectureEvidenceModal evidence={group.lectureEvidence} onClose={() => setShowLectureEvidence(false)} />}
       <div className="site-watermark" aria-hidden="true">
         <span>内容制作byBi8bo</span>
@@ -507,7 +525,7 @@ function StemRow({ subject, group, stem, index, selection, submitted, onSelect }
   )
 }
 
-function EvidencePanel({ subject, content, group, page, submitted, setShowSource, setShowLectureEvidence, mobileEvidence, setMobileEvidence }) {
+function EvidencePanel({ subject, content, group, page, sourceName, submitted, setShowSource, setShowLectureEvidence, mobileEvidence, setMobileEvidence }) {
   const lectureItems = group.lectureIds.map((id) => content.lectures.find((lecture) => lecture.id === id)).filter(Boolean)
   const reviewNotes = group.reviewNotes || []
   const currentEvidence = group.lectureEvidence
@@ -517,9 +535,9 @@ function EvidencePanel({ subject, content, group, page, submitted, setShowSource
         {lectureItems.slice(0, 4).map((lecture) => <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 讲 · {currentEvidence?.lectureId === lecture.id ? `对应第 ${currentEvidence.page} 页` : `共 ${lecture.pageCount} 页`}</span></div><span className="relevance">已核对</span></div>)}
         <div className="all-lectures">查看全部 {content.meta.lectureCount} 份讲义 <Icon name="right" size={15} /></div>
       </div>
-      {currentEvidence && <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><span>讲义校对依据</span><strong>{currentEvidence.title}</strong><p>{currentEvidence.description}</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${currentEvidence.title}`}><img src={assetPath(currentEvidence.image)} alt={`${currentEvidence.title}原页，磷酸钙条目含酸化尿液加抗感染`} /><span><Icon name="eye" size={16} />点击放大查看讲义原页</span></button></div>}
-      <div className="evidence-section correction-section"><div className="evidence-title"><span className="correction-icon"><Icon name="alert" size={18} /></span><div><h2>勘误说明</h2><p>{reviewNotes.length ? `发现 ${reviewNotes.length} 条需同步修正` : (subject === 'physiology' ? '与今年讲义一致' : (submitted ? '已显示原题答案与讲义依据' : '提交后显示逐题核对'))}</p></div><button className="panel-close" aria-label="展开勘误"><Icon name="chevron" size={16} /></button></div><div className="correction-body"><div className="source-line"><span>原题来源</span><strong>学成选择题（扫描版） · 第 {group.page} 页</strong></div><p>{subject === 'physiology' ? '该题组已与 2027 考研生理讲义逐项核对。若旧资料存在答案或排版问题，下方会保留修改原因和讲义依据。' : '该题组的蓝色答案已从原图保存。没有强行改成普通单选题；需要看到原图中的共用选项和题干关系时，可打开原题页。'}</p>{reviewNotes.map((note, index) => <div className="manual-note" key={`${group.id}-review-${index}`}><strong>{note.title}</strong><p>{note.body}</p></div>)}{subject === 'med' ? group.stems.map((stem, index) => { const note = CORRECTIONS[`${group.id}:${index}`]; return note ? <div className="manual-note" key={index}><strong>{note.title}</strong><p>{note.body}</p></div> : null }) : null}<button className="source-button" onClick={() => setShowSource(true)}><Icon name="eye" size={16} />查看原题页（第 {group.page} 页）</button></div></div>
-      <div className="source-thumb"><img src={assetPath(page?.image)} alt={`题库原题第 ${group.page} 页`} /><button onClick={() => setShowSource(true)}><Icon name="eye" size={16} /></button></div>
+      {currentEvidence && <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><span>讲义校对依据</span><strong>{currentEvidence.title}</strong><p>{currentEvidence.description}</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${currentEvidence.title}`}><img src={assetPath(currentEvidence.image)} alt={`${currentEvidence.title}原页`} /><span><Icon name="eye" size={16} />点击放大查看讲义原页</span></button></div>}
+      <div className="evidence-section correction-section"><div className="evidence-title"><span className="correction-icon"><Icon name="alert" size={18} /></span><div><h2>勘误说明</h2><p>{reviewNotes.length ? `发现 ${reviewNotes.length} 条需同步修正` : (subject === 'physiology' ? '与今年讲义一致' : (submitted ? '已显示原题答案与讲义依据' : '提交后显示逐题核对'))}</p></div><button className="panel-close" aria-label="展开勘误"><Icon name="chevron" size={16} /></button></div><div className="correction-body"><div className="source-line"><span>原题来源</span><strong>{sourceName} · 第 {group.sourcePage || group.page} 页</strong></div><p>{group.sourceDocument ? '该题组已从Word原件拆分题干、选项和答案，并与对应讲义逐项复核；原件中的编号或漏题问题已在下方单独说明。' : (subject === 'physiology' ? '该题组已与 2027 考研生理讲义逐项核对。若旧资料存在答案或排版问题，下方会保留修改原因和讲义依据。' : '该题组的蓝色答案已从原图保存。没有强行改成普通单选题；需要看到原图中的共用选项和题干关系时，可打开原题页。')}</p>{reviewNotes.map((note, index) => <div className="manual-note" key={`${group.id}-review-${index}`}><strong>{note.title}</strong><p>{note.body}</p></div>)}{subject === 'med' ? group.stems.map((stem, index) => { const note = CORRECTIONS[`${group.id}:${index}`]; return note ? <div className="manual-note" key={index}><strong>{note.title}</strong><p>{note.body}</p></div> : null }) : null}{group.sourceDocument ? <a className="source-button" href={assetPath(group.sourceDocument)} download><Icon name="file" size={16} />下载Word原件</a> : <button className="source-button" onClick={() => setShowSource(true)}><Icon name="eye" size={16} />查看原题页（第 {group.page} 页）</button>}</div></div>
+      {page?.image ? <div className="source-thumb"><img src={assetPath(page.image)} alt={`题库原题第 ${group.page} 页`} /><button onClick={() => setShowSource(true)}><Icon name="eye" size={16} /></button></div> : null}
     </aside>
   )
 }
