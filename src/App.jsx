@@ -184,6 +184,18 @@ function readLocalStorage(key, fallback) {
   }
 }
 
+function groupStorageKey(subject, groupId) {
+  return subject === 'med' ? groupId : `${subject}:${groupId}`
+}
+
+function readFavorites() {
+  const stored = readLocalStorage('study-favorites-v1', null)
+  const items = stored?.version === 1 && Array.isArray(stored.items)
+    ? stored.items
+    : readLocalStorage('med-favorites', [])
+  return Array.isArray(items) ? unique(items.map((item) => String(item))) : []
+}
+
 function topicCounts(groups) {
   const counts = {}
   for (const group of groups) counts[group.topic] = (counts[group.topic] || 0) + group.stems.length
@@ -204,7 +216,8 @@ function App() {
   const [groupIndex, setGroupIndex] = useState(0)
   const [selections, setSelections] = useState(() => readLocalStorage('med-selections', {}))
   const [submitted, setSubmitted] = useState(() => readLocalStorage('med-submitted', {}))
-  const [favorites, setFavorites] = useState(() => readLocalStorage('med-favorites', []))
+  const [favorites, setFavorites] = useState(readFavorites)
+  const [favoritesOnly, setFavoritesOnly] = useState(false)
   const [notes, setNotes] = useState(() => readLocalStorage('med-notes', {}))
   const [showSource, setShowSource] = useState(false)
   const [showLectureEvidence, setShowLectureEvidence] = useState(false)
@@ -220,27 +233,45 @@ function App() {
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('study-subject', JSON.stringify(subject)) }, [subject])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-selections', JSON.stringify(selections)) }, [selections])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-submitted', JSON.stringify(submitted)) }, [submitted])
-  useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-favorites', JSON.stringify(favorites)) }, [favorites])
+  useEffect(() => {
+    if (typeof window === 'undefined') return
+    window.localStorage.setItem('study-favorites-v1', JSON.stringify({ version: 1, items: favorites }))
+    window.localStorage.setItem('med-favorites', JSON.stringify(favorites))
+  }, [favorites])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-notes', JSON.stringify(notes)) }, [notes])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-sidebar-collapsed', JSON.stringify(sidebarCollapsed)) }, [sidebarCollapsed])
+
+  const favoriteCounts = useMemo(() => {
+    const byTopic = {}
+    let total = 0
+    for (const group of content.groups) {
+      if (!favorites.includes(groupStorageKey(subject, group.id))) continue
+      byTopic[group.topic] = (byTopic[group.topic] || 0) + 1
+      total += 1
+    }
+    return { byTopic, total }
+  }, [content, favorites, subject])
+  const currentFavoriteCount = topic === '全部' ? favoriteCounts.total : (favoriteCounts.byTopic[topic] || 0)
+  const notebookName = topic === '全部' ? `${subjectConfig.label}收藏本` : `${topic}收藏本`
 
   const filteredGroups = useMemo(() => {
     const query = search.trim().toLowerCase()
     return content.groups.filter((group) => {
       if (topic !== '全部' && group.topic !== topic) return false
+      if (favoritesOnly && !favorites.includes(groupStorageKey(subject, group.id))) return false
       if (typeFilter !== '全部题型' && group.kindLabel !== typeFilter) return false
       if (!query) return true
       const haystack = [group.title, group.topic, group.sourceText, ...group.options.map((item) => item.label), ...group.stems.map((stem) => stem.text)].join(' ').toLowerCase()
       return haystack.includes(query)
     })
-  }, [search, topic, typeFilter])
+  }, [content, favorites, favoritesOnly, search, subject, topic, typeFilter])
 
   useEffect(() => {
     if (groupIndex >= filteredGroups.length) setGroupIndex(0)
   }, [filteredGroups.length, groupIndex])
 
   const group = filteredGroups[groupIndex] || content.groups[0]
-  const groupStorageId = subject === 'med' ? group.id : `${subject}:${group.id}`
+  const groupStorageId = groupStorageKey(subject, group.id)
   const currentSelections = selections[groupStorageId] || {}
   const isSubmitted = Boolean(submitted[groupStorageId])
   const currentPage = content.pages.find((item) => item.page === group.page)
@@ -303,6 +334,21 @@ function App() {
     setFavorites((previous) => previous.includes(groupStorageId) ? previous.filter((id) => id !== groupStorageId) : [...previous, groupStorageId])
   }
 
+  function toggleFavoriteNotebook() {
+    setFavoritesOnly((value) => !value)
+    setGroupIndex(0)
+    setShowSource(false)
+    setShowLectureEvidence(false)
+    setShowNote(false)
+  }
+
+  function showAllGroupsInChapter() {
+    setFavoritesOnly(false)
+    setSearch('')
+    setTypeFilter('全部题型')
+    setGroupIndex(0)
+  }
+
   function switchSubject(nextSubject) {
     if (nextSubject === subject) return
     const nextConfig = SUBJECTS[nextSubject]
@@ -343,9 +389,13 @@ function App() {
         <aside className="sidebar">
           <div className="sidebar-heading"><div className="sidebar-title">{subjectConfig.sectionLabel}</div><button className="sidebar-toggle" onClick={() => setSidebarCollapsed((value) => !value)} aria-label={sidebarCollapsed ? '展开章节目录' : '收起章节目录'}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={17} /></button></div>
           <nav className="topic-nav">
+            <button className={`favorite-notebook-link ${favoritesOnly ? 'active' : ''}`} onClick={toggleFavoriteNotebook} aria-pressed={favoritesOnly} title={`${notebookName}，共 ${currentFavoriteCount} 个题组`}>
+              <span className="topic-icon"><Icon name={favoritesOnly ? 'bookmarkFill' : 'bookmark'} size={21} /></span><span>{notebookName}</span><em>{currentFavoriteCount}</em>
+            </button>
+            <div className="topic-nav-label">选择章节</div>
             {content.topics.filter((item) => item !== '全部' && item !== '综合').map((item) => (
               <button key={item} className={`topic-link ${topic === item ? 'active' : ''}`} onClick={() => { setTopic(item); setGroupIndex(0) }}>
-                <span className="topic-icon"><Icon name={TOPIC_ICONS[item]} size={22} /></span><span>{item}</span><em>{counts[item] || 0}</em>
+                <span className="topic-icon"><Icon name={TOPIC_ICONS[item]} size={22} /></span><span>{item}</span><span className="topic-counts"><em>{counts[item] || 0}</em>{favoriteCounts.byTopic[item] ? <small title={`${favoriteCounts.byTopic[item]} 个收藏题组`}><Icon name="bookmarkFill" size={10} />{favoriteCounts.byTopic[item]}</small> : null}</span>
               </button>
             ))}
           </nav>
@@ -359,14 +409,16 @@ function App() {
           <div className="mobile-topic-row">
             <button className="text-button directory-button" onClick={() => setSidebarCollapsed((value) => !value)}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={16} />{sidebarCollapsed ? '章节' : '收起目录'}</button>
             <select value={topic} onChange={(event) => { setTopic(event.target.value); setGroupIndex(0) }}>{content.topics.map((item) => <option key={item}>{item}</option>)}</select>
+            <button className={`text-button mobile-favorite-button ${favoritesOnly ? 'selected' : ''}`} onClick={toggleFavoriteNotebook} aria-pressed={favoritesOnly}><Icon name={favoritesOnly ? 'bookmarkFill' : 'bookmark'} size={16} />收藏本 {currentFavoriteCount}</button>
             <button className="text-button" onClick={() => setMobileEvidence((value) => !value)}>{mobileEvidence ? '隐藏讲义' : '显示讲义'} <Icon name="file" size={16} /></button>
           </div>
-          {!filteredGroups.length && <div className="empty-state"><div className="empty-state-icon"><Icon name="search" size={22} /></div><h1>当前筛选下没有题组</h1><p>请尝试清除搜索词、切换章节或选择其他题型。</p><button className="primary-button" onClick={() => { setTopic('全部'); setSearch(''); setTypeFilter('全部题型'); setGroupIndex(0) }}>显示全部题库 <Icon name="arrow" size={17} /></button></div>}
+          {!filteredGroups.length && <div className="empty-state"><div className="empty-state-icon"><Icon name={favoritesOnly ? 'bookmark' : 'search'} size={22} /></div><h1>{favoritesOnly ? `${notebookName}暂无题组` : '当前筛选下没有题组'}</h1><p>{favoritesOnly ? '点击题组右上角的“收藏”后，它会自动进入当前科目与章节的收藏本。' : '请尝试清除搜索词、切换章节或选择其他题型。'}</p><button className="primary-button" onClick={favoritesOnly ? showAllGroupsInChapter : () => { setTopic('全部'); setSearch(''); setTypeFilter('全部题型'); setGroupIndex(0) }}>{favoritesOnly ? '返回本章全部题组' : '显示全部题库'} <Icon name="arrow" size={17} /></button></div>}
           {filteredGroups.length > 0 && <div className="study-content">
+          {favoritesOnly && <div className="favorite-notebook-banner"><span className="favorite-notebook-icon"><Icon name="bookmarkFill" size={18} /></span><div><strong>{notebookName}</strong><small>正在复习已收藏题组 · 共 {filteredGroups.length} 组</small></div><button onClick={showAllGroupsInChapter}>退出收藏本</button></div>}
           <div className="breadcrumb"><span>{group.topic || '综合'}</span><Icon name="chevron" size={13} /><span>{group.kindLabel}</span><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></div>
           <div className="content-heading">
             <div><h1>{group.title || '题库原题'}</h1><p>共用选项组保留在本题组内；每个题干独立作答，提交后逐题反馈。</p></div>
-            <div className="heading-actions"><button className={`ghost-button ${favorite ? 'selected' : ''}`} onClick={toggleFavorite}><Icon name={favorite ? 'bookmarkFill' : 'bookmark'} size={17} />{favorite ? '已收藏' : '收藏'}</button><button className="ghost-button" onClick={() => setShowNote((value) => !value)}><Icon name="note" size={17} />笔记</button></div>
+            <div className="heading-actions"><button className={`ghost-button ${favorite ? 'selected' : ''}`} onClick={toggleFavorite} aria-pressed={favorite} title={favorite ? `从${group.topic}收藏本移除` : `收藏到${group.topic}收藏本`}><Icon name={favorite ? 'bookmarkFill' : 'bookmark'} size={17} />{favorite ? '已收藏' : '收藏'}</button><button className="ghost-button" onClick={() => setShowNote((value) => !value)}><Icon name="note" size={17} />笔记</button></div>
           </div>
 
           {showNote && <div className="note-strip"><Icon name="note" size={17} /><input value={notes[groupStorageId] || ''} onChange={(event) => setNotes((previous) => ({ ...previous, [groupStorageId]: event.target.value }))} placeholder="写下你的易错点或记忆口诀…" /></div>}
