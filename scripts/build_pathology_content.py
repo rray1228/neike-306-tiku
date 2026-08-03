@@ -61,7 +61,9 @@ LECTURE_KEYWORDS = {
 GROUP_TOPIC_OVERRIDES = {
     "p04-g1": "消化系统", "p06-g2": "心血管系统", "p07-g1": "心血管系统",
     "p08-g1": "心血管系统", "p08-g2": "心血管系统", "p08-g3": "心血管系统",
-    "p09-g2": "呼吸系统", "p10-g3": "呼吸系统",
+    "p09-g1": "呼吸系统", "p09-g2": "呼吸系统", "p09-g3": "呼吸系统",
+    "p10-g1": "呼吸系统", "p10-g2": "呼吸系统", "p10-g3": "呼吸系统",
+    "p10-g4": "呼吸系统",
     "p12-g1": "内分泌系统", "p12-g2": "内分泌系统",
     "p14-g2": "生殖系统", "p17-g1": "生殖系统", "p17-g3": "生殖系统",
     "p18-g1": "乳腺疾病", "p21-g1": "传染病", "p22-g1": "传染病",
@@ -77,6 +79,7 @@ GROUP_LECTURE_OVERRIDES = {
     "p08-g2": ["lecture-09"], "p08-g3": ["lecture-10"],
     "p09-g1": ["lecture-11"], "p09-g2": ["lecture-11"], "p09-g3": ["lecture-11"],
     "p10-g1": ["lecture-11"], "p10-g2": ["lecture-14"], "p10-g3": ["lecture-14"],
+    "p10-g4": ["lecture-14"],
     "p11-g1": ["lecture-16"], "p12-g1": ["lecture-16"], "p12-g2": ["lecture-16"],
 }
 
@@ -87,7 +90,9 @@ TITLE_OVERRIDES = {
     "p07-g1": "风湿病的基本病变与Aschoff小体",
     "p08-g2": "动脉粥样硬化斑块的形成",
     "p09-g2": "慢性支气管炎与肺气肿的机制",
-    "p10-g3": "病毒包涵体的位置",
+    "p10-g2": "细菌性肺炎与间质性肺炎",
+    "p10-g3": "大叶性、小叶性与军团菌肺炎",
+    "p10-g4": "病毒包涵体的位置",
     "p13-g1": "原发性免疫缺陷病",
     "p14-g2": "宫颈鳞状上皮内病变分级",
     "p18-g1": "乳腺癌的分类与病理特征",
@@ -175,6 +180,77 @@ def set_stems(group: dict, rows: list[tuple[str, str]]) -> None:
     ]
 
 
+def manual_group(
+    group_id: str,
+    page: int,
+    title: str,
+    options: list[tuple[str, str]],
+    stems: list[tuple[str, str]],
+) -> dict:
+    group = {
+        "id": group_id,
+        "page": page,
+        "title": title,
+        "kind": "B",
+        "kindLabel": "B型题",
+        "options": [option(key, label) for key, label in options],
+        "stems": [],
+        "sourceText": "",
+        "reviewState": "已按题册原图与讲义复核",
+    }
+    set_stems(group, stems)
+    group["sourceText"] = " | ".join([
+        *(item["sourceText"] for item in group["options"]),
+        *(stem["sourceText"] for stem in group["stems"]),
+    ])
+    return group
+
+
+def repaired_page_10_groups() -> list[dict]:
+    """Restore all four source groups from pathology page 10 in page order."""
+    return [
+        manual_group(
+            "p10-g1", 10, "瘢痕旁与腺泡周围型肺气肿",
+            [
+                ("A", "属于肺泡性/阻塞性肺气肿"),
+                ("B", "瘢痕牵拉"),
+                ("C", "累及肺腺泡的结构不定，主要累及肺泡"),
+                ("D", "属于其他类型肺气肿"),
+                ("E", "累及腺泡远端的所有结构（肺泡管/肺泡囊），即腺泡远端肺气肿"),
+            ],
+            [("瘢痕旁/不规则肺气肿", "BCD"), ("腺泡周围型/间隔旁型肺气肿", "ABE")],
+        ),
+        manual_group(
+            "p10-g2", 10, "细菌性肺炎与间质性肺炎",
+            [
+                ("A", "军团菌肺炎"), ("B", "病毒性肺炎"),
+                ("C", "大叶性肺炎"), ("D", "支原体肺炎"),
+                ("E", "小叶性/支气管肺炎"), ("F", "衣原体肺炎"),
+            ],
+            [("细菌性肺炎", "ACE"), ("间质性肺炎", "BDF")],
+        ),
+        manual_group(
+            "p10-g3", 10, "大叶性、小叶性与军团菌肺炎",
+            [
+                ("A", "肺泡的纤维素性炎"),
+                ("B", "细支气管及末梢肺组织的化脓性炎"),
+                ("C", "可呈小叶、大叶等分布"),
+                ("D", "以细支气管为中心"),
+                ("E", "纤维素性化脓性炎"),
+            ],
+            [("大叶性肺炎", "A"), ("小叶性/支气管肺炎", "BD"), ("军团菌肺炎", "CE")],
+        ),
+        manual_group(
+            "p10-g4", 10, "病毒包涵体的位置",
+            [("A", "胞核+胞质"), ("B", "胞质（嗜酸性）"), ("C", "胞核（嗜碱性）")],
+            [
+                ("单纯疱疹病毒", "C"), ("呼吸道合胞病毒", "B"),
+                ("麻疹病毒", "A"), ("腺病毒", "C"), ("巨细胞病毒", "C"),
+            ],
+        ),
+    ]
+
+
 def apply_known_repairs(group: dict) -> dict:
     """Repair deterministic OCR/split errors confirmed against source-page PNGs."""
     group_id = group["id"]
@@ -247,8 +323,45 @@ def apply_known_repairs(group: dict) -> dict:
             "B.变态反应为II型", "B.变态反应为III型", 1
         )
         group["reviewState"] = "已按题册原图与讲义复核"
+    elif group_id == "p09-g2":
+        group["options"] = [
+            option("A", "中性粒细胞活跃导致内源性弹性蛋白酶增多"),
+            option("B", "破坏终末细支气管、一级呼吸性细支气管的管壁结构，导致管壁纤维化和管腔狭窄"),
+            option("C", "纤毛柱状上皮受损和鳞化导致黏液潴留"),
+            option("D", "氧自由基增多导致α1-抗胰蛋白酶减少"),
+            option("E", "柱状细胞增多、腺体增生肥大、黏液腺化生，导致呼吸道黏液增多"),
+        ]
+        set_stems(group, [
+            ("与细支气管不完全阻塞有关", "BCE"),
+            ("与末梢肺组织弹性减弱有关", "AD"),
+        ])
+        group["sourceText"] = " | ".join([
+            *(item["sourceText"] for item in group["options"]),
+            *(stem["sourceText"] for stem in group["stems"]),
+        ])
+        group["reviewState"] = "已按题册原图与讲义复核"
+    elif group_id == "p09-g3":
+        group["options"] = [
+            option("A", "肋骨骨折"), option("B", "腺泡中央型"),
+            option("C", "代偿性肺气肿"), option("D", "胸部穿透伤"),
+            option("E", "老年性肺气肿"), option("F", "腺泡周围型"),
+            option("G", "剧烈咳嗽"), option("H", "全腺泡型"),
+            option("I", "瘢痕旁肺气肿（不规则肺气肿）"),
+            option("J", "串珠状气泡"), option("K", "皮下气肿"),
+        ]
+        set_stems(group, [
+            ("肺泡性/阻塞性肺气肿", "BFH"),
+            ("间质性肺气肿", "ADGJK"),
+            ("其他类型肺气肿", "CEI"),
+        ])
+        group["sourceText"] = " | ".join([
+            *(item["sourceText"] for item in group["options"]),
+            *(stem["sourceText"] for stem in group["stems"]),
+        ])
+        group["reviewState"] = "已按题册原图与讲义复核"
     elif group_id == "p11-g1":
-        set_stems(group, [("结节性甲状腺肿", "ACFHI"), ("甲状腺腺瘤", "BDEG")])
+        set_stems(group, [("结节性甲状腺肿", "ACFHI"), ("甲状腺腺瘤", "BDEGI")])
+        group["reviewState"] = "已按题册原图与讲义复核"
     elif group_id == "p12-g1":
         group["options"] = [
             option("A", "乳头中心砂粒体（钙化小体）"), option("B", "早期易血道转移"),
@@ -402,6 +515,15 @@ def main() -> None:
             page_text = page_text.replace(
                 "B.变态反应为II型", "B.变态反应为III型", 1
             )
+        if page_number == 9:
+            page_text = (
+                page_text
+                .replace("1.远端位于其周围的肺泡管/肺泡囊扩张明显", "I.远端位于其周围的肺泡管/肺泡囊扩张明显")
+                .replace("1.瘢痕旁肺气肿（不规则肺气肿）", "I.瘢痕旁肺气肿（不规则肺气肿）")
+                .replace("磷化导致粘液储留", "鳞化导致黏液潴留")
+                .replace("未梢肺组织弹性减弱", "末梢肺组织弹性减弱")
+                .replace("其他类型肺气肿（CEL", "其他类型肺气肿（CEI")
+            )
         page_topic = topic_for(page_text, page_number)
         page_records.append({
             "page": page_number,
@@ -409,7 +531,10 @@ def main() -> None:
             "topic": page_topic,
             "searchText": shared.clean_text(page_text)[:7000],
         })
-        extracted_groups = shared.extract_groups(page_number, rows) + extra_groups_for_page(page_number)
+        if page_number == 10:
+            extracted_groups = repaired_page_10_groups()
+        else:
+            extracted_groups = shared.extract_groups(page_number, rows) + extra_groups_for_page(page_number)
         for raw_group in extracted_groups:
             group = repair_continuation_group(raw_group)
             group = apply_known_repairs(group)
