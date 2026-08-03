@@ -1406,23 +1406,30 @@
         {
           "text": "扩张型心肌病",
           "answer": [
-            "A",
-            "D",
+            "B",
             "E",
-            "G"
+            "G",
+            "I",
+            "K",
+            "M",
+            "O"
           ],
           "answerMode": "多选",
-          "sourceText": "扩张型心肌病（ADEG）",
+          "sourceText": "扩张型心肌病（BEGIKMO）",
           "sourceY": null
         },
         {
           "text": "肥厚型心肌病",
           "answer": [
-            "B",
-            "I"
+            "A",
+            "D",
+            "H",
+            "J",
+            "L",
+            "N"
           ],
           "answerMode": "多选",
-          "sourceText": "肥厚型心肌病（BI）",
+          "sourceText": "肥厚型心肌病（ADHJLN）",
           "sourceY": null
         },
         {
@@ -3191,10 +3198,11 @@
           "text": "宫颈癌I期",
           "answer": [
             "A",
-            "D"
+            "D",
+            "I"
           ],
           "answerMode": "多选",
-          "sourceText": "宫颈癌I期（AD）",
+          "sourceText": "宫颈癌I期（ADI）",
           "sourceY": null
         },
         {
@@ -3229,10 +3237,11 @@
         {
           "text": "早期/微小浸润癌",
           "answer": [
-            "A"
+            "A",
+            "I"
           ],
-          "answerMode": "单选",
-          "sourceText": "早期/微小浸润癌（A）",
+          "answerMode": "多选",
+          "sourceText": "早期/微小浸润癌（AI）",
           "sourceY": null
         },
         {
@@ -3262,7 +3271,7 @@
         }
       ],
       "sourceText": "问： | A.浸润深度≤基底膜下5mm | 宫颈癌0期H | B.癌进入盆腔，但未累及盆腔壁 | C.癌侵及盆腔壁 | 宫颈癌I期ADD | D.浸润深度>基底膜下 5mm | E.癌超越骨盆，或累及膀胱直肠 | 宫颈癌II期BF） | F.癌侵及阴道、但未累及阴道下1/3 | 宫颈癌川I期CG | G.癌侵及阴道下1/3 | H.癌未突破基底膜 | 宫颈癌I期E | 1.癌局限于子宫颈内 | 早期/微小浸润癌AL | 浸润癌ABCDEFGU | 原位癌",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按题册原图与讲义复核",
       "topic": "生殖系统",
       "lectureIds": [
         "lecture-18"

@@ -344,8 +344,8 @@ def apply_known_repairs(group: dict) -> dict:
         group["reviewState"] = "已按题册原图与讲义复核"
     elif group_id == "p08-g3":
         set_stems(group, [
-            ("扩张型心肌病", "ADEG"),
-            ("肥厚型心肌病", "BI"),
+            ("扩张型心肌病", "BEGIKMO"),
+            ("肥厚型心肌病", "ADHJLN"),
             ("限制型心肌病", "CF"),
         ])
         group["reviewState"] = "已按题册原图与讲义复核"
@@ -422,10 +422,11 @@ def apply_known_repairs(group: dict) -> dict:
         set_stems(group, [("低级别鳞状上皮内病变（LSIL）", "ABEJ"), ("高级别鳞状上皮内病变（HSIL）", "CDFGHI")])
     elif group_id == "p14-g3":
         set_stems(group, [
-            ("宫颈癌0期", "H"), ("宫颈癌I期", "AD"), ("宫颈癌II期", "BF"),
+            ("宫颈癌0期", "H"), ("宫颈癌I期", "ADI"), ("宫颈癌II期", "BF"),
             ("宫颈癌III期", "CG"), ("宫颈癌IV期", "E"),
-            ("早期/微小浸润癌", "A"), ("浸润癌", "ABCDEFGI"), ("原位癌", "H"),
+            ("早期/微小浸润癌", "AI"), ("浸润癌", "ABCDEFGI"), ("原位癌", "H"),
         ])
+        group["reviewState"] = "已按题册原图与讲义复核"
     elif group_id == "p17-g2":
         set_stems(group, [("畸胎瘤", "ACEHJ"), ("内胚窦瘤/卵黄囊瘤", "BDFGI")])
     elif group_id == "p18-g1":
