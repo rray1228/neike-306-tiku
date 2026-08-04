@@ -499,8 +499,34 @@ def apply_known_repairs(group: dict) -> dict:
         ])
         group["reviewState"] = "已按题册原图与讲义复核"
     elif group_id == "p33-g1":
+        # Page 33 contains two stacked matching groups. OCR previously attached
+        # the lower cancer/sarcoma options to this upper benign/malignant group.
+        group["options"] = [
+            option("A", "分化相对好（异型性相对小）"),
+            option("B", "核分裂象多，可见病理性核分裂象"),
+            option("C", "多不规则、边界不清（无包膜）"),
+            option("D", "甲状腺滤泡癌"),
+            option("E", "出血、坏死少见"),
+            option("F", "多生长缓慢，膨胀性生长"),
+            option("G", "体表肿瘤、体腔肿瘤、管道器官腔面、骨软骨瘤可呈外生性生长"),
+            option("H", "多复发"), option("I", "不转移"),
+            option("J", "常有副肿瘤综合症"),
+            option("L", "分化差（异型性大）"),
+            option("M", "核分裂象无或少，无病理性核分裂象"),
+            option("N", "多规则、边界较清楚（包膜完整）"),
+            option("O", "子宫平滑肌瘤"),
+            option("P", "大量淋巴细胞浸润的乳腺髓样癌"),
+            option("Q", "出血、坏死、溃疡形成等多见"),
+            option("R", "多生长迅速，浸润性生长"),
+            option("S", "少复发"), option("T", "会转移"),
+            option("U", "没有副肿瘤综合症"),
+        ]
         set_stems(group, [
             ("良性肿瘤", "AEFGIMNOSU"), ("恶性肿瘤", "BCDGHJLPQRT"),
+        ])
+        group["sourceText"] = " | ".join([
+            *(item["sourceText"] for item in group["options"]),
+            *(stem["sourceText"] for stem in group["stems"]),
         ])
         group["reviewState"] = "已按题册原图与讲义复核"
     elif group_id == "p33-g2":
