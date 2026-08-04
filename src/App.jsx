@@ -3,6 +3,7 @@ import medContent from './data/med-data.json'
 import pathologyContent from './data/pathology-data.json'
 import surgeryContent from './data/surgery-data.json'
 import surgeryFractureContent from './data/surgery-fracture-data.json'
+import surgeryGeneralContent from './data/surgery-general-data.json'
 import physiologyContent from './data/physiology-data.json'
 
 const combinedSurgeryContent = {
@@ -10,9 +11,10 @@ const combinedSurgeryContent = {
   topics: [
     ...surgeryContent.topics.filter((topic) => topic !== '综合'),
     '骨科',
+    '外科总论',
     '综合',
   ],
-  groups: [...surgeryContent.groups, ...surgeryFractureContent.groups],
+  groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryGeneralContent.groups],
 }
 
 const SUBJECTS = {
@@ -88,6 +90,7 @@ const TOPIC_ICONS = {
   周围血管疾病: 'drop',
   泌尿外科: 'kidney',
   骨科: 'joint',
+  外科总论: 'grid',
   绪论: 'book',
   细胞基本功能: 'spark',
   循环系统: 'heart',
