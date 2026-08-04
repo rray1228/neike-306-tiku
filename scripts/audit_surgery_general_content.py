@@ -60,6 +60,11 @@ def main() -> None:
         keys = [option["key"] for option in group["options"]]
         assert len(keys) == len(set(keys))
         assert all(option["label"] and option["label"] == option["label"].strip() for option in group["options"])
+        if group["options"]:
+            source_keys = [option["sourceKey"] for option in group["options"]]
+            assert group["optionShuffleVersion"] == 1
+            assert source_keys != group["optionOriginalOrder"], f"{group['id']}: options were not shuffled"
+            assert set(source_keys) == set(group["optionOriginalOrder"])
         for stem in group["stems"]:
             assert stem["text"] and stem["text"] == stem["text"].strip()
             assert stem["answer"]
@@ -87,18 +92,25 @@ def main() -> None:
         group = by_id[group_id]
         assert group["kind"] == "RANK" and group["kindLabel"] == "排序题"
         assert all(stem["answerMode"] == "排序" for stem in group["stems"])
-        assert ["".join(stem["answer"]) for stem in group["stems"]] == expected_answers
+        current_to_source = {option["key"]: option["sourceKey"] for option in group["options"]}
+        semantic_answers = ["".join(current_to_source[key] for key in stem["answer"]) for stem in group["stems"]]
+        assert semantic_answers == expected_answers
 
-    assert [option["label"] for option in by_id["surgery-general-a09"]["options"]] == [
-        "普鲁卡因", "丁卡因", "利多卡因", "罗哌卡因、布比卡因"
-    ]
-    assert [option["label"] for option in by_id["surgery-general-a12"]["options"]] == [
-        "交感神经", "副交感神经", "感觉神经", "运动神经", "本体感觉"
-    ]
-    assert ["".join(stem["answer"]) for stem in by_id["surgery-general-p10a"]["stems"]] == [
+    assert {option["sourceKey"]: option["label"] for option in by_id["surgery-general-a09"]["options"]} == {
+        "A": "普鲁卡因", "B": "丁卡因", "C": "利多卡因", "D": "罗哌卡因、布比卡因"
+    }
+    assert {option["sourceKey"]: option["label"] for option in by_id["surgery-general-a12"]["options"]} == {
+        "A": "交感神经", "B": "副交感神经", "C": "感觉神经", "D": "运动神经", "E": "本体感觉"
+    }
+
+    p10a = by_id["surgery-general-p10a"]
+    p10a_map = {option["key"]: option["sourceKey"] for option in p10a["options"]}
+    assert ["".join(p10a_map[key] for key in stem["answer"]) for stem in p10a["stems"]] == [
         "ABC", "D", "E", "F", "G", "H", "I", "J"
     ]
-    assert ["".join(stem["answer"]) for stem in by_id["surgery-general-p10b"]["stems"]] == [
+    p10b = by_id["surgery-general-p10b"]
+    p10b_map = {option["key"]: option["sourceKey"] for option in p10b["options"]}
+    assert ["".join(p10b_map[key] for key in stem["answer"]) for stem in p10b["stems"]] == [
         "A", "BC", "D", "EFGHI", "JK", "L"
     ]
 
