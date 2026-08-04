@@ -25359,117 +25359,117 @@
       "options": [
         {
           "key": "A",
-          "label": "可伴原发结核灶",
+          "label": "病史｜可伴原发结核灶",
           "sourceText": "A.可伴原发结核灶"
         },
         {
           "key": "B",
-          "label": "伴原发感染灶",
+          "label": "病史｜伴原发感染灶",
           "sourceText": "B.伴原发感染灶"
         },
         {
           "key": "C",
-          "label": "手术、心梗史",
+          "label": "病史｜手术、心梗史",
           "sourceText": "C.手术、心梗史"
         },
         {
           "key": "D",
-          "label": "前驱感染1～3周",
+          "label": "病史｜前驱感染1～3周",
           "sourceText": "D.前驱感染1～3周"
         },
         {
           "key": "E",
-          "label": "转移性肿瘤多见",
+          "label": "病史｜转移性肿瘤多见",
           "sourceText": "E.转移性肿瘤多见"
         },
         {
           "key": "F",
-          "label": "起病急",
+          "label": "病史｜起病急",
           "sourceText": "F.起病急"
         },
         {
           "key": "G",
-          "label": "起病缓",
+          "label": "病史｜起病缓",
           "sourceText": "G.起病缓"
         },
         {
           "key": "H",
-          "label": "常有",
+          "label": "发热｜常有",
           "sourceText": "H.常有"
         },
         {
           "key": "I",
-          "label": "低热多见",
+          "label": "发热｜低热多见",
           "sourceText": "I.低热多见"
         },
         {
           "key": "J",
-          "label": "明显",
+          "label": "发热｜明显",
           "sourceText": "J.明显"
         },
         {
           "key": "K",
-          "label": "高热多见",
+          "label": "发热｜高热多见",
           "sourceText": "K.高热多见"
         },
         {
           "key": "L",
-          "label": "无或低热",
+          "label": "发热｜无或低热",
           "sourceText": "L.无或低热"
         },
         {
           "key": "M",
-          "label": "明显",
+          "label": "胸痛｜明显",
           "sourceText": "M.明显"
         },
         {
           "key": "N",
-          "label": "常无",
+          "label": "胸痛｜常无",
           "sourceText": "N.常无"
         },
         {
           "key": "O",
-          "label": "常有",
+          "label": "胸痛｜常有",
           "sourceText": "O.常有"
         },
         {
           "key": "P",
-          "label": "明显",
+          "label": "心包摩擦音｜明显",
           "sourceText": "P.明显"
         },
         {
           "key": "Q",
-          "label": "不明显",
+          "label": "心包摩擦音｜不明显",
           "sourceText": "Q.不明显"
         },
         {
           "key": "R",
-          "label": "少量",
+          "label": "心包积液｜少量",
           "sourceText": "R.少量"
         },
         {
           "key": "S",
-          "label": "大量",
+          "label": "心包积液｜大量",
           "sourceText": "S.大量"
         },
         {
           "key": "T",
-          "label": "血性",
+          "label": "主要积液性质｜血性",
           "sourceText": "T.血性"
         },
         {
           "key": "U",
-          "label": "中性粒细胞",
+          "label": "主要积液性质｜中性粒细胞",
           "sourceText": "U.中性粒细胞"
         },
         {
           "key": "V",
-          "label": "草黄色",
+          "label": "主要积液性质｜草黄色",
           "sourceText": "V.草黄色"
         },
         {
           "key": "W",
-          "label": "淋巴细胞",
+          "label": "主要积液性质｜淋巴细胞",
           "sourceText": "W.淋巴细胞"
         }
       ],
