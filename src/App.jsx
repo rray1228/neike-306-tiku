@@ -169,12 +169,20 @@ function answerLetters(stem) {
   return unique((stem.answer || []).map((item) => String(item)))
 }
 
+function answerValues(stem) {
+  return (stem.answer || []).map((item) => String(item))
+}
+
 function isRankingStem(stem) {
   return stem.answerMode === '排序'
 }
 
+function isFillStem(stem) {
+  return stem.answerMode === '填空'
+}
+
 function isMultiStem(group, stem) {
-  return group.kind !== 'B' || answerLetters(stem).length > 1 || isRankingStem(stem)
+  return !isFillStem(stem) && (group.kind !== 'B' || answerLetters(stem).length > 1 || isRankingStem(stem))
 }
 
 function normalizeSelection(selection) {
@@ -188,6 +196,23 @@ function isUnresolvedStem(stem) {
 function sameAnswer(a, b, ordered = false) {
   if (ordered) return JSON.stringify(unique((a || []).map((item) => String(item)))) === JSON.stringify(unique((b || []).map((item) => String(item))))
   return JSON.stringify(normalizeSelection(a)) === JSON.stringify(normalizeSelection(b))
+}
+
+function normalizeFillValue(value) {
+  return String(value || '')
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, '')
+    .replace(/[－—–~至]/g, '～')
+    .replace(/[，,]/g, '、')
+}
+
+function stemIsCorrect(selection, stem) {
+  const candidates = [isFillStem(stem) ? answerValues(stem) : answerLetters(stem), ...(stem.acceptedAnswers || [])]
+  if (isFillStem(stem)) {
+    return candidates.some((candidate) => candidate.length === (selection || []).length && candidate.every((value, index) => normalizeFillValue(value) === normalizeFillValue(selection[index])))
+  }
+  return candidates.some((candidate) => sameAnswer(selection, candidate, isRankingStem(stem)))
 }
 
 function readLocalStorage(key, fallback) {
@@ -309,6 +334,17 @@ function App() {
     })
   }
 
+  function updateFillSelection(stemIndex, blankIndex, value) {
+    if (isSubmitted) return
+    setSelections((previous) => {
+      const nextGroup = { ...(previous[groupStorageId] || {}) }
+      const current = [...(nextGroup[stemIndex] || [])]
+      current[blankIndex] = value
+      nextGroup[stemIndex] = current
+      return { ...previous, [groupStorageId]: nextGroup }
+    })
+  }
+
   function submitGroup() {
     setSubmitted((previous) => ({ ...previous, [groupStorageId]: true }))
   }
@@ -395,7 +431,7 @@ function App() {
         </div>
         <div className="top-actions">
           <label className="search-box"><Icon name="search" size={18} /><input value={search} onChange={(event) => { setSearch(event.target.value); setGroupIndex(0) }} placeholder="搜索题目 / 关键词" /><kbd>⌘ K</kbd></label>
-          <label className="filter-box"><Icon name="sliders" size={17} /><select value={typeFilter} onChange={(event) => { setTypeFilter(event.target.value); setGroupIndex(0) }}><option>全部题型</option><option>B型题</option><option>多项选择</option><option>匹配 / 归类</option><option>原题页核对</option></select><Icon name="chevron" size={15} /></label>
+          <label className="filter-box"><Icon name="sliders" size={17} /><select value={typeFilter} onChange={(event) => { setTypeFilter(event.target.value); setGroupIndex(0) }}><option>全部题型</option><option>B型题</option><option>填空题</option><option>排序题</option><option>多项选择</option><option>匹配 / 归类</option><option>原题页核对</option></select><Icon name="chevron" size={15} /></label>
           <button className="icon-button" aria-label="设置"><Icon name="settings" size={19} /></button>
         </div>
       </header>
@@ -432,7 +468,7 @@ function App() {
           {favoritesOnly && <div className="favorite-notebook-banner"><span className="favorite-notebook-icon"><Icon name="bookmarkFill" size={18} /></span><div><strong>{notebookName}</strong><small>正在复习已收藏题组 · 共 {filteredGroups.length} 组</small></div><button onClick={showAllGroupsInChapter}>退出收藏本</button></div>}
           <div className="breadcrumb"><span>{group.topic || '综合'}</span><Icon name="chevron" size={13} /><span>{group.kindLabel}</span>{group.hideSource ? null : <><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></>}</div>
           <div className="content-heading">
-            <div><h1>{group.title || '题库原题'}</h1><p>共用选项组保留在本题组内；每个题干独立作答，提交后逐题反馈。</p></div>
+            <div><h1>{group.title || '题库原题'}</h1><p>{group.kindLabel === '填空题' ? '按题干顺序填写数字或原词，提交后逐题核对。' : (group.kindLabel === '排序题' ? '依次点击选项完成排序；再次点击可移除后重新排列。' : '共用选项组保留在本题组内；每个题干独立作答，提交后逐题反馈。')}</p></div>
             <div className="heading-actions"><button className={`ghost-button ${favorite ? 'selected' : ''}`} onClick={toggleFavorite} aria-pressed={favorite} title={favorite ? `从${group.topic}收藏本移除` : `收藏到${group.topic}收藏本`}><Icon name={favorite ? 'bookmarkFill' : 'bookmark'} size={17} />{favorite ? '已收藏' : '收藏'}</button><button className="ghost-button" onClick={() => setShowNote((value) => !value)}><Icon name="note" size={17} />笔记</button></div>
           </div>
 
@@ -444,10 +480,10 @@ function App() {
           <section className="question-card">
             <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span>{group.hideSource ? null : <span>来源页 {group.page}</span>}</div>
             <div className="stem-list">
-              {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} subject={subject} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} />)}
+              {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} subject={subject} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} />)}
             </div>
             <div className="question-card-bottom">
-              {isSubmitted ? <div className="submit-summary"><Icon name="check" size={18} /><span>已提交 · {group.stems.filter((stem, index) => !isUnresolvedStem(stem) && sameAnswer(currentSelections[index], answerLetters(stem), isRankingStem(stem))).length} / {group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确{group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}</span></div> : <span className="hint-text">完成每个题干后提交；B 型题不会把共用选项拆成单选题。</span>}
+              {isSubmitted ? <div className="submit-summary"><Icon name="check" size={18} /><span>已提交 · {group.stems.filter((stem, index) => !isUnresolvedStem(stem) && stemIsCorrect(currentSelections[index] || [], stem)).length} / {group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确{group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}</span></div> : <span className="hint-text">完成每个题干后提交；排序题按点击先后记录，填空题按空格顺序判分。</span>}
               <button className={`primary-button ${isSubmitted ? 'redo-button' : ''}`} onClick={isSubmitted ? redoGroup : submitGroup}>{isSubmitted ? '重新作答' : '提交本题组'}<Icon name={isSubmitted ? 'right' : 'arrow'} size={17} /></button>
             </div>
           </section>
@@ -501,23 +537,24 @@ function GroupJump({ current, total, onJump }) {
   )
 }
 
-function StemRow({ subject, group, stem, index, selection, submitted, onSelect }) {
-  const answer = answerLetters(stem)
+function StemRow({ subject, group, stem, index, selection, submitted, onSelect, onFill }) {
+  const answer = isFillStem(stem) ? answerValues(stem) : answerLetters(stem)
   const multi = isMultiStem(group, stem)
   const ordered = isRankingStem(stem)
+  const fill = isFillStem(stem)
   const unresolved = isUnresolvedStem(stem)
-  const correct = submitted && !unresolved && sameAnswer(selection, answer, ordered)
+  const correct = submitted && !unresolved && stemIsCorrect(selection, stem)
   const wrong = submitted && !unresolved && !correct
-  const missed = submitted && !unresolved && answer.some((item) => !selection.includes(item))
+  const missed = !fill && submitted && !unresolved && answer.some((item) => !selection.includes(item))
   const key = `${group.id}:${index}`
   const correction = subject === 'med' ? CORRECTIONS[key] : null
   const hasGroupCorrection = Boolean(group.reviewNotes?.length)
   const keys = group.options.length ? group.options.map((option) => option.key) : answer
   return (
     <div className={`stem-row ${submitted ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
-      <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy"><div className="stem-heading"><p>{stem.text || '请结合原题页完成本小题'}</p><span className={`answer-mode ${multi ? 'is-multi' : ''}`}>{unresolved ? '待核对' : (ordered ? '排序' : (multi ? '多选' : '单选'))}</span></div>{multi && !submitted && <small>{ordered ? '请按题干要求的先后顺序选择' : '可选择多个共用选项'}</small>}</div></div>
-      <div className="answer-choices">{keys.map((item) => { const active = selection.includes(item); const isAnswer = submitted && answer.includes(item); const isMissed = submitted && isAnswer && !active; const order = ordered && active ? selection.indexOf(item) + 1 : null; const stateLabel = isMissed ? '，漏选' : (submitted && active && !isAnswer ? '，错选' : ''); return <button key={item} aria-label={`选项 ${item}${stateLabel}`} className={`answer-chip ${active ? 'active' : ''} ${submitted && isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${submitted && active && !isAnswer ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{item}{order && <sup className="rank-order">{order}</sup>}</button> })}</div>
-      {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? '原题页核对：暂不自动判分' : (correct ? '正确' : `讲义/原题答案：${answer.join('、')}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}{(correction || hasGroupCorrection) && <span className="correction-dot">已按今年讲义校对</span>}</div>}
+      <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy"><div className="stem-heading"><p>{stem.text || '请结合原题页完成本小题'}</p><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{unresolved ? '待核对' : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : '单选')))}</span></div>{(multi || fill) && !submitted && <small>{fill ? `依次填写 ${answer.length} 个空` : (ordered ? '请按题干要求的先后顺序选择' : '可选择多个共用选项')}</small>}</div></div>
+      {fill ? <div className="fill-answers">{answer.map((_, blankIndex) => <label key={blankIndex}><span>{stem.blankLabels?.[blankIndex] || `空${blankIndex + 1}`}</span><input value={selection[blankIndex] || ''} onChange={(event) => onFill(index, blankIndex, event.target.value)} disabled={submitted} inputMode={stem.inputMode || 'text'} aria-label={`${stem.text}第${blankIndex + 1}空`} /></label>)}</div> : <div className="answer-choices">{keys.map((item) => { const active = selection.includes(item); const isAnswer = submitted && answer.includes(item); const isMissed = submitted && isAnswer && !active; const order = ordered && active ? selection.indexOf(item) + 1 : null; const stateLabel = isMissed ? '，漏选' : (submitted && active && !isAnswer ? '，错选' : ''); return <button key={item} aria-label={`选项 ${item}${stateLabel}`} className={`answer-chip ${active ? 'active' : ''} ${submitted && isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${submitted && active && !isAnswer ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{item}{order && <sup className="rank-order">{order}</sup>}</button> })}</div>}
+      {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? '原题页核对：暂不自动判分' : (correct ? '正确' : `讲义答案：${stem.answerDisplay || answer.join('、')}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}{(correction || hasGroupCorrection) && <span className="correction-dot">已按今年讲义校对</span>}</div>}
     </div>
   )
 }

@@ -8,7 +8,7 @@
       "page": 0,
       "title": "围术期·手术分类",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -118,166 +118,76 @@
       }
     },
     {
-      "id": "surgery-general-p02",
+      "id": "surgery-general-p02a",
       "page": 0,
-      "title": "围术期·术前准备（一）",
+      "title": "围术期·术前准备（系统疾病与一般准备）",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "术前4周戒烟戒酒",
-          "sourceText": "A. 术前4周戒烟戒酒",
+          "label": "暂时不手术，可行TIPS、TACE等",
+          "sourceText": "A. 暂时不手术，可行TIPS、TACE等",
           "ocrScore": 1.0
         },
         {
           "key": "B",
-          "label": "脑卒中后推迟至少2周、最好6周",
-          "sourceText": "B. 脑卒中后推迟至少2周、最好6周",
+          "label": "在有效透析后可耐受手术",
+          "sourceText": "B. 在有效透析后可耐受手术",
           "ocrScore": 1.0
         },
         {
           "key": "C",
-          "label": "暂时不手术，可行TIPS、TACE等",
-          "sourceText": "C. 暂时不手术，可行TIPS、TACE等",
+          "label": "继续服用降压药，避免戒断综合征",
+          "sourceText": "C. 继续服用降压药，避免戒断综合征",
           "ocrScore": 1.0
         },
         {
           "key": "D",
-          "label": "在有效透析时可耐受手术（24小时内）",
-          "sourceText": "D. 在有效透析时可耐受手术（24小时内）",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "E",
-          "label": "继续服用降压药避免戒断综合征，血压≤140/90mmHg",
-          "sourceText": "E. 继续服用降压药避免戒断综合征，血压≤140/90mmHg",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "F",
-          "label": "备皮最佳时间为手术开始前",
-          "sourceText": "F. 备皮最佳时间为手术开始前",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "G",
-          "label": "术前2～3天停用",
-          "sourceText": "G. 术前2～3天停用",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "H",
-          "label": "术前7天停用",
-          "sourceText": "H. 术前7天停用",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "I",
-          "label": "术前10天停用",
-          "sourceText": "I. 术前10天停用",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "J",
-          "label": "血小板＜50×10⁹/L需输血小板",
-          "sourceText": "J. 血小板＜50×10⁹/L需输血小板",
+          "label": "手术开始前",
+          "sourceText": "D. 手术开始前",
           "ocrScore": 1.0
         }
       ],
       "stems": [
         {
-          "text": "术前一般准备：戒烟戒酒",
+          "text": "肝功能Child C级（黄疸＋腹水）",
           "answer": [
             "A"
           ],
           "answerMode": "单选",
-          "sourceText": "术前一般准备：戒烟戒酒 A",
-          "ocrScore": 1.0
-        },
-        {
-          "text": "脑卒中",
-          "answer": [
-            "B"
-          ],
-          "answerMode": "单选",
-          "sourceText": "脑卒中 B",
-          "ocrScore": 1.0
-        },
-        {
-          "text": "肝功能Child C级（黄疸＋腹水）",
-          "answer": [
-            "C"
-          ],
-          "answerMode": "单选",
-          "sourceText": "肝功能Child C级（黄疸＋腹水） C",
+          "sourceText": "肝功能Child C级（黄疸＋腹水） A",
           "ocrScore": 1.0
         },
         {
           "text": "肾功能严重损害",
           "answer": [
-            "D"
+            "B"
           ],
           "answerMode": "单选",
-          "sourceText": "肾功能严重损害 D",
+          "sourceText": "肾功能严重损害 B",
           "ocrScore": 1.0
         },
         {
           "text": "高血压",
           "answer": [
-            "E"
+            "C"
           ],
           "answerMode": "单选",
-          "sourceText": "高血压 E",
+          "sourceText": "高血压 C",
           "ocrScore": 1.0
         },
         {
-          "text": "备皮",
+          "text": "备皮最佳时间",
           "answer": [
-            "F"
+            "D"
           ],
           "answerMode": "单选",
-          "sourceText": "备皮 F",
-          "ocrScore": 1.0
-        },
-        {
-          "text": "NSAIDs",
-          "answer": [
-            "G"
-          ],
-          "answerMode": "单选",
-          "sourceText": "NSAIDs G",
-          "ocrScore": 1.0
-        },
-        {
-          "text": "阿司匹林",
-          "answer": [
-            "H"
-          ],
-          "answerMode": "单选",
-          "sourceText": "阿司匹林 H",
-          "ocrScore": 1.0
-        },
-        {
-          "text": "氯吡格雷",
-          "answer": [
-            "I"
-          ],
-          "answerMode": "单选",
-          "sourceText": "氯吡格雷 I",
-          "ocrScore": 1.0
-        },
-        {
-          "text": "术前血小板减少",
-          "answer": [
-            "J"
-          ],
-          "answerMode": "单选",
-          "sourceText": "术前血小板减少 J",
+          "sourceText": "备皮最佳时间 D",
           "ocrScore": 1.0
         }
       ],
-      "sourceText": "围术期·术前准备（一）；A. 术前4周戒烟戒酒；B. 脑卒中后推迟至少2周、最好6周；C. 暂时不手术，可行TIPS、TACE等；D. 在有效透析时可耐受手术（24小时内）；E. 继续服用降压药避免戒断综合征，血压≤140/90mmHg；F. 备皮最佳时间为手术开始前；G. 术前2～3天停用；H. 术前7天停用；I. 术前10天停用；J. 血小板＜50×10⁹/L需输血小板；术前一般准备：戒烟戒酒 A；脑卒中 B；肝功能Child C级（黄疸＋腹水） C；肾功能严重损害 D；高血压 E；备皮 F；NSAIDs G；阿司匹林 H；氯吡格雷 I；术前血小板减少 J",
+      "sourceText": "围术期·术前准备（系统疾病与一般准备）；A. 暂时不手术，可行TIPS、TACE等；B. 在有效透析后可耐受手术；C. 继续服用降压药，避免戒断综合征；D. 手术开始前；肝功能Child C级（黄疸＋腹水） A；肾功能严重损害 B；高血压 C；备皮最佳时间 D",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -295,136 +205,363 @@
       }
     },
     {
-      "id": "surgery-general-p03",
+      "id": "surgery-general-p02b",
       "page": 0,
-      "title": "围术期·术前准备（二）",
+      "title": "围术期·术前准备数字挖空",
+      "kind": "FILL",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "text": "术前____周戒烟戒酒",
+          "answer": [
+            "4"
+          ],
+          "answerMode": "填空",
+          "sourceText": "术前____周戒烟戒酒 4",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "周"
+          ],
+          "answerDisplay": "4周",
+          "inputMode": "text"
+        },
+        {
+          "text": "脑卒中后推迟至少____周、最好____周",
+          "answer": [
+            "2",
+            "6"
+          ],
+          "answerMode": "填空",
+          "sourceText": "脑卒中后推迟至少____周、最好____周 2、6",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "至少（周）",
+            "最好（周）"
+          ],
+          "answerDisplay": "至少2周、最好6周",
+          "inputMode": "text"
+        },
+        {
+          "text": "肾功能严重损害在有效透析后____小时内可耐受手术",
+          "answer": [
+            "24"
+          ],
+          "answerMode": "填空",
+          "sourceText": "肾功能严重损害在有效透析后____小时内可耐受手术 24",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "小时"
+          ],
+          "answerDisplay": "24小时内",
+          "inputMode": "text"
+        },
+        {
+          "text": "高血压患者继续服用降压药，血压应≤____/____mmHg",
+          "answer": [
+            "140",
+            "90"
+          ],
+          "answerMode": "填空",
+          "sourceText": "高血压患者继续服用降压药，血压应≤____/____mmHg 140、90",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "收缩压",
+            "舒张压"
+          ],
+          "answerDisplay": "≤140/90mmHg",
+          "inputMode": "text"
+        },
+        {
+          "text": "NSAIDs术前____～____天停用",
+          "answer": [
+            "2",
+            "3"
+          ],
+          "answerMode": "填空",
+          "sourceText": "NSAIDs术前____～____天停用 2、3",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "2～3天",
+          "inputMode": "text"
+        },
+        {
+          "text": "阿司匹林术前____天停用",
+          "answer": [
+            "7"
+          ],
+          "answerMode": "填空",
+          "sourceText": "阿司匹林术前____天停用 7",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "天"
+          ],
+          "answerDisplay": "7天",
+          "inputMode": "text"
+        },
+        {
+          "text": "氯吡格雷术前____天停用",
+          "answer": [
+            "10"
+          ],
+          "answerMode": "填空",
+          "sourceText": "氯吡格雷术前____天停用 10",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "天"
+          ],
+          "answerDisplay": "10天",
+          "inputMode": "text"
+        },
+        {
+          "text": "血小板＜____×10⁹/L时需输血小板",
+          "answer": [
+            "50"
+          ],
+          "answerMode": "填空",
+          "sourceText": "血小板＜____×10⁹/L时需输血小板 50",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "数值"
+          ],
+          "answerDisplay": "50×10⁹/L",
+          "inputMode": "text"
+        }
+      ],
+      "sourceText": "围术期·术前准备数字挖空；术前____周戒烟戒酒 4；脑卒中后推迟至少____周、最好____周 2、6；肾功能严重损害在有效透析后____小时内可耐受手术 24；高血压患者继续服用降压药，血压应≤____/____mmHg 140、90；NSAIDs术前____～____天停用 2、3；阿司匹林术前____天停用 7；氯吡格雷术前____天停用 10；血小板＜____×10⁹/L时需输血小板 50",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-35-page-01.png",
+        "title": "第35讲第1页 · 围术期",
+        "description": "本题组已按《核心精讲·围术期》对应页逐项复核。"
+      }
+    },
+    {
+      "id": "surgery-general-p03a",
+      "page": 0,
+      "title": "围术期·糖尿病术前准备",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "最短禁食时间：清饮料2小时、母乳4小时、牛奶6小时、淀粉类固体食物6小时、脂肪等肉类8小时",
-          "sourceText": "A. 最短禁食时间：清饮料2小时、母乳4小时、牛奶6小时、淀粉类固体食物6小时、脂肪等肉类8小时",
+          "label": "不必特殊准备",
+          "sourceText": "A. 不必特殊准备",
           "ocrScore": 1.0
         },
         {
           "key": "B",
-          "label": "预防性使用抗生素，术前1～2天进流食",
-          "sourceText": "B. 预防性使用抗生素，术前1～2天进流食",
+          "label": "继续服至术前1天",
+          "sourceText": "B. 继续服至术前1天",
           "ocrScore": 1.0
         },
         {
           "key": "C",
-          "label": "预防性使用抗生素，术前2～3天进流食；术前1天和手术当天清晨灌肠",
-          "sourceText": "C. 预防性使用抗生素，术前2～3天进流食；术前1天和手术当天清晨灌肠",
+          "label": "术前2～3天停服",
+          "sourceText": "C. 术前2～3天停服",
           "ocrScore": 1.0
         },
         {
           "key": "D",
-          "label": "不必特殊准备",
-          "sourceText": "D. 不必特殊准备",
+          "label": "手术日晨停用",
+          "sourceText": "D. 手术日晨停用",
           "ocrScore": 1.0
         },
         {
           "key": "E",
-          "label": "继续服至术前1天",
-          "sourceText": "E. 继续服至术前1天",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "F",
-          "label": "术前2～3天停服",
-          "sourceText": "F. 术前2～3天停服",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "G",
-          "label": "手术日晨停用",
-          "sourceText": "G. 手术日晨停用",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "H",
-          "label": "维持血糖在5.6～11.2mmol/L的轻度升高状态",
-          "sourceText": "H. 维持血糖在5.6～11.2mmol/L的轻度升高状态",
+          "label": "维持血糖轻度升高",
+          "sourceText": "E. 维持血糖轻度升高",
           "ocrScore": 1.0
         }
       ],
       "stems": [
         {
-          "text": "最短禁食时间",
+          "text": "仅以饮食控制糖尿病",
           "answer": [
             "A"
           ],
           "answerMode": "单选",
-          "sourceText": "最短禁食时间 A",
-          "ocrScore": 1.0
-        },
-        {
-          "text": "胃肠道手术",
-          "answer": [
-            "B"
-          ],
-          "answerMode": "单选",
-          "sourceText": "胃肠道手术 B",
-          "ocrScore": 1.0
-        },
-        {
-          "text": "大肠手术",
-          "answer": [
-            "C"
-          ],
-          "answerMode": "单选",
-          "sourceText": "大肠手术 C",
-          "ocrScore": 1.0
-        },
-        {
-          "text": "仅以饮食控制糖尿病",
-          "answer": [
-            "D"
-          ],
-          "answerMode": "单选",
-          "sourceText": "仅以饮食控制糖尿病 D",
+          "sourceText": "仅以饮食控制糖尿病 A",
           "ocrScore": 1.0
         },
         {
           "text": "平时口服降糖药",
           "answer": [
-            "E"
+            "B"
           ],
           "answerMode": "单选",
-          "sourceText": "平时口服降糖药 E",
+          "sourceText": "平时口服降糖药 B",
           "ocrScore": 1.0
         },
         {
           "text": "长效降糖药",
           "answer": [
-            "F"
+            "C"
           ],
           "answerMode": "单选",
-          "sourceText": "长效降糖药 F",
+          "sourceText": "长效降糖药 C",
           "ocrScore": 1.0
         },
         {
           "text": "平时用胰岛素",
           "answer": [
-            "G"
+            "D"
           ],
           "answerMode": "单选",
-          "sourceText": "平时用胰岛素 G",
+          "sourceText": "平时用胰岛素 D",
           "ocrScore": 1.0
         },
         {
-          "text": "围术期血糖控制",
+          "text": "围术期血糖控制原则",
           "answer": [
-            "H"
+            "E"
           ],
           "answerMode": "单选",
-          "sourceText": "围术期血糖控制 H",
+          "sourceText": "围术期血糖控制原则 E",
           "ocrScore": 1.0
         }
       ],
-      "sourceText": "围术期·术前准备（二）；A. 最短禁食时间：清饮料2小时、母乳4小时、牛奶6小时、淀粉类固体食物6小时、脂肪等肉类8小时；B. 预防性使用抗生素，术前1～2天进流食；C. 预防性使用抗生素，术前2～3天进流食；术前1天和手术当天清晨灌肠；D. 不必特殊准备；E. 继续服至术前1天；F. 术前2～3天停服；G. 手术日晨停用；H. 维持血糖在5.6～11.2mmol/L的轻度升高状态；最短禁食时间 A；胃肠道手术 B；大肠手术 C；仅以饮食控制糖尿病 D；平时口服降糖药 E；长效降糖药 F；平时用胰岛素 G；围术期血糖控制 H",
+      "sourceText": "围术期·糖尿病术前准备；A. 不必特殊准备；B. 继续服至术前1天；C. 术前2～3天停服；D. 手术日晨停用；E. 维持血糖轻度升高；仅以饮食控制糖尿病 A；平时口服降糖药 B；长效降糖药 C；平时用胰岛素 D；围术期血糖控制原则 E",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-35-page-01.png",
+        "title": "第35讲第1页 · 围术期",
+        "description": "本题组已按《核心精讲·围术期》对应页逐项复核。"
+      }
+    },
+    {
+      "id": "surgery-general-p03b",
+      "page": 0,
+      "title": "围术期·禁食、胃肠道与血糖数字挖空",
+      "kind": "FILL",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "text": "最短禁食时间：清饮料____小时、母乳____小时、牛奶____小时、淀粉类固体食物____小时、脂肪等肉类____小时",
+          "answer": [
+            "2",
+            "4",
+            "6",
+            "6",
+            "8"
+          ],
+          "answerMode": "填空",
+          "sourceText": "最短禁食时间：清饮料____小时、母乳____小时、牛奶____小时、淀粉类固体食物____小时、脂肪等肉类____小时 2、4、6、6、8",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "清饮料",
+            "母乳",
+            "牛奶",
+            "淀粉类",
+            "脂肪肉类"
+          ],
+          "answerDisplay": "2、4、6、6、8小时",
+          "inputMode": "text"
+        },
+        {
+          "text": "胃肠道手术术前____～____天进流食",
+          "answer": [
+            "1",
+            "2"
+          ],
+          "answerMode": "填空",
+          "sourceText": "胃肠道手术术前____～____天进流食 1、2",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "1～2天",
+          "inputMode": "text"
+        },
+        {
+          "text": "大肠手术术前____～____天进流食；术前____天和手术当天清晨灌肠",
+          "answer": [
+            "2",
+            "3",
+            "1"
+          ],
+          "answerMode": "填空",
+          "sourceText": "大肠手术术前____～____天进流食；术前____天和手术当天清晨灌肠 2、3、1",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数",
+            "灌肠（天前）"
+          ],
+          "answerDisplay": "2～3天；术前1天",
+          "inputMode": "text"
+        },
+        {
+          "text": "平时口服降糖药继续服至术前____天",
+          "answer": [
+            "1"
+          ],
+          "answerMode": "填空",
+          "sourceText": "平时口服降糖药继续服至术前____天 1",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "天"
+          ],
+          "answerDisplay": "1天",
+          "inputMode": "text"
+        },
+        {
+          "text": "长效降糖药术前____～____天停服",
+          "answer": [
+            "2",
+            "3"
+          ],
+          "answerMode": "填空",
+          "sourceText": "长效降糖药术前____～____天停服 2、3",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "2～3天",
+          "inputMode": "text"
+        },
+        {
+          "text": "围术期血糖维持在____～____mmol/L",
+          "answer": [
+            "5.6",
+            "11.2"
+          ],
+          "answerMode": "填空",
+          "sourceText": "围术期血糖维持在____～____mmol/L 5.6、11.2",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "下限",
+            "上限"
+          ],
+          "answerDisplay": "5.6～11.2mmol/L",
+          "inputMode": "text"
+        }
+      ],
+      "sourceText": "围术期·禁食、胃肠道与血糖数字挖空；最短禁食时间：清饮料____小时、母乳____小时、牛奶____小时、淀粉类固体食物____小时、脂肪等肉类____小时 2、4、6、6、8；胃肠道手术术前____～____天进流食 1、2；大肠手术术前____～____天进流食；术前____天和手术当天清晨灌肠 2、3、1；平时口服降糖药继续服至术前____天 1；长效降糖药术前____～____天停服 2、3；围术期血糖维持在____～____mmol/L 5.6、11.2",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -446,7 +583,7 @@
       "page": 0,
       "title": "围术期·术后体位",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -589,134 +726,135 @@
     {
       "id": "surgery-general-p05",
       "page": 0,
-      "title": "围术期·拆线与拔管",
-      "kind": "B",
-      "kindLabel": "配伍选择题",
-      "options": [
-        {
-          "key": "A",
-          "label": "头面颈：术后4～5天拆线",
-          "sourceText": "A. 头面颈：术后4～5天拆线",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "B",
-          "label": "下腹或会阴：术后6～7天拆线",
-          "sourceText": "B. 下腹或会阴：术后6～7天拆线",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "C",
-          "label": "躯干其他部位：术后7～9天拆线",
-          "sourceText": "C. 躯干其他部位：术后7～9天拆线",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "D",
-          "label": "四肢：术后10～12天拆线",
-          "sourceText": "D. 四肢：术后10～12天拆线",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "E",
-          "label": "减张缝合：术后14天拆线",
-          "sourceText": "E. 减张缝合：术后14天拆线",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "F",
-          "label": "乳胶片：术后1～2天拔除",
-          "sourceText": "F. 乳胶片：术后1～2天拔除",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "G",
-          "label": "烟卷引流：术后3天拔除",
-          "sourceText": "G. 烟卷引流：术后3天拔除",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "H",
-          "label": "T管：术后4周拔除",
-          "sourceText": "H. T管：术后4周拔除",
-          "ocrScore": 1.0
-        }
-      ],
+      "title": "围术期·拆线与拔管数字挖空",
+      "kind": "FILL",
+      "kindLabel": "填空题",
+      "options": [],
       "stems": [
         {
-          "text": "头面颈拆线时间",
+          "text": "头面颈术后____～____天拆线",
           "answer": [
-            "A"
+            "4",
+            "5"
           ],
-          "answerMode": "单选",
-          "sourceText": "头面颈拆线时间 A",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "头面颈术后____～____天拆线 4、5",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "4～5天",
+          "inputMode": "text"
         },
         {
-          "text": "下腹或会阴拆线时间",
+          "text": "下腹或会阴术后____～____天拆线",
           "answer": [
-            "B"
+            "6",
+            "7"
           ],
-          "answerMode": "单选",
-          "sourceText": "下腹或会阴拆线时间 B",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "下腹或会阴术后____～____天拆线 6、7",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "6～7天",
+          "inputMode": "text"
         },
         {
-          "text": "躯干其他部位拆线时间",
+          "text": "躯干其他部位术后____～____天拆线",
           "answer": [
-            "C"
+            "7",
+            "9"
           ],
-          "answerMode": "单选",
-          "sourceText": "躯干其他部位拆线时间 C",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "躯干其他部位术后____～____天拆线 7、9",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "7～9天",
+          "inputMode": "text"
         },
         {
-          "text": "四肢拆线时间",
+          "text": "四肢术后____～____天拆线",
           "answer": [
-            "D"
+            "10",
+            "12"
           ],
-          "answerMode": "单选",
-          "sourceText": "四肢拆线时间 D",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "四肢术后____～____天拆线 10、12",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "10～12天",
+          "inputMode": "text"
         },
         {
-          "text": "减张缝合拆线时间",
+          "text": "减张缝合术后____天拆线",
           "answer": [
-            "E"
+            "14"
           ],
-          "answerMode": "单选",
-          "sourceText": "减张缝合拆线时间 E",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "减张缝合术后____天拆线 14",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "天"
+          ],
+          "answerDisplay": "14天",
+          "inputMode": "text"
         },
         {
-          "text": "乳胶片拔除时间",
+          "text": "乳胶片术后____～____天拔除",
           "answer": [
-            "F"
+            "1",
+            "2"
           ],
-          "answerMode": "单选",
-          "sourceText": "乳胶片拔除时间 F",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "乳胶片术后____～____天拔除 1、2",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "1～2天",
+          "inputMode": "text"
         },
         {
-          "text": "烟卷引流拔除时间",
+          "text": "烟卷引流术后____天拔除",
           "answer": [
-            "G"
+            "3"
           ],
-          "answerMode": "单选",
-          "sourceText": "烟卷引流拔除时间 G",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "烟卷引流术后____天拔除 3",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "天"
+          ],
+          "answerDisplay": "3天",
+          "inputMode": "text"
         },
         {
-          "text": "T管拔除时间",
+          "text": "T管术后____周拔除",
           "answer": [
-            "H"
+            "4"
           ],
-          "answerMode": "单选",
-          "sourceText": "T管拔除时间 H",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "T管术后____周拔除 4",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "周"
+          ],
+          "answerDisplay": "4周",
+          "inputMode": "text"
         }
       ],
-      "sourceText": "围术期·拆线与拔管；A. 头面颈：术后4～5天拆线；B. 下腹或会阴：术后6～7天拆线；C. 躯干其他部位：术后7～9天拆线；D. 四肢：术后10～12天拆线；E. 减张缝合：术后14天拆线；F. 乳胶片：术后1～2天拔除；G. 烟卷引流：术后3天拔除；H. T管：术后4周拔除；头面颈拆线时间 A；下腹或会阴拆线时间 B；躯干其他部位拆线时间 C；四肢拆线时间 D；减张缝合拆线时间 E；乳胶片拔除时间 F；烟卷引流拔除时间 G；T管拔除时间 H",
+      "sourceText": "围术期·拆线与拔管数字挖空；头面颈术后____～____天拆线 4、5；下腹或会阴术后____～____天拆线 6、7；躯干其他部位术后____～____天拆线 7、9；四肢术后____～____天拆线 10、12；减张缝合术后____天拆线 14；乳胶片术后____～____天拔除 1、2；烟卷引流术后____天拔除 3；T管术后____周拔除 4",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -736,119 +874,131 @@
     {
       "id": "surgery-general-p06",
       "page": 0,
-      "title": "围术期·术后并发症",
-      "kind": "B",
-      "kindLabel": "配伍选择题",
-      "options": [
-        {
-          "key": "A",
-          "label": "术后1～4天多考虑吸收热、输血输液等；术后2～7天感染可能大",
-          "sourceText": "A. 术后1～4天多考虑吸收热、输血输液等；术后2～7天感染可能大",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "B",
-          "label": "术后肺部并发症和死亡率仅次于心血管系统，居第2位",
-          "sourceText": "B. 术后肺部并发症和死亡率仅次于心血管系统，居第2位",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "C",
-          "label": "导尿量＞500ml时留置尿管1～2天",
-          "sourceText": "C. 导尿量＞500ml时留置尿管1～2天",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "D",
-          "label": "留置尿管4～5天",
-          "sourceText": "D. 留置尿管4～5天",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "E",
-          "label": "腹腔手术后24小时内出现休克，应考虑内出血",
-          "sourceText": "E. 腹腔手术后24小时内出现休克，应考虑内出血",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "F",
-          "label": "胸腔手术引流量持续≥100ml/h，应考虑内出血",
-          "sourceText": "F. 胸腔手术引流量持续≥100ml/h，应考虑内出血",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "G",
-          "label": "右半结肠需2天、左半结肠需3天、胃和空肠需2～3天恢复",
-          "sourceText": "G. 右半结肠需2天、左半结肠需3天、胃和空肠需2～3天恢复",
-          "ocrScore": 1.0
-        }
-      ],
+      "title": "围术期·术后并发症数字挖空",
+      "kind": "FILL",
+      "kindLabel": "填空题",
+      "options": [],
       "stems": [
         {
-          "text": "术后发热",
+          "text": "术后____～____天多考虑吸收热、输血输液等；术后____～____天感染可能大",
           "answer": [
-            "A"
+            "1",
+            "4",
+            "2",
+            "7"
           ],
-          "answerMode": "单选",
-          "sourceText": "术后发热 A",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "术后____～____天多考虑吸收热、输血输液等；术后____～____天感染可能大 1、4、2、7",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "吸收热起始",
+            "吸收热结束",
+            "感染起始",
+            "感染结束"
+          ],
+          "answerDisplay": "1～4天；2～7天",
+          "inputMode": "text"
         },
         {
-          "text": "肺膨胀不全、感染、肺栓塞",
+          "text": "术后肺部并发症和死亡率仅次于____系统，居第____位",
           "answer": [
-            "B"
+            "心血管",
+            "2"
           ],
-          "answerMode": "单选",
-          "sourceText": "肺膨胀不全、感染、肺栓塞 B",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "术后肺部并发症和死亡率仅次于____系统，居第____位 心血管、2",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "系统",
+            "位次"
+          ],
+          "answerDisplay": "心血管系统，第2位",
+          "inputMode": "text"
         },
         {
-          "text": "一般尿潴留",
+          "text": "导尿量＞____ml时留置尿管____～____天",
           "answer": [
-            "C"
+            "500",
+            "1",
+            "2"
           ],
-          "answerMode": "单选",
-          "sourceText": "一般尿潴留 C",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "导尿量＞____ml时留置尿管____～____天 500、1、2",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "导尿量",
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "＞500ml；1～2天",
+          "inputMode": "text"
         },
         {
-          "text": "骶前神经损伤或前列腺肥大所致尿潴留",
+          "text": "骶前神经损伤或前列腺肥大时留置尿管____～____天",
           "answer": [
-            "D"
+            "4",
+            "5"
           ],
-          "answerMode": "单选",
-          "sourceText": "骶前神经损伤或前列腺肥大所致尿潴留 D",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "骶前神经损伤或前列腺肥大时留置尿管____～____天 4、5",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "4～5天",
+          "inputMode": "text"
         },
         {
-          "text": "腹腔手术后内出血",
+          "text": "腹腔手术后____小时内出现休克，应考虑内出血",
           "answer": [
-            "E"
+            "24"
           ],
-          "answerMode": "单选",
-          "sourceText": "腹腔手术后内出血 E",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "腹腔手术后____小时内出现休克，应考虑内出血 24",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "小时"
+          ],
+          "answerDisplay": "24小时内",
+          "inputMode": "text"
         },
         {
-          "text": "胸腔手术后内出血",
+          "text": "胸腔手术引流量持续≥____ml/h，应考虑内出血",
           "answer": [
-            "F"
+            "100"
           ],
-          "answerMode": "单选",
-          "sourceText": "胸腔手术后内出血 F",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "胸腔手术引流量持续≥____ml/h，应考虑内出血 100",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "ml/h"
+          ],
+          "answerDisplay": "100ml/h",
+          "inputMode": "text"
         },
         {
-          "text": "胃肠蠕动恢复",
+          "text": "胃肠蠕动恢复：右半结肠____天、左半结肠____天、胃和空肠____～____天",
           "answer": [
-            "G"
+            "2",
+            "3",
+            "2",
+            "3"
           ],
-          "answerMode": "单选",
-          "sourceText": "胃肠蠕动恢复 G",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "胃肠蠕动恢复：右半结肠____天、左半结肠____天、胃和空肠____～____天 2、3、2、3",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "右半结肠",
+            "左半结肠",
+            "胃空肠起始",
+            "胃空肠结束"
+          ],
+          "answerDisplay": "2天、3天、2～3天",
+          "inputMode": "text"
         }
       ],
-      "sourceText": "围术期·术后并发症；A. 术后1～4天多考虑吸收热、输血输液等；术后2～7天感染可能大；B. 术后肺部并发症和死亡率仅次于心血管系统，居第2位；C. 导尿量＞500ml时留置尿管1～2天；D. 留置尿管4～5天；E. 腹腔手术后24小时内出现休克，应考虑内出血；F. 胸腔手术引流量持续≥100ml/h，应考虑内出血；G. 右半结肠需2天、左半结肠需3天、胃和空肠需2～3天恢复；术后发热 A；肺膨胀不全、感染、肺栓塞 B；一般尿潴留 C；骶前神经损伤或前列腺肥大所致尿潴留 D；腹腔手术后内出血 E；胸腔手术后内出血 F；胃肠蠕动恢复 G",
+      "sourceText": "围术期·术后并发症数字挖空；术后____～____天多考虑吸收热、输血输液等；术后____～____天感染可能大 1、4、2、7；术后肺部并发症和死亡率仅次于____系统，居第____位 心血管、2；导尿量＞____ml时留置尿管____～____天 500、1、2；骶前神经损伤或前列腺肥大时留置尿管____～____天 4、5；腹腔手术后____小时内出现休克，应考虑内出血 24；胸腔手术引流量持续≥____ml/h，应考虑内出血 100；胃肠蠕动恢复：右半结肠____天、左半结肠____天、胃和空肠____～____天 2、3、2、3",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -870,7 +1020,7 @@
       "page": 0,
       "title": "围术期·切口分类",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -970,7 +1120,7 @@
       "page": 0,
       "title": "围术期·切口愈合",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -1042,7 +1192,7 @@
       "page": 0,
       "title": "围术期·切口并发症",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -1185,132 +1335,146 @@
       "page": 0,
       "title": "围术期·常考切口小结（一）",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "若切口渗血、饱满并压迫气管，立即床旁拆线敞开切口、止血清除血肿；即使止血充分也应放引流",
-          "sourceText": "A. 若切口渗血、饱满并压迫气管，立即床旁拆线敞开切口、止血清除血肿；即使止血充分也应放引流",
+          "label": "立即床旁拆线，敞开切口",
+          "sourceText": "A. 立即床旁拆线，敞开切口",
           "ocrScore": 1.0
         },
         {
           "key": "B",
-          "label": "放射状切口",
-          "sourceText": "B. 放射状切口",
+          "label": "止血并清除血肿",
+          "sourceText": "B. 止血并清除血肿",
           "ocrScore": 1.0
         },
         {
           "key": "C",
-          "label": "沿乳晕边缘作弧形切口",
-          "sourceText": "C. 沿乳晕边缘作弧形切口",
+          "label": "即使止血充分也应放引流",
+          "sourceText": "C. 即使止血充分也应放引流",
           "ocrScore": 1.0
         },
         {
           "key": "D",
-          "label": "沿乳房下缘作弧形切口",
-          "sourceText": "D. 沿乳房下缘作弧形切口",
+          "label": "放射状切口",
+          "sourceText": "D. 放射状切口",
           "ocrScore": 1.0
         },
         {
           "key": "E",
-          "label": "右旁正中切口",
-          "sourceText": "E. 右旁正中切口",
+          "label": "沿乳晕边缘作弧形切口",
+          "sourceText": "E. 沿乳晕边缘作弧形切口",
           "ocrScore": 1.0
         },
         {
           "key": "F",
-          "label": "正中切口",
-          "sourceText": "F. 正中切口",
+          "label": "沿乳房下缘作弧形切口",
+          "sourceText": "F. 沿乳房下缘作弧形切口",
           "ocrScore": 1.0
         },
         {
           "key": "G",
-          "label": "手术并发症以切口感染最常见",
-          "sourceText": "G. 手术并发症以切口感染最常见",
+          "label": "右旁正中切口",
+          "sourceText": "G. 右旁正中切口",
           "ocrScore": 1.0
         },
         {
           "key": "H",
+          "label": "正中切口",
+          "sourceText": "H. 正中切口",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "I",
+          "label": "手术并发症以切口感染最常见",
+          "sourceText": "I. 手术并发症以切口感染最常见",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "J",
           "label": "最常见于经腹直肌切口，切口感染是最常见原因",
-          "sourceText": "H. 最常见于经腹直肌切口，切口感染是最常见原因",
+          "sourceText": "J. 最常见于经腹直肌切口，切口感染是最常见原因",
           "ocrScore": 1.0
         }
       ],
       "stems": [
         {
-          "text": "甲状腺手术后并发呼吸困难和窒息",
+          "text": "甲状腺手术后切口渗血、饱满并压迫气管",
           "answer": [
-            "A"
+            "A",
+            "B",
+            "C"
           ],
-          "answerMode": "单选",
-          "sourceText": "甲状腺手术后并发呼吸困难和窒息 A",
+          "answerMode": "多选",
+          "sourceText": "甲状腺手术后切口渗血、饱满并压迫气管 A、B、C",
           "ocrScore": 1.0
         },
         {
           "text": "急性乳腺炎：表浅脓肿",
           "answer": [
-            "B"
+            "D"
           ],
           "answerMode": "单选",
-          "sourceText": "急性乳腺炎：表浅脓肿 B",
+          "sourceText": "急性乳腺炎：表浅脓肿 D",
           "ocrScore": 1.0
         },
         {
           "text": "急性乳腺炎：乳晕下脓肿",
           "answer": [
-            "C"
+            "E"
           ],
           "answerMode": "单选",
-          "sourceText": "急性乳腺炎：乳晕下脓肿 C",
+          "sourceText": "急性乳腺炎：乳晕下脓肿 E",
           "ocrScore": 1.0
         },
         {
           "text": "急性乳腺炎：深部或乳房后脓肿",
           "answer": [
-            "D"
+            "F"
           ],
           "answerMode": "单选",
-          "sourceText": "急性乳腺炎：深部或乳房后脓肿 D",
+          "sourceText": "急性乳腺炎：深部或乳房后脓肿 F",
           "ocrScore": 1.0
         },
         {
           "text": "继发性腹膜炎",
           "answer": [
-            "E"
+            "G"
           ],
           "answerMode": "单选",
-          "sourceText": "继发性腹膜炎 E",
+          "sourceText": "继发性腹膜炎 G",
           "ocrScore": 1.0
         },
         {
           "text": "腹部损伤",
           "answer": [
-            "F"
+            "H"
           ],
           "answerMode": "单选",
-          "sourceText": "腹部损伤 F",
+          "sourceText": "腹部损伤 H",
           "ocrScore": 1.0
         },
         {
           "text": "急性阑尾炎",
           "answer": [
-            "G"
+            "I"
           ],
           "answerMode": "单选",
-          "sourceText": "急性阑尾炎 G",
+          "sourceText": "急性阑尾炎 I",
           "ocrScore": 1.0
         },
         {
           "text": "切口疝",
           "answer": [
-            "H"
+            "J"
           ],
           "answerMode": "单选",
-          "sourceText": "切口疝 H",
+          "sourceText": "切口疝 J",
           "ocrScore": 1.0
         }
       ],
-      "sourceText": "围术期·常考切口小结（一）；A. 若切口渗血、饱满并压迫气管，立即床旁拆线敞开切口、止血清除血肿；即使止血充分也应放引流；B. 放射状切口；C. 沿乳晕边缘作弧形切口；D. 沿乳房下缘作弧形切口；E. 右旁正中切口；F. 正中切口；G. 手术并发症以切口感染最常见；H. 最常见于经腹直肌切口，切口感染是最常见原因；甲状腺手术后并发呼吸困难和窒息 A；急性乳腺炎：表浅脓肿 B；急性乳腺炎：乳晕下脓肿 C；急性乳腺炎：深部或乳房后脓肿 D；继发性腹膜炎 E；腹部损伤 F；急性阑尾炎 G；切口疝 H",
+      "sourceText": "围术期·常考切口小结（一）；A. 立即床旁拆线，敞开切口；B. 止血并清除血肿；C. 即使止血充分也应放引流；D. 放射状切口；E. 沿乳晕边缘作弧形切口；F. 沿乳房下缘作弧形切口；G. 右旁正中切口；H. 正中切口；I. 手术并发症以切口感染最常见；J. 最常见于经腹直肌切口，切口感染是最常见原因；甲状腺手术后切口渗血、饱满并压迫气管 A、B、C；急性乳腺炎：表浅脓肿 D；急性乳腺炎：乳晕下脓肿 E；急性乳腺炎：深部或乳房后脓肿 F；继发性腹膜炎 G；腹部损伤 H；急性阑尾炎 I；切口疝 J",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -1332,7 +1496,7 @@
       "page": 0,
       "title": "围术期·常考切口小结（二）",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -1342,38 +1506,68 @@
         },
         {
           "key": "B",
-          "label": "十字切口，超过边缘、深达筋膜、填塞脓腔",
-          "sourceText": "B. 十字切口，超过边缘、深达筋膜、填塞脓腔",
+          "label": "十字切口",
+          "sourceText": "B. 十字切口",
           "ocrScore": 1.0
         },
         {
           "key": "C",
-          "label": "甲沟旁作纵行切口",
-          "sourceText": "C. 甲沟旁作纵行切口",
+          "label": "切口超过边缘、深达筋膜并填塞脓腔",
+          "sourceText": "C. 切口超过边缘、深达筋膜并填塞脓腔",
           "ocrScore": 1.0
         },
         {
           "key": "D",
-          "label": "末节指侧面作纵行切口，切口近端不及指节横纹、远端不及甲沟1/2",
-          "sourceText": "D. 末节指侧面作纵行切口，切口近端不及指节横纹、远端不及甲沟1/2",
+          "label": "甲沟旁作纵行切口",
+          "sourceText": "D. 甲沟旁作纵行切口",
           "ocrScore": 1.0
         },
         {
           "key": "E",
-          "label": "脓腔较大者对口引流；去除死骨；指神经阻滞麻醉不加肾上腺素",
-          "sourceText": "E. 脓腔较大者对口引流；去除死骨；指神经阻滞麻醉不加肾上腺素",
+          "label": "末节指侧面作纵行切口",
+          "sourceText": "E. 末节指侧面作纵行切口",
           "ocrScore": 1.0
         },
         {
           "key": "F",
-          "label": "切口近端不及掌横纹，严禁切开肿胀的手背",
-          "sourceText": "F. 切口近端不及掌横纹，严禁切开肿胀的手背",
+          "label": "切口近端不及指节横纹、远端不及甲沟1/2",
+          "sourceText": "F. 切口近端不及指节横纹、远端不及甲沟1/2",
           "ocrScore": 1.0
         },
         {
           "key": "G",
+          "label": "脓腔较大者对口引流",
+          "sourceText": "G. 脓腔较大者对口引流",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "H",
+          "label": "去除死骨",
+          "sourceText": "H. 去除死骨",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "I",
+          "label": "指神经阻滞麻醉不加肾上腺素",
+          "sourceText": "I. 指神经阻滞麻醉不加肾上腺素",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "J",
+          "label": "切口近端不及掌横纹",
+          "sourceText": "J. 切口近端不及掌横纹",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "K",
+          "label": "严禁切开肿胀的手背",
+          "sourceText": "K. 严禁切开肿胀的手背",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "L",
           "label": "切口近端距腕横纹至少1.5cm",
-          "sourceText": "G. 切口近端距腕横纹至少1.5cm",
+          "sourceText": "L. 切口近端距腕横纹至少1.5cm",
           "ocrScore": 1.0
         }
       ],
@@ -1390,51 +1584,56 @@
         {
           "text": "痈",
           "answer": [
-            "B"
+            "B",
+            "C"
           ],
-          "answerMode": "单选",
-          "sourceText": "痈 B",
+          "answerMode": "多选",
+          "sourceText": "痈 B、C",
           "ocrScore": 1.0
         },
         {
           "text": "甲沟炎",
           "answer": [
-            "C"
+            "D"
           ],
           "answerMode": "单选",
-          "sourceText": "甲沟炎 C",
+          "sourceText": "甲沟炎 D",
           "ocrScore": 1.0
         },
         {
           "text": "脓性指头炎",
           "answer": [
-            "D",
-            "E"
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
           ],
           "answerMode": "多选",
-          "sourceText": "脓性指头炎 D、E",
+          "sourceText": "脓性指头炎 E、F、G、H、I",
           "ocrScore": 1.0
         },
         {
           "text": "掌深间隙感染",
           "answer": [
-            "F"
+            "J",
+            "K"
           ],
-          "answerMode": "单选",
-          "sourceText": "掌深间隙感染 F",
+          "answerMode": "多选",
+          "sourceText": "掌深间隙感染 J、K",
           "ocrScore": 1.0
         },
         {
           "text": "化脓性滑囊炎",
           "answer": [
-            "G"
+            "L"
           ],
           "answerMode": "单选",
-          "sourceText": "化脓性滑囊炎 G",
+          "sourceText": "化脓性滑囊炎 L",
           "ocrScore": 1.0
         }
       ],
-      "sourceText": "围术期·常考切口小结（二）；A. 下腹正中切口；B. 十字切口，超过边缘、深达筋膜、填塞脓腔；C. 甲沟旁作纵行切口；D. 末节指侧面作纵行切口，切口近端不及指节横纹、远端不及甲沟1/2；E. 脓腔较大者对口引流；去除死骨；指神经阻滞麻醉不加肾上腺素；F. 切口近端不及掌横纹，严禁切开肿胀的手背；G. 切口近端距腕横纹至少1.5cm；腹膜外型膀胱破裂 A；痈 B；甲沟炎 C；脓性指头炎 D、E；掌深间隙感染 F；化脓性滑囊炎 G",
+      "sourceText": "围术期·常考切口小结（二）；A. 下腹正中切口；B. 十字切口；C. 切口超过边缘、深达筋膜并填塞脓腔；D. 甲沟旁作纵行切口；E. 末节指侧面作纵行切口；F. 切口近端不及指节横纹、远端不及甲沟1/2；G. 脓腔较大者对口引流；H. 去除死骨；I. 指神经阻滞麻醉不加肾上腺素；J. 切口近端不及掌横纹；K. 严禁切开肿胀的手背；L. 切口近端距腕横纹至少1.5cm；腹膜外型膀胱破裂 A；痈 B、C；甲沟炎 D；脓性指头炎 E、F、G、H、I；掌深间隙感染 J、K；化脓性滑囊炎 L",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -1456,7 +1655,7 @@
       "page": 0,
       "title": "麻醉·药物分类总表",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -1626,7 +1825,7 @@
       "page": 0,
       "title": "麻醉·麻醉前用药",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -1765,7 +1964,7 @@
       "page": 0,
       "title": "麻醉·吸入麻醉药",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -1844,7 +2043,7 @@
       "page": 0,
       "title": "麻醉·静脉麻醉药",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -1988,7 +2187,7 @@
       "page": 0,
       "title": "麻醉·肌松药",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -2116,7 +2315,7 @@
       "page": 0,
       "title": "麻醉·局部麻醉类型",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -2203,7 +2402,7 @@
       "page": 0,
       "title": "麻醉·神经阻滞并发症",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -2285,7 +2484,7 @@
       "page": 0,
       "title": "麻醉·局麻药分类",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -2382,119 +2581,153 @@
     {
       "id": "surgery-general-a09",
       "page": 0,
-      "title": "麻醉·局麻药比较排序",
-      "kind": "B",
-      "kindLabel": "配伍选择题",
+      "title": "麻醉·局麻药作用排序",
+      "kind": "RANK",
+      "kindLabel": "排序题",
       "options": [
         {
           "key": "A",
-          "label": "pKa：普鲁卡因＞丁卡因＞罗哌卡因、布比卡因＞利多卡因",
-          "sourceText": "A. pKa：普鲁卡因＞丁卡因＞罗哌卡因、布比卡因＞利多卡因",
+          "label": "普鲁卡因",
+          "sourceText": "A. 普鲁卡因",
           "ocrScore": 1.0
         },
         {
           "key": "B",
-          "label": "脂溶性：丁卡因＝罗哌卡因、布比卡因＞利多卡因＞普鲁卡因",
-          "sourceText": "B. 脂溶性：丁卡因＝罗哌卡因、布比卡因＞利多卡因＞普鲁卡因",
+          "label": "丁卡因",
+          "sourceText": "B. 丁卡因",
           "ocrScore": 1.0
         },
         {
           "key": "C",
-          "label": "血浆蛋白结合率：罗哌卡因、布比卡因＞丁卡因＞利多卡因＞普鲁卡因",
-          "sourceText": "C. 血浆蛋白结合率：罗哌卡因、布比卡因＞丁卡因＞利多卡因＞普鲁卡因",
+          "label": "利多卡因",
+          "sourceText": "C. 利多卡因",
           "ocrScore": 1.0
         },
         {
           "key": "D",
-          "label": "相对效能：丁卡因＝罗哌卡因、布比卡因＞利多卡因＞普鲁卡因",
-          "sourceText": "D. 相对效能：丁卡因＝罗哌卡因、布比卡因＞利多卡因＞普鲁卡因",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "E",
-          "label": "弥散性：利多卡因＞罗哌卡因、布比卡因＞普鲁卡因＝丁卡因",
-          "sourceText": "E. 弥散性：利多卡因＞罗哌卡因、布比卡因＞普鲁卡因＝丁卡因",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "F",
-          "label": "神经阻滞起效时间：利多卡因＞罗哌卡因、布比卡因＞丁卡因＞普鲁卡因",
-          "sourceText": "F. 神经阻滞起效时间：利多卡因＞罗哌卡因、布比卡因＞丁卡因＞普鲁卡因",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "G",
-          "label": "作用时间：罗哌卡因、布比卡因＞丁卡因＞利多卡因＞普鲁卡因",
-          "sourceText": "G. 作用时间：罗哌卡因、布比卡因＞丁卡因＞利多卡因＞普鲁卡因",
+          "label": "罗哌卡因、布比卡因",
+          "sourceText": "D. 罗哌卡因、布比卡因",
           "ocrScore": 1.0
         }
       ],
       "stems": [
         {
-          "text": "pKa由大到小排序",
+          "text": "pKa：由大到小排序",
           "answer": [
-            "A"
-          ],
-          "answerMode": "单选",
-          "sourceText": "pKa由大到小排序 A",
-          "ocrScore": 1.0
-        },
-        {
-          "text": "脂溶性由大到小排序",
-          "answer": [
-            "B"
-          ],
-          "answerMode": "单选",
-          "sourceText": "脂溶性由大到小排序 B",
-          "ocrScore": 1.0
-        },
-        {
-          "text": "血浆蛋白结合率由高到低排序",
-          "answer": [
+            "A",
+            "B",
+            "D",
             "C"
           ],
-          "answerMode": "单选",
-          "sourceText": "血浆蛋白结合率由高到低排序 C",
-          "ocrScore": 1.0
+          "answerMode": "排序",
+          "sourceText": "pKa：由大到小排序 A、B、D、C",
+          "ocrScore": 1.0,
+          "answerDisplay": "A＞B＞D＞C"
         },
         {
-          "text": "相对效能由强到弱排序",
+          "text": "脂溶性：由大到小排序",
           "answer": [
-            "D"
+            "B",
+            "D",
+            "C",
+            "A"
           ],
-          "answerMode": "单选",
-          "sourceText": "相对效能由强到弱排序 D",
-          "ocrScore": 1.0
+          "answerMode": "排序",
+          "sourceText": "脂溶性：由大到小排序 B、D、C、A",
+          "ocrScore": 1.0,
+          "acceptedAnswers": [
+            [
+              "D",
+              "B",
+              "C",
+              "A"
+            ]
+          ],
+          "answerDisplay": "B＝D＞C＞A"
         },
         {
-          "text": "弥散性由强到弱排序",
+          "text": "血浆蛋白结合率：由高到低排序",
           "answer": [
-            "E"
+            "D",
+            "B",
+            "C",
+            "A"
           ],
-          "answerMode": "单选",
-          "sourceText": "弥散性由强到弱排序 E",
-          "ocrScore": 1.0
+          "answerMode": "排序",
+          "sourceText": "血浆蛋白结合率：由高到低排序 D、B、C、A",
+          "ocrScore": 1.0,
+          "answerDisplay": "D＞B＞C＞A"
         },
         {
-          "text": "神经阻滞起效时间由快到慢排序",
+          "text": "相对效能：由强到弱排序",
           "answer": [
-            "F"
+            "B",
+            "D",
+            "C",
+            "A"
           ],
-          "answerMode": "单选",
-          "sourceText": "神经阻滞起效时间由快到慢排序 F",
-          "ocrScore": 1.0
+          "answerMode": "排序",
+          "sourceText": "相对效能：由强到弱排序 B、D、C、A",
+          "ocrScore": 1.0,
+          "acceptedAnswers": [
+            [
+              "D",
+              "B",
+              "C",
+              "A"
+            ]
+          ],
+          "answerDisplay": "B＝D＞C＞A"
         },
         {
-          "text": "作用时间由长到短排序",
+          "text": "弥散性：由强到弱排序",
           "answer": [
-            "G"
+            "C",
+            "D",
+            "A",
+            "B"
           ],
-          "answerMode": "单选",
-          "sourceText": "作用时间由长到短排序 G",
-          "ocrScore": 1.0
+          "answerMode": "排序",
+          "sourceText": "弥散性：由强到弱排序 C、D、A、B",
+          "ocrScore": 1.0,
+          "acceptedAnswers": [
+            [
+              "C",
+              "D",
+              "B",
+              "A"
+            ]
+          ],
+          "answerDisplay": "C＞D＞A＝B"
+        },
+        {
+          "text": "神经阻滞起效时间：由快到慢排序",
+          "answer": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ],
+          "answerMode": "排序",
+          "sourceText": "神经阻滞起效时间：由快到慢排序 C、D、B、A",
+          "ocrScore": 1.0,
+          "answerDisplay": "C＞D＞B＞A"
+        },
+        {
+          "text": "作用时间：由长到短排序",
+          "answer": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ],
+          "answerMode": "排序",
+          "sourceText": "作用时间：由长到短排序 D、B、C、A",
+          "ocrScore": 1.0,
+          "answerDisplay": "D＞B＞C＞A"
         }
       ],
-      "sourceText": "麻醉·局麻药比较排序；A. pKa：普鲁卡因＞丁卡因＞罗哌卡因、布比卡因＞利多卡因；B. 脂溶性：丁卡因＝罗哌卡因、布比卡因＞利多卡因＞普鲁卡因；C. 血浆蛋白结合率：罗哌卡因、布比卡因＞丁卡因＞利多卡因＞普鲁卡因；D. 相对效能：丁卡因＝罗哌卡因、布比卡因＞利多卡因＞普鲁卡因；E. 弥散性：利多卡因＞罗哌卡因、布比卡因＞普鲁卡因＝丁卡因；F. 神经阻滞起效时间：利多卡因＞罗哌卡因、布比卡因＞丁卡因＞普鲁卡因；G. 作用时间：罗哌卡因、布比卡因＞丁卡因＞利多卡因＞普鲁卡因；pKa由大到小排序 A；脂溶性由大到小排序 B；血浆蛋白结合率由高到低排序 C；相对效能由强到弱排序 D；弥散性由强到弱排序 E；神经阻滞起效时间由快到慢排序 F；作用时间由长到短排序 G",
+      "sourceText": "麻醉·局麻药作用排序；A. 普鲁卡因；B. 丁卡因；C. 利多卡因；D. 罗哌卡因、布比卡因；pKa：由大到小排序 A、B、D、C；脂溶性：由大到小排序 B、D、C、A；血浆蛋白结合率：由高到低排序 D、B、C、A；相对效能：由强到弱排序 B、D、C、A；弥散性：由强到弱排序 C、D、A、B；神经阻滞起效时间：由快到慢排序 C、D、B、A；作用时间：由长到短排序 D、B、C、A",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -2514,74 +2747,73 @@
     {
       "id": "surgery-general-a10",
       "page": 0,
-      "title": "麻醉·局麻药一次限量",
-      "kind": "B",
-      "kindLabel": "配伍选择题",
-      "options": [
-        {
-          "key": "A",
-          "label": "利多卡因：表面麻醉100mg；神经阻滞和局部浸润麻醉400mg",
-          "sourceText": "A. 利多卡因：表面麻醉100mg；神经阻滞和局部浸润麻醉400mg",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "B",
-          "label": "丁卡因：表面麻醉40mg；神经阻滞80mg",
-          "sourceText": "B. 丁卡因：表面麻醉40mg；神经阻滞80mg",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "C",
-          "label": "罗哌卡因和布比卡因：150mg",
-          "sourceText": "C. 罗哌卡因和布比卡因：150mg",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "D",
-          "label": "普鲁卡因：1000mg",
-          "sourceText": "D. 普鲁卡因：1000mg",
-          "ocrScore": 1.0
-        }
-      ],
+      "title": "麻醉·局麻药一次限量数字挖空",
+      "kind": "FILL",
+      "kindLabel": "填空题",
+      "options": [],
       "stems": [
         {
-          "text": "利多卡因一次限量",
+          "text": "利多卡因：表面麻醉____mg；神经阻滞和局部浸润麻醉____mg",
           "answer": [
-            "A"
+            "100",
+            "400"
           ],
-          "answerMode": "单选",
-          "sourceText": "利多卡因一次限量 A",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "利多卡因：表面麻醉____mg；神经阻滞和局部浸润麻醉____mg 100、400",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "表面麻醉",
+            "神经/浸润"
+          ],
+          "answerDisplay": "100mg、400mg",
+          "inputMode": "text"
         },
         {
-          "text": "丁卡因一次限量",
+          "text": "丁卡因：表面麻醉____mg；神经阻滞____mg",
           "answer": [
-            "B"
+            "40",
+            "80"
           ],
-          "answerMode": "单选",
-          "sourceText": "丁卡因一次限量 B",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "丁卡因：表面麻醉____mg；神经阻滞____mg 40、80",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "表面麻醉",
+            "神经阻滞"
+          ],
+          "answerDisplay": "40mg、80mg",
+          "inputMode": "text"
         },
         {
-          "text": "罗哌卡因和布比卡因一次限量",
+          "text": "罗哌卡因和布比卡因一次限量____mg",
           "answer": [
-            "C"
+            "150"
           ],
-          "answerMode": "单选",
-          "sourceText": "罗哌卡因和布比卡因一次限量 C",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "罗哌卡因和布比卡因一次限量____mg 150",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "mg"
+          ],
+          "answerDisplay": "150mg",
+          "inputMode": "text"
         },
         {
-          "text": "普鲁卡因一次限量",
+          "text": "普鲁卡因一次限量____mg",
           "answer": [
-            "D"
+            "1000"
           ],
-          "answerMode": "单选",
-          "sourceText": "普鲁卡因一次限量 D",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "普鲁卡因一次限量____mg 1000",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "mg"
+          ],
+          "answerDisplay": "1000mg",
+          "inputMode": "text"
         }
       ],
-      "sourceText": "麻醉·局麻药一次限量；A. 利多卡因：表面麻醉100mg；神经阻滞和局部浸润麻醉400mg；B. 丁卡因：表面麻醉40mg；神经阻滞80mg；C. 罗哌卡因和布比卡因：150mg；D. 普鲁卡因：1000mg；利多卡因一次限量 A；丁卡因一次限量 B；罗哌卡因和布比卡因一次限量 C；普鲁卡因一次限量 D",
+      "sourceText": "麻醉·局麻药一次限量数字挖空；利多卡因：表面麻醉____mg；神经阻滞和局部浸润麻醉____mg 100、400；丁卡因：表面麻醉____mg；神经阻滞____mg 40、80；罗哌卡因和布比卡因一次限量____mg 150；普鲁卡因一次限量____mg 1000",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -2601,44 +2833,51 @@
     {
       "id": "surgery-general-a11a",
       "page": 0,
-      "title": "麻醉·基础数字",
-      "kind": "B",
-      "kindLabel": "配伍选择题",
-      "options": [
-        {
-          "key": "A",
-          "label": "麻醉前：血糖＜8.3mmol/L，尿糖可阳性，尿酮须阴性",
-          "sourceText": "A. 麻醉前：血糖＜8.3mmol/L，尿糖可阳性，尿酮须阴性",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "B",
-          "label": "气管插管导管尖至门齿距离：女性20～22cm，男性22～24cm",
-          "sourceText": "B. 气管插管导管尖至门齿距离：女性20～22cm，男性22～24cm",
-          "ocrScore": 1.0
-        }
-      ],
+      "title": "麻醉·基础数字挖空",
+      "kind": "FILL",
+      "kindLabel": "填空题",
+      "options": [],
       "stems": [
         {
-          "text": "麻醉前血糖、尿糖与尿酮要求",
+          "text": "麻醉前血糖＜____mmol/L，尿糖可____，尿酮须____",
           "answer": [
-            "A"
+            "8.3",
+            "阳性",
+            "阴性"
           ],
-          "answerMode": "单选",
-          "sourceText": "麻醉前血糖、尿糖与尿酮要求 A",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "麻醉前血糖＜____mmol/L，尿糖可____，尿酮须____ 8.3、阳性、阴性",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "血糖",
+            "尿糖",
+            "尿酮"
+          ],
+          "answerDisplay": "＜8.3mmol/L；尿糖可阳性；尿酮须阴性",
+          "inputMode": "text"
         },
         {
-          "text": "气管插管导管尖至门齿距离",
+          "text": "气管插管导管尖至门齿距离：女性____～____cm，男性____～____cm",
           "answer": [
-            "B"
+            "20",
+            "22",
+            "22",
+            "24"
           ],
-          "answerMode": "单选",
-          "sourceText": "气管插管导管尖至门齿距离 B",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "气管插管导管尖至门齿距离：女性____～____cm，男性____～____cm 20、22、22、24",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "女性起始",
+            "女性结束",
+            "男性起始",
+            "男性结束"
+          ],
+          "answerDisplay": "女性20～22cm，男性22～24cm",
+          "inputMode": "text"
         }
       ],
-      "sourceText": "麻醉·基础数字；A. 麻醉前：血糖＜8.3mmol/L，尿糖可阳性，尿酮须阴性；B. 气管插管导管尖至门齿距离：女性20～22cm，男性22～24cm；麻醉前血糖、尿糖与尿酮要求 A；气管插管导管尖至门齿距离 B",
+      "sourceText": "麻醉·基础数字挖空；麻醉前血糖＜____mmol/L，尿糖可____，尿酮须____ 8.3、阳性、阴性；气管插管导管尖至门齿距离：女性____～____cm，男性____～____cm 20、22、22、24",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -2658,59 +2897,63 @@
     {
       "id": "surgery-general-a11b",
       "page": 0,
-      "title": "麻醉·局麻药加肾上腺素",
-      "kind": "B",
-      "kindLabel": "配伍选择题",
-      "options": [
-        {
-          "key": "A",
-          "label": "浓度为1∶（20～40万），即2.5～5μg/ml",
-          "sourceText": "A. 浓度为1∶（20～40万），即2.5～5μg/ml",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "B",
-          "label": "100ml局麻药中加入肾上腺素0.25～0.5mg",
-          "sourceText": "B. 100ml局麻药中加入肾上腺素0.25～0.5mg",
-          "ocrScore": 1.0
-        },
-        {
-          "key": "C",
-          "label": "指、趾神经阻滞及阴茎阻滞不加肾上腺素",
-          "sourceText": "C. 指、趾神经阻滞及阴茎阻滞不加肾上腺素",
-          "ocrScore": 1.0
-        }
-      ],
+      "title": "麻醉·局麻药加肾上腺素挖空",
+      "kind": "FILL",
+      "kindLabel": "填空题",
+      "options": [],
       "stems": [
         {
-          "text": "局部浸润麻醉加肾上腺素的浓度",
+          "text": "局部浸润麻醉加肾上腺素的浓度为1∶（____～____万），即____～____μg/ml",
           "answer": [
-            "A"
+            "20",
+            "40",
+            "2.5",
+            "5"
           ],
-          "answerMode": "单选",
-          "sourceText": "局部浸润麻醉加肾上腺素的浓度 A",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "局部浸润麻醉加肾上腺素的浓度为1∶（____～____万），即____～____μg/ml 20、40、2.5、5",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "比例起始",
+            "比例结束",
+            "浓度下限",
+            "浓度上限"
+          ],
+          "answerDisplay": "1∶（20～40万），即2.5～5μg/ml",
+          "inputMode": "text"
         },
         {
-          "text": "100ml局麻药中加入肾上腺素的剂量",
+          "text": "100ml局麻药中加入肾上腺素____～____mg",
           "answer": [
-            "B"
+            "0.25",
+            "0.5"
           ],
-          "answerMode": "单选",
-          "sourceText": "100ml局麻药中加入肾上腺素的剂量 B",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "100ml局麻药中加入肾上腺素____～____mg 0.25、0.5",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "下限",
+            "上限"
+          ],
+          "answerDisplay": "0.25～0.5mg",
+          "inputMode": "text"
         },
         {
-          "text": "不加肾上腺素的神经阻滞部位",
+          "text": "指、趾神经阻滞及阴茎阻滞不____",
           "answer": [
-            "C"
+            "加肾上腺素"
           ],
-          "answerMode": "单选",
-          "sourceText": "不加肾上腺素的神经阻滞部位 C",
-          "ocrScore": 1.0
+          "answerMode": "填空",
+          "sourceText": "指、趾神经阻滞及阴茎阻滞不____ 加肾上腺素",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "原词"
+          ],
+          "answerDisplay": "加肾上腺素",
+          "inputMode": "text"
         }
       ],
-      "sourceText": "麻醉·局麻药加肾上腺素；A. 浓度为1∶（20～40万），即2.5～5μg/ml；B. 100ml局麻药中加入肾上腺素0.25～0.5mg；C. 指、趾神经阻滞及阴茎阻滞不加肾上腺素；局部浸润麻醉加肾上腺素的浓度 A；100ml局麻药中加入肾上腺素的剂量 B；不加肾上腺素的神经阻滞部位 C",
+      "sourceText": "麻醉·局麻药加肾上腺素挖空；局部浸润麻醉加肾上腺素的浓度为1∶（____～____万），即____～____μg/ml 20、40、2.5、5；100ml局麻药中加入肾上腺素____～____mg 0.25、0.5；指、趾神经阻滞及阴茎阻滞不____ 加肾上腺素",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -2731,19 +2974,37 @@
       "id": "surgery-general-a12",
       "page": 0,
       "title": "麻醉·椎管内麻醉阻滞与消退顺序",
-      "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kind": "RANK",
+      "kindLabel": "排序题",
       "options": [
         {
           "key": "A",
-          "label": "交感神经→副交感神经→感觉神经→运动神经→本体感觉",
-          "sourceText": "A. 交感神经→副交感神经→感觉神经→运动神经→本体感觉",
+          "label": "交感神经",
+          "sourceText": "A. 交感神经",
           "ocrScore": 1.0
         },
         {
           "key": "B",
-          "label": "本体感觉→运动神经→感觉神经→副交感神经→交感神经",
-          "sourceText": "B. 本体感觉→运动神经→感觉神经→副交感神经→交感神经",
+          "label": "副交感神经",
+          "sourceText": "B. 副交感神经",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "C",
+          "label": "感觉神经",
+          "sourceText": "C. 感觉神经",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "D",
+          "label": "运动神经",
+          "sourceText": "D. 运动神经",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "E",
+          "label": "本体感觉",
+          "sourceText": "E. 本体感觉",
           "ocrScore": 1.0
         }
       ],
@@ -2751,23 +3012,33 @@
         {
           "text": "阻滞顺序",
           "answer": [
-            "A"
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
           ],
-          "answerMode": "单选",
-          "sourceText": "阻滞顺序 A",
-          "ocrScore": 1.0
+          "answerMode": "排序",
+          "sourceText": "阻滞顺序 A、B、C、D、E",
+          "ocrScore": 1.0,
+          "answerDisplay": "交感神经→副交感神经→感觉神经→运动神经→本体感觉"
         },
         {
           "text": "消退顺序",
           "answer": [
-            "B"
+            "E",
+            "D",
+            "C",
+            "B",
+            "A"
           ],
-          "answerMode": "单选",
-          "sourceText": "消退顺序 B",
-          "ocrScore": 1.0
+          "answerMode": "排序",
+          "sourceText": "消退顺序 E、D、C、B、A",
+          "ocrScore": 1.0,
+          "answerDisplay": "本体感觉→运动神经→感觉神经→副交感神经→交感神经"
         }
       ],
-      "sourceText": "麻醉·椎管内麻醉阻滞与消退顺序；A. 交感神经→副交感神经→感觉神经→运动神经→本体感觉；B. 本体感觉→运动神经→感觉神经→副交感神经→交感神经；阻滞顺序 A；消退顺序 B",
+      "sourceText": "麻醉·椎管内麻醉阻滞与消退顺序；A. 交感神经；B. 副交感神经；C. 感觉神经；D. 运动神经；E. 本体感觉；阻滞顺序 A、B、C、D、E；消退顺序 E、D、C、B、A",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -2789,7 +3060,7 @@
       "page": 0,
       "title": "麻醉·椎管内麻醉阻滞平面",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -2906,7 +3177,7 @@
       "page": 0,
       "title": "麻醉·麻醉平面的调节",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -3038,7 +3309,7 @@
       "page": 0,
       "title": "麻醉·椎管内麻醉主要并发症",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
@@ -3172,7 +3443,7 @@
       "page": 0,
       "title": "麻醉·骶管麻醉与鞍区麻醉",
       "kind": "B",
-      "kindLabel": "配伍选择题",
+      "kindLabel": "B型题",
       "options": [
         {
           "key": "A",

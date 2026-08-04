@@ -140,6 +140,13 @@ button:disabled { cursor: default; }
 .answer-chip.answer { color: var(--green); border-color: #9ed9bb; background: var(--green-soft); }
 .answer-chip.missed { color: #b86b00; border-color: #f1b45c; background: #fff3df; }
 .answer-chip.wrong { color: var(--coral); border-color: #f0bbb7; background: var(--coral-soft); }
+.fill-answers { display: flex; align-items: flex-end; justify-content: flex-end; flex-wrap: wrap; gap: 8px; max-width: 390px; }
+.fill-answers label { display: grid; gap: 4px; color: #8693a5; font-size: 10px; }
+.fill-answers input { width: 88px; height: 34px; padding: 0 9px; border: 1px solid #cbd7e6; border-radius: 7px; color: #26344b; background: #fbfcfe; font-size: 13px; text-align: center; }
+.fill-answers input:focus { border-color: #76a4ec; outline: 3px solid rgba(34,101,214,.12); }
+.fill-answers input:disabled { color: #26344b; opacity: 1; }
+.stem-row.is-correct .fill-answers input { border-color: #9ed9bb; background: var(--green-soft); }
+.stem-row.is-wrong .fill-answers input { border-color: #f0bbb7; background: var(--coral-soft); }
 .result-line { grid-column: 1 / -1; display: flex; align-items: center; gap: 5px; margin: -5px 0 0 30px; font-size: 12px; }
 .result-line.ok { color: var(--green); }
 .result-line.bad { color: var(--coral); }
@@ -276,6 +283,8 @@ button:disabled { cursor: default; }
   .stem-list { padding: 5px 14px; }
   .stem-row { grid-template-columns: 1fr; gap: 10px; padding: 14px 0; }
   .answer-choices { justify-content: flex-start; max-width: none; padding-left: 30px; }
+  .fill-answers { justify-content: flex-start; max-width: none; padding-left: 30px; }
+  .fill-answers input { width: 82px; }
   .result-line { margin-left: 30px; }
   .question-card-bottom { align-items: flex-start; flex-direction: column; padding: 14px; }
   .primary-button { width: 100%; }
