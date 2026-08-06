@@ -26941,11 +26941,12 @@
             "C",
             "D",
             "H",
+            "P",
             "V",
             "W",
             "X"
           ],
-          "sourceText": "ACEI/ARB/ARNI用 CDHVWX",
+          "sourceText": "ACEI/ARB/ARNI用 CDHPVWX（讲义校对：冠心病应选P；原题答案漏选）",
           "sourceY": 0,
           "answerMode": "多选"
         },
