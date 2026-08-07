@@ -7,7 +7,7 @@
     "lectureCount": 41,
     "groupCount": 160,
     "stemCount": 505,
-    "correctionGroupCount": 12,
+    "correctionGroupCount": 13,
     "generatedBy": "scripts/build_physiology_content.py",
     "siteIntegrated": true,
     "lectureLinked": true,
@@ -3048,11 +3048,12 @@
           "number": 4,
           "text": "促进血小板聚集（致聚剂）（多选）",
           "sourceText": "4. 促进血小板聚集（致聚剂）（多选）：",
-          "answerRaw": "ACD",
+          "answerRaw": "ACDE",
           "answer": [
             "A",
             "C",
-            "D"
+            "D",
+            "E"
           ],
           "answerMode": "多选"
         }
@@ -3060,7 +3061,76 @@
       "sourceText": "4. A. 低浓度 ADP B. NO、前列环素 PGI2 C. 5-HT、组胺、胶原、凝血酶、肾上腺素 D.高浓度 ADP、血栓烷 TXA2 E病原微生物、免疫复合物、药物 1. 抑制血小板聚集： 2. 血小板第一聚集时相的致聚剂： 3. 血小板第二聚集时相的致聚剂： 4. 促进血小板聚集（致聚剂）（多选）：",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        {
+          "title": "血小板致聚剂答案漏项校正",
+          "body": "促进血小板聚集（致聚剂）答案由 ACD 校正为 ACDE。 依据：今年讲义明确将病原微生物、免疫复合物、药物列为促进血小板聚集的致聚剂，因此 E 项应选；B 项 NO、PGI₂ 为抑制因素。",
+          "lectureId": "lecture-07",
+          "lecturePages": [
+            4
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "低浓度 ADP"
+              },
+              {
+                "key": "B",
+                "label": "NO、前列环素 PGI2"
+              },
+              {
+                "key": "C",
+                "label": "5-HT、组胺、胶原、凝血酶、肾上腺素"
+              },
+              {
+                "key": "D",
+                "label": "高浓度 ADP、血栓烷 TXA2"
+              },
+              {
+                "key": "E",
+                "label": "病原微生物、免疫复合物、药物"
+              }
+            ],
+            "answers": [
+              "B",
+              "A",
+              "D",
+              "ACD"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "低浓度 ADP"
+              },
+              {
+                "key": "B",
+                "label": "NO、前列环素 PGI2"
+              },
+              {
+                "key": "C",
+                "label": "5-HT、组胺、胶原、凝血酶、肾上腺素"
+              },
+              {
+                "key": "D",
+                "label": "高浓度 ADP、血栓烷 TXA2"
+              },
+              {
+                "key": "E",
+                "label": "病原微生物、免疫复合物、药物"
+              }
+            ],
+            "answers": [
+              "B",
+              "A",
+              "D",
+              "ACDE"
+            ]
+          }
+        }
+      ],
       "topic": "血液",
       "lectureIds": [
         "lecture-07"
@@ -3069,9 +3139,9 @@
         "lectureId": "lecture-07",
         "lectureNumber": 7,
         "lectureTitle": "生理 血液特性",
-        "page": 5,
+        "page": 4,
         "score": 0.4331,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "按今年讲义原文人工复核并定位"
       }
     },
     {

@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 EXPECTED_CORRECTIONS = {
-    "phys-002", "phys-006", "phys-070", "phys-085", "phys-087", "phys-089",
+    "phys-002", "phys-006", "phys-024", "phys-070", "phys-085", "phys-087", "phys-089",
     "phys-090", "phys-093", "phys-111", "phys-112", "phys-118", "phys-136",
 }
 
@@ -31,7 +31,13 @@ def main() -> None:
 
     corrected_ids = {record["id"] for record in reconciliation["corrections"]}
     assert corrected_ids == EXPECTED_CORRECTIONS, (corrected_ids, EXPECTED_CORRECTIONS)
-    assert reconciliation["statusSummary"] == {"与今年讲义一致": 148, "已校正": 12}
+    assert reconciliation["statusSummary"] == {"与今年讲义一致": 147, "已校正": 13}
+
+    platelet_group = next(group for group in payload["groups"] if group["id"] == "phys-024")
+    assert platelet_group["stems"][3]["answer"] == list("ACDE")
+    assert platelet_group["stems"][3]["answerRaw"] == "ACDE"
+    assert platelet_group["lectureEvidence"]["lectureNumber"] == 7
+    assert platelet_group["lectureEvidence"]["page"] == 4
 
     missing_images = []
     duplicate_option_keys = []

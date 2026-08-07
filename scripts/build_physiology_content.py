@@ -67,6 +67,15 @@ CORRECTIONS = {
         "pages": [2, 3],
         "answers": {0: list("BD"), 1: list("AC")},
     },
+    "phys-024": {
+        "title": "血小板致聚剂答案漏项校正",
+        "summary": "促进血小板聚集（致聚剂）答案由 ACD 校正为 ACDE。",
+        "basis": "今年讲义明确将病原微生物、免疫复合物、药物列为促进血小板聚集的致聚剂，因此 E 项应选；B 项 NO、PGI₂ 为抑制因素。",
+        "lecture": 7,
+        "pages": [4],
+        "evidence_page": 4,
+        "answers": {3: list("ACDE")},
+    },
     "phys-070": {
         "title": "缺失选项字母规范化",
         "summary": "原题跳过 F、直接使用 G；将“稳定肺泡容积和压力”规范为 F，并同步答案 BEG→BEF。",
@@ -309,6 +318,17 @@ def finalize_group(source_group: dict, lectures: list[dict], page_vectors: dict)
 
     review_notes = apply_correction(group)
     evidence = best_evidence(group, lectures, page_vectors)
+    correction = CORRECTIONS.get(group["id"], {})
+    if correction.get("evidence_page"):
+        lecture_number_value = correction["lecture"]
+        lecture = next(item for item in lectures if item["number"] == lecture_number_value)
+        evidence.update({
+            "lectureId": lecture["id"],
+            "lectureNumber": lecture_number_value,
+            "lectureTitle": lecture["title"],
+            "page": correction["evidence_page"],
+            "method": "按今年讲义原文人工复核并定位",
+        })
     option_keys = [option["key"] for option in group["options"]]
     if len(option_keys) != len(set(option_keys)):
         raise ValueError(f"duplicate option keys after correction: {group['id']}")
