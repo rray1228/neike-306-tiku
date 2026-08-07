@@ -26849,11 +26849,6 @@
           "sourceText": "O.容量依赖型高血压先利尿消肿降压"
         },
         {
-          "key": "P",
-          "label": "冠心病",
-          "sourceText": "P.冠心病"
-        },
-        {
           "key": "Q",
           "label": "若伴低血钠用",
           "sourceText": "Q.若伴低血钠用"
@@ -26941,12 +26936,11 @@
             "C",
             "D",
             "H",
-            "P",
             "V",
             "W",
             "X"
           ],
-          "sourceText": "ACEI/ARB/ARNI用 CDHPVWX（讲义校对：冠心病应选P；原题答案漏选）",
+          "sourceText": "ACEI/ARB/ARNI用 CDHVWX（P为重复的“冠心病”选项，已删除；保留X）",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -26971,14 +26965,13 @@
           "answer": [
             "C",
             "H",
-            "P",
             "V",
             "X",
             "Y",
             "b",
             "d"
           ],
-          "sourceText": "β-R拮抗剂用 CHPVXYbd",
+          "sourceText": "β-R拮抗剂用 CHVXYbd（P为重复的“冠心病”选项，已删除；保留X）",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -27005,13 +26998,12 @@
             "E",
             "I",
             "L",
-            "P",
             "V",
             "X",
             "b",
             "d"
           ],
-          "sourceText": "CCB用 DEILPVXbd",
+          "sourceText": "CCB用 DEILVXbd（P为重复的“冠心病”选项，已删除；保留X）",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -29786,8 +29778,8 @@
         },
         {
           "key": "B",
-          "label": "一般体力活动完全不受限，轻微活动或休息时也可发作",
-          "sourceText": "B.一般体力活动完全不受限，轻微活动或休息时也可发作"
+          "label": "一般体力活动完全受限，轻微活动或休息时也可发作",
+          "sourceText": "B.一般体力活动完全受限，轻微活动或休息时也可发作"
         },
         {
           "key": "C",
@@ -31708,8 +31700,8 @@
         },
         {
           "key": "K",
-          "label": "二度Ⅰ型和三度房室传导阻滞",
-          "sourceText": "K.二度Ⅰ型和三度房室传导阻滞"
+          "label": "二度Ⅱ型和三度房室传导阻滞",
+          "sourceText": "K.二度Ⅱ型和三度房室传导阻滞"
         },
         {
           "key": "L",
@@ -31807,11 +31799,6 @@
           "sourceText": "d.肥厚型心肌病"
         },
         {
-          "key": "e",
-          "label": "不耐受干咳",
-          "sourceText": "e.不耐受干咳"
-        },
-        {
           "key": "f",
           "label": "急性右室梗死",
           "sourceText": "f.急性右室梗死"
@@ -31820,11 +31807,6 @@
           "key": "g",
           "label": "电复律",
           "sourceText": "g.电复律"
-        },
-        {
-          "key": "h",
-          "label": "急性右室梗死",
-          "sourceText": "h.急性右室梗死"
         },
         {
           "key": "i",
@@ -31962,10 +31944,10 @@
           "text": "血管扩张剂不用",
           "answer": [
             "X",
-            "e",
-            "h"
+            "I",
+            "f"
           ],
-          "sourceText": "血管扩张剂不用 Xeh",
+          "sourceText": "血管扩张剂不用 XIf（I为“不耐受干咳”，f为“急性右室梗死”；重复选项已删除）",
           "sourceY": 0,
           "answerMode": "多选"
         }
