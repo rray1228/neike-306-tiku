@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "西综题库 · 内科、病理、外科与生理",
-  description: "基于内科、病理、外科、生理讲义与学成选择题整理的交互式复习题库，含生理学 2027 讲义校正版。",
+  title: "西综题库 · 内科、病理、外科、生理与生化",
+  description: "基于内科、病理、外科、生理与生化讲义整理的交互式复习题库，含讲义校对与对应页图。",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
