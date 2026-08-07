@@ -5,7 +5,7 @@
     "sourcePages": 1,
     "lectureCount": 3,
     "groupCount": 15,
-    "stemCount": 39,
+    "stemCount": 45,
     "correctionGroupCount": 3,
     "generatedBy": "scripts/build_biochemistry_chapter1.py",
     "siteIntegrated": true,
@@ -172,40 +172,94 @@
       "stems": [
         {
           "number": 1,
-          "text": "丙酮酸激酶：①催化 ②激活剂 ③抑制剂",
-          "sourceText": "1. 丙酮酸激酶：①催化 ②激活剂 ③抑制剂",
-          "answerRaw": "ADH",
+          "text": "丙酮酸激酶催化：",
+          "sourceText": "1. 丙酮酸激酶催化：",
+          "answerRaw": "A",
           "answer": [
-            "A",
-            "D",
-            "H"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "己糖激酶：①催化 ②激活剂 ③抑制剂",
-          "sourceText": "2. 己糖激酶：①催化 ②激活剂 ③抑制剂",
-          "answerRaw": "BEI",
+          "text": "丙酮酸激酶激活剂：",
+          "sourceText": "2. 丙酮酸激酶激活剂：",
+          "answerRaw": "D",
           "answer": [
-            "B",
-            "E",
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "丙酮酸激酶抑制剂：",
+          "sourceText": "3. 丙酮酸激酶抑制剂：",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "己糖激酶催化：",
+          "sourceText": "4. 己糖激酶催化：",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "己糖激酶激活剂：",
+          "sourceText": "5. 己糖激酶激活剂：",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "己糖激酶抑制剂：",
+          "sourceText": "6. 己糖激酶抑制剂：",
+          "answerRaw": "I",
+          "answer": [
             "I"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "磷酸果糖激酶-1催化：",
+          "sourceText": "7. 磷酸果糖激酶-1催化：",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "磷酸果糖激酶-1激活剂：",
+          "sourceText": "8. 磷酸果糖激酶-1激活剂：",
+          "answerRaw": "FG",
+          "answer": [
+            "F",
+            "G"
           ],
           "answerMode": "多选"
         },
         {
-          "number": 3,
-          "text": "磷酸果糖激酶-1：①催化 ②激活剂 ③抑制剂",
-          "sourceText": "3. 磷酸果糖激酶-1：①催化 ②激活剂 ③抑制剂",
-          "answerRaw": "CFGJ",
+          "number": 9,
+          "text": "磷酸果糖激酶-1抑制剂：",
+          "sourceText": "9. 磷酸果糖激酶-1抑制剂：",
+          "answerRaw": "J",
           "answer": [
-            "C",
-            "F",
-            "G",
             "J"
           ],
-          "answerMode": "多选"
+          "answerMode": "单选"
         }
       ],
       "sourceText": "糖酵解关键酶",
