@@ -31799,14 +31799,24 @@
           "sourceText": "d.肥厚型心肌病"
         },
         {
+          "key": "e",
+          "label": "收缩压<90",
+          "sourceText": "e.收缩压<90"
+        },
+        {
           "key": "f",
-          "label": "急性右室梗死",
-          "sourceText": "f.急性右室梗死"
+          "label": "房颤",
+          "sourceText": "f.房颤"
         },
         {
           "key": "g",
           "label": "电复律",
           "sourceText": "g.电复律"
+        },
+        {
+          "key": "h",
+          "label": "急性右室梗死",
+          "sourceText": "h.急性右室梗死"
         },
         {
           "key": "i",
@@ -31944,10 +31954,10 @@
           "text": "血管扩张剂不用",
           "answer": [
             "X",
-            "I",
-            "f"
+            "e",
+            "h"
           ],
-          "sourceText": "血管扩张剂不用 XIf（I为“不耐受干咳”，f为“急性右室梗死”；重复选项已删除）",
+          "sourceText": "血管扩张剂不用 Xeh",
           "sourceY": 0,
           "answerMode": "多选"
         }
