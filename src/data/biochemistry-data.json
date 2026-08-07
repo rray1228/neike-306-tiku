@@ -1,0 +1,1513 @@
+{
+  "meta": {
+    "title": "生物化学题库",
+    "sourceLabel": "生化第一章学成选择题（修订扩充版）",
+    "sourcePages": 1,
+    "lectureCount": 3,
+    "groupCount": 15,
+    "stemCount": 39,
+    "correctionGroupCount": 3,
+    "generatedBy": "scripts/build_biochemistry_chapter1.py",
+    "siteIntegrated": true,
+    "lectureLinked": true,
+    "answerNote": "第一章题组按糖酵解/糖有氧氧化与磷酸戊糖途径/糖异生两个知识簇重排；答案已按 2027 讲义逐项复核。"
+  },
+  "topics": [
+    "全部",
+    "糖酵解与糖有氧氧化",
+    "磷酸戊糖途径、糖异生与调控",
+    "综合"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image": "",
+      "topic": "糖酵解与糖有氧氧化",
+      "searchText": "糖酵解关键酶"
+    },
+    {
+      "page": 2,
+      "image": "",
+      "topic": "糖酵解与糖有氧氧化",
+      "searchText": "关键酶与非关键酶"
+    },
+    {
+      "page": 3,
+      "image": "",
+      "topic": "糖酵解与糖有氧氧化",
+      "searchText": "糖有氧氧化的关键酶"
+    },
+    {
+      "page": 4,
+      "image": "",
+      "topic": "糖酵解与糖有氧氧化",
+      "searchText": "糖代谢途径的意义"
+    },
+    {
+      "page": 5,
+      "image": "",
+      "topic": "糖酵解与糖有氧氧化",
+      "searchText": "高能化合物"
+    },
+    {
+      "page": 10,
+      "image": "",
+      "topic": "糖酵解与糖有氧氧化",
+      "searchText": "氧化还原当量与穿梭"
+    },
+    {
+      "page": 11,
+      "image": "",
+      "topic": "糖酵解与糖有氧氧化",
+      "searchText": "糖代谢途径定义"
+    },
+    {
+      "page": 12,
+      "image": "",
+      "topic": "糖酵解与糖有氧氧化",
+      "searchText": "底物水平磷酸化"
+    },
+    {
+      "page": 13,
+      "image": "",
+      "topic": "糖酵解与糖有氧氧化",
+      "searchText": "高能硫酯键的生理角色"
+    },
+    {
+      "page": 6,
+      "image": "",
+      "topic": "磷酸戊糖途径、糖异生与调控",
+      "searchText": "糖异生关键酶"
+    },
+    {
+      "page": 7,
+      "image": "",
+      "topic": "磷酸戊糖途径、糖异生与调控",
+      "searchText": "糖代谢途径的细胞定位"
+    },
+    {
+      "page": 8,
+      "image": "",
+      "topic": "磷酸戊糖途径、糖异生与调控",
+      "searchText": "糖代谢酶活性调节"
+    },
+    {
+      "page": 9,
+      "image": "",
+      "topic": "磷酸戊糖途径、糖异生与调控",
+      "searchText": "糖异生与酮体"
+    },
+    {
+      "page": 14,
+      "image": "",
+      "topic": "磷酸戊糖途径、糖异生与调控",
+      "searchText": "胰高血糖素对糖代谢的调节"
+    },
+    {
+      "page": 15,
+      "image": "",
+      "topic": "磷酸戊糖途径、糖异生与调控",
+      "searchText": "NADPH 的作用"
+    }
+  ],
+  "groups": [
+    {
+      "id": "bio-01-01",
+      "page": 1,
+      "title": "糖酵解关键酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "PEP→丙酮酸、ATP",
+          "sourceText": "A. PEP→丙酮酸、ATP"
+        },
+        {
+          "key": "B",
+          "label": "G→G-6-P",
+          "sourceText": "B. G→G-6-P"
+        },
+        {
+          "key": "C",
+          "label": "F-6-P→F-1,6-DP",
+          "sourceText": "C. F-6-P→F-1,6-DP"
+        },
+        {
+          "key": "D",
+          "label": "果糖-1,6-二磷酸",
+          "sourceText": "D. 果糖-1,6-二磷酸"
+        },
+        {
+          "key": "E",
+          "label": "葡萄糖",
+          "sourceText": "E. 葡萄糖"
+        },
+        {
+          "key": "F",
+          "label": "AMP、ADP",
+          "sourceText": "F. AMP、ADP"
+        },
+        {
+          "key": "G",
+          "label": "果糖-2,6-二磷酸（最强激活剂）",
+          "sourceText": "G. 果糖-2,6-二磷酸（最强激活剂）"
+        },
+        {
+          "key": "H",
+          "label": "ATP、丙氨酸",
+          "sourceText": "H. ATP、丙氨酸"
+        },
+        {
+          "key": "I",
+          "label": "G-6-P、长链脂酰 CoA",
+          "sourceText": "I. G-6-P、长链脂酰 CoA"
+        },
+        {
+          "key": "J",
+          "label": "ATP、柠檬酸",
+          "sourceText": "J. ATP、柠檬酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "丙酮酸激酶：①催化 ②激活剂 ③抑制剂",
+          "sourceText": "1. 丙酮酸激酶：①催化 ②激活剂 ③抑制剂",
+          "answerRaw": "ADH",
+          "answer": [
+            "A",
+            "D",
+            "H"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "己糖激酶：①催化 ②激活剂 ③抑制剂",
+          "sourceText": "2. 己糖激酶：①催化 ②激活剂 ③抑制剂",
+          "answerRaw": "BEI",
+          "answer": [
+            "B",
+            "E",
+            "I"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "磷酸果糖激酶-1：①催化 ②激活剂 ③抑制剂",
+          "sourceText": "3. 磷酸果糖激酶-1：①催化 ②激活剂 ③抑制剂",
+          "answerRaw": "CFGJ",
+          "answer": [
+            "C",
+            "F",
+            "G",
+            "J"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖酵解关键酶",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖酵解与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+        "page": 4,
+        "image": "biochemistry/lecture-pages/lecture-01-page-04.png",
+        "title": "第 1 讲《生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》· 第 4 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-02",
+      "page": 2,
+      "title": "关键酶与非关键酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "己糖激酶",
+          "sourceText": "A. 己糖激酶"
+        },
+        {
+          "key": "B",
+          "label": "磷酸果糖激酶-1",
+          "sourceText": "B. 磷酸果糖激酶-1"
+        },
+        {
+          "key": "C",
+          "label": "丙酮酸激酶",
+          "sourceText": "C. 丙酮酸激酶"
+        },
+        {
+          "key": "D",
+          "label": "丙酮酸脱氢酶复合体",
+          "sourceText": "D. 丙酮酸脱氢酶复合体"
+        },
+        {
+          "key": "E",
+          "label": "柠檬酸合酶",
+          "sourceText": "E. 柠檬酸合酶"
+        },
+        {
+          "key": "F",
+          "label": "异柠檬酸脱氢酶",
+          "sourceText": "F. 异柠檬酸脱氢酶"
+        },
+        {
+          "key": "G",
+          "label": "α-酮戊二酸脱氢酶复合体",
+          "sourceText": "G. α-酮戊二酸脱氢酶复合体"
+        },
+        {
+          "key": "H",
+          "label": "3-磷酸甘油醛脱氢酶",
+          "sourceText": "H. 3-磷酸甘油醛脱氢酶"
+        },
+        {
+          "key": "I",
+          "label": "磷酸甘油酸激酶",
+          "sourceText": "I. 磷酸甘油酸激酶"
+        },
+        {
+          "key": "J",
+          "label": "乳酸脱氢酶 LDH",
+          "sourceText": "J. 乳酸脱氢酶 LDH"
+        },
+        {
+          "key": "K",
+          "label": "琥珀酰 CoA 合成酶",
+          "sourceText": "K. 琥珀酰 CoA 合成酶"
+        },
+        {
+          "key": "L",
+          "label": "琥珀酸脱氢酶",
+          "sourceText": "L. 琥珀酸脱氢酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "关键酶",
+          "sourceText": "1. 关键酶",
+          "answerRaw": "ABCDEFG",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "非关键酶",
+          "sourceText": "2. 非关键酶",
+          "answerRaw": "HIJKL",
+          "answer": [
+            "H",
+            "I",
+            "J",
+            "K",
+            "L"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "关键酶与非关键酶",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖酵解与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+        "page": 5,
+        "image": "biochemistry/lecture-pages/lecture-01-page-05.png",
+        "title": "第 1 讲《生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》· 第 5 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-03",
+      "page": 3,
+      "title": "糖有氧氧化的关键酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "己糖激酶",
+          "sourceText": "A. 己糖激酶"
+        },
+        {
+          "key": "B",
+          "label": "磷酸果糖激酶-1",
+          "sourceText": "B. 磷酸果糖激酶-1"
+        },
+        {
+          "key": "C",
+          "label": "丙酮酸激酶",
+          "sourceText": "C. 丙酮酸激酶"
+        },
+        {
+          "key": "D",
+          "label": "丙酮酸脱氢酶复合体",
+          "sourceText": "D. 丙酮酸脱氢酶复合体"
+        },
+        {
+          "key": "E",
+          "label": "柠檬酸合酶",
+          "sourceText": "E. 柠檬酸合酶"
+        },
+        {
+          "key": "F",
+          "label": "异柠檬酸脱氢酶",
+          "sourceText": "F. 异柠檬酸脱氢酶"
+        },
+        {
+          "key": "G",
+          "label": "α-酮戊二酸脱氢酶复合体",
+          "sourceText": "G. α-酮戊二酸脱氢酶复合体"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "糖酵解的关键酶",
+          "sourceText": "1. 糖酵解的关键酶",
+          "answerRaw": "ABC",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "丙酮酸脱羧的关键酶",
+          "sourceText": "2. 丙酮酸脱羧的关键酶",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "三羧酸循环的关键酶",
+          "sourceText": "3. 三羧酸循环的关键酶",
+          "answerRaw": "EFG",
+          "answer": [
+            "E",
+            "F",
+            "G"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖有氧氧化的关键酶",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖酵解与糖有氧氧化",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 4,
+        "image": "biochemistry/lecture-pages/lecture-03-page-04.png",
+        "title": "第 3 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 4 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-04",
+      "page": 4,
+      "title": "糖代谢途径的意义",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "缺氧供能",
+          "sourceText": "A. 缺氧供能"
+        },
+        {
+          "key": "B",
+          "label": "向肌肉迅速供能",
+          "sourceText": "B. 向肌肉迅速供能"
+        },
+        {
+          "key": "C",
+          "label": "成熟红细胞获得能量的唯一途径",
+          "sourceText": "C. 成熟红细胞获得能量的唯一途径"
+        },
+        {
+          "key": "D",
+          "label": "瓦伯格效应：恶性肿瘤即使氧供正常也主要进行无氧氧化",
+          "sourceText": "D. 瓦伯格效应：恶性肿瘤即使氧供正常也主要进行无氧氧化"
+        },
+        {
+          "key": "E",
+          "label": "三大营养物质最终代谢去路、联系枢纽",
+          "sourceText": "E. 三大营养物质最终代谢去路、联系枢纽"
+        },
+        {
+          "key": "F",
+          "label": "为氧化磷酸化提供还原当量",
+          "sourceText": "F. 为氧化磷酸化提供还原当量"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "无氧氧化的意义",
+          "sourceText": "1. 无氧氧化的意义",
+          "answerRaw": "ABCD",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "三羧酸循环的意义",
+          "sourceText": "2. 三羧酸循环的意义",
+          "answerRaw": "EF",
+          "answer": [
+            "E",
+            "F"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖代谢途径的意义",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖酵解与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+        "page": 6,
+        "image": "biochemistry/lecture-pages/lecture-01-page-06.png",
+        "title": "第 1 讲《生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》· 第 6 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-05",
+      "page": 5,
+      "title": "高能化合物",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "乙酰 CoA",
+          "sourceText": "A. 乙酰 CoA"
+        },
+        {
+          "key": "B",
+          "label": "脂酰 CoA",
+          "sourceText": "B. 脂酰 CoA"
+        },
+        {
+          "key": "C",
+          "label": "丙二酰 CoA/丙二酸单酰 CoA",
+          "sourceText": "C. 丙二酰 CoA/丙二酸单酰 CoA"
+        },
+        {
+          "key": "D",
+          "label": "HMG CoA",
+          "sourceText": "D. HMG CoA"
+        },
+        {
+          "key": "E",
+          "label": "NDP、NTP",
+          "sourceText": "E. NDP、NTP"
+        },
+        {
+          "key": "F",
+          "label": "1,3-二磷酸甘油酸、PEP",
+          "sourceText": "F. 1,3-二磷酸甘油酸、PEP"
+        },
+        {
+          "key": "G",
+          "label": "磷酸肌酸",
+          "sourceText": "G. 磷酸肌酸"
+        },
+        {
+          "key": "H",
+          "label": "氨基甲酰磷酸",
+          "sourceText": "H. 氨基甲酰磷酸"
+        },
+        {
+          "key": "I",
+          "label": "焦磷酸（如 PRPP）",
+          "sourceText": "I. 焦磷酸（如 PRPP）"
+        },
+        {
+          "key": "J",
+          "label": "葡萄糖-1-磷酸",
+          "sourceText": "J. 葡萄糖-1-磷酸"
+        },
+        {
+          "key": "K",
+          "label": "2,3-二磷酸甘油酸",
+          "sourceText": "K. 2,3-二磷酸甘油酸"
+        },
+        {
+          "key": "L",
+          "label": "果糖-1,6-二磷酸",
+          "sourceText": "L. 果糖-1,6-二磷酸"
+        },
+        {
+          "key": "M",
+          "label": "三磷酸肌醇",
+          "sourceText": "M. 三磷酸肌醇"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "高能硫酯键",
+          "sourceText": "1. 高能硫酯键",
+          "answerRaw": "ABCD",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "高能磷酸键",
+          "sourceText": "2. 高能磷酸键",
+          "answerRaw": "EFGHI",
+          "answer": [
+            "E",
+            "F",
+            "G",
+            "H",
+            "I"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "高能化合物",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        {
+          "title": "答案校对 · 葡萄糖-1-磷酸不属于高能磷酸键",
+          "body": "高能磷酸键应为 NDP/NTP、1,3-二磷酸甘油酸/PEP、磷酸肌酸、氨基甲酰磷酸和焦磷酸；G-1-P 为普通磷酸酯键。答案由 EFGHIJ 校正为 EFGHI。"
+        }
+      ],
+      "topic": "糖酵解与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+        "page": 7,
+        "image": "biochemistry/lecture-pages/lecture-01-page-07.png",
+        "title": "第 1 讲《生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》· 第 7 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-10",
+      "page": 10,
+      "title": "氧化还原当量与穿梭",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "NADPH",
+          "sourceText": "A. NADPH"
+        },
+        {
+          "key": "B",
+          "label": "FADH2",
+          "sourceText": "B. FADH2"
+        },
+        {
+          "key": "C",
+          "label": "NADH+H+",
+          "sourceText": "C. NADH+H+"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "琥珀酸在三羧酸循环中氧化脱掉的是",
+          "sourceText": "1. 琥珀酸在三羧酸循环中氧化脱掉的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "磷酸戊糖途径脱掉的是",
+          "sourceText": "2. 磷酸戊糖途径脱掉的是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "谷氨酸脱氢酶脱掉的是",
+          "sourceText": "3. 谷氨酸脱氢酶脱掉的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "α-磷酸甘油-磷酸二羟丙酮穿梭中，线粒体中 α-磷酸甘油脱掉的是",
+          "sourceText": "4. α-磷酸甘油-磷酸二羟丙酮穿梭中，线粒体中 α-磷酸甘油脱掉的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "氧化还原当量与穿梭",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        {
+          "title": "答案校对 · 谷氨酸脱氢酶的还原当量",
+          "body": "谷氨酸脱氢酶催化氧化脱氨时以 NAD+ 为辅酶，生成 NADH+H+；不生成 NADPH。答案由 AC 校正为 C。"
+        }
+      ],
+      "topic": "糖酵解与糖有氧氧化",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-02-page-01.png",
+        "title": "第 2 讲《生化 氧化磷酸化》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-11",
+      "page": 11,
+      "title": "糖代谢途径定义",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "葡萄糖转化为 5-磷酸核糖",
+          "sourceText": "A. 葡萄糖转化为 5-磷酸核糖"
+        },
+        {
+          "key": "B",
+          "label": "葡萄糖转化为丙酮酸",
+          "sourceText": "B. 葡萄糖转化为丙酮酸"
+        },
+        {
+          "key": "C",
+          "label": "葡萄糖转化为二氧化碳",
+          "sourceText": "C. 葡萄糖转化为二氧化碳"
+        },
+        {
+          "key": "D",
+          "label": "葡萄糖转化为乳酸",
+          "sourceText": "D. 葡萄糖转化为乳酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "糖酵解途径是指",
+          "sourceText": "1. 糖酵解途径是指",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "葡萄糖无氧氧化指",
+          "sourceText": "2. 葡萄糖无氧氧化指",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "葡萄糖有氧氧化指",
+          "sourceText": "3. 葡萄糖有氧氧化指",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "葡萄糖磷酸戊糖途径指",
+          "sourceText": "4. 葡萄糖磷酸戊糖途径指",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "糖代谢途径定义",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖酵解与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-01-page-03.png",
+        "title": "第 1 讲《生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-12",
+      "page": 12,
+      "title": "底物水平磷酸化",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "己糖激酶",
+          "sourceText": "A. 己糖激酶"
+        },
+        {
+          "key": "B",
+          "label": "磷酸甘油酸激酶",
+          "sourceText": "B. 磷酸甘油酸激酶"
+        },
+        {
+          "key": "C",
+          "label": "丙酮酸脱氢酶",
+          "sourceText": "C. 丙酮酸脱氢酶"
+        },
+        {
+          "key": "D",
+          "label": "丙酮酸激酶",
+          "sourceText": "D. 丙酮酸激酶"
+        },
+        {
+          "key": "E",
+          "label": "柠檬酸合酶",
+          "sourceText": "E. 柠檬酸合酶"
+        },
+        {
+          "key": "F",
+          "label": "琥珀酰 CoA 合成酶",
+          "sourceText": "F. 琥珀酰 CoA 合成酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "催化底物水平磷酸化的酶",
+          "sourceText": "1. 催化底物水平磷酸化的酶",
+          "answerRaw": "BDF",
+          "answer": [
+            "B",
+            "D",
+            "F"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "底物水平磷酸化",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖酵解与糖有氧氧化",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-02-page-01.png",
+        "title": "第 2 讲《生化 氧化磷酸化》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-13",
+      "page": 13,
+      "title": "高能硫酯键的生理角色",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "乙酰 CoA",
+          "sourceText": "A. 乙酰 CoA"
+        },
+        {
+          "key": "B",
+          "label": "脂酰 CoA",
+          "sourceText": "B. 脂酰 CoA"
+        },
+        {
+          "key": "C",
+          "label": "丙二酰 CoA/丙二酸单酰 CoA",
+          "sourceText": "C. 丙二酰 CoA/丙二酸单酰 CoA"
+        },
+        {
+          "key": "D",
+          "label": "HMG CoA",
+          "sourceText": "D. HMG CoA"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "脂肪酸合成的重要物质",
+          "sourceText": "1. 脂肪酸合成的重要物质",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "胆固醇、酮体合成的重要物质",
+          "sourceText": "2. 胆固醇、酮体合成的重要物质",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "三大营养物质最终代谢去路",
+          "sourceText": "3. 三大营养物质最终代谢去路",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "脂肪酸的活化形式",
+          "sourceText": "4. 脂肪酸的活化形式",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "高能硫酯键的生理角色",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖酵解与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+        "page": 7,
+        "image": "biochemistry/lecture-pages/lecture-01-page-07.png",
+        "title": "第 1 讲《生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》· 第 7 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-06",
+      "page": 6,
+      "title": "糖异生关键酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "己糖激酶",
+          "sourceText": "A. 己糖激酶"
+        },
+        {
+          "key": "B",
+          "label": "果糖双磷酸酶-1",
+          "sourceText": "B. 果糖双磷酸酶-1"
+        },
+        {
+          "key": "C",
+          "label": "磷酸烯醇式丙酮酸羧激酶",
+          "sourceText": "C. 磷酸烯醇式丙酮酸羧激酶"
+        },
+        {
+          "key": "D",
+          "label": "丙酮酸激酶",
+          "sourceText": "D. 丙酮酸激酶"
+        },
+        {
+          "key": "E",
+          "label": "葡糖-6-磷酸酶",
+          "sourceText": "E. 葡糖-6-磷酸酶"
+        },
+        {
+          "key": "F",
+          "label": "磷酸果糖激酶-1",
+          "sourceText": "F. 磷酸果糖激酶-1"
+        },
+        {
+          "key": "G",
+          "label": "丙酮酸羧化酶",
+          "sourceText": "G. 丙酮酸羧化酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "糖异生的关键酶",
+          "sourceText": "1. 糖异生的关键酶",
+          "answerRaw": "BCEG",
+          "answer": [
+            "B",
+            "C",
+            "E",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "催化 G-6-P→G 的酶",
+          "sourceText": "2. 催化 G-6-P→G 的酶",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "催化草酰乙酸→PEP 的酶",
+          "sourceText": "3. 催化草酰乙酸→PEP 的酶",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "消耗能量的酶",
+          "sourceText": "4. 消耗能量的酶",
+          "answerRaw": "ACFG",
+          "answer": [
+            "A",
+            "C",
+            "F",
+            "G"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖异生关键酶",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "磷酸戊糖途径、糖异生与调控",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-03-page-03.png",
+        "title": "第 3 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-07",
+      "page": 7,
+      "title": "糖代谢途径的细胞定位",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "糖酵解",
+          "sourceText": "A. 糖酵解"
+        },
+        {
+          "key": "B",
+          "label": "糖异生",
+          "sourceText": "B. 糖异生"
+        },
+        {
+          "key": "C",
+          "label": "磷酸戊糖途径",
+          "sourceText": "C. 磷酸戊糖途径"
+        },
+        {
+          "key": "D",
+          "label": "三羧酸循环",
+          "sourceText": "D. 三羧酸循环"
+        },
+        {
+          "key": "E",
+          "label": "无氧氧化",
+          "sourceText": "E. 无氧氧化"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "在胞浆中进行的代谢途径",
+          "sourceText": "1. 在胞浆中进行的代谢途径",
+          "answerRaw": "ACE",
+          "answer": [
+            "A",
+            "C",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "在线粒体中进行的代谢途径",
+          "sourceText": "2. 在线粒体中进行的代谢途径",
+          "answerRaw": "BD",
+          "answer": [
+            "B",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "成熟红细胞可进行的代谢途径",
+          "sourceText": "3. 成熟红细胞可进行的代谢途径",
+          "answerRaw": "ACE",
+          "answer": [
+            "A",
+            "C",
+            "E"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖代谢途径的细胞定位",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "磷酸戊糖途径、糖异生与调控",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-03-page-01.png",
+        "title": "第 3 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-08",
+      "page": 8,
+      "title": "糖代谢酶活性调节",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "果糖-1,6-二磷酸",
+          "sourceText": "A. 果糖-1,6-二磷酸"
+        },
+        {
+          "key": "B",
+          "label": "AMP、ADP",
+          "sourceText": "B. AMP、ADP"
+        },
+        {
+          "key": "C",
+          "label": "乙酰 CoA",
+          "sourceText": "C. 乙酰 CoA"
+        },
+        {
+          "key": "D",
+          "label": "果糖-2,6-二磷酸",
+          "sourceText": "D. 果糖-2,6-二磷酸"
+        },
+        {
+          "key": "E",
+          "label": "葡萄糖",
+          "sourceText": "E. 葡萄糖"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "丙酮酸羧化酶的激活剂",
+          "sourceText": "1. 丙酮酸羧化酶的激活剂",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "果糖双磷酸酶-1 的抑制剂",
+          "sourceText": "2. 果糖双磷酸酶-1 的抑制剂",
+          "answerRaw": "AD",
+          "answer": [
+            "A",
+            "D"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖代谢酶活性调节",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "磷酸戊糖途径、糖异生与调控",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-03-page-03.png",
+        "title": "第 3 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-09",
+      "page": 9,
+      "title": "糖异生与酮体",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "胆固醇",
+          "sourceText": "A. 胆固醇"
+        },
+        {
+          "key": "B",
+          "label": "甘油",
+          "sourceText": "B. 甘油"
+        },
+        {
+          "key": "C",
+          "label": "亮氨酸、赖氨酸",
+          "sourceText": "C. 亮氨酸、赖氨酸"
+        },
+        {
+          "key": "D",
+          "label": "软脂酸",
+          "sourceText": "D. 软脂酸"
+        },
+        {
+          "key": "E",
+          "label": "乙酰 CoA",
+          "sourceText": "E. 乙酰 CoA"
+        },
+        {
+          "key": "F",
+          "label": "乳酸",
+          "sourceText": "F. 乳酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "可以进行糖异生的物质",
+          "sourceText": "1. 可以进行糖异生的物质",
+          "answerRaw": "BF",
+          "answer": [
+            "B",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "可以生成酮体的物质",
+          "sourceText": "2. 可以生成酮体的物质",
+          "answerRaw": "CDE",
+          "answer": [
+            "C",
+            "D",
+            "E"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖异生与酮体",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [
+        {
+          "title": "答案校对 · 胆固醇不能生成酮体",
+          "body": "胆固醇在人体内不能逆向分解为乙酰 CoA，不能作为酮体来源；酮体可由脂肪酸、亮氨酸/赖氨酸和乙酰 CoA 生成。答案由 ACDE 校正为 CDE。"
+        }
+      ],
+      "topic": "磷酸戊糖途径、糖异生与调控",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-03-page-03.png",
+        "title": "第 3 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-14",
+      "page": 14,
+      "title": "胰高血糖素对糖代谢的调节",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "果糖双磷酸酶-2",
+          "sourceText": "A. 果糖双磷酸酶-2"
+        },
+        {
+          "key": "B",
+          "label": "丙酮酸激酶",
+          "sourceText": "B. 丙酮酸激酶"
+        },
+        {
+          "key": "C",
+          "label": "磷酸果糖激酶-2",
+          "sourceText": "C. 磷酸果糖激酶-2"
+        },
+        {
+          "key": "D",
+          "label": "磷酸烯醇式丙酮酸羧激酶",
+          "sourceText": "D. 磷酸烯醇式丙酮酸羧激酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "胰高血糖素激活的酶有",
+          "sourceText": "1. 胰高血糖素激活的酶有",
+          "answerRaw": "AD",
+          "answer": [
+            "A",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "胰高血糖素抑制的酶有",
+          "sourceText": "2. 胰高血糖素抑制的酶有",
+          "answerRaw": "BC",
+          "answer": [
+            "B",
+            "C"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "胰高血糖素对糖代谢的调节",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "磷酸戊糖途径、糖异生与调控",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-03-page-03.png",
+        "title": "第 3 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-15",
+      "page": 15,
+      "title": "NADPH 的作用",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "合成胆红素",
+          "sourceText": "A. 合成胆红素"
+        },
+        {
+          "key": "B",
+          "label": "糖异生",
+          "sourceText": "B. 糖异生"
+        },
+        {
+          "key": "C",
+          "label": "合成氨基酸",
+          "sourceText": "C. 合成氨基酸"
+        },
+        {
+          "key": "D",
+          "label": "糖原分解",
+          "sourceText": "D. 糖原分解"
+        },
+        {
+          "key": "E",
+          "label": "胆固醇的分解",
+          "sourceText": "E. 胆固醇的分解"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "NADPH 可参与的反应",
+          "sourceText": "1. NADPH 可参与的反应",
+          "answerRaw": "ACE",
+          "answer": [
+            "A",
+            "C",
+            "E"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "NADPH 的作用",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "磷酸戊糖途径、糖异生与调控",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-03-page-01.png",
+        "title": "第 3 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    }
+  ],
+  "lectures": [
+    {
+      "id": "lecture-01",
+      "number": 1,
+      "title": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+      "pageCount": 10
+    },
+    {
+      "id": "lecture-02",
+      "number": 2,
+      "title": "生化 氧化磷酸化",
+      "pageCount": 8
+    },
+    {
+      "id": "lecture-03",
+      "number": 3,
+      "title": "生化 磷酸戊糖途径、糖原、糖异生",
+      "pageCount": 6
+    }
+  ]
+}

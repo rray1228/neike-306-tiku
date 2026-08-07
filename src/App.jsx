@@ -5,6 +5,7 @@ import surgeryContent from './data/surgery-data.json'
 import surgeryFractureContent from './data/surgery-fracture-data.json'
 import surgeryGeneralContent from './data/surgery-general-data.json'
 import physiologyContent from './data/physiology-data.json'
+import biochemistryContent from './data/biochemistry-data.json'
 
 const combinedSurgeryContent = {
   ...surgeryContent,
@@ -54,6 +55,15 @@ const SUBJECTS = {
     defaultTopic: '绪论',
     sourceName: '天天学成选择题（生理学）.pdf',
   },
+  biochemistry: {
+    label: '生化',
+    title: '生化-学成选择题（第一章讲义校对版）',
+    subtitle: '306 临床医学综合能力（生物化学）',
+    sectionLabel: '生化知识点',
+    content: biochemistryContent,
+    defaultTopic: '糖酵解与糖有氧氧化',
+    sourceName: '生化第一章学成选择题（修订扩充版）.docx',
+  },
 }
 
 const TOPIC_ICONS = {
@@ -97,6 +107,8 @@ const TOPIC_ICONS = {
   泌尿系统: 'kidney',
   感觉系统: 'eye',
   中枢神经系统: 'grid',
+  '糖酵解与糖有氧氧化': 'spark',
+  '磷酸戊糖途径、糖异生与调控': 'grid',
 }
 
 const CORRECTIONS = {
@@ -587,7 +599,7 @@ function EvidencePanel({ subject, content, group, page, sourceName, submitted, s
         <div className="all-lectures">查看全部 {content.meta.lectureCount} 份讲义 <Icon name="right" size={15} /></div>
       </div>
       {currentEvidence && <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><span>讲义校对依据</span><strong>{currentEvidence.title}</strong><p>{currentEvidence.description}</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${currentEvidence.title}`}><img src={assetPath(currentEvidence.image)} alt={`${currentEvidence.title}原页`} /><span><Icon name="eye" size={16} />点击放大查看讲义原页</span></button></div>}
-      {showSourceEvidence ? <div className="evidence-section correction-section"><div className="evidence-title"><span className="correction-icon"><Icon name="alert" size={18} /></span><div><h2>勘误说明</h2><p>{reviewNotes.length ? `发现 ${reviewNotes.length} 条需同步修正` : (subject === 'physiology' ? '与今年讲义一致' : (submitted ? '已显示原题答案与讲义依据' : '提交后显示逐题核对'))}</p></div><button className="panel-close" aria-label="展开勘误"><Icon name="chevron" size={16} /></button></div><div className="correction-body"><div className="source-line"><span>原题来源</span><strong>{sourceName} · 第 {group.page} 页</strong></div><p>{subject === 'physiology' ? '该题组已与 2027 考研生理讲义逐项核对。若旧资料存在答案或排版问题，下方会保留修改原因和讲义依据。' : '该题组的蓝色答案已从原图保存。没有强行改成普通单选题；需要看到原图中的共用选项和题干关系时，可打开原题页。'}</p>{reviewNotes.map((note, index) => <div className="manual-note" key={`${group.id}-review-${index}`}><strong>{note.title}</strong><p>{note.body}</p></div>)}{subject === 'med' ? group.stems.map((stem, index) => { const note = CORRECTIONS[`${group.id}:${index}`]; return note ? <div className="manual-note" key={index}><strong>{note.title}</strong><p>{note.body}</p></div> : null }) : null}<button className="source-button" onClick={() => setShowSource(true)}><Icon name="eye" size={16} />查看原题页（第 {group.page} 页）</button></div></div> : null}
+      {showSourceEvidence ? <div className="evidence-section correction-section"><div className="evidence-title"><span className="correction-icon"><Icon name="alert" size={18} /></span><div><h2>勘误说明</h2><p>{reviewNotes.length ? `发现 ${reviewNotes.length} 条需同步修正` : (subject === 'physiology' ? '与今年讲义一致' : (submitted ? '已显示原题答案与讲义依据' : '提交后显示逐题核对'))}</p></div><button className="panel-close" aria-label="展开勘误"><Icon name="chevron" size={16} /></button></div><div className="correction-body"><div className="source-line"><span>原题来源</span><strong>{sourceName}{page?.image ? ` · 第 ${group.page} 页` : ''}</strong></div><p>{subject === 'biochemistry' ? '题库内容已录入网站，但未附加原始 DOCX；每题组均提供已核对的讲义原页。' : (subject === 'physiology' ? '该题组已与 2027 考研生理讲义逐项核对。若旧资料存在答案或排版问题，下方会保留修改原因和讲义依据。' : '该题组的蓝色答案已从原图保存。没有强行改成普通单选题；需要看到原图中的共用选项和题干关系时，可打开原题页。')}</p>{reviewNotes.map((note, index) => <div className="manual-note" key={`${group.id}-review-${index}`}><strong>{note.title}</strong><p>{note.body}</p></div>)}{subject === 'med' ? group.stems.map((stem, index) => { const note = CORRECTIONS[`${group.id}:${index}`]; return note ? <div className="manual-note" key={index}><strong>{note.title}</strong><p>{note.body}</p></div> : null }) : null}{page?.image && <button className="source-button" onClick={() => setShowSource(true)}><Icon name="eye" size={16} />查看原题页（第 {group.page} 页）</button>}</div></div> : null}
       {page?.image ? <div className="source-thumb"><img src={assetPath(page.image)} alt={`题库原题第 ${group.page} 页`} /><button onClick={() => setShowSource(true)}><Icon name="eye" size={16} /></button></div> : null}
     </aside>
   )
