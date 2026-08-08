@@ -27268,10 +27268,11 @@
             "E",
             "G",
             "H",
+            "J",
             "L",
             "N"
           ],
-          "sourceText": "S1减弱 BDEGHLN",
+          "sourceText": "S1减弱 BDEGHJLN（讲义：二闭、主闭、PR间期延长、心衰、冠心病、心肌病、心肌炎、甲减）",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -28284,8 +28285,8 @@
         },
         {
           "key": "H",
-          "label": "心尖搏动向右下移位",
-          "sourceText": "H.心尖搏动向右下移位"
+          "label": "心尖搏动多向左下移位",
+          "sourceText": "H.心尖搏动多向左下移位（讲义校对）"
         },
         {
           "key": "I",
@@ -28460,23 +28461,21 @@
         {
           "text": "水冲脉",
           "answer": [
-            "F",
             "H",
             "N"
           ],
-          "sourceText": "水冲脉 FHN",
+          "sourceText": "水冲脉 HN（讲义：甲亢、慢性主动脉瓣关闭不全）",
           "sourceY": 0,
           "answerMode": "多选"
         },
         {
           "text": "交替脉",
           "answer": [
-            "J",
             "L"
           ],
-          "sourceText": "交替脉 JL",
+          "sourceText": "交替脉 L（讲义：左心衰）",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "单选"
         },
         {
           "text": "奇脉",
@@ -29232,8 +29231,8 @@
         },
         {
           "key": "y",
-          "label": "儿童青少年钙化性少：分离术",
-          "sourceText": "y.儿童青少年钙化性少：分离术"
+          "label": "儿童青少年非钙化性：分离术",
+          "sourceText": "y.儿童青少年非钙化性：分离术"
         },
         {
           "key": "z",
@@ -29293,6 +29292,7 @@
             "g",
             "i",
             "k",
+            "l",
             "m",
             "q",
             "r",
