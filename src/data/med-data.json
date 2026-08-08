@@ -27722,38 +27722,38 @@
       "options": [
         {
           "key": "A",
-          "label": "肺动脉高压",
-          "sourceText": "A.肺动脉高压"
+          "label": "肺动脉瓣",
+          "sourceText": "A.肺动脉瓣"
         },
         {
           "key": "B",
-          "label": "房缺",
-          "sourceText": "B.房缺"
+          "label": "主动脉瓣第二听诊区",
+          "sourceText": "B.主动脉瓣第二听诊区"
         },
         {
           "key": "C",
-          "label": "肺狭",
-          "sourceText": "C.肺狭"
+          "label": "三尖瓣",
+          "sourceText": "C.三尖瓣"
         },
         {
           "key": "D",
-          "label": "高血压",
-          "sourceText": "D.高血压"
+          "label": "二尖瓣",
+          "sourceText": "D.二尖瓣"
         },
         {
           "key": "E",
-          "label": "右束支阻滞",
-          "sourceText": "E.右束支阻滞"
+          "label": "室间隔",
+          "sourceText": "E.室间隔"
         },
         {
           "key": "F",
-          "label": "主狭",
-          "sourceText": "F.主狭"
+          "label": "主动脉瓣第一听诊区",
+          "sourceText": "F.主动脉瓣第一听诊区"
         },
         {
           "key": "G",
-          "label": "二闭",
-          "sourceText": "G.二闭"
+          "label": "心脏裸区",
+          "sourceText": "G.心脏裸区"
         }
       ],
       "stems": [
@@ -27839,8 +27839,8 @@
       "options": [
         {
           "key": "A",
-          "label": "二尖瓣型",
-          "sourceText": "A.二尖瓣型"
+          "label": "一贯型",
+          "sourceText": "A.一贯型"
         },
         {
           "key": "B",
@@ -28418,8 +28418,8 @@
         },
         {
           "key": "J",
-          "label": "脉搏增强",
-          "sourceText": "J.脉搏增强"
+          "label": "脉搏增强、骤起骤落",
+          "sourceText": "J.脉搏增强、骤起骤落（讲义：水冲脉）"
         },
         {
           "key": "K",
@@ -28461,10 +28461,11 @@
         {
           "text": "水冲脉",
           "answer": [
+            "J",
             "H",
             "N"
           ],
-          "sourceText": "水冲脉 HN（讲义：甲亢、慢性主动脉瓣关闭不全）",
+          "sourceText": "水冲脉 JHN（讲义：脉搏增强，常见于甲亢、慢性主动脉瓣关闭不全）",
           "sourceY": 0,
           "answerMode": "多选"
         },
