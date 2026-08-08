@@ -57,11 +57,11 @@ const SUBJECTS = {
   },
   biochemistry: {
     label: '生化',
-    title: '生化-学成选择题（第一章讲义校对版）',
-    subtitle: '306 临床医学综合能力（生物化学）',
-    sectionLabel: '生化知识点',
+    title: '生化第 1 讲-学成选择题（讲义校对版）',
+    subtitle: '糖无氧氧化、糖有氧氧化、红细胞代谢与高能化合物',
+    sectionLabel: '第 1 讲知识点',
     content: biochemistryContent,
-    defaultTopic: '糖酵解与糖有氧氧化',
+    defaultTopic: '糖无氧氧化与糖有氧氧化',
     sourceName: '生化第一章学成选择题（修订扩充版）.docx',
   },
 }
@@ -107,8 +107,8 @@ const TOPIC_ICONS = {
   泌尿系统: 'kidney',
   感觉系统: 'eye',
   中枢神经系统: 'grid',
-  '糖酵解与糖有氧氧化': 'spark',
-  '磷酸戊糖途径、糖异生与调控': 'grid',
+  '糖无氧氧化与糖有氧氧化': 'spark',
+  '红细胞代谢与高能化合物': 'grid',
 }
 
 const CORRECTIONS = {
