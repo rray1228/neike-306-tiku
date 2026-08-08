@@ -9,21 +9,18 @@ from pathlib import Path
 
 
 EXPECTED = {
-    "ortho-infection-g01": ["ABCDEFGHIJ"],
-    "ortho-infection-g02": ["ABCDEFGH"],
-    "ortho-infection-g03": ["A"],
-    "ortho-infection-g04": ["A", "B", "C"],
-    "ortho-infection-g05": ["ABCDEF"],
-    "ortho-infection-g06": ["ABCDEFG"],
-    "ortho-infection-g07": ["G", "BEJL", "AC", "H", "I", "D", "F", "K"],
-    "ortho-infection-g08": ["D", "E", "ABCGHI", "F"],
-    "ortho-infection-g09": ["F", "BE", "AC", "DH", "G"],
-    "ortho-infection-g10": ["BCDGI", "AEFH"],
-    "ortho-infection-g11": ["C", "ABDE"],
-    "ortho-infection-g12": ["BCEFGH"],
-    "ortho-infection-g13": ["AE", "BCD"],
-    "ortho-infection-g14": ["ABCF", "CDE"],
-    "ortho-infection-g15": ["A", "C", "D", "B"],
+    "ortho-infection-g01": ["ADEGIJLMNO", "CEFHIKNO", "B"],
+    "ortho-infection-g02": ["B", "A", "C"],
+    "ortho-infection-g03": ["ADEGJK", "BCFHIKL"],
+    "ortho-infection-g04": ["G", "BEJL", "AC", "H", "I", "D", "F", "K"],
+    "ortho-infection-g05": ["D", "E", "ABCGHI", "F"],
+    "ortho-infection-g06": ["F", "BE", "AC", "DH", "G"],
+    "ortho-infection-g07": ["BCDGI", "AEFH"],
+    "ortho-infection-g08": ["C", "ABDE"],
+    "ortho-infection-g09": ["BCEFGH"],
+    "ortho-infection-g10": ["AE", "BCD"],
+    "ortho-infection-g11": ["ABCF", "CDE"],
+    "ortho-infection-g12": ["A", "C", "D", "B"],
 }
 
 
@@ -33,9 +30,9 @@ def main() -> None:
     payload = json.loads(path.read_text(encoding="utf-8"))
     groups = payload["groups"]
 
-    assert len(groups) == 15
+    assert len(groups) == 12
     assert sum(len(group["stems"]) for group in groups) == 38
-    assert sum(len(group["options"]) for group in groups) == 116
+    assert sum(len(group["options"]) for group in groups) == 96
     assert [group["id"] for group in groups] == list(EXPECTED)
     assert payload["meta"]["lecturePagesReviewed"] == [1, 2, 3, 4]
 
@@ -45,7 +42,7 @@ def main() -> None:
         assert group["reviewState"] == "已完成讲义校对"
         assert not group["reviewIssues"] and not group["reviewNotes"]
         assert group["hideSource"] is True
-        assert group["optionShuffleVersion"] == 1
+        assert group["optionShuffleVersion"] == 2
 
         option_keys = [option["key"] for option in group["options"]]
         source_keys = [option["sourceKey"] for option in group["options"]]
@@ -64,7 +61,7 @@ def main() -> None:
 
         evidence = group["lectureEvidence"]
         assert evidence["lectureId"] == "lecture-23"
-        assert evidence["page"] in {1, 2, 3, 4}
+        assert evidence["page"] in {1, 2, 3, 4, "1～2"}
         assert (root / "public" / evidence["image"]).exists(), f"{group['id']}: missing lecture image"
 
         values = [group["title"], group["sourceText"]]
@@ -72,7 +69,7 @@ def main() -> None:
         values.extend(stem["text"] for stem in group["stems"])
         assert not any(re.search(r"\s{2,}|[|•“”‘’]", value) for value in values), f"{group['id']}: punctuation or spacing issue"
 
-    print({"groups": 15, "stems": 38, "options": 116, "shuffled": 15, "status": "ok"})
+    print({"groups": 12, "stems": 38, "options": 96, "shuffled": 12, "status": "ok"})
 
 
 if __name__ == "__main__":
