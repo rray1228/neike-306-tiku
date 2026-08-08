@@ -3,6 +3,7 @@ import medContent from './data/med-data.json'
 import pathologyContent from './data/pathology-data.json'
 import surgeryContent from './data/surgery-data.json'
 import surgeryFractureContent from './data/surgery-fracture-data.json'
+import surgeryDeformityContent from './data/surgery-deformity-data.json'
 import surgeryGeneralContent from './data/surgery-general-data.json'
 import physiologyContent from './data/physiology-data.json'
 import biochemistryContent from './data/biochemistry-data.json'
@@ -15,7 +16,7 @@ const combinedSurgeryContent = {
     '外科总论',
     '综合',
   ],
-  groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryGeneralContent.groups],
+  groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryGeneralContent.groups],
 }
 
 const SUBJECTS = {
