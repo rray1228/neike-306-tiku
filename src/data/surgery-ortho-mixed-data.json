@@ -9,7 +9,7 @@
       5,
       6
     ],
-    "answerNote": "题干、选项与答案已按第22讲讲义逐项校对；共用选项固定打乱，排序题按真实顺序作答。"
+    "answerNote": "题干、选项与答案已按第22讲讲义逐项校对；第35～38组的周围神经损伤表格已合并为一个题组，共用选项固定打乱并同步重映射答案。"
   },
   "groups": [
     {
@@ -1506,355 +1506,162 @@
     {
       "id": "ortho-mixed-g15",
       "page": 0,
-      "title": "周围神经损伤 · 运动障碍",
+      "title": "周围神经损伤 · 运动、感觉与特殊提示",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "屈踝、屈趾障碍，呈钩状足",
-          "sourceText": "F. 屈踝、屈趾障碍，呈钩状足",
-          "sourceKey": "F",
-          "ocrScore": 1
-        },
-        {
-          "key": "B",
-          "label": "伸腕障碍（垂腕）、前臂旋后障碍；伸指障碍、拇指外展障碍",
-          "sourceText": "C. 伸腕障碍（垂腕）、前臂旋后障碍；伸指障碍、拇指外展障碍",
-          "sourceKey": "C",
-          "ocrScore": 1
-        },
-        {
-          "key": "C",
-          "label": "膝关节屈曲障碍",
-          "sourceText": "E. 膝关节屈曲障碍",
-          "sourceKey": "E",
-          "ocrScore": 1
-        },
-        {
-          "key": "D",
-          "label": "外翻、伸踝、伸趾障碍，呈马蹄内翻足和跨阈步态",
-          "sourceText": "G. 外翻、伸踝、伸趾障碍，呈马蹄内翻足和跨阈步态",
-          "sourceKey": "G",
-          "ocrScore": 1
-        },
-        {
-          "key": "E",
-          "label": "膝关节伸直障碍",
-          "sourceText": "D. 膝关节伸直障碍",
-          "sourceKey": "D",
-          "ocrScore": 1
-        },
-        {
-          "key": "F",
-          "label": "第4、5指爪形手、Froment征、夹纸试验；手指内收外展障碍、第4、5指屈曲障碍",
-          "sourceText": "B. 第4、5指爪形手、Froment征、夹纸试验；手指内收外展障碍、第4、5指屈曲障碍",
-          "sourceKey": "B",
-          "ocrScore": 1
-        },
-        {
-          "key": "G",
-          "label": "大鱼际萎缩、手掌平坦、拇指对掌障碍（猿手）；屈腕障碍、前臂旋前障碍、第1～3指屈曲障碍",
-          "sourceText": "A. 大鱼际萎缩、手掌平坦、拇指对掌障碍（猿手）；屈腕障碍、前臂旋前障碍、第1～3指屈曲障碍",
-          "sourceKey": "A",
-          "ocrScore": 1
-        }
-      ],
-      "stems": [
-        {
-          "text": "正中神经",
-          "answer": [
-            "G"
-          ],
-          "answerMode": "单选",
-          "sourceText": "正中神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "尺神经",
-          "answer": [
-            "F"
-          ],
-          "answerMode": "单选",
-          "sourceText": "尺神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "桡神经",
-          "answer": [
-            "B"
-          ],
-          "answerMode": "单选",
-          "sourceText": "桡神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "股神经",
-          "answer": [
-            "E"
-          ],
-          "answerMode": "单选",
-          "sourceText": "股神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "坐骨神经",
-          "answer": [
-            "C"
-          ],
-          "answerMode": "单选",
-          "sourceText": "坐骨神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "胫神经",
-          "answer": [
-            "A"
-          ],
-          "answerMode": "单选",
-          "sourceText": "胫神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "腓总神经",
-          "answer": [
-            "D"
-          ],
-          "answerMode": "单选",
-          "sourceText": "腓总神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        }
-      ],
-      "sourceText": "屈踝、屈趾障碍，呈钩状足；伸腕障碍（垂腕）、前臂旋后障碍；伸指障碍、拇指外展障碍；膝关节屈曲障碍；外翻、伸踝、伸趾障碍，呈马蹄内翻足和跨阈步态；膝关节伸直障碍；第4、5指爪形手、Froment征、夹纸试验；手指内收外展障碍、第4、5指屈曲障碍；大鱼际萎缩、手掌平坦、拇指对掌障碍（猿手）；屈腕障碍、前臂旋前障碍、第1～3指屈曲障碍；正中神经；尺神经；桡神经；股神经；坐骨神经；胫神经；腓总神经",
-      "reviewState": "已完成讲义校对",
-      "reviewIssues": [],
-      "reviewNotes": [],
-      "topic": "骨科",
-      "lectureIds": [
-        "lecture-22"
-      ],
-      "lectureEvidence": {
-        "lectureId": "lecture-22",
-        "page": 5,
-        "image": "surgery/lecture-pages/lecture-22-page-05.png",
-        "title": "第22讲第5页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
-        "description": "本题组已按第22讲对应讲义页逐项复核。"
-      },
-      "hideSource": true,
-      "optionShuffleVersion": 1,
-      "optionOriginalOrder": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ]
-    },
-    {
-      "id": "ortho-mixed-g16",
-      "page": 0,
-      "title": "周围神经损伤 · 感觉障碍",
-      "kind": "B",
-      "kindLabel": "B型题",
-      "options": [
-        {
-          "key": "A",
-          "label": "小腿前外侧、足背",
-          "sourceText": "G. 小腿前外侧、足背",
-          "sourceKey": "G",
-          "ocrScore": 1
-        },
-        {
-          "key": "B",
-          "label": "背面：桡侧1/2手（含虎口）、桡侧1/2手指",
-          "sourceText": "C. 背面：桡侧1/2手（含虎口）、桡侧1/2手指",
-          "sourceKey": "C",
-          "ocrScore": 1
-        },
-        {
-          "key": "C",
-          "label": "小腿后侧、足底",
-          "sourceText": "F. 小腿后侧、足底",
-          "sourceKey": "F",
-          "ocrScore": 1
-        },
-        {
-          "key": "D",
-          "label": "掌面：尺侧1/3手、尺侧1.5个手指；背面：尺侧1/2手、尺侧1/2手指",
-          "sourceText": "B. 掌面：尺侧1/3手、尺侧1.5个手指；背面：尺侧1/2手、尺侧1/2手指",
-          "sourceKey": "B",
-          "ocrScore": 1
-        },
-        {
-          "key": "E",
-          "label": "大腿前方、小腿内侧",
-          "sourceText": "D. 大腿前方、小腿内侧",
-          "sourceKey": "D",
-          "ocrScore": 1
-        },
-        {
-          "key": "F",
-          "label": "小腿后外侧、足部",
-          "sourceText": "E. 小腿后外侧、足部",
-          "sourceKey": "E",
-          "ocrScore": 1
-        },
-        {
-          "key": "G",
-          "label": "掌面：桡侧2/3手（含大鱼际）、桡侧3.5个手指",
-          "sourceText": "A. 掌面：桡侧2/3手（含大鱼际）、桡侧3.5个手指",
-          "sourceKey": "A",
-          "ocrScore": 1
-        }
-      ],
-      "stems": [
-        {
-          "text": "正中神经",
-          "answer": [
-            "G"
-          ],
-          "answerMode": "单选",
-          "sourceText": "正中神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "尺神经",
-          "answer": [
-            "D"
-          ],
-          "answerMode": "单选",
-          "sourceText": "尺神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "桡神经",
-          "answer": [
-            "B"
-          ],
-          "answerMode": "单选",
-          "sourceText": "桡神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "股神经",
-          "answer": [
-            "E"
-          ],
-          "answerMode": "单选",
-          "sourceText": "股神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "坐骨神经",
-          "answer": [
-            "F"
-          ],
-          "answerMode": "单选",
-          "sourceText": "坐骨神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "胫神经",
-          "answer": [
-            "C"
-          ],
-          "answerMode": "单选",
-          "sourceText": "胫神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "腓总神经",
-          "answer": [
-            "A"
-          ],
-          "answerMode": "单选",
-          "sourceText": "腓总神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        }
-      ],
-      "sourceText": "小腿前外侧、足背；背面：桡侧1/2手（含虎口）、桡侧1/2手指；小腿后侧、足底；掌面：尺侧1/3手、尺侧1.5个手指；背面：尺侧1/2手、尺侧1/2手指；大腿前方、小腿内侧；小腿后外侧、足部；掌面：桡侧2/3手（含大鱼际）、桡侧3.5个手指；正中神经；尺神经；桡神经；股神经；坐骨神经；胫神经；腓总神经",
-      "reviewState": "已完成讲义校对",
-      "reviewIssues": [],
-      "reviewNotes": [],
-      "topic": "骨科",
-      "lectureIds": [
-        "lecture-22"
-      ],
-      "lectureEvidence": {
-        "lectureId": "lecture-22",
-        "page": 5,
-        "image": "surgery/lecture-pages/lecture-22-page-05.png",
-        "title": "第22讲第5页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
-        "description": "本题组已按第22讲对应讲义页逐项复核。"
-      },
-      "hideSource": true,
-      "optionShuffleVersion": 1,
-      "optionOriginalOrder": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G"
-      ]
-    },
-    {
-      "id": "ortho-mixed-g17",
-      "page": 0,
-      "title": "周围神经损伤 · 特殊提示",
-      "kind": "B",
-      "kindLabel": "B型题",
-      "options": [
-        {
-          "key": "A",
-          "label": "仅腕部损伤：无第1～3指屈曲障碍",
-          "sourceText": "A. 仅腕部损伤：无第1～3指屈曲障碍",
+          "label": "大鱼际萎缩、手掌平坦；拇指对掌障碍（猿手）；屈腕、前臂旋前和第1～3指屈曲障碍",
+          "sourceText": "A. 大鱼际萎缩、手掌平坦；拇指对掌障碍（猿手）；屈腕、前臂旋前和第1～3指屈曲障碍",
           "sourceKey": "A",
           "ocrScore": 1
         },
         {
           "key": "B",
-          "label": "若仅桡骨头脱位致深支损伤：无伸腕障碍、无前臂旋后障碍、无感觉障碍",
-          "sourceText": "C. 若仅桡骨头脱位致深支损伤：无伸腕障碍、无前臂旋后障碍、无感觉障碍",
-          "sourceKey": "C",
-          "ocrScore": 1
-        },
-        {
-          "key": "C",
-          "label": "仅腕部损伤：无第4、5指屈曲障碍",
-          "sourceText": "B. 仅腕部损伤：无第4、5指屈曲障碍",
-          "sourceKey": "B",
-          "ocrScore": 1
-        },
-        {
-          "key": "D",
           "label": "背屈＝背伸＝伸",
-          "sourceText": "E. 背屈＝背伸＝伸",
-          "sourceKey": "E",
+          "sourceText": "S. 背屈＝背伸＝伸",
+          "sourceKey": "S",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "膝关节伸直障碍",
+          "sourceText": "J. 膝关节伸直障碍",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "小腿后外侧、足部感觉障碍",
+          "sourceText": "M. 小腿后外侧、足部感觉障碍",
+          "sourceKey": "M",
           "ocrScore": 1
         },
         {
           "key": "E",
-          "label": "跖屈＝屈",
-          "sourceText": "D. 跖屈＝屈",
+          "label": "肱骨中下1/3骨折可致桡神经损伤",
+          "sourceText": "T. 肱骨中下1/3骨折可致桡神经损伤",
+          "sourceKey": "T",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "仅桡骨头脱位致深支损伤时，无伸腕、前臂旋后和感觉障碍",
+          "sourceText": "I. 仅桡骨头脱位致深支损伤时，无伸腕、前臂旋后和感觉障碍",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "仅腕部损伤时无第1～3指屈曲障碍",
+          "sourceText": "C. 仅腕部损伤时无第1～3指屈曲障碍",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "第4、5指爪形手，Froment征、夹纸试验阳性；手指内收外展及第4、5指屈曲障碍",
+          "sourceText": "D. 第4、5指爪形手，Froment征、夹纸试验阳性；手指内收外展及第4、5指屈曲障碍",
           "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "小腿前外侧、足背感觉障碍",
+          "sourceText": "R. 小腿前外侧、足背感觉障碍",
+          "sourceKey": "R",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "背面桡侧1/2手（含虎口）及桡侧1/2手指感觉障碍",
+          "sourceText": "H. 背面桡侧1/2手（含虎口）及桡侧1/2手指感觉障碍",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "伸腕障碍（垂腕）、前臂旋后障碍；伸指及拇指外展障碍",
+          "sourceText": "G. 伸腕障碍（垂腕）、前臂旋后障碍；伸指及拇指外展障碍",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "大腿前方、小腿内侧感觉障碍",
+          "sourceText": "K. 大腿前方、小腿内侧感觉障碍",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "M",
+          "label": "仅腕部损伤时无第4、5指屈曲障碍",
+          "sourceText": "F. 仅腕部损伤时无第4、5指屈曲障碍",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "N",
+          "label": "膝关节屈曲障碍",
+          "sourceText": "L. 膝关节屈曲障碍",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "O",
+          "label": "小腿后侧、足底感觉障碍",
+          "sourceText": "O. 小腿后侧、足底感觉障碍",
+          "sourceKey": "O",
+          "ocrScore": 1
+        },
+        {
+          "key": "P",
+          "label": "肱骨髁上骨折可致桡神经损伤",
+          "sourceText": "U. 肱骨髁上骨折可致桡神经损伤",
+          "sourceKey": "U",
+          "ocrScore": 1
+        },
+        {
+          "key": "Q",
+          "label": "桡骨头脱位（肘部）可致桡神经损伤",
+          "sourceText": "V. 桡骨头脱位（肘部）可致桡神经损伤",
+          "sourceKey": "V",
+          "ocrScore": 1
+        },
+        {
+          "key": "R",
+          "label": "掌面尺侧1/3手及尺侧1.5个手指、背面尺侧1/2手及尺侧1/2手指感觉障碍",
+          "sourceText": "E. 掌面尺侧1/3手及尺侧1.5个手指、背面尺侧1/2手及尺侧1/2手指感觉障碍",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "S",
+          "label": "掌面桡侧2/3手（含大鱼际）及桡侧3.5个手指感觉障碍",
+          "sourceText": "B. 掌面桡侧2/3手（含大鱼际）及桡侧3.5个手指感觉障碍",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "T",
+          "label": "屈踝、屈趾障碍，呈钩状足",
+          "sourceText": "N. 屈踝、屈趾障碍，呈钩状足",
+          "sourceKey": "N",
+          "ocrScore": 1
+        },
+        {
+          "key": "U",
+          "label": "外翻、伸踝、伸趾障碍，呈马蹄内翻足和跨阈步态",
+          "sourceText": "Q. 外翻、伸踝、伸趾障碍，呈马蹄内翻足和跨阈步态",
+          "sourceKey": "Q",
+          "ocrScore": 1
+        },
+        {
+          "key": "V",
+          "label": "跖屈＝屈",
+          "sourceText": "P. 跖屈＝屈",
+          "sourceKey": "P",
           "ocrScore": 1
         }
       ],
@@ -1862,123 +1669,90 @@
         {
           "text": "正中神经",
           "answer": [
-            "A"
-          ],
-          "answerMode": "单选",
-          "sourceText": "正中神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "尺神经",
-          "answer": [
-            "C"
-          ],
-          "answerMode": "单选",
-          "sourceText": "尺神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "桡神经深支",
-          "answer": [
-            "B"
-          ],
-          "answerMode": "单选",
-          "sourceText": "桡神经深支",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "胫神经",
-          "answer": [
-            "E"
-          ],
-          "answerMode": "单选",
-          "sourceText": "胫神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "腓总神经",
-          "answer": [
-            "D"
-          ],
-          "answerMode": "单选",
-          "sourceText": "腓总神经",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        }
-      ],
-      "sourceText": "仅腕部损伤：无第1～3指屈曲障碍；若仅桡骨头脱位致深支损伤：无伸腕障碍、无前臂旋后障碍、无感觉障碍；仅腕部损伤：无第4、5指屈曲障碍；背屈＝背伸＝伸；跖屈＝屈；正中神经；尺神经；桡神经深支；胫神经；腓总神经",
-      "reviewState": "已完成讲义校对",
-      "reviewIssues": [],
-      "reviewNotes": [],
-      "topic": "骨科",
-      "lectureIds": [
-        "lecture-22"
-      ],
-      "lectureEvidence": {
-        "lectureId": "lecture-22",
-        "page": 5,
-        "image": "surgery/lecture-pages/lecture-22-page-05.png",
-        "title": "第22讲第5页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
-        "description": "本题组已按第22讲对应讲义页逐项复核。"
-      },
-      "hideSource": true,
-      "optionShuffleVersion": 1,
-      "optionOriginalOrder": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ]
-    },
-    {
-      "id": "ortho-mixed-g18",
-      "page": 0,
-      "title": "周围神经损伤 · 桡神经损伤的原因",
-      "kind": "B",
-      "kindLabel": "B型题",
-      "options": [
-        {
-          "key": "A",
-          "label": "桡骨头脱位（肘部）",
-          "sourceText": "C. 桡骨头脱位（肘部）",
-          "sourceKey": "C",
-          "ocrScore": 1
-        },
-        {
-          "key": "B",
-          "label": "肱骨中下1/3骨折",
-          "sourceText": "A. 肱骨中下1/3骨折",
-          "sourceKey": "A",
-          "ocrScore": 1
-        },
-        {
-          "key": "C",
-          "label": "肱骨髁上骨折",
-          "sourceText": "B. 肱骨髁上骨折",
-          "sourceKey": "B",
-          "ocrScore": 1
-        }
-      ],
-      "stems": [
-        {
-          "text": "桡神经损伤的原因",
-          "answer": [
-            "B",
-            "C",
-            "A"
+            "A",
+            "S",
+            "G"
           ],
           "answerMode": "多选",
-          "sourceText": "桡神经损伤的原因",
+          "sourceText": "正中神经",
           "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+          "reviewMethod": "已按第22讲第5页周围神经损伤表格逐项合并并完成选项重映射"
+        },
+        {
+          "text": "尺神经",
+          "answer": [
+            "H",
+            "R",
+            "M"
+          ],
+          "answerMode": "多选",
+          "sourceText": "尺神经",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲第5页周围神经损伤表格逐项合并并完成选项重映射"
+        },
+        {
+          "text": "桡神经",
+          "answer": [
+            "K",
+            "J",
+            "F",
+            "E",
+            "P",
+            "Q"
+          ],
+          "answerMode": "多选",
+          "sourceText": "桡神经",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲第5页周围神经损伤表格逐项合并并完成选项重映射"
+        },
+        {
+          "text": "股神经",
+          "answer": [
+            "C",
+            "L"
+          ],
+          "answerMode": "多选",
+          "sourceText": "股神经",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲第5页周围神经损伤表格逐项合并并完成选项重映射"
+        },
+        {
+          "text": "坐骨神经",
+          "answer": [
+            "N",
+            "D"
+          ],
+          "answerMode": "多选",
+          "sourceText": "坐骨神经",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲第5页周围神经损伤表格逐项合并并完成选项重映射"
+        },
+        {
+          "text": "胫神经",
+          "answer": [
+            "T",
+            "O",
+            "V"
+          ],
+          "answerMode": "多选",
+          "sourceText": "胫神经",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲第5页周围神经损伤表格逐项合并并完成选项重映射"
+        },
+        {
+          "text": "腓总神经",
+          "answer": [
+            "U",
+            "I",
+            "B"
+          ],
+          "answerMode": "多选",
+          "sourceText": "腓总神经",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲第5页周围神经损伤表格逐项合并并完成选项重映射"
         }
       ],
-      "sourceText": "桡骨头脱位（肘部）；肱骨中下1/3骨折；肱骨髁上骨折；桡神经损伤的原因",
+      "sourceText": "大鱼际萎缩、手掌平坦；拇指对掌障碍（猿手）；屈腕、前臂旋前和第1～3指屈曲障碍；掌面桡侧2/3手（含大鱼际）及桡侧3.5个手指感觉障碍；仅腕部损伤时无第1～3指屈曲障碍；第4、5指爪形手，Froment征、夹纸试验阳性；手指内收外展及第4、5指屈曲障碍；掌面尺侧1/3手及尺侧1.5个手指、背面尺侧1/2手及尺侧1/2手指感觉障碍；仅腕部损伤时无第4、5指屈曲障碍；伸腕障碍（垂腕）、前臂旋后障碍；伸指及拇指外展障碍；背面桡侧1/2手（含虎口）及桡侧1/2手指感觉障碍；仅桡骨头脱位致深支损伤时，无伸腕、前臂旋后和感觉障碍；膝关节伸直障碍；大腿前方、小腿内侧感觉障碍；膝关节屈曲障碍；小腿后外侧、足部感觉障碍；屈踝、屈趾障碍，呈钩状足；小腿后侧、足底感觉障碍；跖屈＝屈；外翻、伸踝、伸趾障碍，呈马蹄内翻足和跨阈步态；小腿前外侧、足背感觉障碍；背屈＝背伸＝伸；肱骨中下1/3骨折可致桡神经损伤；肱骨髁上骨折可致桡神经损伤；桡骨头脱位（肘部）可致桡神经损伤；正中神经；尺神经；桡神经；股神经；坐骨神经；胫神经；腓总神经",
       "reviewState": "已完成讲义校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -1990,15 +1764,34 @@
         "lectureId": "lecture-22",
         "page": 5,
         "image": "surgery/lecture-pages/lecture-22-page-05.png",
-        "title": "第22讲第5页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
-        "description": "本题组已按第22讲对应讲义页逐项复核。"
+        "title": "第22讲第5页 · 周围神经损伤",
+        "description": "第35～38组已按讲义表格合并为一个题组；各神经作为题干，运动、感觉、备注及桡神经损伤原因作为共用选项。"
       },
       "hideSource": true,
-      "optionShuffleVersion": 1,
+      "optionShuffleVersion": 2,
       "optionOriginalOrder": [
         "A",
         "B",
-        "C"
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V"
       ]
     },
     {
