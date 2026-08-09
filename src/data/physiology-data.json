@@ -7,7 +7,7 @@
     "lectureCount": 41,
     "groupCount": 160,
     "stemCount": 505,
-    "correctionGroupCount": 13,
+    "correctionGroupCount": 15,
     "generatedBy": "scripts/build_physiology_content.py",
     "siteIntegrated": true,
     "lectureLinked": true,
@@ -10645,7 +10645,7 @@
         },
         {
           "key": "C",
-          "label": "Ang",
+          "label": "血管紧张素Ⅱ（AngⅡ）",
           "sourceText": "C.Ang"
         },
         {
@@ -10684,12 +10684,11 @@
           "number": 1,
           "text": "刺激ADH 释放的因素(多选)",
           "sourceText": "1.刺激ADH 释放的因素(多选)：",
-          "answerRaw": "ABCGHI",
+          "answerRaw": "ABCHI",
           "answer": [
             "A",
             "B",
             "C",
-            "G",
             "H",
             "I"
           ],
@@ -10699,11 +10698,12 @@
           "number": 2,
           "text": "抑制ADH 释放的因素（多选）",
           "sourceText": "2.抑制ADH 释放的因素（多选）：",
-          "answerRaw": "DEF",
+          "answerRaw": "DEFG",
           "answer": [
             "D",
             "E",
-            "F"
+            "F",
+            "G"
           ],
           "answerMode": "多选"
         }
@@ -10711,7 +10711,104 @@
       "sourceText": "7. A.血浆晶体渗透压升高 B. 血容量下降 C.Ang D.乙醇 E.咖啡因 F.糖皮质激素 G.饮大量清水 H.高热 I. 严重呕吐腹泻 1.刺激ADH 释放的因素(多选)： 2.抑制ADH 释放的因素（多选）：",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        {
+          "title": "ADH 释放影响因素答案校正",
+          "body": "刺激 ADH 释放答案由 ABCGHI 校正为 ABCHI；抑制 ADH 释放答案由 DEF 校正为 DEFG，并规范 AngⅡ 名称。 依据：今年讲义明确：血浆晶体渗透压升高、血容量下降、AngⅡ、高热及严重呕吐腹泻可促进 ADH 释放；乙醇、咖啡因、糖皮质激素及大量饮清水导致的晶体渗透压下降可抑制 ADH 释放。",
+          "lectureId": "lecture-26",
+          "lecturePages": [
+            9
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "血浆晶体渗透压升高"
+              },
+              {
+                "key": "B",
+                "label": "血容量下降"
+              },
+              {
+                "key": "C",
+                "label": "Ang"
+              },
+              {
+                "key": "D",
+                "label": "乙醇"
+              },
+              {
+                "key": "E",
+                "label": "咖啡因"
+              },
+              {
+                "key": "F",
+                "label": "糖皮质激素"
+              },
+              {
+                "key": "G",
+                "label": "饮大量清水"
+              },
+              {
+                "key": "H",
+                "label": "高热"
+              },
+              {
+                "key": "I",
+                "label": "严重呕吐腹泻"
+              }
+            ],
+            "answers": [
+              "ABCGHI",
+              "DEF"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "血浆晶体渗透压升高"
+              },
+              {
+                "key": "B",
+                "label": "血容量下降"
+              },
+              {
+                "key": "C",
+                "label": "血管紧张素Ⅱ（AngⅡ）"
+              },
+              {
+                "key": "D",
+                "label": "乙醇"
+              },
+              {
+                "key": "E",
+                "label": "咖啡因"
+              },
+              {
+                "key": "F",
+                "label": "糖皮质激素"
+              },
+              {
+                "key": "G",
+                "label": "饮大量清水"
+              },
+              {
+                "key": "H",
+                "label": "高热"
+              },
+              {
+                "key": "I",
+                "label": "严重呕吐腹泻"
+              }
+            ],
+            "answers": [
+              "ABCHI",
+              "DEFG"
+            ]
+          }
+        }
+      ],
       "topic": "泌尿系统",
       "lectureIds": [
         "lecture-26"
@@ -10721,8 +10818,8 @@
         "lectureNumber": 26,
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 9,
-        "score": 0.2963,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "score": 0.2943,
+        "method": "按今年讲义原文人工复核并定位"
       }
     },
     {
@@ -11576,13 +11673,14 @@
       "stems": [
         {
           "number": 1,
-          "text": "影响髓质间液高渗维持",
+          "text": "影响髓质间液高渗维持（多选）",
           "sourceText": "1.影响髓质间液高渗维持：",
-          "answerRaw": "D",
+          "answerRaw": "CD",
           "answer": [
+            "C",
             "D"
           ],
-          "answerMode": "单选"
+          "answerMode": "多选"
         },
         {
           "number": 2,
@@ -11598,11 +11696,10 @@
           "number": 3,
           "text": "影响髓质间液高渗形成(多选)",
           "sourceText": "3.影响髓质间液高渗形成(多选)：",
-          "answerRaw": "ABC",
+          "answerRaw": "AB",
           "answer": [
             "A",
-            "B",
-            "C"
+            "B"
           ],
           "answerMode": "多选"
         }
@@ -11610,7 +11707,74 @@
       "sourceText": "17. A.呋塞米 B.营养不良 C.肾血流量或速度明显↓ D.直小血管血流量或速度↑ E.尿崩症 1.影响髓质间液高渗维持： 2.影响集合管对水通透性： 3.影响髓质间液高渗形成(多选)：",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": [
+        {
+          "title": "髓质高渗形成与维持分类校正",
+          "body": "影响髓质间液高渗维持改为多选 CD；影响高渗形成答案由 ABC 校正为 AB。 依据：今年讲义将直小血管血流量或速度升高、肾血流量或速度明显下降均列为影响髓质高渗维持；呋塞米和营养不良列为影响高渗形成。尿崩症仍影响集合管对水的通透性。",
+          "lectureId": "lecture-26",
+          "lecturePages": [
+            14
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "呋塞米"
+              },
+              {
+                "key": "B",
+                "label": "营养不良"
+              },
+              {
+                "key": "C",
+                "label": "肾血流量或速度明显↓"
+              },
+              {
+                "key": "D",
+                "label": "直小血管血流量或速度↑"
+              },
+              {
+                "key": "E",
+                "label": "尿崩症"
+              }
+            ],
+            "answers": [
+              "D",
+              "E",
+              "ABC"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "呋塞米"
+              },
+              {
+                "key": "B",
+                "label": "营养不良"
+              },
+              {
+                "key": "C",
+                "label": "肾血流量或速度明显↓"
+              },
+              {
+                "key": "D",
+                "label": "直小血管血流量或速度↑"
+              },
+              {
+                "key": "E",
+                "label": "尿崩症"
+              }
+            ],
+            "answers": [
+              "CD",
+              "E",
+              "AB"
+            ]
+          }
+        }
+      ],
       "topic": "泌尿系统",
       "lectureIds": [
         "lecture-26"
@@ -11620,8 +11784,8 @@
         "lectureNumber": 26,
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 14,
-        "score": 0.2967,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "score": 0.2959,
+        "method": "按今年讲义原文人工复核并定位"
       }
     },
     {

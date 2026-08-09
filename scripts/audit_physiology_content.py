@@ -10,7 +10,7 @@ from pathlib import Path
 
 EXPECTED_CORRECTIONS = {
     "phys-002", "phys-006", "phys-024", "phys-070", "phys-085", "phys-087", "phys-089",
-    "phys-090", "phys-093", "phys-111", "phys-112", "phys-118", "phys-136",
+    "phys-090", "phys-093", "phys-100", "phys-110", "phys-111", "phys-112", "phys-118", "phys-136",
 }
 
 
@@ -31,13 +31,26 @@ def main() -> None:
 
     corrected_ids = {record["id"] for record in reconciliation["corrections"]}
     assert corrected_ids == EXPECTED_CORRECTIONS, (corrected_ids, EXPECTED_CORRECTIONS)
-    assert reconciliation["statusSummary"] == {"与今年讲义一致": 147, "已校正": 13}
+    assert reconciliation["statusSummary"] == {"与今年讲义一致": 145, "已校正": 15}
 
     platelet_group = next(group for group in payload["groups"] if group["id"] == "phys-024")
     assert platelet_group["stems"][3]["answer"] == list("ACDE")
     assert platelet_group["stems"][3]["answerRaw"] == "ACDE"
     assert platelet_group["lectureEvidence"]["lectureNumber"] == 7
     assert platelet_group["lectureEvidence"]["page"] == 4
+
+    adh_group = next(group for group in payload["groups"] if group["id"] == "phys-100")
+    assert adh_group["options"][2]["label"] == "血管紧张素Ⅱ（AngⅡ）"
+    assert adh_group["stems"][0]["answer"] == list("ABCHI")
+    assert adh_group["stems"][1]["answer"] == list("DEFG")
+    assert adh_group["lectureEvidence"]["page"] == 9
+
+    medulla_group = next(group for group in payload["groups"] if group["id"] == "phys-110")
+    assert medulla_group["stems"][0]["text"] == "影响髓质间液高渗维持（多选）"
+    assert medulla_group["stems"][0]["answer"] == list("CD")
+    assert medulla_group["stems"][1]["answer"] == list("E")
+    assert medulla_group["stems"][2]["answer"] == list("AB")
+    assert medulla_group["lectureEvidence"]["page"] == 14
 
     missing_images = []
     duplicate_option_keys = []

@@ -126,6 +126,26 @@ CORRECTIONS = {
         "pages": [3],
         "option_labels": {"A": "HCl"},
     },
+    "phys-100": {
+        "title": "ADH 释放影响因素答案校正",
+        "summary": "刺激 ADH 释放答案由 ABCGHI 校正为 ABCHI；抑制 ADH 释放答案由 DEF 校正为 DEFG，并规范 AngⅡ 名称。",
+        "basis": "今年讲义明确：血浆晶体渗透压升高、血容量下降、AngⅡ、高热及严重呕吐腹泻可促进 ADH 释放；乙醇、咖啡因、糖皮质激素及大量饮清水导致的晶体渗透压下降可抑制 ADH 释放。",
+        "lecture": 26,
+        "pages": [9],
+        "evidence_page": 9,
+        "option_labels": {"C": "血管紧张素Ⅱ（AngⅡ）"},
+        "answers": {0: list("ABCHI"), 1: list("DEFG")},
+    },
+    "phys-110": {
+        "title": "髓质高渗形成与维持分类校正",
+        "summary": "影响髓质间液高渗维持改为多选 CD；影响高渗形成答案由 ABC 校正为 AB。",
+        "basis": "今年讲义将直小血管血流量或速度升高、肾血流量或速度明显下降均列为影响髓质高渗维持；呋塞米和营养不良列为影响高渗形成。尿崩症仍影响集合管对水的通透性。",
+        "lecture": 26,
+        "pages": [14],
+        "evidence_page": 14,
+        "stem_texts": {0: "影响髓质间液高渗维持（多选）"},
+        "answers": {0: list("CD"), 2: list("AB")},
+    },
     "phys-111": {
         "title": "内髓高渗动力答案校正",
         "summary": "集合管内髓部水重吸收动力答案 AC→AB。",
@@ -290,6 +310,8 @@ def apply_correction(group: dict) -> list[dict]:
             option["label"] = replacement
     for index, answer in correction.get("answers", {}).items():
         set_answer(group["stems"][index], answer)
+    for index, text in correction.get("stem_texts", {}).items():
+        group["stems"][index]["text"] = text
     group["answerRaw"] = "、".join("".join(stem.get("answer", [])) for stem in group["stems"])
     note = {
         "title": correction["title"],

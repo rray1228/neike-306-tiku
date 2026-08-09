@@ -7,15 +7,15 @@
     "lectureCount": 41,
     "groupCount": 160,
     "stemCount": 505,
-    "correctionGroupCount": 13,
+    "correctionGroupCount": 15,
     "generatedBy": "scripts/build_physiology_content.py",
     "siteIntegrated": true,
     "lectureLinked": true,
     "answerNote": "去年学成选择题已逐组映射至 2027 考研生理讲义；发现的答案、选项字母和文字问题均以可追溯勘误形式同步修正。"
   },
   "statusSummary": {
-    "与今年讲义一致": 147,
-    "已校正": 13
+    "与今年讲义一致": 145,
+    "已校正": 15
   },
   "corrections": [
     {
@@ -885,6 +885,200 @@
             "answers": [
               "CH",
               "DE"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-100",
+      "topic": "泌尿系统",
+      "sourcePage": 83,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 9,
+        "score": 0.2943,
+        "method": "按今年讲义原文人工复核并定位"
+      },
+      "corrections": [
+        {
+          "title": "ADH 释放影响因素答案校正",
+          "body": "刺激 ADH 释放答案由 ABCGHI 校正为 ABCHI；抑制 ADH 释放答案由 DEF 校正为 DEFG，并规范 AngⅡ 名称。 依据：今年讲义明确：血浆晶体渗透压升高、血容量下降、AngⅡ、高热及严重呕吐腹泻可促进 ADH 释放；乙醇、咖啡因、糖皮质激素及大量饮清水导致的晶体渗透压下降可抑制 ADH 释放。",
+          "lectureId": "lecture-26",
+          "lecturePages": [
+            9
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "血浆晶体渗透压升高"
+              },
+              {
+                "key": "B",
+                "label": "血容量下降"
+              },
+              {
+                "key": "C",
+                "label": "Ang"
+              },
+              {
+                "key": "D",
+                "label": "乙醇"
+              },
+              {
+                "key": "E",
+                "label": "咖啡因"
+              },
+              {
+                "key": "F",
+                "label": "糖皮质激素"
+              },
+              {
+                "key": "G",
+                "label": "饮大量清水"
+              },
+              {
+                "key": "H",
+                "label": "高热"
+              },
+              {
+                "key": "I",
+                "label": "严重呕吐腹泻"
+              }
+            ],
+            "answers": [
+              "ABCGHI",
+              "DEF"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "血浆晶体渗透压升高"
+              },
+              {
+                "key": "B",
+                "label": "血容量下降"
+              },
+              {
+                "key": "C",
+                "label": "血管紧张素Ⅱ（AngⅡ）"
+              },
+              {
+                "key": "D",
+                "label": "乙醇"
+              },
+              {
+                "key": "E",
+                "label": "咖啡因"
+              },
+              {
+                "key": "F",
+                "label": "糖皮质激素"
+              },
+              {
+                "key": "G",
+                "label": "饮大量清水"
+              },
+              {
+                "key": "H",
+                "label": "高热"
+              },
+              {
+                "key": "I",
+                "label": "严重呕吐腹泻"
+              }
+            ],
+            "answers": [
+              "ABCHI",
+              "DEFG"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-110",
+      "topic": "泌尿系统",
+      "sourcePage": 90,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 14,
+        "score": 0.2959,
+        "method": "按今年讲义原文人工复核并定位"
+      },
+      "corrections": [
+        {
+          "title": "髓质高渗形成与维持分类校正",
+          "body": "影响髓质间液高渗维持改为多选 CD；影响高渗形成答案由 ABC 校正为 AB。 依据：今年讲义将直小血管血流量或速度升高、肾血流量或速度明显下降均列为影响髓质高渗维持；呋塞米和营养不良列为影响高渗形成。尿崩症仍影响集合管对水的通透性。",
+          "lectureId": "lecture-26",
+          "lecturePages": [
+            14
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "呋塞米"
+              },
+              {
+                "key": "B",
+                "label": "营养不良"
+              },
+              {
+                "key": "C",
+                "label": "肾血流量或速度明显↓"
+              },
+              {
+                "key": "D",
+                "label": "直小血管血流量或速度↑"
+              },
+              {
+                "key": "E",
+                "label": "尿崩症"
+              }
+            ],
+            "answers": [
+              "D",
+              "E",
+              "ABC"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "呋塞米"
+              },
+              {
+                "key": "B",
+                "label": "营养不良"
+              },
+              {
+                "key": "C",
+                "label": "肾血流量或速度明显↓"
+              },
+              {
+                "key": "D",
+                "label": "直小血管血流量或速度↑"
+              },
+              {
+                "key": "E",
+                "label": "尿崩症"
+              }
+            ],
+            "answers": [
+              "CD",
+              "E",
+              "AB"
             ]
           }
         }
@@ -3594,11 +3788,108 @@
         "lectureNumber": 26,
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 9,
-        "score": 0.2963,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "score": 0.2943,
+        "method": "按今年讲义原文人工复核并定位"
       },
-      "corrections": [],
-      "status": "与今年讲义一致"
+      "corrections": [
+        {
+          "title": "ADH 释放影响因素答案校正",
+          "body": "刺激 ADH 释放答案由 ABCGHI 校正为 ABCHI；抑制 ADH 释放答案由 DEF 校正为 DEFG，并规范 AngⅡ 名称。 依据：今年讲义明确：血浆晶体渗透压升高、血容量下降、AngⅡ、高热及严重呕吐腹泻可促进 ADH 释放；乙醇、咖啡因、糖皮质激素及大量饮清水导致的晶体渗透压下降可抑制 ADH 释放。",
+          "lectureId": "lecture-26",
+          "lecturePages": [
+            9
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "血浆晶体渗透压升高"
+              },
+              {
+                "key": "B",
+                "label": "血容量下降"
+              },
+              {
+                "key": "C",
+                "label": "Ang"
+              },
+              {
+                "key": "D",
+                "label": "乙醇"
+              },
+              {
+                "key": "E",
+                "label": "咖啡因"
+              },
+              {
+                "key": "F",
+                "label": "糖皮质激素"
+              },
+              {
+                "key": "G",
+                "label": "饮大量清水"
+              },
+              {
+                "key": "H",
+                "label": "高热"
+              },
+              {
+                "key": "I",
+                "label": "严重呕吐腹泻"
+              }
+            ],
+            "answers": [
+              "ABCGHI",
+              "DEF"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "血浆晶体渗透压升高"
+              },
+              {
+                "key": "B",
+                "label": "血容量下降"
+              },
+              {
+                "key": "C",
+                "label": "血管紧张素Ⅱ（AngⅡ）"
+              },
+              {
+                "key": "D",
+                "label": "乙醇"
+              },
+              {
+                "key": "E",
+                "label": "咖啡因"
+              },
+              {
+                "key": "F",
+                "label": "糖皮质激素"
+              },
+              {
+                "key": "G",
+                "label": "饮大量清水"
+              },
+              {
+                "key": "H",
+                "label": "高热"
+              },
+              {
+                "key": "I",
+                "label": "严重呕吐腹泻"
+              }
+            ],
+            "answers": [
+              "ABCHI",
+              "DEFG"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
     },
     {
       "id": "phys-101",
@@ -3744,11 +4035,78 @@
         "lectureNumber": 26,
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 14,
-        "score": 0.2967,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "score": 0.2959,
+        "method": "按今年讲义原文人工复核并定位"
       },
-      "corrections": [],
-      "status": "与今年讲义一致"
+      "corrections": [
+        {
+          "title": "髓质高渗形成与维持分类校正",
+          "body": "影响髓质间液高渗维持改为多选 CD；影响高渗形成答案由 ABC 校正为 AB。 依据：今年讲义将直小血管血流量或速度升高、肾血流量或速度明显下降均列为影响髓质高渗维持；呋塞米和营养不良列为影响高渗形成。尿崩症仍影响集合管对水的通透性。",
+          "lectureId": "lecture-26",
+          "lecturePages": [
+            14
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "呋塞米"
+              },
+              {
+                "key": "B",
+                "label": "营养不良"
+              },
+              {
+                "key": "C",
+                "label": "肾血流量或速度明显↓"
+              },
+              {
+                "key": "D",
+                "label": "直小血管血流量或速度↑"
+              },
+              {
+                "key": "E",
+                "label": "尿崩症"
+              }
+            ],
+            "answers": [
+              "D",
+              "E",
+              "ABC"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "呋塞米"
+              },
+              {
+                "key": "B",
+                "label": "营养不良"
+              },
+              {
+                "key": "C",
+                "label": "肾血流量或速度明显↓"
+              },
+              {
+                "key": "D",
+                "label": "直小血管血流量或速度↑"
+              },
+              {
+                "key": "E",
+                "label": "尿崩症"
+              }
+            ],
+            "answers": [
+              "CD",
+              "E",
+              "AB"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
     },
     {
       "id": "phys-111",
