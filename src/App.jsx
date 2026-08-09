@@ -13,6 +13,7 @@ import surgeryDegenerativeSpineContent from './data/surgery-degenerative-spine-d
 import surgeryLimbFractureContent from './data/surgery-limb-fracture-data.json'
 import surgeryGeneralContent from './data/surgery-general-data.json'
 import surgeryGeneralCoreContent from './data/surgery-general-core-data.js'
+import { surgeryGeneralInfectionGroups, surgeryGeneralLaterGroups } from './data/surgery-general-late-data.js'
 import physiologyContent from './data/physiology-data.json'
 import biochemistryContent from './data/biochemistry-data.json'
 
@@ -24,7 +25,7 @@ const combinedSurgeryContent = {
     '外科总论',
     '综合',
   ],
-  groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryNonpurulentArthritisContent.groups, ...surgeryBoneTumorContent.groups, ...surgeryTrunkSpineContent.groups, ...surgeryDegenerativeSpineContent.groups, ...surgeryLimbFractureContent.groups, ...surgeryGeneralCoreContent.groups, ...surgeryGeneralContent.groups],
+  groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryNonpurulentArthritisContent.groups, ...surgeryBoneTumorContent.groups, ...surgeryTrunkSpineContent.groups, ...surgeryDegenerativeSpineContent.groups, ...surgeryLimbFractureContent.groups, ...surgeryGeneralCoreContent.groups, ...surgeryGeneralInfectionGroups, ...surgeryGeneralContent.groups, ...surgeryGeneralLaterGroups],
 }
 
 const SUBJECTS = {
