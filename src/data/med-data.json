@@ -3642,8 +3642,8 @@
         },
         {
           "key": "G",
-          "label": "杀死细胞外TB",
-          "sourceText": "G.杀死细胞外TB"
+          "label": "杀死细胞内外TB",
+          "sourceText": "G.杀死细胞内外TB"
         },
         {
           "key": "H",
