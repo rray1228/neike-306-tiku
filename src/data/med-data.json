@@ -30014,11 +30014,6 @@
           "key": "L",
           "label": "典型心电图：病理Q多无、ST段压低≥0.1mV、T波倒置",
           "sourceText": "L.典型心电图：病理Q多无、ST段压低≥0.1mV、T波倒置"
-        },
-        {
-          "key": "M",
-          "label": "最有价值",
-          "sourceText": "M.最有价值"
         }
       ],
       "stems": [

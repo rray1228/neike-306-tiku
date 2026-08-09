@@ -95,7 +95,7 @@ def main() -> None:
     assert by_id["p20-g1"]["topic"] == "消化" and by_id["p20-g2"]["topic"] == "消化"
     assert by_id["p85-g1"]["stems"][1]["answer"] == list("ABDFJLNSUaegikmqrv①")
     assert by_id["p87-g3"]["options"][3]["label"] == "明显诱因胸痛，多持续3～5分钟"
-    assert [option["key"] for option in by_id["p88-g1"]["options"]] == list("ABCDEFGHIJKLM")
+    assert [option["key"] for option in by_id["p88-g1"]["options"]] == list("ABCDEFGHIJKL")
 
     all_text = " ".join(stem.get("text", "") for group in payload["groups"] for stem in group.get("stems", []))
     for garble in ("结节病分期：；IC；I", "皮肤发钳", "黄痘", "I川"):

@@ -188,7 +188,7 @@ const CORRECTIONS = {
   },
   'p88-g1:0': {
     title: '原题页校对 · NSTEMI 与 STEMI 选项',
-    body: '已逐项对照第88页原题和冠心病讲义：A～M 选项均已保留，NSTEMI 对应 BDEGIL，STEMI 对应 ACFHJK；没有删除或错位选项。',
+    body: '已逐项对照第88页原题和冠心病讲义：本题组选项为 A～L；原先误把下一组心肌坏死标志物题的 M“最有价值”合并进来，现已删除。NSTEMI 对应 BDEGIL，STEMI 对应 ACFHJK。',
   },
   'p11-g2:3': {
     title: '讲义校对 · 首选药物',
