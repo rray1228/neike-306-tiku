@@ -3679,13 +3679,13 @@
           "answerMode": "多选"
         },
         {
-          "text": "利福霉素类如利福平R和利福喷丁",
+          "text": "利福霉素类（如利福平和利福喷丁）",
           "answer": [
             "E",
             "G",
             "J"
           ],
-          "sourceText": "利福霉素类如利福平R和利福喷丁EGJ",
+          "sourceText": "利福霉素类（如利福平和利福喷丁）EGJ",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -3710,12 +3710,12 @@
           "answerMode": "多选"
         },
         {
-          "text": "乙胺丁醇E",
+          "text": "乙胺丁醇",
           "answer": [
             "F",
             "K"
           ],
-          "sourceText": "乙胺丁醇EFK",
+          "sourceText": "乙胺丁醇FK",
           "sourceY": 0,
           "answerMode": "多选"
         }
@@ -3724,12 +3724,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-08"
       ]
     },
     {
