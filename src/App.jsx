@@ -6,6 +6,7 @@ import surgeryFractureContent from './data/surgery-fracture-data.json'
 import surgeryDeformityContent from './data/surgery-deformity-data.json'
 import surgeryOrthoMixedContent from './data/surgery-ortho-mixed-data.json'
 import surgeryOrthoInfectionContent from './data/surgery-ortho-infection-data.json'
+import surgeryNonpurulentArthritisContent from './data/surgery-nonpurulent-arthritis-data.json'
 import surgeryGeneralContent from './data/surgery-general-data.json'
 import physiologyContent from './data/physiology-data.json'
 import biochemistryContent from './data/biochemistry-data.json'
@@ -18,7 +19,7 @@ const combinedSurgeryContent = {
     '外科总论',
     '综合',
   ],
-  groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryGeneralContent.groups],
+  groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryNonpurulentArthritisContent.groups, ...surgeryGeneralContent.groups],
 }
 
 const SUBJECTS = {
