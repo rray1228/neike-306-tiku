@@ -153,11 +153,11 @@ const CORRECTIONS = {
   },
   'p83-g4:1': {
     title: '讲义校对 · 水冲脉',
-    body: '水冲脉表现为脉搏增强，讲义列出的常见相关疾病为甲亢和慢性主动脉瓣关闭不全，规范答案为 J、H、N；已删除与水冲脉无关的 F（脉搏短绌）。',
+    body: '水冲脉的特征是脉搏骤起骤落，讲义列出的常见相关疾病为甲亢和慢性主动脉瓣关闭不全，已单列 P 选项，规范答案为 P、H、N。',
   },
   'p83-g4:2': {
     title: '讲义校对 · 交替脉',
-    body: '交替脉的核心表现是脉搏强弱交替，讲义对应左心衰（L），已改为单选 L。',
+    body: '交替脉的核心表现是脉搏强弱交替（J），常见于左心衰（L），规范答案为 J、L。',
   },
   'p85-g1:1': {
     title: '讲义校对 · 二尖瓣关闭不全',
@@ -328,6 +328,7 @@ function App() {
     const stored = window.localStorage.getItem('med-sidebar-collapsed')
     return stored === null ? false : readLocalStorage('med-sidebar-collapsed', false)
   })
+  const [evidenceCollapsed, setEvidenceCollapsed] = useState(() => readLocalStorage('med-evidence-collapsed', false))
 
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('study-subject', JSON.stringify(subject)) }, [subject])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-selections', JSON.stringify(selections)) }, [selections])
@@ -339,6 +340,7 @@ function App() {
   }, [favorites])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-notes', JSON.stringify(notes)) }, [notes])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-sidebar-collapsed', JSON.stringify(sidebarCollapsed)) }, [sidebarCollapsed])
+  useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-evidence-collapsed', JSON.stringify(evidenceCollapsed)) }, [evidenceCollapsed])
 
   const favoriteCounts = useMemo(() => {
     const byTopic = {}
@@ -495,7 +497,7 @@ function App() {
         </div>
       </header>
 
-      <div className={`workspace ${sidebarCollapsed ? 'sidebar-collapsed' : ''}`}>
+      <div className={`workspace ${sidebarCollapsed ? 'sidebar-collapsed' : ''} ${evidenceCollapsed ? 'evidence-collapsed' : ''}`}>
         <aside className="sidebar">
           <div className="sidebar-heading"><div className="sidebar-title">{subjectConfig.sectionLabel}</div><button className="sidebar-toggle" onClick={() => setSidebarCollapsed((value) => !value)} aria-label={sidebarCollapsed ? '展开章节目录' : '收起章节目录'}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={17} /></button></div>
           <nav className="topic-nav">
@@ -553,7 +555,7 @@ function App() {
           </div>}
         </main>
 
-        {filteredGroups.length ? <EvidencePanel subject={subject} content={content} group={group} page={currentPage} sourceName={group.sourceName || subjectConfig.sourceName} submitted={isSubmitted} setShowSource={setShowSource} setShowLectureEvidence={setShowLectureEvidence} mobileEvidence={mobileEvidence} setMobileEvidence={setMobileEvidence} /> : <EmptyEvidence subjectConfig={subjectConfig} />}
+        {filteredGroups.length ? <EvidencePanel subject={subject} content={content} group={group} page={currentPage} sourceName={group.sourceName || subjectConfig.sourceName} submitted={isSubmitted} setShowSource={setShowSource} setShowLectureEvidence={setShowLectureEvidence} mobileEvidence={mobileEvidence} setMobileEvidence={setMobileEvidence} evidenceCollapsed={evidenceCollapsed} setEvidenceCollapsed={setEvidenceCollapsed} /> : <EmptyEvidence subjectConfig={subjectConfig} evidenceCollapsed={evidenceCollapsed} setEvidenceCollapsed={setEvidenceCollapsed} />}
       </div>
 
       {showSource && currentPage && <SourceModal group={group} page={currentPage} sourceName={group.sourceName || subjectConfig.sourceName} onClose={() => setShowSource(false)} />}
@@ -618,26 +620,33 @@ function StemRow({ subject, group, stem, index, selection, submitted, onSelect, 
   )
 }
 
-function EvidencePanel({ subject, content, group, page, sourceName, submitted, setShowSource, setShowLectureEvidence, mobileEvidence, setMobileEvidence }) {
+function EvidencePanel({ subject, content, group, page, sourceName, submitted, setShowSource, setShowLectureEvidence, mobileEvidence, setMobileEvidence, evidenceCollapsed, setEvidenceCollapsed }) {
   const lectureItems = group.lectureIds.map((id) => content.lectures.find((lecture) => lecture.id === id)).filter(Boolean)
   const reviewNotes = group.reviewNotes || []
   const currentEvidence = group.lectureEvidence
   const showSourceEvidence = !group.hideSource
   return (
-    <aside className={`evidence-panel ${mobileEvidence ? 'mobile-visible' : ''}`}>
-      <div className="evidence-section evidence-section-top"><div className="evidence-title"><span className="evidence-icon"><Icon name="check" size={18} /></span><div><h2>讲义依据</h2><p>{lectureItems.length ? `已关联 ${lectureItems.length} 份讲义` : '按章节关联讲义'}</p></div><span className="verified-dot"><Icon name="check" size={13} /></span><button className="panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="chevron" size={16} /></button></div>
+    <aside className={`evidence-panel ${mobileEvidence ? 'mobile-visible' : ''} ${evidenceCollapsed ? 'is-collapsed' : ''}`}>
+      <div className="evidence-rail">
+        <button className="evidence-toggle" onClick={() => setEvidenceCollapsed(false)} aria-label="展开讲义栏" aria-expanded="false" title="展开讲义栏"><Icon name="left" size={17} /></button>
+        <span className="evidence-rail-icon"><Icon name="file" size={18} /></span>
+        <span className="evidence-rail-label">讲义</span>
+      </div>
+      <div className="evidence-panel-content">
+      <div className="evidence-section evidence-section-top"><div className="evidence-title"><span className="evidence-icon"><Icon name="check" size={18} /></span><div><h2>讲义依据</h2><p>{lectureItems.length ? `已关联 ${lectureItems.length} 份讲义` : '按章节关联讲义'}</p></div><span className="verified-dot"><Icon name="check" size={13} /></span><button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏" aria-expanded="true" title="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="chevron" size={16} /></button></div>
         {lectureItems.slice(0, 4).map((lecture) => <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 讲 · {currentEvidence?.lectureId === lecture.id ? `对应第 ${currentEvidence.page} 页` : `共 ${lecture.pageCount} 页`}</span></div><span className="relevance">已核对</span></div>)}
         <div className="all-lectures">查看全部 {content.meta.lectureCount} 份讲义 <Icon name="right" size={15} /></div>
       </div>
       {currentEvidence && <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><span>讲义校对依据</span><strong>{currentEvidence.title}</strong><p>{currentEvidence.description}</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${currentEvidence.title}`}><img src={assetPath(currentEvidence.image)} alt={`${currentEvidence.title}原页`} /><span><Icon name="eye" size={16} />点击放大查看讲义原页</span></button></div>}
       {showSourceEvidence ? <div className="evidence-section correction-section"><div className="evidence-title"><span className="correction-icon"><Icon name="alert" size={18} /></span><div><h2>勘误说明</h2><p>{reviewNotes.length ? `发现 ${reviewNotes.length} 条需同步修正` : (subject === 'physiology' ? '与今年讲义一致' : (submitted ? '已显示原题答案与讲义依据' : '提交后显示逐题核对'))}</p></div><button className="panel-close" aria-label="展开勘误"><Icon name="chevron" size={16} /></button></div><div className="correction-body"><div className="source-line"><span>原题来源</span><strong>{sourceName}{page?.image ? ` · 第 ${group.page} 页` : ''}</strong></div><p>{subject === 'biochemistry' ? '题库内容已录入网站，但未附加原始 DOCX；每题组均提供已核对的讲义原页。' : (subject === 'physiology' ? '该题组已与 2027 考研生理讲义逐项核对。若旧资料存在答案或排版问题，下方会保留修改原因和讲义依据。' : '该题组的蓝色答案已从原图保存。没有强行改成普通单选题；需要看到原图中的共用选项和题干关系时，可打开原题页。')}</p>{reviewNotes.map((note, index) => <div className="manual-note" key={`${group.id}-review-${index}`}><strong>{note.title}</strong><p>{note.body}</p></div>)}{subject === 'med' ? group.stems.map((stem, index) => { const note = CORRECTIONS[`${group.id}:${index}`]; return note ? <div className="manual-note" key={index}><strong>{note.title}</strong><p>{note.body}</p></div> : null }) : null}{page?.image && <button className="source-button" onClick={() => setShowSource(true)}><Icon name="eye" size={16} />查看原题页（第 {group.page} 页）</button>}</div></div> : null}
       {page?.image ? <div className="source-thumb"><img src={assetPath(page.image)} alt={`题库原题第 ${group.page} 页`} /><button onClick={() => setShowSource(true)}><Icon name="eye" size={16} /></button></div> : null}
+      </div>
     </aside>
   )
 }
 
-function EmptyEvidence({ subjectConfig }) {
-  return <aside className="evidence-panel empty-evidence"><div className="evidence-section"><div className="evidence-title"><span className="evidence-icon"><Icon name="file" size={18} /></span><div><h2>暂无讲义匹配</h2><p>当前筛选没有题组</p></div></div><div className="empty-evidence-body">切换章节或清除筛选后，这里会显示对应的{subjectConfig.label}讲义依据。</div></div></aside>
+function EmptyEvidence({ subjectConfig, evidenceCollapsed, setEvidenceCollapsed }) {
+  return <aside className={`evidence-panel empty-evidence ${evidenceCollapsed ? 'is-collapsed' : ''}`}><div className="evidence-rail"><button className="evidence-toggle" onClick={() => setEvidenceCollapsed(false)} aria-label="展开讲义栏" aria-expanded="false" title="展开讲义栏"><Icon name="left" size={17} /></button><span className="evidence-rail-icon"><Icon name="file" size={18} /></span><span className="evidence-rail-label">讲义</span></div><div className="evidence-panel-content"><div className="evidence-section"><div className="evidence-title"><span className="evidence-icon"><Icon name="file" size={18} /></span><div><h2>暂无讲义匹配</h2><p>当前筛选没有题组</p></div><button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏" aria-expanded="true" title="收起讲义栏"><Icon name="right" size={17} /></button></div><div className="empty-evidence-body">切换章节或清除筛选后，这里会显示对应的{subjectConfig.label}讲义依据。</div></div></div></aside>
 }
 
 function SourceModal({ group, page, sourceName, onClose }) {
