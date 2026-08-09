@@ -7,7 +7,7 @@
     "lectureCount": 38,
     "generatedBy": "scripts/build_surgery_content.py",
     "siteIntegrated": true,
-    "answerNote": "按原题页横向题组提取；答案与选项池不一致或识别不清的题干不自动判分，保留原题页供继续校对。"
+    "answerNote": "甲状腺疾病9个题组已按题库原页和第1讲讲义逐项人工复核；TNM下标、升降箭头、罗马数字、选项字母及乱码均已校正。其余题组沿用既有复核状态。"
   },
   "topics": [
     "全部",
@@ -210,21 +210,21 @@
       "options": [
         {
           "key": "A",
-          "label": "患侧叶或部分切+冰冻切片",
-          "sourceText": "A.患侧叶或部分切+冰冻切片",
-          "ocrScore": 0.5
+          "label": "患侧叶切除或部分切除＋术中冰冻切片",
+          "sourceText": "A. 患侧叶切除或部分切除＋术中冰冻切片",
+          "ocrScore": 1
         },
         {
           "key": "B",
-          "label": "全切、近全切",
-          "sourceText": "B.全切、近全切",
-          "ocrScore": 1.0
+          "label": "全甲状腺切除或双侧甲状腺近全切除",
+          "sourceText": "B. 全甲状腺切除或双侧甲状腺近全切除",
+          "ocrScore": 1
         },
         {
           "key": "C",
-          "label": "根据病变范围不同可选择腺叶部分、腺叶、次全、近全、或全切除术",
-          "sourceText": "C.根据病变范围不同可选择腺叶部分、腺叶、次全、近全、或全切除术",
-          "ocrScore": 1.0
+          "label": "根据病变范围选择腺叶部分切除、腺叶切除、次全切除、近全切除或全切除术",
+          "sourceText": "C. 根据病变范围选择腺叶部分切除、腺叶切除、次全切除、近全切除或全切除术",
+          "ocrScore": 1
         }
       ],
       "stems": [
@@ -234,9 +234,9 @@
             "B"
           ],
           "answerMode": "单选",
-          "sourceText": "原发性甲亢首选 B",
-          "sourceY": 45.62567309129601,
-          "ocrScore": 0.5
+          "sourceText": "原发性甲亢首选",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
           "text": "高功能腺瘤首选",
@@ -244,28 +244,36 @@
             "A"
           ],
           "answerMode": "单选",
-          "sourceText": "高功能腺瘤首选 A",
-          "sourceY": 78.83045878921783,
-          "ocrScore": 0.5
+          "sourceText": "高功能腺瘤首选",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
-          "text": "结甲继发甲亢",
+          "text": "结节性甲状腺肿继发甲亢",
           "answer": [
             "C"
           ],
           "answerMode": "单选",
-          "sourceText": "结甲继发甲亢 C",
-          "sourceY": 112.67895687566596,
-          "ocrScore": 1.0
+          "sourceText": "结节性甲状腺肿继发甲亢",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         }
       ],
-      "sourceText": "甲状腺疾疲 | 甲亢的外科治疗 | 原发性甲亢首选 | B | 高功能腺瘤首选 A | A.患侧叶或部分切+冰冻切片 | B.全切、近全切 | 结甲继发甲亢 | C | C.根据病变范围不同可选择腺叶部分、腺叶、次全、近全、或全切除术",
-      "reviewState": "已完成结构校对",
+      "sourceText": "患侧叶切除或部分切除＋术中冰冻切片；全甲状腺切除或双侧甲状腺近全切除；根据病变范围选择腺叶部分切除、腺叶切除、次全切除、近全切除或全切除术；原发性甲亢首选；高功能腺瘤首选；结节性甲状腺肿继发甲亢",
+      "reviewState": "已按原题页及讲义逐项复核",
       "reviewIssues": [],
+      "reviewNotes": [],
       "topic": "颈部疾病",
       "lectureIds": [
         "lecture-01"
-      ]
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-01-page-01.png",
+        "title": "第1讲第1页 · 甲状腺疾病",
+        "description": "本题组已按题库原页和第1讲对应讲义页逐项复核，乱码、上下标、箭头及答案字母均已校正。"
+      }
     },
     {
       "id": "p01-g2",
@@ -276,15 +284,15 @@
       "options": [
         {
           "key": "A",
-          "label": "先抗甲状腺药、后加用碘剂2周",
-          "sourceText": "A.先抗甲状腺药、后加用碘剂2周",
-          "ocrScore": 1.0
+          "label": "先用抗甲状腺药，后加用碘剂2周",
+          "sourceText": "A. 先用抗甲状腺药，后加用碘剂2周",
+          "ocrScore": 1
         },
         {
           "key": "B",
           "label": "单用抗甲状腺药",
-          "sourceText": "B.单用抗甲状腺药",
-          "ocrScore": 1.0
+          "sourceText": "B. 单用抗甲状腺药",
+          "ocrScore": 1
         }
       ],
       "stems": [
@@ -294,9 +302,9 @@
             "A"
           ],
           "answerMode": "单选",
-          "sourceText": "原发性甲亢 A",
-          "sourceY": 231.6799871125304,
-          "ocrScore": 1.0
+          "sourceText": "原发性甲亢",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
           "text": "继发性甲亢",
@@ -304,9 +312,9 @@
             "B"
           ],
           "answerMode": "单选",
-          "sourceText": "继发性甲亢 B",
-          "sourceY": 266.2700045958155,
-          "ocrScore": 1.0
+          "sourceText": "继发性甲亢",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
           "text": "高功能腺瘤",
@@ -314,68 +322,84 @@
             "B"
           ],
           "answerMode": "单选",
-          "sourceText": "高功能腺瘤 B",
-          "sourceY": 300.2862047712617,
-          "ocrScore": 1.0
+          "sourceText": "高功能腺瘤",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         }
       ],
-      "sourceText": "甲亢术前用药 | 原发性甲亢 | A | A.先抗甲状腺药、后加用碘剂2周 | B.单用抗甲状腺药 | 继发性甲亢 | B | 高功能腺瘤 | B",
-      "reviewState": "已完成结构校对",
+      "sourceText": "先用抗甲状腺药，后加用碘剂2周；单用抗甲状腺药；原发性甲亢；继发性甲亢；高功能腺瘤",
+      "reviewState": "已按原题页及讲义逐项复核",
       "reviewIssues": [],
+      "reviewNotes": [],
       "topic": "颈部疾病",
       "lectureIds": [
         "lecture-01"
-      ]
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-01-page-02.png",
+        "title": "第1讲第2页 · 甲状腺疾病",
+        "description": "本题组已按题库原页和第1讲对应讲义页逐项复核，乱码、上下标、箭头及答案字母均已校正。"
+      }
     },
     {
       "id": "p01-g3",
       "page": 1,
-      "title": "＜55岁的分化型甲状腺癌（乳头状癌，滤泡癌）",
+      "title": "＜55岁的分化型甲状腺癌（乳头状癌、滤泡癌）分期",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "任何TNMi",
-          "sourceText": "A.任何TNMi",
-          "ocrScore": 0.3
+          "label": "任何TNM₁（有远处转移）",
+          "sourceText": "A. 任何TNM₁（有远处转移）",
+          "ocrScore": 1
         },
         {
           "key": "B",
-          "label": "任何TNMo",
-          "sourceText": "B.任何TNMo",
-          "ocrScore": 0.5
+          "label": "任何TNM₀（无远处转移）",
+          "sourceText": "B. 任何TNM₀（无远处转移）",
+          "ocrScore": 1
         }
       ],
       "stems": [
         {
-          "text": "I期",
+          "text": "Ⅰ期",
           "answer": [
             "B"
           ],
           "answerMode": "单选",
-          "sourceText": "I期（B）",
-          "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "sourceText": "Ⅰ期",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
-          "text": "II期",
+          "text": "Ⅱ期",
           "answer": [
             "A"
           ],
           "answerMode": "单选",
-          "sourceText": "II期（A）",
-          "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "sourceText": "Ⅱ期",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         }
       ],
-      "sourceText": "＜55岁的分化型甲状腺癌（乳头状癌，滤泡癌）| A.任何TNMi | I期 | B.任何TNMo | II期 | A",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "任何TNM₁（有远处转移）；任何TNM₀（无远处转移）；Ⅰ期；Ⅱ期",
+      "reviewState": "已按原题页及讲义逐项复核",
       "reviewIssues": [],
+      "reviewNotes": [],
       "topic": "颈部疾病",
       "lectureIds": [
         "lecture-01"
-      ]
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-01-page-02.png",
+        "title": "第1讲第2页 · 甲状腺疾病",
+        "description": "本题组已按题库原页和第1讲对应讲义页逐项复核，乱码、上下标、箭头及答案字母均已校正。"
+      }
     },
     {
       "id": "p01-g4",
@@ -387,85 +411,85 @@
         {
           "key": "A",
           "label": "双侧癌结节",
-          "sourceText": "A.双侧癌结节",
-          "ocrScore": 1.0
+          "sourceText": "A. 双侧癌结节",
+          "ocrScore": 1
         },
         {
           "key": "B",
-          "label": "肿瘤<1cm",
-          "sourceText": "B.肿瘤<1cm",
-          "ocrScore": 1.0
+          "label": "肿瘤＜1 cm",
+          "sourceText": "B. 肿瘤＜1 cm",
+          "ocrScore": 1
         },
         {
           "key": "C",
-          "label": "肿瘤>4cm",
-          "sourceText": "C.肿瘤>4cm",
-          "ocrScore": 1.0
+          "label": "肿瘤＞4 cm",
+          "sourceText": "C. 肿瘤＞4 cm",
+          "ocrScore": 1
         },
         {
           "key": "D",
           "label": "无明显临床淋巴结转移",
-          "sourceText": "D.无明显临床淋巴结转移",
-          "ocrScore": 1.0
+          "sourceText": "D. 无明显临床淋巴结转移",
+          "ocrScore": 1
         },
         {
           "key": "E",
-          "label": "双侧颈多发淋巴结转移",
-          "sourceText": "E.双侧颈多发淋巴结转移",
-          "ocrScore": 1.0
+          "label": "双侧颈部多发淋巴结转移",
+          "sourceText": "E. 双侧颈部多发淋巴结转移",
+          "ocrScore": 1
         },
         {
           "key": "F",
           "label": "无远处转移",
-          "sourceText": "F.无远处转移",
-          "ocrScore": 1.0
+          "sourceText": "F. 无远处转移",
+          "ocrScore": 1
         },
         {
           "key": "G",
           "label": "有远处转移",
-          "sourceText": "G.有远处转移",
-          "ocrScore": 1.0
+          "sourceText": "G. 有远处转移",
+          "ocrScore": 1
         },
         {
           "key": "H",
-          "label": "肉眼可见的甲状腺外侵犯如甲状腺周围软组织/胸骨甲状肌/甲状舌骨肌",
-          "sourceText": "H.肉眼可见的甲状腺外侵犯如甲状腺周围软组织/胸骨甲状肌/甲状舌骨肌",
-          "ocrScore": 1.0
+          "label": "肉眼可见甲状腺外侵犯，如侵犯甲状腺周围软组织、胸骨甲状肌或甲状舌骨肌",
+          "sourceText": "H. 肉眼可见甲状腺外侵犯，如侵犯甲状腺周围软组织、胸骨甲状肌或甲状舌骨肌",
+          "ocrScore": 1
         },
         {
           "key": "I",
           "label": "无甲状腺外侵犯",
-          "sourceText": "1.无甲状腺外侵犯",
-          "ocrScore": 0.5
+          "sourceText": "I. 无甲状腺外侵犯",
+          "ocrScore": 1
         },
         {
           "key": "J",
           "label": "有颈部放射史",
-          "sourceText": "J.有颈部放射史",
-          "ocrScore": 1.0
+          "sourceText": "J. 有颈部放射史",
+          "ocrScore": 1
         },
         {
           "key": "K",
           "label": "无颈部放射史",
-          "sourceText": "K.无颈部放射史",
-          "ocrScore": 0.5
+          "sourceText": "K. 无颈部放射史",
+          "ocrScore": 1
         },
         {
           "key": "L",
-          "label": "预后不良的病理类型如高细胞型/柱状细胞型",
-          "sourceText": "L.预后不良的病理类型如高细胞型/柱状细胞型",
-          "ocrScore": 1.0
+          "label": "预后不良的病理类型，如高细胞型或柱状细胞型",
+          "sourceText": "L. 预后不良的病理类型，如高细胞型或柱状细胞型",
+          "ocrScore": 1
         },
         {
           "key": "M",
           "label": "无不良病理类型",
-          "sourceText": "M.无不良病理类型",
-          "ocrScore": 0.5
+          "sourceText": "M. 无不良病理类型",
+          "ocrScore": 1
         }
       ],
       "stems": [
         {
-          "text": "双侧全切或患侧叶全切+峡部+对侧叶近全切",
+          "text": "双侧全切，或患侧叶全切＋峡部切除＋对侧叶近全切",
           "answer": [
             "A",
             "C",
@@ -476,12 +500,12 @@
             "L"
           ],
           "answerMode": "多选",
-          "sourceText": "双侧全切或患侧叶全切+峡部+对侧叶近全圾ACEGHJL",
-          "sourceY": 477.71257917303154,
-          "ocrScore": 0.5
+          "sourceText": "双侧全切，或患侧叶全切＋峡部切除＋对侧叶近全切",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
-          "text": "患侧叶全切+峡部",
+          "text": "患侧叶全切＋峡部切除",
           "answer": [
             "B",
             "D",
@@ -491,55 +515,63 @@
             "M"
           ],
           "answerMode": "多选",
-          "sourceText": "患侧叶全切+峡部（BDFIKM",
-          "sourceY": 512.333985638932,
-          "ocrScore": 0.3
+          "sourceText": "患侧叶全切＋峡部切除",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         }
       ],
-      "sourceText": "A.双侧癌结节 | 分化型甲状腺癌（乳头状癌、滤泡癌）切除范围 | B.肿瘤<1cm | 双侧全切或患侧叶全切+峡部+对侧叶近全圾ACEGHJL | C.肿瘤>4cm | D.无明显临床淋巴结转移 | 患侧叶全切+峡部（| BDFIKM | E.双侧颈多发淋巴结转移 | F.无远处转移 | G.有远处转移 | H.肉眼可见的甲状腺外侵犯如甲状腺周围软组织/胸骨甲状肌/甲状舌骨肌 | 1.无甲状腺外侵犯 | J.有颈部放射史 | K.无颈部放射史 | L.预后不良的病理类型如高细胞型/柱状细胞型 | M.无不良病理类型",
-      "reviewState": "已完成结构校对",
+      "sourceText": "双侧癌结节；肿瘤＜1 cm；肿瘤＞4 cm；无明显临床淋巴结转移；双侧颈部多发淋巴结转移；无远处转移；有远处转移；肉眼可见甲状腺外侵犯，如侵犯甲状腺周围软组织、胸骨甲状肌或甲状舌骨肌；无甲状腺外侵犯；有颈部放射史；无颈部放射史；预后不良的病理类型，如高细胞型或柱状细胞型；无不良病理类型；双侧全切，或患侧叶全切＋峡部切除＋对侧叶近全切；患侧叶全切＋峡部切除",
+      "reviewState": "已按原题页及讲义逐项复核",
       "reviewIssues": [],
+      "reviewNotes": [],
       "topic": "颈部疾病",
       "lectureIds": [
         "lecture-01"
-      ]
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-01-page-03.png",
+        "title": "第1讲第3页 · 甲状腺疾病",
+        "description": "本题组已按题库原页和第1讲对应讲义页逐项复核，乱码、上下标、箭头及答案字母均已校正。"
+      }
     },
     {
       "id": "p01-g5",
       "page": 1,
-      "title": "分化型甲状腺癌（乳头状癌、滤泡癌）术后甲状腺素：预防甲减、防止复发",
+      "title": "分化型甲状腺癌术后甲状腺素治疗",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "抑制TSH0.5-2",
-          "sourceText": "A.抑制TSH0.5-2",
-          "ocrScore": 0.5
+          "label": "将TSH抑制至0.5～2",
+          "sourceText": "A. 将TSH抑制至0.5～2",
+          "ocrScore": 1
         },
         {
           "key": "B",
-          "label": "抑制5-10年、后改为替代治疗",
-          "sourceText": "B.抑制5-10年、后改为替代治疗",
-          "ocrScore": 1.0
+          "label": "抑制治疗5～10年，之后改为替代治疗",
+          "sourceText": "B. 抑制治疗5～10年，之后改为替代治疗",
+          "ocrScore": 1
         },
         {
           "key": "C",
-          "label": "抑制TSH<0.1",
-          "sourceText": "C.抑制TSH<0.1",
-          "ocrScore": 0.5
+          "label": "将TSH抑制至＜0.1",
+          "sourceText": "C. 将TSH抑制至＜0.1",
+          "ocrScore": 1
         },
         {
           "key": "D",
           "label": "终生抑制",
-          "sourceText": "D.终生抑制",
-          "ocrScore": 0.5
+          "sourceText": "D. 终生抑制",
+          "ocrScore": 1
         },
         {
           "key": "E",
-          "label": "抑制TSH0.1-0.5",
-          "sourceText": "E.抑制TSH0.1-0.5",
-          "ocrScore": 0.5
+          "label": "将TSH抑制至0.1～0.5",
+          "sourceText": "E. 将TSH抑制至0.1～0.5",
+          "ocrScore": 1
         }
       ],
       "stems": [
@@ -550,9 +582,9 @@
             "D"
           ],
           "answerMode": "多选",
-          "sourceText": "复发风险高危CD",
-          "sourceY": 769.3852760255501,
-          "ocrScore": 1.0
+          "sourceText": "复发风险高危",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
           "text": "复发风险中危",
@@ -561,9 +593,9 @@
             "E"
           ],
           "answerMode": "多选",
-          "sourceText": "复发风险中危 DE",
-          "sourceY": 803.2591022484485,
-          "ocrScore": 0.3
+          "sourceText": "复发风险中危",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
           "text": "复发风险低危",
@@ -572,98 +604,106 @@
             "B"
           ],
           "answerMode": "多选",
-          "sourceText": "复发风险低危 AB",
-          "sourceY": 837.04566205554,
-          "ocrScore": 0.5
+          "sourceText": "复发风险低危",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         }
       ],
-      "sourceText": "分化型甲状腺癌（乳头状癌、滤泡癌）术后甲状腺素：预防甲减、防止复发 | A.抑制TSH0.5-2 | 复发风险高危CD | B.抑制5-10年、后改为替代治疗 | C.抑制TSH<0.1 | 复发风险中危 | DE | D.终生抑制 | E.抑制TSH0.1-0.5 | 复发风险低危 | AB | 红书号",
-      "reviewState": "已完成结构校对",
+      "sourceText": "将TSH抑制至0.5～2；抑制治疗5～10年，之后改为替代治疗；将TSH抑制至＜0.1；终生抑制；将TSH抑制至0.1～0.5；复发风险高危；复发风险中危；复发风险低危",
+      "reviewState": "已按原题页及讲义逐项复核",
       "reviewIssues": [],
+      "reviewNotes": [],
       "topic": "颈部疾病",
       "lectureIds": [
         "lecture-01"
-      ]
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-01-page-03.png",
+        "title": "第1讲第3页 · 甲状腺疾病",
+        "description": "本题组已按题库原页和第1讲对应讲义页逐项复核，乱码、上下标、箭头及答案字母均已校正。"
+      }
     },
     {
       "id": "p02-g1",
       "page": 2,
-      "title": "单纯性甲状腺肿/弥漫性非毒性甲状腺肿",
+      "title": "甲状腺肿与甲状腺炎",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "病因：缺碘、甲状腺素合成或分泌障碍、甲状腺素需求增多（青春期/妊娠等）",
-          "sourceText": "A.病因：缺碘、甲状腺素合成或分泌障碍、甲状腺素需求增多（青春期/妊娠等）",
-          "ocrScore": 1.0
+          "label": "病因包括缺碘、甲状腺素合成或分泌障碍、甲状腺素需求增多（青春期、妊娠等）",
+          "sourceText": "A. 病因包括缺碘、甲状腺素合成或分泌障碍、甲状腺素需求增多（青春期、妊娠等）",
+          "ocrScore": 1
         },
         {
           "key": "B",
-          "label": "结甲一胸骨后甲状腺肿、继发甲亢、恶变、退变（囊性变/片状钙化/纤维化）等",
-          "sourceText": "B.结甲一胸骨后甲状腺肿、继发甲亢、恶变、退变（囊性变/片状钙化/纤维化）等",
-          "ocrScore": 1.0
+          "label": "结甲→胸骨后甲状腺肿、继发甲亢、恶变或退变（囊性变、片状钙化、纤维化）等",
+          "sourceText": "B. 结甲→胸骨后甲状腺肿、继发甲亢、恶变或退变（囊性变、片状钙化、纤维化）等",
+          "ocrScore": 1
         },
         {
           "key": "C",
-          "label": "常有1-3周前驱感染（病毒感染等）",
-          "sourceText": "C.常有1-3周前驱感染（病毒感染等）",
-          "ocrScore": 0.5
+          "label": "常有1～3周前驱感染（病毒感染等）",
+          "sourceText": "C. 常有1～3周前驱感染（病毒感染等）",
+          "ocrScore": 1
         },
         {
           "key": "D",
-          "label": "部分滤泡被破坏（胶质外溢）一分离现象：：BMR/T3/T4个、摄碘率」",
-          "sourceText": "D.部分滤泡被破坏（胶质外溢）一分离现象：：BMR/T3/T4个、摄碘率」",
-          "ocrScore": 0.5
+          "label": "部分滤泡被破坏、胶质外溢，出现分离现象：BMR、T₃、T₄↑，摄碘率↓",
+          "sourceText": "D. 部分滤泡被破坏、胶质外溢，出现分离现象：BMR、T₃、T₄↑，摄碘率↓",
+          "ocrScore": 1
         },
         {
           "key": "E",
-          "label": "甲状腺肿大：早期双侧弥漫肿大、后期少数可变为结甲",
-          "sourceText": "E.甲状腺肿大：早期双侧弥漫肿大、后期少数可变为结甲",
-          "ocrScore": 1.0
+          "label": "甲状腺早期双侧弥漫肿大，后期少数可变为结节性甲状腺肿",
+          "sourceText": "E. 甲状腺早期双侧弥漫肿大，后期少数可变为结节性甲状腺肿",
+          "ocrScore": 1
         },
         {
           "key": "F",
-          "label": "甲减的表现：BMR、T3、T4、摄碘率均』",
-          "sourceText": "F.甲减的表现：BMR、T3、T4、摄碘率均』",
-          "ocrScore": 0.5
+          "label": "甲减表现：BMR、T₃、T₄、摄碘率均↓",
+          "sourceText": "F. 甲减表现：BMR、T₃、T₄、摄碘率均↓",
+          "ocrScore": 1
         },
         {
           "key": "G",
-          "label": "囊性变伴囊内出血一结节迅速增大、胀痛",
-          "sourceText": "G.囊性变伴囊内出血一结节迅速增大、胀痛",
-          "ocrScore": 1.0
+          "label": "囊性变伴囊内出血→结节迅速增大、胀痛",
+          "sourceText": "G. 囊性变伴囊内出血→结节迅速增大、胀痛",
+          "ocrScore": 1
         },
         {
           "key": "H",
-          "label": "甲状腺迅速肿大、痛：单侧或双侧不对称肿大、可摸到结节",
-          "sourceText": "H.甲状腺迅速肿大、痛：单侧或双侧不对称肿大、可摸到结节",
-          "ocrScore": 1.0
+          "label": "甲状腺迅速肿大并疼痛，呈单侧或双侧不对称肿大，可触及结节",
+          "sourceText": "H. 甲状腺迅速肿大并疼痛，呈单侧或双侧不对称肿大，可触及结节",
+          "ocrScore": 1
         },
         {
           "key": "I",
-          "label": "甲状腺双侧弥漫肿大、质地坚韧，广泛滤泡被破坏、伴大量淋巴细胞浸润和淋巴滤泡",
-          "sourceText": "1.甲状腺双侧弥漫肿大、质地坚韧，广泛滤泡被破坏、伴大量淋巴细胞浸润和淋巴滤泡",
-          "ocrScore": 1.0
+          "label": "甲状腺双侧弥漫肿大、质地坚韧；广泛滤泡被破坏，伴大量淋巴细胞浸润和淋巴滤泡形成",
+          "sourceText": "I. 甲状腺双侧弥漫肿大、质地坚韧；广泛滤泡被破坏，伴大量淋巴细胞浸润和淋巴滤泡形成",
+          "ocrScore": 1
         },
         {
           "key": "J",
-          "label": "TPOAb（90%）",
-          "sourceText": "J.TPOAb（90%）",
-          "ocrScore": 1.0
+          "label": "TPOAb阳性（约90%）",
+          "sourceText": "J. TPOAb阳性（约90%）",
+          "ocrScore": 1
         }
       ],
       "stems": [
         {
-          "text": "单纯性甲状腺肿/弥漫性非毒性甲状腺肿",
+          "text": "单纯性甲状腺肿（弥漫性非毒性甲状腺肿）",
           "answer": [
             "A",
             "E"
           ],
           "answerMode": "多选",
-          "sourceText": "单纯性甲状腺肿/弥漫性非毒性甲状腺肿（AE）",
-          "sourceY": 242.65818647618474,
-          "ocrScore": 0.5
+          "sourceText": "单纯性甲状腺肿（弥漫性非毒性甲状腺肿）",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
           "text": "结节性甲状腺肿",
@@ -672,121 +712,129 @@
             "G"
           ],
           "answerMode": "多选",
-          "sourceText": "结节性甲状腺肿BG",
-          "sourceY": 277.4832144373157,
-          "ocrScore": 0.3
+          "sourceText": "结节性甲状腺肿",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
-          "text": "亚急性甲状腺炎/肉芽肿性/巨细胞性甲状腺炎",
+          "text": "亚急性甲状腺炎（肉芽肿性或巨细胞性甲状腺炎）",
           "answer": [
             "C",
             "D",
             "H"
           ],
           "answerMode": "多选",
-          "sourceText": "亚急性甲状腺炎/肉芽肿性/巨细胞性甲状腺炎CDH",
-          "sourceY": 310.5920070332886,
-          "ocrScore": 1.0
+          "sourceText": "亚急性甲状腺炎（肉芽肿性或巨细胞性甲状腺炎）",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
-          "text": "慢性淋巴细胞性/自身免疫性甲状腺炎/桥本",
+          "text": "慢性淋巴细胞性甲状腺炎（自身免疫性甲状腺炎、桥本甲状腺炎）",
           "answer": [
             "F",
             "I",
             "J"
           ],
           "answerMode": "多选",
-          "sourceText": "慢性淋巴细胞性/自身免疫性甲状腺炎/桥本FIJ",
-          "sourceY": 345.2250489558133,
-          "ocrScore": 1.0
+          "sourceText": "慢性淋巴细胞性甲状腺炎（自身免疫性甲状腺炎、桥本甲状腺炎）",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         }
       ],
-      "sourceText": "A.病因：缺碘、甲状腺素合成或分泌障碍、甲状腺素需求增多（青春期/妊娠等）| B.结甲一胸骨后甲状腺肿、继发甲亢、恶变、退变（囊性变/片状钙化/纤维化）等 | C.常有1-3周前驱感染（病毒感染等）| D.部分滤泡被破坏（胶质外溢）一分离现象：：BMR/T3/T4个、摄碘率」 | E.甲状腺肿大：早期双侧弥漫肿大、后期少数可变为结甲 | F.甲减的表现：BMR、T3、T4、摄碘率均』 | G.囊性变伴囊内出血一结节迅速增大、胀痛 | H.甲状腺迅速肿大、痛：单侧或双侧不对称肿大、可摸到结节 | 1.甲状腺双侧弥漫肿大、质地坚韧，广泛滤泡被破坏、伴大量淋巴细胞浸润和淋巴滤泡 | J.TPOAb（90%）| 单纯性甲状腺肿/弥漫性非毒性甲状腺肿（AE）| 结节性甲状腺肿BG | 亚急性甲状腺炎/肉芽肿性/巨细胞性甲状腺炎CDH | 慢性淋巴细胞性/自身免疫性甲状腺炎/桥本FIJ",
-      "reviewState": "已完成结构校对",
+      "sourceText": "病因包括缺碘、甲状腺素合成或分泌障碍、甲状腺素需求增多（青春期、妊娠等）；结甲→胸骨后甲状腺肿、继发甲亢、恶变或退变（囊性变、片状钙化、纤维化）等；常有1～3周前驱感染（病毒感染等）；部分滤泡被破坏、胶质外溢，出现分离现象：BMR、T₃、T₄↑，摄碘率↓；甲状腺早期双侧弥漫肿大，后期少数可变为结节性甲状腺肿；甲减表现：BMR、T₃、T₄、摄碘率均↓；囊性变伴囊内出血→结节迅速增大、胀痛；甲状腺迅速肿大并疼痛，呈单侧或双侧不对称肿大，可触及结节；甲状腺双侧弥漫肿大、质地坚韧；广泛滤泡被破坏，伴大量淋巴细胞浸润和淋巴滤泡形成；TPOAb阳性（约90%）；单纯性甲状腺肿（弥漫性非毒性甲状腺肿）；结节性甲状腺肿；亚急性甲状腺炎（肉芽肿性或巨细胞性甲状腺炎）；慢性淋巴细胞性甲状腺炎（自身免疫性甲状腺炎、桥本甲状腺炎）",
+      "reviewState": "已按原题页及讲义逐项复核",
       "reviewIssues": [],
+      "reviewNotes": [],
       "topic": "颈部疾病",
       "lectureIds": [
         "lecture-01"
-      ]
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": "3～4",
+        "image": "surgery/lecture-pages/lecture-01-page-03-04.png",
+        "title": "第1讲第3～4页 · 甲状腺疾病",
+        "description": "本题组已按题库原页和第1讲对应讲义页逐项复核，乱码、上下标、箭头及答案字母均已校正。"
+      }
     },
     {
       "id": "p02-g2",
       "page": 2,
-      "title": "甲状腺结节",
+      "title": "甲状腺结节良恶性鉴别",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "儿童（50%为恶性）、年轻男性",
-          "sourceText": "A.儿童（50%为恶性）、年轻男性",
-          "ocrScore": 0.5
+          "label": "儿童（约50%为恶性）或年轻男性",
+          "sourceText": "A. 儿童（约50%为恶性）或年轻男性",
+          "ocrScore": 1
         },
         {
           "key": "B",
           "label": "多发",
-          "sourceText": "B.多发",
-          "ocrScore": 1.0
+          "sourceText": "B. 多发",
+          "ocrScore": 1
         },
         {
           "key": "C",
-          "label": "可（无痛）迅速增大",
-          "sourceText": "C.可（无痛）迅速增大",
-          "ocrScore": 0.5
+          "label": "可无痛性迅速增大",
+          "sourceText": "C. 可无痛性迅速增大",
+          "ocrScore": 1
         },
         {
           "key": "D",
           "label": "颈部多有淋巴结肿大",
-          "sourceText": "D.颈部多有淋巴结肿大",
-          "ocrScore": 1.0
+          "sourceText": "D. 颈部多有淋巴结肿大",
+          "ocrScore": 1
         },
         {
           "key": "E",
-          "label": "TSH正常或」",
-          "sourceText": "E.TSH正常或」",
-          "ocrScore": 0.3
+          "label": "TSH正常或降低",
+          "sourceText": "E. TSH正常或降低",
+          "ocrScore": 1
         },
         {
           "key": "F",
-          "label": "核素冷结节（功能低下）、血供丰富、边缘模糊",
-          "sourceText": "F.核素冷结节（功能低下）、血供丰富、边缘模糊",
-          "ocrScore": 0.5
+          "label": "核素检查为冷结节（功能低下），血供丰富、边缘模糊",
+          "sourceText": "F. 核素检查为冷结节（功能低下），血供丰富、边缘模糊",
+          "ocrScore": 1
         },
         {
           "key": "G",
           "label": "女性",
-          "sourceText": "G.女性",
-          "ocrScore": 0.5
+          "sourceText": "G. 女性",
+          "ocrScore": 1
         },
         {
           "key": "H",
           "label": "单发",
-          "sourceText": "H.单发",
-          "ocrScore": 1.0
+          "sourceText": "H. 单发",
+          "ocrScore": 1
         },
         {
           "key": "I",
-          "label": "迅速增大少见，但腺瘤囊性变伴囊内出血可、胀痛",
-          "sourceText": "1.迅速增大少见，但腺瘤囊性变伴囊内出血可、胀痛",
-          "ocrScore": 1.0
+          "label": "迅速增大少见，但腺瘤囊性变伴囊内出血时可迅速增大并出现胀痛",
+          "sourceText": "I. 迅速增大少见，但腺瘤囊性变伴囊内出血时可迅速增大并出现胀痛",
+          "ocrScore": 1
         },
         {
           "key": "J",
           "label": "颈部多无淋巴结肿大",
-          "sourceText": "J.颈部多无淋巴结肿大",
-          "ocrScore": 1.0
+          "sourceText": "J. 颈部多无淋巴结肿大",
+          "ocrScore": 1
         },
         {
           "key": "K",
-          "label": "TSH个",
-          "sourceText": "K.TSH个",
-          "ocrScore": 0.5
+          "label": "TSH升高",
+          "sourceText": "K. TSH升高",
+          "ocrScore": 1
         },
         {
           "key": "L",
-          "label": "核素热、温、冷结节均可有",
-          "sourceText": "L.核素热、温、冷结节均可有",
-          "ocrScore": 1.0
+          "label": "核素检查可呈热、温或冷结节",
+          "sourceText": "L. 核素检查可呈热、温或冷结节",
+          "ocrScore": 1
         }
       ],
       "stems": [
@@ -801,9 +849,9 @@
             "K"
           ],
           "answerMode": "多选",
-          "sourceText": "恶性可能大（ACDFHK",
-          "sourceY": 419.27332037313033,
-          "ocrScore": 0.5
+          "sourceText": "恶性可能大",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
           "text": "良性可能大",
@@ -816,79 +864,87 @@
             "L"
           ],
           "answerMode": "多选",
-          "sourceText": "良性可能大（BEGIJL",
-          "sourceY": 454.06344128455896,
-          "ocrScore": 0.3
+          "sourceText": "良性可能大",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         }
       ],
-      "sourceText": "甲状腺结节 | A.儿童（50%为恶性）、年轻男性 | 恶性可能大（ACDFHK | B.多发 | C.可（无痛）迅速增大 | 良性可能大（BEGIJL | D.颈部多有淋巴结肿大 | E.TSH正常或」 | F.核素冷结节（功能低下）、血供丰富、边缘模糊 | G.女性 | H.单发 | 1.迅速增大少见，但腺瘤囊性变伴囊内出血可、胀痛 | J.颈部多无淋巴结肿大 | K.TSH个 | L.核素热、温、冷结节均可有",
-      "reviewState": "已完成结构校对",
+      "sourceText": "儿童（约50%为恶性）或年轻男性；多发；可无痛性迅速增大；颈部多有淋巴结肿大；TSH正常或降低；核素检查为冷结节（功能低下），血供丰富、边缘模糊；女性；单发；迅速增大少见，但腺瘤囊性变伴囊内出血时可迅速增大并出现胀痛；颈部多无淋巴结肿大；TSH升高；核素检查可呈热、温或冷结节；恶性可能大；良性可能大",
+      "reviewState": "已按原题页及讲义逐项复核",
       "reviewIssues": [],
+      "reviewNotes": [],
       "topic": "颈部疾病",
       "lectureIds": [
         "lecture-01"
-      ]
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 4,
+        "image": "surgery/lecture-pages/lecture-01-page-04.png",
+        "title": "第1讲第4页 · 甲状腺疾病",
+        "description": "本题组已按题库原页和第1讲对应讲义页逐项复核，乱码、上下标、箭头及答案字母均已校正。"
+      }
     },
     {
       "id": "p02-g3",
       "page": 2,
-      "title": "甲状腺手术神经损伤表现",
+      "title": "甲状腺手术相关神经损伤表现",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "眼脸下垂",
-          "sourceText": "A.眼脸下垂",
-          "ocrScore": 0.5
+          "label": "眼睑下垂",
+          "sourceText": "A. 眼睑下垂",
+          "ocrScore": 1
         },
         {
           "key": "B",
           "label": "音调降低（环甲肌瘫痪、声带松弛）",
-          "sourceText": "B.音调降低（环甲肌瘫痪、声带松弛）",
-          "ocrScore": 0.5
+          "sourceText": "B. 音调降低（环甲肌瘫痪、声带松弛）",
+          "ocrScore": 1
         },
         {
           "key": "C",
           "label": "瞳孔缩小",
-          "sourceText": "C.瞳孔缩小",
-          "ocrScore": 1.0
+          "sourceText": "C. 瞳孔缩小",
+          "ocrScore": 1
         },
         {
           "key": "D",
           "label": "失声",
-          "sourceText": "D.失声",
-          "ocrScore": 0.5
+          "sourceText": "D. 失声",
+          "ocrScore": 1
         },
         {
           "key": "E",
           "label": "饮水呛咳（喉黏膜感觉异常）",
-          "sourceText": "E.饮水呛咳（喉黏膜感觉异常）",
-          "ocrScore": 0.5
+          "sourceText": "E. 饮水呛咳（喉黏膜感觉异常）",
+          "ocrScore": 1
         },
         {
           "key": "F",
           "label": "眼球内陷",
-          "sourceText": "F.眼球内陷",
-          "ocrScore": 0.5
+          "sourceText": "F. 眼球内陷",
+          "ocrScore": 1
         },
         {
           "key": "G",
           "label": "声音嘶哑",
-          "sourceText": "G.声音嘶哑",
-          "ocrScore": 0.5
+          "sourceText": "G. 声音嘶哑",
+          "ocrScore": 1
         },
         {
           "key": "H",
           "label": "呼吸困难",
-          "sourceText": "H.呼吸困难",
-          "ocrScore": 1.0
+          "sourceText": "H. 呼吸困难",
+          "ocrScore": 1
         },
         {
           "key": "I",
-          "label": "额面部胸壁无汗",
-          "sourceText": "l.额面部胸壁无汗",
-          "ocrScore": 0.5
+          "label": "额面部、胸壁无汗",
+          "sourceText": "I. 额面部、胸壁无汗",
+          "ocrScore": 1
         }
       ],
       "stems": [
@@ -898,9 +954,9 @@
             "E"
           ],
           "answerMode": "单选",
-          "sourceText": "喉上神经内支（E）",
-          "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "sourceText": "喉上神经内支",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
           "text": "喉上神经外支",
@@ -908,9 +964,9 @@
             "B"
           ],
           "answerMode": "单选",
-          "sourceText": "喉上神经外支（B）",
-          "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "sourceText": "喉上神经外支",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
           "text": "一侧喉返神经",
@@ -918,9 +974,9 @@
             "G"
           ],
           "answerMode": "单选",
-          "sourceText": "一侧喉返神经（G）",
-          "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "sourceText": "一侧喉返神经",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
           "text": "双侧喉返神经",
@@ -929,12 +985,12 @@
             "H"
           ],
           "answerMode": "多选",
-          "sourceText": "双侧喉返神经（DH）",
-          "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "sourceText": "双侧喉返神经",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
-          "text": "颈交感神经 Horner 综合征",
+          "text": "颈交感神经损伤（Horner综合征）",
           "answer": [
             "A",
             "C",
@@ -942,55 +998,63 @@
             "I"
           ],
           "answerMode": "多选",
-          "sourceText": "颈交感神经 Horner 综合征（ACFI）",
-          "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "sourceText": "颈交感神经损伤（Horner综合征）",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         }
       ],
-      "sourceText": "A.眼脸下垂 | 喉上神经内支°E | B.音调降低（环甲肌瘫痪、声带松弛）| C.瞳孔缩小 | 喉上神经外支 B | D.失声 | 一侧喉返神经 | E.饮水呛咳（喉黏膜感觉异常）| G | F.眼球内陷 | G.声音嘶哑 | 双侧喉返神经DH | H.呼吸困难 | 颈交感神经Horner 综合征ACFT | l.额面部胸壁无汗",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "眼睑下垂；音调降低（环甲肌瘫痪、声带松弛）；瞳孔缩小；失声；饮水呛咳（喉黏膜感觉异常）；眼球内陷；声音嘶哑；呼吸困难；额面部、胸壁无汗；喉上神经内支；喉上神经外支；一侧喉返神经；双侧喉返神经；颈交感神经损伤（Horner综合征）",
+      "reviewState": "已按原题页及讲义逐项复核",
       "reviewIssues": [],
+      "reviewNotes": [],
       "topic": "颈部疾病",
       "lectureIds": [
         "lecture-01"
-      ]
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 4,
+        "image": "surgery/lecture-pages/lecture-01-page-04.png",
+        "title": "第1讲第4页 · 甲状腺疾病",
+        "description": "本题组已按题库原页和第1讲对应讲义页逐项复核，乱码、上下标、箭头及答案字母均已校正。"
+      }
     },
     {
       "id": "p03-g1",
       "page": 3,
-      "title": "Graves病",
+      "title": "甲状腺相关疾病体征鉴别",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "痛",
-          "sourceText": "A.痛",
-          "ocrScore": 1.0
+          "label": "疼痛",
+          "sourceText": "A. 疼痛",
+          "ocrScore": 1
         },
         {
           "key": "B",
           "label": "单侧或双侧不对称肿大",
-          "sourceText": "B.单侧或双侧不对称肿大",
-          "ocrScore": 1.0
+          "sourceText": "B. 单侧或双侧不对称肿大",
+          "ocrScore": 1
         },
         {
           "key": "C",
-          "label": "囊变伴出血",
-          "sourceText": "C.囊变伴出血",
-          "ocrScore": 0.5
+          "label": "囊性变伴出血",
+          "sourceText": "C. 囊性变伴出血",
+          "ocrScore": 1
         },
         {
           "key": "D",
           "label": "可迅速增大",
-          "sourceText": "D.可迅速增大",
-          "ocrScore": 1.0
+          "sourceText": "D. 可迅速增大",
+          "ocrScore": 1
         },
         {
           "key": "E",
           "label": "双侧弥漫肿大",
-          "sourceText": "E.双侧弥漫肿大",
-          "ocrScore": 1.0
+          "sourceText": "E. 双侧弥漫肿大",
+          "ocrScore": 1
         }
       ],
       "stems": [
@@ -1000,9 +1064,9 @@
             "E"
           ],
           "answerMode": "单选",
-          "sourceText": "Graves病E",
-          "sourceY": 20.085372255031967,
-          "ocrScore": 0.5
+          "sourceText": "Graves病",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
           "text": "单纯性甲状腺肿",
@@ -1010,12 +1074,12 @@
             "E"
           ],
           "answerMode": "单选",
-          "sourceText": "单纯性甲状腺肿（E）",
-          "sourceY": 52.028102651927796,
-          "ocrScore": 0.5
+          "sourceText": "单纯性甲状腺肿",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
-          "text": "结甲",
+          "text": "结节性甲状腺肿",
           "answer": [
             "A",
             "B",
@@ -1023,34 +1087,34 @@
             "D"
           ],
           "answerMode": "多选",
-          "sourceText": "结甲ABCD",
-          "sourceY": 86.55642553062424,
-          "ocrScore": 0.3
+          "sourceText": "结节性甲状腺肿",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
-          "text": "亚甲炎",
+          "text": "亚急性甲状腺炎",
           "answer": [
             "A",
             "B",
             "D"
           ],
           "answerMode": "多选",
-          "sourceText": "亚甲炎ABD",
-          "sourceY": 119.57795154993802,
-          "ocrScore": 0.3
+          "sourceText": "亚急性甲状腺炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
-          "text": "桥本",
+          "text": "桥本甲状腺炎",
           "answer": [
             "E"
           ],
           "answerMode": "单选",
-          "sourceText": "桥本（E",
-          "sourceY": 152.93108986675242,
-          "ocrScore": 0.5
+          "sourceText": "桥本甲状腺炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
-          "text": "腺瘤",
+          "text": "甲状腺腺瘤",
           "answer": [
             "A",
             "B",
@@ -1058,29 +1122,37 @@
             "D"
           ],
           "answerMode": "多选",
-          "sourceText": "腺瘤（ABCD",
-          "sourceY": 187.6164917056937,
-          "ocrScore": 0.3
+          "sourceText": "甲状腺腺瘤",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         },
         {
-          "text": "腺癌",
+          "text": "甲状腺腺癌",
           "answer": [
             "B",
             "D"
           ],
           "answerMode": "多选",
-          "sourceText": "腺癌（BD",
-          "sourceY": 220.6438356508993,
-          "ocrScore": 0.5
+          "sourceText": "甲状腺腺癌",
+          "ocrScore": 1,
+          "reviewMethod": "已按题库原页及第1讲讲义逐项人工复核"
         }
       ],
-      "sourceText": "Graves病E | A.痛 | B.单侧或双侧不对称肿大 | 单纯性甲状腺肿（E）| C.囊变伴出血 | D.可迅速增大 | 结甲ABCD | E.双侧弥漫肿大 | 亚甲炎ABD | 桥本（E | 腺瘤（ABCD |（BD | 腺癌",
-      "reviewState": "已完成结构校对",
+      "sourceText": "疼痛；单侧或双侧不对称肿大；囊性变伴出血；可迅速增大；双侧弥漫肿大；Graves病；单纯性甲状腺肿；结节性甲状腺肿；亚急性甲状腺炎；桥本甲状腺炎；甲状腺腺瘤；甲状腺腺癌",
+      "reviewState": "已按原题页及讲义逐项复核",
       "reviewIssues": [],
+      "reviewNotes": [],
       "topic": "颈部疾病",
       "lectureIds": [
         "lecture-01"
-      ]
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 6,
+        "image": "surgery/lecture-pages/lecture-01-page-06.png",
+        "title": "第1讲第6页 · 甲状腺疾病",
+        "description": "本题组已按题库原页和第1讲对应讲义页逐项复核，乱码、上下标、箭头及答案字母均已校正。"
+      }
     },
     {
       "id": "p03-g2",
