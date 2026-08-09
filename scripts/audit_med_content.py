@@ -94,6 +94,8 @@ def main() -> None:
     assert by_id["p11-g1"]["options"][-1]["label"] == "抗IL-4R抗体/抗TSLP抗体"
     assert by_id["p20-g1"]["topic"] == "消化" and by_id["p20-g2"]["topic"] == "消化"
     assert by_id["p85-g1"]["stems"][1]["answer"] == list("ABDFJLNSUaegikmqrv①")
+    assert by_id["p85-g1"]["options"][26]["label"] == "有相对性二尖瓣狭窄"
+    assert by_id["p85-g1"]["options"][27]["label"] == "有相对性主动脉瓣狭窄"
     assert by_id["p85-g1"]["options"][11]["label"] == "左室：慢性后期离心性肥厚；急性早期正常或轻度扩大"
     assert by_id["p85-g1"]["options"][49]["label"] == "成人：置换术，若老龄重度不耐受TAVR"
     assert by_id["p87-g3"]["options"][3]["label"] == "明显诱因胸痛，多持续3～5分钟"
