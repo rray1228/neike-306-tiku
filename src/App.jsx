@@ -7,6 +7,7 @@ import surgeryDeformityContent from './data/surgery-deformity-data.json'
 import surgeryOrthoMixedContent from './data/surgery-ortho-mixed-data.json'
 import surgeryOrthoInfectionContent from './data/surgery-ortho-infection-data.json'
 import surgeryNonpurulentArthritisContent from './data/surgery-nonpurulent-arthritis-data.json'
+import surgeryBoneTumorContent from './data/surgery-bone-tumor-data.json'
 import surgeryGeneralContent from './data/surgery-general-data.json'
 import physiologyContent from './data/physiology-data.json'
 import biochemistryContent from './data/biochemistry-data.json'
@@ -19,7 +20,7 @@ const combinedSurgeryContent = {
     '外科总论',
     '综合',
   ],
-  groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryNonpurulentArthritisContent.groups, ...surgeryGeneralContent.groups],
+  groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryNonpurulentArthritisContent.groups, ...surgeryBoneTumorContent.groups, ...surgeryGeneralContent.groups],
 }
 
 const SUBJECTS = {
@@ -537,7 +538,7 @@ function App() {
           {showNote && <div className="note-strip"><Icon name="note" size={17} /><input value={notes[groupStorageId] || ''} onChange={(event) => setNotes((previous) => ({ ...previous, [groupStorageId]: event.target.value }))} placeholder="写下你的易错点或记忆口诀…" /></div>}
 
           <div className={`study-grid ${group.options.length ? '' : 'no-options'}`}>
-          {group.options.length > 0 && <aside className="option-bank option-rail"><div className="section-label"><span>共用选项</span><em>{group.kindLabel}</em></div><div className="option-grid">{group.options.map((option) => <div className="shared-option" key={option.key}><b>{option.key}</b><span>{option.label}</span></div>)}</div><p className="option-rail-hint">选项固定在左侧，右侧题干逐题作答。</p></aside>}
+          {group.options.length > 0 && <OptionBank group={group} />}
           <div className="question-side">
           <section className="question-card">
             <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span>{group.hideSource ? null : <span>来源页 {group.page}</span>}</div>
@@ -566,6 +567,18 @@ function App() {
         <span>网站制作by戒不掉甜食</span>
       </div>
     </div>
+  )
+}
+
+function OptionBank({ group }) {
+  const categories = unique(group.options.map((option) => option.category).filter(Boolean))
+  const categorized = categories.length > 0
+  return (
+    <aside className={`option-bank option-rail ${categorized ? 'categorized-option-bank' : ''}`}>
+      <div className="section-label"><span>共用选项</span><em>{group.kindLabel}</em></div>
+      {categorized ? <div className="option-category-list">{categories.map((category) => <section className="option-category" key={category}><h3>{category}</h3><div className="option-grid">{group.options.filter((option) => option.category === category).map((option) => <div className="shared-option" key={option.key}><b>{option.key}</b><span>{option.label}</span></div>)}</div></section>)}</div> : <div className="option-grid">{group.options.map((option) => <div className="shared-option" key={option.key}><b>{option.key}</b><span>{option.label}</span></div>)}</div>}
+      <p className="option-rail-hint">{categorized ? '选项已按考点分区，区内固定打乱；右侧题干逐题作答。' : '选项固定在左侧，右侧题干逐题作答。'}</p>
+    </aside>
   )
 }
 
