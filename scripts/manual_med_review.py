@@ -62,9 +62,9 @@ def replace_page(payload: dict, page: int, replacements: list[dict]) -> None:
 def page_topic(page: int) -> str:
     if page == 1:
         return "综合"
-    if 2 <= page <= 20:
+    if 2 <= page <= 19:
         return "呼吸"
-    if 21 <= page <= 34:
+    if 20 <= page <= 34:
         return "消化"
     if 35 <= page <= 41:
         return "肾脏"

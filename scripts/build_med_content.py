@@ -313,7 +313,10 @@ def main():
     for page_number in sorted(pages):
         rows = pages[page_number]
         text = " ".join(row["text"] for row in rows)
-        topic = topic_for(text)
+        # Page 20 is the transition page: both blocks are GERD questions.
+        # A respiratory keyword in the last option bank (e.g. asthma or
+        # interstitial lung disease) must not misclassify the whole page.
+        topic = "消化" if page_number == 20 else topic_for(text)
         page_records.append({
             "page": page_number,
             "image": f"/source-pages/page-{page_number:02d}.png",

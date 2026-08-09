@@ -855,12 +855,7 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-01"
       ]
     },
     {
@@ -1237,7 +1232,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-03"
+        "lecture-02"
       ]
     },
     {
@@ -1333,7 +1328,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-03"
+        "lecture-02"
       ]
     },
     {
@@ -1717,8 +1712,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-03",
-        "lecture-54"
+        "lecture-03"
       ]
     },
     {
@@ -1809,12 +1803,7 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-03"
       ]
     },
     {
@@ -1914,7 +1903,11 @@
       "reviewState": "已按讲义校对",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-04"
+        "lecture-01",
+        "lecture-03",
+        "lecture-04",
+        "lecture-07",
+        "lecture-10"
       ]
     },
     {
@@ -2208,12 +2201,7 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-04"
       ]
     },
     {
@@ -3404,12 +3392,7 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-08"
       ]
     },
     {
@@ -3498,12 +3481,7 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-08"
       ]
     },
     {
@@ -3595,12 +3573,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-08"
       ]
     },
     {
@@ -3795,12 +3768,7 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-08"
       ]
     },
     {
@@ -3974,12 +3942,7 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-08"
       ]
     },
     {
@@ -3989,6 +3952,11 @@
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
+        {
+          "key": "A",
+          "label": "吸入型糖皮质激素（ICS）",
+          "sourceText": "A.吸入型糖皮质激素（ICS）"
+        },
         {
           "key": "B",
           "label": "短效B受体激动剂(SABA)",
@@ -4046,13 +4014,8 @@
         },
         {
           "key": "M",
-          "label": "抗1L-4R抗体抗TSLP抗体",
-          "sourceText": "M.抗1L-4R抗体抗TSLP抗体"
-        },
-        {
-          "key": "A",
-          "label": "吸入型糖皮质激素（ICS）",
-          "sourceText": "A.吸入型糖皮质激素（ICS）"
+          "label": "抗IL-4R抗体/抗TSLP抗体",
+          "sourceText": "M.抗IL-4R抗体/抗TSLP抗体"
         }
       ],
       "stems": [
@@ -4090,12 +4053,7 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-09"
       ]
     },
     {
@@ -4226,12 +4184,7 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-09"
       ]
     },
     {
@@ -4416,8 +4369,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02"
+        "lecture-11"
       ]
     },
     {
@@ -4598,18 +4550,13 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-12"
       ]
     },
     {
       "id": "p13-g1",
       "page": 13,
-      "title": "肺癌的胸外表现；可有状指",
+      "title": "肺癌的胸外表现",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -4651,11 +4598,11 @@
       ],
       "stems": [
         {
-          "text": "肺癌的胸外表现；可有状指",
+          "text": "可有杵状指",
           "answer": [
             "D"
           ],
-          "sourceText": "可有状指D",
+          "sourceText": "可有杵状指D",
           "sourceY": 74,
           "answerMode": "单选"
         },
@@ -4687,7 +4634,7 @@
           "answerMode": "单选"
         },
         {
-          "text": "5-",
+          "text": "5-HT",
           "answer": [
             "F"
           ],
@@ -4771,16 +4718,11 @@
           "answerMode": "单选"
         }
       ],
-      "sourceText": "问： | A.男性乳腺发育 | 肺癌的胸外表现 | B.库欣综合征 | 可有状指D | C.高血钙 | D.肥大性骨关节病 | 可有肌无力R | E.顽固性/稀释性低血钠 | F.类癌综合征 | 促性腺激素A | R.神经-肌病综合征 | 甲状旁腺激素C | 5-HT F | 抗利尿激素（E | ACTH B | 类癌B | 鳞癌C | NSCLC (D | 小细胞癌BEFR | 大细胞癌 | 腺癌 | F",
+      "sourceText": "问： | A.男性乳腺发育 | 肺癌的胸外表现 | B.库欣综合征 | 可有杵状指D | C.高血钙 | D.肥大性骨关节病 | 可有肌无力R | E.顽固性/稀释性低血钠 | F.类癌综合征 | 促性腺激素A | R.神经-肌病综合征 | 甲状旁腺激素C | 5-HT F | 抗利尿激素（E | ACTH B | 类癌B | 鳞癌C | NSCLC (D | 小细胞癌BEFR | 大细胞癌 | 腺癌 | F",
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-12"
       ]
     },
     {
@@ -4907,18 +4849,13 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-12"
       ]
     },
     {
       "id": "p14-g1",
       "page": 14,
-      "title": "T1D；T2A；T3F；T4G；NO",
+      "title": "肺癌TNM分期",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -4965,7 +4902,7 @@
         {
           "key": "I",
           "label": "对侧肺叶出现癌结节",
-          "sourceText": "1.对侧肺叶出现癌结节"
+          "sourceText": "I.对侧肺叶出现癌结节"
         },
         {
           "key": "J",
@@ -4985,21 +4922,66 @@
       ],
       "stems": [
         {
-          "text": "T1D；T2A；T3F；T4G；NO",
+          "text": "T1",
           "answer": [
-            "B"
+            "D"
           ],
-          "sourceText": "NO B",
-          "sourceY": 343,
+          "sourceText": "T1 D",
+          "sourceY": 74,
           "answerMode": "单选"
         },
         {
-          "text": "N1H；N2",
+          "text": "T2",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "T2 A",
+          "sourceY": 135,
+          "answerMode": "单选"
+        },
+        {
+          "text": "T3",
+          "answer": [
+            "F"
+          ],
+          "sourceText": "T3 F",
+          "sourceY": 196,
+          "answerMode": "单选"
+        },
+        {
+          "text": "T4",
+          "answer": [
+            "G"
+          ],
+          "sourceText": "T4 G",
+          "sourceY": 257,
+          "answerMode": "单选"
+        },
+        {
+          "text": "N0",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "N0 B",
+          "sourceY": 318,
+          "answerMode": "单选"
+        },
+        {
+          "text": "N1",
+          "answer": [
+            "H"
+          ],
+          "sourceText": "N1 H",
+          "sourceY": 379,
+          "answerMode": "单选"
+        },
+        {
+          "text": "N2",
           "answer": [
             "C"
           ],
-          "sourceText": "N2(C",
-          "sourceY": 458,
+          "sourceText": "N2 C",
+          "sourceY": 440,
           "answerMode": "单选"
         },
         {
@@ -5007,41 +4989,36 @@
           "answer": [
             "J"
           ],
-          "sourceText": "N3(J",
-          "sourceY": 517,
+          "sourceText": "N3 J",
+          "sourceY": 501,
           "answerMode": "单选"
         },
         {
-          "text": "MO",
+          "text": "M0",
           "answer": [
             "K"
           ],
-          "sourceText": "MO K",
-          "sourceY": 575,
+          "sourceText": "M0 K",
+          "sourceY": 562,
           "answerMode": "单选"
         },
         {
-          "text": "远处转移",
+          "text": "远处转移（M1）",
           "answer": [
             "E",
             "I",
             "L"
           ],
-          "sourceText": "远处转移M1EIL",
-          "sourceY": 633,
+          "sourceText": "远处转移M1 EIL",
+          "sourceY": 623,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "问： | A.>3、≤5cm | T1D | B.无区域淋巴结转移 | C.同侧纵隔、隆突下淋巴结转移 | T2A | D.≤3cm | E.恶性胸腔/心包积液或胸膜/心包结节 | T3F | F.>5、≤7cm | G.>7cm | T4G | H.同侧支气管周围、肺门、肺内淋巴结转移 | 1.对侧肺叶出现癌结节 | NO B | J.对侧肺门、纵隔淋巴结转移，或前斜角肌及锁骨上淋巴结转移 | K.无远处转移 | N1H | L.远处器官转移灶 | N2(C | N3(J | MO K | 远处转移M1EIL | 小红书 | 小红书号：385106504",
+      "sourceText": "问： | A.>3、≤5cm | T1 D | B.无区域淋巴结转移 | T2 A | C.同侧纵隔、隆突下淋巴结转移 | T3 F | D.≤3cm | T4 G | E.恶性胸腔/心包积液或胸膜/心包结节 | 远处转移M1 EIL | F.>5、≤7cm | G.>7cm | H.同侧支气管周围、肺门、肺内淋巴结转移 | N0 B | I.对侧肺叶出现癌结节 | J.对侧肺门、纵隔淋巴结转移，或前斜角肌及锁骨上淋巴结转移 | N1 H | K.无远处转移 | N2 C | L.远处器官转移灶 | N3 J | M0 K | 小红书 | 小红书号：385106504",
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-12"
       ]
     },
     {
@@ -5141,12 +5118,7 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-13"
       ]
     },
     {
@@ -5330,12 +5302,7 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-13"
       ]
     },
     {
@@ -5412,8 +5379,8 @@
         },
         {
           "key": "N",
-          "label": "细胞计数多<100x10°/L",
-          "sourceText": "N.细胞计数多<100x10°/L"
+          "label": "细胞计数多<100×10^6/L",
+          "sourceText": "N.细胞计数多<100×10^6/L"
         },
         {
           "key": "O",
@@ -5488,12 +5455,7 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-13"
       ]
     },
     {
@@ -5515,8 +5477,8 @@
         },
         {
           "key": "C",
-          "label": "隔神经麻痹",
-          "sourceText": "C.隔神经麻痹"
+          "label": "膈神经麻痹",
+          "sourceText": "C.膈神经麻痹"
         },
         {
           "key": "D",
@@ -5582,12 +5544,7 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-13"
       ]
     },
     {
@@ -5704,12 +5661,7 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-13"
       ]
     },
     {
@@ -5840,12 +5792,7 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-13"
       ]
     },
     {
@@ -6052,12 +5999,7 @@
       "reviewState": "待讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-13"
       ]
     },
     {
@@ -6299,8 +6241,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-03"
+        "lecture-13"
       ]
     },
     {
@@ -6485,14 +6426,9 @@
       ],
       "sourceText": "胃食管反流病病因（按原题页重新分组并结合讲义复核）",
       "reviewState": "已按原题页与讲义复核",
-      "topic": "呼吸",
+      "topic": "消化",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-14"
       ]
     },
     {
@@ -6622,14 +6558,9 @@
       ],
       "sourceText": "A.胸痛(多为刺痛) | 问： | B.反流 | 最常见典型症状（BD | C.牙蚀症 | D.烧心(胸骨后剑突下烧灼感) | 因反流物刺激食管痉挛引起（AFH | E.咽喉炎 | F.吞咽困难(多为间歇性) | 食管症状ABDFH | G.慢性咳嗽 | H.胸骨后异物感 | 食管外症状CEGIJLMN | 1.非季节性哮喘 | J.球症(患者感到咽部不适，有异物感、堵塞感，但又没有真正 | 的吞咽困难) | L.声嘶 | M.吸入性肺炎 | N.肺间质纤维化 | 小红书号：385106504",
       "reviewState": "待讲义复核",
-      "topic": "呼吸",
+      "topic": "消化",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-14"
       ]
     },
     {
@@ -25074,12 +25005,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-49",
-        "lecture-50",
-        "lecture-51",
-        "lecture-52",
-        "lecture-53",
-        "lecture-54"
+        "lecture-49"
       ]
     },
     {
@@ -25160,12 +25086,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-49",
-        "lecture-50",
-        "lecture-51",
-        "lecture-52",
-        "lecture-53",
-        "lecture-54"
+        "lecture-49"
       ]
     },
     {
@@ -25249,11 +25170,7 @@
       "topic": "循环",
       "lectureIds": [
         "lecture-49",
-        "lecture-50",
-        "lecture-51",
-        "lecture-52",
-        "lecture-53",
-        "lecture-54"
+        "lecture-50"
       ]
     },
     {
@@ -25336,12 +25253,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-50"
       ]
     },
     {
@@ -25544,12 +25456,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-50"
       ]
     },
     {
@@ -25630,12 +25537,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-50"
       ]
     },
     {
@@ -25742,11 +25644,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-51"
       ]
     },
     {
@@ -25863,11 +25761,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-51"
       ]
     },
     {
@@ -25940,11 +25834,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-51"
       ]
     },
     {
@@ -26093,12 +25983,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-51"
       ]
     },
     {
@@ -26167,12 +26052,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-51"
       ]
     },
     {
@@ -28637,11 +28517,7 @@
       "topic": "循环",
       "lectureIds": [
         "lecture-49",
-        "lecture-50",
-        "lecture-51",
-        "lecture-52",
-        "lecture-53",
-        "lecture-54"
+        "lecture-53"
       ]
     },
     {
@@ -28770,12 +28646,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-49",
-        "lecture-50",
-        "lecture-51",
-        "lecture-52",
-        "lecture-53",
-        "lecture-54"
+        "lecture-53"
       ]
     },
     {
@@ -28856,12 +28727,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-49",
-        "lecture-50",
-        "lecture-51",
-        "lecture-52",
-        "lecture-53",
-        "lecture-54"
+        "lecture-53"
       ]
     },
     {
@@ -28960,12 +28826,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-49",
-        "lecture-50",
-        "lecture-51",
-        "lecture-52",
-        "lecture-53",
-        "lecture-54"
+        "lecture-53"
       ]
     },
     {
@@ -29288,7 +29149,6 @@
             "g",
             "i",
             "k",
-            "l",
             "m",
             "q",
             "r",
@@ -29430,8 +29290,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-49",
-        "lecture-50"
+        "lecture-54"
       ]
     },
     {
@@ -29500,7 +29359,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-50"
+        "lecture-54"
       ]
     },
     {
@@ -30871,8 +30730,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-55",
-        "lecture-56"
+        "lecture-55"
       ]
     },
     {
@@ -30951,8 +30809,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-55",
-        "lecture-56"
+        "lecture-55"
       ]
     },
     {
@@ -31011,8 +30868,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-55",
-        "lecture-56"
+        "lecture-55"
       ]
     },
     {
@@ -31167,8 +31023,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-55",
-        "lecture-56"
+        "lecture-55"
       ]
     },
     {
@@ -31962,8 +31817,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-55",
-        "lecture-56"
+        "lecture-55"
       ]
     },
     {
@@ -32971,12 +32825,7 @@
       "reviewState": "待讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-49",
-        "lecture-50",
-        "lecture-51",
-        "lecture-52",
-        "lecture-53",
-        "lecture-54"
+        "lecture-56"
       ]
     },
     {

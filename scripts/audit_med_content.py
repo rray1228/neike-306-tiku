@@ -10,9 +10,9 @@ from pathlib import Path
 def expected_topic(page: int) -> str:
     if page == 1:
         return "综合"
-    if 2 <= page <= 20:
+    if 2 <= page <= 19:
         return "呼吸"
-    if 21 <= page <= 34:
+    if 20 <= page <= 34:
         return "消化"
     if 35 <= page <= 41:
         return "肾脏"
@@ -84,6 +84,16 @@ def main() -> None:
     assert by_id["p64-g1"]["topic"] == "内分泌"
     assert len([group for group in payload["groups"] if group["page"] == 80]) == 3
     assert len([group for group in payload["groups"] if group["page"] == 94]) == 4
+    assert by_id["p13-g1"]["stems"][0]["text"] == "可有杵状指"
+    assert by_id["p13-g1"]["stems"][4]["text"] == "5-HT"
+    assert by_id["p14-g1"]["title"] == "肺癌TNM分期"
+    assert [stem["text"] for stem in by_id["p14-g1"]["stems"]] == ["T1", "T2", "T3", "T4", "N0", "N1", "N2", "N3", "M0", "远处转移（M1）"]
+    assert by_id["p16-g1"]["options"][13]["label"] == "细胞计数多<100×10^6/L"
+    assert by_id["p16-g2"]["options"][2]["label"] == "膈神经麻痹"
+    assert [option["key"] for option in by_id["p11-g1"]["options"]] == list("ABCDEFGHIJKLM")
+    assert by_id["p11-g1"]["options"][-1]["label"] == "抗IL-4R抗体/抗TSLP抗体"
+    assert by_id["p20-g1"]["topic"] == "消化" and by_id["p20-g2"]["topic"] == "消化"
+    assert by_id["p85-g1"]["stems"][1]["answer"] == list("ABDFJLNSUaegikmqrv①")
 
     all_text = " ".join(stem.get("text", "") for group in payload["groups"] for stem in group.get("stems", []))
     for garble in ("结节病分期：；IC；I", "皮肤发钳", "黄痘", "I川"):
