@@ -29635,10 +29635,11 @@
             "E",
             "F",
             "H",
+            "J",
             "N",
             "O"
           ],
-          "sourceText": "预防心梗、改善预后 BDEFHNO",
+          "sourceText": "预防心梗、改善预后 B(R) D(Q) E F H J N(Q) O(R)（D、N支架植入后加用）",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -29658,8 +29659,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-50",
-        "lecture-51"
+        "lecture-54"
       ]
     },
     {
