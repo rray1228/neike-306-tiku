@@ -9,8 +9,9 @@ from pathlib import Path
 
 
 EXPECTED_CORRECTIONS = {
-    "phys-002", "phys-006", "phys-024", "phys-070", "phys-085", "phys-087", "phys-089",
+    "phys-002", "phys-006", "phys-024", "phys-049", "phys-070", "phys-085", "phys-087", "phys-089",
     "phys-090", "phys-093", "phys-100", "phys-110", "phys-111", "phys-112", "phys-118", "phys-136",
+    "phys-149", "phys-154",
 }
 
 
@@ -23,6 +24,8 @@ def main() -> None:
     assert payload["meta"]["lectureLinked"] is True
     assert payload["meta"]["sourcePages"] == 126
     assert payload["meta"]["lectureCount"] == 41
+    assert payload["meta"]["fullSemanticAuditDate"] == "2026-08-10"
+    assert payload["meta"]["fullSemanticAuditScope"] == "160 个题组、505 个题干、41 份 2027 考研生理讲义"
     assert len(payload["groups"]) == 160
     assert sum(len(group["stems"]) for group in payload["groups"]) == 505
 
@@ -31,7 +34,7 @@ def main() -> None:
 
     corrected_ids = {record["id"] for record in reconciliation["corrections"]}
     assert corrected_ids == EXPECTED_CORRECTIONS, (corrected_ids, EXPECTED_CORRECTIONS)
-    assert reconciliation["statusSummary"] == {"与今年讲义一致": 145, "已校正": 15}
+    assert reconciliation["statusSummary"] == {"与今年讲义一致": 142, "已校正": 18}
 
     platelet_group = next(group for group in payload["groups"] if group["id"] == "phys-024")
     assert platelet_group["stems"][3]["answer"] == list("ACDE")
@@ -52,10 +55,23 @@ def main() -> None:
     assert medulla_group["stems"][2]["answer"] == list("AB")
     assert medulla_group["lectureEvidence"]["page"] == 14
 
+    calcium_group = next(group for group in payload["groups"] if group["id"] == "phys-049")
+    assert calcium_group["stems"][1]["answer"] == list("BD")
+    assert calcium_group["lectureEvidence"]["page"] == 4
+
+    hormone_group = next(group for group in payload["groups"] if group["id"] == "phys-149")
+    assert hormone_group["stems"][2]["answer"] == list("ADEGJL")
+    assert hormone_group["lectureEvidence"]["page"] == 4
+
+    growth_group = next(group for group in payload["groups"] if group["id"] == "phys-154")
+    assert growth_group["stems"][0]["answer"] == list("BCEGHJK")
+    assert growth_group["lectureEvidence"]["page"] == 1
+
     missing_images = []
     duplicate_option_keys = []
     invalid_answers = []
     empty_answers = []
+    answer_raw_mismatches = []
     missing_lectures = []
     lecture_ids = {lecture["id"] for lecture in payload["lectures"]}
     for page in payload["pages"]:
@@ -72,6 +88,8 @@ def main() -> None:
             absent = [key for key in stem.get("answer", []) if key not in option_keys]
             if absent:
                 invalid_answers.append(f"{group['id']}:{stem_index}={absent}")
+            if stem.get("answerMode") != "排序" and stem.get("answerRaw") != "".join(stem.get("answer", [])):
+                answer_raw_mismatches.append(f"{group['id']}:{stem_index}")
         if not group.get("lectureIds") or any(item not in lecture_ids for item in group["lectureIds"]):
             missing_lectures.append(group["id"])
         evidence = group.get("lectureEvidence", {})
@@ -82,6 +100,7 @@ def main() -> None:
     assert not duplicate_option_keys, f"duplicate option keys: {duplicate_option_keys}"
     assert not invalid_answers, f"answers outside option bank: {invalid_answers}"
     assert not empty_answers, f"empty answers: {empty_answers}"
+    assert not answer_raw_mismatches, f"answerRaw differs from answer: {answer_raw_mismatches}"
     assert not missing_lectures, f"missing lecture links: {missing_lectures}"
 
     print({

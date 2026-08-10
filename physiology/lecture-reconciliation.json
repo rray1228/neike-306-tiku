@@ -7,15 +7,17 @@
     "lectureCount": 41,
     "groupCount": 160,
     "stemCount": 505,
-    "correctionGroupCount": 15,
+    "correctionGroupCount": 18,
     "generatedBy": "scripts/build_physiology_content.py",
     "siteIntegrated": true,
     "lectureLinked": true,
-    "answerNote": "去年学成选择题已逐组映射至 2027 考研生理讲义；发现的答案、选项字母和文字问题均以可追溯勘误形式同步修正。"
+    "answerNote": "去年学成选择题已逐组映射至 2027 考研生理讲义；发现的答案、选项字母和文字问题均以可追溯勘误形式同步修正。",
+    "fullSemanticAuditDate": "2026-08-10",
+    "fullSemanticAuditScope": "160 个题组、505 个题干、41 份 2027 考研生理讲义"
   },
   "statusSummary": {
-    "与今年讲义一致": 145,
-    "已校正": 15
+    "与今年讲义一致": 142,
+    "已校正": 18
   },
   "corrections": [
     {
@@ -268,6 +270,94 @@
               "A",
               "D",
               "ACDE"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-049",
+      "topic": "循环系统",
+      "sourcePage": 41,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生理 心肌电活动和特性",
+        "page": 4,
+        "score": 0.556,
+        "method": "按今年讲义原文人工复核并定位"
+      },
+      "corrections": [
+        {
+          "title": "T 型钙通道答案校正",
+          "body": "T 型快钙通道 ICa-T 答案由 BC 校正为 BD。 依据：今年讲义明确：T 型钙通道参与窦房结 4 期自动去极化，并在自动去极化至 -50 mV 时大量激活；-40 mV 大量激活属于 L 型钙通道。",
+          "lectureId": "lecture-12",
+          "lecturePages": [
+            4
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "消化道平滑肌细胞 0 期"
+              },
+              {
+                "key": "B",
+                "label": "窦房结 4 期自动去极化"
+              },
+              {
+                "key": "C",
+                "label": "去极化至-40mv 时大量激活开放"
+              },
+              {
+                "key": "D",
+                "label": "自动去极化至-50mv 时大量激活开放"
+              },
+              {
+                "key": "E",
+                "label": "心肌慢反应细胞 0 期"
+              },
+              {
+                "key": "F",
+                "label": "心肌快反应细胞 2 期"
+              }
+            ],
+            "answers": [
+              "ACEF",
+              "BC"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "消化道平滑肌细胞 0 期"
+              },
+              {
+                "key": "B",
+                "label": "窦房结 4 期自动去极化"
+              },
+              {
+                "key": "C",
+                "label": "去极化至-40mv 时大量激活开放"
+              },
+              {
+                "key": "D",
+                "label": "自动去极化至-50mv 时大量激活开放"
+              },
+              {
+                "key": "E",
+                "label": "心肌慢反应细胞 0 期"
+              },
+              {
+                "key": "F",
+                "label": "心肌快反应细胞 2 期"
+              }
+            ],
+            "answers": [
+              "ACEF",
+              "BD"
             ]
           }
         }
@@ -1553,6 +1643,289 @@
         }
       ],
       "status": "已校正"
+    },
+    {
+      "id": "phys-149",
+      "topic": "内分泌",
+      "sourcePage": 117,
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "lectureNumber": 35,
+        "lectureTitle": "生理 内分泌概述",
+        "page": 4,
+        "score": 0.2476,
+        "method": "按今年讲义原文人工复核并定位"
+      },
+      "corrections": [
+        {
+          "title": "类固醇激素答案漏项校正",
+          "body": "类固醇激素答案由 ADEGL 校正为 ADEGJL。 依据：今年讲义明确将性激素（雄激素、雌激素、孕激素）列为胆固醇衍生的类固醇激素，因此 J 项应选。",
+          "lectureId": "lecture-35",
+          "lecturePages": [
+            4,
+            5
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "分泌方式-单纯扩散"
+              },
+              {
+                "key": "B",
+                "label": "酪氨酸、色氨酸的衍生物"
+              },
+              {
+                "key": "C",
+                "label": "褪黑素"
+              },
+              {
+                "key": "D",
+                "label": "胆固醇衍生物"
+              },
+              {
+                "key": "E",
+                "label": "多为核受体"
+              },
+              {
+                "key": "F",
+                "label": "分泌方式-出胞"
+              },
+              {
+                "key": "G",
+                "label": "钙三醇"
+              },
+              {
+                "key": "H",
+                "label": "氨基酸聚合物"
+              },
+              {
+                "key": "I",
+                "label": "儿茶酚胺"
+              },
+              {
+                "key": "J",
+                "label": "性激素"
+              },
+              {
+                "key": "K",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "L",
+                "label": "糖皮质激素/皮质醇"
+              },
+              {
+                "key": "M",
+                "label": "多数激素"
+              },
+              {
+                "key": "N",
+                "label": "膜受体"
+              }
+            ],
+            "answers": [
+              "BCFIKN",
+              "FHMN",
+              "ADEGL"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "分泌方式-单纯扩散"
+              },
+              {
+                "key": "B",
+                "label": "酪氨酸、色氨酸的衍生物"
+              },
+              {
+                "key": "C",
+                "label": "褪黑素"
+              },
+              {
+                "key": "D",
+                "label": "胆固醇衍生物"
+              },
+              {
+                "key": "E",
+                "label": "多为核受体"
+              },
+              {
+                "key": "F",
+                "label": "分泌方式-出胞"
+              },
+              {
+                "key": "G",
+                "label": "钙三醇"
+              },
+              {
+                "key": "H",
+                "label": "氨基酸聚合物"
+              },
+              {
+                "key": "I",
+                "label": "儿茶酚胺"
+              },
+              {
+                "key": "J",
+                "label": "性激素"
+              },
+              {
+                "key": "K",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "L",
+                "label": "糖皮质激素/皮质醇"
+              },
+              {
+                "key": "M",
+                "label": "多数激素"
+              },
+              {
+                "key": "N",
+                "label": "膜受体"
+              }
+            ],
+            "answers": [
+              "BCFIKN",
+              "FHMN",
+              "ADEGJL"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-154",
+      "topic": "内分泌",
+      "sourcePage": 121,
+      "lectureEvidence": {
+        "lectureId": "lecture-37",
+        "lectureNumber": 37,
+        "lectureTitle": "生理 生长激素",
+        "page": 1,
+        "score": 0.4308,
+        "method": "按今年讲义原文人工复核并定位"
+      },
+      "corrections": [
+        {
+          "title": "促进生长激素分泌答案漏项校正",
+          "body": "促进 GH 分泌答案由 BCEGHK 校正为 BCEGHJK。 依据：今年讲义除下丘脑 GHRH 外，还明确列出最初在胃黏膜发现的促生长激素释放激素可促进 GH 释放，因此 J 项应选。",
+          "lectureId": "lecture-37",
+          "lecturePages": [
+            1
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "快波睡眠"
+              },
+              {
+                "key": "B",
+                "label": "低血糖、饥饿、运动等应激"
+              },
+              {
+                "key": "C",
+                "label": "慢波睡眠"
+              },
+              {
+                "key": "D",
+                "label": "生长抑素"
+              },
+              {
+                "key": "E",
+                "label": "下丘脑生长激素释放激素GHRH"
+              },
+              {
+                "key": "F",
+                "label": "衰老"
+              },
+              {
+                "key": "G",
+                "label": "精氨酸"
+              },
+              {
+                "key": "H",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "I",
+                "label": "IGF-1"
+              },
+              {
+                "key": "J",
+                "label": "促生长激素释放激素"
+              },
+              {
+                "key": "K",
+                "label": "睾酮"
+              }
+            ],
+            "answers": [
+              "BCEGHK",
+              "ADFI"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "快波睡眠"
+              },
+              {
+                "key": "B",
+                "label": "低血糖、饥饿、运动等应激"
+              },
+              {
+                "key": "C",
+                "label": "慢波睡眠"
+              },
+              {
+                "key": "D",
+                "label": "生长抑素"
+              },
+              {
+                "key": "E",
+                "label": "下丘脑生长激素释放激素GHRH"
+              },
+              {
+                "key": "F",
+                "label": "衰老"
+              },
+              {
+                "key": "G",
+                "label": "精氨酸"
+              },
+              {
+                "key": "H",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "I",
+                "label": "IGF-1"
+              },
+              {
+                "key": "J",
+                "label": "促生长激素释放激素"
+              },
+              {
+                "key": "K",
+                "label": "睾酮"
+              }
+            ],
+            "answers": [
+              "BCEGHJK",
+              "ADFI"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
     }
   ],
   "mappings": [
@@ -2497,10 +2870,83 @@
         "lectureTitle": "生理 心肌电活动和特性",
         "page": 4,
         "score": 0.556,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "按今年讲义原文人工复核并定位"
       },
-      "corrections": [],
-      "status": "与今年讲义一致"
+      "corrections": [
+        {
+          "title": "T 型钙通道答案校正",
+          "body": "T 型快钙通道 ICa-T 答案由 BC 校正为 BD。 依据：今年讲义明确：T 型钙通道参与窦房结 4 期自动去极化，并在自动去极化至 -50 mV 时大量激活；-40 mV 大量激活属于 L 型钙通道。",
+          "lectureId": "lecture-12",
+          "lecturePages": [
+            4
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "消化道平滑肌细胞 0 期"
+              },
+              {
+                "key": "B",
+                "label": "窦房结 4 期自动去极化"
+              },
+              {
+                "key": "C",
+                "label": "去极化至-40mv 时大量激活开放"
+              },
+              {
+                "key": "D",
+                "label": "自动去极化至-50mv 时大量激活开放"
+              },
+              {
+                "key": "E",
+                "label": "心肌慢反应细胞 0 期"
+              },
+              {
+                "key": "F",
+                "label": "心肌快反应细胞 2 期"
+              }
+            ],
+            "answers": [
+              "ACEF",
+              "BC"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "消化道平滑肌细胞 0 期"
+              },
+              {
+                "key": "B",
+                "label": "窦房结 4 期自动去极化"
+              },
+              {
+                "key": "C",
+                "label": "去极化至-40mv 时大量激活开放"
+              },
+              {
+                "key": "D",
+                "label": "自动去极化至-50mv 时大量激活开放"
+              },
+              {
+                "key": "E",
+                "label": "心肌慢反应细胞 0 期"
+              },
+              {
+                "key": "F",
+                "label": "心肌快反应细胞 2 期"
+              }
+            ],
+            "answers": [
+              "ACEF",
+              "BD"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
     },
     {
       "id": "phys-050",
@@ -5097,10 +5543,150 @@
         "lectureTitle": "生理 内分泌概述",
         "page": 4,
         "score": 0.2476,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "按今年讲义原文人工复核并定位"
       },
-      "corrections": [],
-      "status": "与今年讲义一致"
+      "corrections": [
+        {
+          "title": "类固醇激素答案漏项校正",
+          "body": "类固醇激素答案由 ADEGL 校正为 ADEGJL。 依据：今年讲义明确将性激素（雄激素、雌激素、孕激素）列为胆固醇衍生的类固醇激素，因此 J 项应选。",
+          "lectureId": "lecture-35",
+          "lecturePages": [
+            4,
+            5
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "分泌方式-单纯扩散"
+              },
+              {
+                "key": "B",
+                "label": "酪氨酸、色氨酸的衍生物"
+              },
+              {
+                "key": "C",
+                "label": "褪黑素"
+              },
+              {
+                "key": "D",
+                "label": "胆固醇衍生物"
+              },
+              {
+                "key": "E",
+                "label": "多为核受体"
+              },
+              {
+                "key": "F",
+                "label": "分泌方式-出胞"
+              },
+              {
+                "key": "G",
+                "label": "钙三醇"
+              },
+              {
+                "key": "H",
+                "label": "氨基酸聚合物"
+              },
+              {
+                "key": "I",
+                "label": "儿茶酚胺"
+              },
+              {
+                "key": "J",
+                "label": "性激素"
+              },
+              {
+                "key": "K",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "L",
+                "label": "糖皮质激素/皮质醇"
+              },
+              {
+                "key": "M",
+                "label": "多数激素"
+              },
+              {
+                "key": "N",
+                "label": "膜受体"
+              }
+            ],
+            "answers": [
+              "BCFIKN",
+              "FHMN",
+              "ADEGL"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "分泌方式-单纯扩散"
+              },
+              {
+                "key": "B",
+                "label": "酪氨酸、色氨酸的衍生物"
+              },
+              {
+                "key": "C",
+                "label": "褪黑素"
+              },
+              {
+                "key": "D",
+                "label": "胆固醇衍生物"
+              },
+              {
+                "key": "E",
+                "label": "多为核受体"
+              },
+              {
+                "key": "F",
+                "label": "分泌方式-出胞"
+              },
+              {
+                "key": "G",
+                "label": "钙三醇"
+              },
+              {
+                "key": "H",
+                "label": "氨基酸聚合物"
+              },
+              {
+                "key": "I",
+                "label": "儿茶酚胺"
+              },
+              {
+                "key": "J",
+                "label": "性激素"
+              },
+              {
+                "key": "K",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "L",
+                "label": "糖皮质激素/皮质醇"
+              },
+              {
+                "key": "M",
+                "label": "多数激素"
+              },
+              {
+                "key": "N",
+                "label": "膜受体"
+              }
+            ],
+            "answers": [
+              "BCFIKN",
+              "FHMN",
+              "ADEGJL"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
     },
     {
       "id": "phys-150",
@@ -5172,10 +5758,123 @@
         "lectureTitle": "生理 生长激素",
         "page": 1,
         "score": 0.4308,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "按今年讲义原文人工复核并定位"
       },
-      "corrections": [],
-      "status": "与今年讲义一致"
+      "corrections": [
+        {
+          "title": "促进生长激素分泌答案漏项校正",
+          "body": "促进 GH 分泌答案由 BCEGHK 校正为 BCEGHJK。 依据：今年讲义除下丘脑 GHRH 外，还明确列出最初在胃黏膜发现的促生长激素释放激素可促进 GH 释放，因此 J 项应选。",
+          "lectureId": "lecture-37",
+          "lecturePages": [
+            1
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "快波睡眠"
+              },
+              {
+                "key": "B",
+                "label": "低血糖、饥饿、运动等应激"
+              },
+              {
+                "key": "C",
+                "label": "慢波睡眠"
+              },
+              {
+                "key": "D",
+                "label": "生长抑素"
+              },
+              {
+                "key": "E",
+                "label": "下丘脑生长激素释放激素GHRH"
+              },
+              {
+                "key": "F",
+                "label": "衰老"
+              },
+              {
+                "key": "G",
+                "label": "精氨酸"
+              },
+              {
+                "key": "H",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "I",
+                "label": "IGF-1"
+              },
+              {
+                "key": "J",
+                "label": "促生长激素释放激素"
+              },
+              {
+                "key": "K",
+                "label": "睾酮"
+              }
+            ],
+            "answers": [
+              "BCEGHK",
+              "ADFI"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "快波睡眠"
+              },
+              {
+                "key": "B",
+                "label": "低血糖、饥饿、运动等应激"
+              },
+              {
+                "key": "C",
+                "label": "慢波睡眠"
+              },
+              {
+                "key": "D",
+                "label": "生长抑素"
+              },
+              {
+                "key": "E",
+                "label": "下丘脑生长激素释放激素GHRH"
+              },
+              {
+                "key": "F",
+                "label": "衰老"
+              },
+              {
+                "key": "G",
+                "label": "精氨酸"
+              },
+              {
+                "key": "H",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "I",
+                "label": "IGF-1"
+              },
+              {
+                "key": "J",
+                "label": "促生长激素释放激素"
+              },
+              {
+                "key": "K",
+                "label": "睾酮"
+              }
+            ],
+            "answers": [
+              "BCEGHJK",
+              "ADFI"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
     },
     {
       "id": "phys-155",

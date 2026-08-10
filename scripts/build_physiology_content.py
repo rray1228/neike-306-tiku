@@ -76,6 +76,15 @@ CORRECTIONS = {
         "evidence_page": 4,
         "answers": {3: list("ACDE")},
     },
+    "phys-049": {
+        "title": "T 型钙通道答案校正",
+        "summary": "T 型快钙通道 ICa-T 答案由 BC 校正为 BD。",
+        "basis": "今年讲义明确：T 型钙通道参与窦房结 4 期自动去极化，并在自动去极化至 -50 mV 时大量激活；-40 mV 大量激活属于 L 型钙通道。",
+        "lecture": 12,
+        "pages": [4],
+        "evidence_page": 4,
+        "answers": {1: list("BD")},
+    },
     "phys-070": {
         "title": "缺失选项字母规范化",
         "summary": "原题跳过 F、直接使用 G；将“稳定肺泡容积和压力”规范为 F，并同步答案 BEG→BEF。",
@@ -177,6 +186,24 @@ CORRECTIONS = {
         "lecture": 33,
         "pages": [11],
         "answers": {0: list("ACEF"), 1: list("BD")},
+    },
+    "phys-149": {
+        "title": "类固醇激素答案漏项校正",
+        "summary": "类固醇激素答案由 ADEGL 校正为 ADEGJL。",
+        "basis": "今年讲义明确将性激素（雄激素、雌激素、孕激素）列为胆固醇衍生的类固醇激素，因此 J 项应选。",
+        "lecture": 35,
+        "pages": [4, 5],
+        "evidence_page": 4,
+        "answers": {2: list("ADEGJL")},
+    },
+    "phys-154": {
+        "title": "促进生长激素分泌答案漏项校正",
+        "summary": "促进 GH 分泌答案由 BCEGHK 校正为 BCEGHJK。",
+        "basis": "今年讲义除下丘脑 GHRH 外，还明确列出最初在胃黏膜发现的促生长激素释放激素可促进 GH 释放，因此 J 项应选。",
+        "lecture": 37,
+        "pages": [1],
+        "evidence_page": 1,
+        "answers": {0: list("BCEGHJK")},
     },
 }
 
@@ -312,6 +339,8 @@ def apply_correction(group: dict) -> list[dict]:
         set_answer(group["stems"][index], answer)
     for index, text in correction.get("stem_texts", {}).items():
         group["stems"][index]["text"] = text
+    for stem in group["stems"]:
+        stem["answerRaw"] = "".join(stem.get("answer", []))
     group["answerRaw"] = "、".join("".join(stem.get("answer", [])) for stem in group["stems"])
     note = {
         "title": correction["title"],
@@ -460,6 +489,8 @@ def main() -> None:
             "siteIntegrated": True,
             "lectureLinked": True,
             "answerNote": "去年学成选择题已逐组映射至 2027 考研生理讲义；发现的答案、选项字母和文字问题均以可追溯勘误形式同步修正。",
+            "fullSemanticAuditDate": "2026-08-10",
+            "fullSemanticAuditScope": "160 个题组、505 个题干、41 份 2027 考研生理讲义",
         },
         "topics": ["全部", *TOPICS, "综合"],
         "pages": pages,
