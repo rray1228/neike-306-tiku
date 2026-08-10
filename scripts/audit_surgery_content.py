@@ -72,6 +72,18 @@ VERIFIED_GROUPS = {
     },
 }
 
+VERIFIED_COLORECTAL_OPTIONS = {
+    "p12-g1": ["切除、一期吻合术", "支架置入、限期切除", "右半结肠切除、一期回肠-结肠吻合术", "切除肿瘤、近端造口与远端封闭"],
+    "p12-g2": ["腹膜返折以下/距肛缘<7cm/距齿状线<5cm", "腹膜返折以下/距肛缘≤7cm/距齿状线≤5cm", "腹膜返折以上/距肛缘≥7cm/距齿状线≥5cm", "腹膜返折以上/距肛缘>7cm/距齿状线>5cm", "急性肠梗阻不宜行Dixon术", "不耐受Miles术"],
+    "p12-g3": ["肛门外括约肌和肛提肌受累", "肛门外括约肌和肛提肌未受累，即使低位也可"],
+    "p12-g4": ["肛管", "来源内胚层", "皮肤，相对不易破裂", "肛管动脉", "直肠上静脉→门静脉", "腹股沟浅淋巴结", "直肠上动脉（主要）", "内脏（交感、副交感），痛觉不敏感", "鳞癌", "直肠", "来源于外胚层", "黏膜，易破裂出血", "骶正中动脉", "直肠下静脉和肛管静脉→下腔静脉", "肠系膜下动脉旁和髂内淋巴结", "直肠下动脉", "躯体（阴部神经），痛觉敏感", "腺癌", "内痔", "外痔"],
+    "p13-g1": ["出血（鲜血）", "脱出（不能还纳或还纳后再次脱出）", "脱出（需用手还纳）", "脱出（可自行还纳）"],
+    "p13-g2": ["12", "9/1/5", "6", "3/7/11"],
+    "p13-g3": ["局部症状明显", "局部症状不明显", "最常见", "全身症状明显", "最少见", "全身症状不明显", "可有直肠和/或膀胱刺激征"],
+    "p13-g4": ["挂线", "切除肛瘘", "切开肛瘘"],
+    "p13-g5": ["柔软光滑", "条索状肿物", "可推动的、有蒂", "不用直肠指检", "易出血肿物", "可出血肿物", "触及不规则", "柔软的血管团", "质硬", "波动感"],
+}
+
 VERIFIED_HERNIA_GROUPS = {
     "p14-g1": ("股管结构", "ABCD", {"前": "C", "后": "B", "内": "A", "外": "D"}),
     "p14-g2": ("腹股沟管结构", "ABCDFGHI", {"前": "BD", "后": "ACG", "上": "DH", "下": "FI"}),
@@ -150,6 +162,12 @@ def main() -> None:
     assert not text_issues, f"text/review issues: {text_issues}"
 
     groups_by_id = {group["id"]: group for group in payload["groups"]}
+    colorectal_ids = {group["id"] for group in payload["groups"] if group["topic"] == "结直肠与肛管疾病"}
+    assert colorectal_ids == set(VERIFIED_COLORECTAL_OPTIONS), f"colorectal group drift: {sorted(colorectal_ids)}"
+    for group_id, expected_options in VERIFIED_COLORECTAL_OPTIONS.items():
+        actual_options = [item["label"] for item in groups_by_id[group_id]["options"]]
+        assert actual_options == expected_options, f"{group_id}: colorectal option drift"
+
     for group_id, expected in VERIFIED_GROUPS.items():
         group = groups_by_id[group_id]
         assert group["title"] == expected["title"], f"{group_id}: title drift"
@@ -178,6 +196,17 @@ def main() -> None:
     }, "p28-g1: lecture evidence drift"
     lecture_image = root / "public" / phosphate_evidence["image"]
     assert lecture_image.exists(), f"missing lecture evidence image: {lecture_image}"
+
+    colorectal_evidence = groups_by_id["p12-g4"]["lectureEvidence"]
+    assert colorectal_evidence == {
+        "lectureId": "lecture-11",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-11-page-01.png",
+        "title": "第11讲第1页 · 齿状线上下鉴别",
+        "description": "讲义表格逐项列出齿状线上下的分界、来源、组织、血管、淋巴、神经、癌变及痔的对应关系。",
+    }, "p12-g4: lecture evidence drift"
+    colorectal_lecture_image = root / "public" / colorectal_evidence["image"]
+    assert colorectal_lecture_image.exists(), f"missing lecture evidence image: {colorectal_lecture_image}"
 
     unresolved = [
         f"{group['id']}:{index}"
