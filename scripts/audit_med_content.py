@@ -98,6 +98,8 @@ def main() -> None:
     assert by_id["p85-g1"]["options"][27]["label"] == "有相对性主动脉瓣狭窄"
     assert by_id["p85-g1"]["options"][11]["label"] == "左室：慢性后期离心性肥厚；急性早期正常或轻度扩大"
     assert by_id["p85-g1"]["options"][49]["label"] == "成人：置换术，若老龄重度不耐受TAVR"
+    assert by_id["p38-g1"]["topic"] == "血液"
+    assert by_id["p38-g1"]["lectureIds"] == ["lecture-28"]
     assert by_id["p87-g3"]["options"][3]["label"] == "明显诱因胸痛，多持续3～5分钟"
     assert [option["key"] for option in by_id["p88-g1"]["options"]] == list("ABCDEFGHIJKL")
 

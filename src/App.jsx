@@ -155,6 +155,44 @@ const TOPIC_ICONS = {
   '氧化磷酸化调节与抑制': 'alert',
 }
 
+const MED_LECTURE_TOPIC_RANGES = {
+  呼吸: [1, 13],
+  消化: [14, 23],
+  肾脏: [24, 27],
+  血液: [28, 35],
+  内分泌: [36, 42],
+  风湿: [43, 47],
+  中毒: [48, 48],
+  循环: [49, 57],
+}
+
+const MED_CHAPTER_OVERRIDES = {
+  'p28-g1': ['lecture-18'],
+  'p28-g2': ['lecture-18'],
+  'p28-g3': ['lecture-18'],
+  'p36-g1': ['lecture-25'],
+  'p36-g2': ['lecture-25'],
+  'p36-g3': ['lecture-26'],
+  'p42-g1': ['lecture-28'],
+  'p42-g2': ['lecture-28'],
+  'p42-g3': ['lecture-28'],
+  'p45-g1': ['lecture-30'],
+  'p45-g2': ['lecture-30'],
+  'p45-g3': ['lecture-30'],
+  'p45-g4': ['lecture-30'],
+  'p47-g1': ['lecture-31'],
+  'p47-g2': ['lecture-31'],
+  'p50-g1': ['lecture-34'],
+  'p54-g1': ['lecture-34'],
+  'p54-g2': ['lecture-34'],
+  'p56-g1': ['lecture-35'],
+  'p57-g1': ['lecture-35'],
+  'p59-g1': ['lecture-35'],
+  'p60-g1': ['lecture-35'],
+  'p71-g1': ['lecture-47'],
+  'p71-g2': ['lecture-47'],
+}
+
 const CORRECTIONS = {
   'p02-g1:12': {
     title: '讲义校对 · 规范化识别',
@@ -406,6 +444,42 @@ function topicCounts(groups) {
   return counts
 }
 
+function navigationLectureIds(subject, group) {
+  const override = subject === 'med' ? MED_CHAPTER_OVERRIDES[group.id] : null
+  const ids = override || group.lectureIds || []
+  if (subject !== 'med') return ids
+  const range = MED_LECTURE_TOPIC_RANGES[group.topic]
+  if (!range) return ids
+  return ids.filter((id) => {
+    const number = Number(String(id).replace('lecture-', ''))
+    return number >= range[0] && number <= range[1]
+  })
+}
+
+function lectureChapterTree(content, subject) {
+  const lectures = content.lectures || []
+  const lectureMap = new Map(lectures.map((lecture) => [lecture.id, lecture]))
+  const topics = (content.topics || []).filter((item) => item !== '全部')
+  return topics.map((topic) => {
+    const topicGroups = content.groups.filter((group) => group.topic === topic)
+    const chapterStats = new Map()
+    let unassignedStemCount = 0
+    for (const group of topicGroups) {
+      const lectureIds = navigationLectureIds(subject, group).filter((id) => lectureMap.has(id))
+      if (!lectureIds.length) unassignedStemCount += group.stems.length
+      for (const lectureId of lectureIds) {
+        const previous = chapterStats.get(lectureId) || { groupCount: 0, stemCount: 0 }
+        chapterStats.set(lectureId, { groupCount: previous.groupCount + 1, stemCount: previous.stemCount + group.stems.length })
+      }
+    }
+    const chapters = lectures
+      .filter((lecture) => chapterStats.has(lecture.id))
+      .map((lecture) => ({ ...lecture, ...chapterStats.get(lecture.id) }))
+    if (unassignedStemCount) chapters.push({ id: `unassigned:${topic}`, title: '未关联讲义', groupCount: 0, stemCount: unassignedStemCount, unassigned: true })
+    return { topic, chapters }
+  })
+}
+
 function App() {
   const [subject, setSubject] = useState(() => {
     const storedSubject = readLocalStorage('study-subject', 'med')
@@ -418,7 +492,9 @@ function App() {
   const content = loadedContent || EMPTY_CONTENT
   const isLoadingContent = loadedContent === null
   const counts = useMemo(() => topicCounts(content.groups), [content])
+  const chapterTree = useMemo(() => lectureChapterTree(content, subject), [content, subject])
   const [topic, setTopic] = useState(() => (SUBJECTS[readLocalStorage('study-subject', 'med')] || SUBJECTS.med).defaultTopic)
+  const [chapterId, setChapterId] = useState('')
   const [search, setSearch] = useState('')
   const [typeFilter, setTypeFilter] = useState('全部题型')
   const [groupIndex, setGroupIndex] = useState(0)
@@ -465,28 +541,37 @@ function App() {
 
   const favoriteCounts = useMemo(() => {
     const byTopic = {}
+    const byChapter = {}
     let total = 0
     for (const group of content.groups) {
       if (!favorites.includes(groupStorageKey(subject, group.id))) continue
       byTopic[group.topic] = (byTopic[group.topic] || 0) + 1
+      for (const lectureId of navigationLectureIds(subject, group)) byChapter[lectureId] = (byChapter[lectureId] || 0) + 1
       total += 1
     }
-    return { byTopic, total }
+    return { byTopic, byChapter, total }
   }, [content, favorites, subject])
-  const currentFavoriteCount = topic === '全部' ? favoriteCounts.total : (favoriteCounts.byTopic[topic] || 0)
-  const notebookName = topic === '全部' ? `${subjectConfig.label}收藏本` : `${topic}收藏本`
+  const currentChapter = chapterTree.flatMap((item) => item.chapters).find((chapter) => chapter.id === chapterId)
+  const currentFavoriteCount = chapterId ? (favoriteCounts.byChapter[chapterId] || 0) : (topic === '全部' ? favoriteCounts.total : (favoriteCounts.byTopic[topic] || 0))
+  const notebookName = currentChapter ? `${currentChapter.title}收藏本` : (topic === '全部' ? `${subjectConfig.label}收藏本` : `${topic}收藏本`)
 
   const filteredGroups = useMemo(() => {
     const query = search.trim().toLowerCase()
     return content.groups.filter((group) => {
       if (topic !== '全部' && group.topic !== topic) return false
+      if (chapterId) {
+        const groupLectureIds = navigationLectureIds(subject, group)
+        if (chapterId.startsWith('unassigned:')) {
+          if (groupLectureIds.length) return false
+        } else if (!groupLectureIds.includes(chapterId)) return false
+      }
       if (favoritesOnly && !favorites.includes(groupStorageKey(subject, group.id))) return false
       if (typeFilter !== '全部题型' && group.kindLabel !== typeFilter) return false
       if (!query) return true
       const haystack = [group.title, group.topic, group.sourceText, ...group.options.map((item) => item.label), ...group.stems.map((stem) => stem.text)].join(' ').toLowerCase()
       return haystack.includes(query)
     })
-  }, [content, favorites, favoritesOnly, search, subject, topic, typeFilter])
+  }, [chapterId, content, favorites, favoritesOnly, search, subject, topic, typeFilter])
 
   useEffect(() => {
     if (groupIndex >= filteredGroups.length) setGroupIndex(0)
@@ -582,11 +667,29 @@ function App() {
     setGroupIndex(0)
   }
 
+  function selectTopic(nextTopic) {
+    setTopic(nextTopic)
+    setChapterId('')
+    setGroupIndex(0)
+  }
+
+  function selectChapter(nextChapterId) {
+    const chapter = chapterTree.flatMap((item) => item.chapters).find((item) => item.id === nextChapterId)
+    if (!chapter) return
+    setChapterId(nextChapterId)
+    if (!chapter.unassigned) {
+      const parent = chapterTree.find((item) => item.chapters.some((item) => item.id === nextChapterId))
+      if (parent) setTopic(parent.topic)
+    }
+    setGroupIndex(0)
+  }
+
   function switchSubject(nextSubject) {
     if (nextSubject === subject) return
     const nextConfig = SUBJECTS[nextSubject]
     setSubject(nextSubject)
     setTopic(nextConfig.defaultTopic)
+    setChapterId('')
     setSearch('')
     setTypeFilter('全部题型')
     setGroupIndex(0)
@@ -636,11 +739,16 @@ function App() {
             <button className={`favorite-notebook-link ${favoritesOnly ? 'active' : ''}`} onClick={toggleFavoriteNotebook} aria-pressed={favoritesOnly} title={`${notebookName}，共 ${currentFavoriteCount} 个题组`}>
               <span className="topic-icon"><Icon name={favoritesOnly ? 'bookmarkFill' : 'bookmark'} size={21} /></span><span>{notebookName}</span><em>{currentFavoriteCount}</em>
             </button>
-            <div className="topic-nav-label">选择章节</div>
-            {content.topics.filter((item) => item !== '全部' && item !== '综合').map((item) => (
-              <button key={item} className={`topic-link ${topic === item ? 'active' : ''}`} onClick={() => { setTopic(item); setGroupIndex(0) }}>
-                <span className="topic-icon"><Icon name={TOPIC_ICONS[item]} size={22} /></span><span>{item}</span><span className="topic-counts"><em>{counts[item] || 0}</em>{favoriteCounts.byTopic[item] ? <small title={`${favoriteCounts.byTopic[item]} 个收藏题组`}><Icon name="bookmarkFill" size={10} />{favoriteCounts.byTopic[item]}</small> : null}</span>
-              </button>
+            <div className="topic-nav-label">系统 / 讲义章节</div>
+            {chapterTree.map(({ topic: system, chapters }) => (
+              <div className="topic-tree" key={system}>
+                <button className={`topic-link ${topic === system && !chapterId ? 'active' : ''}`} onClick={() => selectTopic(system)} aria-expanded={topic === system}>
+                  <span className="topic-icon"><Icon name={TOPIC_ICONS[system]} size={22} /></span><span>{system}</span><span className="topic-counts"><em>{counts[system] || 0}</em>{favoriteCounts.byTopic[system] ? <small title={`${favoriteCounts.byTopic[system]} 个收藏题组`}><Icon name="bookmarkFill" size={10} />{favoriteCounts.byTopic[system]}</small> : null}</span>
+                </button>
+                {topic === system && chapters.length > 0 && <div className="chapter-nav" aria-label={`${system}讲义章节`}>
+                  {chapters.map((chapter) => <button key={chapter.id} className={`chapter-link ${chapterId === chapter.id ? 'active' : ''}`} onClick={() => selectChapter(chapter.id)}><span className="chapter-marker" /><span title={chapter.title}>{chapter.title}</span><em>{chapter.stemCount}</em></button>)}
+                </div>}
+              </div>
             ))}
           </nav>
           <div className="sidebar-footer">
@@ -652,14 +760,15 @@ function App() {
         <main className="main-content">
           <div className="mobile-topic-row">
             <button className="text-button directory-button" onClick={() => setSidebarCollapsed((value) => !value)}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={16} />{sidebarCollapsed ? '章节' : '收起目录'}</button>
-            <select value={topic} onChange={(event) => { setTopic(event.target.value); setGroupIndex(0) }}>{content.topics.map((item) => <option key={item}>{item}</option>)}</select>
+            <select value={topic} onChange={(event) => selectTopic(event.target.value)} aria-label="选择系统">{content.topics.map((item) => <option key={item}>{item}</option>)}</select>
+            <select value={chapterId} onChange={(event) => event.target.value ? selectChapter(event.target.value) : selectTopic(topic)} aria-label="选择讲义章节"><option value="">全部讲义章节</option>{chapterTree.find((item) => item.topic === topic)?.chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</select>
             <button className={`text-button mobile-favorite-button ${favoritesOnly ? 'selected' : ''}`} onClick={toggleFavoriteNotebook} aria-pressed={favoritesOnly}><Icon name={favoritesOnly ? 'bookmarkFill' : 'bookmark'} size={16} />收藏本 {currentFavoriteCount}</button>
             <button className="text-button" onClick={() => setMobileEvidence((value) => !value)}>{mobileEvidence ? '隐藏讲义' : '显示讲义'} <Icon name="file" size={16} /></button>
           </div>
           {!filteredGroups.length && <div className="empty-state"><div className="empty-state-icon"><Icon name={favoritesOnly ? 'bookmark' : 'search'} size={22} /></div><h1>{favoritesOnly ? `${notebookName}暂无题组` : '当前筛选下没有题组'}</h1><p>{favoritesOnly ? '点击题组右上角的“收藏”后，它会自动进入当前科目与章节的收藏本。' : '请尝试清除搜索词、切换章节或选择其他题型。'}</p><button className="primary-button" onClick={favoritesOnly ? showAllGroupsInChapter : () => { setTopic('全部'); setSearch(''); setTypeFilter('全部题型'); setGroupIndex(0) }}>{favoritesOnly ? '返回本章全部题组' : '显示全部题库'} <Icon name="arrow" size={17} /></button></div>}
           {filteredGroups.length > 0 && <div className="study-content">
           {favoritesOnly && <div className="favorite-notebook-banner"><span className="favorite-notebook-icon"><Icon name="bookmarkFill" size={18} /></span><div><strong>{notebookName}</strong><small>正在复习已收藏题组 · 共 {filteredGroups.length} 组</small></div><button onClick={showAllGroupsInChapter}>退出收藏本</button></div>}
-          <div className="breadcrumb"><span>{group.topic || '综合'}</span><Icon name="chevron" size={13} /><span>{group.kindLabel}</span>{group.hideSource ? null : <><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></>}</div>
+          <div className="breadcrumb"><span>{group.topic || '综合'}</span>{currentChapter ? <><Icon name="chevron" size={13} /><span>{currentChapter.title}</span></> : null}<Icon name="chevron" size={13} /><span>{group.kindLabel}</span>{group.hideSource ? null : <><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></>}</div>
           <div className="content-heading">
             <div><h1>{group.title || '题库原题'}</h1><p>{group.kindLabel === '填空题' ? '按题干顺序填写数字或原词，提交后逐题核对。' : (group.kindLabel === '排序题' ? '依次点击选项完成排序；再次点击可移除后重新排列。' : '共用选项组保留在本题组内；每个题干独立作答，提交后逐题反馈。')}</p></div>
             <div className="heading-actions"><button className={`ghost-button ${favorite ? 'selected' : ''}`} onClick={toggleFavorite} aria-pressed={favorite} title={favorite ? `从${group.topic}收藏本移除` : `收藏到${group.topic}收藏本`}><Icon name={favorite ? 'bookmarkFill' : 'bookmark'} size={17} />{favorite ? '已收藏' : '收藏'}</button><button className="ghost-button" onClick={() => setShowNote((value) => !value)}><Icon name="note" size={17} />笔记</button></div>
