@@ -4863,11 +4863,12 @@
           "text": "妊娠期",
           "answer": [
             "G",
+            "I",
             "J",
             "L"
           ],
           "answerMode": "多选",
-          "sourceText": "妊娠期（GJL）",
+          "sourceText": "妊娠期（GIJL）",
           "ocrScore": 1.0,
           "reviewMethod": "300dpi原题页人工复核"
         }
