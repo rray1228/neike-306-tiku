@@ -16,6 +16,7 @@ import surgeryGeneralCoreContent from './data/surgery-general-core-data.js'
 import { surgeryGeneralInfectionGroups, surgeryGeneralLaterGroups } from './data/surgery-general-late-data.js'
 import physiologyContent from './data/physiology-data.json'
 import biochemistryContent from './data/biochemistry-data.json'
+import biochemistryLecture3Content from './data/biochemistry-lecture3-data.json'
 
 const combinedSurgeryContent = {
   ...surgeryContent,
@@ -26,6 +27,22 @@ const combinedSurgeryContent = {
     '综合',
   ],
   groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryNonpurulentArthritisContent.groups, ...surgeryBoneTumorContent.groups, ...surgeryTrunkSpineContent.groups, ...surgeryDegenerativeSpineContent.groups, ...surgeryLimbFractureContent.groups, ...surgeryGeneralCoreContent.groups, ...surgeryGeneralInfectionGroups, ...surgeryGeneralContent.groups, ...surgeryGeneralLaterGroups],
+}
+
+const combinedBiochemistryContent = {
+  ...biochemistryContent,
+  meta: {
+    ...biochemistryContent.meta,
+    title: '生物化学题库',
+    lectureCount: 2,
+    groupCount: biochemistryContent.groups.length + biochemistryLecture3Content.groups.length,
+    stemCount: biochemistryContent.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture3Content.groups.reduce((sum, group) => sum + group.stems.length, 0),
+    answerNote: '已收录第 01 讲与第 03 讲题组；每题均只关联本讲讲义页，选项已重新打散并按讲义复核。',
+  },
+  topics: [...biochemistryContent.topics.filter((topic) => topic !== '综合'), ...biochemistryLecture3Content.topics.filter((topic) => topic !== '全部' && topic !== '综合'), '综合'],
+  groups: [...biochemistryContent.groups, ...biochemistryLecture3Content.groups],
+  pages: [...biochemistryContent.pages, ...biochemistryLecture3Content.pages],
+  lectures: [...biochemistryContent.lectures, ...biochemistryLecture3Content.lectures],
 }
 
 const SUBJECTS = {
@@ -70,7 +87,7 @@ const SUBJECTS = {
     title: '生化第 1 讲-学成选择题（讲义校对版）',
     subtitle: '糖无氧氧化、糖有氧氧化、红细胞代谢与高能化合物',
     sectionLabel: '第 1 讲知识点',
-    content: biochemistryContent,
+    content: combinedBiochemistryContent,
     defaultTopic: '糖无氧氧化与糖有氧氧化',
     sourceName: '生化第一章学成选择题（修订扩充版）.docx',
   },
@@ -119,6 +136,10 @@ const TOPIC_ICONS = {
   中枢神经系统: 'grid',
   '糖无氧氧化与糖有氧氧化': 'spark',
   '红细胞代谢与高能化合物': 'grid',
+  '磷酸戊糖途径': 'spark',
+  '糖原合成与分解': 'grid',
+  '糖异生': 'stomach',
+  '糖代谢关键酶与中间物': 'book',
 }
 
 const CORRECTIONS = {
