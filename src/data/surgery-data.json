@@ -6007,8 +6007,8 @@
         },
         {
           "key": "B",
-          "label": "耻骨梳/Cooper 韧带（腹股沟韧带的延伸结构）",
-          "sourceText": "B.耻骨梳/Cooper 韧带（腹股沟韧带的延伸结构）",
+          "label": "耻骨梳/Cooper韧带（腹股沟韧带的延伸结构）",
+          "sourceText": "B.耻骨梳/Cooper韧带（腹股沟韧带的延伸结构）",
           "ocrScore": 0.5
         },
         {
@@ -6066,7 +6066,7 @@
           "ocrScore": 1.0
         }
       ],
-      "sourceText": "A.腔隙韧带（腹股沟韧带的延伸结构） | B.耻骨梳/Cooper 韧带（腹股沟韧带的延伸结构） | C.腹股沟韧带 | D.股血管 | 前 C | 后 B | 内 A | 外 D",
+      "sourceText": "A.腔隙韧带（腹股沟韧带的延伸结构） | B.耻骨梳/Cooper韧带（腹股沟韧带的延伸结构） | C.腹股沟韧带 | D.股血管 | 前 C | 后 B | 内 A | 外 D",
       "reviewState": "已按原题页人工复核",
       "reviewIssues": [],
       "topic": "腹外疝",
@@ -6126,7 +6126,7 @@
         {
           "key": "I",
           "label": "腔隙韧带",
-          "sourceText": "l.腔隙韧带",
+          "sourceText": "I.腔隙韧带",
           "ocrScore": 0.5
         }
       ],
@@ -6177,7 +6177,7 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "A.腹股沟镰（腹内斜肌和腹横肌腱膜构成的联合腱） | B.腹外斜肌腱膜（主要） | C.腹横筋膜 | D.腹内斜肌 | F.腹股沟韧带（腹外斜肌腱膜卷曲形成） | G.腹膜 | H.腹横肌 | l.腔隙韧带 | 前（BD） | 后（ACG） | 上（DH） | 下（FI）",
+      "sourceText": "A.腹股沟镰（腹内斜肌和腹横肌腱膜构成的联合腱） | B.腹外斜肌腱膜（主要） | C.腹横筋膜 | D.腹内斜肌 | F.腹股沟韧带（腹外斜肌腱膜卷曲形成） | G.腹膜 | H.腹横肌 | I.腔隙韧带 | 前（BD） | 后（ACG） | 上（DH） | 下（FI）",
       "reviewState": "已按原题页人工复核",
       "reviewIssues": [],
       "topic": "腹外疝",
@@ -6189,7 +6189,14 @@
           "title": "腹股沟管下壁答案删除 C",
           "body": "已对照原题第14页和第12讲第1页：下壁由腹股沟韧带、腔隙韧带构成，答案由 CFI 修正为 FI。"
         }
-      ]
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-12-page-01.png",
+        "title": "第12讲第1页 · 股管与腹股沟管结构",
+        "description": "讲义逐项列出股环四界、腹股沟管四壁及直疝三角边界，用于核对本页解剖题组。"
+      }
     },
     {
       "id": "p14-g3",
@@ -6519,8 +6526,8 @@
       "options": [
         {
           "key": "A",
-          "label": "嵌顿内容物为小肠憩室，如 Meckel 憩室",
-          "sourceText": "A.嵌顿内容物为小肠憩室，如 Meckel 憩室",
+          "label": "嵌顿内容物为小肠憩室，如Meckel憩室",
+          "sourceText": "A.嵌顿内容物为小肠憩室，如Meckel憩室",
           "ocrScore": 1.0
         },
         {
@@ -6591,7 +6598,7 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "A.嵌顿内容物为小肠憩室，如 Meckel 憩室 | B.嵌顿内容物仅为部分肠管壁，局部肿块不明显，多无肠梗阻，易误诊 | C.即使疝囊内肠管存活，也必须将腹腔内相关肠袢牵出检查，以防遗漏隐匿在腹腔内的坏死肠袢 | D.嵌顿内容物为阑尾，常感染化脓（appendix） | E.嵌顿肠管包括几个肠袢，呈W形 | Richter疝（肠管壁疝）（B） | Littre疝（A） | Maydl疝（逆行性嵌顿疝）（EC） | Amyand疝（D）",
+      "sourceText": "A.嵌顿内容物为小肠憩室，如Meckel憩室 | B.嵌顿内容物仅为部分肠管壁，局部肿块不明显，多无肠梗阻，易误诊 | C.即使疝囊内肠管存活，也必须将腹腔内相关肠袢牵出检查，以防遗漏隐匿在腹腔内的坏死肠袢 | D.嵌顿内容物为阑尾，常感染化脓（appendix） | E.嵌顿肠管包括几个肠袢，呈W形 | Richter疝（肠管壁疝）（B） | Littre疝（A） | Maydl疝（逆行性嵌顿疝）（EC） | Amyand疝（D）",
       "reviewState": "已按原题页人工复核",
       "reviewIssues": [],
       "topic": "腹外疝",
@@ -6608,20 +6615,20 @@
       "options": [
         {
           "key": "A",
-          "label": ">1岁婴幼儿",
-          "sourceText": "A.>1岁婴幼儿",
+          "label": "＞1岁婴幼儿",
+          "sourceText": "A.＞1岁婴幼儿",
           "ocrScore": 0.5
         },
         {
           "key": "B",
-          "label": "<1岁",
-          "sourceText": "B.<1岁",
+          "label": "＜1岁",
+          "sourceText": "B.＜1岁",
           "ocrScore": 1.0
         },
         {
           "key": "C",
-          "label": "<2岁脐疝",
-          "sourceText": "C.<2岁脐疝",
+          "label": "＜2岁脐疝",
+          "sourceText": "C.＜2岁脐疝",
           "ocrScore": 0.5
         },
         {
@@ -6662,7 +6669,7 @@
           "ocrScore": 0.5
         }
       ],
-      "sourceText": "A.>1岁婴幼儿 | B.<1岁 | C.<2岁脐疝 | D.绞窄疝 | E.不耐受手术 | 保守 BCE | 单纯疝囊高位结扎（AD",
+      "sourceText": "A.＞1岁婴幼儿 | B.＜1岁 | C.＜2岁脐疝 | D.绞窄疝 | E.不耐受手术 | 保守 BCE | 单纯疝囊高位结扎（AD",
       "reviewState": "已按原题页人工复核",
       "reviewIssues": [],
       "topic": "腹外疝",
@@ -6853,6 +6860,12 @@
       "sourceText": "A.股疝 | B.最常用 | C.成人的大斜疝和直疝 | D.严重薄弱者 | E.重点修补腹横筋膜和内环 | F.把腹内斜肌和联合腱缝合至耻骨梳韧带 | Bassini（B） | McVay（ADF） | Shouldice（CE）",
       "reviewState": "已按原题页人工复核",
       "reviewIssues": [],
+      "reviewNotes": [
+        {
+          "title": "Halsted原题信息不完整",
+          "body": "原题第15页列出了Halsted，但没有圈选答案；第12讲也仅列出术式名称，选项池中没有Halsted的专属特点。因此未擅自配答案，也不将其纳入计分题干。"
+        }
+      ],
       "topic": "腹外疝",
       "lectureIds": [
         "lecture-12"
@@ -6916,7 +6929,7 @@
         {
           "key": "I",
           "label": "咳嗽冲击感不明显",
-          "sourceText": "1.咳嗽冲击感不明显",
+          "sourceText": "I.咳嗽冲击感不明显",
           "ocrScore": 1.0
         },
         {
@@ -6952,7 +6965,7 @@
         {
           "key": "O",
           "label": "疝囊颈在腹壁下动脉外侧",
-          "sourceText": "0.疝囊颈在腹壁下动脉外侧",
+          "sourceText": "O.疝囊颈在腹壁下动脉外侧",
           "ocrScore": 0.5
         },
         {
@@ -7052,9 +7065,22 @@
           "ocrScore": 0.5
         }
       ],
-      "sourceText": "A.中老年肥胖女性多见 | B.好发老年男性 | C.包块在腹股沟韧带上方 | D.疝块小呈半球形 | E.半球形、基底较宽 | F.多进入阴囊/大阴唇 | G.偶尔进入阴囊/大阴唇 | H.绝对不进入阴囊/大阴唇 | 1.咳嗽冲击感不明显 | J.回纳疝块后压住内口疝块不再突出 | K.回纳疝块后压住内口疝块仍可突出 | L.咳嗽冲击感多明显 | M.易嵌顿 | N.最易嵌顿 | 0.疝囊颈在腹壁下动脉外侧 | P.疝囊颈在腹壁下动脉内侧 | Q.精索/子宫圆韧带在疝囊后方 | R.精索/子宫圆韧带在疝囊前外方 | S.好发儿童、青年男性 | T.包块在腹股沟韧带下方 | U.椭圆或梨形、呈蒂柄状 | V.不易嵌顿 | 股疝 ADHIKNT | 斜疝 CFJLMOQSU | 直疝（BCEGIKPRV",
+      "sourceText": "A.中老年肥胖女性多见 | B.好发老年男性 | C.包块在腹股沟韧带上方 | D.疝块小呈半球形 | E.半球形、基底较宽 | F.多进入阴囊/大阴唇 | G.偶尔进入阴囊/大阴唇 | H.绝对不进入阴囊/大阴唇 | I.咳嗽冲击感不明显 | J.回纳疝块后压住内口疝块不再突出 | K.回纳疝块后压住内口疝块仍可突出 | L.咳嗽冲击感多明显 | M.易嵌顿 | N.最易嵌顿 | O.疝囊颈在腹壁下动脉外侧 | P.疝囊颈在腹壁下动脉内侧 | Q.精索/子宫圆韧带在疝囊后方 | R.精索/子宫圆韧带在疝囊前外方 | S.好发儿童、青年男性 | T.包块在腹股沟韧带下方 | U.椭圆或梨形、呈蒂柄状 | V.不易嵌顿 | 股疝 ADHIKNT | 斜疝 CFJLMOQSU | 直疝（BCEGIKPRV",
       "reviewState": "已按原题页人工复核",
       "reviewIssues": [],
+      "reviewNotes": [
+        {
+          "title": "鉴别组选项字母修正",
+          "body": "I、O曾在OCR原文中分别显示为数字1、0，现已按原题页恢复为字母I、O；三类疝的答案字母经第12讲第5页复核，无需调整。"
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "page": 5,
+        "image": "surgery/lecture-pages/lecture-12-page-05.png",
+        "title": "第12讲第5页 · 股疝、斜疝与直疝鉴别",
+        "description": "讲义表格对照好发人群、突出途径、压内口试验、外形、阴囊关系、咳嗽冲击感、精索位置、动脉关系及嵌顿几率。"
+      },
       "topic": "腹外疝",
       "lectureIds": [
         "lecture-12"
@@ -7082,7 +7108,7 @@
         {
           "key": "C",
           "label": "睾丸自体移植术",
-          "sourceText": "C. 睾丸自体移植术",
+          "sourceText": "C.睾丸自体移植术",
           "ocrScore": 0.5
         },
         {
@@ -7150,7 +7176,7 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "A.短期用hCG | B.切除未降睾丸 | C. 睾丸自体移植术 | D.自行下降 | E.睾丸固定术 | 1岁内（D） | 1岁后（A） | 2岁前（E） | 睾丸萎缩且对侧睾丸正常（B） | 双侧睾丸不能下降（C）",
+      "sourceText": "A.短期用hCG | B.切除未降睾丸 | C.睾丸自体移植术 | D.自行下降 | E.睾丸固定术 | 1岁内（D） | 1岁后（A） | 2岁前（E） | 睾丸萎缩且对侧睾丸正常（B） | 双侧睾丸不能下降（C）",
       "reviewState": "已按原题页人工复核",
       "reviewIssues": [],
       "topic": "腹外疝",

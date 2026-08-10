@@ -99,6 +99,21 @@ VERIFIED_HERNIA_GROUPS = {
     "p16-g2": ("隐睾（阴囊空虚感）治疗", "ABCDE", {"1岁内": "D", "1岁后": "A", "2岁前": "E", "睾丸萎缩且对侧睾丸正常": "B", "双侧睾丸不能下降": "C"}),
 }
 
+VERIFIED_HERNIA_OPTIONS = {
+    "p14-g1": ["腔隙韧带（腹股沟韧带的延伸结构）", "耻骨梳/Cooper韧带（腹股沟韧带的延伸结构）", "腹股沟韧带", "股血管"],
+    "p14-g2": ["腹股沟镰（腹内斜肌和腹横肌腱膜构成的联合腱）", "腹外斜肌腱膜（主要）", "腹横筋膜", "腹内斜肌", "腹股沟韧带（腹外斜肌腱膜卷曲形成）", "腹膜", "腹横肌", "腔隙韧带"],
+    "p14-g3": ["腹壁下动脉", "腹直肌外缘", "腹股沟韧带"],
+    "p14-g4": ["壁层腹膜", "脏层腹膜"],
+    "p14-g5": ["无腹膜刺激征", "有疼痛", "包块可消失", "无疼痛", "包块不可消失", "有腹膜刺激征", "包块因卡住反而增大", "可伴机械性肠梗阻（肠鸣音亢进）"],
+    "p14-g6": ["盲肠", "小肠", "阑尾", "大网膜", "乙状结肠", "膀胱"],
+    "p15-g1": ["嵌顿内容物为小肠憩室，如Meckel憩室", "嵌顿内容物仅为部分肠管壁，局部肿块不明显，多无肠梗阻，易误诊", "即使疝囊内肠管存活，也必须将腹腔内相关肠袢牵出检查，以防遗漏隐匿在腹腔内的坏死肠袢", "嵌顿内容物为阑尾，常感染化脓（appendix）", "嵌顿肠管包括几个肠袢，呈W形"],
+    "p15-g2": ["＞1岁婴幼儿", "＜1岁", "＜2岁脐疝", "绞窄疝", "不耐受手术"],
+    "p15-g3": ["Ferguson", "Bassini", "Rutkow", "McVay", "Stoppa", "Shouldice", "Lichtenstein", "Halsted法"],
+    "p15-g4": ["股疝", "最常用", "成人的大斜疝和直疝", "严重薄弱者", "重点修补腹横筋膜和内环", "把腹内斜肌和联合腱缝合至耻骨梳韧带"],
+    "p16-g1": ["中老年肥胖女性多见", "好发老年男性", "包块在腹股沟韧带上方", "疝块小呈半球形", "半球形、基底较宽", "多进入阴囊/大阴唇", "偶尔进入阴囊/大阴唇", "绝对不进入阴囊/大阴唇", "咳嗽冲击感不明显", "回纳疝块后压住内口疝块不再突出", "回纳疝块后压住内口疝块仍可突出", "咳嗽冲击感多明显", "易嵌顿", "最易嵌顿", "疝囊颈在腹壁下动脉外侧", "疝囊颈在腹壁下动脉内侧", "精索/子宫圆韧带在疝囊后方", "精索/子宫圆韧带在疝囊前外方", "好发儿童、青年男性", "包块在腹股沟韧带下方", "椭圆或梨形、呈蒂柄状", "不易嵌顿"],
+    "p16-g2": ["短期用hCG", "切除未降睾丸", "睾丸自体移植术", "自行下降", "睾丸固定术"],
+}
+
 
 def main() -> None:
     root = Path(__file__).resolve().parents[1]
@@ -185,6 +200,32 @@ def main() -> None:
         assert {item["text"]: "".join(item["answer"]) for item in group["stems"]} == stems, \
             f"{group_id}: hernia stem/answer drift"
         assert group["reviewState"] == "已按原题页人工复核", f"{group_id}: review state drift"
+        assert [item["label"] for item in group["options"]] == VERIFIED_HERNIA_OPTIONS[group_id], \
+            f"{group_id}: hernia option drift"
+
+    assert groups_by_id["p15-g4"]["reviewNotes"] == [{
+        "title": "Halsted原题信息不完整",
+        "body": "原题第15页列出了Halsted，但没有圈选答案；第12讲也仅列出术式名称，选项池中没有Halsted的专属特点。因此未擅自配答案，也不将其纳入计分题干。",
+    }], "p15-g4: Halsted review note drift"
+
+    hernia_evidence = {
+        "p14-g2": {
+            "lectureId": "lecture-12", "page": 1,
+            "image": "surgery/lecture-pages/lecture-12-page-01.png",
+            "title": "第12讲第1页 · 股管与腹股沟管结构",
+            "description": "讲义逐项列出股环四界、腹股沟管四壁及直疝三角边界，用于核对本页解剖题组。",
+        },
+        "p16-g1": {
+            "lectureId": "lecture-12", "page": 5,
+            "image": "surgery/lecture-pages/lecture-12-page-05.png",
+            "title": "第12讲第5页 · 股疝、斜疝与直疝鉴别",
+            "description": "讲义表格对照好发人群、突出途径、压内口试验、外形、阴囊关系、咳嗽冲击感、精索位置、动脉关系及嵌顿几率。",
+        },
+    }
+    for group_id, evidence in hernia_evidence.items():
+        assert groups_by_id[group_id]["lectureEvidence"] == evidence, f"{group_id}: lecture evidence drift"
+        evidence_image = root / "public" / evidence["image"]
+        assert evidence_image.exists(), f"missing lecture evidence image: {evidence_image}"
 
     phosphate_evidence = groups_by_id["p28-g1"]["lectureEvidence"]
     assert phosphate_evidence == {
