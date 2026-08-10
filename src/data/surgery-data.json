@@ -7154,92 +7154,92 @@
         {
           "key": "A",
           "label": "心内膜炎",
-          "sourceText": "A.心内膜炎",
-          "ocrScore": 0.5
+          "sourceText": "A. 心内膜炎",
+          "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "阑尾炎",
-          "sourceText": "B.阑尾炎",
+          "sourceText": "B. 阑尾炎",
           "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "胆道结石",
-          "sourceText": "C.胆道结石",
+          "sourceText": "C. 胆道结石",
           "ocrScore": 1.0
         },
         {
           "key": "D",
           "label": "皮肤化脓",
-          "sourceText": "D.皮肤化脓",
+          "sourceText": "D. 皮肤化脓",
           "ocrScore": 1.0
         },
         {
           "key": "E",
           "label": "蛔虫",
-          "sourceText": "E.蛔虫",
+          "sourceText": "E. 蛔虫",
           "ocrScore": 1.0
         },
         {
           "key": "F",
           "label": "痔感染",
-          "sourceText": "F.痔感染",
+          "sourceText": "F. 痔感染",
           "ocrScore": 1.0
         },
         {
           "key": "G",
           "label": "肿瘤",
-          "sourceText": "G.肿瘤",
+          "sourceText": "G. 肿瘤",
           "ocrScore": 1.0
         },
         {
           "key": "H",
           "label": "骨髓炎",
-          "sourceText": "H.骨髓炎",
+          "sourceText": "H. 骨髓炎",
           "ocrScore": 1.0
         },
         {
           "key": "I",
-          "label": "胆肠吻合口狭窄如Whipple 手术",
-          "sourceText": "1.胆肠吻合口狭窄如Whipple 手术",
-          "ocrScore": 0.5
+          "label": "胆肠吻合口狭窄（如Whipple术后）",
+          "sourceText": "I. 胆肠吻合口狭窄（如Whipple术后）",
+          "ocrScore": 1.0
         },
         {
           "key": "J",
           "label": "菌痢",
-          "sourceText": "J.菌痢",
-          "ocrScore": 0.5
+          "sourceText": "J. 菌痢",
+          "ocrScore": 1.0
         },
         {
           "key": "K",
           "label": "大肠杆菌",
-          "sourceText": "K.大肠杆菌",
-          "ocrScore": 0.5
+          "sourceText": "K. 大肠杆菌",
+          "ocrScore": 1.0
         },
         {
           "key": "L",
           "label": "金葡菌",
-          "sourceText": "L.金葡菌",
+          "sourceText": "L. 金葡菌",
           "ocrScore": 1.0
         },
         {
           "key": "M",
           "label": "厌氧菌",
-          "sourceText": "M.厌氧菌",
+          "sourceText": "M. 厌氧菌",
           "ocrScore": 1.0
         },
         {
           "key": "O",
           "label": "开放性肝损伤尤其中央型",
-          "sourceText": "O.开放性肝损伤尤其中央型",
-          "ocrScore": 0.5
+          "sourceText": "O. 开放性肝损伤尤其中央型",
+          "ocrScore": 1.0
         },
         {
           "key": "P",
           "label": "克雷伯杆菌",
-          "sourceText": "P.克雷伯杆菌",
-          "ocrScore": 0.5
+          "sourceText": "P. 克雷伯杆菌",
+          "ocrScore": 1.0
         }
       ],
       "stems": [
@@ -7255,9 +7255,9 @@
             "P"
           ],
           "answerMode": "多选",
-          "sourceText": "胆道梗阻CEGIKMP",
+          "sourceText": "胆道梗阻（CEGIKMP）",
           "sourceY": 97.56360078145866,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "肝动脉",
@@ -7268,9 +7268,9 @@
             "L"
           ],
           "answerMode": "多选",
-          "sourceText": "肝动脉（ADHL",
+          "sourceText": "肝动脉（ADHL）",
           "sourceY": 134.0117798471029,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "门静脉",
@@ -7281,9 +7281,9 @@
             "K"
           ],
           "answerMode": "多选",
-          "sourceText": "门静脉（BFJK",
+          "sourceText": "门静脉（BFJK）",
           "sourceY": 168.60991497587176,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "淋巴系统直接感染",
@@ -7291,13 +7291,13 @@
             "O"
           ],
           "answerMode": "单选",
-          "sourceText": "直接感染（O",
+          "sourceText": "淋巴系统直接感染（O）",
           "sourceY": 238.067985114478,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         }
       ],
-      "sourceText": "细菌性肝脓肿 | A.心内膜炎 | 细菌性肝脓肿感染途径 | B.阑尾炎 | C.胆道结石 | 胆道梗阻CEGIKMP | D.皮肤化脓 | 肝动脉 |（ADHL | E.蛔虫 | F.痔感染 | 门静脉（BFJK | G.肿瘤 | H.骨髓炎 | 淋巴系统 | 1.胆肠吻合口狭窄如Whipple 手术 | J.菌痢 | K.大肠杆菌 | 直接感染（O | L.金葡菌 | M.厌氧菌 | O.开放性肝损伤尤其中央型 | P.克雷伯杆菌",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "细菌性肝脓肿感染途径 | A. 心内膜炎 | B. 阑尾炎 | C. 胆道结石 | D. 皮肤化脓 | E. 蛔虫 | F. 痔感染 | G. 肿瘤 | H. 骨髓炎 | I. 胆肠吻合口狭窄（如Whipple术后） | J. 菌痢 | K. 大肠杆菌 | L. 金葡菌 | M. 厌氧菌 | O. 开放性肝损伤尤其中央型 | P. 克雷伯杆菌 | 胆道梗阻（CEGIKMP） | 肝动脉（ADHL） | 门静脉（BFJK） | 淋巴系统直接感染（O）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -7317,56 +7317,56 @@
         {
           "key": "A",
           "label": "化脓性心包炎",
-          "sourceText": "A.化脓性心包炎",
+          "sourceText": "A. 化脓性心包炎",
           "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "膈下脓肿",
-          "sourceText": "B.膈下脓肿",
-          "ocrScore": 0.5
+          "sourceText": "B. 膈下脓肿",
+          "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "腹膜炎",
-          "sourceText": "C.腹膜炎",
+          "sourceText": "C. 腹膜炎",
           "ocrScore": 1.0
         },
         {
           "key": "D",
           "label": "脓胸",
-          "sourceText": "D.脓胸",
+          "sourceText": "D. 脓胸",
           "ocrScore": 1.0
         },
         {
           "key": "E",
           "label": "大量出血",
-          "sourceText": "E.大量出血",
+          "sourceText": "E. 大量出血",
           "ocrScore": 1.0
         },
         {
           "key": "F",
-          "label": "支气管胸膜痿",
-          "sourceText": "F.支气管胸膜痿",
+          "label": "支气管胸膜瘘",
+          "sourceText": "F. 支气管胸膜瘘",
           "ocrScore": 1.0
         },
         {
           "key": "G",
           "label": "上消化道出血",
-          "sourceText": "G.上消化道出血",
-          "ocrScore": 0.5
+          "sourceText": "G. 上消化道出血",
+          "ocrScore": 1.0
         },
         {
           "key": "H",
-          "label": "支气管胆痿",
-          "sourceText": "H.支气管胆痿",
+          "label": "支气管胆瘘",
+          "sourceText": "H. 支气管胆瘘",
           "ocrScore": 1.0
         },
         {
           "key": "I",
           "label": "心脏压塞",
-          "sourceText": "1.心脏压塞",
-          "ocrScore": 0.5
+          "sourceText": "I. 心脏压塞",
+          "ocrScore": 1.0
         }
       ],
       "stems": [
@@ -7379,9 +7379,9 @@
             "H"
           ],
           "answerMode": "多选",
-          "sourceText": "右叶脓肿穿破（BDFH",
+          "sourceText": "右叶脓肿穿破（BDFH）",
           "sourceY": 420.7742984154543,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "左叶脓肿穿破",
@@ -7390,9 +7390,9 @@
             "I"
           ],
           "answerMode": "多选",
-          "sourceText": "左叶脓肿穿破（AI",
+          "sourceText": "左叶脓肿穿破（AI）",
           "sourceY": 455.6400507669574,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "向腹腔穿破",
@@ -7400,9 +7400,9 @@
             "C"
           ],
           "answerMode": "单选",
-          "sourceText": "向腹腔穿破（C",
+          "sourceText": "向腹腔穿破（C）",
           "sourceY": 490.31963477723116,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "穿破门静脉和胆管壁",
@@ -7411,13 +7411,13 @@
             "G"
           ],
           "answerMode": "多选",
-          "sourceText": "穿破门静脉和胆管壁EG",
+          "sourceText": "穿破门静脉和胆管壁（EG）",
           "sourceY": 524.8421395722162,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         }
       ],
-      "sourceText": "A.化脓性心包炎 | 细菌性肝脓肿并发症 | B.膈下脓肿 | 右叶脓肿穿破（BDFH | C.腹膜炎 | D.脓胸 | 左叶脓肿穿破（AI | E.大量出血 | F.支气管胸膜痿 | 向腹腔穿破（C | G.上消化道出血 | H.支气管胆痿 | 穿破门静脉和胆管壁EG | 1.心脏压塞",
-      "reviewState": "已完成结构校对",
+      "sourceText": "细菌性肝脓肿并发症 | A. 化脓性心包炎 | B. 膈下脓肿 | C. 腹膜炎 | D. 脓胸 | E. 大量出血 | F. 支气管胸膜瘘 | G. 上消化道出血 | H. 支气管胆瘘 | I. 心脏压塞 | 右叶脓肿穿破（BDFH） | 左叶脓肿穿破（AI） | 向腹腔穿破（C） | 穿破门静脉和胆管壁（EG）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -7437,61 +7437,61 @@
         {
           "key": "A",
           "label": "化脓性炎",
-          "sourceText": "A.化脓性炎",
-          "ocrScore": 0.5
+          "sourceText": "A. 化脓性炎",
+          "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "起病缓、少有高热",
-          "sourceText": "B.起病缓、少有高热",
+          "sourceText": "B. 起病缓、少有高热",
           "ocrScore": 1.0
         },
         {
           "key": "C",
-          "label": "血WBC个、以中性粒细胞为主",
-          "sourceText": "C.血WBC个、以中性粒细胞为主",
+          "label": "血WBC↑，以中性粒细胞为主",
+          "sourceText": "C. 血WBC↑，以中性粒细胞为主",
           "ocrScore": 1.0
         },
         {
           "key": "D",
           "label": "黄白色脓液、可有臭味，脓液找到细菌确诊",
-          "sourceText": "D.黄白色脓液、可有臭味，脓液找到细菌确诊",
+          "sourceText": "D. 黄白色脓液、可有臭味，脓液找到细菌确诊",
           "ocrScore": 1.0
         },
         {
           "key": "E",
           "label": "棕褐色脓液、无臭味，脓液找到滋养体确诊",
-          "sourceText": "E.棕褐色脓液、无臭味，脓液找到滋养体确诊",
+          "sourceText": "E. 棕褐色脓液、无臭味，脓液找到滋养体确诊",
           "ocrScore": 1.0
         },
         {
           "key": "F",
           "label": "脓肿常较大、单发（右叶多见）",
-          "sourceText": "F.脓肿常较大、单发（右叶多见）",
+          "sourceText": "F. 脓肿常较大、单发（右叶多见）",
           "ocrScore": 1.0
         },
         {
           "key": "G",
           "label": "变质性炎",
-          "sourceText": "G.变质性炎",
+          "sourceText": "G. 变质性炎",
           "ocrScore": 1.0
         },
         {
           "key": "H",
           "label": "起病急、寒战高热",
-          "sourceText": "H.起病急、寒战高热",
+          "sourceText": "H. 起病急、寒战高热",
           "ocrScore": 1.0
         },
         {
           "key": "I",
-          "label": "血WBC可个、以嗜酸性粒细胞为主",
-          "sourceText": "1.血WBC可个、以嗜酸性粒细胞为主",
-          "ocrScore": 0.5
+          "label": "血WBC可↑，以嗜酸性粒细胞为主",
+          "sourceText": "I. 血WBC可↑，以嗜酸性粒细胞为主",
+          "ocrScore": 1.0
         },
         {
           "key": "J",
           "label": "脓肿常较小、多发",
-          "sourceText": "J.脓肿常较小、多发",
+          "sourceText": "J. 脓肿常较小、多发",
           "ocrScore": 1.0
         }
       ],
@@ -7506,9 +7506,9 @@
             "J"
           ],
           "answerMode": "多选",
-          "sourceText": "细菌性肝脓肿 ACDHJ",
+          "sourceText": "细菌性肝脓肿（ACDHJ）",
           "sourceY": 616.4018267143839,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "阿米巴肝脓肿",
@@ -7520,13 +7520,13 @@
             "I"
           ],
           "answerMode": "多选",
-          "sourceText": "阿米巴肝脓肿 BEFGI",
+          "sourceText": "阿米巴肝脓肿（BEFGI）",
           "sourceY": 650.924331300468,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         }
       ],
-      "sourceText": "A.化脓性炎 | 细菌性肝脓肿 ACDHJ | B.起病缓、少有高热 | C.血WBC个、以中性粒细胞为主 | 阿米巴肝脓肿 BEFGI | D.黄白色脓液、可有臭味，脓液找到细菌确诊 | E.棕褐色脓液、无臭味，脓液找到滋养体确诊 | F.脓肿常较大、单发（右叶多见）| G.变质性炎 | H.起病急、寒战高热 | 1.血WBC可个、以嗜酸性粒细胞为主 | J.脓肿常较小、多发",
-      "reviewState": "已完成结构校对",
+      "sourceText": "细菌性肝脓肿 | A. 化脓性炎 | B. 起病缓、少有高热 | C. 血WBC↑，以中性粒细胞为主 | D. 黄白色脓液、可有臭味，脓液找到细菌确诊 | E. 棕褐色脓液、无臭味，脓液找到滋养体确诊 | F. 脓肿常较大、单发（右叶多见） | G. 变质性炎 | H. 起病急、寒战高热 | I. 血WBC可↑，以嗜酸性粒细胞为主 | J. 脓肿常较小、多发 | 细菌性肝脓肿（ACDHJ） | 阿米巴肝脓肿（BEFGI）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -7546,26 +7546,26 @@
         {
           "key": "A",
           "label": "肝内胆管",
-          "sourceText": "A.肝内胆管",
-          "ocrScore": 0.5
+          "sourceText": "A. 肝内胆管",
+          "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "肝动脉",
-          "sourceText": "B.肝动脉",
+          "sourceText": "B. 肝动脉",
           "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "肝静脉",
-          "sourceText": "C.肝静脉",
-          "ocrScore": 0.5
+          "sourceText": "C. 肝静脉",
+          "ocrScore": 1.0
         },
         {
           "key": "D",
           "label": "门静脉",
-          "sourceText": "D.门静脉",
-          "ocrScore": 0.5
+          "sourceText": "D. 门静脉",
+          "ocrScore": 1.0
         }
       ],
       "stems": [
@@ -7577,9 +7577,9 @@
             "D"
           ],
           "answerMode": "多选",
-          "sourceText": "Glisson鞘 ABD",
+          "sourceText": "Glisson鞘（ABD）",
           "sourceY": 824.5375079497346,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "Couinaud 分段依据",
@@ -7588,13 +7588,13 @@
             "D"
           ],
           "answerMode": "多选",
-          "sourceText": "Couinaud 分段依据 CD",
+          "sourceText": "Couinaud 分段依据（CD）",
           "sourceY": 858.3095237115633,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         }
       ],
-      "sourceText": "A.肝内胆管 | Glisson鞘 | ABD | B.肝动脉 | C.肝静脉 | Couinaud 分段依据 | CD | D.门静脉 | 小",
-      "reviewState": "已完成结构校对",
+      "sourceText": "Glisson鞘 | A. 肝内胆管 | B. 肝动脉 | C. 肝静脉 | D. 门静脉 | Glisson鞘（ABD） | Couinaud 分段依据（CD）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -7614,80 +7614,80 @@
         {
           "key": "A",
           "label": "肝静脉血栓形成",
-          "sourceText": "A.肝静脉血栓形成",
+          "sourceText": "A. 肝静脉血栓形成",
           "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "肝炎肝硬化",
-          "sourceText": "B.肝炎肝硬化",
+          "sourceText": "B. 肝炎肝硬化",
           "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "肝外门静脉血栓形成",
-          "sourceText": "C.肝外门静脉血栓形成",
+          "sourceText": "C. 肝外门静脉血栓形成",
           "ocrScore": 1.0
         },
         {
           "key": "D",
-          "label": "Budd-Chiari 综合征（肝静脉和/或下腔静脉阻塞）",
-          "sourceText": "D.Budd-Chiari 综合征（肝静脉和/或下腔静脉阻塞）",
-          "ocrScore": 0.5
+          "label": "Budd-Chiari综合征（肝静脉和／或下腔静脉阻塞）",
+          "sourceText": "D. Budd-Chiari综合征（肝静脉和／或下腔静脉阻塞）",
+          "ocrScore": 1.0
         },
         {
           "key": "E",
           "label": "先天性畸形",
-          "sourceText": "E.先天性畸形",
+          "sourceText": "E. 先天性畸形",
           "ocrScore": 1.0
         },
         {
           "key": "F",
           "label": "中央静脉和小叶下静脉受压",
-          "sourceText": "F.中央静脉和小叶下静脉受压",
+          "sourceText": "F. 中央静脉和小叶下静脉受压",
           "ocrScore": 1.0
         },
         {
           "key": "G",
           "label": "淤血性肝硬化",
-          "sourceText": "G.淤血性肝硬化",
+          "sourceText": "G. 淤血性肝硬化",
           "ocrScore": 1.0
         },
         {
           "key": "H",
           "label": "血吸虫性肝硬化",
-          "sourceText": "H.血吸虫性肝硬化",
+          "sourceText": "H. 血吸虫性肝硬化",
           "ocrScore": 1.0
         },
         {
           "key": "I",
           "label": "肿瘤压迫",
-          "sourceText": "1.肿瘤压迫",
-          "ocrScore": 0.5
+          "sourceText": "I. 肿瘤压迫",
+          "ocrScore": 1.0
         },
         {
           "key": "J",
           "label": "肝血窦受压",
-          "sourceText": "J.肝血窦受压",
+          "sourceText": "J. 肝血窦受压",
           "ocrScore": 1.0
         },
         {
           "key": "K",
           "label": "缩窄性心包炎",
-          "sourceText": "K.缩窄性心包炎",
+          "sourceText": "K. 缩窄性心包炎",
           "ocrScore": 1.0
         },
         {
           "key": "L",
           "label": "肝内肝动脉-门静脉异常吻合支",
-          "sourceText": "L.肝内肝动脉-门静脉异常吻合支",
+          "sourceText": "L. 肝内肝动脉-门静脉异常吻合支",
           "ocrScore": 1.0
         },
         {
           "key": "M",
           "label": "右心衰",
-          "sourceText": "M.右心衰",
-          "ocrScore": 0.5
+          "sourceText": "M. 右心衰",
+          "ocrScore": 1.0
         }
       ],
       "stems": [
@@ -7699,9 +7699,9 @@
             "I"
           ],
           "answerMode": "多选",
-          "sourceText": "肝前型（CEI",
+          "sourceText": "肝前型（CEI）",
           "sourceY": 75.54924970056638,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "肝后型",
@@ -7713,9 +7713,9 @@
             "M"
           ],
           "answerMode": "多选",
-          "sourceText": "肝后型（ADGKM",
+          "sourceText": "肝后型（ADGKM）",
           "sourceY": 110.36264238084291,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "肝内型窦后性阻塞",
@@ -7724,9 +7724,9 @@
             "F"
           ],
           "answerMode": "多选",
-          "sourceText": "肝内型窦后性阻塞 BF",
+          "sourceText": "肝内型窦后性阻塞（BF）",
           "sourceY": 146.58005045862106,
-          "ocrScore": 0.5
+          "ocrScore": 1.0
         },
         {
           "text": "窦性阻塞",
@@ -7735,9 +7735,9 @@
             "J"
           ],
           "answerMode": "多选",
-          "sourceText": "窦性阻塞 BJ",
+          "sourceText": "窦性阻塞（BJ）",
           "sourceY": 163.88519203744238,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "窦前性",
@@ -7745,7 +7745,7 @@
             "L"
           ],
           "answerMode": "单选",
-          "sourceText": "窦前性L",
+          "sourceText": "窦前性（L）",
           "sourceY": 181.11806911102187,
           "ocrScore": 1.0
         },
@@ -7755,13 +7755,13 @@
             "H"
           ],
           "answerMode": "单选",
-          "sourceText": "窦前阻塞 H",
+          "sourceText": "窦前阻塞（H）",
           "sourceY": 198.56703421684534,
-          "ocrScore": 0.5
+          "ocrScore": 1.0
         }
       ],
-      "sourceText": "门脉高压症 | A.肝静脉血栓形成 | 肝前型（CEI | B.肝炎肝硬化 | C.肝外门静脉血栓形成 | 肝后型 |（ADGKM | D.Budd-Chiari 综合征（肝静脉和/或下腔静脉阻塞）| E.先天性畸形 | 肝内型 | 窦后性阻塞 | BF | F.中央静脉和小叶下静脉受压 | 窦性阻塞 | BJ | G.淤血性肝硬化 | 窦前性L | H.血吸虫性肝硬化 | 窦前阻塞 | H | 1.肿瘤压迫 | J.肝血窦受压 | K.缩窄性心包炎 | L.肝内肝动脉-门静脉异常吻合支 | M.右心衰",
-      "reviewState": "已完成结构校对",
+      "sourceText": "肝前型 | A. 肝静脉血栓形成 | B. 肝炎肝硬化 | C. 肝外门静脉血栓形成 | D. Budd-Chiari综合征（肝静脉和／或下腔静脉阻塞） | E. 先天性畸形 | F. 中央静脉和小叶下静脉受压 | G. 淤血性肝硬化 | H. 血吸虫性肝硬化 | I. 肿瘤压迫 | J. 肝血窦受压 | K. 缩窄性心包炎 | L. 肝内肝动脉-门静脉异常吻合支 | M. 右心衰 | 肝前型（CEI） | 肝后型（ADGKM） | 肝内型窦后性阻塞（BF） | 窦性阻塞（BJ） | 窦前性（L） | 窦前阻塞（H）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -7774,105 +7774,105 @@
     {
       "id": "p18-g2",
       "page": 18,
-      "title": "断流术",
+      "title": "门脉高压症·断流术与分流术",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "门脉压力个",
-          "sourceText": "A.门脉压力个",
+          "label": "门静脉压力↑",
+          "sourceText": "A. 门静脉压力↑",
           "ocrScore": 1.0
         },
         {
           "key": "B",
-          "label": "再出血率」",
-          "sourceText": "B.再出血率」",
-          "ocrScore": 0.3
+          "label": "再出血率↓",
+          "sourceText": "B. 再出血率↓",
+          "ocrScore": 1.0
         },
         {
           "key": "C",
-          "label": "常用",
-          "sourceText": "C.常用",
-          "ocrScore": 0.5
+          "label": "临床常用",
+          "sourceText": "C. 临床常用",
+          "ocrScore": 1.0
         },
         {
           "key": "D",
-          "label": "肠系膜上静脉-下腔静脉",
-          "sourceText": "D.肠系膜上静脉-下腔静脉",
-          "ocrScore": 0.5
+          "label": "肠系膜上静脉-下腔静脉分流术",
+          "sourceText": "D. 肠系膜上静脉-下腔静脉分流术",
+          "ocrScore": 1.0
         },
         {
           "key": "E",
-          "label": "门-腔静脉建立分流通道",
-          "sourceText": "E.门-腔静脉建立分流通道",
+          "label": "门静脉-腔静脉建立分流通道",
+          "sourceText": "E. 门静脉-腔静脉建立分流通道",
           "ocrScore": 1.0
         },
         {
           "key": "F",
-          "label": "脾切除＋贲周血管离断术",
-          "sourceText": "F.脾切除＋贲周血管离断术",
-          "ocrScore": 0.5
+          "label": "脾切除＋贲门周围血管离断术",
+          "sourceText": "F. 脾切除＋贲门周围血管离断术",
+          "ocrScore": 1.0
         },
         {
           "key": "G",
           "label": "肝性脑病发生率较低",
-          "sourceText": "G.肝性脑病发生率较低",
+          "sourceText": "G. 肝性脑病发生率较低",
           "ocrScore": 1.0
         },
         {
           "key": "H",
           "label": "肝性脑病发生率较高",
-          "sourceText": "H.肝性脑病发生率较高",
+          "sourceText": "H. 肝性脑病发生率较高",
           "ocrScore": 1.0
         },
         {
           "key": "I",
-          "label": "打击肝功能较大",
-          "sourceText": "1.打击肝功能较大",
+          "label": "对肝功能打击较大",
+          "sourceText": "I. 对肝功能打击较大",
           "ocrScore": 1.0
         },
         {
           "key": "J",
-          "label": "阻断门-奇静脉反常血流",
-          "sourceText": "J.阻断门-奇静脉反常血流",
+          "label": "阻断门静脉-奇静脉反常血流",
+          "sourceText": "J. 阻断门静脉-奇静脉反常血流",
           "ocrScore": 1.0
         },
         {
           "key": "K",
-          "label": "门静脉-下腔静脉",
-          "sourceText": "K.门静脉-下腔静脉",
-          "ocrScore": 0.5
+          "label": "门静脉-下腔静脉分流术",
+          "sourceText": "K. 门静脉-下腔静脉分流术",
+          "ocrScore": 1.0
         },
         {
           "key": "L",
-          "label": "近端脾-肾静脉分流术",
-          "sourceText": "L.近端脾-肾静脉分流术",
-          "ocrScore": 0.5
+          "label": "近端脾静脉-肾静脉分流术",
+          "sourceText": "L. 近端脾静脉-肾静脉分流术",
+          "ocrScore": 1.0
         },
         {
           "key": "M",
-          "label": "远端脾-肾静脉分流术",
-          "sourceText": "M.远端脾-肾静脉分流术",
-          "ocrScore": 0.5
+          "label": "远端脾静脉-肾静脉分流术",
+          "sourceText": "M. 远端脾静脉-肾静脉分流术",
+          "ocrScore": 1.0
         },
         {
           "key": "N",
-          "label": "门脉压力",
-          "sourceText": "N.门脉压力",
-          "ocrScore": 0.3
+          "label": "门静脉压力↓",
+          "sourceText": "N. 门静脉压力↓",
+          "ocrScore": 1.0
         },
         {
           "key": "O",
-          "label": "再出血率个",
-          "sourceText": "0.再出血率个",
-          "ocrScore": 0.5
+          "label": "再出血率↑",
+          "sourceText": "O. 再出血率↑",
+          "ocrScore": 1.0
         },
         {
           "key": "P",
-          "label": "打击肝功能较小",
-          "sourceText": "P.打击肝功能较小",
-          "ocrScore": 0.5
+          "label": "对肝功能打击较小",
+          "sourceText": "P. 对肝功能打击较小",
+          "ocrScore": 1.0
         }
       ],
       "stems": [
@@ -7890,7 +7890,7 @@
           "answerMode": "多选",
           "sourceText": "断流术（ACFGJOP）",
           "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "reviewMethod": "讲义第14讲第3页逐项核对"
         },
         {
           "text": "分流术",
@@ -7903,7 +7903,7 @@
           "answerMode": "多选",
           "sourceText": "分流术（BEIN）",
           "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "reviewMethod": "讲义第14讲第3页逐项核对"
         },
         {
           "text": "选择性分流术",
@@ -7914,7 +7914,7 @@
           "answerMode": "多选",
           "sourceText": "选择性分流术（GM）",
           "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "reviewMethod": "讲义第14讲第3页逐项核对"
         },
         {
           "text": "非选择性分流术",
@@ -7927,18 +7927,28 @@
           "answerMode": "多选",
           "sourceText": "非选择性分流术（HDKL）",
           "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "reviewMethod": "讲义第14讲第3页逐项核对"
         }
       ],
-      "sourceText": "A.门脉压力个 | B.再出血率」 | C.常用 | 断流术 | D.肠系膜上静脉-下腔静脉 | ACFGJOP | E.门-腔静脉建立分流通道 | 分流术 | BEIN | 选择性 | F.脾切除＋贲周血管离断术 | GM | G.肝性脑病发生率较低 | 非选择性HDKL | H.肝性脑病发生率较高 | 1.打击肝功能较大 | J.阻断门-奇静脉反常血流 | K.门静脉-下腔静脉 | L.近端脾-肾静脉分流术 | M.远端脾-肾静脉分流术 | N.门脉压力 | 0.再出血率个 | P.打击肝功能较小",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "门脉高压症·断流术与分流术 | A. 门静脉压力↑ | B. 再出血率↓ | C. 临床常用 | D. 肠系膜上静脉-下腔静脉分流术 | E. 门静脉-腔静脉建立分流通道 | F. 脾切除＋贲门周围血管离断术 | G. 肝性脑病发生率较低 | H. 肝性脑病发生率较高 | I. 对肝功能打击较大 | J. 阻断门静脉-奇静脉反常血流 | K. 门静脉-下腔静脉分流术 | L. 近端脾静脉-肾静脉分流术 | M. 远端脾静脉-肾静脉分流术 | N. 门静脉压力↓ | O. 再出血率↑ | P. 对肝功能打击较小 | 断流术（ACFGJOP） | 分流术（BEIN） | 选择性分流术（GM） | 非选择性分流术（HDKL）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
-        "lecture-13",
-        "lecture-14",
-        "lecture-15",
-        "lecture-16"
+        "lecture-14"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-14-page-03.png",
+        "title": "第14讲 · 门脉高压症第3页",
+        "description": "断流术与分流术的压力、再出血率、肝性脑病发生率、肝功能影响及术式已逐项核对。"
+      },
+      "reviewNotes": [
+        {
+          "title": "第6组答案复核",
+          "body": "讲义第3页确认：断流术为A、C、F、G、J、O、P；分流术为B、E、I、N；选择性分流术为G、M；非选择性分流术为H、D、K、L。原答案逻辑正确，误解来自↑、↓等符号被OCR成“个”“」”，现已按讲义重新录入。"
+        }
       ]
     },
     {
@@ -7951,20 +7961,20 @@
         {
           "key": "A",
           "label": "晚期倾倒综合征",
-          "sourceText": "A.晚期倾倒综合征",
+          "sourceText": "A. 晚期倾倒综合征",
           "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "胰岛素瘤",
-          "sourceText": "B.胰岛素瘤",
+          "sourceText": "B. 胰岛素瘤",
           "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "某些早期2型糖尿病",
-          "sourceText": "C.某些早期2型糖尿病",
-          "ocrScore": 0.5
+          "sourceText": "C. 某些早期2型糖尿病",
+          "ocrScore": 1.0
         }
       ],
       "stems": [
@@ -7974,9 +7984,9 @@
             "B"
           ],
           "answerMode": "单选",
-          "sourceText": "餐前低血糖B",
+          "sourceText": "餐前低血糖（B）",
           "sourceY": 694.8234057666735,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "餐后低血糖",
@@ -7985,13 +7995,13 @@
             "C"
           ],
           "answerMode": "多选",
-          "sourceText": "餐后低血糖（AC",
+          "sourceText": "餐后低血糖（AC）",
           "sourceY": 729.9700466710215,
-          "ocrScore": 0.5
+          "ocrScore": 1.0
         }
       ],
-      "sourceText": "胰腺囊肿 | 餐前低血糖B | A.晚期倾倒综合征 | B.胰岛素瘤 | 餐后低血糖（AC | C.某些早期2型糖尿病",
-      "reviewState": "已完成结构校对",
+      "sourceText": "餐前低血糖 | A. 晚期倾倒综合征 | B. 胰岛素瘤 | C. 某些早期2型糖尿病 | 餐前低血糖（B） | 餐后低血糖（AC）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -8011,67 +8021,67 @@
         {
           "key": "A",
           "label": "黄疸早",
-          "sourceText": "A.黄疸早",
+          "sourceText": "A. 黄疸早",
           "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "黄疸晚",
-          "sourceText": "B.黄疸晚",
-          "ocrScore": 0.5
+          "sourceText": "B. 黄疸晚",
+          "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "胆囊不大，甚至废用性萎缩",
-          "sourceText": "C.胆囊不大，甚至废用性萎缩",
+          "sourceText": "C. 胆囊不大，甚至废用性萎缩",
           "ocrScore": 1.0
         },
         {
           "key": "D",
           "label": "胆囊大",
-          "sourceText": "D.胆囊大",
+          "sourceText": "D. 胆囊大",
           "ocrScore": 1.0
         },
         {
           "key": "E",
           "label": "胆囊可大，但多不大甚至缩小",
-          "sourceText": "E.胆囊可大，但多不大甚至缩小",
+          "sourceText": "E. 胆囊可大，但多不大甚至缩小",
           "ocrScore": 1.0
         },
         {
           "key": "F",
           "label": "胆囊无痛",
-          "sourceText": "F.胆囊无痛",
+          "sourceText": "F. 胆囊无痛",
           "ocrScore": 1.0
         },
         {
           "key": "G",
-          "label": "库瓦济埃征",
-          "sourceText": "G.库瓦济埃征",
-          "ocrScore": 0.5
+          "label": "Courvoisier征（库瓦济埃征）",
+          "sourceText": "G. Courvoisier征（库瓦济埃征）",
+          "ocrScore": 1.0
         },
         {
           "key": "H",
           "label": "黄疸进行性加重",
-          "sourceText": "H.黄疸进行性加重",
-          "ocrScore": 0.5
+          "sourceText": "H. 黄疸进行性加重",
+          "ocrScore": 1.0
         },
         {
           "key": "I",
           "label": "黄疸呈波动性",
-          "sourceText": "1.黄疸呈波动性",
-          "ocrScore": 0.5
+          "sourceText": "I. 黄疸呈波动性",
+          "ocrScore": 1.0
         },
         {
           "key": "J",
           "label": "黄疸慢、浅",
-          "sourceText": "J.黄疸慢、浅",
-          "ocrScore": 0.5
+          "sourceText": "J. 黄疸慢、浅",
+          "ocrScore": 1.0
         },
         {
           "key": "K",
           "label": "黄疸进行性加重后减退，又进行性加重",
-          "sourceText": "K.黄疸进行性加重后减退，又进行性加重",
+          "sourceText": "K. 黄疸进行性加重后减退，又进行性加重",
           "ocrScore": 1.0
         }
       ],
@@ -8157,8 +8167,8 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "A.黄疸早 | 胰头癌 BDFGH）| B.黄疸晚 | C.胆囊不大，甚至废用性萎缩 | 壶腹癌 ADFGIK | D.胆囊大 | E.胆囊可大，但多不大甚至缩小 | 十二指肠癌 BDFGJ | F.胆囊无痛 | G.库瓦济埃征 | 上段胆管癌ACH | H.黄疸进行性加重 | 1.黄疸呈波动性 | 中下段胆管癌 |（ADFGH | J.黄疸慢、浅 | K.黄疸进行性加重后减退，又进行性加重 | 胆总管结石EI | 红书号",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "胰头癌与胆道肿瘤鉴别 | A. 黄疸早 | B. 黄疸晚 | C. 胆囊不大，甚至废用性萎缩 | D. 胆囊大 | E. 胆囊可大，但多不大甚至缩小 | F. 胆囊无痛 | G. Courvoisier征（库瓦济埃征） | H. 黄疸进行性加重 | I. 黄疸呈波动性 | J. 黄疸慢、浅 | K. 黄疸进行性加重后减退，又进行性加重 | 胰头癌（BDFGH） | 壶腹癌（ADFGIK） | 十二指肠癌（BDFGJ） | 上段胆管癌（ACH） | 中下段胆管癌（ADFGH） | 胆总管结石（EI）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -8178,62 +8188,62 @@
         {
           "key": "A",
           "label": "质地硬、杂质少",
-          "sourceText": "A.质地硬、杂质少",
+          "sourceText": "A. 质地硬、杂质少",
           "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "X线常显影",
-          "sourceText": "B.X线常显影",
+          "sourceText": "B. X线常显影",
           "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "剖面呈放射状",
-          "sourceText": "C.剖面呈放射状",
+          "sourceText": "C. 剖面呈放射状",
           "ocrScore": 1.0
         },
         {
           "key": "D",
           "label": "剖面呈放射状、层状",
-          "sourceText": "D.剖面呈放射状、层状",
+          "sourceText": "D. 剖面呈放射状、层状",
           "ocrScore": 1.0
         },
         {
           "key": "E",
           "label": "质地软、杂质多",
-          "sourceText": "E.质地软、杂质多",
+          "sourceText": "E. 质地软、杂质多",
           "ocrScore": 1.0
         },
         {
           "key": "F",
           "label": "X线常不显影",
-          "sourceText": "F.X线常不显影",
+          "sourceText": "F. X线常不显影",
           "ocrScore": 1.0
         },
         {
           "key": "G",
           "label": "胆固醇类结石",
-          "sourceText": "G.胆固醇类结石",
+          "sourceText": "G. 胆固醇类结石",
           "ocrScore": 1.0
         },
         {
           "key": "H",
           "label": "胆色素结石",
-          "sourceText": "H.胆色素结石",
+          "sourceText": "H. 胆色素结石",
           "ocrScore": 1.0
         },
         {
           "key": "I",
           "label": "几乎在胆囊",
-          "sourceText": "1.几乎在胆囊",
-          "ocrScore": 0.5
+          "sourceText": "I. 几乎在胆囊",
+          "ocrScore": 1.0
         },
         {
           "key": "J",
           "label": "多在胆管",
-          "sourceText": "J.多在胆管",
-          "ocrScore": 0.5
+          "sourceText": "J. 多在胆管",
+          "ocrScore": 1.0
         }
       ],
       "stems": [
@@ -8247,7 +8257,7 @@
           "answerMode": "多选",
           "sourceText": "纯胆固醇结石（CFG）",
           "sourceY": 80.40706808917982,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "混合性结石",
@@ -8257,9 +8267,9 @@
             "G"
           ],
           "answerMode": "多选",
-          "sourceText": "混合性结石BDG",
+          "sourceText": "混合性结石（BDG）",
           "sourceY": 115.07501613123631,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "黑色素结石",
@@ -8270,9 +8280,9 @@
             "I"
           ],
           "answerMode": "多选",
-          "sourceText": "黑色素结石 AFHI",
+          "sourceText": "黑色素结石（AFHI）",
           "sourceY": 149.59752140993865,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "棕色结石",
@@ -8283,9 +8293,9 @@
             "J"
           ],
           "answerMode": "多选",
-          "sourceText": "棕色结石BEHJ",
+          "sourceText": "棕色结石（BEHJ）",
           "sourceY": 184.4632734419544,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "碳酸钙、磷酸钙、棕榈酸钙等",
@@ -8293,13 +8303,13 @@
             "B"
           ],
           "answerMode": "单选",
-          "sourceText": "碳酸钙、磷酸钙、棕榈酸钙等（B",
+          "sourceText": "碳酸钙、磷酸钙、棕榈酸钙等（B）",
           "sourceY": 219.142857337448,
-          "ocrScore": 0.5
+          "ocrScore": 1.0
         }
       ],
-      "sourceText": "胆系疾病 | A.质地硬、杂质少 | 纯胆固醇结石（CFG）| B.X线常显影 | C.剖面呈放射状 | 混合性结石BDG | D.剖面呈放射状、层状 | E.质地软、杂质多 | 黑色素结石 AFHI | F.X线常不显影 | G.胆固醇类结石 | 棕色结石BEHJ | H.胆色素结石 | 1.几乎在胆囊 | 碳酸钙、磷酸钙、棕榈酸钙等（B | J.多在胆管",
-      "reviewState": "已完成结构校对",
+      "sourceText": "纯胆固醇结石 | A. 质地硬、杂质少 | B. X线常显影 | C. 剖面呈放射状 | D. 剖面呈放射状、层状 | E. 质地软、杂质多 | F. X线常不显影 | G. 胆固醇类结石 | H. 胆色素结石 | I. 几乎在胆囊 | J. 多在胆管 | 纯胆固醇结石（CFG） | 混合性结石（BDG） | 黑色素结石（AFHI） | 棕色结石（BEHJ） | 碳酸钙、磷酸钙、棕榈酸钙等（B）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -8319,19 +8329,19 @@
         {
           "key": "A",
           "label": "肝内胆管结石",
-          "sourceText": "A.肝内胆管结石",
+          "sourceText": "A. 肝内胆管结石",
           "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "棕色结石",
-          "sourceText": "B.棕色结石",
+          "sourceText": "B. 棕色结石",
           "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "胆囊结石（多为胆固醇类结石或黑色素结石）",
-          "sourceText": "C.胆囊结石（多为胆固醇类结石或黑色素结石）",
+          "sourceText": "C. 胆囊结石（多为胆固醇类结石或黑色素结石）",
           "ocrScore": 1.0
         }
       ],
@@ -8367,8 +8377,8 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "A.肝内胆管结石 | 原发性肝外胆管结石多为B | B.棕色结石 | C.胆囊结石（多为胆固醇类结石或黑色素结石）| 继发性肝外胆管结石主要来自（C少数来自（A",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "原发性肝外胆管结石多为 | A. 肝内胆管结石 | B. 棕色结石 | C. 胆囊结石（多为胆固醇类结石或黑色素结石） | 原发性肝外胆管结石多为（B） | 继发性肝外胆管结石主要来自（C） | 继发性肝外胆管结石少数来自（A）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -8388,31 +8398,31 @@
         {
           "key": "A",
           "label": "扩张的胆管内有双线状长条形平行强回声带（通心粉征），虫体在胆管内移动",
-          "sourceText": "A.扩张的胆管内有双线状长条形平行强回声带（通心粉征），虫体在胆管内移动",
+          "sourceText": "A. 扩张的胆管内有双线状长条形平行强回声带（通心粉征），虫体在胆管内移动",
           "ocrScore": 1.0
         },
         {
           "key": "B",
-          "label": "胆囊增大、壁毛糙增厚（>4mm）、双边征",
-          "sourceText": "B.胆囊增大、壁毛糙增厚（>4mm）、双边征",
-          "ocrScore": 0.5
+          "label": "胆囊增大、壁毛糙增厚（＞4 mm）、双边征",
+          "sourceText": "B. 胆囊增大、壁毛糙增厚（＞4 mm）、双边征",
+          "ocrScore": 1.0
         },
         {
           "key": "C",
-          "label": "肝内胆管>4mm、肝外胆管>10mm",
-          "sourceText": "C.肝内胆管>4mm、肝外胆管>10mm",
+          "label": "肝内胆管＞4 mm、肝外胆管＞10 mm",
+          "sourceText": "C. 肝内胆管＞4 mm、肝外胆管＞10 mm",
           "ocrScore": 1.0
         },
         {
           "key": "D",
           "label": "胆囊壁不均匀增厚，腔内有位置及形态固定、血供丰富的肿物",
-          "sourceText": "D.胆囊壁不均匀增厚，腔内有位置及形态固定、血供丰富的肿物",
+          "sourceText": "D. 胆囊壁不均匀增厚，腔内有位置及形态固定、血供丰富的肿物",
           "ocrScore": 1.0
         },
         {
           "key": "E",
           "label": "胆囊内强回声团、其后方有声影、随体位改变而移动",
-          "sourceText": "E.胆囊内强回声团、其后方有声影、随体位改变而移动",
+          "sourceText": "E. 胆囊内强回声团、其后方有声影、随体位改变而移动",
           "ocrScore": 1.0
         }
       ],
@@ -8468,8 +8478,8 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "胆囊结石 | E | A.扩张的胆管内有双线状长条形平行强回声带（通心粉征），虫体在胆管内移动 | B.胆囊增大、壁毛糙增厚（>4mm）、双边征 | 急性胆囊炎 | B | C.肝内胆管>4mm、肝外胆管>10mm | D.胆囊壁不均匀增厚，腔内有位置及形态固定、血供丰富的肿物 | 胆囊癌 | D | E.胆囊内强回声团、其后方有声影、随体位改变而移动 | 胆管扩张 | C | 胆管蛔虫",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "胆囊结石 | A. 扩张的胆管内有双线状长条形平行强回声带（通心粉征），虫体在胆管内移动 | B. 胆囊增大、壁毛糙增厚（＞4 mm）、双边征 | C. 肝内胆管＞4 mm、肝外胆管＞10 mm | D. 胆囊壁不均匀增厚，腔内有位置及形态固定、血供丰富的肿物 | E. 胆囊内强回声团、其后方有声影、随体位改变而移动 | 胆囊结石（E） | 急性胆囊炎（B） | 胆囊癌（D） | 胆管扩张（C） | 胆管蛔虫（A）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -8489,38 +8499,38 @@
         {
           "key": "A",
           "label": "B超无回声（液性暗区）",
-          "sourceText": "A.B超无回声（液性暗区）",
+          "sourceText": "A. B超无回声（液性暗区）",
           "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "CT 密度可高可低（与含钙量相关）",
-          "sourceText": "B.CT 密度可高可低（与含钙量相关）",
-          "ocrScore": 0.5
+          "sourceText": "B. CT 密度可高可低（与含钙量相关）",
+          "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "MRCP 高信号",
-          "sourceText": "C.MRCP 高信号",
-          "ocrScore": 0.5
+          "sourceText": "C. MRCP 高信号",
+          "ocrScore": 1.0
         },
         {
           "key": "D",
           "label": "B超强回声",
-          "sourceText": "D.B超强回声",
-          "ocrScore": 0.5
+          "sourceText": "D. B超强回声",
+          "ocrScore": 1.0
         },
         {
           "key": "E",
           "label": "CT 低密度",
-          "sourceText": "E.CT 低密度",
-          "ocrScore": 0.5
+          "sourceText": "E. CT 低密度",
+          "ocrScore": 1.0
         },
         {
           "key": "F",
           "label": "MRCP 低信号（充盈缺损）",
-          "sourceText": "F.MRCP 低信号（充盈缺损）",
-          "ocrScore": 0.5
+          "sourceText": "F. MRCP 低信号（充盈缺损）",
+          "ocrScore": 1.0
         }
       ],
       "stems": [
@@ -8532,9 +8542,9 @@
             "F"
           ],
           "answerMode": "多选",
-          "sourceText": "结石（BDF",
+          "sourceText": "结石（BDF）",
           "sourceY": 638.423849677672,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "水",
@@ -8544,13 +8554,13 @@
             "E"
           ],
           "answerMode": "多选",
-          "sourceText": "水ACE",
+          "sourceText": "水（ACE）",
           "sourceY": 672.9437266204593,
           "ocrScore": 1.0
         }
       ],
-      "sourceText": "A.B超无回声（液性暗区）| 结石（BDF | B.CT 密度可高可低（与含钙量相关）| C.MRCP 高信号 | 水ACE | D.B超强回声 | E.CT 低密度 | F.MRCP 低信号（充盈缺损）",
-      "reviewState": "已完成结构校对",
+      "sourceText": "结石 | A. B超无回声（液性暗区） | B. CT 密度可高可低（与含钙量相关） | C. MRCP 高信号 | D. B超强回声 | E. CT 低密度 | F. MRCP 低信号（充盈缺损） | 结石（BDF） | 水（ACE）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -8570,20 +8580,20 @@
         {
           "key": "A",
           "label": "B超",
-          "sourceText": "A.B超",
+          "sourceText": "A. B超",
           "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "CT",
-          "sourceText": "B.CT",
+          "sourceText": "B. CT",
           "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "MRI",
-          "sourceText": "C.MRI",
-          "ocrScore": 0.5
+          "sourceText": "C. MRI",
+          "ocrScore": 1.0
         }
       ],
       "stems": [
@@ -8679,8 +8689,8 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "结石。首选 | A.B超 | 最佳 | B.CT | C.MRI | 感染首选 | 最佳 | 严重感染（急性非结石性胆囊炎，重症胆管炎首选 | A | 最佳（快）B |（全面 | 肿瘤首选A | 评估分期 | BC",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "胆系疾病影像检查 | A. B超 | B. CT | C. MRI | 结石：首选（A） | 结石：最佳（C） | 感染：首选（A） | 感染：最佳（C） | 严重感染：首选（A） | 严重感染：最快（B） | 严重感染：最全面（C） | 肿瘤：首选（A） | 肿瘤：评估分期（BC）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -8693,26 +8703,26 @@
     {
       "id": "p20-g1",
       "page": 20,
-      "title": "PTC检查后引流 ｛",
+      "title": "胆道检查后的引流方式",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "鼻胆管引流 ENBD",
-          "sourceText": "A.鼻胆管引流 ENBD",
-          "ocrScore": 0.5
+          "label": "鼻胆管引流（ENBD）",
+          "sourceText": "A. 鼻胆管引流（ENBD）",
+          "ocrScore": 1.0
         },
         {
           "key": "B",
-          "label": "经皮经肝胆管穿刺引流PTCD",
-          "sourceText": "B.经皮经肝胆管穿刺引流PTCD",
+          "label": "经皮经肝胆管穿刺引流（PTCD）",
+          "sourceText": "B. 经皮经肝胆管穿刺引流（PTCD）",
           "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "常规T管引流",
-          "sourceText": "C.常规T管引流",
+          "sourceText": "C. 常规T管引流",
           "ocrScore": 1.0
         }
       ],
@@ -8748,8 +8758,8 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "PTC检查后引流 | ｛B | A.鼻胆管引流 ENBD | B.经皮经肝胆管穿刺引流PTCD | ERCP检查后引流 | C.常规T管引流 | 胆总管探查后引流 | C",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "胆道检查后的引流方式 | A. 鼻胆管引流（ENBD） | B. 经皮经肝胆管穿刺引流（PTCD） | C. 常规T管引流 | PTC检查后引流（B） | ERCP检查后引流（A） | 胆总管探查后引流（C）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -8762,26 +8772,26 @@
     {
       "id": "p20-g2",
       "page": 20,
-      "title": "胆总管探查后T管引流",
+      "title": "胆总管探查术后T管管理",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "胆道无结石残留术后4周",
-          "sourceText": "A.胆道无结石残留术后4周",
-          "ocrScore": 0.5
+          "label": "胆道无结石残留→术后4周拔管",
+          "sourceText": "A. 胆道无结石残留→术后4周拔管",
+          "ocrScore": 1.0
         },
         {
           "key": "B",
-          "label": "术后2周T管造影，若胆道通畅继续引流1天",
-          "sourceText": "B.术后2周T管造影，若胆道通畅继续引流1天",
+          "label": "术后2周行T管造影；若胆道通畅，继续引流1天后闭管",
+          "sourceText": "B. 术后2周行T管造影；若胆道通畅，继续引流1天后闭管",
           "ocrScore": 1.0
         },
         {
           "key": "C",
-          "label": "胆道有结石残留一术后4-8周",
-          "sourceText": "C.胆道有结石残留一术后4-8周",
+          "label": "胆道有结石残留→术后4～8周取残余结石",
+          "sourceText": "C. 胆道有结石残留→术后4～8周取残余结石",
           "ocrScore": 1.0
         }
       ],
@@ -8792,7 +8802,7 @@
             "B"
           ],
           "answerMode": "单选",
-          "sourceText": "闭管 B",
+          "sourceText": "闭管（B）",
           "sourceY": 177.36853206945784,
           "ocrScore": 1.0
         },
@@ -8802,7 +8812,7 @@
             "A"
           ],
           "answerMode": "单选",
-          "sourceText": "拔管 A",
+          "sourceText": "拔管（A）",
           "sourceY": 213.5287323182681,
           "ocrScore": 1.0
         },
@@ -8812,13 +8822,13 @@
             "C"
           ],
           "answerMode": "单选",
-          "sourceText": "取残余结石 C",
+          "sourceText": "取残余结石（C）",
           "sourceY": 248.31594487495113,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         }
       ],
-      "sourceText": "胆总管探查后T管引流 | A.胆道无结石残留术后4周 | 闭管 | B | B.术后2周T管造影，若胆道通畅继续引流1天 | C.胆道有结石残留一术后4-8周 | 拔管 | A | 取残余结石 | C",
-      "reviewState": "已完成结构校对",
+      "sourceText": "胆总管探查术后T管管理 | A. 胆道无结石残留→术后4周拔管 | B. 术后2周行T管造影；若胆道通畅，继续引流1天后闭管 | C. 胆道有结石残留→术后4～8周取残余结石 | 闭管（B） | 拔管（A） | 取残余结石（C）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -8837,123 +8847,123 @@
       "options": [
         {
           "key": "A",
-          "label": "阵发性胆绞痛，饱餐特别是油腻食物后、或夜间出现右上腹绞痛，呈可向右肩和背部放射",
-          "sourceText": "A.阵发性胆绞痛，饱餐特别是油腻食物后、或夜间出现右上腹绞痛，呈可向右肩和背部放射",
+          "label": "阵发性胆绞痛：饱餐尤其油腻食物后或夜间出现右上腹绞痛，可向右肩、背部放射",
+          "sourceText": "A. 阵发性胆绞痛：饱餐尤其油腻食物后或夜间出现右上腹绞痛，可向右肩、背部放射",
           "ocrScore": 1.0
         },
         {
           "key": "B",
-          "label": "持续性胆绞痛（右上腹痛）伴阵发加剧",
-          "sourceText": "B.持续性胆绞痛（右上腹痛）伴阵发加剧",
-          "ocrScore": 0.5
+          "label": "持续性右上腹痛，伴阵发性加剧",
+          "sourceText": "B. 持续性右上腹痛，伴阵发性加剧",
+          "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "反复肝区、胸背部闷胀痛",
-          "sourceText": "C.反复肝区、胸背部闷胀痛",
+          "sourceText": "C. 反复肝区、胸背部闷胀痛",
           "ocrScore": 1.0
         },
         {
           "key": "D",
-          "label": "WBC明显↑，常>20×10⁹/L（以中性粒细胞为主），Plt可↓",
-          "sourceText": "D.WBC明显↑，常>20×10⁹/L（以中性粒细胞为主），Plt可↓",
-          "ocrScore": 0.5
+          "label": "WBC明显↑，常＞20×10⁹/L（以中性粒细胞为主），Plt可↓",
+          "sourceText": "D. WBC明显↑，常＞20×10⁹/L（以中性粒细胞为主），Plt可↓",
+          "ocrScore": 1.0
         },
         {
           "key": "E",
-          "label": "Murphy 征（右上腹触及疼痛、肿大的胆囊）",
-          "sourceText": "E.Murphy 征（右上腹触及疼痛、肿大的胆囊）",
-          "ocrScore": 0.5
+          "label": "Murphy征：右上腹触及疼痛、肿大的胆囊",
+          "sourceText": "E. Murphy征：右上腹触及疼痛、肿大的胆囊",
+          "ocrScore": 1.0
         },
         {
           "key": "F",
-          "label": "Charcot 三联征：胆绞痛（与胆囊结石类似）、黄疸（随炎症控制发作呈波动性）、寒战高热",
-          "sourceText": "F.Charcot 三联征：胆绞痛（与胆囊结石类似）、黄疸（随炎症控制发作呈波动性）、寒战高热",
-          "ocrScore": 0.5
+          "label": "Charcot三联征：胆绞痛、黄疸（随炎症控制呈波动性）、寒战高热",
+          "sourceText": "F. Charcot三联征：胆绞痛、黄疸（随炎症控制呈波动性）、寒战高热",
+          "ocrScore": 1.0
         },
         {
           "key": "G",
-          "label": "Reynolds 五联征：Charcot 三联征（胆绞痛＋黄疸+寒战高热）、中枢抑制、休克（血压<90/60）。",
-          "sourceText": "G.Reynolds 五联征：Charcot 三联征（胆绞痛＋黄疸+寒战高热）、中枢抑制、休克（血压<90/60）。",
-          "ocrScore": 0.5
+          "label": "Reynolds五联征：Charcot三联征＋中枢抑制＋休克（血压＜90/60 mmHg）",
+          "sourceText": "G. Reynolds五联征：Charcot三联征＋中枢抑制＋休克（血压＜90/60 mmHg）",
+          "ocrScore": 1.0
         },
         {
           "key": "H",
           "label": "无黄疸、无胆囊增大",
-          "sourceText": "H.无黄疸、无胆囊增大",
+          "sourceText": "H. 无黄疸、无胆囊增大",
           "ocrScore": 1.0
         },
         {
           "key": "I",
-          "label": "多无黄疸（仅10-20％有轻度黄疸）",
-          "sourceText": "1.多无黄疸（仅10-20％有轻度黄疸）",
-          "ocrScore": 0.5
+          "label": "多无黄疸（仅10%～20%有轻度黄疸）",
+          "sourceText": "I. 多无黄疸（仅10%～20%有轻度黄疸）",
+          "ocrScore": 1.0
         },
         {
           "key": "J",
-          "label": "位于颈、管的结石可致Mirizzi综合征",
-          "sourceText": "J.位于颈、管的结石可致Mirizzi综合征",
-          "ocrScore": 0.5
+          "label": "位于胆囊颈、胆囊管的结石可致Mirizzi综合征",
+          "sourceText": "J. 位于胆囊颈、胆囊管的结石可致Mirizzi综合征",
+          "ocrScore": 1.0
         },
         {
           "key": "K",
           "label": "好发于肝左外叶、右后叶",
-          "sourceText": "K.好发于肝左外叶、右后叶",
+          "sourceText": "K. 好发于肝左外叶、右后叶",
           "ocrScore": 1.0
         },
         {
           "key": "L",
           "label": "好发于肝总管、胆总管下段（汇合部位）",
-          "sourceText": "L.好发于肝总管、胆总管下段（汇合部位）",
+          "sourceText": "L. 好发于肝总管、胆总管下段（汇合部位）",
           "ocrScore": 1.0
         },
         {
           "key": "M",
-          "label": "最关键：急诊解除胆管梗阻、降低胆管压力一经皮经肝胆管穿刺引流PTCD、鼻胆管引流ENBD、或胆总管切开减压+T管引流",
-          "sourceText": "M.最关键：急诊解除胆管梗阻、降低胆管压力一经皮经肝胆管穿刺引流PTCD、鼻胆管引流ENBD、或胆总管切开减压+T管引流",
+          "label": "最关键：急诊解除胆管梗阻、降低胆管压力；可行PTCD、ENBD或胆总管切开减压＋T管引流",
+          "sourceText": "M. 最关键：急诊解除胆管梗阻、降低胆管压力；可行PTCD、ENBD或胆总管切开减压＋T管引流",
           "ocrScore": 1.0
         },
         {
           "key": "N",
-          "label": "急诊腹腔镜胆囊切除术",
-          "sourceText": "N.急诊腹腔镜胆囊切除术",
-          "ocrScore": 0.5
+          "label": "急诊腹腔镜胆囊切除术（LC）",
+          "sourceText": "N. 急诊腹腔镜胆囊切除术（LC）",
+          "ocrScore": 1.0
         },
         {
           "key": "O",
-          "label": "腹腔镜胆囊切除术LC",
-          "sourceText": "O.腹腔镜胆囊切除术LC",
-          "ocrScore": 0.5
+          "label": "腹腔镜胆囊切除术（LC）",
+          "sourceText": "O. 腹腔镜胆囊切除术（LC）",
+          "ocrScore": 1.0
         },
         {
           "key": "P",
           "label": "观察",
-          "sourceText": "P.观察",
+          "sourceText": "P. 观察",
           "ocrScore": 1.0
         },
         {
           "key": "Q",
-          "label": "1-3月后彻底手术以避免复发",
-          "sourceText": "Q.1-3月后彻底手术以避免复发",
+          "label": "1～3个月后彻底手术，以避免复发",
+          "sourceText": "Q. 1～3个月后彻底手术，以避免复发",
           "ocrScore": 1.0
         },
         {
           "key": "R",
           "label": "胆管切开取石，或切除病变部分肝脏",
-          "sourceText": "R.胆管切开取石，或切除病变部分肝脏",
+          "sourceText": "R. 胆管切开取石，或切除病变部分肝脏",
           "ocrScore": 1.0
         },
         {
           "key": "S",
-          "label": "急诊PTGD（经皮经肝胆囊穿刺引流）或胆囊造口，3个月后腹腔镜胆囊切除术",
-          "sourceText": "S.急诊PTGD（经皮经肝胆囊穿刺引流）或胆囊造口，3个月后腹腔镜胆囊切除术",
+          "label": "急诊PTGD（经皮经肝胆囊穿刺引流）或胆囊造口，3个月后行腹腔镜胆囊切除术",
+          "sourceText": "S. 急诊PTGD（经皮经肝胆囊穿刺引流）或胆囊造口，3个月后行腹腔镜胆囊切除术",
           "ocrScore": 1.0
         },
         {
           "key": "T",
-          "label": "同时抗休克（补平衡盐和胶体液），无好转应纠酸",
-          "sourceText": "T.同时抗休克（补平衡盐和胶体液），无好转应纠酸",
-          "ocrScore": 0.5
+          "label": "同时抗休克（补充平衡盐液和胶体液）；无好转时纠酸",
+          "sourceText": "T. 同时抗休克（补充平衡盐液和胶体液）；无好转时纠酸",
+          "ocrScore": 1.0
         }
       ],
       "stems": [
@@ -9069,8 +9079,8 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "A.阵发性胆绞痛，饱餐特别是油腻食物后、或夜间出现右上腹绞痛，呈可向右肩和背部放射 | B.持续性胆绞痛（右上腹痛）伴阵发加剧 | C.反复肝区、胸背部闷胀痛 | D.WBC明显个常>20x10%/L（以中性粒细胞为主）、PIt可 | E.Murphy 征（右上腹触及疼痛、肿大的胆囊）| F.Charcot 三联征：胆绞痛（与胆囊结石类似）、黄疸（随炎症控制发作呈波动性）、寒战高热 | G.Reynolds 五联征：Charcot 三联征（胆绞痛＋黄疸+寒战高热）、中枢抑制、休克（血压<90/60）。| H.无黄疸、无胆囊增大 | 1.多无黄疸（仅10-20％有轻度黄疸）| J.位于颈、管的结石可致Mirizzi综合征 | K.好发于肝左外叶、右后叶 | L.好发于肝总管、胆总管下段（汇合部位 | M.最关键：急诊解除胆管梗阻、降低胆管压力一经皮经肝胆管穿刺引流PTCD、鼻胆管引流ENBD、或胆总管切开减压+T管引流 | N.急诊腹腔镜胆囊切除术 | O.腹腔镜胆囊切除术LC | P.观察 | Q.1-3月后彻底手术以避免复发 | R.胆管切开取石，或切除病变部分肝脏 | S.急诊PTGD（经皮经肝胆囊穿刺引流）或胆囊造口，3个月后腹腔镜胆囊切除术 | T.同时抗休克（补平衡盐和胶体液），无好转应纠酸 | 有症状的胆囊结石（〇 | 胆囊结石（AHJ | ≤3天 | 急性结石性胆囊炎BED | N | >3天 | S | 肝内胆管结石及炎症CHK | 无症状、小的肝内胆管结石P | 有症状 |（R | 肝外胆管结石及炎症（FL）| 急性梗阻性化脓性胆管炎AOSCDGMQT | 小",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "胆石症与胆道感染 | A. 阵发性胆绞痛：饱餐尤其油腻食物后或夜间出现右上腹绞痛，可向右肩、背部放射 | B. 持续性右上腹痛，伴阵发性加剧 | C. 反复肝区、胸背部闷胀痛 | D. WBC明显↑，常＞20×10⁹/L（以中性粒细胞为主），Plt可↓ | E. Murphy征：右上腹触及疼痛、肿大的胆囊 | F. Charcot三联征：胆绞痛、黄疸（随炎症控制呈波动性）、寒战高热 | G. Reynolds五联征：Charcot三联征＋中枢抑制＋休克（血压＜90/60 mmHg） | H. 无黄疸、无胆囊增大 | I. 多无黄疸（仅10%～20%有轻度黄疸） | J. 位于胆囊颈、胆囊管的结石可致Mirizzi综合征 | K. 好发于肝左外叶、右后叶 | L. 好发于肝总管、胆总管下段（汇合部位） | M. 最关键：急诊解除胆管梗阻、降低胆管压力；可行PTCD、ENBD或胆总管切开减压＋T管引流 | N. 急诊腹腔镜胆囊切除术（LC） | O. 腹腔镜胆囊切除术（LC） | P. 观察 | Q. 1～3个月后彻底手术，以避免复发 | R. 胆管切开取石，或切除病变部分肝脏 | S. 急诊PTGD（经皮经肝胆囊穿刺引流）或胆囊造口，3个月后行腹腔镜胆囊切除术 | T. 同时抗休克（补充平衡盐液和胶体液）；无好转时纠酸 | 胆囊结石（AHJ） | 有症状的胆囊结石（O） | 急性结石性胆囊炎（BEI） | 急性结石性胆囊炎≤3天（N） | 急性结石性胆囊炎>3天（S） | 肝内胆管结石及炎症（CHK） | 无症状、小的肝内胆管结石（P） | 有症状的肝内胆管结石（R） | 肝外胆管结石及炎症（FL） | 急性梗阻性化脓性胆管炎（AOSC）（DGMQT）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -9090,73 +9100,73 @@
         {
           "key": "A",
           "label": "胆固醇息肉",
-          "sourceText": "A.胆固醇息肉",
-          "ocrScore": 0.5
+          "sourceText": "A. 胆固醇息肉",
+          "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "异位胃黏膜",
-          "sourceText": "B.异位胃黏膜",
-          "ocrScore": 0.5
+          "sourceText": "B. 异位胃黏膜",
+          "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "腺瘤",
-          "sourceText": "C.腺瘤",
-          "ocrScore": 0.5
+          "sourceText": "C. 腺瘤",
+          "ocrScore": 1.0
         },
         {
           "key": "D",
           "label": "炎性息肉",
-          "sourceText": "D.炎性息肉",
+          "sourceText": "D. 炎性息肉",
           "ocrScore": 1.0
         },
         {
           "key": "E",
           "label": "血管瘤",
-          "sourceText": "E.血管瘤",
+          "sourceText": "E. 血管瘤",
           "ocrScore": 1.0
         },
         {
           "key": "F",
           "label": "腺肌增生",
-          "sourceText": "F.腺肌增生",
-          "ocrScore": 0.5
+          "sourceText": "F. 腺肌增生",
+          "ocrScore": 1.0
         },
         {
           "key": "G",
           "label": "脂肪瘤",
-          "sourceText": "G.脂肪瘤",
+          "sourceText": "G. 脂肪瘤",
           "ocrScore": 1.0
         },
         {
           "key": "H",
           "label": "腺瘤样增生",
-          "sourceText": "H.腺瘤样增生",
+          "sourceText": "H. 腺瘤样增生",
           "ocrScore": 1.0
         },
         {
           "key": "I",
           "label": "平滑肌瘤",
-          "sourceText": "I.平滑肌瘤",
-          "ocrScore": 0.5
+          "sourceText": "I. 平滑肌瘤",
+          "ocrScore": 1.0
         },
         {
           "key": "J",
           "label": "黄色肉芽肿",
-          "sourceText": "J.黄色肉芽肿",
-          "ocrScore": 0.5
+          "sourceText": "J. 黄色肉芽肿",
+          "ocrScore": 1.0
         },
         {
           "key": "K",
           "label": "神经纤维瘤",
-          "sourceText": "K.神经纤维瘤",
+          "sourceText": "K. 神经纤维瘤",
           "ocrScore": 1.0
         },
         {
           "key": "L",
           "label": "胰腺组织",
-          "sourceText": "L.胰腺组织",
+          "sourceText": "L. 胰腺组织",
           "ocrScore": 1.0
         }
       ],
@@ -9171,9 +9181,9 @@
             "K"
           ],
           "answerMode": "多选",
-          "sourceText": "肿瘤性息肉CEGIK",
+          "sourceText": "肿瘤性息肉（CEGIK）",
           "sourceY": 50.45149387421767,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "非肿瘤性息肉",
@@ -9187,9 +9197,9 @@
             "L"
           ],
           "answerMode": "多选",
-          "sourceText": "非肿瘤性息肉（ABDFHJL",
+          "sourceText": "非肿瘤性息肉（ABDFHJL）",
           "sourceY": 83.55446813809779,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         },
         {
           "text": "癌前病变",
@@ -9197,7 +9207,7 @@
             "C"
           ],
           "answerMode": "单选",
-          "sourceText": "癌前病变（C",
+          "sourceText": "癌前病变（C）",
           "sourceY": 118.07697338936826,
           "ocrScore": 1.0
         },
@@ -9208,13 +9218,13 @@
             "D"
           ],
           "answerMode": "多选",
-          "sourceText": "几乎不癌变（AD",
+          "sourceText": "几乎不癌变（AD）",
           "sourceY": 151.35448067518226,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         }
       ],
-      "sourceText": "A.胆固醇息肉 | 胆囊息肉 | B.异位胃黏膜 | 肿瘤性息肉CEGIK | C.腺瘤 | D.炎性息肉 | 非肿瘤性息肉（ABDFHJL | E.血管瘤 | 癌前病变（C | F.腺肌增生 | G.脂肪瘤 | 几乎不癌变（AD | H.腺瘤样增生 | I.平滑肌瘤 | J.黄色肉芽肿 | K.神经纤维瘤 | L.胰腺组织",
-      "reviewState": "已完成结构校对",
+      "sourceText": "胆囊息肉 | A. 胆固醇息肉 | B. 异位胃黏膜 | C. 腺瘤 | D. 炎性息肉 | E. 血管瘤 | F. 腺肌增生 | G. 脂肪瘤 | H. 腺瘤样增生 | I. 平滑肌瘤 | J. 黄色肉芽肿 | K. 神经纤维瘤 | L. 胰腺组织 | 肿瘤性息肉（CEGIK） | 非肿瘤性息肉（ABDFHJL） | 癌前病变（C） | 几乎不癌变（AD）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -9234,38 +9244,38 @@
         {
           "key": "A",
           "label": "结石嵌顿在胆总管开口（下端）不能取出",
-          "sourceText": "A.结石嵌顿在胆总管开口（下端）不能取出",
+          "sourceText": "A. 结石嵌顿在胆总管开口（下端）不能取出",
           "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "胆总管远端炎症狭窄致梗阻无法解除、胆总管扩张",
-          "sourceText": "B.胆总管远端炎症狭窄致梗阻无法解除、胆总管扩张",
+          "sourceText": "B. 胆总管远端炎症狭窄致梗阻无法解除、胆总管扩张",
           "ocrScore": 1.0
         },
         {
           "key": "C",
-          "label": "结石<3枚且<1cm",
-          "sourceText": "C.结石<3枚且<1cm",
+          "label": "结石＜3枚且每枚＜1 cm",
+          "sourceText": "C. 结石＜3枚且每枚＜1 cm",
           "ocrScore": 1.0
         },
         {
           "key": "D",
           "label": "胆胰管汇合部异常、胰液直接流入胆管",
-          "sourceText": "D.胆胰管汇合部异常、胰液直接流入胆管",
+          "sourceText": "D. 胆胰管汇合部异常、胰液直接流入胆管",
           "ocrScore": 1.0
         },
         {
           "key": "E",
-          "label": "胆总管结石+胆管上下通畅",
-          "sourceText": "E.胆总管结石+胆管上下通畅",
+          "label": "胆总管结石，且结石上下方胆管通畅",
+          "sourceText": "E. 胆总管结石，且结石上下方胆管通畅",
           "ocrScore": 1.0
         },
         {
           "key": "F",
           "label": "胆管因病变部分切除、无法再吻合",
-          "sourceText": "F胆管因病变部分切除、无法再吻合",
-          "ocrScore": 0.5
+          "sourceText": "F. 胆管因病变部分切除、无法再吻合",
+          "ocrScore": 1.0
         }
       ],
       "stems": [
@@ -9312,8 +9322,8 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "肝外胆管结石及炎症 | A.结石嵌顿在胆总管开口（下端）不能取出 | 经十二指肠内镜取石 | B.胆总管远端炎症狭窄致梗阻无法解除、胆总管扩张 | C.结石<3枚且<1cm | 胆总管切开取石+T管引流（E | D.胆胰管汇合部异常、胰液直接流入胆管 | E.胆总管结石+胆管上下通畅 | 内镜下Oddi 括约肌切开术 EST+取石术＋鼻胆管引流术 ENBD（治疗性 | F胆管因病变部分切除、无法再吻合 | ERCP）A | 胆管-空肠Roux-en-Y吻合术（胆汁内引流术）＋切胆囊BDF",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "肝外胆管结石及炎症 | A. 结石嵌顿在胆总管开口（下端）不能取出 | B. 胆总管远端炎症狭窄致梗阻无法解除、胆总管扩张 | C. 结石＜3枚且每枚＜1 cm | D. 胆胰管汇合部异常、胰液直接流入胆管 | E. 胆总管结石，且结石上下方胆管通畅 | F. 胆管因病变部分切除、无法再吻合 | 经十二指肠内镜取石（C） | 胆总管切开取石+T管引流（E） | 内镜下Oddi括约肌切开术（EST）+取石术+鼻胆管引流术（ENBD，治疗性ERCP）（A） | 胆管-空肠Roux-en-Y吻合术（胆汁内引流术）+切胆囊（BDF）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -9333,19 +9343,19 @@
         {
           "key": "A",
           "label": "十二指肠上缘至十二指肠乳头",
-          "sourceText": "A.十二指肠上缘至十二指肠乳头",
-          "ocrScore": 0.5
+          "sourceText": "A. 十二指肠上缘至十二指肠乳头",
+          "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "左右肝管至胆囊管开口以上",
-          "sourceText": "B.左右肝管至胆囊管开口以上",
+          "sourceText": "B. 左右肝管至胆囊管开口以上",
           "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "胆囊管开口至十二指肠上缘",
-          "sourceText": "C.胆囊管开口至十二指肠上缘",
+          "sourceText": "C. 胆囊管开口至十二指肠上缘",
           "ocrScore": 1.0
         }
       ],
@@ -9356,7 +9366,7 @@
             "A"
           ],
           "answerMode": "单选",
-          "sourceText": "下段胆管癌 A",
+          "sourceText": "下段胆管癌（A）",
           "sourceY": 565.1585732469277,
           "ocrScore": 1.0
         },
@@ -9366,9 +9376,9 @@
             "C"
           ],
           "answerMode": "单选",
-          "sourceText": "中段胆管癌 C",
+          "sourceText": "中段胆管癌（C）",
           "sourceY": 599.0387636565724,
-          "ocrScore": 0.5
+          "ocrScore": 1.0
         },
         {
           "text": "上段/肝门部胆管癌",
@@ -9376,13 +9386,13 @@
             "B"
           ],
           "answerMode": "单选",
-          "sourceText": "上段/肝门部胆管癌B",
+          "sourceText": "上段/肝门部胆管癌（B）",
           "sourceY": 632.2202780932257,
-          "ocrScore": 0.5
+          "ocrScore": 1.0
         }
       ],
-      "sourceText": "胆管癌分类 | 下段胆管癌 | A.十二指肠上缘至十二指肠乳头 | A | B.左右肝管至胆囊管开口以上 | 中段胆管癌 | C.胆囊管开口至十二指肠上缘 | C | 上段/肝门部胆管癌B",
-      "reviewState": "已完成结构校对",
+      "sourceText": "胆管癌分类 | A. 十二指肠上缘至十二指肠乳头 | B. 左右肝管至胆囊管开口以上 | C. 胆囊管开口至十二指肠上缘 | 下段胆管癌（A） | 中段胆管癌（C） | 上段/肝门部胆管癌（B）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -9402,25 +9412,25 @@
         {
           "key": "A",
           "label": "同时侵犯右、左肝管",
-          "sourceText": "A.同时侵犯右、左肝管",
+          "sourceText": "A. 同时侵犯右、左肝管",
           "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "肿瘤侵犯左右肝管汇合部",
-          "sourceText": "B.肿瘤侵犯左右肝管汇合部",
+          "sourceText": "B. 肿瘤侵犯左右肝管汇合部",
           "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "肿瘤在肝总管",
-          "sourceText": "C.肿瘤在肝总管",
+          "sourceText": "C. 肿瘤在肝总管",
           "ocrScore": 1.0
         },
         {
           "key": "D",
-          "label": "侵犯右肝管IIIa或左肝管IIIb",
-          "sourceText": "D.侵犯右肝管IIIa或左肝管IIIb",
+          "label": "侵犯右肝管（IIIa）或左肝管（IIIb）",
+          "sourceText": "D. 侵犯右肝管（IIIa）或左肝管（IIIb）",
           "ocrScore": 1.0
         }
       ],
@@ -9466,8 +9476,8 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "上段/肝门部胆管癌 | -C | A.同时侵犯右、左肝管 | B.肿瘤侵犯左右肝管汇合部 | C 肿瘤在肝总管 | B | D.侵犯右肝管Ia或左肝管IIlb | 川II | D | I | 胆管癌根治性手术切除+清除肝十二指肠韧带内所有淋巴结（脉络化 | A.切胆囊+肝外胆管、作胆肠RY吻合 | 下段胆管癌 | E | B.切肿瘤及距肿瘤边缘1cm 的胆管、作肝管-空肠RY吻合 | C.多姑息治疗 | 中段胆管癌 | B | D.切胆囊＋肝外胆管+部分肝、作胆肠RY吻合 | E.胰头十二指肠切除术 Whipple 术、或联合切除肝（肿瘤累及肝）| A | 上段/肝门部胆管癌 | 书号 | 三II | I",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "上段/肝门部胆管癌Bismuth-Corlette分型 | A. 同时侵犯右、左肝管 | B. 肿瘤侵犯左右肝管汇合部 | C. 肿瘤在肝总管 | D. 侵犯右肝管（IIIa）或左肝管（IIIb） | I型（C） | II型（B） | III型（D） | IV型（A）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -9481,7 +9491,7 @@
       "page": 21,
       "kind": "B",
       "kindLabel": "B型题",
-      "reviewState": "已按原题页人工复核",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -9495,32 +9505,32 @@
       "options": [
         {
           "key": "A",
-          "label": "切胆囊+肝外胆管，作胆肠Roux-en-Y吻合",
-          "sourceText": "A.切胆囊+肝外胆管，作胆肠Roux-en-Y吻合",
+          "label": "切除胆囊＋肝外胆管，行胆肠Roux-en-Y吻合术",
+          "sourceText": "A. 切除胆囊＋肝外胆管，行胆肠Roux-en-Y吻合术",
           "ocrScore": 1.0
         },
         {
           "key": "B",
-          "label": "切肿瘤及距肿瘤边缘1cm的胆管，作肝管-空肠Roux-en-Y吻合",
-          "sourceText": "B.切肿瘤及距肿瘤边缘1cm的胆管，作肝管-空肠Roux-en-Y吻合",
+          "label": "切除肿瘤及距肿瘤边缘1 cm的胆管，行肝管-空肠Roux-en-Y吻合术",
+          "sourceText": "B. 切除肿瘤及距肿瘤边缘1 cm的胆管，行肝管-空肠Roux-en-Y吻合术",
           "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "多姑息治疗",
-          "sourceText": "C.多姑息治疗",
+          "sourceText": "C. 多姑息治疗",
           "ocrScore": 1.0
         },
         {
           "key": "D",
-          "label": "切胆囊+肝外胆管+部分肝，作胆肠Roux-en-Y吻合",
-          "sourceText": "D.切胆囊+肝外胆管+部分肝，作胆肠Roux-en-Y吻合",
+          "label": "切除胆囊＋肝外胆管＋部分肝，行胆肠Roux-en-Y吻合术",
+          "sourceText": "D. 切除胆囊＋肝外胆管＋部分肝，行胆肠Roux-en-Y吻合术",
           "ocrScore": 1.0
         },
         {
           "key": "E",
-          "label": "胰头十二指肠切除术（Whipple术），或联合切除受累肝组织",
-          "sourceText": "E.胰头十二指肠切除术（Whipple术），或联合切除受累肝组织",
+          "label": "胰头十二指肠切除术（Whipple术），必要时联合切除受累肝组织",
+          "sourceText": "E. 胰头十二指肠切除术（Whipple术），必要时联合切除受累肝组织",
           "ocrScore": 1.0
         }
       ],
@@ -9586,7 +9596,7 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "第21页下方胆管癌根治术题组"
+      "sourceText": "胆管癌根治术 | A. 切除胆囊＋肝外胆管，行胆肠Roux-en-Y吻合术 | B. 切除肿瘤及距肿瘤边缘1 cm的胆管，行肝管-空肠Roux-en-Y吻合术 | C. 多姑息治疗 | D. 切除胆囊＋肝外胆管＋部分肝，行胆肠Roux-en-Y吻合术 | E. 胰头十二指肠切除术（Whipple术），必要时联合切除受累肝组织 | 下段胆管癌（E） | 中段胆管癌（B） | 上段/肝门部胆管癌I型（A） | 上段/肝门部胆管癌II型（A） | 上段/肝门部胆管癌III型（D） | 上段/肝门部胆管癌IV型（C）"
     },
     {
       "id": "p22-g1",
@@ -9598,19 +9608,19 @@
         {
           "key": "A",
           "label": "肝门部胆管闭锁",
-          "sourceText": "A.肝门部胆管闭锁",
+          "sourceText": "A. 肝门部胆管闭锁",
           "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "肝管闭锁",
-          "sourceText": "B.肝管闭锁",
+          "sourceText": "B. 肝管闭锁",
           "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "只涉及胆总管",
-          "sourceText": "C.只涉及胆总管",
+          "sourceText": "C. 只涉及胆总管",
           "ocrScore": 1.0
         }
       ],
@@ -9656,8 +9666,8 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "A.肝门部胆管闭锁 | 胆管闭锁分型 | B.肝管闭锁 | 一C | C.只涉及胆总管 | I | B | A | 最常见 |（A",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "胆管闭锁分型 | A. 肝门部胆管闭锁 | B. 肝管闭锁 | C. 只涉及胆总管 | I型（C） | II型（B） | III型（A） | 最常见（A）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -9670,38 +9680,38 @@
     {
       "id": "p22-g2",
       "page": 22,
-      "title": "胆管闭锁尽量出生2个月内手术",
+      "title": "胆管闭锁的手术时机与术式",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
           "label": "Kasai 术后无效",
-          "sourceText": "A.Kasai 术后无效",
-          "ocrScore": 0.5
+          "sourceText": "A. Kasai 术后无效",
+          "ocrScore": 1.0
         },
         {
           "key": "B",
-          "label": "肝外胆管或胆囊与空肠行RY吻合",
-          "sourceText": "B.肝外胆管或胆囊与空肠行RY吻合",
+          "label": "肝外胆管或胆囊与空肠行Roux-en-Y吻合术",
+          "sourceText": "B. 肝外胆管或胆囊与空肠行Roux-en-Y吻合术",
           "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "肝内外胆管完全闭锁",
-          "sourceText": "C.肝内外胆管完全闭锁",
+          "sourceText": "C. 肝内外胆管完全闭锁",
           "ocrScore": 1.0
         },
         {
           "key": "D",
           "label": "Kasai肝门-空肠Roux-en-Y吻合术",
-          "sourceText": "D.Kasai肝门-空肠Roux-en-Y吻合术",
-          "ocrScore": 0.5
+          "sourceText": "D. Kasai肝门-空肠Roux-en-Y吻合术",
+          "ocrScore": 1.0
         },
         {
           "key": "E",
           "label": "已发生肝硬化",
-          "sourceText": "E.已发生肝硬化",
+          "sourceText": "E. 已发生肝硬化",
           "ocrScore": 1.0
         }
       ],
@@ -9739,8 +9749,8 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "胆管闭锁尽量出生2个月内手术 | A.Kasai 术后无效 | 尚有部分肝外胆管通畅、胆囊大小正常 | B.肝外胆管或胆囊与空肠行RY吻合 | C.肝内外胆管完全闭锁 | 肝门部胆管闭锁、但肝内仍有胆管腔 | D.Kasai 肝门-空肠 RY吻合（闭锁-开塞露-肛门_肝门）| E.已发生肝硬化 | 肝移植的适应症ACE",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "胆管闭锁的手术时机与术式 | A. Kasai 术后无效 | B. 肝外胆管或胆囊与空肠行Roux-en-Y吻合术 | C. 肝内外胆管完全闭锁 | D. Kasai肝门-空肠Roux-en-Y吻合术 | E. 已发生肝硬化 | 尚有部分肝外胆管通畅、胆囊大小正常（B） | 肝门部胆管闭锁、但肝内仍有胆管腔（D） | 肝移植的适应证（ACE）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -9760,37 +9770,37 @@
         {
           "key": "A",
           "label": "胆总管十二指肠壁内段呈囊状膨出",
-          "sourceText": "A.胆总管十二指肠壁内段呈囊状膨出",
+          "sourceText": "A. 胆总管十二指肠壁内段呈囊状膨出",
           "ocrScore": 1.0
         },
         {
           "key": "B",
           "label": "肝内、外胆管扩张",
-          "sourceText": "B.肝内、外胆管扩张",
+          "sourceText": "B. 肝内、外胆管扩张",
           "ocrScore": 1.0
         },
         {
           "key": "C",
           "label": "肝内胆管多发扩张、伴肝纤维化",
-          "sourceText": "C.肝内胆管多发扩张、伴肝纤维化",
+          "sourceText": "C. 肝内胆管多发扩张、伴肝纤维化",
           "ocrScore": 1.0
         },
         {
           "key": "D",
-          "label": "肝外胆管尤其胆总管囊性扩张、直径最大可达25cm",
-          "sourceText": "D.肝外胆管尤其胆总管囊性扩张、直径最大可达25cm",
+          "label": "肝外胆管尤其胆总管囊性扩张，直径最大可达25 cm",
+          "sourceText": "D. 肝外胆管尤其胆总管囊性扩张，直径最大可达25 cm",
           "ocrScore": 1.0
         },
         {
           "key": "E",
           "label": "胆总管侧壁局限性扩张呈憩室样",
-          "sourceText": "E.胆总管侧壁局限性扩张呈憩室样",
+          "sourceText": "E. 胆总管侧壁局限性扩张呈憩室样",
           "ocrScore": 1.0
         },
         {
           "key": "F",
           "label": "肝外胆管无扩张",
-          "sourceText": "F.肝外胆管无扩张",
+          "sourceText": "F. 肝外胆管无扩张",
           "ocrScore": 1.0
         }
       ],
@@ -9857,8 +9867,8 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "先天性胆管扩张症（旧称先天性胆总管囊肿）分型 | A.胆总管十二指肠壁内段呈囊状膨出 | D | B.肝内、外胆管扩张 | C.肝内胆管多发扩张、伴肝纤维化 | D.肝外胆管尤其胆总管囊性扩张、直径最大可达25cm | E.胆总管侧壁局限性扩张呈憩室样 | F.肝外胆管无扩张 | I | B | V/Caroli病 |（CF | 最常见 | D | 小",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "先天性胆管扩张症（旧称先天性胆总管囊肿）分型 | A. 胆总管十二指肠壁内段呈囊状膨出 | B. 肝内、外胆管扩张 | C. 肝内胆管多发扩张、伴肝纤维化 | D. 肝外胆管尤其胆总管囊性扩张，直径最大可达25 cm | E. 胆总管侧壁局限性扩张呈憩室样 | F. 肝外胆管无扩张 | I型（D） | II型（E） | III型（A） | IV型（B） | V型/Caroli病（CF） | 最常见（D）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -9871,188 +9881,188 @@
     {
       "id": "p23-g1",
       "page": 23,
-      "title": "胆囊结石",
+      "title": "胆系疾病综合鉴别",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
           "label": "无黄疸",
-          "sourceText": "A.无黄疸",
+          "sourceText": "A. 无黄疸",
           "ocrScore": 1.0
         },
         {
           "key": "B",
-          "label": "不伴胆管梗阻无黄疸",
-          "sourceText": "B.不伴胆管梗阻无黄疸",
+          "label": "不伴胆管梗阻时无黄疸",
+          "sourceText": "B. 不伴胆管梗阻时无黄疸",
           "ocrScore": 1.0
         },
         {
           "key": "C",
-          "label": "无黄疸，但Mirizzi征有黄疸",
-          "sourceText": "C无黄疸，但Mirizzi征有黄疸",
-          "ocrScore": 0.5
+          "label": "通常无黄疸，但发生Mirizzi综合征时可有黄疸",
+          "sourceText": "C. 通常无黄疸，但发生Mirizzi综合征时可有黄疸",
+          "ocrScore": 1.0
         },
         {
           "key": "D",
           "label": "间歇性黄疸",
-          "sourceText": "D.间歇性黄疸",
+          "sourceText": "D. 间歇性黄疸",
           "ocrScore": 1.0
         },
         {
           "key": "E",
           "label": "波动性黄疸",
-          "sourceText": "E.波动性黄疸",
+          "sourceText": "E. 波动性黄疸",
           "ocrScore": 1.0
         },
         {
           "key": "F",
           "label": "持续性黄疸",
-          "sourceText": "F.持续性黄疸",
+          "sourceText": "F. 持续性黄疸",
           "ocrScore": 1.0
         },
         {
           "key": "G",
           "label": "进行性黄疸",
-          "sourceText": "G.进行性黄疸",
+          "sourceText": "G. 进行性黄疸",
           "ocrScore": 1.0
         },
         {
           "key": "H",
           "label": "黄疸出现晚",
-          "sourceText": "H.黄疸出现晚",
+          "sourceText": "H. 黄疸出现晚",
           "ocrScore": 1.0
         },
         {
           "key": "I",
           "label": "黄疸出现慢、浅",
-          "sourceText": "1.黄疸出现慢、浅",
-          "ocrScore": 0.5
+          "sourceText": "I. 黄疸出现慢、浅",
+          "ocrScore": 1.0
         },
         {
           "key": "J",
           "label": "胆囊不大",
-          "sourceText": "J.胆囊不大",
+          "sourceText": "J. 胆囊不大",
           "ocrScore": 1.0
         },
         {
           "key": "K",
           "label": "胆囊不大，但胆囊梗阻、Mirizzi征时大",
-          "sourceText": "K.胆囊不大，但胆囊梗阻、Mirizzi征时大",
+          "sourceText": "K. 胆囊不大，但胆囊梗阻、Mirizzi征时大",
           "ocrScore": 1.0
         },
         {
           "key": "L",
           "label": "胆囊可大",
-          "sourceText": "L.胆囊可大",
+          "sourceText": "L. 胆囊可大",
           "ocrScore": 1.0
         },
         {
           "key": "M",
           "label": "胆囊不大甚至缩小",
-          "sourceText": "M.胆囊不大甚至缩小",
+          "sourceText": "M. 胆囊不大甚至缩小",
           "ocrScore": 1.0
         },
         {
           "key": "N",
           "label": "胆囊大且痛",
-          "sourceText": "N.胆囊大且痛",
+          "sourceText": "N. 胆囊大且痛",
           "ocrScore": 1.0
         },
         {
           "key": "O",
           "label": "胆囊大且无痛",
-          "sourceText": "0.胆囊大且无痛",
-          "ocrScore": 0.5
+          "sourceText": "O. 胆囊大且无痛",
+          "ocrScore": 1.0
         },
         {
           "key": "P",
           "label": "阵发性胆绞痛",
-          "sourceText": "P.阵发性胆绞痛",
+          "sourceText": "P. 阵发性胆绞痛",
           "ocrScore": 1.0
         },
         {
           "key": "Q",
-          "label": "持续胆绞痛阵发加剧、发热、腹膜炎、胆囊壁>4mm",
-          "sourceText": "Q.持续胆绞痛阵发加剧、发热、腹膜炎、胆囊壁>4mm",
+          "label": "持续性胆绞痛伴阵发性加剧、发热、腹膜炎，胆囊壁＞4 mm",
+          "sourceText": "Q. 持续性胆绞痛伴阵发性加剧、发热、腹膜炎，胆囊壁＞4 mm",
           "ocrScore": 1.0
         },
         {
           "key": "R",
-          "label": "阵发性钻顶样绞痛、突发突止、症征不符",
-          "sourceText": "R.阵发性钻顶样绞痛、突发突止、症征不符",
+          "label": "阵发性钻顶样绞痛，突发突止，症征不符",
+          "sourceText": "R. 阵发性钻顶样绞痛，突发突止，症征不符",
           "ocrScore": 1.0
         },
         {
           "key": "S",
           "label": "钝/胀痛、光滑的囊性肿块",
-          "sourceText": "S.钝/胀痛、光滑的囊性肿块",
+          "sourceText": "S. 钝/胀痛、光滑的囊性肿块",
           "ocrScore": 1.0
         },
         {
           "key": "T",
-          "label": "好发底、体部",
-          "sourceText": "T.好发底、体部",
+          "label": "好发于胆囊底部、体部",
+          "sourceText": "T. 好发于胆囊底部、体部",
           "ocrScore": 1.0
         },
         {
           "key": "U",
           "label": "上段/肝门部多见",
-          "sourceText": "U.上段/肝门部多见",
-          "ocrScore": 0.5
+          "sourceText": "U. 上段/肝门部多见",
+          "ocrScore": 1.0
         },
         {
           "key": "V",
-          "label": "好发肝左外叶和右后叶，反复肝区胸背部闷胀痛",
-          "sourceText": "V.好发肝左外叶和右后叶，反复肝区胸背部闷胀痛",
+          "label": "好发于肝左外叶和右后叶，反复肝区、胸背部闷胀痛",
+          "sourceText": "V. 好发于肝左外叶和右后叶，反复肝区、胸背部闷胀痛",
           "ocrScore": 1.0
         },
         {
           "key": "W",
           "label": "发育不良、苯巴比妥无效",
-          "sourceText": "W.发育不良、苯巴比妥无效",
+          "sourceText": "W. 发育不良、苯巴比妥无效",
           "ocrScore": 1.0
         },
         {
           "key": "X",
-          "label": "Charcot征甚至 Reynolds 征",
-          "sourceText": "X.Charcot征甚至 Reynolds 征",
-          "ocrScore": 0.5
+          "label": "Charcot三联征，甚至Reynolds五联征",
+          "sourceText": "X. Charcot三联征，甚至Reynolds五联征",
+          "ocrScore": 1.0
         },
         {
           "key": "Y",
-          "label": "CT诊断和评估可切除性",
-          "sourceText": "Y.CT诊断和评估可切除性",
+          "label": "CT用于诊断并评估可切除性",
+          "sourceText": "Y. CT用于诊断并评估可切除性",
           "ocrScore": 1.0
         },
         {
           "key": "Z",
-          "label": "尽量出生2个月内手术如 Kasai",
-          "sourceText": "Z.尽量出生2个月内手术如 Kasai",
+          "label": "尽量在出生2个月内手术，如Kasai术",
+          "sourceText": "Z. 尽量在出生2个月内手术，如Kasai术",
           "ocrScore": 1.0
         },
         {
-          "key": "a",
-          "label": "手术",
-          "sourceText": "a.手术",
-          "ocrScore": 0.5
+          "key": "①",
+          "label": "手术治疗",
+          "sourceText": "①. 手术治疗",
+          "ocrScore": 1.0
         },
         {
-          "key": "b",
-          "label": "Whipple 术",
-          "sourceText": "b.Whipple 术",
-          "ocrScore": 0.5
+          "key": "②",
+          "label": "Whipple术",
+          "sourceText": "②. Whipple术",
+          "ocrScore": 1.0
         },
         {
-          "key": "d",
-          "label": "保守为主",
-          "sourceText": "d.保守为主",
-          "ocrScore": 0.5
+          "key": "③",
+          "label": "以保守治疗为主",
+          "sourceText": "③. 以保守治疗为主",
+          "ocrScore": 1.0
         },
         {
-          "key": "e",
-          "label": "尽早完全切除扩张胆管+胆肠吻合等",
-          "sourceText": "e.尽早完全切除扩张胆管+胆肠吻合等",
+          "key": "④",
+          "label": "尽早完整切除扩张胆管＋胆肠吻合术等",
+          "sourceText": "④. 尽早完整切除扩张胆管＋胆肠吻合术等",
           "ocrScore": 1.0
         }
       ],
@@ -10087,10 +10097,10 @@
             "B",
             "L",
             "T",
-            "a"
+            "①"
           ],
           "answerMode": "多选",
-          "sourceText": "胆囊癌（BLTa）",
+          "sourceText": "胆囊癌（BLT①）",
           "ocrScore": 1.0,
           "reviewMethod": "300dpi原题页人工复核"
         },
@@ -10153,10 +10163,10 @@
           "answer": [
             "A",
             "R",
-            "d"
+            "③"
           ],
           "answerMode": "多选",
-          "sourceText": "胆管蛔虫（ARd）",
+          "sourceText": "胆管蛔虫（AR③）",
           "ocrScore": 1.0,
           "reviewMethod": "300dpi原题页人工复核"
         },
@@ -10177,10 +10187,10 @@
           "answer": [
             "D",
             "S",
-            "e"
+            "④"
           ],
           "answerMode": "多选",
-          "sourceText": "先天性胆管扩张症（DSe）",
+          "sourceText": "先天性胆管扩张症（DS④）",
           "ocrScore": 1.0,
           "reviewMethod": "300dpi原题页人工复核"
         },
@@ -10191,10 +10201,10 @@
             "H",
             "O",
             "Y",
-            "b"
+            "②"
           ],
           "answerMode": "多选",
-          "sourceText": "胰头癌（GHOYb）",
+          "sourceText": "胰头癌（GHOY②）",
           "ocrScore": 1.0,
           "reviewMethod": "300dpi原题页人工复核"
         },
@@ -10203,10 +10213,10 @@
           "answer": [
             "E",
             "O",
-            "b"
+            "②"
           ],
           "answerMode": "多选",
-          "sourceText": "壶腹癌（EOb）",
+          "sourceText": "壶腹癌（EO②）",
           "ocrScore": 1.0,
           "reviewMethod": "300dpi原题页人工复核"
         },
@@ -10216,16 +10226,16 @@
             "H",
             "I",
             "O",
-            "b"
+            "②"
           ],
           "answerMode": "多选",
-          "sourceText": "十二指肠癌（HIOb）",
+          "sourceText": "十二指肠癌（HIO②）",
           "ocrScore": 1.0,
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "A.无黄疸 | 胆囊结石CKP | B.不伴胆管梗阻无黄疸 | C无黄疸，但Mirizzi征有黄疸 | 急性胆囊炎ANQ | D.间歇性黄疸 | E.波动性黄疸 | 胆囊癌 | BLTa | F.持续性黄疸 | G.进行性黄疸 | 肝内胆管结石及炎症（AJV | H.黄疸出现晚 | 1.黄疸出现慢、浅 | 肝外胆管结石及炎症（EX | J.胆囊不大 | 胆管癌（GU上段 |（M | K.胆囊不大，但胆囊梗阻、Mirizzi征时大 | 中下段 | L.胆囊可大 | M.胆囊不大甚至缩小 | N.胆囊大且痛 | 胆管蛔虫 ARd | 0.胆囊大且无痛 | FWZ | 胆管闭锁 | P.阵发性胆绞痛 | Q.持续胆绞痛阵发加剧、发热、腹膜炎、胆囊壁>4mm | 先天性胆管扩张症 |（DSe | R.阵发性钻顶样绞痛、突发突止、症征不符 | S.钝/胀痛、光滑的囊性肿块 | 胰头癌 | GHOYb | T.好发底、体部 | U.上段/肝门部多见 | 壶腹癌EOb | V.好发肝左外叶和右后叶，反复肝区胸背部闷胀痛 | W.发育不良、苯巴比妥无效 | 十二指肠癌 |（HIOb | X.Charcot征甚至 Reynolds 征 | Y.CT诊断和评估可切除性 | Z.尽量出生2个月内手术如 Kasai | a.手术 | b.Whipple 术 | d.保守为主 | e.尽早完全切除扩张胆管+胆肠吻合等",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "胆系疾病综合鉴别 | A. 无黄疸 | B. 不伴胆管梗阻时无黄疸 | C. 通常无黄疸，但发生Mirizzi综合征时可有黄疸 | D. 间歇性黄疸 | E. 波动性黄疸 | F. 持续性黄疸 | G. 进行性黄疸 | H. 黄疸出现晚 | I. 黄疸出现慢、浅 | J. 胆囊不大 | K. 胆囊不大，但胆囊梗阻、Mirizzi征时大 | L. 胆囊可大 | M. 胆囊不大甚至缩小 | N. 胆囊大且痛 | O. 胆囊大且无痛 | P. 阵发性胆绞痛 | Q. 持续性胆绞痛伴阵发性加剧、发热、腹膜炎，胆囊壁＞4 mm | R. 阵发性钻顶样绞痛，突发突止，症征不符 | S. 钝/胀痛、光滑的囊性肿块 | T. 好发于胆囊底部、体部 | U. 上段/肝门部多见 | V. 好发于肝左外叶和右后叶，反复肝区、胸背部闷胀痛 | W. 发育不良、苯巴比妥无效 | X. Charcot三联征，甚至Reynolds五联征 | Y. CT用于诊断并评估可切除性 | Z. 尽量在出生2个月内手术，如Kasai术 | ①. 手术治疗 | ②. Whipple术 | ③. 以保守治疗为主 | ④. 尽早完整切除扩张胆管＋胆肠吻合术等 | 胆囊结石（CKP） | 急性胆囊炎（ANQ） | 胆囊癌（BLT①） | 肝内胆管结石及炎症（AJV） | 肝外胆管结石及炎症（EX） | 胆管癌（GU） | 上段胆管癌（M） | 中下段胆管癌（O） | 胆管蛔虫（AR③） | 胆管闭锁（FWZ） | 先天性胆管扩张症（DS④） | 胰头癌（GHOY②） | 壶腹癌（EO②） | 十二指肠癌（HIO②）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
@@ -10238,63 +10248,63 @@
     {
       "id": "p23-g2",
       "page": 23,
-      "title": "胆系疾病英文缩写",
+      "title": "胆系疾病英文缩写与术式",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "经皮经肝胆管穿刺引流（PTC经皮经肝胆管穿刺造影）",
-          "sourceText": "A.经皮经肝胆管穿刺引流（PTC经皮经肝胆管穿刺造影）",
+          "label": "经皮经肝胆管穿刺引流（PTCD；PTC为经皮经肝胆管穿刺造影）",
+          "sourceText": "A. 经皮经肝胆管穿刺引流（PTCD；PTC为经皮经肝胆管穿刺造影）",
           "ocrScore": 1.0
         },
         {
           "key": "B",
-          "label": "胰头十二指肠切除术",
-          "sourceText": "B.胰头十二指肠切除术",
+          "label": "胰头十二指肠切除术（Whipple术）",
+          "sourceText": "B. 胰头十二指肠切除术（Whipple术）",
           "ocrScore": 1.0
         },
         {
           "key": "C",
-          "label": "腹腔镜胆囊切除术",
-          "sourceText": "C.腹腔镜胆囊切除术",
-          "ocrScore": 0.5
+          "label": "腹腔镜胆囊切除术（LC）",
+          "sourceText": "C. 腹腔镜胆囊切除术（LC）",
+          "ocrScore": 1.0
         },
         {
           "key": "D",
-          "label": "深吸气触及无痛/光滑/肿大的胆囊一中下段胆管癌、胰头癌、壶腹癌、十二指肠癌",
-          "sourceText": "D.深吸气触及无痛/光滑/肿大的胆囊一中下段胆管癌、胰头癌、壶腹癌、十二指肠癌",
+          "label": "深吸气时触及无痛、光滑、肿大的胆囊：见于中下段胆管癌、胰头癌、壶腹癌、十二指肠癌",
+          "sourceText": "D. 深吸气时触及无痛、光滑、肿大的胆囊：见于中下段胆管癌、胰头癌、壶腹癌、十二指肠癌",
           "ocrScore": 1.0
         },
         {
           "key": "E",
-          "label": "磁共振胰胆管成像（水成像）",
-          "sourceText": "E.磁共振胰胆管成像（水成像）",
-          "ocrScore": 0.5
+          "label": "磁共振胰胆管成像（MRCP，水成像）",
+          "sourceText": "E. 磁共振胰胆管成像（MRCP，水成像）",
+          "ocrScore": 1.0
         },
         {
           "key": "F",
-          "label": "急性梗阻性化脓性胆管炎",
-          "sourceText": "F.急性梗阻性化脓性胆管炎",
+          "label": "急性梗阻性化脓性胆管炎（AOSC）",
+          "sourceText": "F. 急性梗阻性化脓性胆管炎（AOSC）",
           "ocrScore": 1.0
         },
         {
           "key": "G",
-          "label": "ERCP经内镜逆行性胰胆管造影",
-          "sourceText": "G.ERCP经内镜逆行性胰胆管造影",
+          "label": "经内镜逆行胰胆管造影（ERCP）",
+          "sourceText": "G. 经内镜逆行胰胆管造影（ERCP）",
           "ocrScore": 1.0
         },
         {
           "key": "H",
-          "label": "内镜下Oddi 括约肌切开 EST+取石+鼻胆管引流 ENBD",
-          "sourceText": "H.内镜下Oddi 括约肌切开 EST+取石+鼻胆管引流 ENBD",
-          "ocrScore": 0.5
+          "label": "内镜下Oddi括约肌切开术（EST）＋取石＋鼻胆管引流（ENBD）",
+          "sourceText": "H. 内镜下Oddi括约肌切开术（EST）＋取石＋鼻胆管引流（ENBD）",
+          "ocrScore": 1.0
         },
         {
           "key": "I",
-          "label": "经皮经肝胆囊穿刺引流",
-          "sourceText": "I.经皮经肝胆囊穿刺引流",
-          "ocrScore": 0.5
+          "label": "经皮经肝胆囊穿刺引流（PTGD）",
+          "sourceText": "I. 经皮经肝胆囊穿刺引流（PTGD）",
+          "ocrScore": 1.0
         }
       ],
       "stems": [
@@ -10379,8 +10389,8 @@
           "reviewMethod": "300dpi原题页人工复核"
         }
       ],
-      "sourceText": "英文小结 | A.经皮经肝胆管穿刺引流（PTC经皮经肝胆管穿刺造影）| AOSC | B.胰头十二指肠切除术 | C.腹腔镜胆囊切除术 | LC | D.深吸气触及无痛/光滑/肿大的胆囊一中下段胆管癌、胰头癌、壶腹癌、十二指肠癌 | E.磁共振胰胆管成像（水成像）| PTGD | F.急性梗阻性化脓性胆管炎 | G.ERCP经内镜逆行性胰胆管造影 | PTCD | A | H.内镜下Oddi 括约肌切开 EST+取石+鼻胆管引流 ENBD | I.经皮经肝胆囊穿刺引流 | MRCP | E | 治疗性 ERCP | H | Whipple 术 | courvoisier 征 | 6504",
-      "reviewState": "已按原题页人工复核",
+      "sourceText": "胆系疾病英文缩写与术式 | A. 经皮经肝胆管穿刺引流（PTCD；PTC为经皮经肝胆管穿刺造影） | B. 胰头十二指肠切除术（Whipple术） | C. 腹腔镜胆囊切除术（LC） | D. 深吸气时触及无痛、光滑、肿大的胆囊：见于中下段胆管癌、胰头癌、壶腹癌、十二指肠癌 | E. 磁共振胰胆管成像（MRCP，水成像） | F. 急性梗阻性化脓性胆管炎（AOSC） | G. 经内镜逆行胰胆管造影（ERCP） | H. 内镜下Oddi括约肌切开术（EST）＋取石＋鼻胆管引流（ENBD） | I. 经皮经肝胆囊穿刺引流（PTGD） | AOSC（F） | LC（C） | PTGD（I） | PTCD（A） | MRCP（E） | 治疗性ERCP（H） | Whipple术（B） | Courvoisier征（D）",
+      "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [

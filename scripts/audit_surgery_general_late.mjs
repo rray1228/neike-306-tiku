@@ -36,9 +36,15 @@ for (const group of groups) {
 if (Math.max(...choiceGroups.map((group) => group.options.length)) !== 33) errors.push('最长选项池应为33项')
 
 const appSource = fs.readFileSync(new URL('../src/App.jsx', import.meta.url), 'utf8')
-const orderedInsertion = appSource.indexOf('...surgeryGeneralCoreContent.groups') < appSource.indexOf('...surgeryGeneralInfectionGroups')
-  && appSource.indexOf('...surgeryGeneralInfectionGroups') < appSource.indexOf('...surgeryGeneralContent.groups')
-  && appSource.indexOf('...surgeryGeneralContent.groups') < appSource.indexOf('...surgeryGeneralLaterGroups')
+const infectionMarker = appSource.includes('...surgeryGeneralLateContent.surgeryGeneralInfectionGroups')
+  ? '...surgeryGeneralLateContent.surgeryGeneralInfectionGroups'
+  : '...surgeryGeneralInfectionGroups'
+const laterMarker = appSource.includes('...surgeryGeneralLateContent.surgeryGeneralLaterGroups')
+  ? '...surgeryGeneralLateContent.surgeryGeneralLaterGroups'
+  : '...surgeryGeneralLaterGroups'
+const orderedInsertion = appSource.indexOf('...surgeryGeneralCoreContent.groups') < appSource.indexOf(infectionMarker)
+  && appSource.indexOf(infectionMarker) < appSource.indexOf('...surgeryGeneralContent.groups')
+  && appSource.indexOf('...surgeryGeneralContent.groups') < appSource.indexOf(laterMarker)
 if (!orderedInsertion) errors.push('外科总论讲义顺序应为30～34、35～36、37～38')
 
 const shallow = surgeryGeneralInfectionGroups.find((group) => group.id === 'surgery-general-infection-02')
