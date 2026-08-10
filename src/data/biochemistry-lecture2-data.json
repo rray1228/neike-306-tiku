@@ -1,0 +1,1109 @@
+{
+  "meta": {
+    "title": "生物化学第 02 讲题库",
+    "sourceLabel": "生化第 02 讲学成选择题（辨析版）",
+    "sourcePages": 1,
+    "lectureCount": 1,
+    "groupCount": 8,
+    "stemCount": 43,
+    "correctionGroupCount": 0,
+    "generatedBy": "scripts/build_biochemistry_lecture2.py",
+    "siteIntegrated": true,
+    "lectureLinked": true,
+    "answerNote": "仅收录第 02 讲《氧化磷酸化》范围内题目；选项与答案已按讲义复核。"
+  },
+  "topics": [
+    "全部",
+    "胞浆还原当量穿梭与 ATP",
+    "呼吸链组成与 P/O 比值",
+    "氧化磷酸化调节与抑制",
+    "综合"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image": "",
+      "topic": "胞浆还原当量穿梭与 ATP",
+      "searchText": "胞浆 H 穿梭进入线粒体"
+    },
+    {
+      "page": 2,
+      "image": "",
+      "topic": "胞浆还原当量穿梭与 ATP",
+      "searchText": "ATP 与产生 ATP 的方式"
+    },
+    {
+      "page": 3,
+      "image": "",
+      "topic": "呼吸链组成与 P/O 比值",
+      "searchText": "递 H 与递电子体辨析"
+    },
+    {
+      "page": 4,
+      "image": "",
+      "topic": "呼吸链组成与 P/O 比值",
+      "searchText": "呼吸链复合体Ⅰ～Ⅳ对比"
+    },
+    {
+      "page": 5,
+      "image": "",
+      "topic": "呼吸链组成与 P/O 比值",
+      "searchText": "CoQ、Cyt c、ATP 合酶与化学渗透假说"
+    },
+    {
+      "page": 6,
+      "image": "",
+      "topic": "呼吸链组成与 P/O 比值",
+      "searchText": "NADH+H⁺、FADH₂ 呼吸链与 P/O 比值"
+    },
+    {
+      "page": 7,
+      "image": "",
+      "topic": "氧化磷酸化调节与抑制",
+      "searchText": "呼吸链抑制剂、解偶联剂与 ATP 合酶抑制剂"
+    },
+    {
+      "page": 8,
+      "image": "",
+      "topic": "氧化磷酸化调节与抑制",
+      "searchText": "氧化磷酸化调节与解偶联机制"
+    }
+  ],
+  "groups": [
+    {
+      "id": "bio-02-01",
+      "page": 1,
+      "title": "胞浆 H 穿梭进入线粒体",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "脑"
+        },
+        {
+          "key": "B",
+          "label": "骨骼肌"
+        },
+        {
+          "key": "C",
+          "label": "肝"
+        },
+        {
+          "key": "D",
+          "label": "心"
+        },
+        {
+          "key": "E",
+          "label": "肾"
+        },
+        {
+          "key": "F",
+          "label": "磷酸二羟丙酮"
+        },
+        {
+          "key": "G",
+          "label": "α-磷酸甘油"
+        },
+        {
+          "key": "H",
+          "label": "草酰乙酸"
+        },
+        {
+          "key": "I",
+          "label": "天冬氨酸"
+        },
+        {
+          "key": "J",
+          "label": "丙酮酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "α-磷酸甘油-磷酸二羟丙酮穿梭：组织",
+          "answerRaw": "AB",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "α-磷酸甘油-磷酸二羟丙酮穿梭：直接参与的重要中间产物",
+          "answerRaw": "FG",
+          "answer": [
+            "F",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "苹果酸-天冬氨酸穿梭：组织",
+          "answerRaw": "CDE",
+          "answer": [
+            "C",
+            "D",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "苹果酸-天冬氨酸穿梭：直接参与的重要中间产物",
+          "answerRaw": "HI",
+          "answer": [
+            "H",
+            "I"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "胞浆 H 穿梭进入线粒体",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "胞浆还原当量穿梭与 ATP",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-02-page-01.png",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-02-02",
+      "page": 2,
+      "title": "ATP 与产生 ATP 的方式",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "GTP"
+        },
+        {
+          "key": "B",
+          "label": "UTP"
+        },
+        {
+          "key": "C",
+          "label": "CTP"
+        },
+        {
+          "key": "D",
+          "label": "1,3-二磷酸甘油酸→3-磷酸甘油酸+ATP"
+        },
+        {
+          "key": "E",
+          "label": "磷酸烯醇式丙酮酸→丙酮酸+ATP"
+        },
+        {
+          "key": "F",
+          "label": "琥珀酰 CoA→琥珀酸+ATP/GTP"
+        },
+        {
+          "key": "G",
+          "label": "底物水平磷酸化"
+        },
+        {
+          "key": "H",
+          "label": "氧化磷酸化/生物氧化（最主要）"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "合成蛋白质需要",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "合成糖原需要",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "合成磷脂需要",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "产生 ATP 的方式",
+          "answerRaw": "GH",
+          "answer": [
+            "G",
+            "H"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "底物水平磷酸化",
+          "answerRaw": "DEF",
+          "answer": [
+            "D",
+            "E",
+            "F"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "ATP 与产生 ATP 的方式",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "胞浆还原当量穿梭与 ATP",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-02-page-01.png",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-02-03",
+      "page": 3,
+      "title": "递 H 与递电子体辨析",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "FH₄"
+        },
+        {
+          "key": "B",
+          "label": "CoQ"
+        },
+        {
+          "key": "C",
+          "label": "细胞色素 Cyt"
+        },
+        {
+          "key": "D",
+          "label": "FAD"
+        },
+        {
+          "key": "E",
+          "label": "铁硫蛋白 Fe-S"
+        },
+        {
+          "key": "F",
+          "label": "NAD+"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "不参与递 H 的有",
+          "answerRaw": "ACE",
+          "answer": [
+            "A",
+            "C",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "在呼吸链中可传递电子的有",
+          "answerRaw": "BCDEF",
+          "answer": [
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "单递电子体",
+          "answerRaw": "CE",
+          "answer": [
+            "C",
+            "E"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "递 H 与递电子体辨析",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "呼吸链组成与 P/O 比值",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-02-page-02.png",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-02-04",
+      "page": 4,
+      "title": "呼吸链复合体Ⅰ～Ⅳ对比",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "NADH-泛醌还原酶"
+        },
+        {
+          "key": "B",
+          "label": "琥珀酸-泛醌还原酶"
+        },
+        {
+          "key": "C",
+          "label": "泛醌-细胞色素 c 还原酶"
+        },
+        {
+          "key": "D",
+          "label": "细胞色素 c 氧化酶"
+        },
+        {
+          "key": "E",
+          "label": "FMN"
+        },
+        {
+          "key": "F",
+          "label": "FAD"
+        },
+        {
+          "key": "G",
+          "label": "Fe-S"
+        },
+        {
+          "key": "H",
+          "label": "血红素"
+        },
+        {
+          "key": "I",
+          "label": "CuA"
+        },
+        {
+          "key": "J",
+          "label": "CuB"
+        },
+        {
+          "key": "K",
+          "label": "有质子泵功能"
+        },
+        {
+          "key": "L",
+          "label": "没有质子泵功能（不能耦联产生 ATP）"
+        },
+        {
+          "key": "M",
+          "label": "Q 循环"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "复合体Ⅰ：酶、辅基、质子泵功能",
+          "answerRaw": "AEGK",
+          "answer": [
+            "A",
+            "E",
+            "G",
+            "K"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "复合体Ⅱ：酶、辅基、质子泵功能",
+          "answerRaw": "BFGL",
+          "answer": [
+            "B",
+            "F",
+            "G",
+            "L"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "复合体Ⅲ：酶、辅基、质子泵功能、特点",
+          "answerRaw": "CGHKM",
+          "answer": [
+            "C",
+            "G",
+            "H",
+            "K",
+            "M"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "复合体Ⅳ：酶、辅基、质子泵功能",
+          "answerRaw": "DHIJK",
+          "answer": [
+            "D",
+            "H",
+            "I",
+            "J",
+            "K"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "呼吸链复合体Ⅰ～Ⅳ对比",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "呼吸链组成与 P/O 比值",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-02-page-02.png",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-02-05",
+      "page": 5,
+      "title": "CoQ、Cyt c、ATP 合酶与化学渗透假说",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "水溶性（与线粒体内膜结合疏松）"
+        },
+        {
+          "key": "B",
+          "label": "脂溶性强（在线粒体内膜自由扩散）"
+        },
+        {
+          "key": "C",
+          "label": "双电子传递体"
+        },
+        {
+          "key": "D",
+          "label": "单电子载体"
+        },
+        {
+          "key": "E",
+          "label": "不属于任何复合体"
+        },
+        {
+          "key": "F",
+          "label": "亲水的 F₁（生成 ATP）"
+        },
+        {
+          "key": "G",
+          "label": "疏水的 F₀（离子通道）"
+        },
+        {
+          "key": "H",
+          "label": "复合体Ⅰ、Ⅲ、Ⅳ将 H⁺从线粒体基质泵至线粒体膜间隙"
+        },
+        {
+          "key": "I",
+          "label": "H⁺顺浓度回流时释放能量并耦联生成 ATP"
+        },
+        {
+          "key": "J",
+          "label": "4 个 H⁺顺浓度回流，其中 1 个 H⁺驱动 F₁ 合成 ATP"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "Cyt c",
+          "answerRaw": "ADE",
+          "answer": [
+            "A",
+            "D",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "辅酶 Q/CoQ/泛醌",
+          "answerRaw": "BCE",
+          "answer": [
+            "B",
+            "C",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "ATP 合酶（复合体Ⅴ）",
+          "answerRaw": "FG",
+          "answer": [
+            "F",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "化学渗透假说",
+          "answerRaw": "HIJ",
+          "answer": [
+            "H",
+            "I",
+            "J"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "CoQ、Cyt c、ATP 合酶与化学渗透假说",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "呼吸链组成与 P/O 比值",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-02-page-02.png",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-02-06",
+      "page": 6,
+      "title": "NADH+H⁺、FADH₂ 呼吸链与 P/O 比值",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "多数"
+        },
+        {
+          "key": "B",
+          "label": "琥珀酸"
+        },
+        {
+          "key": "C",
+          "label": "脂酰 CoA"
+        },
+        {
+          "key": "D",
+          "label": "线粒体中的 α-磷酸甘油"
+        },
+        {
+          "key": "E",
+          "label": "胆碱"
+        },
+        {
+          "key": "F",
+          "label": "复合体Ⅰ（4H⁺）"
+        },
+        {
+          "key": "G",
+          "label": "复合体Ⅱ（0H⁺）"
+        },
+        {
+          "key": "H",
+          "label": "复合体Ⅲ（4H⁺）"
+        },
+        {
+          "key": "I",
+          "label": "复合体Ⅳ（2H⁺）"
+        },
+        {
+          "key": "J",
+          "label": "10H⁺"
+        },
+        {
+          "key": "K",
+          "label": "6H⁺"
+        },
+        {
+          "key": "L",
+          "label": "2.5"
+        },
+        {
+          "key": "M",
+          "label": "1.5"
+        },
+        {
+          "key": "N",
+          "label": "1"
+        },
+        {
+          "key": "O",
+          "label": "生成 ATP 数与消耗 1/2 O₂ 的比值"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "NADH+H⁺ 呼吸链：来源",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "NADH+H⁺ 呼吸链：各复合体泵 H⁺数及总数",
+          "answerRaw": "FHIJ",
+          "answer": [
+            "F",
+            "H",
+            "I",
+            "J"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "NADH+H⁺ 呼吸链：P/O",
+          "answerRaw": "L",
+          "answer": [
+            "L"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "FADH₂ 呼吸链：来源",
+          "answerRaw": "BCDE",
+          "answer": [
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "FADH₂ 呼吸链：各复合体泵 H⁺数及总数",
+          "answerRaw": "GHIK",
+          "answer": [
+            "G",
+            "H",
+            "I",
+            "K"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 6,
+          "text": "FADH₂ 呼吸链：P/O",
+          "answerRaw": "M",
+          "answer": [
+            "M"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "抗坏血酸的 P/O",
+          "answerRaw": "N",
+          "answer": [
+            "N"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "P/O 比值",
+          "answerRaw": "O",
+          "answer": [
+            "O"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "NADH+H⁺、FADH₂ 呼吸链与 P/O 比值",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "呼吸链组成与 P/O 比值",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-02-page-03.png",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-02-07",
+      "page": 7,
+      "title": "呼吸链抑制剂、解偶联剂与 ATP 合酶抑制剂",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "鱼藤酮"
+        },
+        {
+          "key": "B",
+          "label": "抗霉素"
+        },
+        {
+          "key": "C",
+          "label": "粘噻唑菌醇"
+        },
+        {
+          "key": "D",
+          "label": "异戊巴比妥"
+        },
+        {
+          "key": "E",
+          "label": "萎锈灵"
+        },
+        {
+          "key": "F",
+          "label": "粉蝶霉素"
+        },
+        {
+          "key": "G",
+          "label": "CN⁻阻断氧化型 a₃"
+        },
+        {
+          "key": "H",
+          "label": "CO 阻断还原型 a₃-O₂"
+        },
+        {
+          "key": "I",
+          "label": "寡霉素"
+        },
+        {
+          "key": "J",
+          "label": "二环己基碳二亚胺 DCCD"
+        },
+        {
+          "key": "K",
+          "label": "游离脂肪酸"
+        },
+        {
+          "key": "L",
+          "label": "二硝基苯酚"
+        },
+        {
+          "key": "M",
+          "label": "新生儿褐/棕色脂肪组织的解偶联蛋白"
+        },
+        {
+          "key": "N",
+          "label": "ADP"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "抑制呼吸链复合体Ⅰ的物质",
+          "answerRaw": "ADF",
+          "answer": [
+            "A",
+            "D",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "抑制呼吸链复合体Ⅱ的物质",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "抑制呼吸链复合体Ⅲ的物质",
+          "answerRaw": "BC",
+          "answer": [
+            "B",
+            "C"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "导致整条呼吸链失效的呼吸链抑制剂",
+          "answerRaw": "GH",
+          "answer": [
+            "G",
+            "H"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "ATP 合酶抑制剂",
+          "answerRaw": "IJ",
+          "answer": [
+            "I",
+            "J"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 6,
+          "text": "解偶联剂",
+          "answerRaw": "KLM",
+          "answer": [
+            "K",
+            "L",
+            "M"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 7,
+          "text": "氧化磷酸化调节最重要的物质",
+          "answerRaw": "N",
+          "answer": [
+            "N"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "呼吸链抑制剂、解偶联剂与 ATP 合酶抑制剂",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "氧化磷酸化调节与抑制",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-02-page-03.png",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-02-08",
+      "page": 8,
+      "title": "氧化磷酸化调节与解偶联机制",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "ADP"
+        },
+        {
+          "key": "B",
+          "label": "线粒体 mtDNA 突变"
+        },
+        {
+          "key": "C",
+          "label": "线粒体内膜选择性协调转运：影响 H⁺、ATP-ADP 转位酶等"
+        },
+        {
+          "key": "D",
+          "label": "甲状腺激素激动核受体→促进基因表达"
+        },
+        {
+          "key": "E",
+          "label": "诱导钠钾泵→利用 ATP↑→ADP↑→氧化磷酸化速率↑"
+        },
+        {
+          "key": "F",
+          "label": "诱导解偶联蛋白→电子传递能量转化为热能→基础代谢率和产热↑"
+        },
+        {
+          "key": "G",
+          "label": "氧利用继续但磷酸化停止"
+        },
+        {
+          "key": "H",
+          "label": "能在线粒体内膜自由移动、破坏 H⁺电化学梯度"
+        },
+        {
+          "key": "I",
+          "label": "形成质子通道"
+        },
+        {
+          "key": "J",
+          "label": "促进 H⁺经解偶联蛋白回流"
+        },
+        {
+          "key": "K",
+          "label": "不能维持体温→新生儿硬肿症"
+        },
+        {
+          "key": "L",
+          "label": "结合 F₀ 的 c 亚基"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "氧化磷酸化的调节：①最主要 ②线粒体 ③线粒体内膜 ④脂溶性配体",
+          "answerRaw": "ABCD",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "甲状腺激素",
+          "answerRaw": "EF",
+          "answer": [
+            "E",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "解偶联后的结果",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "二硝基苯酚",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "新生儿褐/棕色脂肪组织的解偶联蛋白",
+          "answerRaw": "I",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "游离脂肪酸",
+          "answerRaw": "J",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "新生儿缺乏棕色脂肪组织",
+          "answerRaw": "K",
+          "answer": [
+            "K"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "寡霉素",
+          "answerRaw": "L",
+          "answer": [
+            "L"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "氧化磷酸化调节与解偶联机制",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "氧化磷酸化调节与抑制",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生化 氧化磷酸化",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-02-page-03.png",
+        "title": "第 02 讲《生化 氧化磷酸化》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"
+      }
+    }
+  ],
+  "lectures": [
+    {
+      "id": "lecture-02",
+      "number": 2,
+      "title": "生化 氧化磷酸化",
+      "pageCount": 8
+    }
+  ]
+}

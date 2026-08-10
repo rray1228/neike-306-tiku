@@ -80,8 +80,9 @@ const CONTENT_LOADERS = {
     }
   },
   biochemistry: async () => {
-    const [biochemistryContent, biochemistryLecture3Content] = await Promise.all([
+    const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content] = await Promise.all([
       loadJson(() => import('./data/biochemistry-data.json')),
+      loadJson(() => import('./data/biochemistry-lecture2-data.json')),
       loadJson(() => import('./data/biochemistry-lecture3-data.json')),
     ])
     return {
@@ -89,15 +90,15 @@ const CONTENT_LOADERS = {
       meta: {
         ...biochemistryContent.meta,
         title: '生物化学题库',
-        lectureCount: 2,
-        groupCount: biochemistryContent.groups.length + biochemistryLecture3Content.groups.length,
-        stemCount: biochemistryContent.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture3Content.groups.reduce((sum, group) => sum + group.stems.length, 0),
-        answerNote: '已收录第 01 讲与第 03 讲题组；每题均只关联本讲讲义页，选项已重新打散并按讲义复核。',
+        lectureCount: 3,
+        groupCount: biochemistryContent.groups.length + biochemistryLecture2Content.groups.length + biochemistryLecture3Content.groups.length,
+        stemCount: biochemistryContent.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture2Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture3Content.groups.reduce((sum, group) => sum + group.stems.length, 0),
+        answerNote: '已收录第 01、02、03 讲题组；每题均只关联本讲讲义页，选项与答案均已按讲义复核。',
       },
-      topics: [...biochemistryContent.topics.filter((topic) => topic !== '综合'), ...biochemistryLecture3Content.topics.filter((topic) => topic !== '全部' && topic !== '综合'), '综合'],
-      groups: [...biochemistryContent.groups, ...biochemistryLecture3Content.groups],
-      pages: [...biochemistryContent.pages, ...biochemistryLecture3Content.pages],
-      lectures: [...biochemistryContent.lectures, ...biochemistryLecture3Content.lectures],
+      topics: [...biochemistryContent.topics.filter((topic) => topic !== '综合'), ...biochemistryLecture2Content.topics.filter((topic) => topic !== '全部' && topic !== '综合'), ...biochemistryLecture3Content.topics.filter((topic) => topic !== '全部' && topic !== '综合'), '综合'],
+      groups: [...biochemistryContent.groups, ...biochemistryLecture2Content.groups, ...biochemistryLecture3Content.groups],
+      pages: [...biochemistryContent.pages, ...biochemistryLecture2Content.pages, ...biochemistryLecture3Content.pages],
+      lectures: [...biochemistryContent.lectures, ...biochemistryLecture2Content.lectures, ...biochemistryLecture3Content.lectures],
     }
   },
 }
@@ -149,6 +150,9 @@ const TOPIC_ICONS = {
   '糖原合成与分解': 'grid',
   '糖异生': 'stomach',
   '糖代谢关键酶与中间物': 'book',
+  '胞浆还原当量穿梭与 ATP': 'spark',
+  '呼吸链组成与 P/O 比值': 'grid',
+  '氧化磷酸化调节与抑制': 'alert',
 }
 
 const CORRECTIONS = {
