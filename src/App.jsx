@@ -446,11 +446,11 @@ function topicCounts(groups) {
 
 function navigationLectureIds(subject, group) {
   const override = subject === 'med' ? MED_CHAPTER_OVERRIDES[group.id] : null
-  const ids = override || group.lectureIds || []
-  if (subject !== 'med') return ids
+  const ids = override || (group.lectureIds?.length ? group.lectureIds : (group.lectureEvidence?.lectureId ? [group.lectureEvidence.lectureId] : []))
+  if (subject !== 'med') return unique(ids.map((id) => String(id)).filter(Boolean))
   const range = MED_LECTURE_TOPIC_RANGES[group.topic]
-  if (!range) return ids
-  return ids.filter((id) => {
+  if (!range) return unique(ids.map((id) => String(id)).filter(Boolean))
+  return unique(ids.map((id) => String(id)).filter(Boolean)).filter((id) => {
     const number = Number(String(id).replace('lecture-', ''))
     return number >= range[0] && number <= range[1]
   })
@@ -459,7 +459,7 @@ function navigationLectureIds(subject, group) {
 function lectureChapterTree(content, subject) {
   const lectures = content.lectures || []
   const lectureMap = new Map(lectures.map((lecture) => [lecture.id, lecture]))
-  const topics = (content.topics || []).filter((item) => item !== '全部')
+  const topics = unique((content.topics || []).filter((item) => item !== '全部'))
   return topics.map((topic) => {
     const topicGroups = content.groups.filter((group) => group.topic === topic)
     const chapterStats = new Map()
@@ -764,7 +764,7 @@ function App() {
                   <span className="topic-icon"><Icon name={TOPIC_ICONS[system]} size={22} /></span><span>{system}</span><span className="topic-counts"><em>{counts[system] || 0}</em>{favoriteCounts.byTopic[system] ? <small title={`${favoriteCounts.byTopic[system]} 个收藏题组`}><Icon name="bookmarkFill" size={10} />{favoriteCounts.byTopic[system]}</small> : null}</span>
                 </button>
                 {topic === system && chapters.length > 0 && <div className="chapter-nav" aria-label={`${system}讲义章节`}>
-                  {chapters.map((chapter) => <button key={chapter.id} className={`chapter-link ${chapterId === chapter.id ? 'active' : ''}`} onClick={() => selectChapter(chapter.id)}><span className="chapter-marker" /><span title={chapter.title}>{chapter.title}</span><em>{chapter.stemCount}</em></button>)}
+                  {chapters.map((chapter) => <button key={chapter.id} className={`chapter-link ${chapterId === chapter.id ? 'active' : ''}`} onClick={() => selectChapter(chapter.id)} title={`跳转到${chapter.title}首题`} aria-label={`跳转到${chapter.title}首题`}><span className="chapter-marker" /><span title={chapter.title}>{chapter.title}</span><em>{chapter.stemCount}</em></button>)}
                 </div>}
               </div>
             ))}
