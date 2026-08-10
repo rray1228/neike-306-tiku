@@ -1,49 +1,4 @@
 import { useEffect, useMemo, useState } from 'react'
-import medContent from './data/med-data.json'
-import pathologyContent from './data/pathology-data.json'
-import surgeryContent from './data/surgery-data.json'
-import surgeryFractureContent from './data/surgery-fracture-data.json'
-import surgeryDeformityContent from './data/surgery-deformity-data.json'
-import surgeryOrthoMixedContent from './data/surgery-ortho-mixed-data.json'
-import surgeryOrthoInfectionContent from './data/surgery-ortho-infection-data.json'
-import surgeryNonpurulentArthritisContent from './data/surgery-nonpurulent-arthritis-data.json'
-import surgeryBoneTumorContent from './data/surgery-bone-tumor-data.json'
-import surgeryTrunkSpineContent from './data/surgery-trunk-spine-data.json'
-import surgeryDegenerativeSpineContent from './data/surgery-degenerative-spine-data.json'
-import surgeryLimbFractureContent from './data/surgery-limb-fracture-data.json'
-import surgeryGeneralContent from './data/surgery-general-data.json'
-import surgeryGeneralCoreContent from './data/surgery-general-core-data.js'
-import { surgeryGeneralInfectionGroups, surgeryGeneralLaterGroups } from './data/surgery-general-late-data.js'
-import physiologyContent from './data/physiology-data.json'
-import biochemistryContent from './data/biochemistry-data.json'
-import biochemistryLecture3Content from './data/biochemistry-lecture3-data.json'
-
-const combinedSurgeryContent = {
-  ...surgeryContent,
-  topics: [
-    ...surgeryContent.topics.filter((topic) => topic !== '综合'),
-    '骨科',
-    '外科总论',
-    '综合',
-  ],
-  groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryNonpurulentArthritisContent.groups, ...surgeryBoneTumorContent.groups, ...surgeryTrunkSpineContent.groups, ...surgeryDegenerativeSpineContent.groups, ...surgeryLimbFractureContent.groups, ...surgeryGeneralCoreContent.groups, ...surgeryGeneralInfectionGroups, ...surgeryGeneralContent.groups, ...surgeryGeneralLaterGroups],
-}
-
-const combinedBiochemistryContent = {
-  ...biochemistryContent,
-  meta: {
-    ...biochemistryContent.meta,
-    title: '生物化学题库',
-    lectureCount: 2,
-    groupCount: biochemistryContent.groups.length + biochemistryLecture3Content.groups.length,
-    stemCount: biochemistryContent.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture3Content.groups.reduce((sum, group) => sum + group.stems.length, 0),
-    answerNote: '已收录第 01 讲与第 03 讲题组；每题均只关联本讲讲义页，选项已重新打散并按讲义复核。',
-  },
-  topics: [...biochemistryContent.topics.filter((topic) => topic !== '综合'), ...biochemistryLecture3Content.topics.filter((topic) => topic !== '全部' && topic !== '综合'), '综合'],
-  groups: [...biochemistryContent.groups, ...biochemistryLecture3Content.groups],
-  pages: [...biochemistryContent.pages, ...biochemistryLecture3Content.pages],
-  lectures: [...biochemistryContent.lectures, ...biochemistryLecture3Content.lectures],
-}
 
 const SUBJECTS = {
   med: {
@@ -51,7 +6,6 @@ const SUBJECTS = {
     title: '内科-学成选择题byBi8bo&戒不掉甜食',
     subtitle: '306 临床医学综合能力（内科）',
     sectionLabel: '内科章节',
-    content: medContent,
     defaultTopic: '呼吸',
     sourceName: '西综-学成选择题（内科汇总去胶带版）.pdf',
   },
@@ -60,7 +14,6 @@ const SUBJECTS = {
     title: '病理-学成选择题byBi8bo&戒不掉甜食',
     subtitle: '306 临床医学综合能力（病理学）',
     sectionLabel: '病理章节',
-    content: pathologyContent,
     defaultTopic: '消化系统',
     sourceName: '病理学西综-学成选择题（去胶带版）.pdf',
   },
@@ -69,7 +22,6 @@ const SUBJECTS = {
     title: '外科-学成选择题byBi8bo&戒不掉甜食',
     subtitle: '306 临床医学综合能力（外科学）',
     sectionLabel: '外科章节',
-    content: combinedSurgeryContent,
     defaultTopic: '颈部疾病',
     sourceName: '外科各论除骨科（去胶带版）.pdf',
   },
@@ -78,7 +30,6 @@ const SUBJECTS = {
     title: '生理-学成选择题（2027讲义校正版）',
     subtitle: '306 临床医学综合能力（生理学）',
     sectionLabel: '生理章节',
-    content: physiologyContent,
     defaultTopic: '绪论',
     sourceName: '天天学成选择题（生理学）.pdf',
   },
@@ -87,9 +38,67 @@ const SUBJECTS = {
     title: '生化第 1 讲-学成选择题（讲义校对版）',
     subtitle: '糖无氧氧化、糖有氧氧化、红细胞代谢与高能化合物',
     sectionLabel: '第 1 讲知识点',
-    content: combinedBiochemistryContent,
     defaultTopic: '糖无氧氧化与糖有氧氧化',
     sourceName: '生化第一章学成选择题（修订扩充版）.docx',
+  },
+}
+
+const EMPTY_CONTENT = {
+  meta: { lectureCount: 0, sourceLabel: '', sourcePages: 0 },
+  topics: ['全部'],
+  groups: [{ id: 'loading', topic: '全部', kindLabel: '', options: [], stems: [], lectureIds: [] }],
+  pages: [],
+  lectures: [],
+}
+
+const loadJson = (loader) => loader().then((module) => module.default)
+
+const CONTENT_LOADERS = {
+  med: () => loadJson(() => import('./data/med-data.json')),
+  pathology: () => loadJson(() => import('./data/pathology-data.json')),
+  physiology: () => loadJson(() => import('./data/physiology-data.json')),
+  surgery: async () => {
+    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent] = await Promise.all([
+      loadJson(() => import('./data/surgery-data.json')),
+      loadJson(() => import('./data/surgery-fracture-data.json')),
+      loadJson(() => import('./data/surgery-deformity-data.json')),
+      loadJson(() => import('./data/surgery-ortho-mixed-data.json')),
+      loadJson(() => import('./data/surgery-ortho-infection-data.json')),
+      loadJson(() => import('./data/surgery-nonpurulent-arthritis-data.json')),
+      loadJson(() => import('./data/surgery-bone-tumor-data.json')),
+      loadJson(() => import('./data/surgery-trunk-spine-data.json')),
+      loadJson(() => import('./data/surgery-degenerative-spine-data.json')),
+      loadJson(() => import('./data/surgery-limb-fracture-data.json')),
+      loadJson(() => import('./data/surgery-general-data.json')),
+      import('./data/surgery-general-core-data.js').then((module) => module.default),
+      import('./data/surgery-general-late-data.js'),
+    ])
+    return {
+      ...surgeryContent,
+      topics: [...surgeryContent.topics.filter((topic) => topic !== '综合'), '骨科', '外科总论', '综合'],
+      groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryNonpurulentArthritisContent.groups, ...surgeryBoneTumorContent.groups, ...surgeryTrunkSpineContent.groups, ...surgeryDegenerativeSpineContent.groups, ...surgeryLimbFractureContent.groups, ...surgeryGeneralCoreContent.groups, ...surgeryGeneralLateContent.surgeryGeneralInfectionGroups, ...surgeryGeneralContent.groups, ...surgeryGeneralLateContent.surgeryGeneralLaterGroups],
+    }
+  },
+  biochemistry: async () => {
+    const [biochemistryContent, biochemistryLecture3Content] = await Promise.all([
+      loadJson(() => import('./data/biochemistry-data.json')),
+      loadJson(() => import('./data/biochemistry-lecture3-data.json')),
+    ])
+    return {
+      ...biochemistryContent,
+      meta: {
+        ...biochemistryContent.meta,
+        title: '生物化学题库',
+        lectureCount: 2,
+        groupCount: biochemistryContent.groups.length + biochemistryLecture3Content.groups.length,
+        stemCount: biochemistryContent.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture3Content.groups.reduce((sum, group) => sum + group.stems.length, 0),
+        answerNote: '已收录第 01 讲与第 03 讲题组；每题均只关联本讲讲义页，选项已重新打散并按讲义复核。',
+      },
+      topics: [...biochemistryContent.topics.filter((topic) => topic !== '综合'), ...biochemistryLecture3Content.topics.filter((topic) => topic !== '全部' && topic !== '综合'), '综合'],
+      groups: [...biochemistryContent.groups, ...biochemistryLecture3Content.groups],
+      pages: [...biochemistryContent.pages, ...biochemistryLecture3Content.pages],
+      lectures: [...biochemistryContent.lectures, ...biochemistryLecture3Content.lectures],
+    }
   },
 }
 
@@ -399,7 +408,11 @@ function App() {
     return SUBJECTS[storedSubject] ? storedSubject : 'med'
   })
   const subjectConfig = SUBJECTS[subject] || SUBJECTS.med
-  const content = subjectConfig.content
+  const [loadedContent, setLoadedContent] = useState(null)
+  const [loadError, setLoadError] = useState(null)
+  const [loadAttempt, setLoadAttempt] = useState(0)
+  const content = loadedContent || EMPTY_CONTENT
+  const isLoadingContent = loadedContent === null
   const counts = useMemo(() => topicCounts(content.groups), [content])
   const [topic, setTopic] = useState(() => (SUBJECTS[readLocalStorage('study-subject', 'med')] || SUBJECTS.med).defaultTopic)
   const [search, setSearch] = useState('')
@@ -421,6 +434,18 @@ function App() {
     return stored === null ? false : readLocalStorage('med-sidebar-collapsed', false)
   })
   const [evidenceCollapsed, setEvidenceCollapsed] = useState(() => readLocalStorage('med-evidence-collapsed', false))
+
+  useEffect(() => {
+    let cancelled = false
+    setLoadedContent(null)
+    setLoadError(null)
+    CONTENT_LOADERS[subject]().then((nextContent) => {
+      if (!cancelled) setLoadedContent(nextContent)
+    }).catch(() => {
+      if (!cancelled) setLoadError('题库数据暂时加载失败，请检查网络后重试。')
+    })
+    return () => { cancelled = true }
+  }, [subject, loadAttempt])
 
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('study-subject', JSON.stringify(subject)) }, [subject])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-selections', JSON.stringify(selections)) }, [selections])
@@ -565,6 +590,17 @@ function App() {
     setShowLectureEvidence(false)
     setShowNote(false)
     setMobileEvidence(false)
+  }
+
+  if (isLoadingContent) {
+    return (
+      <main className="app-loading" aria-live="polite">
+        <div className="app-loading-mark"><Icon name="book" size={26} stroke="white" /></div>
+        <strong>{loadError || `正在加载${subjectConfig.label}题库`}</strong>
+        <span>{loadError ? '已加载的学习记录不会丢失。' : '首次进入只下载当前科目，切换其他科目时再加载。'}</span>
+        {loadError && <button className="primary-button app-loading-retry" onClick={() => setLoadAttempt((value) => value + 1)}>重新加载 <Icon name="right" size={16} /></button>}
+      </main>
+    )
   }
 
   return (
