@@ -770,10 +770,10 @@ function App() {
             <div className="topic-nav-label">系统 / 讲义章节</div>
             {chapterTree.map(({ topic: system, chapters }) => (
               <div className="topic-tree" key={system}>
-                <button className={`topic-link ${topic === system && !chapterId ? 'active' : ''}`} onClick={() => selectTopic(system)} aria-expanded={topic === system}>
+                <button className={`topic-link ${topic === system && !chapterId ? 'active' : ''}`} onClick={() => selectTopic(system)} aria-expanded={chapters.length > 0}>
                   <span className="topic-icon"><Icon name={TOPIC_ICONS[system]} size={22} /></span><span>{system}</span><span className="topic-counts"><em>{counts[system] || 0}</em>{favoriteCounts.byTopic[system] ? <small title={`${favoriteCounts.byTopic[system]} 个收藏题组`}><Icon name="bookmarkFill" size={10} />{favoriteCounts.byTopic[system]}</small> : null}</span>
                 </button>
-                {topic === system && chapters.length > 0 && <div className="chapter-nav" aria-label={`${system}讲义章节`}>
+                {chapters.length > 0 && <div className="chapter-nav" aria-label={`${system}讲义章节`}>
                   {chapters.map((chapter) => <button key={chapter.id} className={`chapter-link ${chapterId === chapter.id ? 'active' : ''}`} onClick={() => selectChapter(chapter.id)} title={`跳转到${chapter.title}首题`} aria-label={`跳转到${chapter.title}首题`}><span className="chapter-marker" /><span title={chapter.title}>{chapter.title}</span><em>{chapter.stemCount}</em></button>)}
                 </div>}
               </div>
@@ -789,7 +789,7 @@ function App() {
           <div className="mobile-topic-row">
             <button className="text-button directory-button" onClick={() => setSidebarCollapsed((value) => !value)}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={16} />{sidebarCollapsed ? '章节' : '收起目录'}</button>
             <select value={topic} onChange={(event) => selectTopic(event.target.value)} aria-label="选择系统">{content.topics.map((item) => <option key={item}>{item}</option>)}</select>
-            <select value={chapterId} onChange={(event) => event.target.value ? selectChapter(event.target.value) : selectTopic(topic)} aria-label="选择讲义章节"><option value="">全部讲义章节</option>{chapterTree.find((item) => item.topic === topic)?.chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</select>
+            <select value={chapterId} onChange={(event) => event.target.value ? selectChapter(event.target.value) : selectTopic(topic)} aria-label="选择讲义章节"><option value="">全部讲义章节</option>{chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}</select>
             <button className={`text-button mobile-favorite-button ${favoritesOnly ? 'selected' : ''}`} onClick={toggleFavoriteNotebook} aria-pressed={favoritesOnly}><Icon name={favoritesOnly ? 'bookmarkFill' : 'bookmark'} size={16} />收藏本 {currentFavoriteCount}</button>
             <button className="text-button" onClick={() => setMobileEvidence((value) => !value)}>{mobileEvidence ? '隐藏讲义' : '显示讲义'} <Icon name="file" size={16} /></button>
           </div>
