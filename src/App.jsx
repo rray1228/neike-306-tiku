@@ -527,6 +527,14 @@ function App() {
     return () => { cancelled = true }
   }, [subject, loadAttempt])
 
+  useEffect(() => {
+    if (!chapterId || !loadedContent || typeof window === 'undefined') return undefined
+    const frame = window.requestAnimationFrame(() => {
+      document.querySelector('[data-study-content]')?.scrollIntoView({ behavior: 'auto', block: 'start' })
+    })
+    return () => window.cancelAnimationFrame(frame)
+  }, [chapterId, loadedContent])
+
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('study-subject', JSON.stringify(subject)) }, [subject])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-selections', JSON.stringify(selections)) }, [selections])
   useEffect(() => { if (typeof window !== 'undefined') window.localStorage.setItem('med-submitted', JSON.stringify(submitted)) }, [submitted])
@@ -698,6 +706,7 @@ function App() {
     setMobileEvidence(false)
     if (typeof window !== 'undefined') {
       if (window.innerWidth <= 720) setSidebarCollapsed(true)
+      else setSidebarCollapsed(false)
       window.requestAnimationFrame(() => window.scrollTo({ top: 0, left: 0, behavior: 'auto' }))
     }
   }
@@ -715,6 +724,7 @@ function App() {
     setShowLectureEvidence(false)
     setShowNote(false)
     setMobileEvidence(false)
+    if (typeof window !== 'undefined' && window.innerWidth > 720) setSidebarCollapsed(false)
   }
 
   if (isLoadingContent) {
@@ -784,7 +794,7 @@ function App() {
             <button className="text-button" onClick={() => setMobileEvidence((value) => !value)}>{mobileEvidence ? '隐藏讲义' : '显示讲义'} <Icon name="file" size={16} /></button>
           </div>
           {!filteredGroups.length && <div className="empty-state"><div className="empty-state-icon"><Icon name={favoritesOnly ? 'bookmark' : 'search'} size={22} /></div><h1>{favoritesOnly ? `${notebookName}暂无题组` : '当前筛选下没有题组'}</h1><p>{favoritesOnly ? '点击题组右上角的“收藏”后，它会自动进入当前科目与章节的收藏本。' : '请尝试清除搜索词、切换章节或选择其他题型。'}</p><button className="primary-button" onClick={favoritesOnly ? showAllGroupsInChapter : () => { setTopic('全部'); setSearch(''); setTypeFilter('全部题型'); setGroupIndex(0) }}>{favoritesOnly ? '返回本章全部题组' : '显示全部题库'} <Icon name="arrow" size={17} /></button></div>}
-          {filteredGroups.length > 0 && <div className="study-content">
+          {filteredGroups.length > 0 && <div className="study-content" data-study-content>
           {favoritesOnly && <div className="favorite-notebook-banner"><span className="favorite-notebook-icon"><Icon name="bookmarkFill" size={18} /></span><div><strong>{notebookName}</strong><small>正在复习已收藏题组 · 共 {filteredGroups.length} 组</small></div><button onClick={showAllGroupsInChapter}>退出收藏本</button></div>}
           <div className="breadcrumb"><span>{group.topic || '综合'}</span>{currentChapter ? <><Icon name="chevron" size={13} /><span>{currentChapter.title}</span></> : null}<Icon name="chevron" size={13} /><span>{group.kindLabel}</span>{group.hideSource ? null : <><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></>}</div>
           <div className="content-heading">
