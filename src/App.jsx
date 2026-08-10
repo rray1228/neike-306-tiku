@@ -574,13 +574,19 @@ function App() {
 
   const filteredGroups = useMemo(() => {
     const query = search.trim().toLowerCase()
+    const chapterGroupIds = currentChapter?.groupIds || []
     return content.groups.filter((group) => {
-      if (topic !== '全部' && group.topic !== topic) return false
       if (chapterId) {
-        const groupLectureIds = navigationLectureIds(subject, group)
-        if (chapterId.startsWith('unassigned:')) {
-          if (groupLectureIds.length) return false
-        } else if (!groupLectureIds.includes(chapterId)) return false
+        if (chapterGroupIds.length) {
+          if (!chapterGroupIds.includes(group.id)) return false
+        } else {
+          const groupLectureIds = navigationLectureIds(subject, group)
+          if (chapterId.startsWith('unassigned:')) {
+            if (groupLectureIds.length) return false
+          } else if (!groupLectureIds.includes(chapterId)) return false
+        }
+      } else if (topic !== '全部' && group.topic !== topic) {
+        return false
       }
       if (favoritesOnly && !favorites.includes(groupStorageKey(subject, group.id))) return false
       if (typeFilter !== '全部题型' && group.kindLabel !== typeFilter) return false
@@ -588,7 +594,7 @@ function App() {
       const haystack = [group.title, group.topic, group.sourceText, ...group.options.map((item) => item.label), ...group.stems.map((stem) => stem.text)].join(' ').toLowerCase()
       return haystack.includes(query)
     })
-  }, [chapterId, content, favorites, favoritesOnly, search, subject, topic, typeFilter])
+  }, [chapterId, content, currentChapter, favorites, favoritesOnly, search, subject, topic, typeFilter])
 
   useEffect(() => {
     if (groupIndex >= filteredGroups.length) setGroupIndex(0)
