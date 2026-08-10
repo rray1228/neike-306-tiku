@@ -530,7 +530,7 @@ function App() {
   useEffect(() => {
     if (!chapterId || !loadedContent || typeof window === 'undefined') return undefined
     const frame = window.requestAnimationFrame(() => {
-      document.querySelector('[data-study-content]')?.scrollIntoView({ behavior: 'auto', block: 'start' })
+      document.querySelector('[data-study-content]')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
     })
     return () => window.cancelAnimationFrame(frame)
   }, [chapterId, loadedContent])
@@ -707,7 +707,6 @@ function App() {
     if (typeof window !== 'undefined') {
       if (window.innerWidth <= 720) setSidebarCollapsed(true)
       else setSidebarCollapsed(false)
-      window.requestAnimationFrame(() => window.scrollTo({ top: 0, left: 0, behavior: 'auto' }))
     }
   }
 
@@ -770,10 +769,10 @@ function App() {
             <div className="topic-nav-label">系统 / 讲义章节</div>
             {chapterTree.map(({ topic: system, chapters }) => (
               <div className="topic-tree" key={system}>
-                <button className={`topic-link ${topic === system && !chapterId ? 'active' : ''}`} onClick={() => selectTopic(system)} aria-expanded={chapters.length > 0}>
+                <button className={`topic-link ${topic === system && !chapterId ? 'active' : ''}`} onClick={() => selectTopic(system)} aria-expanded={topic === system}>
                   <span className="topic-icon"><Icon name={TOPIC_ICONS[system]} size={22} /></span><span>{system}</span><span className="topic-counts"><em>{counts[system] || 0}</em>{favoriteCounts.byTopic[system] ? <small title={`${favoriteCounts.byTopic[system]} 个收藏题组`}><Icon name="bookmarkFill" size={10} />{favoriteCounts.byTopic[system]}</small> : null}</span>
                 </button>
-                {chapters.length > 0 && <div className="chapter-nav" aria-label={`${system}讲义章节`}>
+                {topic === system && chapters.length > 0 && <div className="chapter-nav" aria-label={`${system}讲义章节`}>
                   {chapters.map((chapter) => <button key={chapter.id} className={`chapter-link ${chapterId === chapter.id ? 'active' : ''}`} onClick={() => selectChapter(chapter.id)} title={`跳转到${chapter.title}首题`} aria-label={`跳转到${chapter.title}首题`}><span className="chapter-marker" /><span title={chapter.title}>{chapter.title}</span><em>{chapter.stemCount}</em></button>)}
                 </div>}
               </div>
@@ -792,6 +791,13 @@ function App() {
             <select value={chapterId} onChange={(event) => event.target.value ? selectChapter(event.target.value) : selectTopic(topic)} aria-label="选择讲义章节"><option value="">全部讲义章节</option>{chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}</select>
             <button className={`text-button mobile-favorite-button ${favoritesOnly ? 'selected' : ''}`} onClick={toggleFavoriteNotebook} aria-pressed={favoritesOnly}><Icon name={favoritesOnly ? 'bookmarkFill' : 'bookmark'} size={16} />收藏本 {currentFavoriteCount}</button>
             <button className="text-button" onClick={() => setMobileEvidence((value) => !value)}>{mobileEvidence ? '隐藏讲义' : '显示讲义'} <Icon name="file" size={16} /></button>
+          </div>
+          <div className="desktop-chapter-jump">
+            <span>章节快速跳转</span>
+            <select value={chapterId} onChange={(event) => event.target.value ? selectChapter(event.target.value) : selectTopic(topic)} aria-label="章节快速跳转">
+              <option value="">{topic === '全部' ? '全部章节' : `${topic} · 全部章节`}</option>
+              {chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}
+            </select>
           </div>
           {!filteredGroups.length && <div className="empty-state"><div className="empty-state-icon"><Icon name={favoritesOnly ? 'bookmark' : 'search'} size={22} /></div><h1>{favoritesOnly ? `${notebookName}暂无题组` : '当前筛选下没有题组'}</h1><p>{favoritesOnly ? '点击题组右上角的“收藏”后，它会自动进入当前科目与章节的收藏本。' : '请尝试清除搜索词、切换章节或选择其他题型。'}</p><button className="primary-button" onClick={favoritesOnly ? showAllGroupsInChapter : () => { setTopic('全部'); setSearch(''); setTypeFilter('全部题型'); setGroupIndex(0) }}>{favoritesOnly ? '返回本章全部题组' : '显示全部题库'} <Icon name="arrow" size={17} /></button></div>}
           {filteredGroups.length > 0 && <div className="study-content" data-study-content>
