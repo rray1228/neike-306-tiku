@@ -670,7 +670,14 @@ function App() {
   function selectTopic(nextTopic) {
     setTopic(nextTopic)
     setChapterId('')
+    setSearch('')
+    setTypeFilter('全部题型')
+    setFavoritesOnly(false)
     setGroupIndex(0)
+    setShowSource(false)
+    setShowLectureEvidence(false)
+    setShowNote(false)
+    if (typeof window !== 'undefined') window.requestAnimationFrame(() => window.scrollTo({ top: 0, left: 0, behavior: 'auto' }))
   }
 
   function selectChapter(nextChapterId) {
@@ -681,7 +688,18 @@ function App() {
       const parent = chapterTree.find((item) => item.chapters.some((item) => item.id === nextChapterId))
       if (parent) setTopic(parent.topic)
     }
+    setSearch('')
+    setTypeFilter('全部题型')
+    setFavoritesOnly(false)
     setGroupIndex(0)
+    setShowSource(false)
+    setShowLectureEvidence(false)
+    setShowNote(false)
+    setMobileEvidence(false)
+    if (typeof window !== 'undefined') {
+      if (window.innerWidth <= 720) setSidebarCollapsed(true)
+      window.requestAnimationFrame(() => window.scrollTo({ top: 0, left: 0, behavior: 'auto' }))
+    }
   }
 
   function switchSubject(nextSubject) {
