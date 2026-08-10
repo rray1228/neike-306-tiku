@@ -464,18 +464,26 @@ function lectureChapterTree(content, subject) {
     const topicGroups = content.groups.filter((group) => group.topic === topic)
     const chapterStats = new Map()
     let unassignedStemCount = 0
+    const unassignedGroupIds = []
     for (const group of topicGroups) {
       const lectureIds = navigationLectureIds(subject, group).filter((id) => lectureMap.has(id))
-      if (!lectureIds.length) unassignedStemCount += group.stems.length
+      if (!lectureIds.length) {
+        unassignedStemCount += group.stems.length
+        unassignedGroupIds.push(group.id)
+      }
       for (const lectureId of lectureIds) {
-        const previous = chapterStats.get(lectureId) || { groupCount: 0, stemCount: 0 }
-        chapterStats.set(lectureId, { groupCount: previous.groupCount + 1, stemCount: previous.stemCount + group.stems.length })
+        const previous = chapterStats.get(lectureId) || { groupCount: 0, stemCount: 0, groupIds: [] }
+        chapterStats.set(lectureId, {
+          groupCount: previous.groupCount + 1,
+          stemCount: previous.stemCount + group.stems.length,
+          groupIds: previous.groupIds.includes(group.id) ? previous.groupIds : [...previous.groupIds, group.id],
+        })
       }
     }
     const chapters = lectures
       .filter((lecture) => chapterStats.has(lecture.id))
       .map((lecture) => ({ ...lecture, ...chapterStats.get(lecture.id) }))
-    if (unassignedStemCount) chapters.push({ id: `unassigned:${topic}`, title: '未关联讲义', groupCount: 0, stemCount: unassignedStemCount, unassigned: true })
+    if (unassignedStemCount) chapters.push({ id: `unassigned:${topic}`, title: '未关联讲义', groupCount: 0, stemCount: unassignedStemCount, groupIds: unassignedGroupIds, unassigned: true })
     return { topic, chapters }
   })
 }
@@ -498,6 +506,7 @@ function App() {
   const [search, setSearch] = useState('')
   const [typeFilter, setTypeFilter] = useState('全部题型')
   const [groupIndex, setGroupIndex] = useState(0)
+  const [jumpGroupId, setJumpGroupId] = useState('')
   const [selections, setSelections] = useState(() => readLocalStorage('med-selections', {}))
   const [submitted, setSubmitted] = useState(() => readLocalStorage('med-submitted', {}))
   const [favorites, setFavorites] = useState(readFavorites)
@@ -585,7 +594,7 @@ function App() {
     if (groupIndex >= filteredGroups.length) setGroupIndex(0)
   }, [filteredGroups.length, groupIndex])
 
-  const group = filteredGroups[groupIndex] || content.groups[0]
+  const group = (jumpGroupId && filteredGroups.find((item) => item.id === jumpGroupId)) || filteredGroups[groupIndex] || content.groups[0]
   const groupStorageId = groupStorageKey(subject, group.id)
   const currentSelections = selections[groupStorageId] || {}
   const isSubmitted = Boolean(submitted[groupStorageId])
@@ -642,6 +651,7 @@ function App() {
 
   function goTo(offset) {
     if (!filteredGroups.length) return
+    setJumpGroupId('')
     setGroupIndex((previous) => (previous + offset + filteredGroups.length) % filteredGroups.length)
     setShowSource(false)
     setShowLectureEvidence(false)
@@ -650,6 +660,7 @@ function App() {
 
   function jumpTo(index) {
     if (!filteredGroups.length) return
+    setJumpGroupId('')
     setGroupIndex(Math.min(Math.max(index, 0), filteredGroups.length - 1))
     setShowSource(false)
     setShowLectureEvidence(false)
@@ -662,6 +673,7 @@ function App() {
 
   function toggleFavoriteNotebook() {
     setFavoritesOnly((value) => !value)
+    setJumpGroupId('')
     setGroupIndex(0)
     setShowSource(false)
     setShowLectureEvidence(false)
@@ -670,6 +682,7 @@ function App() {
 
   function showAllGroupsInChapter() {
     setFavoritesOnly(false)
+    setJumpGroupId('')
     setSearch('')
     setTypeFilter('全部题型')
     setGroupIndex(0)
@@ -678,6 +691,7 @@ function App() {
   function selectTopic(nextTopic) {
     setTopic(nextTopic)
     setChapterId('')
+    setJumpGroupId('')
     setSearch('')
     setTypeFilter('全部题型')
     setFavoritesOnly(false)
@@ -692,6 +706,7 @@ function App() {
     const chapter = chapterTree.flatMap((item) => item.chapters).find((item) => item.id === nextChapterId)
     if (!chapter) return
     setChapterId(nextChapterId)
+    setJumpGroupId(chapter.groupIds?.[0] || '')
     if (!chapter.unassigned) {
       const parent = chapterTree.find((item) => item.chapters.some((item) => item.id === nextChapterId))
       if (parent) setTopic(parent.topic)
@@ -716,6 +731,7 @@ function App() {
     setSubject(nextSubject)
     setTopic(nextConfig.defaultTopic)
     setChapterId('')
+    setJumpGroupId('')
     setSearch('')
     setTypeFilter('全部题型')
     setGroupIndex(0)
@@ -753,8 +769,8 @@ function App() {
           <span>{filteredGroups.length ? Math.round(((groupIndex + 1) / filteredGroups.length) * 100) : 0}%</span>
         </div>
         <div className="top-actions">
-          <label className="search-box"><Icon name="search" size={18} /><input value={search} onChange={(event) => { setSearch(event.target.value); setGroupIndex(0) }} placeholder="搜索题目 / 关键词" /><kbd>⌘ K</kbd></label>
-          <label className="filter-box"><Icon name="sliders" size={17} /><select value={typeFilter} onChange={(event) => { setTypeFilter(event.target.value); setGroupIndex(0) }}><option>全部题型</option><option>B型题</option><option>填空题</option><option>排序题</option><option>多项选择</option><option>匹配 / 归类</option><option>原题页核对</option></select><Icon name="chevron" size={15} /></label>
+          <label className="search-box"><Icon name="search" size={18} /><input value={search} onChange={(event) => { setSearch(event.target.value); setJumpGroupId(''); setGroupIndex(0) }} placeholder="搜索题目 / 关键词" /><kbd>⌘ K</kbd></label>
+          <label className="filter-box"><Icon name="sliders" size={17} /><select value={typeFilter} onChange={(event) => { setTypeFilter(event.target.value); setJumpGroupId(''); setGroupIndex(0) }}><option>全部题型</option><option>B型题</option><option>填空题</option><option>排序题</option><option>多项选择</option><option>匹配 / 归类</option><option>原题页核对</option></select><Icon name="chevron" size={15} /></label>
           <button className="icon-button" aria-label="设置"><Icon name="settings" size={19} /></button>
         </div>
       </header>
