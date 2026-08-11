@@ -35,9 +35,9 @@ const SUBJECTS = {
   },
   biochemistry: {
     label: '生化',
-    title: '生化第 1 讲-学成选择题（讲义校对版）',
-    subtitle: '糖无氧氧化、糖有氧氧化、红细胞代谢与高能化合物',
-    sectionLabel: '第 1 讲知识点',
+    title: '生化-学成选择题（讲义校对版）',
+    subtitle: '糖代谢与生物氧化',
+    sectionLabel: '生化知识目录',
     defaultTopic: '糖无氧氧化与糖有氧氧化',
     sourceName: '生化第一章学成选择题（修订扩充版）.docx',
   },
@@ -153,6 +153,24 @@ const TOPIC_ICONS = {
   '胞浆还原当量穿梭与 ATP': 'spark',
   '呼吸链组成与 P/O 比值': 'grid',
   '氧化磷酸化调节与抑制': 'alert',
+  糖代谢: 'stomach',
+  生物氧化: 'spark',
+}
+
+const BIOCHEMISTRY_DIRECTORY = {
+  糖代谢: [
+    '糖无氧氧化与糖有氧氧化',
+    '红细胞代谢与高能化合物',
+    '磷酸戊糖途径',
+    '糖原合成与分解',
+    '糖异生',
+    '糖代谢关键酶与中间物',
+  ],
+  生物氧化: [
+    '胞浆还原当量穿梭与 ATP',
+    '呼吸链组成与 P/O 比值',
+    '氧化磷酸化调节与抑制',
+  ],
 }
 
 const MED_LECTURE_TOPIC_RANGES = {
@@ -488,6 +506,23 @@ function lectureChapterTree(content, subject) {
   })
 }
 
+function biochemistryParentForTopic(topic) {
+  return Object.entries(BIOCHEMISTRY_DIRECTORY).find(([, topics]) => topics.includes(topic))?.[0] || ''
+}
+
+function biochemistryDirectoryTree(chapterTree, counts) {
+  const topicMap = new Map(chapterTree.map((item) => [item.topic, item]))
+  return Object.entries(BIOCHEMISTRY_DIRECTORY).map(([parent, topics]) => ({
+    parent,
+    topics: topics.map((topic) => topicMap.get(topic)).filter((item) => item && counts[item.topic]),
+  })).filter((item) => item.topics.length)
+}
+
+function topicDisplayName(subject, topic) {
+  const parent = subject === 'biochemistry' ? biochemistryParentForTopic(topic) : ''
+  return parent ? `${parent} · ${topic}` : topic
+}
+
 function App() {
   const [subject, setSubject] = useState(() => {
     const storedSubject = readLocalStorage('study-subject', 'med')
@@ -501,7 +536,9 @@ function App() {
   const isLoadingContent = loadedContent === null
   const counts = useMemo(() => topicCounts(content.groups), [content])
   const chapterTree = useMemo(() => lectureChapterTree(content, subject), [content, subject])
+  const biochemistryTree = useMemo(() => biochemistryDirectoryTree(chapterTree, counts), [chapterTree, counts])
   const [topic, setTopic] = useState(() => (SUBJECTS[readLocalStorage('study-subject', 'med')] || SUBJECTS.med).defaultTopic)
+  const [expandedBiochemistryParent, setExpandedBiochemistryParent] = useState(() => biochemistryParentForTopic((SUBJECTS[readLocalStorage('study-subject', 'med')] || SUBJECTS.med).defaultTopic) || '糖代谢')
   const [chapterId, setChapterId] = useState('')
   const [search, setSearch] = useState('')
   const [typeFilter, setTypeFilter] = useState('全部题型')
@@ -696,6 +733,8 @@ function App() {
 
   function selectTopic(nextTopic) {
     setTopic(nextTopic)
+    const parent = subject === 'biochemistry' ? biochemistryParentForTopic(nextTopic) : ''
+    if (parent) setExpandedBiochemistryParent(parent)
     setChapterId('')
     setJumpGroupId('')
     setSearch('')
@@ -715,7 +754,11 @@ function App() {
     setJumpGroupId(chapter.groupIds?.[0] || '')
     if (!chapter.unassigned) {
       const parent = chapterTree.find((item) => item.chapters.some((item) => item.id === nextChapterId))
-      if (parent) setTopic(parent.topic)
+      if (parent) {
+        setTopic(parent.topic)
+        const biochemistryParent = subject === 'biochemistry' ? biochemistryParentForTopic(parent.topic) : ''
+        if (biochemistryParent) setExpandedBiochemistryParent(biochemistryParent)
+      }
     }
     setSearch('')
     setTypeFilter('全部题型')
@@ -736,6 +779,7 @@ function App() {
     const nextConfig = SUBJECTS[nextSubject]
     setSubject(nextSubject)
     setTopic(nextConfig.defaultTopic)
+    setExpandedBiochemistryParent(biochemistryParentForTopic(nextConfig.defaultTopic) || '糖代谢')
     setChapterId('')
     setJumpGroupId('')
     setSearch('')
@@ -788,8 +832,27 @@ function App() {
             <button className={`favorite-notebook-link ${favoritesOnly ? 'active' : ''}`} onClick={toggleFavoriteNotebook} aria-pressed={favoritesOnly} title={`${notebookName}，共 ${currentFavoriteCount} 个题组`}>
               <span className="topic-icon"><Icon name={favoritesOnly ? 'bookmarkFill' : 'bookmark'} size={21} /></span><span>{notebookName}</span><em>{currentFavoriteCount}</em>
             </button>
-            <div className="topic-nav-label">系统 / 讲义章节</div>
-            {chapterTree.map(({ topic: system, chapters }) => (
+            <div className="topic-nav-label">{subject === 'biochemistry' ? '母目录 / 子目录 / 讲义章节' : '系统 / 讲义章节'}</div>
+            {subject === 'biochemistry' ? biochemistryTree.map(({ parent, topics }) => {
+              const parentStemCount = topics.reduce((sum, item) => sum + (counts[item.topic] || 0), 0)
+              const parentFavoriteCount = topics.reduce((sum, item) => sum + (favoriteCounts.byTopic[item.topic] || 0), 0)
+              const isExpanded = expandedBiochemistryParent === parent
+              return <div className="topic-tree directory-tree" key={parent}>
+                <button className={`topic-link directory-parent ${isExpanded ? 'active' : ''}`} onClick={() => setExpandedBiochemistryParent((value) => value === parent ? '' : parent)} aria-expanded={isExpanded}>
+                  <span className="topic-icon"><Icon name={TOPIC_ICONS[parent]} size={22} /></span><span>{parent}</span><span className="topic-counts"><em>{parentStemCount}</em>{parentFavoriteCount ? <small title={`${parentFavoriteCount} 个收藏题组`}><Icon name="bookmarkFill" size={10} />{parentFavoriteCount}</small> : null}</span>
+                </button>
+                {isExpanded && <div className="directory-children" aria-label={`${parent}子目录`}>
+                  {topics.map(({ topic: childTopic, chapters }) => <div className="topic-tree directory-child-tree" key={childTopic}>
+                    <button className={`topic-link directory-child ${topic === childTopic && !chapterId ? 'active' : ''}`} onClick={() => selectTopic(childTopic)} aria-expanded={topic === childTopic}>
+                      <span className="topic-icon"><Icon name={TOPIC_ICONS[childTopic]} size={19} /></span><span>{childTopic}</span><span className="topic-counts"><em>{counts[childTopic] || 0}</em>{favoriteCounts.byTopic[childTopic] ? <small title={`${favoriteCounts.byTopic[childTopic]} 个收藏题组`}><Icon name="bookmarkFill" size={10} />{favoriteCounts.byTopic[childTopic]}</small> : null}</span>
+                    </button>
+                    {topic === childTopic && chapters.length > 0 && <div className="chapter-nav" aria-label={`${childTopic}讲义章节`}>
+                      {chapters.map((chapter) => <button key={chapter.id} className={`chapter-link ${chapterId === chapter.id ? 'active' : ''}`} onClick={() => selectChapter(chapter.id)} title={`跳转到${chapter.title}首题`} aria-label={`跳转到${chapter.title}首题`}><span className="chapter-marker" /><span title={chapter.title}>{chapter.title}</span><em>{chapter.stemCount}</em></button>)}
+                    </div>}
+                  </div>)}
+                </div>}
+              </div>
+            }) : chapterTree.map(({ topic: system, chapters }) => (
               <div className="topic-tree" key={system}>
                 <button className={`topic-link ${topic === system && !chapterId ? 'active' : ''}`} onClick={() => selectTopic(system)} aria-expanded={topic === system}>
                   <span className="topic-icon"><Icon name={TOPIC_ICONS[system]} size={22} /></span><span>{system}</span><span className="topic-counts"><em>{counts[system] || 0}</em>{favoriteCounts.byTopic[system] ? <small title={`${favoriteCounts.byTopic[system]} 个收藏题组`}><Icon name="bookmarkFill" size={10} />{favoriteCounts.byTopic[system]}</small> : null}</span>
@@ -809,8 +872,8 @@ function App() {
         <main className="main-content">
           <div className="mobile-topic-row">
             <button className="text-button directory-button" onClick={() => setSidebarCollapsed((value) => !value)}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={16} />{sidebarCollapsed ? '章节' : '收起目录'}</button>
-            <select value={topic} onChange={(event) => selectTopic(event.target.value)} aria-label="选择系统">{content.topics.map((item) => <option key={item}>{item}</option>)}</select>
-            <select value={chapterId} onChange={(event) => event.target.value ? selectChapter(event.target.value) : selectTopic(topic)} aria-label="选择讲义章节"><option value="">全部讲义章节</option>{chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}</select>
+            <select value={topic} onChange={(event) => selectTopic(event.target.value)} aria-label="选择系统">{content.topics.filter((item) => item === '全部' || counts[item]).map((item) => <option key={item} value={item}>{topicDisplayName(subject, item)}</option>)}</select>
+            <select value={chapterId} onChange={(event) => event.target.value ? selectChapter(event.target.value) : selectTopic(topic)} aria-label="选择讲义章节"><option value="">全部讲义章节</option>{subject === 'biochemistry' ? biochemistryTree.map(({ parent, topics }) => <optgroup key={parent} label={parent}>{topics.flatMap(({ topic: childTopic, chapters }) => chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{childTopic} · {chapter.title}</option>))}</optgroup>) : chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}</select>
             <button className={`text-button mobile-favorite-button ${favoritesOnly ? 'selected' : ''}`} onClick={toggleFavoriteNotebook} aria-pressed={favoritesOnly}><Icon name={favoritesOnly ? 'bookmarkFill' : 'bookmark'} size={16} />收藏本 {currentFavoriteCount}</button>
             <button className="text-button" onClick={() => setMobileEvidence((value) => !value)}>{mobileEvidence ? '隐藏讲义' : '显示讲义'} <Icon name="file" size={16} /></button>
           </div>
@@ -818,7 +881,7 @@ function App() {
             <span>章节快速跳转</span>
             <select value={chapterId} onChange={(event) => event.target.value ? selectChapter(event.target.value) : selectTopic(topic)} aria-label="章节快速跳转">
               <option value="">{topic === '全部' ? '全部章节' : `${topic} · 全部章节`}</option>
-              {chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}
+              {subject === 'biochemistry' ? biochemistryTree.map(({ parent, topics }) => <optgroup key={parent} label={parent}>{topics.flatMap(({ topic: childTopic, chapters }) => chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{childTopic} · {chapter.title}</option>))}</optgroup>) : chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}
             </select>
           </div>
           {!filteredGroups.length && <div className="empty-state"><div className="empty-state-icon"><Icon name={favoritesOnly ? 'bookmark' : 'search'} size={22} /></div><h1>{favoritesOnly ? `${notebookName}暂无题组` : '当前筛选下没有题组'}</h1><p>{favoritesOnly ? '点击题组右上角的“收藏”后，它会自动进入当前科目与章节的收藏本。' : '请尝试清除搜索词、切换章节或选择其他题型。'}</p><button className="primary-button" onClick={favoritesOnly ? showAllGroupsInChapter : () => { setTopic('全部'); setSearch(''); setTypeFilter('全部题型'); setGroupIndex(0) }}>{favoritesOnly ? '返回本章全部题组' : '显示全部题库'} <Icon name="arrow" size={17} /></button></div>}

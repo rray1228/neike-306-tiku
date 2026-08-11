@@ -64,7 +64,7 @@ button:disabled { cursor: default; }
 .evidence-collapsed .main-content { max-width: 1100px; }
 .sidebar-collapsed .sidebar { padding-inline: 10px; }
 .sidebar-collapsed .sidebar-heading { justify-content: center; }
-.sidebar-collapsed .sidebar-title, .sidebar-collapsed .topic-link span:nth-child(2), .sidebar-collapsed .topic-counts, .sidebar-collapsed .favorite-notebook-link span:nth-child(2), .sidebar-collapsed .favorite-notebook-link em, .sidebar-collapsed .topic-nav-label, .sidebar-collapsed .chapter-nav, .sidebar-collapsed .sidebar-footer { display: none; }
+.sidebar-collapsed .sidebar-title, .sidebar-collapsed .topic-link span:nth-child(2), .sidebar-collapsed .topic-counts, .sidebar-collapsed .favorite-notebook-link span:nth-child(2), .sidebar-collapsed .favorite-notebook-link em, .sidebar-collapsed .topic-nav-label, .sidebar-collapsed .directory-children, .sidebar-collapsed .chapter-nav, .sidebar-collapsed .sidebar-footer { display: none; }
 .sidebar-collapsed .topic-link, .sidebar-collapsed .favorite-notebook-link { grid-template-columns: 1fr; justify-items: center; padding-inline: 0; }
 .topic-nav { display: flex; flex-direction: column; gap: 4px; }
 .topic-link, .favorite-notebook-link { display: grid; grid-template-columns: 30px 1fr auto; align-items: center; gap: 10px; min-height: 48px; padding: 0 12px; border: 0; border-radius: 9px; color: #526176; text-align: left; background: transparent; transition: .18s ease; }
@@ -77,7 +77,12 @@ button:disabled { cursor: default; }
 .topic-counts small { display: inline-flex; align-items: center; gap: 2px; color: #5d82bd; font-size: 10px; font-weight: 700; }
 .topic-link.active .topic-counts em { color: var(--blue); font-weight: 700; }
 .topic-tree { display: grid; gap: 2px; }
+.directory-parent { font-weight: 700; }
+.directory-children { display: grid; gap: 2px; margin: 0 0 5px 14px; padding: 3px 0 4px 9px; border-left: 1px solid #dbe5f3; }
+.directory-child { min-height: 42px; padding-left: 9px; }
+.directory-child span:nth-child(2) { font-size: 12px; line-height: 1.35; }
 .chapter-nav { display: grid; gap: 2px; margin: 0 0 5px 42px; padding: 2px 0 3px 13px; border-left: 1px solid #dbe5f3; }
+.directory-child-tree .chapter-nav { margin-left: 31px; }
 .chapter-link { min-width: 0; display: grid; grid-template-columns: 7px minmax(0, 1fr) auto; align-items: center; gap: 7px; min-height: 33px; padding: 4px 8px 4px 0; border: 0; border-radius: 6px; color: #74839a; background: transparent; text-align: left; }
 .chapter-link:hover { color: var(--blue); background: #f0f5ff; }
 .chapter-link.active { color: var(--blue); background: #eef4ff; font-weight: 700; }
