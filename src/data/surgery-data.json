@@ -10225,20 +10225,20 @@
       "options": [
         {
           "key": "A",
-          "label": "经皮经肝胆管穿刺引流（PTCD；PTC为经皮经肝胆管穿刺造影）",
-          "sourceText": "A. 经皮经肝胆管穿刺引流（PTCD；PTC为经皮经肝胆管穿刺造影）",
+          "label": "经皮穿刺进入肝内胆管，置管减压并持续引流",
+          "sourceText": "A. 经皮穿刺进入肝内胆管，置管减压并持续引流",
           "ocrScore": 1.0
         },
         {
           "key": "B",
-          "label": "胰头十二指肠切除术（Whipple术）",
-          "sourceText": "B. 胰头十二指肠切除术（Whipple术）",
+          "label": "联合切除胰头、十二指肠及相关胆道等组织的根治性术式",
+          "sourceText": "B. 联合切除胰头、十二指肠及相关胆道等组织的根治性术式",
           "ocrScore": 1.0
         },
         {
           "key": "C",
-          "label": "腹腔镜胆囊切除术（LC）",
-          "sourceText": "C. 腹腔镜胆囊切除术（LC）",
+          "label": "经腹腔镜切除胆囊",
+          "sourceText": "C. 经腹腔镜切除胆囊",
           "ocrScore": 1.0
         },
         {
@@ -10249,32 +10249,32 @@
         },
         {
           "key": "E",
-          "label": "磁共振胰胆管成像（MRCP，水成像）",
-          "sourceText": "E. 磁共振胰胆管成像（MRCP，水成像）",
+          "label": "利用磁共振水成像无创显示胰胆管形态",
+          "sourceText": "E. 利用磁共振水成像无创显示胰胆管形态",
           "ocrScore": 1.0
         },
         {
           "key": "F",
-          "label": "急性梗阻性化脓性胆管炎（AOSC）",
-          "sourceText": "F. 急性梗阻性化脓性胆管炎（AOSC）",
+          "label": "胆管急性梗阻并发化脓性感染，典型可出现Reynolds五联征",
+          "sourceText": "F. 胆管急性梗阻并发化脓性感染，典型可出现Reynolds五联征",
           "ocrScore": 1.0
         },
         {
           "key": "G",
-          "label": "经内镜逆行胰胆管造影（ERCP）",
-          "sourceText": "G. 经内镜逆行胰胆管造影（ERCP）",
+          "label": "经十二指肠镜逆行插管造影以观察胰胆管",
+          "sourceText": "G. 经十二指肠镜逆行插管造影以观察胰胆管",
           "ocrScore": 1.0
         },
         {
           "key": "H",
-          "label": "内镜下Oddi括约肌切开术（EST）＋取石＋鼻胆管引流（ENBD）",
-          "sourceText": "H. 内镜下Oddi括约肌切开术（EST）＋取石＋鼻胆管引流（ENBD）",
+          "label": "内镜下切开Oddi括约肌并取石，术后留置鼻胆管引流",
+          "sourceText": "H. 内镜下切开Oddi括约肌并取石，术后留置鼻胆管引流",
           "ocrScore": 1.0
         },
         {
           "key": "I",
-          "label": "经皮经肝胆囊穿刺引流（PTGD）",
-          "sourceText": "I. 经皮经肝胆囊穿刺引流（PTGD）",
+          "label": "经皮穿刺进入胆囊，置管减压并持续引流",
+          "sourceText": "I. 经皮穿刺进入胆囊，置管减压并持续引流",
           "ocrScore": 1.0
         }
       ],
@@ -10287,7 +10287,7 @@
           "answerMode": "单选",
           "sourceText": "AOSC（F）",
           "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "reviewMethod": "讲义第16讲第12页逐项核对"
         },
         {
           "text": "LC",
@@ -10297,7 +10297,7 @@
           "answerMode": "单选",
           "sourceText": "LC（C）",
           "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "reviewMethod": "讲义第16讲第12页逐项核对"
         },
         {
           "text": "PTGD",
@@ -10307,7 +10307,7 @@
           "answerMode": "单选",
           "sourceText": "PTGD（I）",
           "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "reviewMethod": "讲义第16讲第12页逐项核对"
         },
         {
           "text": "PTCD",
@@ -10317,7 +10317,7 @@
           "answerMode": "单选",
           "sourceText": "PTCD（A）",
           "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "reviewMethod": "讲义第16讲第12页逐项核对"
         },
         {
           "text": "MRCP",
@@ -10327,7 +10327,7 @@
           "answerMode": "单选",
           "sourceText": "MRCP（E）",
           "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "reviewMethod": "讲义第16讲第12页逐项核对"
         },
         {
           "text": "治疗性ERCP",
@@ -10337,7 +10337,7 @@
           "answerMode": "单选",
           "sourceText": "治疗性ERCP（H）",
           "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "reviewMethod": "讲义第16讲第12页逐项核对"
         },
         {
           "text": "Whipple术",
@@ -10347,7 +10347,7 @@
           "answerMode": "单选",
           "sourceText": "Whipple术（B）",
           "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "reviewMethod": "讲义第16讲第12页逐项核对"
         },
         {
           "text": "Courvoisier征",
@@ -10357,15 +10357,28 @@
           "answerMode": "单选",
           "sourceText": "Courvoisier征（D）",
           "ocrScore": 1.0,
-          "reviewMethod": "300dpi原题页人工复核"
+          "reviewMethod": "讲义第16讲第12页逐项核对"
         }
       ],
-      "sourceText": "胆系疾病英文缩写与术式 | A. 经皮经肝胆管穿刺引流（PTCD；PTC为经皮经肝胆管穿刺造影） | B. 胰头十二指肠切除术（Whipple术） | C. 腹腔镜胆囊切除术（LC） | D. 深吸气时触及无痛、光滑、肿大的胆囊：见于中下段胆管癌、胰头癌、壶腹癌、十二指肠癌 | E. 磁共振胰胆管成像（MRCP，水成像） | F. 急性梗阻性化脓性胆管炎（AOSC） | G. 经内镜逆行胰胆管造影（ERCP） | H. 内镜下Oddi括约肌切开术（EST）＋取石＋鼻胆管引流（ENBD） | I. 经皮经肝胆囊穿刺引流（PTGD） | AOSC（F） | LC（C） | PTGD（I） | PTCD（A） | MRCP（E） | 治疗性ERCP（H） | Whipple术（B） | Courvoisier征（D）",
+      "sourceText": "胆系疾病英文缩写与术式 | A. 经皮穿刺进入肝内胆管，置管减压并持续引流 | B. 联合切除胰头、十二指肠及相关胆道等组织的根治性术式 | C. 经腹腔镜切除胆囊 | D. 深吸气时触及无痛、光滑、肿大的胆囊：见于中下段胆管癌、胰头癌、壶腹癌、十二指肠癌 | E. 利用磁共振水成像无创显示胰胆管形态 | F. 胆管急性梗阻并发化脓性感染，典型可出现Reynolds五联征 | G. 经十二指肠镜逆行插管造影以观察胰胆管 | H. 内镜下切开Oddi括约肌并取石，术后留置鼻胆管引流 | I. 经皮穿刺进入胆囊，置管减压并持续引流 | AOSC（F） | LC（C） | PTGD（I） | PTCD（A） | MRCP（E） | 治疗性ERCP（H） | Whipple术（B） | Courvoisier征（D）",
       "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
         "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 12,
+        "image": "surgery/lecture-pages/lecture-16-page-12.png",
+        "title": "第16讲第12页 · 胆系英文缩写与术式",
+        "description": "讲义汇总了各缩写、术式和体征的标准对应关系；网站选项已改为不含目标词的定义性描述。"
+      },
+      "reviewNotes": [
+        {
+          "title": "第26组选项去答案提示",
+          "body": "原选项直接重复题干中的缩写或术式名称，已全部改为中文定义、操作过程或临床表现；答案映射仍为F、C、I、A、E、H、B、D。"
+        }
       ]
     },
     {

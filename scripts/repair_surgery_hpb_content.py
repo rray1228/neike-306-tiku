@@ -96,15 +96,15 @@ OPTION_UPDATES = {
         "e": "尽早完整切除扩张胆管＋胆肠吻合术等",
     },
     "p23-g2": {
-        "A": "经皮经肝胆管穿刺引流（PTCD；PTC为经皮经肝胆管穿刺造影）",
-        "B": "胰头十二指肠切除术（Whipple术）",
-        "C": "腹腔镜胆囊切除术（LC）",
+        "A": "经皮穿刺进入肝内胆管，置管减压并持续引流",
+        "B": "联合切除胰头、十二指肠及相关胆道等组织的根治性术式",
+        "C": "经腹腔镜切除胆囊",
         "D": "深吸气时触及无痛、光滑、肿大的胆囊：见于中下段胆管癌、胰头癌、壶腹癌、十二指肠癌",
-        "E": "磁共振胰胆管成像（MRCP，水成像）",
-        "F": "急性梗阻性化脓性胆管炎（AOSC）",
-        "G": "经内镜逆行胰胆管造影（ERCP）",
-        "H": "内镜下Oddi括约肌切开术（EST）＋取石＋鼻胆管引流（ENBD）",
-        "I": "经皮经肝胆囊穿刺引流（PTGD）",
+        "E": "利用磁共振水成像无创显示胰胆管形态",
+        "F": "胆管急性梗阻并发化脓性感染，典型可出现Reynolds五联征",
+        "G": "经十二指肠镜逆行插管造影以观察胰胆管",
+        "H": "内镜下切开Oddi括约肌并取石，术后留置鼻胆管引流",
+        "I": "经皮穿刺进入胆囊，置管减压并持续引流",
     },
 }
 
@@ -209,6 +209,38 @@ def main() -> None:
     group9["reviewNotes"] = [{
         "title": "第9组选项与答案补充",
         "body": "原题页漏列“X线部分显影”。按第16讲第1页补为K，并将黑色素结石由AFHI修正为AHIK、棕色结石由BEHJ修正为EHJK；其余三题答案不变。",
+    }]
+
+    # Group 26 asks learners to recall abbreviations and named procedures. The
+    # original option labels repeated the target strings in parentheses, which
+    # revealed the answers. Keep the verified mapping but use definition-only
+    # labels with no target acronym or eponym.
+    group26 = groups["p23-g2"]
+    group26_answers = {
+        "AOSC": ["F"],
+        "LC": ["C"],
+        "PTGD": ["I"],
+        "PTCD": ["A"],
+        "MRCP": ["E"],
+        "治疗性ERCP": ["H"],
+        "Whipple术": ["B"],
+        "Courvoisier征": ["D"],
+    }
+    for stem in group26["stems"]:
+        stem["answer"] = group26_answers[stem["text"]]
+        stem["answerMode"] = "单选"
+        stem["reviewMethod"] = "讲义第16讲第12页逐项核对"
+    group26["lectureIds"] = ["lecture-16"]
+    group26["lectureEvidence"] = {
+        "lectureId": "lecture-16",
+        "page": 12,
+        "image": "surgery/lecture-pages/lecture-16-page-12.png",
+        "title": "第16讲第12页 · 胆系英文缩写与术式",
+        "description": "讲义汇总了各缩写、术式和体征的标准对应关系；网站选项已改为不含目标词的定义性描述。",
+    }
+    group26["reviewNotes"] = [{
+        "title": "第26组选项去答案提示",
+        "body": "原选项直接重复题干中的缩写或术式名称，已全部改为中文定义、操作过程或临床表现；答案映射仍为F、C、I、A、E、H、B、D。",
     }]
 
     for group in payload["groups"]:

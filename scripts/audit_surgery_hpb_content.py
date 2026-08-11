@@ -58,6 +58,32 @@ def main() -> None:
     }
     assert (root / "public" / group9["lectureEvidence"]["image"]).exists()
 
+    group26 = by_id["p23-g2"]
+    assert {option["key"]: option["label"] for option in group26["options"]} == {
+        "A": "经皮穿刺进入肝内胆管，置管减压并持续引流",
+        "B": "联合切除胰头、十二指肠及相关胆道等组织的根治性术式",
+        "C": "经腹腔镜切除胆囊",
+        "D": "深吸气时触及无痛、光滑、肿大的胆囊：见于中下段胆管癌、胰头癌、壶腹癌、十二指肠癌",
+        "E": "利用磁共振水成像无创显示胰胆管形态",
+        "F": "胆管急性梗阻并发化脓性感染，典型可出现Reynolds五联征",
+        "G": "经十二指肠镜逆行插管造影以观察胰胆管",
+        "H": "内镜下切开Oddi括约肌并取石，术后留置鼻胆管引流",
+        "I": "经皮穿刺进入胆囊，置管减压并持续引流",
+    }
+    assert {stem["text"]: "".join(stem["answer"]) for stem in group26["stems"]} == {
+        "AOSC": "F", "LC": "C", "PTGD": "I", "PTCD": "A",
+        "MRCP": "E", "治疗性ERCP": "H", "Whipple术": "B", "Courvoisier征": "D",
+    }
+    answer_hints = ("AOSC", "LC", "PTGD", "PTCD", "MRCP", "ERCP",
+                    "Whipple", "Courvoisier", "EST", "ENBD")
+    assert not any(
+        hint.casefold() in option["label"].casefold()
+        for option in group26["options"]
+        for hint in answer_hints
+    )
+    assert group26["lectureEvidence"]["page"] == 12
+    assert (root / "public" / group26["lectureEvidence"]["image"]).exists()
+
     composite_keys = {option["key"] for option in by_id["p23-g1"]["options"]}
     assert not composite_keys.intersection({"a", "b", "d", "e"})
     assert {"①", "②", "③", "④"}.issubset(composite_keys)
