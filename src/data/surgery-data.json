@@ -8242,6 +8242,12 @@
           "label": "多在胆管",
           "sourceText": "J. 多在胆管",
           "ocrScore": 1.0
+        },
+        {
+          "key": "K",
+          "label": "X线部分显影",
+          "sourceText": "K. X线部分显影",
+          "ocrScore": 1.0
         }
       ],
       "stems": [
@@ -8255,7 +8261,8 @@
           "answerMode": "多选",
           "sourceText": "纯胆固醇结石（CFG）",
           "sourceY": 80.40706808917982,
-          "ocrScore": 1.0
+          "ocrScore": 1.0,
+          "reviewMethod": "讲义第16讲第1页逐项核对"
         },
         {
           "text": "混合性结石",
@@ -8267,33 +8274,36 @@
           "answerMode": "多选",
           "sourceText": "混合性结石（BDG）",
           "sourceY": 115.07501613123631,
-          "ocrScore": 1.0
+          "ocrScore": 1.0,
+          "reviewMethod": "讲义第16讲第1页逐项核对"
         },
         {
           "text": "黑色素结石",
           "answer": [
             "A",
-            "F",
             "H",
-            "I"
+            "I",
+            "K"
           ],
           "answerMode": "多选",
-          "sourceText": "黑色素结石（AFHI）",
+          "sourceText": "黑色素结石（AHIK）",
           "sourceY": 149.59752140993865,
-          "ocrScore": 1.0
+          "ocrScore": 1.0,
+          "reviewMethod": "讲义第16讲第1页逐项核对"
         },
         {
           "text": "棕色结石",
           "answer": [
-            "B",
             "E",
             "H",
-            "J"
+            "J",
+            "K"
           ],
           "answerMode": "多选",
-          "sourceText": "棕色结石（BEHJ）",
+          "sourceText": "棕色结石（EHJK）",
           "sourceY": 184.4632734419544,
-          "ocrScore": 1.0
+          "ocrScore": 1.0,
+          "reviewMethod": "讲义第16讲第1页逐项核对"
         },
         {
           "text": "碳酸钙、磷酸钙、棕榈酸钙等",
@@ -8303,15 +8313,29 @@
           "answerMode": "单选",
           "sourceText": "碳酸钙、磷酸钙、棕榈酸钙等（B）",
           "sourceY": 219.142857337448,
-          "ocrScore": 1.0
+          "ocrScore": 1.0,
+          "reviewMethod": "讲义第16讲第1页逐项核对"
         }
       ],
-      "sourceText": "纯胆固醇结石 | A. 质地硬、杂质少 | B. X线常显影 | C. 剖面呈放射状 | D. 剖面呈放射状、层状 | E. 质地软、杂质多 | F. X线常不显影 | G. 胆固醇类结石 | H. 胆色素结石 | I. 几乎在胆囊 | J. 多在胆管 | 纯胆固醇结石（CFG） | 混合性结石（BDG） | 黑色素结石（AFHI） | 棕色结石（BEHJ） | 碳酸钙、磷酸钙、棕榈酸钙等（B）",
+      "sourceText": "纯胆固醇结石 | A. 质地硬、杂质少 | B. X线常显影 | C. 剖面呈放射状 | D. 剖面呈放射状、层状 | E. 质地软、杂质多 | F. X线常不显影 | G. 胆固醇类结石 | H. 胆色素结石 | I. 几乎在胆囊 | J. 多在胆管 | K. X线部分显影 | 纯胆固醇结石（CFG） | 混合性结石（BDG） | 黑色素结石（AHIK） | 棕色结石（EHJK） | 碳酸钙、磷酸钙、棕榈酸钙等（B）",
       "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",
       "lectureIds": [
         "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-16-page-01.png",
+        "title": "第16讲第1页 · 胆系结石分类",
+        "description": "讲义表格明确：黑色素结石和棕色结石均为X线部分显影。"
+      },
+      "reviewNotes": [
+        {
+          "title": "第9组选项与答案补充",
+          "body": "原题页漏列“X线部分显影”。按第16讲第1页补为K，并将黑色素结石由AFHI修正为AHIK、棕色结石由BEHJ修正为EHJK；其余三题答案不变。"
+        }
       ]
     },
     {
@@ -9459,7 +9483,7 @@
       "lectureIds": [
         "lecture-16"
       ],
-     "id": "p21-g5",
+      "id": "p21-g5",
       "title": "胆管癌根治术",
       "options": [
         {

@@ -128,8 +128,10 @@ def main() -> None:
         group = groups[group_id]
         by_key = {option["key"]: option for option in group["options"]}
         for key, label in updates.items():
-            by_key[key]["label"] = label
-            by_key[key]["ocrScore"] = 1.0
+            effective_key = {"a": "①", "b": "②", "d": "③", "e": "④"}.get(key, key) \
+                if group_id == "p23-g1" else key
+            by_key[effective_key]["label"] = label
+            by_key[effective_key]["ocrScore"] = 1.0
 
     for group_id, title in TITLE_UPDATES.items():
         groups[group_id]["title"] = title
@@ -166,6 +168,47 @@ def main() -> None:
     group6["reviewNotes"] = [{
         "title": "第6组答案复核",
         "body": "讲义第3页确认：断流术为A、C、F、G、J、O、P；分流术为B、E、I、N；选择性分流术为G、M；非选择性分流术为H、D、K、L。原答案逻辑正确，误解来自↑、↓等符号被OCR成“个”“」”，现已按讲义重新录入。",
+    }]
+
+    # Group 9: the source question page omitted the lecture's shared
+    # "X线部分显影" option. The lecture table assigns it to both pigment-stone
+    # subtypes, so replace the source page's overbroad visible/non-visible keys.
+    group9 = groups["p19-g1"]
+    group9["options"] = [
+        {"key": "A", "label": "质地硬、杂质少"},
+        {"key": "B", "label": "X线常显影"},
+        {"key": "C", "label": "剖面呈放射状"},
+        {"key": "D", "label": "剖面呈放射状、层状"},
+        {"key": "E", "label": "质地软、杂质多"},
+        {"key": "F", "label": "X线常不显影"},
+        {"key": "G", "label": "胆固醇类结石"},
+        {"key": "H", "label": "胆色素结石"},
+        {"key": "I", "label": "几乎在胆囊"},
+        {"key": "J", "label": "多在胆管"},
+        {"key": "K", "label": "X线部分显影"},
+    ]
+    group9_answers = {
+        "纯胆固醇结石": ["C", "F", "G"],
+        "混合性结石": ["B", "D", "G"],
+        "黑色素结石": ["A", "H", "I", "K"],
+        "棕色结石": ["E", "H", "J", "K"],
+        "碳酸钙、磷酸钙、棕榈酸钙等": ["B"],
+    }
+    for stem in group9["stems"]:
+        stem["answer"] = group9_answers[stem["text"]]
+        stem["answerMode"] = "多选" if len(stem["answer"]) > 1 else "单选"
+        stem["reviewMethod"] = "讲义第16讲第1页逐项核对"
+    group9["lectureIds"] = ["lecture-16"]
+    group9["lectureEvidence"] = {
+        "lectureId": "lecture-16",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-16-page-01.png",
+        "title": "第16讲第1页 · 胆系结石分类",
+        "description": "讲义表格明确：黑色素结石和棕色结石均为X线部分显影。",
+    }
+    group9["reviewNotes"] = [{
+        "title": "第9组选项与答案补充",
+        "body": "原题页漏列“X线部分显影”。按第16讲第1页补为K，并将黑色素结石由AFHI修正为AHIK、棕色结石由BEHJ修正为EHJK；其余三题答案不变。",
     }]
 
     for group in payload["groups"]:

@@ -38,6 +38,26 @@ def main() -> None:
     assert group6["lectureEvidence"]["page"] == 3
     assert (root / "public" / group6["lectureEvidence"]["image"]).exists()
 
+    group9 = by_id["p19-g1"]
+    assert {option["key"]: option["label"] for option in group9["options"]} == {
+        "A": "质地硬、杂质少", "B": "X线常显影", "C": "剖面呈放射状",
+        "D": "剖面呈放射状、层状", "E": "质地软、杂质多",
+        "F": "X线常不显影", "G": "胆固醇类结石", "H": "胆色素结石",
+        "I": "几乎在胆囊", "J": "多在胆管", "K": "X线部分显影",
+    }
+    assert {stem["text"]: "".join(stem["answer"]) for stem in group9["stems"]} == {
+        "纯胆固醇结石": "CFG", "混合性结石": "BDG",
+        "黑色素结石": "AHIK", "棕色结石": "EHJK",
+        "碳酸钙、磷酸钙、棕榈酸钙等": "B",
+    }
+    assert group9["lectureEvidence"] == {
+        "lectureId": "lecture-16", "page": 1,
+        "image": "surgery/lecture-pages/lecture-16-page-01.png",
+        "title": "第16讲第1页 · 胆系结石分类",
+        "description": "讲义表格明确：黑色素结石和棕色结石均为X线部分显影。",
+    }
+    assert (root / "public" / group9["lectureEvidence"]["image"]).exists()
+
     composite_keys = {option["key"] for option in by_id["p23-g1"]["options"]}
     assert not composite_keys.intersection({"a", "b", "d", "e"})
     assert {"①", "②", "③", "④"}.issubset(composite_keys)
