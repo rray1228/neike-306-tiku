@@ -31210,9 +31210,11 @@
           "answer": [
             "D",
             "F",
-            "B"
+            "B",
+            "H",
+            "J"
           ],
-          "sourceText": "湿冷型（收缩压>90mmHg）DFB",
+          "sourceText": "湿冷型（收缩压>90mmHg）DFB、HJ",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -31221,9 +31223,11 @@
           "answer": [
             "B",
             "C",
-            "D"
+            "D",
+            "H",
+            "J"
           ],
-          "sourceText": "湿冷型（收缩压<90mmHg）BCD",
+          "sourceText": "湿冷型（收缩压<90mmHg）BCD、HJ",
           "sourceY": 0,
           "answerMode": "多选"
         }

@@ -347,7 +347,7 @@ def corrected_group_blocks() -> dict[str, tuple[list[str], list[dict]]]:
     p91_hemodynamics = group(
         "p91-g2", "急性心力衰竭分型与处理", "循环", ["lecture-55"],
         [option("A", "扩容"), option("B", "正性肌力药"), option("C", "血管收缩剂"), option("D", "利尿剂"), option("E", "调整口服药"), option("F", "血管扩张剂"), option("G", "无明显淤血"), option("H", "有明显淤血"), option("I", "无明显低灌注"), option("J", "有明显低灌注")],
-        [stem("干暖型", "EGI"), stem("干冷型", "ABGJ"), stem("湿暖型（最常见）", "DFHI"), stem("湿冷型（收缩压>90mmHg）", "BDF"), stem("湿冷型（收缩压<90mmHg）", "BCD")],
+        [stem("干暖型", "EGI"), stem("干冷型", "ABGJ"), stem("湿暖型（最常见）", "DFHI"), stem("湿冷型（收缩压>90mmHg）", "DFBHJ"), stem("湿冷型（收缩压<90mmHg）", "BCD HJ".replace(" ", ""))],
     )
     p91_acute_hf = group(
         "p91-g3", "急性心力衰竭药物归类", "循环", ["lecture-55"],
