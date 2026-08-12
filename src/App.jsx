@@ -80,13 +80,15 @@ const CONTENT_LOADERS = {
     }
   },
   biochemistry: async () => {
-    const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture6Content] = await Promise.all([
+    const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content] = await Promise.all([
       loadJson(() => import('./data/biochemistry-data.json')),
       loadJson(() => import('./data/biochemistry-lecture2-data.json')),
       loadJson(() => import('./data/biochemistry-lecture3-data.json')),
+      loadJson(() => import('./data/biochemistry-lecture4-data.json')),
+      loadJson(() => import('./data/biochemistry-lecture5-data.json')),
       loadJson(() => import('./data/biochemistry-lecture6-data.json')),
     ])
-    const groups = [...biochemistryContent.groups, ...biochemistryLecture2Content.groups, ...biochemistryLecture3Content.groups, ...biochemistryLecture6Content.groups].map((group) => ({
+    const groups = [...biochemistryContent.groups, ...biochemistryLecture2Content.groups, ...biochemistryLecture3Content.groups, ...biochemistryLecture4Content.groups, ...biochemistryLecture5Content.groups, ...biochemistryLecture6Content.groups].map((group) => ({
       ...group,
       topic: biochemistryParentForTopic(group.topic) || group.topic,
     }))
@@ -95,15 +97,15 @@ const CONTENT_LOADERS = {
       meta: {
         ...biochemistryContent.meta,
         title: '生物化学题库',
-        lectureCount: 4,
-        groupCount: biochemistryContent.groups.length + biochemistryLecture2Content.groups.length + biochemistryLecture3Content.groups.length + biochemistryLecture6Content.groups.length,
-        stemCount: biochemistryContent.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture2Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture3Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture6Content.groups.reduce((sum, group) => sum + group.stems.length, 0),
-        answerNote: '已收录第 01、02、03、06 讲题组；每题均只关联本讲讲义页，选项与答案均已按讲义复核。',
+        lectureCount: 6,
+        groupCount: biochemistryContent.groups.length + biochemistryLecture2Content.groups.length + biochemistryLecture3Content.groups.length + biochemistryLecture4Content.groups.length + biochemistryLecture5Content.groups.length + biochemistryLecture6Content.groups.length,
+        stemCount: biochemistryContent.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture2Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture3Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture4Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture5Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture6Content.groups.reduce((sum, group) => sum + group.stems.length, 0),
+        answerNote: '已收录第 01、02、03、04、05、06 讲题组；每题均只关联本讲讲义页，选项与答案均已按讲义复核。',
       },
       topics: ['糖代谢', '生物氧化', '脂代谢'],
       groups,
-      pages: [...biochemistryContent.pages, ...biochemistryLecture2Content.pages, ...biochemistryLecture3Content.pages, ...biochemistryLecture6Content.pages],
-      lectures: [...biochemistryContent.lectures, ...biochemistryLecture2Content.lectures, ...biochemistryLecture3Content.lectures, ...biochemistryLecture6Content.lectures],
+      pages: [...biochemistryContent.pages, ...biochemistryLecture2Content.pages, ...biochemistryLecture3Content.pages, ...biochemistryLecture4Content.pages, ...biochemistryLecture5Content.pages, ...biochemistryLecture6Content.pages],
+      lectures: [...biochemistryContent.lectures, ...biochemistryLecture2Content.lectures, ...biochemistryLecture3Content.lectures, ...biochemistryLecture4Content.lectures, ...biochemistryLecture5Content.lectures, ...biochemistryLecture6Content.lectures],
     }
   },
 }
