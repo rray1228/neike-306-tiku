@@ -11409,7 +11409,7 @@
     {
       "id": "p27-g1",
       "page": 27,
-      "title": "全程血尿",
+      "title": "血尿出现时相与病变部位",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -11497,21 +11497,35 @@
             "B",
             "D",
             "F",
-            "H"
+            "H",
+            "I"
           ],
           "answerMode": "多选",
-          "sourceText": "终末血尿BDFHD",
+          "sourceText": "终末血尿（BDFHI）",
           "sourceY": 116.57599485156747,
           "ocrScore": 0.3
         }
       ],
-      "sourceText": "A.上尿路（肾和输尿管）病变 | B.膀胱炎 | 全程血尿AEG | C.前尿道损伤 | D.膀胱结石 | 初始血尿C | E.少数肾结核 | F.膀胱结核 | 终末血尿BDFHD | G.泌外恶性肿瘤（多数膀胱癌、上尿路癌、肾癌等）| H.膀胱癌 | l多数肾结核",
+      "sourceText": "血尿出现时相与病变部位 | A.上尿路（肾和输尿管）病变 | B.膀胱炎 | C.前尿道损伤 | D.膀胱结石 | E.少数肾结核 | F.膀胱结核 | G.泌外恶性肿瘤（多数膀胱癌、上尿路癌、肾癌等） | H.膀胱癌 | I.多数肾结核 | 全程血尿（AEG） | 初始血尿（C） | 终末血尿（BDFHI）",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "topic": "泌尿外科",
       "lectureIds": [
         "lecture-18",
         "lecture-19"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-18-page-03.png",
+        "title": "第18讲第3页 · 尿三杯与血尿时相",
+        "description": "讲义明确：终末血尿可见于肾和膀胱结核、膀胱炎、膀胱结石及膀胱癌。"
+      },
+      "reviewNotes": [
+        {
+          "title": "第六组终末血尿补充 I",
+          "body": "原题页选项I为“多数肾结核”，但终末血尿圈选答案漏写I。按第18讲第3页，肾和膀胱结核均可出现终末血尿，答案由BDFH修正为BDFHI。"
+        }
       ]
     },
     {

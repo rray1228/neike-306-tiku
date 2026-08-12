@@ -66,6 +66,16 @@ VERIFIED_GROUPS = {
             "肌层浸润的膀胱移行细胞癌": "BDF",
         },
     },
+    "p27-g1": {
+        "title": "血尿出现时相与病变部位",
+        "options": {
+            "A": "上尿路（肾和输尿管）病变", "B": "膀胱炎",
+            "C": "前尿道损伤", "D": "膀胱结石", "E": "少数肾结核",
+            "F": "膀胱结核", "G": "泌外恶性肿瘤（多数膀胱癌、上尿路癌、肾癌等）",
+            "H": "膀胱癌", "I": "多数肾结核",
+        },
+        "stems": {"全程血尿": "AEG", "初始血尿": "C", "终末血尿": "BDFHI"},
+    },
     "p29-g4": {
         "title": "尿失禁类型",
         "options": {
@@ -276,6 +286,16 @@ def main() -> None:
     }, "p26-g3: lecture evidence drift"
     bladder_staging_image = root / "public" / bladder_staging_evidence["image"]
     assert bladder_staging_image.exists(), f"missing lecture evidence image: {bladder_staging_image}"
+
+    hematuria_evidence = groups_by_id["p27-g1"]["lectureEvidence"]
+    assert hematuria_evidence == {
+        "lectureId": "lecture-18", "page": 3,
+        "image": "surgery/lecture-pages/lecture-18-page-03.png",
+        "title": "第18讲第3页 · 尿三杯与血尿时相",
+        "description": "讲义明确：终末血尿可见于肾和膀胱结核、膀胱炎、膀胱结石及膀胱癌。",
+    }, "p27-g1: lecture evidence drift"
+    hematuria_image = root / "public" / hematuria_evidence["image"]
+    assert hematuria_image.exists(), f"missing lecture evidence image: {hematuria_image}"
 
     unresolved = [
         f"{group['id']}:{index}"
