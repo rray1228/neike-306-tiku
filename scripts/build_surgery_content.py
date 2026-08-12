@@ -171,6 +171,12 @@ MANUAL_STEMS = {
                 ("中央型", "B"), ("混合型", "CEG")],
     "p25-g1": [("Buerger试验", "ADH"), ("Trendelenburg试验", "F"), ("Pratt试验", "B"),
                 ("Perthes试验", "G"), ("Homans征", "CI")],
+    "p26-g3": [("没有突破基底膜、也没有突出黏膜表面", "C"),
+                ("非浸润性乳头状癌", "E"),
+                ("侵犯固有层或黏膜下层", "A"), ("侵犯肌层", "D"),
+                ("原位癌／非浸润癌", "CE"),
+                ("非肌层浸润的膀胱移行细胞癌", "ACE"),
+                ("肌层浸润的膀胱移行细胞癌", "BDF")],
     "p26-g5": [("泌尿外科感染", "G"), ("肾癌最佳检查", "DH"), ("泌尿外科肿瘤首选检查", "G"),
                 ("膀胱癌最佳检查", "E"), ("怀疑前列腺癌骨转移（经椎旁静脉系统）首选", "A"),
                 ("上尿路癌最佳检查", "DH"), ("决定肾结核治疗必不可少", "C"),
@@ -307,6 +313,7 @@ MANUAL_TITLES = {
     "p20-g3": "胆石症与胆道感染", "p21-g4": "上段/肝门部胆管癌Bismuth-Corlette分型",
     "p23-g2": "胆系疾病英文缩写", "p24-g1": "周围动脉疾病分期",
     "p24-g2": "Rutherford分级", "p25-g1": "周围血管疾病检查",
+    "p26-g3": "膀胱癌T分期",
     "p27-g3": "泌尿系肿瘤", "p28-g1": "泌尿系结石成分与特点",
     "p29-g2": "膀胱破裂类型", "p29-g4": "尿失禁类型",
 }
@@ -772,6 +779,18 @@ def apply_manual_repairs(groups: list[dict]) -> list[dict]:
             group["reviewNotes"] = [{
                 "title": "磷酸钙答案补充 N",
                 "body": "已按第19讲第1页校对：磷酸钙对应“酸化尿液+抗感染”，答案由 AEHLO 修正为 AEHLNO。",
+            }]
+        if group_id == "p26-g3":
+            group["lectureEvidence"] = {
+                "lectureId": "lecture-18",
+                "page": 2,
+                "image": "surgery/lecture-pages/lecture-18-page-02.png",
+                "title": "第18讲第2页 · 膀胱癌T分期",
+                "description": "讲义明确区分Tis、Ta、T1及T2-T4：T1侵犯固有层或黏膜下层，T2侵犯肌层。",
+            }
+            group["reviewNotes"] = [{
+                "title": "第三组拆分误合并题干",
+                "body": "原题页的“侵犯固有层或黏膜下层（A）”与“达肌层（D）”是两道独立题干，先前被错误拼成一题。现已拆回两题，并按第18讲第2页复核本组全部答案。",
             }]
         if group_id == "p14-g2":
             group["reviewNotes"] = [{

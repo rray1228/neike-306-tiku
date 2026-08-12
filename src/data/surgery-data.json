@@ -11053,7 +11053,7 @@
     {
       "id": "p26-g3",
       "page": 26,
-      "title": "没有突破基底膜、也没有突出粘膜表面",
+      "title": "膀胱癌T分期",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -11096,43 +11096,53 @@
       ],
       "stems": [
         {
-          "text": "没有突破基底膜、也没有突出粘膜表面",
+          "text": "没有突破基底膜、也没有突出黏膜表面",
           "answer": [
             "C"
           ],
           "answerMode": "单选",
-          "sourceText": "没有突破基底膜、也没有突出粘膜表面C",
+          "sourceText": "没有突破基底膜、也没有突出黏膜表面（C）",
           "sourceY": 348.22700613364225,
           "ocrScore": 1.0
         },
         {
-          "text": "非浸润乳头状癌",
+          "text": "非浸润性乳头状癌",
           "answer": [
             "E"
           ],
           "answerMode": "单选",
-          "sourceText": "非浸润乳头状癌E",
+          "sourceText": "非浸润性乳头状癌（E）",
           "sourceY": 383.11602886128526,
           "ocrScore": 0.5
         },
         {
-          "text": "侵犯固有层或粘膜下层达肌层",
+          "text": "侵犯固有层或黏膜下层",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "侵犯固有层或黏膜下层（A）",
+          "sourceY": 452.29484681588355,
+          "ocrScore": 1.0
+        },
+        {
+          "text": "侵犯肌层",
           "answer": [
             "D"
           ],
           "answerMode": "单选",
-          "sourceText": "达肌层D",
-          "sourceY": 452.29484681588355,
-          "ocrScore": 0.3
+          "sourceText": "侵犯肌层（D）",
+          "sourceY": 470.0,
+          "ocrScore": 1.0
         },
         {
-          "text": "原位癌/非浸润癌",
+          "text": "原位癌／非浸润癌",
           "answer": [
             "C",
             "E"
           ],
           "answerMode": "多选",
-          "sourceText": "原位癌/非浸润癌 CE",
+          "sourceText": "原位癌／非浸润癌（CE）",
           "sourceY": 487.1722344395423,
           "ocrScore": 0.5
         },
@@ -11161,13 +11171,26 @@
           "ocrScore": 0.5
         }
       ],
-      "sourceText": "没有突破基底膜、也没有突出粘膜表面C | A.T1 | B.T3 | 非浸润乳头状癌E | C.Tis | D.T2 | 侵犯固有层或粘膜下层 | E.Ta | F.T4 | 达肌层D | 原位癌/非浸润癌 CE | 非肌层浸润的膀胱移行细胞癌ACE | 肌层浸润的膀胱移行细胞癌 BDF",
+      "sourceText": "膀胱癌T分期 | A.T1 | B.T3 | C.Tis | D.T2 | E.Ta | F.T4 | 没有突破基底膜、也没有突出黏膜表面（C） | 非浸润性乳头状癌（E） | 侵犯固有层或黏膜下层（A） | 侵犯肌层（D） | 原位癌／非浸润癌（CE） | 非肌层浸润的膀胱移行细胞癌（ACE） | 肌层浸润的膀胱移行细胞癌（BDF）",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "topic": "泌尿外科",
       "lectureIds": [
         "lecture-18",
         "lecture-19"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-18-page-02.png",
+        "title": "第18讲第2页 · 膀胱癌T分期",
+        "description": "讲义明确区分Tis、Ta、T1及T2-T4：T1侵犯固有层或黏膜下层，T2侵犯肌层。"
+      },
+      "reviewNotes": [
+        {
+          "title": "第三组拆分误合并题干",
+          "body": "原题页的“侵犯固有层或黏膜下层（A）”与“达肌层（D）”是两道独立题干，先前被错误拼成一题。现已拆回两题，并按第18讲第2页复核本组全部答案。"
+        }
       ]
     },
     {

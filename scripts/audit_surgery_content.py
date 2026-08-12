@@ -50,6 +50,22 @@ VERIFIED_GROUPS = {
             "尿酸盐": "BCGJP", "胱氨酸": "BCDKP",
         },
     },
+    "p26-g3": {
+        "title": "膀胱癌T分期",
+        "options": {
+            "A": "T1", "B": "T3", "C": "Tis",
+            "D": "T2", "E": "Ta", "F": "T4",
+        },
+        "stems": {
+            "没有突破基底膜、也没有突出黏膜表面": "C",
+            "非浸润性乳头状癌": "E",
+            "侵犯固有层或黏膜下层": "A",
+            "侵犯肌层": "D",
+            "原位癌／非浸润癌": "CE",
+            "非肌层浸润的膀胱移行细胞癌": "ACE",
+            "肌层浸润的膀胱移行细胞癌": "BDF",
+        },
+    },
     "p29-g4": {
         "title": "尿失禁类型",
         "options": {
@@ -250,6 +266,16 @@ def main() -> None:
     }, "p12-g4: lecture evidence drift"
     colorectal_lecture_image = root / "public" / colorectal_evidence["image"]
     assert colorectal_lecture_image.exists(), f"missing lecture evidence image: {colorectal_lecture_image}"
+
+    bladder_staging_evidence = groups_by_id["p26-g3"]["lectureEvidence"]
+    assert bladder_staging_evidence == {
+        "lectureId": "lecture-18", "page": 2,
+        "image": "surgery/lecture-pages/lecture-18-page-02.png",
+        "title": "第18讲第2页 · 膀胱癌T分期",
+        "description": "讲义明确区分Tis、Ta、T1及T2-T4：T1侵犯固有层或黏膜下层，T2侵犯肌层。",
+    }, "p26-g3: lecture evidence drift"
+    bladder_staging_image = root / "public" / bladder_staging_evidence["image"]
+    assert bladder_staging_image.exists(), f"missing lecture evidence image: {bladder_staging_image}"
 
     unresolved = [
         f"{group['id']}:{index}"
