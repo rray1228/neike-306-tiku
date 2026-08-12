@@ -5024,14 +5024,14 @@
     {
       "id": "p15-g1",
       "page": 15,
-      "title": "营养不良",
+      "title": "胸膜疾病相关水肿机制",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "静脉和毛细血管的血压/静水压个",
-          "sourceText": "A.静脉和毛细血管的血压/静水压个"
+          "label": "静脉和毛细血管的血压/静水压↑",
+          "sourceText": "A.静脉和毛细血管的血压/静水压↑"
         },
         {
           "key": "B",
@@ -5040,8 +5040,8 @@
         },
         {
           "key": "C",
-          "label": "毛细血管通透性个",
-          "sourceText": "C.毛细血管通透性个"
+          "label": "毛细血管通透性↑",
+          "sourceText": "C.毛细血管通透性↑"
         },
         {
           "key": "D",
@@ -5096,26 +5096,44 @@
           "answerMode": "单选"
         },
         {
-          "text": "丹毒象皮肿；肝硬化",
+          "text": "丹毒象皮肿",
           "answer": [
-            "B"
+            "D"
           ],
-          "sourceText": "肝硬化（B",
+          "sourceText": "丹毒象皮肿（D",
           "sourceY": 304,
           "answerMode": "单选"
         },
         {
-          "text": "乳腺癌橘皮样变；肾病",
+          "text": "肝硬化",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "肝硬化（B",
+          "sourceY": 334,
+          "answerMode": "单选"
+        },
+        {
+          "text": "乳腺癌橘皮样变",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "乳腺癌橘皮样变（D",
+          "sourceY": 364,
+          "answerMode": "单选"
+        },
+        {
+          "text": "肾病",
           "answer": [
             "B"
           ],
           "sourceText": "肾病（B",
-          "sourceY": 364,
+          "sourceY": 394,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "A.静脉和毛细血管的血压/静水压个 | 问： | B.血浆胶渗压↓ | 营养不良（B | C.毛细血管通透性个 | 丝虫病（D | D.淋巴回流受阻 | 炎症（感染/烧伤等）（C | 心衰（A | 过敏（C | 丹毒象皮肿 | 肝硬化（B | 乳腺癌橘皮样变 | 肾病（B | A.右心衰",
-      "reviewState": "待讲义复核",
+      "sourceText": "胸膜疾病相关水肿机制 | A.静脉和毛细血管的血压/静水压↑ | B.血浆胶渗压↓ | C.毛细血管通透性↑ | D.淋巴回流受阻 | 营养不良（B） | 丝虫病（D） | 炎症（感染/烧伤等）（C） | 心衰（A） | 过敏（C） | 丹毒象皮肿（D） | 肝硬化（B） | 乳腺癌橘皮样变（D） | 肾病（B）",
+      "reviewState": "已按原题页及讲义校对",
       "topic": "呼吸",
       "lectureIds": [
         "lecture-13"

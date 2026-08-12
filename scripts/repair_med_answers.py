@@ -431,6 +431,11 @@ def corrected_group_blocks() -> dict[str, tuple[list[str], list[dict]]]:
     p79_emergency = group("p79-g3", "高血压急症与亚急症", "循环", ["lecture-52"], [option("A", "血压突然>收缩压180、或舒张压120mmHg"), option("B", "伴靶器官损害如心、脑、肾"), option("C", "不伴靶器官损害")], [stem("高血压急症", "AB"), stem("高血压亚急症", "AC")])
     p79_lowering = group("p79-g4", "高血压急症的降压节奏", "循环", ["lecture-52"], [option("A", "降至160/100mmHg左右"), option("B", "降至正常"), option("C", "降幅<25%")], [stem("1小时内血压", "C"), stem("2～6小时内血压", "A"), stem("24～48小时逐步", "B")])
     p79_drugs = group("p79-g5", "高血压急症用药", "循环", ["lecture-52"], [option("A", "可用尼卡地平"), option("B", "呋塞米"), option("C", "可用地尔硫卓"), option("D", "硝酸酯类"), option("E", "静脉给硝普钠")], [stem("高血压急症首选", "E"), stem("高血压急症初期不用（除非有心衰或明显体液容量负荷过重）", "B"), stem("高血压急症伴急性冠脉综合征", "D"), stem("高血压急症伴急性脑血管病", "A"), stem("高血压急症伴妊娠或哮喘可能不全", "C")])
+    p15_water_mechanisms = group(
+        "p15-g1", "胸膜疾病相关水肿机制", "呼吸", ["lecture-13"],
+        [option("A", "静脉和毛细血管的血压/静水压↑"), option("B", "血浆胶渗压↓"), option("C", "毛细血管通透性↑"), option("D", "淋巴回流受阻")],
+        [stem("营养不良", "B"), stem("丝虫病", "D"), stem("炎症（感染/烧伤等）", "C"), stem("心衰", "A"), stem("过敏", "C"), stem("丹毒象皮肿", "D"), stem("肝硬化", "B"), stem("乳腺癌橘皮样变", "D"), stem("肾病", "B")],
+    )
     return {
         "p07-g1": (["p07-g1", "p07-g2"], p07_compare + [p07_pneumonia]),
         "p05-g2": (["p05-g2", "p05-g3"], [p05_low_oxygen, p05_interstitial, p05_sarcoid]),
@@ -448,6 +453,7 @@ def corrected_group_blocks() -> dict[str, tuple[list[str], list[dict]]]:
         "p52-g1": (["p52-g1"], [p52_maturation, p52_all, p52_aml_fab, p52_aml_features]),
         "p58-g1": (["p58-g1"], [p58_hodgkin]),
         "p79-g1": (["p79-g1"], [p79_abpm, p79_fundus, p79_emergency, p79_lowering, p79_drugs]),
+        "p15-g1": (["p15-g1"], [p15_water_mechanisms]),
     }
 
 
