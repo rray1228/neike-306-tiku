@@ -76,6 +76,22 @@ VERIFIED_GROUPS = {
         },
         "stems": {"全程血尿": "AEG", "初始血尿": "C", "终末血尿": "BDFHI"},
     },
+    "p28-g2": {
+        "title": "尿路结石与胆系结石鉴别",
+        "options": {
+            "A": "西北地区多见", "B": "与钙代谢异常有关",
+            "C": "成分主要是胆固醇等", "D": "X线显影",
+            "E": "X线部分显影", "F": "碎石、取石或其它",
+            "G": "南方地区多见", "H": "与钙代谢异常无关",
+            "I": "成分主要是草酸钙、磷酸钙", "J": "X线不显影",
+            "K": "胆囊结石切胆囊、胆管结石取石或其它",
+        },
+        "stems": {
+            "尿路结石": "BFGI", "草酸钙": "D", "磷酸钙": "D",
+            "尿酸盐": "J", "胱氨酸": "J", "胆系结石": "ACHK",
+            "纯胆固醇结石": "J", "混合性结石": "D", "胆色素结石": "E",
+        },
+    },
     "p29-g4": {
         "title": "尿失禁类型",
         "options": {
@@ -296,6 +312,16 @@ def main() -> None:
     }, "p27-g1: lecture evidence drift"
     hematuria_image = root / "public" / hematuria_evidence["image"]
     assert hematuria_image.exists(), f"missing lecture evidence image: {hematuria_image}"
+
+    stone_comparison_evidence = groups_by_id["p28-g2"]["lectureEvidence"]
+    assert stone_comparison_evidence == {
+        "lectureId": "lecture-19", "page": 2,
+        "image": "surgery/lecture-pages/lecture-19-page-02.png",
+        "title": "第19讲第2页 · 尿路结石与胆系结石鉴别",
+        "description": "讲义表格逐项对照地区、钙代谢、主要成分、X线表现和治疗方式。",
+    }, "p28-g2: lecture evidence drift"
+    stone_comparison_image = root / "public" / stone_comparison_evidence["image"]
+    assert stone_comparison_image.exists(), f"missing lecture evidence image: {stone_comparison_image}"
 
     unresolved = [
         f"{group['id']}:{index}"

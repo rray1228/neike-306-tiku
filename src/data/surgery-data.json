@@ -12046,7 +12046,7 @@
     {
       "id": "p28-g2",
       "page": 28,
-      "title": "尿路结石",
+      "title": "尿路结石与胆系结石鉴别",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -12127,9 +12127,19 @@
             "I"
           ],
           "answerMode": "多选",
-          "sourceText": "尿路结石（BFGI草酸钙",
+          "sourceText": "尿路结石（BFGI）",
           "sourceY": 379.74755383472547,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
+        },
+        {
+          "text": "草酸钙",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "草酸钙（D）",
+          "sourceY": 390.0,
+          "ocrScore": 1.0
         },
         {
           "text": "磷酸钙",
@@ -12137,7 +12147,7 @@
             "D"
           ],
           "answerMode": "单选",
-          "sourceText": "磷酸钙 D",
+          "sourceText": "磷酸钙（D）",
           "sourceY": 398.8588494542049,
           "ocrScore": 1.0
         },
@@ -12147,12 +12157,22 @@
             "J"
           ],
           "answerMode": "单选",
-          "sourceText": "尿酸盐 J",
+          "sourceText": "尿酸盐（J）",
           "sourceY": 415.43651707266196,
           "ocrScore": 0.3
         },
         {
-          "text": "胱氨酸胆系结石",
+          "text": "胱氨酸",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选",
+          "sourceText": "胱氨酸（J）",
+          "sourceY": 432.0,
+          "ocrScore": 1.0
+        },
+        {
+          "text": "胆系结石",
           "answer": [
             "A",
             "C",
@@ -12160,28 +12180,61 @@
             "K"
           ],
           "answerMode": "多选",
-          "sourceText": "胆系结石（ACHK纯胆固醇结石",
+          "sourceText": "胆系结石（ACHK）",
           "sourceY": 465.09970586266894,
-          "ocrScore": 0.5
+          "ocrScore": 1.0
         },
         {
-          "text": "混合性结石胆色素结石",
+          "text": "纯胆固醇结石",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选",
+          "sourceText": "纯胆固醇结石（J）",
+          "sourceY": 476.0,
+          "ocrScore": 1.0
+        },
+        {
+          "text": "混合性结石",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "混合性结石（D）",
+          "sourceY": 488.0,
+          "ocrScore": 1.0
+        },
+        {
+          "text": "胆色素结石",
           "answer": [
             "E"
           ],
           "answerMode": "单选",
-          "sourceText": "胆色素结石 E",
+          "sourceText": "胆色素结石（E）",
           "sourceY": 498.99680295921996,
-          "ocrScore": 0.3
+          "ocrScore": 1.0
         }
       ],
-      "sourceText": "A.西北地区多见 | B.与钙代谢异常有关 | 尿路结石（BFGI草酸钙 | C.成分主要是胆固醇等 | 磷酸钙 | D | D.X线显影 | 尿酸盐 | J | E.X线部分显影 | 胱氨酸 | F.碎石、取石或其它 | G.南方地区多见 | 胆系结石（ACHK纯胆固醇结石 | H.与钙代谢异常无关 | 混合性结石 | 1.成分主要是草酸钙、磷酸钙 | 胆色素结石 | E | J.X线不显影 | K.胆囊结石切胆囊、胆管结石取石或其它",
+      "sourceText": "尿路结石与胆系结石鉴别 | A.西北地区多见 | B.与钙代谢异常有关 | C.成分主要是胆固醇等 | D.X线显影 | E.X线部分显影 | F.碎石、取石或其它 | G.南方地区多见 | H.与钙代谢异常无关 | I.成分主要是草酸钙、磷酸钙 | J.X线不显影 | K.胆囊结石切胆囊、胆管结石取石或其它 | 尿路结石（BFGI） | 草酸钙（D） | 磷酸钙（D） | 尿酸盐（J） | 胱氨酸（J） | 胆系结石（ACHK） | 纯胆固醇结石（J） | 混合性结石（D） | 胆色素结石（E）",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "topic": "泌尿外科",
       "lectureIds": [
         "lecture-18",
         "lecture-19"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-19-page-02.png",
+        "title": "第19讲第2页 · 尿路结石与胆系结石鉴别",
+        "description": "讲义表格逐项对照地区、钙代谢、主要成分、X线表现和治疗方式。"
+      },
+      "reviewNotes": [
+        {
+          "title": "第十组拆分横向题干",
+          "body": "先前把原题左右两列及上下行误拼为“胱氨酸胆系结石”等错误题干。现已恢复为尿路结石5题、胆系结石4题，共9道独立题干，并按第19讲第2页逐项复核答案。"
+        }
       ]
     },
     {
