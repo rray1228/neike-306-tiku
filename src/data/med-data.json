@@ -31208,11 +31208,11 @@
         {
           "text": "湿冷型（收缩压>90mmHg）",
           "answer": [
-            "B",
             "D",
-            "F"
+            "F",
+            "B"
           ],
-          "sourceText": "湿冷型（收缩压>90mmHg）BDF",
+          "sourceText": "湿冷型（收缩压>90mmHg）DFB",
           "sourceY": 0,
           "answerMode": "多选"
         },
