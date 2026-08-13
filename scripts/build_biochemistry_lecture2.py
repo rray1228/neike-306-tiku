@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import random
 from pathlib import Path
 
 
@@ -11,12 +12,18 @@ TITLE = "生化 氧化磷酸化"
 
 
 def group(index, title, topic, options, stems, page):
+    source_keys = {chr(65 + position): label for position, label in enumerate(options)}
+    shuffled = list(options)
+    random.Random(30602 + index).shuffle(shuffled)
+    if shuffled == options:
+        shuffled = shuffled[1:] + shuffled[:1]
+    option_keys = {label: chr(65 + position) for position, label in enumerate(shuffled)}
     return {
         "id": f"bio-02-{index:02d}", "page": index, "title": title, "kind": "B", "kindLabel": "B型题",
-        "options": [{"key": chr(65 + i), "label": label} for i, label in enumerate(options)],
-        "stems": [{"number": i + 1, "text": text, "answerRaw": answer, "answer": list(answer), "answerMode": "多选" if len(answer) > 1 else "单选"} for i, (text, answer) in enumerate(stems)],
+        "options": [{"key": chr(65 + i), "label": label} for i, label in enumerate(shuffled)],
+        "stems": [{"number": i + 1, "text": text, "answerRaw": "、".join(option_keys[source_keys[key]] for key in answer), "answer": [option_keys[source_keys[key]] for key in answer], "answerMode": "多选" if len(answer) > 1 else "单选"} for i, (text, answer) in enumerate(stems)],
         "sourceText": title, "reviewState": "已按 2027 考研讲义核对", "reviewIssues": [], "reviewNotes": [], "topic": topic,
-        "lectureIds": ["lecture-02"],
+        "lectureIds": ["lecture-02"], "optionShuffleVersion": 1,
         "lectureEvidence": {"lectureId": "lecture-02", "lectureNumber": 2, "lectureTitle": TITLE, "page": page, "image": f"biochemistry/lecture-pages/lecture-02-page-{page:02d}.png", "title": f"第 02 讲《{TITLE}》· 第 {page} 页", "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。", "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"},
     }
 
@@ -26,7 +33,7 @@ def main():
     chain = "呼吸链组成与 P/O 比值"
     regulation = "氧化磷酸化调节与抑制"
     groups = [
-        group(1, "胞浆 H 穿梭进入线粒体", shuttle, ["脑", "骨骼肌", "肝", "心", "肾", "磷酸二羟丙酮", "α-磷酸甘油", "草酰乙酸", "天冬氨酸", "丙酮酸"], [("α-磷酸甘油-磷酸二羟丙酮穿梭：组织", "AB"), ("α-磷酸甘油-磷酸二羟丙酮穿梭：直接参与的重要中间产物", "FG"), ("苹果酸-天冬氨酸穿梭：组织", "CDE"), ("苹果酸-天冬氨酸穿梭：直接参与的重要中间产物", "HI")], 1),
+        group(1, "胞浆 H 穿梭进入线粒体", shuttle, ["脑", "骨骼肌", "肝", "心", "肾", "磷酸二羟丙酮", "α-磷酸甘油", "草酰乙酸", "天冬氨酸", "苹果酸", "丙酮酸"], [("α-磷酸甘油-磷酸二羟丙酮穿梭：组织", "AB"), ("α-磷酸甘油-磷酸二羟丙酮穿梭：直接参与的重要中间产物", "FG"), ("苹果酸-天冬氨酸穿梭：组织", "CDE"), ("苹果酸-天冬氨酸穿梭：直接参与的重要中间产物", "HIJ")], 1),
         group(2, "ATP 与产生 ATP 的方式", shuttle, ["GTP", "UTP", "CTP", "1,3-二磷酸甘油酸→3-磷酸甘油酸+ATP", "磷酸烯醇式丙酮酸→丙酮酸+ATP", "琥珀酰 CoA→琥珀酸+ATP/GTP", "底物水平磷酸化", "氧化磷酸化/生物氧化（最主要）"], [("合成蛋白质需要", "A"), ("合成糖原需要", "B"), ("合成磷脂需要", "C"), ("产生 ATP 的方式", "GH"), ("底物水平磷酸化", "DEF")], 1),
         group(3, "递 H 与递电子体辨析", chain, ["FH₄", "CoQ", "细胞色素 Cyt", "FAD", "铁硫蛋白 Fe-S", "NAD+"], [("不参与递 H 的有", "ACE"), ("在呼吸链中可传递电子的有", "BCDEF"), ("单递电子体", "CE")], 2),
         group(4, "呼吸链复合体Ⅰ～Ⅳ对比", chain, ["NADH-泛醌还原酶", "琥珀酸-泛醌还原酶", "泛醌-细胞色素 c 还原酶", "细胞色素 c 氧化酶", "FMN", "FAD", "Fe-S", "血红素", "CuA", "CuB", "有质子泵功能", "没有质子泵功能（不能耦联产生 ATP）", "Q 循环"], [("复合体Ⅰ：酶、辅基、质子泵功能", "AEGK"), ("复合体Ⅱ：酶、辅基、质子泵功能", "BFGL"), ("复合体Ⅲ：酶、辅基、质子泵功能、特点", "CGHKM"), ("复合体Ⅳ：酶、辅基、质子泵功能", "DHIJK")], 2),
