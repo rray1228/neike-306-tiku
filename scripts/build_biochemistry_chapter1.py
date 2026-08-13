@@ -28,7 +28,7 @@ def group(index, title, topic, options, stems, lecture, page, notes=None):
         "lectureEvidence": {
             "lectureId": f"lecture-{lecture:02d}", "lectureNumber": lecture,
             "lectureTitle": LECTURES[lecture - 1][1], "page": page,
-            "image": f"biochemistry/lecture-pages/lecture-{lecture:02d}-page-{page:02d}.png",
+            "image": f"biochemistry/lecture-pages/lecture-{lecture:02d}-page-{page:02d}.webp",
             "title": f"第 {lecture} 讲《{LECTURES[lecture - 1][1]}》· 第 {page} 页",
             "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
             "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。",

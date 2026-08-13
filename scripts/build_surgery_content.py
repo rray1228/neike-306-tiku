@@ -777,7 +777,7 @@ def apply_manual_repairs(groups: list[dict]) -> list[dict]:
             group["lectureEvidence"] = {
                 "lectureId": "lecture-19",
                 "page": 1,
-                "image": "surgery/lecture-pages/lecture-19-page-01.png",
+                "image": "surgery/lecture-pages/lecture-19-page-01.webp",
                 "title": "第19讲第1页 · 泌尿系结石",
                 "description": "讲义在“磷酸钙”条目下明确列出“酸化尿液+抗感染”，因此本题答案包含 N。",
             }
@@ -789,7 +789,7 @@ def apply_manual_repairs(groups: list[dict]) -> list[dict]:
             group["lectureEvidence"] = {
                 "lectureId": "lecture-18",
                 "page": 2,
-                "image": "surgery/lecture-pages/lecture-18-page-02.png",
+                "image": "surgery/lecture-pages/lecture-18-page-02.webp",
                 "title": "第18讲第2页 · 膀胱癌T分期",
                 "description": "讲义明确区分Tis、Ta、T1及T2-T4：T1侵犯固有层或黏膜下层，T2侵犯肌层。",
             }
@@ -801,7 +801,7 @@ def apply_manual_repairs(groups: list[dict]) -> list[dict]:
             group["lectureEvidence"] = {
                 "lectureId": "lecture-18",
                 "page": 3,
-                "image": "surgery/lecture-pages/lecture-18-page-03.png",
+                "image": "surgery/lecture-pages/lecture-18-page-03.webp",
                 "title": "第18讲第3页 · 尿三杯与血尿时相",
                 "description": "讲义明确：终末血尿可见于肾和膀胱结核、膀胱炎、膀胱结石及膀胱癌。",
             }
@@ -813,7 +813,7 @@ def apply_manual_repairs(groups: list[dict]) -> list[dict]:
             group["lectureEvidence"] = {
                 "lectureId": "lecture-19",
                 "page": 2,
-                "image": "surgery/lecture-pages/lecture-19-page-02.png",
+                "image": "surgery/lecture-pages/lecture-19-page-02.webp",
                 "title": "第19讲第2页 · 尿路结石与胆系结石鉴别",
                 "description": "讲义表格逐项对照地区、钙代谢、主要成分、X线表现和治疗方式。",
             }
@@ -876,11 +876,11 @@ def main() -> None:
         rows = pages[page]
         page_records.append({
             "page": page,
-            "image": f"surgery/source-pages/page-{page:02d}.png",
+            "image": f"surgery/source-pages/page-{page:02d}.webp",
             "topic": PAGE_TOPIC[page],
             "searchText": clean_text(" ".join(row["text"] for row in rows))[:7000],
         })
-        groups.extend(segment_groups(page, rows, args.image_dir / f"page-{page:02d}.png"))
+        groups.extend(segment_groups(page, rows, args.image_dir / f"page-{page:02d}.webp"))
     groups = apply_manual_repairs(groups)
 
     payload = {

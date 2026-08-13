@@ -11,6 +11,8 @@
     "audit:fracture": "python3 scripts/audit_fracture_content.py",
     "audit:deformity": "python3 scripts/audit_deformity_content.py",
     "audit:chronic-injury": "python3 scripts/audit_chronic_injury_content.py",
+    "audit:images": "${CODEX_PYTHON:-python3} scripts/audit_site_images.py",
+    "optimize:images": "${CODEX_PYTHON:-python3} scripts/optimize_site_images.py",
     "audit:ortho-mixed": "python3 scripts/audit_ortho_mixed_content.py",
     "audit:ortho-infection": "python3 scripts/audit_ortho_infection_content.py",
     "audit:nonpurulent-arthritis": "python3 scripts/audit_nonpurulent_arthritis_content.py",

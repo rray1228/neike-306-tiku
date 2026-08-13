@@ -179,7 +179,7 @@ def main() -> None:
         if score < 4:
             lecture_id, page_number = candidates[0][0], 1
         lecture = lecture_by_id[lecture_id]
-        image_name = f"med/lecture-pages/{lecture_id}-page-{page_number:02d}.png"
+        image_name = f"med/lecture-pages/{lecture_id}-page-{page_number:02d}.webp"
         group["lectureEvidence"] = {
             "lectureId": lecture_id,
             "page": page_number,
@@ -193,7 +193,7 @@ def main() -> None:
 
     for lecture_id, page_number in sorted(rendered):
         lecture = lecture_by_id[lecture_id]
-        output_path = args.output_dir / f"{lecture_id}-page-{page_number:02d}.png"
+        output_path = args.output_dir / f"{lecture_id}-page-{page_number:02d}.webp"
         if not output_path.exists():
             render_page(args.lecture_dir / lecture["file"], output_path, page_number, args.pdftoppm)
 

@@ -31,7 +31,7 @@ def bank(index, title, options, stems, lecture_page):
 def evidence(page):
     return {
         "lectureId": "lecture-04", "lectureNumber": 4, "lectureTitle": TITLE, "page": page,
-        "image": f"biochemistry/lecture-pages/lecture-04-page-{page:02d}.png",
+        "image": f"biochemistry/lecture-pages/lecture-04-page-{page:02d}.webp",
         "title": f"第 04 讲《{TITLE}》· 第 {page} 页", "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
         "method": "按知识点人工映射至 2027 考研生化第 04 讲，并逐项复核。",
     }

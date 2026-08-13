@@ -26,7 +26,7 @@ GROUPS = [
         ],
         "stems": [("一般治疗原则", "ABCDEFG"), ("NSAIDs", "BCDE"), ("糖皮质激素", "F")],
         "order": "DAFCGBE",
-        "image": "surgery/lecture-pages/lecture-21-page-01.png",
+        "image": "surgery/lecture-pages/lecture-21-page-01.webp",
         "evidenceTitle": "第21讲第1页：一般治疗原则",
     },
     {
@@ -52,7 +52,7 @@ GROUPS = [
             ("股骨头骨软骨病", "PQRST"),
         ],
         "order": "LQCTHBNFPJESAOGRDMİK".replace("İ", "I"),
-        "image": "surgery/lecture-pages/lecture-21-page-01-03.png",
+        "image": "surgery/lecture-pages/lecture-21-page-01-03.webp",
         "evidenceTitle": "第21讲第1～3页：疾病表现、检查和特点",
     },
     {
@@ -76,7 +76,7 @@ GROUPS = [
             ("胫骨结节骨软骨病", "MN"), ("股骨头骨软骨病", "O"),
         ],
         "order": "JCNFAOGDKMEIBLH",
-        "image": "surgery/lecture-pages/lecture-21-page-01-03.png",
+        "image": "surgery/lecture-pages/lecture-21-page-01-03.webp",
         "evidenceTitle": "第21讲第1～3页：各病治疗",
     },
     {
@@ -95,7 +95,7 @@ GROUPS = [
             ("股骨头骨软骨病：早期诊断", "E"), ("胫骨结节骨软骨病：影像学", "F"),
         ],
         "order": "EBFADC",
-        "image": "surgery/lecture-pages/lecture-21-page-01-03.png",
+        "image": "surgery/lecture-pages/lecture-21-page-01-03.webp",
         "evidenceTitle": "第21讲第1～3页：特殊体征和检查",
     },
     {
@@ -124,7 +124,7 @@ GROUPS = [
             ("类风湿关节炎", "UVWX"), ("肩袖损伤", "YZ"),
         ],
         "order": "HSCVKNDYATWFPLZGBUJEXMRIQO",
-        "image": "surgery/lecture-pages/lecture-21-page-04.png",
+        "image": "surgery/lecture-pages/lecture-21-page-04.webp",
         "evidenceTitle": "第21讲第4页：肩痛及关节疾病鉴别表",
     },
 ]

@@ -52,7 +52,7 @@ def main() -> None:
     }
     assert group9["lectureEvidence"] == {
         "lectureId": "lecture-16", "page": 1,
-        "image": "surgery/lecture-pages/lecture-16-page-01.png",
+        "image": "surgery/lecture-pages/lecture-16-page-01.webp",
         "title": "第16讲第1页 · 胆系结石分类",
         "description": "讲义表格明确：黑色素结石和棕色结石均为X线部分显影。",
     }

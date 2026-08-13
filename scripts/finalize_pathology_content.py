@@ -85,7 +85,7 @@ def make_evidence(lecture_id: str, page: int, lecture_title: str) -> dict:
     return {
         "lectureId": lecture_id,
         "page": page,
-        "image": f"pathology/lecture-pages/{lecture_id}-page-{page:02d}.png",
+        "image": f"pathology/lecture-pages/{lecture_id}-page-{page:02d}.webp",
         "title": f"第{number}讲第{page}页：{lecture_title}",
         "description": f"本题对应第{number}讲第{page}页讲义。",
     }

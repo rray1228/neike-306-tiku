@@ -24,7 +24,7 @@ def group(index, title, topic, options, stems, page):
         "lectureIds": ["lecture-03"],
         "lectureEvidence": {
             "lectureId": "lecture-03", "lectureNumber": 3, "lectureTitle": LECTURE_TITLE, "page": page,
-            "image": f"biochemistry/lecture-pages/lecture-03-page-{page:02d}.png",
+            "image": f"biochemistry/lecture-pages/lecture-03-page-{page:02d}.webp",
             "title": f"第 03 讲《{LECTURE_TITLE}》· 第 {page} 页",
             "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
             "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。",

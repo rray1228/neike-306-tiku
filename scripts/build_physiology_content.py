@@ -383,7 +383,7 @@ def finalize_group(source_group: dict, lectures: list[dict], page_vectors: dict)
             "method": "按今年讲义原文人工复核并定位",
         })
     evidence.update({
-        "image": f"physiology/lecture-pages/{evidence['lectureId']}-page-{evidence['page']:02d}.png",
+        "image": f"physiology/lecture-pages/{evidence['lectureId']}-page-{evidence['page']:02d}.webp",
         "title": f"第{evidence['lectureNumber']}讲第{evidence['page']}页：{evidence['lectureTitle']}",
         "description": f"本题组已按第{evidence['lectureNumber']}讲第{evidence['page']}页逐项核对题目、选项与答案。",
     })
@@ -476,7 +476,7 @@ def main() -> None:
 
     pages = [{
         "page": page["page"],
-        "image": f"physiology/source-pages/page-{page['page']:03d}.png",
+        "image": f"physiology/source-pages/page-{page['page']:03d}.webp",
         "topic": next((group["topic"] for group in groups if group["page"] == page["page"]), "综合"),
         "searchText": clean_text(page["searchText"]),
     } for page in extracted["pages"]]

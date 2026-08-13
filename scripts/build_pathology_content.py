@@ -649,7 +649,7 @@ def main() -> None:
         page_topic = topic_for(page_text, page_number)
         page_records.append({
             "page": page_number,
-            "image": f"pathology/source-pages/page-{page_number:02d}.png",
+            "image": f"pathology/source-pages/page-{page_number:02d}.webp",
             "topic": page_topic,
             "searchText": shared.clean_text(page_text)[:7000],
         })

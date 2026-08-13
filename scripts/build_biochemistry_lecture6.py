@@ -50,7 +50,7 @@ def group(index, title, options, stems, lecture_page):
             "lectureNumber": 6,
             "lectureTitle": TITLE,
             "page": lecture_page,
-            "image": f"biochemistry/lecture-pages/lecture-06-page-{lecture_page:02d}.png",
+            "image": f"biochemistry/lecture-pages/lecture-06-page-{lecture_page:02d}.webp",
             "title": f"第 06 讲《{TITLE}》· 第 {lecture_page} 页",
             "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
             "method": "按知识点人工映射至 2027 考研生化第 06 讲，并逐项复核。",

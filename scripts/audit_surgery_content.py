@@ -255,13 +255,13 @@ def main() -> None:
     hernia_evidence = {
         "p14-g2": {
             "lectureId": "lecture-12", "page": 1,
-            "image": "surgery/lecture-pages/lecture-12-page-01.png",
+            "image": "surgery/lecture-pages/lecture-12-page-01.webp",
             "title": "第12讲第1页 · 股管与腹股沟管结构",
             "description": "讲义逐项列出股环四界、腹股沟管四壁及直疝三角边界，用于核对本页解剖题组。",
         },
         "p16-g1": {
             "lectureId": "lecture-12", "page": 5,
-            "image": "surgery/lecture-pages/lecture-12-page-05.png",
+            "image": "surgery/lecture-pages/lecture-12-page-05.webp",
             "title": "第12讲第5页 · 股疝、斜疝与直疝鉴别",
             "description": "讲义表格对照好发人群、突出途径、压内口试验、外形、阴囊关系、咳嗽冲击感、精索位置、动脉关系及嵌顿几率。",
         },
@@ -275,7 +275,7 @@ def main() -> None:
     assert phosphate_evidence == {
         "lectureId": "lecture-19",
         "page": 1,
-        "image": "surgery/lecture-pages/lecture-19-page-01.png",
+        "image": "surgery/lecture-pages/lecture-19-page-01.webp",
         "title": "第19讲第1页 · 泌尿系结石",
         "description": "讲义在“磷酸钙”条目下明确列出“酸化尿液+抗感染”，因此本题答案包含 N。",
     }, "p28-g1: lecture evidence drift"
@@ -286,7 +286,7 @@ def main() -> None:
     assert colorectal_evidence == {
         "lectureId": "lecture-11",
         "page": 1,
-        "image": "surgery/lecture-pages/lecture-11-page-01.png",
+        "image": "surgery/lecture-pages/lecture-11-page-01.webp",
         "title": "第11讲第1页 · 齿状线上下鉴别",
         "description": "讲义表格逐项列出齿状线上下的分界、来源、组织、血管、淋巴、神经、癌变及痔的对应关系。",
     }, "p12-g4: lecture evidence drift"
@@ -296,7 +296,7 @@ def main() -> None:
     bladder_staging_evidence = groups_by_id["p26-g3"]["lectureEvidence"]
     assert bladder_staging_evidence == {
         "lectureId": "lecture-18", "page": 2,
-        "image": "surgery/lecture-pages/lecture-18-page-02.png",
+        "image": "surgery/lecture-pages/lecture-18-page-02.webp",
         "title": "第18讲第2页 · 膀胱癌T分期",
         "description": "讲义明确区分Tis、Ta、T1及T2-T4：T1侵犯固有层或黏膜下层，T2侵犯肌层。",
     }, "p26-g3: lecture evidence drift"
@@ -306,7 +306,7 @@ def main() -> None:
     hematuria_evidence = groups_by_id["p27-g1"]["lectureEvidence"]
     assert hematuria_evidence == {
         "lectureId": "lecture-18", "page": 3,
-        "image": "surgery/lecture-pages/lecture-18-page-03.png",
+        "image": "surgery/lecture-pages/lecture-18-page-03.webp",
         "title": "第18讲第3页 · 尿三杯与血尿时相",
         "description": "讲义明确：终末血尿可见于肾和膀胱结核、膀胱炎、膀胱结石及膀胱癌。",
     }, "p27-g1: lecture evidence drift"
@@ -316,7 +316,7 @@ def main() -> None:
     stone_comparison_evidence = groups_by_id["p28-g2"]["lectureEvidence"]
     assert stone_comparison_evidence == {
         "lectureId": "lecture-19", "page": 2,
-        "image": "surgery/lecture-pages/lecture-19-page-02.png",
+        "image": "surgery/lecture-pages/lecture-19-page-02.webp",
         "title": "第19讲第2页 · 尿路结石与胆系结石鉴别",
         "description": "讲义表格逐项对照地区、钙代谢、主要成分、X线表现和治疗方式。",
     }, "p28-g2: lecture evidence drift"

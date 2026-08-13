@@ -36,7 +36,7 @@ function evidence(lectureNumber, page, description) {
   return {
     lectureId: lecture.id,
     page,
-    image: `surgery/lecture-pages/lecture-${lectureNumber}-page-${String(page).padStart(2, '0')}.png`,
+    image: `surgery/lecture-pages/lecture-${lectureNumber}-page-${String(page).padStart(2, '0')}.webp`,
     title: `${lecture.title}第${page}页`,
     description,
   }

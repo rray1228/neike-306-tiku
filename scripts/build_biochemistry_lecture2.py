@@ -24,7 +24,7 @@ def group(index, title, topic, options, stems, page):
         "stems": [{"number": i + 1, "text": text, "answerRaw": "、".join(option_keys[source_keys[key]] for key in answer), "answer": [option_keys[source_keys[key]] for key in answer], "answerMode": "多选" if len(answer) > 1 else "单选"} for i, (text, answer) in enumerate(stems)],
         "sourceText": title, "reviewState": "已按 2027 考研讲义核对", "reviewIssues": [], "reviewNotes": [], "topic": topic,
         "lectureIds": ["lecture-02"], "optionShuffleVersion": 1,
-        "lectureEvidence": {"lectureId": "lecture-02", "lectureNumber": 2, "lectureTitle": TITLE, "page": page, "image": f"biochemistry/lecture-pages/lecture-02-page-{page:02d}.png", "title": f"第 02 讲《{TITLE}》· 第 {page} 页", "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。", "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"},
+        "lectureEvidence": {"lectureId": "lecture-02", "lectureNumber": 2, "lectureTitle": TITLE, "page": page, "image": f"biochemistry/lecture-pages/lecture-02-page-{page:02d}.webp", "title": f"第 02 讲《{TITLE}》· 第 {page} 页", "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。", "method": "按知识点人工映射至 2027 考研生化第 02 讲，并逐项复核。"},
     }
 
 

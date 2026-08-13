@@ -161,7 +161,7 @@ def main() -> None:
     group6["lectureEvidence"] = {
         "lectureId": "lecture-14",
         "page": 3,
-        "image": "surgery/lecture-pages/lecture-14-page-03.png",
+        "image": "surgery/lecture-pages/lecture-14-page-03.webp",
         "title": "第14讲 · 门脉高压症第3页",
         "description": "断流术与分流术的压力、再出血率、肝性脑病发生率、肝功能影响及术式已逐项核对。",
     }
@@ -202,7 +202,7 @@ def main() -> None:
     group9["lectureEvidence"] = {
         "lectureId": "lecture-16",
         "page": 1,
-        "image": "surgery/lecture-pages/lecture-16-page-01.png",
+        "image": "surgery/lecture-pages/lecture-16-page-01.webp",
         "title": "第16讲第1页 · 胆系结石分类",
         "description": "讲义表格明确：黑色素结石和棕色结石均为X线部分显影。",
     }
@@ -234,7 +234,7 @@ def main() -> None:
     group26["lectureEvidence"] = {
         "lectureId": "lecture-16",
         "page": 12,
-        "image": "surgery/lecture-pages/lecture-16-page-12.png",
+        "image": "surgery/lecture-pages/lecture-16-page-12.webp",
         "title": "第16讲第12页 · 胆系英文缩写与术式",
         "description": "讲义汇总了各缩写、术式和体征的标准对应关系；网站选项已改为不含目标词的定义性描述。",
     }
