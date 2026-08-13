@@ -18,6 +18,9 @@ def main() -> None:
     assert payload["meta"]["sourcePdfPages"] == 37
     assert payload["meta"]["sourcePages"] == 35
     assert payload["meta"]["lectureCount"] == 26
+    assert payload["meta"]["groups"] == 77
+    assert payload["meta"]["stems"] == 315
+    assert payload["meta"]["lectureEvidenceStems"] == 315
 
     ids = [group["id"] for group in payload["groups"]]
     assert len(ids) == len(set(ids)), "duplicate group ids"
@@ -29,6 +32,7 @@ def main() -> None:
     duplicate_option_keys = []
     glued_answer_stems = []
     missing_images = []
+    missing_lecture_images = []
     for page in payload["pages"]:
         image = root / "public" / page["image"]
         if not image.exists():
@@ -47,8 +51,14 @@ def main() -> None:
                 invalid_answers.append(f"{group['id']}:{index}={''.join(absent)}")
             if re.search(r"[；;]\s*[A-Z①-⑥]{1,}\s*$", stem.get("text", "")):
                 glued_answer_stems.append(f"{group['id']}:{index}")
+            evidence = stem.get("lectureEvidence")
+            assert evidence, f"missing lecture evidence: {group['id']}:{index}"
+            image = root / "public" / evidence["image"]
+            if not image.exists():
+                missing_lecture_images.append(str(image))
 
     assert not missing_images, f"missing source images: {missing_images}"
+    assert not missing_lecture_images, f"missing lecture images: {missing_lecture_images}"
     assert not duplicate_answers, f"duplicate answer keys: {duplicate_answers}"
     assert not duplicate_option_keys, f"duplicate option keys: {duplicate_option_keys}"
     assert not invalid_answers, f"answers missing from option bank: {invalid_answers}"
@@ -72,7 +82,7 @@ def main() -> None:
         "门脉高压的临床表现": "ACEGKLOPQTV①",
         "腹水形成的机制": "EVW③⑥",
     }
-    assert cirrhosis["reviewState"] == "已按题册原图与讲义复核"
+    assert cirrhosis["reviewState"] == "已按题册原图与讲义逐题复核"
 
     rheumatism = next(group for group in payload["groups"] if group["id"] == "p08-g1")
     rheumatism_options = {
@@ -87,7 +97,7 @@ def main() -> None:
         "风湿": "ACDFJKL",
         "类风湿": "BEGHILM",
     }
-    assert rheumatism["reviewState"] == "已按题册原图与讲义复核"
+    assert rheumatism["reviewState"] == "已按题册原图与讲义逐题复核"
 
     groups_by_id = {group["id"]: group for group in payload["groups"]}
 
@@ -103,7 +113,7 @@ def main() -> None:
         ]
         assert actual_options == expected_options, f"{group_id} option mismatch"
         assert actual_answers == expected_answers, f"{group_id} answer mismatch"
-        assert group["reviewState"] == "已按题册原图与讲义复核"
+        assert group["reviewState"] == "已按题册原图与讲义逐题复核"
 
     thyroid = groups_by_id["p11-g2"]
     thyroid_answers = {
@@ -111,9 +121,11 @@ def main() -> None:
     }
     assert thyroid_answers["甲状腺腺瘤"] == "BDEGI"
     assert "I" in thyroid_answers["甲状腺腺瘤"]
-    assert thyroid["reviewState"] == "已按题册原图与讲义复核"
+    assert thyroid["reviewState"] == "已按题册原图与讲义逐题复核"
 
     page_counts = Counter(group["page"] for group in payload["groups"])
+    assert page_counts[5] == 2
+    assert page_counts[19] == 2
     assert {page: page_counts[page] for page in [11, 13, 16, 17, 21, 23, 25, 26, 27, 31, 32, 36]} == {
         11: 3, 13: 3, 16: 2, 17: 4, 21: 2, 23: 2,
         25: 2, 26: 4, 27: 2, 31: 1, 32: 3, 36: 2,
@@ -123,9 +135,10 @@ def main() -> None:
         group = groups_by_id[group_id]
         actual = [(stem["text"], "".join(stem["answer"])) for stem in group["stems"]]
         assert actual == expected, f"{group_id} answer mismatch: {actual}"
-        assert group["reviewState"] == "已按题册原图与讲义复核"
+        assert group["reviewState"] == "已按题册原图与讲义逐题复核"
 
     answer_snapshots = {
+        "p05-g2": [("原癌基因", "BGI"), ("抑癌基因", "ADEFHK"), ("错配修复基因", "CJ"), ("与大肠癌关系最密切的三个基因", "FBD"), ("与遗传性腺瘤性息肉病相关的基因", "F"), ("与遗传性非息肉病性大肠癌/Lynch综合征相关的基因", "C")],
         "p06-g2": [("急性感染性心内膜炎", "ADFHIKLM"), ("亚急性感染性心内膜炎", "BCDEGJM")],
         "p08-g3": [("扩张型心肌病", "BEGIKMO"), ("肥厚型心肌病", "ADHJLN"), ("限制型心肌病", "CF")],
         "p11-g1": [("慢性淋巴细胞性/自身免疫性甲状腺炎/桥本", "AFHJLMN"), ("亚急性/肉芽肿性/巨细胞性甲状腺炎", "BCDEGIKO")],
@@ -137,6 +150,7 @@ def main() -> None:
         "p16-g2": [("上皮性肿瘤", "ACDGO"), ("由卵母细胞发生的生殖细胞肿瘤", "BEHJL"), ("由卵泡细胞发生的性索间质肿瘤", "FIKMN")],
         "p17-g3": [("粒层细胞瘤/颗粒细胞瘤", "ACE"), ("卵泡膜细胞瘤", "BDE")],
         "p17-g4": [("前列腺增生/肥大", "BEG"), ("前列腺癌", "ACDFG")],
+        "p19-g2": [("原发性肺结核", "ACEHKNP"), ("继发性肺结核", "BDFGIJLMOQ")],
         "p21-g1": [("流行性脑脊髓膜炎", "AEHILMS"), ("流行性乙型脑炎", "BCDFGJKNOPQR")],
         "p21-g2": [("细菌性痢疾", "A"), ("中毒性痢疾", "B")],
         "p23-g1": [("肠结核", "A"), ("肠伤寒", "F"), ("细菌性痢疾", "B"), ("阿米巴", "G"), ("溃疡性结肠炎", "H"), ("克罗恩病", "C"), ("消化性溃疡", "I"), ("胃癌溃疡型", "J"), ("胃泌素瘤", "K"), ("应激性溃疡", "E")],

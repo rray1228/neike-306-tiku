@@ -158,6 +158,9 @@ button:disabled { cursor: default; }
 .answer-mode { flex: 0 0 auto; margin-top: 1px; padding: 3px 6px; border: 1px solid #d9e1ec; border-radius: 5px; color: #738196; background: #f7f9fc; font-size: 10px; line-height: 1.2; }
 .answer-mode.is-multi { border-color: #b8d2fa; color: var(--blue); background: var(--blue-soft); }
 .stem-copy small { display: block; color: #9aa6b5; font-size: 11px; margin-top: 4px; }
+.stem-evidence-button { display: inline-flex; align-items: center; gap: 5px; margin-top: 7px; padding: 5px 8px; border: 1px solid #cfe5d9; border-radius: 6px; color: #2f6f51; background: #f6fcf8; font-size: 11px; font-weight: 700; line-height: 1; }
+.stem-evidence-button:hover { border-color: #9fcbb4; background: var(--green-soft); }
+.stem-evidence-button svg:last-child { margin-left: 2px; opacity: .72; }
 .answer-choices { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 5px; max-width: 230px; }
 .answer-chip { position: relative; width: 29px; height: 29px; border: 1px solid #d9e1ec; border-radius: 7px; color: #5f6f85; background: #fbfcfe; font-size: 12px; font-weight: 700; transition: .15s ease; }
 .rank-order { position: absolute; top: -5px; right: -4px; min-width: 13px; height: 13px; padding: 0 2px; border-radius: 7px; color: var(--blue); background: #fff; font-size: 9px; line-height: 13px; box-shadow: 0 0 0 1px #b8d2fa; }

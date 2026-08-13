@@ -4,6 +4,7 @@
   "version": "0.2.0",
   "type": "module",
   "scripts": {
+    "audit:pathology": "python3 scripts/audit_pathology_content.py",
     "audit:surgery": "python3 scripts/audit_surgery_content.py",
     "audit:surgery-hpb": "python3 scripts/audit_surgery_hpb_content.py",
     "audit:thyroid": "python3 scripts/audit_thyroid_content.py",

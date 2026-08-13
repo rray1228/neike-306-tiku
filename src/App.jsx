@@ -544,6 +544,7 @@ function App() {
   const [notes, setNotes] = useState(() => readLocalStorage('med-notes', {}))
   const [showSource, setShowSource] = useState(false)
   const [showLectureEvidence, setShowLectureEvidence] = useState(false)
+  const [stemLectureEvidence, setStemLectureEvidence] = useState(null)
   const [showNote, setShowNote] = useState(false)
   const [mobileEvidence, setMobileEvidence] = useState(false)
   const [sidebarCollapsed, setSidebarCollapsed] = useState(() => {
@@ -682,6 +683,7 @@ function App() {
     })
     setShowSource(false)
     setShowLectureEvidence(false)
+    setStemLectureEvidence(null)
     setShowNote(false)
   }
 
@@ -691,6 +693,7 @@ function App() {
     setGroupIndex((previous) => (previous + offset + filteredGroups.length) % filteredGroups.length)
     setShowSource(false)
     setShowLectureEvidence(false)
+    setStemLectureEvidence(null)
     setShowNote(false)
   }
 
@@ -700,6 +703,7 @@ function App() {
     setGroupIndex(Math.min(Math.max(index, 0), filteredGroups.length - 1))
     setShowSource(false)
     setShowLectureEvidence(false)
+    setStemLectureEvidence(null)
     setShowNote(false)
   }
 
@@ -713,6 +717,7 @@ function App() {
     setGroupIndex(0)
     setShowSource(false)
     setShowLectureEvidence(false)
+    setStemLectureEvidence(null)
     setShowNote(false)
   }
 
@@ -734,6 +739,7 @@ function App() {
     setGroupIndex(0)
     setShowSource(false)
     setShowLectureEvidence(false)
+    setStemLectureEvidence(null)
     setShowNote(false)
     if (typeof window !== 'undefined') window.requestAnimationFrame(() => window.scrollTo({ top: 0, left: 0, behavior: 'auto' }))
   }
@@ -755,6 +761,7 @@ function App() {
     setGroupIndex(0)
     setShowSource(false)
     setShowLectureEvidence(false)
+    setStemLectureEvidence(null)
     setShowNote(false)
     setMobileEvidence(false)
     if (typeof window !== 'undefined') {
@@ -775,6 +782,7 @@ function App() {
     setGroupIndex(0)
     setShowSource(false)
     setShowLectureEvidence(false)
+    setStemLectureEvidence(null)
     setShowNote(false)
     setMobileEvidence(false)
     if (typeof window !== 'undefined' && window.innerWidth > 720) setSidebarCollapsed(false)
@@ -870,7 +878,7 @@ function App() {
           <section className="question-card">
             <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span>{group.hideSource ? null : <span>来源页 {group.page}</span>}</div>
             <div className="stem-list">
-              {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} />)}
+              {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} onOpenLectureEvidence={setStemLectureEvidence} />)}
             </div>
             <div className="question-card-bottom">
               {isSubmitted ? <div className="submit-summary"><Icon name="check" size={18} /><span>已提交 · {group.stems.filter((stem, index) => !isUnresolvedStem(stem) && stemIsCorrect(currentSelections[index] || [], stem)).length} / {group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确{group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}</span></div> : <span className="hint-text">完成每个题干后提交；排序题按点击先后记录，填空题按空格顺序判分。</span>}
@@ -889,6 +897,7 @@ function App() {
 
       {showSource && currentPage && <SourceModal group={group} page={currentPage} sourceName={group.sourceName || subjectConfig.sourceName} onClose={() => setShowSource(false)} />}
       {showLectureEvidence && group.lectureEvidence && <LectureEvidenceModal evidence={group.lectureEvidence} onClose={() => setShowLectureEvidence(false)} />}
+      {stemLectureEvidence && <LectureEvidenceModal evidence={stemLectureEvidence} onClose={() => setStemLectureEvidence(null)} contextLabel="本题对应的讲义原页" />}
       <div className="site-watermark" aria-hidden="true">
         <span>内容制作byBi8bo</span>
         <span>网站制作by戒不掉甜食</span>
@@ -939,7 +948,7 @@ function GroupJump({ current, total, onJump }) {
   )
 }
 
-function StemRow({ group, stem, index, selection, submitted, onSelect, onFill }) {
+function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, onOpenLectureEvidence }) {
   const answer = isFillStem(stem) ? answerValues(stem) : answerLetters(stem)
   const multi = isMultiStem(group, stem)
   const ordered = isRankingStem(stem)
@@ -951,7 +960,7 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill })
   const keys = group.options.length ? group.options.map((option) => option.key) : answer
   return (
     <div className={`stem-row ${submitted ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
-      <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy"><div className="stem-heading"><p>{stem.text || '请结合原题页完成本小题'}</p><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{unresolved ? '待核对' : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : '单选')))}</span></div>{(multi || fill) && !submitted && <small>{fill ? `依次填写 ${answer.length} 个空` : (ordered ? '请按题干要求的先后顺序选择' : '可选择多个共用选项')}</small>}</div></div>
+      <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy"><div className="stem-heading"><p>{stem.text || '请结合原题页完成本小题'}</p><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{unresolved ? '待核对' : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : '单选')))}</span></div>{stem.lectureEvidence && <button type="button" className="stem-evidence-button" onClick={() => onOpenLectureEvidence(stem.lectureEvidence)} aria-label={`查看${stem.text}对应的第${Number(stem.lectureEvidence.lectureId.replace('lecture-', ''))}讲第${stem.lectureEvidence.page}页讲义`}><Icon name="file" size={13} />讲义第 {Number(stem.lectureEvidence.lectureId.replace('lecture-', ''))} 讲 · 第 {stem.lectureEvidence.page} 页<Icon name="eye" size={13} /></button>}{(multi || fill) && !submitted && <small>{fill ? `依次填写 ${answer.length} 个空` : (ordered ? '请按题干要求的先后顺序选择' : '可选择多个共用选项')}</small>}</div></div>
       {fill ? <div className="fill-answers">{answer.map((_, blankIndex) => <label key={blankIndex}><span>{stem.blankLabels?.[blankIndex] || `空${blankIndex + 1}`}</span><input value={selection[blankIndex] || ''} onChange={(event) => onFill(index, blankIndex, event.target.value)} disabled={submitted} inputMode={stem.inputMode || 'text'} aria-label={`${stem.text}第${blankIndex + 1}空`} /></label>)}</div> : <div className="answer-choices">{keys.map((item) => { const active = selection.includes(item); const isAnswer = submitted && answer.includes(item); const isMissed = submitted && isAnswer && !active; const order = ordered && active ? selection.indexOf(item) + 1 : null; const stateLabel = isMissed ? '，漏选' : (submitted && active && !isAnswer ? '，错选' : ''); return <button key={item} aria-label={`选项 ${item}${stateLabel}`} className={`answer-chip ${active ? 'active' : ''} ${submitted && isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${submitted && active && !isAnswer ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{item}{order && <sup className="rank-order">{order}</sup>}</button> })}</div>}
       {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? '原题页核对：暂不自动判分' : (correct ? '正确' : `讲义答案：${stem.answerDisplay || answer.join('、')}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}</div>}
     </div>
@@ -988,8 +997,8 @@ function SourceModal({ group, page, sourceName, onClose }) {
   return <div className="modal-backdrop" onClick={onClose}><div className="source-modal" onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>原题页</span><h2>{group.topic} · 第 {group.page} 页</h2></div><button className="icon-button" onClick={onClose} aria-label="关闭"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap"><img src={assetPath(page?.image)} alt={`原题页 ${group.page}`} /></div><div className="modal-footer"><span>图片来自“{sourceName}”</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
 }
 
-function LectureEvidenceModal({ evidence, onClose }) {
-  return <div className="modal-backdrop" onClick={onClose}><div className="source-modal" role="dialog" aria-modal="true" aria-label="对应讲义页" onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>对应讲义页</span><h2>{evidence.title}</h2></div><button className="icon-button" onClick={onClose} aria-label="关闭讲义原页"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap lecture-modal-image"><img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} /></div><div className="modal-footer"><span>本题组对应的讲义原页</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
+function LectureEvidenceModal({ evidence, onClose, contextLabel = '本题组对应的讲义原页' }) {
+  return <div className="modal-backdrop" onClick={onClose}><div className="source-modal" role="dialog" aria-modal="true" aria-label="对应讲义页" onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>对应讲义页</span><h2>{evidence.title}</h2></div><button className="icon-button" onClick={onClose} aria-label="关闭讲义原页"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap lecture-modal-image"><img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} /></div><div className="modal-footer"><span>{contextLabel}</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
 }
 
 export default App
