@@ -285,7 +285,7 @@
         },
         {
           "key": "D",
-          "label": "三酰甘油"
+          "label": "甘油三酯"
         },
         {
           "key": "E",
@@ -305,11 +305,11 @@
         },
         {
           "key": "I",
-          "label": "二酰甘油"
+          "label": "甘油二酯"
         },
         {
           "key": "J",
-          "label": "CDP-二酰甘油"
+          "label": "CDP-甘油二酯"
         },
         {
           "key": "K",
@@ -327,7 +327,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "二酰甘油途径可合成",
+          "text": "甘油二酯途径可合成",
           "answerRaw": "C、L、D",
           "answer": [
             "C",
@@ -338,7 +338,7 @@
         },
         {
           "number": 2,
-          "text": "CDP-二酰甘油途径可合成",
+          "text": "CDP-甘油二酯途径可合成",
           "answerRaw": "G、B、M",
           "answer": [
             "G",
@@ -367,7 +367,7 @@
         },
         {
           "number": 5,
-          "text": "三酰甘油合成的脂酰基供体",
+          "text": "甘油三酯合成的脂酰基供体",
           "answerRaw": "F",
           "answer": [
             "F"
@@ -513,7 +513,7 @@
         },
         {
           "key": "D",
-          "label": "1,2-二酰甘油"
+          "label": "1,2-甘油二酯"
         }
       ],
       "stems": [
