@@ -10,6 +10,7 @@
 - `extraction-audit.json`：原题异常与待复核题组。
 - `lecture-reconciliation.json`：160 个题组对应今年讲义页的完整映射，以及修改前后内容。
 - `lecture-reconciliation.md`：18 个勘误题组的可读报告。
+- `../public/physiology/lecture-pages/`：题组引用的 27 年讲义原页图片，可在网站右侧讲义栏放大查看。
 
 网站使用的数据位于 `src/data/physiology-data.json`，原题页图片位于 `public/physiology/source-pages/`。
 

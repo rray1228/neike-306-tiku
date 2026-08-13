@@ -10,6 +10,7 @@ kept in the generated audit so the website can explain what changed and why.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import math
 import re
@@ -269,6 +270,7 @@ def build_lectures(lecture_dir: Path) -> tuple[list[dict], dict[tuple[int, int],
             "file": path.name,
             "pageCount": len(page_texts),
             "charCount": len(full_text),
+            "sourceSha256": hashlib.sha256(path.read_bytes()).hexdigest(),
             "excerpt": full_text[:900],
             "text": full_text,
         })
@@ -380,6 +382,11 @@ def finalize_group(source_group: dict, lectures: list[dict], page_vectors: dict)
             "page": correction["evidence_page"],
             "method": "按今年讲义原文人工复核并定位",
         })
+    evidence.update({
+        "image": f"physiology/lecture-pages/{evidence['lectureId']}-page-{evidence['page']:02d}.png",
+        "title": f"第{evidence['lectureNumber']}讲第{evidence['page']}页：{evidence['lectureTitle']}",
+        "description": f"本题组已按第{evidence['lectureNumber']}讲第{evidence['page']}页逐项核对题目、选项与答案。",
+    })
     option_keys = [option["key"] for option in group["options"]]
     if len(option_keys) != len(set(option_keys)):
         raise ValueError(f"duplicate option keys after correction: {group['id']}")
@@ -489,8 +496,15 @@ def main() -> None:
             "siteIntegrated": True,
             "lectureLinked": True,
             "answerNote": "去年学成选择题已逐组映射至 2027 考研生理讲义；发现的答案、选项字母和文字问题均以可追溯勘误形式同步修正。",
-            "fullSemanticAuditDate": "2026-08-10",
+            "fullSemanticAuditDate": "2026-08-13",
             "fullSemanticAuditScope": "160 个题组、505 个题干、41 份 2027 考研生理讲义",
+            "lectureEvidencePageCount": len({
+                (group["lectureEvidence"]["lectureId"], group["lectureEvidence"]["page"])
+                for group in groups
+            }),
+            "lectureSetFingerprint": hashlib.sha256(
+                "".join(lecture["sourceSha256"] for lecture in lectures).encode("ascii")
+            ).hexdigest(),
         },
         "topics": ["全部", *TOPICS, "综合"],
         "pages": pages,

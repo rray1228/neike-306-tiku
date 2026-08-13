@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import re
 from collections import Counter
 from pathlib import Path
 
@@ -24,8 +25,10 @@ def main() -> None:
     assert payload["meta"]["lectureLinked"] is True
     assert payload["meta"]["sourcePages"] == 126
     assert payload["meta"]["lectureCount"] == 41
-    assert payload["meta"]["fullSemanticAuditDate"] == "2026-08-10"
+    assert payload["meta"]["fullSemanticAuditDate"] == "2026-08-13"
     assert payload["meta"]["fullSemanticAuditScope"] == "160 个题组、505 个题干、41 份 2027 考研生理讲义"
+    assert payload["meta"]["lectureEvidencePageCount"] == 136
+    assert re.fullmatch(r"[0-9a-f]{64}", payload["meta"]["lectureSetFingerprint"])
     assert len(payload["groups"]) == 160
     assert sum(len(group["stems"]) for group in payload["groups"]) == 505
 
@@ -73,7 +76,9 @@ def main() -> None:
     empty_answers = []
     answer_raw_mismatches = []
     missing_lectures = []
+    missing_lecture_images = []
     lecture_ids = {lecture["id"] for lecture in payload["lectures"]}
+    assert all(re.fullmatch(r"[0-9a-f]{64}", lecture.get("sourceSha256", "")) for lecture in payload["lectures"])
     for page in payload["pages"]:
         image = root / "public" / page["image"]
         if not image.exists():
@@ -95,6 +100,11 @@ def main() -> None:
         evidence = group.get("lectureEvidence", {})
         assert evidence.get("lectureId") in lecture_ids, f"missing evidence for {group['id']}"
         assert evidence.get("page", 0) > 0, f"missing lecture page for {group['id']}"
+        assert evidence.get("title"), f"missing evidence title for {group['id']}"
+        assert evidence.get("description"), f"missing evidence description for {group['id']}"
+        lecture_image = root / "public" / evidence.get("image", "")
+        if not lecture_image.exists():
+            missing_lecture_images.append(str(lecture_image))
 
     assert not missing_images, f"missing source images: {missing_images[:5]}"
     assert not duplicate_option_keys, f"duplicate option keys: {duplicate_option_keys}"
@@ -102,6 +112,7 @@ def main() -> None:
     assert not empty_answers, f"empty answers: {empty_answers}"
     assert not answer_raw_mismatches, f"answerRaw differs from answer: {answer_raw_mismatches}"
     assert not missing_lectures, f"missing lecture links: {missing_lectures}"
+    assert not missing_lecture_images, f"missing lecture images: {missing_lecture_images[:5]}"
 
     print({
         "pages": len(payload["pages"]),

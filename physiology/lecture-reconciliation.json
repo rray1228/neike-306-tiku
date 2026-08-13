@@ -12,8 +12,10 @@
     "siteIntegrated": true,
     "lectureLinked": true,
     "answerNote": "去年学成选择题已逐组映射至 2027 考研生理讲义；发现的答案、选项字母和文字问题均以可追溯勘误形式同步修正。",
-    "fullSemanticAuditDate": "2026-08-10",
-    "fullSemanticAuditScope": "160 个题组、505 个题干、41 份 2027 考研生理讲义"
+    "fullSemanticAuditDate": "2026-08-13",
+    "fullSemanticAuditScope": "160 个题组、505 个题干、41 份 2027 考研生理讲义",
+    "lectureEvidencePageCount": 136,
+    "lectureSetFingerprint": "e213273a2bdc0fffcd942dd08aad8cfea51dd719a65fe9cedfe0d6cd9c3f46c0"
   },
   "statusSummary": {
     "与今年讲义一致": 142,
@@ -30,7 +32,10 @@
         "lectureTitle": "生理 绪论",
         "page": 9,
         "score": 0.2033,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-01-page-09.png",
+        "title": "第1讲第9页：生理 绪论",
+        "description": "本题组已按第1讲第9页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -129,7 +134,10 @@
         "lectureTitle": "生理+生化 细胞信号转导",
         "page": 3,
         "score": 0.3997,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-05-page-03.png",
+        "title": "第5讲第3页：生理+生化 细胞信号转导",
+        "description": "本题组已按第5讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -202,7 +210,10 @@
         "lectureTitle": "生理 血液特性",
         "page": 4,
         "score": 0.4331,
-        "method": "按今年讲义原文人工复核并定位"
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-07-page-04.png",
+        "title": "第7讲第4页：生理 血液特性",
+        "description": "本题组已按第7讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -286,7 +297,10 @@
         "lectureTitle": "生理 心肌电活动和特性",
         "page": 4,
         "score": 0.556,
-        "method": "按今年讲义原文人工复核并定位"
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-12-page-04.png",
+        "title": "第12讲第4页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -374,7 +388,10 @@
         "lectureTitle": "生理 肺通气",
         "page": 8,
         "score": 0.2995,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-15-page-08.png",
+        "title": "第15讲第8页：生理 肺通气",
+        "description": "本题组已按第15讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -462,7 +479,10 @@
         "lectureTitle": "生理 胃内消化",
         "page": 7,
         "score": 0.2652,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-20-page-07.png",
+        "title": "第20讲第7页：生理 胃内消化",
+        "description": "本题组已按第20讲第7页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -607,7 +627,10 @@
         "lectureTitle": "生理 肠内消化",
         "page": 7,
         "score": 0.1628,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-21-page-07.png",
+        "title": "第21讲第7页：生理 肠内消化",
+        "description": "本题组已按第21讲第7页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -695,7 +718,10 @@
         "lectureTitle": "生理 肠内消化",
         "page": 8,
         "score": 0.1401,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-21-page-08.png",
+        "title": "第21讲第8页：生理 肠内消化",
+        "description": "本题组已按第21讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -789,7 +815,10 @@
         "lectureTitle": "生理 肠内消化",
         "page": 5,
         "score": 0.1285,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-21-page-05.png",
+        "title": "第21讲第5页：生理 肠内消化",
+        "description": "本题组已按第21讲第5页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -887,7 +916,10 @@
         "lectureTitle": "生理 肠内吸收",
         "page": 3,
         "score": 0.0948,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-22-page-03.png",
+        "title": "第22讲第3页：生理 肠内吸收",
+        "description": "本题组已按第22讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -991,7 +1023,10 @@
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 9,
         "score": 0.2943,
-        "method": "按今年讲义原文人工复核并定位"
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-26-page-09.png",
+        "title": "第26讲第9页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第9页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -1103,7 +1138,10 @@
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 14,
         "score": 0.2959,
-        "method": "按今年讲义原文人工复核并定位"
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-26-page-14.png",
+        "title": "第26讲第14页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第14页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -1185,7 +1223,10 @@
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 11,
         "score": 0.2447,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-11.png",
+        "title": "第26讲第11页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第11页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -1268,7 +1309,10 @@
         "lectureTitle": "生理 视觉",
         "page": 9,
         "score": 0.4692,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-27-page-09.png",
+        "title": "第27讲第9页：生理 视觉",
+        "description": "本题组已按第27讲第9页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -1380,7 +1424,10 @@
         "lectureTitle": "生理 听觉",
         "page": 2,
         "score": 0.1205,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-28-page-02.png",
+        "title": "第28讲第2页：生理 听觉",
+        "description": "本题组已按第28讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -1566,7 +1613,10 @@
         "lectureTitle": "生理 神经系统调控躯体运动",
         "page": 11,
         "score": 0.3255,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-11.png",
+        "title": "第33讲第11页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第11页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -1654,7 +1704,10 @@
         "lectureTitle": "生理 内分泌概述",
         "page": 4,
         "score": 0.2476,
-        "method": "按今年讲义原文人工复核并定位"
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-35-page-04.png",
+        "title": "第35讲第4页：生理 内分泌概述",
+        "description": "本题组已按第35讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -1809,7 +1862,10 @@
         "lectureTitle": "生理 生长激素",
         "page": 1,
         "score": 0.4308,
-        "method": "按今年讲义原文人工复核并定位"
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-37-page-01.png",
+        "title": "第37讲第1页：生理 生长激素",
+        "description": "本题组已按第37讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -1939,7 +1995,10 @@
         "lectureTitle": "生理 绪论",
         "page": 6,
         "score": 0.3837,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-01-page-06.png",
+        "title": "第1讲第6页：生理 绪论",
+        "description": "本题组已按第1讲第6页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -1954,7 +2013,10 @@
         "lectureTitle": "生理 绪论",
         "page": 9,
         "score": 0.2033,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-01-page-09.png",
+        "title": "第1讲第9页：生理 绪论",
+        "description": "本题组已按第1讲第9页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -2053,7 +2115,10 @@
         "lectureTitle": "生理 跨膜转运",
         "page": 10,
         "score": 0.343,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-02-page-10.png",
+        "title": "第2讲第10页：生理 跨膜转运",
+        "description": "本题组已按第2讲第10页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2068,7 +2133,10 @@
         "lectureTitle": "生理 跨膜转运",
         "page": 2,
         "score": 0.3284,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-02-page-02.png",
+        "title": "第2讲第2页：生理 跨膜转运",
+        "description": "本题组已按第2讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2083,7 +2151,10 @@
         "lectureTitle": "生理+生化 细胞信号转导",
         "page": 14,
         "score": 0.294,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-05-page-14.png",
+        "title": "第5讲第14页：生理+生化 细胞信号转导",
+        "description": "本题组已按第5讲第14页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2098,7 +2169,10 @@
         "lectureTitle": "生理+生化 细胞信号转导",
         "page": 3,
         "score": 0.3997,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-05-page-03.png",
+        "title": "第5讲第3页：生理+生化 细胞信号转导",
+        "description": "本题组已按第5讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -2171,7 +2245,10 @@
         "lectureTitle": "生理+生化 细胞信号转导",
         "page": 15,
         "score": 0.3356,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-05-page-15.png",
+        "title": "第5讲第15页：生理+生化 细胞信号转导",
+        "description": "本题组已按第5讲第15页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2186,7 +2263,10 @@
         "lectureTitle": "生理+生化 细胞信号转导",
         "page": 11,
         "score": 0.5632,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-05-page-11.png",
+        "title": "第5讲第11页：生理+生化 细胞信号转导",
+        "description": "本题组已按第5讲第11页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2201,7 +2281,10 @@
         "lectureTitle": "生理+生化 细胞信号转导",
         "page": 13,
         "score": 0.453,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-05-page-13.png",
+        "title": "第5讲第13页：生理+生化 细胞信号转导",
+        "description": "本题组已按第5讲第13页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2216,7 +2299,10 @@
         "lectureTitle": "生理+生化 细胞信号转导",
         "page": 15,
         "score": 0.3592,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-05-page-15.png",
+        "title": "第5讲第15页：生理+生化 细胞信号转导",
+        "description": "本题组已按第5讲第15页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2231,7 +2317,10 @@
         "lectureTitle": "生理 细胞电活动",
         "page": 10,
         "score": 0.5032,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-03-page-10.png",
+        "title": "第3讲第10页：生理 细胞电活动",
+        "description": "本题组已按第3讲第10页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2246,7 +2335,10 @@
         "lectureTitle": "生理 细胞电活动",
         "page": 8,
         "score": 0.2771,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-03-page-08.png",
+        "title": "第3讲第8页：生理 细胞电活动",
+        "description": "本题组已按第3讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2261,7 +2353,10 @@
         "lectureTitle": "生理 细胞电活动",
         "page": 6,
         "score": 0.5288,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-03-page-06.png",
+        "title": "第3讲第6页：生理 细胞电活动",
+        "description": "本题组已按第3讲第6页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2276,7 +2371,10 @@
         "lectureTitle": "生理 细胞电活动",
         "page": 3,
         "score": 0.2155,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-03-page-03.png",
+        "title": "第3讲第3页：生理 细胞电活动",
+        "description": "本题组已按第3讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2291,7 +2389,10 @@
         "lectureTitle": "生理 细胞电活动",
         "page": 11,
         "score": 0.4564,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-03-page-11.png",
+        "title": "第3讲第11页：生理 细胞电活动",
+        "description": "本题组已按第3讲第11页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2306,7 +2407,10 @@
         "lectureTitle": "生理 骨骼肌收缩",
         "page": 1,
         "score": 0.2717,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-04-page-01.png",
+        "title": "第4讲第1页：生理 骨骼肌收缩",
+        "description": "本题组已按第4讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2321,7 +2425,10 @@
         "lectureTitle": "生理 骨骼肌收缩",
         "page": 4,
         "score": 0.3457,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-04-page-04.png",
+        "title": "第4讲第4页：生理 骨骼肌收缩",
+        "description": "本题组已按第4讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2336,7 +2443,10 @@
         "lectureTitle": "生理 骨骼肌收缩",
         "page": 6,
         "score": 0.6806,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-04-page-06.png",
+        "title": "第4讲第6页：生理 骨骼肌收缩",
+        "description": "本题组已按第4讲第6页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2351,7 +2461,10 @@
         "lectureTitle": "生理 骨骼肌收缩",
         "page": 9,
         "score": 0.3489,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-04-page-09.png",
+        "title": "第4讲第9页：生理 骨骼肌收缩",
+        "description": "本题组已按第4讲第9页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2366,7 +2479,10 @@
         "lectureTitle": "生理 骨骼肌收缩",
         "page": 10,
         "score": 0.1515,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-04-page-10.png",
+        "title": "第4讲第10页：生理 骨骼肌收缩",
+        "description": "本题组已按第4讲第10页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2381,7 +2497,10 @@
         "lectureTitle": "生理 血型",
         "page": 4,
         "score": 0.3873,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-06-page-04.png",
+        "title": "第6讲第4页：生理 血型",
+        "description": "本题组已按第6讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2396,7 +2515,10 @@
         "lectureTitle": "生理 血液特性",
         "page": 3,
         "score": 0.4277,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-07-page-03.png",
+        "title": "第7讲第3页：生理 血液特性",
+        "description": "本题组已按第7讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2411,7 +2533,10 @@
         "lectureTitle": "生理 血液特性",
         "page": 4,
         "score": 0.3201,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-07-page-04.png",
+        "title": "第7讲第4页：生理 血液特性",
+        "description": "本题组已按第7讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2426,7 +2551,10 @@
         "lectureTitle": "生理 血液特性",
         "page": 4,
         "score": 0.4331,
-        "method": "按今年讲义原文人工复核并定位"
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-07-page-04.png",
+        "title": "第7讲第4页：生理 血液特性",
+        "description": "本题组已按第7讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -2510,7 +2638,10 @@
         "lectureTitle": "生理 血液特性",
         "page": 5,
         "score": 0.3712,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-07-page-05.png",
+        "title": "第7讲第5页：生理 血液特性",
+        "description": "本题组已按第7讲第5页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2525,7 +2656,10 @@
         "lectureTitle": "生理 血液特性",
         "page": 5,
         "score": 0.3272,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-07-page-05.png",
+        "title": "第7讲第5页：生理 血液特性",
+        "description": "本题组已按第7讲第5页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2540,7 +2674,10 @@
         "lectureTitle": "生理 生理性止血",
         "page": 6,
         "score": 0.5746,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-08-page-06.png",
+        "title": "第8讲第6页：生理 生理性止血",
+        "description": "本题组已按第8讲第6页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2555,7 +2692,10 @@
         "lectureTitle": "生理 生理性止血",
         "page": 4,
         "score": 0.439,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-08-page-04.png",
+        "title": "第8讲第4页：生理 生理性止血",
+        "description": "本题组已按第8讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2570,7 +2710,10 @@
         "lectureTitle": "生理 生理性止血",
         "page": 7,
         "score": 0.4436,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-08-page-07.png",
+        "title": "第8讲第7页：生理 生理性止血",
+        "description": "本题组已按第8讲第7页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2585,7 +2728,10 @@
         "lectureTitle": "生理 生理性止血",
         "page": 8,
         "score": 0.4632,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-08-page-08.png",
+        "title": "第8讲第8页：生理 生理性止血",
+        "description": "本题组已按第8讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2600,7 +2746,10 @@
         "lectureTitle": "生理 生理性止血",
         "page": 9,
         "score": 0.2432,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-08-page-09.png",
+        "title": "第8讲第9页：生理 生理性止血",
+        "description": "本题组已按第8讲第9页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2615,7 +2764,10 @@
         "lectureTitle": "生理 心脏泵血",
         "page": 3,
         "score": 0.193,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-09-page-03.png",
+        "title": "第9讲第3页：生理 心脏泵血",
+        "description": "本题组已按第9讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2630,7 +2782,10 @@
         "lectureTitle": "生理 心脏泵血",
         "page": 5,
         "score": 0.4288,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-09-page-05.png",
+        "title": "第9讲第5页：生理 心脏泵血",
+        "description": "本题组已按第9讲第5页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2645,7 +2800,10 @@
         "lectureTitle": "生理 心脏泵血",
         "page": 6,
         "score": 0.424,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-09-page-06.png",
+        "title": "第9讲第6页：生理 心脏泵血",
+        "description": "本题组已按第9讲第6页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2660,7 +2818,10 @@
         "lectureTitle": "生理 心脏泵血",
         "page": 7,
         "score": 0.5046,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-09-page-07.png",
+        "title": "第9讲第7页：生理 心脏泵血",
+        "description": "本题组已按第9讲第7页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2675,7 +2836,10 @@
         "lectureTitle": "生理 心脏泵血",
         "page": 8,
         "score": 0.3314,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-09-page-08.png",
+        "title": "第9讲第8页：生理 心脏泵血",
+        "description": "本题组已按第9讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2690,7 +2854,10 @@
         "lectureTitle": "生理 心脏泵血",
         "page": 8,
         "score": 0.1836,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-09-page-08.png",
+        "title": "第9讲第8页：生理 心脏泵血",
+        "description": "本题组已按第9讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2705,7 +2872,10 @@
         "lectureTitle": "生理 心脏泵血",
         "page": 9,
         "score": 0.4773,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-09-page-09.png",
+        "title": "第9讲第9页：生理 心脏泵血",
+        "description": "本题组已按第9讲第9页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2720,7 +2890,10 @@
         "lectureTitle": "生理 心脏泵血",
         "page": 6,
         "score": 0.313,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-09-page-06.png",
+        "title": "第9讲第6页：生理 心脏泵血",
+        "description": "本题组已按第9讲第6页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2735,7 +2908,10 @@
         "lectureTitle": "生理 血压",
         "page": 5,
         "score": 0.2063,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-10-page-05.png",
+        "title": "第10讲第5页：生理 血压",
+        "description": "本题组已按第10讲第5页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2750,7 +2926,10 @@
         "lectureTitle": "生理 血压",
         "page": 6,
         "score": 0.3266,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-10-page-06.png",
+        "title": "第10讲第6页：生理 血压",
+        "description": "本题组已按第10讲第6页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2765,7 +2944,10 @@
         "lectureTitle": "生理 微循环和冠脉循环",
         "page": 1,
         "score": 0.3853,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-11-page-01.png",
+        "title": "第11讲第1页：生理 微循环和冠脉循环",
+        "description": "本题组已按第11讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2780,7 +2962,10 @@
         "lectureTitle": "生理 微循环和冠脉循环",
         "page": 2,
         "score": 0.5252,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-11-page-02.png",
+        "title": "第11讲第2页：生理 微循环和冠脉循环",
+        "description": "本题组已按第11讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2795,7 +2980,10 @@
         "lectureTitle": "生理 微循环和冠脉循环",
         "page": 3,
         "score": 0.3033,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-11-page-03.png",
+        "title": "第11讲第3页：生理 微循环和冠脉循环",
+        "description": "本题组已按第11讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2810,7 +2998,10 @@
         "lectureTitle": "生理 微循环和冠脉循环",
         "page": 4,
         "score": 0.3037,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-11-page-04.png",
+        "title": "第11讲第4页：生理 微循环和冠脉循环",
+        "description": "本题组已按第11讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2825,7 +3016,10 @@
         "lectureTitle": "生理 微循环和冠脉循环",
         "page": 7,
         "score": 0.4545,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-11-page-07.png",
+        "title": "第11讲第7页：生理 微循环和冠脉循环",
+        "description": "本题组已按第11讲第7页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2840,7 +3034,10 @@
         "lectureTitle": "生理 心肌电活动和特性",
         "page": 1,
         "score": 0.4402,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-12-page-01.png",
+        "title": "第12讲第1页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2855,7 +3052,10 @@
         "lectureTitle": "生理 心肌电活动和特性",
         "page": 4,
         "score": 0.0734,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-12-page-04.png",
+        "title": "第12讲第4页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2870,7 +3070,10 @@
         "lectureTitle": "生理 心肌电活动和特性",
         "page": 4,
         "score": 0.556,
-        "method": "按今年讲义原文人工复核并定位"
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-12-page-04.png",
+        "title": "第12讲第4页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -2958,7 +3161,10 @@
         "lectureTitle": "生理 心肌电活动和特性",
         "page": 4,
         "score": 0.3769,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-12-page-04.png",
+        "title": "第12讲第4页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2973,7 +3179,10 @@
         "lectureTitle": "生理 心肌电活动和特性",
         "page": 7,
         "score": 0.3371,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-12-page-07.png",
+        "title": "第12讲第7页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第7页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -2988,7 +3197,10 @@
         "lectureTitle": "生理 心肌电活动和特性",
         "page": 8,
         "score": 0.4077,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-12-page-08.png",
+        "title": "第12讲第8页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3003,7 +3215,10 @@
         "lectureTitle": "生理 心肌电活动和特性",
         "page": 12,
         "score": 0.3418,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-12-page-12.png",
+        "title": "第12讲第12页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第12页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3018,7 +3233,10 @@
         "lectureTitle": "生理 心血管调节",
         "page": 2,
         "score": 0.3255,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-02.png",
+        "title": "第13讲第2页：生理 心血管调节",
+        "description": "本题组已按第13讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3033,7 +3251,10 @@
         "lectureTitle": "生理 心血管调节",
         "page": 3,
         "score": 0.4754,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-03.png",
+        "title": "第13讲第3页：生理 心血管调节",
+        "description": "本题组已按第13讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3048,7 +3269,10 @@
         "lectureTitle": "生理 心血管调节",
         "page": 4,
         "score": 0.3511,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-04.png",
+        "title": "第13讲第4页：生理 心血管调节",
+        "description": "本题组已按第13讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3063,7 +3287,10 @@
         "lectureTitle": "生理 心血管调节",
         "page": 7,
         "score": 0.2794,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-07.png",
+        "title": "第13讲第7页：生理 心血管调节",
+        "description": "本题组已按第13讲第7页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3078,7 +3305,10 @@
         "lectureTitle": "生理 心血管调节",
         "page": 8,
         "score": 0.2185,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-08.png",
+        "title": "第13讲第8页：生理 心血管调节",
+        "description": "本题组已按第13讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3093,7 +3323,10 @@
         "lectureTitle": "生理 心血管调节",
         "page": 9,
         "score": 0.442,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-09.png",
+        "title": "第13讲第9页：生理 心血管调节",
+        "description": "本题组已按第13讲第9页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3108,7 +3341,10 @@
         "lectureTitle": "生理 心血管调节",
         "page": 9,
         "score": 0.3645,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-09.png",
+        "title": "第13讲第9页：生理 心血管调节",
+        "description": "本题组已按第13讲第9页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3123,7 +3359,10 @@
         "lectureTitle": "生理 心血管调节",
         "page": 11,
         "score": 0.4049,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-11.png",
+        "title": "第13讲第11页：生理 心血管调节",
+        "description": "本题组已按第13讲第11页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3138,7 +3377,10 @@
         "lectureTitle": "生理 心血管调节",
         "page": 11,
         "score": 0.5522,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-11.png",
+        "title": "第13讲第11页：生理 心血管调节",
+        "description": "本题组已按第13讲第11页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3153,7 +3395,10 @@
         "lectureTitle": "生理 通气功能的评价",
         "page": 1,
         "score": 0.6844,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-14-page-01.png",
+        "title": "第14讲第1页：生理 通气功能的评价",
+        "description": "本题组已按第14讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3168,7 +3413,10 @@
         "lectureTitle": "生理 通气功能的评价",
         "page": 2,
         "score": 0.4799,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-14-page-02.png",
+        "title": "第14讲第2页：生理 通气功能的评价",
+        "description": "本题组已按第14讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3183,7 +3431,10 @@
         "lectureTitle": "生理 通气功能的评价",
         "page": 2,
         "score": 0.2881,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-14-page-02.png",
+        "title": "第14讲第2页：生理 通气功能的评价",
+        "description": "本题组已按第14讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3198,7 +3449,10 @@
         "lectureTitle": "生理 肺通气",
         "page": 3,
         "score": 0.4483,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-15-page-03.png",
+        "title": "第15讲第3页：生理 肺通气",
+        "description": "本题组已按第15讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3213,7 +3467,10 @@
         "lectureTitle": "生理 肺通气",
         "page": 4,
         "score": 0.4456,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-15-page-04.png",
+        "title": "第15讲第4页：生理 肺通气",
+        "description": "本题组已按第15讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3228,7 +3485,10 @@
         "lectureTitle": "生理 肺通气",
         "page": 5,
         "score": 0.4995,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-15-page-05.png",
+        "title": "第15讲第5页：生理 肺通气",
+        "description": "本题组已按第15讲第5页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3243,7 +3503,10 @@
         "lectureTitle": "生理 肺通气",
         "page": 7,
         "score": 0.2297,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-15-page-07.png",
+        "title": "第15讲第7页：生理 肺通气",
+        "description": "本题组已按第15讲第7页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3258,7 +3521,10 @@
         "lectureTitle": "生理 肺通气",
         "page": 8,
         "score": 0.2995,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-15-page-08.png",
+        "title": "第15讲第8页：生理 肺通气",
+        "description": "本题组已按第15讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -3346,7 +3612,10 @@
         "lectureTitle": "生理 肺通气",
         "page": 5,
         "score": 0.2953,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-15-page-05.png",
+        "title": "第15讲第5页：生理 肺通气",
+        "description": "本题组已按第15讲第5页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3361,7 +3630,10 @@
         "lectureTitle": "生理 肺通气",
         "page": 9,
         "score": 0.1805,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-15-page-09.png",
+        "title": "第15讲第9页：生理 肺通气",
+        "description": "本题组已按第15讲第9页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3376,7 +3648,10 @@
         "lectureTitle": "生理 肺换气和气体运输",
         "page": 1,
         "score": 0.177,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-16-page-01.png",
+        "title": "第16讲第1页：生理 肺换气和气体运输",
+        "description": "本题组已按第16讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3391,7 +3666,10 @@
         "lectureTitle": "生理 肺换气和气体运输",
         "page": 2,
         "score": 0.2655,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-16-page-02.png",
+        "title": "第16讲第2页：生理 肺换气和气体运输",
+        "description": "本题组已按第16讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3406,7 +3684,10 @@
         "lectureTitle": "生理 肺换气和气体运输",
         "page": 6,
         "score": 0.3705,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-16-page-06.png",
+        "title": "第16讲第6页：生理 肺换气和气体运输",
+        "description": "本题组已按第16讲第6页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3421,7 +3702,10 @@
         "lectureTitle": "生理 肺换气和气体运输",
         "page": 10,
         "score": 0.1773,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-16-page-10.png",
+        "title": "第16讲第10页：生理 肺换气和气体运输",
+        "description": "本题组已按第16讲第10页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3436,7 +3720,10 @@
         "lectureTitle": "生理 呼吸调节",
         "page": 3,
         "score": 0.2903,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-17-page-03.png",
+        "title": "第17讲第3页：生理 呼吸调节",
+        "description": "本题组已按第17讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3451,7 +3738,10 @@
         "lectureTitle": "生理 消化概述",
         "page": 1,
         "score": 0.2912,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-18-page-01.png",
+        "title": "第18讲第1页：生理 消化概述",
+        "description": "本题组已按第18讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3466,7 +3756,10 @@
         "lectureTitle": "生理 消化概述",
         "page": 3,
         "score": 0.3002,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-18-page-03.png",
+        "title": "第18讲第3页：生理 消化概述",
+        "description": "本题组已按第18讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3481,7 +3774,10 @@
         "lectureTitle": "生理 口腔和食管的消化",
         "page": 1,
         "score": 0.3437,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-19-page-01.png",
+        "title": "第19讲第1页：生理 口腔和食管的消化",
+        "description": "本题组已按第19讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3496,7 +3792,10 @@
         "lectureTitle": "生理 口腔和食管的消化",
         "page": 2,
         "score": 0.3843,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-19-page-02.png",
+        "title": "第19讲第2页：生理 口腔和食管的消化",
+        "description": "本题组已按第19讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3511,7 +3810,10 @@
         "lectureTitle": "生理 肠内消化",
         "page": 5,
         "score": 0.3166,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-21-page-05.png",
+        "title": "第21讲第5页：生理 肠内消化",
+        "description": "本题组已按第21讲第5页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3526,7 +3828,10 @@
         "lectureTitle": "生理 胃内消化",
         "page": 3,
         "score": 0.4041,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-20-page-03.png",
+        "title": "第20讲第3页：生理 胃内消化",
+        "description": "本题组已按第20讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3541,7 +3846,10 @@
         "lectureTitle": "生理 胃内消化",
         "page": 2,
         "score": 0.3093,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-20-page-02.png",
+        "title": "第20讲第2页：生理 胃内消化",
+        "description": "本题组已按第20讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3556,7 +3864,10 @@
         "lectureTitle": "生理 胃内消化",
         "page": 7,
         "score": 0.2652,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-20-page-07.png",
+        "title": "第20讲第7页：生理 胃内消化",
+        "description": "本题组已按第20讲第7页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -3701,7 +4012,10 @@
         "lectureTitle": "生理 胃内消化",
         "page": 8,
         "score": 0.3819,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-20-page-08.png",
+        "title": "第20讲第8页：生理 胃内消化",
+        "description": "本题组已按第20讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3716,7 +4030,10 @@
         "lectureTitle": "生理 肠内消化",
         "page": 7,
         "score": 0.1628,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-21-page-07.png",
+        "title": "第21讲第7页：生理 肠内消化",
+        "description": "本题组已按第21讲第7页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -3804,7 +4121,10 @@
         "lectureTitle": "生理 肠内消化",
         "page": 2,
         "score": 0.2164,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-21-page-02.png",
+        "title": "第21讲第2页：生理 肠内消化",
+        "description": "本题组已按第21讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -3819,7 +4139,10 @@
         "lectureTitle": "生理 肠内消化",
         "page": 8,
         "score": 0.1401,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-21-page-08.png",
+        "title": "第21讲第8页：生理 肠内消化",
+        "description": "本题组已按第21讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -3913,7 +4236,10 @@
         "lectureTitle": "生理 肠内消化",
         "page": 5,
         "score": 0.1285,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-21-page-05.png",
+        "title": "第21讲第5页：生理 肠内消化",
+        "description": "本题组已按第21讲第5页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -4011,7 +4337,10 @@
         "lectureTitle": "生理 肠内吸收",
         "page": 1,
         "score": 0.2526,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-22-page-01.png",
+        "title": "第22讲第1页：生理 肠内吸收",
+        "description": "本题组已按第22讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4026,7 +4355,10 @@
         "lectureTitle": "生理 肠内吸收",
         "page": 3,
         "score": 0.2217,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-22-page-03.png",
+        "title": "第22讲第3页：生理 肠内吸收",
+        "description": "本题组已按第22讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4041,7 +4373,10 @@
         "lectureTitle": "生理 肠内吸收",
         "page": 3,
         "score": 0.0948,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-22-page-03.png",
+        "title": "第22讲第3页：生理 肠内吸收",
+        "description": "本题组已按第22讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -4145,7 +4480,10 @@
         "lectureTitle": "生理 泌尿概述",
         "page": 2,
         "score": 0.2148,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-24-page-02.png",
+        "title": "第24讲第2页：生理 泌尿概述",
+        "description": "本题组已按第24讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4160,7 +4498,10 @@
         "lectureTitle": "生理 泌尿概述",
         "page": 5,
         "score": 0.3644,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-24-page-05.png",
+        "title": "第24讲第5页：生理 泌尿概述",
+        "description": "本题组已按第24讲第5页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4175,7 +4516,10 @@
         "lectureTitle": "生理 泌尿概述",
         "page": 5,
         "score": 0.3542,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-24-page-05.png",
+        "title": "第24讲第5页：生理 泌尿概述",
+        "description": "本题组已按第24讲第5页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4190,7 +4534,10 @@
         "lectureTitle": "生理 泌尿概述",
         "page": 6,
         "score": 0.1285,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-24-page-06.png",
+        "title": "第24讲第6页：生理 泌尿概述",
+        "description": "本题组已按第24讲第6页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4205,7 +4552,10 @@
         "lectureTitle": "生理 泌尿概述",
         "page": 8,
         "score": 0.2439,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-24-page-08.png",
+        "title": "第24讲第8页：生理 泌尿概述",
+        "description": "本题组已按第24讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4220,7 +4570,10 @@
         "lectureTitle": "生理 肾小球滤过",
         "page": 7,
         "score": 0.2897,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-25-page-07.png",
+        "title": "第25讲第7页：生理 肾小球滤过",
+        "description": "本题组已按第25讲第7页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4235,7 +4588,10 @@
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 9,
         "score": 0.2943,
-        "method": "按今年讲义原文人工复核并定位"
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-26-page-09.png",
+        "title": "第26讲第9页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第9页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -4347,7 +4703,10 @@
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 2,
         "score": 0.6365,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-02.png",
+        "title": "第26讲第2页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4362,7 +4721,10 @@
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 10,
         "score": 0.4106,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-10.png",
+        "title": "第26讲第10页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第10页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4377,7 +4739,10 @@
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 10,
         "score": 0.1456,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-10.png",
+        "title": "第26讲第10页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第10页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4392,7 +4757,10 @@
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 19,
         "score": 0.2042,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-19.png",
+        "title": "第26讲第19页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第19页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4407,7 +4775,10 @@
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 3,
         "score": 0.0657,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-03.png",
+        "title": "第26讲第3页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4422,7 +4793,10 @@
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 3,
         "score": 0.4205,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-03.png",
+        "title": "第26讲第3页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4437,7 +4811,10 @@
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 5,
         "score": 0.1338,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-05.png",
+        "title": "第26讲第5页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第5页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4452,7 +4829,10 @@
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 6,
         "score": 0.1576,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-06.png",
+        "title": "第26讲第6页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第6页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4467,7 +4847,10 @@
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 13,
         "score": 0.3238,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-13.png",
+        "title": "第26讲第13页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第13页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4482,7 +4865,10 @@
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 14,
         "score": 0.2959,
-        "method": "按今年讲义原文人工复核并定位"
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-26-page-14.png",
+        "title": "第26讲第14页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第14页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -4564,7 +4950,10 @@
         "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
         "page": 11,
         "score": 0.2447,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-11.png",
+        "title": "第26讲第11页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第11页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -4647,7 +5036,10 @@
         "lectureTitle": "生理 视觉",
         "page": 9,
         "score": 0.4692,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-27-page-09.png",
+        "title": "第27讲第9页：生理 视觉",
+        "description": "本题组已按第27讲第9页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -4759,7 +5151,10 @@
         "lectureTitle": "生理 视觉",
         "page": 8,
         "score": 0.397,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-27-page-08.png",
+        "title": "第27讲第8页：生理 视觉",
+        "description": "本题组已按第27讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4774,7 +5169,10 @@
         "lectureTitle": "生理 视觉",
         "page": 4,
         "score": 0.2438,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-27-page-04.png",
+        "title": "第27讲第4页：生理 视觉",
+        "description": "本题组已按第27讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4789,7 +5187,10 @@
         "lectureTitle": "生理 视觉",
         "page": 2,
         "score": 0.3478,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-27-page-02.png",
+        "title": "第27讲第2页：生理 视觉",
+        "description": "本题组已按第27讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4804,7 +5205,10 @@
         "lectureTitle": "生理 其它感觉",
         "page": 8,
         "score": 0.4092,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-29-page-08.png",
+        "title": "第29讲第8页：生理 其它感觉",
+        "description": "本题组已按第29讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4819,7 +5223,10 @@
         "lectureTitle": "生理 听觉",
         "page": 4,
         "score": 0.242,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-28-page-04.png",
+        "title": "第28讲第4页：生理 听觉",
+        "description": "本题组已按第28讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -4834,7 +5241,10 @@
         "lectureTitle": "生理 听觉",
         "page": 2,
         "score": 0.1205,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-28-page-02.png",
+        "title": "第28讲第2页：生理 听觉",
+        "description": "本题组已按第28讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -5020,7 +5430,10 @@
         "lectureTitle": "生理 其它感觉",
         "page": 1,
         "score": 0.4507,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-29-page-01.png",
+        "title": "第29讲第1页：生理 其它感觉",
+        "description": "本题组已按第29讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5035,7 +5448,10 @@
         "lectureTitle": "生理 视觉",
         "page": 13,
         "score": 0.594,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-27-page-13.png",
+        "title": "第27讲第13页：生理 视觉",
+        "description": "本题组已按第27讲第13页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5050,7 +5466,10 @@
         "lectureTitle": "生理 其它感觉",
         "page": 5,
         "score": 0.4379,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-29-page-05.png",
+        "title": "第29讲第5页：生理 其它感觉",
+        "description": "本题组已按第29讲第5页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5065,7 +5484,10 @@
         "lectureTitle": "生理 神经元及胶质细胞",
         "page": 4,
         "score": 0.2199,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-30-page-04.png",
+        "title": "第30讲第4页：生理 神经元及胶质细胞",
+        "description": "本题组已按第30讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5080,7 +5502,10 @@
         "lectureTitle": "生理 神经元及胶质细胞",
         "page": 3,
         "score": 0.1908,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-30-page-03.png",
+        "title": "第30讲第3页：生理 神经元及胶质细胞",
+        "description": "本题组已按第30讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5095,7 +5520,10 @@
         "lectureTitle": "生理 神经元及胶质细胞",
         "page": 3,
         "score": 0.3104,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-30-page-03.png",
+        "title": "第30讲第3页：生理 神经元及胶质细胞",
+        "description": "本题组已按第30讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5110,7 +5538,10 @@
         "lectureTitle": "生理 突触传递、中枢抑制和易化",
         "page": 1,
         "score": 0.0764,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-31-page-01.png",
+        "title": "第31讲第1页：生理 突触传递、中枢抑制和易化",
+        "description": "本题组已按第31讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5125,7 +5556,10 @@
         "lectureTitle": "生理 突触传递、中枢抑制和易化",
         "page": 2,
         "score": 0.3064,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-31-page-02.png",
+        "title": "第31讲第2页：生理 突触传递、中枢抑制和易化",
+        "description": "本题组已按第31讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5140,7 +5574,10 @@
         "lectureTitle": "生理 突触传递、中枢抑制和易化",
         "page": 4,
         "score": 0.4545,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-31-page-04.png",
+        "title": "第31讲第4页：生理 突触传递、中枢抑制和易化",
+        "description": "本题组已按第31讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5155,7 +5592,10 @@
         "lectureTitle": "生理 突触传递、中枢抑制和易化",
         "page": 5,
         "score": 0.3152,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-31-page-05.png",
+        "title": "第31讲第5页：生理 突触传递、中枢抑制和易化",
+        "description": "本题组已按第31讲第5页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5170,7 +5610,10 @@
         "lectureTitle": "生理 递质和受体",
         "page": 3,
         "score": 0.2541,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-32-page-03.png",
+        "title": "第32讲第3页：生理 递质和受体",
+        "description": "本题组已按第32讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5185,7 +5628,10 @@
         "lectureTitle": "生理 递质和受体",
         "page": 3,
         "score": 0.2503,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-32-page-03.png",
+        "title": "第32讲第3页：生理 递质和受体",
+        "description": "本题组已按第32讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5200,7 +5646,10 @@
         "lectureTitle": "生理 递质和受体",
         "page": 1,
         "score": 0.3066,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-32-page-01.png",
+        "title": "第32讲第1页：生理 递质和受体",
+        "description": "本题组已按第32讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5215,7 +5664,10 @@
         "lectureTitle": "生理 递质和受体",
         "page": 3,
         "score": 0.0771,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-32-page-03.png",
+        "title": "第32讲第3页：生理 递质和受体",
+        "description": "本题组已按第32讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5230,7 +5682,10 @@
         "lectureTitle": "生理 脑电波、睡眠、脑高级功能、下丘脑",
         "page": 4,
         "score": 0.2049,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-34-page-04.png",
+        "title": "第34讲第4页：生理 脑电波、睡眠、脑高级功能、下丘脑",
+        "description": "本题组已按第34讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5245,7 +5700,10 @@
         "lectureTitle": "生理 脑电波、睡眠、脑高级功能、下丘脑",
         "page": 1,
         "score": 0.1894,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-34-page-01.png",
+        "title": "第34讲第1页：生理 脑电波、睡眠、脑高级功能、下丘脑",
+        "description": "本题组已按第34讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5260,7 +5718,10 @@
         "lectureTitle": "生理 脑电波、睡眠、脑高级功能、下丘脑",
         "page": 5,
         "score": 0.2681,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-34-page-05.png",
+        "title": "第34讲第5页：生理 脑电波、睡眠、脑高级功能、下丘脑",
+        "description": "本题组已按第34讲第5页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5275,7 +5736,10 @@
         "lectureTitle": "生理 神经系统调控躯体运动",
         "page": 11,
         "score": 0.3255,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-11.png",
+        "title": "第33讲第11页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第11页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -5363,7 +5827,10 @@
         "lectureTitle": "生理 神经系统调控躯体运动",
         "page": 11,
         "score": 0.1781,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-11.png",
+        "title": "第33讲第11页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第11页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5378,7 +5845,10 @@
         "lectureTitle": "生理 神经系统调控躯体运动",
         "page": 12,
         "score": 0.2348,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-12.png",
+        "title": "第33讲第12页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第12页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5393,7 +5863,10 @@
         "lectureTitle": "生理 神经系统调控躯体运动",
         "page": 13,
         "score": 0.3636,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-13.png",
+        "title": "第33讲第13页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第13页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5408,7 +5881,10 @@
         "lectureTitle": "生理 神经系统调控躯体运动",
         "page": 13,
         "score": 0.2201,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-13.png",
+        "title": "第33讲第13页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第13页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5423,7 +5899,10 @@
         "lectureTitle": "生理 神经系统调控躯体运动",
         "page": 7,
         "score": 0.4651,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-07.png",
+        "title": "第33讲第7页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第7页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5438,7 +5917,10 @@
         "lectureTitle": "生理 神经系统调控躯体运动",
         "page": 7,
         "score": 0.2651,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-07.png",
+        "title": "第33讲第7页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第7页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5453,7 +5935,10 @@
         "lectureTitle": "生理 神经系统调控躯体运动",
         "page": 8,
         "score": 0.3163,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-08.png",
+        "title": "第33讲第8页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5468,7 +5953,10 @@
         "lectureTitle": "生理 神经系统调控躯体运动",
         "page": 8,
         "score": 0.387,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-08.png",
+        "title": "第33讲第8页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5483,7 +5971,10 @@
         "lectureTitle": "生理 神经系统调控躯体运动",
         "page": 14,
         "score": 0.4188,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-14.png",
+        "title": "第33讲第14页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第14页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5498,7 +5989,10 @@
         "lectureTitle": "生理 神经系统调控躯体运动",
         "page": 15,
         "score": 0.3891,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-15.png",
+        "title": "第33讲第15页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第15页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5513,7 +6007,10 @@
         "lectureTitle": "生理 内分泌概述",
         "page": 4,
         "score": 0.2989,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-35-page-04.png",
+        "title": "第35讲第4页：生理 内分泌概述",
+        "description": "本题组已按第35讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5528,7 +6025,10 @@
         "lectureTitle": "生理 内分泌概述",
         "page": 2,
         "score": 0.2611,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-35-page-02.png",
+        "title": "第35讲第2页：生理 内分泌概述",
+        "description": "本题组已按第35讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5543,7 +6043,10 @@
         "lectureTitle": "生理 内分泌概述",
         "page": 4,
         "score": 0.2476,
-        "method": "按今年讲义原文人工复核并定位"
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-35-page-04.png",
+        "title": "第35讲第4页：生理 内分泌概述",
+        "description": "本题组已按第35讲第4页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -5698,7 +6201,10 @@
         "lectureTitle": "生理 钙调节激素",
         "page": 3,
         "score": 0.0962,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-36-page-03.png",
+        "title": "第36讲第3页：生理 钙调节激素",
+        "description": "本题组已按第36讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5713,7 +6219,10 @@
         "lectureTitle": "生理 胰岛素和胰高血糖素",
         "page": 1,
         "score": 0.2726,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-38-page-01.png",
+        "title": "第38讲第1页：生理 胰岛素和胰高血糖素",
+        "description": "本题组已按第38讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5728,7 +6237,10 @@
         "lectureTitle": "生理 胰岛素和胰高血糖素",
         "page": 3,
         "score": 0.3122,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-38-page-03.png",
+        "title": "第38讲第3页：生理 胰岛素和胰高血糖素",
+        "description": "本题组已按第38讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5743,7 +6255,10 @@
         "lectureTitle": "生理 胰岛素和胰高血糖素",
         "page": 5,
         "score": 0.337,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-38-page-05.png",
+        "title": "第38讲第5页：生理 胰岛素和胰高血糖素",
+        "description": "本题组已按第38讲第5页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5758,7 +6273,10 @@
         "lectureTitle": "生理 生长激素",
         "page": 1,
         "score": 0.4308,
-        "method": "按今年讲义原文人工复核并定位"
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-37-page-01.png",
+        "title": "第37讲第1页：生理 生长激素",
+        "description": "本题组已按第37讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [
         {
@@ -5886,7 +6404,10 @@
         "lectureTitle": "生理 甲状腺激素",
         "page": 2,
         "score": 0.2136,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-39-page-02.png",
+        "title": "第39讲第2页：生理 甲状腺激素",
+        "description": "本题组已按第39讲第2页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5901,7 +6422,10 @@
         "lectureTitle": "生理 糖皮质激素",
         "page": 3,
         "score": 0.2541,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-40-page-03.png",
+        "title": "第40讲第3页：生理 糖皮质激素",
+        "description": "本题组已按第40讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5916,7 +6440,10 @@
         "lectureTitle": "生理 内分泌概述",
         "page": 1,
         "score": 0.1521,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-35-page-01.png",
+        "title": "第35讲第1页：生理 内分泌概述",
+        "description": "本题组已按第35讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5931,7 +6458,10 @@
         "lectureTitle": "生理 生殖",
         "page": 1,
         "score": 0.3579,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-41-page-01.png",
+        "title": "第41讲第1页：生理 生殖",
+        "description": "本题组已按第41讲第1页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5946,7 +6476,10 @@
         "lectureTitle": "生理 生殖",
         "page": 3,
         "score": 0.3146,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-41-page-03.png",
+        "title": "第41讲第3页：生理 生殖",
+        "description": "本题组已按第41讲第3页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
@@ -5961,7 +6494,10 @@
         "lectureTitle": "生理 生殖",
         "page": 8,
         "score": 0.2061,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核"
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-41-page-08.png",
+        "title": "第41讲第8页：生理 生殖",
+        "description": "本题组已按第41讲第8页逐项核对题目、选项与答案。"
       },
       "corrections": [],
       "status": "与今年讲义一致"
