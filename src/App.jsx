@@ -870,7 +870,7 @@ function App() {
           <section className="question-card">
             <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span>{group.hideSource ? null : <span>来源页 {group.page}</span>}</div>
             <div className="stem-list">
-              {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} subject={subject} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} />)}
+              {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} />)}
             </div>
             <div className="question-card-bottom">
               {isSubmitted ? <div className="submit-summary"><Icon name="check" size={18} /><span>已提交 · {group.stems.filter((stem, index) => !isUnresolvedStem(stem) && stemIsCorrect(currentSelections[index] || [], stem)).length} / {group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确{group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}</span></div> : <span className="hint-text">完成每个题干后提交；排序题按点击先后记录，填空题按空格顺序判分。</span>}
@@ -939,7 +939,7 @@ function GroupJump({ current, total, onJump }) {
   )
 }
 
-function StemRow({ subject, group, stem, index, selection, submitted, onSelect, onFill }) {
+function StemRow({ group, stem, index, selection, submitted, onSelect, onFill }) {
   const answer = isFillStem(stem) ? answerValues(stem) : answerLetters(stem)
   const multi = isMultiStem(group, stem)
   const ordered = isRankingStem(stem)
@@ -948,24 +948,19 @@ function StemRow({ subject, group, stem, index, selection, submitted, onSelect, 
   const correct = submitted && !unresolved && stemIsCorrect(selection, stem)
   const wrong = submitted && !unresolved && !correct
   const missed = !fill && submitted && !unresolved && answer.some((item) => !selection.includes(item))
-  const key = `${group.id}:${index}`
-  const correction = subject === 'med' ? CORRECTIONS[key] : null
-  const hasGroupCorrection = Boolean(group.reviewNotes?.length)
   const keys = group.options.length ? group.options.map((option) => option.key) : answer
   return (
     <div className={`stem-row ${submitted ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
       <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy"><div className="stem-heading"><p>{stem.text || '请结合原题页完成本小题'}</p><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{unresolved ? '待核对' : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : '单选')))}</span></div>{(multi || fill) && !submitted && <small>{fill ? `依次填写 ${answer.length} 个空` : (ordered ? '请按题干要求的先后顺序选择' : '可选择多个共用选项')}</small>}</div></div>
       {fill ? <div className="fill-answers">{answer.map((_, blankIndex) => <label key={blankIndex}><span>{stem.blankLabels?.[blankIndex] || `空${blankIndex + 1}`}</span><input value={selection[blankIndex] || ''} onChange={(event) => onFill(index, blankIndex, event.target.value)} disabled={submitted} inputMode={stem.inputMode || 'text'} aria-label={`${stem.text}第${blankIndex + 1}空`} /></label>)}</div> : <div className="answer-choices">{keys.map((item) => { const active = selection.includes(item); const isAnswer = submitted && answer.includes(item); const isMissed = submitted && isAnswer && !active; const order = ordered && active ? selection.indexOf(item) + 1 : null; const stateLabel = isMissed ? '，漏选' : (submitted && active && !isAnswer ? '，错选' : ''); return <button key={item} aria-label={`选项 ${item}${stateLabel}`} className={`answer-chip ${active ? 'active' : ''} ${submitted && isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${submitted && active && !isAnswer ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{item}{order && <sup className="rank-order">{order}</sup>}</button> })}</div>}
-      {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? '原题页核对：暂不自动判分' : (correct ? '正确' : `讲义答案：${stem.answerDisplay || answer.join('、')}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}{(correction || hasGroupCorrection) && <span className="correction-dot">已按今年讲义校对</span>}</div>}
+      {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? '原题页核对：暂不自动判分' : (correct ? '正确' : `讲义答案：${stem.answerDisplay || answer.join('、')}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}</div>}
     </div>
   )
 }
 
 function EvidencePanel({ subject, content, group, page, sourceName, submitted, setShowSource, setShowLectureEvidence, mobileEvidence, setMobileEvidence, evidenceCollapsed, setEvidenceCollapsed }) {
   const lectureItems = group.lectureIds.map((id) => content.lectures.find((lecture) => lecture.id === id)).filter(Boolean)
-  const reviewNotes = group.reviewNotes || []
   const currentEvidence = group.lectureEvidence
-  const showSourceEvidence = !group.hideSource
   return (
     <aside className={`evidence-panel ${mobileEvidence ? 'mobile-visible' : ''} ${evidenceCollapsed ? 'is-collapsed' : ''}`}>
       <div className="evidence-rail">
@@ -975,11 +970,10 @@ function EvidencePanel({ subject, content, group, page, sourceName, submitted, s
       </div>
       <div className="evidence-panel-content">
       <div className="evidence-section evidence-section-top"><div className="evidence-title"><span className="evidence-icon"><Icon name="check" size={18} /></span><div><h2>讲义依据</h2><p>{lectureItems.length ? `已关联 ${lectureItems.length} 份讲义` : '按章节关联讲义'}</p></div><span className="verified-dot"><Icon name="check" size={13} /></span><button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏" aria-expanded="true" title="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="chevron" size={16} /></button></div>
-        {lectureItems.slice(0, 4).map((lecture) => <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 讲 · {currentEvidence?.lectureId === lecture.id ? `对应第 ${currentEvidence.page} 页` : `共 ${lecture.pageCount} 页`}</span></div><span className="relevance">已核对</span></div>)}
+        {lectureItems.slice(0, 4).map((lecture) => <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 讲 · {currentEvidence?.lectureId === lecture.id ? `对应第 ${currentEvidence.page} 页` : `共 ${lecture.pageCount} 页`}</span></div><span className="relevance">对应</span></div>)}
         <div className="all-lectures">查看全部 {content.meta.lectureCount} 份讲义 <Icon name="right" size={15} /></div>
       </div>
-      {currentEvidence && <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><span>讲义校对依据</span><strong>{currentEvidence.title}</strong><p>{currentEvidence.description}</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${currentEvidence.title}`}><img src={assetPath(currentEvidence.image)} alt={`${currentEvidence.title}原页`} /><span><Icon name="eye" size={16} />点击放大查看讲义原页</span></button></div>}
-      {showSourceEvidence ? <div className="evidence-section correction-section"><div className="evidence-title"><span className="correction-icon"><Icon name="alert" size={18} /></span><div><h2>勘误说明</h2><p>{reviewNotes.length ? `发现 ${reviewNotes.length} 条需同步修正` : (subject === 'physiology' ? '与今年讲义一致' : (submitted ? '已显示原题答案与讲义依据' : '提交后显示逐题核对'))}</p></div><button className="panel-close" aria-label="展开勘误"><Icon name="chevron" size={16} /></button></div><div className="correction-body"><div className="source-line"><span>原题来源</span><strong>{sourceName}{page?.image ? ` · 第 ${group.page} 页` : ''}</strong></div><p>{subject === 'biochemistry' ? '题库内容已录入网站，但未附加原始 DOCX；每题组均提供已核对的讲义原页。' : (subject === 'physiology' ? '该题组已与 2027 考研生理讲义逐项核对。若旧资料存在答案或排版问题，下方会保留修改原因和讲义依据。' : '该题组的蓝色答案已从原图保存。没有强行改成普通单选题；需要看到原图中的共用选项和题干关系时，可打开原题页。')}</p>{reviewNotes.map((note, index) => <div className="manual-note" key={`${group.id}-review-${index}`}><strong>{note.title}</strong><p>{note.body}</p></div>)}{subject === 'med' ? group.stems.map((stem, index) => { const note = CORRECTIONS[`${group.id}:${index}`]; return note ? <div className="manual-note" key={index}><strong>{note.title}</strong><p>{note.body}</p></div> : null }) : null}{page?.image && <button className="source-button" onClick={() => setShowSource(true)}><Icon name="eye" size={16} />查看原题页（第 {group.page} 页）</button>}</div></div> : null}
+      {currentEvidence && <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><span>对应讲义页</span><strong>{currentEvidence.title}</strong><p>本题组对应的讲义原页，可点击图片放大查看。</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${currentEvidence.title}`}><img src={assetPath(currentEvidence.image)} alt={`${currentEvidence.title}原页`} /><span><Icon name="eye" size={16} />点击放大查看讲义原页</span></button></div>}
       {page?.image ? <div className="source-thumb"><img src={assetPath(page.image)} alt={`题库原题第 ${group.page} 页`} /><button onClick={() => setShowSource(true)}><Icon name="eye" size={16} /></button></div> : null}
       </div>
     </aside>
@@ -995,7 +989,7 @@ function SourceModal({ group, page, sourceName, onClose }) {
 }
 
 function LectureEvidenceModal({ evidence, onClose }) {
-  return <div className="modal-backdrop" onClick={onClose}><div className="source-modal" role="dialog" aria-modal="true" aria-label="讲义校对依据" onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>讲义校对依据</span><h2>{evidence.title}</h2></div><button className="icon-button" onClick={onClose} aria-label="关闭讲义原页"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap lecture-modal-image"><img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} /></div><div className="modal-footer"><span>{evidence.description}</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
+  return <div className="modal-backdrop" onClick={onClose}><div className="source-modal" role="dialog" aria-modal="true" aria-label="对应讲义页" onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>对应讲义页</span><h2>{evidence.title}</h2></div><button className="icon-button" onClick={onClose} aria-label="关闭讲义原页"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap lecture-modal-image"><img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} /></div><div className="modal-footer"><span>本题组对应的讲义原页</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
 }
 
 export default App
