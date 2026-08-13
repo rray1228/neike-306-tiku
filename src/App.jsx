@@ -58,10 +58,11 @@ const CONTENT_LOADERS = {
   pathology: () => loadJson(() => import('./data/pathology-data.json')),
   physiology: () => loadJson(() => import('./data/physiology-data.json')),
   surgery: async () => {
-    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent] = await Promise.all([
+    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent] = await Promise.all([
       loadJson(() => import('./data/surgery-data.json')),
       loadJson(() => import('./data/surgery-fracture-data.json')),
       loadJson(() => import('./data/surgery-deformity-data.json')),
+      loadJson(() => import('./data/surgery-chronic-injury-data.json')),
       loadJson(() => import('./data/surgery-ortho-mixed-data.json')),
       loadJson(() => import('./data/surgery-ortho-infection-data.json')),
       loadJson(() => import('./data/surgery-nonpurulent-arthritis-data.json')),
@@ -76,7 +77,7 @@ const CONTENT_LOADERS = {
     return {
       ...surgeryContent,
       topics: [...surgeryContent.topics.filter((topic) => topic !== '综合'), '骨科', '外科总论', '综合'],
-      groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryNonpurulentArthritisContent.groups, ...surgeryBoneTumorContent.groups, ...surgeryTrunkSpineContent.groups, ...surgeryDegenerativeSpineContent.groups, ...surgeryLimbFractureContent.groups, ...surgeryGeneralCoreContent.groups, ...surgeryGeneralLateContent.surgeryGeneralInfectionGroups, ...surgeryGeneralContent.groups, ...surgeryGeneralLateContent.surgeryGeneralLaterGroups],
+      groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryChronicInjuryContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryNonpurulentArthritisContent.groups, ...surgeryBoneTumorContent.groups, ...surgeryTrunkSpineContent.groups, ...surgeryDegenerativeSpineContent.groups, ...surgeryLimbFractureContent.groups, ...surgeryGeneralCoreContent.groups, ...surgeryGeneralLateContent.surgeryGeneralInfectionGroups, ...surgeryGeneralContent.groups, ...surgeryGeneralLateContent.surgeryGeneralLaterGroups],
     }
   },
   biochemistry: async () => {
