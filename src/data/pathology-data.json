@@ -5,7 +5,7 @@
     "sourcePages": 35,
     "sourcePdfPages": 37,
     "lectureCount": 26,
-    "generatedBy": "scripts/build_pathology_content.py",
+    "generatedBy": "scripts/build_pathology_content.py + scripts/finalize_pathology_content.py",
     "siteIntegrated": true,
     "answerNote": "题册答案按原图保留，并对连续表格、OCR 字母混淆和缺失题组进行了人工修复。",
     "groups": 77,
@@ -720,7 +720,7 @@
     {
       "id": "p05-g1",
       "page": 5,
-      "title": "大肠癌癌前病变与相关基因",
+      "title": "大肠癌癌前病变与腺瘤",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -862,7 +862,7 @@
           }
         }
       ],
-      "sourceText": "大肠癌的癌前病变 | a.FAP A | A.家族性/遗传性腺瘤性息肉病 | b.Peutz-Jeghers | C | B.胶质瘤息肉病综合征 | C.Gardner N | C.色素沉着黑斑息肉综合征 | d.Turcot B | D.管状腺瘤 | E.克罗恩病 | 大肠癌的癌前病变 A B CDEFHIJLMNO | F.慢性血吸虫病 | G.幼年性息肉 | 腺瘤中最常见的是 D | H.增生性息肉病 | I.混合型腺瘤 | J.息肉状腺瘤 | 腺瘤中易癌变的是 O | K.增生性息肉 | L.幼年性息肉病 | M.溃疡性结肠炎 | N.肠息肉病合并多发性骨瘤和软组织瘤 | 0.线毛状腺瘤 | 与大肠癌密切相关的基因 | 原癌基因B GI | A.DPC | B.RAS | C.MSH | 抑癌基因 ADEFHK | D.p53 | E.MCC | 错配修复基因 CJ | F.APC | G.C-MrC | 与大肠癌关系最密切的三个基因 FB D | H.DCC | I.BRAF | 与遗传性腺瘤性息肉病相关的基因 F | J.MLH | K.p16 | 与遗传性非息肉病性大肠癌/Lynch 林奇综合征相关的基因C | 30510650",
+      "sourceText": "A.家族性/遗传性腺瘤性息肉病 | B.Turcot综合征（胶质瘤-息肉病综合征） | C.色素沉着黑斑息肉综合征 | D.管状腺瘤 | E.克罗恩病 | F.慢性血吸虫病 | G.幼年性息肉 | H.增生性息肉病 | I.混合型腺瘤 | J.息肉状腺瘤 | K.增生性息肉 | L.幼年性息肉病 | M.溃疡性结肠炎 | N.肠息肉病合并多发性骨瘤和软组织瘤 | O.绒毛状腺瘤 | 大肠癌的癌前病变（ABCDEFHIJLMNO） | 腺瘤中最常见的是（D） | 腺瘤中易癌变的是（O）",
       "reviewState": "已按题册原图与讲义逐题复核",
       "topic": "消化系统",
       "lectureIds": [
@@ -9247,7 +9247,7 @@
     {
       "id": "p29-g1",
       "page": 29,
-      "title": "坏死",
+      "title": "坏死与凋亡",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -12647,7 +12647,7 @@
     {
       "id": "p37-g2",
       "page": 37,
-      "title": "原癌基因；ACEGJLNOP）；抑癌基因",
+      "title": "原癌基因与抑癌基因",
       "kind": "multi",
       "kindLabel": "多项选择",
       "options": [

@@ -113,6 +113,14 @@ def repair_and_restore(groups: list[dict]) -> list[dict]:
         item = next(item for item in by_id[group_id]["options"] if item["key"] == key)
         item.update(option(key, label))
 
+    by_id["p05-g1"]["title"] = "大肠癌癌前病变与腺瘤"
+    by_id["p05-g1"]["sourceText"] = " | ".join([
+        *(row["sourceText"] for row in by_id["p05-g1"]["options"]),
+        *(row["sourceText"] for row in by_id["p05-g1"]["stems"]),
+    ])
+    by_id["p29-g1"]["title"] = "坏死与凋亡"
+    by_id["p37-g2"]["title"] = "原癌基因与抑癌基因"
+
     # Page 5 contains a second complete matching group that the original OCR
     # merged into p05-g1's source text.
     gene_group = {
@@ -208,6 +216,7 @@ def main() -> None:
         group["lectureEvidence"] = group["stems"][0]["lectureEvidence"]
 
     payload["meta"].update({
+        "generatedBy": "scripts/build_pathology_content.py + scripts/finalize_pathology_content.py",
         "groups": len(payload["groups"]),
         "stems": sum(len(group["stems"]) for group in payload["groups"]),
         "lectureEvidenceStems": sum(len(group["stems"]) for group in payload["groups"]),
