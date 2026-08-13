@@ -4148,13 +4148,13 @@
         },
         {
           "key": "B",
-          "label": "短效B受体激动剂(SABA)",
-          "sourceText": "B.短效B受体激动剂(SABA)"
+          "label": "短效β₂受体激动剂（SABA）",
+          "sourceText": "B.短效β₂受体激动剂（SABA）"
         },
         {
           "key": "C",
-          "label": "联合用药（ICS+LABA,ICS+LABA+LAMA)",
-          "sourceText": "C.联合用药（ICS+LABA,ICS+LABA+LAMA)"
+          "label": "联合用药（ICS+LABA、ICS+LABA+LAMA）",
+          "sourceText": "C.联合用药（ICS+LABA、ICS+LABA+LAMA）"
         },
         {
           "key": "D",
@@ -4173,8 +4173,8 @@
         },
         {
           "key": "G",
-          "label": "长效B受体激动剂(LABA,)",
-          "sourceText": "G.长效B受体激动剂(LABA,)"
+          "label": "长效β₂受体激动剂（LABA）",
+          "sourceText": "G.长效β₂受体激动剂（LABA）"
         },
         {
           "key": "H",
@@ -4184,7 +4184,7 @@
         {
           "key": "I",
           "label": "短效茶碱",
-          "sourceText": "1.短效茶碱"
+          "sourceText": "I.短效茶碱"
         },
         {
           "key": "J",
@@ -4213,11 +4213,10 @@
           "answer": [
             "B",
             "D",
-            "E",
             "I",
             "K"
           ],
-          "sourceText": "缓解性药物（BDEIK",
+          "sourceText": "缓解性药物（BDIK）",
           "sourceY": 179,
           "answerMode": "多选"
         },
@@ -4233,13 +4232,13 @@
             "L",
             "M"
           ],
-          "sourceText": "控制性药物（ACEGHJL M",
+          "sourceText": "控制性药物（ACEGHJLM）",
           "sourceY": 241,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "B.短效B受体激动剂(SABA) | 问： | C.联合用药（ICS+LABA,ICS+LABA+LAMA) | 缓解性药物（BDEIK | D.短效吸入型抗胆碱药物（SAMA) | E.白三烯调节剂 | 控制性药物（ACEGHJL M | F.ICS+福莫特罗 | G.长效B受体激动剂(LABA,) | H.缓释茶碱 | 1.短效茶碱 | J.抗IgE抗体 | K.全身用糖皮质激素 | L.抗IL-5抗体/抗IL-5R抗体 | M.抗1L-4R抗体抗TSLP抗体",
-      "reviewState": "待讲义复核",
+      "sourceText": "B.短效β₂受体激动剂（SABA） | C.联合用药（ICS+LABA、ICS+LABA+LAMA） | 缓解性药物（BDIK） | D.短效吸入型抗胆碱药物（SAMA） | E.白三烯调节剂 | 控制性药物（ACEGHJLM） | F.ICS+福莫特罗 | G.长效β₂受体激动剂（LABA） | H.缓释茶碱 | I.短效茶碱 | J.抗IgE抗体 | K.全身用糖皮质激素 | L.抗IL-5抗体/抗IL-5R抗体 | M.抗IL-4R抗体/抗TSLP抗体",
+      "reviewState": "已按讲义校对",
       "topic": "呼吸",
       "lectureIds": [
         "lecture-09"
