@@ -441,25 +441,16 @@
             "B",
             "A",
             "E",
-            "C"
+            "C",
+            "H"
           ],
           "answerMode": "多选",
           "sourceText": "非外伤性因素",
           "ocrScore": 1,
           "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "糖皮质激素、乙醇、减压/沉箱/潜水员病、镰状细胞贫血或地中海贫血",
-          "answer": [
-            "H"
-          ],
-          "answerMode": "单选",
-          "sourceText": "糖皮质激素、乙醇、减压/沉箱/潜水员病、镰状细胞贫血或地中海贫血",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
         }
       ],
-      "sourceText": "乙醇；糖皮质激素；镰状细胞贫血或地中海贫血；股骨颈骨折；减压/沉箱/潜水员病（氮气栓塞）；髋关节脱位；损伤旋股内侧动脉的分支骺外侧动脉；多为双侧；外伤性因素；非外伤性因素；糖皮质激素、乙醇、减压/沉箱/潜水员病、镰状细胞贫血或地中海贫血",
+      "sourceText": "乙醇；糖皮质激素；镰状细胞贫血或地中海贫血；股骨颈骨折；减压/沉箱/潜水员病（氮气栓塞）；髋关节脱位；损伤旋股内侧动脉的分支骺外侧动脉；多为双侧；外伤性因素；非外伤性因素",
       "reviewState": "已完成讲义校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -485,144 +476,6 @@
         "F",
         "G",
         "H"
-      ]
-    },
-    {
-      "id": "ortho-mixed-g06",
-      "page": 0,
-      "title": "股骨头无菌性坏死 · 临床表现与早期诊断",
-      "kind": "B",
-      "kindLabel": "B型题",
-      "options": [
-        {
-          "key": "A",
-          "label": "MRI：双线征和新月征",
-          "sourceText": "I. MRI：双线征和新月征",
-          "sourceKey": "I",
-          "ocrScore": 1
-        },
-        {
-          "key": "B",
-          "label": "腹股沟区深压痛",
-          "sourceText": "B. 腹股沟区深压痛",
-          "sourceKey": "B",
-          "ocrScore": 1
-        },
-        {
-          "key": "C",
-          "label": "股骨头坏死",
-          "sourceText": "E. 股骨头坏死",
-          "sourceKey": "E",
-          "ocrScore": 1
-        },
-        {
-          "key": "D",
-          "label": "4字试验",
-          "sourceText": "C. 4字试验",
-          "sourceKey": "C",
-          "ocrScore": 1
-        },
-        {
-          "key": "E",
-          "label": "强直性脊柱炎",
-          "sourceText": "G. 强直性脊柱炎",
-          "sourceKey": "G",
-          "ocrScore": 1
-        },
-        {
-          "key": "F",
-          "label": "核素：热区中有冷区",
-          "sourceText": "H. 核素：热区中有冷区",
-          "sourceKey": "H",
-          "ocrScore": 1
-        },
-        {
-          "key": "G",
-          "label": "股内收肌损伤",
-          "sourceText": "D. 股内收肌损伤",
-          "sourceKey": "D",
-          "ocrScore": 1
-        },
-        {
-          "key": "H",
-          "label": "髋关节结核",
-          "sourceText": "F. 髋关节结核",
-          "sourceKey": "F",
-          "ocrScore": 1
-        },
-        {
-          "key": "I",
-          "label": "髋关节活动受限",
-          "sourceText": "A. 髋关节活动受限",
-          "sourceKey": "A",
-          "ocrScore": 1
-        }
-      ],
-      "stems": [
-        {
-          "text": "股骨头无菌性坏死的临床表现",
-          "answer": [
-            "I",
-            "B",
-            "D"
-          ],
-          "answerMode": "多选",
-          "sourceText": "股骨头无菌性坏死的临床表现",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "4字试验可见于",
-          "answer": [
-            "G",
-            "C",
-            "H",
-            "E"
-          ],
-          "answerMode": "多选",
-          "sourceText": "4字试验可见于",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        },
-        {
-          "text": "早期诊断",
-          "answer": [
-            "F",
-            "A"
-          ],
-          "answerMode": "多选",
-          "sourceText": "早期诊断",
-          "ocrScore": 1,
-          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
-        }
-      ],
-      "sourceText": "MRI：双线征和新月征；腹股沟区深压痛；股骨头坏死；4字试验；强直性脊柱炎；核素：热区中有冷区；股内收肌损伤；髋关节结核；髋关节活动受限；股骨头无菌性坏死的临床表现；4字试验可见于；早期诊断",
-      "reviewState": "已完成讲义校对",
-      "reviewIssues": [],
-      "reviewNotes": [],
-      "topic": "骨科",
-      "lectureIds": [
-        "lecture-22"
-      ],
-      "lectureEvidence": {
-        "lectureId": "lecture-22",
-        "page": 2,
-        "image": "surgery/lecture-pages/lecture-22-page-02.webp",
-        "title": "第22讲第2页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
-        "description": "本题组已按第22讲对应讲义页逐项复核。"
-      },
-      "hideSource": true,
-      "optionShuffleVersion": 1,
-      "optionOriginalOrder": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I"
       ]
     },
     {
@@ -1652,8 +1505,8 @@
         },
         {
           "key": "U",
-          "label": "外翻、伸踝、伸趾障碍，呈马蹄内翻足和跨阈步态",
-          "sourceText": "Q. 外翻、伸踝、伸趾障碍，呈马蹄内翻足和跨阈步态",
+          "label": "足外翻障碍",
+          "sourceText": "Q. 足外翻障碍",
           "sourceKey": "Q",
           "ocrScore": 1
         },
@@ -1662,6 +1515,34 @@
           "label": "跖屈＝屈",
           "sourceText": "P. 跖屈＝屈",
           "sourceKey": "P",
+          "ocrScore": 1
+        },
+        {
+          "key": "W",
+          "label": "伸趾障碍",
+          "sourceText": "X. 伸趾障碍",
+          "sourceKey": "X",
+          "ocrScore": 1
+        },
+        {
+          "key": "X",
+          "label": "跨阈步态",
+          "sourceText": "Z. 跨阈步态",
+          "sourceKey": "Z",
+          "ocrScore": 1
+        },
+        {
+          "key": "Y",
+          "label": "伸踝障碍",
+          "sourceText": "W. 伸踝障碍",
+          "sourceKey": "W",
+          "ocrScore": 1
+        },
+        {
+          "key": "Z",
+          "label": "马蹄内翻足",
+          "sourceText": "Y. 马蹄内翻足",
+          "sourceKey": "Y",
           "ocrScore": 1
         }
       ],
@@ -1744,7 +1625,11 @@
           "answer": [
             "U",
             "I",
-            "B"
+            "B",
+            "Y",
+            "W",
+            "Z",
+            "X"
           ],
           "answerMode": "多选",
           "sourceText": "腓总神经",
@@ -1752,7 +1637,7 @@
           "reviewMethod": "已按第22讲第5页周围神经损伤表格逐项合并并完成选项重映射"
         }
       ],
-      "sourceText": "大鱼际萎缩、手掌平坦；拇指对掌障碍（猿手）；屈腕、前臂旋前和第1～3指屈曲障碍；掌面桡侧2/3手（含大鱼际）及桡侧3.5个手指感觉障碍；仅腕部损伤时无第1～3指屈曲障碍；第4、5指爪形手，Froment征、夹纸试验阳性；手指内收外展及第4、5指屈曲障碍；掌面尺侧1/3手及尺侧1.5个手指、背面尺侧1/2手及尺侧1/2手指感觉障碍；仅腕部损伤时无第4、5指屈曲障碍；伸腕障碍（垂腕）、前臂旋后障碍；伸指及拇指外展障碍；背面桡侧1/2手（含虎口）及桡侧1/2手指感觉障碍；仅桡骨头脱位致深支损伤时，无伸腕、前臂旋后和感觉障碍；膝关节伸直障碍；大腿前方、小腿内侧感觉障碍；膝关节屈曲障碍；小腿后外侧、足部感觉障碍；屈踝、屈趾障碍，呈钩状足；小腿后侧、足底感觉障碍；跖屈＝屈；外翻、伸踝、伸趾障碍，呈马蹄内翻足和跨阈步态；小腿前外侧、足背感觉障碍；背屈＝背伸＝伸；肱骨中下1/3骨折可致桡神经损伤；肱骨髁上骨折可致桡神经损伤；桡骨头脱位（肘部）可致桡神经损伤；正中神经；尺神经；桡神经；股神经；坐骨神经；胫神经；腓总神经",
+      "sourceText": "大鱼际萎缩、手掌平坦；拇指对掌障碍（猿手）；屈腕、前臂旋前和第1～3指屈曲障碍；掌面桡侧2/3手（含大鱼际）及桡侧3.5个手指感觉障碍；仅腕部损伤时无第1～3指屈曲障碍；第4、5指爪形手，Froment征、夹纸试验阳性；手指内收外展及第4、5指屈曲障碍；掌面尺侧1/3手及尺侧1.5个手指、背面尺侧1/2手及尺侧1/2手指感觉障碍；仅腕部损伤时无第4、5指屈曲障碍；伸腕障碍（垂腕）、前臂旋后障碍；伸指及拇指外展障碍；背面桡侧1/2手（含虎口）及桡侧1/2手指感觉障碍；仅桡骨头脱位致深支损伤时，无伸腕、前臂旋后和感觉障碍；膝关节伸直障碍；大腿前方、小腿内侧感觉障碍；膝关节屈曲障碍；小腿后外侧、足部感觉障碍；屈踝、屈趾障碍，呈钩状足；小腿后侧、足底感觉障碍；跖屈＝屈；足外翻障碍；伸踝障碍；伸趾障碍；马蹄内翻足；跨阈步态；小腿前外侧、足背感觉障碍；背屈＝背伸＝伸；肱骨中下1/3骨折可致桡神经损伤；肱骨髁上骨折可致桡神经损伤；桡骨头脱位（肘部）可致桡神经损伤；正中神经；尺神经；桡神经；股神经；坐骨神经；胫神经；腓总神经",
       "reviewState": "已完成讲义校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -1768,7 +1653,7 @@
         "description": "第35～38组已按讲义表格合并为一个题组；各神经作为题干，运动、感觉、备注及桡神经损伤原因作为共用选项。"
       },
       "hideSource": true,
-      "optionShuffleVersion": 2,
+      "optionShuffleVersion": 3,
       "optionOriginalOrder": [
         "A",
         "B",
@@ -1791,7 +1676,11 @@
         "S",
         "T",
         "U",
-        "V"
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
       ]
     },
     {
@@ -1936,7 +1825,7 @@
         "description": "本题组已按第22讲对应讲义页逐项复核。"
       },
       "hideSource": true,
-      "optionShuffleVersion": 1,
+      "optionShuffleVersion": 2,
       "optionOriginalOrder": [
         "A",
         "B",

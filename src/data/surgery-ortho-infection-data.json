@@ -1385,44 +1385,58 @@
       "options": [
         {
           "key": "A",
-          "label": "髋关节前方关节囊、髂腰肌或髂股韧带挛缩",
-          "sourceText": "D. 髋关节前方关节囊、髂腰肌或髂股韧带挛缩",
-          "sourceKey": "D",
-          "ocrScore": 1
-        },
-        {
-          "key": "B",
-          "label": "股骨头骨软骨病",
-          "sourceText": "E. 股骨头骨软骨病",
+          "label": "髂腰肌挛缩",
+          "sourceText": "E. 髂腰肌挛缩",
           "sourceKey": "E",
           "ocrScore": 1
         },
         {
+          "key": "B",
+          "label": "股骨头坏死",
+          "sourceText": "B. 股骨头坏死",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
           "key": "C",
+          "label": "股骨头骨软骨病",
+          "sourceText": "G. 股骨头骨软骨病",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
           "label": "股内收肌损伤",
           "sourceText": "A. 股内收肌损伤",
           "sourceKey": "A",
           "ocrScore": 1
         },
         {
-          "key": "D",
-          "label": "强直性脊柱炎",
-          "sourceText": "F. 强直性脊柱炎",
+          "key": "E",
+          "label": "髂股韧带挛缩",
+          "sourceText": "F. 髂股韧带挛缩",
           "sourceKey": "F",
           "ocrScore": 1
         },
         {
-          "key": "E",
+          "key": "F",
+          "label": "强直性脊柱炎",
+          "sourceText": "H. 强直性脊柱炎",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
           "label": "髋关节结核",
           "sourceText": "C. 髋关节结核",
           "sourceKey": "C",
           "ocrScore": 1
         },
         {
-          "key": "F",
-          "label": "股骨头坏死",
-          "sourceText": "B. 股骨头坏死",
-          "sourceKey": "B",
+          "key": "H",
+          "label": "髋关节前方关节囊挛缩",
+          "sourceText": "D. 髋关节前方关节囊挛缩",
+          "sourceKey": "D",
           "ocrScore": 1
         }
       ],
@@ -1430,10 +1444,10 @@
         {
           "text": "4字试验阳性可见于",
           "answer": [
-            "C",
-            "F",
-            "E",
-            "D"
+            "D",
+            "B",
+            "G",
+            "F"
           ],
           "answerMode": "多选",
           "sourceText": "4字试验阳性可见于",
@@ -1443,9 +1457,11 @@
         {
           "text": "Thomas征阳性可见于",
           "answer": [
-            "E",
+            "G",
+            "H",
             "A",
-            "B"
+            "E",
+            "C"
           ],
           "answerMode": "多选",
           "sourceText": "Thomas征阳性可见于",
@@ -1453,7 +1469,7 @@
           "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
         }
       ],
-      "sourceText": "股内收肌损伤；股骨头坏死；髋关节结核；髋关节前方关节囊、髂腰肌或髂股韧带挛缩；股骨头骨软骨病；强直性脊柱炎；4字试验阳性可见于；Thomas征阳性可见于",
+      "sourceText": "股内收肌损伤；股骨头坏死；髋关节结核；髋关节前方关节囊挛缩；髂腰肌挛缩；髂股韧带挛缩；股骨头骨软骨病；强直性脊柱炎；4字试验阳性可见于；Thomas征阳性可见于",
       "reviewState": "已完成讲义校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -1469,14 +1485,16 @@
         "description": "本题组已按第23讲对应讲义页逐项复核，并保持Word原题组结构。"
       },
       "hideSource": true,
-      "optionShuffleVersion": 2,
+      "optionShuffleVersion": 3,
       "optionOriginalOrder": [
         "A",
         "B",
         "C",
         "D",
         "E",
-        "F"
+        "F",
+        "G",
+        "H"
       ]
     },
     {

@@ -19,7 +19,7 @@ EXPECTED = {
     "ortho-infection-g08": ["C", "ABDE"],
     "ortho-infection-g09": ["BCEFGH"],
     "ortho-infection-g10": ["AE", "BCD"],
-    "ortho-infection-g11": ["ABCF", "CDE"],
+    "ortho-infection-g11": ["ABCH", "CDEFG"],
     "ortho-infection-g12": ["A", "C", "D", "B"],
 }
 
@@ -32,7 +32,7 @@ def main() -> None:
 
     assert len(groups) == 12
     assert sum(len(group["stems"]) for group in groups) == 38
-    assert sum(len(group["options"]) for group in groups) == 96
+    assert sum(len(group["options"]) for group in groups) == 98
     assert [group["id"] for group in groups] == list(EXPECTED)
     assert payload["meta"]["lecturePagesReviewed"] == [1, 2, 3, 4]
 
@@ -42,7 +42,7 @@ def main() -> None:
         assert group["reviewState"] == "已完成讲义校对"
         assert not group["reviewIssues"] and not group["reviewNotes"]
         assert group["hideSource"] is True
-        assert group["optionShuffleVersion"] == 2
+        assert group["optionShuffleVersion"] == (3 if group["id"] == "ortho-infection-g11" else 2)
 
         option_keys = [option["key"] for option in group["options"]]
         source_keys = [option["sourceKey"] for option in group["options"]]
@@ -69,7 +69,7 @@ def main() -> None:
         values.extend(stem["text"] for stem in group["stems"])
         assert not any(re.search(r"\s{2,}|[|•“”‘’]", value) for value in values), f"{group['id']}: punctuation or spacing issue"
 
-    print({"groups": 12, "stems": 38, "options": 96, "shuffled": 12, "status": "ok"})
+    print({"groups": 12, "stems": 38, "options": 98, "shuffled": 12, "status": "ok"})
 
 
 if __name__ == "__main__":
