@@ -319,7 +319,7 @@ def main():
         topic = "消化" if page_number == 20 else topic_for(text)
         page_records.append({
             "page": page_number,
-            "image": f"/source-pages/page-{page_number:02d}.webp",
+            "image": "",
             "topic": topic,
             "searchText": clean_text(text)[:7000],
         })

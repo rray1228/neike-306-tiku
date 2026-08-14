@@ -876,7 +876,7 @@ def main() -> None:
         rows = pages[page]
         page_records.append({
             "page": page,
-            "image": f"surgery/source-pages/page-{page:02d}.webp",
+            "image": "",
             "topic": PAGE_TOPIC[page],
             "searchText": clean_text(" ".join(row["text"] for row in rows))[:7000],
         })

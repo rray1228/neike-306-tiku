@@ -834,7 +834,7 @@ function App() {
             ))}
           </nav>
           <div className="sidebar-footer">
-            <div className="source-stat"><span>题库来源</span><strong>{content.meta.sourceLabel || '学成选择题（PDF 扫描版）'}</strong><small>{content.meta.sourcePages} 页 · {content.groups.length} 个题组 · {content.groups.reduce((sum, item) => sum + item.stems.length, 0)} 个题干</small></div>
+            <div className="source-stat"><span>题库来源</span><strong>{content.meta.sourceLabel || '学成选择题（题目数据版）'}</strong><small>{content.groups.length} 个题组 · {content.groups.reduce((sum, item) => sum + item.stems.length, 0)} 个题干</small></div>
             <div className="lecture-stat"><span>讲义依据</span><strong>{subjectConfig.label}讲义 PDF 共 {content.meta.lectureCount} 份</strong><Icon name="file" size={18} /></div>
           </div>
         </aside>

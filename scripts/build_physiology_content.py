@@ -476,7 +476,7 @@ def main() -> None:
 
     pages = [{
         "page": page["page"],
-        "image": f"physiology/source-pages/page-{page['page']:03d}.webp",
+        "image": "",
         "topic": next((group["topic"] for group in groups if group["page"] == page["page"]), "综合"),
         "searchText": clean_text(page["searchText"]),
     } for page in extracted["pages"]]
