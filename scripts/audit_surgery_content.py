@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Audit the integrated surgery payload and source-page assets."""
+"""Audit the integrated surgery payload and lecture-page assets."""
 
 from __future__ import annotations
 
@@ -179,11 +179,22 @@ def main() -> None:
     empty_answers = []
     text_issues = []
     missing_images = []
+    missing_lecture_evidence = []
+    lecture_images = set()
     for page in payload["pages"]:
         image = root / "public" / page["image"]
         if not image.exists():
             missing_images.append(str(image))
     for group in payload["groups"]:
+        evidence = group.get("lectureEvidence") or {}
+        evidence_image = evidence.get("image", "")
+        if not evidence_image:
+            missing_lecture_evidence.append(group["id"])
+        else:
+            lecture_images.add(evidence_image)
+            image_path = root / "public" / evidence_image
+            if not image_path.exists():
+                missing_images.append(str(image_path))
         option_keys = [option["key"] for option in group.get("options", [])]
         keys = set(option_keys)
         if len(option_keys) != len(keys):
@@ -214,6 +225,13 @@ def main() -> None:
                 text_issues.append(f"{group['id']}:{value}")
 
     assert not missing_images, f"missing source images: {missing_images}"
+    assert not missing_lecture_evidence, f"groups without lecture evidence: {missing_lecture_evidence}"
+    for image_name in sorted(lecture_images):
+        image_path = root / "public" / image_name
+        header = image_path.read_bytes()[:12]
+        assert image_path.suffix.lower() == ".webp", f"lecture image extension is not WebP: {image_name}"
+        assert header[:4] == b"RIFF" and header[8:12] == b"WEBP", \
+            f"lecture image content is not WebP: {image_name}"
     assert not duplicate_option_keys, f"duplicate option keys: {duplicate_option_keys}"
     assert not empty_answers, f"empty or unresolved answers: {empty_answers}"
     assert not duplicate_answers, f"duplicate answer keys: {duplicate_answers}"
@@ -221,6 +239,20 @@ def main() -> None:
     assert not text_issues, f"text/review issues: {text_issues}"
 
     groups_by_id = {group["id"]: group for group in payload["groups"]}
+    corrected_cross_chapter_pages = {
+        "p05-g4": ("lecture-04", 1),
+        "p06-g1": ("lecture-04", 2),
+        "p06-g2": ("lecture-05", 1),
+        "p06-g3": ("lecture-05", 2),
+        "p06-g4": ("lecture-05", 3),
+        "p07-g3": ("lecture-06", 1),
+        "p07-g4": ("lecture-06", 1),
+        "p18-g4": ("lecture-16", 12),
+    }
+    for group_id, expected in corrected_cross_chapter_pages.items():
+        evidence = groups_by_id[group_id]["lectureEvidence"]
+        assert (evidence["lectureId"], evidence["page"]) == expected, \
+            f"{group_id}: cross-chapter lecture evidence drift"
     colorectal_ids = {group["id"] for group in payload["groups"] if group["topic"] == "结直肠与肛管疾病"}
     assert colorectal_ids == set(VERIFIED_COLORECTAL_OPTIONS), f"colorectal group drift: {sorted(colorectal_ids)}"
     for group_id, expected_options in VERIFIED_COLORECTAL_OPTIONS.items():
