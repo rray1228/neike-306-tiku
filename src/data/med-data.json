@@ -35641,6 +35641,105 @@
         "title": "第56讲第26页：内科含诊断 心律失常",
         "description": "本题组对应第56讲第26页讲义。"
       }
+    },
+    {
+      "id": "ecg56-g1",
+      "page": 56,
+      "title": "心律失常心电图（一）",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "hideSource": true,
+      "options": [
+        { "key": "A", "label": "窦性心动过速", "sourceText": "A.窦性心动过速" },
+        { "key": "B", "label": "窦性心动过缓", "sourceText": "B.窦性心动过缓" },
+        { "key": "C", "label": "窦性心律不齐", "sourceText": "C.窦性心律不齐" },
+        { "key": "D", "label": "房性期前收缩（房早）", "sourceText": "D.房性期前收缩（房早）" },
+        { "key": "E", "label": "交界性期前收缩", "sourceText": "E.交界性期前收缩" },
+        { "key": "F", "label": "阵发性室上性心动过速", "sourceText": "F.阵发性室上性心动过速" },
+        { "key": "G", "label": "心房扑动", "sourceText": "G.心房扑动" },
+        { "key": "H", "label": "心房颤动", "sourceText": "H.心房颤动" }
+      ],
+      "stems": [
+        { "text": "", "image": "med/ecg/sinus-tachycardia.png", "imageAlt": "II导联心电图题干", "answer": ["A"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/sinus-bradycardia.png", "imageAlt": "II导联心电图题干", "answer": ["B"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/sinus-arrhythmia.png", "imageAlt": "II导联心电图题干", "answer": ["C"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/atrial-premature-beat.png", "imageAlt": "心电图题干", "answer": ["D"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/junctional-premature-beat.png", "imageAlt": "心电图题干", "answer": ["E"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/psvt.png", "imageAlt": "心电图题干", "answer": ["F"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/atrial-flutter.png", "imageAlt": "心电图题干", "answer": ["G"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/atrial-fibrillation.png", "imageAlt": "心电图题干", "answer": ["H"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" }
+      ],
+      "sourceText": "请根据每张心电图判断心律失常类型。",
+      "reviewState": "已按第56讲讲义校对",
+      "topic": "循环",
+      "lectureIds": ["lecture-56"],
+      "lectureEvidence": { "lectureId": "lecture-56", "page": 8, "image": "med/lecture-pages/lecture-56-page-08.webp", "title": "第56讲第8页：内科含诊断 心律失常", "description": "本题组对应第56讲心律失常讲义。" }
+    },
+    {
+      "id": "ecg56-g2",
+      "page": 56,
+      "title": "心律失常心电图（二）",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "hideSource": true,
+      "options": [
+        { "key": "A", "label": "室性期前收缩（室早）", "sourceText": "A.室性期前收缩（室早）" },
+        { "key": "B", "label": "室性期前收缩二联律", "sourceText": "B.室性期前收缩二联律" },
+        { "key": "C", "label": "室性期前收缩三联律", "sourceText": "C.室性期前收缩三联律" },
+        { "key": "D", "label": "成对室性期前收缩", "sourceText": "D.成对室性期前收缩" },
+        { "key": "E", "label": "多形性室性期前收缩", "sourceText": "E.多形性室性期前收缩" },
+        { "key": "F", "label": "室性心动过速", "sourceText": "F.室性心动过速" },
+        { "key": "G", "label": "尖端扭转型室性心动过速", "sourceText": "G.尖端扭转型室性心动过速" },
+        { "key": "H", "label": "R-on-T型室性期前收缩", "sourceText": "H.R-on-T型室性期前收缩" }
+      ],
+      "stems": [
+        { "text": "", "image": "med/ecg/ventricular-premature-beat.png", "imageAlt": "心电图题干", "answer": ["A"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/ventricular-bigeminy.png", "imageAlt": "心电图题干", "answer": ["B"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/ventricular-trigeminy.png", "imageAlt": "心电图题干", "answer": ["C"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/coupled-ventricular-premature-beats.png", "imageAlt": "心电图题干", "answer": ["D"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/multiform-ventricular-premature-beats.png", "imageAlt": "心电图题干", "answer": ["E"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/ventricular-tachycardia.png", "imageAlt": "心电图题干", "answer": ["F"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/torsades-de-pointes.png", "imageAlt": "心电图题干", "answer": ["G"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/r-on-t-pvc.png", "imageAlt": "心电图题干", "answer": ["H"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" }
+      ],
+      "sourceText": "请根据每张心电图判断室性心律失常类型。",
+      "reviewState": "已按第56讲讲义校对",
+      "topic": "循环",
+      "lectureIds": ["lecture-56"],
+      "lectureEvidence": { "lectureId": "lecture-56", "page": 17, "image": "med/lecture-pages/lecture-56-page-17.webp", "title": "第56讲第17页：内科含诊断 心律失常", "description": "本题组对应第56讲心律失常讲义。" }
+    },
+    {
+      "id": "ecg56-g3",
+      "page": 56,
+      "title": "心律失常心电图（三）",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "hideSource": true,
+      "options": [
+        { "key": "A", "label": "一度房室传导阻滞", "sourceText": "A.一度房室传导阻滞" },
+        { "key": "B", "label": "二度Ⅰ型房室传导阻滞（文氏阻滞）", "sourceText": "B.二度Ⅰ型房室传导阻滞（文氏阻滞）" },
+        { "key": "C", "label": "二度Ⅱ型房室传导阻滞", "sourceText": "C.二度Ⅱ型房室传导阻滞" },
+        { "key": "D", "label": "三度房室传导阻滞（完全性房室传导阻滞）", "sourceText": "D.三度房室传导阻滞（完全性房室传导阻滞）" },
+        { "key": "E", "label": "二度Ⅰ型窦房传导阻滞", "sourceText": "E.二度Ⅰ型窦房传导阻滞" },
+        { "key": "F", "label": "二度Ⅱ型窦房传导阻滞", "sourceText": "F.二度Ⅱ型窦房传导阻滞" },
+        { "key": "G", "label": "完全性右束支传导阻滞", "sourceText": "G.完全性右束支传导阻滞" },
+        { "key": "H", "label": "完全性左束支传导阻滞", "sourceText": "H.完全性左束支传导阻滞" }
+      ],
+      "stems": [
+        { "text": "", "image": "med/ecg/first-degree-av-block.png", "imageAlt": "心电图题干", "answer": ["A"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/second-degree-av-block-mobitz-i.png", "imageAlt": "心电图题干", "answer": ["B"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/second-degree-av-block-mobitz-ii.png", "imageAlt": "心电图题干", "answer": ["C"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/third-degree-av-block.png", "imageAlt": "心电图题干", "answer": ["D"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/second-degree-sa-block-mobitz-i.png", "imageAlt": "心电图题干", "answer": ["E"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/second-degree-sa-block-mobitz-ii.png", "imageAlt": "心电图题干", "answer": ["F"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/complete-rbbb.png", "imageAlt": "心电图题干", "answer": ["G"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
+        { "text": "", "image": "med/ecg/complete-lbbb.png", "imageAlt": "心电图题干", "answer": ["H"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" }
+      ],
+      "sourceText": "请根据每张心电图判断传导阻滞类型。",
+      "reviewState": "已按第56讲讲义校对",
+      "topic": "循环",
+      "lectureIds": ["lecture-56"],
+      "lectureEvidence": { "lectureId": "lecture-56", "page": 21, "image": "med/lecture-pages/lecture-56-page-21.webp", "title": "第56讲第21页：内科含诊断 心律失常", "description": "本题组对应第56讲心律失常讲义。" }
     }
   ],
   "lectures": [

@@ -150,11 +150,16 @@ button:disabled { cursor: default; }
 .stem-list { padding: 9px 20px 5px; }
 .stem-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 14px; align-items: center; padding: 14px 0; border-bottom: 1px solid #eff2f6; position: relative; }
 .stem-row:last-child { border-bottom: 0; }
+.stem-row.image-stem { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+.stem-row.image-stem .answer-choices { grid-column: 1; justify-content: flex-start; max-width: none; padding-left: 30px; }
 .stem-main { display: flex; gap: 12px; align-items: flex-start; min-width: 0; }
 .stem-number { flex: 0 0 auto; color: #a0acbb; font-size: 12px; font-variant-numeric: tabular-nums; padding-top: 3px; }
 .stem-copy { min-width: 0; }
 .stem-heading { display: flex; align-items: flex-start; gap: 8px; }
 .stem-copy p { flex: 1; margin: 0; color: #26344b; font-size: 14px; line-height: 1.55; }
+.stem-figure { margin: 0 0 10px; padding: 8px; border: 1px solid #e3e9f1; border-radius: 8px; background: #f8fafc; overflow: hidden; }
+.stem-figure img { display: block; width: 100%; max-height: 270px; object-fit: contain; object-position: left center; }
+.stem-image-heading { display: flex; justify-content: flex-end; }
 .answer-mode { flex: 0 0 auto; margin-top: 1px; padding: 3px 6px; border: 1px solid #d9e1ec; border-radius: 5px; color: #738196; background: #f7f9fc; font-size: 10px; line-height: 1.2; }
 .answer-mode.is-multi { border-color: #b8d2fa; color: var(--blue); background: var(--blue-soft); }
 .stem-copy small { display: block; color: #9aa6b5; font-size: 11px; margin-top: 4px; }
