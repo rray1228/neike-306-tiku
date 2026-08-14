@@ -1127,8 +1127,9 @@
         {
           "number": 5,
           "text": "参与酮体分解的酶",
-          "answerRaw": "H、O",
+          "answerRaw": "J、H、O",
           "answer": [
+            "J",
             "H",
             "O"
           ],
