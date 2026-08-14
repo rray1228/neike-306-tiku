@@ -60,7 +60,7 @@ def main() -> None:
 
     for group in groups[:8]:
         assert group["kindLabel"] == "B型题"
-        assert group["optionShuffleVersion"] == 2
+        assert group["optionShuffleVersion"] == 3
         option_keys = [option["key"] for option in group["options"]]
         source_keys = [option["sourceKey"] for option in group["options"]]
         assert len(option_keys) == len(set(option_keys))
@@ -82,6 +82,12 @@ def main() -> None:
     ]
     assert not any("不选" in option["label"] for option in group3["options"])
     assert any(option["label"] == "脊髓损伤" for option in group3["options"])
+
+    group2 = groups[1]
+    whiplash = next(option for option in group2["options"] if option["sourceKey"] == "O")
+    nonoperative, operative = group2["stems"][:2]
+    assert whiplash["key"] not in nonoperative["answer"]
+    assert whiplash["key"] in operative["answer"]
 
     fill = groups[8]
     assert fill["kind"] == "FILL" and fill["kindLabel"] == "填空题"

@@ -52,7 +52,7 @@ def main() -> None:
         assert group["reviewState"] == "已完成讲义校对"
         assert not group["reviewIssues"] and not group["reviewNotes"]
         assert group["hideSource"] is True
-        assert group["optionShuffleVersion"] == 2
+        assert group["optionShuffleVersion"] == 3
 
         option_keys = [option["key"] for option in group["options"]]
         source_keys = [option["sourceKey"] for option in group["options"]]
@@ -93,6 +93,10 @@ def main() -> None:
     assert any("Codman三角" in label and "ALP" in label for label in labels)
     assert any("地舒单抗" in label for label in labels)
     assert any("阿司匹林" in label for label in labels)
+    group2 = groups[1]
+    biopsy = next(option for option in group2["options"] if option["sourceKey"] == "C")
+    assert biopsy["label"] == "活检"
+    assert any(biopsy["key"] in stem["answer"] for stem in group2["stems"] if stem["text"] == "骨肿瘤确诊金标准")
     print({"groups": 3, "stems": 21, "options": 74, "categorized_options": 51, "status": "ok"})
 
 

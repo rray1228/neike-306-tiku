@@ -34,7 +34,7 @@ def main() -> None:
         assert group["reviewState"] == "已完成讲义校对"
         assert not group["reviewIssues"] and not group["reviewNotes"]
         assert group["hideSource"] is True
-        assert group["optionShuffleVersion"] == 2
+        assert group["optionShuffleVersion"] == 3
 
         option_keys = [option["key"] for option in group["options"]]
         source_keys = [option["sourceKey"] for option in group["options"]]
