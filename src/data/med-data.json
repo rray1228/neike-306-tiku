@@ -35526,14 +35526,23 @@
       ],
       "stems": [
         {
+          "text": "I类",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "I类C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
           "text": "IA类",
           "answer": [
-            "C",
+            "G",
             "J",
             "N",
             "W"
           ],
-          "sourceText": "IA类CJNW",
+          "sourceText": "IA类GJNW",
           "sourceY": 0,
           "answerMode": "多选"
         },
