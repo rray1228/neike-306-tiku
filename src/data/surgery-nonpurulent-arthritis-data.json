@@ -55,23 +55,23 @@
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
-        {"key": "A", "label": "HLA-B₂₇", "sourceText": "G. HLA-B27", "sourceKey": "G", "ocrScore": 1},
-        {"key": "B", "label": "女青年多见", "sourceText": "F. 女青年多见", "sourceKey": "F", "ocrScore": 1},
-        {"key": "C", "label": "非药物→NSAIDs、DMARDs→手术", "sourceText": "L. 非药物→NSAIDs、DMARDs→手术", "sourceKey": "L", "ocrScore": 1},
-        {"key": "D", "label": "小关节多见", "sourceText": "K. 小关节多见", "sourceKey": "K", "ocrScore": 1},
-        {"key": "E", "label": "休息后加重、活动后减轻", "sourceText": "E. 休息后加重、活动后减轻", "sourceKey": "E", "ocrScore": 1},
-        {"key": "F", "label": "CCP、RF", "sourceText": "A. CCP、RF", "sourceKey": "A", "ocrScore": 1},
-        {"key": "G", "label": "病变始于骶髂关节", "sourceText": "J. 病变始于骶髂关节", "sourceKey": "J", "ocrScore": 1},
-        {"key": "H", "label": "晨僵明显而持久", "sourceText": "M. 类风湿的晨僵明显而持久", "sourceKey": "M", "ocrScore": 1},
-        {"key": "I", "label": "同服NSAIDs或糖皮质激素＋DMARDs，如甲氨蝶呤，手术", "sourceText": "I. 同服NSAIDs或糖皮质激素＋DMARDs，如甲氨蝶呤，手术", "sourceKey": "I", "ocrScore": 1},
-        {"key": "J", "label": "男青年多见", "sourceText": "B. 男青年多见", "sourceKey": "B", "ocrScore": 1},
-        {"key": "K", "label": "病变始于滑膜", "sourceText": "D. 病变始于滑膜", "sourceKey": "D", "ocrScore": 1},
-        {"key": "L", "label": "糖皮质激素对中轴关节病变无效", "sourceText": "C. 糖皮质激素对中轴关节病变无效", "sourceKey": "C", "ocrScore": 1},
-        {"key": "M", "label": "大关节多见", "sourceText": "H. 大关节多见", "sourceKey": "H", "ocrScore": 1}
+        {"key": "A", "label": "女青年多见", "sourceText": "F. 女青年多见", "sourceKey": "F", "ocrScore": 1},
+        {"key": "B", "label": "男青年多见", "sourceText": "B. 男青年多见", "sourceKey": "B", "ocrScore": 1},
+        {"key": "C", "label": "晨僵明显而持久", "sourceText": "M. 类风湿的晨僵明显而持久", "sourceKey": "M", "ocrScore": 1},
+        {"key": "D", "label": "非药物→NSAIDs、DMARDs→手术", "sourceText": "L. 非药物→NSAIDs、DMARDs→手术", "sourceKey": "L", "ocrScore": 1},
+        {"key": "E", "label": "病变始于滑膜", "sourceText": "D. 病变始于滑膜", "sourceKey": "D", "ocrScore": 1},
+        {"key": "F", "label": "同服NSAIDs或糖皮质激素＋DMARDs，如甲氨蝶呤，手术", "sourceText": "I. 同服NSAIDs或糖皮质激素＋DMARDs，如甲氨蝶呤，手术", "sourceKey": "I", "ocrScore": 1},
+        {"key": "G", "label": "小关节多见", "sourceText": "K. 小关节多见", "sourceKey": "K", "ocrScore": 1},
+        {"key": "H", "label": "休息后加重、活动后减轻", "sourceText": "E. 休息后加重、活动后减轻", "sourceKey": "E", "ocrScore": 1},
+        {"key": "I", "label": "HLA-B₂₇", "sourceText": "G. HLA-B27", "sourceKey": "G", "ocrScore": 1},
+        {"key": "J", "label": "糖皮质激素对中轴关节病变无效", "sourceText": "C. 糖皮质激素对中轴关节病变无效", "sourceKey": "C", "ocrScore": 1},
+        {"key": "K", "label": "大关节多见", "sourceText": "H. 大关节多见", "sourceKey": "H", "ocrScore": 1},
+        {"key": "L", "label": "CCP、RF", "sourceText": "A. CCP、RF", "sourceKey": "A", "ocrScore": 1},
+        {"key": "M", "label": "病变始于骶髂关节", "sourceText": "J. 病变始于骶髂关节", "sourceKey": "J", "ocrScore": 1}
       ],
       "stems": [
-        {"text": "强直性脊柱炎", "answer": ["A", "C", "E", "G", "J", "L", "M"], "answerMode": "多选", "sourceText": "强直性脊柱炎", "ocrScore": 1, "reviewMethod": "已按第24讲第2页横向鉴别表逐项校对；保持原文档题组关系并完成选项重映射"},
-        {"text": "类风湿关节炎", "answer": ["B", "D", "F", "H", "I", "K"], "answerMode": "多选", "sourceText": "类风湿关节炎", "ocrScore": 1, "reviewMethod": "已按第24讲第2页横向鉴别表逐项校对；保持原文档题组关系并完成选项重映射"}
+        {"text": "强直性脊柱炎", "answer": ["B", "D", "H", "I", "J", "K", "M"], "answerMode": "多选", "sourceText": "强直性脊柱炎", "ocrScore": 1, "reviewMethod": "已按第24讲第2页横向鉴别表逐项校对；保持原文档题组关系并完成选项重映射"},
+        {"text": "类风湿关节炎", "answer": ["A", "C", "E", "F", "G", "H", "L"], "answerMode": "多选", "sourceText": "类风湿关节炎", "ocrScore": 1, "reviewMethod": "已按第24讲第2页横向鉴别表逐项校对；保持原文档题组关系并完成选项重映射"}
       ],
       "reviewState": "已完成讲义校对",
       "reviewIssues": [],
@@ -89,7 +89,7 @@
       "reviewNotes": [],
       "lectureEvidence": {"lectureId": "lecture-24", "page": 2, "image": "surgery/lecture-pages/lecture-24-page-02.webp", "title": "第24讲第2页：强直性脊柱炎与类风湿关节炎横向鉴别", "description": "本题组已按第24讲横向鉴别表逐项复核，并保持Word原题组结构。"},
       "optionOriginalOrder": ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"],
-      "optionShuffleVersion": 4
+      "optionShuffleVersion": 5
     },
     {
       "id": "nonpurulent-arthritis-g03",

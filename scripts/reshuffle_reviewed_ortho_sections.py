@@ -20,10 +20,14 @@ PINNED_ORDERS = {
     # Clinical manifestations are deliberately spaced at A/D/G/J; the other
     # dimensions are interleaved so paired facts do not sit next to each other.
     "nonpurulent-arthritis-g01": ["J", "I", "C", "F", "G", "L", "A", "B", "D", "K", "E", "H"],
-    # Keep display H as the RA morning-stiffness option after the manual review.
-    "nonpurulent-arthritis-g02": ["G", "F", "L", "K", "E", "A", "J", "M", "I", "B", "D", "C", "H"],
+    # Keep display H as the shared "rest worse, activity better" feature. The
+    # RA-specific morning-stiffness option remains separate at display C.
+    "nonpurulent-arthritis-g02": ["F", "B", "M", "L", "D", "I", "K", "E", "G", "C", "H", "A", "J"],
 }
-PINNED_VERSION = 4
+PINNED_VERSIONS = {
+    "nonpurulent-arthritis-g01": 4,
+    "nonpurulent-arthritis-g02": 5,
+}
 
 
 def dump_payload(payload: dict) -> str:
@@ -104,7 +108,7 @@ def reshuffle_group(group: dict) -> None:
     group["optionShuffleVersion"] = VERSION
 
 
-def reorder_group_by_source(group: dict, source_order: list[str]) -> None:
+def reorder_group_by_source(group: dict, source_order: list[str], version: int) -> None:
     options = group["options"]
     display_to_source = {option["key"]: option["sourceKey"] for option in options}
     source_answers = [
@@ -127,7 +131,7 @@ def reorder_group_by_source(group: dict, source_order: list[str]) -> None:
             for option in reordered
             if option["sourceKey"] in answers
         ]
-    group["optionShuffleVersion"] = PINNED_VERSION
+    group["optionShuffleVersion"] = version
 
 
 def deduplicate_bone_tumor_options(group: dict) -> None:
@@ -207,8 +211,8 @@ def main() -> None:
     for path in DATA_FILES:
         payload = json.loads(path.read_text(encoding="utf-8"))
         for group in payload["groups"]:
-            if group["id"] in PINNED_ORDERS and group.get("optionShuffleVersion") != PINNED_VERSION:
-                reorder_group_by_source(group, PINNED_ORDERS[group["id"]])
+            if group["id"] in PINNED_ORDERS and group.get("optionShuffleVersion") != PINNED_VERSIONS[group["id"]]:
+                reorder_group_by_source(group, PINNED_ORDERS[group["id"]], PINNED_VERSIONS[group["id"]])
             elif group.get("options") and group.get("optionShuffleVersion", 0) < VERSION:
                 reshuffle_group(group)
 
@@ -216,6 +220,13 @@ def main() -> None:
             group2 = next(group for group in payload["groups"] if group["id"] == "nonpurulent-arthritis-g02")
             morning_stiffness = next(option for option in group2["options"] if option["sourceKey"] == "M")
             morning_stiffness["label"] = "晨僵明显而持久"
+            shared_activity_feature = next(option for option in group2["options"] if option["sourceKey"] == "E")
+            option_order = {option["key"]: index for index, option in enumerate(group2["options"])}
+            for stem_name in ("强直性脊柱炎", "类风湿关节炎"):
+                stem = next(stem for stem in group2["stems"] if stem["text"] == stem_name)
+                if shared_activity_feature["key"] not in stem["answer"]:
+                    stem["answer"].append(shared_activity_feature["key"])
+                stem["answer"].sort(key=option_order.__getitem__)
 
         if path.name == "surgery-bone-tumor-data.json":
             group = next(group for group in payload["groups"] if group["id"] == "bone-tumor-g02")

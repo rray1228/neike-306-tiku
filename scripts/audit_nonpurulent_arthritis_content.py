@@ -10,7 +10,7 @@ from pathlib import Path
 
 EXPECTED = {
     "nonpurulent-arthritis-g01": ["BCEGJK", "ADFHIL"],
-    "nonpurulent-arthritis-g02": ["BCEGHJL", "ADFIKM"],
+    "nonpurulent-arthritis-g02": ["BCEGHJL", "ADEFIKM"],
     "nonpurulent-arthritis-g03": ["BEGIKN", "ADFHJLM", "COP"],
     "nonpurulent-arthritis-g04": ["D", "C", "E", "B", "A"],
 }
@@ -34,7 +34,7 @@ def main() -> None:
         assert group["reviewState"] == "已完成讲义校对"
         assert not group["reviewIssues"] and not group["reviewNotes"]
         assert group["hideSource"] is True
-        expected_version = 4 if group["id"] in {"nonpurulent-arthritis-g01", "nonpurulent-arthritis-g02"} else 3
+        expected_version = {"nonpurulent-arthritis-g01": 4, "nonpurulent-arthritis-g02": 5}.get(group["id"], 3)
         assert group["optionShuffleVersion"] == expected_version
 
         option_keys = [option["key"] for option in group["options"]]
@@ -66,10 +66,15 @@ def main() -> None:
     assert any(option["label"] == "4字试验" for group in groups for option in group["options"])
     group1, group2 = groups[:2]
     assert [option["sourceKey"] for option in group1["options"]] == ["J", "I", "C", "F", "G", "L", "A", "B", "D", "K", "E", "H"]
-    assert [option["sourceKey"] for option in group2["options"]] == ["G", "F", "L", "K", "E", "A", "J", "M", "I", "B", "D", "C", "H"]
+    assert [option["sourceKey"] for option in group2["options"]] == ["F", "B", "M", "L", "D", "I", "K", "E", "G", "C", "H", "A", "J"]
+    as_stem = next(stem for stem in group2["stems"] if stem["text"] == "强直性脊柱炎")
     ra = next(stem for stem in group2["stems"] if stem["text"] == "类风湿关节炎")
+    assert "H" in as_stem["answer"]
     assert "H" in ra["answer"]
-    assert group2["options"][7]["label"] == "晨僵明显而持久"
+    assert group2["options"][7]["label"] == "休息后加重、活动后减轻"
+    morning_stiffness = next(option for option in group2["options"] if option["sourceKey"] == "M")
+    assert morning_stiffness["label"] == "晨僵明显而持久"
+    assert morning_stiffness["key"] in ra["answer"]
     print({"groups": 4, "stems": 12, "options": 46, "shuffled": 4, "status": "ok"})
 
 
