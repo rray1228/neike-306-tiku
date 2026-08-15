@@ -22,7 +22,7 @@
       "page": 1,
       "image": "",
       "topic": "氨基酸与蛋白质",
-      "searchText": "氨基酸中文名与英文名"
+      "searchText": "氨基酸中文名与英文缩写"
     },
     {
       "page": 2,
@@ -89,89 +89,89 @@
     {
       "id": "bio-07-01",
       "page": 1,
-      "title": "氨基酸中文名与英文名",
+      "title": "氨基酸中文名与英文缩写",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "Aspartic acid"
+          "label": "Asp"
         },
         {
           "key": "B",
-          "label": "Leucine"
+          "label": "Leu"
         },
         {
           "key": "C",
-          "label": "Cysteine"
+          "label": "Cys"
         },
         {
           "key": "D",
-          "label": "Glutamic acid"
+          "label": "Glu"
         },
         {
           "key": "E",
-          "label": "Threonine"
+          "label": "Thr"
         },
         {
           "key": "F",
-          "label": "Tryptophan"
+          "label": "Trp"
         },
         {
           "key": "G",
-          "label": "Tyrosine"
+          "label": "Tyr"
         },
         {
           "key": "H",
-          "label": "Histidine"
+          "label": "His"
         },
         {
           "key": "I",
-          "label": "Valine"
+          "label": "Val"
         },
         {
           "key": "J",
-          "label": "Glycine"
+          "label": "Gly"
         },
         {
           "key": "K",
-          "label": "Asparagine"
+          "label": "Asn"
         },
         {
           "key": "L",
-          "label": "Serine"
+          "label": "Ser"
         },
         {
           "key": "M",
-          "label": "Arginine"
+          "label": "Arg"
         },
         {
           "key": "N",
-          "label": "Isoleucine"
+          "label": "Ile"
         },
         {
           "key": "O",
-          "label": "Phenylalanine"
+          "label": "Phe"
         },
         {
           "key": "P",
-          "label": "Alanine"
+          "label": "Ala"
         },
         {
           "key": "Q",
-          "label": "Lysine"
+          "label": "Lys"
         },
         {
           "key": "R",
-          "label": "Proline"
+          "label": "Pro"
         },
         {
           "key": "S",
-          "label": "Methionine"
+          "label": "Met"
         },
         {
           "key": "T",
-          "label": "Glutamine"
+          "label": "Gln"
         }
       ],
       "stems": [
@@ -356,7 +356,7 @@
           "answerMode": "单选"
         }
       ],
-      "sourceText": "氨基酸中文名与英文名",
+      "sourceText": "氨基酸中文名与英文缩写",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
       "reviewNotes": [],

@@ -15,6 +15,13 @@ SOURCE_DIR = Path("/Users/ray/Downloads")
 TOPIC = "氨基酸与蛋白质"
 GROUP_RE = re.compile(r"^第\s*(\d+)\s*组\s+(.*)$")
 QUESTION_RE = re.compile(r"^(\d+)\.\s*(.*)$")
+AMINO_ACID_ABBREVIATIONS = {
+    "Valine": "Val", "Glutamine": "Gln", "Phenylalanine": "Phe", "Threonine": "Thr",
+    "Proline": "Pro", "Cysteine": "Cys", "Arginine": "Arg", "Leucine": "Leu",
+    "Tryptophan": "Trp", "Histidine": "His", "Aspartic acid": "Asp", "Glutamic acid": "Glu",
+    "Asparagine": "Asn", "Alanine": "Ala", "Serine": "Ser", "Glycine": "Gly",
+    "Tyrosine": "Tyr", "Methionine": "Met", "Lysine": "Lys", "Isoleucine": "Ile",
+}
 
 
 def parse_workbook(path: Path):
@@ -80,8 +87,12 @@ def evidence(lecture_number, lecture_title, page):
 
 def make_group(lecture_number, lecture_title, display_index, source_group, evidence_page):
     original = list(source_group["options"])
-    option_labels = [label for _, label in original]
-    source_labels = {key: label for key, label in original}
+    use_abbreviations = lecture_number == 7 and source_group["source_index"] == 11
+    source_labels = {
+        key: AMINO_ACID_ABBREVIATIONS.get(label, label) if use_abbreviations else label
+        for key, label in original
+    }
+    option_labels = list(source_labels.values())
     shuffled = list(option_labels)
     random.Random(30600 + lecture_number * 100 + source_group["source_index"]).shuffle(shuffled)
     if shuffled == option_labels:
@@ -127,6 +138,7 @@ def main():
     groups7 = parse_workbook(SOURCE_DIR / "生化_07_氨基酸代谢与氨基酸_学成选择题_中英文名补充版.docx")
     # User-specified order: the original group 11 is the first study group.
     groups7 = [next(group for group in groups7 if group["source_index"] == 11)] + [group for group in groups7 if group["source_index"] != 11]
+    groups7[0]["title"] = "氨基酸中文名与英文缩写"
     evidence7 = {11: 7, 1: 7, 2: 1, 3: 2, 4: 2, 5: 2, 6: 3, 7: 3, 8: 4, 9: 1, 10: 1}
     output7 = [make_group(7, title7, index, group, evidence7[group["source_index"]]) for index, group in enumerate(groups7, 1)]
     data7 = payload(7, title7, "生化第 07 讲学成选择题（氨基酸代谢与氨基酸）", output7)
