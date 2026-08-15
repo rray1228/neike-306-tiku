@@ -34,7 +34,8 @@ def main() -> None:
         assert group["reviewState"] == "已完成讲义校对"
         assert not group["reviewIssues"] and not group["reviewNotes"]
         assert group["hideSource"] is True
-        assert group["optionShuffleVersion"] == 3
+        expected_version = 4 if group["id"] in {"nonpurulent-arthritis-g01", "nonpurulent-arthritis-g02"} else 3
+        assert group["optionShuffleVersion"] == expected_version
 
         option_keys = [option["key"] for option in group["options"]]
         source_keys = [option["sourceKey"] for option in group["options"]]
@@ -63,6 +64,12 @@ def main() -> None:
 
     assert any(option["label"] == "HLA-B₂₇" for group in groups for option in group["options"])
     assert any(option["label"] == "4字试验" for group in groups for option in group["options"])
+    group1, group2 = groups[:2]
+    assert [option["sourceKey"] for option in group1["options"]] == ["J", "I", "C", "F", "G", "L", "A", "B", "D", "K", "E", "H"]
+    assert [option["sourceKey"] for option in group2["options"]] == ["G", "F", "L", "K", "E", "A", "J", "M", "I", "B", "D", "C", "H"]
+    ra = next(stem for stem in group2["stems"] if stem["text"] == "类风湿关节炎")
+    assert "H" in ra["answer"]
+    assert group2["options"][7]["label"] == "晨僵明显而持久"
     print({"groups": 4, "stems": 12, "options": 46, "shuffled": 4, "status": "ok"})
 
 

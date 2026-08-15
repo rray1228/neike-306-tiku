@@ -16,22 +16,22 @@ EXPECTED_SOURCE_ANSWERS = {
         {"B", "I", "M", "⑦", "㉓"},
         {"③", "⑩", "⑱", "㉒", "㉕"},
         {"O", "P", "S", "U", "⑤", "⑥", "⑭", "⑰"},
-        {"E", "G", "Y", "⑨", "⑯"},
+        {"E", "G", "㉓", "⑨", "⑯"},
         {"C", "N", "W", "㉔"},
-        {"L", "R", "④"},
-        {"L", "R", "②"},
+        {"F", "L", "④"},
+        {"F", "L", "②"},
         {"X", "⑲", "㉑"},
-        {"D", "H", "V"},
+        {"D", "F", "H"},
         {"F", "Z"},
         {"K", "①", "⑪", "⑮"},
         {"Q", "T", "⑧"},
-        {"J", "⑫", "⑳"},
+        {"J", "⑫", "㉓"},
         {"A", "⑬"},
     ],
 }
 
 CATEGORIES = ["性质", "好发部位与人群", "影像、症状与病理特点", "治疗"]
-CATEGORY_COUNTS = {"性质": 6, "好发部位与人群": 11, "影像、症状与病理特点": 18, "治疗": 16}
+CATEGORY_COUNTS = {"性质": 6, "好发部位与人群": 9, "影像、症状与病理特点": 18, "治疗": 14}
 
 
 def main() -> None:
@@ -42,7 +42,7 @@ def main() -> None:
 
     assert len(groups) == 3
     assert sum(len(group["stems"]) for group in groups) == 21
-    assert sum(len(group["options"]) for group in groups) == 74
+    assert sum(len(group["options"]) for group in groups) == 70
     assert [group["id"] for group in groups] == list(EXPECTED_SOURCE_ANSWERS)
     assert payload["meta"]["lecturePagesReviewed"] == list(range(1, 9))
 
@@ -59,7 +59,10 @@ def main() -> None:
         assert len(option_keys) == len(set(option_keys))
         assert len(source_keys) == len(set(source_keys))
         assert source_keys != group["optionOriginalOrder"], f"{group['id']}: options remain in source order"
-        assert set(source_keys) == set(group["optionOriginalOrder"])
+        if group["id"] == "bone-tumor-g03":
+            assert set(source_keys) < set(group["optionOriginalOrder"])
+        else:
+            assert set(source_keys) == set(group["optionOriginalOrder"])
 
         display_to_source = {option["key"]: option["sourceKey"] for option in group["options"]}
         semantic_answers = [
@@ -87,7 +90,14 @@ def main() -> None:
     assert Counter(option["category"] for option in group3["options"]) == Counter(CATEGORY_COUNTS)
     assert all("category" not in option for group in groups[:2] for option in group["options"])
     assert all("category" in option for option in group3["options"])
-    assert [option["key"] for option in group3["options"]] == group3["optionOriginalOrder"]
+    assert [option["key"] for option in group3["options"]] == group3["optionOriginalOrder"][: len(group3["options"])]
+    duplicate_labels = [label for label, count in Counter(option["label"] for option in group3["options"]).items() if count > 1]
+    assert duplicate_labels == []
+    merged = {option["label"]: option["sourceAliases"] for option in group3["options"] if "sourceAliases" in option}
+    assert merged == {
+        "青少年多见，好发于长骨干骺端（股骨下端、胫骨上端等）": ["㉓", "⑳", "Y"],
+        "手术治疗": ["F", "R", "V"],
+    }
 
     labels = [option["label"] for option in group3["options"]]
     assert any("Codman三角" in label and "ALP" in label for label in labels)
@@ -97,7 +107,7 @@ def main() -> None:
     biopsy = next(option for option in group2["options"] if option["sourceKey"] == "C")
     assert biopsy["label"] == "活检"
     assert any(biopsy["key"] in stem["answer"] for stem in group2["stems"] if stem["text"] == "骨肿瘤确诊金标准")
-    print({"groups": 3, "stems": 21, "options": 74, "categorized_options": 51, "status": "ok"})
+    print({"groups": 3, "stems": 21, "options": 70, "categorized_options": 47, "status": "ok"})
 
 
 if __name__ == "__main__":

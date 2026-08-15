@@ -16,6 +16,14 @@ DATA_FILES = (
     ROOT / "src/data/surgery-trunk-spine-data.json",
 )
 VERSION = 3
+PINNED_ORDERS = {
+    # Clinical manifestations are deliberately spaced at A/D/G/J; the other
+    # dimensions are interleaved so paired facts do not sit next to each other.
+    "nonpurulent-arthritis-g01": ["J", "I", "C", "F", "G", "L", "A", "B", "D", "K", "E", "H"],
+    # Keep display H as the RA morning-stiffness option after the manual review.
+    "nonpurulent-arthritis-g02": ["G", "F", "L", "K", "E", "A", "J", "M", "I", "B", "D", "C", "H"],
+}
+PINNED_VERSION = 4
 
 
 def dump_payload(payload: dict) -> str:
@@ -96,18 +104,129 @@ def reshuffle_group(group: dict) -> None:
     group["optionShuffleVersion"] = VERSION
 
 
+def reorder_group_by_source(group: dict, source_order: list[str]) -> None:
+    options = group["options"]
+    display_to_source = {option["key"]: option["sourceKey"] for option in options}
+    source_answers = [
+        {display_to_source[key] for key in stem["answer"]}
+        for stem in group["stems"]
+    ]
+    source_to_option = {option["sourceKey"]: option for option in options}
+    assert set(source_order) == set(source_to_option)
+
+    display_keys = [option["key"] for option in options]
+    reordered = [source_to_option[source_key] for source_key in source_order]
+    for display_key, option in zip(display_keys, reordered):
+        option["key"] = display_key
+    group["options"] = reordered
+
+    source_to_display = {option["sourceKey"]: option["key"] for option in reordered}
+    for stem, answers in zip(group["stems"], source_answers):
+        stem["answer"] = [
+            source_to_display[option["sourceKey"]]
+            for option in reordered
+            if option["sourceKey"] in answers
+        ]
+    group["optionShuffleVersion"] = PINNED_VERSION
+
+
+def deduplicate_bone_tumor_options(group: dict) -> None:
+    """Merge exact duplicate labels while preserving all source-answer links."""
+    options = group["options"]
+    display_to_source = {option["key"]: option["sourceKey"] for option in options}
+    source_answers = [
+        {display_to_source[key] for key in stem["answer"]}
+        for stem in group["stems"]
+    ]
+
+    kept_by_label: dict[str, dict] = {}
+    source_aliases: dict[str, str] = {}
+    deduplicated = []
+    for option in options:
+        keeper = kept_by_label.get(option["label"])
+        if keeper is None:
+            kept_by_label[option["label"]] = option
+            option["sourceAliases"] = [option["sourceKey"]]
+            deduplicated.append(option)
+        else:
+            keeper["sourceAliases"].append(option["sourceKey"])
+            source_aliases[option["sourceKey"]] = keeper["sourceKey"]
+
+    display_keys = [option["key"] for option in options[: len(deduplicated)]]
+    for display_key, option in zip(display_keys, deduplicated):
+        option["key"] = display_key
+    group["options"] = deduplicated
+
+    source_to_display = {option["sourceKey"]: option["key"] for option in deduplicated}
+    for stem, answers in zip(group["stems"], source_answers):
+        normalized = {source_aliases.get(source, source) for source in answers}
+        stem["answer"] = [
+            source_to_display[option["sourceKey"]]
+            for option in deduplicated
+            if option["sourceKey"] in normalized
+        ]
+
+    # Keep alias metadata only where a merge actually occurred.
+    for option in deduplicated:
+        if len(option["sourceAliases"]) == 1:
+            option.pop("sourceAliases")
+
+
+def merge_bone_tumor_location_variants(group: dict) -> None:
+    """Merge the same adolescent-metaphysis fact with/without examples."""
+    options = group["options"]
+    keeper = next((option for option in options if option["sourceKey"] == "㉓"), None)
+    duplicate = next((option for option in options if option["sourceKey"] == "Y"), None)
+    if keeper is None or duplicate is None:
+        return
+
+    display_to_source = {option["key"]: option["sourceKey"] for option in options}
+    source_answers = [
+        {display_to_source[key] for key in stem["answer"]}
+        for stem in group["stems"]
+    ]
+    keeper["label"] = "青少年多见，好发于长骨干骺端（股骨下端、胫骨上端等）"
+    keeper.setdefault("sourceAliases", [keeper["sourceKey"]]).append("Y")
+    merged = [option for option in options if option["sourceKey"] != "Y"]
+    display_keys = [option["key"] for option in options[: len(merged)]]
+    for display_key, option in zip(display_keys, merged):
+        option["key"] = display_key
+    group["options"] = merged
+
+    source_to_display = {option["sourceKey"]: option["key"] for option in merged}
+    for stem, answers in zip(group["stems"], source_answers):
+        normalized = {"㉓" if source == "Y" else source for source in answers}
+        stem["answer"] = [
+            source_to_display[option["sourceKey"]]
+            for option in merged
+            if option["sourceKey"] in normalized
+        ]
+
+
 def main() -> None:
     for path in DATA_FILES:
         payload = json.loads(path.read_text(encoding="utf-8"))
         for group in payload["groups"]:
-            if group.get("options") and group.get("optionShuffleVersion") != VERSION:
+            if group["id"] in PINNED_ORDERS and group.get("optionShuffleVersion") != PINNED_VERSION:
+                reorder_group_by_source(group, PINNED_ORDERS[group["id"]])
+            elif group.get("options") and group.get("optionShuffleVersion", 0) < VERSION:
                 reshuffle_group(group)
+
+        if path.name == "surgery-nonpurulent-arthritis-data.json":
+            group2 = next(group for group in payload["groups"] if group["id"] == "nonpurulent-arthritis-g02")
+            morning_stiffness = next(option for option in group2["options"] if option["sourceKey"] == "M")
+            morning_stiffness["label"] = "晨僵明显而持久"
 
         if path.name == "surgery-bone-tumor-data.json":
             group = next(group for group in payload["groups"] if group["id"] == "bone-tumor-g02")
             biopsy = next(option for option in group["options"] if option["sourceKey"] == "C")
             biopsy["label"] = "活检"
             biopsy["sourceText"] = "C. 活检"
+            group3 = next(group for group in payload["groups"] if group["id"] == "bone-tumor-g03")
+            labels = [option["label"] for option in group3["options"]]
+            if len(labels) != len(set(labels)):
+                deduplicate_bone_tumor_options(group3)
+            merge_bone_tumor_location_variants(group3)
 
         path.write_text(dump_payload(payload), encoding="utf-8")
 
