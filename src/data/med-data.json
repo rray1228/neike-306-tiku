@@ -34682,6 +34682,116 @@
       }
     },
     {
+      "id": "p95-g2",
+      "page": 95,
+      "title": "房室传导阻滞类型",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        { "key": "A", "label": "PR间期进行性延长，直到出现一次QRS波脱落（P波下传受阻），受阻P波前的PR间期延长", "sourceText": "A.PR间期进行性延长，直到出现一次QRS波脱落（P波下传受阻），受阻P波前的PR间期延长" },
+        { "key": "B", "label": "PR间期基本恒定（恒定正常或恒定延长），部分P波后无QRS波", "sourceText": "B.PR间期基本恒定（恒定正常或恒定延长），部分P波后无QRS波" },
+        { "key": "C", "label": "QRS波不脱落，QRS波形态多正常", "sourceText": "C.QRS波不脱落，QRS波形态多正常" },
+        { "key": "D", "label": "最常见的房室传导比例为3:1或4:1，因此多为高度房室阻滞", "sourceText": "D.最常见的房室传导比例为3:1或4:1，因此多为高度房室阻滞" },
+        { "key": "E", "label": "PR间期恒定延长≥0.2s", "sourceText": "E.PR间期恒定延长≥0.2s" },
+        { "key": "F", "label": "可由强心苷中毒、高钾血症、急性下壁心梗、急性心肌炎引起", "sourceText": "F.可由强心苷中毒、高钾血症、急性下壁心梗、急性心肌炎引起" },
+        { "key": "G", "label": "S1强度恒定减弱", "sourceText": "G.S1强度恒定减弱" },
+        { "key": "H", "label": "S1强度基本恒定伴间歇性心搏脱落", "sourceText": "H.S1强度基本恒定伴间歇性心搏脱落" },
+        { "key": "I", "label": "阻滞部位在房室结者QRS波形态多正常；阻滞部位在希氏束-浦肯野纤维者QRS波宽大畸形", "sourceText": "I.阻滞部位在房室结者QRS波形态多正常；阻滞部位在希氏束-浦肯野纤维者QRS波宽大畸形" },
+        { "key": "J", "label": "S1强度逐渐减弱和心搏脱落", "sourceText": "J.S1强度逐渐减弱和心搏脱落" },
+        { "key": "K", "label": "房室分离：PR间期不固定", "sourceText": "K.房室分离：PR间期不固定" },
+        { "key": "L", "label": "RR间距进行性缩短（RR间距=PP间距+PR的增量，PR增量减小）", "sourceText": "L.RR间距进行性缩短（RR间距=PP间距+PR的增量，PR增量减小）" },
+        { "key": "M", "label": "S1强度变化不定可呈大炮音（响亮亢进的S1）", "sourceText": "M.S1强度变化不定可呈大炮音（响亮亢进的S1）" },
+        { "key": "N", "label": "包含受阻P波在内（脱落QRS波前后的）的RR间距<2倍正常PP间距", "sourceText": "N.包含受阻P波在内（脱落QRS波前后的）的RR间距<2倍正常PP间距" },
+        { "key": "O", "label": "心房率快于心室率", "sourceText": "O.心房率快于心室率" },
+        { "key": "P", "label": "最常见的房室传导比例为3:2或5:4", "sourceText": "P.最常见的房室传导比例为3:2或5:4" },
+        { "key": "Q", "label": "多数阻滞部位在房室结：QRS波形态多正常", "sourceText": "Q.多数阻滞部位在房室结：QRS波形态多正常" }
+      ],
+      "stems": [
+        { "text": "一度房室阻滞", "answer": ["C", "E", "G"], "sourceText": "一度房室阻滞 CEG", "sourceY": 0, "answerMode": "多选" },
+        { "text": "二度Ⅰ型房室阻滞", "answer": ["A", "J", "L", "N", "P", "Q"], "sourceText": "二度Ⅰ型房室阻滞 AJLNPQ", "sourceY": 0, "answerMode": "多选" },
+        { "text": "二度Ⅱ型房室阻滞", "answer": ["B", "D", "H", "I"], "sourceText": "二度Ⅱ型房室阻滞 BDHI", "sourceY": 0, "answerMode": "多选" },
+        { "text": "三度房室阻滞/完全性房室阻滞", "answer": ["F", "I", "K", "M", "O"], "sourceText": "三度房室阻滞/完全性房室阻滞 FIKMO", "sourceY": 0, "answerMode": "多选" }
+      ],
+      "sourceText": "学成选择题PDF第95页第二组：房室传导阻滞类型",
+      "reviewState": "已按第95页PDF与第56讲讲义第18页核对",
+      "topic": "循环",
+      "lectureIds": ["lecture-56"],
+      "lectureEvidence": { "lectureId": "lecture-56", "page": 18, "image": "med/lecture-pages/lecture-56-page-18.webp", "title": "第56讲第18页：内科含诊断 心律失常", "description": "本题组对应第56讲房室传导阻滞讲义。" }
+    },
+    {
+      "id": "p95-g3",
+      "page": 95,
+      "title": "二度Ⅰ型房室与窦房传导阻滞",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        { "key": "A", "label": "长PP<两个短PP之和", "sourceText": "A.长PP<两个短PP之和" },
+        { "key": "B", "label": "心房冲动传至心室时间逐渐延长，直到一次心房冲动不能传至心室，导致QRS波脱落", "sourceText": "B.心房冲动传至心室时间逐渐延长，直到一次心房冲动不能传至心室，导致QRS波脱落" },
+        { "key": "C", "label": "脱落QRS波前后RR<2倍正常PP", "sourceText": "C.脱落QRS波前后RR<2倍正常PP" },
+        { "key": "D", "label": "窦房结冲动传至心房时间逐渐延长，直到一次窦房结冲动不能传至心房，导致P波和QRS波均脱落", "sourceText": "D.窦房结冲动传至心房时间逐渐延长，直到一次窦房结冲动不能传至心房，导致P波和QRS波均脱落" },
+        { "key": "E", "label": "PR间期进行性延长", "sourceText": "E.PR间期进行性延长" },
+        { "key": "F", "label": "PP间距进行性缩短直到出现一次P波、QRS波脱落", "sourceText": "F.PP间距进行性缩短直到出现一次P波、QRS波脱落" },
+        { "key": "G", "label": "RR间距进行性缩短直到出现一次QRS波脱落", "sourceText": "G.RR间距进行性缩短直到出现一次QRS波脱落" }
+      ],
+      "stems": [
+        { "text": "二度Ⅰ型房室阻滞", "answer": ["B", "C", "E", "G"], "sourceText": "二度Ⅰ型房室阻滞 BCEG", "sourceY": 0, "answerMode": "多选" },
+        { "text": "二度Ⅰ型窦房阻滞", "answer": ["A", "D", "F"], "sourceText": "二度Ⅰ型窦房阻滞 ADF", "sourceY": 0, "answerMode": "多选" }
+      ],
+      "sourceText": "学成选择题PDF第95页第三组：二度Ⅰ型房室与窦房传导阻滞",
+      "reviewState": "已按第95页PDF与第56讲讲义第18、21页核对",
+      "topic": "循环",
+      "lectureIds": ["lecture-56"],
+      "lectureEvidence": { "lectureId": "lecture-56", "page": 21, "image": "med/lecture-pages/lecture-56-page-21.webp", "title": "第56讲第21页：内科含诊断 心律失常", "description": "本题组对应第56讲窦房传导阻滞讲义。" }
+    },
+    {
+      "id": "lecture56-av-dissociation",
+      "page": 56,
+      "title": "三种房室分离",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "hideSource": true,
+      "options": [
+        { "key": "A", "label": "生理性干扰", "sourceText": "A.生理性干扰" },
+        { "key": "B", "label": "室性心动过速", "sourceText": "B.室性心动过速" },
+        { "key": "C", "label": "三度房室传导阻滞", "sourceText": "C.三度房室传导阻滞" }
+      ],
+      "stems": [
+        { "text": "心室率/QRS波频率与心房率/P波频率差别不大，偶然发生", "answer": ["A"], "sourceText": "三种房室分离：心室率与心房率差别不大，偶然发生", "sourceY": 0, "answerMode": "单选" },
+        { "text": "心室率约100-250次/分，明显高于心房率", "answer": ["B"], "sourceText": "三种房室分离：心室率明显高于心房率", "sourceY": 0, "answerMode": "单选" },
+        { "text": "心室率约20-60次/分，低于心房率", "answer": ["C"], "sourceText": "三种房室分离：心室率低于心房率", "sourceY": 0, "answerMode": "单选" }
+      ],
+      "sourceText": "请根据房室分离时心室率与心房率的关系判断类型。",
+      "reviewState": "根据第56讲讲义第20页新增并校对",
+      "topic": "循环",
+      "lectureIds": ["lecture-56"],
+      "lectureEvidence": { "lectureId": "lecture-56", "page": 20, "image": "med/lecture-pages/lecture-56-page-20.webp", "title": "第56讲第20页：内科含诊断 心律失常", "description": "本题组对应第56讲三种房室分离小结。" }
+    },
+    {
+      "id": "lecture56-cardiac-enlargement",
+      "page": 56,
+      "title": "心脏变大",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "hideSource": true,
+      "options": [
+        { "key": "A", "label": "右心室大", "sourceText": "A.右心室大" },
+        { "key": "B", "label": "左心室大", "sourceText": "B.左心室大" },
+        { "key": "C", "label": "右心房大", "sourceText": "C.右心房大" },
+        { "key": "D", "label": "左心房大", "sourceText": "D.左心房大" }
+      ],
+      "stems": [
+        { "text": "RV1+SV5≥1.05mV，电轴右偏，顺钟向转位（V5 R/S≤1）", "answer": ["A"], "sourceText": "右心室大：RV1+SV5≥1.05mV，电轴右偏，顺钟向转位", "sourceY": 0, "answerMode": "单选" },
+        { "text": "RV5+SV1≥4/3.5mV，电轴左偏，ST段可压低", "answer": ["B"], "sourceText": "左心室大：RV5+SV1≥4/3.5mV，电轴左偏，ST段可压低", "sourceY": 0, "answerMode": "单选" },
+        { "text": "肺型P波（高尖P波≥0.25mV）", "answer": ["C"], "sourceText": "右心房大：肺型P波（高尖P波≥0.25mV）", "sourceY": 0, "answerMode": "单选" },
+        { "text": "二尖瓣型P波（P波>0.12s，呈双峰样）", "answer": ["D"], "sourceText": "左心房大：二尖瓣型P波（P波>0.12s，呈双峰样）", "sourceY": 0, "answerMode": "单选" }
+      ],
+      "sourceText": "请根据心电图特征判断心脏扩大部位。",
+      "reviewState": "根据第56讲讲义第23页新增并校对",
+      "topic": "循环",
+      "lectureIds": ["lecture-56"],
+      "lectureEvidence": { "lectureId": "lecture-56", "page": 23, "image": "med/lecture-pages/lecture-56-page-23.webp", "title": "第56讲第23页：内科含诊断 心律失常", "description": "本题组对应第56讲心脏变大小结。" }
+    },
+    {
       "id": "p96-g1",
       "page": 96,
       "title": "二度阻滞的心电图特征",
