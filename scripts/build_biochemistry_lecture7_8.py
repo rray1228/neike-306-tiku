@@ -167,17 +167,12 @@ def main():
 
     title8 = "生化 蛋白质"
     groups8 = parse_workbook(SOURCE_DIR / "生化_08_蛋白质_学成选择题_选项打散版.docx")
-    output8 = [make_group(8, title8, index, group, 1) for index, group in enumerate(groups8, 1)]
-    output8[5] = make_custom_group(8, title8, 6, "蛋白质分离纯化：层析、电泳与等电点", [
-        "凝胶过滤 / 分子筛层析", "大分子蛋白质先被洗脱", "透析", "超滤", "将小分子与蛋白质分离", "去除可逆性抑制剂",
-        "超速离心", "SDS-PAGE", "仅依据分子量", "离子交换层析", "电荷量小的先被分离出", "电泳", "电荷量大",
-        "分子量小", "球状", "溶液离子强度小", "白蛋白最快", "γ球蛋白最慢", "盐析法", "破坏蛋白质表面水化膜",
-        "破坏蛋白质表面电荷层", "有机溶剂法", "等电点法", "蛋白质表面电荷较少",
-    ], [
-        ("利用分子大小分离纯化蛋白质", ["凝胶过滤 / 分子筛层析", "大分子蛋白质先被洗脱", "透析", "超滤", "将小分子与蛋白质分离", "去除可逆性抑制剂", "超速离心", "SDS-PAGE", "仅依据分子量"]),
-        ("利用两性解离分离纯化蛋白质", ["离子交换层析", "电荷量小的先被分离出", "电泳", "电荷量大", "分子量小", "球状", "溶液离子强度小", "白蛋白最快", "γ球蛋白最慢"]),
-        ("利用溶解度分离纯化蛋白质", ["盐析法", "破坏蛋白质表面水化膜", "破坏蛋白质表面电荷层", "有机溶剂法", "等电点法", "蛋白质表面电荷较少"]),
-    ], 1)
+    # 第 05 组与分离纯化内容重复，删除；第 06 组保留原题。
+    output8 = [
+        make_group(8, title8, index, group, 1)
+        for index, group in enumerate(groups8, 1)
+        if index != 5
+    ]
     data8 = payload(8, title8, "生化第 08 讲学成选择题（蛋白质）", output8)
     data8["lectures"][0]["pageCount"] = 5
     Path("src/data/biochemistry-lecture8-data.json").write_text(json.dumps(data8, ensure_ascii=False, indent=2), encoding="utf-8")

@@ -4,8 +4,8 @@
     "sourceLabel": "生化第 08 讲学成选择题（蛋白质）",
     "sourcePages": 1,
     "lectureCount": 1,
-    "groupCount": 8,
-    "stemCount": 34,
+    "groupCount": 7,
+    "stemCount": 36,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture7_8.py",
     "siteIntegrated": true,
@@ -43,16 +43,10 @@
       "searchText": "蛋白质水解与变性"
     },
     {
-      "page": 5,
-      "image": "",
-      "topic": "氨基酸与蛋白质",
-      "searchText": "蛋白质分离纯化：依据与方法"
-    },
-    {
       "page": 6,
       "image": "",
       "topic": "氨基酸与蛋白质",
-      "searchText": "蛋白质分离纯化：层析、电泳与等电点"
+      "searchText": "层析、电泳与等电点"
     },
     {
       "page": 7,
@@ -567,254 +561,140 @@
       }
     },
     {
-      "id": "bio-08-05",
-      "page": 5,
-      "title": "蛋白质分离纯化：依据与方法",
+      "id": "bio-08-06",
+      "page": 6,
+      "title": "层析、电泳与等电点",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "有机溶剂法"
+          "label": "白蛋白最快"
         },
         {
           "key": "B",
-          "label": "凝胶过滤 / 分子筛层析"
+          "label": "分子量小"
         },
         {
           "key": "C",
-          "label": "盐析法"
+          "label": "溶液离子强度小"
         },
         {
           "key": "D",
-          "label": "透析、超滤"
+          "label": "电荷量大"
         },
         {
           "key": "E",
-          "label": "超速离心"
+          "label": "pH＝pI时呈电中性"
         },
         {
           "key": "F",
-          "label": "离子交换层析"
+          "label": "γ球蛋白最慢"
         },
         {
           "key": "G",
-          "label": "等电点法"
+          "label": "大分子先洗脱"
         },
         {
           "key": "H",
-          "label": "电泳"
+          "label": "电荷量小的先被分离出"
+        },
+        {
+          "key": "I",
+          "label": "pH＞pI时带负电"
+        },
+        {
+          "key": "J",
+          "label": "仅依据分子量"
+        },
+        {
+          "key": "K",
+          "label": "pH＜pI时带正电"
+        },
+        {
+          "key": "L",
+          "label": "球状"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "利用分子大小分离纯化蛋白质（多选）",
-          "answerRaw": "E、B、D",
+          "text": "凝胶过滤 / 分子筛层析",
+          "answerRaw": "G",
           "answer": [
-            "E",
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "离子交换层析",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "电泳中跑得较快的因素（多选）",
+          "answerRaw": "B、L、C、D",
+          "answer": [
             "B",
+            "L",
+            "C",
             "D"
           ],
           "answerMode": "多选"
         },
         {
-          "number": 2,
-          "text": "利用两性解离分离纯化蛋白质（多选）",
-          "answerRaw": "F、H",
+          "number": 4,
+          "text": "血清蛋白电泳：①最快 ②最慢（多选）",
+          "answerRaw": "A、F",
           "answer": [
-            "F",
-            "H"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 3,
-          "text": "利用溶解度分离纯化蛋白质（多选）",
-          "answerRaw": "C、G、A",
-          "answer": [
-            "C",
-            "G",
-            "A"
-          ],
-          "answerMode": "多选"
-        }
-      ],
-      "sourceText": "蛋白质分离纯化：依据与方法",
-      "reviewState": "已按 2027 考研讲义核对",
-      "reviewIssues": [],
-      "reviewNotes": [],
-      "topic": "氨基酸与蛋白质",
-      "lectureIds": [
-        "lecture-08"
-      ],
-      "optionShuffleVersion": 1,
-      "lectureEvidence": {
-        "lectureId": "lecture-08",
-        "lectureNumber": 8,
-        "lectureTitle": "生化 蛋白质",
-        "page": 1,
-        "image": "biochemistry/lecture-pages/lecture-08-page-01.webp",
-        "title": "第 08 讲《生化 蛋白质》· 第 1 页",
-        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
-        "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
-      }
-    },
-    {
-      "id": "bio-08-06",
-      "page": 6,
-      "title": "蛋白质分离纯化：层析、电泳与等电点",
-      "kind": "B",
-      "kindLabel": "B型题",
-      "options": [
-        {
-          "key": "A",
-          "label": "等电点法"
-        },
-        {
-          "key": "B",
-          "label": "超速离心"
-        },
-        {
-          "key": "C",
-          "label": "凝胶过滤 / 分子筛层析"
-        },
-        {
-          "key": "D",
-          "label": "电泳"
-        },
-        {
-          "key": "E",
-          "label": "有机溶剂法"
-        },
-        {
-          "key": "F",
-          "label": "去除可逆性抑制剂"
-        },
-        {
-          "key": "G",
-          "label": "将小分子与蛋白质分离"
-        },
-        {
-          "key": "H",
-          "label": "盐析法"
-        },
-        {
-          "key": "I",
-          "label": "破坏蛋白质表面电荷层"
-        },
-        {
-          "key": "J",
-          "label": "超滤"
-        },
-        {
-          "key": "K",
-          "label": "电荷量大"
-        },
-        {
-          "key": "L",
-          "label": "离子交换层析"
-        },
-        {
-          "key": "M",
-          "label": "蛋白质表面电荷较少"
-        },
-        {
-          "key": "N",
-          "label": "仅依据分子量"
-        },
-        {
-          "key": "O",
-          "label": "分子量小"
-        },
-        {
-          "key": "P",
-          "label": "电荷量小的先被分离出"
-        },
-        {
-          "key": "Q",
-          "label": "透析"
-        },
-        {
-          "key": "R",
-          "label": "白蛋白最快"
-        },
-        {
-          "key": "S",
-          "label": "大分子蛋白质先被洗脱"
-        },
-        {
-          "key": "T",
-          "label": "破坏蛋白质表面水化膜"
-        },
-        {
-          "key": "U",
-          "label": "球状"
-        },
-        {
-          "key": "V",
-          "label": "γ球蛋白最慢"
-        },
-        {
-          "key": "W",
-          "label": "溶液离子强度小"
-        },
-        {
-          "key": "X",
-          "label": "SDS-PAGE"
-        }
-      ],
-      "stems": [
-        {
-          "number": 1,
-          "text": "利用分子大小分离纯化蛋白质",
-          "answerRaw": "C、S、Q、J、G、F、B、X、N",
-          "answer": [
-            "C",
-            "S",
-            "Q",
-            "J",
-            "G",
-            "F",
-            "B",
-            "X",
-            "N"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 2,
-          "text": "利用两性解离分离纯化蛋白质",
-          "answerRaw": "L、P、D、K、O、U、W、R、V",
-          "answer": [
-            "L",
-            "P",
-            "D",
-            "K",
-            "O",
-            "U",
-            "W",
-            "R",
-            "V"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 3,
-          "text": "利用溶解度分离纯化蛋白质",
-          "answerRaw": "H、T、I、E、A、M",
-          "answer": [
-            "H",
-            "T",
-            "I",
-            "E",
             "A",
-            "M"
+            "F"
           ],
           "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "十二烷基硫酸钠-聚丙烯酰胺凝胶电泳（SDS-PAGE）的主要依据",
+          "answerRaw": "J",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "pH 与等电点关系：pH＜pI",
+          "answerRaw": "K",
+          "answer": [
+            "K"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "pH 与等电点关系：pH＝pI",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "pH 与等电点关系：pH＞pI",
+          "answerRaw": "I",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选"
         }
       ],
-      "sourceText": "蛋白质分离纯化：层析、电泳与等电点",
+      "sourceText": "层析、电泳与等电点",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
       "reviewNotes": [],
