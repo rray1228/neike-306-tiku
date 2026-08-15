@@ -4,8 +4,8 @@
     "sourceLabel": "生化第 08 讲学成选择题（蛋白质）",
     "sourcePages": 1,
     "lectureCount": 1,
-    "groupCount": 7,
-    "stemCount": 36,
+    "groupCount": 8,
+    "stemCount": 39,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture7_8.py",
     "siteIntegrated": true,
@@ -41,6 +41,12 @@
       "image": "",
       "topic": "氨基酸与蛋白质",
       "searchText": "蛋白质水解与变性"
+    },
+    {
+      "page": 5,
+      "image": "",
+      "topic": "氨基酸与蛋白质",
+      "searchText": "蛋白质分离纯化：依据与方法"
     },
     {
       "page": 6,
@@ -541,6 +547,100 @@
         }
       ],
       "sourceText": "蛋白质水解与变性",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "lectureNumber": 8,
+        "lectureTitle": "生化 蛋白质",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-08-page-01.webp",
+        "title": "第 08 讲《生化 蛋白质》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 08 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-08-05",
+      "page": 5,
+      "title": "蛋白质分离纯化：依据与方法",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "有机溶剂法"
+        },
+        {
+          "key": "B",
+          "label": "凝胶过滤 / 分子筛层析"
+        },
+        {
+          "key": "C",
+          "label": "盐析法"
+        },
+        {
+          "key": "D",
+          "label": "透析、超滤"
+        },
+        {
+          "key": "E",
+          "label": "超速离心"
+        },
+        {
+          "key": "F",
+          "label": "离子交换层析"
+        },
+        {
+          "key": "G",
+          "label": "等电点法"
+        },
+        {
+          "key": "H",
+          "label": "电泳"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "利用分子大小分离纯化蛋白质（多选）",
+          "answerRaw": "E、B、D",
+          "answer": [
+            "E",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "利用两性解离分离纯化蛋白质（多选）",
+          "answerRaw": "F、H",
+          "answer": [
+            "F",
+            "H"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "利用溶解度分离纯化蛋白质（多选）",
+          "answerRaw": "C、G、A",
+          "answer": [
+            "C",
+            "G",
+            "A"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "蛋白质分离纯化：依据与方法",
       "reviewState": "已按 2027 考研讲义核对",
       "reviewIssues": [],
       "reviewNotes": [],

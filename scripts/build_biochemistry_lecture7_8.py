@@ -167,12 +167,8 @@ def main():
 
     title8 = "生化 蛋白质"
     groups8 = parse_workbook(SOURCE_DIR / "生化_08_蛋白质_学成选择题_选项打散版.docx")
-    # 第 05 组与分离纯化内容重复，删除；第 06 组保留原题。
-    output8 = [
-        make_group(8, title8, index, group, 1)
-        for index, group in enumerate(groups8, 1)
-        if index != 5
-    ]
+    # 保留原第 05、06 组题目。
+    output8 = [make_group(8, title8, index, group, 1) for index, group in enumerate(groups8, 1)]
     data8 = payload(8, title8, "生化第 08 讲学成选择题（蛋白质）", output8)
     data8["lectures"][0]["pageCount"] = 5
     Path("src/data/biochemistry-lecture8-data.json").write_text(json.dumps(data8, ensure_ascii=False, indent=2), encoding="utf-8")
