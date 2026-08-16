@@ -30065,1064 +30065,1271 @@
     {
       "id": "p83-g5",
       "page": 83,
-      "title": "心脏杂音①听诊区名称",
+      "title": "心脏杂音（综合 B 型题）",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
-          "key": "A",
+          "key": "1A",
           "label": "三尖瓣听诊区",
-          "sourceText": "A.三尖瓣听诊区"
+          "sourceText": "A.三尖瓣听诊区",
+          "displayKey": "A",
+          "category": "① 听诊区名称"
         },
         {
-          "key": "B",
+          "key": "1B",
           "label": "主动脉瓣第二听诊区",
-          "sourceText": "B.主动脉瓣第二听诊区"
+          "sourceText": "B.主动脉瓣第二听诊区",
+          "displayKey": "B",
+          "category": "① 听诊区名称"
         },
         {
-          "key": "C",
+          "key": "1C",
           "label": "二尖瓣听诊区",
-          "sourceText": "C.二尖瓣听诊区"
+          "sourceText": "C.二尖瓣听诊区",
+          "displayKey": "C",
+          "category": "① 听诊区名称"
         },
         {
-          "key": "D",
+          "key": "1D",
           "label": "肺动脉瓣听诊区",
-          "sourceText": "D.肺动脉瓣听诊区"
+          "sourceText": "D.肺动脉瓣听诊区",
+          "displayKey": "D",
+          "category": "① 听诊区名称"
         },
         {
-          "key": "E",
+          "key": "1E",
           "label": "主动脉瓣第一听诊区",
-          "sourceText": "E.主动脉瓣第一听诊区"
+          "sourceText": "E.主动脉瓣第一听诊区",
+          "displayKey": "E",
+          "category": "① 听诊区名称"
+        },
+        {
+          "key": "2A",
+          "label": "急性心肌梗死并发室间隔穿孔",
+          "sourceText": "A.急性心肌梗死并发室间隔穿孔",
+          "displayKey": "A",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2B",
+          "label": "严重二尖瓣狭窄",
+          "sourceText": "B.严重二尖瓣狭窄",
+          "displayKey": "B",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2C",
+          "label": "左房黏液瘤",
+          "sourceText": "C.左房黏液瘤",
+          "displayKey": "C",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2D",
+          "label": "肺动脉瓣狭窄",
+          "sourceText": "D.肺动脉瓣狭窄",
+          "displayKey": "D",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2E",
+          "label": "主动脉瓣关闭不全",
+          "sourceText": "E.主动脉瓣关闭不全",
+          "displayKey": "E",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2F",
+          "label": "高血压、扩张型心肌病、心肌炎所致左室扩大",
+          "sourceText": "F.高血压、扩张型心肌病、心肌炎所致左室扩大",
+          "displayKey": "F",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2G",
+          "label": "室间隔缺损",
+          "sourceText": "G.室间隔缺损",
+          "displayKey": "G",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2H",
+          "label": "二尖瓣关闭不全",
+          "sourceText": "H.二尖瓣关闭不全",
+          "displayKey": "H",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2I",
+          "label": "严重肺动脉高压或右室扩大（如二尖瓣狭窄、肺心病）",
+          "sourceText": "I.严重肺动脉高压或右室扩大（如二尖瓣狭窄、肺心病）",
+          "displayKey": "I",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2J",
+          "label": "动脉导管未闭",
+          "sourceText": "J.动脉导管未闭",
+          "displayKey": "J",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2K",
+          "label": "主动脉瓣狭窄",
+          "sourceText": "K.主动脉瓣狭窄",
+          "displayKey": "K",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2L",
+          "label": "严重主动脉瓣关闭不全所致相对性主动脉瓣狭窄",
+          "sourceText": "L.严重主动脉瓣关闭不全所致相对性主动脉瓣狭窄",
+          "displayKey": "L",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2M",
+          "label": "肥厚型梗阻性心肌病",
+          "sourceText": "M.肥厚型梗阻性心肌病",
+          "displayKey": "M",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2N",
+          "label": "急性纤维蛋白性心包炎",
+          "sourceText": "N.急性纤维蛋白性心包炎",
+          "displayKey": "N",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2O",
+          "label": "三尖瓣关闭不全",
+          "sourceText": "O.三尖瓣关闭不全",
+          "displayKey": "O",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2P",
+          "label": "慢性主动脉瓣关闭不全所致Austin-Flint杂音",
+          "sourceText": "P.慢性主动脉瓣关闭不全所致Austin-Flint杂音",
+          "displayKey": "P",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2Q",
+          "label": "流经二尖瓣口血流量增加：严重二尖瓣关闭不全、室缺、PDA、甲亢或贫血",
+          "sourceText": "Q.流经二尖瓣口血流量增加：严重二尖瓣关闭不全、室缺、PDA、甲亢或贫血",
+          "displayKey": "Q",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "2R",
+          "label": "老年钙化性主动脉瓣狭窄（杂音有时在心尖部最清楚）",
+          "sourceText": "R.老年钙化性主动脉瓣狭窄（杂音有时在心尖部最清楚）",
+          "displayKey": "R",
+          "category": "② 疾病 / 情况"
+        },
+        {
+          "key": "3A",
+          "label": "舒张早期",
+          "sourceText": "A.舒张早期",
+          "displayKey": "A",
+          "category": "③ 出现时期"
+        },
+        {
+          "key": "3B",
+          "label": "收缩中期",
+          "sourceText": "B.收缩中期",
+          "displayKey": "B",
+          "category": "③ 出现时期"
+        },
+        {
+          "key": "3C",
+          "label": "全收缩期",
+          "sourceText": "C.全收缩期",
+          "displayKey": "C",
+          "category": "③ 出现时期"
+        },
+        {
+          "key": "3D",
+          "label": "连续性",
+          "sourceText": "D.连续性",
+          "displayKey": "D",
+          "category": "③ 出现时期"
+        },
+        {
+          "key": "3E",
+          "label": "舒张中期",
+          "sourceText": "E.舒张中期",
+          "displayKey": "E",
+          "category": "③ 出现时期"
+        },
+        {
+          "key": "3F",
+          "label": "收缩期",
+          "sourceText": "F.收缩期",
+          "displayKey": "F",
+          "category": "③ 出现时期"
+        },
+        {
+          "key": "3G",
+          "label": "舒张中晚期",
+          "sourceText": "G.舒张中晚期",
+          "displayKey": "G",
+          "category": "③ 出现时期"
+        },
+        {
+          "key": "3H",
+          "label": "心包摩擦音，非瓣膜杂音",
+          "sourceText": "H.心包摩擦音，非瓣膜杂音",
+          "displayKey": "H",
+          "category": "③ 出现时期"
+        },
+        {
+          "key": "4A",
+          "label": "递减型、高调叹气样或吹风样",
+          "sourceText": "A.递减型、高调叹气样或吹风样",
+          "displayKey": "A",
+          "category": "④ 杂音性质"
+        },
+        {
+          "key": "4B",
+          "label": "粗糙",
+          "sourceText": "B.粗糙",
+          "displayKey": "B",
+          "category": "④ 杂音性质"
+        },
+        {
+          "key": "4C",
+          "label": "一贯型、吹风样",
+          "sourceText": "C.一贯型、吹风样",
+          "displayKey": "C",
+          "category": "④ 杂音性质"
+        },
+        {
+          "key": "4D",
+          "label": "机器样",
+          "sourceText": "D.机器样",
+          "displayKey": "D",
+          "category": "④ 杂音性质"
+        },
+        {
+          "key": "4E",
+          "label": "低调、柔和、隆隆样",
+          "sourceText": "E.低调、柔和、隆隆样",
+          "displayKey": "E",
+          "category": "④ 杂音性质"
+        },
+        {
+          "key": "4F",
+          "label": "喷射样",
+          "sourceText": "F.喷射样",
+          "displayKey": "F",
+          "category": "④ 杂音性质"
+        },
+        {
+          "key": "4G",
+          "label": "搔抓样、与心搏一致",
+          "sourceText": "G.搔抓样、与心搏一致",
+          "displayKey": "G",
+          "category": "④ 杂音性质"
+        },
+        {
+          "key": "4H",
+          "label": "隆隆样",
+          "sourceText": "H.隆隆样",
+          "displayKey": "H",
+          "category": "④ 杂音性质"
+        },
+        {
+          "key": "4I",
+          "label": "递增-递减型、喷射样",
+          "sourceText": "I.递增-递减型、喷射样",
+          "displayKey": "I",
+          "category": "④ 杂音性质"
+        },
+        {
+          "key": "4J",
+          "label": "柔和吹风样",
+          "sourceText": "J.柔和吹风样",
+          "displayKey": "J",
+          "category": "④ 杂音性质"
+        },
+        {
+          "key": "4K",
+          "label": "吹风样，常≤2/6级",
+          "sourceText": "K.吹风样，常≤2/6级",
+          "displayKey": "K",
+          "category": "④ 杂音性质"
+        },
+        {
+          "key": "4L",
+          "label": "低调、递增型、隆隆样",
+          "sourceText": "L.低调、递增型、隆隆样",
+          "displayKey": "L",
+          "category": "④ 杂音性质"
+        },
+        {
+          "key": "4M",
+          "label": "递减型、叹气样",
+          "sourceText": "M.递减型、叹气样",
+          "displayKey": "M",
+          "category": "④ 杂音性质"
+        },
+        {
+          "key": "4N",
+          "label": "随体位改变",
+          "sourceText": "N.随体位改变",
+          "displayKey": "N",
+          "category": "④ 杂音性质"
+        },
+        {
+          "key": "4O",
+          "label": "柔和",
+          "sourceText": "O.柔和",
+          "displayKey": "O",
+          "category": "④ 杂音性质"
+        },
+        {
+          "key": "4P",
+          "label": "突然出现的收缩期杂音",
+          "sourceText": "P.突然出现的收缩期杂音",
+          "displayKey": "P",
+          "category": "④ 杂音性质"
+        },
+        {
+          "key": "5A",
+          "label": "坐位前倾、呼气末时明显",
+          "sourceText": "A.坐位前倾、呼气末时明显",
+          "displayKey": "A",
+          "category": "⑤ 传导 / 特点"
+        },
+        {
+          "key": "5B",
+          "label": "向颈部传导",
+          "sourceText": "B.向颈部传导",
+          "displayKey": "B",
+          "category": "⑤ 传导 / 特点"
+        },
+        {
+          "key": "5C",
+          "label": "前叶损害向左腋下或左肩胛传导，后叶损害向心底传导",
+          "sourceText": "C.前叶损害向左腋下或左肩胛传导，后叶损害向心底传导",
+          "displayKey": "C",
+          "category": "⑤ 传导 / 特点"
+        },
+        {
+          "key": "5D",
+          "label": "向心尖部传导",
+          "sourceText": "D.向心尖部传导",
+          "displayKey": "D",
+          "category": "⑤ 传导 / 特点"
+        },
+        {
+          "key": "5E",
+          "label": "不向颈部传导",
+          "sourceText": "E.不向颈部传导",
+          "displayKey": "E",
+          "category": "⑤ 传导 / 特点"
+        },
+        {
+          "key": "5F",
+          "label": "局限，不传导",
+          "sourceText": "F.局限，不传导",
+          "displayKey": "F",
+          "category": "⑤ 传导 / 特点"
+        },
+        {
+          "key": "5G",
+          "label": "剑突下明显",
+          "sourceText": "G.剑突下明显",
+          "displayKey": "G",
+          "category": "⑤ 传导 / 特点"
+        },
+        {
+          "key": "5H",
+          "label": "杂音可在心尖部最清楚",
+          "sourceText": "H.杂音可在心尖部最清楚",
+          "displayKey": "H",
+          "category": "⑤ 传导 / 特点"
+        },
+        {
+          "key": "5I",
+          "label": "不一定具有典型传导方向",
+          "sourceText": "I.不一定具有典型传导方向",
+          "displayKey": "I",
+          "category": "⑤ 传导 / 特点"
+        },
+        {
+          "key": "6A",
+          "label": "右室扩大导致相对性三尖瓣关闭不全",
+          "sourceText": "A.右室扩大导致相对性三尖瓣关闭不全",
+          "displayKey": "A",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6B",
+          "label": "舒张期左房血通过狭窄二尖瓣口形成涡流",
+          "sourceText": "B.舒张期左房血通过狭窄二尖瓣口形成涡流",
+          "displayKey": "B",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6C",
+          "label": "左室流出道梗阻并伴二尖瓣前叶收缩期前向运动",
+          "sourceText": "C.左室流出道梗阻并伴二尖瓣前叶收缩期前向运动",
+          "displayKey": "C",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6D",
+          "label": "主动脉瓣反流束冲击二尖瓣前叶，造成相对性二尖瓣狭窄",
+          "sourceText": "D.主动脉瓣反流束冲击二尖瓣前叶，造成相对性二尖瓣狭窄",
+          "displayKey": "D",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6E",
+          "label": "收缩期左室血反流至左房",
+          "sourceText": "E.收缩期左室血反流至左房",
+          "displayKey": "E",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6F",
+          "label": "主动脉压持续高于肺动脉压，产生持续左向右分流",
+          "sourceText": "F.主动脉压持续高于肺动脉压，产生持续左向右分流",
+          "displayKey": "F",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6G",
+          "label": "心包脏、壁层因炎症变粗糙，随心搏发生摩擦",
+          "sourceText": "G.心包脏、壁层因炎症变粗糙，随心搏发生摩擦",
+          "displayKey": "G",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6H",
+          "label": "严重肺动脉高压导致肺动脉扩张，引起相对性肺动脉瓣关闭不全",
+          "sourceText": "H.严重肺动脉高压导致肺动脉扩张，引起相对性肺动脉瓣关闭不全",
+          "displayKey": "H",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6I",
+          "label": "左室扩大导致相对性二尖瓣关闭不全",
+          "sourceText": "I.左室扩大导致相对性二尖瓣关闭不全",
+          "displayKey": "I",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6J",
+          "label": "舒张期主动脉血反流至左室",
+          "sourceText": "J.舒张期主动脉血反流至左室",
+          "displayKey": "J",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6K",
+          "label": "收缩期左向右分流",
+          "sourceText": "K.收缩期左向右分流",
+          "displayKey": "K",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6L",
+          "label": "右室血通过狭窄肺动脉瓣",
+          "sourceText": "L.右室血通过狭窄肺动脉瓣",
+          "displayKey": "L",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6M",
+          "label": "流经二尖瓣口的血流量增加",
+          "sourceText": "M.流经二尖瓣口的血流量增加",
+          "displayKey": "M",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6N",
+          "label": "左室血通过狭窄主动脉瓣口形成高速射流",
+          "sourceText": "N.左室血通过狭窄主动脉瓣口形成高速射流",
+          "displayKey": "N",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6O",
+          "label": "收缩期右室血反流至右房",
+          "sourceText": "O.收缩期右室血反流至右房",
+          "displayKey": "O",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6P",
+          "label": "主动脉瓣关闭不全时血流量增多，形成相对性主动脉瓣狭窄",
+          "sourceText": "P.主动脉瓣关闭不全时血流量增多，形成相对性主动脉瓣狭窄",
+          "displayKey": "P",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6Q",
+          "label": "室间隔破裂产生左向右分流",
+          "sourceText": "Q.室间隔破裂产生左向右分流",
+          "displayKey": "Q",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "6R",
+          "label": "肿瘤堵塞二尖瓣口",
+          "sourceText": "R.肿瘤堵塞二尖瓣口",
+          "displayKey": "R",
+          "category": "⑥ 形成机制"
+        },
+        {
+          "key": "7A",
+          "label": "器质性心肌病",
+          "sourceText": "A.器质性心肌病",
+          "displayKey": "A",
+          "category": "⑦ 性质分类"
+        },
+        {
+          "key": "7B",
+          "label": "功能性 / 相对性",
+          "sourceText": "B.功能性 / 相对性",
+          "displayKey": "B",
+          "category": "⑦ 性质分类"
+        },
+        {
+          "key": "7C",
+          "label": "器质性肿瘤",
+          "sourceText": "C.器质性肿瘤",
+          "displayKey": "C",
+          "category": "⑦ 性质分类"
+        },
+        {
+          "key": "7D",
+          "label": "器质性瓣膜病",
+          "sourceText": "D.器质性瓣膜病",
+          "displayKey": "D",
+          "category": "⑦ 性质分类"
+        },
+        {
+          "key": "7E",
+          "label": "心包体征，非瓣膜杂音",
+          "sourceText": "E.心包体征，非瓣膜杂音",
+          "displayKey": "E",
+          "category": "⑦ 性质分类"
+        },
+        {
+          "key": "7F",
+          "label": "器质性先天性心脏病",
+          "sourceText": "F.器质性先天性心脏病",
+          "displayKey": "F",
+          "category": "⑦ 性质分类"
+        },
+        {
+          "key": "7G",
+          "label": "器质性继发性结构损害",
+          "sourceText": "G.器质性继发性结构损害",
+          "displayKey": "G",
+          "category": "⑦ 性质分类"
         }
       ],
       "stems": [
         {
           "text": "1.心尖部",
           "answer": [
-            "C"
+            "1C"
           ],
           "sourceText": "1.心尖部 C",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "① 听诊区名称"
         },
         {
           "text": "2.胸骨右缘第2肋间",
           "answer": [
-            "E"
+            "1E"
           ],
           "sourceText": "2.胸骨右缘第2肋间 E",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "① 听诊区名称"
         },
         {
           "text": "3.胸骨左缘第2肋间",
           "answer": [
-            "D"
+            "1D"
           ],
           "sourceText": "3.胸骨左缘第2肋间 D",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "① 听诊区名称"
         },
         {
           "text": "4.胸骨左缘第3～4肋间",
           "answer": [
-            "B"
+            "1B"
           ],
           "sourceText": "4.胸骨左缘第3～4肋间 B",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "① 听诊区名称"
         },
         {
           "text": "5.胸骨左缘第4～5肋间",
           "answer": [
-            "A"
+            "1A"
           ],
           "sourceText": "5.胸骨左缘第4～5肋间 A",
           "sourceY": 0,
-          "answerMode": "单选"
-        }
-      ],
-      "sourceText": "心脏杂音①听诊区名称（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
-      "topic": "循环",
-      "lectureIds": [
-        "lecture-53"
-      ],
-      "lectureEvidence": {
-        "lectureId": "lecture-53",
-        "page": 3,
-        "image": "med/lecture-pages/lecture-53-page-03.webp",
-        "title": "第53讲第3页：内科含诊断 心瓣膜病",
-        "description": "本题组对应第53讲第3页讲义。"
-      }
-    },
-    {
-      "id": "p83-g6",
-      "page": 83,
-      "title": "心脏杂音②部位对应的疾病或情况",
-      "kind": "B",
-      "kindLabel": "B型题",
-      "options": [
-        {
-          "key": "A",
-          "label": "急性心肌梗死并发室间隔穿孔",
-          "sourceText": "A.急性心肌梗死并发室间隔穿孔"
+          "answerMode": "单选",
+          "optionCategory": "① 听诊区名称"
         },
-        {
-          "key": "B",
-          "label": "严重二尖瓣狭窄",
-          "sourceText": "B.严重二尖瓣狭窄"
-        },
-        {
-          "key": "C",
-          "label": "左房黏液瘤",
-          "sourceText": "C.左房黏液瘤"
-        },
-        {
-          "key": "D",
-          "label": "肺动脉瓣狭窄",
-          "sourceText": "D.肺动脉瓣狭窄"
-        },
-        {
-          "key": "E",
-          "label": "主动脉瓣关闭不全",
-          "sourceText": "E.主动脉瓣关闭不全"
-        },
-        {
-          "key": "F",
-          "label": "高血压、扩张型心肌病、心肌炎所致左室扩大",
-          "sourceText": "F.高血压、扩张型心肌病、心肌炎所致左室扩大"
-        },
-        {
-          "key": "G",
-          "label": "室间隔缺损",
-          "sourceText": "G.室间隔缺损"
-        },
-        {
-          "key": "H",
-          "label": "二尖瓣关闭不全",
-          "sourceText": "H.二尖瓣关闭不全"
-        },
-        {
-          "key": "I",
-          "label": "严重肺动脉高压或右室扩大（如二尖瓣狭窄、肺心病）",
-          "sourceText": "I.严重肺动脉高压或右室扩大（如二尖瓣狭窄、肺心病）"
-        },
-        {
-          "key": "J",
-          "label": "动脉导管未闭",
-          "sourceText": "J.动脉导管未闭"
-        },
-        {
-          "key": "K",
-          "label": "主动脉瓣狭窄",
-          "sourceText": "K.主动脉瓣狭窄"
-        },
-        {
-          "key": "L",
-          "label": "严重主动脉瓣关闭不全所致相对性主动脉瓣狭窄",
-          "sourceText": "L.严重主动脉瓣关闭不全所致相对性主动脉瓣狭窄"
-        },
-        {
-          "key": "M",
-          "label": "肥厚型梗阻性心肌病",
-          "sourceText": "M.肥厚型梗阻性心肌病"
-        },
-        {
-          "key": "N",
-          "label": "急性纤维蛋白性心包炎",
-          "sourceText": "N.急性纤维蛋白性心包炎"
-        },
-        {
-          "key": "O",
-          "label": "三尖瓣关闭不全",
-          "sourceText": "O.三尖瓣关闭不全"
-        },
-        {
-          "key": "P",
-          "label": "慢性主动脉瓣关闭不全所致Austin-Flint杂音",
-          "sourceText": "P.慢性主动脉瓣关闭不全所致Austin-Flint杂音"
-        },
-        {
-          "key": "Q",
-          "label": "流经二尖瓣口血流量增加：严重二尖瓣关闭不全、室缺、PDA、甲亢或贫血",
-          "sourceText": "Q.流经二尖瓣口血流量增加：严重二尖瓣关闭不全、室缺、PDA、甲亢或贫血"
-        },
-        {
-          "key": "R",
-          "label": "老年钙化性主动脉瓣狭窄（杂音有时在心尖部最清楚）",
-          "sourceText": "R.老年钙化性主动脉瓣狭窄（杂音有时在心尖部最清楚）"
-        }
-      ],
-      "stems": [
         {
           "text": "1.心尖部",
           "answer": [
-            "B",
-            "C",
-            "F",
-            "H",
-            "P",
-            "Q",
-            "R"
+            "2B",
+            "2C",
+            "2F",
+            "2H",
+            "2P",
+            "2Q",
+            "2R"
           ],
           "sourceText": "1.心尖部 BCFHPQR",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "optionCategory": "② 疾病 / 情况"
         },
         {
           "text": "2.胸骨右缘第2肋间",
           "answer": [
-            "K",
-            "L",
-            "R"
+            "2K",
+            "2L",
+            "2R"
           ],
           "sourceText": "2.胸骨右缘第2肋间 KLR",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "optionCategory": "② 疾病 / 情况"
         },
         {
           "text": "3.胸骨左缘第2肋间",
           "answer": [
-            "D",
-            "I"
+            "2D",
+            "2I"
           ],
           "sourceText": "3.胸骨左缘第2肋间 DI",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "optionCategory": "② 疾病 / 情况"
         },
         {
           "text": "4.胸骨左缘第3～4肋间",
           "answer": [
-            "A",
-            "E",
-            "G",
-            "M",
-            "N"
+            "2A",
+            "2E",
+            "2G",
+            "2M",
+            "2N"
           ],
           "sourceText": "4.胸骨左缘第3～4肋间 AEGMN",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "optionCategory": "② 疾病 / 情况"
         },
         {
           "text": "5.胸骨左缘第4～5肋间",
           "answer": [
-            "I",
-            "O"
+            "2I",
+            "2O"
           ],
           "sourceText": "5.胸骨左缘第4～5肋间 IO",
           "sourceY": 0,
-          "answerMode": "多选"
-        }
-      ],
-      "sourceText": "心脏杂音②部位对应的疾病或情况（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
-      "topic": "循环",
-      "lectureIds": [
-        "lecture-53"
-      ],
-      "lectureEvidence": {
-        "lectureId": "lecture-53",
-        "page": 3,
-        "image": "med/lecture-pages/lecture-53-page-03.webp",
-        "title": "第53讲第3页：内科含诊断 心瓣膜病",
-        "description": "本题组对应第53讲第3页讲义。"
-      }
-    },
-    {
-      "id": "p83-g7",
-      "page": 83,
-      "title": "心脏杂音③出现时期",
-      "kind": "B",
-      "kindLabel": "B型题",
-      "options": [
-        {
-          "key": "A",
-          "label": "舒张早期",
-          "sourceText": "A.舒张早期"
+          "answerMode": "多选",
+          "optionCategory": "② 疾病 / 情况"
         },
-        {
-          "key": "B",
-          "label": "收缩中期",
-          "sourceText": "B.收缩中期"
-        },
-        {
-          "key": "C",
-          "label": "全收缩期",
-          "sourceText": "C.全收缩期"
-        },
-        {
-          "key": "D",
-          "label": "连续性",
-          "sourceText": "D.连续性"
-        },
-        {
-          "key": "E",
-          "label": "舒张中期",
-          "sourceText": "E.舒张中期"
-        },
-        {
-          "key": "F",
-          "label": "收缩期",
-          "sourceText": "F.收缩期"
-        },
-        {
-          "key": "G",
-          "label": "舒张中晚期",
-          "sourceText": "G.舒张中晚期"
-        },
-        {
-          "key": "H",
-          "label": "心包摩擦音，非瓣膜杂音",
-          "sourceText": "H.心包摩擦音，非瓣膜杂音"
-        }
-      ],
-      "stems": [
         {
           "text": "心尖部：二尖瓣狭窄",
           "answer": [
-            "G"
+            "3G"
           ],
           "sourceText": "心尖部：二尖瓣狭窄 G",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "③ 出现时期"
         },
         {
           "text": "心尖部：二尖瓣关闭不全",
           "answer": [
-            "C"
+            "3C"
           ],
           "sourceText": "心尖部：二尖瓣关闭不全 C",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "③ 出现时期"
         },
         {
           "text": "胸骨右缘第2肋间：主动脉瓣狭窄",
           "answer": [
-            "B"
+            "3B"
           ],
           "sourceText": "胸骨右缘第2肋间：主动脉瓣狭窄 B",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "③ 出现时期"
         },
         {
           "text": "胸骨左缘第3～4肋间：主动脉瓣关闭不全",
           "answer": [
-            "A"
+            "3A"
           ],
           "sourceText": "胸骨左缘第3～4肋间：主动脉瓣关闭不全 A",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "③ 出现时期"
         },
         {
           "text": "胸骨左缘第4～5肋间：三尖瓣关闭不全",
           "answer": [
-            "C"
+            "3C"
           ],
           "sourceText": "胸骨左缘第4～5肋间：三尖瓣关闭不全 C",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "③ 出现时期"
         },
         {
           "text": "胸骨左缘第2肋间：肺动脉瓣狭窄",
           "answer": [
-            "F"
+            "3F"
           ],
           "sourceText": "胸骨左缘第2肋间：肺动脉瓣狭窄 F",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "③ 出现时期"
         },
         {
           "text": "胸骨左缘第2肋间：Graham-Steell杂音",
           "answer": [
-            "A"
+            "3A"
           ],
           "sourceText": "胸骨左缘第2肋间：Graham-Steell杂音 A",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "③ 出现时期"
         },
         {
           "text": "胸骨左缘第3～4肋间：肥厚型梗阻性心肌病",
           "answer": [
-            "B"
+            "3B"
           ],
           "sourceText": "胸骨左缘第3～4肋间：肥厚型梗阻性心肌病 B",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "③ 出现时期"
         },
         {
           "text": "胸骨左缘第3～4肋间：室间隔缺损",
           "answer": [
-            "C"
+            "3C"
           ],
           "sourceText": "胸骨左缘第3～4肋间：室间隔缺损 C",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "③ 出现时期"
         },
         {
           "text": "动脉导管未闭",
           "answer": [
-            "D"
+            "3D"
           ],
           "sourceText": "动脉导管未闭 D",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "③ 出现时期"
         },
         {
           "text": "胸骨左缘第3～4肋间：急性纤维蛋白性心包炎",
           "answer": [
-            "H"
+            "3H"
           ],
           "sourceText": "胸骨左缘第3～4肋间：急性纤维蛋白性心包炎 H",
           "sourceY": 0,
-          "answerMode": "单选"
-        }
-      ],
-      "sourceText": "心脏杂音③出现时期（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
-      "topic": "循环",
-      "lectureIds": [
-        "lecture-53"
-      ],
-      "lectureEvidence": {
-        "lectureId": "lecture-53",
-        "page": 3,
-        "image": "med/lecture-pages/lecture-53-page-03.webp",
-        "title": "第53讲第3页：内科含诊断 心瓣膜病",
-        "description": "本题组对应第53讲第3页讲义。"
-      }
-    },
-    {
-      "id": "p83-g8",
-      "page": 83,
-      "title": "心脏杂音④杂音性质",
-      "kind": "B",
-      "kindLabel": "B型题",
-      "options": [
-        {
-          "key": "A",
-          "label": "递减型、高调叹气样或吹风样",
-          "sourceText": "A.递减型、高调叹气样或吹风样"
+          "answerMode": "单选",
+          "optionCategory": "③ 出现时期"
         },
-        {
-          "key": "B",
-          "label": "粗糙",
-          "sourceText": "B.粗糙"
-        },
-        {
-          "key": "C",
-          "label": "一贯型、吹风样",
-          "sourceText": "C.一贯型、吹风样"
-        },
-        {
-          "key": "D",
-          "label": "机器样",
-          "sourceText": "D.机器样"
-        },
-        {
-          "key": "E",
-          "label": "低调、柔和、隆隆样",
-          "sourceText": "E.低调、柔和、隆隆样"
-        },
-        {
-          "key": "F",
-          "label": "喷射样",
-          "sourceText": "F.喷射样"
-        },
-        {
-          "key": "G",
-          "label": "搔抓样、与心搏一致",
-          "sourceText": "G.搔抓样、与心搏一致"
-        },
-        {
-          "key": "H",
-          "label": "隆隆样",
-          "sourceText": "H.隆隆样"
-        },
-        {
-          "key": "I",
-          "label": "递增-递减型、喷射样",
-          "sourceText": "I.递增-递减型、喷射样"
-        },
-        {
-          "key": "J",
-          "label": "柔和吹风样",
-          "sourceText": "J.柔和吹风样"
-        },
-        {
-          "key": "K",
-          "label": "吹风样，常≤2/6级",
-          "sourceText": "K.吹风样，常≤2/6级"
-        },
-        {
-          "key": "L",
-          "label": "低调、递增型、隆隆样",
-          "sourceText": "L.低调、递增型、隆隆样"
-        },
-        {
-          "key": "M",
-          "label": "递减型、叹气样",
-          "sourceText": "M.递减型、叹气样"
-        },
-        {
-          "key": "N",
-          "label": "随体位改变",
-          "sourceText": "N.随体位改变"
-        },
-        {
-          "key": "O",
-          "label": "柔和",
-          "sourceText": "O.柔和"
-        },
-        {
-          "key": "P",
-          "label": "突然出现的收缩期杂音",
-          "sourceText": "P.突然出现的收缩期杂音"
-        }
-      ],
-      "stems": [
         {
           "text": "心尖部：二尖瓣狭窄",
           "answer": [
-            "L"
+            "4L"
           ],
           "sourceText": "心尖部：二尖瓣狭窄 L",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "④ 杂音性质"
         },
         {
           "text": "心尖部：Austin-Flint杂音",
           "answer": [
-            "E"
+            "4E"
           ],
           "sourceText": "心尖部：Austin-Flint杂音 E",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "④ 杂音性质"
         },
         {
           "text": "心尖部：二尖瓣关闭不全",
           "answer": [
-            "C"
+            "4C"
           ],
           "sourceText": "心尖部：二尖瓣关闭不全 C",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "④ 杂音性质"
         },
         {
           "text": "心尖部：左房黏液瘤",
           "answer": [
-            "N"
+            "4N"
           ],
           "sourceText": "心尖部：左房黏液瘤 N",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "④ 杂音性质"
         },
         {
           "text": "胸骨右缘第2肋间：主动脉瓣狭窄",
           "answer": [
-            "B",
-            "I"
+            "4B",
+            "4I"
           ],
           "sourceText": "胸骨右缘第2肋间：主动脉瓣狭窄 BI",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "optionCategory": "④ 杂音性质"
         },
         {
           "text": "胸骨左缘第2肋间：Graham-Steell杂音",
           "answer": [
-            "A"
+            "4A"
           ],
           "sourceText": "胸骨左缘第2肋间：Graham-Steell杂音 A",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "④ 杂音性质"
         },
         {
           "text": "胸骨左缘第2肋间：肺动脉瓣狭窄",
           "answer": [
-            "B",
-            "I"
+            "4B",
+            "4I"
           ],
           "sourceText": "胸骨左缘第2肋间：肺动脉瓣狭窄 BI",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "optionCategory": "④ 杂音性质"
         },
         {
           "text": "胸骨左缘第3～4肋间：主动脉瓣关闭不全",
           "answer": [
-            "A"
+            "4A"
           ],
           "sourceText": "胸骨左缘第3～4肋间：主动脉瓣关闭不全 A",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "④ 杂音性质"
         },
         {
           "text": "胸骨左缘第3～4肋间：肥厚型梗阻性心肌病",
           "answer": [
-            "B",
-            "I"
+            "4B",
+            "4I"
           ],
           "sourceText": "胸骨左缘第3～4肋间：肥厚型梗阻性心肌病 BI",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "optionCategory": "④ 杂音性质"
         },
         {
           "text": "胸骨左缘第3～4肋间：急性心肌梗死并发室间隔穿孔",
           "answer": [
-            "B",
-            "P"
+            "4B",
+            "4P"
           ],
           "sourceText": "胸骨左缘第3～4肋间：急性心肌梗死并发室间隔穿孔 BP",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "optionCategory": "④ 杂音性质"
         },
         {
           "text": "胸骨左缘第3～4肋间：心包摩擦音",
           "answer": [
-            "G"
+            "4G"
           ],
           "sourceText": "胸骨左缘第3～4肋间：心包摩擦音 G",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "④ 杂音性质"
         },
         {
           "text": "胸骨左缘第4～5肋间：三尖瓣关闭不全",
           "answer": [
-            "C"
+            "4C"
           ],
           "sourceText": "胸骨左缘第4～5肋间：三尖瓣关闭不全 C",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "④ 杂音性质"
         },
         {
           "text": "动脉导管未闭",
           "answer": [
-            "D"
+            "4D"
           ],
           "sourceText": "动脉导管未闭 D",
           "sourceY": 0,
-          "answerMode": "单选"
-        }
-      ],
-      "sourceText": "心脏杂音④杂音性质（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
-      "topic": "循环",
-      "lectureIds": [
-        "lecture-53"
-      ],
-      "lectureEvidence": {
-        "lectureId": "lecture-53",
-        "page": 3,
-        "image": "med/lecture-pages/lecture-53-page-03.webp",
-        "title": "第53讲第3页：内科含诊断 心瓣膜病",
-        "description": "本题组对应第53讲第3页讲义。"
-      }
-    },
-    {
-      "id": "p83-g9",
-      "page": 83,
-      "title": "心脏杂音⑤传导与听诊特点",
-      "kind": "B",
-      "kindLabel": "B型题",
-      "options": [
-        {
-          "key": "A",
-          "label": "坐位前倾、呼气末时明显",
-          "sourceText": "A.坐位前倾、呼气末时明显"
+          "answerMode": "单选",
+          "optionCategory": "④ 杂音性质"
         },
-        {
-          "key": "B",
-          "label": "向颈部传导",
-          "sourceText": "B.向颈部传导"
-        },
-        {
-          "key": "C",
-          "label": "前叶损害向左腋下或左肩胛传导，后叶损害向心底传导",
-          "sourceText": "C.前叶损害向左腋下或左肩胛传导，后叶损害向心底传导"
-        },
-        {
-          "key": "D",
-          "label": "向心尖部传导",
-          "sourceText": "D.向心尖部传导"
-        },
-        {
-          "key": "E",
-          "label": "不向颈部传导",
-          "sourceText": "E.不向颈部传导"
-        },
-        {
-          "key": "F",
-          "label": "局限，不传导",
-          "sourceText": "F.局限，不传导"
-        },
-        {
-          "key": "G",
-          "label": "剑突下明显",
-          "sourceText": "G.剑突下明显"
-        },
-        {
-          "key": "H",
-          "label": "杂音可在心尖部最清楚",
-          "sourceText": "H.杂音可在心尖部最清楚"
-        },
-        {
-          "key": "I",
-          "label": "不一定具有典型传导方向",
-          "sourceText": "I.不一定具有典型传导方向"
-        }
-      ],
-      "stems": [
         {
           "text": "心尖部：二尖瓣狭窄",
           "answer": [
-            "F"
+            "5F"
           ],
           "sourceText": "心尖部：二尖瓣狭窄 F",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑤ 传导 / 特点"
         },
         {
           "text": "心尖部：二尖瓣关闭不全",
           "answer": [
-            "C"
+            "5C"
           ],
           "sourceText": "心尖部：二尖瓣关闭不全 C",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑤ 传导 / 特点"
         },
         {
           "text": "胸骨右缘第2肋间：主动脉瓣狭窄",
           "answer": [
-            "B"
+            "5B"
           ],
           "sourceText": "胸骨右缘第2肋间：主动脉瓣狭窄 B",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑤ 传导 / 特点"
         },
         {
           "text": "胸骨左缘第3～4肋间：主动脉瓣关闭不全",
           "answer": [
-            "A",
-            "D"
+            "5A",
+            "5D"
           ],
           "sourceText": "胸骨左缘第3～4肋间：主动脉瓣关闭不全 AD",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "optionCategory": "⑤ 传导 / 特点"
         },
         {
           "text": "胸骨左缘第3～4肋间：肥厚型梗阻性心肌病",
           "answer": [
-            "E",
-            "I"
+            "5E",
+            "5I"
           ],
           "sourceText": "胸骨左缘第3～4肋间：肥厚型梗阻性心肌病 EI",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "optionCategory": "⑤ 传导 / 特点"
         },
         {
           "text": "胸骨左缘第4～5肋间：三尖瓣关闭不全",
           "answer": [
-            "G"
+            "5G"
           ],
           "sourceText": "胸骨左缘第4～5肋间：三尖瓣关闭不全 G",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑤ 传导 / 特点"
         },
         {
           "text": "胸骨左缘第2肋间：肺动脉瓣狭窄",
           "answer": [
-            "F"
+            "5F"
           ],
           "sourceText": "胸骨左缘第2肋间：肺动脉瓣狭窄 F",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑤ 传导 / 特点"
         },
         {
           "text": "胸骨左缘第3～4肋间：心包摩擦音",
           "answer": [
-            "I"
+            "5I"
           ],
           "sourceText": "胸骨左缘第3～4肋间：心包摩擦音 I",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑤ 传导 / 特点"
         },
         {
           "text": "老年钙化性主动脉瓣狭窄：杂音最清楚处",
           "answer": [
-            "H"
+            "5H"
           ],
           "sourceText": "老年钙化性主动脉瓣狭窄：杂音最清楚处 H",
           "sourceY": 0,
-          "answerMode": "单选"
-        }
-      ],
-      "sourceText": "心脏杂音⑤传导与听诊特点（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
-      "topic": "循环",
-      "lectureIds": [
-        "lecture-53"
-      ],
-      "lectureEvidence": {
-        "lectureId": "lecture-53",
-        "page": 10,
-        "image": "med/lecture-pages/lecture-53-page-10.webp",
-        "title": "第53讲第10页：内科含诊断 心瓣膜病",
-        "description": "本题组对应第53讲第10页讲义。"
-      }
-    },
-    {
-      "id": "p83-g10",
-      "page": 83,
-      "title": "心脏杂音⑥形成机制",
-      "kind": "B",
-      "kindLabel": "B型题",
-      "options": [
-        {
-          "key": "A",
-          "label": "右室扩大导致相对性三尖瓣关闭不全",
-          "sourceText": "A.右室扩大导致相对性三尖瓣关闭不全"
+          "answerMode": "单选",
+          "optionCategory": "⑤ 传导 / 特点"
         },
-        {
-          "key": "B",
-          "label": "舒张期左房血通过狭窄二尖瓣口形成涡流",
-          "sourceText": "B.舒张期左房血通过狭窄二尖瓣口形成涡流"
-        },
-        {
-          "key": "C",
-          "label": "左室流出道梗阻并伴二尖瓣前叶收缩期前向运动",
-          "sourceText": "C.左室流出道梗阻并伴二尖瓣前叶收缩期前向运动"
-        },
-        {
-          "key": "D",
-          "label": "主动脉瓣反流束冲击二尖瓣前叶，造成相对性二尖瓣狭窄",
-          "sourceText": "D.主动脉瓣反流束冲击二尖瓣前叶，造成相对性二尖瓣狭窄"
-        },
-        {
-          "key": "E",
-          "label": "收缩期左室血反流至左房",
-          "sourceText": "E.收缩期左室血反流至左房"
-        },
-        {
-          "key": "F",
-          "label": "主动脉压持续高于肺动脉压，产生持续左向右分流",
-          "sourceText": "F.主动脉压持续高于肺动脉压，产生持续左向右分流"
-        },
-        {
-          "key": "G",
-          "label": "心包脏、壁层因炎症变粗糙，随心搏发生摩擦",
-          "sourceText": "G.心包脏、壁层因炎症变粗糙，随心搏发生摩擦"
-        },
-        {
-          "key": "H",
-          "label": "严重肺动脉高压导致肺动脉扩张，引起相对性肺动脉瓣关闭不全",
-          "sourceText": "H.严重肺动脉高压导致肺动脉扩张，引起相对性肺动脉瓣关闭不全"
-        },
-        {
-          "key": "I",
-          "label": "左室扩大导致相对性二尖瓣关闭不全",
-          "sourceText": "I.左室扩大导致相对性二尖瓣关闭不全"
-        },
-        {
-          "key": "J",
-          "label": "舒张期主动脉血反流至左室",
-          "sourceText": "J.舒张期主动脉血反流至左室"
-        },
-        {
-          "key": "K",
-          "label": "收缩期左向右分流",
-          "sourceText": "K.收缩期左向右分流"
-        },
-        {
-          "key": "L",
-          "label": "右室血通过狭窄肺动脉瓣",
-          "sourceText": "L.右室血通过狭窄肺动脉瓣"
-        },
-        {
-          "key": "M",
-          "label": "流经二尖瓣口的血流量增加",
-          "sourceText": "M.流经二尖瓣口的血流量增加"
-        },
-        {
-          "key": "N",
-          "label": "左室血通过狭窄主动脉瓣口形成高速射流",
-          "sourceText": "N.左室血通过狭窄主动脉瓣口形成高速射流"
-        },
-        {
-          "key": "O",
-          "label": "收缩期右室血反流至右房",
-          "sourceText": "O.收缩期右室血反流至右房"
-        },
-        {
-          "key": "P",
-          "label": "主动脉瓣关闭不全时血流量增多，形成相对性主动脉瓣狭窄",
-          "sourceText": "P.主动脉瓣关闭不全时血流量增多，形成相对性主动脉瓣狭窄"
-        },
-        {
-          "key": "Q",
-          "label": "室间隔破裂产生左向右分流",
-          "sourceText": "Q.室间隔破裂产生左向右分流"
-        },
-        {
-          "key": "R",
-          "label": "肿瘤堵塞二尖瓣口",
-          "sourceText": "R.肿瘤堵塞二尖瓣口"
-        }
-      ],
-      "stems": [
         {
           "text": "心尖部：二尖瓣狭窄",
           "answer": [
-            "B"
+            "6B"
           ],
           "sourceText": "心尖部：二尖瓣狭窄 B",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
         },
         {
           "text": "心尖部：二尖瓣关闭不全",
           "answer": [
-            "E"
+            "6E"
           ],
           "sourceText": "心尖部：二尖瓣关闭不全 E",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
         },
         {
           "text": "心尖部：Austin-Flint杂音",
           "answer": [
-            "D"
+            "6D"
           ],
           "sourceText": "心尖部：Austin-Flint杂音 D",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
         },
         {
           "text": "心尖部：左房黏液瘤",
           "answer": [
-            "R"
+            "6R"
           ],
           "sourceText": "心尖部：左房黏液瘤 R",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
         },
         {
           "text": "胸骨右缘第2肋间：主动脉瓣狭窄",
           "answer": [
-            "N"
+            "6N"
           ],
           "sourceText": "胸骨右缘第2肋间：主动脉瓣狭窄 N",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
         },
         {
           "text": "胸骨右缘第2肋间：主动脉瓣关闭不全所致相对性主动脉瓣狭窄",
           "answer": [
-            "P"
+            "6P"
           ],
           "sourceText": "胸骨右缘第2肋间：主动脉瓣关闭不全所致相对性主动脉瓣狭窄 P",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
         },
         {
           "text": "胸骨左缘第2肋间：肺动脉瓣狭窄",
           "answer": [
-            "L"
+            "6L"
           ],
           "sourceText": "胸骨左缘第2肋间：肺动脉瓣狭窄 L",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
         },
         {
           "text": "胸骨左缘第2肋间：Graham-Steell杂音",
           "answer": [
-            "H"
+            "6H"
           ],
           "sourceText": "胸骨左缘第2肋间：Graham-Steell杂音 H",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
         },
         {
           "text": "胸骨左缘第3～4肋间：主动脉瓣关闭不全",
           "answer": [
-            "J"
+            "6J"
           ],
           "sourceText": "胸骨左缘第3～4肋间：主动脉瓣关闭不全 J",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
         },
         {
           "text": "胸骨左缘第3～4肋间：肥厚型梗阻性心肌病",
           "answer": [
-            "C"
+            "6C"
           ],
           "sourceText": "胸骨左缘第3～4肋间：肥厚型梗阻性心肌病 C",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
         },
         {
           "text": "胸骨左缘第3～4肋间：室间隔缺损",
           "answer": [
-            "K"
+            "6K"
           ],
           "sourceText": "胸骨左缘第3～4肋间：室间隔缺损 K",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
         },
         {
           "text": "胸骨左缘第3～4肋间：急性心肌梗死并发室间隔穿孔",
           "answer": [
-            "Q"
+            "6Q"
           ],
           "sourceText": "胸骨左缘第3～4肋间：急性心肌梗死并发室间隔穿孔 Q",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
         },
         {
           "text": "胸骨左缘第3～4肋间：心包摩擦音",
           "answer": [
-            "G"
+            "6G"
           ],
           "sourceText": "胸骨左缘第3～4肋间：心包摩擦音 G",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
         },
         {
           "text": "胸骨左缘第4～5肋间：三尖瓣关闭不全",
           "answer": [
-            "O"
+            "6O"
           ],
           "sourceText": "胸骨左缘第4～5肋间：三尖瓣关闭不全 O",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
         },
         {
           "text": "胸骨左缘第4～5肋间：右室扩大所致相对性三尖瓣关闭不全",
           "answer": [
-            "A"
+            "6A"
           ],
           "sourceText": "胸骨左缘第4～5肋间：右室扩大所致相对性三尖瓣关闭不全 A",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
         },
         {
           "text": "心尖部：高流量状态导致的相对性二尖瓣狭窄",
           "answer": [
-            "M"
+            "6M"
           ],
           "sourceText": "心尖部：高流量状态导致的相对性二尖瓣狭窄 M",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
         },
         {
           "text": "心尖部：左室扩大所致相对性二尖瓣关闭不全",
           "answer": [
-            "I"
+            "6I"
           ],
           "sourceText": "心尖部：左室扩大所致相对性二尖瓣关闭不全 I",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "optionCategory": "⑥ 形成机制"
+        },
+        {
+          "text": "肥厚型梗阻性心肌病",
+          "answer": [
+            "7A"
+          ],
+          "sourceText": "肥厚型梗阻性心肌病 A",
+          "sourceY": 0,
+          "answerMode": "单选",
+          "optionCategory": "⑦ 性质分类"
+        },
+        {
+          "text": "左房黏液瘤",
+          "answer": [
+            "7C"
+          ],
+          "sourceText": "左房黏液瘤 C",
+          "sourceY": 0,
+          "answerMode": "单选",
+          "optionCategory": "⑦ 性质分类"
+        },
+        {
+          "text": "二尖瓣狭窄、二尖瓣关闭不全、主动脉瓣狭窄、主动脉瓣关闭不全、肺动脉瓣狭窄、三尖瓣关闭不全",
+          "answer": [
+            "7D"
+          ],
+          "sourceText": "二尖瓣狭窄、二尖瓣关闭不全、主动脉瓣狭窄、主动脉瓣关闭不全、肺动脉瓣狭窄、三尖瓣关闭不全 D",
+          "sourceY": 0,
+          "answerMode": "单选",
+          "optionCategory": "⑦ 性质分类"
+        },
+        {
+          "text": "急性纤维蛋白性心包炎所致心包摩擦音",
+          "answer": [
+            "7E"
+          ],
+          "sourceText": "急性纤维蛋白性心包炎所致心包摩擦音 E",
+          "sourceY": 0,
+          "answerMode": "单选",
+          "optionCategory": "⑦ 性质分类"
+        },
+        {
+          "text": "室间隔缺损、动脉导管未闭",
+          "answer": [
+            "7F"
+          ],
+          "sourceText": "室间隔缺损、动脉导管未闭 F",
+          "sourceY": 0,
+          "answerMode": "单选",
+          "optionCategory": "⑦ 性质分类"
+        },
+        {
+          "text": "急性心肌梗死并发室间隔穿孔",
+          "answer": [
+            "7G"
+          ],
+          "sourceText": "急性心肌梗死并发室间隔穿孔 G",
+          "sourceY": 0,
+          "answerMode": "单选",
+          "optionCategory": "⑦ 性质分类"
+        },
+        {
+          "text": "Austin-Flint、Graham-Steell及相对性三尖瓣/主动脉瓣/二尖瓣关闭不全或狭窄",
+          "answer": [
+            "7B"
+          ],
+          "sourceText": "Austin-Flint、Graham-Steell及相对性三尖瓣/主动脉瓣/二尖瓣关闭不全或狭窄 B",
+          "sourceY": 0,
+          "answerMode": "单选",
+          "optionCategory": "⑦ 性质分类"
         }
       ],
-      "sourceText": "心脏杂音⑥形成机制（按原题页分组并结合讲义复核）",
+      "sourceText": "心脏杂音（听诊区、疾病、时期、性质、传导、机制与分类；七类选项同组呈现）",
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
@@ -31134,128 +31341,6 @@
         "image": "med/lecture-pages/lecture-53-page-03.webp",
         "title": "第53讲第3页：内科含诊断 心瓣膜病",
         "description": "本题组对应第53讲第3页讲义。"
-      }
-    },
-    {
-      "id": "p83-g11",
-      "page": 83,
-      "title": "心脏杂音⑦性质分类",
-      "kind": "B",
-      "kindLabel": "B型题",
-      "options": [
-        {
-          "key": "A",
-          "label": "器质性心肌病",
-          "sourceText": "A.器质性心肌病"
-        },
-        {
-          "key": "B",
-          "label": "功能性 / 相对性",
-          "sourceText": "B.功能性 / 相对性"
-        },
-        {
-          "key": "C",
-          "label": "器质性肿瘤",
-          "sourceText": "C.器质性肿瘤"
-        },
-        {
-          "key": "D",
-          "label": "器质性瓣膜病",
-          "sourceText": "D.器质性瓣膜病"
-        },
-        {
-          "key": "E",
-          "label": "心包体征，非瓣膜杂音",
-          "sourceText": "E.心包体征，非瓣膜杂音"
-        },
-        {
-          "key": "F",
-          "label": "器质性先天性心脏病",
-          "sourceText": "F.器质性先天性心脏病"
-        },
-        {
-          "key": "G",
-          "label": "器质性继发性结构损害",
-          "sourceText": "G.器质性继发性结构损害"
-        }
-      ],
-      "stems": [
-        {
-          "text": "肥厚型梗阻性心肌病",
-          "answer": [
-            "A"
-          ],
-          "sourceText": "肥厚型梗阻性心肌病 A",
-          "sourceY": 0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "左房黏液瘤",
-          "answer": [
-            "C"
-          ],
-          "sourceText": "左房黏液瘤 C",
-          "sourceY": 0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "二尖瓣狭窄、二尖瓣关闭不全、主动脉瓣狭窄、主动脉瓣关闭不全、肺动脉瓣狭窄、三尖瓣关闭不全",
-          "answer": [
-            "D"
-          ],
-          "sourceText": "二尖瓣狭窄、二尖瓣关闭不全、主动脉瓣狭窄、主动脉瓣关闭不全、肺动脉瓣狭窄、三尖瓣关闭不全 D",
-          "sourceY": 0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "急性纤维蛋白性心包炎所致心包摩擦音",
-          "answer": [
-            "E"
-          ],
-          "sourceText": "急性纤维蛋白性心包炎所致心包摩擦音 E",
-          "sourceY": 0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "室间隔缺损、动脉导管未闭",
-          "answer": [
-            "F"
-          ],
-          "sourceText": "室间隔缺损、动脉导管未闭 F",
-          "sourceY": 0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "急性心肌梗死并发室间隔穿孔",
-          "answer": [
-            "G"
-          ],
-          "sourceText": "急性心肌梗死并发室间隔穿孔 G",
-          "sourceY": 0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "Austin-Flint、Graham-Steell及相对性三尖瓣/主动脉瓣/二尖瓣关闭不全或狭窄",
-          "answer": [
-            "B"
-          ],
-          "sourceText": "Austin-Flint、Graham-Steell及相对性三尖瓣/主动脉瓣/二尖瓣关闭不全或狭窄 B",
-          "sourceY": 0,
-          "answerMode": "单选"
-        }
-      ],
-      "sourceText": "心脏杂音⑦性质分类（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
-      "topic": "循环",
-      "lectureIds": [
-        "lecture-53"
-      ],
-      "lectureEvidence": {
-        "lectureId": "lecture-53",
-        "page": 10,
-        "image": "med/lecture-pages/lecture-53-page-10.webp",
-        "title": "第53讲第10页：内科含诊断 心瓣膜病",
-        "description": "本题组对应第53讲第10页讲义。"
       }
     },
     {

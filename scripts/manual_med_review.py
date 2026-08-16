@@ -761,6 +761,41 @@ def reviewed_groups(payload: dict) -> list[dict]:
         ),
     )
 
+    # 这是一张横向综合 B 型题：题干仍在同一题组内，只有左侧共用选项按七类分区。
+    # 给内部 key 加类别前缀，避免七个选项池中的 A、B……相互冲突；页面显示仍保留区内字母。
+    heart_murmur_categories = [
+        ("① 听诊区名称", "1", p83_5),
+        ("② 疾病 / 情况", "2", p83_6),
+        ("③ 出现时期", "3", p83_7),
+        ("④ 杂音性质", "4", p83_8),
+        ("⑤ 传导 / 特点", "5", p83_9),
+        ("⑥ 形成机制", "6", p83_10),
+        ("⑦ 性质分类", "7", p83_11),
+    ]
+    heart_options = []
+    heart_stems = []
+    for category, prefix, source_group in heart_murmur_categories:
+        for option in source_group["options"]:
+            heart_options.append({
+                **option,
+                "key": f"{prefix}{option['key']}",
+                "displayKey": option["key"],
+                "category": category,
+            })
+        for source_stem in source_group["stems"]:
+            heart_stems.append({
+                **source_stem,
+                "answer": [f"{prefix}{answer}" for answer in source_stem["answer"]],
+                "optionCategory": category,
+            })
+    p83_5_combined = {
+        **p83_5,
+        "title": "心脏杂音（综合 B 型题）",
+        "options": heart_options,
+        "stems": heart_stems,
+        "sourceText": "心脏杂音（听诊区、疾病、时期、性质、传导、机制与分类；七类选项同组呈现）",
+    }
+
     p86_1 = group(
         "p86-g1", "急性与慢性冠脉综合征", "循环", ["lecture-49", "lecture-50"],
         opts(
@@ -826,7 +861,7 @@ def reviewed_groups(payload: dict) -> list[dict]:
         p69_1, p69_2, p69_3,
         p61_1, p61_2, p61_3, p62_1, p62_2, p62_3, p62_4, p62_5, p63_1, p63_2, p63_3, p64_1, p64_2, p65_1, p65_2, p66_1, p66_2, p66_3, p67_1, p67_2, p67_3, p67_4, p67_5, p67_6, p68,
         p73_1, p73_2, p73_3, p74_1, p74_2, p74_3,
-        p80_1, p80_2, p80_3, p81_1, p81_2, p81_3, p81_4, p82_1, p82_2, p82_3, p82_4, p82_5, p83_1, p83_2, p83_3, p83_4, p83_5, p83_6, p83_7, p83_8, p83_9, p83_10, p83_11,
+        p80_1, p80_2, p80_3, p81_1, p81_2, p81_3, p81_4, p82_1, p82_2, p82_3, p82_4, p82_5, p83_1, p83_2, p83_3, p83_4, p83_5_combined,
         p86_1, p86_2, p86_3, p87_1, p87_2, p87_3, p87_4, p88_1, p88_2, p88_3, p88_4, p88_5, p92, p93_1, p93_2, p93_3, p93_4, p93_5, p94_1, p94_2, p94_3, p94_4,
     ]
 

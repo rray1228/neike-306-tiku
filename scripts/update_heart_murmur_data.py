@@ -7,31 +7,29 @@ from manual_med_review import reviewed_groups
 
 
 DATA = Path("src/data/med-data.json")
-TARGET_IDS = {f"p83-g{i}" for i in range(5, 12)}
+TARGET_ID = "p83-g5"
+OLD_SPLIT_IDS = {f"p83-g{i}" for i in range(6, 12)}
 
 
 def main() -> None:
     payload = json.loads(DATA.read_text(encoding="utf-8"))
-    source_groups = {group["id"]: group for group in reviewed_groups(payload) if group["id"] in TARGET_IDS}
-    if source_groups.keys() != TARGET_IDS:
+    source_groups = {group["id"]: group for group in reviewed_groups(payload) if group["id"] == TARGET_ID}
+    if set(source_groups) != {TARGET_ID}:
         raise SystemExit(f"target group mismatch: {sorted(source_groups)}")
 
-    changed = []
-    for index, current in enumerate(payload["groups"]):
-        group_id = current.get("id")
-        if group_id not in TARGET_IDS:
-            continue
-        merged = dict(current)
-        for key in ("title", "kind", "kindLabel", "options", "stems", "sourceText", "reviewState", "topic", "lectureIds"):
-            if key in source_groups[group_id]:
-                merged[key] = source_groups[group_id][key]
-        payload["groups"][index] = merged
-        changed.append(group_id)
+    existing = next((group for group in payload["groups"] if group.get("id") == TARGET_ID), None)
+    if existing is None:
+        raise SystemExit(f"missing existing group: {TARGET_ID}")
+    merged = dict(existing)
+    for key in ("title", "kind", "kindLabel", "options", "stems", "sourceText", "reviewState", "topic", "lectureIds"):
+        if key in source_groups[TARGET_ID]:
+            merged[key] = source_groups[TARGET_ID][key]
 
-    if set(changed) != TARGET_IDS:
-        raise SystemExit(f"data group mismatch: {sorted(changed)}")
+    payload["groups"] = [group for group in payload["groups"] if group.get("id") not in OLD_SPLIT_IDS and group.get("id") != TARGET_ID]
+    insert_at = next((index for index, group in enumerate(payload["groups"]) if group.get("id") == "p83-g4"), len(payload["groups"])) + 1
+    payload["groups"].insert(insert_at, merged)
     DATA.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print("updated", ", ".join(sorted(changed)))
+    print("merged p83-g5 through p83-g11 into p83-g5")
 
 
 if __name__ == "__main__":
