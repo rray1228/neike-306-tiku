@@ -905,125 +905,151 @@
       "options": [
         {
           "key": "A",
-          "label": "HGPRT"
+          "label": "次黄嘌呤"
         },
         {
           "key": "B",
-          "label": "FH₂ 还原酶"
-        },
-        {
-          "key": "C",
-          "label": "PRPP 酰胺转移酶"
-        },
-        {
-          "key": "D",
-          "label": "合成嘌呤核苷酸"
-        },
-        {
-          "key": "E",
           "label": "APRT"
         },
         {
-          "key": "F",
-          "label": "胸苷酸合酶"
-        },
-        {
-          "key": "G",
+          "key": "C",
           "label": "合成嘌呤和嘧啶核苷酸"
         },
         {
-          "key": "H",
-          "label": "合成 dCDP"
+          "key": "D",
+          "label": "CPS-Ⅱ"
         },
         {
-          "key": "I",
+          "key": "E",
           "label": "CDP 还原酶"
         },
         {
-          "key": "J",
+          "key": "F",
+          "label": "合成 dCDP"
+        },
+        {
+          "key": "G",
           "label": "黄嘌呤氧化酶"
         },
         {
-          "key": "K",
-          "label": "合成嘌呤核苷酸的酶"
-        },
-        {
-          "key": "L",
-          "label": "合成 dTMP（dUMP → dTMP）"
-        },
-        {
-          "key": "M",
+          "key": "H",
           "label": "分解嘌呤核苷酸"
         },
         {
+          "key": "I",
+          "label": "FH₂ 还原酶"
+        },
+        {
+          "key": "J",
+          "label": "胸腺嘧啶"
+        },
+        {
+          "key": "K",
+          "label": "PRPP 酰胺转移酶"
+        },
+        {
+          "key": "L",
+          "label": "胞苷"
+        },
+        {
+          "key": "M",
+          "label": "合成嘌呤核苷酸"
+        },
+        {
           "key": "N",
-          "label": "CPS-Ⅱ"
+          "label": "叶酸"
+        },
+        {
+          "key": "O",
+          "label": "合成 dTMP（dUMP → dTMP）"
+        },
+        {
+          "key": "P",
+          "label": "谷氨酰胺"
+        },
+        {
+          "key": "Q",
+          "label": "合成嘌呤核苷酸的酶"
+        },
+        {
+          "key": "R",
+          "label": "胸苷酸合酶"
+        },
+        {
+          "key": "S",
+          "label": "HGPRT"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "6-巯基嘌呤（6-MP）：①竞争 / 作用酶 ②抑制过程（多选）",
-          "answerRaw": "E、C、A、D",
+          "text": "6-巯基嘌呤（6-MP）：①类似物 ②竞争 / 作用酶 ③抑制过程（多选）",
+          "answerRaw": "A、B、K、S、M",
           "answer": [
-            "E",
-            "C",
             "A",
-            "D"
+            "B",
+            "K",
+            "S",
+            "M"
           ],
           "answerMode": "多选"
         },
         {
           "number": 2,
-          "text": "别嘌呤醇：①竞争 / 作用酶 ②抑制过程（多选）",
-          "answerRaw": "K、J、M、D",
+          "text": "别嘌呤醇：①类似物 ②竞争 / 作用酶 ③抑制过程（多选）",
+          "answerRaw": "A、Q、G、H、M",
           "answer": [
-            "K",
-            "J",
-            "M",
-            "D"
+            "A",
+            "Q",
+            "G",
+            "H",
+            "M"
           ],
           "answerMode": "多选"
         },
         {
           "number": 3,
-          "text": "阿糖胞苷：①竞争 / 作用酶 ②抑制过程（多选）",
-          "answerRaw": "I、H",
-          "answer": [
-            "I",
-            "H"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "5-氟尿嘧啶（5-FU）：①竞争 / 作用酶 ②抑制过程（多选）",
-          "answerRaw": "L、F",
+          "text": "阿糖胞苷：①类似物 ②竞争 / 作用酶 ③抑制过程（多选）",
+          "answerRaw": "L、E、F",
           "answer": [
             "L",
+            "E",
             "F"
           ],
           "answerMode": "多选"
         },
         {
-          "number": 5,
-          "text": "甲氨蝶呤（MTX）：①竞争 / 作用酶 ②抑制过程（多选）",
-          "answerRaw": "L、B、D",
+          "number": 4,
+          "text": "5-氟尿嘧啶（5-FU）：①类似物 ②竞争 / 作用酶 ③抑制过程（多选）",
+          "answerRaw": "J、O、R",
           "answer": [
-            "L",
-            "B",
-            "D"
+            "J",
+            "O",
+            "R"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "甲氨蝶呤（MTX）：①类似物 ②竞争 / 作用酶 ③抑制过程（多选）",
+          "answerRaw": "N、O、I、M",
+          "answer": [
+            "N",
+            "O",
+            "I",
+            "M"
           ],
           "answerMode": "多选"
         },
         {
           "number": 6,
-          "text": "氮杂丝氨酸：①竞争 / 作用酶 ②抑制过程（多选）",
-          "answerRaw": "C、N、G",
+          "text": "氮杂丝氨酸：①类似物 ②竞争 / 作用酶 ③抑制过程（多选）",
+          "answerRaw": "P、K、D、C",
           "answer": [
-            "C",
-            "N",
-            "G"
+            "P",
+            "K",
+            "D",
+            "C"
           ],
           "answerMode": "多选"
         }

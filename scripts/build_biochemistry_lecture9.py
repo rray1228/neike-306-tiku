@@ -119,7 +119,26 @@ def make_group(source_group, evidence_page):
 def main():
     # Groups 1–4 cover purines, 5–6 pyrimidines/CPS, and 7–8 antimetabolites.
     evidence_pages = {1: 1, 2: 1, 3: 1, 4: 1, 5: 2, 6: 2, 7: 3, 8: 3}
-    groups = [make_group(group, evidence_pages[group["index"]]) for group in parse_workbook()]
+    source_groups = parse_workbook()
+    # The last group must cover every column of the antimetabolite table:
+    # analogue, competing/acting enzyme, and inhibited process.
+    final_group = next(group for group in source_groups if group["index"] == 8)
+    final_group["options"].extend([
+        ("O", "胞苷"),
+        ("P", "次黄嘌呤"),
+        ("Q", "谷氨酰胺"),
+        ("R", "叶酸"),
+        ("S", "胸腺嘧啶"),
+    ])
+    similar_keys = {1: "P", 2: "P", 3: "O", 4: "S", 5: "R", 6: "Q"}
+    final_group["stems"] = [
+        (number, text.replace("①竞争 / 作用酶 ②抑制过程", "①类似物 ②竞争 / 作用酶 ③抑制过程"))
+        for number, text in final_group["stems"]
+    ]
+    for number, similar_key in similar_keys.items():
+        final_group["answers"][number].insert(0, similar_key)
+
+    groups = [make_group(group, evidence_pages[group["index"]]) for group in source_groups]
     payload = {
         "meta": {
             "title": "生物化学第 09 讲题库",
