@@ -20,38 +20,74 @@
       "options": [
         {
           "key": "A",
-          "label": "胫骨干骨折、髌骨粉碎性骨折等",
-          "sourceText": "A. 胫骨干骨折、髌骨粉碎性骨折等",
+          "label": "肱骨髁上骨折",
+          "sourceText": "间接暴力：肱骨髁上骨折",
           "ocrScore": 1.0
         },
         {
           "key": "B",
-          "label": "肱骨髁上骨折、桡骨远端骨折、髌骨横形骨折、髂前上棘撕脱骨折等",
-          "sourceText": "B. 肱骨髁上骨折、桡骨远端骨折、髌骨横形骨折、髂前上棘撕脱骨折等",
+          "label": "好发于第2、3跖骨",
+          "sourceText": "疲劳骨折：好发于第2、3跖骨",
           "ocrScore": 1.0
         },
         {
           "key": "C",
-          "label": "骨骼本身疾病（骨髓炎、骨肿瘤等）受轻微外力发生骨折",
-          "sourceText": "C. 骨骼本身疾病（骨髓炎、骨肿瘤等）受轻微外力发生骨折",
+          "label": "胫骨干骨折",
+          "sourceText": "直接暴力：胫骨干骨折",
           "ocrScore": 1.0
         },
         {
           "key": "D",
-          "label": "反复轻微外力致特定部位因积累性劳损而骨折",
-          "sourceText": "D. 反复轻微外力致特定部位因积累性劳损而骨折",
+          "label": "骨骼本身存在骨髓炎、骨肿瘤等疾病，受轻微外力即发生骨折",
+          "sourceText": "病理骨折：骨骼本身存在骨髓炎、骨肿瘤等疾病，受轻微外力即发生骨折",
           "ocrScore": 1.0
         },
         {
           "key": "E",
-          "label": "好发于腓骨干下1/3、第2和3跖骨、肋骨",
-          "sourceText": "E. 好发于腓骨干下1/3、第2和3跖骨、肋骨",
+          "label": "髂前上棘撕脱骨折",
+          "sourceText": "间接暴力：髂前上棘撕脱骨折",
           "ocrScore": 1.0
         },
         {
           "key": "F",
-          "label": "疲劳骨折早期诊断用MRI、核素",
-          "sourceText": "F. 疲劳骨折早期诊断用MRI、核素",
+          "label": "早期诊断可用MRI、核素检查",
+          "sourceText": "疲劳骨折：早期诊断可用MRI、核素检查",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "G",
+          "label": "髌骨粉碎性骨折",
+          "sourceText": "直接暴力：髌骨粉碎性骨折",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "H",
+          "label": "好发于肋骨",
+          "sourceText": "疲劳骨折：好发于肋骨",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "I",
+          "label": "桡骨远端骨折",
+          "sourceText": "间接暴力：桡骨远端骨折",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "J",
+          "label": "反复轻微外力导致特定部位积累性劳损",
+          "sourceText": "疲劳骨折：反复轻微外力导致特定部位积累性劳损",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "K",
+          "label": "髌骨横形骨折",
+          "sourceText": "间接暴力：髌骨横形骨折",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "L",
+          "label": "好发于腓骨干下1/3",
+          "sourceText": "疲劳骨折：好发于腓骨干下1/3",
           "ocrScore": 1.0
         }
       ],
@@ -59,47 +95,53 @@
         {
           "text": "直接暴力",
           "answer": [
-            "A"
+            "C",
+            "G"
           ],
-          "answerMode": "单选",
+          "answerMode": "多选",
           "sourceText": "直接暴力",
           "ocrScore": 1.0,
-          "reviewMethod": "已完成题干、选项与答案结构校对"
+          "reviewMethod": "已按第29讲第1页拆分骨折类型与好发部位，固定乱序后同步重映射答案"
         },
         {
           "text": "间接暴力（受伤部位远处）",
           "answer": [
-            "B"
+            "A",
+            "E",
+            "I",
+            "K"
           ],
-          "answerMode": "单选",
+          "answerMode": "多选",
           "sourceText": "间接暴力（受伤部位远处）",
           "ocrScore": 1.0,
-          "reviewMethod": "已完成题干、选项与答案结构校对"
+          "reviewMethod": "已按第29讲第1页拆分骨折类型与好发部位，固定乱序后同步重映射答案"
         },
         {
           "text": "病理骨折",
           "answer": [
-            "C"
+            "D"
           ],
           "answerMode": "单选",
           "sourceText": "病理骨折",
           "ocrScore": 1.0,
-          "reviewMethod": "已完成题干、选项与答案结构校对"
+          "reviewMethod": "已按第29讲第1页拆分骨折类型与好发部位，固定乱序后同步重映射答案"
         },
         {
           "text": "疲劳/应力/行军骨折",
           "answer": [
-            "D",
-            "E",
-            "F"
+            "B",
+            "F",
+            "H",
+            "J",
+            "L"
           ],
           "answerMode": "多选",
           "sourceText": "疲劳/应力/行军骨折",
           "ocrScore": 1.0,
-          "reviewMethod": "已完成题干、选项与答案结构校对"
+          "reviewMethod": "已按第29讲第1页拆分骨折类型与好发部位，固定乱序后同步重映射答案"
         }
       ],
-      "sourceText": "胫骨干骨折、髌骨粉碎性骨折等；肱骨髁上骨折、桡骨远端骨折、髌骨横形骨折、髂前上棘撕脱骨折等；骨骼本身疾病（骨髓炎、骨肿瘤等）受轻微外力发生骨折；反复轻微外力致特定部位因积累性劳损而骨折；好发于腓骨干下1/3、第2和3跖骨、肋骨；疲劳骨折早期诊断用MRI、核素；直接暴力；间接暴力（受伤部位远处）；病理骨折；疲劳/应力/行军骨折",
+      "sourceText": "肱骨髁上骨折；好发于第2、3跖骨；胫骨干骨折；骨骼本身存在骨髓炎、骨肿瘤等疾病，受轻微外力即发生骨折；髂前上棘撕脱骨折；早期诊断可用MRI、核素检查；髌骨粉碎性骨折；好发于肋骨；桡骨远端骨折；反复轻微外力导致特定部位积累性劳损；髌骨横形骨折；好发于腓骨干下1/3；直接暴力；间接暴力（受伤部位远处）；病理骨折；疲劳/应力/行军骨折",
       "reviewState": "已完成结构校对",
       "reviewIssues": [],
       "reviewNotes": [],
@@ -112,9 +154,10 @@
         "page": 1,
         "image": "surgery/lecture-pages/lecture-29-page-01.webp",
         "title": "第29讲第1页 · 骨折概论",
-        "description": "本题组已按《核心精讲·骨折概论》对应页逐项复核。"
+        "description": "骨折原因、各暴力类型对应骨折及疲劳骨折好发部位已拆分并逐项复核。"
       },
-      "hideSource": true
+      "hideSource": true,
+      "optionShuffleVersion": 1
     },
     {
       "id": "fracture-g02",

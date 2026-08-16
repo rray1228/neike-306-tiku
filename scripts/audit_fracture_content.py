@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 EXPECTED = {
-    "fracture-g01": ("ABCDEF", [("直接暴力", "A"), ("间接暴力（受伤部位远处）", "B"), ("病理骨折", "C"), ("疲劳/应力/行军骨折", "DEF")]),
+    "fracture-g01": ("ABCDEFGHIJKL", [("直接暴力", "CG"), ("间接暴力（受伤部位远处）", "AEIK"), ("病理骨折", "D"), ("疲劳/应力/行军骨折", "BFHJL")]),
     "fracture-g02": ("ABCDE", [("稳定性骨折（骨折端不易发生移位）", "ABCDE"), ("不完全骨折", "BD")]),
     "fracture-g03": ("ABCDEFGHIJKLMNO", [("开放性骨折是", "A"), ("开放性骨折首要处理", "BC"), ("清创一期愈合", "DE"), ("清创", "FGHIJKL"), ("粉碎性骨折", "MNO")]),
     "fracture-g04": ("ABCDEFGH", [("骨折特有体征", "ABC"), ("可不出现特有体征", "EFGH")]),
@@ -31,7 +31,7 @@ def main() -> None:
     groups = payload["groups"]
     assert len(groups) == 13
     assert sum(len(group["stems"]) for group in groups) == 46
-    assert sum(len(group["options"]) for group in groups) == 123
+    assert sum(len(group["options"]) for group in groups) == 129
     assert [group["id"] for group in groups] == list(EXPECTED)
 
     for group in groups:
@@ -72,7 +72,25 @@ def main() -> None:
         "X线见骨折处有连续性梭形骨痂（骨折线模糊）",
     ]
 
-    print({"groups": 13, "stems": 46, "options": 123, "status": "ok"})
+    first = next(group for group in groups if group["id"] == "fracture-g01")
+    assert first["optionShuffleVersion"] == 1
+    assert [option["label"] for option in first["options"]] == [
+        "肱骨髁上骨折",
+        "好发于第2、3跖骨",
+        "胫骨干骨折",
+        "骨骼本身存在骨髓炎、骨肿瘤等疾病，受轻微外力即发生骨折",
+        "髂前上棘撕脱骨折",
+        "早期诊断可用MRI、核素检查",
+        "髌骨粉碎性骨折",
+        "好发于肋骨",
+        "桡骨远端骨折",
+        "反复轻微外力导致特定部位积累性劳损",
+        "髌骨横形骨折",
+        "好发于腓骨干下1/3",
+    ]
+    assert {key for stem in first["stems"] for key in stem["answer"]} == set("ABCDEFGHIJKL")
+
+    print({"groups": 13, "stems": 46, "options": 129, "status": "ok"})
 
 
 if __name__ == "__main__":
