@@ -5,7 +5,7 @@
     "sourcePages": 1,
     "lectureCount": 1,
     "groupCount": 10,
-    "stemCount": 52,
+    "stemCount": 53,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture6.py",
     "siteIntegrated": true,
@@ -584,61 +584,48 @@
       "options": [
         {
           "key": "A",
-          "label": "甘油激酶"
-        },
-        {
-          "key": "B",
-          "label": "脂肪和骨骼肌细胞活性很低甚至缺乏"
-        },
-        {
-          "key": "C",
-          "label": "合成脂肪（除脂肪和骨骼肌细胞）"
-        },
-        {
-          "key": "D",
-          "label": "1 分子甘油完全分解"
-        },
-        {
-          "key": "E",
-          "label": "消耗 2 个 ATP"
-        },
-        {
-          "key": "F",
-          "label": "肝活性最高"
-        },
-        {
-          "key": "G",
           "label": "生成 18.5/16.5 个 ATP"
         },
         {
-          "key": "H",
-          "label": "2 分子甘油糖异生"
+          "key": "B",
+          "label": "脂肪和骨骼肌细胞"
+        },
+        {
+          "key": "C",
+          "label": "合成脂肪"
+        },
+        {
+          "key": "D",
+          "label": "氧化分解供能"
+        },
+        {
+          "key": "E",
+          "label": "糖异生"
+        },
+        {
+          "key": "F",
+          "label": "肝脏"
+        },
+        {
+          "key": "G",
+          "label": "消耗 2 个 ATP"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "甘油的利用",
-          "answerRaw": "C、D、H",
+          "text": "甘油可用于（多选）",
+          "answerRaw": "C、D、E",
           "answer": [
             "C",
             "D",
-            "H"
+            "E"
           ],
           "answerMode": "多选"
         },
         {
           "number": 2,
-          "text": "2 分子甘油糖异生",
-          "answerRaw": "E",
-          "answer": [
-            "E"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 3,
-          "text": "1 分子甘油完全分解",
+          "text": "2 分子甘油糖异生净消耗",
           "answerRaw": "G",
           "answer": [
             "G"
@@ -646,14 +633,31 @@
           "answerMode": "单选"
         },
         {
-          "number": 4,
-          "text": "甘油激酶的特点",
-          "answerRaw": "F、B",
+          "number": 3,
+          "text": "1 分子甘油完全氧化可生成",
+          "answerRaw": "A",
           "answer": [
-            "F",
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "甘油激酶活性最高的组织",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "甘油激酶活性很低或缺乏的组织",
+          "answerRaw": "B",
+          "answer": [
             "B"
           ],
-          "answerMode": "多选"
+          "answerMode": "单选"
         }
       ],
       "sourceText": "甘油的利用",
