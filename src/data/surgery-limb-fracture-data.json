@@ -19,7 +19,7 @@
       14,
       15
     ],
-    "answerNote": "保持原题组结构并按第28讲逐项校对；删除重复总括项，合并三踝骨折重复题干，并改写直接复述题干条件的选项后同步重映射答案。第10组保留为数字填空题。"
+    "answerNote": "保持原题组结构并按第28讲逐项校对；删除重复总括项，合并三踝骨折重复题干，改写直接复述题干条件的选项，并按讲义补全髋关节前脱位及横向鉴别内容后同步重映射答案。第10组保留为数字填空题。"
   },
   "groups": [
     {
@@ -863,107 +863,156 @@
       "options": [
         {
           "key": "A",
-          "label": "腹股沟中点处压痛",
-          "sourceText": "O. 腹股沟中点处压痛",
-          "sourceKey": "O",
+          "label": "屈曲、外展、外旋畸形",
+          "sourceText": "R. 屈曲、外展、外旋畸形",
+          "sourceKey": "R",
           "ocrScore": 1
         },
         {
           "key": "B",
-          "label": "可合并股骨头坏死、脂肪栓塞",
-          "sourceText": "I. 可合并股骨头坏死、脂肪栓塞",
-          "sourceKey": "I",
-          "ocrScore": 1
-        },
-        {
-          "key": "C",
-          "label": "最凶险的髋关节脱位类型",
-          "sourceText": "G. 中心脱位最凶险",
-          "sourceKey": "G",
-          "ocrScore": 1
-        },
-        {
-          "key": "D",
-          "label": "跌倒等外伤或病理性骨折",
-          "sourceText": "F. 跌倒等外伤或病理性骨折，中老年骨质疏松多见",
-          "sourceKey": "F",
-          "ocrScore": 1
-        },
-        {
-          "key": "E",
-          "label": "外旋畸形可达90°",
-          "sourceText": "N. 外旋畸形可达90°",
-          "sourceKey": "N",
-          "ocrScore": 1
-        },
-        {
-          "key": "F",
-          "label": "最常见的髋关节脱位类型",
-          "sourceText": "K. 后脱位最常见",
-          "sourceKey": "K",
-          "ocrScore": 1
-        },
-        {
-          "key": "G",
           "label": "中老年骨质疏松多见",
           "sourceText": "B. 中老年骨质疏松多见",
           "sourceKey": "B",
           "ocrScore": 1
         },
         {
-          "key": "H",
-          "label": "可合并腹膜后血肿、休克",
-          "sourceText": "H. 可合并腹膜后血肿、休克",
-          "sourceKey": "H",
+          "key": "C",
+          "label": "可损伤坐骨神经",
+          "sourceText": "Q. 可损伤坐骨神经",
+          "sourceKey": "Q",
           "ocrScore": 1
         },
         {
-          "key": "I",
-          "label": "屈曲、内收、内旋畸形",
-          "sourceText": "L. 屈曲、内收、内旋畸形",
-          "sourceKey": "L",
+          "key": "D",
+          "label": "髋部肿胀和瘀斑多见",
+          "sourceText": "E. 髋部肿胀和瘀斑多见",
+          "sourceKey": "E",
           "ocrScore": 1
         },
         {
-          "key": "J",
-          "label": "下肢缩短、大转子上移",
-          "sourceText": "M. 下肢缩短、大转子上移",
-          "sourceKey": "M",
-          "ocrScore": 1
-        },
-        {
-          "key": "K",
+          "key": "E",
           "label": "弹性固定",
           "sourceText": "J. 弹性固定",
           "sourceKey": "J",
           "ocrScore": 1
         },
         {
-          "key": "L",
-          "label": "Shenton线不连续",
-          "sourceText": "D. Shenton线不连续",
-          "sourceKey": "D",
+          "key": "F",
+          "label": "腹股沟中点处压痛",
+          "sourceText": "O. 腹股沟中点处压痛",
+          "sourceKey": "O",
           "ocrScore": 1
         },
         {
-          "key": "M",
-          "label": "大转子区压痛",
-          "sourceText": "A. 转子间压痛",
-          "sourceKey": "A",
+          "key": "G",
+          "label": "囊外骨折",
+          "sourceText": "V. 囊外骨折",
+          "sourceKey": "V",
           "ocrScore": 1
         },
         {
-          "key": "N",
+          "key": "H",
+          "label": "最常见的髋关节脱位类型",
+          "sourceText": "K. 后脱位最常见",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "下肢长度不定",
+          "sourceText": "T. 下肢长度不定",
+          "sourceKey": "T",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
           "label": "外旋畸形45～60°",
           "sourceText": "C. 外旋畸形45～60°",
           "sourceKey": "C",
           "ocrScore": 1
         },
         {
+          "key": "K",
+          "label": "可合并腹膜后血肿、休克",
+          "sourceText": "H. 可合并腹膜后血肿、休克",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "大转子上移",
+          "sourceText": "M. 下肢缩短、大转子上移",
+          "sourceKey": "M",
+          "ocrScore": 1
+        },
+        {
+          "key": "M",
+          "label": "腹股沟可触及股骨头",
+          "sourceText": "S. 腹股沟可触及股骨头",
+          "sourceKey": "S",
+          "ocrScore": 1
+        },
+        {
+          "key": "N",
+          "label": "可合并股骨头坏死、脂肪栓塞",
+          "sourceText": "I. 可合并股骨头坏死、脂肪栓塞",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
           "key": "O",
-          "label": "髋部肿胀和瘀斑多见",
-          "sourceText": "E. 髋部肿胀和瘀斑多见",
-          "sourceKey": "E",
+          "label": "Shenton线不连续",
+          "sourceText": "D. Shenton线不连续",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "P",
+          "label": "跌倒等外伤或病理性骨折",
+          "sourceText": "F. 跌倒等外伤或病理性骨折，中老年骨质疏松多见",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "Q",
+          "label": "臀部可触及股骨头",
+          "sourceText": "P. 臀部可触及股骨头",
+          "sourceKey": "P",
+          "ocrScore": 1
+        },
+        {
+          "key": "R",
+          "label": "外旋畸形可达90°",
+          "sourceText": "N. 外旋畸形可达90°",
+          "sourceKey": "N",
+          "ocrScore": 1
+        },
+        {
+          "key": "S",
+          "label": "最凶险的髋关节脱位类型",
+          "sourceText": "G. 中心脱位最凶险",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "T",
+          "label": "下肢缩短",
+          "sourceText": "U. 下肢缩短",
+          "sourceKey": "U",
+          "ocrScore": 1
+        },
+        {
+          "key": "U",
+          "label": "大转子区压痛",
+          "sourceText": "A. 转子间压痛",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "V",
+          "label": "屈曲、内收、内旋畸形",
+          "sourceText": "L. 屈曲、内收、内旋畸形",
+          "sourceKey": "L",
           "ocrScore": 1
         }
       ],
@@ -971,54 +1020,76 @@
         {
           "text": "髋关节后脱位",
           "answer": [
-            "F",
-            "I",
-            "K",
-            "L"
+            "C",
+            "E",
+            "H",
+            "O",
+            "Q",
+            "T",
+            "V"
           ],
           "answerMode": "多选",
           "sourceText": "髋关节后脱位",
           "ocrScore": 1,
-          "reviewMethod": "已按第28讲第7～10页：髋部损伤横向鉴别逐项校对并完成选项重映射"
+          "reviewMethod": "已按第28讲第7～10页逐项补充髋关节前、后及中心脱位，并同步重映射答案"
         },
         {
-          "text": "髋关节中心脱位",
-          "answer": [
-            "C",
-            "H"
-          ],
-          "answerMode": "多选",
-          "sourceText": "髋关节中心脱位",
-          "ocrScore": 1,
-          "reviewMethod": "已按第28讲第7～10页：髋部损伤横向鉴别逐项校对并完成选项重映射"
-        },
-        {
-          "text": "股骨颈骨折",
+          "text": "髋关节前脱位",
           "answer": [
             "A",
-            "B",
-            "G",
-            "J",
-            "N"
-          ],
-          "answerMode": "多选",
-          "sourceText": "股骨颈骨折",
-          "ocrScore": 1,
-          "reviewMethod": "已按第28讲第7～10页：髋部损伤横向鉴别逐项校对并完成选项重映射"
-        },
-        {
-          "text": "股骨转子间骨折",
-          "answer": [
-            "D",
             "E",
-            "G",
+            "I",
             "M",
             "O"
           ],
           "answerMode": "多选",
+          "sourceText": "髋关节前脱位",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第7～10页逐项补充髋关节前、后及中心脱位，并同步重映射答案"
+        },
+        {
+          "text": "髋关节中心脱位",
+          "answer": [
+            "E",
+            "K",
+            "O",
+            "S"
+          ],
+          "answerMode": "多选",
+          "sourceText": "髋关节中心脱位",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第7～10页逐项补充髋关节前、后及中心脱位，并同步重映射答案"
+        },
+        {
+          "text": "股骨颈骨折",
+          "answer": [
+            "B",
+            "F",
+            "J",
+            "L",
+            "N",
+            "T"
+          ],
+          "answerMode": "多选",
+          "sourceText": "股骨颈骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第7～10页逐项补充髋关节前、后及中心脱位，并同步重映射答案"
+        },
+        {
+          "text": "股骨转子间骨折",
+          "answer": [
+            "B",
+            "D",
+            "G",
+            "P",
+            "R",
+            "T",
+            "U"
+          ],
+          "answerMode": "多选",
           "sourceText": "股骨转子间骨折",
           "ocrScore": 1,
-          "reviewMethod": "已按第28讲第7～10页：髋部损伤横向鉴别逐项校对并完成选项重映射"
+          "reviewMethod": "已按第28讲第7～10页逐项补充髋关节前、后及中心脱位，并同步重映射答案"
         }
       ],
       "reviewState": "已完成讲义校对",
@@ -1033,16 +1104,18 @@
       "sourcePdf": null,
       "sourcePage": null,
       "sourceAnswer": [
-        "DJKL",
-        "GH",
-        "BCIMO",
-        "ABEFN"
+        "DJKLPQU",
+        "DJRST",
+        "DGHJ",
+        "BCIMOU",
+        "ABEFNUV"
       ],
       "sourceStemNumbers": [
         "1",
         "2",
         "3",
-        "4"
+        "4",
+        "5"
       ],
       "parseWarnings": [],
       "hideSource": true,
@@ -1052,7 +1125,7 @@
         "page": "7～10",
         "image": "surgery/lecture-pages/lecture-28-page-07-10.webp",
         "title": "第28讲第7～10页：髋部损伤横向鉴别",
-        "description": "髋关节脱位、股骨颈及转子间骨折的体征和并发症已逐项复核。"
+        "description": "髋关节前、后及中心脱位与股骨颈、转子间骨折的体位、体征和并发症已逐项复核。"
       },
       "optionOriginalOrder": [
         "A",
@@ -1069,9 +1142,16 @@
         "L",
         "M",
         "N",
-        "O"
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V"
       ],
-      "optionShuffleVersion": 3
+      "optionShuffleVersion": 4
     },
     {
       "id": "limb-fracture-dislocation-g05",

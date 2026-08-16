@@ -12,7 +12,9 @@ EXPECTED_SOURCE_ANSWERS = {
     "limb-fracture-dislocation-g01": [set(x) for x in ["A", "D", "G", "I", "K", "A", "J", "E", "C", "B", "H", "L", "F"]],
     "limb-fracture-dislocation-g02": [set(x) for x in ["FHL", "ABGNR", "EIK", "S", "CDJO", "BPT", "MQ"]],
     "limb-fracture-dislocation-g03": [set(x) for x in ["E", "GM", "HJ", "K", "I", "BCD", "F", "AL"]],
-    "limb-fracture-dislocation-g04": [set(x) for x in ["DJKL", "GH", "BCIMO", "ABEFN"]],
+    "limb-fracture-dislocation-g04": [
+        set(x) for x in ["DJKLPQU", "DJRST", "DGHJ", "BCIMOU", "ABEFNUV"]
+    ],
     "limb-fracture-dislocation-g05": [set(x) for x in ["A", "E", "D", "B", "C"]],
     "limb-fracture-dislocation-g06": [set(x) for x in ["A", "F", "G", "B", "J", "D", "I", "K", "H", "E", "C"]],
     "limb-fracture-dislocation-g07": [set(x) for x in ["E", "A", "L", "J", "B", "H", "G", "H", "O", "F", "N", "I", "CM"]],
@@ -32,8 +34,8 @@ def main() -> None:
     groups = payload["groups"]
 
     assert len(groups) == 10
-    assert sum(len(group["stems"]) for group in groups) == 85
-    assert sum(len(group["options"]) for group in groups) == 109
+    assert sum(len(group["stems"]) for group in groups) == 86
+    assert sum(len(group["options"]) for group in groups) == 116
     assert payload["meta"]["lecturePagesReviewed"] == list(range(1, 16))
     assert [group["id"] for group in groups[:9]] == list(EXPECTED_SOURCE_ANSWERS)
 
@@ -55,11 +57,12 @@ def main() -> None:
     for group in groups[:9]:
         expected_version = 3 if group["id"] in {
             "limb-fracture-dislocation-g03",
-            "limb-fracture-dislocation-g04",
             "limb-fracture-dislocation-g06",
             "limb-fracture-dislocation-g07",
             "limb-fracture-dislocation-g08",
         } else 2
+        if group["id"] == "limb-fracture-dislocation-g04":
+            expected_version = 4
         assert group["kindLabel"] == "B型题" and group["optionShuffleVersion"] == expected_version
         option_keys = [option["key"] for option in group["options"]]
         option_labels = [option["label"] for option in group["options"]]
@@ -87,6 +90,17 @@ def main() -> None:
     assert option_label(hip, "K") == "最常见的髋关节脱位类型"
     assert option_label(hip, "G") == "最凶险的髋关节脱位类型"
     assert option_label(hip, "F") == "跌倒等外伤或病理性骨折"
+    assert len(hip["options"]) == 22
+    assert [stem["text"] for stem in hip["stems"]] == [
+        "髋关节后脱位", "髋关节前脱位", "髋关节中心脱位", "股骨颈骨折", "股骨转子间骨折"
+    ]
+    assert option_label(hip, "R") == "屈曲、外展、外旋畸形"
+    assert option_label(hip, "S") == "腹股沟可触及股骨头"
+    assert option_label(hip, "T") == "下肢长度不定"
+    assert option_label(hip, "P") == "臀部可触及股骨头"
+    assert option_label(hip, "Q") == "可损伤坐骨神经"
+    assert option_label(hip, "U") == "下肢缩短"
+    assert option_label(hip, "V") == "囊外骨折"
     assert option_label(femoral_neck, "A") == "骨折线位于股骨头下方，预后最差"
     assert option_label(femoral_neck, "F") == "骨折线位于股骨颈中部"
     assert option_label(femoral_neck, "G") == "骨折线位于股骨颈基底部，预后最好"
@@ -99,7 +113,7 @@ def main() -> None:
     assert option_label(complications, "M") == "粉碎性骨折"
     assert option_label(complications, "H") == "横形骨折"
 
-    print({"groups": 10, "stems": 85, "options": 109, "shuffled": 9, "fill": 1, "status": "ok"})
+    print({"groups": 10, "stems": 86, "options": 116, "shuffled": 9, "fill": 1, "status": "ok"})
 
 
 def option_label(group: dict, source_key: str) -> str:

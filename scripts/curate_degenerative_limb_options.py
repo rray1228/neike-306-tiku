@@ -54,6 +54,81 @@ def option_by_source(item: dict, source_key: str) -> dict:
     return next(option for option in item["options"] if option["sourceKey"] == source_key)
 
 
+def rebuild_hip_differential(item: dict) -> None:
+    """Expand the hip differential directly from lecture 28, pages 7–10."""
+    source_labels = {
+        "A": "大转子区压痛",
+        "B": "中老年骨质疏松多见",
+        "C": "外旋畸形45～60°",
+        "D": "Shenton线不连续",
+        "E": "髋部肿胀和瘀斑多见",
+        "F": "跌倒等外伤或病理性骨折",
+        "G": "最凶险的髋关节脱位类型",
+        "H": "可合并腹膜后血肿、休克",
+        "I": "可合并股骨头坏死、脂肪栓塞",
+        "J": "弹性固定",
+        "K": "最常见的髋关节脱位类型",
+        "L": "屈曲、内收、内旋畸形",
+        "M": "大转子上移",
+        "N": "外旋畸形可达90°",
+        "O": "腹股沟中点处压痛",
+        "P": "臀部可触及股骨头",
+        "Q": "可损伤坐骨神经",
+        "R": "屈曲、外展、外旋畸形",
+        "S": "腹股沟可触及股骨头",
+        "T": "下肢长度不定",
+        "U": "下肢缩短",
+        "V": "囊外骨折",
+    }
+    # Interleave anatomy, posture, complications and shared findings so the
+    # answer cannot be inferred from adjacent lecture order.
+    source_order = ["R", "B", "Q", "E", "J", "O", "V", "K", "T", "C", "H", "M", "S", "I", "D", "F", "P", "N", "G", "U", "A", "L"]
+    old_by_source = {option["sourceKey"]: option for option in item["options"]}
+    options = []
+    for display_key, source_key in zip(string.ascii_uppercase, source_order):
+        old = old_by_source.get(source_key, {})
+        options.append({
+            "key": display_key,
+            "label": source_labels[source_key],
+            "sourceText": old.get("sourceText", f"{source_key}. {source_labels[source_key]}"),
+            "sourceKey": source_key,
+            "ocrScore": 1,
+        })
+    item["options"] = options
+
+    source_answers = [
+        ("髋关节后脱位", set("DJKLPQU")),
+        ("髋关节前脱位", set("DJRST")),
+        ("髋关节中心脱位", set("DGHJ")),
+        ("股骨颈骨折", set("BCIMOU")),
+        ("股骨转子间骨折", set("ABEFNUV")),
+    ]
+    existing_stems = {stem["text"]: stem for stem in item["stems"]}
+    source_to_display = {option["sourceKey"]: option["key"] for option in options}
+    stems = []
+    for text, answers in source_answers:
+        stem = existing_stems.get(text, {
+            "text": text,
+            "answer": [],
+            "answerMode": "多选",
+            "sourceText": text,
+            "ocrScore": 1,
+            "reviewMethod": "",
+        })
+        stem["text"] = text
+        stem["sourceText"] = text
+        stem["answer"] = [option["key"] for option in options if option["sourceKey"] in answers]
+        stem["answerMode"] = "多选"
+        stem["reviewMethod"] = "已按第28讲第7～10页逐项补充髋关节前、后及中心脱位，并同步重映射答案"
+        stems.append(stem)
+    item["stems"] = stems
+    item["sourceAnswer"] = ["".join(sorted(answers)) for _, answers in source_answers]
+    item["sourceStemNumbers"] = [str(index) for index in range(1, len(stems) + 1)]
+    item["optionOriginalOrder"] = list(source_labels)
+    item["optionShuffleVersion"] = 4
+    item["lectureEvidence"]["description"] = "髋关节前、后及中心脱位与股骨颈、转子间骨折的体位、体征和并发症已逐项复核。"
+
+
 def curate_degenerative_spine() -> None:
     name = "surgery-degenerative-spine-data.json"
     payload = load(name)
@@ -76,7 +151,8 @@ def curate_limb_fractures() -> None:
     payload = load(name)
     payload["meta"]["answerNote"] = (
         "保持原题组结构并按第28讲逐项校对；删除重复总括项，合并三踝骨折重复题干，"
-        "并改写直接复述题干条件的选项后同步重映射答案。第10组保留为数字填空题。"
+        "改写直接复述题干条件的选项，并按讲义补全髋关节前脱位及横向鉴别内容后同步重映射答案。"
+        "第10组保留为数字填空题。"
     )
 
     forearm = group(payload, "limb-fracture-dislocation-g03")
@@ -86,17 +162,7 @@ def curate_limb_fractures() -> None:
     forearm["optionShuffleVersion"] = 3
 
     hip = group(payload, "limb-fracture-dislocation-g04")
-    option_by_source(hip, "K")["label"] = "最常见的髋关节脱位类型"
-    option_by_source(hip, "G")["label"] = "最凶险的髋关节脱位类型"
-    option_by_source(hip, "A")["label"] = "大转子区压痛"
-    option_by_source(hip, "F")["label"] = "跌倒等外伤或病理性骨折"
-    intertrochanteric = next(stem for stem in hip["stems"] if stem["text"] == "股骨转子间骨折")
-    hip_display_by_source = {option["sourceKey"]: option["key"] for option in hip["options"]}
-    if hip_display_by_source["B"] not in intertrochanteric["answer"]:
-        intertrochanteric["answer"].append(hip_display_by_source["B"])
-    intertrochanteric["answer"].sort(key=lambda key: list(hip_display_by_source.values()).index(key))
-    hip["sourceAnswer"][-1] = "ABEFN"
-    hip["optionShuffleVersion"] = 3
+    rebuild_hip_differential(hip)
 
     femoral_neck = group(payload, "limb-fracture-dislocation-g06")
     option_by_source(femoral_neck, "A")["label"] = "骨折线位于股骨头下方，预后最差"
