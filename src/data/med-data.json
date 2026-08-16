@@ -1253,7 +1253,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-02"
+        "lecture-03"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-02",
@@ -1356,7 +1356,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-02"
+        "lecture-03"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-02",
@@ -1754,7 +1754,8 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-03"
+        "lecture-03",
+        "lecture-54"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-03",
@@ -1959,11 +1960,7 @@
       "reviewState": "已按讲义校对",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-01",
-        "lecture-03",
-        "lecture-04",
-        "lecture-07",
-        "lecture-10"
+        "lecture-04"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-04",
@@ -3071,8 +3068,8 @@
         },
         {
           "key": "②",
-          "label": "叶间隙下坠、蜂窝状脓肿",
-          "sourceText": "②.叶间隙下坠、蜂窝状脓肿"
+          "label": "叶间隙下坠、蜂窝状腔",
+          "sourceText": "②.叶间隙下坠、蜂窝状腔"
         },
         {
           "key": "③",
@@ -3101,13 +3098,13 @@
         },
         {
           "key": "⑧",
-          "label": "早期网格影，后期沿支气管/肺纹理散在分布的不规则斑片影，多累及双肺下叶",
-          "sourceText": "⑧.早期网格影，后期沿支气管/肺纹理散在分布的不规则斑片影，多累及双肺下叶"
+          "label": "早期网格影，后期沿气管/肺纹理散在分布不规则斑片影，多累及双肺下叶",
+          "sourceText": "⑧.早期网格影，后期沿气管/肺纹理散在分布不规则斑片影，多累及双肺下叶"
         },
         {
           "key": "⑨",
-          "label": "大片实变及明显胸腔积液少见",
-          "sourceText": "⑨.大片实变及明显胸腔积液少见"
+          "label": "大片实变及明显胸腔积液",
+          "sourceText": "⑨.大片实变及明显胸腔积液"
         },
         {
           "key": "⑩",
@@ -3360,8 +3357,8 @@
         },
         {
           "key": "D",
-          "label": "双肺下叶和背侧",
-          "sourceText": "D.双肺下叶和背侧"
+          "label": "双肺中叶和背侧",
+          "sourceText": "D.双肺中叶和背侧"
         },
         {
           "key": "E",
@@ -5190,11 +5187,13 @@
         {
           "text": "N0",
           "answer": [
-            "B"
+            "E",
+            "I",
+            "L"
           ],
           "sourceText": "N0 B",
           "sourceY": 318,
-          "answerMode": "单选"
+          "answerMode": "多选"
         },
         {
           "text": "N1",
@@ -5292,8 +5291,8 @@
           "answer": [
             "B"
           ],
-          "sourceText": "营养不良（B",
-          "sourceY": 124,
+          "sourceText": "营养不良B",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -5301,8 +5300,8 @@
           "answer": [
             "D"
           ],
-          "sourceText": "丝虫病（D",
-          "sourceY": 151,
+          "sourceText": "丝虫病D",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -5310,8 +5309,8 @@
           "answer": [
             "C"
           ],
-          "sourceText": "炎症（感染/烧伤等）（C",
-          "sourceY": 185,
+          "sourceText": "炎症（感染/烧伤等）C",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -5319,8 +5318,8 @@
           "answer": [
             "A"
           ],
-          "sourceText": "心衰（A",
-          "sourceY": 214,
+          "sourceText": "心衰A",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -5328,8 +5327,8 @@
           "answer": [
             "C"
           ],
-          "sourceText": "过敏（C",
-          "sourceY": 243,
+          "sourceText": "过敏C",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -5337,8 +5336,8 @@
           "answer": [
             "D"
           ],
-          "sourceText": "丹毒象皮肿（D",
-          "sourceY": 304,
+          "sourceText": "丹毒象皮肿D",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -5346,8 +5345,8 @@
           "answer": [
             "B"
           ],
-          "sourceText": "肝硬化（B",
-          "sourceY": 334,
+          "sourceText": "肝硬化B",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -5355,8 +5354,8 @@
           "answer": [
             "D"
           ],
-          "sourceText": "乳腺癌橘皮样变（D",
-          "sourceY": 364,
+          "sourceText": "乳腺癌橘皮样变D",
+          "sourceY": 0,
           "answerMode": "单选"
         },
         {
@@ -5364,13 +5363,13 @@
           "answer": [
             "B"
           ],
-          "sourceText": "肾病（B",
-          "sourceY": 394,
+          "sourceText": "肾病B",
+          "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "胸膜疾病相关水肿机制 | A.静脉和毛细血管的血压/静水压↑ | B.血浆胶渗压↓ | C.毛细血管通透性↑ | D.淋巴回流受阻 | 营养不良（B） | 丝虫病（D） | 炎症（感染/烧伤等）（C） | 心衰（A） | 过敏（C） | 丹毒象皮肿（D） | 肝硬化（B） | 乳腺癌橘皮样变（D） | 肾病（B）",
-      "reviewState": "已按原题页及讲义校对",
+      "sourceText": "胸膜疾病相关水肿机制（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
       "topic": "呼吸",
       "lectureIds": [
         "lecture-13"
@@ -6545,7 +6544,8 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "呼吸",
       "lectureIds": [
-        "lecture-13"
+        "lecture-01",
+        "lecture-03"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-13",
@@ -7522,8 +7522,7 @@
           "answer": [
             "A",
             "C",
-            "E",
-            "I"
+            "E"
           ],
           "sourceText": "胃溃疡GU ACEI",
           "sourceY": 143,
@@ -9065,7 +9064,9 @@
       "sourceText": "A.新型药物 | B.依赖细菌释放ASA | 问：ASA | C.传统药物 | 美沙拉嗪ADEGHJMN | D.在病变的大肠起作用 | E.不依赖细菌就能释放ASA | 奥沙拉嗪、巴柳氮ABDIKLM | F.有在小肠吸收入血的副作用 | G.可以与抗生素合用 | 柳氮磺吡啶SASP（BCDFIKL | H.属于原型 | 1.不可以与抗生素合用 | J.病变在小肠起作用 | K.属于前体 | L.在病变的小肠不起作用 | M.没有在小肠吸收入血的副作用 | N.常用的ASA | 5-ASA疗效不佳、或重度UC(腹泻≥6次/天)首选 | A.生物制剂和口服小分子药物 | 主要用于ASA和GC不佳的缓解期维持治疗B | B.免疫抑制剂 | 不用于缓解期维持治疗D | C.氨基水杨酸制剂 | 用于轻、中度UC的活动期诱导缓解和缓解期维持治疗C | D.糖皮质激素 | 不单独用于活动期诱导缓解B | 只用于活动期诱导缓解D | 在活动期诱导缓解和缓解期维持治疗均有较好疗效A | 美沙拉嗪C | 硫唑嘌呤B | 奥沙拉嗪、巴柳氮C | 英夫利昔单抗（A | 柳氮磺吡啶SASFC | 疏嘌吟B | 甲氨蝶吟B | A.氨基水杨酸制剂 | 问：CD治疗 | B.糖皮质激素 | 活动期诱导缓解BCD | C.免疫抑制剂 | D.生物制剂和口服小分子药物 | 缓解期维持治疗（C D | E.外科治疗 | 肛瘘DE | 缓解期维持治疗(不能用激素) | 活动期诱导缓解 | ASA | 轻、中度UC | (美沙拉嗪首选) | 效果不好 | 疗效不佳 | 重度UC(腹泻≥6次/ | 激素 | 免疫抑制剂(硫唑嘌呤) | 活动期：口服泼尼松 | 效果不 | 重度：先静注氢化可的松甲泼尼龙 | 小红书号：385106504",
       "reviewState": "待讲义复核",
       "topic": "消化",
-      "lectureIds": [],
+      "lectureIds": [
+        "lecture-18"
+      ],
       "lectureEvidence": {
         "lectureId": "lecture-18",
         "page": 3,
@@ -9170,7 +9171,9 @@
       "sourceText": "溃疡性结肠炎药物分层（按原题页重新分组并结合讲义复核）",
       "reviewState": "已按原题页与讲义复核",
       "topic": "消化",
-      "lectureIds": [],
+      "lectureIds": [
+        "lecture-18"
+      ],
       "lectureEvidence": {
         "lectureId": "lecture-18",
         "page": 4,
@@ -9248,7 +9251,9 @@
       "sourceText": "炎症性肠病治疗选择（按原题页重新分组并结合讲义复核）",
       "reviewState": "已按原题页与讲义复核",
       "topic": "消化",
-      "lectureIds": [],
+      "lectureIds": [
+        "lecture-18"
+      ],
       "lectureEvidence": {
         "lectureId": "lecture-18",
         "page": 4,
@@ -9694,6 +9699,11 @@
           "key": "Q",
           "label": "乳酸杆菌",
           "sourceText": "Q.乳酸杆菌"
+        },
+        {
+          "key": "T",
+          "label": "短期使用",
+          "sourceText": "T.短期使用"
         }
       ],
       "stems": [
@@ -12904,16 +12914,16 @@
       ],
       "sourceText": "贫血分级（按原题页重新分组并结合讲义复核）",
       "reviewState": "已按原题页与讲义复核",
-      "topic": "血液",
+      "topic": "肾脏",
       "lectureIds": [
         "lecture-28"
       ],
       "lectureEvidence": {
-        "lectureId": "lecture-28",
-        "page": 3,
-        "image": "med/lecture-pages/lecture-28-page-03.webp",
-        "title": "第28讲第3页：内科含诊断 缺铁性贫血（含贫血概述）",
-        "description": "本题组对应第28讲第3页讲义。"
+        "lectureId": "lecture-26",
+        "page": 2,
+        "image": "med/lecture-pages/lecture-26-page-02.webp",
+        "title": "第26讲第2页：内科 肾衰竭",
+        "description": "本题组对应第26讲第2页讲义。"
       }
     },
     {
@@ -13018,20 +13028,22 @@
         {
           "text": "CKD3a",
           "answer": [
+            "A",
             "H"
           ],
           "sourceText": "CKD3aH",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "多选"
         },
         {
           "text": "CKD3b",
           "answer": [
+            "B",
             "L"
           ],
           "sourceText": "CKD3bL",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "多选"
         },
         {
           "text": "CKD4",
@@ -15534,32 +15546,23 @@
       "stems": [
         {
           "text": "血管外溶血",
-          "answer": [
-            "a",
-            "c",
-            "e",
-            "g"
-          ],
+          "answer": [],
           "sourceText": "血管外溶血（aceg",
           "sourceY": 113,
-          "answerMode": "多选"
+          "answerMode": "待核对",
+          "answerState": "待原题页核对"
         },
         {
           "text": "血管内溶血",
-          "answer": [
-            "b",
-            "c",
-            "d",
-            "e",
-            "f"
-          ],
+          "answer": [],
           "sourceText": "血管内溶血（bcdef",
           "sourceY": 169,
-          "answerMode": "多选"
+          "answerMode": "待核对",
+          "answerState": "待原题页核对"
         }
       ],
       "sourceText": "a.多数起病慢 | b.血红蛋白尿（酱油浓茶色） | c.贫血 | d.急性为主：寒战发热、腰痛、急性肾损伤 | e.黄疸（尿深） | f.慢性（PNH）：脾大、含铁血黄素尿 | g.脾大 | 血管外溶血（aceg | 血管内溶血（bcdef",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "部分题干待原题页核对",
       "topic": "血液",
       "lectureIds": [
         "lecture-24",
@@ -17325,38 +17328,38 @@
         },
         {
           "key": "B",
-          "label": "外周血原始细胞＜5%",
-          "sourceText": "B.外周血原始细胞＜5%"
+          "label": "原始细胞＜5%",
+          "sourceText": "B.原始细胞＜5%"
         },
         {
           "key": "C",
-          "label": "外周血原始细胞≥5%",
-          "sourceText": "C.外周血原始细胞≥5%"
+          "label": "原始细胞≥5%",
+          "sourceText": "C.原始细胞≥5%"
         },
         {
           "key": "D",
-          "label": "外周血原始细胞＜1%",
-          "sourceText": "D.外周血原始细胞＜1%"
+          "label": "原始细胞＜1%",
+          "sourceText": "D.原始细胞＜1%"
         },
         {
           "key": "E",
-          "label": "骨髓原始细胞5%～20%",
-          "sourceText": "E.骨髓原始细胞5%～20%"
+          "label": "原始细胞5%～20%",
+          "sourceText": "E.原始细胞5%～20%"
         },
         {
           "key": "F",
-          "label": "骨髓原始细胞＜5%",
-          "sourceText": "F.骨髓原始细胞＜5%"
+          "label": "原始细胞＜5%",
+          "sourceText": "F.原始细胞＜5%"
         },
         {
           "key": "G",
-          "label": "环形铁粒幼细胞＞有核红细胞15%（骨髓）",
-          "sourceText": "G.环形铁粒幼细胞＞有核红细胞15%（骨髓）"
+          "label": "环形铁粒幼细胞＞有核红细胞15%",
+          "sourceText": "G.环形铁粒幼细胞＞有核红细胞15%"
         },
         {
           "key": "H",
-          "label": "骨髓原始细胞＞20%而＜30%",
-          "sourceText": "H.骨髓原始细胞＞20%而＜30%"
+          "label": "原始细胞＞20%而＜30%",
+          "sourceText": "H.原始细胞＞20%而＜30%"
         },
         {
           "key": "I",
@@ -17982,8 +17985,8 @@
         },
         {
           "key": "B",
-          "label": "骨髓原始细胞占NEC≥30%，各阶段粒细胞≥20%、各阶段单核细胞≥20%",
-          "sourceText": "B.骨髓原始细胞占NEC≥30%，各阶段粒细胞≥20%、各阶段单核细胞≥20%"
+          "label": "骨髓原始细胞占NEC≥30%，各阶段粒细胞＞20%",
+          "sourceText": "B.骨髓原始细胞占NEC≥30%，各阶段粒细胞＞20%"
         },
         {
           "key": "C",
@@ -18007,13 +18010,18 @@
         },
         {
           "key": "G",
-          "label": "骨髓原和幼单核细胞占NEC≥30%，各阶段单核细胞≥80%",
-          "sourceText": "G.骨髓原和幼单核细胞占NEC≥30%，各阶段单核细胞≥80%"
+          "label": "骨髓原和幼单核细胞占NEC＞30%，各阶段单核细胞＞80%",
+          "sourceText": "G.骨髓原和幼单核细胞占NEC＞30%，各阶段单核细胞＞80%"
         },
         {
           "key": "H",
-          "label": "骨髓早幼粒细胞占NEC≥30%",
-          "sourceText": "H.骨髓早幼粒细胞占NEC≥30%"
+          "label": "骨髓早幼粒细胞占NEC＞30%",
+          "sourceText": "H.骨髓早幼粒细胞占NEC＞30%"
+        },
+        {
+          "key": "I",
+          "label": "骨髓早幼粒细胞占NEC＞30%",
+          "sourceText": "I.骨髓早幼粒细胞占NEC＞30%"
         }
       ],
       "stems": [
@@ -18047,9 +18055,9 @@
         {
           "text": "急性早幼粒M3（APL）",
           "answer": [
-            "H"
+            "I"
           ],
-          "sourceText": "急性早幼粒M3（APL） H",
+          "sourceText": "急性早幼粒M3（APL） I",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -18065,9 +18073,9 @@
         {
           "text": "急单M5",
           "answer": [
-            "G"
+            "H"
           ],
-          "sourceText": "急单M5 G",
+          "sourceText": "急单M5 H",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -18844,7 +18852,7 @@
         {
           "key": "F",
           "label": "IA（伊达比星+阿糖胞苷）",
-          "sourceText": "F.IA（A+K）"
+          "sourceText": "F.IA（伊达比星+阿糖胞苷）"
         },
         {
           "key": "G",
@@ -18859,7 +18867,7 @@
         {
           "key": "I",
           "label": "DA（柔红霉素+阿糖胞苷）",
-          "sourceText": "I.DA（C+K）"
+          "sourceText": "I.DA（柔红霉素+阿糖胞苷）"
         },
         {
           "key": "J",
@@ -18879,7 +18887,7 @@
         {
           "key": "M",
           "label": "HA（高三尖杉酯碱+阿糖胞苷）",
-          "sourceText": "M.HA（D+K）"
+          "sourceText": "M.HA（高三尖杉酯碱+阿糖胞苷）"
         },
         {
           "key": "N",
@@ -18901,7 +18909,7 @@
             "I",
             "M"
           ],
-          "sourceText": "AML（除M3型） BFIM；IA=A+K、DA=C+K、HA=D+K，其中K为阿糖胞苷",
+          "sourceText": "AML（除M3型） BFIM",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -19206,7 +19214,7 @@
           ],
           "sourceText": "阿糖胞苷（Ara-C）K",
           "sourceY": 251,
-          "answerMode": "多选"
+          "answerMode": "单选"
         },
         {
           "text": "甲氨蝶呤（MTX）",
@@ -20191,10 +20199,10 @@
         {
           "text": "皮肤T细胞淋巴瘤",
           "answer": [
-            "T",
             "M",
             "P",
-            "R"
+            "R",
+            "T"
           ],
           "sourceText": "皮肤T（MPRT）",
           "sourceY": 1255,
@@ -20246,7 +20254,7 @@
     {
       "id": "p58-g1",
       "page": 58,
-      "title": "Burkitt淋巴瘤的类型",
+      "title": "霍奇金淋巴瘤分类与RS细胞",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -20269,6 +20277,36 @@
           "key": "D",
           "label": "非洲儿童最常见",
           "sourceText": "D.非洲儿童最常见"
+        },
+        {
+          "key": "E",
+          "label": "核仁明显呈红色伴周围空晕",
+          "sourceText": "E.核仁明显呈红色伴周围空晕"
+        },
+        {
+          "key": "F",
+          "label": "陷窝细胞",
+          "sourceText": "F.陷窝细胞"
+        },
+        {
+          "key": "G",
+          "label": "无核分裂象",
+          "sourceText": "G.无核分裂象"
+        },
+        {
+          "key": "H",
+          "label": "爆米花细胞",
+          "sourceText": "H.爆米花细胞"
+        },
+        {
+          "key": "I",
+          "label": "嗜双性",
+          "sourceText": "I.嗜双性"
+        },
+        {
+          "key": "J",
+          "label": "木乃伊/干尸细胞（变性凋亡的RS细胞）",
+          "sourceText": "J.木乃伊/干尸细胞（变性凋亡的RS细胞）"
         }
       ],
       "stems": [
@@ -20299,20 +20337,73 @@
           "sourceText": "Burkitt淋巴瘤：免疫缺陷性C",
           "sourceY": 0,
           "answerMode": "单选"
+        },
+        {
+          "text": "RS细胞：典型",
+          "answer": [
+            "A",
+            "C",
+            "E",
+            "G",
+            "I"
+          ],
+          "sourceText": "RS细胞：典型ACEGI",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "RS细胞：不典型",
+          "answer": [
+            "B",
+            "D",
+            "F",
+            "H",
+            "J"
+          ],
+          "sourceText": "RS细胞：不典型BDFHJ",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "发病率：内科",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "发病率：内科B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "发病率：病理",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "发病率：病理A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "预后",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "预后D",
+          "sourceY": 0,
+          "answerMode": "单选"
         }
       ],
-      "sourceText": "A.回盲部形成腹腔巨大肿物 | B.颌骨 | C.淋巴结、骨髓 | D.非洲儿童最常见 | Burkitt淋巴瘤：地方性BD | 散发性A | 免疫缺陷性C",
-      "reviewState": "已按原题页与讲义复核",
+      "sourceText": "霍奇金淋巴瘤分类与RS细胞（已按讲义规范化）",
+      "reviewState": "已按讲义校对",
       "topic": "血液",
       "lectureIds": [
         "lecture-35"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-35",
-        "page": 3,
-        "image": "med/lecture-pages/lecture-35-page-03.webp",
-        "title": "第35讲第3页：内科含诊断+病理 淋巴瘤",
-        "description": "本题组对应第35讲第3页讲义。"
+        "page": 5,
+        "image": "med/lecture-pages/lecture-35-page-05.webp",
+        "title": "第35讲第5页：内科含诊断+病理 淋巴瘤",
+        "description": "本题组对应第35讲第5页讲义。"
       }
     },
     {
@@ -20454,7 +20545,7 @@
           ],
           "sourceText": "发病率：内科B>A>C>D",
           "sourceY": 560,
-          "answerMode": "排序"
+          "answerMode": "多选"
         },
         {
           "text": "发病率（病理教材：由高到低）",
@@ -20466,7 +20557,7 @@
           ],
           "sourceText": "发病率：病理A>B>C>D",
           "sourceY": 590,
-          "answerMode": "排序"
+          "answerMode": "多选"
         },
         {
           "text": "预后（由好到差）",
@@ -20478,7 +20569,7 @@
           ],
           "sourceText": "预后C>A>B>D",
           "sourceY": 640,
-          "answerMode": "排序"
+          "answerMode": "多选"
         }
       ],
       "sourceText": "A.结节硬化型 | B.混合细胞型 | C.富于淋巴细胞型 | D.淋巴细胞减少型 | 发病率：内科B>A>C>D | 发病率：病理A>B>C>D | 预后C>A>B>D",
@@ -20615,7 +20706,9 @@
       "sourceText": "A.典型RS和单核RS | 结节硬化型BCDFIL | B.典型RS细胞 | C.陷窝细胞 | 混合细胞型ABG | D.EBV感染率低 | E.大量淋巴细胞 | 富于淋巴细胞型BE | F.青年妇女、纵隔肿块多见 | G.肿瘤细胞与炎细胞混合存在 | 淋巴细胞减少型BHJK | H.EBV感染率接近100% | 1.粗大胶原纤维束将淋巴结分隔为大小不等的结节 | J.典型RS或多形性瘤细胞 | K.HIV者多见 | L.不转变为其它亚型 | 小红书 | 小红书号：385106504",
       "reviewState": "待讲义复核",
       "topic": "血液",
-      "lectureIds": [],
+      "lectureIds": [
+        "lecture-35"
+      ],
       "lectureEvidence": {
         "lectureId": "lecture-35",
         "page": 5,
@@ -20855,8 +20948,7 @@
           "text": "M3型急性早幼粒细胞白血病",
           "answer": [
             "C",
-            "T",
-            "c"
+            "T"
           ],
           "sourceText": "M3型AML（CTC",
           "sourceY": 262,
@@ -20958,7 +21050,7 @@
           "text": "M7型急性巨核细胞白血病",
           "answer": [
             "X",
-            "b"
+            "B"
           ],
           "sourceText": "M7型AML (Xb)",
           "sourceY": 531,
@@ -21490,8 +21582,8 @@
         },
         {
           "key": "B",
-          "label": "如胺碘酮、大剂量普萘洛尔",
-          "sourceText": "B.如胺碘酮、大剂量普萘洛尔"
+          "label": "如痴呆、嗜睡、淡漠",
+          "sourceText": "B.如痴呆、嗜睡、淡漠"
         },
         {
           "key": "C",
@@ -21570,10 +21662,9 @@
           "answer": [
             "A",
             "C",
-            "F",
-            "I"
+            "F"
           ],
-          "sourceText": "淡漠型甲亢 ACFI",
+          "sourceText": "淡漠型甲亢 ACF",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -21934,28 +22025,28 @@
       "options": [
         {
           "key": "A",
-          "label": "若伴乳房、心房黏液瘤、睾丸肿瘤、垂体生长激素瘤为Carney综合征",
-          "sourceText": "A.若伴乳房、心房黏液瘤、睾丸肿瘤、垂体生长激素瘤为Carney综合征"
+          "label": "双侧肾上腺小结节性增生",
+          "sourceText": "A.双侧肾上腺小结节性增生"
         },
         {
           "key": "B",
-          "label": "微腺瘤",
-          "sourceText": "B.微腺瘤"
+          "label": "若伴乳腺、乳房、心房黏液瘤、睾丸肿瘤、垂体生长激素瘤为Carney综合征",
+          "sourceText": "B.若伴乳腺、乳房、心房黏液瘤、睾丸肿瘤、垂体生长激素瘤为Carney综合征"
         },
         {
           "key": "C",
-          "label": "多为色素性（原发性色素沉着结节性肾上腺皮质病/Meador综合征）",
-          "sourceText": "C.多为色素性（原发性色素沉着结节性肾上腺皮质病/Meador综合征）"
+          "label": "微腺瘤",
+          "sourceText": "C.微腺瘤"
         },
         {
           "key": "D",
-          "label": "小细胞肺癌",
-          "sourceText": "D.小细胞肺癌"
+          "label": "多为色素性（原发性色素沉着结节性肾上腺皮质病/M 病）",
+          "sourceText": "D.多为色素性（原发性色素沉着结节性肾上腺皮质病/M 病）"
         },
         {
           "key": "E",
-          "label": "大腺瘤",
-          "sourceText": "E.大腺瘤"
+          "label": "大细胞肺癌",
+          "sourceText": "E.大细胞肺癌"
         },
         {
           "key": "F",
@@ -22867,8 +22958,8 @@
         },
         {
           "key": "B",
-          "label": "阿尔茨海默病（阿尔兹海默症）",
-          "sourceText": "B.阿尔茨海默病（阿尔兹海默症）"
+          "label": "脊髓病变",
+          "sourceText": "B.脊髓病变"
         },
         {
           "key": "C",
@@ -22915,7 +23006,7 @@
           "answerMode": "多选"
         }
       ],
-      "sourceText": "糖尿病神经病变（原题页上半组，按讲义复核）",
+      "sourceText": "糖尿病神经病变（按原题页分组并结合讲义复核）",
       "reviewState": "已按原题页与讲义复核",
       "topic": "内分泌",
       "lectureIds": [
@@ -22997,8 +23088,8 @@
           "answerMode": "多选"
         }
       ],
-      "sourceText": "糖尿病神经病变（原题页下半组，按讲义复核）",
-      "reviewState": "已按原题页与讲义复核，已拆分与上半组混在一起的题目",
+      "sourceText": "糖尿病弥漫性周围神经病变表现（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "内分泌",
       "lectureIds": [
         "lecture-38"
@@ -23345,8 +23436,8 @@
       "options": [
         {
           "key": "A",
-          "label": "晚上血糖高",
-          "sourceText": "A.晚上血糖高"
+          "label": "晚上加中效",
+          "sourceText": "A.晚上加中效"
         },
         {
           "key": "B",
@@ -26109,8 +26200,8 @@
         },
         {
           "key": "E",
-          "label": "中毒后约1～4天，经治疗胆碱能危象消失，突然出现上睑下垂、面瘫、呼吸肌麻痹等，胆碱酯酶＜30%（胆碱酯酶复活药用量不足）",
-          "sourceText": "E.中毒后约1～4天，经治疗胆碱能危象消失，突然出现上睑下垂、面瘫、呼吸肌麻痹等，胆碱酯酶＜30%（胆碱酯酶复活药用量不足）"
+          "label": "中毒后1～4天，经治疗胆碱能危象消失，突然出现上脸下垂、面瘫、呼吸肌麻痹等",
+          "sourceText": "E.中毒后1～4天，经治疗胆碱能危象消失，突然出现上脸下垂、面瘫、呼吸肌麻痹等"
         },
         {
           "key": "F",
@@ -28213,6 +28304,11 @@
           "sourceText": "O.容量依赖型高血压先利尿消肿降压"
         },
         {
+          "key": "P",
+          "label": "冠心病",
+          "sourceText": "P.冠心病"
+        },
+        {
           "key": "Q",
           "label": "若伴低血钠用",
           "sourceText": "Q.若伴低血钠用"
@@ -28304,7 +28400,7 @@
             "W",
             "X"
           ],
-          "sourceText": "ACEI/ARB/ARNI用 CDHVWX（P为重复的“冠心病”选项，已删除；保留X）",
+          "sourceText": "ACEI/ARB/ARNI用 CDHVWX",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -28329,13 +28425,14 @@
           "answer": [
             "C",
             "H",
+            "P",
             "V",
             "X",
             "Y",
             "b",
             "d"
           ],
-          "sourceText": "β-R拮抗剂用 CHVXYbd（P为重复的“冠心病”选项，已删除；保留X）",
+          "sourceText": "β-R拮抗剂用 CHPVXYbd",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -28362,12 +28459,13 @@
             "E",
             "I",
             "L",
+            "P",
             "V",
             "X",
             "b",
             "d"
           ],
-          "sourceText": "CCB用 DEILVXbd（P为重复的“冠心病”选项，已删除；保留X）",
+          "sourceText": "CCB用 DEILPVXbd",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -28489,8 +28587,8 @@
         },
         {
           "key": "H",
-          "label": "S4为病理性心音；房颤听不到S4",
-          "sourceText": "H.S4为病理性心音。房颤听不到S4"
+          "label": "冠心病",
+          "sourceText": "H.冠心病"
         }
       ],
       "stems": [
@@ -28646,11 +28744,10 @@
             "E",
             "G",
             "H",
-            "J",
             "L",
             "N"
           ],
-          "sourceText": "S1减弱 BDEGHJLN（讲义：二闭、主闭、PR间期延长、心衰、冠心病、心肌病、心肌炎、甲减）",
+          "sourceText": "S1减弱 BDEGHLN",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -28659,10 +28756,10 @@
           "answer": [
             "A",
             "C",
-            "I",
+            "L",
             "M"
           ],
-          "sourceText": "S1强弱不等 ACIM（讲义：房颤、房室分离、二度Ⅰ型房室阻滞、室早联律）",
+          "sourceText": "S1强弱不等 ACLM",
           "sourceY": 0,
           "answerMode": "多选"
         }
@@ -29135,38 +29232,38 @@
       "options": [
         {
           "key": "A",
-          "label": "肺动脉瓣",
-          "sourceText": "A.肺动脉瓣"
+          "label": "肺动脉高压",
+          "sourceText": "A.肺动脉高压"
         },
         {
           "key": "B",
-          "label": "主动脉瓣第二听诊区",
-          "sourceText": "B.主动脉瓣第二听诊区"
+          "label": "房缺",
+          "sourceText": "B.房缺"
         },
         {
           "key": "C",
-          "label": "三尖瓣",
-          "sourceText": "C.三尖瓣"
+          "label": "肺狭",
+          "sourceText": "C.肺狭"
         },
         {
           "key": "D",
-          "label": "二尖瓣",
-          "sourceText": "D.二尖瓣"
+          "label": "高血压",
+          "sourceText": "D.高血压"
         },
         {
           "key": "E",
-          "label": "室间隔",
-          "sourceText": "E.室间隔"
+          "label": "右束支阻滞",
+          "sourceText": "E.右束支阻滞"
         },
         {
           "key": "F",
-          "label": "主动脉瓣第一听诊区",
-          "sourceText": "F.主动脉瓣第一听诊区"
+          "label": "主狭",
+          "sourceText": "F.主狭"
         },
         {
           "key": "G",
-          "label": "心脏裸区",
-          "sourceText": "G.心脏裸区"
+          "label": "二闭",
+          "sourceText": "G.二闭"
         }
       ],
       "stems": [
@@ -29259,8 +29356,8 @@
       "options": [
         {
           "key": "A",
-          "label": "一贯型",
-          "sourceText": "A.一贯型"
+          "label": "二尖瓣型",
+          "sourceText": "A.二尖瓣型"
         },
         {
           "key": "B",
@@ -29733,8 +29830,8 @@
         },
         {
           "key": "H",
-          "label": "心尖搏动多向左下移位",
-          "sourceText": "H.心尖搏动多向左下移位（讲义校对）"
+          "label": "心尖搏动向右下移位",
+          "sourceText": "H.心尖搏动向右下移位"
         },
         {
           "key": "I",
@@ -29853,13 +29950,13 @@
         },
         {
           "key": "F",
-          "label": "脉搏骤起骤落",
-          "sourceText": "F.脉搏骤起骤落（讲义：水冲脉）"
+          "label": "脉搏短绌",
+          "sourceText": "F.脉搏短绌"
         },
         {
           "key": "G",
-          "label": "严重的缩窄性心包炎",
-          "sourceText": "G.严重的缩窄性心包炎"
+          "label": "严重的支气管哮喘",
+          "sourceText": "G.严重的支气管哮喘"
         },
         {
           "key": "H",
@@ -29873,8 +29970,8 @@
         },
         {
           "key": "J",
-          "label": "脉搏强弱交替",
-          "sourceText": "J.脉搏强弱交替（讲义：交替脉）"
+          "label": "脉搏增强",
+          "sourceText": "J.脉搏增强"
         },
         {
           "key": "K",
@@ -29920,7 +30017,7 @@
             "H",
             "N"
           ],
-          "sourceText": "水冲脉 FHN（讲义：脉搏骤起骤落，常见于甲亢、慢性主动脉瓣关闭不全）",
+          "sourceText": "水冲脉 FHN",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -29930,7 +30027,7 @@
             "J",
             "L"
           ],
-          "sourceText": "交替脉 JL（讲义：脉搏强弱交替，常见于左心衰）",
+          "sourceText": "交替脉 JL",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -29963,6 +30060,1202 @@
         "image": "med/lecture-pages/lecture-53-page-04.webp",
         "title": "第53讲第4页：内科含诊断 心瓣膜病",
         "description": "本题组对应第53讲第4页讲义。"
+      }
+    },
+    {
+      "id": "p83-g5",
+      "page": 83,
+      "title": "心脏杂音①听诊区名称",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "三尖瓣听诊区",
+          "sourceText": "A.三尖瓣听诊区"
+        },
+        {
+          "key": "B",
+          "label": "主动脉瓣第二听诊区",
+          "sourceText": "B.主动脉瓣第二听诊区"
+        },
+        {
+          "key": "C",
+          "label": "二尖瓣听诊区",
+          "sourceText": "C.二尖瓣听诊区"
+        },
+        {
+          "key": "D",
+          "label": "肺动脉瓣听诊区",
+          "sourceText": "D.肺动脉瓣听诊区"
+        },
+        {
+          "key": "E",
+          "label": "主动脉瓣第一听诊区",
+          "sourceText": "E.主动脉瓣第一听诊区"
+        }
+      ],
+      "stems": [
+        {
+          "text": "1.心尖部",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "1.心尖部 C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "2.胸骨右缘第2肋间",
+          "answer": [
+            "E"
+          ],
+          "sourceText": "2.胸骨右缘第2肋间 E",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "3.胸骨左缘第2肋间",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "3.胸骨左缘第2肋间 D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "4.胸骨左缘第3～4肋间",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "4.胸骨左缘第3～4肋间 B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "5.胸骨左缘第4～5肋间",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "5.胸骨左缘第4～5肋间 A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "心脏杂音①听诊区名称（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-53"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-53",
+        "page": 3,
+        "image": "med/lecture-pages/lecture-53-page-03.webp",
+        "title": "第53讲第3页：内科含诊断 心瓣膜病",
+        "description": "本题组对应第53讲第3页讲义。"
+      }
+    },
+    {
+      "id": "p83-g6",
+      "page": 83,
+      "title": "心脏杂音②部位对应的疾病或情况",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "急性心肌梗死并发室间隔穿孔",
+          "sourceText": "A.急性心肌梗死并发室间隔穿孔"
+        },
+        {
+          "key": "B",
+          "label": "严重二尖瓣狭窄",
+          "sourceText": "B.严重二尖瓣狭窄"
+        },
+        {
+          "key": "C",
+          "label": "左房黏液瘤",
+          "sourceText": "C.左房黏液瘤"
+        },
+        {
+          "key": "D",
+          "label": "肺动脉瓣狭窄",
+          "sourceText": "D.肺动脉瓣狭窄"
+        },
+        {
+          "key": "E",
+          "label": "主动脉瓣关闭不全",
+          "sourceText": "E.主动脉瓣关闭不全"
+        },
+        {
+          "key": "F",
+          "label": "高血压、扩张型心肌病、心肌炎所致左室扩大",
+          "sourceText": "F.高血压、扩张型心肌病、心肌炎所致左室扩大"
+        },
+        {
+          "key": "G",
+          "label": "室间隔缺损",
+          "sourceText": "G.室间隔缺损"
+        },
+        {
+          "key": "H",
+          "label": "二尖瓣关闭不全",
+          "sourceText": "H.二尖瓣关闭不全"
+        },
+        {
+          "key": "I",
+          "label": "严重肺动脉高压或右室扩大（如二尖瓣狭窄、肺心病）",
+          "sourceText": "I.严重肺动脉高压或右室扩大（如二尖瓣狭窄、肺心病）"
+        },
+        {
+          "key": "J",
+          "label": "动脉导管未闭",
+          "sourceText": "J.动脉导管未闭"
+        },
+        {
+          "key": "K",
+          "label": "主动脉瓣狭窄",
+          "sourceText": "K.主动脉瓣狭窄"
+        },
+        {
+          "key": "L",
+          "label": "严重主动脉瓣关闭不全所致相对性主动脉瓣狭窄",
+          "sourceText": "L.严重主动脉瓣关闭不全所致相对性主动脉瓣狭窄"
+        },
+        {
+          "key": "M",
+          "label": "肥厚型梗阻性心肌病",
+          "sourceText": "M.肥厚型梗阻性心肌病"
+        },
+        {
+          "key": "N",
+          "label": "急性纤维蛋白性心包炎",
+          "sourceText": "N.急性纤维蛋白性心包炎"
+        },
+        {
+          "key": "O",
+          "label": "三尖瓣关闭不全",
+          "sourceText": "O.三尖瓣关闭不全"
+        },
+        {
+          "key": "P",
+          "label": "慢性主动脉瓣关闭不全所致Austin-Flint杂音",
+          "sourceText": "P.慢性主动脉瓣关闭不全所致Austin-Flint杂音"
+        },
+        {
+          "key": "Q",
+          "label": "流经二尖瓣口血流量增加：严重二尖瓣关闭不全、室缺、PDA、甲亢或贫血",
+          "sourceText": "Q.流经二尖瓣口血流量增加：严重二尖瓣关闭不全、室缺、PDA、甲亢或贫血"
+        },
+        {
+          "key": "R",
+          "label": "老年钙化性主动脉瓣狭窄（杂音有时在心尖部最清楚）",
+          "sourceText": "R.老年钙化性主动脉瓣狭窄（杂音有时在心尖部最清楚）"
+        }
+      ],
+      "stems": [
+        {
+          "text": "1.心尖部",
+          "answer": [
+            "B",
+            "C",
+            "F",
+            "H",
+            "P",
+            "Q",
+            "R"
+          ],
+          "sourceText": "1.心尖部 BCFHPQR",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "2.胸骨右缘第2肋间",
+          "answer": [
+            "K",
+            "L",
+            "R"
+          ],
+          "sourceText": "2.胸骨右缘第2肋间 KLR",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "3.胸骨左缘第2肋间",
+          "answer": [
+            "D",
+            "I"
+          ],
+          "sourceText": "3.胸骨左缘第2肋间 DI",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "4.胸骨左缘第3～4肋间",
+          "answer": [
+            "A",
+            "E",
+            "G",
+            "M",
+            "N"
+          ],
+          "sourceText": "4.胸骨左缘第3～4肋间 AEGMN",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "5.胸骨左缘第4～5肋间",
+          "answer": [
+            "I",
+            "O"
+          ],
+          "sourceText": "5.胸骨左缘第4～5肋间 IO",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "心脏杂音②部位对应的疾病或情况（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-53"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-53",
+        "page": 3,
+        "image": "med/lecture-pages/lecture-53-page-03.webp",
+        "title": "第53讲第3页：内科含诊断 心瓣膜病",
+        "description": "本题组对应第53讲第3页讲义。"
+      }
+    },
+    {
+      "id": "p83-g7",
+      "page": 83,
+      "title": "心脏杂音③出现时期",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "舒张早期",
+          "sourceText": "A.舒张早期"
+        },
+        {
+          "key": "B",
+          "label": "收缩中期",
+          "sourceText": "B.收缩中期"
+        },
+        {
+          "key": "C",
+          "label": "全收缩期",
+          "sourceText": "C.全收缩期"
+        },
+        {
+          "key": "D",
+          "label": "连续性",
+          "sourceText": "D.连续性"
+        },
+        {
+          "key": "E",
+          "label": "舒张中期",
+          "sourceText": "E.舒张中期"
+        },
+        {
+          "key": "F",
+          "label": "收缩期",
+          "sourceText": "F.收缩期"
+        },
+        {
+          "key": "G",
+          "label": "舒张中晚期",
+          "sourceText": "G.舒张中晚期"
+        },
+        {
+          "key": "H",
+          "label": "心包摩擦音，非瓣膜杂音",
+          "sourceText": "H.心包摩擦音，非瓣膜杂音"
+        }
+      ],
+      "stems": [
+        {
+          "text": "心尖部：二尖瓣狭窄",
+          "answer": [
+            "G"
+          ],
+          "sourceText": "心尖部：二尖瓣狭窄 G",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "心尖部：二尖瓣关闭不全",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "心尖部：二尖瓣关闭不全 C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨右缘第2肋间：主动脉瓣狭窄",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "胸骨右缘第2肋间：主动脉瓣狭窄 B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第3～4肋间：主动脉瓣关闭不全",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "胸骨左缘第3～4肋间：主动脉瓣关闭不全 A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第4～5肋间：三尖瓣关闭不全",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "胸骨左缘第4～5肋间：三尖瓣关闭不全 C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第2肋间：肺动脉瓣狭窄",
+          "answer": [
+            "F"
+          ],
+          "sourceText": "胸骨左缘第2肋间：肺动脉瓣狭窄 F",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第2肋间：Graham-Steell杂音",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "胸骨左缘第2肋间：Graham-Steell杂音 A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第3～4肋间：肥厚型梗阻性心肌病",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "胸骨左缘第3～4肋间：肥厚型梗阻性心肌病 B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第3～4肋间：室间隔缺损",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "胸骨左缘第3～4肋间：室间隔缺损 C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "动脉导管未闭",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "动脉导管未闭 D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第3～4肋间：急性纤维蛋白性心包炎",
+          "answer": [
+            "H"
+          ],
+          "sourceText": "胸骨左缘第3～4肋间：急性纤维蛋白性心包炎 H",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "心脏杂音③出现时期（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-53"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-53",
+        "page": 3,
+        "image": "med/lecture-pages/lecture-53-page-03.webp",
+        "title": "第53讲第3页：内科含诊断 心瓣膜病",
+        "description": "本题组对应第53讲第3页讲义。"
+      }
+    },
+    {
+      "id": "p83-g8",
+      "page": 83,
+      "title": "心脏杂音④杂音性质",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "递减型、高调叹气样或吹风样",
+          "sourceText": "A.递减型、高调叹气样或吹风样"
+        },
+        {
+          "key": "B",
+          "label": "粗糙",
+          "sourceText": "B.粗糙"
+        },
+        {
+          "key": "C",
+          "label": "一贯型、吹风样",
+          "sourceText": "C.一贯型、吹风样"
+        },
+        {
+          "key": "D",
+          "label": "机器样",
+          "sourceText": "D.机器样"
+        },
+        {
+          "key": "E",
+          "label": "低调、柔和、隆隆样",
+          "sourceText": "E.低调、柔和、隆隆样"
+        },
+        {
+          "key": "F",
+          "label": "喷射样",
+          "sourceText": "F.喷射样"
+        },
+        {
+          "key": "G",
+          "label": "搔抓样、与心搏一致",
+          "sourceText": "G.搔抓样、与心搏一致"
+        },
+        {
+          "key": "H",
+          "label": "隆隆样",
+          "sourceText": "H.隆隆样"
+        },
+        {
+          "key": "I",
+          "label": "递增-递减型、喷射样",
+          "sourceText": "I.递增-递减型、喷射样"
+        },
+        {
+          "key": "J",
+          "label": "柔和吹风样",
+          "sourceText": "J.柔和吹风样"
+        },
+        {
+          "key": "K",
+          "label": "吹风样，常≤2/6级",
+          "sourceText": "K.吹风样，常≤2/6级"
+        },
+        {
+          "key": "L",
+          "label": "低调、递增型、隆隆样",
+          "sourceText": "L.低调、递增型、隆隆样"
+        },
+        {
+          "key": "M",
+          "label": "递减型、叹气样",
+          "sourceText": "M.递减型、叹气样"
+        },
+        {
+          "key": "N",
+          "label": "随体位改变",
+          "sourceText": "N.随体位改变"
+        },
+        {
+          "key": "O",
+          "label": "柔和",
+          "sourceText": "O.柔和"
+        },
+        {
+          "key": "P",
+          "label": "突然出现的收缩期杂音",
+          "sourceText": "P.突然出现的收缩期杂音"
+        }
+      ],
+      "stems": [
+        {
+          "text": "心尖部：二尖瓣狭窄",
+          "answer": [
+            "L"
+          ],
+          "sourceText": "心尖部：二尖瓣狭窄 L",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "心尖部：Austin-Flint杂音",
+          "answer": [
+            "E"
+          ],
+          "sourceText": "心尖部：Austin-Flint杂音 E",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "心尖部：二尖瓣关闭不全",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "心尖部：二尖瓣关闭不全 C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "心尖部：左房黏液瘤",
+          "answer": [
+            "N"
+          ],
+          "sourceText": "心尖部：左房黏液瘤 N",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨右缘第2肋间：主动脉瓣狭窄",
+          "answer": [
+            "B",
+            "I"
+          ],
+          "sourceText": "胸骨右缘第2肋间：主动脉瓣狭窄 BI",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "胸骨左缘第2肋间：Graham-Steell杂音",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "胸骨左缘第2肋间：Graham-Steell杂音 A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第2肋间：肺动脉瓣狭窄",
+          "answer": [
+            "B",
+            "I"
+          ],
+          "sourceText": "胸骨左缘第2肋间：肺动脉瓣狭窄 BI",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "胸骨左缘第3～4肋间：主动脉瓣关闭不全",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "胸骨左缘第3～4肋间：主动脉瓣关闭不全 A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第3～4肋间：肥厚型梗阻性心肌病",
+          "answer": [
+            "B",
+            "I"
+          ],
+          "sourceText": "胸骨左缘第3～4肋间：肥厚型梗阻性心肌病 BI",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "胸骨左缘第3～4肋间：急性心肌梗死并发室间隔穿孔",
+          "answer": [
+            "B",
+            "P"
+          ],
+          "sourceText": "胸骨左缘第3～4肋间：急性心肌梗死并发室间隔穿孔 BP",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "胸骨左缘第3～4肋间：心包摩擦音",
+          "answer": [
+            "G"
+          ],
+          "sourceText": "胸骨左缘第3～4肋间：心包摩擦音 G",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第4～5肋间：三尖瓣关闭不全",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "胸骨左缘第4～5肋间：三尖瓣关闭不全 C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "动脉导管未闭",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "动脉导管未闭 D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "心脏杂音④杂音性质（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-53"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-53",
+        "page": 3,
+        "image": "med/lecture-pages/lecture-53-page-03.webp",
+        "title": "第53讲第3页：内科含诊断 心瓣膜病",
+        "description": "本题组对应第53讲第3页讲义。"
+      }
+    },
+    {
+      "id": "p83-g9",
+      "page": 83,
+      "title": "心脏杂音⑤传导与听诊特点",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "坐位前倾、呼气末时明显",
+          "sourceText": "A.坐位前倾、呼气末时明显"
+        },
+        {
+          "key": "B",
+          "label": "向颈部传导",
+          "sourceText": "B.向颈部传导"
+        },
+        {
+          "key": "C",
+          "label": "前叶损害向左腋下或左肩胛传导，后叶损害向心底传导",
+          "sourceText": "C.前叶损害向左腋下或左肩胛传导，后叶损害向心底传导"
+        },
+        {
+          "key": "D",
+          "label": "向心尖部传导",
+          "sourceText": "D.向心尖部传导"
+        },
+        {
+          "key": "E",
+          "label": "不向颈部传导",
+          "sourceText": "E.不向颈部传导"
+        },
+        {
+          "key": "F",
+          "label": "局限，不传导",
+          "sourceText": "F.局限，不传导"
+        },
+        {
+          "key": "G",
+          "label": "剑突下明显",
+          "sourceText": "G.剑突下明显"
+        },
+        {
+          "key": "H",
+          "label": "杂音可在心尖部最清楚",
+          "sourceText": "H.杂音可在心尖部最清楚"
+        },
+        {
+          "key": "I",
+          "label": "不一定具有典型传导方向",
+          "sourceText": "I.不一定具有典型传导方向"
+        }
+      ],
+      "stems": [
+        {
+          "text": "心尖部：二尖瓣狭窄",
+          "answer": [
+            "F"
+          ],
+          "sourceText": "心尖部：二尖瓣狭窄 F",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "心尖部：二尖瓣关闭不全",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "心尖部：二尖瓣关闭不全 C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨右缘第2肋间：主动脉瓣狭窄",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "胸骨右缘第2肋间：主动脉瓣狭窄 B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第3～4肋间：主动脉瓣关闭不全",
+          "answer": [
+            "A",
+            "D"
+          ],
+          "sourceText": "胸骨左缘第3～4肋间：主动脉瓣关闭不全 AD",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "胸骨左缘第3～4肋间：肥厚型梗阻性心肌病",
+          "answer": [
+            "E",
+            "I"
+          ],
+          "sourceText": "胸骨左缘第3～4肋间：肥厚型梗阻性心肌病 EI",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "胸骨左缘第4～5肋间：三尖瓣关闭不全",
+          "answer": [
+            "G"
+          ],
+          "sourceText": "胸骨左缘第4～5肋间：三尖瓣关闭不全 G",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第2肋间：肺动脉瓣狭窄",
+          "answer": [
+            "F"
+          ],
+          "sourceText": "胸骨左缘第2肋间：肺动脉瓣狭窄 F",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第3～4肋间：心包摩擦音",
+          "answer": [
+            "I"
+          ],
+          "sourceText": "胸骨左缘第3～4肋间：心包摩擦音 I",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "老年钙化性主动脉瓣狭窄：杂音最清楚处",
+          "answer": [
+            "H"
+          ],
+          "sourceText": "老年钙化性主动脉瓣狭窄：杂音最清楚处 H",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "心脏杂音⑤传导与听诊特点（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-53"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-53",
+        "page": 10,
+        "image": "med/lecture-pages/lecture-53-page-10.webp",
+        "title": "第53讲第10页：内科含诊断 心瓣膜病",
+        "description": "本题组对应第53讲第10页讲义。"
+      }
+    },
+    {
+      "id": "p83-g10",
+      "page": 83,
+      "title": "心脏杂音⑥形成机制",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "右室扩大导致相对性三尖瓣关闭不全",
+          "sourceText": "A.右室扩大导致相对性三尖瓣关闭不全"
+        },
+        {
+          "key": "B",
+          "label": "舒张期左房血通过狭窄二尖瓣口形成涡流",
+          "sourceText": "B.舒张期左房血通过狭窄二尖瓣口形成涡流"
+        },
+        {
+          "key": "C",
+          "label": "左室流出道梗阻并伴二尖瓣前叶收缩期前向运动",
+          "sourceText": "C.左室流出道梗阻并伴二尖瓣前叶收缩期前向运动"
+        },
+        {
+          "key": "D",
+          "label": "主动脉瓣反流束冲击二尖瓣前叶，造成相对性二尖瓣狭窄",
+          "sourceText": "D.主动脉瓣反流束冲击二尖瓣前叶，造成相对性二尖瓣狭窄"
+        },
+        {
+          "key": "E",
+          "label": "收缩期左室血反流至左房",
+          "sourceText": "E.收缩期左室血反流至左房"
+        },
+        {
+          "key": "F",
+          "label": "主动脉压持续高于肺动脉压，产生持续左向右分流",
+          "sourceText": "F.主动脉压持续高于肺动脉压，产生持续左向右分流"
+        },
+        {
+          "key": "G",
+          "label": "心包脏、壁层因炎症变粗糙，随心搏发生摩擦",
+          "sourceText": "G.心包脏、壁层因炎症变粗糙，随心搏发生摩擦"
+        },
+        {
+          "key": "H",
+          "label": "严重肺动脉高压导致肺动脉扩张，引起相对性肺动脉瓣关闭不全",
+          "sourceText": "H.严重肺动脉高压导致肺动脉扩张，引起相对性肺动脉瓣关闭不全"
+        },
+        {
+          "key": "I",
+          "label": "左室扩大导致相对性二尖瓣关闭不全",
+          "sourceText": "I.左室扩大导致相对性二尖瓣关闭不全"
+        },
+        {
+          "key": "J",
+          "label": "舒张期主动脉血反流至左室",
+          "sourceText": "J.舒张期主动脉血反流至左室"
+        },
+        {
+          "key": "K",
+          "label": "收缩期左向右分流",
+          "sourceText": "K.收缩期左向右分流"
+        },
+        {
+          "key": "L",
+          "label": "右室血通过狭窄肺动脉瓣",
+          "sourceText": "L.右室血通过狭窄肺动脉瓣"
+        },
+        {
+          "key": "M",
+          "label": "流经二尖瓣口的血流量增加",
+          "sourceText": "M.流经二尖瓣口的血流量增加"
+        },
+        {
+          "key": "N",
+          "label": "左室血通过狭窄主动脉瓣口形成高速射流",
+          "sourceText": "N.左室血通过狭窄主动脉瓣口形成高速射流"
+        },
+        {
+          "key": "O",
+          "label": "收缩期右室血反流至右房",
+          "sourceText": "O.收缩期右室血反流至右房"
+        },
+        {
+          "key": "P",
+          "label": "主动脉瓣关闭不全时血流量增多，形成相对性主动脉瓣狭窄",
+          "sourceText": "P.主动脉瓣关闭不全时血流量增多，形成相对性主动脉瓣狭窄"
+        },
+        {
+          "key": "Q",
+          "label": "室间隔破裂产生左向右分流",
+          "sourceText": "Q.室间隔破裂产生左向右分流"
+        },
+        {
+          "key": "R",
+          "label": "肿瘤堵塞二尖瓣口",
+          "sourceText": "R.肿瘤堵塞二尖瓣口"
+        }
+      ],
+      "stems": [
+        {
+          "text": "心尖部：二尖瓣狭窄",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "心尖部：二尖瓣狭窄 B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "心尖部：二尖瓣关闭不全",
+          "answer": [
+            "E"
+          ],
+          "sourceText": "心尖部：二尖瓣关闭不全 E",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "心尖部：Austin-Flint杂音",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "心尖部：Austin-Flint杂音 D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "心尖部：左房黏液瘤",
+          "answer": [
+            "R"
+          ],
+          "sourceText": "心尖部：左房黏液瘤 R",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨右缘第2肋间：主动脉瓣狭窄",
+          "answer": [
+            "N"
+          ],
+          "sourceText": "胸骨右缘第2肋间：主动脉瓣狭窄 N",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨右缘第2肋间：主动脉瓣关闭不全所致相对性主动脉瓣狭窄",
+          "answer": [
+            "P"
+          ],
+          "sourceText": "胸骨右缘第2肋间：主动脉瓣关闭不全所致相对性主动脉瓣狭窄 P",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第2肋间：肺动脉瓣狭窄",
+          "answer": [
+            "L"
+          ],
+          "sourceText": "胸骨左缘第2肋间：肺动脉瓣狭窄 L",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第2肋间：Graham-Steell杂音",
+          "answer": [
+            "H"
+          ],
+          "sourceText": "胸骨左缘第2肋间：Graham-Steell杂音 H",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第3～4肋间：主动脉瓣关闭不全",
+          "answer": [
+            "J"
+          ],
+          "sourceText": "胸骨左缘第3～4肋间：主动脉瓣关闭不全 J",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第3～4肋间：肥厚型梗阻性心肌病",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "胸骨左缘第3～4肋间：肥厚型梗阻性心肌病 C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第3～4肋间：室间隔缺损",
+          "answer": [
+            "K"
+          ],
+          "sourceText": "胸骨左缘第3～4肋间：室间隔缺损 K",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第3～4肋间：急性心肌梗死并发室间隔穿孔",
+          "answer": [
+            "Q"
+          ],
+          "sourceText": "胸骨左缘第3～4肋间：急性心肌梗死并发室间隔穿孔 Q",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第3～4肋间：心包摩擦音",
+          "answer": [
+            "G"
+          ],
+          "sourceText": "胸骨左缘第3～4肋间：心包摩擦音 G",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第4～5肋间：三尖瓣关闭不全",
+          "answer": [
+            "O"
+          ],
+          "sourceText": "胸骨左缘第4～5肋间：三尖瓣关闭不全 O",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "胸骨左缘第4～5肋间：右室扩大所致相对性三尖瓣关闭不全",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "胸骨左缘第4～5肋间：右室扩大所致相对性三尖瓣关闭不全 A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "心尖部：高流量状态导致的相对性二尖瓣狭窄",
+          "answer": [
+            "M"
+          ],
+          "sourceText": "心尖部：高流量状态导致的相对性二尖瓣狭窄 M",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "心尖部：左室扩大所致相对性二尖瓣关闭不全",
+          "answer": [
+            "I"
+          ],
+          "sourceText": "心尖部：左室扩大所致相对性二尖瓣关闭不全 I",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "心脏杂音⑥形成机制（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-53"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-53",
+        "page": 3,
+        "image": "med/lecture-pages/lecture-53-page-03.webp",
+        "title": "第53讲第3页：内科含诊断 心瓣膜病",
+        "description": "本题组对应第53讲第3页讲义。"
+      }
+    },
+    {
+      "id": "p83-g11",
+      "page": 83,
+      "title": "心脏杂音⑦性质分类",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "器质性心肌病",
+          "sourceText": "A.器质性心肌病"
+        },
+        {
+          "key": "B",
+          "label": "功能性 / 相对性",
+          "sourceText": "B.功能性 / 相对性"
+        },
+        {
+          "key": "C",
+          "label": "器质性肿瘤",
+          "sourceText": "C.器质性肿瘤"
+        },
+        {
+          "key": "D",
+          "label": "器质性瓣膜病",
+          "sourceText": "D.器质性瓣膜病"
+        },
+        {
+          "key": "E",
+          "label": "心包体征，非瓣膜杂音",
+          "sourceText": "E.心包体征，非瓣膜杂音"
+        },
+        {
+          "key": "F",
+          "label": "器质性先天性心脏病",
+          "sourceText": "F.器质性先天性心脏病"
+        },
+        {
+          "key": "G",
+          "label": "器质性继发性结构损害",
+          "sourceText": "G.器质性继发性结构损害"
+        }
+      ],
+      "stems": [
+        {
+          "text": "肥厚型梗阻性心肌病",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "肥厚型梗阻性心肌病 A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "左房黏液瘤",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "左房黏液瘤 C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "二尖瓣狭窄、二尖瓣关闭不全、主动脉瓣狭窄、主动脉瓣关闭不全、肺动脉瓣狭窄、三尖瓣关闭不全",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "二尖瓣狭窄、二尖瓣关闭不全、主动脉瓣狭窄、主动脉瓣关闭不全、肺动脉瓣狭窄、三尖瓣关闭不全 D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "急性纤维蛋白性心包炎所致心包摩擦音",
+          "answer": [
+            "E"
+          ],
+          "sourceText": "急性纤维蛋白性心包炎所致心包摩擦音 E",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "室间隔缺损、动脉导管未闭",
+          "answer": [
+            "F"
+          ],
+          "sourceText": "室间隔缺损、动脉导管未闭 F",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "急性心肌梗死并发室间隔穿孔",
+          "answer": [
+            "G"
+          ],
+          "sourceText": "急性心肌梗死并发室间隔穿孔 G",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "Austin-Flint、Graham-Steell及相对性三尖瓣/主动脉瓣/二尖瓣关闭不全或狭窄",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "Austin-Flint、Graham-Steell及相对性三尖瓣/主动脉瓣/二尖瓣关闭不全或狭窄 B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "心脏杂音⑦性质分类（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-53"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-53",
+        "page": 10,
+        "image": "med/lecture-pages/lecture-53-page-10.webp",
+        "title": "第53讲第10页：内科含诊断 心瓣膜病",
+        "description": "本题组对应第53讲第10页讲义。"
       }
     },
     {
@@ -30509,8 +31802,8 @@
         },
         {
           "key": "L",
-          "label": "左室：慢性后期离心性肥厚；急性早期正常或轻度扩大",
-          "sourceText": "L.左室：慢性后期离心性肥厚；急性早期正常或轻度扩大"
+          "label": "左室慢性后期离心性肥厚，急性早期正常或轻度扩大",
+          "sourceText": "L.左室慢性后期离心性肥厚，急性早期正常或轻度扩大"
         },
         {
           "key": "M",
@@ -30549,8 +31842,8 @@
         },
         {
           "key": "T",
-          "label": "杂音向颈部传导",
-          "sourceText": "T.杂音向颈部传导"
+          "label": "杂音局限、左侧卧位增强",
+          "sourceText": "T.杂音局限、左侧卧位增强"
         },
         {
           "key": "U",
@@ -30559,8 +31852,8 @@
         },
         {
           "key": "V",
-          "label": "杂音局限、左侧卧位增强",
-          "sourceText": "V.杂音局限、左侧卧位增强"
+          "label": "杂音向心尖传导",
+          "sourceText": "V.杂音向心尖传导"
         },
         {
           "key": "W",
@@ -30585,12 +31878,12 @@
         {
           "key": "a",
           "label": "有相对性二尖瓣狭窄",
-          "sourceText": "a.有相对性二狭"
+          "sourceText": "a.有相对性二尖瓣狭窄"
         },
         {
           "key": "b",
           "label": "有相对性主动脉瓣狭窄",
-          "sourceText": "b.有相对性主狭"
+          "sourceText": "b.有相对性主动脉瓣狭窄"
         },
         {
           "key": "c",
@@ -30699,8 +31992,8 @@
         },
         {
           "key": "x",
-          "label": "成人：置换术，若老龄重度不耐受TAVR",
-          "sourceText": "x.成人：置换术，若老龄重度不耐受TAVR"
+          "label": "成人置换术，老龄重度不耐受TAVR",
+          "sourceText": "x.成人置换术，老龄重度不耐受TAVR"
         },
         {
           "key": "y",
@@ -30913,7 +32206,8 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-54"
+        "lecture-49",
+        "lecture-50"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-54",
@@ -30989,7 +32283,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-54"
+        "lecture-50"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-54",
@@ -31125,11 +32419,10 @@
             "E",
             "F",
             "H",
-            "J",
             "N",
             "O"
           ],
-          "sourceText": "预防心梗、改善预后 B(R) D(Q) E F H J N(Q) O(R)（D、N支架植入后加用）",
+          "sourceText": "预防心梗、改善预后 BDEFHNO",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -31149,7 +32442,8 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-54"
+        "lecture-50",
+        "lecture-51"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-54",
@@ -31284,8 +32578,8 @@
         },
         {
           "key": "B",
-          "label": "一般体力活动完全受限，轻微活动或休息时也可发作",
-          "sourceText": "B.一般体力活动完全受限，轻微活动或休息时也可发作"
+          "label": "一般体力活动完全不受限，轻微活动或休息时也可发作",
+          "sourceText": "B.一般体力活动完全不受限，轻微活动或休息时也可发作"
         },
         {
           "key": "C",
@@ -31374,8 +32668,8 @@
         },
         {
           "key": "D",
-          "label": "明显诱因胸痛，多持续3～5分钟",
-          "sourceText": "D.明显诱因胸痛，多持续3～5分钟"
+          "label": "明显诱因脑痛，多持续3～5分钟",
+          "sourceText": "D.明显诱因脑痛，多持续3～5分钟"
         },
         {
           "key": "E",
@@ -31686,6 +32980,11 @@
           "key": "L",
           "label": "典型心电图：病理Q多无、ST段压低≥0.1mV、T波倒置",
           "sourceText": "L.典型心电图：病理Q多无、ST段压低≥0.1mV、T波倒置"
+        },
+        {
+          "key": "M",
+          "label": "最有价值",
+          "sourceText": "M.最有价值"
         }
       ],
       "stems": [
@@ -32974,7 +34273,7 @@
             "H",
             "J"
           ],
-          "sourceText": "湿冷型（收缩压>90mmHg）DFB、HJ",
+          "sourceText": "湿冷型（收缩压>90mmHg）DFBHJ",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -32987,7 +34286,7 @@
             "H",
             "J"
           ],
-          "sourceText": "湿冷型（收缩压<90mmHg）BCD、HJ",
+          "sourceText": "湿冷型（收缩压<90mmHg）BCDHJ",
           "sourceY": 0,
           "answerMode": "多选"
         }
@@ -33327,8 +34626,8 @@
         },
         {
           "key": "K",
-          "label": "二度Ⅱ型和三度房室传导阻滞",
-          "sourceText": "K.二度Ⅱ型和三度房室传导阻滞"
+          "label": "二度Ⅰ型和三度房室传导阻滞",
+          "sourceText": "K.二度Ⅰ型和三度房室传导阻滞"
         },
         {
           "key": "L",
@@ -33427,13 +34726,13 @@
         },
         {
           "key": "e",
-          "label": "收缩压<90",
-          "sourceText": "e.收缩压<90"
+          "label": "不耐受干咳",
+          "sourceText": "e.不耐受干咳"
         },
         {
           "key": "f",
-          "label": "房颤",
-          "sourceText": "f.房颤"
+          "label": "急性右室梗死",
+          "sourceText": "f.急性右室梗死"
         },
         {
           "key": "g",
@@ -33515,9 +34814,9 @@
         {
           "text": "伊伐布雷定用",
           "answer": [
-            "c"
+            "C"
           ],
-          "sourceText": "伊伐布雷定用 c",
+          "sourceText": "伊伐布雷定用 C",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -33593,7 +34892,8 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "循环",
       "lectureIds": [
-        "lecture-55"
+        "lecture-55",
+        "lecture-56"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-55",
@@ -33790,63 +35090,63 @@
       "options": [
         {
           "key": "A",
-          "label": "窦房阻滞",
-          "sourceText": "A.窦房阻滞"
+          "label": "心房除极",
+          "sourceText": "A.心房除极"
         },
         {
           "key": "B",
-          "label": "扑动",
-          "sourceText": "B.扑动"
+          "label": "异位心律",
+          "sourceText": "B.异位心律"
         },
         {
           "key": "C",
-          "label": "窦性心动过速",
-          "sourceText": "C.窦性心动过速"
+          "label": "窦性心律不齐",
+          "sourceText": "C.窦性心律不齐"
         },
         {
           "key": "D",
-          "label": "逸搏",
-          "sourceText": "D.逸搏"
+          "label": "早搏",
+          "sourceText": "D.早搏"
         },
         {
           "key": "E",
-          "label": "窦性心动过缓",
-          "sourceText": "E.窦性心动过缓"
+          "label": "预激综合征",
+          "sourceText": "E.预激综合征"
         },
         {
           "key": "F",
-          "label": "逸搏心律",
-          "sourceText": "F.逸搏心律"
+          "label": "室内/束支阻滞",
+          "sourceText": "F.室内/束支阻滞"
         },
         {
           "key": "G",
-          "label": "窦性心律不齐",
-          "sourceText": "G.窦性心律不齐"
+          "label": "窦性停搏",
+          "sourceText": "G.窦性停搏"
         },
         {
           "key": "H",
-          "label": "早搏",
-          "sourceText": "H.早搏"
+          "label": "病态窦房结综合征",
+          "sourceText": "H.病态窦房结综合征"
         },
         {
           "key": "I",
-          "label": "预激综合征（房室传导途径异常）。折返是快速型心律失常最常见的发生机制",
-          "sourceText": "I.预激综合征（房室传导途径异常）。折返是快速型心律失常最常见的发生机制"
+          "label": "折返与旁路异常传导",
+          "sourceText": "I.折返与旁路异常传导"
         },
         {
           "key": "J",
-          "label": "室内/束支阻滞",
-          "sourceText": "J.室内/束支阻滞"
+          "label": "传导阻滞",
+          "sourceText": "J.传导阻滞"
         },
         {
           "key": "K",
-          "label": "窦性停搏",
-          "sourceText": "K.窦性停搏"
+          "label": "窦性心律失常",
+          "sourceText": "K.窦性心律失常"
         },
         {
           "key": "L",
-          "label": "病态窦房结综合征",
-          "sourceText": "L.病态窦房结综合征"
+          "label": "房内与房室阻滞",
+          "sourceText": "L.房内与房室阻滞"
         },
         {
           "key": "M",
@@ -33855,8 +35155,8 @@
         },
         {
           "key": "N",
-          "label": "房内与房间阻滞",
-          "sourceText": "N.房内与房间阻滞"
+          "label": "房室阻滞",
+          "sourceText": "N.房室阻滞"
         },
         {
           "key": "O",
@@ -33930,12 +35230,11 @@
         {
           "text": "折返与旁路异常传导",
           "answer": [
-            "I",
-            "O"
+            "I"
           ],
-          "sourceText": "折返与旁路异常传导 IO",
+          "sourceText": "折返与旁路异常传导 I",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "单选"
         },
         {
           "text": "生理性传导异常",
@@ -33976,8 +35275,8 @@
         },
         {
           "key": "B",
-          "label": "一度房室阻滞",
-          "sourceText": "B.一度房室阻滞"
+          "label": "二度房室阻滞",
+          "sourceText": "B.二度房室阻滞"
         },
         {
           "key": "C",
@@ -34107,8 +35406,8 @@
       "options": [
         {
           "key": "A",
-          "label": "可见逆行P′波（Ⅱ、Ⅲ、aVF导联倒置）",
-          "sourceText": "A.可见逆行P′波（Ⅱ、Ⅲ、aVF导联倒置）"
+          "label": "可见逆行P′波（II、III、aVF导联倒置）",
+          "sourceText": "A.可见逆行P′波（II、III、aVF导联倒置）"
         },
         {
           "key": "B",
@@ -34137,8 +35436,8 @@
         },
         {
           "key": "G",
-          "label": "逆行P′波可在QRS波之前（P′R间期＜0.12s）、之后（RP′间期＜0.2s）或与QRS波重叠",
-          "sourceText": "G.逆行P′波可在QRS波之前（P′R间期＜0.12s）、之后（RP′间期＜0.2s）或与QRS波重叠"
+          "label": "逆行P波可在QRS波之前、之后或与QRS波重叠",
+          "sourceText": "G.逆行P波可在QRS波之前、之后或与QRS波重叠"
         },
         {
           "key": "H",
@@ -34174,6 +35473,11 @@
           "key": "N",
           "label": "尽管多见于器质性心脏病者，但多不治疗",
           "sourceText": "N.尽管多见于器质性心脏病者，但多不治疗"
+        },
+        {
+          "key": "O",
+          "label": "治疗：补镁；先天性长QT间期综合征用β-R拮抗剂",
+          "sourceText": "O.治疗：补镁；先天性长QT间期综合征用β-R拮抗剂"
         }
       ],
       "stems": [
@@ -34240,13 +35544,13 @@
       "options": [
         {
           "key": "A",
-          "label": "突发突止（不必预防用药）",
-          "sourceText": "A.突发突止（不必预防用药）"
+          "label": "阵发性室上性心动过速",
+          "sourceText": "A.阵发性室上性心动过速"
         },
         {
           "key": "B",
-          "label": "连续出现3个及以上的宽大畸形QRS波",
-          "sourceText": "B.连续出现3个及以上的宽大畸形QRS波"
+          "label": "室速",
+          "sourceText": "B.室速"
         },
         {
           "key": "C",
@@ -34260,8 +35564,8 @@
         },
         {
           "key": "E",
-          "label": "心律绝对规则（不同RR间距几乎完全均匀）",
-          "sourceText": "E.心律绝对规则（不同RR间距几乎完全均匀）"
+          "label": "心律绝对不齐（不同RR间距几乎完全均匀）",
+          "sourceText": "E.心律绝对不齐（不同RR间距几乎完全均匀）"
         },
         {
           "key": "F",
@@ -34499,8 +35803,8 @@
         },
         {
           "key": "G",
-          "label": "心律绝对规则",
-          "sourceText": "G.心律绝对规则"
+          "label": "心律绝对不规则",
+          "sourceText": "G.心律绝对不规则"
         },
         {
           "key": "H",
@@ -34688,35 +35992,157 @@
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
-        { "key": "A", "label": "PR间期进行性延长，直到出现一次QRS波脱落（P波下传受阻），受阻P波前的PR间期延长", "sourceText": "A.PR间期进行性延长，直到出现一次QRS波脱落（P波下传受阻），受阻P波前的PR间期延长" },
-        { "key": "B", "label": "PR间期基本恒定（恒定正常或恒定延长），部分P波后无QRS波", "sourceText": "B.PR间期基本恒定（恒定正常或恒定延长），部分P波后无QRS波" },
-        { "key": "C", "label": "QRS波不脱落，QRS波形态多正常", "sourceText": "C.QRS波不脱落，QRS波形态多正常" },
-        { "key": "D", "label": "最常见的房室传导比例为3:1或4:1，因此多为高度房室阻滞", "sourceText": "D.最常见的房室传导比例为3:1或4:1，因此多为高度房室阻滞" },
-        { "key": "E", "label": "PR间期恒定延长≥0.2s", "sourceText": "E.PR间期恒定延长≥0.2s" },
-        { "key": "F", "label": "可由强心苷中毒、高钾血症、急性下壁心梗、急性心肌炎引起", "sourceText": "F.可由强心苷中毒、高钾血症、急性下壁心梗、急性心肌炎引起" },
-        { "key": "G", "label": "S1强度恒定减弱", "sourceText": "G.S1强度恒定减弱" },
-        { "key": "H", "label": "S1强度基本恒定伴间歇性心搏脱落", "sourceText": "H.S1强度基本恒定伴间歇性心搏脱落" },
-        { "key": "I", "label": "阻滞部位在房室结者QRS波形态多正常；阻滞部位在希氏束-浦肯野纤维者QRS波宽大畸形", "sourceText": "I.阻滞部位在房室结者QRS波形态多正常；阻滞部位在希氏束-浦肯野纤维者QRS波宽大畸形" },
-        { "key": "J", "label": "S1强度逐渐减弱和心搏脱落", "sourceText": "J.S1强度逐渐减弱和心搏脱落" },
-        { "key": "K", "label": "房室分离：PR间期不固定", "sourceText": "K.房室分离：PR间期不固定" },
-        { "key": "L", "label": "RR间距进行性缩短（RR间距=PP间距+PR的增量，PR增量减小）", "sourceText": "L.RR间距进行性缩短（RR间距=PP间距+PR的增量，PR增量减小）" },
-        { "key": "M", "label": "S1强度变化不定可呈大炮音（响亮亢进的S1）", "sourceText": "M.S1强度变化不定可呈大炮音（响亮亢进的S1）" },
-        { "key": "N", "label": "包含受阻P波在内（脱落QRS波前后的）的RR间距<2倍正常PP间距", "sourceText": "N.包含受阻P波在内（脱落QRS波前后的）的RR间距<2倍正常PP间距" },
-        { "key": "O", "label": "心房率快于心室率", "sourceText": "O.心房率快于心室率" },
-        { "key": "P", "label": "最常见的房室传导比例为3:2或5:4", "sourceText": "P.最常见的房室传导比例为3:2或5:4" },
-        { "key": "Q", "label": "多数阻滞部位在房室结：QRS波形态多正常", "sourceText": "Q.多数阻滞部位在房室结：QRS波形态多正常" }
+        {
+          "key": "A",
+          "label": "PR间期进行性延长，直到出现一次QRS波脱落（P波下传受阻），受阻P波前的PR间期延长",
+          "sourceText": "A.PR间期进行性延长，直到出现一次QRS波脱落（P波下传受阻），受阻P波前的PR间期延长"
+        },
+        {
+          "key": "B",
+          "label": "PR间期基本恒定（恒定正常或恒定延长），部分P波后无QRS波",
+          "sourceText": "B.PR间期基本恒定（恒定正常或恒定延长），部分P波后无QRS波"
+        },
+        {
+          "key": "C",
+          "label": "QRS波不脱落，QRS波形态多正常",
+          "sourceText": "C.QRS波不脱落，QRS波形态多正常"
+        },
+        {
+          "key": "D",
+          "label": "最常见的房室传导比例为3:1或4:1，因此多为高度房室阻滞",
+          "sourceText": "D.最常见的房室传导比例为3:1或4:1，因此多为高度房室阻滞"
+        },
+        {
+          "key": "E",
+          "label": "PR间期恒定延长≥0.2s",
+          "sourceText": "E.PR间期恒定延长≥0.2s"
+        },
+        {
+          "key": "F",
+          "label": "可由强心苷中毒、高钾血症、急性下壁心梗、急性心肌炎引起",
+          "sourceText": "F.可由强心苷中毒、高钾血症、急性下壁心梗、急性心肌炎引起"
+        },
+        {
+          "key": "G",
+          "label": "S1强度恒定减弱",
+          "sourceText": "G.S1强度恒定减弱"
+        },
+        {
+          "key": "H",
+          "label": "S1强度基本恒定伴间歇性心搏脱落",
+          "sourceText": "H.S1强度基本恒定伴间歇性心搏脱落"
+        },
+        {
+          "key": "I",
+          "label": "阻滞部位在房室结者QRS波形态多正常；阻滞部位在希氏束-浦肯野纤维者QRS波宽大畸形",
+          "sourceText": "I.阻滞部位在房室结者QRS波形态多正常；阻滞部位在希氏束-浦肯野纤维者QRS波宽大畸形"
+        },
+        {
+          "key": "J",
+          "label": "S1强度逐渐减弱和心搏脱落",
+          "sourceText": "J.S1强度逐渐减弱和心搏脱落"
+        },
+        {
+          "key": "K",
+          "label": "房室分离：PR间期不固定",
+          "sourceText": "K.房室分离：PR间期不固定"
+        },
+        {
+          "key": "L",
+          "label": "RR间距进行性缩短（RR间距=PP间距+PR的增量，PR增量减小）",
+          "sourceText": "L.RR间距进行性缩短（RR间距=PP间距+PR的增量，PR增量减小）"
+        },
+        {
+          "key": "M",
+          "label": "S1强度变化不定可呈大炮音（响亮亢进的S1）",
+          "sourceText": "M.S1强度变化不定可呈大炮音（响亮亢进的S1）"
+        },
+        {
+          "key": "N",
+          "label": "包含受阻P波在内（脱落QRS波前后的）的RR间距<2倍正常PP间距",
+          "sourceText": "N.包含受阻P波在内（脱落QRS波前后的）的RR间距<2倍正常PP间距"
+        },
+        {
+          "key": "O",
+          "label": "心房率快于心室率",
+          "sourceText": "O.心房率快于心室率"
+        },
+        {
+          "key": "P",
+          "label": "最常见的房室传导比例为3:2或5:4",
+          "sourceText": "P.最常见的房室传导比例为3:2或5:4"
+        },
+        {
+          "key": "Q",
+          "label": "多数阻滞部位在房室结：QRS波形态多正常",
+          "sourceText": "Q.多数阻滞部位在房室结：QRS波形态多正常"
+        }
       ],
       "stems": [
-        { "text": "一度房室阻滞", "answer": ["C", "E", "G"], "sourceText": "一度房室阻滞 CEG", "sourceY": 0, "answerMode": "多选" },
-        { "text": "二度Ⅰ型房室阻滞", "answer": ["A", "J", "L", "N", "P", "Q"], "sourceText": "二度Ⅰ型房室阻滞 AJLNPQ", "sourceY": 0, "answerMode": "多选" },
-        { "text": "二度Ⅱ型房室阻滞", "answer": ["B", "D", "H", "I"], "sourceText": "二度Ⅱ型房室阻滞 BDHI", "sourceY": 0, "answerMode": "多选" },
-        { "text": "三度房室阻滞/完全性房室阻滞", "answer": ["F", "I", "K", "M", "O"], "sourceText": "三度房室阻滞/完全性房室阻滞 FIKMO", "sourceY": 0, "answerMode": "多选" }
+        {
+          "text": "一度房室阻滞",
+          "answer": [
+            "C",
+            "E",
+            "G"
+          ],
+          "sourceText": "一度房室阻滞 CEG",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "二度Ⅰ型房室阻滞",
+          "answer": [
+            "A",
+            "J",
+            "L",
+            "N",
+            "P",
+            "Q"
+          ],
+          "sourceText": "二度Ⅰ型房室阻滞 AJLNPQ",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "二度Ⅱ型房室阻滞",
+          "answer": [
+            "B",
+            "D",
+            "H",
+            "I"
+          ],
+          "sourceText": "二度Ⅱ型房室阻滞 BDHI",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "三度房室阻滞/完全性房室阻滞",
+          "answer": [
+            "F",
+            "I",
+            "K",
+            "M",
+            "O"
+          ],
+          "sourceText": "三度房室阻滞/完全性房室阻滞 FIKMO",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
       ],
       "sourceText": "学成选择题PDF第95页第二组：房室传导阻滞类型",
       "reviewState": "已按第95页PDF与第56讲讲义第18页核对",
       "topic": "循环",
-      "lectureIds": ["lecture-56"],
-      "lectureEvidence": { "lectureId": "lecture-56", "page": 18, "image": "med/lecture-pages/lecture-56-page-18.webp", "title": "第56讲第18页：内科含诊断 心律失常", "description": "本题组对应第56讲房室传导阻滞讲义。" }
+      "lectureIds": [
+        "lecture-56"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-56",
+        "page": 18,
+        "image": "med/lecture-pages/lecture-56-page-18.webp",
+        "title": "第56讲第18页：内科含诊断 心律失常",
+        "description": "本题组对应第56讲第18页讲义。"
+      }
     },
     {
       "id": "p95-g3",
@@ -34725,23 +36151,80 @@
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
-        { "key": "A", "label": "长PP<两个短PP之和", "sourceText": "A.长PP<两个短PP之和" },
-        { "key": "B", "label": "心房冲动传至心室时间逐渐延长，直到一次心房冲动不能传至心室，导致QRS波脱落", "sourceText": "B.心房冲动传至心室时间逐渐延长，直到一次心房冲动不能传至心室，导致QRS波脱落" },
-        { "key": "C", "label": "脱落QRS波前后RR<2倍正常PP", "sourceText": "C.脱落QRS波前后RR<2倍正常PP" },
-        { "key": "D", "label": "窦房结冲动传至心房时间逐渐延长，直到一次窦房结冲动不能传至心房，导致P波和QRS波均脱落", "sourceText": "D.窦房结冲动传至心房时间逐渐延长，直到一次窦房结冲动不能传至心房，导致P波和QRS波均脱落" },
-        { "key": "E", "label": "PR间期进行性延长", "sourceText": "E.PR间期进行性延长" },
-        { "key": "F", "label": "PP间距进行性缩短直到出现一次P波、QRS波脱落", "sourceText": "F.PP间距进行性缩短直到出现一次P波、QRS波脱落" },
-        { "key": "G", "label": "RR间距进行性缩短直到出现一次QRS波脱落", "sourceText": "G.RR间距进行性缩短直到出现一次QRS波脱落" }
+        {
+          "key": "A",
+          "label": "长PP<两个短PP之和",
+          "sourceText": "A.长PP<两个短PP之和"
+        },
+        {
+          "key": "B",
+          "label": "心房冲动传至心室时间逐渐延长，直到一次心房冲动不能传至心室，导致QRS波脱落",
+          "sourceText": "B.心房冲动传至心室时间逐渐延长，直到一次心房冲动不能传至心室，导致QRS波脱落"
+        },
+        {
+          "key": "C",
+          "label": "脱落QRS波前后RR<2倍正常PP",
+          "sourceText": "C.脱落QRS波前后RR<2倍正常PP"
+        },
+        {
+          "key": "D",
+          "label": "窦房结冲动传至心房时间逐渐延长，直到一次窦房结冲动不能传至心房，导致P波和QRS波均脱落",
+          "sourceText": "D.窦房结冲动传至心房时间逐渐延长，直到一次窦房结冲动不能传至心房，导致P波和QRS波均脱落"
+        },
+        {
+          "key": "E",
+          "label": "PR间期进行性延长",
+          "sourceText": "E.PR间期进行性延长"
+        },
+        {
+          "key": "F",
+          "label": "PP间距进行性缩短直到出现一次P波、QRS波脱落",
+          "sourceText": "F.PP间距进行性缩短直到出现一次P波、QRS波脱落"
+        },
+        {
+          "key": "G",
+          "label": "RR间距进行性缩短直到出现一次QRS波脱落",
+          "sourceText": "G.RR间距进行性缩短直到出现一次QRS波脱落"
+        }
       ],
       "stems": [
-        { "text": "二度Ⅰ型房室阻滞", "answer": ["B", "C", "E", "G"], "sourceText": "二度Ⅰ型房室阻滞 BCEG", "sourceY": 0, "answerMode": "多选" },
-        { "text": "二度Ⅰ型窦房阻滞", "answer": ["A", "D", "F"], "sourceText": "二度Ⅰ型窦房阻滞 ADF", "sourceY": 0, "answerMode": "多选" }
+        {
+          "text": "二度Ⅰ型房室阻滞",
+          "answer": [
+            "B",
+            "C",
+            "E",
+            "G"
+          ],
+          "sourceText": "二度Ⅰ型房室阻滞 BCEG",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "二度Ⅰ型窦房阻滞",
+          "answer": [
+            "A",
+            "D",
+            "F"
+          ],
+          "sourceText": "二度Ⅰ型窦房阻滞 ADF",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
       ],
       "sourceText": "学成选择题PDF第95页第三组：二度Ⅰ型房室与窦房传导阻滞",
       "reviewState": "已按第95页PDF与第56讲讲义第18、21页核对",
       "topic": "循环",
-      "lectureIds": ["lecture-56"],
-      "lectureEvidence": { "lectureId": "lecture-56", "page": 21, "image": "med/lecture-pages/lecture-56-page-21.webp", "title": "第56讲第21页：内科含诊断 心律失常", "description": "本题组对应第56讲窦房传导阻滞讲义。" }
+      "lectureIds": [
+        "lecture-56"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-56",
+        "page": 21,
+        "image": "med/lecture-pages/lecture-56-page-21.webp",
+        "title": "第56讲第21页：内科含诊断 心律失常",
+        "description": "本题组对应第56讲第21页讲义。"
+      }
     },
     {
       "id": "lecture56-av-dissociation",
@@ -34751,20 +36234,64 @@
       "kindLabel": "B型题",
       "hideSource": true,
       "options": [
-        { "key": "A", "label": "生理性干扰", "sourceText": "A.生理性干扰" },
-        { "key": "B", "label": "室性心动过速", "sourceText": "B.室性心动过速" },
-        { "key": "C", "label": "三度房室传导阻滞", "sourceText": "C.三度房室传导阻滞" }
+        {
+          "key": "A",
+          "label": "生理性干扰",
+          "sourceText": "A.生理性干扰"
+        },
+        {
+          "key": "B",
+          "label": "室性心动过速",
+          "sourceText": "B.室性心动过速"
+        },
+        {
+          "key": "C",
+          "label": "三度房室传导阻滞",
+          "sourceText": "C.三度房室传导阻滞"
+        }
       ],
       "stems": [
-        { "text": "心室率/QRS波频率与心房率/P波频率差别不大，偶然发生", "answer": ["A"], "sourceText": "三种房室分离：心室率与心房率差别不大，偶然发生", "sourceY": 0, "answerMode": "单选" },
-        { "text": "心室率约100-250次/分，明显高于心房率", "answer": ["B"], "sourceText": "三种房室分离：心室率明显高于心房率", "sourceY": 0, "answerMode": "单选" },
-        { "text": "心室率约20-60次/分，低于心房率", "answer": ["C"], "sourceText": "三种房室分离：心室率低于心房率", "sourceY": 0, "answerMode": "单选" }
+        {
+          "text": "心室率/QRS波频率与心房率/P波频率差别不大，偶然发生",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "三种房室分离：心室率与心房率差别不大，偶然发生",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "心室率约100-250次/分，明显高于心房率",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "三种房室分离：心室率明显高于心房率",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "心室率约20-60次/分，低于心房率",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "三种房室分离：心室率低于心房率",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
       ],
       "sourceText": "请根据房室分离时心室率与心房率的关系判断类型。",
       "reviewState": "根据第56讲讲义第20页新增并校对",
-      "topic": "循环",
-      "lectureIds": ["lecture-56"],
-      "lectureEvidence": { "lectureId": "lecture-56", "page": 20, "image": "med/lecture-pages/lecture-56-page-20.webp", "title": "第56讲第20页：内科含诊断 心律失常", "description": "本题组对应第56讲三种房室分离小结。" }
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-56"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-56",
+        "page": 20,
+        "image": "med/lecture-pages/lecture-56-page-20.webp",
+        "title": "第56讲第20页：内科含诊断 心律失常",
+        "description": "本题组对应第56讲第20页讲义。"
+      }
     },
     {
       "id": "lecture56-cardiac-enlargement",
@@ -34774,22 +36301,78 @@
       "kindLabel": "B型题",
       "hideSource": true,
       "options": [
-        { "key": "A", "label": "右心室大", "sourceText": "A.右心室大" },
-        { "key": "B", "label": "左心室大", "sourceText": "B.左心室大" },
-        { "key": "C", "label": "右心房大", "sourceText": "C.右心房大" },
-        { "key": "D", "label": "左心房大", "sourceText": "D.左心房大" }
+        {
+          "key": "A",
+          "label": "右心室大",
+          "sourceText": "A.右心室大"
+        },
+        {
+          "key": "B",
+          "label": "左心室大",
+          "sourceText": "B.左心室大"
+        },
+        {
+          "key": "C",
+          "label": "右心房大",
+          "sourceText": "C.右心房大"
+        },
+        {
+          "key": "D",
+          "label": "左心房大",
+          "sourceText": "D.左心房大"
+        }
       ],
       "stems": [
-        { "text": "RV1+SV5≥1.05mV，电轴右偏，顺钟向转位（V5 R/S≤1）", "answer": ["A"], "sourceText": "右心室大：RV1+SV5≥1.05mV，电轴右偏，顺钟向转位", "sourceY": 0, "answerMode": "单选" },
-        { "text": "RV5+SV1≥4/3.5mV，电轴左偏，ST段可压低", "answer": ["B"], "sourceText": "左心室大：RV5+SV1≥4/3.5mV，电轴左偏，ST段可压低", "sourceY": 0, "answerMode": "单选" },
-        { "text": "肺型P波（高尖P波≥0.25mV）", "answer": ["C"], "sourceText": "右心房大：肺型P波（高尖P波≥0.25mV）", "sourceY": 0, "answerMode": "单选" },
-        { "text": "二尖瓣型P波（P波>0.12s，呈双峰样）", "answer": ["D"], "sourceText": "左心房大：二尖瓣型P波（P波>0.12s，呈双峰样）", "sourceY": 0, "answerMode": "单选" }
+        {
+          "text": "RV1+SV5≥1.05mV，电轴右偏，顺钟向转位（V5 R/S≤1）",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "右心室大：RV1+SV5≥1.05mV，电轴右偏，顺钟向转位",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "RV5+SV1≥4/3.5mV，电轴左偏，ST段可压低",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "左心室大：RV5+SV1≥4/3.5mV，电轴左偏，ST段可压低",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "肺型P波（高尖P波≥0.25mV）",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "右心房大：肺型P波（高尖P波≥0.25mV）",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "二尖瓣型P波（P波>0.12s，呈双峰样）",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "左心房大：二尖瓣型P波（P波>0.12s，呈双峰样）",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
       ],
       "sourceText": "请根据心电图特征判断心脏扩大部位。",
       "reviewState": "根据第56讲讲义第23页新增并校对",
-      "topic": "循环",
-      "lectureIds": ["lecture-56"],
-      "lectureEvidence": { "lectureId": "lecture-56", "page": 23, "image": "med/lecture-pages/lecture-56-page-23.webp", "title": "第56讲第23页：内科含诊断 心律失常", "description": "本题组对应第56讲心脏变大小结。" }
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-56"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-56",
+        "page": 23,
+        "image": "med/lecture-pages/lecture-56-page-23.webp",
+        "title": "第56讲第23页：内科含诊断 心律失常",
+        "description": "本题组对应第56讲第23页讲义。"
+      }
     },
     {
       "id": "p96-g1",
@@ -35529,12 +37112,11 @@
           "text": "IA类",
           "answer": [
             "C",
-            "G",
             "J",
             "N",
             "W"
           ],
-          "sourceText": "IA类CGJNW",
+          "sourceText": "IA类CJNW",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -35761,62 +37343,399 @@
       "kindLabel": "B型题",
       "hideSource": true,
       "options": [
-        { "key": "A", "label": "阵发性室上性心动过速", "sourceText": "A.阵发性室上性心动过速" },
-        { "key": "B", "label": "窦性心动过速", "sourceText": "B.窦性心动过速" },
-        { "key": "C", "label": "完全性右束支传导阻滞", "sourceText": "C.完全性右束支传导阻滞" },
-        { "key": "D", "label": "心房颤动", "sourceText": "D.心房颤动" },
-        { "key": "E", "label": "窦性心律不齐", "sourceText": "E.窦性心律不齐" },
-        { "key": "F", "label": "尖端扭转型室性心动过速", "sourceText": "F.尖端扭转型室性心动过速" },
-        { "key": "G", "label": "房性期前收缩（房早）", "sourceText": "G.房性期前收缩（房早）" },
-        { "key": "H", "label": "成对室性期前收缩", "sourceText": "H.成对室性期前收缩" },
-        { "key": "I", "label": "窦性心动过缓", "sourceText": "I.窦性心动过缓" },
-        { "key": "J", "label": "完全性左束支传导阻滞", "sourceText": "J.完全性左束支传导阻滞" },
-        { "key": "K", "label": "室性心动过速", "sourceText": "K.室性心动过速" },
-        { "key": "L", "label": "二度Ⅰ型房室传导阻滞（文氏阻滞）", "sourceText": "L.二度Ⅰ型房室传导阻滞（文氏阻滞）" },
-        { "key": "M", "label": "交界性期前收缩", "sourceText": "M.交界性期前收缩" },
-        { "key": "N", "label": "二度Ⅱ型窦房传导阻滞", "sourceText": "N.二度Ⅱ型窦房传导阻滞" },
-        { "key": "O", "label": "室性期前收缩三联律", "sourceText": "O.室性期前收缩三联律" },
-        { "key": "P", "label": "一度房室传导阻滞", "sourceText": "P.一度房室传导阻滞" },
-        { "key": "Q", "label": "心房扑动", "sourceText": "Q.心房扑动" },
-        { "key": "R", "label": "多形性室性期前收缩", "sourceText": "R.多形性室性期前收缩" },
-        { "key": "S", "label": "二度Ⅱ型房室传导阻滞", "sourceText": "S.二度Ⅱ型房室传导阻滞" },
-        { "key": "T", "label": "室性期前收缩（室早）", "sourceText": "T.室性期前收缩（室早）" },
-        { "key": "U", "label": "三度房室传导阻滞（完全性房室传导阻滞）", "sourceText": "U.三度房室传导阻滞（完全性房室传导阻滞）" },
-        { "key": "V", "label": "室性期前收缩二联律", "sourceText": "V.室性期前收缩二联律" },
-        { "key": "W", "label": "二度Ⅰ型窦房传导阻滞", "sourceText": "W.二度Ⅰ型窦房传导阻滞" },
-        { "key": "X", "label": "R-on-T型室性期前收缩", "sourceText": "X.R-on-T型室性期前收缩" }
+        {
+          "key": "A",
+          "label": "阵发性室上性心动过速",
+          "sourceText": "A.阵发性室上性心动过速"
+        },
+        {
+          "key": "B",
+          "label": "窦性心动过速",
+          "sourceText": "B.窦性心动过速"
+        },
+        {
+          "key": "C",
+          "label": "完全性右束支传导阻滞",
+          "sourceText": "C.完全性右束支传导阻滞"
+        },
+        {
+          "key": "D",
+          "label": "心房颤动",
+          "sourceText": "D.心房颤动"
+        },
+        {
+          "key": "E",
+          "label": "窦性心律不齐",
+          "sourceText": "E.窦性心律不齐"
+        },
+        {
+          "key": "F",
+          "label": "尖端扭转型室性心动过速",
+          "sourceText": "F.尖端扭转型室性心动过速"
+        },
+        {
+          "key": "G",
+          "label": "房性期前收缩（房早）",
+          "sourceText": "G.房性期前收缩（房早）"
+        },
+        {
+          "key": "H",
+          "label": "成对室性期前收缩",
+          "sourceText": "H.成对室性期前收缩"
+        },
+        {
+          "key": "I",
+          "label": "窦性心动过缓",
+          "sourceText": "I.窦性心动过缓"
+        },
+        {
+          "key": "J",
+          "label": "完全性左束支传导阻滞",
+          "sourceText": "J.完全性左束支传导阻滞"
+        },
+        {
+          "key": "K",
+          "label": "室性心动过速",
+          "sourceText": "K.室性心动过速"
+        },
+        {
+          "key": "L",
+          "label": "二度Ⅰ型房室传导阻滞（文氏阻滞）",
+          "sourceText": "L.二度Ⅰ型房室传导阻滞（文氏阻滞）"
+        },
+        {
+          "key": "M",
+          "label": "交界性期前收缩",
+          "sourceText": "M.交界性期前收缩"
+        },
+        {
+          "key": "N",
+          "label": "二度Ⅱ型窦房传导阻滞",
+          "sourceText": "N.二度Ⅱ型窦房传导阻滞"
+        },
+        {
+          "key": "O",
+          "label": "室性期前收缩三联律",
+          "sourceText": "O.室性期前收缩三联律"
+        },
+        {
+          "key": "P",
+          "label": "一度房室传导阻滞",
+          "sourceText": "P.一度房室传导阻滞"
+        },
+        {
+          "key": "Q",
+          "label": "心房扑动",
+          "sourceText": "Q.心房扑动"
+        },
+        {
+          "key": "R",
+          "label": "多形性室性期前收缩",
+          "sourceText": "R.多形性室性期前收缩"
+        },
+        {
+          "key": "S",
+          "label": "二度Ⅱ型房室传导阻滞",
+          "sourceText": "S.二度Ⅱ型房室传导阻滞"
+        },
+        {
+          "key": "T",
+          "label": "室性期前收缩（室早）",
+          "sourceText": "T.室性期前收缩（室早）"
+        },
+        {
+          "key": "U",
+          "label": "三度房室传导阻滞（完全性房室传导阻滞）",
+          "sourceText": "U.三度房室传导阻滞（完全性房室传导阻滞）"
+        },
+        {
+          "key": "V",
+          "label": "室性期前收缩二联律",
+          "sourceText": "V.室性期前收缩二联律"
+        },
+        {
+          "key": "W",
+          "label": "二度Ⅰ型窦房传导阻滞",
+          "sourceText": "W.二度Ⅰ型窦房传导阻滞"
+        },
+        {
+          "key": "X",
+          "label": "R-on-T型室性期前收缩",
+          "sourceText": "X.R-on-T型室性期前收缩"
+        }
       ],
       "stems": [
-        { "text": "", "image": "med/ecg/sinus-tachycardia.png", "imageAlt": "II导联心电图题干", "answer": ["B"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/sinus-bradycardia.png", "imageAlt": "II导联心电图题干", "answer": ["I"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/sinus-arrhythmia.png", "imageAlt": "II导联心电图题干", "answer": ["E"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/atrial-premature-beat.png", "imageAlt": "心电图题干", "answer": ["G"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/junctional-premature-beat.png", "imageAlt": "心电图题干", "answer": ["M"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/psvt.png", "imageAlt": "心电图题干", "answer": ["A"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/atrial-flutter.png", "imageAlt": "心电图题干", "answer": ["Q"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/atrial-fibrillation.png", "imageAlt": "心电图题干", "answer": ["D"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/ventricular-premature-beat.png", "imageAlt": "心电图题干", "answer": ["T"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/ventricular-bigeminy.png", "imageAlt": "心电图题干", "answer": ["V"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/ventricular-trigeminy.png", "imageAlt": "心电图题干", "answer": ["O"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/coupled-ventricular-premature-beats.png", "imageAlt": "心电图题干", "answer": ["H"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/multiform-ventricular-premature-beats.png", "imageAlt": "心电图题干", "answer": ["R"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/ventricular-tachycardia.png", "imageAlt": "心电图题干", "answer": ["K"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/torsades-de-pointes.png", "imageAlt": "心电图题干", "answer": ["F"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/r-on-t-pvc.png", "imageAlt": "心电图题干", "answer": ["X"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/first-degree-av-block.png", "imageAlt": "心电图题干", "answer": ["P"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/second-degree-av-block-mobitz-i.png", "imageAlt": "心电图题干", "answer": ["L"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/second-degree-av-block-mobitz-ii.png", "imageAlt": "心电图题干", "answer": ["S"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/third-degree-av-block.png", "imageAlt": "心电图题干", "answer": ["U"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/second-degree-sa-block-mobitz-i.png", "imageAlt": "心电图题干", "answer": ["W"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/second-degree-sa-block-mobitz-ii.png", "imageAlt": "心电图题干", "answer": ["N"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/complete-rbbb.png", "imageAlt": "心电图题干", "answer": ["C"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" },
-        { "text": "", "image": "med/ecg/complete-lbbb.png", "imageAlt": "心电图题干", "answer": ["J"], "sourceText": "心电图图片判读", "sourceY": 0, "answerMode": "单选" }
+        {
+          "text": "",
+          "image": "med/ecg/sinus-tachycardia.png",
+          "imageAlt": "II导联心电图题干",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/sinus-bradycardia.png",
+          "imageAlt": "II导联心电图题干",
+          "answer": [
+            "I"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/sinus-arrhythmia.png",
+          "imageAlt": "II导联心电图题干",
+          "answer": [
+            "E"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/atrial-premature-beat.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "G"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/junctional-premature-beat.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "M"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/psvt.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/atrial-flutter.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "Q"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/atrial-fibrillation.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/ventricular-premature-beat.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "T"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/ventricular-bigeminy.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "V"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/ventricular-trigeminy.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "O"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/coupled-ventricular-premature-beats.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "H"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/multiform-ventricular-premature-beats.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "R"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/ventricular-tachycardia.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "K"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/torsades-de-pointes.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "F"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/r-on-t-pvc.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "X"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/first-degree-av-block.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "P"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/second-degree-av-block-mobitz-i.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "L"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/second-degree-av-block-mobitz-ii.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "S"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/third-degree-av-block.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "U"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/second-degree-sa-block-mobitz-i.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "W"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/second-degree-sa-block-mobitz-ii.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "N"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/complete-rbbb.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "",
+          "image": "med/ecg/complete-lbbb.png",
+          "imageAlt": "心电图题干",
+          "answer": [
+            "J"
+          ],
+          "sourceText": "心电图图片判读",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
       ],
       "sourceText": "请根据每张心电图判断心律失常类型。",
       "reviewState": "已按第56讲讲义校对；选项顺序已固定打乱",
-      "topic": "循环",
-      "lectureIds": ["lecture-56"],
-      "lectureEvidence": { "lectureId": "lecture-56", "page": 8, "image": "med/lecture-pages/lecture-56-page-08.webp", "title": "第56讲第8页：内科含诊断 心律失常", "description": "本题组对应第56讲心律失常讲义。" }
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-56"
+      ]
     }
   ],
   "lectures": [
@@ -36393,6 +38312,6 @@
   ],
   "answerRepair": {
     "changedStems": 268,
-    "ungradedStems": 0
+    "ungradedStems": 2
   }
 }
