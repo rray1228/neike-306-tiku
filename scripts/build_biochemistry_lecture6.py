@@ -26,7 +26,7 @@ def group(index, title, options, stems, lecture_page):
         answer = [option_keys[label] for label in answer_labels]
         formatted_stems.append({
             "number": number,
-            "text": text,
+            "text": text.replace("（多选）", "").rstrip(),
             "answerRaw": "、".join(answer),
             "answer": answer,
             "answerMode": "多选" if len(answer) > 1 else "单选",

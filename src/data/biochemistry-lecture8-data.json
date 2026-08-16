@@ -144,7 +144,7 @@
         },
         {
           "number": 2,
-          "text": "二级结构：①概念 ②常见类型（多选）",
+          "text": "二级结构：①概念 ②常见类型",
           "answerRaw": "D、J、K、H、M",
           "answer": [
             "D",
@@ -175,7 +175,7 @@
         },
         {
           "number": 5,
-          "text": "属于模体 / 超二级结构的例子（多选）",
+          "text": "属于模体 / 超二级结构的例子",
           "answerRaw": "L、G、A、C、F",
           "answer": [
             "L",
@@ -279,7 +279,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "一级结构的维系键（多选）",
+          "text": "一级结构的维系键",
           "answerRaw": "C、B",
           "answer": [
             "C",
@@ -298,7 +298,7 @@
         },
         {
           "number": 3,
-          "text": "三级结构常见维系力（多选）",
+          "text": "三级结构常见维系力",
           "answerRaw": "B、G",
           "answer": [
             "B",
@@ -308,7 +308,7 @@
         },
         {
           "number": 4,
-          "text": "四级结构常见维系键（多选）",
+          "text": "四级结构常见维系键",
           "answerRaw": "A、M",
           "answer": [
             "A",
@@ -318,7 +318,7 @@
         },
         {
           "number": 5,
-          "text": "α-螺旋特点（多选）",
+          "text": "α-螺旋特点",
           "answerRaw": "K、F、E、L、J",
           "answer": [
             "K",
@@ -331,7 +331,7 @@
         },
         {
           "number": 6,
-          "text": "过多时使 α-螺旋不稳定的氨基酸（多选）",
+          "text": "过多时使 α-螺旋不稳定的氨基酸",
           "answerRaw": "I、H",
           "answer": [
             "I",
@@ -407,7 +407,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "镰形红细胞贫血：①机制 ②氨基酸改变（多选）",
+          "text": "镰形红细胞贫血：①机制 ②氨基酸改变",
           "answerRaw": "A、G",
           "answer": [
             "A",
@@ -426,7 +426,7 @@
         },
         {
           "number": 3,
-          "text": "属于分子病（多选）",
+          "text": "属于分子病",
           "answerRaw": "D、I",
           "answer": [
             "D",
@@ -436,7 +436,7 @@
         },
         {
           "number": 4,
-          "text": "属于构象病（多选）",
+          "text": "属于构象病",
           "answerRaw": "E、C、H、B",
           "answer": [
             "E",
@@ -514,7 +514,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "蛋白质水解：①破坏的结构层次 ②相关例子（多选）",
+          "text": "蛋白质水解：①破坏的结构层次 ②相关例子",
           "answerRaw": "D、C、H",
           "answer": [
             "D",
@@ -534,7 +534,7 @@
         },
         {
           "number": 3,
-          "text": "蛋白质变性后的性质改变（多选）",
+          "text": "蛋白质变性后的性质改变",
           "answerRaw": "A、E、F、G、B",
           "answer": [
             "A",
@@ -609,7 +609,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "利用分子大小分离纯化蛋白质（多选）",
+          "text": "利用分子大小分离纯化蛋白质",
           "answerRaw": "E、B、D",
           "answer": [
             "E",
@@ -620,7 +620,7 @@
         },
         {
           "number": 2,
-          "text": "利用两性解离分离纯化蛋白质（多选）",
+          "text": "利用两性解离分离纯化蛋白质",
           "answerRaw": "F、H",
           "answer": [
             "F",
@@ -630,7 +630,7 @@
         },
         {
           "number": 3,
-          "text": "利用溶解度分离纯化蛋白质（多选）",
+          "text": "利用溶解度分离纯化蛋白质",
           "answerRaw": "C、G、A",
           "answer": [
             "C",
@@ -737,7 +737,7 @@
         },
         {
           "number": 3,
-          "text": "电泳中跑得较快的因素（多选）",
+          "text": "电泳中跑得较快的因素",
           "answerRaw": "B、L、C、D",
           "answer": [
             "B",
@@ -749,7 +749,7 @@
         },
         {
           "number": 4,
-          "text": "血清蛋白电泳：①最快 ②最慢（多选）",
+          "text": "血清蛋白电泳：①最快 ②最慢",
           "answerRaw": "A、F",
           "answer": [
             "A",
@@ -881,7 +881,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "蛋白酶体降解：①需要 ②主要降解（多选）",
+          "text": "蛋白酶体降解：①需要 ②主要降解",
           "answerRaw": "I、E、N、L",
           "answer": [
             "I",
@@ -893,7 +893,7 @@
         },
         {
           "number": 2,
-          "text": "溶酶体主要降解（多选）",
+          "text": "溶酶体主要降解",
           "answerRaw": "M、K、C",
           "answer": [
             "M",
@@ -904,7 +904,7 @@
         },
         {
           "number": 3,
-          "text": "属于蛋白质体内降解途径（多选）",
+          "text": "属于蛋白质体内降解途径",
           "answerRaw": "F、A",
           "answer": [
             "F",
@@ -914,7 +914,7 @@
         },
         {
           "number": 4,
-          "text": "属于内肽酶的胰腺蛋白酶（多选）",
+          "text": "属于内肽酶的胰腺蛋白酶",
           "answerRaw": "J、B、H",
           "answer": [
             "J",
@@ -1017,7 +1017,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "血浆蛋白的性质（多选）",
+          "text": "血浆蛋白的性质",
           "answerRaw": "G、A、F、B、K",
           "answer": [
             "G",
@@ -1030,7 +1030,7 @@
         },
         {
           "number": 2,
-          "text": "血浆蛋白的功能（多选）",
+          "text": "血浆蛋白的功能",
           "answerRaw": "C、D、E、J",
           "answer": [
             "C",

@@ -105,7 +105,7 @@ def make_group(lecture_number, lecture_title, display_index, source_group, evide
             answer = [output_keys[source_labels[key]] for key in raw_answers]
         except KeyError as error:
             raise ValueError(f"Lecture {lecture_number} group {source_group['source_index']} stem {number}: unknown answer key {error}") from error
-        stems.append({"number": number, "text": text, "answerRaw": "、".join(answer), "answer": answer, "answerMode": "多选" if len(answer) > 1 else "单选"})
+        stems.append({"number": number, "text": text.replace("（多选）", "").rstrip(), "answerRaw": "、".join(answer), "answer": answer, "answerMode": "多选" if len(answer) > 1 else "单选"})
     return {
         "id": f"bio-{lecture_number:02d}-{display_index:02d}", "page": display_index,
         "title": source_group["title"], "kind": "B", "kindLabel": "B型题",

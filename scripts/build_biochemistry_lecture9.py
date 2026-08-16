@@ -91,7 +91,7 @@ def make_group(source_group, evidence_page):
         answer = [output_key[original_options[source_key]] for source_key in source_group["answers"][number]]
         stems.append({
             "number": number,
-            "text": text,
+            "text": text.replace("（多选）", "").rstrip(),
             "answerRaw": "、".join(answer),
             "answer": answer,
             "answerMode": "多选" if len(answer) > 1 else "单选",
