@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 EXPECTED_SOURCE_ANSWERS = {
-    "degenerative-spine-g01": [set("BF"), set("ADFG"), set("CDEF")],
+    "degenerative-spine-g01": [set("BF"), set("DFG"), set("CDF")],
     "degenerative-spine-g02": [set("BDHILOR"), set("ACFGJKMN"), set("BPQ"), set("BE"), set("BS")],
     "degenerative-spine-g03": [set("FG"), set("EI"), set("A"), set("CH"), set("BD")],
     "degenerative-spine-g04": [set("F"), set("A"), set("C"), set("E"), set("B"), set("D")],
@@ -29,7 +29,7 @@ def main() -> None:
 
     assert len(groups) == 9
     assert sum(len(group["stems"]) for group in groups) == 39
-    assert sum(len(group["options"]) for group in groups) == 79
+    assert sum(len(group["options"]) for group in groups) == 77
     assert payload["meta"]["lecturePagesReviewed"] == list(range(1, 11))
     assert [group["id"] for group in groups[:8]] == list(EXPECTED_SOURCE_ANSWERS)
 
@@ -49,9 +49,14 @@ def main() -> None:
         assert not any(re.search(r"\s{2,}|[|•“”‘’]", value) for value in values), f"{group['id']}: punctuation or spacing issue"
 
     for group in groups[:8]:
-        assert group["kindLabel"] == "B型题" and group["optionShuffleVersion"] == 2
+        expected_version = 3 if group["id"] == "degenerative-spine-g01" else 2
+        assert group["kindLabel"] == "B型题" and group["optionShuffleVersion"] == expected_version
         option_keys = [option["key"] for option in group["options"]]
+        option_labels = [option["label"] for option in group["options"]]
         source_keys = [option["sourceKey"] for option in group["options"]]
+        used_keys = {key for stem in group["stems"] for key in stem["answer"]}
+        assert len(option_labels) == len(set(option_labels)), f"{group['id']}: duplicate option labels"
+        assert used_keys == set(option_keys), f"{group['id']}: unused or unreachable options"
         assert source_keys != group["optionOriginalOrder"]
         assert set(source_keys) == set(group["optionOriginalOrder"])
         display_to_source = {option["key"]: option["sourceKey"] for option in group["options"]}
@@ -65,7 +70,11 @@ def main() -> None:
     assert [stem["answer"] for stem in fill["stems"]] == EXPECTED_FILL
     assert all(len(stem["answer"]) == len(stem["blankLabels"]) for stem in fill["stems"])
 
-    print({"groups": 9, "stems": 39, "options": 79, "shuffled": 8, "fill": 1, "status": "ok"})
+    imaging = groups[0]
+    assert len(imaging["options"]) == 5
+    assert not {"包含X线所见内容", "包含CT所见内容"} & {option["label"] for option in imaging["options"]}
+
+    print({"groups": 9, "stems": 39, "options": 77, "shuffled": 8, "fill": 1, "status": "ok"})
 
 
 if __name__ == "__main__":

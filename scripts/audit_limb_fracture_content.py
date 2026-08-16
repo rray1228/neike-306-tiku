@@ -12,10 +12,10 @@ EXPECTED_SOURCE_ANSWERS = {
     "limb-fracture-dislocation-g01": [set(x) for x in ["A", "D", "G", "I", "K", "A", "J", "E", "C", "B", "H", "L", "F"]],
     "limb-fracture-dislocation-g02": [set(x) for x in ["FHL", "ABGNR", "EIK", "S", "CDJO", "BPT", "MQ"]],
     "limb-fracture-dislocation-g03": [set(x) for x in ["E", "GM", "HJ", "K", "I", "BCD", "F", "AL"]],
-    "limb-fracture-dislocation-g04": [set(x) for x in ["DJKL", "GH", "BCIMO", "AEFN"]],
+    "limb-fracture-dislocation-g04": [set(x) for x in ["DJKL", "GH", "BCIMO", "ABEFN"]],
     "limb-fracture-dislocation-g05": [set(x) for x in ["A", "E", "D", "B", "C"]],
     "limb-fracture-dislocation-g06": [set(x) for x in ["A", "F", "G", "B", "J", "D", "I", "K", "H", "E", "C"]],
-    "limb-fracture-dislocation-g07": [set(x) for x in ["E", "A", "L", "J", "B", "H", "G", "H", "O", "F", "N", "I", "CDM", "K"]],
+    "limb-fracture-dislocation-g07": [set(x) for x in ["E", "A", "L", "J", "B", "H", "G", "H", "O", "F", "N", "I", "CM"]],
     "limb-fracture-dislocation-g08": [set(x) for x in ["EGI", "C", "A", "D", "JK", "N", "B", "FL", "M", "H"]],
     "limb-fracture-dislocation-g09": [set(x) for x in ["BCD", "AE", "F"]],
 }
@@ -32,8 +32,8 @@ def main() -> None:
     groups = payload["groups"]
 
     assert len(groups) == 10
-    assert sum(len(group["stems"]) for group in groups) == 86
-    assert sum(len(group["options"]) for group in groups) == 111
+    assert sum(len(group["stems"]) for group in groups) == 85
+    assert sum(len(group["options"]) for group in groups) == 109
     assert payload["meta"]["lecturePagesReviewed"] == list(range(1, 16))
     assert [group["id"] for group in groups[:9]] == list(EXPECTED_SOURCE_ANSWERS)
 
@@ -53,9 +53,20 @@ def main() -> None:
         assert not any(re.search(r"\s{2,}|[|•“”‘’]", value) for value in values), f"{group['id']}: punctuation or spacing issue"
 
     for group in groups[:9]:
-        assert group["kindLabel"] == "B型题" and group["optionShuffleVersion"] == 2
+        expected_version = 3 if group["id"] in {
+            "limb-fracture-dislocation-g03",
+            "limb-fracture-dislocation-g04",
+            "limb-fracture-dislocation-g06",
+            "limb-fracture-dislocation-g07",
+            "limb-fracture-dislocation-g08",
+        } else 2
+        assert group["kindLabel"] == "B型题" and group["optionShuffleVersion"] == expected_version
         option_keys = [option["key"] for option in group["options"]]
+        option_labels = [option["label"] for option in group["options"]]
         source_keys = [option["sourceKey"] for option in group["options"]]
+        used_keys = {key for stem in group["stems"] for key in stem["answer"]}
+        assert len(option_labels) == len(set(option_labels)), f"{group['id']}: duplicate option labels"
+        assert used_keys == set(option_keys), f"{group['id']}: unused or unreachable options"
         assert source_keys != group["optionOriginalOrder"]
         assert set(source_keys) == set(group["optionOriginalOrder"])
         display_to_source = {option["key"]: option["sourceKey"] for option in group["options"]}
@@ -69,7 +80,30 @@ def main() -> None:
     assert [stem["answer"] for stem in fill["stems"]] == EXPECTED_FILL
     assert all(len(stem["answer"]) == len(stem["blankLabels"]) for stem in fill["stems"])
 
-    print({"groups": 10, "stems": 86, "options": 111, "shuffled": 9, "fill": 1, "status": "ok"})
+    forearm, hip, femoral_neck, treatment, complications = (groups[index] for index in (2, 3, 5, 6, 7))
+    assert option_label(forearm, "K") == "先复位桡骨"
+    assert option_label(forearm, "I") == "先复位尺骨"
+    assert option_label(forearm, "J") == "需达到解剖复位"
+    assert option_label(hip, "K") == "最常见的髋关节脱位类型"
+    assert option_label(hip, "G") == "最凶险的髋关节脱位类型"
+    assert option_label(hip, "F") == "跌倒等外伤或病理性骨折"
+    assert option_label(femoral_neck, "A") == "骨折线位于股骨头下方，预后最差"
+    assert option_label(femoral_neck, "F") == "骨折线位于股骨颈中部"
+    assert option_label(femoral_neck, "G") == "骨折线位于股骨颈基底部，预后最好"
+    assert len(treatment["stems"]) == 13 and all(option["sourceKey"] not in {"D", "K"} for option in treatment["options"])
+    assert option_label(treatment, "B") == "螺钉内固定"
+    assert treatment["stems"][-1]["text"] == "三踝骨折"
+    assert any(stem["text"] == "股骨颈骨折：闭合复位后的固定方式" for stem in treatment["stems"])
+    forbidden_prefixes = ("上1/3：", "中1/3：", "下1/3：", "股骨干中1/3", "股骨干下1/3")
+    assert not any(option["label"].startswith(forbidden_prefixes) for option in complications["options"])
+    assert option_label(complications, "M") == "粉碎性骨折"
+    assert option_label(complications, "H") == "横形骨折"
+
+    print({"groups": 10, "stems": 85, "options": 109, "shuffled": 9, "fill": 1, "status": "ok"})
+
+
+def option_label(group: dict, source_key: str) -> str:
+    return next(option["label"] for option in group["options"] if option["sourceKey"] == source_key)
 
 
 if __name__ == "__main__":

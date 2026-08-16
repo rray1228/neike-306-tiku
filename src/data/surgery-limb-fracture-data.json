@@ -19,7 +19,7 @@
       14,
       15
     ],
-    "answerNote": "保持Word原有10个题组；题干、选项及答案已按第28讲逐项校对。前9组共用选项池重新固定打乱并同步重映射答案，第10组保留为数字填空题。"
+    "answerNote": "保持原题组结构并按第28讲逐项校对；删除重复总括项，合并三踝骨折重复题干，并改写直接复述题干条件的选项后同步重映射答案。第10组保留为数字填空题。"
   },
   "groups": [
     {
@@ -619,7 +619,7 @@
       "options": [
         {
           "key": "A",
-          "label": "均不稳定且发生在下段：先复位桡骨",
+          "label": "先复位桡骨",
           "sourceText": "K. 均不稳定且发生在下段：先复位桡骨",
           "sourceKey": "K",
           "ocrScore": 1
@@ -647,7 +647,7 @@
         },
         {
           "key": "E",
-          "label": "均不稳定且发生在中上段：先复位尺骨",
+          "label": "先复位尺骨",
           "sourceText": "I. 均不稳定且发生在中上段：先复位尺骨",
           "sourceKey": "I",
           "ocrScore": 1
@@ -661,7 +661,7 @@
         },
         {
           "key": "G",
-          "label": "前臂双骨折需解剖复位",
+          "label": "需达到解剖复位",
           "sourceText": "J. 前臂双骨折需解剖复位",
           "sourceKey": "J",
           "ocrScore": 1
@@ -852,7 +852,7 @@
         "L",
         "M"
       ],
-      "optionShuffleVersion": 2
+      "optionShuffleVersion": 3
     },
     {
       "id": "limb-fracture-dislocation-g04",
@@ -877,14 +877,14 @@
         },
         {
           "key": "C",
-          "label": "中心脱位最凶险",
+          "label": "最凶险的髋关节脱位类型",
           "sourceText": "G. 中心脱位最凶险",
           "sourceKey": "G",
           "ocrScore": 1
         },
         {
           "key": "D",
-          "label": "跌倒等外伤或病理性骨折，中老年骨质疏松多见",
+          "label": "跌倒等外伤或病理性骨折",
           "sourceText": "F. 跌倒等外伤或病理性骨折，中老年骨质疏松多见",
           "sourceKey": "F",
           "ocrScore": 1
@@ -898,7 +898,7 @@
         },
         {
           "key": "F",
-          "label": "后脱位最常见",
+          "label": "最常见的髋关节脱位类型",
           "sourceText": "K. 后脱位最常见",
           "sourceKey": "K",
           "ocrScore": 1
@@ -947,7 +947,7 @@
         },
         {
           "key": "M",
-          "label": "转子间压痛",
+          "label": "大转子区压痛",
           "sourceText": "A. 转子间压痛",
           "sourceKey": "A",
           "ocrScore": 1
@@ -1011,6 +1011,7 @@
           "answer": [
             "D",
             "E",
+            "G",
             "M",
             "O"
           ],
@@ -1035,7 +1036,7 @@
         "DJKL",
         "GH",
         "BCIMO",
-        "AEFN"
+        "ABEFN"
       ],
       "sourceStemNumbers": [
         "1",
@@ -1070,7 +1071,7 @@
         "N",
         "O"
       ],
-      "optionShuffleVersion": 2
+      "optionShuffleVersion": 3
     },
     {
       "id": "limb-fracture-dislocation-g05",
@@ -1255,7 +1256,7 @@
         },
         {
           "key": "F",
-          "label": "基底型，最轻",
+          "label": "骨折线位于股骨颈基底部，预后最好",
           "sourceText": "G. 基底型，最轻",
           "sourceKey": "G",
           "ocrScore": 1
@@ -1269,7 +1270,7 @@
         },
         {
           "key": "H",
-          "label": "经颈型",
+          "label": "骨折线位于股骨颈中部",
           "sourceText": "F. 经颈型",
           "sourceKey": "F",
           "ocrScore": 1
@@ -1283,7 +1284,7 @@
         },
         {
           "key": "J",
-          "label": "头下型，最重",
+          "label": "骨折线位于股骨头下方，预后最差",
           "sourceText": "A. 头下型，最重",
           "sourceKey": "A",
           "ocrScore": 1
@@ -1468,7 +1469,7 @@
         "J",
         "K"
       ],
-      "optionShuffleVersion": 2
+      "optionShuffleVersion": 3
     },
     {
       "id": "limb-fracture-dislocation-g07",
@@ -1486,97 +1487,83 @@
         },
         {
           "key": "B",
-          "label": "闭合复位＋螺钉内固定",
+          "label": "螺钉内固定",
           "sourceText": "B. 闭合复位＋螺钉内固定",
           "sourceKey": "B",
           "ocrScore": 1
         },
         {
           "key": "C",
-          "label": "切开复位＋内固定",
-          "sourceText": "D. 切开复位＋内固定",
-          "sourceKey": "D",
-          "ocrScore": 1
-        },
-        {
-          "key": "D",
           "label": "保守治疗＋膝关节伸直位固定",
           "sourceText": "O. 保守治疗＋膝关节伸直位固定",
           "sourceKey": "O",
           "ocrScore": 1
         },
         {
-          "key": "E",
+          "key": "D",
           "label": "垂直悬吊皮牵引",
           "sourceText": "G. 垂直悬吊皮牵引",
           "sourceKey": "G",
           "ocrScore": 1
         },
         {
-          "key": "F",
+          "key": "E",
           "label": "手术",
           "sourceText": "H. 手术",
           "sourceKey": "H",
           "ocrScore": 1
         },
         {
-          "key": "G",
+          "key": "F",
           "label": "外踝接骨板内固定",
           "sourceText": "M. 外踝接骨板内固定",
           "sourceKey": "M",
           "ocrScore": 1
         },
         {
-          "key": "H",
+          "key": "G",
           "label": "防旋鞋",
           "sourceText": "E. 防旋鞋",
           "sourceKey": "E",
           "ocrScore": 1
         },
         {
-          "key": "I",
+          "key": "H",
           "label": "清创＋内固定",
           "sourceText": "N. 清创＋内固定",
           "sourceKey": "N",
           "ocrScore": 1
         },
         {
-          "key": "J",
+          "key": "I",
           "label": "摘除髌骨",
           "sourceText": "F. 摘除髌骨",
           "sourceKey": "F",
           "ocrScore": 1
         },
         {
-          "key": "K",
+          "key": "J",
           "label": "全髋关节置换术",
           "sourceText": "J. 全髋关节置换术",
           "sourceKey": "J",
           "ocrScore": 1
         },
         {
-          "key": "L",
-          "label": "后踝内固定",
-          "sourceText": "K. 后踝内固定",
-          "sourceKey": "K",
-          "ocrScore": 1
-        },
-        {
-          "key": "M",
+          "key": "K",
           "label": "半髋关节/股骨头置换术",
           "sourceText": "L. 半髋关节/股骨头置换术",
           "sourceKey": "L",
           "ocrScore": 1
         },
         {
-          "key": "N",
+          "key": "L",
           "label": "皮肤/胫骨结节牵引",
           "sourceText": "A. 皮肤/胫骨结节牵引",
           "sourceKey": "A",
           "ocrScore": 1
         },
         {
-          "key": "O",
+          "key": "M",
           "label": "清创＋外固定架外固定",
           "sourceText": "I. 清创＋外固定架外固定",
           "sourceKey": "I",
@@ -1587,7 +1574,7 @@
         {
           "text": "股骨颈：术前24小时内能完成手术",
           "answer": [
-            "H"
+            "G"
           ],
           "answerMode": "单选",
           "sourceText": "股骨颈：术前24小时内能完成手术",
@@ -1597,7 +1584,7 @@
         {
           "text": "股骨颈：术前24小时内不能完成手术",
           "answer": [
-            "N"
+            "L"
           ],
           "answerMode": "单选",
           "sourceText": "股骨颈：术前24小时内不能完成手术",
@@ -1607,7 +1594,7 @@
         {
           "text": "股骨颈：合并症多、预期寿命短",
           "answer": [
-            "M"
+            "K"
           ],
           "answerMode": "单选",
           "sourceText": "股骨颈：合并症多、预期寿命短",
@@ -1617,7 +1604,7 @@
         {
           "text": "股骨颈：合并症少、预期寿命长，GardenⅢ/Ⅳ型",
           "answer": [
-            "K"
+            "J"
           ],
           "answerMode": "单选",
           "sourceText": "股骨颈：合并症少、预期寿命长，GardenⅢ/Ⅳ型",
@@ -1625,19 +1612,19 @@
           "reviewMethod": "已按第28讲第10～12页：下肢骨折治疗逐项校对并完成选项重映射"
         },
         {
-          "text": "股骨颈：闭合复位后",
+          "text": "股骨颈骨折：闭合复位后的固定方式",
           "answer": [
             "B"
           ],
           "answerMode": "单选",
-          "sourceText": "股骨颈：闭合复位后",
+          "sourceText": "股骨颈骨折：闭合复位后的固定方式",
           "ocrScore": 1,
           "reviewMethod": "已按第28讲第10～12页：下肢骨折治疗逐项校对并完成选项重映射"
         },
         {
           "text": "股骨转子间骨折",
           "answer": [
-            "F"
+            "E"
           ],
           "answerMode": "单选",
           "sourceText": "股骨转子间骨折",
@@ -1647,7 +1634,7 @@
         {
           "text": "股骨干：＜3岁",
           "answer": [
-            "E"
+            "D"
           ],
           "answerMode": "单选",
           "sourceText": "股骨干：＜3岁",
@@ -1657,7 +1644,7 @@
         {
           "text": "股骨干：＞3岁",
           "answer": [
-            "F"
+            "E"
           ],
           "answerMode": "单选",
           "sourceText": "股骨干：＞3岁",
@@ -1667,7 +1654,7 @@
         {
           "text": "髌骨：无移位或移位＜0.5cm",
           "answer": [
-            "D"
+            "C"
           ],
           "answerMode": "单选",
           "sourceText": "髌骨：无移位或移位＜0.5cm",
@@ -1677,7 +1664,7 @@
         {
           "text": "髌骨：严重粉碎且无法恢复软骨面",
           "answer": [
-            "J"
+            "I"
           ],
           "answerMode": "单选",
           "sourceText": "髌骨：严重粉碎且无法恢复软骨面",
@@ -1687,7 +1674,7 @@
         {
           "text": "开放性小腿双骨折：时间短、污染轻",
           "answer": [
-            "I"
+            "H"
           ],
           "answerMode": "单选",
           "sourceText": "开放性小腿双骨折：时间短、污染轻",
@@ -1697,7 +1684,7 @@
         {
           "text": "开放性小腿双骨折：时间长、污染重",
           "answer": [
-            "O"
+            "M"
           ],
           "answerMode": "单选",
           "sourceText": "开放性小腿双骨折：时间长、污染重",
@@ -1708,23 +1695,12 @@
           "text": "三踝骨折",
           "answer": [
             "A",
-            "C",
-            "G"
+            "F"
           ],
           "answerMode": "多选",
           "sourceText": "三踝骨折",
           "ocrScore": 1,
-          "reviewMethod": "已按第28讲第10～12页：下肢骨折治疗逐项校对并完成选项重映射"
-        },
-        {
-          "text": "后踝累及胫骨1/4～1/3关节面",
-          "answer": [
-            "L"
-          ],
-          "answerMode": "单选",
-          "sourceText": "后踝累及胫骨1/4～1/3关节面",
-          "ocrScore": 1,
-          "reviewMethod": "已按第28讲第10～12页：下肢骨折治疗逐项校对并完成选项重映射"
+          "reviewMethod": "已按第28讲第12页逐项校对；合并后踝固定条件并删除重复总括选项"
         }
       ],
       "reviewState": "已完成讲义校对",
@@ -1751,8 +1727,7 @@
         "F",
         "N",
         "I",
-        "CDM",
-        "K"
+        "CM"
       ],
       "sourceStemNumbers": [
         "1",
@@ -1767,8 +1742,7 @@
         "10",
         "11",
         "12",
-        "13",
-        "14"
+        "13"
       ],
       "parseWarnings": [],
       "hideSource": true,
@@ -1784,20 +1758,18 @@
         "A",
         "B",
         "C",
-        "D",
         "E",
         "F",
         "G",
         "H",
         "I",
         "J",
-        "K",
         "L",
         "M",
         "N",
         "O"
       ],
-      "optionShuffleVersion": 2
+      "optionShuffleVersion": 3
     },
     {
       "id": "limb-fracture-dislocation-g08",
@@ -1808,7 +1780,7 @@
       "options": [
         {
           "key": "A",
-          "label": "上1/3：下肢严重缺血坏死、骨筋膜室综合征",
+          "label": "下肢严重缺血坏死、骨筋膜室综合征",
           "sourceText": "N. 上1/3：下肢严重缺血坏死、骨筋膜室综合征",
           "sourceKey": "N",
           "ocrScore": 1
@@ -1822,7 +1794,7 @@
         },
         {
           "key": "C",
-          "label": "股骨干下1/3近折端向前、远折端向后",
+          "label": "近折端向前、远折端向后",
           "sourceText": "I. 股骨干下1/3近折端向前、远折端向后",
           "sourceKey": "I",
           "ocrScore": 1
@@ -1843,35 +1815,35 @@
         },
         {
           "key": "F",
-          "label": "股骨干中1/3向外成角",
+          "label": "向外成角",
           "sourceText": "E. 股骨干中1/3向外成角",
           "sourceKey": "E",
           "ocrScore": 1
         },
         {
           "key": "G",
-          "label": "间接暴力致横形骨折",
+          "label": "横形骨折",
           "sourceText": "H. 间接暴力致横形骨折",
           "sourceKey": "H",
           "ocrScore": 1
         },
         {
           "key": "H",
-          "label": "下1/3螺旋形骨折常伴后踝骨折",
+          "label": "螺旋形骨折常伴后踝骨折",
           "sourceText": "F. 下1/3螺旋形骨折常伴后踝骨折",
           "sourceKey": "F",
           "ocrScore": 1
         },
         {
           "key": "I",
-          "label": "直接暴力致粉碎性骨折",
+          "label": "粉碎性骨折",
           "sourceText": "M. 直接暴力致粉碎性骨折",
           "sourceKey": "M",
           "ocrScore": 1
         },
         {
           "key": "J",
-          "label": "下1/3：远端血供减弱致延迟愈合或不愈合",
+          "label": "远端血供减弱，易延迟愈合或不愈合",
           "sourceText": "L. 下1/3：远端血供减弱致延迟愈合或不愈合",
           "sourceKey": "L",
           "ocrScore": 1
@@ -1885,7 +1857,7 @@
         },
         {
           "key": "L",
-          "label": "中1/3：骨筋膜室综合征、远端血供减弱致延迟愈合或不愈合",
+          "label": "骨筋膜室综合征；远端血供减弱，易延迟愈合或不愈合",
           "sourceText": "B. 中1/3：骨筋膜室综合征、远端血供减弱致延迟愈合或不愈合",
           "sourceKey": "B",
           "ocrScore": 1
@@ -1899,7 +1871,7 @@
         },
         {
           "key": "N",
-          "label": "下1/3可损伤腘血管、胫神经、腓总神经并致骨筋膜室综合征",
+          "label": "可损伤腘血管、胫神经、腓总神经，并发骨筋膜室综合征",
           "sourceText": "C. 下1/3可损伤腘血管、胫神经、腓总神经并致骨筋膜室综合征",
           "sourceKey": "C",
           "ocrScore": 1
@@ -2072,7 +2044,7 @@
         "M",
         "N"
       ],
-      "optionShuffleVersion": 2
+      "optionShuffleVersion": 3
     },
     {
       "id": "limb-fracture-dislocation-g09",

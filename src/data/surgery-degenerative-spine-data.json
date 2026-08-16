@@ -14,7 +14,7 @@
       9,
       10
     ],
-    "answerNote": "保持Word原有9个题组；题干、选项及答案已按第27讲逐项校对。前8组共用选项池重新固定打乱并同步重映射答案，第9组保留为数字填空题。"
+    "answerNote": "保持Word原有9个题组；题干、选项及答案已按第27讲逐项校对。前8组共用选项池已固定打乱并同步重映射答案；影像学题组删除了提示答案的层级复述项，第9组保留为数字填空题。"
   },
   "groups": [
     {
@@ -26,48 +26,34 @@
       "options": [
         {
           "key": "A",
-          "label": "包含X线所见内容",
-          "sourceText": "A. 包含X线所见内容",
-          "sourceKey": "A",
-          "ocrScore": 1
-        },
-        {
-          "key": "B",
-          "label": "包含CT所见内容",
-          "sourceText": "E. 包含CT所见内容",
-          "sourceKey": "E",
-          "ocrScore": 1
-        },
-        {
-          "key": "C",
           "label": "可清楚观察神经和脊髓受压情况",
           "sourceText": "C. 可清楚观察神经和脊髓受压情况",
           "sourceKey": "C",
           "ocrScore": 1
         },
         {
-          "key": "D",
+          "key": "B",
           "label": "不能清楚观察神经和脊髓受压情况",
           "sourceText": "G. 不能清楚观察神经和脊髓受压情况",
           "sourceKey": "G",
           "ocrScore": 1
         },
         {
-          "key": "E",
+          "key": "C",
           "label": "不能观察椎间盘",
           "sourceText": "B. 不能观察椎间盘",
           "sourceKey": "B",
           "ocrScore": 1
         },
         {
-          "key": "F",
+          "key": "D",
           "label": "可见生理曲度异常、骨质增生、钙化、椎间隙狭窄等",
           "sourceText": "F. 可见生理曲度异常、骨质增生、钙化、椎间隙狭窄等",
           "sourceKey": "F",
           "ocrScore": 1
         },
         {
-          "key": "G",
+          "key": "E",
           "label": "可观察椎间盘",
           "sourceText": "D. 可观察椎间盘",
           "sourceKey": "D",
@@ -78,39 +64,37 @@
         {
           "text": "X线",
           "answer": [
-            "E",
-            "F"
+            "C",
+            "D"
           ],
           "answerMode": "多选",
           "sourceText": "X线",
           "ocrScore": 1,
-          "reviewMethod": "已按第27讲第2页：影像学检查逐项校对并完成选项重映射"
+          "reviewMethod": "已按第27讲第2页逐项校对；删除提示答案的层级复述项并同步重映射答案"
         },
         {
           "text": "CT",
           "answer": [
-            "A",
+            "B",
             "D",
-            "F",
-            "G"
+            "E"
           ],
           "answerMode": "多选",
           "sourceText": "CT",
           "ocrScore": 1,
-          "reviewMethod": "已按第27讲第2页：影像学检查逐项校对并完成选项重映射"
+          "reviewMethod": "已按第27讲第2页逐项校对；删除提示答案的层级复述项并同步重映射答案"
         },
         {
           "text": "MRI",
           "answer": [
-            "B",
-            "C",
-            "F",
-            "G"
+            "A",
+            "D",
+            "E"
           ],
           "answerMode": "多选",
           "sourceText": "MRI",
           "ocrScore": 1,
-          "reviewMethod": "已按第27讲第2页：影像学检查逐项校对并完成选项重映射"
+          "reviewMethod": "已按第27讲第2页逐项校对；删除提示答案的层级复述项并同步重映射答案"
         }
       ],
       "reviewState": "已完成讲义校对",
@@ -126,8 +110,8 @@
       "sourcePage": null,
       "sourceAnswer": [
         "BF",
-        "ADFG",
-        "CDEF"
+        "DFG",
+        "CDF"
       ],
       "sourceStemNumbers": [
         "1",
@@ -145,15 +129,13 @@
         "description": "X线、CT与MRI的可观察内容及局限已逐项复核。"
       },
       "optionOriginalOrder": [
-        "A",
         "B",
         "C",
         "D",
-        "E",
         "F",
         "G"
       ],
-      "optionShuffleVersion": 2
+      "optionShuffleVersion": 3
     },
     {
       "id": "degenerative-spine-g02",
