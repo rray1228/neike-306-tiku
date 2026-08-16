@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from shuffle_fracture_options import reshuffle_group
+
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "src/data/surgery-fracture-data.json"
@@ -30,7 +32,7 @@ def main() -> None:
         ("L", "好发于腓骨干下1/3", "疲劳骨折：好发于腓骨干下1/3"),
     ]
     group["options"] = [
-        {"key": key, "label": label, "sourceText": source_text, "ocrScore": 1.0}
+        {"key": key, "label": label, "sourceText": source_text, "sourceKey": key, "ocrScore": 1.0}
         for key, label, source_text in options
     ]
     answers = {
@@ -45,8 +47,10 @@ def main() -> None:
         stem["reviewMethod"] = "已按第29讲第1页拆分骨折类型与好发部位，固定乱序后同步重映射答案"
 
     group["sourceText"] = "；".join(label for _, label, _ in options) + "；" + "；".join(answers)
-    group["optionShuffleVersion"] = 1
+    group["optionOriginalOrder"] = [key for key, _, _ in options]
+    group["optionShuffleVersion"] = 0
     group["lectureEvidence"]["description"] = "骨折原因、各暴力类型对应骨折及疲劳骨折好发部位已拆分并逐项复核。"
+    reshuffle_group(group)
     DATA.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 

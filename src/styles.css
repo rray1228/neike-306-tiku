@@ -102,6 +102,9 @@ button:disabled { cursor: default; }
 .desktop-chapter-jump span { flex: 0 0 auto; font-weight: 700; color: #526b8e; }
 .desktop-chapter-jump select { min-width: 0; flex: 1; height: 32px; padding: 0 9px; border: 1px solid #d6e1ef; border-radius: 6px; outline: 0; color: #2b4568; background: white; font-size: 12px; }
 .desktop-chapter-jump select:focus { border-color: #8eb1e7; box-shadow: 0 0 0 3px rgba(36,102,215,.08); }
+.system-redo-button { flex: 0 0 auto; min-height: 32px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 0 10px; border: 1px solid #efc7c3; border-radius: 6px; color: #bd514a; background: #fff8f7; font-size: 11px; font-weight: 700; white-space: nowrap; }
+.system-redo-button:hover { color: #a33e38; border-color: #e4a8a3; background: #fff0ee; }
+.system-redo-button:focus-visible { outline: 3px solid rgba(217,89,80,.14); outline-offset: 1px; }
 .mobile-favorite-button.selected { color: var(--blue); border-color: #b9d0f9; background: #f2f6ff; }
 .empty-state { min-height: 360px; display: grid; place-items: center; align-content: center; gap: 12px; padding: 42px 20px; border: 1px dashed #cbd8e8; border-radius: 12px; background: rgba(255,255,255,.7); text-align: center; }
 .empty-state-icon { width: 48px; height: 48px; display: grid; place-items: center; border-radius: 14px; color: var(--blue); background: var(--blue-soft); }

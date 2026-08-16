@@ -38,10 +38,18 @@ def main() -> None:
         group_id = group["id"]
         expected_options, expected_stems = EXPECTED[group_id]
         option_keys = "".join(option["key"] for option in group["options"])
-        actual_stems = [(stem["text"], "".join(stem["answer"])) for stem in group["stems"]]
+        display_to_source = {option["key"]: option["sourceKey"] for option in group["options"]}
+        actual_stems = [
+            (stem["text"], "".join(sorted(display_to_source[key] for key in stem["answer"])))
+            for stem in group["stems"]
+        ]
         assert option_keys == expected_options, f"{group_id}: option keys drift"
         assert actual_stems == expected_stems, f"{group_id}: stems or answers drift"
         assert len(option_keys) == len(set(option_keys)), f"{group_id}: duplicate option keys"
+        source_keys = [option["sourceKey"] for option in group["options"]]
+        assert sorted(source_keys) == sorted(group["optionOriginalOrder"]), f"{group_id}: source option drift"
+        assert source_keys != group["optionOriginalOrder"], f"{group_id}: options remain in lecture order"
+        assert group["optionShuffleVersion"] == 2
         assert group["topic"] == "骨科"
         assert group["lectureIds"] == ["lecture-29"]
         assert group["reviewState"] == "已完成结构校对"
@@ -65,7 +73,7 @@ def main() -> None:
         assert (root / "public" / evidence["image"]).exists(), f"{group_id}: missing lecture image"
 
     fifth = next(group for group in groups if group["id"] == "fracture-g05")
-    assert [option["label"] for option in fifth["options"]] == [
+    assert [option["label"] for option in sorted(fifth["options"], key=lambda option: option["sourceKey"])] == [
         "局部无异常活动",
         "局部无压痛",
         "无纵向叩击痛",
@@ -73,8 +81,7 @@ def main() -> None:
     ]
 
     first = next(group for group in groups if group["id"] == "fracture-g01")
-    assert first["optionShuffleVersion"] == 1
-    assert [option["label"] for option in first["options"]] == [
+    assert [option["label"] for option in sorted(first["options"], key=lambda option: option["sourceKey"])] == [
         "肱骨髁上骨折",
         "好发于第2、3跖骨",
         "胫骨干骨折",

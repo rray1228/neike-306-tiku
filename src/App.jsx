@@ -422,6 +422,7 @@ function Icon({ name, size = 20, stroke = 'currentColor' }) {
     grid: <><rect x="4" y="4" width="6" height="6" rx="1" /><rect x="14" y="4" width="6" height="6" rx="1" /><rect x="4" y="14" width="6" height="6" rx="1" /><rect x="14" y="14" width="6" height="6" rx="1" /></>,
     alert: <><circle cx="12" cy="12" r="9" /><path d="M12 7v5M12 16h.01" /></>,
     close: <><path d="m6 6 12 12M18 6 6 18" /></>,
+    redo: <><path d="M4 8V4m0 0h4M4 4l3.1 3.1A7 7 0 1 1 5 15" /><path d="M4 4 2.8 5.2" /></>,
   }
   return <svg {...common}>{paths[name] || paths.grid}</svg>
 }
@@ -497,6 +498,19 @@ function readLocalStorage(key, fallback) {
 
 function groupStorageKey(subject, groupId) {
   return subject === 'med' ? groupId : `${subject}:${groupId}`
+}
+
+function omitStudyRecords(records, storageIds) {
+  let changed = false
+  const next = {}
+  for (const [key, value] of Object.entries(records)) {
+    if (storageIds.has(key)) {
+      changed = true
+    } else {
+      next[key] = value
+    }
+  }
+  return changed ? next : records
 }
 
 function readFavorites() {
@@ -679,6 +693,19 @@ function App() {
   const isSubmitted = Boolean(submitted[groupStorageId])
   const currentPage = content.pages.find((item) => item.page === group.page)
   const favorite = favorites.includes(groupStorageId)
+  const activeSystem = group.topic || topic
+  const systemStorageIds = useMemo(() => new Set(
+    content.groups
+      .filter((item) => item.topic === activeSystem)
+      .map((item) => groupStorageKey(subject, item.id)),
+  ), [activeSystem, content, subject])
+  const systemAttemptedGroups = useMemo(() => {
+    let total = 0
+    for (const storageId of systemStorageIds) {
+      if (selections[storageId] || submitted[storageId]) total += 1
+    }
+    return total
+  }, [selections, submitted, systemStorageIds])
 
   function updateSelection(stemIndex, key) {
     if (isSubmitted) return
@@ -726,6 +753,18 @@ function App() {
     setShowSource(false)
     setShowLectureEvidence(false)
     setShowNote(false)
+  }
+
+  function redoSystem() {
+    if (!activeSystem || activeSystem === '全部' || !systemStorageIds.size) return
+    if (typeof window !== 'undefined') {
+      const confirmed = window.confirm(`确认重做“${activeSystem}”系统？\n\n将清空该系统 ${systemStorageIds.size} 个题组的选择和提交记录；收藏与笔记会保留。`)
+      if (!confirmed) return
+    }
+    setSelections((previous) => omitStudyRecords(previous, systemStorageIds))
+    setSubmitted((previous) => omitStudyRecords(previous, systemStorageIds))
+    selectTopic(activeSystem)
+    setMobileEvidence(false)
   }
 
   function goTo(offset) {
@@ -888,6 +927,7 @@ function App() {
             <select value={chapterId} onChange={(event) => event.target.value ? selectChapter(event.target.value) : selectTopic(topic)} aria-label="选择讲义章节"><option value="">全部讲义章节</option>{chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}</select>
             <button className={`text-button mobile-favorite-button ${favoritesOnly ? 'selected' : ''}`} onClick={toggleFavoriteNotebook} aria-pressed={favoritesOnly}><Icon name={favoritesOnly ? 'bookmarkFill' : 'bookmark'} size={16} />收藏本 {currentFavoriteCount}</button>
             <button className="text-button" onClick={() => setMobileEvidence((value) => !value)}>{mobileEvidence ? '隐藏讲义' : '显示讲义'} <Icon name="file" size={16} /></button>
+            {filteredGroups.length > 0 && activeSystem !== '全部' ? <button className="text-button system-redo-button" onClick={redoSystem} title={`清空${activeSystem}系统全部作答，收藏和笔记保留`}><Icon name="redo" size={16} />重做{activeSystem}{systemAttemptedGroups ? ` · ${systemAttemptedGroups}` : ''}</button> : null}
           </div>
           <div className="desktop-chapter-jump">
             <span>章节快速跳转</span>
@@ -895,6 +935,7 @@ function App() {
               <option value="">{topic === '全部' ? '全部章节' : `${topic} · 全部章节`}</option>
               {chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}
             </select>
+            {filteredGroups.length > 0 && activeSystem !== '全部' ? <button className="system-redo-button" onClick={redoSystem} title={`清空${activeSystem}系统全部作答，收藏和笔记保留`}><Icon name="redo" size={15} />重做{activeSystem}{systemAttemptedGroups ? ` · ${systemAttemptedGroups}` : ''}</button> : null}
           </div>
           {!filteredGroups.length && <div className="empty-state"><div className="empty-state-icon"><Icon name={favoritesOnly ? 'bookmark' : 'search'} size={22} /></div><h1>{favoritesOnly ? `${notebookName}暂无题组` : '当前筛选下没有题组'}</h1><p>{favoritesOnly ? '点击题组右上角的“收藏”后，它会自动进入当前科目与章节的收藏本。' : '请尝试清除搜索词、切换章节或选择其他题型。'}</p><button className="primary-button" onClick={favoritesOnly ? showAllGroupsInChapter : () => { setTopic('全部'); setSearch(''); setTypeFilter('全部题型'); setGroupIndex(0) }}>{favoritesOnly ? '返回本章全部题组' : '显示全部题库'} <Icon name="arrow" size={17} /></button></div>}
           {filteredGroups.length > 0 && <div className="study-content" data-study-content>
