@@ -1,0 +1,1287 @@
+{
+  "meta": {
+    "title": "生物化学第 03 讲题库",
+    "sourceLabel": "生化第 03 讲学成选择题（辨析修订版）",
+    "sourcePages": 1,
+    "lectureCount": 1,
+    "groupCount": 9,
+    "stemCount": 47,
+    "correctionGroupCount": 0,
+    "generatedBy": "scripts/build_biochemistry_lecture3.py",
+    "siteIntegrated": true,
+    "lectureLinked": true,
+    "answerNote": "仅收录第 03 讲《磷酸戊糖途径、糖原、糖异生》范围内题目；选项已逐组打散并按讲义复核。"
+  },
+  "topics": [
+    "全部",
+    "磷酸戊糖途径",
+    "糖原合成与分解",
+    "糖异生",
+    "糖代谢关键酶与中间物",
+    "综合"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image": "",
+      "topic": "磷酸戊糖途径",
+      "searchText": "磷酸戊糖途径"
+    },
+    {
+      "page": 2,
+      "image": "",
+      "topic": "糖原合成与分解",
+      "searchText": "糖原合成与分解：酶的作用"
+    },
+    {
+      "page": 3,
+      "image": "",
+      "topic": "糖原合成与分解",
+      "searchText": "肝糖原与肌糖原"
+    },
+    {
+      "page": 4,
+      "image": "",
+      "topic": "糖异生",
+      "searchText": "糖异生关键酶：作用与特点"
+    },
+    {
+      "page": 5,
+      "image": "",
+      "topic": "糖异生",
+      "searchText": "酶活性调节辨析"
+    },
+    {
+      "page": 6,
+      "image": "",
+      "topic": "糖异生",
+      "searchText": "糖异生原料：氨基酸辨析"
+    },
+    {
+      "page": 7,
+      "image": "",
+      "topic": "糖异生",
+      "searchText": "糖异生：其他原料与意义"
+    },
+    {
+      "page": 8,
+      "image": "",
+      "topic": "糖代谢关键酶与中间物",
+      "searchText": "糖代谢关键酶串联"
+    },
+    {
+      "page": 9,
+      "image": "",
+      "topic": "糖代谢关键酶与中间物",
+      "searchText": "糖代谢重要中间物辨析"
+    }
+  ],
+  "groups": [
+    {
+      "id": "bio-03-01",
+      "page": 1,
+      "title": "磷酸戊糖途径",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "糖和核苷酸代谢联系枢纽",
+          "sourceText": "A. 糖和核苷酸代谢联系枢纽"
+        },
+        {
+          "key": "B",
+          "label": "蚕豆病",
+          "sourceText": "B. 蚕豆病"
+        },
+        {
+          "key": "C",
+          "label": "磷酸戊糖途径",
+          "sourceText": "C. 磷酸戊糖途径"
+        },
+        {
+          "key": "D",
+          "label": "G-6-P",
+          "sourceText": "D. G-6-P"
+        },
+        {
+          "key": "E",
+          "label": "CO₂",
+          "sourceText": "E. CO₂"
+        },
+        {
+          "key": "F",
+          "label": "胆固醇的合成和分解",
+          "sourceText": "F. 胆固醇的合成和分解"
+        },
+        {
+          "key": "G",
+          "label": "胞浆",
+          "sourceText": "G. 胞浆"
+        },
+        {
+          "key": "H",
+          "label": "2,3-BPG",
+          "sourceText": "H. 2,3-BPG"
+        },
+        {
+          "key": "I",
+          "label": "NADPH",
+          "sourceText": "I. NADPH"
+        },
+        {
+          "key": "J",
+          "label": "参与生物转化",
+          "sourceText": "J. 参与生物转化"
+        },
+        {
+          "key": "K",
+          "label": "G-6-P 脱氢酶",
+          "sourceText": "K. G-6-P 脱氢酶"
+        },
+        {
+          "key": "L",
+          "label": "5-磷酸核糖",
+          "sourceText": "L. 5-磷酸核糖"
+        },
+        {
+          "key": "M",
+          "label": "合成胆红素、脂肪酸、氨基酸、神经鞘磷脂、脱氧核苷酸、FH₄ 等",
+          "sourceText": "M. 合成胆红素、脂肪酸、氨基酸、神经鞘磷脂、脱氧核苷酸、FH₄ 等"
+        },
+        {
+          "key": "N",
+          "label": "维持 GSH 还原状态等",
+          "sourceText": "N. 维持 GSH 还原状态等"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "磷酸戊糖途径部位：",
+          "sourceText": "1. 磷酸戊糖途径部位：",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "磷酸戊糖途径起始物：",
+          "sourceText": "2. 磷酸戊糖途径起始物：",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "磷酸戊糖途径关键酶：",
+          "sourceText": "3. 磷酸戊糖途径关键酶：",
+          "answerRaw": "K",
+          "answer": [
+            "K"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "磷酸戊糖途径产物：",
+          "sourceText": "4. 磷酸戊糖途径产物：",
+          "answerRaw": "EIL",
+          "answer": [
+            "E",
+            "I",
+            "L"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "G-6-P 脱氢酶缺陷致：",
+          "sourceText": "5. G-6-P 脱氢酶缺陷致：",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "G-6-P 脱氢酶抑制剂：",
+          "sourceText": "6. G-6-P 脱氢酶抑制剂：",
+          "answerRaw": "I",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "5-磷酸核糖：",
+          "sourceText": "7. 5-磷酸核糖：",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "NADPH 的还原作用：",
+          "sourceText": "8. NADPH 的还原作用：",
+          "answerRaw": "N",
+          "answer": [
+            "N"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 9,
+          "text": "NADPH 可参与：",
+          "sourceText": "9. NADPH 可参与：",
+          "answerRaw": "J",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 10,
+          "text": "NADPH 参与的物质代谢：",
+          "sourceText": "10. NADPH 参与的物质代谢：",
+          "answerRaw": "FM",
+          "answer": [
+            "F",
+            "M"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 11,
+          "text": "体内提供 NADPH 的主要代谢途径：",
+          "sourceText": "11. 体内提供 NADPH 的主要代谢途径：",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 12,
+          "text": "能够保护血红蛋白处于还原状态的物质：",
+          "sourceText": "12. 能够保护血红蛋白处于还原状态的物质：",
+          "answerRaw": "I",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "磷酸戊糖途径",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "磷酸戊糖途径",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-03-page-01.webp",
+        "title": "第 03 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-03-02",
+      "page": 2,
+      "title": "糖原合成与分解：酶的作用",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "糖原分解的关键酶",
+          "sourceText": "A. 糖原分解的关键酶"
+        },
+        {
+          "key": "B",
+          "label": "G-1-P+UTP→UDPG+PPi",
+          "sourceText": "B. G-1-P+UTP→UDPG+PPi"
+        },
+        {
+          "key": "C",
+          "label": "糖原+Pi→G-1-P",
+          "sourceText": "C. 糖原+Pi→G-1-P"
+        },
+        {
+          "key": "D",
+          "label": "糖原合成的关键酶",
+          "sourceText": "D. 糖原合成的关键酶"
+        },
+        {
+          "key": "E",
+          "label": "G-1-P⇋G-6-P",
+          "sourceText": "E. G-1-P⇋G-6-P"
+        },
+        {
+          "key": "F",
+          "label": "UDPG→糖原+UDP",
+          "sourceText": "F. UDPG→糖原+UDP"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "磷酸葡萄糖变位酶",
+          "sourceText": "1. 磷酸葡萄糖变位酶",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "UDPG 焦磷酸化酶",
+          "sourceText": "2. UDPG 焦磷酸化酶",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "糖原合酶",
+          "sourceText": "3. 糖原合酶",
+          "answerRaw": "DF",
+          "answer": [
+            "D",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "磷酸化酶",
+          "sourceText": "4. 磷酸化酶",
+          "answerRaw": "AC",
+          "answer": [
+            "A",
+            "C"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖原合成与分解：酶的作用",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖原合成与分解",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-03-page-02.webp",
+        "title": "第 03 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-03-03",
+      "page": 3,
+      "title": "肝糖原与肌糖原",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "肾上腺素（磷酸化）",
+          "sourceText": "A. 肾上腺素（磷酸化）"
+        },
+        {
+          "key": "B",
+          "label": "补充血糖（主要是 16 小时内）",
+          "sourceText": "B. 补充血糖（主要是 16 小时内）"
+        },
+        {
+          "key": "C",
+          "label": "葡萄糖",
+          "sourceText": "C. 葡萄糖"
+        },
+        {
+          "key": "D",
+          "label": "胰高血糖素（磷酸化）",
+          "sourceText": "D. 胰高血糖素（磷酸化）"
+        },
+        {
+          "key": "E",
+          "label": "无氧氧化（缺乏 G-6-P 酶）",
+          "sourceText": "E. 无氧氧化（缺乏 G-6-P 酶）"
+        },
+        {
+          "key": "F",
+          "label": "快速为肌肉收缩供能（净生成 3 个 ATP）",
+          "sourceText": "F. 快速为肌肉收缩供能（净生成 3 个 ATP）"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "肝糖原",
+          "sourceText": "1. 肝糖原",
+          "answerRaw": "BCD",
+          "answer": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "肌糖原",
+          "sourceText": "2. 肌糖原",
+          "answerRaw": "AEF",
+          "answer": [
+            "A",
+            "E",
+            "F"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "肝糖原与肌糖原",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖原合成与分解",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-03-page-02.webp",
+        "title": "第 03 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-03-04",
+      "page": 4,
+      "title": "糖异生关键酶：作用与特点",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "胞浆",
+          "sourceText": "A. 胞浆"
+        },
+        {
+          "key": "B",
+          "label": "丙酮酸→草酰乙酸",
+          "sourceText": "B. 丙酮酸→草酰乙酸"
+        },
+        {
+          "key": "C",
+          "label": "肌肉没有",
+          "sourceText": "C. 肌肉没有"
+        },
+        {
+          "key": "D",
+          "label": "线粒体、胞浆",
+          "sourceText": "D. 线粒体、胞浆"
+        },
+        {
+          "key": "E",
+          "label": "生物素（VitB₇）",
+          "sourceText": "E. 生物素（VitB₇）"
+        },
+        {
+          "key": "F",
+          "label": "G-6-P→G",
+          "sourceText": "F. G-6-P→G"
+        },
+        {
+          "key": "G",
+          "label": "草酰乙酸→磷酸烯醇式丙酮酸",
+          "sourceText": "G. 草酰乙酸→磷酸烯醇式丙酮酸"
+        },
+        {
+          "key": "H",
+          "label": "线粒体",
+          "sourceText": "H. 线粒体"
+        },
+        {
+          "key": "I",
+          "label": "果糖-1,6-二磷酸→果糖-6-磷酸",
+          "sourceText": "I. 果糖-1,6-二磷酸→果糖-6-磷酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "丙酮酸羧化酶",
+          "sourceText": "1. 丙酮酸羧化酶",
+          "answerRaw": "BEH",
+          "answer": [
+            "B",
+            "E",
+            "H"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "磷酸烯醇式丙酮酸羧激酶",
+          "sourceText": "2. 磷酸烯醇式丙酮酸羧激酶",
+          "answerRaw": "DG",
+          "answer": [
+            "D",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "果糖双磷酸酶-1",
+          "sourceText": "3. 果糖双磷酸酶-1",
+          "answerRaw": "AI",
+          "answer": [
+            "A",
+            "I"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "G-6-P 酶",
+          "sourceText": "4. G-6-P 酶",
+          "answerRaw": "ACF",
+          "answer": [
+            "A",
+            "C",
+            "F"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖异生关键酶：作用与特点",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖异生",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-03-page-03.webp",
+        "title": "第 03 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-03-05",
+      "page": 5,
+      "title": "酶活性调节辨析",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "丙酮酸激酶",
+          "sourceText": "A. 丙酮酸激酶"
+        },
+        {
+          "key": "B",
+          "label": "果糖-2,6-二磷酸",
+          "sourceText": "B. 果糖-2,6-二磷酸"
+        },
+        {
+          "key": "C",
+          "label": "糖皮质激素",
+          "sourceText": "C. 糖皮质激素"
+        },
+        {
+          "key": "D",
+          "label": "NADPH",
+          "sourceText": "D. NADPH"
+        },
+        {
+          "key": "E",
+          "label": "磷酸烯醇式丙酮酸羧激酶",
+          "sourceText": "E. 磷酸烯醇式丙酮酸羧激酶"
+        },
+        {
+          "key": "F",
+          "label": "胰高血糖素",
+          "sourceText": "F. 胰高血糖素"
+        },
+        {
+          "key": "G",
+          "label": "乙酰 CoA（主要来自脂肪酸）",
+          "sourceText": "G. 乙酰 CoA（主要来自脂肪酸）"
+        },
+        {
+          "key": "H",
+          "label": "磷酸果糖激酶-2",
+          "sourceText": "H. 磷酸果糖激酶-2"
+        },
+        {
+          "key": "I",
+          "label": "雌激素",
+          "sourceText": "I. 雌激素"
+        },
+        {
+          "key": "J",
+          "label": "果糖-1,6-二磷酸",
+          "sourceText": "J. 果糖-1,6-二磷酸"
+        },
+        {
+          "key": "K",
+          "label": "肾上腺素",
+          "sourceText": "K. 肾上腺素"
+        },
+        {
+          "key": "L",
+          "label": "果糖双磷酸酶-2",
+          "sourceText": "L. 果糖双磷酸酶-2"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "G6PD 的抑制剂",
+          "sourceText": "1. G6PD 的抑制剂",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "丙酮酸羧化酶的激活剂",
+          "sourceText": "2. 丙酮酸羧化酶的激活剂",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "果糖双磷酸酶-1 的抑制剂",
+          "sourceText": "3. 果糖双磷酸酶-1 的抑制剂",
+          "answerRaw": "BJ",
+          "answer": [
+            "B",
+            "J"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "胰高血糖素激活的酶",
+          "sourceText": "4. 胰高血糖素激活的酶",
+          "answerRaw": "EL",
+          "answer": [
+            "E",
+            "L"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "胰高血糖素抑制的酶",
+          "sourceText": "5. 胰高血糖素抑制的酶",
+          "answerRaw": "AH",
+          "answer": [
+            "A",
+            "H"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 6,
+          "text": "以下激素中，可促使血糖升高的有",
+          "sourceText": "6. 以下激素中，可促使血糖升高的有",
+          "answerRaw": "CFK",
+          "answer": [
+            "C",
+            "F",
+            "K"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "酶活性调节辨析",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖异生",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-03-page-03.webp",
+        "title": "第 03 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-03-06",
+      "page": 6,
+      "title": "糖异生原料：氨基酸辨析",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "缬氨酸",
+          "sourceText": "A. 缬氨酸"
+        },
+        {
+          "key": "B",
+          "label": "赖氨酸",
+          "sourceText": "B. 赖氨酸"
+        },
+        {
+          "key": "C",
+          "label": "异亮氨酸",
+          "sourceText": "C. 异亮氨酸"
+        },
+        {
+          "key": "D",
+          "label": "苯丙氨酸",
+          "sourceText": "D. 苯丙氨酸"
+        },
+        {
+          "key": "E",
+          "label": "色氨酸",
+          "sourceText": "E. 色氨酸"
+        },
+        {
+          "key": "F",
+          "label": "亮氨酸",
+          "sourceText": "F. 亮氨酸"
+        },
+        {
+          "key": "G",
+          "label": "酪氨酸",
+          "sourceText": "G. 酪氨酸"
+        },
+        {
+          "key": "H",
+          "label": "苏氨酸",
+          "sourceText": "H. 苏氨酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "生酮氨基酸：只能生成酮体",
+          "sourceText": "1. 生酮氨基酸：只能生成酮体",
+          "answerRaw": "BF",
+          "answer": [
+            "B",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "生糖兼生酮氨基酸",
+          "sourceText": "2. 生糖兼生酮氨基酸",
+          "answerRaw": "CDEGH",
+          "answer": [
+            "C",
+            "D",
+            "E",
+            "G",
+            "H"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "氨基酸（除开生酮氨基酸）",
+          "sourceText": "3. 氨基酸（除开生酮氨基酸）",
+          "answerRaw": "ACDEGH",
+          "answer": [
+            "A",
+            "C",
+            "D",
+            "E",
+            "G",
+            "H"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖异生原料：氨基酸辨析",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖异生",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-03-page-03.webp",
+        "title": "第 03 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-03-07",
+      "page": 7,
+      "title": "糖异生：其他原料与意义",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "避免乳酸堆积、酸中毒、损失能源物质",
+          "sourceText": "A. 避免乳酸堆积、酸中毒、损失能源物质"
+        },
+        {
+          "key": "B",
+          "label": "步骤和耗能最少",
+          "sourceText": "B. 步骤和耗能最少"
+        },
+        {
+          "key": "C",
+          "label": "合成糖原（三碳途径）",
+          "sourceText": "C. 合成糖原（三碳途径）"
+        },
+        {
+          "key": "D",
+          "label": "氨基酸（除开生酮氨基酸）",
+          "sourceText": "D. 氨基酸（除开生酮氨基酸）"
+        },
+        {
+          "key": "E",
+          "label": "甘油",
+          "sourceText": "E. 甘油"
+        },
+        {
+          "key": "F",
+          "label": "长期饥饿时肾维持酸碱平衡",
+          "sourceText": "F. 长期饥饿时肾维持酸碱平衡"
+        },
+        {
+          "key": "G",
+          "label": "乳酸",
+          "sourceText": "G. 乳酸"
+        },
+        {
+          "key": "H",
+          "label": "空腹饥饿时肝补充血糖（主要）",
+          "sourceText": "H. 空腹饥饿时肝补充血糖（主要）"
+        },
+        {
+          "key": "I",
+          "label": "甘油经甘油激酶→α-磷酸甘油，消耗 2 个高能磷酸键",
+          "sourceText": "I. 甘油经甘油激酶→α-磷酸甘油，消耗 2 个高能磷酸键"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "糖异生的原料",
+          "sourceText": "1. 糖异生的原料",
+          "answerRaw": "DEG",
+          "answer": [
+            "D",
+            "E",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "甘油",
+          "sourceText": "2. 甘油",
+          "answerRaw": "BI",
+          "answer": [
+            "B",
+            "I"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "乳酸/Cori 循环",
+          "sourceText": "3. 乳酸/Cori 循环",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "糖异生的意义",
+          "sourceText": "4. 糖异生的意义",
+          "answerRaw": "CFH",
+          "answer": [
+            "C",
+            "F",
+            "H"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖异生：其他原料与意义",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖异生",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-03-page-03.webp",
+        "title": "第 03 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-03-08",
+      "page": 8,
+      "title": "糖代谢关键酶串联",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "果糖双磷酸酶-1",
+          "sourceText": "A. 果糖双磷酸酶-1"
+        },
+        {
+          "key": "B",
+          "label": "丙酮酸脱氢酶复合体",
+          "sourceText": "B. 丙酮酸脱氢酶复合体"
+        },
+        {
+          "key": "C",
+          "label": "糖原合酶",
+          "sourceText": "C. 糖原合酶"
+        },
+        {
+          "key": "D",
+          "label": "α-酮戊二酸脱氢酶复合体",
+          "sourceText": "D. α-酮戊二酸脱氢酶复合体"
+        },
+        {
+          "key": "E",
+          "label": "己糖激酶",
+          "sourceText": "E. 己糖激酶"
+        },
+        {
+          "key": "F",
+          "label": "G-6-P 酶（肌肉没有）",
+          "sourceText": "F. G-6-P 酶（肌肉没有）"
+        },
+        {
+          "key": "G",
+          "label": "异柠檬酸脱氢酶",
+          "sourceText": "G. 异柠檬酸脱氢酶"
+        },
+        {
+          "key": "H",
+          "label": "丙酮酸羧化酶",
+          "sourceText": "H. 丙酮酸羧化酶"
+        },
+        {
+          "key": "I",
+          "label": "丙酮酸激酶",
+          "sourceText": "I. 丙酮酸激酶"
+        },
+        {
+          "key": "J",
+          "label": "葡糖-6-磷酸脱氢酶 G6PD",
+          "sourceText": "J. 葡糖-6-磷酸脱氢酶 G6PD"
+        },
+        {
+          "key": "K",
+          "label": "柠檬酸合酶",
+          "sourceText": "K. 柠檬酸合酶"
+        },
+        {
+          "key": "L",
+          "label": "磷酸果糖激酶-1",
+          "sourceText": "L. 磷酸果糖激酶-1"
+        },
+        {
+          "key": "M",
+          "label": "磷酸化酶",
+          "sourceText": "M. 磷酸化酶"
+        },
+        {
+          "key": "N",
+          "label": "PEP 羧激酶",
+          "sourceText": "N. PEP 羧激酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "糖酵解",
+          "sourceText": "1. 糖酵解",
+          "answerRaw": "EIL",
+          "answer": [
+            "E",
+            "I",
+            "L"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "丙酮酸脱羧→乙酰 CoA",
+          "sourceText": "2. 丙酮酸脱羧→乙酰 CoA",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "三羧酸循环",
+          "sourceText": "3. 三羧酸循环",
+          "answerRaw": "DGK",
+          "answer": [
+            "D",
+            "G",
+            "K"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "磷酸戊糖途径",
+          "sourceText": "4. 磷酸戊糖途径",
+          "answerRaw": "J",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "糖原合成",
+          "sourceText": "5. 糖原合成",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "糖原分解",
+          "sourceText": "6. 糖原分解",
+          "answerRaw": "M",
+          "answer": [
+            "M"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "糖异生",
+          "sourceText": "7. 糖异生",
+          "answerRaw": "AFHN",
+          "answer": [
+            "A",
+            "F",
+            "H",
+            "N"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖代谢关键酶串联",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖代谢关键酶与中间物",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 4,
+        "image": "biochemistry/lecture-pages/lecture-03-page-04.webp",
+        "title": "第 03 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 4 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-03-09",
+      "page": 9,
+      "title": "糖代谢重要中间物辨析",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "磷酸戊糖",
+          "sourceText": "A. 磷酸戊糖"
+        },
+        {
+          "key": "B",
+          "label": "UDPG",
+          "sourceText": "B. UDPG"
+        },
+        {
+          "key": "C",
+          "label": "6-磷酸葡萄糖酸内酯",
+          "sourceText": "C. 6-磷酸葡萄糖酸内酯"
+        },
+        {
+          "key": "D",
+          "label": "G-6-P",
+          "sourceText": "D. G-6-P"
+        },
+        {
+          "key": "E",
+          "label": "果糖-1,6-二磷酸",
+          "sourceText": "E. 果糖-1,6-二磷酸"
+        },
+        {
+          "key": "F",
+          "label": "6-磷酸葡萄糖酸",
+          "sourceText": "F. 6-磷酸葡萄糖酸"
+        },
+        {
+          "key": "G",
+          "label": "F-6-P",
+          "sourceText": "G. F-6-P"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "联系糖酵解、磷酸戊糖途径、糖原合成与分解的关键物质",
+          "sourceText": "1. 联系糖酵解、磷酸戊糖途径、糖原合成与分解的关键物质",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "糖异生途径的重要中间产物是",
+          "sourceText": "2. 糖异生途径的重要中间产物是",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "糖原合成的重要中间产物是",
+          "sourceText": "3. 糖原合成的重要中间产物是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "糖酵解和磷酸戊糖途径共同的重要中间产物是",
+          "sourceText": "4. 糖酵解和磷酸戊糖途径共同的重要中间产物是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "糖原合成和糖原分解途径共同的重要中间产物是",
+          "sourceText": "5. 糖原合成和糖原分解途径共同的重要中间产物是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "糖代谢重要中间物辨析",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖代谢关键酶与中间物",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生化 磷酸戊糖途径、糖原、糖异生",
+        "page": 4,
+        "image": "biochemistry/lecture-pages/lecture-03-page-04.webp",
+        "title": "第 03 讲《生化 磷酸戊糖途径、糖原、糖异生》· 第 4 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 03 讲，并逐项复核。"
+      }
+    }
+  ],
+  "lectures": [
+    {
+      "id": "lecture-03",
+      "number": 3,
+      "title": "生化 磷酸戊糖途径、糖原、糖异生",
+      "pageCount": 6
+    }
+  ]
+}

@@ -1,0 +1,4028 @@
+{
+  "topics": [
+    "外科总论"
+  ],
+  "groups": [
+    {
+      "id": "surgery-general-p01",
+      "page": 0,
+      "title": "围术期·手术分类",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "嵌顿或绞窄腹外疝",
+          "sourceText": "A. 嵌顿或绞窄腹外疝",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "B",
+          "label": "良性肿瘤",
+          "sourceText": "B. 良性肿瘤",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "C",
+          "label": "急性完全性肠梗阻",
+          "sourceText": "C. 急性完全性肠梗阻",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "D",
+          "label": "慢性阑尾炎",
+          "sourceText": "D. 慢性阑尾炎",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        },
+        {
+          "key": "E",
+          "label": "急性消化道穿孔",
+          "sourceText": "E. 急性消化道穿孔",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "F",
+          "label": "大血管破裂",
+          "sourceText": "F. 大血管破裂",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "G",
+          "label": "胆囊结石",
+          "sourceText": "G. 胆囊结石",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "H",
+          "label": "单纯腹外疝",
+          "sourceText": "H. 单纯腹外疝",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "I",
+          "label": "恶性肿瘤",
+          "sourceText": "I. 恶性肿瘤",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        }
+      ],
+      "stems": [
+        {
+          "text": "急诊手术",
+          "answer": [
+            "A",
+            "E",
+            "C",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "急诊手术 A、E、C、F",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "限期手术",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选",
+          "sourceText": "限期手术 I",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "择期手术",
+          "answer": [
+            "B",
+            "H",
+            "D",
+            "G"
+          ],
+          "answerMode": "多选",
+          "sourceText": "择期手术 B、H、D、G",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "围术期·手术分类；A. 嵌顿或绞窄腹外疝；B. 良性肿瘤；C. 急性完全性肠梗阻；D. 慢性阑尾炎；E. 急性消化道穿孔；F. 大血管破裂；G. 胆囊结石；H. 单纯腹外疝；I. 恶性肿瘤；急诊手术 A、E、C、F；限期手术 I；择期手术 B、H、D、G",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-35-page-01.webp",
+        "title": "第35讲第1页 · 围术期",
+        "description": "本题组已按《核心精讲·围术期》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ]
+    },
+    {
+      "id": "surgery-general-p02a",
+      "page": 0,
+      "title": "围术期·术前准备（系统疾病与一般准备）",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "暂时不手术，可行TIPS、TACE等",
+          "sourceText": "A. 暂时不手术，可行TIPS、TACE等",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "B",
+          "label": "继续服用降压药，避免戒断综合征",
+          "sourceText": "B. 继续服用降压药，避免戒断综合征",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "C",
+          "label": "手术开始前",
+          "sourceText": "C. 手术开始前",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "D",
+          "label": "在有效透析后可耐受手术",
+          "sourceText": "D. 在有效透析后可耐受手术",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        }
+      ],
+      "stems": [
+        {
+          "text": "肝功能Child C级（黄疸＋腹水）",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "肝功能Child C级（黄疸＋腹水） A",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "肾功能严重损害",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "肾功能严重损害 D",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "高血压",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "高血压 B",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "备皮最佳时间",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "备皮最佳时间 C",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "围术期·术前准备（系统疾病与一般准备）；A. 暂时不手术，可行TIPS、TACE等；B. 继续服用降压药，避免戒断综合征；C. 手术开始前；D. 在有效透析后可耐受手术；肝功能Child C级（黄疸＋腹水） A；肾功能严重损害 D；高血压 B；备皮最佳时间 C",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-35-page-01.webp",
+        "title": "第35讲第1页 · 围术期",
+        "description": "本题组已按《核心精讲·围术期》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "surgery-general-p02b",
+      "page": 0,
+      "title": "围术期·术前准备数字挖空",
+      "kind": "FILL",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "text": "术前____周戒烟戒酒",
+          "answer": [
+            "4"
+          ],
+          "answerMode": "填空",
+          "sourceText": "术前____周戒烟戒酒 4",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "周"
+          ],
+          "answerDisplay": "4周",
+          "inputMode": "text"
+        },
+        {
+          "text": "脑卒中后推迟至少____周、最好____周",
+          "answer": [
+            "2",
+            "6"
+          ],
+          "answerMode": "填空",
+          "sourceText": "脑卒中后推迟至少____周、最好____周 2、6",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "至少（周）",
+            "最好（周）"
+          ],
+          "answerDisplay": "至少2周、最好6周",
+          "inputMode": "text"
+        },
+        {
+          "text": "肾功能严重损害在有效透析后____小时内可耐受手术",
+          "answer": [
+            "24"
+          ],
+          "answerMode": "填空",
+          "sourceText": "肾功能严重损害在有效透析后____小时内可耐受手术 24",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "小时"
+          ],
+          "answerDisplay": "24小时内",
+          "inputMode": "text"
+        },
+        {
+          "text": "高血压患者继续服用降压药，血压应≤____/____mmHg",
+          "answer": [
+            "140",
+            "90"
+          ],
+          "answerMode": "填空",
+          "sourceText": "高血压患者继续服用降压药，血压应≤____/____mmHg 140、90",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "收缩压",
+            "舒张压"
+          ],
+          "answerDisplay": "≤140/90mmHg",
+          "inputMode": "text"
+        },
+        {
+          "text": "NSAIDs术前____～____天停用",
+          "answer": [
+            "2",
+            "3"
+          ],
+          "answerMode": "填空",
+          "sourceText": "NSAIDs术前____～____天停用 2、3",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "2～3天",
+          "inputMode": "text"
+        },
+        {
+          "text": "阿司匹林术前____天停用",
+          "answer": [
+            "7"
+          ],
+          "answerMode": "填空",
+          "sourceText": "阿司匹林术前____天停用 7",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "天"
+          ],
+          "answerDisplay": "7天",
+          "inputMode": "text"
+        },
+        {
+          "text": "氯吡格雷术前____天停用",
+          "answer": [
+            "10"
+          ],
+          "answerMode": "填空",
+          "sourceText": "氯吡格雷术前____天停用 10",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "天"
+          ],
+          "answerDisplay": "10天",
+          "inputMode": "text"
+        },
+        {
+          "text": "血小板＜____×10⁹/L时需输血小板",
+          "answer": [
+            "50"
+          ],
+          "answerMode": "填空",
+          "sourceText": "血小板＜____×10⁹/L时需输血小板 50",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "数值"
+          ],
+          "answerDisplay": "50×10⁹/L",
+          "inputMode": "text"
+        }
+      ],
+      "sourceText": "围术期·术前准备数字挖空；术前____周戒烟戒酒 4；脑卒中后推迟至少____周、最好____周 2、6；肾功能严重损害在有效透析后____小时内可耐受手术 24；高血压患者继续服用降压药，血压应≤____/____mmHg 140、90；NSAIDs术前____～____天停用 2、3；阿司匹林术前____天停用 7；氯吡格雷术前____天停用 10；血小板＜____×10⁹/L时需输血小板 50",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-35-page-01.webp",
+        "title": "第35讲第1页 · 围术期",
+        "description": "本题组已按《核心精讲·围术期》对应页逐项复核。"
+      }
+    },
+    {
+      "id": "surgery-general-p03a",
+      "page": 0,
+      "title": "围术期·糖尿病术前准备",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "手术日晨停用",
+          "sourceText": "A. 手术日晨停用",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "B",
+          "label": "继续服至术前1天",
+          "sourceText": "B. 继续服至术前1天",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "C",
+          "label": "术前2～3天停服",
+          "sourceText": "C. 术前2～3天停服",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "D",
+          "label": "维持血糖轻度升高",
+          "sourceText": "D. 维持血糖轻度升高",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "E",
+          "label": "不必特殊准备",
+          "sourceText": "E. 不必特殊准备",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        }
+      ],
+      "stems": [
+        {
+          "text": "仅以饮食控制糖尿病",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "仅以饮食控制糖尿病 E",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "平时口服降糖药",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "平时口服降糖药 B",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "长效降糖药",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "长效降糖药 C",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "平时用胰岛素",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "平时用胰岛素 A",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "围术期血糖控制原则",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "围术期血糖控制原则 D",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "围术期·糖尿病术前准备；A. 手术日晨停用；B. 继续服至术前1天；C. 术前2～3天停服；D. 维持血糖轻度升高；E. 不必特殊准备；仅以饮食控制糖尿病 E；平时口服降糖药 B；长效降糖药 C；平时用胰岛素 A；围术期血糖控制原则 D",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-35-page-01.webp",
+        "title": "第35讲第1页 · 围术期",
+        "description": "本题组已按《核心精讲·围术期》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": "surgery-general-p03b",
+      "page": 0,
+      "title": "围术期·禁食、胃肠道与血糖数字挖空",
+      "kind": "FILL",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "text": "最短禁食时间：清饮料____小时、母乳____小时、牛奶____小时、淀粉类固体食物____小时、脂肪等肉类____小时",
+          "answer": [
+            "2",
+            "4",
+            "6",
+            "6",
+            "8"
+          ],
+          "answerMode": "填空",
+          "sourceText": "最短禁食时间：清饮料____小时、母乳____小时、牛奶____小时、淀粉类固体食物____小时、脂肪等肉类____小时 2、4、6、6、8",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "清饮料",
+            "母乳",
+            "牛奶",
+            "淀粉类",
+            "脂肪肉类"
+          ],
+          "answerDisplay": "2、4、6、6、8小时",
+          "inputMode": "text"
+        },
+        {
+          "text": "胃肠道手术术前____～____天进流食",
+          "answer": [
+            "1",
+            "2"
+          ],
+          "answerMode": "填空",
+          "sourceText": "胃肠道手术术前____～____天进流食 1、2",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "1～2天",
+          "inputMode": "text"
+        },
+        {
+          "text": "大肠手术术前____～____天进流食；术前____天和手术当天清晨灌肠",
+          "answer": [
+            "2",
+            "3",
+            "1"
+          ],
+          "answerMode": "填空",
+          "sourceText": "大肠手术术前____～____天进流食；术前____天和手术当天清晨灌肠 2、3、1",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数",
+            "灌肠（天前）"
+          ],
+          "answerDisplay": "2～3天；术前1天",
+          "inputMode": "text"
+        },
+        {
+          "text": "平时口服降糖药继续服至术前____天",
+          "answer": [
+            "1"
+          ],
+          "answerMode": "填空",
+          "sourceText": "平时口服降糖药继续服至术前____天 1",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "天"
+          ],
+          "answerDisplay": "1天",
+          "inputMode": "text"
+        },
+        {
+          "text": "长效降糖药术前____～____天停服",
+          "answer": [
+            "2",
+            "3"
+          ],
+          "answerMode": "填空",
+          "sourceText": "长效降糖药术前____～____天停服 2、3",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "2～3天",
+          "inputMode": "text"
+        },
+        {
+          "text": "围术期血糖维持在____～____mmol/L",
+          "answer": [
+            "5.6",
+            "11.2"
+          ],
+          "answerMode": "填空",
+          "sourceText": "围术期血糖维持在____～____mmol/L 5.6、11.2",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "下限",
+            "上限"
+          ],
+          "answerDisplay": "5.6～11.2mmol/L",
+          "inputMode": "text"
+        }
+      ],
+      "sourceText": "围术期·禁食、胃肠道与血糖数字挖空；最短禁食时间：清饮料____小时、母乳____小时、牛奶____小时、淀粉类固体食物____小时、脂肪等肉类____小时 2、4、6、6、8；胃肠道手术术前____～____天进流食 1、2；大肠手术术前____～____天进流食；术前____天和手术当天清晨灌肠 2、3、1；平时口服降糖药继续服至术前____天 1；长效降糖药术前____～____天停服 2、3；围术期血糖维持在____～____mmol/L 5.6、11.2",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-35-page-01.webp",
+        "title": "第35讲第1页 · 围术期",
+        "description": "本题组已按《核心精讲·围术期》对应页逐项复核。"
+      }
+    },
+    {
+      "id": "surgery-general-p04",
+      "page": 0,
+      "title": "围术期·术后体位",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "头高脚低斜坡卧位",
+          "sourceText": "A. 头高脚低斜坡卧位",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "B",
+          "label": "半坐或卧位，或头高脚低位",
+          "sourceText": "B. 半坐或卧位，或头高脚低位",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "C",
+          "label": "高半坐位",
+          "sourceText": "C. 高半坐位",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "D",
+          "label": "低半坐位",
+          "sourceText": "D. 低半坐位",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "E",
+          "label": "头和躯干抬高20～30度、下肢抬高15～20度",
+          "sourceText": "E. 头和躯干抬高20～30度、下肢抬高15～20度",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "F",
+          "label": "去枕平卧或头低卧位",
+          "sourceText": "F. 去枕平卧或头低卧位",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "G",
+          "label": "平卧、头转向一侧",
+          "sourceText": "G. 平卧、头转向一侧",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        }
+      ],
+      "stems": [
+        {
+          "text": "全麻未清醒",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选",
+          "sourceText": "全麻未清醒 G",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "腰麻",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选",
+          "sourceText": "腰麻 F",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "全麻清醒后、腰麻6小时后",
+          "answer": [
+            "A",
+            "C",
+            "D",
+            "B",
+            "E"
+          ],
+          "answerMode": "多选",
+          "sourceText": "全麻清醒后、腰麻6小时后 A、C、D、B、E",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "颅脑手术",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "颅脑手术 A",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "颈、胸手术（食管癌等）",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "颈、胸手术（食管癌等） C",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "腹部手术（胃大部切除术等）",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "腹部手术（胃大部切除术等） D",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "腹腔内有污染",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "腹腔内有污染 B",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "休克",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "休克 E",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "围术期·术后体位；A. 头高脚低斜坡卧位；B. 半坐或卧位，或头高脚低位；C. 高半坐位；D. 低半坐位；E. 头和躯干抬高20～30度、下肢抬高15～20度；F. 去枕平卧或头低卧位；G. 平卧、头转向一侧；全麻未清醒 G；腰麻 F；全麻清醒后、腰麻6小时后 A、C、D、B、E；颅脑手术 A；颈、胸手术（食管癌等） C；腹部手术（胃大部切除术等） D；腹腔内有污染 B；休克 E",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-35-page-02.webp",
+        "title": "第35讲第2页 · 围术期",
+        "description": "本题组已按《核心精讲·围术期》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "id": "surgery-general-p05",
+      "page": 0,
+      "title": "围术期·拆线与拔管数字挖空",
+      "kind": "FILL",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "text": "头面颈术后____～____天拆线",
+          "answer": [
+            "4",
+            "5"
+          ],
+          "answerMode": "填空",
+          "sourceText": "头面颈术后____～____天拆线 4、5",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "4～5天",
+          "inputMode": "text"
+        },
+        {
+          "text": "下腹或会阴术后____～____天拆线",
+          "answer": [
+            "6",
+            "7"
+          ],
+          "answerMode": "填空",
+          "sourceText": "下腹或会阴术后____～____天拆线 6、7",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "6～7天",
+          "inputMode": "text"
+        },
+        {
+          "text": "躯干其他部位术后____～____天拆线",
+          "answer": [
+            "7",
+            "9"
+          ],
+          "answerMode": "填空",
+          "sourceText": "躯干其他部位术后____～____天拆线 7、9",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "7～9天",
+          "inputMode": "text"
+        },
+        {
+          "text": "四肢术后____～____天拆线",
+          "answer": [
+            "10",
+            "12"
+          ],
+          "answerMode": "填空",
+          "sourceText": "四肢术后____～____天拆线 10、12",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "10～12天",
+          "inputMode": "text"
+        },
+        {
+          "text": "减张缝合术后____天拆线",
+          "answer": [
+            "14"
+          ],
+          "answerMode": "填空",
+          "sourceText": "减张缝合术后____天拆线 14",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "天"
+          ],
+          "answerDisplay": "14天",
+          "inputMode": "text"
+        },
+        {
+          "text": "乳胶片术后____～____天拔除",
+          "answer": [
+            "1",
+            "2"
+          ],
+          "answerMode": "填空",
+          "sourceText": "乳胶片术后____～____天拔除 1、2",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "1～2天",
+          "inputMode": "text"
+        },
+        {
+          "text": "烟卷引流术后____天拔除",
+          "answer": [
+            "3"
+          ],
+          "answerMode": "填空",
+          "sourceText": "烟卷引流术后____天拔除 3",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "天"
+          ],
+          "answerDisplay": "3天",
+          "inputMode": "text"
+        },
+        {
+          "text": "T管术后____周拔除",
+          "answer": [
+            "4"
+          ],
+          "answerMode": "填空",
+          "sourceText": "T管术后____周拔除 4",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "周"
+          ],
+          "answerDisplay": "4周",
+          "inputMode": "text"
+        }
+      ],
+      "sourceText": "围术期·拆线与拔管数字挖空；头面颈术后____～____天拆线 4、5；下腹或会阴术后____～____天拆线 6、7；躯干其他部位术后____～____天拆线 7、9；四肢术后____～____天拆线 10、12；减张缝合术后____天拆线 14；乳胶片术后____～____天拔除 1、2；烟卷引流术后____天拔除 3；T管术后____周拔除 4",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-35-page-02.webp",
+        "title": "第35讲第2页 · 围术期",
+        "description": "本题组已按《核心精讲·围术期》对应页逐项复核。"
+      }
+    },
+    {
+      "id": "surgery-general-p06",
+      "page": 0,
+      "title": "围术期·术后并发症数字挖空",
+      "kind": "FILL",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "text": "术后____～____天多考虑吸收热、输血输液等；术后____～____天感染可能大",
+          "answer": [
+            "1",
+            "4",
+            "2",
+            "7"
+          ],
+          "answerMode": "填空",
+          "sourceText": "术后____～____天多考虑吸收热、输血输液等；术后____～____天感染可能大 1、4、2、7",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "吸收热起始",
+            "吸收热结束",
+            "感染起始",
+            "感染结束"
+          ],
+          "answerDisplay": "1～4天；2～7天",
+          "inputMode": "text"
+        },
+        {
+          "text": "术后肺部并发症和死亡率仅次于____系统，居第____位",
+          "answer": [
+            "心血管",
+            "2"
+          ],
+          "answerMode": "填空",
+          "sourceText": "术后肺部并发症和死亡率仅次于____系统，居第____位 心血管、2",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "系统",
+            "位次"
+          ],
+          "answerDisplay": "心血管系统，第2位",
+          "inputMode": "text"
+        },
+        {
+          "text": "导尿量＞____ml时留置尿管____～____天",
+          "answer": [
+            "500",
+            "1",
+            "2"
+          ],
+          "answerMode": "填空",
+          "sourceText": "导尿量＞____ml时留置尿管____～____天 500、1、2",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "导尿量",
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "＞500ml；1～2天",
+          "inputMode": "text"
+        },
+        {
+          "text": "骶前神经损伤或前列腺肥大时留置尿管____～____天",
+          "answer": [
+            "4",
+            "5"
+          ],
+          "answerMode": "填空",
+          "sourceText": "骶前神经损伤或前列腺肥大时留置尿管____～____天 4、5",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "起始天数",
+            "结束天数"
+          ],
+          "answerDisplay": "4～5天",
+          "inputMode": "text"
+        },
+        {
+          "text": "腹腔手术后____小时内出现休克，应考虑内出血",
+          "answer": [
+            "24"
+          ],
+          "answerMode": "填空",
+          "sourceText": "腹腔手术后____小时内出现休克，应考虑内出血 24",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "小时"
+          ],
+          "answerDisplay": "24小时内",
+          "inputMode": "text"
+        },
+        {
+          "text": "胸腔手术引流量持续≥____ml/h，应考虑内出血",
+          "answer": [
+            "100"
+          ],
+          "answerMode": "填空",
+          "sourceText": "胸腔手术引流量持续≥____ml/h，应考虑内出血 100",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "ml/h"
+          ],
+          "answerDisplay": "100ml/h",
+          "inputMode": "text"
+        },
+        {
+          "text": "胃肠蠕动恢复：右半结肠____天、左半结肠____天、胃和空肠____～____天",
+          "answer": [
+            "2",
+            "3",
+            "2",
+            "3"
+          ],
+          "answerMode": "填空",
+          "sourceText": "胃肠蠕动恢复：右半结肠____天、左半结肠____天、胃和空肠____～____天 2、3、2、3",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "右半结肠",
+            "左半结肠",
+            "胃空肠起始",
+            "胃空肠结束"
+          ],
+          "answerDisplay": "2天、3天、2～3天",
+          "inputMode": "text"
+        }
+      ],
+      "sourceText": "围术期·术后并发症数字挖空；术后____～____天多考虑吸收热、输血输液等；术后____～____天感染可能大 1、4、2、7；术后肺部并发症和死亡率仅次于____系统，居第____位 心血管、2；导尿量＞____ml时留置尿管____～____天 500、1、2；骶前神经损伤或前列腺肥大时留置尿管____～____天 4、5；腹腔手术后____小时内出现休克，应考虑内出血 24；胸腔手术引流量持续≥____ml/h，应考虑内出血 100；胃肠蠕动恢复：右半结肠____天、左半结肠____天、胃和空肠____～____天 2、3、2、3",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-35-page-02.webp",
+        "title": "第35讲第2页 · 围术期",
+        "description": "本题组已按《核心精讲·围术期》对应页逐项复核。"
+      }
+    },
+    {
+      "id": "surgery-general-p07",
+      "page": 0,
+      "title": "围术期·切口分类",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "甲状腺手术",
+          "sourceText": "A. 甲状腺手术",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "B",
+          "label": "胃手术",
+          "sourceText": "B. 胃手术",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "C",
+          "label": "阑尾化脓穿孔行切除术",
+          "sourceText": "C. 阑尾化脓穿孔行切除术",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "D",
+          "label": "6小时内伤口清创术缝合",
+          "sourceText": "D. 6小时内伤口清创术缝合",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "E",
+          "label": "新缝合切口再度切开",
+          "sourceText": "E. 新缝合切口再度切开",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "F",
+          "label": "绞窄坏死肠管切除术",
+          "sourceText": "F. 绞窄坏死肠管切除术",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "G",
+          "label": "皮肤不易彻底消毒处（会阴）",
+          "sourceText": "G. 皮肤不易彻底消毒处（会阴）",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        }
+      ],
+      "stems": [
+        {
+          "text": "Ⅰ类清洁切口",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "Ⅰ类清洁切口 A",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "Ⅱ类可能污染切口",
+          "answer": [
+            "B",
+            "G",
+            "D",
+            "E"
+          ],
+          "answerMode": "多选",
+          "sourceText": "Ⅱ类可能污染切口 B、G、D、E",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "Ⅲ类污染切口",
+          "answer": [
+            "C",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "Ⅲ类污染切口 C、F",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "围术期·切口分类；A. 甲状腺手术；B. 胃手术；C. 阑尾化脓穿孔行切除术；D. 6小时内伤口清创术缝合；E. 新缝合切口再度切开；F. 绞窄坏死肠管切除术；G. 皮肤不易彻底消毒处（会阴）；Ⅰ类清洁切口 A；Ⅱ类可能污染切口 B、G、D、E；Ⅲ类污染切口 C、F",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-35-page-03.webp",
+        "title": "第35讲第3页 · 围术期",
+        "description": "本题组已按《核心精讲·围术期》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "id": "surgery-general-p08",
+      "page": 0,
+      "title": "围术期·切口愈合",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "有炎症、没化脓",
+          "sourceText": "A. 有炎症、没化脓",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "B",
+          "label": "优良",
+          "sourceText": "B. 优良",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "C",
+          "label": "化脓、需引流",
+          "sourceText": "C. 化脓、需引流",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        }
+      ],
+      "stems": [
+        {
+          "text": "甲级愈合",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "甲级愈合 B",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "乙级愈合",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "乙级愈合 A",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "丙级愈合",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "丙级愈合 C",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "围术期·切口愈合；A. 有炎症、没化脓；B. 优良；C. 化脓、需引流；甲级愈合 B；乙级愈合 A；丙级愈合 C",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-35-page-03.webp",
+        "title": "第35讲第3页 · 围术期",
+        "description": "本题组已按《核心精讲·围术期》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "surgery-general-p09",
+      "page": 0,
+      "title": "围术期·切口并发症",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "隆起、肿胀、血液外渗",
+          "sourceText": "A. 隆起、肿胀、血液外渗",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "B",
+          "label": "腹股沟区禁止空针抽吸",
+          "sourceText": "B. 腹股沟区禁止空针抽吸",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "C",
+          "label": "甲状腺术后引起的颈部积血有窒息危险",
+          "sourceText": "C. 甲状腺术后引起的颈部积血有窒息危险",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "D",
+          "label": "多在咳嗽、腹胀后流出淡红色液体",
+          "sourceText": "D. 多在咳嗽、腹胀后流出淡红色液体",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "E",
+          "label": "术中切断较多淋巴管（乳房、腹股沟区手术）",
+          "sourceText": "E. 术中切断较多淋巴管（乳房、腹股沟区手术）",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "F",
+          "label": "拆除缝线、敞开引流、清创、抗生素、细菌培养",
+          "sourceText": "F. 拆除缝线、敞开引流、清创、抗生素、细菌培养",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        },
+        {
+          "key": "G",
+          "label": "完全裂开：全层裂开＋肠或网膜脱出",
+          "sourceText": "G. 完全裂开：全层裂开＋肠或网膜脱出",
+          "ocrScore": 1.0,
+          "sourceKey": "J"
+        },
+        {
+          "key": "H",
+          "label": "最常见",
+          "sourceText": "H. 最常见",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "I",
+          "label": "无菌敷料覆盖切口＋减张缝合",
+          "sourceText": "I. 无菌敷料覆盖切口＋减张缝合",
+          "ocrScore": 1.0,
+          "sourceKey": "K"
+        },
+        {
+          "key": "J",
+          "label": "红肿、脓液流出",
+          "sourceText": "J. 红肿、脓液流出",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "K",
+          "label": "皮下血清肿空针抽吸＋敷料压迫",
+          "sourceText": "K. 皮下血清肿空针抽吸＋敷料压迫",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "L",
+          "label": "适当腹部加压包扎可预防",
+          "sourceText": "L. 适当腹部加压包扎可预防",
+          "ocrScore": 1.0,
+          "sourceKey": "L"
+        }
+      ],
+      "stems": [
+        {
+          "text": "切口积血",
+          "answer": [
+            "H",
+            "A",
+            "C"
+          ],
+          "answerMode": "多选",
+          "sourceText": "切口积血 H、A、C",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "切口血清肿",
+          "answer": [
+            "E",
+            "K",
+            "B"
+          ],
+          "answerMode": "多选",
+          "sourceText": "切口血清肿 E、K、B",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "切口感染",
+          "answer": [
+            "J",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "切口感染 J、F",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "切口裂开",
+          "answer": [
+            "D",
+            "G",
+            "I",
+            "L"
+          ],
+          "answerMode": "多选",
+          "sourceText": "切口裂开 D、G、I、L",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "围术期·切口并发症；A. 隆起、肿胀、血液外渗；B. 腹股沟区禁止空针抽吸；C. 甲状腺术后引起的颈部积血有窒息危险；D. 多在咳嗽、腹胀后流出淡红色液体；E. 术中切断较多淋巴管（乳房、腹股沟区手术）；F. 拆除缝线、敞开引流、清创、抗生素、细菌培养；G. 完全裂开：全层裂开＋肠或网膜脱出；H. 最常见；I. 无菌敷料覆盖切口＋减张缝合；J. 红肿、脓液流出；K. 皮下血清肿空针抽吸＋敷料压迫；L. 适当腹部加压包扎可预防；切口积血 H、A、C；切口血清肿 E、K、B；切口感染 J、F；切口裂开 D、G、I、L",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-35-page-03.webp",
+        "title": "第35讲第3页 · 围术期",
+        "description": "本题组已按《核心精讲·围术期》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ]
+    },
+    {
+      "id": "surgery-general-p10a",
+      "page": 0,
+      "title": "围术期·常考切口小结（一）",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "正中切口",
+          "sourceText": "A. 正中切口",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        },
+        {
+          "key": "B",
+          "label": "沿乳房下缘作弧形切口",
+          "sourceText": "B. 沿乳房下缘作弧形切口",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "C",
+          "label": "止血并清除血肿",
+          "sourceText": "C. 止血并清除血肿",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "D",
+          "label": "放射状切口",
+          "sourceText": "D. 放射状切口",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "E",
+          "label": "右旁正中切口",
+          "sourceText": "E. 右旁正中切口",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "F",
+          "label": "最常见于经腹直肌切口，切口感染是最常见原因",
+          "sourceText": "F. 最常见于经腹直肌切口，切口感染是最常见原因",
+          "ocrScore": 1.0,
+          "sourceKey": "J"
+        },
+        {
+          "key": "G",
+          "label": "手术并发症以切口感染最常见",
+          "sourceText": "G. 手术并发症以切口感染最常见",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "H",
+          "label": "立即床旁拆线，敞开切口",
+          "sourceText": "H. 立即床旁拆线，敞开切口",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "I",
+          "label": "即使止血充分也应放引流",
+          "sourceText": "I. 即使止血充分也应放引流",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "J",
+          "label": "沿乳晕边缘作弧形切口",
+          "sourceText": "J. 沿乳晕边缘作弧形切口",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        }
+      ],
+      "stems": [
+        {
+          "text": "甲状腺手术后切口渗血、饱满并压迫气管",
+          "answer": [
+            "H",
+            "C",
+            "I"
+          ],
+          "answerMode": "多选",
+          "sourceText": "甲状腺手术后切口渗血、饱满并压迫气管 H、C、I",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "急性乳腺炎：表浅脓肿",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "急性乳腺炎：表浅脓肿 D",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "急性乳腺炎：乳晕下脓肿",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选",
+          "sourceText": "急性乳腺炎：乳晕下脓肿 J",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "急性乳腺炎：深部或乳房后脓肿",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "急性乳腺炎：深部或乳房后脓肿 B",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "继发性腹膜炎",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "继发性腹膜炎 E",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "腹部损伤",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "腹部损伤 A",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "急性阑尾炎",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选",
+          "sourceText": "急性阑尾炎 G",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "切口疝",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选",
+          "sourceText": "切口疝 F",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "围术期·常考切口小结（一）；A. 正中切口；B. 沿乳房下缘作弧形切口；C. 止血并清除血肿；D. 放射状切口；E. 右旁正中切口；F. 最常见于经腹直肌切口，切口感染是最常见原因；G. 手术并发症以切口感染最常见；H. 立即床旁拆线，敞开切口；I. 即使止血充分也应放引流；J. 沿乳晕边缘作弧形切口；甲状腺手术后切口渗血、饱满并压迫气管 H、C、I；急性乳腺炎：表浅脓肿 D；急性乳腺炎：乳晕下脓肿 J；急性乳腺炎：深部或乳房后脓肿 B；继发性腹膜炎 E；腹部损伤 A；急性阑尾炎 G；切口疝 F",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "page": 4,
+        "image": "surgery/lecture-pages/lecture-35-page-04.webp",
+        "title": "第35讲第4页 · 围术期",
+        "description": "本题组已按《核心精讲·围术期》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ]
+    },
+    {
+      "id": "surgery-general-p10b",
+      "page": 0,
+      "title": "围术期·常考切口小结（二）",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "切口近端不及掌横纹",
+          "sourceText": "A. 切口近端不及掌横纹",
+          "ocrScore": 1.0,
+          "sourceKey": "J"
+        },
+        {
+          "key": "B",
+          "label": "切口近端不及指节横纹、远端不及甲沟1/2",
+          "sourceText": "B. 切口近端不及指节横纹、远端不及甲沟1/2",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "C",
+          "label": "指神经阻滞麻醉不加肾上腺素",
+          "sourceText": "C. 指神经阻滞麻醉不加肾上腺素",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "D",
+          "label": "脓腔较大者对口引流",
+          "sourceText": "D. 脓腔较大者对口引流",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "E",
+          "label": "下腹正中切口",
+          "sourceText": "E. 下腹正中切口",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "F",
+          "label": "严禁切开肿胀的手背",
+          "sourceText": "F. 严禁切开肿胀的手背",
+          "ocrScore": 1.0,
+          "sourceKey": "K"
+        },
+        {
+          "key": "G",
+          "label": "甲沟旁作纵行切口",
+          "sourceText": "G. 甲沟旁作纵行切口",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "H",
+          "label": "十字切口",
+          "sourceText": "H. 十字切口",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "I",
+          "label": "切口近端距腕横纹至少1.5cm",
+          "sourceText": "I. 切口近端距腕横纹至少1.5cm",
+          "ocrScore": 1.0,
+          "sourceKey": "L"
+        },
+        {
+          "key": "J",
+          "label": "末节指侧面作纵行切口",
+          "sourceText": "J. 末节指侧面作纵行切口",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "K",
+          "label": "切口超过边缘、深达筋膜并填塞脓腔",
+          "sourceText": "K. 切口超过边缘、深达筋膜并填塞脓腔",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "L",
+          "label": "去除死骨",
+          "sourceText": "L. 去除死骨",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        }
+      ],
+      "stems": [
+        {
+          "text": "腹膜外型膀胱破裂",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "腹膜外型膀胱破裂 E",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "痈",
+          "answer": [
+            "H",
+            "K"
+          ],
+          "answerMode": "多选",
+          "sourceText": "痈 H、K",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "甲沟炎",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选",
+          "sourceText": "甲沟炎 G",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "脓性指头炎",
+          "answer": [
+            "J",
+            "B",
+            "D",
+            "L",
+            "C"
+          ],
+          "answerMode": "多选",
+          "sourceText": "脓性指头炎 J、B、D、L、C",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "掌深间隙感染",
+          "answer": [
+            "A",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "掌深间隙感染 A、F",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "化脓性滑囊炎",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选",
+          "sourceText": "化脓性滑囊炎 I",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "围术期·常考切口小结（二）；A. 切口近端不及掌横纹；B. 切口近端不及指节横纹、远端不及甲沟1/2；C. 指神经阻滞麻醉不加肾上腺素；D. 脓腔较大者对口引流；E. 下腹正中切口；F. 严禁切开肿胀的手背；G. 甲沟旁作纵行切口；H. 十字切口；I. 切口近端距腕横纹至少1.5cm；J. 末节指侧面作纵行切口；K. 切口超过边缘、深达筋膜并填塞脓腔；L. 去除死骨；腹膜外型膀胱破裂 E；痈 H、K；甲沟炎 G；脓性指头炎 J、B、D、L、C；掌深间隙感染 A、F；化脓性滑囊炎 I",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "page": 5,
+        "image": "surgery/lecture-pages/lecture-35-page-05.webp",
+        "title": "第35讲第5页 · 围术期",
+        "description": "本题组已按《核心精讲·围术期》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ]
+    },
+    {
+      "id": "surgery-general-a01",
+      "page": 0,
+      "title": "麻醉·药物分类总表",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "阿托品",
+          "sourceText": "A. 阿托品",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "B",
+          "label": "纳洛酮",
+          "sourceText": "B. 纳洛酮",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "C",
+          "label": "右旋美托咪定",
+          "sourceText": "C. 右旋美托咪定",
+          "ocrScore": 1.0,
+          "sourceKey": "M"
+        },
+        {
+          "key": "D",
+          "label": "咪达唑仑/咪唑安定",
+          "sourceText": "D. 咪达唑仑/咪唑安定",
+          "ocrScore": 1.0,
+          "sourceKey": "L"
+        },
+        {
+          "key": "E",
+          "label": "东莨菪碱",
+          "sourceText": "E. 东莨菪碱",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "F",
+          "label": "异丙酚/丙泊酚",
+          "sourceText": "F. 异丙酚/丙泊酚",
+          "ocrScore": 1.0,
+          "sourceKey": "J"
+        },
+        {
+          "key": "G",
+          "label": "维库溴铵",
+          "sourceText": "G. 维库溴铵",
+          "ocrScore": 1.0,
+          "sourceKey": "O"
+        },
+        {
+          "key": "H",
+          "label": "琥珀胆碱",
+          "sourceText": "H. 琥珀胆碱",
+          "ocrScore": 1.0,
+          "sourceKey": "P"
+        },
+        {
+          "key": "I",
+          "label": "地氟烷/醚",
+          "sourceText": "I. 地氟烷/醚",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "J",
+          "label": "依托咪酯",
+          "sourceText": "J. 依托咪酯",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "K",
+          "label": "筒箭毒碱",
+          "sourceText": "K. 筒箭毒碱",
+          "ocrScore": 1.0,
+          "sourceKey": "N"
+        },
+        {
+          "key": "L",
+          "label": "氯胺酮",
+          "sourceText": "L. 氯胺酮",
+          "ocrScore": 1.0,
+          "sourceKey": "K"
+        },
+        {
+          "key": "M",
+          "label": "氧化亚氮",
+          "sourceText": "M. 氧化亚氮",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "N",
+          "label": "地西泮",
+          "sourceText": "N. 地西泮",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "O",
+          "label": "阿片类",
+          "sourceText": "O. 阿片类",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "P",
+          "label": "七氟烷/醚",
+          "sourceText": "P. 七氟烷/醚",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        }
+      ],
+      "stems": [
+        {
+          "text": "麻醉前用药",
+          "answer": [
+            "N",
+            "A",
+            "E",
+            "O"
+          ],
+          "answerMode": "多选",
+          "sourceText": "麻醉前用药 N、A、E、O",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "吸入麻醉药",
+          "answer": [
+            "M",
+            "I",
+            "P"
+          ],
+          "answerMode": "多选",
+          "sourceText": "吸入麻醉药 M、I、P",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "静脉麻醉药",
+          "answer": [
+            "J",
+            "F",
+            "L",
+            "D",
+            "C"
+          ],
+          "answerMode": "多选",
+          "sourceText": "静脉麻醉药 J、F、L、D、C",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "肌松药",
+          "answer": [
+            "K",
+            "G",
+            "H"
+          ],
+          "answerMode": "多选",
+          "sourceText": "肌松药 K、G、H",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "麻醉·药物分类总表；A. 阿托品；B. 纳洛酮；C. 右旋美托咪定；D. 咪达唑仑/咪唑安定；E. 东莨菪碱；F. 异丙酚/丙泊酚；G. 维库溴铵；H. 琥珀胆碱；I. 地氟烷/醚；J. 依托咪酯；K. 筒箭毒碱；L. 氯胺酮；M. 氧化亚氮；N. 地西泮；O. 阿片类；P. 七氟烷/醚；麻醉前用药 N、A、E、O；吸入麻醉药 M、I、P；静脉麻醉药 J、F、L、D、C；肌松药 K、G、H",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-36-page-01.webp",
+        "title": "第36讲第1页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P"
+      ]
+    },
+    {
+      "id": "surgery-general-a02",
+      "page": 0,
+      "title": "麻醉·麻醉前用药",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "镇痛镇静",
+          "sourceText": "A. 镇痛镇静",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "B",
+          "label": "M-R阻断剂",
+          "sourceText": "B. M-R阻断剂",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "C",
+          "label": "用于阿片类药物过量的解救",
+          "sourceText": "C. 用于阿片类药物过量的解救",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "D",
+          "label": "镇静",
+          "sourceText": "D. 镇静",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "E",
+          "label": "不是麻醉前用药",
+          "sourceText": "E. 不是麻醉前用药",
+          "ocrScore": 1.0,
+          "sourceKey": "J"
+        },
+        {
+          "key": "F",
+          "label": "小儿耐受性差，吗啡减少用量",
+          "sourceText": "F. 小儿耐受性差，吗啡减少用量",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "G",
+          "label": "抑制腺体分泌，减少误吸",
+          "sourceText": "G. 抑制腺体分泌，减少误吸",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "H",
+          "label": "过量导致呼吸抑制",
+          "sourceText": "H. 过量导致呼吸抑制",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        },
+        {
+          "key": "I",
+          "label": "还能镇静",
+          "sourceText": "I. 还能镇静",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "J",
+          "label": "青光眼不用",
+          "sourceText": "J. 青光眼不用",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        }
+      ],
+      "stems": [
+        {
+          "text": "地西泮",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "地西泮 D",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "阿托品",
+          "answer": [
+            "B",
+            "G",
+            "J"
+          ],
+          "answerMode": "多选",
+          "sourceText": "阿托品 B、G、J",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "东莨菪碱",
+          "answer": [
+            "B",
+            "G",
+            "I"
+          ],
+          "answerMode": "多选",
+          "sourceText": "东莨菪碱 B、G、I",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "阿片类",
+          "answer": [
+            "A",
+            "F",
+            "H"
+          ],
+          "answerMode": "多选",
+          "sourceText": "阿片类 A、F、H",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "纳洛酮",
+          "answer": [
+            "C",
+            "E"
+          ],
+          "answerMode": "多选",
+          "sourceText": "纳洛酮 C、E",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "麻醉·麻醉前用药；A. 镇痛镇静；B. M-R阻断剂；C. 用于阿片类药物过量的解救；D. 镇静；E. 不是麻醉前用药；F. 小儿耐受性差，吗啡减少用量；G. 抑制腺体分泌，减少误吸；H. 过量导致呼吸抑制；I. 还能镇静；J. 青光眼不用；地西泮 D；阿托品 B、G、J；东莨菪碱 B、G、I；阿片类 A、F、H；纳洛酮 C、E",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-36-page-01.webp",
+        "title": "第36讲第1页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ]
+    },
+    {
+      "id": "surgery-general-a03",
+      "page": 0,
+      "title": "麻醉·吸入麻醉药",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "适合心脏手术",
+          "sourceText": "A. 适合心脏手术",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "B",
+          "label": "呛咳、屏气发生率低",
+          "sourceText": "B. 呛咳、屏气发生率低",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "C",
+          "label": "禁用于肠梗阻",
+          "sourceText": "C. 禁用于肠梗阻",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "D",
+          "label": "可降血压",
+          "sourceText": "D. 可降血压",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        }
+      ],
+      "stems": [
+        {
+          "text": "氧化亚氮",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "氧化亚氮 C",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "地氟烷/醚",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "地氟烷/醚 A",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "七氟烷/醚",
+          "answer": [
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "sourceText": "七氟烷/醚 B、D",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "麻醉·吸入麻醉药；A. 适合心脏手术；B. 呛咳、屏气发生率低；C. 禁用于肠梗阻；D. 可降血压；氧化亚氮 C；地氟烷/醚 A；七氟烷/醚 B、D",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-36-page-01.webp",
+        "title": "第36讲第1页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "surgery-general-a04",
+      "page": 0,
+      "title": "麻醉·静脉麻醉药",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "可致幻觉、噩梦",
+          "sourceText": "A. 可致幻觉、噩梦",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "B",
+          "label": "升高颅压、眼压、血压",
+          "sourceText": "B. 升高颅压、眼压、血压",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "C",
+          "label": "属于苯二氮卓类药",
+          "sourceText": "C. 属于苯二氮卓类药",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        },
+        {
+          "key": "D",
+          "label": "属于中枢选择性α₂-R激动剂",
+          "sourceText": "D. 属于中枢选择性α₂-R激动剂",
+          "ocrScore": 1.0,
+          "sourceKey": "J"
+        },
+        {
+          "key": "E",
+          "label": "对心血管和呼吸有明显抑制作用",
+          "sourceText": "E. 对心血管和呼吸有明显抑制作用",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "F",
+          "label": "术前镇静",
+          "sourceText": "F. 术前镇静",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "G",
+          "label": "小儿基础麻醉常用",
+          "sourceText": "G. 小儿基础麻醉常用",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "H",
+          "label": "适合心脏手术",
+          "sourceText": "H. 适合心脏手术",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "I",
+          "label": "镇痛强",
+          "sourceText": "I. 镇痛强",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "J",
+          "label": "术中镇静",
+          "sourceText": "J. 术中镇静",
+          "ocrScore": 1.0,
+          "sourceKey": "K"
+        },
+        {
+          "key": "K",
+          "label": "可兴奋交感神经，适合休克、哮喘",
+          "sourceText": "K. 可兴奋交感神经，适合休克、哮喘",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        }
+      ],
+      "stems": [
+        {
+          "text": "依托咪酯",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选",
+          "sourceText": "依托咪酯 H",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "异丙酚/丙泊酚",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "异丙酚/丙泊酚 E",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "氯胺酮",
+          "answer": [
+            "G",
+            "I",
+            "K",
+            "A",
+            "B"
+          ],
+          "answerMode": "多选",
+          "sourceText": "氯胺酮 G、I、K、A、B",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "咪达唑仑/咪唑安定",
+          "answer": [
+            "C",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "咪达唑仑/咪唑安定 C、F",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "右旋美托咪定",
+          "answer": [
+            "D",
+            "J"
+          ],
+          "answerMode": "多选",
+          "sourceText": "右旋美托咪定 D、J",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "麻醉·静脉麻醉药；A. 可致幻觉、噩梦；B. 升高颅压、眼压、血压；C. 属于苯二氮卓类药；D. 属于中枢选择性α₂-R激动剂；E. 对心血管和呼吸有明显抑制作用；F. 术前镇静；G. 小儿基础麻醉常用；H. 适合心脏手术；I. 镇痛强；J. 术中镇静；K. 可兴奋交感神经，适合休克、哮喘；依托咪酯 H；异丙酚/丙泊酚 E；氯胺酮 G、I、K、A、B；咪达唑仑/咪唑安定 C、F；右旋美托咪定 D、J",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-36-page-01.webp",
+        "title": "第36讲第1页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ]
+    },
+    {
+      "id": "surgery-general-a05",
+      "page": 0,
+      "title": "麻醉·肌松药",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "升血钾，可致肌震颤、心律失常",
+          "sourceText": "A. 升血钾，可致肌震颤、心律失常",
+          "ocrScore": 1.0,
+          "sourceKey": "K"
+        },
+        {
+          "key": "B",
+          "label": "肌松出现前有肌纤维收缩",
+          "sourceText": "B. 肌松出现前有肌纤维收缩",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "C",
+          "label": "筒箭毒碱",
+          "sourceText": "C. 筒箭毒碱",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "D",
+          "label": "琥珀胆碱",
+          "sourceText": "D. 琥珀胆碱",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "E",
+          "label": "维库溴铵",
+          "sourceText": "E. 维库溴铵",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "F",
+          "label": "中毒时不能用新斯的明治疗",
+          "sourceText": "F. 中毒时不能用新斯的明治疗",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        },
+        {
+          "key": "G",
+          "label": "阻断终板膜N₂型ACh受体阳离子通道",
+          "sourceText": "G. 阻断终板膜N₂型ACh受体阳离子通道",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "H",
+          "label": "无麻醉作用，仅能使骨骼肌麻痹",
+          "sourceText": "H. 无麻醉作用，仅能使骨骼肌麻痹",
+          "ocrScore": 1.0,
+          "sourceKey": "L"
+        },
+        {
+          "key": "I",
+          "label": "中毒时可用新斯的明治疗",
+          "sourceText": "I. 中毒时可用新斯的明治疗",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "J",
+          "label": "维库溴铵适合心肌缺血",
+          "sourceText": "J. 维库溴铵适合心肌缺血",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "K",
+          "label": "激动终板膜N₂型ACh受体阳离子通道",
+          "sourceText": "K. 激动终板膜N₂型ACh受体阳离子通道",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "L",
+          "label": "升眼压，青光眼禁用",
+          "sourceText": "L. 升眼压，青光眼禁用",
+          "ocrScore": 1.0,
+          "sourceKey": "J"
+        }
+      ],
+      "stems": [
+        {
+          "text": "竞争性/非去极化肌松药",
+          "answer": [
+            "C",
+            "E",
+            "G",
+            "I",
+            "J",
+            "H"
+          ],
+          "answerMode": "多选",
+          "sourceText": "竞争性/非去极化肌松药 C、E、G、I、J、H",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "非竞争性/去极化肌松药",
+          "answer": [
+            "D",
+            "K",
+            "B",
+            "F",
+            "L",
+            "A",
+            "H"
+          ],
+          "answerMode": "多选",
+          "sourceText": "非竞争性/去极化肌松药 D、K、B、F、L、A、H",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "麻醉·肌松药；A. 升血钾，可致肌震颤、心律失常；B. 肌松出现前有肌纤维收缩；C. 筒箭毒碱；D. 琥珀胆碱；E. 维库溴铵；F. 中毒时不能用新斯的明治疗；G. 阻断终板膜N₂型ACh受体阳离子通道；H. 无麻醉作用，仅能使骨骼肌麻痹；I. 中毒时可用新斯的明治疗；J. 维库溴铵适合心肌缺血；K. 激动终板膜N₂型ACh受体阳离子通道；L. 升眼压，青光眼禁用；竞争性/非去极化肌松药 C、E、G、I、J、H；非竞争性/去极化肌松药 D、K、B、F、L、A、H",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-36-page-02.webp",
+        "title": "第36讲第2页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ]
+    },
+    {
+      "id": "surgery-general-a06",
+      "page": 0,
+      "title": "麻醉·局部麻醉类型",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "将穿透力强的局麻药施于黏膜表面，使其透过黏膜阻滞位于黏膜下的神经末梢",
+          "sourceText": "A. 将穿透力强的局麻药施于黏膜表面，使其透过黏膜阻滞位于黏膜下的神经末梢",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "B",
+          "label": "在手术区四周和底部注射局麻药，阻滞进入手术区的神经纤维",
+          "sourceText": "B. 在手术区四周和底部注射局麻药，阻滞进入手术区的神经纤维",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "C",
+          "label": "将局麻药逐层注射于手术区组织内，阻滞神经末梢",
+          "sourceText": "C. 将局麻药逐层注射于手术区组织内，阻滞神经末梢",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "D",
+          "label": "阻滞冲动传导",
+          "sourceText": "D. 阻滞冲动传导",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        }
+      ],
+      "stems": [
+        {
+          "text": "神经阻滞",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "神经阻滞 D",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "表面麻醉",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "表面麻醉 A",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "局部浸润麻醉",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "局部浸润麻醉 C",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "区域阻滞",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "区域阻滞 B",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "麻醉·局部麻醉类型；A. 将穿透力强的局麻药施于黏膜表面，使其透过黏膜阻滞位于黏膜下的神经末梢；B. 在手术区四周和底部注射局麻药，阻滞进入手术区的神经纤维；C. 将局麻药逐层注射于手术区组织内，阻滞神经末梢；D. 阻滞冲动传导；神经阻滞 D；表面麻醉 A；局部浸润麻醉 C；区域阻滞 B",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-36-page-02.webp",
+        "title": "第36讲第2页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "surgery-general-a07",
+      "page": 0,
+      "title": "麻醉·神经阻滞并发症",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "颈丛",
+          "sourceText": "A. 颈丛",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "B",
+          "label": "臂丛锁骨上径路",
+          "sourceText": "B. 臂丛锁骨上径路",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "C",
+          "label": "肋间",
+          "sourceText": "C. 肋间",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "D",
+          "label": "臂丛肌间沟径路",
+          "sourceText": "D. 臂丛肌间沟径路",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        }
+      ],
+      "stems": [
+        {
+          "text": "易致高位硬膜外阻滞、全脊髓麻醉",
+          "answer": [
+            "A",
+            "D"
+          ],
+          "answerMode": "多选",
+          "sourceText": "易致高位硬膜外阻滞、全脊髓麻醉 A、D",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "易致膈神经、喉返神经或颈交感神经麻痹",
+          "answer": [
+            "A",
+            "D",
+            "B"
+          ],
+          "answerMode": "多选",
+          "sourceText": "易致膈神经、喉返神经或颈交感神经麻痹 A、D、B",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "易致气胸",
+          "answer": [
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "sourceText": "易致气胸 B、C",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "麻醉·神经阻滞并发症；A. 颈丛；B. 臂丛锁骨上径路；C. 肋间；D. 臂丛肌间沟径路；易致高位硬膜外阻滞、全脊髓麻醉 A、D；易致膈神经、喉返神经或颈交感神经麻痹 A、D、B；易致气胸 B、C",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-36-page-03.webp",
+        "title": "第36讲第3页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "surgery-general-a08",
+      "page": 0,
+      "title": "麻醉·局麻药分类",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "利多卡因",
+          "sourceText": "A. 利多卡因",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "B",
+          "label": "罗哌卡因",
+          "sourceText": "B. 罗哌卡因",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "C",
+          "label": "被肝脏线粒体酶代谢",
+          "sourceText": "C. 被肝脏线粒体酶代谢",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        },
+        {
+          "key": "D",
+          "label": "过敏反应多见，但过敏性休克极少",
+          "sourceText": "D. 过敏反应多见，但过敏性休克极少",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "E",
+          "label": "丁卡因",
+          "sourceText": "E. 丁卡因",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "F",
+          "label": "普鲁卡因",
+          "sourceText": "F. 普鲁卡因",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "G",
+          "label": "被血浆假性胆碱酯酶代谢",
+          "sourceText": "G. 被血浆假性胆碱酯酶代谢",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "H",
+          "label": "布比卡因",
+          "sourceText": "H. 布比卡因",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        }
+      ],
+      "stems": [
+        {
+          "text": "酯类局麻药",
+          "answer": [
+            "F",
+            "E",
+            "D",
+            "G"
+          ],
+          "answerMode": "多选",
+          "sourceText": "酯类局麻药 F、E、D、G",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "酰胺类局麻药",
+          "answer": [
+            "A",
+            "H",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "sourceText": "酰胺类局麻药 A、H、B、C",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "麻醉·局麻药分类；A. 利多卡因；B. 罗哌卡因；C. 被肝脏线粒体酶代谢；D. 过敏反应多见，但过敏性休克极少；E. 丁卡因；F. 普鲁卡因；G. 被血浆假性胆碱酯酶代谢；H. 布比卡因；酯类局麻药 F、E、D、G；酰胺类局麻药 A、H、B、C",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-36-page-03.webp",
+        "title": "第36讲第3页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ]
+    },
+    {
+      "id": "surgery-general-a09",
+      "page": 0,
+      "title": "麻醉·局麻药作用排序",
+      "kind": "RANK",
+      "kindLabel": "排序题",
+      "options": [
+        {
+          "key": "A",
+          "label": "普鲁卡因",
+          "sourceText": "A. 普鲁卡因",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "B",
+          "label": "利多卡因",
+          "sourceText": "B. 利多卡因",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "C",
+          "label": "罗哌卡因、布比卡因",
+          "sourceText": "C. 罗哌卡因、布比卡因",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "D",
+          "label": "丁卡因",
+          "sourceText": "D. 丁卡因",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        }
+      ],
+      "stems": [
+        {
+          "text": "pKa：由大到小排序",
+          "answer": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ],
+          "answerMode": "排序",
+          "sourceText": "pKa：由大到小排序 A、D、C、B",
+          "ocrScore": 1.0,
+          "answerDisplay": "A＞D＞C＞B"
+        },
+        {
+          "text": "脂溶性：由大到小排序",
+          "answer": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ],
+          "answerMode": "排序",
+          "sourceText": "脂溶性：由大到小排序 D、C、B、A",
+          "ocrScore": 1.0,
+          "acceptedAnswers": [
+            [
+              "C",
+              "D",
+              "B",
+              "A"
+            ]
+          ],
+          "answerDisplay": "D＝C＞B＞A"
+        },
+        {
+          "text": "血浆蛋白结合率：由高到低排序",
+          "answer": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ],
+          "answerMode": "排序",
+          "sourceText": "血浆蛋白结合率：由高到低排序 C、D、B、A",
+          "ocrScore": 1.0,
+          "answerDisplay": "C＞D＞B＞A"
+        },
+        {
+          "text": "相对效能：由强到弱排序",
+          "answer": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ],
+          "answerMode": "排序",
+          "sourceText": "相对效能：由强到弱排序 D、C、B、A",
+          "ocrScore": 1.0,
+          "acceptedAnswers": [
+            [
+              "C",
+              "D",
+              "B",
+              "A"
+            ]
+          ],
+          "answerDisplay": "D＝C＞B＞A"
+        },
+        {
+          "text": "弥散性：由强到弱排序",
+          "answer": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ],
+          "answerMode": "排序",
+          "sourceText": "弥散性：由强到弱排序 B、C、A、D",
+          "ocrScore": 1.0,
+          "acceptedAnswers": [
+            [
+              "B",
+              "C",
+              "D",
+              "A"
+            ]
+          ],
+          "answerDisplay": "B＞C＞A＝D"
+        },
+        {
+          "text": "神经阻滞起效时间：由快到慢排序",
+          "answer": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ],
+          "answerMode": "排序",
+          "sourceText": "神经阻滞起效时间：由快到慢排序 B、C、D、A",
+          "ocrScore": 1.0,
+          "answerDisplay": "B＞C＞D＞A"
+        },
+        {
+          "text": "作用时间：由长到短排序",
+          "answer": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ],
+          "answerMode": "排序",
+          "sourceText": "作用时间：由长到短排序 C、D、B、A",
+          "ocrScore": 1.0,
+          "answerDisplay": "C＞D＞B＞A"
+        }
+      ],
+      "sourceText": "麻醉·局麻药作用排序；A. 普鲁卡因；B. 利多卡因；C. 罗哌卡因、布比卡因；D. 丁卡因；pKa：由大到小排序 A、D、C、B；脂溶性：由大到小排序 D、C、B、A；血浆蛋白结合率：由高到低排序 C、D、B、A；相对效能：由强到弱排序 D、C、B、A；弥散性：由强到弱排序 B、C、A、D；神经阻滞起效时间：由快到慢排序 B、C、D、A；作用时间：由长到短排序 C、D、B、A",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 4,
+        "image": "surgery/lecture-pages/lecture-36-page-04.webp",
+        "title": "第36讲第4页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "surgery-general-a10",
+      "page": 0,
+      "title": "麻醉·局麻药一次限量数字挖空",
+      "kind": "FILL",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "text": "利多卡因：表面麻醉____mg；神经阻滞和局部浸润麻醉____mg",
+          "answer": [
+            "100",
+            "400"
+          ],
+          "answerMode": "填空",
+          "sourceText": "利多卡因：表面麻醉____mg；神经阻滞和局部浸润麻醉____mg 100、400",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "表面麻醉",
+            "神经/浸润"
+          ],
+          "answerDisplay": "100mg、400mg",
+          "inputMode": "text"
+        },
+        {
+          "text": "丁卡因：表面麻醉____mg；神经阻滞____mg",
+          "answer": [
+            "40",
+            "80"
+          ],
+          "answerMode": "填空",
+          "sourceText": "丁卡因：表面麻醉____mg；神经阻滞____mg 40、80",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "表面麻醉",
+            "神经阻滞"
+          ],
+          "answerDisplay": "40mg、80mg",
+          "inputMode": "text"
+        },
+        {
+          "text": "罗哌卡因和布比卡因一次限量____mg",
+          "answer": [
+            "150"
+          ],
+          "answerMode": "填空",
+          "sourceText": "罗哌卡因和布比卡因一次限量____mg 150",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "mg"
+          ],
+          "answerDisplay": "150mg",
+          "inputMode": "text"
+        },
+        {
+          "text": "普鲁卡因一次限量____mg",
+          "answer": [
+            "1000"
+          ],
+          "answerMode": "填空",
+          "sourceText": "普鲁卡因一次限量____mg 1000",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "mg"
+          ],
+          "answerDisplay": "1000mg",
+          "inputMode": "text"
+        }
+      ],
+      "sourceText": "麻醉·局麻药一次限量数字挖空；利多卡因：表面麻醉____mg；神经阻滞和局部浸润麻醉____mg 100、400；丁卡因：表面麻醉____mg；神经阻滞____mg 40、80；罗哌卡因和布比卡因一次限量____mg 150；普鲁卡因一次限量____mg 1000",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 4,
+        "image": "surgery/lecture-pages/lecture-36-page-04.webp",
+        "title": "第36讲第4页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      }
+    },
+    {
+      "id": "surgery-general-a11a",
+      "page": 0,
+      "title": "麻醉·基础数字挖空",
+      "kind": "FILL",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "text": "麻醉前血糖＜____mmol/L，尿糖可____，尿酮须____",
+          "answer": [
+            "8.3",
+            "阳性",
+            "阴性"
+          ],
+          "answerMode": "填空",
+          "sourceText": "麻醉前血糖＜____mmol/L，尿糖可____，尿酮须____ 8.3、阳性、阴性",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "血糖",
+            "尿糖",
+            "尿酮"
+          ],
+          "answerDisplay": "＜8.3mmol/L；尿糖可阳性；尿酮须阴性",
+          "inputMode": "text"
+        },
+        {
+          "text": "气管插管导管尖至门齿距离：女性____～____cm，男性____～____cm",
+          "answer": [
+            "20",
+            "22",
+            "22",
+            "24"
+          ],
+          "answerMode": "填空",
+          "sourceText": "气管插管导管尖至门齿距离：女性____～____cm，男性____～____cm 20、22、22、24",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "女性起始",
+            "女性结束",
+            "男性起始",
+            "男性结束"
+          ],
+          "answerDisplay": "女性20～22cm，男性22～24cm",
+          "inputMode": "text"
+        }
+      ],
+      "sourceText": "麻醉·基础数字挖空；麻醉前血糖＜____mmol/L，尿糖可____，尿酮须____ 8.3、阳性、阴性；气管插管导管尖至门齿距离：女性____～____cm，男性____～____cm 20、22、22、24",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-36-page-01.webp",
+        "title": "第36讲第1页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      }
+    },
+    {
+      "id": "surgery-general-a11b",
+      "page": 0,
+      "title": "麻醉·局麻药加肾上腺素挖空",
+      "kind": "FILL",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "text": "局部浸润麻醉加肾上腺素的浓度为1∶（____～____万），即____～____μg/ml",
+          "answer": [
+            "20",
+            "40",
+            "2.5",
+            "5"
+          ],
+          "answerMode": "填空",
+          "sourceText": "局部浸润麻醉加肾上腺素的浓度为1∶（____～____万），即____～____μg/ml 20、40、2.5、5",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "比例起始",
+            "比例结束",
+            "浓度下限",
+            "浓度上限"
+          ],
+          "answerDisplay": "1∶（20～40万），即2.5～5μg/ml",
+          "inputMode": "text"
+        },
+        {
+          "text": "100ml局麻药中加入肾上腺素____～____mg",
+          "answer": [
+            "0.25",
+            "0.5"
+          ],
+          "answerMode": "填空",
+          "sourceText": "100ml局麻药中加入肾上腺素____～____mg 0.25、0.5",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "下限",
+            "上限"
+          ],
+          "answerDisplay": "0.25～0.5mg",
+          "inputMode": "text"
+        },
+        {
+          "text": "指、趾神经阻滞及阴茎阻滞不____",
+          "answer": [
+            "加肾上腺素"
+          ],
+          "answerMode": "填空",
+          "sourceText": "指、趾神经阻滞及阴茎阻滞不____ 加肾上腺素",
+          "ocrScore": 1.0,
+          "blankLabels": [
+            "原词"
+          ],
+          "answerDisplay": "加肾上腺素",
+          "inputMode": "text"
+        }
+      ],
+      "sourceText": "麻醉·局麻药加肾上腺素挖空；局部浸润麻醉加肾上腺素的浓度为1∶（____～____万），即____～____μg/ml 20、40、2.5、5；100ml局麻药中加入肾上腺素____～____mg 0.25、0.5；指、趾神经阻滞及阴茎阻滞不____ 加肾上腺素",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-36-page-02.webp",
+        "title": "第36讲第2页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      }
+    },
+    {
+      "id": "surgery-general-a12",
+      "page": 0,
+      "title": "麻醉·椎管内麻醉阻滞与消退顺序",
+      "kind": "RANK",
+      "kindLabel": "排序题",
+      "options": [
+        {
+          "key": "A",
+          "label": "交感神经",
+          "sourceText": "A. 交感神经",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "B",
+          "label": "本体感觉",
+          "sourceText": "B. 本体感觉",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "C",
+          "label": "感觉神经",
+          "sourceText": "C. 感觉神经",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "D",
+          "label": "运动神经",
+          "sourceText": "D. 运动神经",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "E",
+          "label": "副交感神经",
+          "sourceText": "E. 副交感神经",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        }
+      ],
+      "stems": [
+        {
+          "text": "阻滞顺序",
+          "answer": [
+            "A",
+            "E",
+            "C",
+            "D",
+            "B"
+          ],
+          "answerMode": "排序",
+          "sourceText": "阻滞顺序 A、E、C、D、B",
+          "ocrScore": 1.0,
+          "answerDisplay": "交感神经→副交感神经→感觉神经→运动神经→本体感觉"
+        },
+        {
+          "text": "消退顺序",
+          "answer": [
+            "B",
+            "D",
+            "C",
+            "E",
+            "A"
+          ],
+          "answerMode": "排序",
+          "sourceText": "消退顺序 B、D、C、E、A",
+          "ocrScore": 1.0,
+          "answerDisplay": "本体感觉→运动神经→感觉神经→副交感神经→交感神经"
+        }
+      ],
+      "sourceText": "麻醉·椎管内麻醉阻滞与消退顺序；A. 交感神经；B. 本体感觉；C. 感觉神经；D. 运动神经；E. 副交感神经；阻滞顺序 A、E、C、D、B；消退顺序 B、D、C、E、A",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 4,
+        "image": "surgery/lecture-pages/lecture-36-page-04.webp",
+        "title": "第36讲第4页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": "surgery-general-a13",
+      "page": 0,
+      "title": "麻醉·椎管内麻醉阻滞平面",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "乳头",
+          "sourceText": "A. 乳头",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "B",
+          "label": "剑突",
+          "sourceText": "B. 剑突",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "C",
+          "label": "耻骨联合上2～3cm或腹股沟平面",
+          "sourceText": "C. 耻骨联合上2～3cm或腹股沟平面",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "D",
+          "label": "胸骨角",
+          "sourceText": "D. 胸骨角",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "E",
+          "label": "脐",
+          "sourceText": "E. 脐",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "F",
+          "label": "肋弓",
+          "sourceText": "F. 肋弓",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        }
+      ],
+      "stems": [
+        {
+          "text": "T₂",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "T₂ D",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "T₄",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "T₄ A",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "T₆",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "T₆ B",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "T₈",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选",
+          "sourceText": "T₈ F",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "T₁₀",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "T₁₀ E",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "T₁₂",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "T₁₂ C",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "麻醉·椎管内麻醉阻滞平面；A. 乳头；B. 剑突；C. 耻骨联合上2～3cm或腹股沟平面；D. 胸骨角；E. 脐；F. 肋弓；T₂ D；T₄ A；T₆ B；T₈ F；T₁₀ E；T₁₂ C",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 4,
+        "image": "surgery/lecture-pages/lecture-36-page-04.webp",
+        "title": "第36讲第4页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    },
+    {
+      "id": "surgery-general-a14",
+      "page": 0,
+      "title": "麻醉·麻醉平面的调节",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "注药方式、病人情况等",
+          "sourceText": "A. 注药方式、病人情况等",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "B",
+          "label": "主要影响腰麻",
+          "sourceText": "B. 主要影响腰麻",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "C",
+          "label": "增加麻药容积可扩大扩散范围，提供更大的麻醉范围",
+          "sourceText": "C. 增加麻药容积可扩大扩散范围，提供更大的麻醉范围",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "D",
+          "label": "影响腰麻平面最重要的因素",
+          "sourceText": "D. 影响腰麻平面最重要的因素",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "E",
+          "label": "穿刺间隙高低是影响硬膜外阻滞平面最重要的因素",
+          "sourceText": "E. 穿刺间隙高低是影响硬膜外阻滞平面最重要的因素",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "F",
+          "label": "麻药的种类、理化性质不同，不影响麻醉平面",
+          "sourceText": "F. 麻药的种类、理化性质不同，不影响麻醉平面",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "G",
+          "label": "增加麻药浓度可使起效时间、作用时间增强",
+          "sourceText": "G. 增加麻药浓度可使起效时间、作用时间增强",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        }
+      ],
+      "stems": [
+        {
+          "text": "麻药剂量",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "麻药剂量 D",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "增加麻药容积",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "增加麻药容积 C",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "增加麻药浓度",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选",
+          "sourceText": "增加麻药浓度 G",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "病人体位调节",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "病人体位调节 B",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "穿刺间隙和导管方向",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "穿刺间隙和导管方向 E",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "麻药的种类、理化性质",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选",
+          "sourceText": "麻药的种类、理化性质 F",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "其他调节因素",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "其他调节因素 A",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "麻醉·麻醉平面的调节；A. 注药方式、病人情况等；B. 主要影响腰麻；C. 增加麻药容积可扩大扩散范围，提供更大的麻醉范围；D. 影响腰麻平面最重要的因素；E. 穿刺间隙高低是影响硬膜外阻滞平面最重要的因素；F. 麻药的种类、理化性质不同，不影响麻醉平面；G. 增加麻药浓度可使起效时间、作用时间增强；麻药剂量 D；增加麻药容积 C；增加麻药浓度 G；病人体位调节 B；穿刺间隙和导管方向 E；麻药的种类、理化性质 F；其他调节因素 A",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 5,
+        "image": "surgery/lecture-pages/lecture-36-page-05.webp",
+        "title": "第36讲第5页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "id": "surgery-general-a15",
+      "page": 0,
+      "title": "麻醉·椎管内麻醉主要并发症",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "补液扩容",
+          "sourceText": "A. 补液扩容",
+          "ocrScore": 1.0,
+          "sourceKey": "K"
+        },
+        {
+          "key": "B",
+          "label": "禁用甘露醇",
+          "sourceText": "B. 禁用甘露醇",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        },
+        {
+          "key": "C",
+          "label": "与穿刺针粗细、穿刺频率有关，平卧后减轻",
+          "sourceText": "C. 与穿刺针粗细、穿刺频率有关，平卧后减轻",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "D",
+          "label": "头痛（最常见）",
+          "sourceText": "D. 头痛（最常见）",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "E",
+          "label": "脑脊液从穿刺孔漏出致颅内压降低、颅内血管扩张",
+          "sourceText": "E. 脑脊液从穿刺孔漏出致颅内压降低、颅内血管扩张",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "F",
+          "label": "休克是绝对禁忌证",
+          "sourceText": "F. 休克是绝对禁忌证",
+          "ocrScore": 1.0,
+          "sourceKey": "J"
+        },
+        {
+          "key": "G",
+          "label": "全脊髓麻醉",
+          "sourceText": "G. 全脊髓麻醉",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "H",
+          "label": "吸氧、气管插管、补液、血管加压药等维持呼吸循环稳定",
+          "sourceText": "H. 吸氧、气管插管、补液、血管加压药等维持呼吸循环稳定",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "I",
+          "label": "血压明显下降",
+          "sourceText": "I. 血压明显下降",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "J",
+          "label": "尿潴留",
+          "sourceText": "J. 尿潴留",
+          "ocrScore": 1.0,
+          "sourceKey": "L"
+        },
+        {
+          "key": "K",
+          "label": "去枕平卧、腹带捆腹部、补液、硬膜外自体血充填",
+          "sourceText": "K. 去枕平卧、腹带捆腹部、补液、硬膜外自体血充填",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "L",
+          "label": "热敷、针灸或卡巴胆碱→导尿",
+          "sourceText": "L. 热敷、针灸或卡巴胆碱→导尿",
+          "ocrScore": 1.0,
+          "sourceKey": "M"
+        },
+        {
+          "key": "M",
+          "label": "导管置入硬膜外间隙后回抽无脑脊液，用药须给试验量3～5ml",
+          "sourceText": "M. 导管置入硬膜外间隙后回抽无脑脊液，用药须给试验量3～5ml",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        }
+      ],
+      "stems": [
+        {
+          "text": "硬膜外阻滞",
+          "answer": [
+            "G",
+            "H",
+            "M"
+          ],
+          "answerMode": "多选",
+          "sourceText": "硬膜外阻滞 G、H、M",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "腰麻",
+          "answer": [
+            "D",
+            "E",
+            "C",
+            "K",
+            "B",
+            "I",
+            "F",
+            "A",
+            "J",
+            "L"
+          ],
+          "answerMode": "多选",
+          "sourceText": "腰麻 D、E、C、K、B、I、F、A、J、L",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "麻醉·椎管内麻醉主要并发症；A. 补液扩容；B. 禁用甘露醇；C. 与穿刺针粗细、穿刺频率有关，平卧后减轻；D. 头痛（最常见）；E. 脑脊液从穿刺孔漏出致颅内压降低、颅内血管扩张；F. 休克是绝对禁忌证；G. 全脊髓麻醉；H. 吸氧、气管插管、补液、血管加压药等维持呼吸循环稳定；I. 血压明显下降；J. 尿潴留；K. 去枕平卧、腹带捆腹部、补液、硬膜外自体血充填；L. 热敷、针灸或卡巴胆碱→导尿；M. 导管置入硬膜外间隙后回抽无脑脊液，用药须给试验量3～5ml；硬膜外阻滞 G、H、M；腰麻 D、E、C、K、B、I、F、A、J、L",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 5,
+        "image": "surgery/lecture-pages/lecture-36-page-05.webp",
+        "title": "第36讲第5页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    {
+      "id": "surgery-general-a16",
+      "page": 0,
+      "title": "麻醉·骶管麻醉与鞍区麻醉",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "侧卧、俯卧位",
+          "sourceText": "A. 侧卧、俯卧位",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "B",
+          "label": "蛛网膜下腔麻醉",
+          "sourceText": "B. 蛛网膜下腔麻醉",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "C",
+          "label": "头痛",
+          "sourceText": "C. 头痛",
+          "ocrScore": 1.0,
+          "sourceKey": "K"
+        },
+        {
+          "key": "D",
+          "label": "阻滞骶脊神经",
+          "sourceText": "D. 阻滞骶脊神经",
+          "ocrScore": 1.0,
+          "sourceKey": "M"
+        },
+        {
+          "key": "E",
+          "label": "全脊髓麻醉",
+          "sourceText": "E. 全脊髓麻醉",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "F",
+          "label": "阻滞骶尾神经",
+          "sourceText": "F. 阻滞骶尾神经",
+          "ocrScore": 1.0,
+          "sourceKey": "N"
+        },
+        {
+          "key": "G",
+          "label": "可用于肛门、会阴部手术（除睾丸手术）",
+          "sourceText": "G. 可用于肛门、会阴部手术（除睾丸手术）",
+          "ocrScore": 1.0,
+          "sourceKey": "L"
+        },
+        {
+          "key": "H",
+          "label": "马尾综合征（二便障碍）",
+          "sourceText": "H. 马尾综合征（二便障碍）",
+          "ocrScore": 1.0,
+          "sourceKey": "J"
+        },
+        {
+          "key": "I",
+          "label": "L₃～L₅椎体",
+          "sourceText": "I. L₃～L₅椎体",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "J",
+          "label": "骶管裂孔",
+          "sourceText": "J. 骶管裂孔",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "K",
+          "label": "尿潴留",
+          "sourceText": "K. 尿潴留",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "L",
+          "label": "坐位",
+          "sourceText": "L. 坐位",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "M",
+          "label": "局麻药毒性反应",
+          "sourceText": "M. 局麻药毒性反应",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        },
+        {
+          "key": "N",
+          "label": "硬膜外麻醉",
+          "sourceText": "N. 硬膜外麻醉",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        }
+      ],
+      "stems": [
+        {
+          "text": "骶管麻醉",
+          "answer": [
+            "N",
+            "A",
+            "J",
+            "E",
+            "M",
+            "K",
+            "G",
+            "D"
+          ],
+          "answerMode": "多选",
+          "sourceText": "骶管麻醉 N、A、J、E、M、K、G、D",
+          "ocrScore": 1.0
+        },
+        {
+          "text": "鞍区麻醉",
+          "answer": [
+            "B",
+            "L",
+            "I",
+            "K",
+            "H",
+            "C",
+            "G",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "鞍区麻醉 B、L、I、K、H、C、G、F",
+          "ocrScore": 1.0
+        }
+      ],
+      "sourceText": "麻醉·骶管麻醉与鞍区麻醉；A. 侧卧、俯卧位；B. 蛛网膜下腔麻醉；C. 头痛；D. 阻滞骶脊神经；E. 全脊髓麻醉；F. 阻滞骶尾神经；G. 可用于肛门、会阴部手术（除睾丸手术）；H. 马尾综合征（二便障碍）；I. L₃～L₅椎体；J. 骶管裂孔；K. 尿潴留；L. 坐位；M. 局麻药毒性反应；N. 硬膜外麻醉；骶管麻醉 N、A、J、E、M、K、G、D；鞍区麻醉 B、L、I、K、H、C、G、F",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "外科总论",
+      "hideSource": true,
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 5,
+        "image": "surgery/lecture-pages/lecture-36-page-05.webp",
+        "title": "第36讲第5页 · 麻醉",
+        "description": "本题组已按《核心精讲·麻醉》对应页逐项复核。"
+      },
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ]
+    }
+  ]
+}

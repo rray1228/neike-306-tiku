@@ -1,0 +1,1167 @@
+{
+  "meta": {
+    "title": "运动系统慢性损伤学成选择题",
+    "lectureId": "lecture-21",
+    "lecturePagesReviewed": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "answerNote": "保持Word原有5个题组；剔除第二组中无任何对应选项、无法作答的髌骨软骨软化症空题干。其余题干、选项与答案已按第21讲逐项校对，选项固定打乱并同步重映射答案。"
+  },
+  "groups": [
+    {
+      "id": "chronic-injury-g01",
+      "page": 0,
+      "title": "一般治疗原则",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "选择性COX-2抑制剂塞来昔布、美洛昔康",
+          "sourceText": "D. 选择性COX-2抑制剂塞来昔布、美洛昔康",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "临床观察、理疗",
+          "sourceText": "A. 临床观察、理疗",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "糖皮质激素：不能多次用",
+          "sourceText": "F. 糖皮质激素：不能多次用",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "NSAIDs：短期间断用",
+          "sourceText": "C. NSAIDs：短期间断用",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "手术",
+          "sourceText": "G. 手术",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "NSAIDs：单独用",
+          "sourceText": "B. NSAIDs：单独用",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "减少胃黏膜损害",
+          "sourceText": "E. 减少胃黏膜损害",
+          "sourceKey": "E",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "一般治疗原则",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G"
+          ],
+          "answerMode": "多选",
+          "sourceText": "一般治疗原则",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "NSAIDs",
+          "answer": [
+            "A",
+            "D",
+            "F",
+            "G"
+          ],
+          "answerMode": "多选",
+          "sourceText": "NSAIDs",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "糖皮质激素",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "糖皮质激素",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1页逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "sourceName": "运动系统慢性损伤_学成选择题_题目与答案.docx",
+      "sourceText": "一般治疗原则",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "ABCDEFG",
+        "BCDE",
+        "F"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-21-page-01.webp",
+        "title": "第21讲第1页：一般治疗原则",
+        "description": "本题组已对照第21讲讲义原页逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "chronic-injury-g02",
+      "page": 0,
+      "title": "各疾病的临床表现、检查和特点",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "Finkelstein征",
+          "sourceText": "L. Finkelstein征",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "摇摆式跛行",
+          "sourceText": "Q. 摇摆式跛行",
+          "sourceKey": "Q",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "肩关节外旋外展疼痛和受限",
+          "sourceText": "C. 肩关节外旋外展疼痛和受限",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "治疗关键时期为血供重建期",
+          "sourceText": "T. 治疗关键时期为血供重建期",
+          "sourceKey": "T",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "肘关节外侧痛",
+          "sourceText": "H. 肘关节外侧痛",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "左侧多见",
+          "sourceText": "B. 左侧多见",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "18岁后症状即消失",
+          "sourceText": "N. 18岁后症状即消失",
+          "sourceKey": "N",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "MRI用于诊断和鉴别诊断",
+          "sourceText": "F. MRI用于诊断和鉴别诊断",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "逐渐加重的髋部疼痛",
+          "sourceText": "P. 逐渐加重的髋部疼痛",
+          "sourceKey": "P",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "弹响指或扳机指",
+          "sourceText": "J. 弹响指或扳机指",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "软组织退变",
+          "sourceText": "E. 软组织退变",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "ECT有早期诊断意义",
+          "sourceText": "S. ECT有早期诊断意义",
+          "sourceKey": "S",
+          "ocrScore": 1
+        },
+        {
+          "key": "M",
+          "label": "女性多见",
+          "sourceText": "A. 女性多见",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "N",
+          "label": "局部隆起不会改变",
+          "sourceText": "O. 局部隆起不会改变",
+          "sourceKey": "O",
+          "ocrScore": 1
+        },
+        {
+          "key": "O",
+          "label": "6～24个月可自愈",
+          "sourceText": "G. 6～24个月可自愈",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "P",
+          "label": "髋关节屈曲挛缩试验或Thomas征",
+          "sourceText": "R. 髋关节屈曲挛缩试验或Thomas征",
+          "sourceKey": "R",
+          "ocrScore": 1
+        },
+        {
+          "key": "Q",
+          "label": "肩关节内旋后伸疼痛和受限",
+          "sourceText": "D. 肩关节内旋后伸疼痛和受限",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "R",
+          "label": "X线示胫骨结节骨骺增大、致密或碎裂",
+          "sourceText": "M. X线示胫骨结节骨骺增大、致密或碎裂",
+          "sourceKey": "M",
+          "ocrScore": 1
+        },
+        {
+          "key": "S",
+          "label": "Mills征",
+          "sourceText": "I. Mills征",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "T",
+          "label": "痛性结节",
+          "sourceText": "K. 痛性结节",
+          "sourceKey": "K",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "粘连性肩关节囊炎",
+          "answer": [
+            "C",
+            "F",
+            "H",
+            "K",
+            "M",
+            "O",
+            "Q"
+          ],
+          "answerMode": "多选",
+          "sourceText": "粘连性肩关节囊炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肱骨外上髁炎（网球肘）",
+          "answer": [
+            "E",
+            "S"
+          ],
+          "answerMode": "多选",
+          "sourceText": "肱骨外上髁炎（网球肘）",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "狭窄性腱鞘炎",
+          "answer": [
+            "A",
+            "J",
+            "T"
+          ],
+          "answerMode": "多选",
+          "sourceText": "狭窄性腱鞘炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "胫骨结节骨软骨病",
+          "answer": [
+            "G",
+            "N",
+            "R"
+          ],
+          "answerMode": "多选",
+          "sourceText": "胫骨结节骨软骨病",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "股骨头骨软骨病",
+          "answer": [
+            "B",
+            "D",
+            "I",
+            "L",
+            "P"
+          ],
+          "answerMode": "多选",
+          "sourceText": "股骨头骨软骨病",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "sourceName": "运动系统慢性损伤_学成选择题_题目与答案.docx",
+      "sourceText": "各疾病的临床表现、检查和特点",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "ABCDEFG",
+        "HI",
+        "JKL",
+        "MNO",
+        "PQRST"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "page": "1～3",
+        "image": "surgery/lecture-pages/lecture-21-page-01-03.webp",
+        "title": "第21讲第1～3页：疾病表现、检查和特点",
+        "description": "本题组已对照第21讲讲义原页逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "chronic-injury-g03",
+      "page": 0,
+      "title": "治疗",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "关节内注射玻璃酸钠或透明质酸钠",
+          "sourceText": "J. 关节内注射玻璃酸钠或透明质酸钠",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "无效可行关节镜松解术",
+          "sourceText": "C. 无效可行关节镜松解术",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "骨骺难以注入",
+          "sourceText": "N. 骨骺难以注入",
+          "sourceKey": "N",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "NSAIDs",
+          "sourceText": "F. NSAIDs",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "每日做肩关节主动活动",
+          "sourceText": "A. 每日做肩关节主动活动",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "治疗关键时期为血供重建期",
+          "sourceText": "O. 治疗关键时期为血供重建期",
+          "sourceKey": "O",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "注射激素至腱鞘邻近的骨膜",
+          "sourceText": "G. 注射激素至腱鞘邻近的骨膜",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "限制腕关节活动",
+          "sourceText": "D. 限制腕关节活动",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "慎用激素",
+          "sourceText": "K. 慎用激素",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "不宜注射激素",
+          "sourceText": "M. 不宜注射激素",
+          "sourceKey": "M",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "限制活动",
+          "sourceText": "E. 限制活动",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "限制膝关节剧烈活动",
+          "sourceText": "I. 限制膝关节剧烈活动",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "M",
+          "label": "不能用三角巾悬吊固定",
+          "sourceText": "B. 不能用三角巾悬吊固定",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "N",
+          "label": "激素不利于软骨修复",
+          "sourceText": "L. 激素不利于软骨修复",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "O",
+          "label": "无效可行腱鞘切开减压术",
+          "sourceText": "H. 无效可行腱鞘切开减压术",
+          "sourceKey": "H",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "粘连性肩关节囊炎",
+          "answer": [
+            "B",
+            "E",
+            "M"
+          ],
+          "answerMode": "多选",
+          "sourceText": "粘连性肩关节囊炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肱骨外上髁炎（网球肘）",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选",
+          "sourceText": "肱骨外上髁炎（网球肘）",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "狭窄性腱鞘炎",
+          "answer": [
+            "D",
+            "G",
+            "K",
+            "O"
+          ],
+          "answerMode": "多选",
+          "sourceText": "狭窄性腱鞘炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "髌骨软骨软化症",
+          "answer": [
+            "A",
+            "I",
+            "L",
+            "N"
+          ],
+          "answerMode": "多选",
+          "sourceText": "髌骨软骨软化症",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "胫骨结节骨软骨病",
+          "answer": [
+            "C",
+            "J"
+          ],
+          "answerMode": "多选",
+          "sourceText": "胫骨结节骨软骨病",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "股骨头骨软骨病",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选",
+          "sourceText": "股骨头骨软骨病",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "sourceName": "运动系统慢性损伤_学成选择题_题目与答案.docx",
+      "sourceText": "治疗",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "ABC",
+        "D",
+        "EFGH",
+        "IJKL",
+        "MN",
+        "O"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "page": "1～3",
+        "image": "surgery/lecture-pages/lecture-21-page-01-03.webp",
+        "title": "第21讲第1～3页：各病治疗",
+        "description": "本题组已对照第21讲讲义原页逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "chronic-injury-g04",
+      "page": 0,
+      "title": "特殊体征和检查",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "ECT",
+          "sourceText": "E. ECT",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "Finkelstein征",
+          "sourceText": "B. Finkelstein征",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "X线示胫骨结节骨骺增大、致密或碎裂",
+          "sourceText": "F. X线示胫骨结节骨骺增大、致密或碎裂",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "Mills征",
+          "sourceText": "A. Mills征",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "MRI",
+          "sourceText": "D. MRI",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "髋关节屈曲挛缩试验或Thomas征",
+          "sourceText": "C. 髋关节屈曲挛缩试验或Thomas征",
+          "sourceKey": "C",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "肱骨外上髁炎",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "肱骨外上髁炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "狭窄性腱鞘炎",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "狭窄性腱鞘炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "股骨头骨软骨病：体征",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选",
+          "sourceText": "股骨头骨软骨病：体征",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "粘连性肩关节囊炎：诊断和鉴别诊断",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "粘连性肩关节囊炎：诊断和鉴别诊断",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "股骨头骨软骨病：早期诊断",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "股骨头骨软骨病：早期诊断",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "胫骨结节骨软骨病：影像学",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "胫骨结节骨软骨病：影像学",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第1～3页逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "sourceName": "运动系统慢性损伤_学成选择题_题目与答案.docx",
+      "sourceText": "特殊体征和检查",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "page": "1～3",
+        "image": "surgery/lecture-pages/lecture-21-page-01-03.webp",
+        "title": "第21讲第1～3页：特殊体征和检查",
+        "description": "本题组已对照第21讲讲义原页逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "chronic-injury-g05",
+      "page": 0,
+      "title": "肩痛及关节疾病鉴别诊断",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "Eaton征和Spurling征",
+          "sourceText": "H. Eaton征和Spurling征",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "骶髂关节变窄、融合",
+          "sourceText": "S. 骶髂关节变窄、融合",
+          "sourceKey": "S",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "症状向远端多不超过肘关节",
+          "sourceText": "C. 症状向远端多不超过肘关节",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "腕关节、掌指关节、近端指间关节多见",
+          "sourceText": "V. 腕关节、掌指关节、近端指间关节多见",
+          "sourceKey": "V",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "中老年人",
+          "sourceText": "K. 中老年人",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "软骨下骨硬化和囊变",
+          "sourceText": "N. 软骨下骨硬化和囊变",
+          "sourceKey": "N",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "X线示肩关节结构正常或骨质疏松",
+          "sourceText": "D. X线示肩关节结构正常或骨质疏松",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "落臂征",
+          "sourceText": "Y. 落臂征",
+          "sourceKey": "Y",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "50岁左右多见",
+          "sourceText": "A. 50岁左右多见",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "竹节椎",
+          "sourceText": "T. 竹节椎",
+          "sourceKey": "T",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "明显晨僵",
+          "sourceText": "W. 明显晨僵",
+          "sourceKey": "W",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "颈肩痛伴上肢放射痛",
+          "sourceText": "F. 颈肩痛伴上肢放射痛",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "M",
+          "label": "关节软骨退变",
+          "sourceText": "P. 关节软骨退变",
+          "sourceKey": "P",
+          "ocrScore": 1
+        },
+        {
+          "key": "N",
+          "label": "大关节和远端指间关节多见",
+          "sourceText": "L. 大关节和远端指间关节多见",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "O",
+          "label": "疼痛弧",
+          "sourceText": "Z. 疼痛弧",
+          "sourceKey": "Z",
+          "ocrScore": 1
+        },
+        {
+          "key": "P",
+          "label": "上肢麻木、无力",
+          "sourceText": "G. 上肢麻木、无力",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "Q",
+          "label": "肩关节活动受限、疼痛",
+          "sourceText": "B. 肩关节活动受限、疼痛",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "R",
+          "label": "青壮年女性多见",
+          "sourceText": "U. 青壮年女性多见",
+          "sourceKey": "U",
+          "ocrScore": 1
+        },
+        {
+          "key": "S",
+          "label": "椎间盘退变",
+          "sourceText": "J. 椎间盘退变",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "T",
+          "label": "软组织退变，依靠MRI诊断",
+          "sourceText": "E. 软组织退变，依靠MRI诊断",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "U",
+          "label": "多发、对称性",
+          "sourceText": "X. 多发、对称性",
+          "sourceKey": "X",
+          "ocrScore": 1
+        },
+        {
+          "key": "V",
+          "label": "X线示关节间隙变窄",
+          "sourceText": "M. X线示关节间隙变窄",
+          "sourceKey": "M",
+          "ocrScore": 1
+        },
+        {
+          "key": "W",
+          "label": "骶髂关节、脊柱、大关节多见",
+          "sourceText": "R. 骶髂关节、脊柱、大关节多见",
+          "sourceKey": "R",
+          "ocrScore": 1
+        },
+        {
+          "key": "X",
+          "label": "X线示椎间隙狭窄、骨质增生",
+          "sourceText": "I. X线示椎间隙狭窄、骨质增生",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "Y",
+          "label": "青壮年男性多见",
+          "sourceText": "Q. 青壮年男性多见",
+          "sourceKey": "Q",
+          "ocrScore": 1
+        },
+        {
+          "key": "Z",
+          "label": "关节边缘骨质增生",
+          "sourceText": "O. 关节边缘骨质增生",
+          "sourceKey": "O",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "粘连性肩关节囊炎",
+          "answer": [
+            "C",
+            "G",
+            "I",
+            "Q",
+            "T"
+          ],
+          "answerMode": "多选",
+          "sourceText": "粘连性肩关节囊炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第4页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "神经根型颈椎病",
+          "answer": [
+            "A",
+            "L",
+            "P",
+            "S",
+            "X"
+          ],
+          "answerMode": "多选",
+          "sourceText": "神经根型颈椎病",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第4页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "原发性骨关节炎",
+          "answer": [
+            "E",
+            "F",
+            "M",
+            "N",
+            "V",
+            "Z"
+          ],
+          "answerMode": "多选",
+          "sourceText": "原发性骨关节炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第4页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "强直性脊柱炎",
+          "answer": [
+            "B",
+            "J",
+            "W",
+            "Y"
+          ],
+          "answerMode": "多选",
+          "sourceText": "强直性脊柱炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第4页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "类风湿关节炎",
+          "answer": [
+            "D",
+            "K",
+            "R",
+            "U"
+          ],
+          "answerMode": "多选",
+          "sourceText": "类风湿关节炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第4页逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肩袖损伤",
+          "answer": [
+            "H",
+            "O"
+          ],
+          "answerMode": "多选",
+          "sourceText": "肩袖损伤",
+          "ocrScore": 1,
+          "reviewMethod": "已按第21讲第4页逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "sourceName": "运动系统慢性损伤_学成选择题_题目与答案.docx",
+      "sourceText": "肩痛及关节疾病鉴别诊断",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "ABCDE",
+        "FGHIJ",
+        "KLMNOP",
+        "QRST",
+        "UVWX",
+        "YZ"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "page": 4,
+        "image": "surgery/lecture-pages/lecture-21-page-04.webp",
+        "title": "第21讲第4页：肩痛及关节疾病鉴别表",
+        "description": "本题组已对照第21讲讲义原页逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "optionShuffleVersion": 2
+    }
+  ]
+}

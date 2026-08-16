@@ -1,0 +1,1146 @@
+{
+  "meta": {
+    "title": "运动系统畸形学成选择题",
+    "lectureId": "lecture-20",
+    "lecturePagesReviewed": [
+      1,
+      2
+    ],
+    "answerNote": "题干、选项、数字与答案已按第20讲讲义逐项校对；共用选项已固定打乱并同步重映射答案。"
+  },
+  "groups": [
+    {
+      "id": "deformity-g01",
+      "page": 0,
+      "title": "运动系统畸形 · 病因及病理基础",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "关节韧带松弛症",
+          "sourceText": "C. 关节韧带松弛症",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "圆韧带肥厚",
+          "sourceText": "G. 圆韧带肥厚",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "关节囊和韧带松弛",
+          "sourceText": "E. 关节囊和韧带松弛",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "脊柱及其支持组织无内在的固有改变，针对病因治疗后脊柱侧凸可消除",
+          "sourceText": "K. 脊柱及其支持组织无内在的固有改变，针对病因治疗后脊柱侧凸可消除",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "最常见的结构性脊柱侧凸",
+          "sourceText": "J. 最常见的结构性脊柱侧凸",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "股骨头较小",
+          "sourceText": "F. 股骨头较小",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "原发性髋臼发育不良",
+          "sourceText": "B. 原发性髋臼发育不良",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "髋臼发育不良、浅而平坦",
+          "sourceText": "D. 髋臼发育不良、浅而平坦",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "股骨头可在髋臼内或脱位",
+          "sourceText": "I. 股骨头可在髋臼内或脱位",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "一侧胸锁乳突肌挛缩",
+          "sourceText": "A. 一侧胸锁乳突肌挛缩",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "股骨颈前倾角增大",
+          "sourceText": "H. 股骨颈前倾角增大",
+          "sourceKey": "H",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "先天性肌性斜颈",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选",
+          "sourceText": "先天性肌性斜颈",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "发育性髋关节脱位的重要病因",
+          "answer": [
+            "G",
+            "A"
+          ],
+          "answerMode": "多选",
+          "sourceText": "发育性髋关节脱位的重要病因",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "发育性髋关节脱位站立前期的病理变化",
+          "answer": [
+            "H",
+            "C",
+            "F",
+            "B",
+            "K",
+            "I"
+          ],
+          "answerMode": "多选",
+          "sourceText": "发育性髋关节脱位站立前期的病理变化",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "特发性脊柱侧凸",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "特发性脊柱侧凸",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "一侧胸锁乳突肌挛缩；原发性髋臼发育不良；关节韧带松弛症；髋臼发育不良、浅而平坦；关节囊和韧带松弛；股骨头较小；圆韧带肥厚；股骨颈前倾角增大；股骨头可在髋臼内或脱位；最常见的结构性脊柱侧凸；脊柱及其支持组织无内在的固有改变，针对病因治疗后脊柱侧凸可消除；先天性肌性斜颈；发育性髋关节脱位的重要病因；发育性髋关节脱位站立前期的病理变化；特发性脊柱侧凸",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-20-page-01.webp",
+        "title": "第20讲第1页 · 运动系统畸形",
+        "description": "本题组已按《核心精讲·运动系统畸形》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ]
+    },
+    {
+      "id": "deformity-g02",
+      "page": 0,
+      "title": "运动系统畸形 · 好发特点、临床表现及检查",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "大腿内侧皮肤皱褶患侧加深增多",
+          "sourceText": "F. 大腿内侧皮肤皱褶患侧加深增多",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "剃刀背",
+          "sourceText": "W. 剃刀背",
+          "sourceKey": "W",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "牵拉患侧下肢有弹响",
+          "sourceText": "I. 牵拉患侧下肢有弹响",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "下颌转向健侧",
+          "sourceText": "B. 下颌转向健侧",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "女性多见",
+          "sourceText": "D. 女性多见",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "头偏向患侧",
+          "sourceText": "A. 头偏向患侧",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "Trendelenburg征/单足站立试验",
+          "sourceText": "P. Trendelenburg征/单足站立试验",
+          "sourceKey": "P",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "髋关节屈曲外展试验",
+          "sourceText": "L. 髋关节屈曲外展试验",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "出生3个月后X线",
+          "sourceText": "S. 出生3个月后X线",
+          "sourceKey": "S",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "跛行",
+          "sourceText": "N. 跛行",
+          "sourceKey": "N",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "超声筛查",
+          "sourceText": "R. 超声筛查",
+          "sourceKey": "R",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "胸廓不对称",
+          "sourceText": "V. 胸廓不对称",
+          "sourceKey": "V",
+          "ocrScore": 1
+        },
+        {
+          "key": "M",
+          "label": "鸭行步态",
+          "sourceText": "O. 鸭行步态",
+          "sourceKey": "O",
+          "ocrScore": 1
+        },
+        {
+          "key": "N",
+          "label": "Ortolani弹入试验",
+          "sourceText": "J. Ortolani弹入试验",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "O",
+          "label": "患侧下肢短缩",
+          "sourceText": "H. 患侧下肢短缩",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "P",
+          "label": "Allis/Galeazzi征",
+          "sourceText": "M. Allis/Galeazzi征",
+          "sourceKey": "M",
+          "ocrScore": 1
+        },
+        {
+          "key": "Q",
+          "label": "左侧多见",
+          "sourceText": "E. 左侧多见",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "R",
+          "label": "Shenton线中断",
+          "sourceText": "T. Shenton线中断",
+          "sourceKey": "T",
+          "ocrScore": 1
+        },
+        {
+          "key": "S",
+          "label": "股骨头上下移动似打气筒",
+          "sourceText": "Q. 股骨头上下移动似打气筒",
+          "sourceKey": "Q",
+          "ocrScore": 1
+        },
+        {
+          "key": "T",
+          "label": "患侧面部发育小",
+          "sourceText": "C. 患侧面部发育小",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "U",
+          "label": "可致慢性肺心病",
+          "sourceText": "X. 可致慢性肺心病",
+          "sourceKey": "X",
+          "ocrScore": 1
+        },
+        {
+          "key": "V",
+          "label": "Barlow弹出试验",
+          "sourceText": "K. Barlow弹出试验",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "W",
+          "label": "会阴部增宽",
+          "sourceText": "G. 会阴部增宽",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "X",
+          "label": "双肩不等高",
+          "sourceText": "U. 双肩不等高",
+          "sourceKey": "U",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "先天性肌性斜颈的临床表现",
+          "answer": [
+            "F",
+            "D",
+            "T"
+          ],
+          "answerMode": "多选",
+          "sourceText": "先天性肌性斜颈的临床表现",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "发育性髋关节脱位的好发特点",
+          "answer": [
+            "E",
+            "Q"
+          ],
+          "answerMode": "多选",
+          "sourceText": "发育性髋关节脱位的好发特点",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "发育性髋关节脱位的临床表现",
+          "answer": [
+            "A",
+            "W",
+            "O",
+            "C",
+            "N",
+            "V",
+            "H",
+            "P",
+            "J",
+            "M",
+            "G",
+            "S"
+          ],
+          "answerMode": "多选",
+          "sourceText": "发育性髋关节脱位的临床表现",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "发育性髋关节脱位的检查",
+          "answer": [
+            "K",
+            "I",
+            "R"
+          ],
+          "answerMode": "多选",
+          "sourceText": "发育性髋关节脱位的检查",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "特发性脊柱侧凸的临床表现及后果",
+          "answer": [
+            "X",
+            "L",
+            "B",
+            "U"
+          ],
+          "answerMode": "多选",
+          "sourceText": "特发性脊柱侧凸的临床表现及后果",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "头偏向患侧；下颌转向健侧；患侧面部发育小；女性多见；左侧多见；大腿内侧皮肤皱褶患侧加深增多；会阴部增宽；患侧下肢短缩；牵拉患侧下肢有弹响；Ortolani弹入试验；Barlow弹出试验；髋关节屈曲外展试验；Allis/Galeazzi征；跛行；鸭行步态；Trendelenburg征/单足站立试验；股骨头上下移动似打气筒；超声筛查；出生3个月后X线；Shenton线中断；双肩不等高；胸廓不对称；剃刀背；可致慢性肺心病；先天性肌性斜颈的临床表现；发育性髋关节脱位的好发特点；发育性髋关节脱位的临床表现；发育性髋关节脱位的检查；特发性脊柱侧凸的临床表现及后果",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-20-page-01.webp",
+        "title": "第20讲第1页 · 运动系统畸形",
+        "description": "本题组已按《核心精讲·运动系统畸形》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X"
+      ]
+    },
+    {
+      "id": "deformity-g03",
+      "page": 0,
+      "title": "运动系统畸形 · 治疗",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "切开复位",
+          "sourceText": "H. 切开复位",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "Salter骨盆截骨",
+          "sourceText": "I. Salter骨盆截骨",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "矫形帽外固定",
+          "sourceText": "D. 矫形帽外固定",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "支具",
+          "sourceText": "K. 支具",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "手法矫正",
+          "sourceText": "C. 手法矫正",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "热敷",
+          "sourceText": "B. 热敷",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "闭合复位固定于人类位",
+          "sourceText": "G. 闭合复位固定于人类位",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "手术",
+          "sourceText": "L. 手术",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "胸锁乳突肌切断术",
+          "sourceText": "E. 胸锁乳突肌切断术",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "观察随访",
+          "sourceText": "J. 观察随访",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "Pavlik吊带维持髋关节屈曲外展",
+          "sourceText": "F. Pavlik吊带维持髋关节屈曲外展",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "按摩",
+          "sourceText": "A. 按摩",
+          "sourceKey": "A",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "先天性肌性斜颈＜1岁",
+          "answer": [
+            "L",
+            "F",
+            "E",
+            "C"
+          ],
+          "answerMode": "多选",
+          "sourceText": "先天性肌性斜颈＜1岁",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "先天性肌性斜颈1岁后",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选",
+          "sourceText": "先天性肌性斜颈1岁后",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "发育性髋关节脱位：新生儿期（0～6个月）",
+          "answer": [
+            "K"
+          ],
+          "answerMode": "单选",
+          "sourceText": "发育性髋关节脱位：新生儿期（0～6个月）",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "发育性髋关节脱位：婴儿期（6个月～1.5岁）",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选",
+          "sourceText": "发育性髋关节脱位：婴儿期（6个月～1.5岁）",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "发育性髋关节脱位：幼儿期（1.5～3岁）",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "发育性髋关节脱位：幼儿期（1.5～3岁）",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "发育性髋关节脱位：儿童期及以上（3岁以上）",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerMode": "多选",
+          "sourceText": "发育性髋关节脱位：儿童期及以上（3岁以上）",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "特发性脊柱侧凸：Cobb角＜20°",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选",
+          "sourceText": "特发性脊柱侧凸：Cobb角＜20°",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "特发性脊柱侧凸：Cobb角20°～40°",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "特发性脊柱侧凸：Cobb角20°～40°",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "特发性脊柱侧凸：Cobb角＞40°",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选",
+          "sourceText": "特发性脊柱侧凸：Cobb角＞40°",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "按摩；热敷；手法矫正；矫形帽外固定；胸锁乳突肌切断术；Pavlik吊带维持髋关节屈曲外展；闭合复位固定于人类位；切开复位；Salter骨盆截骨；观察随访；支具；手术；先天性肌性斜颈＜1岁；先天性肌性斜颈1岁后；发育性髋关节脱位：新生儿期（0～6个月）；发育性髋关节脱位：婴儿期（6个月～1.5岁）；发育性髋关节脱位：幼儿期（1.5～3岁）；发育性髋关节脱位：儿童期及以上（3岁以上）；特发性脊柱侧凸：Cobb角＜20°；特发性脊柱侧凸：Cobb角20°～40°；特发性脊柱侧凸：Cobb角＞40°",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-20-page-02.webp",
+        "title": "第20讲第2页 · 运动系统畸形",
+        "description": "本题组已按《核心精讲·运动系统畸形》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ]
+    },
+    {
+      "id": "deformity-g04",
+      "page": 0,
+      "title": "运动系统畸形 · 治疗数字",
+      "kind": "fill",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "text": "胸锁乳突肌切断术的最佳年龄：____～____岁",
+          "answer": [
+            "1",
+            "4"
+          ],
+          "answerMode": "填空",
+          "blankLabels": [
+            "起始年龄",
+            "截止年龄"
+          ],
+          "inputMode": "decimal",
+          "answerDisplay": "1～4岁",
+          "sourceText": "胸锁乳突肌切断术的最佳年龄：1～4岁",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义第1页校对"
+        },
+        {
+          "text": "Salter骨盆截骨：____～____岁，髋臼指数＜____°，以前缘缺损为主",
+          "answer": [
+            "1.5",
+            "6",
+            "45"
+          ],
+          "answerMode": "填空",
+          "blankLabels": [
+            "起始年龄",
+            "截止年龄",
+            "髋臼指数"
+          ],
+          "inputMode": "decimal",
+          "answerDisplay": "1.5～6岁；45°",
+          "sourceText": "Salter骨盆截骨：1.5～6岁、髋臼指数＜45°、以前缘缺损为主",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义第2页校对"
+        }
+      ],
+      "sourceText": "胸锁乳突肌切断术的最佳年龄：1～4岁；Salter骨盆截骨：1.5～6岁、髋臼指数＜45°、以前缘缺损为主",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-20-page-02.webp",
+        "title": "第20讲第2页 · 运动系统畸形",
+        "description": "本题组数字已按《核心精讲·运动系统畸形》对应页逐项复核；斜颈手术年龄同时见第1页。"
+      },
+      "hideSource": true
+    },
+    {
+      "id": "deformity-g05",
+      "page": 0,
+      "title": "运动系统畸形 · Cobb角",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "手术",
+          "sourceText": "D. 手术",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "诊断",
+          "sourceText": "A. 诊断",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "支具",
+          "sourceText": "C. 支具",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "观察随访",
+          "sourceText": "B. 观察随访",
+          "sourceKey": "B",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "Cobb角＞10°",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "Cobb角＞10°",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "Cobb角＜20°",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "Cobb角＜20°",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "Cobb角20°～40°",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "Cobb角20°～40°",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "Cobb角＞40°",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "Cobb角＞40°",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "诊断；观察随访；支具；手术；Cobb角＞10°；Cobb角＜20°；Cobb角20°～40°；Cobb角＞40°",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-20-page-02.webp",
+        "title": "第20讲第2页 · 运动系统畸形",
+        "description": "本题组已按《核心精讲·运动系统畸形》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "deformity-g06",
+      "page": 0,
+      "title": "运动系统畸形 · 髋关节脱位的站立阶段",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "Trendelenburg征/单足站立试验",
+          "sourceText": "L. Trendelenburg征/单足站立试验",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "Barlow弹出试验",
+          "sourceText": "F. Barlow弹出试验",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "Ortolani弹入试验",
+          "sourceText": "E. Ortolani弹入试验",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "髋关节屈曲外展试验",
+          "sourceText": "H. 髋关节屈曲外展试验",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "患侧下肢短缩",
+          "sourceText": "C. 患侧下肢短缩",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "鸭行步态",
+          "sourceText": "K. 鸭行步态",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "牵拉患侧下肢有弹响",
+          "sourceText": "D. 牵拉患侧下肢有弹响",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "大腿内侧皮肤皱褶患侧加深增多",
+          "sourceText": "A. 大腿内侧皮肤皱褶患侧加深增多",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "股骨头上下移动似打气筒",
+          "sourceText": "M. 股骨头上下移动似打气筒",
+          "sourceKey": "M",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "跛行",
+          "sourceText": "J. 跛行",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "3个月以上不宜进行Ortolani弹入试验和Barlow弹出试验",
+          "sourceText": "G. 3个月以上不宜进行Ortolani弹入试验和Barlow弹出试验",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "会阴部增宽",
+          "sourceText": "B. 会阴部增宽",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "M",
+          "label": "Allis/Galeazzi征",
+          "sourceText": "I. Allis/Galeazzi征",
+          "sourceKey": "I",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "站立前期",
+          "answer": [
+            "H",
+            "L",
+            "E",
+            "G",
+            "C",
+            "B",
+            "K",
+            "D",
+            "M"
+          ],
+          "answerMode": "多选",
+          "sourceText": "站立前期",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "站立行走期",
+          "answer": [
+            "J",
+            "F",
+            "A",
+            "I"
+          ],
+          "answerMode": "多选",
+          "sourceText": "站立行走期",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "大腿内侧皮肤皱褶患侧加深增多；会阴部增宽；患侧下肢短缩；牵拉患侧下肢有弹响；Ortolani弹入试验；Barlow弹出试验；3个月以上不宜进行Ortolani弹入试验和Barlow弹出试验；髋关节屈曲外展试验；Allis/Galeazzi征；跛行；鸭行步态；Trendelenburg征/单足站立试验；股骨头上下移动似打气筒；站立前期；站立行走期",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-20-page-01.webp",
+        "title": "第20讲第1页 · 运动系统畸形",
+        "description": "本题组已按《核心精讲·运动系统畸形》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ]
+    },
+    {
+      "id": "deformity-g07",
+      "page": 0,
+      "title": "运动系统畸形 · 脊柱侧凸的分类",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "髋关节挛缩",
+          "sourceText": "D. 髋关节挛缩",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "下肢不等长",
+          "sourceText": "F. 下肢不等长",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "神经根受刺激（腰椎间盘突出）",
+          "sourceText": "B. 神经根受刺激（腰椎间盘突出）",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "炎症",
+          "sourceText": "G. 炎症",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "姿势不当",
+          "sourceText": "E. 姿势不当",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "脊柱及其支持组织无内在的固有改变",
+          "sourceText": "H. 脊柱及其支持组织无内在的固有改变",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "特发性脊柱侧凸",
+          "sourceText": "A. 特发性脊柱侧凸",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "癔症",
+          "sourceText": "C. 癔症",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "针对病因治疗后脊柱侧凸可消除",
+          "sourceText": "I. 针对病因治疗后脊柱侧凸可消除",
+          "sourceKey": "I",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "结构性脊柱侧凸",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选",
+          "sourceText": "结构性脊柱侧凸",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "非结构性脊柱侧凸",
+          "answer": [
+            "C",
+            "H",
+            "A",
+            "E",
+            "B",
+            "D",
+            "F",
+            "I"
+          ],
+          "answerMode": "多选",
+          "sourceText": "非结构性脊柱侧凸",
+          "ocrScore": 1,
+          "reviewMethod": "已按第20讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "特发性脊柱侧凸；神经根受刺激（腰椎间盘突出）；癔症；髋关节挛缩；姿势不当；下肢不等长；炎症；脊柱及其支持组织无内在的固有改变；针对病因治疗后脊柱侧凸可消除；结构性脊柱侧凸；非结构性脊柱侧凸",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-20-page-02.webp",
+        "title": "第20讲第2页 · 运动系统畸形",
+        "description": "本题组已按《核心精讲·运动系统畸形》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ]
+    }
+  ]
+}

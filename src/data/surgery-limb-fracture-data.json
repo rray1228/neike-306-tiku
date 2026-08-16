@@ -1,0 +1,2500 @@
+{
+  "meta": {
+    "title": "四肢骨折和脱位学成选择题",
+    "lectureId": "lecture-28",
+    "lecturePagesReviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "answerNote": "保持原题组结构并按第28讲逐项校对；删除重复总括项，合并三踝骨折重复题干，改写直接复述题干条件的选项，并按讲义补全髋关节前脱位及横向鉴别内容后同步重映射答案。第10组保留为数字填空题。"
+  },
+  "groups": [
+    {
+      "id": "limb-fracture-dislocation-g01",
+      "page": 0,
+      "title": "上肢骨折与脱位：治疗",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "外展位牵引",
+          "sourceText": "B. 外展位牵引",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "切开复位＋内固定",
+          "sourceText": "J. 切开复位＋内固定",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "环抱式手法复位＋长臂石膏托固定＋三角巾悬吊",
+          "sourceText": "L. 环抱式手法复位＋长臂石膏托固定＋三角巾悬吊",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "手术",
+          "sourceText": "K. 手术",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "内收位牵引",
+          "sourceText": "C. 内收位牵引",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "人工肱骨头置换术",
+          "sourceText": "E. 人工肱骨头置换术",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "手法复位＋横形8字绷带外固定",
+          "sourceText": "D. 手法复位＋横形8字绷带外固定",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "搭肩位胸肱绷带固定",
+          "sourceText": "I. 搭肩位胸肱绷带固定",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "Hippocrates足蹬法＋三角巾悬吊外固定3周",
+          "sourceText": "G. Hippocrates足蹬法＋三角巾悬吊外固定3周",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "不用麻醉手法复位，复位后不需固定",
+          "sourceText": "F. 不用麻醉手法复位，复位后不需固定",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "三角巾悬吊",
+          "sourceText": "A. 三角巾悬吊",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "手法复位＋后侧石膏托屈肘位固定",
+          "sourceText": "H. 手法复位＋后侧石膏托屈肘位固定",
+          "sourceKey": "H",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "锁骨：儿童青枝、成人无移位",
+          "answer": [
+            "K"
+          ],
+          "answerMode": "单选",
+          "sourceText": "锁骨：儿童青枝、成人无移位",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢骨折与脱位治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "锁骨：中段有移位",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选",
+          "sourceText": "锁骨：中段有移位",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢骨折与脱位治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肩关节前脱位",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选",
+          "sourceText": "肩关节前脱位",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢骨折与脱位治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肩关节前脱位：关节囊破损明显",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选",
+          "sourceText": "肩关节前脱位：关节囊破损明显",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢骨折与脱位治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肩关节后脱位",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "肩关节后脱位",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢骨折与脱位治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肱骨近端：NeerⅠ型、轻度Ⅱ型",
+          "answer": [
+            "K"
+          ],
+          "answerMode": "单选",
+          "sourceText": "肱骨近端：NeerⅠ型、轻度Ⅱ型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢骨折与脱位治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肱骨近端：重度Ⅱ型、Ⅲ型、非老年Ⅳ型",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "肱骨近端：重度Ⅱ型、Ⅲ型、非老年Ⅳ型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢骨折与脱位治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肱骨近端：老年Ⅳ型",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选",
+          "sourceText": "肱骨近端：老年Ⅳ型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢骨折与脱位治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肱骨干：骨折线在三角肌止点以上",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "肱骨干：骨折线在三角肌止点以上",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢骨折与脱位治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肱骨干：骨折线在三角肌止点以下",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "肱骨干：骨折线在三角肌止点以下",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢骨折与脱位治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "伸直型肱骨髁上骨折",
+          "answer": [
+            "L"
+          ],
+          "answerMode": "单选",
+          "sourceText": "伸直型肱骨髁上骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢骨折与脱位治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肘关节脱位",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "肘关节脱位",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢骨折与脱位治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "桡骨头半脱位",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选",
+          "sourceText": "桡骨头半脱位",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢骨折与脱位治疗逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "sourceName": "四肢骨折和脱位_学成选择题_题目与答案.docx",
+      "sourceText": "上肢骨折与脱位：治疗",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "A",
+        "D",
+        "G",
+        "I",
+        "K",
+        "A",
+        "J",
+        "E",
+        "C",
+        "B",
+        "H",
+        "L",
+        "F"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "page": "2～5",
+        "image": "surgery/lecture-pages/lecture-28-page-02-05.webp",
+        "title": "第28讲第2～5页：上肢骨折与脱位治疗",
+        "description": "锁骨、肩关节、肱骨及肘关节损伤的治疗已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "limb-fracture-dislocation-g02",
+      "page": 0,
+      "title": "上肢骨折与脱位：特点与并发损伤",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "晚期可有骨化性肌炎、肘内翻、肘外翻",
+          "sourceText": "C. 晚期可有骨化性肌炎、肘内翻、肘外翻",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "后脱位多见",
+          "sourceText": "T. 后脱位多见",
+          "sourceKey": "T",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "中老年骨质疏松多见，好发外科颈",
+          "sourceText": "I. 中老年骨质疏松多见，好发外科颈",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "好发于中1/3",
+          "sourceText": "L. 好发于中1/3",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "肘后三角关系改变",
+          "sourceText": "P. 肘后三角关系改变",
+          "sourceKey": "P",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "多见于＜5岁，有手腕向上牵拉史",
+          "sourceText": "Q. 多见于＜5岁，有手腕向上牵拉史",
+          "sourceKey": "Q",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "Neer分型依据头、干、大结节、小结节移位程度",
+          "sourceText": "E. Neer分型依据头、干、大结节、小结节移位程度",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "前脱位最常见",
+          "sourceText": "A. 前脱位最常见",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "早期可损伤肱动脉、正中/尺/桡神经并致骨筋膜室综合征",
+          "sourceText": "O. 早期可损伤肱动脉、正中/尺/桡神经并致骨筋膜室综合征",
+          "sourceKey": "O",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "多见于＜10岁",
+          "sourceText": "D. 多见于＜10岁",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "X线唯一阴性的脱位",
+          "sourceText": "M. X线唯一阴性的脱位",
+          "sourceKey": "M",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "方肩畸形、肩胛盂空虚感",
+          "sourceText": "R. 方肩畸形、肩胛盂空虚感",
+          "sourceKey": "R",
+          "ocrScore": 1
+        },
+        {
+          "key": "M",
+          "label": "可合并肱骨大结节撕脱骨折、上肢神经血管损伤",
+          "sourceText": "G. 可合并肱骨大结节撕脱骨折、上肢神经血管损伤",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "N",
+          "label": "Dugas征",
+          "sourceText": "N. Dugas征",
+          "sourceKey": "N",
+          "ocrScore": 1
+        },
+        {
+          "key": "O",
+          "label": "可损伤肺、锁骨下血管、臂丛神经",
+          "sourceText": "F. 可损伤肺、锁骨下血管、臂丛神经",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "P",
+          "label": "可损伤桡神经",
+          "sourceText": "S. 可损伤桡神经",
+          "sourceKey": "S",
+          "ocrScore": 1
+        },
+        {
+          "key": "Q",
+          "label": "弹性固定",
+          "sourceText": "B. 弹性固定",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "R",
+          "label": "近折端向上后、远折端向下前移位",
+          "sourceText": "H. 近折端向上后、远折端向下前移位",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "S",
+          "label": "伸直型最常见",
+          "sourceText": "J. 伸直型最常见",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "T",
+          "label": "可损伤胸长神经、腋神经、腋血管",
+          "sourceText": "K. 可损伤胸长神经、腋神经、腋血管",
+          "sourceKey": "K",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "锁骨骨折",
+          "answer": [
+            "D",
+            "O",
+            "R"
+          ],
+          "answerMode": "多选",
+          "sourceText": "锁骨骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢损伤特点逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肩关节脱位",
+          "answer": [
+            "H",
+            "L",
+            "M",
+            "N",
+            "Q"
+          ],
+          "answerMode": "多选",
+          "sourceText": "肩关节脱位",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢损伤特点逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肱骨近端骨折",
+          "answer": [
+            "C",
+            "G",
+            "T"
+          ],
+          "answerMode": "多选",
+          "sourceText": "肱骨近端骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢损伤特点逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肱骨干骨折",
+          "answer": [
+            "P"
+          ],
+          "answerMode": "单选",
+          "sourceText": "肱骨干骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢损伤特点逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肱骨髁上骨折",
+          "answer": [
+            "A",
+            "I",
+            "J",
+            "S"
+          ],
+          "answerMode": "多选",
+          "sourceText": "肱骨髁上骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢损伤特点逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肘关节脱位",
+          "answer": [
+            "B",
+            "E",
+            "Q"
+          ],
+          "answerMode": "多选",
+          "sourceText": "肘关节脱位",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢损伤特点逐项校对并完成选项重映射"
+        },
+        {
+          "text": "桡骨头半脱位",
+          "answer": [
+            "F",
+            "K"
+          ],
+          "answerMode": "多选",
+          "sourceText": "桡骨头半脱位",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第2～5页：上肢损伤特点逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "sourceName": "四肢骨折和脱位_学成选择题_题目与答案.docx",
+      "sourceText": "上肢骨折与脱位：特点与并发损伤",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "FHL",
+        "ABGNR",
+        "EIK",
+        "S",
+        "CDJO",
+        "BPT",
+        "MQ"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "page": "2～5",
+        "image": "surgery/lecture-pages/lecture-28-page-02-05.webp",
+        "title": "第28讲第2～5页：上肢损伤特点",
+        "description": "好发特点、典型体征、移位方向和并发损伤已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "limb-fracture-dislocation-g03",
+      "page": 0,
+      "title": "前臂与桡骨远端：鉴别与复位",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "先复位桡骨",
+          "sourceText": "K. 均不稳定且发生在下段：先复位桡骨",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "先复位桡骨头",
+          "sourceText": "M. 先复位桡骨头",
+          "sourceKey": "M",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "先复位稳定性骨折",
+          "sourceText": "H. 先复位稳定性骨折",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "尺骨干上1/3骨折＋桡骨头脱位",
+          "sourceText": "G. 尺骨干上1/3骨折＋桡骨头脱位",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "先复位尺骨",
+          "sourceText": "I. 均不稳定且发生在中上段：先复位尺骨",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "手背着地，远折端向桡侧、掌侧移位",
+          "sourceText": "F. 手背着地，远折端向桡侧、掌侧移位",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "需达到解剖复位",
+          "sourceText": "J. 前臂双骨折需解剖复位",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "手掌着地，远折端向桡侧、背侧移位",
+          "sourceText": "D. 手掌着地，远折端向桡侧、背侧移位",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "桡骨远端关节面骨折伴腕关节脱位",
+          "sourceText": "A. 桡骨远端关节面骨折伴腕关节脱位",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "正位枪刺刀畸形，侧位餐叉/银叉畸形",
+          "sourceText": "C. 正位枪刺刀畸形，侧位餐叉/银叉畸形",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "手法复位＋屈腕尺偏位石膏外固定",
+          "sourceText": "B. 手法复位＋屈腕尺偏位石膏外固定",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "桡骨干下1/3骨折＋尺骨头脱位",
+          "sourceText": "E. 桡骨干下1/3骨折＋尺骨头脱位",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "M",
+          "label": "多数类似Colles，少数类似Smith",
+          "sourceText": "L. 多数类似Colles，少数类似Smith",
+          "sourceKey": "L",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "Galeazzi骨折",
+          "answer": [
+            "L"
+          ],
+          "answerMode": "单选",
+          "sourceText": "Galeazzi骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第5～7页：前臂与桡骨远端损伤逐项校对并完成选项重映射"
+        },
+        {
+          "text": "Monteggia骨折",
+          "answer": [
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "sourceText": "Monteggia骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第5～7页：前臂与桡骨远端损伤逐项校对并完成选项重映射"
+        },
+        {
+          "text": "前臂双骨折",
+          "answer": [
+            "C",
+            "G"
+          ],
+          "answerMode": "多选",
+          "sourceText": "前臂双骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第5～7页：前臂与桡骨远端损伤逐项校对并完成选项重映射"
+        },
+        {
+          "text": "前臂双骨折：均不稳定、下段",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "前臂双骨折：均不稳定、下段",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第5～7页：前臂与桡骨远端损伤逐项校对并完成选项重映射"
+        },
+        {
+          "text": "前臂双骨折：均不稳定、中上段",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "前臂双骨折：均不稳定、中上段",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第5～7页：前臂与桡骨远端损伤逐项校对并完成选项重映射"
+        },
+        {
+          "text": "Colles骨折",
+          "answer": [
+            "H",
+            "J",
+            "K"
+          ],
+          "answerMode": "多选",
+          "sourceText": "Colles骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第5～7页：前臂与桡骨远端损伤逐项校对并完成选项重映射"
+        },
+        {
+          "text": "Smith骨折",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选",
+          "sourceText": "Smith骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第5～7页：前臂与桡骨远端损伤逐项校对并完成选项重映射"
+        },
+        {
+          "text": "Barton骨折",
+          "answer": [
+            "I",
+            "M"
+          ],
+          "answerMode": "多选",
+          "sourceText": "Barton骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第5～7页：前臂与桡骨远端损伤逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "sourceName": "四肢骨折和脱位_学成选择题_题目与答案.docx",
+      "sourceText": "前臂与桡骨远端：鉴别与复位",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "E",
+        "GM",
+        "HJ",
+        "K",
+        "I",
+        "BCD",
+        "F",
+        "AL"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "page": "5～7",
+        "image": "surgery/lecture-pages/lecture-28-page-05-07.webp",
+        "title": "第28讲第5～7页：前臂与桡骨远端损伤",
+        "description": "Galeazzi、Monteggia、前臂双骨折及Colles/Smith/Barton骨折已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "optionShuffleVersion": 3
+    },
+    {
+      "id": "limb-fracture-dislocation-g04",
+      "page": 0,
+      "title": "髋部损伤：横向鉴别",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "屈曲、外展、外旋畸形",
+          "sourceText": "R. 屈曲、外展、外旋畸形",
+          "sourceKey": "R",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "中老年骨质疏松多见",
+          "sourceText": "B. 中老年骨质疏松多见",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "可损伤坐骨神经",
+          "sourceText": "Q. 可损伤坐骨神经",
+          "sourceKey": "Q",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "髋部肿胀和瘀斑多见",
+          "sourceText": "E. 髋部肿胀和瘀斑多见",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "弹性固定",
+          "sourceText": "J. 弹性固定",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "腹股沟中点处压痛",
+          "sourceText": "O. 腹股沟中点处压痛",
+          "sourceKey": "O",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "囊外骨折",
+          "sourceText": "V. 囊外骨折",
+          "sourceKey": "V",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "最常见的髋关节脱位类型",
+          "sourceText": "K. 后脱位最常见",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "下肢长度不定",
+          "sourceText": "T. 下肢长度不定",
+          "sourceKey": "T",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "外旋畸形45～60°",
+          "sourceText": "C. 外旋畸形45～60°",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "可合并腹膜后血肿、休克",
+          "sourceText": "H. 可合并腹膜后血肿、休克",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "大转子上移",
+          "sourceText": "M. 下肢缩短、大转子上移",
+          "sourceKey": "M",
+          "ocrScore": 1
+        },
+        {
+          "key": "M",
+          "label": "腹股沟可触及股骨头",
+          "sourceText": "S. 腹股沟可触及股骨头",
+          "sourceKey": "S",
+          "ocrScore": 1
+        },
+        {
+          "key": "N",
+          "label": "可合并股骨头坏死、脂肪栓塞",
+          "sourceText": "I. 可合并股骨头坏死、脂肪栓塞",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "O",
+          "label": "Shenton线不连续",
+          "sourceText": "D. Shenton线不连续",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "P",
+          "label": "跌倒等外伤或病理性骨折",
+          "sourceText": "F. 跌倒等外伤或病理性骨折，中老年骨质疏松多见",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "Q",
+          "label": "臀部可触及股骨头",
+          "sourceText": "P. 臀部可触及股骨头",
+          "sourceKey": "P",
+          "ocrScore": 1
+        },
+        {
+          "key": "R",
+          "label": "外旋畸形可达90°",
+          "sourceText": "N. 外旋畸形可达90°",
+          "sourceKey": "N",
+          "ocrScore": 1
+        },
+        {
+          "key": "S",
+          "label": "最凶险的髋关节脱位类型",
+          "sourceText": "G. 中心脱位最凶险",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "T",
+          "label": "下肢缩短",
+          "sourceText": "U. 下肢缩短",
+          "sourceKey": "U",
+          "ocrScore": 1
+        },
+        {
+          "key": "U",
+          "label": "大转子区压痛",
+          "sourceText": "A. 转子间压痛",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "V",
+          "label": "屈曲、内收、内旋畸形",
+          "sourceText": "L. 屈曲、内收、内旋畸形",
+          "sourceKey": "L",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "髋关节后脱位",
+          "answer": [
+            "C",
+            "E",
+            "H",
+            "O",
+            "Q",
+            "T",
+            "V"
+          ],
+          "answerMode": "多选",
+          "sourceText": "髋关节后脱位",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第7～10页逐项补充髋关节前、后及中心脱位，并同步重映射答案"
+        },
+        {
+          "text": "髋关节前脱位",
+          "answer": [
+            "A",
+            "E",
+            "I",
+            "M",
+            "O"
+          ],
+          "answerMode": "多选",
+          "sourceText": "髋关节前脱位",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第7～10页逐项补充髋关节前、后及中心脱位，并同步重映射答案"
+        },
+        {
+          "text": "髋关节中心脱位",
+          "answer": [
+            "E",
+            "K",
+            "O",
+            "S"
+          ],
+          "answerMode": "多选",
+          "sourceText": "髋关节中心脱位",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第7～10页逐项补充髋关节前、后及中心脱位，并同步重映射答案"
+        },
+        {
+          "text": "股骨颈骨折",
+          "answer": [
+            "B",
+            "F",
+            "J",
+            "L",
+            "N",
+            "T"
+          ],
+          "answerMode": "多选",
+          "sourceText": "股骨颈骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第7～10页逐项补充髋关节前、后及中心脱位，并同步重映射答案"
+        },
+        {
+          "text": "股骨转子间骨折",
+          "answer": [
+            "B",
+            "D",
+            "G",
+            "P",
+            "R",
+            "T",
+            "U"
+          ],
+          "answerMode": "多选",
+          "sourceText": "股骨转子间骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第7～10页逐项补充髋关节前、后及中心脱位，并同步重映射答案"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "sourceName": "四肢骨折和脱位_学成选择题_题目与答案.docx",
+      "sourceText": "髋部损伤：横向鉴别",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "DJKLPQU",
+        "DJRST",
+        "DGHJ",
+        "BCIMOU",
+        "ABEFNUV"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "page": "7～10",
+        "image": "surgery/lecture-pages/lecture-28-page-07-10.webp",
+        "title": "第28讲第7～10页：髋部损伤横向鉴别",
+        "description": "髋关节前、后及中心脱位与股骨颈、转子间骨折的体位、体征和并发症已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V"
+      ],
+      "optionShuffleVersion": 4
+    },
+    {
+      "id": "limb-fracture-dislocation-g05",
+      "page": 0,
+      "title": "髋关节后脱位：Epstein分型",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "单纯脱位，或伴髋臼后壁小骨折片",
+          "sourceText": "A. 单纯脱位，或伴髋臼后壁小骨折片",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "合并髋臼后壁粉碎性骨折",
+          "sourceText": "D. 合并髋臼后壁粉碎性骨折",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "合并髋臼后壁一大块骨折",
+          "sourceText": "E. 合并髋臼后壁一大块骨折",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "合并股骨头骨折",
+          "sourceText": "C. 合并股骨头骨折",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "合并髋臼后壁和顶部骨折",
+          "sourceText": "B. 合并髋臼后壁和顶部骨折",
+          "sourceKey": "B",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "Ⅰ型",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "Ⅰ型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第8页：Epstein分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "Ⅱ型",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "Ⅱ型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第8页：Epstein分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "Ⅲ型",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "Ⅲ型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第8页：Epstein分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "Ⅳ型",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "Ⅳ型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第8页：Epstein分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "Ⅴ型",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "Ⅴ型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第8页：Epstein分型逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "sourceName": "四肢骨折和脱位_学成选择题_题目与答案.docx",
+      "sourceText": "髋关节后脱位：Epstein分型",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "A",
+        "E",
+        "D",
+        "B",
+        "C"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "page": "8",
+        "image": "surgery/lecture-pages/lecture-28-page-08.webp",
+        "title": "第28讲第8页：Epstein分型",
+        "description": "髋关节后脱位EpsteinⅠ～Ⅴ型已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "limb-fracture-dislocation-g06",
+      "page": 0,
+      "title": "股骨颈骨折：分型",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "不完全骨折或嵌插骨折",
+          "sourceText": "D. 不完全骨折或嵌插骨折",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "颈干角≥140°",
+          "sourceText": "C. 颈干角≥140°",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "完全骨折完全移位",
+          "sourceText": "H. 完全骨折完全移位",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "Pauwels角＜30°，稳定",
+          "sourceText": "B. Pauwels角＜30°，稳定",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "完全骨折不移位",
+          "sourceText": "I. 完全骨折不移位",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "骨折线位于股骨颈基底部，预后最好",
+          "sourceText": "G. 基底型，最轻",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "颈干角≤110°",
+          "sourceText": "E. 颈干角≤110°",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "骨折线位于股骨颈中部",
+          "sourceText": "F. 经颈型",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "完全骨折部分移位，股骨颈与股骨头仍有接触，最常见",
+          "sourceText": "K. 完全骨折部分移位，股骨颈与股骨头仍有接触，最常见",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "骨折线位于股骨头下方，预后最差",
+          "sourceText": "A. 头下型，最重",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "Pauwels角＞50°，不稳定",
+          "sourceText": "J. Pauwels角＞50°，不稳定",
+          "sourceKey": "J",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "头下型",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选",
+          "sourceText": "头下型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第9页：股骨颈骨折分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "经颈型",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选",
+          "sourceText": "经颈型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第9页：股骨颈骨折分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "基底型",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选",
+          "sourceText": "基底型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第9页：股骨颈骨折分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "外展型",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "外展型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第9页：股骨颈骨折分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "内收型",
+          "answer": [
+            "K"
+          ],
+          "answerMode": "单选",
+          "sourceText": "内收型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第9页：股骨颈骨折分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "GardenⅠ型",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "GardenⅠ型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第9页：股骨颈骨折分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "GardenⅡ型",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "GardenⅡ型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第9页：股骨颈骨折分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "GardenⅢ型",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选",
+          "sourceText": "GardenⅢ型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第9页：股骨颈骨折分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "GardenⅣ型",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "GardenⅣ型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第9页：股骨颈骨折分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "髋内翻",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选",
+          "sourceText": "髋内翻",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第9页：股骨颈骨折分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "髋外翻",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "髋外翻",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第9页：股骨颈骨折分型逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "sourceName": "四肢骨折和脱位_学成选择题_题目与答案.docx",
+      "sourceText": "股骨颈骨折：分型",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "A",
+        "F",
+        "G",
+        "B",
+        "J",
+        "D",
+        "I",
+        "K",
+        "H",
+        "E",
+        "C"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "page": "9",
+        "image": "surgery/lecture-pages/lecture-28-page-09.webp",
+        "title": "第28讲第9页：股骨颈骨折分型",
+        "description": "骨折线部位、Pauwels角、Garden分型和颈干角已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "optionShuffleVersion": 3
+    },
+    {
+      "id": "limb-fracture-dislocation-g07",
+      "page": 0,
+      "title": "下肢骨折：治疗",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "内踝螺钉内固定",
+          "sourceText": "C. 内踝螺钉内固定",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "螺钉内固定",
+          "sourceText": "B. 闭合复位＋螺钉内固定",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "保守治疗＋膝关节伸直位固定",
+          "sourceText": "O. 保守治疗＋膝关节伸直位固定",
+          "sourceKey": "O",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "垂直悬吊皮牵引",
+          "sourceText": "G. 垂直悬吊皮牵引",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "手术",
+          "sourceText": "H. 手术",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "外踝接骨板内固定",
+          "sourceText": "M. 外踝接骨板内固定",
+          "sourceKey": "M",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "防旋鞋",
+          "sourceText": "E. 防旋鞋",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "清创＋内固定",
+          "sourceText": "N. 清创＋内固定",
+          "sourceKey": "N",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "摘除髌骨",
+          "sourceText": "F. 摘除髌骨",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "全髋关节置换术",
+          "sourceText": "J. 全髋关节置换术",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "半髋关节/股骨头置换术",
+          "sourceText": "L. 半髋关节/股骨头置换术",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "皮肤/胫骨结节牵引",
+          "sourceText": "A. 皮肤/胫骨结节牵引",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "M",
+          "label": "清创＋外固定架外固定",
+          "sourceText": "I. 清创＋外固定架外固定",
+          "sourceKey": "I",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "股骨颈：术前24小时内能完成手术",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选",
+          "sourceText": "股骨颈：术前24小时内能完成手术",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第10～12页：下肢骨折治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "股骨颈：术前24小时内不能完成手术",
+          "answer": [
+            "L"
+          ],
+          "answerMode": "单选",
+          "sourceText": "股骨颈：术前24小时内不能完成手术",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第10～12页：下肢骨折治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "股骨颈：合并症多、预期寿命短",
+          "answer": [
+            "K"
+          ],
+          "answerMode": "单选",
+          "sourceText": "股骨颈：合并症多、预期寿命短",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第10～12页：下肢骨折治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "股骨颈：合并症少、预期寿命长，GardenⅢ/Ⅳ型",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选",
+          "sourceText": "股骨颈：合并症少、预期寿命长，GardenⅢ/Ⅳ型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第10～12页：下肢骨折治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "股骨颈骨折：闭合复位后的固定方式",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "股骨颈骨折：闭合复位后的固定方式",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第10～12页：下肢骨折治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "股骨转子间骨折",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "股骨转子间骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第10～12页：下肢骨折治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "股骨干：＜3岁",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "股骨干：＜3岁",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第10～12页：下肢骨折治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "股骨干：＞3岁",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "股骨干：＞3岁",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第10～12页：下肢骨折治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "髌骨：无移位或移位＜0.5cm",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "髌骨：无移位或移位＜0.5cm",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第10～12页：下肢骨折治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "髌骨：严重粉碎且无法恢复软骨面",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选",
+          "sourceText": "髌骨：严重粉碎且无法恢复软骨面",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第10～12页：下肢骨折治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "开放性小腿双骨折：时间短、污染轻",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选",
+          "sourceText": "开放性小腿双骨折：时间短、污染轻",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第10～12页：下肢骨折治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "开放性小腿双骨折：时间长、污染重",
+          "answer": [
+            "M"
+          ],
+          "answerMode": "单选",
+          "sourceText": "开放性小腿双骨折：时间长、污染重",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第10～12页：下肢骨折治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "三踝骨折",
+          "answer": [
+            "A",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "三踝骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第12页逐项校对；合并后踝固定条件并删除重复总括选项"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "sourceName": "四肢骨折和脱位_学成选择题_题目与答案.docx",
+      "sourceText": "下肢骨折：治疗",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "E",
+        "A",
+        "L",
+        "J",
+        "B",
+        "H",
+        "G",
+        "H",
+        "O",
+        "F",
+        "N",
+        "I",
+        "CM"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "page": "10～12",
+        "image": "surgery/lecture-pages/lecture-28-page-10-12.webp",
+        "title": "第28讲第10～12页：下肢骨折治疗",
+        "description": "股骨颈、股骨干、髌骨、胫腓骨和踝部骨折治疗已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "L",
+        "M",
+        "N",
+        "O"
+      ],
+      "optionShuffleVersion": 3
+    },
+    {
+      "id": "limb-fracture-dislocation-g08",
+      "page": 0,
+      "title": "下肢骨折：移位与并发损伤",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "下肢严重缺血坏死、骨筋膜室综合征",
+          "sourceText": "N. 上1/3：下肢严重缺血坏死、骨筋膜室综合征",
+          "sourceKey": "N",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "脂肪栓塞、休克",
+          "sourceText": "G. 脂肪栓塞、休克",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "近折端向前、远折端向后",
+          "sourceText": "I. 股骨干下1/3近折端向前、远折端向后",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "感染、创伤性关节炎",
+          "sourceText": "J. 感染、创伤性关节炎",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "腓总神经损伤",
+          "sourceText": "D. 腓总神经损伤",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "向外成角",
+          "sourceText": "E. 股骨干中1/3向外成角",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "横形骨折",
+          "sourceText": "H. 间接暴力致横形骨折",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "螺旋形骨折常伴后踝骨折",
+          "sourceText": "F. 下1/3螺旋形骨折常伴后踝骨折",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "粉碎性骨折",
+          "sourceText": "M. 直接暴力致粉碎性骨折",
+          "sourceKey": "M",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "远端血供减弱，易延迟愈合或不愈合",
+          "sourceText": "L. 下1/3：远端血供减弱致延迟愈合或不愈合",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "胫骨干中下1/3三棱形和四边形交界处",
+          "sourceText": "K. 胫骨干中下1/3三棱形和四边形交界处",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "骨筋膜室综合征；远端血供减弱，易延迟愈合或不愈合",
+          "sourceText": "B. 中1/3：骨筋膜室综合征、远端血供减弱致延迟愈合或不愈合",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "M",
+          "label": "腓骨颈",
+          "sourceText": "A. 腓骨颈",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "N",
+          "label": "可损伤腘血管、胫神经、腓总神经，并发骨筋膜室综合征",
+          "sourceText": "C. 下1/3可损伤腘血管、胫神经、腓总神经并致骨筋膜室综合征",
+          "sourceKey": "C",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "股骨干骨折",
+          "answer": [
+            "B",
+            "C",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "股骨干骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第11～12页：下肢骨折移位与并发损伤逐项校对并完成选项重映射"
+        },
+        {
+          "text": "股骨干下1/3骨折",
+          "answer": [
+            "N"
+          ],
+          "answerMode": "单选",
+          "sourceText": "股骨干下1/3骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第11～12页：下肢骨折移位与并发损伤逐项校对并完成选项重映射"
+        },
+        {
+          "text": "腓骨骨折",
+          "answer": [
+            "M"
+          ],
+          "answerMode": "单选",
+          "sourceText": "腓骨骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第11～12页：下肢骨折移位与并发损伤逐项校对并完成选项重映射"
+        },
+        {
+          "text": "腓骨颈骨折",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "腓骨颈骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第11～12页：下肢骨折移位与并发损伤逐项校对并完成选项重映射"
+        },
+        {
+          "text": "胫骨干骨折",
+          "answer": [
+            "D",
+            "K"
+          ],
+          "answerMode": "多选",
+          "sourceText": "胫骨干骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第11～12页：下肢骨折移位与并发损伤逐项校对并完成选项重映射"
+        },
+        {
+          "text": "胫骨上1/3",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "胫骨上1/3",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第11～12页：下肢骨折移位与并发损伤逐项校对并完成选项重映射"
+        },
+        {
+          "text": "胫骨中1/3",
+          "answer": [
+            "L"
+          ],
+          "answerMode": "单选",
+          "sourceText": "胫骨中1/3",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第11～12页：下肢骨折移位与并发损伤逐项校对并完成选项重映射"
+        },
+        {
+          "text": "胫骨下1/3",
+          "answer": [
+            "H",
+            "J"
+          ],
+          "answerMode": "多选",
+          "sourceText": "胫骨下1/3",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第11～12页：下肢骨折移位与并发损伤逐项校对并完成选项重映射"
+        },
+        {
+          "text": "髌骨：直接暴力",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选",
+          "sourceText": "髌骨：直接暴力",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第11～12页：下肢骨折移位与并发损伤逐项校对并完成选项重映射"
+        },
+        {
+          "text": "髌骨：间接暴力",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选",
+          "sourceText": "髌骨：间接暴力",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第11～12页：下肢骨折移位与并发损伤逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "sourceName": "四肢骨折和脱位_学成选择题_题目与答案.docx",
+      "sourceText": "下肢骨折：移位与并发损伤",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "EGI",
+        "C",
+        "A",
+        "D",
+        "JK",
+        "N",
+        "B",
+        "FL",
+        "M",
+        "H"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "page": "11～12",
+        "image": "surgery/lecture-pages/lecture-28-page-11-12.webp",
+        "title": "第28讲第11～12页：下肢骨折移位与并发损伤",
+        "description": "股骨干、髌骨及胫腓骨的移位、好发部位和并发损伤已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "optionShuffleVersion": 3
+    },
+    {
+      "id": "limb-fracture-dislocation-g09",
+      "page": 0,
+      "title": "踝部与跟骨",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "跖屈位易损伤",
+          "sourceText": "E. 跖屈位易损伤",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "下胫腓韧带/胫腓横韧带",
+          "sourceText": "B. 下胫腓韧带/胫腓横韧带",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "外侧副韧带最薄弱",
+          "sourceText": "D. 外侧副韧带最薄弱",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "内侧副韧带/三角韧带最强",
+          "sourceText": "C. 内侧副韧带/三角韧带最强",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "急性期立即冷敷",
+          "sourceText": "A. 急性期立即冷敷",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "跟骨结节关节角/Bohler角改变",
+          "sourceText": "F. 跟骨结节关节角/Bohler角改变",
+          "sourceKey": "F",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "踝关节韧带",
+          "answer": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "sourceText": "踝关节韧带",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第12页：踝部与跟骨逐项校对并完成选项重映射"
+        },
+        {
+          "text": "踝部扭伤",
+          "answer": [
+            "A",
+            "E"
+          ],
+          "answerMode": "多选",
+          "sourceText": "踝部扭伤",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第12页：踝部与跟骨逐项校对并完成选项重映射"
+        },
+        {
+          "text": "跟骨骨折",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选",
+          "sourceText": "跟骨骨折",
+          "ocrScore": 1,
+          "reviewMethod": "已按第28讲第12页：踝部与跟骨逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "sourceName": "四肢骨折和脱位_学成选择题_题目与答案.docx",
+      "sourceText": "踝部与跟骨",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "BCD",
+        "AE",
+        "F"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "page": "12",
+        "image": "surgery/lecture-pages/lecture-28-page-12.webp",
+        "title": "第28讲第12页：踝部与跟骨",
+        "description": "踝关节韧带、扭伤机制和跟骨Bohler角已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "limb-fracture-dislocation-g10",
+      "page": 0,
+      "title": "四肢骨折和脱位·数字挖空",
+      "kind": "FILL",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "text": "Neer分型：移位＞____cm或成角＞____°",
+          "answer": [
+            "1",
+            "45"
+          ],
+          "answerMode": "填空",
+          "sourceText": "Neer分型：移位＞____cm或成角＞____°。1；45",
+          "ocrScore": 1,
+          "blankLabels": [
+            "厘米",
+            "角度"
+          ],
+          "answerDisplay": "＞1cm或＞45°",
+          "inputMode": "text",
+          "reviewMethod": "已按第28讲相关页：数字考点数字逐项校对"
+        },
+        {
+          "text": "肱骨干与肱骨髁轴线前倾角为____～____°",
+          "answer": [
+            "30",
+            "50"
+          ],
+          "answerMode": "填空",
+          "sourceText": "肱骨干与肱骨髁轴线前倾角为____～____°。30；50",
+          "ocrScore": 1,
+          "blankLabels": [
+            "最小角度",
+            "最大角度"
+          ],
+          "answerDisplay": "30～50°",
+          "inputMode": "text",
+          "reviewMethod": "已按第28讲相关页：数字考点数字逐项校对"
+        },
+        {
+          "text": "肱骨髁上骨折多见于＜____岁",
+          "answer": [
+            "10"
+          ],
+          "answerMode": "填空",
+          "sourceText": "肱骨髁上骨折多见于＜____岁。10",
+          "ocrScore": 1,
+          "blankLabels": [
+            "岁"
+          ],
+          "answerDisplay": "＜10岁",
+          "inputMode": "text",
+          "reviewMethod": "已按第28讲相关页：数字考点数字逐项校对"
+        },
+        {
+          "text": "桡骨头半脱位多见于＜____岁",
+          "answer": [
+            "5"
+          ],
+          "answerMode": "填空",
+          "sourceText": "桡骨头半脱位多见于＜____岁。5",
+          "ocrScore": 1,
+          "blankLabels": [
+            "岁"
+          ],
+          "answerDisplay": "＜5岁",
+          "inputMode": "text",
+          "reviewMethod": "已按第28讲相关页：数字考点数字逐项校对"
+        },
+        {
+          "text": "肩关节前脱位复位后三角巾悬吊外固定____周",
+          "answer": [
+            "3"
+          ],
+          "answerMode": "填空",
+          "sourceText": "肩关节前脱位复位后三角巾悬吊外固定____周。3",
+          "ocrScore": 1,
+          "blankLabels": [
+            "周"
+          ],
+          "answerDisplay": "3周",
+          "inputMode": "text",
+          "reviewMethod": "已按第28讲相关页：数字考点数字逐项校对"
+        },
+        {
+          "text": "前臂双骨折术后____周开始手指、腕活动；____周开始肘、肩活动；____～____周X线证实愈合后再进行前臂旋转",
+          "answer": [
+            "2",
+            "4",
+            "8",
+            "10"
+          ],
+          "answerMode": "填空",
+          "sourceText": "前臂双骨折术后____周开始手指、腕活动；____周开始肘、肩活动；____～____周X线证实愈合后再进行前臂旋转。2；4；8；10",
+          "ocrScore": 1,
+          "blankLabels": [
+            "手指腕活动周数",
+            "肘肩活动周数",
+            "旋转起始周数",
+            "旋转结束周数"
+          ],
+          "answerDisplay": "2周；4周；8～10周",
+          "inputMode": "text",
+          "reviewMethod": "已按第28讲相关页：数字考点数字逐项校对"
+        },
+        {
+          "text": "股骨颈骨折外旋畸形多为____～____°；股骨转子间骨折可达____°",
+          "answer": [
+            "45",
+            "60",
+            "90"
+          ],
+          "answerMode": "填空",
+          "sourceText": "股骨颈骨折外旋畸形多为____～____°；股骨转子间骨折可达____°。45；60；90",
+          "ocrScore": 1,
+          "blankLabels": [
+            "起始角度",
+            "结束角度",
+            "转子间角度"
+          ],
+          "answerDisplay": "45～60°；90°",
+          "inputMode": "text",
+          "reviewMethod": "已按第28讲相关页：数字考点数字逐项校对"
+        },
+        {
+          "text": "股骨颈前倾角约____～____°",
+          "answer": [
+            "12",
+            "15"
+          ],
+          "answerMode": "填空",
+          "sourceText": "股骨颈前倾角约____～____°。12；15",
+          "ocrScore": 1,
+          "blankLabels": [
+            "起始角度",
+            "结束角度"
+          ],
+          "answerDisplay": "12～15°",
+          "inputMode": "text",
+          "reviewMethod": "已按第28讲相关页：数字考点数字逐项校对"
+        },
+        {
+          "text": "股骨干骨折：＜____岁垂直悬吊皮牵引，＞____岁手术",
+          "answer": [
+            "3",
+            "3"
+          ],
+          "answerMode": "填空",
+          "sourceText": "股骨干骨折：＜____岁垂直悬吊皮牵引，＞____岁手术。3；3",
+          "ocrScore": 1,
+          "blankLabels": [
+            "牵引年龄",
+            "手术年龄"
+          ],
+          "answerDisplay": "＜3岁；＞3岁",
+          "inputMode": "text",
+          "reviewMethod": "已按第28讲相关页：数字考点数字逐项校对"
+        },
+        {
+          "text": "髌骨骨折移位＜____cm可保守治疗",
+          "answer": [
+            "0.5"
+          ],
+          "answerMode": "填空",
+          "sourceText": "髌骨骨折移位＜____cm可保守治疗。0.5",
+          "ocrScore": 1,
+          "blankLabels": [
+            "厘米"
+          ],
+          "answerDisplay": "＜0.5cm",
+          "inputMode": "text",
+          "reviewMethod": "已按第28讲相关页：数字考点数字逐项校对"
+        },
+        {
+          "text": "后踝骨折影响胫骨____～____关节面时需内固定",
+          "answer": [
+            "1/4",
+            "1/3"
+          ],
+          "answerMode": "填空",
+          "sourceText": "后踝骨折影响胫骨____～____关节面时需内固定。1/4；1/3",
+          "ocrScore": 1,
+          "blankLabels": [
+            "起始比例",
+            "结束比例"
+          ],
+          "answerDisplay": "1/4～1/3",
+          "inputMode": "text",
+          "reviewMethod": "已按第28讲相关页：数字考点数字逐项校对"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "sourceName": "四肢骨折和脱位_学成选择题_题目与答案.docx",
+      "sourceText": "四肢骨折和脱位·数字挖空",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "1；45",
+        "30；50",
+        "10",
+        "5",
+        "3",
+        "2；4；8；10",
+        "45；60；90",
+        "12；15",
+        "3；3",
+        "0.5",
+        "1/4；1/3"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "page": "3～6、9～12",
+        "image": "surgery/lecture-pages/lecture-28-page-digits.webp",
+        "title": "第28讲相关页：数字考点",
+        "description": "Neer分型、年龄、固定和活动时间、角度及关节面比例共11道数字题已逐项复核。"
+      },
+      "optionOriginalOrder": [],
+      "optionShuffleVersion": 0
+    }
+  ]
+}

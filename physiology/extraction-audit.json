@@ -1,0 +1,78 @@
+{
+  "sourcePdf": "天天学成选择题（生理学）.pdf",
+  "pageCount": 126,
+  "chapterCount": 11,
+  "groupCount": 160,
+  "stemCount": 505,
+  "optionCount": 1099,
+  "answeredStemCount": 503,
+  "groupsNeedingReview": 6,
+  "issueCount": 7,
+  "issueSummary": {
+    "第2小问答案引用缺失选项：H": 1,
+    "原题选项字母不连续，缺少：F": 1,
+    "原题选项字母重复：B": 1,
+    "原题选项字母不连续，缺少：C": 1,
+    "原题选项字母不连续，缺少：I": 1,
+    "原题选项字母不连续，缺少：Q": 1,
+    "原题【答案】栏为空": 1
+  },
+  "groupProgressionIssues": [],
+  "reviewGroups": [
+    {
+      "id": "phys-002",
+      "chapter": "第一章 绪论",
+      "groupNumber": 2,
+      "page": 3,
+      "issues": [
+        "第2小问答案引用缺失选项：H"
+      ]
+    },
+    {
+      "id": "phys-070",
+      "chapter": "第五章 呼吸系统",
+      "groupNumber": 8,
+      "page": 61,
+      "issues": [
+        "原题选项字母不连续，缺少：F"
+      ]
+    },
+    {
+      "id": "phys-087",
+      "chapter": "第六章 消化系统",
+      "groupNumber": 10,
+      "page": 75,
+      "issues": [
+        "原题选项字母重复：B",
+        "原题选项字母不连续，缺少：C"
+      ]
+    },
+    {
+      "id": "phys-112",
+      "chapter": "第八章 感觉系统",
+      "groupNumber": 1,
+      "page": 92,
+      "issues": [
+        "原题选项字母不连续，缺少：I"
+      ]
+    },
+    {
+      "id": "phys-118",
+      "chapter": "第八章 感觉系统",
+      "groupNumber": 7,
+      "page": 96,
+      "issues": [
+        "原题选项字母不连续，缺少：Q"
+      ]
+    },
+    {
+      "id": "phys-136",
+      "chapter": "第九章 中枢神经系统",
+      "groupNumber": 15,
+      "page": 107,
+      "issues": [
+        "原题【答案】栏为空"
+      ]
+    }
+  ]
+}

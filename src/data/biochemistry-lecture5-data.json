@@ -1,0 +1,1202 @@
+{
+  "meta": {
+    "title": "生物化学第 05 讲题库",
+    "sourceLabel": "生化第 05 讲学成选择题（磷脂、胆固醇、胆汁酸）",
+    "sourcePages": 1,
+    "lectureCount": 1,
+    "groupCount": 9,
+    "stemCount": 49,
+    "correctionGroupCount": 0,
+    "generatedBy": "scripts/build_biochemistry_lecture5.py",
+    "siteIntegrated": true,
+    "lectureLinked": true,
+    "answerNote": "仅收录第 05 讲《磷脂代谢、胆固醇代谢和胆汁酸》范围内题目；选项已逐组打散，答案已按讲义复核。"
+  },
+  "topics": [
+    "全部",
+    "脂代谢",
+    "综合"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image": "",
+      "topic": "脂代谢",
+      "searchText": "胆固醇酯化：LCAT 与 ACAT"
+    },
+    {
+      "page": 2,
+      "image": "",
+      "topic": "脂代谢",
+      "searchText": "甘油磷脂的极性头基"
+    },
+    {
+      "page": 3,
+      "image": "",
+      "topic": "脂代谢",
+      "searchText": "甘油磷脂合成的活化中间物"
+    },
+    {
+      "page": 4,
+      "image": "",
+      "topic": "脂代谢",
+      "searchText": "磷脂合成中的甲基化反应"
+    },
+    {
+      "page": 5,
+      "image": "",
+      "topic": "脂代谢",
+      "searchText": "磷脂酶的水解产物"
+    },
+    {
+      "page": 6,
+      "image": "",
+      "topic": "脂代谢",
+      "searchText": "胆固醇合成的原料与细胞定位"
+    },
+    {
+      "page": 7,
+      "image": "",
+      "topic": "脂代谢",
+      "searchText": "胆固醇与胆汁酸合成的限速酶调节"
+    },
+    {
+      "page": 8,
+      "image": "",
+      "topic": "脂代谢",
+      "searchText": "胆固醇的去路与维生素 D₃ 活化"
+    },
+    {
+      "page": 9,
+      "image": "",
+      "topic": "脂代谢",
+      "searchText": "胆汁酸、肠肝循环与胆石症"
+    }
+  ],
+  "groups": [
+    {
+      "id": "bio-05-01",
+      "page": 1,
+      "title": "胆固醇酯化：LCAT 与 ACAT",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "脂酰 CoA 提供脂酰基"
+        },
+        {
+          "key": "B",
+          "label": "由相应组织细胞合成"
+        },
+        {
+          "key": "C",
+          "label": "催化血浆中胆固醇酯化"
+        },
+        {
+          "key": "D",
+          "label": "催化细胞内胆固醇酯化"
+        },
+        {
+          "key": "E",
+          "label": "催化胆固醇第 3 位羟基酯化"
+        },
+        {
+          "key": "F",
+          "label": "卵磷脂提供脂酰基"
+        },
+        {
+          "key": "G",
+          "label": "在肝合成"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "LCAT 的特点",
+          "answerRaw": "G、E、C、F",
+          "answer": [
+            "G",
+            "E",
+            "C",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "ACAT 的特点",
+          "answerRaw": "A、E、D、B",
+          "answer": [
+            "A",
+            "E",
+            "D",
+            "B"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "胆固醇酯化：LCAT 与 ACAT",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生化 磷脂代谢、胆固醇代谢和胆汁酸",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-05-page-01.webp",
+        "title": "第 05 讲《生化 磷脂代谢、胆固醇代谢和胆汁酸》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-05-02",
+      "page": 2,
+      "title": "甘油磷脂的极性头基",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "丝氨酸"
+        },
+        {
+          "key": "B",
+          "label": "乙醇胺"
+        },
+        {
+          "key": "C",
+          "label": "肌醇"
+        },
+        {
+          "key": "D",
+          "label": "氢"
+        },
+        {
+          "key": "E",
+          "label": "磷脂酰甘油"
+        },
+        {
+          "key": "F",
+          "label": "胆碱"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "磷脂酸的 X 基团",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "卵磷脂的 X 基团",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "脑磷脂的 X 基团",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "磷脂酰丝氨酸的 X 基团",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "心磷脂的 X 基团",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "磷脂酰肌醇的 X 基团",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "甘油磷脂的极性头基",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生化 磷脂代谢、胆固醇代谢和胆汁酸",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-05-page-02.webp",
+        "title": "第 05 讲《生化 磷脂代谢、胆固醇代谢和胆汁酸》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-05-03",
+      "page": 3,
+      "title": "甘油磷脂合成的活化中间物",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "CDP-胆碱"
+        },
+        {
+          "key": "B",
+          "label": "磷脂酰肌醇"
+        },
+        {
+          "key": "C",
+          "label": "脑磷脂"
+        },
+        {
+          "key": "D",
+          "label": "甘油三酯"
+        },
+        {
+          "key": "E",
+          "label": "CDP-乙醇胺"
+        },
+        {
+          "key": "F",
+          "label": "脂酰 CoA"
+        },
+        {
+          "key": "G",
+          "label": "磷脂酰丝氨酸"
+        },
+        {
+          "key": "H",
+          "label": "丝氨酸"
+        },
+        {
+          "key": "I",
+          "label": "甘油二酯"
+        },
+        {
+          "key": "J",
+          "label": "CDP-甘油二酯"
+        },
+        {
+          "key": "K",
+          "label": "肌醇"
+        },
+        {
+          "key": "L",
+          "label": "卵磷脂"
+        },
+        {
+          "key": "M",
+          "label": "心磷脂"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "甘油二酯途径可合成",
+          "answerRaw": "C、L、D",
+          "answer": [
+            "C",
+            "L",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "CDP-甘油二酯途径可合成",
+          "answerRaw": "G、B、M",
+          "answer": [
+            "G",
+            "B",
+            "M"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "脑磷脂活化的中间物",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "卵磷脂活化的中间物",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "甘油三酯合成的脂酰基供体",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "合成磷脂酰肌醇还需要",
+          "answerRaw": "K",
+          "answer": [
+            "K"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "合成磷脂酰丝氨酸还需要",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "磷脂酸合成的关键中间物",
+          "answerRaw": "I、J",
+          "answer": [
+            "I",
+            "J"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "甘油磷脂合成的活化中间物",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生化 磷脂代谢、胆固醇代谢和胆汁酸",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-05-page-02.webp",
+        "title": "第 05 讲《生化 磷脂代谢、胆固醇代谢和胆汁酸》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-05-04",
+      "page": 4,
+      "title": "磷脂合成中的甲基化反应",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "脑磷脂"
+        },
+        {
+          "key": "B",
+          "label": "卵磷脂"
+        },
+        {
+          "key": "C",
+          "label": "S-腺苷甲硫氨酸循环"
+        },
+        {
+          "key": "D",
+          "label": "磷脂酰丝氨酸"
+        },
+        {
+          "key": "E",
+          "label": "鞘磷脂"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "合成时与甲基化反应有关的磷脂",
+          "answerRaw": "B、E",
+          "answer": [
+            "B",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "甲基供体相关循环",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "磷脂合成中的甲基化反应",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生化 磷脂代谢、胆固醇代谢和胆汁酸",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-05-page-02.webp",
+        "title": "第 05 讲《生化 磷脂代谢、胆固醇代谢和胆汁酸》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-05-05",
+      "page": 5,
+      "title": "磷脂酶的水解产物",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "1-溶血磷脂"
+        },
+        {
+          "key": "B",
+          "label": "磷脂酸"
+        },
+        {
+          "key": "C",
+          "label": "2-溶血磷脂"
+        },
+        {
+          "key": "D",
+          "label": "1,2-甘油二酯"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "磷脂酶 A₁ 的水解产物",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "磷脂酶 A₂ 的水解产物",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "磷脂酶 C 的水解产物",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "磷脂酶 D 的水解产物",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "磷脂酶的水解产物",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生化 磷脂代谢、胆固醇代谢和胆汁酸",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-05-page-02.webp",
+        "title": "第 05 讲《生化 磷脂代谢、胆固醇代谢和胆汁酸》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-05-06",
+      "page": 6,
+      "title": "胆固醇合成的原料与细胞定位",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "葡萄糖"
+        },
+        {
+          "key": "B",
+          "label": "乙酰 CoA"
+        },
+        {
+          "key": "C",
+          "label": "胞浆"
+        },
+        {
+          "key": "D",
+          "label": "氨基酸"
+        },
+        {
+          "key": "E",
+          "label": "ATP"
+        },
+        {
+          "key": "F",
+          "label": "柠檬酸-丙酮酸循环"
+        },
+        {
+          "key": "G",
+          "label": "小肠"
+        },
+        {
+          "key": "H",
+          "label": "肝"
+        },
+        {
+          "key": "I",
+          "label": "NADPH"
+        },
+        {
+          "key": "J",
+          "label": "磷酸戊糖途径"
+        },
+        {
+          "key": "K",
+          "label": "滑面内质网"
+        },
+        {
+          "key": "L",
+          "label": "将乙酰 CoA 从线粒体转运至胞浆"
+        },
+        {
+          "key": "M",
+          "label": "脂肪酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "胆固醇合成的主要部位",
+          "answerRaw": "C、G、K、H",
+          "answer": [
+            "C",
+            "G",
+            "K",
+            "H"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "胆固醇合成的直接原料",
+          "answerRaw": "I、B、E",
+          "answer": [
+            "I",
+            "B",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "合成胆固醇的乙酰 CoA 来源",
+          "answerRaw": "A、D、M",
+          "answer": [
+            "A",
+            "D",
+            "M"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "合成胆固醇的 NADPH 来源",
+          "answerRaw": "J、F",
+          "answer": [
+            "J",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "柠檬酸-丙酮酸循环的作用",
+          "answerRaw": "L",
+          "answer": [
+            "L"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "胆固醇合成的原料与细胞定位",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生化 磷脂代谢、胆固醇代谢和胆汁酸",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-05-page-01.webp",
+        "title": "第 05 讲《生化 磷脂代谢、胆固醇代谢和胆汁酸》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-05-07",
+      "page": 7,
+      "title": "胆固醇与胆汁酸合成的限速酶调节",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "胆汁酸"
+        },
+        {
+          "key": "B",
+          "label": "进食状态"
+        },
+        {
+          "key": "C",
+          "label": "饥饿"
+        },
+        {
+          "key": "D",
+          "label": "中午"
+        },
+        {
+          "key": "E",
+          "label": "午夜"
+        },
+        {
+          "key": "F",
+          "label": "HMG-CoA 还原酶"
+        },
+        {
+          "key": "G",
+          "label": "胆固醇 7α-羟化酶"
+        },
+        {
+          "key": "H",
+          "label": "糖皮质激素"
+        },
+        {
+          "key": "I",
+          "label": "高脂"
+        },
+        {
+          "key": "J",
+          "label": "胆固醇"
+        },
+        {
+          "key": "K",
+          "label": "胰岛素使其去磷酸化"
+        },
+        {
+          "key": "L",
+          "label": "生长激素"
+        },
+        {
+          "key": "M",
+          "label": "甲状腺激素"
+        },
+        {
+          "key": "N",
+          "label": "高糖"
+        },
+        {
+          "key": "O",
+          "label": "他汀类药物"
+        },
+        {
+          "key": "P",
+          "label": "胰高血糖素"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "胆固醇合成的关键酶",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "HMG-CoA 还原酶的激活因素",
+          "answerRaw": "M、K",
+          "answer": [
+            "M",
+            "K"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "HMG-CoA 还原酶的抑制因素",
+          "answerRaw": "A、P、J、H、O",
+          "answer": [
+            "A",
+            "P",
+            "J",
+            "H",
+            "O"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "HMG-CoA 还原酶活性较高时",
+          "answerRaw": "B、E、N、I",
+          "answer": [
+            "B",
+            "E",
+            "N",
+            "I"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "HMG-CoA 还原酶活性较低时",
+          "answerRaw": "C、D",
+          "answer": [
+            "C",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 6,
+          "text": "胆汁酸合成的关键酶",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "胆固醇 7α-羟化酶的激活因素",
+          "answerRaw": "L、M、J、H",
+          "answer": [
+            "L",
+            "M",
+            "J",
+            "H"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 8,
+          "text": "胆固醇 7α-羟化酶的抑制因素",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "胆固醇与胆汁酸合成的限速酶调节",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生化 磷脂代谢、胆固醇代谢和胆汁酸",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-05-page-01.webp",
+        "title": "第 05 讲《生化 磷脂代谢、胆固醇代谢和胆汁酸》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-05-08",
+      "page": 8,
+      "title": "胆固醇的去路与维生素 D₃ 活化",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "CO₂ 和 H₂O"
+        },
+        {
+          "key": "B",
+          "label": "维生素 D₃"
+        },
+        {
+          "key": "C",
+          "label": "25-羟维生素 D₃"
+        },
+        {
+          "key": "D",
+          "label": "7-脱氢胆固醇"
+        },
+        {
+          "key": "E",
+          "label": "活性维生素 D₃"
+        },
+        {
+          "key": "F",
+          "label": "胆色素"
+        },
+        {
+          "key": "G",
+          "label": "骨化三醇"
+        },
+        {
+          "key": "H",
+          "label": "性激素"
+        },
+        {
+          "key": "I",
+          "label": "血红素"
+        },
+        {
+          "key": "J",
+          "label": "糖皮质激素"
+        },
+        {
+          "key": "K",
+          "label": "醛固酮"
+        },
+        {
+          "key": "L",
+          "label": "胆汁酸"
+        },
+        {
+          "key": "M",
+          "label": "1,25-二羟维生素 D₃"
+        },
+        {
+          "key": "N",
+          "label": "紫外线"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "胆固醇最主要的去路",
+          "answerRaw": "L",
+          "answer": [
+            "L"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "皮肤中合成维生素 D₃ 所需",
+          "answerRaw": "B、N、D",
+          "answer": [
+            "B",
+            "N",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "维生素 D₃ 在肝内的产物",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "维生素 D₃ 在肾内的活性产物",
+          "answerRaw": "G、M、E",
+          "answer": [
+            "G",
+            "M",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "由胆固醇衍生的类固醇激素",
+          "answerRaw": "H、M、K、J",
+          "answer": [
+            "H",
+            "M",
+            "K",
+            "J"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 6,
+          "text": "胆固醇不能彻底氧化为",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "胆固醇不能转变为",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "胆色素的前体",
+          "answerRaw": "I",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "胆固醇的去路与维生素 D₃ 活化",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生化 磷脂代谢、胆固醇代谢和胆汁酸",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-05-page-02.webp",
+        "title": "第 05 讲《生化 磷脂代谢、胆固醇代谢和胆汁酸》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-05-09",
+      "page": 9,
+      "title": "胆汁酸、肠肝循环与胆石症",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "鹅脱氧胆酸"
+        },
+        {
+          "key": "B",
+          "label": "胆汁酸在肠道丢失过多"
+        },
+        {
+          "key": "C",
+          "label": "脱氧胆酸"
+        },
+        {
+          "key": "D",
+          "label": "牛磺酸"
+        },
+        {
+          "key": "E",
+          "label": "回肠"
+        },
+        {
+          "key": "F",
+          "label": "胆汁中胆固醇过多"
+        },
+        {
+          "key": "G",
+          "label": "甘氨酸"
+        },
+        {
+          "key": "H",
+          "label": "肝合成胆汁酸不足"
+        },
+        {
+          "key": "I",
+          "label": "肠肝循环减少"
+        },
+        {
+          "key": "J",
+          "label": "胆酸"
+        },
+        {
+          "key": "K",
+          "label": "肠肝循环"
+        },
+        {
+          "key": "L",
+          "label": "石胆酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "初级胆汁酸",
+          "answerRaw": "J、A",
+          "answer": [
+            "J",
+            "A"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "次级胆汁酸",
+          "answerRaw": "C、L",
+          "answer": [
+            "C",
+            "L"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "结合胆汁酸可与下列氨基酸结合",
+          "answerRaw": "G、D",
+          "answer": [
+            "G",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "胆汁酸重吸收的主要部位",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "胆汁酸回收过程",
+          "answerRaw": "K",
+          "answer": [
+            "K"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "胆固醇性胆石症的相关因素",
+          "answerRaw": "B、I、F、H",
+          "answer": [
+            "B",
+            "I",
+            "F",
+            "H"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "胆汁酸、肠肝循环与胆石症",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生化 磷脂代谢、胆固醇代谢和胆汁酸",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-05-page-02.webp",
+        "title": "第 05 讲《生化 磷脂代谢、胆固醇代谢和胆汁酸》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 05 讲，并逐项复核。"
+      }
+    }
+  ],
+  "lectures": [
+    {
+      "id": "lecture-05",
+      "number": 5,
+      "title": "生化 磷脂代谢、胆固醇代谢和胆汁酸",
+      "pageCount": 5
+    }
+  ]
+}

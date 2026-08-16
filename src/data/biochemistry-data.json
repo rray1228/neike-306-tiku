@@ -1,0 +1,941 @@
+{
+  "meta": {
+    "title": "生物化学第 1 讲题库",
+    "sourceLabel": "生化第 1 讲学成选择题（修订扩充版）",
+    "sourcePages": 1,
+    "lectureCount": 1,
+    "groupCount": 8,
+    "stemCount": 27,
+    "correctionGroupCount": 0,
+    "generatedBy": "scripts/build_biochemistry_chapter1.py",
+    "siteIntegrated": true,
+    "lectureLinked": true,
+    "answerNote": "仅收录第 01 讲《糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》范围内题目；每题组均已关联对应讲义页。"
+  },
+  "topics": [
+    "全部",
+    "糖无氧氧化与糖有氧氧化",
+    "红细胞代谢与高能化合物",
+    "综合"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image": "",
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "searchText": "糖酵解关键酶"
+    },
+    {
+      "page": 2,
+      "image": "",
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "searchText": "关键酶与非关键酶"
+    },
+    {
+      "page": 3,
+      "image": "",
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "searchText": "糖有氧氧化的关键酶"
+    },
+    {
+      "page": 4,
+      "image": "",
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "searchText": "糖代谢途径的意义"
+    },
+    {
+      "page": 11,
+      "image": "",
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "searchText": "糖代谢途径定义"
+    },
+    {
+      "page": 5,
+      "image": "",
+      "topic": "红细胞代谢与高能化合物",
+      "searchText": "高能化合物"
+    },
+    {
+      "page": 12,
+      "image": "",
+      "topic": "红细胞代谢与高能化合物",
+      "searchText": "底物水平磷酸化"
+    },
+    {
+      "page": 13,
+      "image": "",
+      "topic": "红细胞代谢与高能化合物",
+      "searchText": "高能硫酯键的生理角色"
+    }
+  ],
+  "groups": [
+    {
+      "id": "bio-01-01",
+      "page": 1,
+      "title": "糖酵解关键酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "长链脂酰 CoA",
+          "sourceText": "A. 长链脂酰 CoA"
+        },
+        {
+          "key": "B",
+          "label": "PEP→丙酮酸、ATP",
+          "sourceText": "B. PEP→丙酮酸、ATP"
+        },
+        {
+          "key": "C",
+          "label": "AMP",
+          "sourceText": "C. AMP"
+        },
+        {
+          "key": "D",
+          "label": "G→G-6-P",
+          "sourceText": "D. G→G-6-P"
+        },
+        {
+          "key": "E",
+          "label": "ATP",
+          "sourceText": "E. ATP"
+        },
+        {
+          "key": "F",
+          "label": "果糖-2,6-二磷酸（最强激活剂）",
+          "sourceText": "F. 果糖-2,6-二磷酸（最强激活剂）"
+        },
+        {
+          "key": "G",
+          "label": "丙氨酸",
+          "sourceText": "G. 丙氨酸"
+        },
+        {
+          "key": "H",
+          "label": "F-6-P→F-1,6-DP",
+          "sourceText": "H. F-6-P→F-1,6-DP"
+        },
+        {
+          "key": "I",
+          "label": "葡萄糖",
+          "sourceText": "I. 葡萄糖"
+        },
+        {
+          "key": "J",
+          "label": "G-6-P",
+          "sourceText": "J. G-6-P"
+        },
+        {
+          "key": "K",
+          "label": "ADP",
+          "sourceText": "K. ADP"
+        },
+        {
+          "key": "L",
+          "label": "柠檬酸",
+          "sourceText": "L. 柠檬酸"
+        },
+        {
+          "key": "M",
+          "label": "果糖-1,6-二磷酸",
+          "sourceText": "M. 果糖-1,6-二磷酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "丙酮酸激酶催化：",
+          "sourceText": "1. 丙酮酸激酶催化：",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "丙酮酸激酶激活剂：",
+          "sourceText": "2. 丙酮酸激酶激活剂：",
+          "answerRaw": "M",
+          "answer": [
+            "M"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "丙酮酸激酶抑制剂：",
+          "sourceText": "3. 丙酮酸激酶抑制剂：",
+          "answerRaw": "EG",
+          "answer": [
+            "E",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "己糖激酶催化：",
+          "sourceText": "4. 己糖激酶催化：",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "己糖激酶激活剂：",
+          "sourceText": "5. 己糖激酶激活剂：",
+          "answerRaw": "I",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "己糖激酶抑制剂：",
+          "sourceText": "6. 己糖激酶抑制剂：",
+          "answerRaw": "AJ",
+          "answer": [
+            "A",
+            "J"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 7,
+          "text": "磷酸果糖激酶-1催化：",
+          "sourceText": "7. 磷酸果糖激酶-1催化：",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "磷酸果糖激酶-1激活剂：",
+          "sourceText": "8. 磷酸果糖激酶-1激活剂：",
+          "answerRaw": "CFK",
+          "answer": [
+            "C",
+            "F",
+            "K"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 9,
+          "text": "磷酸果糖激酶-1抑制剂：",
+          "sourceText": "9. 磷酸果糖激酶-1抑制剂：",
+          "answerRaw": "EL",
+          "answer": [
+            "E",
+            "L"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖酵解关键酶",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+        "page": 4,
+        "image": "biochemistry/lecture-pages/lecture-01-page-04.webp",
+        "title": "第 1 讲《生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》· 第 4 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-02",
+      "page": 2,
+      "title": "关键酶与非关键酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "3-磷酸甘油醛脱氢酶",
+          "sourceText": "A. 3-磷酸甘油醛脱氢酶"
+        },
+        {
+          "key": "B",
+          "label": "异柠檬酸脱氢酶",
+          "sourceText": "B. 异柠檬酸脱氢酶"
+        },
+        {
+          "key": "C",
+          "label": "己糖激酶",
+          "sourceText": "C. 己糖激酶"
+        },
+        {
+          "key": "D",
+          "label": "琥珀酰 CoA 合成酶",
+          "sourceText": "D. 琥珀酰 CoA 合成酶"
+        },
+        {
+          "key": "E",
+          "label": "丙酮酸激酶",
+          "sourceText": "E. 丙酮酸激酶"
+        },
+        {
+          "key": "F",
+          "label": "磷酸甘油酸激酶",
+          "sourceText": "F. 磷酸甘油酸激酶"
+        },
+        {
+          "key": "G",
+          "label": "α-酮戊二酸脱氢酶复合体",
+          "sourceText": "G. α-酮戊二酸脱氢酶复合体"
+        },
+        {
+          "key": "H",
+          "label": "琥珀酸脱氢酶",
+          "sourceText": "H. 琥珀酸脱氢酶"
+        },
+        {
+          "key": "I",
+          "label": "丙酮酸脱氢酶复合体",
+          "sourceText": "I. 丙酮酸脱氢酶复合体"
+        },
+        {
+          "key": "J",
+          "label": "磷酸果糖激酶-1",
+          "sourceText": "J. 磷酸果糖激酶-1"
+        },
+        {
+          "key": "K",
+          "label": "乳酸脱氢酶 LDH",
+          "sourceText": "K. 乳酸脱氢酶 LDH"
+        },
+        {
+          "key": "L",
+          "label": "柠檬酸合酶",
+          "sourceText": "L. 柠檬酸合酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "关键酶",
+          "sourceText": "1. 关键酶",
+          "answerRaw": "BCEGIJL",
+          "answer": [
+            "B",
+            "C",
+            "E",
+            "G",
+            "I",
+            "J",
+            "L"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "非关键酶",
+          "sourceText": "2. 非关键酶",
+          "answerRaw": "ADFHK",
+          "answer": [
+            "A",
+            "D",
+            "F",
+            "H",
+            "K"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "关键酶与非关键酶",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+        "page": 5,
+        "image": "biochemistry/lecture-pages/lecture-01-page-05.webp",
+        "title": "第 1 讲《生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》· 第 5 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-03",
+      "page": 3,
+      "title": "糖有氧氧化的关键酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "异柠檬酸脱氢酶",
+          "sourceText": "A. 异柠檬酸脱氢酶"
+        },
+        {
+          "key": "B",
+          "label": "磷酸果糖激酶-1",
+          "sourceText": "B. 磷酸果糖激酶-1"
+        },
+        {
+          "key": "C",
+          "label": "α-酮戊二酸脱氢酶复合体",
+          "sourceText": "C. α-酮戊二酸脱氢酶复合体"
+        },
+        {
+          "key": "D",
+          "label": "丙酮酸脱氢酶复合体",
+          "sourceText": "D. 丙酮酸脱氢酶复合体"
+        },
+        {
+          "key": "E",
+          "label": "己糖激酶",
+          "sourceText": "E. 己糖激酶"
+        },
+        {
+          "key": "F",
+          "label": "柠檬酸合酶",
+          "sourceText": "F. 柠檬酸合酶"
+        },
+        {
+          "key": "G",
+          "label": "丙酮酸激酶",
+          "sourceText": "G. 丙酮酸激酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "糖酵解的关键酶",
+          "sourceText": "1. 糖酵解的关键酶",
+          "answerRaw": "BEG",
+          "answer": [
+            "B",
+            "E",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "丙酮酸脱羧的关键酶",
+          "sourceText": "2. 丙酮酸脱羧的关键酶",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "三羧酸循环的关键酶",
+          "sourceText": "3. 三羧酸循环的关键酶",
+          "answerRaw": "ACF",
+          "answer": [
+            "A",
+            "C",
+            "F"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖有氧氧化的关键酶",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+        "page": 4,
+        "image": "biochemistry/lecture-pages/lecture-01-page-04.webp",
+        "title": "第 1 讲《生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》· 第 4 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-04",
+      "page": 4,
+      "title": "糖代谢途径的意义",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "三大营养物质最终代谢去路、联系枢纽",
+          "sourceText": "A. 三大营养物质最终代谢去路、联系枢纽"
+        },
+        {
+          "key": "B",
+          "label": "缺氧供能",
+          "sourceText": "B. 缺氧供能"
+        },
+        {
+          "key": "C",
+          "label": "为氧化磷酸化提供还原当量",
+          "sourceText": "C. 为氧化磷酸化提供还原当量"
+        },
+        {
+          "key": "D",
+          "label": "成熟红细胞获得能量的唯一途径",
+          "sourceText": "D. 成熟红细胞获得能量的唯一途径"
+        },
+        {
+          "key": "E",
+          "label": "向肌肉迅速供能",
+          "sourceText": "E. 向肌肉迅速供能"
+        },
+        {
+          "key": "F",
+          "label": "瓦伯格效应：恶性肿瘤即使氧供正常也主要进行无氧氧化",
+          "sourceText": "F. 瓦伯格效应：恶性肿瘤即使氧供正常也主要进行无氧氧化"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "无氧氧化的意义",
+          "sourceText": "1. 无氧氧化的意义",
+          "answerRaw": "BDEF",
+          "answer": [
+            "B",
+            "D",
+            "E",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "三羧酸循环的意义",
+          "sourceText": "2. 三羧酸循环的意义",
+          "answerRaw": "AC",
+          "answer": [
+            "A",
+            "C"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "糖代谢途径的意义",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+        "page": 6,
+        "image": "biochemistry/lecture-pages/lecture-01-page-06.webp",
+        "title": "第 1 讲《生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》· 第 6 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-11",
+      "page": 11,
+      "title": "糖代谢途径定义",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "葡萄糖转化为二氧化碳",
+          "sourceText": "A. 葡萄糖转化为二氧化碳"
+        },
+        {
+          "key": "B",
+          "label": "葡萄糖转化为 5-磷酸核糖",
+          "sourceText": "B. 葡萄糖转化为 5-磷酸核糖"
+        },
+        {
+          "key": "C",
+          "label": "葡萄糖转化为乳酸",
+          "sourceText": "C. 葡萄糖转化为乳酸"
+        },
+        {
+          "key": "D",
+          "label": "葡萄糖转化为丙酮酸",
+          "sourceText": "D. 葡萄糖转化为丙酮酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "糖酵解途径是指",
+          "sourceText": "1. 糖酵解途径是指",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "葡萄糖无氧氧化指",
+          "sourceText": "2. 葡萄糖无氧氧化指",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "葡萄糖有氧氧化指",
+          "sourceText": "3. 葡萄糖有氧氧化指",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "葡萄糖磷酸戊糖途径指",
+          "sourceText": "4. 葡萄糖磷酸戊糖途径指",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "糖代谢途径定义",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-01-page-03.webp",
+        "title": "第 1 讲《生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-05",
+      "page": 5,
+      "title": "高能化合物",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "果糖-1,6-二磷酸",
+          "sourceText": "A. 果糖-1,6-二磷酸"
+        },
+        {
+          "key": "B",
+          "label": "HMG CoA",
+          "sourceText": "B. HMG CoA"
+        },
+        {
+          "key": "C",
+          "label": "氨基甲酰磷酸",
+          "sourceText": "C. 氨基甲酰磷酸"
+        },
+        {
+          "key": "D",
+          "label": "乙酰 CoA",
+          "sourceText": "D. 乙酰 CoA"
+        },
+        {
+          "key": "E",
+          "label": "葡萄糖-1-磷酸",
+          "sourceText": "E. 葡萄糖-1-磷酸"
+        },
+        {
+          "key": "F",
+          "label": "磷酸肌酸",
+          "sourceText": "F. 磷酸肌酸"
+        },
+        {
+          "key": "G",
+          "label": "三磷酸肌醇",
+          "sourceText": "G. 三磷酸肌醇"
+        },
+        {
+          "key": "H",
+          "label": "丙二酰 CoA/丙二酸单酰 CoA",
+          "sourceText": "H. 丙二酰 CoA/丙二酸单酰 CoA"
+        },
+        {
+          "key": "I",
+          "label": "1,3-二磷酸甘油酸、PEP",
+          "sourceText": "I. 1,3-二磷酸甘油酸、PEP"
+        },
+        {
+          "key": "J",
+          "label": "焦磷酸（如 PRPP）",
+          "sourceText": "J. 焦磷酸（如 PRPP）"
+        },
+        {
+          "key": "K",
+          "label": "脂酰 CoA",
+          "sourceText": "K. 脂酰 CoA"
+        },
+        {
+          "key": "L",
+          "label": "NDP、NTP",
+          "sourceText": "L. NDP、NTP"
+        },
+        {
+          "key": "M",
+          "label": "2,3-二磷酸甘油酸",
+          "sourceText": "M. 2,3-二磷酸甘油酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "高能硫酯键",
+          "sourceText": "1. 高能硫酯键",
+          "answerRaw": "BDHK",
+          "answer": [
+            "B",
+            "D",
+            "H",
+            "K"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "高能磷酸键",
+          "sourceText": "2. 高能磷酸键",
+          "answerRaw": "CEFIJL",
+          "answer": [
+            "C",
+            "E",
+            "F",
+            "I",
+            "J",
+            "L"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "高能化合物",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "红细胞代谢与高能化合物",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+        "page": 7,
+        "image": "biochemistry/lecture-pages/lecture-01-page-07.webp",
+        "title": "第 1 讲《生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》· 第 7 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-12",
+      "page": 12,
+      "title": "底物水平磷酸化",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "柠檬酸合酶",
+          "sourceText": "A. 柠檬酸合酶"
+        },
+        {
+          "key": "B",
+          "label": "磷酸甘油酸激酶",
+          "sourceText": "B. 磷酸甘油酸激酶"
+        },
+        {
+          "key": "C",
+          "label": "丙酮酸激酶",
+          "sourceText": "C. 丙酮酸激酶"
+        },
+        {
+          "key": "D",
+          "label": "己糖激酶",
+          "sourceText": "D. 己糖激酶"
+        },
+        {
+          "key": "E",
+          "label": "琥珀酰 CoA 合成酶",
+          "sourceText": "E. 琥珀酰 CoA 合成酶"
+        },
+        {
+          "key": "F",
+          "label": "丙酮酸脱氢酶",
+          "sourceText": "F. 丙酮酸脱氢酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "催化底物水平磷酸化的酶",
+          "sourceText": "1. 催化底物水平磷酸化的酶",
+          "answerRaw": "BCE",
+          "answer": [
+            "B",
+            "C",
+            "E"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "底物水平磷酸化",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "红细胞代谢与高能化合物",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+        "page": 5,
+        "image": "biochemistry/lecture-pages/lecture-01-page-05.webp",
+        "title": "第 1 讲《生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》· 第 5 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-01-13",
+      "page": 13,
+      "title": "高能硫酯键的生理角色",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "HMG CoA",
+          "sourceText": "A. HMG CoA"
+        },
+        {
+          "key": "B",
+          "label": "脂酰 CoA",
+          "sourceText": "B. 脂酰 CoA"
+        },
+        {
+          "key": "C",
+          "label": "乙酰 CoA",
+          "sourceText": "C. 乙酰 CoA"
+        },
+        {
+          "key": "D",
+          "label": "丙二酰 CoA/丙二酸单酰 CoA",
+          "sourceText": "D. 丙二酰 CoA/丙二酸单酰 CoA"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "脂肪酸合成的重要物质",
+          "sourceText": "1. 脂肪酸合成的重要物质",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "胆固醇、酮体合成的重要物质",
+          "sourceText": "2. 胆固醇、酮体合成的重要物质",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "三大营养物质最终代谢去路",
+          "sourceText": "3. 三大营养物质最终代谢去路",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "脂肪酸的活化形式",
+          "sourceText": "4. 脂肪酸的活化形式",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "高能硫酯键的生理角色",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "红细胞代谢与高能化合物",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+        "page": 7,
+        "image": "biochemistry/lecture-pages/lecture-01-page-07.webp",
+        "title": "第 1 讲《生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》· 第 7 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化讲义，并逐项复核。"
+      }
+    }
+  ],
+  "lectures": [
+    {
+      "id": "lecture-01",
+      "number": 1,
+      "title": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+      "pageCount": 10
+    }
+  ]
+}

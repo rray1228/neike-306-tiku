@@ -1,0 +1,1603 @@
+{
+  "meta": {
+    "title": "骨与关节感染学成选择题",
+    "lectureId": "lecture-23",
+    "lecturePagesReviewed": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "answerNote": "保持二次修订版Word原有12个题组及共用选项池；题干、选项与答案已按第23讲讲义逐项校对，选项固定打乱并同步重映射答案。"
+  },
+  "groups": [
+    {
+      "id": "ortho-infection-g01",
+      "page": 0,
+      "title": "骨与关节化脓性感染 · 基本特点、临床表现与早期诊断",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "脓肿分层穿刺涂片发现脓细胞或细菌（最佳）",
+          "sourceText": "M. 脓肿分层穿刺涂片发现脓细胞或细菌（最佳）",
+          "sourceKey": "M",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "大量菌栓停滞在长骨干骺端，迅速出现骨坏死和脓肿，脓肿扩散至骨膜下及软组织等，后期形成反应性新生骨",
+          "sourceText": "G. 大量菌栓停滞在长骨干骺端，迅速出现骨坏死和脓肿，脓肿扩散至骨膜下及软组织等，后期形成反应性新生骨",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "关节穿刺",
+          "sourceText": "F. 关节穿刺",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "好发于膝关节上下干骺端（股骨下端、胫骨上端）",
+          "sourceText": "L. 好发于膝关节上下干骺端（股骨下端、胫骨上端）",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "发病2周内X线检查可为阴性",
+          "sourceText": "J. 发病2周内X线检查可为阴性",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "儿童多见",
+          "sourceText": "E. 儿童多见",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "好发于髋关节，其次为膝关节",
+          "sourceText": "C. 好发于髋关节，其次为膝关节",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "急性起病，寒战、高热，血白细胞升高",
+          "sourceText": "O. 急性起病，寒战、高热，血白细胞升高",
+          "sourceKey": "O",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "关节附近疼痛",
+          "sourceText": "N. 关节附近疼痛",
+          "sourceKey": "N",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "病程长，窦道排出死骨",
+          "sourceText": "B. 病程长，窦道排出死骨",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "明显肿胀",
+          "sourceText": "H. 明显肿胀",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "明显深压痛是关键体征",
+          "sourceText": "D. 明显深压痛是关键体征",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "M",
+          "label": "MRI（首选）",
+          "sourceText": "A. MRI（首选）",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "N",
+          "label": "金黄色葡萄球菌为主",
+          "sourceText": "I. 金黄色葡萄球菌为主",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "O",
+          "label": "膝关节可出现浮髌试验阳性",
+          "sourceText": "K. 膝关节可出现浮髌试验阳性",
+          "sourceKey": "K",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "急性血源性化脓性骨髓炎",
+          "answer": [
+            "M",
+            "L",
+            "F",
+            "B",
+            "N",
+            "E",
+            "D",
+            "A",
+            "I",
+            "H"
+          ],
+          "answerMode": "多选",
+          "sourceText": "急性血源性化脓性骨髓炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "急性化脓性关节炎",
+          "answer": [
+            "G",
+            "F",
+            "C",
+            "K",
+            "N",
+            "O",
+            "I",
+            "H"
+          ],
+          "answerMode": "多选",
+          "sourceText": "急性化脓性关节炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "慢性化脓性骨髓炎",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选",
+          "sourceText": "慢性化脓性骨髓炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        }
+      ],
+      "sourceText": "MRI（首选）；病程长，窦道排出死骨；好发于髋关节，其次为膝关节；明显深压痛是关键体征；儿童多见；关节穿刺；大量菌栓停滞在长骨干骺端，迅速出现骨坏死和脓肿，脓肿扩散至骨膜下及软组织等，后期形成反应性新生骨；明显肿胀；金黄色葡萄球菌为主；发病2周内X线检查可为阴性；膝关节可出现浮髌试验阳性；好发于膝关节上下干骺端（股骨下端、胫骨上端）；脓肿分层穿刺涂片发现脓细胞或细菌（最佳）；关节附近疼痛；急性起病，寒战、高热，血白细胞升高；急性血源性化脓性骨髓炎；急性化脓性关节炎；慢性化脓性骨髓炎",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": "1～2",
+        "image": "surgery/lecture-pages/lecture-23-page-01-02.webp",
+        "title": "第23讲第1～2页 · 骨与关节感染",
+        "description": "本题组已按第23讲对应讲义页逐项复核，并保持Word原题组结构。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 2,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "id": "ortho-infection-g02",
+      "page": 0,
+      "title": "急性化脓性关节炎 · 关节穿刺液",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "黄白色",
+          "sourceText": "C. 黄白色",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "浑浊",
+          "sourceText": "A. 浑浊",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "清亮",
+          "sourceText": "B. 清亮",
+          "sourceKey": "B",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "浆液性",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "浆液性",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "纤维蛋白性",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "纤维蛋白性",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "脓性",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "脓性",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        }
+      ],
+      "sourceText": "浑浊；清亮；黄白色；浆液性；纤维蛋白性；脓性",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-23-page-02.webp",
+        "title": "第23讲第2页 · 骨与关节感染",
+        "description": "本题组已按第23讲对应讲义页逐项复核，并保持Word原题组结构。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 2,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "ortho-infection-g03",
+      "page": 0,
+      "title": "急性化脓性感染 · 治疗",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "膝关节可置管持续灌洗",
+          "sourceText": "B. 膝关节可置管持续灌洗",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "患肢用石膏或皮肤牵引制动",
+          "sourceText": "K. 患肢用石膏或皮肤牵引制动",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "支持治疗：少量多次输血或使用球蛋白以提高免疫力",
+          "sourceText": "G. 支持治疗：少量多次输血或使用球蛋白以提高免疫力",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "全身使用抗生素并给予支持治疗",
+          "sourceText": "I. 全身使用抗生素并给予支持治疗",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "早期手术：钻孔灌洗或开窗减压引流",
+          "sourceText": "A. 早期手术：钻孔灌洗或开窗减压引流",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "术后持续冲洗并彻底引流",
+          "sourceText": "H. 术后持续冲洗并彻底引流",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "关节腔内注射抗生素",
+          "sourceText": "C. 关节腔内注射抗生素",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "联合使用一种针对革兰阳性球菌的抗生素和一种广谱抗生素",
+          "sourceText": "D. 联合使用一种针对革兰阳性球菌的抗生素和一种广谱抗生素",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "将关节固定于功能位",
+          "sourceText": "L. 将关节固定于功能位",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "持续用药至症状和体征消失、血象正常、手术引流液清亮",
+          "sourceText": "E. 持续用药至症状和体征消失、血象正常、手术引流液清亮",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "无效或已化脓者应在关节镜下手术",
+          "sourceText": "F. 无效或已化脓者应在关节镜下手术",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "抗生素应早期、足量、联合、全程使用",
+          "sourceText": "J. 抗生素应早期、足量、联合、全程使用",
+          "sourceKey": "J",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "急性血源性化脓性骨髓炎",
+          "answer": [
+            "E",
+            "H",
+            "J",
+            "C",
+            "L",
+            "B"
+          ],
+          "answerMode": "多选",
+          "sourceText": "急性血源性化脓性骨髓炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "急性化脓性关节炎",
+          "answer": [
+            "A",
+            "G",
+            "K",
+            "F",
+            "D",
+            "B",
+            "I"
+          ],
+          "answerMode": "多选",
+          "sourceText": "急性化脓性关节炎",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        }
+      ],
+      "sourceText": "早期手术：钻孔灌洗或开窗减压引流；膝关节可置管持续灌洗；关节腔内注射抗生素；联合使用一种针对革兰阳性球菌的抗生素和一种广谱抗生素；持续用药至症状和体征消失、血象正常、手术引流液清亮；无效或已化脓者应在关节镜下手术；支持治疗：少量多次输血或使用球蛋白以提高免疫力；术后持续冲洗并彻底引流；全身使用抗生素并给予支持治疗；抗生素应早期、足量、联合、全程使用；患肢用石膏或皮肤牵引制动；将关节固定于功能位；急性血源性化脓性骨髓炎；急性化脓性关节炎",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": "1～2",
+        "image": "surgery/lecture-pages/lecture-23-page-01-02.webp",
+        "title": "第23讲第1～2页 · 骨与关节感染",
+        "description": "本题组已按第23讲对应讲义页逐项复核，并保持Word原题组结构。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 2,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ]
+    },
+    {
+      "id": "ortho-infection-g04",
+      "page": 0,
+      "title": "慢性化脓性骨髓炎 · 治疗",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "伤口一期缝合",
+          "sourceText": "F. 伤口一期缝合",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "大块死骨应待包壳充分形成后再手术",
+          "sourceText": "C. 大块死骨应待包壳充分形成后再手术",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "过早摘除大块死骨可造成长段骨缺损并易致病理性骨折",
+          "sourceText": "A. 过早摘除大块死骨可造成长段骨缺损并易致病理性骨折",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "碟形术（Orr手术）、肌瓣填塞或抗生素骨水泥填塞",
+          "sourceText": "H. 碟形术（Orr手术）、肌瓣填塞或抗生素骨水泥填塞",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "切除窦道，凿去封闭髓腔的硬化骨",
+          "sourceText": "J. 切除窦道，凿去封闭髓腔的硬化骨",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "摘除全部死骨并清理脓液",
+          "sourceText": "L. 摘除全部死骨并清理脓液",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "术后持续冲洗并彻底引流",
+          "sourceText": "I. 术后持续冲洗并彻底引流",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "以手术治疗为主，术前2天开始全身使用抗生素",
+          "sourceText": "G. 以手术治疗为主，术前2天开始全身使用抗生素",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "切除坏死、肉芽和瘢痕组织",
+          "sourceText": "E. 切除坏死、肉芽和瘢痕组织",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "肋骨、腓骨、髂骨翼等不重要部位可整段切除",
+          "sourceText": "D. 肋骨、腓骨、髂骨翼等不重要部位可整段切除",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "急性发作期以抗生素为主；积脓时切开引流，不做病灶清除术",
+          "sourceText": "K. 急性发作期以抗生素为主；积脓时切开引流，不做病灶清除术",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "病灶清除至组织新鲜并有出血为止",
+          "sourceText": "B. 病灶清除至组织新鲜并有出血为止",
+          "sourceKey": "B",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "总体治疗原则",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选",
+          "sourceText": "总体治疗原则",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "病灶清除术",
+          "answer": [
+            "L",
+            "I",
+            "E",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "病灶清除术",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "大块死骨的处理",
+          "answer": [
+            "C",
+            "B"
+          ],
+          "answerMode": "多选",
+          "sourceText": "大块死骨的处理",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "消灭无效腔或死腔",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "消灭无效腔或死腔",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "冲洗引流",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选",
+          "sourceText": "冲洗引流",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "病段切除",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选",
+          "sourceText": "病段切除",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "闭合伤口",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "闭合伤口",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "急性发作期",
+          "answer": [
+            "K"
+          ],
+          "answerMode": "单选",
+          "sourceText": "急性发作期",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        }
+      ],
+      "sourceText": "过早摘除大块死骨可造成长段骨缺损并易致病理性骨折；病灶清除至组织新鲜并有出血为止；大块死骨应待包壳充分形成后再手术；肋骨、腓骨、髂骨翼等不重要部位可整段切除；切除坏死、肉芽和瘢痕组织；伤口一期缝合；以手术治疗为主，术前2天开始全身使用抗生素；碟形术（Orr手术）、肌瓣填塞或抗生素骨水泥填塞；术后持续冲洗并彻底引流；切除窦道，凿去封闭髓腔的硬化骨；急性发作期以抗生素为主；积脓时切开引流，不做病灶清除术；摘除全部死骨并清理脓液；总体治疗原则；病灶清除术；大块死骨的处理；消灭无效腔或死腔；冲洗引流；病段切除；闭合伤口；急性发作期",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-23-page-02.webp",
+        "title": "第23讲第2页 · 骨与关节感染",
+        "description": "本题组已按第23讲对应讲义页逐项复核，并保持Word原题组结构。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 2,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ]
+    },
+    {
+      "id": "ortho-infection-g05",
+      "page": 0,
+      "title": "骨与关节结核 · 概述、临床表现与早期诊断",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "脊柱寒性脓肿可见椎旁软组织影或腰大肌影增宽",
+          "sourceText": "H. 脊柱寒性脓肿可见椎旁软组织影或腰大肌影增宽",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "发病率依次为脊柱结核、膝关节结核、髋关节结核",
+          "sourceText": "E. 发病率依次为脊柱结核、膝关节结核、髋关节结核",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "椎体或关节破坏，椎间隙或关节间隙狭窄",
+          "sourceText": "A. 椎体或关节破坏，椎间隙或关节间隙狭窄",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "好发于负重大、活动多、易发生慢性损伤且肌肉附着少的部位",
+          "sourceText": "D. 好发于负重大、活动多、易发生慢性损伤且肌肉附着少的部位",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "多呈单发病灶",
+          "sourceText": "I. 多呈单发病灶",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "MRI",
+          "sourceText": "F. MRI",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "寒性脓肿多无红、热",
+          "sourceText": "C. 寒性脓肿多无红、热",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "疼痛是最先出现的局部症状",
+          "sourceText": "B. 疼痛是最先出现的局部症状",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "起病多缓慢，可有低热、盗汗、消瘦等全身症状",
+          "sourceText": "G. 起病多缓慢，可有低热、盗汗、消瘦等全身症状",
+          "sourceKey": "G",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "好发部位特点",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "好发部位特点",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "发病率",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "发病率",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "临床表现",
+          "answer": [
+            "C",
+            "H",
+            "G",
+            "I",
+            "A",
+            "E"
+          ],
+          "answerMode": "多选",
+          "sourceText": "临床表现",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "早期诊断",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选",
+          "sourceText": "早期诊断",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        }
+      ],
+      "sourceText": "椎体或关节破坏，椎间隙或关节间隙狭窄；疼痛是最先出现的局部症状；寒性脓肿多无红、热；好发于负重大、活动多、易发生慢性损伤且肌肉附着少的部位；发病率依次为脊柱结核、膝关节结核、髋关节结核；MRI；起病多缓慢，可有低热、盗汗、消瘦等全身症状；脊柱寒性脓肿可见椎旁软组织影或腰大肌影增宽；多呈单发病灶；好发部位特点；发病率；临床表现；早期诊断",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-23-page-03.webp",
+        "title": "第23讲第3页 · 骨与关节感染",
+        "description": "本题组已按第23讲对应讲义页逐项复核，并保持Word原题组结构。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 2,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ]
+    },
+    {
+      "id": "ortho-infection-g06",
+      "page": 0,
+      "title": "骨与关节结核 · 治疗原则",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "伴有其他脏器活动期结核",
+          "sourceText": "C. 伴有其他脏器活动期结核",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "寒性脓肿合并感染且全身中毒症状明显时，可考虑切开引流",
+          "sourceText": "G. 寒性脓肿合并感染且全身中毒症状明显时，可考虑切开引流",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "全身中毒症状明显",
+          "sourceText": "A. 全身中毒症状明显",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "不主张对寒性脓肿反复抽脓、注入抗结核药或切开引流",
+          "sourceText": "H. 不主张对寒性脓肿反复抽脓、注入抗结核药或切开引流",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "抗结核治疗2～4周后手术，术后继续抗结核治疗至少12个月",
+          "sourceText": "B. 抗结核治疗2～4周后手术，术后继续抗结核治疗至少12个月",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "反复抽脓、注药或切开引流可形成窦道",
+          "sourceText": "D. 反复抽脓、注药或切开引流可形成窦道",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "以抗结核药物治疗为主，同时局部制动",
+          "sourceText": "F. 以抗结核药物治疗为主，同时局部制动",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "有手术指征且无禁忌证时再手术",
+          "sourceText": "E. 有手术指征且无禁忌证时再手术",
+          "sourceKey": "E",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "基本治疗",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选",
+          "sourceText": "基本治疗",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "手术时机及围手术期抗结核治疗",
+          "answer": [
+            "E",
+            "H"
+          ],
+          "answerMode": "多选",
+          "sourceText": "手术时机及围手术期抗结核治疗",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "手术禁忌证",
+          "answer": [
+            "C",
+            "A"
+          ],
+          "answerMode": "多选",
+          "sourceText": "手术禁忌证",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "寒性脓肿的一般处理",
+          "answer": [
+            "F",
+            "D"
+          ],
+          "answerMode": "多选",
+          "sourceText": "寒性脓肿的一般处理",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "寒性脓肿切开引流的情况",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "寒性脓肿切开引流的情况",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        }
+      ],
+      "sourceText": "全身中毒症状明显；抗结核治疗2～4周后手术，术后继续抗结核治疗至少12个月；伴有其他脏器活动期结核；反复抽脓、注药或切开引流可形成窦道；有手术指征且无禁忌证时再手术；以抗结核药物治疗为主，同时局部制动；寒性脓肿合并感染且全身中毒症状明显时，可考虑切开引流；不主张对寒性脓肿反复抽脓、注入抗结核药或切开引流；基本治疗；手术时机及围手术期抗结核治疗；手术禁忌证；寒性脓肿的一般处理；寒性脓肿切开引流的情况",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-23-page-03.webp",
+        "title": "第23讲第3页 · 骨与关节感染",
+        "description": "本题组已按第23讲对应讲义页逐项复核，并保持Word原题组结构。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 2,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ]
+    },
+    {
+      "id": "ortho-infection-g07",
+      "page": 0,
+      "title": "脊柱结核 · 腰椎结核与胸椎结核",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "拾物试验阳性多见",
+          "sourceText": "C. 拾物试验阳性多见",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "儿童多见",
+          "sourceText": "E. 儿童多见",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "中心型多见",
+          "sourceText": "F. 中心型多见",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "成人多见",
+          "sourceText": "B. 成人多见",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "边缘型多见",
+          "sourceText": "G. 边缘型多见",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "侵犯椎间盘并导致椎间隙狭窄",
+          "sourceText": "I. 侵犯椎间盘并导致椎间隙狭窄",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "最常见",
+          "sourceText": "D. 最常见",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "后凸畸形、截瘫多见",
+          "sourceText": "A. 后凸畸形、截瘫多见",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "椎间隙多正常",
+          "sourceText": "H. 椎间隙多正常",
+          "sourceKey": "H",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "腰椎结核",
+          "answer": [
+            "D",
+            "A",
+            "G",
+            "E",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "腰椎结核",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "胸椎结核",
+          "answer": [
+            "H",
+            "B",
+            "C",
+            "I"
+          ],
+          "answerMode": "多选",
+          "sourceText": "胸椎结核",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        }
+      ],
+      "sourceText": "后凸畸形、截瘫多见；成人多见；拾物试验阳性多见；最常见；儿童多见；中心型多见；边缘型多见；椎间隙多正常；侵犯椎间盘并导致椎间隙狭窄；腰椎结核；胸椎结核",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 4,
+        "image": "surgery/lecture-pages/lecture-23-page-04.webp",
+        "title": "第23讲第4页 · 骨与关节感染",
+        "description": "本题组已按第23讲对应讲义页逐项复核，并保持Word原题组结构。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 2,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ]
+    },
+    {
+      "id": "ortho-infection-g08",
+      "page": 0,
+      "title": "脊柱结核 · 截瘫类型",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "椎体脱位压迫脊髓",
+          "sourceText": "D. 椎体脱位压迫脊髓",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "脓液、干酪样坏死物或死骨进入椎管，直接压迫脊髓",
+          "sourceText": "C. 脓液、干酪样坏死物或死骨进入椎管，直接压迫脊髓",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "瘢痕组织压迫脊髓",
+          "sourceText": "A. 瘢痕组织压迫脊髓",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "脊髓血管栓塞导致脊髓变性软化",
+          "sourceText": "E. 脊髓血管栓塞导致脊髓变性软化",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "脊柱后凸畸形压迫脊髓",
+          "sourceText": "B. 脊柱后凸畸形压迫脊髓",
+          "sourceKey": "B",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "早期或活动型截瘫",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "早期或活动型截瘫",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "迟发性或静止型截瘫",
+          "answer": [
+            "C",
+            "E",
+            "A",
+            "D"
+          ],
+          "answerMode": "多选",
+          "sourceText": "迟发性或静止型截瘫",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        }
+      ],
+      "sourceText": "瘢痕组织压迫脊髓；脊柱后凸畸形压迫脊髓；脓液、干酪样坏死物或死骨进入椎管，直接压迫脊髓；椎体脱位压迫脊髓；脊髓血管栓塞导致脊髓变性软化；早期或活动型截瘫；迟发性或静止型截瘫",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 4,
+        "image": "surgery/lecture-pages/lecture-23-page-04.webp",
+        "title": "第23讲第4页 · 骨与关节感染",
+        "description": "本题组已按第23讲对应讲义页逐项复核，并保持Word原题组结构。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 2,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": "ortho-infection-g09",
+      "page": 0,
+      "title": "脊柱结核 · 病灶清除术的指征",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "严重后凸畸形",
+          "sourceText": "G. 严重后凸畸形",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "全身中毒症状明显",
+          "sourceText": "A. 全身中毒症状明显",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "伴有其他脏器活动期结核",
+          "sourceText": "D. 伴有其他脏器活动期结核",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "脊髓或马尾神经受压",
+          "sourceText": "C. 脊髓或马尾神经受压",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "窦道经久不愈",
+          "sourceText": "F. 窦道经久不愈",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "抗结核治疗后无缓解",
+          "sourceText": "H. 抗结核治疗后无缓解",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "脊柱不稳定",
+          "sourceText": "E. 脊柱不稳定",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "较大死骨及寒性脓肿",
+          "sourceText": "B. 较大死骨及寒性脓肿",
+          "sourceKey": "B",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "病灶清除术的指征",
+          "answer": [
+            "H",
+            "D",
+            "G",
+            "E",
+            "A",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "病灶清除术的指征",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        }
+      ],
+      "sourceText": "全身中毒症状明显；较大死骨及寒性脓肿；脊髓或马尾神经受压；伴有其他脏器活动期结核；脊柱不稳定；窦道经久不愈；严重后凸畸形；抗结核治疗后无缓解；病灶清除术的指征",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 4,
+        "image": "surgery/lecture-pages/lecture-23-page-04.webp",
+        "title": "第23讲第4页 · 骨与关节感染",
+        "description": "本题组已按第23讲对应讲义页逐项复核，并保持Word原题组结构。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 2,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ]
+    },
+    {
+      "id": "ortho-infection-g10",
+      "page": 0,
+      "title": "髋关节结核 · 好发人群、症状与特殊试验",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "4字试验",
+          "sourceText": "C. 4字试验",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "儿童常诉膝部疼痛",
+          "sourceText": "A. 儿童常诉膝部疼痛",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "髋关节屈曲挛缩试验（Thomas征）",
+          "sourceText": "B. 髋关节屈曲挛缩试验（Thomas征）",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "儿童和青少年多见",
+          "sourceText": "E. 儿童和青少年多见",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "髋关节过伸试验",
+          "sourceText": "D. 髋关节过伸试验",
+          "sourceKey": "D",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "好发人群与症状",
+          "answer": [
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "sourceText": "好发人群与症状",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "特殊试验",
+          "answer": [
+            "C",
+            "A",
+            "E"
+          ],
+          "answerMode": "多选",
+          "sourceText": "特殊试验",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        }
+      ],
+      "sourceText": "儿童常诉膝部疼痛；髋关节屈曲挛缩试验（Thomas征）；4字试验；髋关节过伸试验；儿童和青少年多见；好发人群与症状；特殊试验",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 4,
+        "image": "surgery/lecture-pages/lecture-23-page-04.webp",
+        "title": "第23讲第4页 · 骨与关节感染",
+        "description": "本题组已按第23讲对应讲义页逐项复核，并保持Word原题组结构。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 2,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": "ortho-infection-g11",
+      "page": 0,
+      "title": "髋部特殊试验 · 鉴别诊断",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "髂腰肌挛缩",
+          "sourceText": "E. 髂腰肌挛缩",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "股骨头坏死",
+          "sourceText": "B. 股骨头坏死",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "股骨头骨软骨病",
+          "sourceText": "G. 股骨头骨软骨病",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "股内收肌损伤",
+          "sourceText": "A. 股内收肌损伤",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "髂股韧带挛缩",
+          "sourceText": "F. 髂股韧带挛缩",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "强直性脊柱炎",
+          "sourceText": "H. 强直性脊柱炎",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "髋关节结核",
+          "sourceText": "C. 髋关节结核",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "髋关节前方关节囊挛缩",
+          "sourceText": "D. 髋关节前方关节囊挛缩",
+          "sourceKey": "D",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "4字试验阳性可见于",
+          "answer": [
+            "D",
+            "B",
+            "G",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "4字试验阳性可见于",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "Thomas征阳性可见于",
+          "answer": [
+            "G",
+            "H",
+            "A",
+            "E",
+            "C"
+          ],
+          "answerMode": "多选",
+          "sourceText": "Thomas征阳性可见于",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        }
+      ],
+      "sourceText": "股内收肌损伤；股骨头坏死；髋关节结核；髋关节前方关节囊挛缩；髂腰肌挛缩；髂股韧带挛缩；股骨头骨软骨病；强直性脊柱炎；4字试验阳性可见于；Thomas征阳性可见于",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 4,
+        "image": "surgery/lecture-pages/lecture-23-page-04.webp",
+        "title": "第23讲第4页 · 骨与关节感染",
+        "description": "本题组已按第23讲对应讲义页逐项复核，并保持Word原题组结构。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 3,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ]
+    },
+    {
+      "id": "ortho-infection-g12",
+      "page": 0,
+      "title": "髋关节结核 · 手术方法",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "截骨矫形术",
+          "sourceText": "B. 截骨矫形术",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "关节腔注入异烟肼，无效时可行滑膜切除术",
+          "sourceText": "A. 关节腔注入异烟肼，无效时可行滑膜切除术",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "关节融合术",
+          "sourceText": "D. 关节融合术",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "病灶清除术",
+          "sourceText": "C. 病灶清除术",
+          "sourceKey": "C",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "单纯滑膜结核",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "单纯滑膜结核",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "单纯骨结核或全关节结核",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "单纯骨结核或全关节结核",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "纤维性强直",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "纤维性强直",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        },
+        {
+          "text": "明显畸形",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "明显畸形",
+          "ocrScore": 1,
+          "reviewMethod": "已按第23讲讲义逐项校对；保持原文档题组关系并完成选项重映射"
+        }
+      ],
+      "sourceText": "关节腔注入异烟肼，无效时可行滑膜切除术；截骨矫形术；病灶清除术；关节融合术；单纯滑膜结核；单纯骨结核或全关节结核；纤维性强直；明显畸形",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 4,
+        "image": "surgery/lecture-pages/lecture-23-page-04.webp",
+        "title": "第23讲第4页 · 骨与关节感染",
+        "description": "本题组已按第23讲对应讲义页逐项复核，并保持Word原题组结构。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 2,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    }
+  ]
+}

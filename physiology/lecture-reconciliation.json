@@ -1,0 +1,6506 @@
+{
+  "meta": {
+    "title": "生理学题库",
+    "sourcePdf": "天天学成选择题（生理学）.pdf",
+    "sourcePages": 126,
+    "sourcePdfPages": 126,
+    "lectureCount": 41,
+    "groupCount": 160,
+    "stemCount": 505,
+    "correctionGroupCount": 18,
+    "generatedBy": "scripts/build_physiology_content.py",
+    "siteIntegrated": true,
+    "lectureLinked": true,
+    "answerNote": "去年学成选择题已逐组映射至 2027 考研生理讲义；发现的答案、选项字母和文字问题均以可追溯勘误形式同步修正。",
+    "fullSemanticAuditDate": "2026-08-13",
+    "fullSemanticAuditScope": "160 个题组、505 个题干、41 份 2027 考研生理讲义",
+    "lectureEvidencePageCount": 136,
+    "lectureSetFingerprint": "e213273a2bdc0fffcd942dd08aad8cfea51dd719a65fe9cedfe0d6cd9c3f46c0"
+  },
+  "statusSummary": {
+    "与今年讲义一致": 142,
+    "已校正": 18
+  },
+  "corrections": [
+    {
+      "id": "phys-002",
+      "topic": "绪论",
+      "sourcePage": 3,
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生理 绪论",
+        "page": 9,
+        "score": 0.2033,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-01-page-09.webp",
+        "title": "第1讲第9页：生理 绪论",
+        "description": "本题组已按第1讲第9页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "正反馈与前馈例子校正",
+          "body": "删除选项 G 末尾误并入的“赛跑起跑”，正反馈答案由 DGH 校正为 DG。 依据：今年讲义将“疾病恶性循环”列为正反馈；赛跑起跑枪响前的预备反应属于前馈，且原题不存在 H 选项。",
+          "lectureId": "lecture-01",
+          "lecturePages": [
+            8,
+            9
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "窦弓反射"
+              },
+              {
+                "key": "B",
+                "label": "冬泳锻炼脱衣入水前体温恒定的维持"
+              },
+              {
+                "key": "C",
+                "label": "枪声未响前运动员心率加快"
+              },
+              {
+                "key": "D",
+                "label": "心室肌膜的复极越来越快"
+              },
+              {
+                "key": "E",
+                "label": "见到食物后引起的唾液和胃液的分泌"
+              },
+              {
+                "key": "F",
+                "label": "抑胃肽在血糖升高前促进胰岛素分泌"
+              },
+              {
+                "key": "G",
+                "label": "疾病恶性循环赛跑起跑"
+              }
+            ],
+            "answers": [
+              "A",
+              "DGH",
+              "BCEF"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "窦弓反射"
+              },
+              {
+                "key": "B",
+                "label": "冬泳锻炼脱衣入水前体温恒定的维持"
+              },
+              {
+                "key": "C",
+                "label": "枪声未响前运动员心率加快"
+              },
+              {
+                "key": "D",
+                "label": "心室肌膜的复极越来越快"
+              },
+              {
+                "key": "E",
+                "label": "见到食物后引起的唾液和胃液的分泌"
+              },
+              {
+                "key": "F",
+                "label": "抑胃肽在血糖升高前促进胰岛素分泌"
+              },
+              {
+                "key": "G",
+                "label": "疾病恶性循环"
+              }
+            ],
+            "answers": [
+              "A",
+              "DG",
+              "BCEF"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-006",
+      "topic": "细胞基本功能",
+      "sourcePage": 6,
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生理+生化 细胞信号转导",
+        "page": 3,
+        "score": 0.3997,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-05-page-03.webp",
+        "title": "第5讲第3页：生理+生化 细胞信号转导",
+        "description": "本题组已按第5讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "核受体与 GPCR 答案对调",
+          "body": "核受体答案 AC→BD；GPCR 答案 BD→AC。 依据：甲状腺激素和肾上腺皮质激素通过核受体；ACTH 和甲状旁腺激素通过 GPCR。",
+          "lectureId": "lecture-05",
+          "lecturePages": [
+            2,
+            3
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "促肾上腺皮质激素"
+              },
+              {
+                "key": "B",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "C",
+                "label": "甲状旁腺激素"
+              },
+              {
+                "key": "D",
+                "label": "肾上腺皮质激素"
+              }
+            ],
+            "answers": [
+              "AC",
+              "BD"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "促肾上腺皮质激素"
+              },
+              {
+                "key": "B",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "C",
+                "label": "甲状旁腺激素"
+              },
+              {
+                "key": "D",
+                "label": "肾上腺皮质激素"
+              }
+            ],
+            "answers": [
+              "BD",
+              "AC"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-024",
+      "topic": "血液",
+      "sourcePage": 22,
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "lectureNumber": 7,
+        "lectureTitle": "生理 血液特性",
+        "page": 4,
+        "score": 0.4331,
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-07-page-04.webp",
+        "title": "第7讲第4页：生理 血液特性",
+        "description": "本题组已按第7讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "血小板致聚剂答案漏项校正",
+          "body": "促进血小板聚集（致聚剂）答案由 ACD 校正为 ACDE。 依据：今年讲义明确将病原微生物、免疫复合物、药物列为促进血小板聚集的致聚剂，因此 E 项应选；B 项 NO、PGI₂ 为抑制因素。",
+          "lectureId": "lecture-07",
+          "lecturePages": [
+            4
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "低浓度 ADP"
+              },
+              {
+                "key": "B",
+                "label": "NO、前列环素 PGI2"
+              },
+              {
+                "key": "C",
+                "label": "5-HT、组胺、胶原、凝血酶、肾上腺素"
+              },
+              {
+                "key": "D",
+                "label": "高浓度 ADP、血栓烷 TXA2"
+              },
+              {
+                "key": "E",
+                "label": "病原微生物、免疫复合物、药物"
+              }
+            ],
+            "answers": [
+              "B",
+              "A",
+              "D",
+              "ACD"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "低浓度 ADP"
+              },
+              {
+                "key": "B",
+                "label": "NO、前列环素 PGI2"
+              },
+              {
+                "key": "C",
+                "label": "5-HT、组胺、胶原、凝血酶、肾上腺素"
+              },
+              {
+                "key": "D",
+                "label": "高浓度 ADP、血栓烷 TXA2"
+              },
+              {
+                "key": "E",
+                "label": "病原微生物、免疫复合物、药物"
+              }
+            ],
+            "answers": [
+              "B",
+              "A",
+              "D",
+              "ACDE"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-049",
+      "topic": "循环系统",
+      "sourcePage": 41,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生理 心肌电活动和特性",
+        "page": 4,
+        "score": 0.556,
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-12-page-04.webp",
+        "title": "第12讲第4页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "T 型钙通道答案校正",
+          "body": "T 型快钙通道 ICa-T 答案由 BC 校正为 BD。 依据：今年讲义明确：T 型钙通道参与窦房结 4 期自动去极化，并在自动去极化至 -50 mV 时大量激活；-40 mV 大量激活属于 L 型钙通道。",
+          "lectureId": "lecture-12",
+          "lecturePages": [
+            4
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "消化道平滑肌细胞 0 期"
+              },
+              {
+                "key": "B",
+                "label": "窦房结 4 期自动去极化"
+              },
+              {
+                "key": "C",
+                "label": "去极化至-40mv 时大量激活开放"
+              },
+              {
+                "key": "D",
+                "label": "自动去极化至-50mv 时大量激活开放"
+              },
+              {
+                "key": "E",
+                "label": "心肌慢反应细胞 0 期"
+              },
+              {
+                "key": "F",
+                "label": "心肌快反应细胞 2 期"
+              }
+            ],
+            "answers": [
+              "ACEF",
+              "BC"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "消化道平滑肌细胞 0 期"
+              },
+              {
+                "key": "B",
+                "label": "窦房结 4 期自动去极化"
+              },
+              {
+                "key": "C",
+                "label": "去极化至-40mv 时大量激活开放"
+              },
+              {
+                "key": "D",
+                "label": "自动去极化至-50mv 时大量激活开放"
+              },
+              {
+                "key": "E",
+                "label": "心肌慢反应细胞 0 期"
+              },
+              {
+                "key": "F",
+                "label": "心肌快反应细胞 2 期"
+              }
+            ],
+            "answers": [
+              "ACEF",
+              "BD"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-070",
+      "topic": "呼吸系统",
+      "sourcePage": 61,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生理 肺通气",
+        "page": 8,
+        "score": 0.2995,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-15-page-08.webp",
+        "title": "第15讲第8页：生理 肺通气",
+        "description": "本题组已按第15讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "缺失选项字母规范化",
+          "body": "原题跳过 F、直接使用 G；将“稳定肺泡容积和压力”规范为 F，并同步答案 BEG→BEF。 依据：今年讲义中该表面活性物质作用内容不变；此处只修复旧资料选项字母断档。",
+          "lectureId": "lecture-15",
+          "lecturePages": [
+            8
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "耦联肺和胸廓两个弹性结构"
+              },
+              {
+                "key": "B",
+                "label": "降低吸气阻力、防止肺不张"
+              },
+              {
+                "key": "C",
+                "label": "利于胸腔内静脉血和淋巴液回流"
+              },
+              {
+                "key": "D",
+                "label": "间接降低气道阻力"
+              },
+              {
+                "key": "E",
+                "label": "减少肺组织液生成、防止肺水肿"
+              },
+              {
+                "key": "G",
+                "label": "稳定肺泡容积和压力"
+              }
+            ],
+            "answers": [
+              "ABCD",
+              "BEG"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "耦联肺和胸廓两个弹性结构"
+              },
+              {
+                "key": "B",
+                "label": "降低吸气阻力、防止肺不张"
+              },
+              {
+                "key": "C",
+                "label": "利于胸腔内静脉血和淋巴液回流"
+              },
+              {
+                "key": "D",
+                "label": "间接降低气道阻力"
+              },
+              {
+                "key": "E",
+                "label": "减少肺组织液生成、防止肺水肿"
+              },
+              {
+                "key": "F",
+                "label": "稳定肺泡容积和压力"
+              }
+            ],
+            "answers": [
+              "ABCD",
+              "BEF"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-085",
+      "topic": "消化系统",
+      "sourcePage": 74,
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "lectureNumber": 20,
+        "lectureTitle": "生理 胃内消化",
+        "page": 7,
+        "score": 0.2652,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-20-page-07.webp",
+        "title": "第20讲第7页：生理 胃内消化",
+        "description": "本题组已按第20讲第7页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "胃酸分泌影响因素校正",
+          "body": "促进胃酸分泌改为 ABCEFGJL；抑制胃酸分泌改为 DHIKM。 依据：今年讲义明确：缬酪肽促进基础胃酸分泌，胃酸通过负反馈抑制胃酸分泌。",
+          "lectureId": "lecture-20",
+          "lecturePages": [
+            6,
+            7
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "胃内食物"
+              },
+              {
+                "key": "B",
+                "label": "迷走神经（ACh；GRP/蛙皮素/铃蟾素）"
+              },
+              {
+                "key": "C",
+                "label": "胃泌素/促胃液素"
+              },
+              {
+                "key": "D",
+                "label": "生长抑素"
+              },
+              {
+                "key": "E",
+                "label": "组胺"
+              },
+              {
+                "key": "F",
+                "label": "Ca2+"
+              },
+              {
+                "key": "G",
+                "label": "糖皮质激素/皮质醇"
+              },
+              {
+                "key": "H",
+                "label": "胃酸"
+              },
+              {
+                "key": "I",
+                "label": "前列腺素如 PGE 2 和 PGI2、表皮生长因子 EGF"
+              },
+              {
+                "key": "J",
+                "label": "胰岛素（低血糖）、乙醇、咖啡、牛奶、茶"
+              },
+              {
+                "key": "K",
+                "label": "脂肪"
+              },
+              {
+                "key": "L",
+                "label": "缬酪肽 Valosin"
+              },
+              {
+                "key": "M",
+                "label": "肠内高张/渗溶液"
+              }
+            ],
+            "answers": [
+              "ABCEFGHJ",
+              "DHIKLM"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "胃内食物"
+              },
+              {
+                "key": "B",
+                "label": "迷走神经（ACh；GRP/蛙皮素/铃蟾素）"
+              },
+              {
+                "key": "C",
+                "label": "胃泌素/促胃液素"
+              },
+              {
+                "key": "D",
+                "label": "生长抑素"
+              },
+              {
+                "key": "E",
+                "label": "组胺"
+              },
+              {
+                "key": "F",
+                "label": "Ca2+"
+              },
+              {
+                "key": "G",
+                "label": "糖皮质激素/皮质醇"
+              },
+              {
+                "key": "H",
+                "label": "胃酸"
+              },
+              {
+                "key": "I",
+                "label": "前列腺素如 PGE 2 和 PGI2、表皮生长因子 EGF"
+              },
+              {
+                "key": "J",
+                "label": "胰岛素（低血糖）、乙醇、咖啡、牛奶、茶"
+              },
+              {
+                "key": "K",
+                "label": "脂肪"
+              },
+              {
+                "key": "L",
+                "label": "缬酪肽 Valosin"
+              },
+              {
+                "key": "M",
+                "label": "肠内高张/渗溶液"
+              }
+            ],
+            "answers": [
+              "ABCEFGJL",
+              "DHIKM"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-087",
+      "topic": "消化系统",
+      "sourcePage": 75,
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "lectureNumber": 21,
+        "lectureTitle": "生理 肠内消化",
+        "page": 7,
+        "score": 0.1628,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-21-page-07.webp",
+        "title": "第21讲第7页：生理 肠内消化",
+        "description": "本题组已按第21讲第7页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "VIP 重复字母校正",
+          "body": "第二个 B（VIP）规范为 C；导管细胞分泌答案 BF→CF。 依据：今年讲义列示：VIP、促胰液素主要促进胰管细胞分泌 HCO₃⁻ 和水。",
+          "lectureId": "lecture-21",
+          "lecturePages": [
+            2
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "缩胆囊素"
+              },
+              {
+                "key": "B",
+                "label": "迷走神经"
+              },
+              {
+                "key": "B",
+                "label": "VIP"
+              },
+              {
+                "key": "D",
+                "label": "胃泌素"
+              },
+              {
+                "key": "E",
+                "label": "胰高血糖素"
+              },
+              {
+                "key": "F",
+                "label": "促胰液素"
+              }
+            ],
+            "answers": [
+              "ABD",
+              "BF"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "缩胆囊素"
+              },
+              {
+                "key": "B",
+                "label": "迷走神经"
+              },
+              {
+                "key": "C",
+                "label": "VIP"
+              },
+              {
+                "key": "D",
+                "label": "胃泌素"
+              },
+              {
+                "key": "E",
+                "label": "胰高血糖素"
+              },
+              {
+                "key": "F",
+                "label": "促胰液素"
+              }
+            ],
+            "answers": [
+              "ABD",
+              "CF"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-089",
+      "topic": "消化系统",
+      "sourcePage": 76,
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "lectureNumber": 21,
+        "lectureTitle": "生理 肠内消化",
+        "page": 8,
+        "score": 0.1401,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-21-page-08.webp",
+        "title": "第21讲第8页：生理 肠内消化",
+        "description": "本题组已按第21讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "最强消化液答案校正",
+          "body": "“最强消化液”答案 B→C（胰液），并将 HCI 规范为 HCl。 依据：今年讲义明确胰液中的胰酶可全面消化三大营养物质，是消化能力最强的消化液。",
+          "lectureId": "lecture-21",
+          "lecturePages": [
+            8
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "蛋白质消化产物"
+              },
+              {
+                "key": "B",
+                "label": "HCl"
+              },
+              {
+                "key": "C",
+                "label": "胰液"
+              },
+              {
+                "key": "D",
+                "label": "糖"
+              },
+              {
+                "key": "E",
+                "label": "脂肪"
+              },
+              {
+                "key": "F",
+                "label": "蛋白质"
+              }
+            ],
+            "answers": [
+              "B",
+              "D",
+              "F",
+              "A",
+              "B"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "蛋白质消化产物"
+              },
+              {
+                "key": "B",
+                "label": "HCl"
+              },
+              {
+                "key": "C",
+                "label": "胰液"
+              },
+              {
+                "key": "D",
+                "label": "糖"
+              },
+              {
+                "key": "E",
+                "label": "脂肪"
+              },
+              {
+                "key": "F",
+                "label": "蛋白质"
+              }
+            ],
+            "answers": [
+              "C",
+              "D",
+              "F",
+              "A",
+              "B"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-090",
+      "topic": "消化系统",
+      "sourcePage": 77,
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "lectureNumber": 21,
+        "lectureTitle": "生理 肠内消化",
+        "page": 5,
+        "score": 0.1285,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-21-page-05.webp",
+        "title": "第21讲第5页：生理 肠内消化",
+        "description": "本题组已按第21讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "吲哚选项串行文字清理",
+          "body": "G 项“吲哚 胆碱”校正为“吲哚”；答案不变。 依据：今年讲义将胆碱列为发酵产物、吲哚列为蛋白质腐败产物。",
+          "lectureId": "lecture-21",
+          "lecturePages": [
+            5
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "VitK、B 复合物"
+              },
+              {
+                "key": "B",
+                "label": "乳酸"
+              },
+              {
+                "key": "C",
+                "label": "脂肪酸"
+              },
+              {
+                "key": "D",
+                "label": "胨"
+              },
+              {
+                "key": "E",
+                "label": "组胺"
+              },
+              {
+                "key": "F",
+                "label": "胆碱"
+              },
+              {
+                "key": "G",
+                "label": "吲哚胆碱"
+              }
+            ],
+            "answers": [
+              "BCF",
+              "DEG",
+              "A"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "VitK、B 复合物"
+              },
+              {
+                "key": "B",
+                "label": "乳酸"
+              },
+              {
+                "key": "C",
+                "label": "脂肪酸"
+              },
+              {
+                "key": "D",
+                "label": "胨"
+              },
+              {
+                "key": "E",
+                "label": "组胺"
+              },
+              {
+                "key": "F",
+                "label": "胆碱"
+              },
+              {
+                "key": "G",
+                "label": "吲哚"
+              }
+            ],
+            "answers": [
+              "BCF",
+              "DEG",
+              "A"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-093",
+      "topic": "消化系统",
+      "sourcePage": 78,
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "lectureNumber": 22,
+        "lectureTitle": "生理 肠内吸收",
+        "page": 3,
+        "score": 0.0948,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-22-page-03.webp",
+        "title": "第22讲第3页：生理 肠内吸收",
+        "description": "本题组已按第22讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "化学式拼写规范化",
+          "body": "A 项 HCI 校正为 HCl；答案不变。 依据：今年讲义用盐酸 HCl 表述其促进铁、钙吸收的作用。",
+          "lectureId": "lecture-22",
+          "lecturePages": [
+            3
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "HCl"
+              },
+              {
+                "key": "B",
+                "label": "VitD"
+              },
+              {
+                "key": "C",
+                "label": "谷类"
+              },
+              {
+                "key": "D",
+                "label": "草酸"
+              },
+              {
+                "key": "E",
+                "label": "磷酸"
+              },
+              {
+                "key": "F",
+                "label": "脂肪酸"
+              },
+              {
+                "key": "G",
+                "label": "氨基酸"
+              },
+              {
+                "key": "H",
+                "label": "茶"
+              }
+            ],
+            "answers": [
+              "CH",
+              "DE"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "HCl"
+              },
+              {
+                "key": "B",
+                "label": "VitD"
+              },
+              {
+                "key": "C",
+                "label": "谷类"
+              },
+              {
+                "key": "D",
+                "label": "草酸"
+              },
+              {
+                "key": "E",
+                "label": "磷酸"
+              },
+              {
+                "key": "F",
+                "label": "脂肪酸"
+              },
+              {
+                "key": "G",
+                "label": "氨基酸"
+              },
+              {
+                "key": "H",
+                "label": "茶"
+              }
+            ],
+            "answers": [
+              "CH",
+              "DE"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-100",
+      "topic": "泌尿系统",
+      "sourcePage": 83,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 9,
+        "score": 0.2943,
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-26-page-09.webp",
+        "title": "第26讲第9页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第9页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "ADH 释放影响因素答案校正",
+          "body": "刺激 ADH 释放答案由 ABCGHI 校正为 ABCHI；抑制 ADH 释放答案由 DEF 校正为 DEFG，并规范 AngⅡ 名称。 依据：今年讲义明确：血浆晶体渗透压升高、血容量下降、AngⅡ、高热及严重呕吐腹泻可促进 ADH 释放；乙醇、咖啡因、糖皮质激素及大量饮清水导致的晶体渗透压下降可抑制 ADH 释放。",
+          "lectureId": "lecture-26",
+          "lecturePages": [
+            9
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "血浆晶体渗透压升高"
+              },
+              {
+                "key": "B",
+                "label": "血容量下降"
+              },
+              {
+                "key": "C",
+                "label": "Ang"
+              },
+              {
+                "key": "D",
+                "label": "乙醇"
+              },
+              {
+                "key": "E",
+                "label": "咖啡因"
+              },
+              {
+                "key": "F",
+                "label": "糖皮质激素"
+              },
+              {
+                "key": "G",
+                "label": "饮大量清水"
+              },
+              {
+                "key": "H",
+                "label": "高热"
+              },
+              {
+                "key": "I",
+                "label": "严重呕吐腹泻"
+              }
+            ],
+            "answers": [
+              "ABCGHI",
+              "DEF"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "血浆晶体渗透压升高"
+              },
+              {
+                "key": "B",
+                "label": "血容量下降"
+              },
+              {
+                "key": "C",
+                "label": "血管紧张素Ⅱ（AngⅡ）"
+              },
+              {
+                "key": "D",
+                "label": "乙醇"
+              },
+              {
+                "key": "E",
+                "label": "咖啡因"
+              },
+              {
+                "key": "F",
+                "label": "糖皮质激素"
+              },
+              {
+                "key": "G",
+                "label": "饮大量清水"
+              },
+              {
+                "key": "H",
+                "label": "高热"
+              },
+              {
+                "key": "I",
+                "label": "严重呕吐腹泻"
+              }
+            ],
+            "answers": [
+              "ABCHI",
+              "DEFG"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-110",
+      "topic": "泌尿系统",
+      "sourcePage": 90,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 14,
+        "score": 0.2959,
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-26-page-14.webp",
+        "title": "第26讲第14页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第14页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "髓质高渗形成与维持分类校正",
+          "body": "影响髓质间液高渗维持改为多选 CD；影响高渗形成答案由 ABC 校正为 AB。 依据：今年讲义将直小血管血流量或速度升高、肾血流量或速度明显下降均列为影响髓质高渗维持；呋塞米和营养不良列为影响高渗形成。尿崩症仍影响集合管对水的通透性。",
+          "lectureId": "lecture-26",
+          "lecturePages": [
+            14
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "呋塞米"
+              },
+              {
+                "key": "B",
+                "label": "营养不良"
+              },
+              {
+                "key": "C",
+                "label": "肾血流量或速度明显↓"
+              },
+              {
+                "key": "D",
+                "label": "直小血管血流量或速度↑"
+              },
+              {
+                "key": "E",
+                "label": "尿崩症"
+              }
+            ],
+            "answers": [
+              "D",
+              "E",
+              "ABC"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "呋塞米"
+              },
+              {
+                "key": "B",
+                "label": "营养不良"
+              },
+              {
+                "key": "C",
+                "label": "肾血流量或速度明显↓"
+              },
+              {
+                "key": "D",
+                "label": "直小血管血流量或速度↑"
+              },
+              {
+                "key": "E",
+                "label": "尿崩症"
+              }
+            ],
+            "answers": [
+              "CD",
+              "E",
+              "AB"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-111",
+      "topic": "泌尿系统",
+      "sourcePage": 91,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 11,
+        "score": 0.2447,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-11.webp",
+        "title": "第26讲第11页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第11页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "内髓高渗动力答案校正",
+          "body": "集合管内髓部水重吸收动力答案 AC→AB。 依据：今年讲义明确：外髓部高渗由 NaCl 形成；内髓部由 NaCl 与尿素共同形成，不包括 HCO₃⁻。",
+          "lectureId": "lecture-26",
+          "lecturePages": [
+            10,
+            11
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "尿素"
+              },
+              {
+                "key": "B",
+                "label": "NaCl"
+              },
+              {
+                "key": "C",
+                "label": "HCO3-"
+              },
+              {
+                "key": "D",
+                "label": "AQP-2"
+              },
+              {
+                "key": "E",
+                "label": "U 型直小血管（逆流交换)"
+              }
+            ],
+            "answers": [
+              "B",
+              "AC",
+              "E"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "尿素"
+              },
+              {
+                "key": "B",
+                "label": "NaCl"
+              },
+              {
+                "key": "C",
+                "label": "HCO3-"
+              },
+              {
+                "key": "D",
+                "label": "AQP-2"
+              },
+              {
+                "key": "E",
+                "label": "U 型直小血管（逆流交换)"
+              }
+            ],
+            "answers": [
+              "B",
+              "AB",
+              "E"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-112",
+      "topic": "感觉系统",
+      "sourcePage": 92,
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "lectureNumber": 27,
+        "lectureTitle": "生理 视觉",
+        "page": 9,
+        "score": 0.4692,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-27-page-09.webp",
+        "title": "第27讲第9页：生理 视觉",
+        "description": "本题组已按第27讲第9页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "暗适应选项字母规范化",
+          "body": "原题缺 I、直接使用 J；将“视杆细胞合成视色素”规范为 I，答案 DEFHJ→DEFHI。 依据：今年讲义对明、暗适应的知识结论不变；此处修复旧资料选项字母断档。",
+          "lectureId": "lecture-27",
+          "lecturePages": [
+            9
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "适应速度快"
+              },
+              {
+                "key": "B",
+                "label": "视杆细胞迅速分解"
+              },
+              {
+                "key": "C",
+                "label": "视锥细胞恢复活动"
+              },
+              {
+                "key": "D",
+                "label": "视杆细胞恢复活动"
+              },
+              {
+                "key": "E",
+                "label": "使感知光线阈值降低"
+              },
+              {
+                "key": "F",
+                "label": "适应速度慢"
+              },
+              {
+                "key": "G",
+                "label": "视锥细胞光敏度低"
+              },
+              {
+                "key": "H",
+                "label": "视锥细胞合成视色素"
+              },
+              {
+                "key": "J",
+                "label": "视杆细胞合成视色素"
+              }
+            ],
+            "answers": [
+              "ABCG",
+              "DEFHJ"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "适应速度快"
+              },
+              {
+                "key": "B",
+                "label": "视杆细胞迅速分解"
+              },
+              {
+                "key": "C",
+                "label": "视锥细胞恢复活动"
+              },
+              {
+                "key": "D",
+                "label": "视杆细胞恢复活动"
+              },
+              {
+                "key": "E",
+                "label": "使感知光线阈值降低"
+              },
+              {
+                "key": "F",
+                "label": "适应速度慢"
+              },
+              {
+                "key": "G",
+                "label": "视锥细胞光敏度低"
+              },
+              {
+                "key": "H",
+                "label": "视锥细胞合成视色素"
+              },
+              {
+                "key": "I",
+                "label": "视杆细胞合成视色素"
+              }
+            ],
+            "answers": [
+              "ABCG",
+              "DEFHI"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-118",
+      "topic": "感觉系统",
+      "sourcePage": 96,
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "lectureNumber": 28,
+        "lectureTitle": "生理 听觉",
+        "page": 2,
+        "score": 0.1205,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-28-page-02.webp",
+        "title": "第28讲第2页：生理 听觉",
+        "description": "本题组已按第28讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "耳结构选项字母断档校正",
+          "body": "原题跳过 Q；将 R（鼓膜）→Q、S（前庭器官）→R，并同步三问答案。 依据：今年讲义的外耳、中耳、内耳结构与功能表支持原有知识结论；此处仅连续化选项字母。",
+          "lectureId": "lecture-28",
+          "lecturePages": [
+            2
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "集音"
+              },
+              {
+                "key": "B",
+                "label": "传音"
+              },
+              {
+                "key": "C",
+                "label": "增压"
+              },
+              {
+                "key": "D",
+                "label": "听觉"
+              },
+              {
+                "key": "E",
+                "label": "增压减幅"
+              },
+              {
+                "key": "F",
+                "label": "保护耳蜗"
+              },
+              {
+                "key": "G",
+                "label": "平衡鼓膜内外两侧压力"
+              },
+              {
+                "key": "H",
+                "label": "平衡觉"
+              },
+              {
+                "key": "I",
+                "label": "鼓室"
+              },
+              {
+                "key": "J",
+                "label": "鼓膜张肌"
+              },
+              {
+                "key": "K",
+                "label": "镫骨肌"
+              },
+              {
+                "key": "L",
+                "label": "外耳道"
+              },
+              {
+                "key": "M",
+                "label": "耳廓"
+              },
+              {
+                "key": "N",
+                "label": "听骨链"
+              },
+              {
+                "key": "O",
+                "label": "咽鼓管"
+              },
+              {
+                "key": "P",
+                "label": "耳蜗"
+              },
+              {
+                "key": "R",
+                "label": "鼓膜"
+              },
+              {
+                "key": "S",
+                "label": "前庭器官"
+              }
+            ],
+            "answers": [
+              "ABCLM",
+              "BEFGIJKNOR",
+              "DHPS"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "集音"
+              },
+              {
+                "key": "B",
+                "label": "传音"
+              },
+              {
+                "key": "C",
+                "label": "增压"
+              },
+              {
+                "key": "D",
+                "label": "听觉"
+              },
+              {
+                "key": "E",
+                "label": "增压减幅"
+              },
+              {
+                "key": "F",
+                "label": "保护耳蜗"
+              },
+              {
+                "key": "G",
+                "label": "平衡鼓膜内外两侧压力"
+              },
+              {
+                "key": "H",
+                "label": "平衡觉"
+              },
+              {
+                "key": "I",
+                "label": "鼓室"
+              },
+              {
+                "key": "J",
+                "label": "鼓膜张肌"
+              },
+              {
+                "key": "K",
+                "label": "镫骨肌"
+              },
+              {
+                "key": "L",
+                "label": "外耳道"
+              },
+              {
+                "key": "M",
+                "label": "耳廓"
+              },
+              {
+                "key": "N",
+                "label": "听骨链"
+              },
+              {
+                "key": "O",
+                "label": "咽鼓管"
+              },
+              {
+                "key": "P",
+                "label": "耳蜗"
+              },
+              {
+                "key": "Q",
+                "label": "鼓膜"
+              },
+              {
+                "key": "R",
+                "label": "前庭器官"
+              }
+            ],
+            "answers": [
+              "ABCLM",
+              "BEFGIJKNOQ",
+              "DHPR"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-136",
+      "topic": "中枢神经系统",
+      "sourcePage": 107,
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "lectureNumber": 33,
+        "lectureTitle": "生理 神经系统调控躯体运动",
+        "page": 11,
+        "score": 0.3255,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-11.webp",
+        "title": "第33讲第11页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第11页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "补全原题缺失答案",
+          "body": "补全帕金森病 ACEF；亨廷顿病 BD。 依据：今年讲义：帕金森病为黑质多巴胺能神经元病变、肌张力增高和运动减少，常有静止性震颤；亨廷顿病为新纹状体 GABA 能神经元病变、肌张力降低和运动增多。",
+          "lectureId": "lecture-33",
+          "lecturePages": [
+            11
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "肌张力增高、随意运动减少"
+              },
+              {
+                "key": "B",
+                "label": "新纹状体GABA 能神经元病变"
+              },
+              {
+                "key": "C",
+                "label": "中脑黑质多巴胺能神经元病变"
+              },
+              {
+                "key": "D",
+                "label": "肌紧张降低随意运动增多"
+              },
+              {
+                "key": "E",
+                "label": "运动症状主要发生在准备阶段"
+              },
+              {
+                "key": "F",
+                "label": "常伴静止性震颤"
+              }
+            ],
+            "answers": [
+              "",
+              ""
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "肌张力增高、随意运动减少"
+              },
+              {
+                "key": "B",
+                "label": "新纹状体GABA 能神经元病变"
+              },
+              {
+                "key": "C",
+                "label": "中脑黑质多巴胺能神经元病变"
+              },
+              {
+                "key": "D",
+                "label": "肌紧张降低随意运动增多"
+              },
+              {
+                "key": "E",
+                "label": "运动症状主要发生在准备阶段"
+              },
+              {
+                "key": "F",
+                "label": "常伴静止性震颤"
+              }
+            ],
+            "answers": [
+              "ACEF",
+              "BD"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-149",
+      "topic": "内分泌",
+      "sourcePage": 117,
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "lectureNumber": 35,
+        "lectureTitle": "生理 内分泌概述",
+        "page": 4,
+        "score": 0.2476,
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-35-page-04.webp",
+        "title": "第35讲第4页：生理 内分泌概述",
+        "description": "本题组已按第35讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "类固醇激素答案漏项校正",
+          "body": "类固醇激素答案由 ADEGL 校正为 ADEGJL。 依据：今年讲义明确将性激素（雄激素、雌激素、孕激素）列为胆固醇衍生的类固醇激素，因此 J 项应选。",
+          "lectureId": "lecture-35",
+          "lecturePages": [
+            4,
+            5
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "分泌方式-单纯扩散"
+              },
+              {
+                "key": "B",
+                "label": "酪氨酸、色氨酸的衍生物"
+              },
+              {
+                "key": "C",
+                "label": "褪黑素"
+              },
+              {
+                "key": "D",
+                "label": "胆固醇衍生物"
+              },
+              {
+                "key": "E",
+                "label": "多为核受体"
+              },
+              {
+                "key": "F",
+                "label": "分泌方式-出胞"
+              },
+              {
+                "key": "G",
+                "label": "钙三醇"
+              },
+              {
+                "key": "H",
+                "label": "氨基酸聚合物"
+              },
+              {
+                "key": "I",
+                "label": "儿茶酚胺"
+              },
+              {
+                "key": "J",
+                "label": "性激素"
+              },
+              {
+                "key": "K",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "L",
+                "label": "糖皮质激素/皮质醇"
+              },
+              {
+                "key": "M",
+                "label": "多数激素"
+              },
+              {
+                "key": "N",
+                "label": "膜受体"
+              }
+            ],
+            "answers": [
+              "BCFIKN",
+              "FHMN",
+              "ADEGL"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "分泌方式-单纯扩散"
+              },
+              {
+                "key": "B",
+                "label": "酪氨酸、色氨酸的衍生物"
+              },
+              {
+                "key": "C",
+                "label": "褪黑素"
+              },
+              {
+                "key": "D",
+                "label": "胆固醇衍生物"
+              },
+              {
+                "key": "E",
+                "label": "多为核受体"
+              },
+              {
+                "key": "F",
+                "label": "分泌方式-出胞"
+              },
+              {
+                "key": "G",
+                "label": "钙三醇"
+              },
+              {
+                "key": "H",
+                "label": "氨基酸聚合物"
+              },
+              {
+                "key": "I",
+                "label": "儿茶酚胺"
+              },
+              {
+                "key": "J",
+                "label": "性激素"
+              },
+              {
+                "key": "K",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "L",
+                "label": "糖皮质激素/皮质醇"
+              },
+              {
+                "key": "M",
+                "label": "多数激素"
+              },
+              {
+                "key": "N",
+                "label": "膜受体"
+              }
+            ],
+            "answers": [
+              "BCFIKN",
+              "FHMN",
+              "ADEGJL"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-154",
+      "topic": "内分泌",
+      "sourcePage": 121,
+      "lectureEvidence": {
+        "lectureId": "lecture-37",
+        "lectureNumber": 37,
+        "lectureTitle": "生理 生长激素",
+        "page": 1,
+        "score": 0.4308,
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-37-page-01.webp",
+        "title": "第37讲第1页：生理 生长激素",
+        "description": "本题组已按第37讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "促进生长激素分泌答案漏项校正",
+          "body": "促进 GH 分泌答案由 BCEGHK 校正为 BCEGHJK。 依据：今年讲义除下丘脑 GHRH 外，还明确列出最初在胃黏膜发现的促生长激素释放激素可促进 GH 释放，因此 J 项应选。",
+          "lectureId": "lecture-37",
+          "lecturePages": [
+            1
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "快波睡眠"
+              },
+              {
+                "key": "B",
+                "label": "低血糖、饥饿、运动等应激"
+              },
+              {
+                "key": "C",
+                "label": "慢波睡眠"
+              },
+              {
+                "key": "D",
+                "label": "生长抑素"
+              },
+              {
+                "key": "E",
+                "label": "下丘脑生长激素释放激素GHRH"
+              },
+              {
+                "key": "F",
+                "label": "衰老"
+              },
+              {
+                "key": "G",
+                "label": "精氨酸"
+              },
+              {
+                "key": "H",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "I",
+                "label": "IGF-1"
+              },
+              {
+                "key": "J",
+                "label": "促生长激素释放激素"
+              },
+              {
+                "key": "K",
+                "label": "睾酮"
+              }
+            ],
+            "answers": [
+              "BCEGHK",
+              "ADFI"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "快波睡眠"
+              },
+              {
+                "key": "B",
+                "label": "低血糖、饥饿、运动等应激"
+              },
+              {
+                "key": "C",
+                "label": "慢波睡眠"
+              },
+              {
+                "key": "D",
+                "label": "生长抑素"
+              },
+              {
+                "key": "E",
+                "label": "下丘脑生长激素释放激素GHRH"
+              },
+              {
+                "key": "F",
+                "label": "衰老"
+              },
+              {
+                "key": "G",
+                "label": "精氨酸"
+              },
+              {
+                "key": "H",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "I",
+                "label": "IGF-1"
+              },
+              {
+                "key": "J",
+                "label": "促生长激素释放激素"
+              },
+              {
+                "key": "K",
+                "label": "睾酮"
+              }
+            ],
+            "answers": [
+              "BCEGHJK",
+              "ADFI"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    }
+  ],
+  "mappings": [
+    {
+      "id": "phys-001",
+      "topic": "绪论",
+      "sourcePage": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生理 绪论",
+        "page": 6,
+        "score": 0.3837,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-01-page-06.webp",
+        "title": "第1讲第6页：生理 绪论",
+        "description": "本题组已按第1讲第6页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-002",
+      "topic": "绪论",
+      "sourcePage": 3,
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "lectureNumber": 1,
+        "lectureTitle": "生理 绪论",
+        "page": 9,
+        "score": 0.2033,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-01-page-09.webp",
+        "title": "第1讲第9页：生理 绪论",
+        "description": "本题组已按第1讲第9页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "正反馈与前馈例子校正",
+          "body": "删除选项 G 末尾误并入的“赛跑起跑”，正反馈答案由 DGH 校正为 DG。 依据：今年讲义将“疾病恶性循环”列为正反馈；赛跑起跑枪响前的预备反应属于前馈，且原题不存在 H 选项。",
+          "lectureId": "lecture-01",
+          "lecturePages": [
+            8,
+            9
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "窦弓反射"
+              },
+              {
+                "key": "B",
+                "label": "冬泳锻炼脱衣入水前体温恒定的维持"
+              },
+              {
+                "key": "C",
+                "label": "枪声未响前运动员心率加快"
+              },
+              {
+                "key": "D",
+                "label": "心室肌膜的复极越来越快"
+              },
+              {
+                "key": "E",
+                "label": "见到食物后引起的唾液和胃液的分泌"
+              },
+              {
+                "key": "F",
+                "label": "抑胃肽在血糖升高前促进胰岛素分泌"
+              },
+              {
+                "key": "G",
+                "label": "疾病恶性循环赛跑起跑"
+              }
+            ],
+            "answers": [
+              "A",
+              "DGH",
+              "BCEF"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "窦弓反射"
+              },
+              {
+                "key": "B",
+                "label": "冬泳锻炼脱衣入水前体温恒定的维持"
+              },
+              {
+                "key": "C",
+                "label": "枪声未响前运动员心率加快"
+              },
+              {
+                "key": "D",
+                "label": "心室肌膜的复极越来越快"
+              },
+              {
+                "key": "E",
+                "label": "见到食物后引起的唾液和胃液的分泌"
+              },
+              {
+                "key": "F",
+                "label": "抑胃肽在血糖升高前促进胰岛素分泌"
+              },
+              {
+                "key": "G",
+                "label": "疾病恶性循环"
+              }
+            ],
+            "answers": [
+              "A",
+              "DG",
+              "BCEF"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-003",
+      "topic": "细胞基本功能",
+      "sourcePage": 4,
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生理 跨膜转运",
+        "page": 10,
+        "score": 0.343,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-02-page-10.webp",
+        "title": "第2讲第10页：生理 跨膜转运",
+        "description": "本题组已按第2讲第10页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-004",
+      "topic": "细胞基本功能",
+      "sourcePage": 5,
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "lectureNumber": 2,
+        "lectureTitle": "生理 跨膜转运",
+        "page": 2,
+        "score": 0.3284,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-02-page-02.webp",
+        "title": "第2讲第2页：生理 跨膜转运",
+        "description": "本题组已按第2讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-005",
+      "topic": "细胞基本功能",
+      "sourcePage": 5,
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生理+生化 细胞信号转导",
+        "page": 14,
+        "score": 0.294,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-05-page-14.webp",
+        "title": "第5讲第14页：生理+生化 细胞信号转导",
+        "description": "本题组已按第5讲第14页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-006",
+      "topic": "细胞基本功能",
+      "sourcePage": 6,
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生理+生化 细胞信号转导",
+        "page": 3,
+        "score": 0.3997,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-05-page-03.webp",
+        "title": "第5讲第3页：生理+生化 细胞信号转导",
+        "description": "本题组已按第5讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "核受体与 GPCR 答案对调",
+          "body": "核受体答案 AC→BD；GPCR 答案 BD→AC。 依据：甲状腺激素和肾上腺皮质激素通过核受体；ACTH 和甲状旁腺激素通过 GPCR。",
+          "lectureId": "lecture-05",
+          "lecturePages": [
+            2,
+            3
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "促肾上腺皮质激素"
+              },
+              {
+                "key": "B",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "C",
+                "label": "甲状旁腺激素"
+              },
+              {
+                "key": "D",
+                "label": "肾上腺皮质激素"
+              }
+            ],
+            "answers": [
+              "AC",
+              "BD"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "促肾上腺皮质激素"
+              },
+              {
+                "key": "B",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "C",
+                "label": "甲状旁腺激素"
+              },
+              {
+                "key": "D",
+                "label": "肾上腺皮质激素"
+              }
+            ],
+            "answers": [
+              "BD",
+              "AC"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-007",
+      "topic": "细胞基本功能",
+      "sourcePage": 6,
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生理+生化 细胞信号转导",
+        "page": 15,
+        "score": 0.3356,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-05-page-15.webp",
+        "title": "第5讲第15页：生理+生化 细胞信号转导",
+        "description": "本题组已按第5讲第15页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-008",
+      "topic": "细胞基本功能",
+      "sourcePage": 7,
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生理+生化 细胞信号转导",
+        "page": 11,
+        "score": 0.5632,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-05-page-11.webp",
+        "title": "第5讲第11页：生理+生化 细胞信号转导",
+        "description": "本题组已按第5讲第11页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-009",
+      "topic": "细胞基本功能",
+      "sourcePage": 8,
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生理+生化 细胞信号转导",
+        "page": 13,
+        "score": 0.453,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-05-page-13.webp",
+        "title": "第5讲第13页：生理+生化 细胞信号转导",
+        "description": "本题组已按第5讲第13页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-010",
+      "topic": "细胞基本功能",
+      "sourcePage": 9,
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "lectureNumber": 5,
+        "lectureTitle": "生理+生化 细胞信号转导",
+        "page": 15,
+        "score": 0.3592,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-05-page-15.webp",
+        "title": "第5讲第15页：生理+生化 细胞信号转导",
+        "description": "本题组已按第5讲第15页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-011",
+      "topic": "细胞基本功能",
+      "sourcePage": 10,
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生理 细胞电活动",
+        "page": 10,
+        "score": 0.5032,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-03-page-10.webp",
+        "title": "第3讲第10页：生理 细胞电活动",
+        "description": "本题组已按第3讲第10页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-012",
+      "topic": "细胞基本功能",
+      "sourcePage": 11,
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生理 细胞电活动",
+        "page": 8,
+        "score": 0.2771,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-03-page-08.webp",
+        "title": "第3讲第8页：生理 细胞电活动",
+        "description": "本题组已按第3讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-013",
+      "topic": "细胞基本功能",
+      "sourcePage": 13,
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生理 细胞电活动",
+        "page": 6,
+        "score": 0.5288,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-03-page-06.webp",
+        "title": "第3讲第6页：生理 细胞电活动",
+        "description": "本题组已按第3讲第6页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-014",
+      "topic": "细胞基本功能",
+      "sourcePage": 14,
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生理 细胞电活动",
+        "page": 3,
+        "score": 0.2155,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-03-page-03.webp",
+        "title": "第3讲第3页：生理 细胞电活动",
+        "description": "本题组已按第3讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-015",
+      "topic": "细胞基本功能",
+      "sourcePage": 15,
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "lectureNumber": 3,
+        "lectureTitle": "生理 细胞电活动",
+        "page": 11,
+        "score": 0.4564,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-03-page-11.webp",
+        "title": "第3讲第11页：生理 细胞电活动",
+        "description": "本题组已按第3讲第11页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-016",
+      "topic": "细胞基本功能",
+      "sourcePage": 16,
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "lectureNumber": 4,
+        "lectureTitle": "生理 骨骼肌收缩",
+        "page": 1,
+        "score": 0.2717,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-04-page-01.webp",
+        "title": "第4讲第1页：生理 骨骼肌收缩",
+        "description": "本题组已按第4讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-017",
+      "topic": "细胞基本功能",
+      "sourcePage": 16,
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "lectureNumber": 4,
+        "lectureTitle": "生理 骨骼肌收缩",
+        "page": 4,
+        "score": 0.3457,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-04-page-04.webp",
+        "title": "第4讲第4页：生理 骨骼肌收缩",
+        "description": "本题组已按第4讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-018",
+      "topic": "细胞基本功能",
+      "sourcePage": 17,
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "lectureNumber": 4,
+        "lectureTitle": "生理 骨骼肌收缩",
+        "page": 6,
+        "score": 0.6806,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-04-page-06.webp",
+        "title": "第4讲第6页：生理 骨骼肌收缩",
+        "description": "本题组已按第4讲第6页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-019",
+      "topic": "细胞基本功能",
+      "sourcePage": 17,
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "lectureNumber": 4,
+        "lectureTitle": "生理 骨骼肌收缩",
+        "page": 9,
+        "score": 0.3489,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-04-page-09.webp",
+        "title": "第4讲第9页：生理 骨骼肌收缩",
+        "description": "本题组已按第4讲第9页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-020",
+      "topic": "细胞基本功能",
+      "sourcePage": 18,
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "lectureNumber": 4,
+        "lectureTitle": "生理 骨骼肌收缩",
+        "page": 10,
+        "score": 0.1515,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-04-page-10.webp",
+        "title": "第4讲第10页：生理 骨骼肌收缩",
+        "description": "本题组已按第4讲第10页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-021",
+      "topic": "血液",
+      "sourcePage": 19,
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "lectureNumber": 6,
+        "lectureTitle": "生理 血型",
+        "page": 4,
+        "score": 0.3873,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-06-page-04.webp",
+        "title": "第6讲第4页：生理 血型",
+        "description": "本题组已按第6讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-022",
+      "topic": "血液",
+      "sourcePage": 20,
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "lectureNumber": 7,
+        "lectureTitle": "生理 血液特性",
+        "page": 3,
+        "score": 0.4277,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-07-page-03.webp",
+        "title": "第7讲第3页：生理 血液特性",
+        "description": "本题组已按第7讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-023",
+      "topic": "血液",
+      "sourcePage": 21,
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "lectureNumber": 7,
+        "lectureTitle": "生理 血液特性",
+        "page": 4,
+        "score": 0.3201,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-07-page-04.webp",
+        "title": "第7讲第4页：生理 血液特性",
+        "description": "本题组已按第7讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-024",
+      "topic": "血液",
+      "sourcePage": 22,
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "lectureNumber": 7,
+        "lectureTitle": "生理 血液特性",
+        "page": 4,
+        "score": 0.4331,
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-07-page-04.webp",
+        "title": "第7讲第4页：生理 血液特性",
+        "description": "本题组已按第7讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "血小板致聚剂答案漏项校正",
+          "body": "促进血小板聚集（致聚剂）答案由 ACD 校正为 ACDE。 依据：今年讲义明确将病原微生物、免疫复合物、药物列为促进血小板聚集的致聚剂，因此 E 项应选；B 项 NO、PGI₂ 为抑制因素。",
+          "lectureId": "lecture-07",
+          "lecturePages": [
+            4
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "低浓度 ADP"
+              },
+              {
+                "key": "B",
+                "label": "NO、前列环素 PGI2"
+              },
+              {
+                "key": "C",
+                "label": "5-HT、组胺、胶原、凝血酶、肾上腺素"
+              },
+              {
+                "key": "D",
+                "label": "高浓度 ADP、血栓烷 TXA2"
+              },
+              {
+                "key": "E",
+                "label": "病原微生物、免疫复合物、药物"
+              }
+            ],
+            "answers": [
+              "B",
+              "A",
+              "D",
+              "ACD"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "低浓度 ADP"
+              },
+              {
+                "key": "B",
+                "label": "NO、前列环素 PGI2"
+              },
+              {
+                "key": "C",
+                "label": "5-HT、组胺、胶原、凝血酶、肾上腺素"
+              },
+              {
+                "key": "D",
+                "label": "高浓度 ADP、血栓烷 TXA2"
+              },
+              {
+                "key": "E",
+                "label": "病原微生物、免疫复合物、药物"
+              }
+            ],
+            "answers": [
+              "B",
+              "A",
+              "D",
+              "ACDE"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-025",
+      "topic": "血液",
+      "sourcePage": 23,
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "lectureNumber": 7,
+        "lectureTitle": "生理 血液特性",
+        "page": 5,
+        "score": 0.3712,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-07-page-05.webp",
+        "title": "第7讲第5页：生理 血液特性",
+        "description": "本题组已按第7讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-026",
+      "topic": "血液",
+      "sourcePage": 23,
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "lectureNumber": 7,
+        "lectureTitle": "生理 血液特性",
+        "page": 5,
+        "score": 0.3272,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-07-page-05.webp",
+        "title": "第7讲第5页：生理 血液特性",
+        "description": "本题组已按第7讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-027",
+      "topic": "血液",
+      "sourcePage": 24,
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "lectureNumber": 8,
+        "lectureTitle": "生理 生理性止血",
+        "page": 6,
+        "score": 0.5746,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-08-page-06.webp",
+        "title": "第8讲第6页：生理 生理性止血",
+        "description": "本题组已按第8讲第6页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-028",
+      "topic": "血液",
+      "sourcePage": 25,
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "lectureNumber": 8,
+        "lectureTitle": "生理 生理性止血",
+        "page": 4,
+        "score": 0.439,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-08-page-04.webp",
+        "title": "第8讲第4页：生理 生理性止血",
+        "description": "本题组已按第8讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-029",
+      "topic": "血液",
+      "sourcePage": 26,
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "lectureNumber": 8,
+        "lectureTitle": "生理 生理性止血",
+        "page": 7,
+        "score": 0.4436,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-08-page-07.webp",
+        "title": "第8讲第7页：生理 生理性止血",
+        "description": "本题组已按第8讲第7页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-030",
+      "topic": "血液",
+      "sourcePage": 26,
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "lectureNumber": 8,
+        "lectureTitle": "生理 生理性止血",
+        "page": 8,
+        "score": 0.4632,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-08-page-08.webp",
+        "title": "第8讲第8页：生理 生理性止血",
+        "description": "本题组已按第8讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-031",
+      "topic": "血液",
+      "sourcePage": 27,
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "lectureNumber": 8,
+        "lectureTitle": "生理 生理性止血",
+        "page": 9,
+        "score": 0.2432,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-08-page-09.webp",
+        "title": "第8讲第9页：生理 生理性止血",
+        "description": "本题组已按第8讲第9页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-032",
+      "topic": "循环系统",
+      "sourcePage": 28,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生理 心脏泵血",
+        "page": 3,
+        "score": 0.193,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-09-page-03.webp",
+        "title": "第9讲第3页：生理 心脏泵血",
+        "description": "本题组已按第9讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-033",
+      "topic": "循环系统",
+      "sourcePage": 29,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生理 心脏泵血",
+        "page": 5,
+        "score": 0.4288,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-09-page-05.webp",
+        "title": "第9讲第5页：生理 心脏泵血",
+        "description": "本题组已按第9讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-034",
+      "topic": "循环系统",
+      "sourcePage": 30,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生理 心脏泵血",
+        "page": 6,
+        "score": 0.424,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-09-page-06.webp",
+        "title": "第9讲第6页：生理 心脏泵血",
+        "description": "本题组已按第9讲第6页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-035",
+      "topic": "循环系统",
+      "sourcePage": 30,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生理 心脏泵血",
+        "page": 7,
+        "score": 0.5046,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-09-page-07.webp",
+        "title": "第9讲第7页：生理 心脏泵血",
+        "description": "本题组已按第9讲第7页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-036",
+      "topic": "循环系统",
+      "sourcePage": 31,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生理 心脏泵血",
+        "page": 8,
+        "score": 0.3314,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-09-page-08.webp",
+        "title": "第9讲第8页：生理 心脏泵血",
+        "description": "本题组已按第9讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-037",
+      "topic": "循环系统",
+      "sourcePage": 32,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生理 心脏泵血",
+        "page": 8,
+        "score": 0.1836,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-09-page-08.webp",
+        "title": "第9讲第8页：生理 心脏泵血",
+        "description": "本题组已按第9讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-038",
+      "topic": "循环系统",
+      "sourcePage": 33,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生理 心脏泵血",
+        "page": 9,
+        "score": 0.4773,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-09-page-09.webp",
+        "title": "第9讲第9页：生理 心脏泵血",
+        "description": "本题组已按第9讲第9页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-039",
+      "topic": "循环系统",
+      "sourcePage": 33,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生理 心脏泵血",
+        "page": 6,
+        "score": 0.313,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-09-page-06.webp",
+        "title": "第9讲第6页：生理 心脏泵血",
+        "description": "本题组已按第9讲第6页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-040",
+      "topic": "循环系统",
+      "sourcePage": 34,
+      "lectureEvidence": {
+        "lectureId": "lecture-10",
+        "lectureNumber": 10,
+        "lectureTitle": "生理 血压",
+        "page": 5,
+        "score": 0.2063,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-10-page-05.webp",
+        "title": "第10讲第5页：生理 血压",
+        "description": "本题组已按第10讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-041",
+      "topic": "循环系统",
+      "sourcePage": 35,
+      "lectureEvidence": {
+        "lectureId": "lecture-10",
+        "lectureNumber": 10,
+        "lectureTitle": "生理 血压",
+        "page": 6,
+        "score": 0.3266,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-10-page-06.webp",
+        "title": "第10讲第6页：生理 血压",
+        "description": "本题组已按第10讲第6页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-042",
+      "topic": "循环系统",
+      "sourcePage": 36,
+      "lectureEvidence": {
+        "lectureId": "lecture-11",
+        "lectureNumber": 11,
+        "lectureTitle": "生理 微循环和冠脉循环",
+        "page": 1,
+        "score": 0.3853,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-11-page-01.webp",
+        "title": "第11讲第1页：生理 微循环和冠脉循环",
+        "description": "本题组已按第11讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-043",
+      "topic": "循环系统",
+      "sourcePage": 36,
+      "lectureEvidence": {
+        "lectureId": "lecture-11",
+        "lectureNumber": 11,
+        "lectureTitle": "生理 微循环和冠脉循环",
+        "page": 2,
+        "score": 0.5252,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-11-page-02.webp",
+        "title": "第11讲第2页：生理 微循环和冠脉循环",
+        "description": "本题组已按第11讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-044",
+      "topic": "循环系统",
+      "sourcePage": 37,
+      "lectureEvidence": {
+        "lectureId": "lecture-11",
+        "lectureNumber": 11,
+        "lectureTitle": "生理 微循环和冠脉循环",
+        "page": 3,
+        "score": 0.3033,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-11-page-03.webp",
+        "title": "第11讲第3页：生理 微循环和冠脉循环",
+        "description": "本题组已按第11讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-045",
+      "topic": "循环系统",
+      "sourcePage": 37,
+      "lectureEvidence": {
+        "lectureId": "lecture-11",
+        "lectureNumber": 11,
+        "lectureTitle": "生理 微循环和冠脉循环",
+        "page": 4,
+        "score": 0.3037,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-11-page-04.webp",
+        "title": "第11讲第4页：生理 微循环和冠脉循环",
+        "description": "本题组已按第11讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-046",
+      "topic": "循环系统",
+      "sourcePage": 38,
+      "lectureEvidence": {
+        "lectureId": "lecture-11",
+        "lectureNumber": 11,
+        "lectureTitle": "生理 微循环和冠脉循环",
+        "page": 7,
+        "score": 0.4545,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-11-page-07.webp",
+        "title": "第11讲第7页：生理 微循环和冠脉循环",
+        "description": "本题组已按第11讲第7页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-047",
+      "topic": "循环系统",
+      "sourcePage": 39,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生理 心肌电活动和特性",
+        "page": 1,
+        "score": 0.4402,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-12-page-01.webp",
+        "title": "第12讲第1页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-048",
+      "topic": "循环系统",
+      "sourcePage": 40,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生理 心肌电活动和特性",
+        "page": 4,
+        "score": 0.0734,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-12-page-04.webp",
+        "title": "第12讲第4页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-049",
+      "topic": "循环系统",
+      "sourcePage": 41,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生理 心肌电活动和特性",
+        "page": 4,
+        "score": 0.556,
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-12-page-04.webp",
+        "title": "第12讲第4页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "T 型钙通道答案校正",
+          "body": "T 型快钙通道 ICa-T 答案由 BC 校正为 BD。 依据：今年讲义明确：T 型钙通道参与窦房结 4 期自动去极化，并在自动去极化至 -50 mV 时大量激活；-40 mV 大量激活属于 L 型钙通道。",
+          "lectureId": "lecture-12",
+          "lecturePages": [
+            4
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "消化道平滑肌细胞 0 期"
+              },
+              {
+                "key": "B",
+                "label": "窦房结 4 期自动去极化"
+              },
+              {
+                "key": "C",
+                "label": "去极化至-40mv 时大量激活开放"
+              },
+              {
+                "key": "D",
+                "label": "自动去极化至-50mv 时大量激活开放"
+              },
+              {
+                "key": "E",
+                "label": "心肌慢反应细胞 0 期"
+              },
+              {
+                "key": "F",
+                "label": "心肌快反应细胞 2 期"
+              }
+            ],
+            "answers": [
+              "ACEF",
+              "BC"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "消化道平滑肌细胞 0 期"
+              },
+              {
+                "key": "B",
+                "label": "窦房结 4 期自动去极化"
+              },
+              {
+                "key": "C",
+                "label": "去极化至-40mv 时大量激活开放"
+              },
+              {
+                "key": "D",
+                "label": "自动去极化至-50mv 时大量激活开放"
+              },
+              {
+                "key": "E",
+                "label": "心肌慢反应细胞 0 期"
+              },
+              {
+                "key": "F",
+                "label": "心肌快反应细胞 2 期"
+              }
+            ],
+            "answers": [
+              "ACEF",
+              "BD"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-050",
+      "topic": "循环系统",
+      "sourcePage": 42,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生理 心肌电活动和特性",
+        "page": 4,
+        "score": 0.3769,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-12-page-04.webp",
+        "title": "第12讲第4页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-051",
+      "topic": "循环系统",
+      "sourcePage": 43,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生理 心肌电活动和特性",
+        "page": 7,
+        "score": 0.3371,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-12-page-07.webp",
+        "title": "第12讲第7页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第7页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-052",
+      "topic": "循环系统",
+      "sourcePage": 44,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生理 心肌电活动和特性",
+        "page": 8,
+        "score": 0.4077,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-12-page-08.webp",
+        "title": "第12讲第8页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-053",
+      "topic": "循环系统",
+      "sourcePage": 45,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生理 心肌电活动和特性",
+        "page": 12,
+        "score": 0.3418,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-12-page-12.webp",
+        "title": "第12讲第12页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第12页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-054",
+      "topic": "循环系统",
+      "sourcePage": 47,
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "lectureNumber": 13,
+        "lectureTitle": "生理 心血管调节",
+        "page": 2,
+        "score": 0.3255,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-02.webp",
+        "title": "第13讲第2页：生理 心血管调节",
+        "description": "本题组已按第13讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-055",
+      "topic": "循环系统",
+      "sourcePage": 48,
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "lectureNumber": 13,
+        "lectureTitle": "生理 心血管调节",
+        "page": 3,
+        "score": 0.4754,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-03.webp",
+        "title": "第13讲第3页：生理 心血管调节",
+        "description": "本题组已按第13讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-056",
+      "topic": "循环系统",
+      "sourcePage": 49,
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "lectureNumber": 13,
+        "lectureTitle": "生理 心血管调节",
+        "page": 4,
+        "score": 0.3511,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-04.webp",
+        "title": "第13讲第4页：生理 心血管调节",
+        "description": "本题组已按第13讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-057",
+      "topic": "循环系统",
+      "sourcePage": 49,
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "lectureNumber": 13,
+        "lectureTitle": "生理 心血管调节",
+        "page": 7,
+        "score": 0.2794,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-07.webp",
+        "title": "第13讲第7页：生理 心血管调节",
+        "description": "本题组已按第13讲第7页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-058",
+      "topic": "循环系统",
+      "sourcePage": 50,
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "lectureNumber": 13,
+        "lectureTitle": "生理 心血管调节",
+        "page": 8,
+        "score": 0.2185,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-08.webp",
+        "title": "第13讲第8页：生理 心血管调节",
+        "description": "本题组已按第13讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-059",
+      "topic": "循环系统",
+      "sourcePage": 51,
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "lectureNumber": 13,
+        "lectureTitle": "生理 心血管调节",
+        "page": 9,
+        "score": 0.442,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-09.webp",
+        "title": "第13讲第9页：生理 心血管调节",
+        "description": "本题组已按第13讲第9页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-060",
+      "topic": "循环系统",
+      "sourcePage": 52,
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "lectureNumber": 13,
+        "lectureTitle": "生理 心血管调节",
+        "page": 9,
+        "score": 0.3645,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-09.webp",
+        "title": "第13讲第9页：生理 心血管调节",
+        "description": "本题组已按第13讲第9页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-061",
+      "topic": "循环系统",
+      "sourcePage": 53,
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "lectureNumber": 13,
+        "lectureTitle": "生理 心血管调节",
+        "page": 11,
+        "score": 0.4049,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-11.webp",
+        "title": "第13讲第11页：生理 心血管调节",
+        "description": "本题组已按第13讲第11页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-062",
+      "topic": "循环系统",
+      "sourcePage": 54,
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "lectureNumber": 13,
+        "lectureTitle": "生理 心血管调节",
+        "page": 11,
+        "score": 0.5522,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-13-page-11.webp",
+        "title": "第13讲第11页：生理 心血管调节",
+        "description": "本题组已按第13讲第11页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-063",
+      "topic": "呼吸系统",
+      "sourcePage": 55,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生理 通气功能的评价",
+        "page": 1,
+        "score": 0.6844,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-14-page-01.webp",
+        "title": "第14讲第1页：生理 通气功能的评价",
+        "description": "本题组已按第14讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-064",
+      "topic": "呼吸系统",
+      "sourcePage": 56,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生理 通气功能的评价",
+        "page": 2,
+        "score": 0.4799,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-14-page-02.webp",
+        "title": "第14讲第2页：生理 通气功能的评价",
+        "description": "本题组已按第14讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-065",
+      "topic": "呼吸系统",
+      "sourcePage": 57,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生理 通气功能的评价",
+        "page": 2,
+        "score": 0.2881,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-14-page-02.webp",
+        "title": "第14讲第2页：生理 通气功能的评价",
+        "description": "本题组已按第14讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-066",
+      "topic": "呼吸系统",
+      "sourcePage": 58,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生理 肺通气",
+        "page": 3,
+        "score": 0.4483,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-15-page-03.webp",
+        "title": "第15讲第3页：生理 肺通气",
+        "description": "本题组已按第15讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-067",
+      "topic": "呼吸系统",
+      "sourcePage": 59,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生理 肺通气",
+        "page": 4,
+        "score": 0.4456,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-15-page-04.webp",
+        "title": "第15讲第4页：生理 肺通气",
+        "description": "本题组已按第15讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-068",
+      "topic": "呼吸系统",
+      "sourcePage": 59,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生理 肺通气",
+        "page": 5,
+        "score": 0.4995,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-15-page-05.webp",
+        "title": "第15讲第5页：生理 肺通气",
+        "description": "本题组已按第15讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-069",
+      "topic": "呼吸系统",
+      "sourcePage": 60,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生理 肺通气",
+        "page": 7,
+        "score": 0.2297,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-15-page-07.webp",
+        "title": "第15讲第7页：生理 肺通气",
+        "description": "本题组已按第15讲第7页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-070",
+      "topic": "呼吸系统",
+      "sourcePage": 61,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生理 肺通气",
+        "page": 8,
+        "score": 0.2995,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-15-page-08.webp",
+        "title": "第15讲第8页：生理 肺通气",
+        "description": "本题组已按第15讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "缺失选项字母规范化",
+          "body": "原题跳过 F、直接使用 G；将“稳定肺泡容积和压力”规范为 F，并同步答案 BEG→BEF。 依据：今年讲义中该表面活性物质作用内容不变；此处只修复旧资料选项字母断档。",
+          "lectureId": "lecture-15",
+          "lecturePages": [
+            8
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "耦联肺和胸廓两个弹性结构"
+              },
+              {
+                "key": "B",
+                "label": "降低吸气阻力、防止肺不张"
+              },
+              {
+                "key": "C",
+                "label": "利于胸腔内静脉血和淋巴液回流"
+              },
+              {
+                "key": "D",
+                "label": "间接降低气道阻力"
+              },
+              {
+                "key": "E",
+                "label": "减少肺组织液生成、防止肺水肿"
+              },
+              {
+                "key": "G",
+                "label": "稳定肺泡容积和压力"
+              }
+            ],
+            "answers": [
+              "ABCD",
+              "BEG"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "耦联肺和胸廓两个弹性结构"
+              },
+              {
+                "key": "B",
+                "label": "降低吸气阻力、防止肺不张"
+              },
+              {
+                "key": "C",
+                "label": "利于胸腔内静脉血和淋巴液回流"
+              },
+              {
+                "key": "D",
+                "label": "间接降低气道阻力"
+              },
+              {
+                "key": "E",
+                "label": "减少肺组织液生成、防止肺水肿"
+              },
+              {
+                "key": "F",
+                "label": "稳定肺泡容积和压力"
+              }
+            ],
+            "answers": [
+              "ABCD",
+              "BEF"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-071",
+      "topic": "呼吸系统",
+      "sourcePage": 62,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生理 肺通气",
+        "page": 5,
+        "score": 0.2953,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-15-page-05.webp",
+        "title": "第15讲第5页：生理 肺通气",
+        "description": "本题组已按第15讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-072",
+      "topic": "呼吸系统",
+      "sourcePage": 62,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生理 肺通气",
+        "page": 9,
+        "score": 0.1805,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-15-page-09.webp",
+        "title": "第15讲第9页：生理 肺通气",
+        "description": "本题组已按第15讲第9页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-073",
+      "topic": "呼吸系统",
+      "sourcePage": 63,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生理 肺换气和气体运输",
+        "page": 1,
+        "score": 0.177,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-16-page-01.webp",
+        "title": "第16讲第1页：生理 肺换气和气体运输",
+        "description": "本题组已按第16讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-074",
+      "topic": "呼吸系统",
+      "sourcePage": 64,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生理 肺换气和气体运输",
+        "page": 2,
+        "score": 0.2655,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-16-page-02.webp",
+        "title": "第16讲第2页：生理 肺换气和气体运输",
+        "description": "本题组已按第16讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-075",
+      "topic": "呼吸系统",
+      "sourcePage": 64,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生理 肺换气和气体运输",
+        "page": 6,
+        "score": 0.3705,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-16-page-06.webp",
+        "title": "第16讲第6页：生理 肺换气和气体运输",
+        "description": "本题组已按第16讲第6页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-076",
+      "topic": "呼吸系统",
+      "sourcePage": 65,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生理 肺换气和气体运输",
+        "page": 10,
+        "score": 0.1773,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-16-page-10.webp",
+        "title": "第16讲第10页：生理 肺换气和气体运输",
+        "description": "本题组已按第16讲第10页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-077",
+      "topic": "呼吸系统",
+      "sourcePage": 65,
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "lectureNumber": 17,
+        "lectureTitle": "生理 呼吸调节",
+        "page": 3,
+        "score": 0.2903,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-17-page-03.webp",
+        "title": "第17讲第3页：生理 呼吸调节",
+        "description": "本题组已按第17讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-078",
+      "topic": "消化系统",
+      "sourcePage": 66,
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "lectureNumber": 18,
+        "lectureTitle": "生理 消化概述",
+        "page": 1,
+        "score": 0.2912,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-18-page-01.webp",
+        "title": "第18讲第1页：生理 消化概述",
+        "description": "本题组已按第18讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-079",
+      "topic": "消化系统",
+      "sourcePage": 68,
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "lectureNumber": 18,
+        "lectureTitle": "生理 消化概述",
+        "page": 3,
+        "score": 0.3002,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-18-page-03.webp",
+        "title": "第18讲第3页：生理 消化概述",
+        "description": "本题组已按第18讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-080",
+      "topic": "消化系统",
+      "sourcePage": 69,
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "lectureNumber": 19,
+        "lectureTitle": "生理 口腔和食管的消化",
+        "page": 1,
+        "score": 0.3437,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-19-page-01.webp",
+        "title": "第19讲第1页：生理 口腔和食管的消化",
+        "description": "本题组已按第19讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-081",
+      "topic": "消化系统",
+      "sourcePage": 70,
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "lectureNumber": 19,
+        "lectureTitle": "生理 口腔和食管的消化",
+        "page": 2,
+        "score": 0.3843,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-19-page-02.webp",
+        "title": "第19讲第2页：生理 口腔和食管的消化",
+        "description": "本题组已按第19讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-082",
+      "topic": "消化系统",
+      "sourcePage": 71,
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "lectureNumber": 21,
+        "lectureTitle": "生理 肠内消化",
+        "page": 5,
+        "score": 0.3166,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-21-page-05.webp",
+        "title": "第21讲第5页：生理 肠内消化",
+        "description": "本题组已按第21讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-083",
+      "topic": "消化系统",
+      "sourcePage": 71,
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "lectureNumber": 20,
+        "lectureTitle": "生理 胃内消化",
+        "page": 3,
+        "score": 0.4041,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-20-page-03.webp",
+        "title": "第20讲第3页：生理 胃内消化",
+        "description": "本题组已按第20讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-084",
+      "topic": "消化系统",
+      "sourcePage": 73,
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "lectureNumber": 20,
+        "lectureTitle": "生理 胃内消化",
+        "page": 2,
+        "score": 0.3093,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-20-page-02.webp",
+        "title": "第20讲第2页：生理 胃内消化",
+        "description": "本题组已按第20讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-085",
+      "topic": "消化系统",
+      "sourcePage": 74,
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "lectureNumber": 20,
+        "lectureTitle": "生理 胃内消化",
+        "page": 7,
+        "score": 0.2652,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-20-page-07.webp",
+        "title": "第20讲第7页：生理 胃内消化",
+        "description": "本题组已按第20讲第7页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "胃酸分泌影响因素校正",
+          "body": "促进胃酸分泌改为 ABCEFGJL；抑制胃酸分泌改为 DHIKM。 依据：今年讲义明确：缬酪肽促进基础胃酸分泌，胃酸通过负反馈抑制胃酸分泌。",
+          "lectureId": "lecture-20",
+          "lecturePages": [
+            6,
+            7
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "胃内食物"
+              },
+              {
+                "key": "B",
+                "label": "迷走神经（ACh；GRP/蛙皮素/铃蟾素）"
+              },
+              {
+                "key": "C",
+                "label": "胃泌素/促胃液素"
+              },
+              {
+                "key": "D",
+                "label": "生长抑素"
+              },
+              {
+                "key": "E",
+                "label": "组胺"
+              },
+              {
+                "key": "F",
+                "label": "Ca2+"
+              },
+              {
+                "key": "G",
+                "label": "糖皮质激素/皮质醇"
+              },
+              {
+                "key": "H",
+                "label": "胃酸"
+              },
+              {
+                "key": "I",
+                "label": "前列腺素如 PGE 2 和 PGI2、表皮生长因子 EGF"
+              },
+              {
+                "key": "J",
+                "label": "胰岛素（低血糖）、乙醇、咖啡、牛奶、茶"
+              },
+              {
+                "key": "K",
+                "label": "脂肪"
+              },
+              {
+                "key": "L",
+                "label": "缬酪肽 Valosin"
+              },
+              {
+                "key": "M",
+                "label": "肠内高张/渗溶液"
+              }
+            ],
+            "answers": [
+              "ABCEFGHJ",
+              "DHIKLM"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "胃内食物"
+              },
+              {
+                "key": "B",
+                "label": "迷走神经（ACh；GRP/蛙皮素/铃蟾素）"
+              },
+              {
+                "key": "C",
+                "label": "胃泌素/促胃液素"
+              },
+              {
+                "key": "D",
+                "label": "生长抑素"
+              },
+              {
+                "key": "E",
+                "label": "组胺"
+              },
+              {
+                "key": "F",
+                "label": "Ca2+"
+              },
+              {
+                "key": "G",
+                "label": "糖皮质激素/皮质醇"
+              },
+              {
+                "key": "H",
+                "label": "胃酸"
+              },
+              {
+                "key": "I",
+                "label": "前列腺素如 PGE 2 和 PGI2、表皮生长因子 EGF"
+              },
+              {
+                "key": "J",
+                "label": "胰岛素（低血糖）、乙醇、咖啡、牛奶、茶"
+              },
+              {
+                "key": "K",
+                "label": "脂肪"
+              },
+              {
+                "key": "L",
+                "label": "缬酪肽 Valosin"
+              },
+              {
+                "key": "M",
+                "label": "肠内高张/渗溶液"
+              }
+            ],
+            "answers": [
+              "ABCEFGJL",
+              "DHIKM"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-086",
+      "topic": "消化系统",
+      "sourcePage": 74,
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "lectureNumber": 20,
+        "lectureTitle": "生理 胃内消化",
+        "page": 8,
+        "score": 0.3819,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-20-page-08.webp",
+        "title": "第20讲第8页：生理 胃内消化",
+        "description": "本题组已按第20讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-087",
+      "topic": "消化系统",
+      "sourcePage": 75,
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "lectureNumber": 21,
+        "lectureTitle": "生理 肠内消化",
+        "page": 7,
+        "score": 0.1628,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-21-page-07.webp",
+        "title": "第21讲第7页：生理 肠内消化",
+        "description": "本题组已按第21讲第7页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "VIP 重复字母校正",
+          "body": "第二个 B（VIP）规范为 C；导管细胞分泌答案 BF→CF。 依据：今年讲义列示：VIP、促胰液素主要促进胰管细胞分泌 HCO₃⁻ 和水。",
+          "lectureId": "lecture-21",
+          "lecturePages": [
+            2
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "缩胆囊素"
+              },
+              {
+                "key": "B",
+                "label": "迷走神经"
+              },
+              {
+                "key": "B",
+                "label": "VIP"
+              },
+              {
+                "key": "D",
+                "label": "胃泌素"
+              },
+              {
+                "key": "E",
+                "label": "胰高血糖素"
+              },
+              {
+                "key": "F",
+                "label": "促胰液素"
+              }
+            ],
+            "answers": [
+              "ABD",
+              "BF"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "缩胆囊素"
+              },
+              {
+                "key": "B",
+                "label": "迷走神经"
+              },
+              {
+                "key": "C",
+                "label": "VIP"
+              },
+              {
+                "key": "D",
+                "label": "胃泌素"
+              },
+              {
+                "key": "E",
+                "label": "胰高血糖素"
+              },
+              {
+                "key": "F",
+                "label": "促胰液素"
+              }
+            ],
+            "answers": [
+              "ABD",
+              "CF"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-088",
+      "topic": "消化系统",
+      "sourcePage": 75,
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "lectureNumber": 21,
+        "lectureTitle": "生理 肠内消化",
+        "page": 2,
+        "score": 0.2164,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-21-page-02.webp",
+        "title": "第21讲第2页：生理 肠内消化",
+        "description": "本题组已按第21讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-089",
+      "topic": "消化系统",
+      "sourcePage": 76,
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "lectureNumber": 21,
+        "lectureTitle": "生理 肠内消化",
+        "page": 8,
+        "score": 0.1401,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-21-page-08.webp",
+        "title": "第21讲第8页：生理 肠内消化",
+        "description": "本题组已按第21讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "最强消化液答案校正",
+          "body": "“最强消化液”答案 B→C（胰液），并将 HCI 规范为 HCl。 依据：今年讲义明确胰液中的胰酶可全面消化三大营养物质，是消化能力最强的消化液。",
+          "lectureId": "lecture-21",
+          "lecturePages": [
+            8
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "蛋白质消化产物"
+              },
+              {
+                "key": "B",
+                "label": "HCl"
+              },
+              {
+                "key": "C",
+                "label": "胰液"
+              },
+              {
+                "key": "D",
+                "label": "糖"
+              },
+              {
+                "key": "E",
+                "label": "脂肪"
+              },
+              {
+                "key": "F",
+                "label": "蛋白质"
+              }
+            ],
+            "answers": [
+              "B",
+              "D",
+              "F",
+              "A",
+              "B"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "蛋白质消化产物"
+              },
+              {
+                "key": "B",
+                "label": "HCl"
+              },
+              {
+                "key": "C",
+                "label": "胰液"
+              },
+              {
+                "key": "D",
+                "label": "糖"
+              },
+              {
+                "key": "E",
+                "label": "脂肪"
+              },
+              {
+                "key": "F",
+                "label": "蛋白质"
+              }
+            ],
+            "answers": [
+              "C",
+              "D",
+              "F",
+              "A",
+              "B"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-090",
+      "topic": "消化系统",
+      "sourcePage": 77,
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "lectureNumber": 21,
+        "lectureTitle": "生理 肠内消化",
+        "page": 5,
+        "score": 0.1285,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-21-page-05.webp",
+        "title": "第21讲第5页：生理 肠内消化",
+        "description": "本题组已按第21讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "吲哚选项串行文字清理",
+          "body": "G 项“吲哚 胆碱”校正为“吲哚”；答案不变。 依据：今年讲义将胆碱列为发酵产物、吲哚列为蛋白质腐败产物。",
+          "lectureId": "lecture-21",
+          "lecturePages": [
+            5
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "VitK、B 复合物"
+              },
+              {
+                "key": "B",
+                "label": "乳酸"
+              },
+              {
+                "key": "C",
+                "label": "脂肪酸"
+              },
+              {
+                "key": "D",
+                "label": "胨"
+              },
+              {
+                "key": "E",
+                "label": "组胺"
+              },
+              {
+                "key": "F",
+                "label": "胆碱"
+              },
+              {
+                "key": "G",
+                "label": "吲哚胆碱"
+              }
+            ],
+            "answers": [
+              "BCF",
+              "DEG",
+              "A"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "VitK、B 复合物"
+              },
+              {
+                "key": "B",
+                "label": "乳酸"
+              },
+              {
+                "key": "C",
+                "label": "脂肪酸"
+              },
+              {
+                "key": "D",
+                "label": "胨"
+              },
+              {
+                "key": "E",
+                "label": "组胺"
+              },
+              {
+                "key": "F",
+                "label": "胆碱"
+              },
+              {
+                "key": "G",
+                "label": "吲哚"
+              }
+            ],
+            "answers": [
+              "BCF",
+              "DEG",
+              "A"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-091",
+      "topic": "消化系统",
+      "sourcePage": 77,
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "lectureNumber": 22,
+        "lectureTitle": "生理 肠内吸收",
+        "page": 1,
+        "score": 0.2526,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-22-page-01.webp",
+        "title": "第22讲第1页：生理 肠内吸收",
+        "description": "本题组已按第22讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-092",
+      "topic": "消化系统",
+      "sourcePage": 78,
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "lectureNumber": 22,
+        "lectureTitle": "生理 肠内吸收",
+        "page": 3,
+        "score": 0.2217,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-22-page-03.webp",
+        "title": "第22讲第3页：生理 肠内吸收",
+        "description": "本题组已按第22讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-093",
+      "topic": "消化系统",
+      "sourcePage": 78,
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "lectureNumber": 22,
+        "lectureTitle": "生理 肠内吸收",
+        "page": 3,
+        "score": 0.0948,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-22-page-03.webp",
+        "title": "第22讲第3页：生理 肠内吸收",
+        "description": "本题组已按第22讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "化学式拼写规范化",
+          "body": "A 项 HCI 校正为 HCl；答案不变。 依据：今年讲义用盐酸 HCl 表述其促进铁、钙吸收的作用。",
+          "lectureId": "lecture-22",
+          "lecturePages": [
+            3
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "HCl"
+              },
+              {
+                "key": "B",
+                "label": "VitD"
+              },
+              {
+                "key": "C",
+                "label": "谷类"
+              },
+              {
+                "key": "D",
+                "label": "草酸"
+              },
+              {
+                "key": "E",
+                "label": "磷酸"
+              },
+              {
+                "key": "F",
+                "label": "脂肪酸"
+              },
+              {
+                "key": "G",
+                "label": "氨基酸"
+              },
+              {
+                "key": "H",
+                "label": "茶"
+              }
+            ],
+            "answers": [
+              "CH",
+              "DE"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "HCl"
+              },
+              {
+                "key": "B",
+                "label": "VitD"
+              },
+              {
+                "key": "C",
+                "label": "谷类"
+              },
+              {
+                "key": "D",
+                "label": "草酸"
+              },
+              {
+                "key": "E",
+                "label": "磷酸"
+              },
+              {
+                "key": "F",
+                "label": "脂肪酸"
+              },
+              {
+                "key": "G",
+                "label": "氨基酸"
+              },
+              {
+                "key": "H",
+                "label": "茶"
+              }
+            ],
+            "answers": [
+              "CH",
+              "DE"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-094",
+      "topic": "泌尿系统",
+      "sourcePage": 79,
+      "lectureEvidence": {
+        "lectureId": "lecture-24",
+        "lectureNumber": 24,
+        "lectureTitle": "生理 泌尿概述",
+        "page": 2,
+        "score": 0.2148,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-24-page-02.webp",
+        "title": "第24讲第2页：生理 泌尿概述",
+        "description": "本题组已按第24讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-095",
+      "topic": "泌尿系统",
+      "sourcePage": 79,
+      "lectureEvidence": {
+        "lectureId": "lecture-24",
+        "lectureNumber": 24,
+        "lectureTitle": "生理 泌尿概述",
+        "page": 5,
+        "score": 0.3644,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-24-page-05.webp",
+        "title": "第24讲第5页：生理 泌尿概述",
+        "description": "本题组已按第24讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-096",
+      "topic": "泌尿系统",
+      "sourcePage": 80,
+      "lectureEvidence": {
+        "lectureId": "lecture-24",
+        "lectureNumber": 24,
+        "lectureTitle": "生理 泌尿概述",
+        "page": 5,
+        "score": 0.3542,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-24-page-05.webp",
+        "title": "第24讲第5页：生理 泌尿概述",
+        "description": "本题组已按第24讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-097",
+      "topic": "泌尿系统",
+      "sourcePage": 81,
+      "lectureEvidence": {
+        "lectureId": "lecture-24",
+        "lectureNumber": 24,
+        "lectureTitle": "生理 泌尿概述",
+        "page": 6,
+        "score": 0.1285,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-24-page-06.webp",
+        "title": "第24讲第6页：生理 泌尿概述",
+        "description": "本题组已按第24讲第6页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-098",
+      "topic": "泌尿系统",
+      "sourcePage": 81,
+      "lectureEvidence": {
+        "lectureId": "lecture-24",
+        "lectureNumber": 24,
+        "lectureTitle": "生理 泌尿概述",
+        "page": 8,
+        "score": 0.2439,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-24-page-08.webp",
+        "title": "第24讲第8页：生理 泌尿概述",
+        "description": "本题组已按第24讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-099",
+      "topic": "泌尿系统",
+      "sourcePage": 82,
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "lectureNumber": 25,
+        "lectureTitle": "生理 肾小球滤过",
+        "page": 7,
+        "score": 0.2897,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-25-page-07.webp",
+        "title": "第25讲第7页：生理 肾小球滤过",
+        "description": "本题组已按第25讲第7页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-100",
+      "topic": "泌尿系统",
+      "sourcePage": 83,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 9,
+        "score": 0.2943,
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-26-page-09.webp",
+        "title": "第26讲第9页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第9页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "ADH 释放影响因素答案校正",
+          "body": "刺激 ADH 释放答案由 ABCGHI 校正为 ABCHI；抑制 ADH 释放答案由 DEF 校正为 DEFG，并规范 AngⅡ 名称。 依据：今年讲义明确：血浆晶体渗透压升高、血容量下降、AngⅡ、高热及严重呕吐腹泻可促进 ADH 释放；乙醇、咖啡因、糖皮质激素及大量饮清水导致的晶体渗透压下降可抑制 ADH 释放。",
+          "lectureId": "lecture-26",
+          "lecturePages": [
+            9
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "血浆晶体渗透压升高"
+              },
+              {
+                "key": "B",
+                "label": "血容量下降"
+              },
+              {
+                "key": "C",
+                "label": "Ang"
+              },
+              {
+                "key": "D",
+                "label": "乙醇"
+              },
+              {
+                "key": "E",
+                "label": "咖啡因"
+              },
+              {
+                "key": "F",
+                "label": "糖皮质激素"
+              },
+              {
+                "key": "G",
+                "label": "饮大量清水"
+              },
+              {
+                "key": "H",
+                "label": "高热"
+              },
+              {
+                "key": "I",
+                "label": "严重呕吐腹泻"
+              }
+            ],
+            "answers": [
+              "ABCGHI",
+              "DEF"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "血浆晶体渗透压升高"
+              },
+              {
+                "key": "B",
+                "label": "血容量下降"
+              },
+              {
+                "key": "C",
+                "label": "血管紧张素Ⅱ（AngⅡ）"
+              },
+              {
+                "key": "D",
+                "label": "乙醇"
+              },
+              {
+                "key": "E",
+                "label": "咖啡因"
+              },
+              {
+                "key": "F",
+                "label": "糖皮质激素"
+              },
+              {
+                "key": "G",
+                "label": "饮大量清水"
+              },
+              {
+                "key": "H",
+                "label": "高热"
+              },
+              {
+                "key": "I",
+                "label": "严重呕吐腹泻"
+              }
+            ],
+            "answers": [
+              "ABCHI",
+              "DEFG"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-101",
+      "topic": "泌尿系统",
+      "sourcePage": 83,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 2,
+        "score": 0.6365,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-02.webp",
+        "title": "第26讲第2页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-102",
+      "topic": "泌尿系统",
+      "sourcePage": 84,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 10,
+        "score": 0.4106,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-10.webp",
+        "title": "第26讲第10页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第10页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-103",
+      "topic": "泌尿系统",
+      "sourcePage": 85,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 10,
+        "score": 0.1456,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-10.webp",
+        "title": "第26讲第10页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第10页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-104",
+      "topic": "泌尿系统",
+      "sourcePage": 85,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 19,
+        "score": 0.2042,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-19.webp",
+        "title": "第26讲第19页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第19页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-105",
+      "topic": "泌尿系统",
+      "sourcePage": 86,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 3,
+        "score": 0.0657,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-03.webp",
+        "title": "第26讲第3页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-106",
+      "topic": "泌尿系统",
+      "sourcePage": 87,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 3,
+        "score": 0.4205,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-03.webp",
+        "title": "第26讲第3页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-107",
+      "topic": "泌尿系统",
+      "sourcePage": 87,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 5,
+        "score": 0.1338,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-05.webp",
+        "title": "第26讲第5页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-108",
+      "topic": "泌尿系统",
+      "sourcePage": 88,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 6,
+        "score": 0.1576,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-06.webp",
+        "title": "第26讲第6页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第6页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-109",
+      "topic": "泌尿系统",
+      "sourcePage": 89,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 13,
+        "score": 0.3238,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-13.webp",
+        "title": "第26讲第13页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第13页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-110",
+      "topic": "泌尿系统",
+      "sourcePage": 90,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 14,
+        "score": 0.2959,
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-26-page-14.webp",
+        "title": "第26讲第14页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第14页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "髓质高渗形成与维持分类校正",
+          "body": "影响髓质间液高渗维持改为多选 CD；影响高渗形成答案由 ABC 校正为 AB。 依据：今年讲义将直小血管血流量或速度升高、肾血流量或速度明显下降均列为影响髓质高渗维持；呋塞米和营养不良列为影响高渗形成。尿崩症仍影响集合管对水的通透性。",
+          "lectureId": "lecture-26",
+          "lecturePages": [
+            14
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "呋塞米"
+              },
+              {
+                "key": "B",
+                "label": "营养不良"
+              },
+              {
+                "key": "C",
+                "label": "肾血流量或速度明显↓"
+              },
+              {
+                "key": "D",
+                "label": "直小血管血流量或速度↑"
+              },
+              {
+                "key": "E",
+                "label": "尿崩症"
+              }
+            ],
+            "answers": [
+              "D",
+              "E",
+              "ABC"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "呋塞米"
+              },
+              {
+                "key": "B",
+                "label": "营养不良"
+              },
+              {
+                "key": "C",
+                "label": "肾血流量或速度明显↓"
+              },
+              {
+                "key": "D",
+                "label": "直小血管血流量或速度↑"
+              },
+              {
+                "key": "E",
+                "label": "尿崩症"
+              }
+            ],
+            "answers": [
+              "CD",
+              "E",
+              "AB"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-111",
+      "topic": "泌尿系统",
+      "sourcePage": 91,
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "lectureNumber": 26,
+        "lectureTitle": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "page": 11,
+        "score": 0.2447,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-26-page-11.webp",
+        "title": "第26讲第11页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "description": "本题组已按第26讲第11页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "内髓高渗动力答案校正",
+          "body": "集合管内髓部水重吸收动力答案 AC→AB。 依据：今年讲义明确：外髓部高渗由 NaCl 形成；内髓部由 NaCl 与尿素共同形成，不包括 HCO₃⁻。",
+          "lectureId": "lecture-26",
+          "lecturePages": [
+            10,
+            11
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "尿素"
+              },
+              {
+                "key": "B",
+                "label": "NaCl"
+              },
+              {
+                "key": "C",
+                "label": "HCO3-"
+              },
+              {
+                "key": "D",
+                "label": "AQP-2"
+              },
+              {
+                "key": "E",
+                "label": "U 型直小血管（逆流交换)"
+              }
+            ],
+            "answers": [
+              "B",
+              "AC",
+              "E"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "尿素"
+              },
+              {
+                "key": "B",
+                "label": "NaCl"
+              },
+              {
+                "key": "C",
+                "label": "HCO3-"
+              },
+              {
+                "key": "D",
+                "label": "AQP-2"
+              },
+              {
+                "key": "E",
+                "label": "U 型直小血管（逆流交换)"
+              }
+            ],
+            "answers": [
+              "B",
+              "AB",
+              "E"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-112",
+      "topic": "感觉系统",
+      "sourcePage": 92,
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "lectureNumber": 27,
+        "lectureTitle": "生理 视觉",
+        "page": 9,
+        "score": 0.4692,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-27-page-09.webp",
+        "title": "第27讲第9页：生理 视觉",
+        "description": "本题组已按第27讲第9页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "暗适应选项字母规范化",
+          "body": "原题缺 I、直接使用 J；将“视杆细胞合成视色素”规范为 I，答案 DEFHJ→DEFHI。 依据：今年讲义对明、暗适应的知识结论不变；此处修复旧资料选项字母断档。",
+          "lectureId": "lecture-27",
+          "lecturePages": [
+            9
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "适应速度快"
+              },
+              {
+                "key": "B",
+                "label": "视杆细胞迅速分解"
+              },
+              {
+                "key": "C",
+                "label": "视锥细胞恢复活动"
+              },
+              {
+                "key": "D",
+                "label": "视杆细胞恢复活动"
+              },
+              {
+                "key": "E",
+                "label": "使感知光线阈值降低"
+              },
+              {
+                "key": "F",
+                "label": "适应速度慢"
+              },
+              {
+                "key": "G",
+                "label": "视锥细胞光敏度低"
+              },
+              {
+                "key": "H",
+                "label": "视锥细胞合成视色素"
+              },
+              {
+                "key": "J",
+                "label": "视杆细胞合成视色素"
+              }
+            ],
+            "answers": [
+              "ABCG",
+              "DEFHJ"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "适应速度快"
+              },
+              {
+                "key": "B",
+                "label": "视杆细胞迅速分解"
+              },
+              {
+                "key": "C",
+                "label": "视锥细胞恢复活动"
+              },
+              {
+                "key": "D",
+                "label": "视杆细胞恢复活动"
+              },
+              {
+                "key": "E",
+                "label": "使感知光线阈值降低"
+              },
+              {
+                "key": "F",
+                "label": "适应速度慢"
+              },
+              {
+                "key": "G",
+                "label": "视锥细胞光敏度低"
+              },
+              {
+                "key": "H",
+                "label": "视锥细胞合成视色素"
+              },
+              {
+                "key": "I",
+                "label": "视杆细胞合成视色素"
+              }
+            ],
+            "answers": [
+              "ABCG",
+              "DEFHI"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-113",
+      "topic": "感觉系统",
+      "sourcePage": 92,
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "lectureNumber": 27,
+        "lectureTitle": "生理 视觉",
+        "page": 8,
+        "score": 0.397,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-27-page-08.webp",
+        "title": "第27讲第8页：生理 视觉",
+        "description": "本题组已按第27讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-114",
+      "topic": "感觉系统",
+      "sourcePage": 93,
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "lectureNumber": 27,
+        "lectureTitle": "生理 视觉",
+        "page": 4,
+        "score": 0.2438,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-27-page-04.webp",
+        "title": "第27讲第4页：生理 视觉",
+        "description": "本题组已按第27讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-115",
+      "topic": "感觉系统",
+      "sourcePage": 94,
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "lectureNumber": 27,
+        "lectureTitle": "生理 视觉",
+        "page": 2,
+        "score": 0.3478,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-27-page-02.webp",
+        "title": "第27讲第2页：生理 视觉",
+        "description": "本题组已按第27讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-116",
+      "topic": "感觉系统",
+      "sourcePage": 95,
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "lectureNumber": 29,
+        "lectureTitle": "生理 其它感觉",
+        "page": 8,
+        "score": 0.4092,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-29-page-08.webp",
+        "title": "第29讲第8页：生理 其它感觉",
+        "description": "本题组已按第29讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-117",
+      "topic": "感觉系统",
+      "sourcePage": 95,
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "lectureNumber": 28,
+        "lectureTitle": "生理 听觉",
+        "page": 4,
+        "score": 0.242,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-28-page-04.webp",
+        "title": "第28讲第4页：生理 听觉",
+        "description": "本题组已按第28讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-118",
+      "topic": "感觉系统",
+      "sourcePage": 96,
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "lectureNumber": 28,
+        "lectureTitle": "生理 听觉",
+        "page": 2,
+        "score": 0.1205,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-28-page-02.webp",
+        "title": "第28讲第2页：生理 听觉",
+        "description": "本题组已按第28讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "耳结构选项字母断档校正",
+          "body": "原题跳过 Q；将 R（鼓膜）→Q、S（前庭器官）→R，并同步三问答案。 依据：今年讲义的外耳、中耳、内耳结构与功能表支持原有知识结论；此处仅连续化选项字母。",
+          "lectureId": "lecture-28",
+          "lecturePages": [
+            2
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "集音"
+              },
+              {
+                "key": "B",
+                "label": "传音"
+              },
+              {
+                "key": "C",
+                "label": "增压"
+              },
+              {
+                "key": "D",
+                "label": "听觉"
+              },
+              {
+                "key": "E",
+                "label": "增压减幅"
+              },
+              {
+                "key": "F",
+                "label": "保护耳蜗"
+              },
+              {
+                "key": "G",
+                "label": "平衡鼓膜内外两侧压力"
+              },
+              {
+                "key": "H",
+                "label": "平衡觉"
+              },
+              {
+                "key": "I",
+                "label": "鼓室"
+              },
+              {
+                "key": "J",
+                "label": "鼓膜张肌"
+              },
+              {
+                "key": "K",
+                "label": "镫骨肌"
+              },
+              {
+                "key": "L",
+                "label": "外耳道"
+              },
+              {
+                "key": "M",
+                "label": "耳廓"
+              },
+              {
+                "key": "N",
+                "label": "听骨链"
+              },
+              {
+                "key": "O",
+                "label": "咽鼓管"
+              },
+              {
+                "key": "P",
+                "label": "耳蜗"
+              },
+              {
+                "key": "R",
+                "label": "鼓膜"
+              },
+              {
+                "key": "S",
+                "label": "前庭器官"
+              }
+            ],
+            "answers": [
+              "ABCLM",
+              "BEFGIJKNOR",
+              "DHPS"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "集音"
+              },
+              {
+                "key": "B",
+                "label": "传音"
+              },
+              {
+                "key": "C",
+                "label": "增压"
+              },
+              {
+                "key": "D",
+                "label": "听觉"
+              },
+              {
+                "key": "E",
+                "label": "增压减幅"
+              },
+              {
+                "key": "F",
+                "label": "保护耳蜗"
+              },
+              {
+                "key": "G",
+                "label": "平衡鼓膜内外两侧压力"
+              },
+              {
+                "key": "H",
+                "label": "平衡觉"
+              },
+              {
+                "key": "I",
+                "label": "鼓室"
+              },
+              {
+                "key": "J",
+                "label": "鼓膜张肌"
+              },
+              {
+                "key": "K",
+                "label": "镫骨肌"
+              },
+              {
+                "key": "L",
+                "label": "外耳道"
+              },
+              {
+                "key": "M",
+                "label": "耳廓"
+              },
+              {
+                "key": "N",
+                "label": "听骨链"
+              },
+              {
+                "key": "O",
+                "label": "咽鼓管"
+              },
+              {
+                "key": "P",
+                "label": "耳蜗"
+              },
+              {
+                "key": "Q",
+                "label": "鼓膜"
+              },
+              {
+                "key": "R",
+                "label": "前庭器官"
+              }
+            ],
+            "answers": [
+              "ABCLM",
+              "BEFGIJKNOQ",
+              "DHPR"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-119",
+      "topic": "感觉系统",
+      "sourcePage": 97,
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "lectureNumber": 29,
+        "lectureTitle": "生理 其它感觉",
+        "page": 1,
+        "score": 0.4507,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-29-page-01.webp",
+        "title": "第29讲第1页：生理 其它感觉",
+        "description": "本题组已按第29讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-120",
+      "topic": "感觉系统",
+      "sourcePage": 98,
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "lectureNumber": 27,
+        "lectureTitle": "生理 视觉",
+        "page": 13,
+        "score": 0.594,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-27-page-13.webp",
+        "title": "第27讲第13页：生理 视觉",
+        "description": "本题组已按第27讲第13页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-121",
+      "topic": "感觉系统",
+      "sourcePage": 98,
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "lectureNumber": 29,
+        "lectureTitle": "生理 其它感觉",
+        "page": 5,
+        "score": 0.4379,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-29-page-05.webp",
+        "title": "第29讲第5页：生理 其它感觉",
+        "description": "本题组已按第29讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-122",
+      "topic": "中枢神经系统",
+      "sourcePage": 99,
+      "lectureEvidence": {
+        "lectureId": "lecture-30",
+        "lectureNumber": 30,
+        "lectureTitle": "生理 神经元及胶质细胞",
+        "page": 4,
+        "score": 0.2199,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-30-page-04.webp",
+        "title": "第30讲第4页：生理 神经元及胶质细胞",
+        "description": "本题组已按第30讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-123",
+      "topic": "中枢神经系统",
+      "sourcePage": 99,
+      "lectureEvidence": {
+        "lectureId": "lecture-30",
+        "lectureNumber": 30,
+        "lectureTitle": "生理 神经元及胶质细胞",
+        "page": 3,
+        "score": 0.1908,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-30-page-03.webp",
+        "title": "第30讲第3页：生理 神经元及胶质细胞",
+        "description": "本题组已按第30讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-124",
+      "topic": "中枢神经系统",
+      "sourcePage": 100,
+      "lectureEvidence": {
+        "lectureId": "lecture-30",
+        "lectureNumber": 30,
+        "lectureTitle": "生理 神经元及胶质细胞",
+        "page": 3,
+        "score": 0.3104,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-30-page-03.webp",
+        "title": "第30讲第3页：生理 神经元及胶质细胞",
+        "description": "本题组已按第30讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-125",
+      "topic": "中枢神经系统",
+      "sourcePage": 101,
+      "lectureEvidence": {
+        "lectureId": "lecture-31",
+        "lectureNumber": 31,
+        "lectureTitle": "生理 突触传递、中枢抑制和易化",
+        "page": 1,
+        "score": 0.0764,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-31-page-01.webp",
+        "title": "第31讲第1页：生理 突触传递、中枢抑制和易化",
+        "description": "本题组已按第31讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-126",
+      "topic": "中枢神经系统",
+      "sourcePage": 102,
+      "lectureEvidence": {
+        "lectureId": "lecture-31",
+        "lectureNumber": 31,
+        "lectureTitle": "生理 突触传递、中枢抑制和易化",
+        "page": 2,
+        "score": 0.3064,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-31-page-02.webp",
+        "title": "第31讲第2页：生理 突触传递、中枢抑制和易化",
+        "description": "本题组已按第31讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-127",
+      "topic": "中枢神经系统",
+      "sourcePage": 102,
+      "lectureEvidence": {
+        "lectureId": "lecture-31",
+        "lectureNumber": 31,
+        "lectureTitle": "生理 突触传递、中枢抑制和易化",
+        "page": 4,
+        "score": 0.4545,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-31-page-04.webp",
+        "title": "第31讲第4页：生理 突触传递、中枢抑制和易化",
+        "description": "本题组已按第31讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-128",
+      "topic": "中枢神经系统",
+      "sourcePage": 103,
+      "lectureEvidence": {
+        "lectureId": "lecture-31",
+        "lectureNumber": 31,
+        "lectureTitle": "生理 突触传递、中枢抑制和易化",
+        "page": 5,
+        "score": 0.3152,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-31-page-05.webp",
+        "title": "第31讲第5页：生理 突触传递、中枢抑制和易化",
+        "description": "本题组已按第31讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-129",
+      "topic": "中枢神经系统",
+      "sourcePage": 103,
+      "lectureEvidence": {
+        "lectureId": "lecture-32",
+        "lectureNumber": 32,
+        "lectureTitle": "生理 递质和受体",
+        "page": 3,
+        "score": 0.2541,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-32-page-03.webp",
+        "title": "第32讲第3页：生理 递质和受体",
+        "description": "本题组已按第32讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-130",
+      "topic": "中枢神经系统",
+      "sourcePage": 104,
+      "lectureEvidence": {
+        "lectureId": "lecture-32",
+        "lectureNumber": 32,
+        "lectureTitle": "生理 递质和受体",
+        "page": 3,
+        "score": 0.2503,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-32-page-03.webp",
+        "title": "第32讲第3页：生理 递质和受体",
+        "description": "本题组已按第32讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-131",
+      "topic": "中枢神经系统",
+      "sourcePage": 104,
+      "lectureEvidence": {
+        "lectureId": "lecture-32",
+        "lectureNumber": 32,
+        "lectureTitle": "生理 递质和受体",
+        "page": 1,
+        "score": 0.3066,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-32-page-01.webp",
+        "title": "第32讲第1页：生理 递质和受体",
+        "description": "本题组已按第32讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-132",
+      "topic": "中枢神经系统",
+      "sourcePage": 105,
+      "lectureEvidence": {
+        "lectureId": "lecture-32",
+        "lectureNumber": 32,
+        "lectureTitle": "生理 递质和受体",
+        "page": 3,
+        "score": 0.0771,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-32-page-03.webp",
+        "title": "第32讲第3页：生理 递质和受体",
+        "description": "本题组已按第32讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-133",
+      "topic": "中枢神经系统",
+      "sourcePage": 105,
+      "lectureEvidence": {
+        "lectureId": "lecture-34",
+        "lectureNumber": 34,
+        "lectureTitle": "生理 脑电波、睡眠、脑高级功能、下丘脑",
+        "page": 4,
+        "score": 0.2049,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-34-page-04.webp",
+        "title": "第34讲第4页：生理 脑电波、睡眠、脑高级功能、下丘脑",
+        "description": "本题组已按第34讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-134",
+      "topic": "中枢神经系统",
+      "sourcePage": 106,
+      "lectureEvidence": {
+        "lectureId": "lecture-34",
+        "lectureNumber": 34,
+        "lectureTitle": "生理 脑电波、睡眠、脑高级功能、下丘脑",
+        "page": 1,
+        "score": 0.1894,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-34-page-01.webp",
+        "title": "第34讲第1页：生理 脑电波、睡眠、脑高级功能、下丘脑",
+        "description": "本题组已按第34讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-135",
+      "topic": "中枢神经系统",
+      "sourcePage": 106,
+      "lectureEvidence": {
+        "lectureId": "lecture-34",
+        "lectureNumber": 34,
+        "lectureTitle": "生理 脑电波、睡眠、脑高级功能、下丘脑",
+        "page": 5,
+        "score": 0.2681,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-34-page-05.webp",
+        "title": "第34讲第5页：生理 脑电波、睡眠、脑高级功能、下丘脑",
+        "description": "本题组已按第34讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-136",
+      "topic": "中枢神经系统",
+      "sourcePage": 107,
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "lectureNumber": 33,
+        "lectureTitle": "生理 神经系统调控躯体运动",
+        "page": 11,
+        "score": 0.3255,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-11.webp",
+        "title": "第33讲第11页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第11页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "补全原题缺失答案",
+          "body": "补全帕金森病 ACEF；亨廷顿病 BD。 依据：今年讲义：帕金森病为黑质多巴胺能神经元病变、肌张力增高和运动减少，常有静止性震颤；亨廷顿病为新纹状体 GABA 能神经元病变、肌张力降低和运动增多。",
+          "lectureId": "lecture-33",
+          "lecturePages": [
+            11
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "肌张力增高、随意运动减少"
+              },
+              {
+                "key": "B",
+                "label": "新纹状体GABA 能神经元病变"
+              },
+              {
+                "key": "C",
+                "label": "中脑黑质多巴胺能神经元病变"
+              },
+              {
+                "key": "D",
+                "label": "肌紧张降低随意运动增多"
+              },
+              {
+                "key": "E",
+                "label": "运动症状主要发生在准备阶段"
+              },
+              {
+                "key": "F",
+                "label": "常伴静止性震颤"
+              }
+            ],
+            "answers": [
+              "",
+              ""
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "肌张力增高、随意运动减少"
+              },
+              {
+                "key": "B",
+                "label": "新纹状体GABA 能神经元病变"
+              },
+              {
+                "key": "C",
+                "label": "中脑黑质多巴胺能神经元病变"
+              },
+              {
+                "key": "D",
+                "label": "肌紧张降低随意运动增多"
+              },
+              {
+                "key": "E",
+                "label": "运动症状主要发生在准备阶段"
+              },
+              {
+                "key": "F",
+                "label": "常伴静止性震颤"
+              }
+            ],
+            "answers": [
+              "ACEF",
+              "BD"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-137",
+      "topic": "中枢神经系统",
+      "sourcePage": 107,
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "lectureNumber": 33,
+        "lectureTitle": "生理 神经系统调控躯体运动",
+        "page": 11,
+        "score": 0.1781,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-11.webp",
+        "title": "第33讲第11页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第11页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-138",
+      "topic": "中枢神经系统",
+      "sourcePage": 108,
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "lectureNumber": 33,
+        "lectureTitle": "生理 神经系统调控躯体运动",
+        "page": 12,
+        "score": 0.2348,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-12.webp",
+        "title": "第33讲第12页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第12页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-139",
+      "topic": "中枢神经系统",
+      "sourcePage": 109,
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "lectureNumber": 33,
+        "lectureTitle": "生理 神经系统调控躯体运动",
+        "page": 13,
+        "score": 0.3636,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-13.webp",
+        "title": "第33讲第13页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第13页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-140",
+      "topic": "中枢神经系统",
+      "sourcePage": 109,
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "lectureNumber": 33,
+        "lectureTitle": "生理 神经系统调控躯体运动",
+        "page": 13,
+        "score": 0.2201,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-13.webp",
+        "title": "第33讲第13页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第13页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-141",
+      "topic": "中枢神经系统",
+      "sourcePage": 110,
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "lectureNumber": 33,
+        "lectureTitle": "生理 神经系统调控躯体运动",
+        "page": 7,
+        "score": 0.4651,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-07.webp",
+        "title": "第33讲第7页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第7页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-142",
+      "topic": "中枢神经系统",
+      "sourcePage": 111,
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "lectureNumber": 33,
+        "lectureTitle": "生理 神经系统调控躯体运动",
+        "page": 7,
+        "score": 0.2651,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-07.webp",
+        "title": "第33讲第7页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第7页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-143",
+      "topic": "中枢神经系统",
+      "sourcePage": 112,
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "lectureNumber": 33,
+        "lectureTitle": "生理 神经系统调控躯体运动",
+        "page": 8,
+        "score": 0.3163,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-08.webp",
+        "title": "第33讲第8页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-144",
+      "topic": "中枢神经系统",
+      "sourcePage": 113,
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "lectureNumber": 33,
+        "lectureTitle": "生理 神经系统调控躯体运动",
+        "page": 8,
+        "score": 0.387,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-08.webp",
+        "title": "第33讲第8页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-145",
+      "topic": "中枢神经系统",
+      "sourcePage": 114,
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "lectureNumber": 33,
+        "lectureTitle": "生理 神经系统调控躯体运动",
+        "page": 14,
+        "score": 0.4188,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-14.webp",
+        "title": "第33讲第14页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第14页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-146",
+      "topic": "中枢神经系统",
+      "sourcePage": 115,
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "lectureNumber": 33,
+        "lectureTitle": "生理 神经系统调控躯体运动",
+        "page": 15,
+        "score": 0.3891,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-33-page-15.webp",
+        "title": "第33讲第15页：生理 神经系统调控躯体运动",
+        "description": "本题组已按第33讲第15页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-147",
+      "topic": "内分泌",
+      "sourcePage": 116,
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "lectureNumber": 35,
+        "lectureTitle": "生理 内分泌概述",
+        "page": 4,
+        "score": 0.2989,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-35-page-04.webp",
+        "title": "第35讲第4页：生理 内分泌概述",
+        "description": "本题组已按第35讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-148",
+      "topic": "内分泌",
+      "sourcePage": 116,
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "lectureNumber": 35,
+        "lectureTitle": "生理 内分泌概述",
+        "page": 2,
+        "score": 0.2611,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-35-page-02.webp",
+        "title": "第35讲第2页：生理 内分泌概述",
+        "description": "本题组已按第35讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-149",
+      "topic": "内分泌",
+      "sourcePage": 117,
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "lectureNumber": 35,
+        "lectureTitle": "生理 内分泌概述",
+        "page": 4,
+        "score": 0.2476,
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-35-page-04.webp",
+        "title": "第35讲第4页：生理 内分泌概述",
+        "description": "本题组已按第35讲第4页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "类固醇激素答案漏项校正",
+          "body": "类固醇激素答案由 ADEGL 校正为 ADEGJL。 依据：今年讲义明确将性激素（雄激素、雌激素、孕激素）列为胆固醇衍生的类固醇激素，因此 J 项应选。",
+          "lectureId": "lecture-35",
+          "lecturePages": [
+            4,
+            5
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "分泌方式-单纯扩散"
+              },
+              {
+                "key": "B",
+                "label": "酪氨酸、色氨酸的衍生物"
+              },
+              {
+                "key": "C",
+                "label": "褪黑素"
+              },
+              {
+                "key": "D",
+                "label": "胆固醇衍生物"
+              },
+              {
+                "key": "E",
+                "label": "多为核受体"
+              },
+              {
+                "key": "F",
+                "label": "分泌方式-出胞"
+              },
+              {
+                "key": "G",
+                "label": "钙三醇"
+              },
+              {
+                "key": "H",
+                "label": "氨基酸聚合物"
+              },
+              {
+                "key": "I",
+                "label": "儿茶酚胺"
+              },
+              {
+                "key": "J",
+                "label": "性激素"
+              },
+              {
+                "key": "K",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "L",
+                "label": "糖皮质激素/皮质醇"
+              },
+              {
+                "key": "M",
+                "label": "多数激素"
+              },
+              {
+                "key": "N",
+                "label": "膜受体"
+              }
+            ],
+            "answers": [
+              "BCFIKN",
+              "FHMN",
+              "ADEGL"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "分泌方式-单纯扩散"
+              },
+              {
+                "key": "B",
+                "label": "酪氨酸、色氨酸的衍生物"
+              },
+              {
+                "key": "C",
+                "label": "褪黑素"
+              },
+              {
+                "key": "D",
+                "label": "胆固醇衍生物"
+              },
+              {
+                "key": "E",
+                "label": "多为核受体"
+              },
+              {
+                "key": "F",
+                "label": "分泌方式-出胞"
+              },
+              {
+                "key": "G",
+                "label": "钙三醇"
+              },
+              {
+                "key": "H",
+                "label": "氨基酸聚合物"
+              },
+              {
+                "key": "I",
+                "label": "儿茶酚胺"
+              },
+              {
+                "key": "J",
+                "label": "性激素"
+              },
+              {
+                "key": "K",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "L",
+                "label": "糖皮质激素/皮质醇"
+              },
+              {
+                "key": "M",
+                "label": "多数激素"
+              },
+              {
+                "key": "N",
+                "label": "膜受体"
+              }
+            ],
+            "answers": [
+              "BCFIKN",
+              "FHMN",
+              "ADEGJL"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-150",
+      "topic": "内分泌",
+      "sourcePage": 118,
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "lectureNumber": 36,
+        "lectureTitle": "生理 钙调节激素",
+        "page": 3,
+        "score": 0.0962,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-36-page-03.webp",
+        "title": "第36讲第3页：生理 钙调节激素",
+        "description": "本题组已按第36讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-151",
+      "topic": "内分泌",
+      "sourcePage": 118,
+      "lectureEvidence": {
+        "lectureId": "lecture-38",
+        "lectureNumber": 38,
+        "lectureTitle": "生理 胰岛素和胰高血糖素",
+        "page": 1,
+        "score": 0.2726,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-38-page-01.webp",
+        "title": "第38讲第1页：生理 胰岛素和胰高血糖素",
+        "description": "本题组已按第38讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-152",
+      "topic": "内分泌",
+      "sourcePage": 119,
+      "lectureEvidence": {
+        "lectureId": "lecture-38",
+        "lectureNumber": 38,
+        "lectureTitle": "生理 胰岛素和胰高血糖素",
+        "page": 3,
+        "score": 0.3122,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-38-page-03.webp",
+        "title": "第38讲第3页：生理 胰岛素和胰高血糖素",
+        "description": "本题组已按第38讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-153",
+      "topic": "内分泌",
+      "sourcePage": 120,
+      "lectureEvidence": {
+        "lectureId": "lecture-38",
+        "lectureNumber": 38,
+        "lectureTitle": "生理 胰岛素和胰高血糖素",
+        "page": 5,
+        "score": 0.337,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-38-page-05.webp",
+        "title": "第38讲第5页：生理 胰岛素和胰高血糖素",
+        "description": "本题组已按第38讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-154",
+      "topic": "内分泌",
+      "sourcePage": 121,
+      "lectureEvidence": {
+        "lectureId": "lecture-37",
+        "lectureNumber": 37,
+        "lectureTitle": "生理 生长激素",
+        "page": 1,
+        "score": 0.4308,
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-37-page-01.webp",
+        "title": "第37讲第1页：生理 生长激素",
+        "description": "本题组已按第37讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "促进生长激素分泌答案漏项校正",
+          "body": "促进 GH 分泌答案由 BCEGHK 校正为 BCEGHJK。 依据：今年讲义除下丘脑 GHRH 外，还明确列出最初在胃黏膜发现的促生长激素释放激素可促进 GH 释放，因此 J 项应选。",
+          "lectureId": "lecture-37",
+          "lecturePages": [
+            1
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "快波睡眠"
+              },
+              {
+                "key": "B",
+                "label": "低血糖、饥饿、运动等应激"
+              },
+              {
+                "key": "C",
+                "label": "慢波睡眠"
+              },
+              {
+                "key": "D",
+                "label": "生长抑素"
+              },
+              {
+                "key": "E",
+                "label": "下丘脑生长激素释放激素GHRH"
+              },
+              {
+                "key": "F",
+                "label": "衰老"
+              },
+              {
+                "key": "G",
+                "label": "精氨酸"
+              },
+              {
+                "key": "H",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "I",
+                "label": "IGF-1"
+              },
+              {
+                "key": "J",
+                "label": "促生长激素释放激素"
+              },
+              {
+                "key": "K",
+                "label": "睾酮"
+              }
+            ],
+            "answers": [
+              "BCEGHK",
+              "ADFI"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "快波睡眠"
+              },
+              {
+                "key": "B",
+                "label": "低血糖、饥饿、运动等应激"
+              },
+              {
+                "key": "C",
+                "label": "慢波睡眠"
+              },
+              {
+                "key": "D",
+                "label": "生长抑素"
+              },
+              {
+                "key": "E",
+                "label": "下丘脑生长激素释放激素GHRH"
+              },
+              {
+                "key": "F",
+                "label": "衰老"
+              },
+              {
+                "key": "G",
+                "label": "精氨酸"
+              },
+              {
+                "key": "H",
+                "label": "甲状腺激素"
+              },
+              {
+                "key": "I",
+                "label": "IGF-1"
+              },
+              {
+                "key": "J",
+                "label": "促生长激素释放激素"
+              },
+              {
+                "key": "K",
+                "label": "睾酮"
+              }
+            ],
+            "answers": [
+              "BCEGHJK",
+              "ADFI"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-155",
+      "topic": "内分泌",
+      "sourcePage": 122,
+      "lectureEvidence": {
+        "lectureId": "lecture-39",
+        "lectureNumber": 39,
+        "lectureTitle": "生理 甲状腺激素",
+        "page": 2,
+        "score": 0.2136,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-39-page-02.webp",
+        "title": "第39讲第2页：生理 甲状腺激素",
+        "description": "本题组已按第39讲第2页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-156",
+      "topic": "内分泌",
+      "sourcePage": 123,
+      "lectureEvidence": {
+        "lectureId": "lecture-40",
+        "lectureNumber": 40,
+        "lectureTitle": "生理 糖皮质激素",
+        "page": 3,
+        "score": 0.2541,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-40-page-03.webp",
+        "title": "第40讲第3页：生理 糖皮质激素",
+        "description": "本题组已按第40讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-157",
+      "topic": "内分泌",
+      "sourcePage": 124,
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "lectureNumber": 35,
+        "lectureTitle": "生理 内分泌概述",
+        "page": 1,
+        "score": 0.1521,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-35-page-01.webp",
+        "title": "第35讲第1页：生理 内分泌概述",
+        "description": "本题组已按第35讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-158",
+      "topic": "生殖系统",
+      "sourcePage": 125,
+      "lectureEvidence": {
+        "lectureId": "lecture-41",
+        "lectureNumber": 41,
+        "lectureTitle": "生理 生殖",
+        "page": 1,
+        "score": 0.3579,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-41-page-01.webp",
+        "title": "第41讲第1页：生理 生殖",
+        "description": "本题组已按第41讲第1页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-159",
+      "topic": "生殖系统",
+      "sourcePage": 126,
+      "lectureEvidence": {
+        "lectureId": "lecture-41",
+        "lectureNumber": 41,
+        "lectureTitle": "生理 生殖",
+        "page": 3,
+        "score": 0.3146,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-41-page-03.webp",
+        "title": "第41讲第3页：生理 生殖",
+        "description": "本题组已按第41讲第3页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    },
+    {
+      "id": "phys-160",
+      "topic": "生殖系统",
+      "sourcePage": 126,
+      "lectureEvidence": {
+        "lectureId": "lecture-41",
+        "lectureNumber": 41,
+        "lectureTitle": "生理 生殖",
+        "page": 8,
+        "score": 0.2061,
+        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "image": "physiology/lecture-pages/lecture-41-page-08.webp",
+        "title": "第41讲第8页：生理 生殖",
+        "description": "本题组已按第41讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [],
+      "status": "与今年讲义一致"
+    }
+  ]
+}

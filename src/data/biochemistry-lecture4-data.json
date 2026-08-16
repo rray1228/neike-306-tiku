@@ -1,0 +1,674 @@
+{
+  "meta": {
+    "title": "生物化学第 04 讲题库",
+    "sourceLabel": "生化第 04 讲学成选择题（血浆脂蛋白）",
+    "sourcePages": 1,
+    "lectureCount": 1,
+    "groupCount": 5,
+    "stemCount": 24,
+    "correctionGroupCount": 0,
+    "generatedBy": "scripts/build_biochemistry_lecture4.py",
+    "siteIntegrated": true,
+    "lectureLinked": true,
+    "answerNote": "仅收录第 04 讲《血浆脂蛋白》范围内题目；选项已逐组打散，答案已按讲义复核。"
+  },
+  "topics": [
+    "全部",
+    "脂代谢",
+    "综合"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image": "",
+      "topic": "脂代谢",
+      "searchText": "四类血浆脂蛋白的来源、转运与电泳"
+    },
+    {
+      "page": 2,
+      "image": "",
+      "topic": "脂代谢",
+      "searchText": "四类血浆脂蛋白的成分排序"
+    },
+    {
+      "page": 3,
+      "image": "",
+      "topic": "脂代谢",
+      "searchText": "载脂蛋白与脂蛋白代谢酶"
+    },
+    {
+      "page": 4,
+      "image": "",
+      "topic": "脂代谢",
+      "searchText": "脂蛋白的代谢去路"
+    },
+    {
+      "page": 5,
+      "image": "",
+      "topic": "脂代谢",
+      "searchText": "脂蛋白的作用与小肠脂质吸收"
+    }
+  ],
+  "groups": [
+    {
+      "id": "bio-04-01",
+      "page": 1,
+      "title": "四类血浆脂蛋白的来源、转运与电泳",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "特征性载脂蛋白为 ApoB48"
+        },
+        {
+          "key": "B",
+          "label": "增多是高脂血症最重要的原因"
+        },
+        {
+          "key": "C",
+          "label": "主要运输内源性脂肪"
+        },
+        {
+          "key": "D",
+          "label": "运输内源性胆固醇"
+        },
+        {
+          "key": "E",
+          "label": "前β"
+        },
+        {
+          "key": "F",
+          "label": "在血浆中合成"
+        },
+        {
+          "key": "G",
+          "label": "由小肠合成"
+        },
+        {
+          "key": "H",
+          "label": "增多可致高脂血症"
+        },
+        {
+          "key": "I",
+          "label": "减少可致高脂血症"
+        },
+        {
+          "key": "J",
+          "label": "由肝合成"
+        },
+        {
+          "key": "K",
+          "label": "减少可致脂肪肝"
+        },
+        {
+          "key": "L",
+          "label": "将胆固醇逆向转运至肝内降解"
+        },
+        {
+          "key": "M",
+          "label": "α"
+        },
+        {
+          "key": "N",
+          "label": "在血浆中由 VLDL→IDL→LDL 转变"
+        },
+        {
+          "key": "O",
+          "label": "运输外源性脂肪和胆固醇"
+        },
+        {
+          "key": "P",
+          "label": "β"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "CM 的特点",
+          "answerRaw": "A、H、O、G",
+          "answer": [
+            "A",
+            "H",
+            "O",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "VLDL 的特点",
+          "answerRaw": "K、H、E、C、J",
+          "answer": [
+            "K",
+            "H",
+            "E",
+            "C",
+            "J"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "LDL 的特点",
+          "answerRaw": "D、P、B、N",
+          "answer": [
+            "D",
+            "P",
+            "B",
+            "N"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "HDL 的特点",
+          "answerRaw": "M、I、F、L、J、G",
+          "answer": [
+            "M",
+            "I",
+            "F",
+            "L",
+            "J",
+            "G"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "四类血浆脂蛋白的来源、转运与电泳",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "lectureNumber": 4,
+        "lectureTitle": "生化 血浆脂蛋白",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-04-page-01.webp",
+        "title": "第 04 讲《生化 血浆脂蛋白》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 04 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-04-02",
+      "page": 2,
+      "title": "四类血浆脂蛋白的成分排序",
+      "kind": "RANK",
+      "kindLabel": "排序题",
+      "options": [
+        {
+          "key": "A",
+          "label": "LDL"
+        },
+        {
+          "key": "B",
+          "label": "CM"
+        },
+        {
+          "key": "C",
+          "label": "VLDL"
+        },
+        {
+          "key": "D",
+          "label": "HDL"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "按蛋白质含量由高到低排序",
+          "answerRaw": "D＞A＞C＞B",
+          "answer": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ],
+          "answerMode": "排序",
+          "answerDisplay": "HDL＞LDL＞VLDL＞CM"
+        },
+        {
+          "number": 2,
+          "text": "按脂肪含量由高到低排序",
+          "answerRaw": "B＞C＞A＞D",
+          "answer": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ],
+          "answerMode": "排序",
+          "answerDisplay": "CM＞VLDL＞LDL＞HDL"
+        },
+        {
+          "number": 3,
+          "text": "按胆固醇含量由高到低排序",
+          "answerRaw": "A＞D＞C＞B",
+          "answer": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ],
+          "answerMode": "排序",
+          "answerDisplay": "LDL＞HDL＞VLDL＞CM"
+        }
+      ],
+      "sourceText": "四类脂蛋白的蛋白质、脂肪和胆固醇含量排序",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "lectureNumber": 4,
+        "lectureTitle": "生化 血浆脂蛋白",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-04-page-02.webp",
+        "title": "第 04 讲《生化 血浆脂蛋白》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 04 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-04-03",
+      "page": 3,
+      "title": "载脂蛋白与脂蛋白代谢酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "ApoAⅠ"
+        },
+        {
+          "key": "B",
+          "label": "转运甘油三酯"
+        },
+        {
+          "key": "C",
+          "label": "调节酶活性"
+        },
+        {
+          "key": "D",
+          "label": "ApoB48"
+        },
+        {
+          "key": "E",
+          "label": "ApoCⅡ"
+        },
+        {
+          "key": "F",
+          "label": "脂蛋白脂肪酶（LPL）"
+        },
+        {
+          "key": "G",
+          "label": "受体识别"
+        },
+        {
+          "key": "H",
+          "label": "卵磷脂胆固醇酰基转移酶（LCAT）"
+        },
+        {
+          "key": "I",
+          "label": "白蛋白"
+        },
+        {
+          "key": "J",
+          "label": "ApoE"
+        },
+        {
+          "key": "K",
+          "label": "脂质交换的连接物"
+        },
+        {
+          "key": "L",
+          "label": "ApoB100"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "载脂蛋白的功能",
+          "answerRaw": "B、K、C、G",
+          "answer": [
+            "B",
+            "K",
+            "C",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "HDL 受体的配体",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "LDL 受体的配体",
+          "answerRaw": "L、J",
+          "answer": [
+            "L",
+            "J"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "LCAT 的激活剂",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "LPL 的激活剂",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "乳糜微粒的特征性载脂蛋白",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "血浆游离脂肪酸的主要载体",
+          "answerRaw": "I",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "血浆中胆固醇酯化所需酶",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "载脂蛋白与脂蛋白代谢酶",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "lectureNumber": 4,
+        "lectureTitle": "生化 血浆脂蛋白",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-04-page-02.webp",
+        "title": "第 04 讲《生化 血浆脂蛋白》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 04 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-04-04",
+      "page": 4,
+      "title": "脂蛋白的代谢去路",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "LDL 受体"
+        },
+        {
+          "key": "B",
+          "label": "胆固醇逆向转运"
+        },
+        {
+          "key": "C",
+          "label": "血管内皮细胞"
+        },
+        {
+          "key": "D",
+          "label": "2/3"
+        },
+        {
+          "key": "E",
+          "label": "多种细胞"
+        },
+        {
+          "key": "F",
+          "label": "1/3"
+        },
+        {
+          "key": "G",
+          "label": "清道夫受体"
+        },
+        {
+          "key": "H",
+          "label": "脂蛋白脂肪酶（LPL）"
+        },
+        {
+          "key": "I",
+          "label": "巨噬细胞"
+        },
+        {
+          "key": "J",
+          "label": "主要在肝"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "HDL 的主要代谢作用",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "VLDL 的主要水解酶",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "CM 的主要水解酶",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "LDL 经清道夫受体摄取的特点",
+          "answerRaw": "G、C、F、I",
+          "answer": [
+            "G",
+            "C",
+            "F",
+            "I"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "LDL 经 LDL 受体摄取的特点",
+          "answerRaw": "D、A、E、J",
+          "answer": [
+            "D",
+            "A",
+            "E",
+            "J"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "脂蛋白的代谢去路",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "lectureNumber": 4,
+        "lectureTitle": "生化 血浆脂蛋白",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-04-page-02.webp",
+        "title": "第 04 讲《生化 血浆脂蛋白》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 04 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-04-05",
+      "page": 5,
+      "title": "脂蛋白的作用与小肠脂质吸收",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "参与细胞信号转导"
+        },
+        {
+          "key": "B",
+          "label": "外源性脂肪"
+        },
+        {
+          "key": "C",
+          "label": "甘油二酯"
+        },
+        {
+          "key": "D",
+          "label": "供能"
+        },
+        {
+          "key": "E",
+          "label": "甘油一酯途径"
+        },
+        {
+          "key": "F",
+          "label": "构成生物膜"
+        },
+        {
+          "key": "G",
+          "label": "维持体温"
+        },
+        {
+          "key": "H",
+          "label": "胆固醇"
+        },
+        {
+          "key": "I",
+          "label": "协助脂溶性维生素吸收"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "脂蛋白及脂类的生理作用",
+          "answerRaw": "D、F、I、G、A",
+          "answer": [
+            "D",
+            "F",
+            "I",
+            "G",
+            "A"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "可作为第二信使的脂质",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "小肠吸收的外源性脂质原料",
+          "answerRaw": "H、B",
+          "answer": [
+            "H",
+            "B"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "小肠黏膜细胞合成外源性脂肪和胆固醇酯的途径",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "脂蛋白的作用与小肠脂质吸收",
+      "reviewState": "已按 2027 考研讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "lectureNumber": 4,
+        "lectureTitle": "生化 血浆脂蛋白",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-04-page-01.webp",
+        "title": "第 04 讲《生化 血浆脂蛋白》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 04 讲，并逐项复核。"
+      }
+    }
+  ],
+  "lectures": [
+    {
+      "id": "lecture-04",
+      "number": 4,
+      "title": "生化 血浆脂蛋白",
+      "pageCount": 4
+    }
+  ]
+}

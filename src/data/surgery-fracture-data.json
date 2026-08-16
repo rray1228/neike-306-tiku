@@ -1,0 +1,1992 @@
+{
+  "meta": {
+    "title": "骨科学成选择题",
+    "lectureId": "lecture-29",
+    "lecturePagesReviewed": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "answerNote": "题干、选项和答案已完成结构校对。"
+  },
+  "groups": [
+    {
+      "id": "fracture-g01",
+      "page": 0,
+      "title": "原因",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "肱骨髁上骨折",
+          "sourceText": "间接暴力：肱骨髁上骨折",
+          "sourceKey": "A",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "B",
+          "label": "骨骼本身存在骨髓炎、骨肿瘤等疾病，受轻微外力即发生骨折",
+          "sourceText": "病理骨折：骨骼本身存在骨髓炎、骨肿瘤等疾病，受轻微外力即发生骨折",
+          "sourceKey": "D",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "C",
+          "label": "桡骨远端骨折",
+          "sourceText": "间接暴力：桡骨远端骨折",
+          "sourceKey": "I",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "D",
+          "label": "好发于肋骨",
+          "sourceText": "疲劳骨折：好发于肋骨",
+          "sourceKey": "H",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "E",
+          "label": "好发于腓骨干下1/3",
+          "sourceText": "疲劳骨折：好发于腓骨干下1/3",
+          "sourceKey": "L",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "F",
+          "label": "反复轻微外力导致特定部位积累性劳损",
+          "sourceText": "疲劳骨折：反复轻微外力导致特定部位积累性劳损",
+          "sourceKey": "J",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "G",
+          "label": "髌骨横形骨折",
+          "sourceText": "间接暴力：髌骨横形骨折",
+          "sourceKey": "K",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "H",
+          "label": "胫骨干骨折",
+          "sourceText": "直接暴力：胫骨干骨折",
+          "sourceKey": "C",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "I",
+          "label": "髌骨粉碎性骨折",
+          "sourceText": "直接暴力：髌骨粉碎性骨折",
+          "sourceKey": "G",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "J",
+          "label": "好发于第2、3跖骨",
+          "sourceText": "疲劳骨折：好发于第2、3跖骨",
+          "sourceKey": "B",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "K",
+          "label": "早期诊断可用MRI、核素检查",
+          "sourceText": "疲劳骨折：早期诊断可用MRI、核素检查",
+          "sourceKey": "F",
+          "ocrScore": 1.0
+        },
+        {
+          "key": "L",
+          "label": "髂前上棘撕脱骨折",
+          "sourceText": "间接暴力：髂前上棘撕脱骨折",
+          "sourceKey": "E",
+          "ocrScore": 1.0
+        }
+      ],
+      "stems": [
+        {
+          "text": "直接暴力",
+          "answer": [
+            "H",
+            "I"
+          ],
+          "answerMode": "多选",
+          "sourceText": "直接暴力",
+          "ocrScore": 1.0,
+          "reviewMethod": "已按第29讲第1页拆分骨折类型与好发部位，固定乱序后同步重映射答案"
+        },
+        {
+          "text": "间接暴力（受伤部位远处）",
+          "answer": [
+            "A",
+            "C",
+            "G",
+            "L"
+          ],
+          "answerMode": "多选",
+          "sourceText": "间接暴力（受伤部位远处）",
+          "ocrScore": 1.0,
+          "reviewMethod": "已按第29讲第1页拆分骨折类型与好发部位，固定乱序后同步重映射答案"
+        },
+        {
+          "text": "病理骨折",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "病理骨折",
+          "ocrScore": 1.0,
+          "reviewMethod": "已按第29讲第1页拆分骨折类型与好发部位，固定乱序后同步重映射答案"
+        },
+        {
+          "text": "疲劳/应力/行军骨折",
+          "answer": [
+            "D",
+            "E",
+            "F",
+            "J",
+            "K"
+          ],
+          "answerMode": "多选",
+          "sourceText": "疲劳/应力/行军骨折",
+          "ocrScore": 1.0,
+          "reviewMethod": "已按第29讲第1页拆分骨折类型与好发部位，固定乱序后同步重映射答案"
+        }
+      ],
+      "sourceText": "肱骨髁上骨折；好发于第2、3跖骨；胫骨干骨折；骨骼本身存在骨髓炎、骨肿瘤等疾病，受轻微外力即发生骨折；髂前上棘撕脱骨折；早期诊断可用MRI、核素检查；髌骨粉碎性骨折；好发于肋骨；桡骨远端骨折；反复轻微外力导致特定部位积累性劳损；髌骨横形骨折；好发于腓骨干下1/3；直接暴力；间接暴力（受伤部位远处）；病理骨折；疲劳/应力/行军骨折",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-29-page-01.webp",
+        "title": "第29讲第1页 · 骨折概论",
+        "description": "骨折原因、各暴力类型对应骨折及疲劳骨折好发部位已拆分并逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 2,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ]
+    },
+    {
+      "id": "fracture-g02",
+      "page": 0,
+      "title": "分类",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "嵌插",
+          "sourceText": "C. 嵌插",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "B",
+          "label": "横形",
+          "sourceText": "A. 横形",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "C",
+          "label": "裂缝",
+          "sourceText": "D. 裂缝",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "D",
+          "label": "压缩骨折如椎体和跟骨",
+          "sourceText": "E. 压缩骨折如椎体和跟骨",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "E",
+          "label": "青枝",
+          "sourceText": "B. 青枝",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        }
+      ],
+      "stems": [
+        {
+          "text": "稳定性骨折（骨折端不易发生移位）",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ],
+          "answerMode": "多选",
+          "sourceText": "稳定性骨折（骨折端不易发生移位）",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "不完全骨折",
+          "answer": [
+            "C",
+            "E"
+          ],
+          "answerMode": "多选",
+          "sourceText": "不完全骨折",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        }
+      ],
+      "sourceText": "横形；青枝；嵌插；裂缝；压缩骨折如椎体和跟骨；稳定性骨折（骨折端不易发生移位）；不完全骨折",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-29-page-01.webp",
+        "title": "第29讲第1页 · 骨折概论",
+        "description": "本题组已按《核心精讲·骨折概论》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "fracture-g03",
+      "page": 0,
+      "title": "开放性骨折",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "伤后6-8小时内清创一期愈合",
+          "sourceText": "D. 伤后6-8小时内清创一期愈合",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "B",
+          "label": "切除污染和失去活力的组织",
+          "sourceText": "J. 切除污染和失去活力的组织",
+          "ocrScore": 1.0,
+          "sourceKey": "J"
+        },
+        {
+          "key": "C",
+          "label": "尽量保留骨外膜",
+          "sourceText": "K. 尽量保留骨外膜",
+          "ocrScore": 1.0,
+          "sourceKey": "K"
+        },
+        {
+          "key": "D",
+          "label": "应将开放转为闭合",
+          "sourceText": "B. 应将开放转为闭合",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "E",
+          "label": "保留与组织尚有联系的骨片",
+          "sourceText": "N. 保留与组织尚有联系的骨片",
+          "ocrScore": 1.0,
+          "sourceKey": "N"
+        },
+        {
+          "key": "F",
+          "label": "去除游离骨片",
+          "sourceText": "M. 去除游离骨片",
+          "ocrScore": 1.0,
+          "sourceKey": "M"
+        },
+        {
+          "key": "G",
+          "label": "密质骨凿除或咬除",
+          "sourceText": "G. 密质骨凿除或咬除",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "H",
+          "label": "保留并修复神经/血管/肌腱/关节韧带/关节囊",
+          "sourceText": "L. 保留并修复神经/血管/肌腱/关节韧带/关节囊",
+          "ocrScore": 1.0,
+          "sourceKey": "L"
+        },
+        {
+          "key": "I",
+          "label": "24小时内在有效抗生素时也可",
+          "sourceText": "E. 24小时内在有效抗生素时也可",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "J",
+          "label": "若骨折端戳出伤口已污染者严禁急救复位",
+          "sourceText": "C. 若骨折端戳出伤口已污染者严禁急救复位",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "K",
+          "label": "骨折端与外界相通",
+          "sourceText": "A. 骨折端与外界相通",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "L",
+          "label": "清除过多影响骨折愈合",
+          "sourceText": "O. 清除过多影响骨折愈合",
+          "ocrScore": 1.0,
+          "sourceKey": "O"
+        },
+        {
+          "key": "M",
+          "label": "皮肤用毛刷清洗",
+          "sourceText": "F. 皮肤用毛刷清洗",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "N",
+          "label": "切除创缘皮肤1-2mm",
+          "sourceText": "I. 切除创缘皮肤1-2mm",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "O",
+          "label": "松质骨刮除",
+          "sourceText": "H. 松质骨刮除",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        }
+      ],
+      "stems": [
+        {
+          "text": "开放性骨折是",
+          "answer": [
+            "K"
+          ],
+          "answerMode": "单选",
+          "sourceText": "开放性骨折是",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "开放性骨折首要处理",
+          "answer": [
+            "D",
+            "J"
+          ],
+          "answerMode": "多选",
+          "sourceText": "开放性骨折首要处理",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "清创一期愈合",
+          "answer": [
+            "A",
+            "I"
+          ],
+          "answerMode": "多选",
+          "sourceText": "清创一期愈合",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "清创",
+          "answer": [
+            "B",
+            "C",
+            "G",
+            "H",
+            "M",
+            "N",
+            "O"
+          ],
+          "answerMode": "多选",
+          "sourceText": "清创",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "粉碎性骨折",
+          "answer": [
+            "E",
+            "F",
+            "L"
+          ],
+          "answerMode": "多选",
+          "sourceText": "粉碎性骨折",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        }
+      ],
+      "sourceText": "骨折端与外界相通；应将开放转为闭合；若骨折端戳出伤口已污染者严禁急救复位；伤后6-8小时内清创一期愈合；24小时内在有效抗生素时也可；皮肤用毛刷清洗；密质骨凿除或咬除；松质骨刮除；切除创缘皮肤1-2mm；切除污染和失去活力的组织；尽量保留骨外膜；保留并修复神经/血管/肌腱/关节韧带/关节囊；去除游离骨片；保留与组织尚有联系的骨片；清除过多影响骨折愈合；开放性骨折是；开放性骨折首要处理；清创一期愈合；清创；粉碎性骨折",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-29-page-02.webp",
+        "title": "第29讲第2页 · 骨折概论",
+        "description": "本题组已按《核心精讲·骨折概论》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "fracture-g04",
+      "page": 0,
+      "title": "骨折特有体征",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "耻骨和坐骨骨折",
+          "sourceText": "H. 耻骨和坐骨骨折",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        },
+        {
+          "key": "B",
+          "label": "异常/反常活动",
+          "sourceText": "B. 异常/反常活动",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "C",
+          "label": "不完全骨折",
+          "sourceText": "E. 不完全骨折",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "D",
+          "label": "嵌插",
+          "sourceText": "F. 嵌插",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "E",
+          "label": "骨擦音/感",
+          "sourceText": "C. 骨擦音/感",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "F",
+          "label": "局部畸形",
+          "sourceText": "A. 局部畸形",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "G",
+          "label": "即可诊断为骨折",
+          "sourceText": "D. 即可诊断为骨折",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "H",
+          "label": "脊柱",
+          "sourceText": "G. 脊柱",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        }
+      ],
+      "stems": [
+        {
+          "text": "骨折特有体征",
+          "answer": [
+            "B",
+            "E",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "骨折特有体征",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "可不出现特有体征",
+          "answer": [
+            "A",
+            "C",
+            "D",
+            "H"
+          ],
+          "answerMode": "多选",
+          "sourceText": "可不出现特有体征",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        }
+      ],
+      "sourceText": "局部畸形；异常/反常活动；骨擦音/感；即可诊断为骨折；不完全骨折；嵌插；脊柱；耻骨和坐骨骨折；骨折特有体征；可不出现特有体征",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-29-page-02.webp",
+        "title": "第29讲第2页 · 骨折概论",
+        "description": "本题组已按《核心精讲·骨折概论》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "fracture-g05",
+      "page": 0,
+      "title": "临床愈合标准",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "局部无异常活动",
+          "sourceText": "A. 局部无异常活动",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "B",
+          "label": "无纵向叩击痛",
+          "sourceText": "C. 无纵向叩击痛",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "C",
+          "label": "X线见骨折处有连续性梭形骨痂（骨折线模糊）",
+          "sourceText": "D. X线见骨折处有连续性梭形骨痂（骨折线模糊）",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "D",
+          "label": "局部无压痛",
+          "sourceText": "B. 局部无压痛",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        }
+      ],
+      "stems": [
+        {
+          "text": "临床愈合标准",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "sourceText": "临床愈合标准",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        }
+      ],
+      "sourceText": "局部无异常活动；局部无压痛；无纵向叩击痛；X线见骨折处有连续性梭形骨痂（骨折线模糊）；临床愈合标准",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-29-page-02.webp",
+        "title": "第29讲第2页 · 骨折概论",
+        "description": "本题组已按《核心精讲·骨折概论》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "fracture-g06",
+      "page": 0,
+      "title": "骨折愈合过程",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "1-2年板层骨",
+          "sourceText": "J. 1-2年板层骨",
+          "ocrScore": 1.0,
+          "sourceKey": "J"
+        },
+        {
+          "key": "B",
+          "label": "软骨内成连接骨痂（环状及腔内骨痂）",
+          "sourceText": "D. 软骨内成连接骨痂（环状及腔内骨痂）",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "C",
+          "label": "3-6月骨性骨痂",
+          "sourceText": "B. 3-6月骨性骨痂",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "D",
+          "label": "切除硬化骨+植骨+内固定",
+          "sourceText": "I. 切除硬化骨+植骨+内固定",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "E",
+          "label": "2周纤维性骨痂",
+          "sourceText": "A. 2周纤维性骨痂",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "F",
+          "label": "应力轴线外破骨细胞清除多余骨痂",
+          "sourceText": "L. 应力轴线外破骨细胞清除多余骨痂",
+          "ocrScore": 1.0,
+          "sourceKey": "L"
+        },
+        {
+          "key": "G",
+          "label": "膜内成内外骨痂更早更快（主要是骨外膜）",
+          "sourceText": "C. 膜内成内外骨痂更早更快（主要是骨外膜）",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "H",
+          "label": "应力轴线上成骨细胞形成板层骨",
+          "sourceText": "K. 应力轴线上成骨细胞形成板层骨",
+          "ocrScore": 1.0,
+          "sourceKey": "K"
+        },
+        {
+          "key": "I",
+          "label": "骨痂不断钙化加强，当其达到足以抵抗肌肉收缩及剪力和旋转力时，则骨折达到临床愈合",
+          "sourceText": "F. 骨痂不断钙化加强，当其达到足以抵抗肌肉收缩及剪力和旋转力时，则骨折达到临床愈合",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "J",
+          "label": "彼此相连成桥梁骨痂/编织骨/骨性骨痂",
+          "sourceText": "E. 彼此相连成桥梁骨痂/编织骨/骨性骨痂",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "K",
+          "label": "超过9月且延迟治疗3月仍达不到骨性愈合+骨硬化",
+          "sourceText": "H. 超过9月且延迟治疗3月仍达不到骨性愈合+骨硬化",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        },
+        {
+          "key": "L",
+          "label": "超过4-8月没有连续性骨痂+无骨硬化",
+          "sourceText": "G. 超过4-8月没有连续性骨痂+无骨硬化",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        }
+      ],
+      "stems": [
+        {
+          "text": "血肿炎症机化期",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "血肿炎症机化期",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "原始骨痂形成期",
+          "answer": [
+            "B",
+            "C",
+            "G",
+            "I",
+            "J"
+          ],
+          "answerMode": "多选",
+          "sourceText": "原始骨痂形成期",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "延迟愈合",
+          "answer": [
+            "L"
+          ],
+          "answerMode": "单选",
+          "sourceText": "延迟愈合",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "不愈合",
+          "answer": [
+            "D",
+            "K"
+          ],
+          "answerMode": "多选",
+          "sourceText": "不愈合",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "骨痂改造塑形期",
+          "answer": [
+            "A",
+            "F",
+            "H"
+          ],
+          "answerMode": "多选",
+          "sourceText": "骨痂改造塑形期",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        }
+      ],
+      "sourceText": "2周纤维性骨痂；3-6月骨性骨痂；膜内成内外骨痂更早更快（主要是骨外膜）；软骨内成连接骨痂（环状及腔内骨痂）；彼此相连成桥梁骨痂/编织骨/骨性骨痂；骨痂不断钙化加强，当其达到足以抵抗肌肉收缩及剪力和旋转力时，则骨折达到临床愈合；超过4-8月没有连续性骨痂+无骨硬化；超过9月且延迟治疗3月仍达不到骨性愈合+骨硬化；切除硬化骨+植骨+内固定；1-2年板层骨；应力轴线上成骨细胞形成板层骨；应力轴线外破骨细胞清除多余骨痂；血肿炎症机化期；原始骨痂形成期；延迟愈合；不愈合；骨痂改造塑形期",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-29-page-02.webp",
+        "title": "第29讲第2页 · 骨折概论",
+        "description": "本题组已按《核心精讲·骨折概论》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "fracture-g07",
+      "page": 0,
+      "title": "影响愈合的因素",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "骨折固定不牢固干扰骨痂生长",
+          "sourceText": "H. 骨折固定不牢固干扰骨痂生长",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        },
+        {
+          "key": "B",
+          "label": "螺旋形、斜形骨折愈合较快（断面接触面大）",
+          "sourceText": "C. 螺旋形、斜形骨折愈合较快（断面接触面大）",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "C",
+          "label": "横形骨折愈合较慢",
+          "sourceText": "D. 横形骨折愈合较慢",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "D",
+          "label": "血供等",
+          "sourceText": "B. 血供等",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "E",
+          "label": "过早或不恰当的功能锻炼",
+          "sourceText": "I. 过早或不恰当的功能锻炼",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "F",
+          "label": "清创时过多去除碎骨片致骨质缺损",
+          "sourceText": "F. 清创时过多去除碎骨片致骨质缺损",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "G",
+          "label": "反复多次手法复位、切开复位不当致骨膜和软组织损伤",
+          "sourceText": "E. 反复多次手法复位、切开复位不当致骨膜和软组织损伤",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "H",
+          "label": "持续骨牵引过重致骨折端分离",
+          "sourceText": "G. 持续骨牵引过重致骨折端分离",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "I",
+          "label": "年龄、健康状况等",
+          "sourceText": "A. 年龄、健康状况等",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        }
+      ],
+      "stems": [
+        {
+          "text": "全身",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选",
+          "sourceText": "全身",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "局部",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "answerMode": "多选",
+          "sourceText": "局部",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "骨折类型",
+          "answer": [
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "sourceText": "骨折类型",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "治疗方法",
+          "answer": [
+            "A",
+            "E",
+            "F",
+            "G",
+            "H"
+          ],
+          "answerMode": "多选",
+          "sourceText": "治疗方法",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        }
+      ],
+      "sourceText": "年龄、健康状况等；血供等；螺旋形、斜形骨折愈合较快（断面接触面大）；横形骨折愈合较慢；反复多次手法复位、切开复位不当致骨膜和软组织损伤；清创时过多去除碎骨片致骨质缺损；持续骨牵引过重致骨折端分离；骨折固定不牢固干扰骨痂生长；过早或不恰当的功能锻炼；全身；局部；骨折类型；治疗方法",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-29-page-02.webp",
+        "title": "第29讲第2页 · 骨折概论",
+        "description": "本题组已按《核心精讲·骨折概论》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "fracture-g08a",
+      "page": 0,
+      "title": "骨折并发症的分类",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "缺血性骨坏死",
+          "sourceText": "M. 缺血性骨坏死",
+          "ocrScore": 1.0,
+          "sourceKey": "M"
+        },
+        {
+          "key": "B",
+          "label": "压疮",
+          "sourceText": "H. 压疮",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        },
+        {
+          "key": "C",
+          "label": "感染",
+          "sourceText": "I. 感染",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "D",
+          "label": "创伤性关节炎",
+          "sourceText": "K. 创伤性关节炎",
+          "ocrScore": 1.0,
+          "sourceKey": "K"
+        },
+        {
+          "key": "E",
+          "label": "骨筋膜隔室综合征",
+          "sourceText": "D. 骨筋膜隔室综合征",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "F",
+          "label": "下肢深静脉血栓形成",
+          "sourceText": "F. 下肢深静脉血栓形成",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "G",
+          "label": "创伤性骨化/骨化性肌炎",
+          "sourceText": "J. 创伤性骨化/骨化性肌炎",
+          "ocrScore": 1.0,
+          "sourceKey": "J"
+        },
+        {
+          "key": "H",
+          "label": "关节僵硬",
+          "sourceText": "E. 关节僵硬",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "I",
+          "label": "组织损伤",
+          "sourceText": "C. 组织损伤",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "J",
+          "label": "休克",
+          "sourceText": "A. 休克",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "K",
+          "label": "Volkmann缺血性肌挛缩",
+          "sourceText": "N. Volkmann缺血性肌挛缩",
+          "ocrScore": 1.0,
+          "sourceKey": "N"
+        },
+        {
+          "key": "L",
+          "label": "脂肪栓塞",
+          "sourceText": "B. 脂肪栓塞",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "M",
+          "label": "急性骨萎缩",
+          "sourceText": "L. 急性骨萎缩",
+          "ocrScore": 1.0,
+          "sourceKey": "L"
+        },
+        {
+          "key": "N",
+          "label": "坠积性肺炎",
+          "sourceText": "G. 坠积性肺炎",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        }
+      ],
+      "stems": [
+        {
+          "text": "早期并发症",
+          "answer": [
+            "E",
+            "I",
+            "J",
+            "L"
+          ],
+          "answerMode": "多选",
+          "sourceText": "早期并发症",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "晚期并发症",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "F",
+            "G",
+            "H",
+            "K",
+            "M",
+            "N"
+          ],
+          "answerMode": "多选",
+          "sourceText": "晚期并发症",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        }
+      ],
+      "sourceText": "休克；脂肪栓塞；组织损伤；骨筋膜隔室综合征；关节僵硬；下肢深静脉血栓形成；坠积性肺炎；压疮；感染；创伤性骨化/骨化性肌炎；创伤性关节炎；急性骨萎缩；缺血性骨坏死；Volkmann缺血性肌挛缩；早期并发症；晚期并发症",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-29-page-03.webp",
+        "title": "第29讲第3页 · 骨折概论",
+        "description": "本题组已按《核心精讲·骨折概论》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "fracture-g08b",
+      "page": 0,
+      "title": "早期并发症",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "小腿背侧（胫骨中上1/3骨折等）",
+          "sourceText": "G. 小腿背侧（胫骨中上1/3骨折等）",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "B",
+          "label": "前臂掌侧（伸直型肱骨髁上骨折、前臂双骨折等）",
+          "sourceText": "F. 前臂掌侧（伸直型肱骨髁上骨折、前臂双骨折等）",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "C",
+          "label": "立即切开骨筋膜室减压",
+          "sourceText": "K. 立即切开骨筋膜室减压",
+          "ocrScore": 1.0,
+          "sourceKey": "K"
+        },
+        {
+          "key": "D",
+          "label": "预防缺血性肌挛缩",
+          "sourceText": "L. 预防缺血性肌挛缩",
+          "ocrScore": 1.0,
+          "sourceKey": "L"
+        },
+        {
+          "key": "E",
+          "label": "高度肿胀",
+          "sourceText": "H. 高度肿胀",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        },
+        {
+          "key": "F",
+          "label": "一般处理顺序为补液→处理组织损伤→处理骨折",
+          "sourceText": "C. 一般处理顺序为补液→处理组织损伤→处理骨折",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "G",
+          "label": "骨盆骨折、股骨干骨折、髋关节中心脱位",
+          "sourceText": "A. 骨盆骨折、股骨干骨折、髋关节中心脱位",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "H",
+          "label": "主要栓塞肺动脉",
+          "sourceText": "E. 主要栓塞肺动脉",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "I",
+          "label": "成人股骨骨折、骨盆骨折",
+          "sourceText": "D. 成人股骨骨折、骨盆骨折",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "J",
+          "label": "可因出血量较大致吸收热（低热）",
+          "sourceText": "B. 可因出血量较大致吸收热（低热）",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "K",
+          "label": "5P综合征（疼痛或转为无痛）",
+          "sourceText": "I. 5P综合征（疼痛或转为无痛）",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "L",
+          "label": "动脉搏动减弱消失",
+          "sourceText": "J. 动脉搏动减弱消失",
+          "ocrScore": 1.0,
+          "sourceKey": "J"
+        }
+      ],
+      "stems": [
+        {
+          "text": "休克",
+          "answer": [
+            "F",
+            "G",
+            "J"
+          ],
+          "answerMode": "多选",
+          "sourceText": "休克",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "脂肪栓塞",
+          "answer": [
+            "H",
+            "I"
+          ],
+          "answerMode": "多选",
+          "sourceText": "脂肪栓塞",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "骨筋膜隔室综合征",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "K",
+            "L"
+          ],
+          "answerMode": "多选",
+          "sourceText": "骨筋膜隔室综合征",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        }
+      ],
+      "sourceText": "骨盆骨折、股骨干骨折、髋关节中心脱位；可因出血量较大致吸收热（低热）；一般处理顺序为补液→处理组织损伤→处理骨折；成人股骨骨折、骨盆骨折；主要栓塞肺动脉；前臂掌侧（伸直型肱骨髁上骨折、前臂双骨折等）；小腿背侧（胫骨中上1/3骨折等）；高度肿胀；5P综合征（疼痛或转为无痛）；动脉搏动减弱消失；立即切开骨筋膜室减压；预防缺血性肌挛缩；休克；脂肪栓塞；骨筋膜隔室综合征",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-29-page-03.webp",
+        "title": "第29讲第3页 · 骨折概论",
+        "description": "本题组已按《核心精讲·骨折概论》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "fracture-g08c",
+      "page": 0,
+      "title": "晚期并发症",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "可致肺栓塞",
+          "sourceText": "B. 可致肺栓塞",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "B",
+          "label": "疼痛（与损伤程度不一致）",
+          "sourceText": "H. 疼痛（与损伤程度不一致）",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        },
+        {
+          "key": "C",
+          "label": "关节僵硬、下肢深静脉血栓形成、坠积性肺炎、压疮",
+          "sourceText": "A. 关节僵硬、下肢深静脉血栓形成、坠积性肺炎、压疮",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "D",
+          "label": "关节外骨折如肘关节肱骨髁上骨折",
+          "sourceText": "D. 关节外骨折如肘关节肱骨髁上骨折",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "E",
+          "label": "交感神经性骨营养不良",
+          "sourceText": "G. 交感神经性骨营养不良",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "F",
+          "label": "骨筋膜室综合征外固定过紧等处理不当",
+          "sourceText": "K. 骨筋膜室综合征外固定过紧等处理不当",
+          "ocrScore": 1.0,
+          "sourceKey": "K"
+        },
+        {
+          "key": "G",
+          "label": "常见于手、足骨折",
+          "sourceText": "F. 常见于手、足骨折",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "H",
+          "label": "五指爪形手/足、坏疽、急性肾衰",
+          "sourceText": "L. 五指爪形手/足、坏疽、急性肾衰",
+          "ocrScore": 1.0,
+          "sourceKey": "L"
+        },
+        {
+          "key": "I",
+          "label": "最严重",
+          "sourceText": "M. 最严重",
+          "ocrScore": 1.0,
+          "sourceKey": "M"
+        },
+        {
+          "key": "J",
+          "label": "血管舒缩紊乱、骨质疏松",
+          "sourceText": "I. 血管舒缩紊乱、骨质疏松",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "K",
+          "label": "可致化脓性骨髓炎",
+          "sourceText": "C. 可致化脓性骨髓炎",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "L",
+          "label": "关节内骨折如肱骨头、肱骨髁、尺骨鹰嘴、桡骨头、Barton、髋臼、髌骨、胫骨平台、踝部",
+          "sourceText": "E. 关节内骨折如肱骨头、肱骨髁、尺骨鹰嘴、桡骨头、Barton、髋臼、髌骨、胫骨平台、踝部",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "M",
+          "label": "常见于股骨颈骨折（头下型最重）、舟月骨骨折",
+          "sourceText": "J. 常见于股骨颈骨折（头下型最重）、舟月骨骨折",
+          "ocrScore": 1.0,
+          "sourceKey": "J"
+        }
+      ],
+      "stems": [
+        {
+          "text": "主要与长期卧床有关",
+          "answer": [
+            "A",
+            "C"
+          ],
+          "answerMode": "多选",
+          "sourceText": "主要与长期卧床有关",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "感染",
+          "answer": [
+            "K"
+          ],
+          "answerMode": "单选",
+          "sourceText": "感染",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "创伤性骨化/骨化性肌炎",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "创伤性骨化/骨化性肌炎",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "创伤性关节炎",
+          "answer": [
+            "L"
+          ],
+          "answerMode": "单选",
+          "sourceText": "创伤性关节炎",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "急性骨萎缩",
+          "answer": [
+            "B",
+            "E",
+            "G",
+            "J"
+          ],
+          "answerMode": "多选",
+          "sourceText": "急性骨萎缩",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "缺血性骨坏死",
+          "answer": [
+            "M"
+          ],
+          "answerMode": "单选",
+          "sourceText": "缺血性骨坏死",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "Volkmann缺血性肌挛缩",
+          "answer": [
+            "F",
+            "H",
+            "I"
+          ],
+          "answerMode": "多选",
+          "sourceText": "Volkmann缺血性肌挛缩",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        }
+      ],
+      "sourceText": "关节僵硬、下肢深静脉血栓形成、坠积性肺炎、压疮；可致肺栓塞；可致化脓性骨髓炎；关节外骨折如肘关节肱骨髁上骨折；关节内骨折如肱骨头、肱骨髁、尺骨鹰嘴、桡骨头、Barton、髋臼、髌骨、胫骨平台、踝部；常见于手、足骨折；交感神经性骨营养不良；疼痛（与损伤程度不一致）；血管舒缩紊乱、骨质疏松；常见于股骨颈骨折（头下型最重）、舟月骨骨折；骨筋膜室综合征外固定过紧等处理不当；五指爪形手/足、坏疽、急性肾衰；最严重；主要与长期卧床有关；感染；创伤性骨化/骨化性肌炎；创伤性关节炎；急性骨萎缩；缺血性骨坏死；Volkmann缺血性肌挛缩",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-29-page-03.webp",
+        "title": "第29讲第3页 · 骨折概论",
+        "description": "本题组已按《核心精讲·骨折概论》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "fracture-g09",
+      "page": 0,
+      "title": "复位标准",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "成人下肢≤1cm",
+          "sourceText": "D. 成人下肢≤1cm",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "B",
+          "label": "骨折端对位≥1/3",
+          "sourceText": "B. 骨折端对位≥1/3",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "C",
+          "label": "旋转、成角、分离移位必须完全矫正，否则致畸形愈合",
+          "sourceText": "A. 旋转、成角、分离移位必须完全矫正，否则致畸形愈合",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "D",
+          "label": "儿童下肢≤2cm",
+          "sourceText": "E. 儿童下肢≤2cm",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "E",
+          "label": "骨折端对位≥3/4",
+          "sourceText": "C. 骨折端对位≥3/4",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        }
+      ],
+      "stems": [
+        {
+          "text": "旋转、成角、分离移位",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "旋转、成角、分离移位",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "长骨干横形骨折",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "长骨干横形骨折",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "干骺端骨折",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "干骺端骨折",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "缩短移位",
+          "answer": [
+            "A",
+            "D"
+          ],
+          "answerMode": "多选",
+          "sourceText": "缩短移位",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        }
+      ],
+      "sourceText": "旋转、成角、分离移位必须完全矫正，否则致畸形愈合；骨折端对位≥1/3；骨折端对位≥3/4；成人下肢≤1cm；儿童下肢≤2cm；旋转、成角、分离移位；长骨干横形骨折；干骺端骨折；缩短移位",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-29-page-03.webp",
+        "title": "第29讲第3页 · 骨折概论",
+        "description": "本题组已按《核心精讲·骨折概论》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "fracture-g10",
+      "page": 0,
+      "title": "复位方式",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "老年人四肢骨折需尽早离床活动",
+          "sourceText": "M. 老年人四肢骨折需尽早离床活动",
+          "ocrScore": 1.0,
+          "sourceKey": "M"
+        },
+        {
+          "key": "B",
+          "label": "骨折断端间有肌肉等软组织嵌入",
+          "sourceText": "G. 骨折断端间有肌肉等软组织嵌入",
+          "ocrScore": 1.0,
+          "sourceKey": "G"
+        },
+        {
+          "key": "C",
+          "label": "并发主要血管、神经、韧带损伤，脊髓损伤",
+          "sourceText": "H. 并发主要血管、神经、韧带损伤，脊髓损伤",
+          "ocrScore": 1.0,
+          "sourceKey": "H"
+        },
+        {
+          "key": "D",
+          "label": "多处骨折",
+          "sourceText": "K. 多处骨折",
+          "ocrScore": 1.0,
+          "sourceKey": "K"
+        },
+        {
+          "key": "E",
+          "label": "提前下床活动",
+          "sourceText": "C. 提前下床活动",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "F",
+          "label": "方便护理",
+          "sourceText": "D. 方便护理",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "G",
+          "label": "陈旧骨折不愈合",
+          "sourceText": "L. 陈旧骨折不愈合",
+          "ocrScore": 1.0,
+          "sourceKey": "L"
+        },
+        {
+          "key": "H",
+          "label": "开放性骨折",
+          "sourceText": "N. 开放性骨折",
+          "ocrScore": 1.0,
+          "sourceKey": "N"
+        },
+        {
+          "key": "I",
+          "label": "更易达解剖复位（对位对线完全良好）",
+          "sourceText": "B. 更易达解剖复位（对位对线完全良好）",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        },
+        {
+          "key": "J",
+          "label": "关节内骨折",
+          "sourceText": "I. 关节内骨折",
+          "ocrScore": 1.0,
+          "sourceKey": "I"
+        },
+        {
+          "key": "K",
+          "label": "一般先手法复位",
+          "sourceText": "A. 一般先手法复位",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "L",
+          "label": "不稳定骨折",
+          "sourceText": "J. 不稳定骨折",
+          "ocrScore": 1.0,
+          "sourceKey": "J"
+        },
+        {
+          "key": "M",
+          "label": "手法复位未达功能复位（关节内、前臂和小腿双骨折未达解剖复位）",
+          "sourceText": "F. 手法复位未达功能复位（关节内、前臂和小腿双骨折未达解剖复位）",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "N",
+          "label": "减少关节僵硬和肌肉萎缩等",
+          "sourceText": "E. 减少关节僵硬和肌肉萎缩等",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        }
+      ],
+      "stems": [
+        {
+          "text": "一般先",
+          "answer": [
+            "K"
+          ],
+          "answerMode": "单选",
+          "sourceText": "一般先",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "切开复位的优点",
+          "answer": [
+            "E",
+            "F",
+            "I",
+            "N"
+          ],
+          "answerMode": "多选",
+          "sourceText": "切开复位的优点",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "切开复位的指征",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "G",
+            "H",
+            "J",
+            "L",
+            "M"
+          ],
+          "answerMode": "多选",
+          "sourceText": "切开复位的指征",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        }
+      ],
+      "sourceText": "一般先手法复位；更易达解剖复位（对位对线完全良好）；提前下床活动；方便护理；减少关节僵硬和肌肉萎缩等；手法复位未达功能复位（关节内、前臂和小腿双骨折未达解剖复位）；骨折断端间有肌肉等软组织嵌入；并发主要血管、神经、韧带损伤，脊髓损伤；关节内骨折；不稳定骨折；多处骨折；陈旧骨折不愈合；老年人四肢骨折需尽早离床活动；开放性骨折；一般先；切开复位的优点；切开复位的指征",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "page": 4,
+        "image": "surgery/lecture-pages/lecture-29-page-04.webp",
+        "title": "第29讲第4页 · 骨折概论",
+        "description": "本题组已按《核心精讲·骨折概论》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "fracture-g11",
+      "page": 0,
+      "title": "固定与功能锻炼",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "内固定",
+          "sourceText": "E. 内固定",
+          "ocrScore": 1.0,
+          "sourceKey": "E"
+        },
+        {
+          "key": "B",
+          "label": "牵引（也可复位）",
+          "sourceText": "A. 牵引（也可复位）",
+          "ocrScore": 1.0,
+          "sourceKey": "A"
+        },
+        {
+          "key": "C",
+          "label": "在不影响固定的情况下尽早功能锻炼",
+          "sourceText": "F. 在不影响固定的情况下尽早功能锻炼",
+          "ocrScore": 1.0,
+          "sourceKey": "F"
+        },
+        {
+          "key": "D",
+          "label": "枕颌带",
+          "sourceText": "D. 枕颌带",
+          "ocrScore": 1.0,
+          "sourceKey": "D"
+        },
+        {
+          "key": "E",
+          "label": "骨（儿童禁止）",
+          "sourceText": "C. 骨（儿童禁止）",
+          "ocrScore": 1.0,
+          "sourceKey": "C"
+        },
+        {
+          "key": "F",
+          "label": "皮肤",
+          "sourceText": "B. 皮肤",
+          "ocrScore": 1.0,
+          "sourceKey": "B"
+        }
+      ],
+      "stems": [
+        {
+          "text": "外固定",
+          "answer": [
+            "B",
+            "D",
+            "E",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "外固定",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "牵引",
+          "answer": [
+            "B",
+            "D",
+            "E",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "牵引",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "内固定",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "内固定",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        },
+        {
+          "text": "功能锻炼",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "功能锻炼",
+          "ocrScore": 1.0,
+          "reviewMethod": "已完成题干、选项与答案结构校对"
+        }
+      ],
+      "sourceText": "牵引（也可复位）；皮肤；骨（儿童禁止）；枕颌带；内固定；在不影响固定的情况下尽早功能锻炼；外固定；牵引；内固定；功能锻炼",
+      "reviewState": "已完成结构校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "page": 4,
+        "image": "surgery/lecture-pages/lecture-29-page-04.webp",
+        "title": "第29讲第4页 · 骨折概论",
+        "description": "本题组已按《核心精讲·骨折概论》对应页逐项复核。"
+      },
+      "hideSource": true,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "optionShuffleVersion": 2
+    }
+  ]
+}

@@ -1,0 +1,1843 @@
+{
+  "meta": {
+    "title": "手外伤、股骨头坏死、膝关节损伤与神经损伤学成选择题",
+    "lectureId": "lecture-22",
+    "lecturePagesReviewed": [
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "answerNote": "题干、选项与答案已按第22讲讲义逐项校对；第35～38组的周围神经损伤表格已合并为一个题组，共用选项固定打乱并同步重映射答案。"
+  },
+  "groups": [
+    {
+      "id": "ortho-mixed-g01",
+      "page": 0,
+      "title": "手外伤 · 清创后修复时机",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "其它可考虑延期（3周）修复",
+          "sourceText": "C. 其它可考虑延期（3周）修复",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "其它可考虑二期（12周）修复",
+          "sourceText": "D. 其它可考虑二期（12周）修复",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "血管应立即修复",
+          "sourceText": "B. 血管应立即修复",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "清创后一期（6～8小时内）修复血管、神经、肌腱、骨组织",
+          "sourceText": "A. 清创后一期（6～8小时内）修复血管、神经、肌腱、骨组织",
+          "sourceKey": "A",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "清创后一期（6～8小时内）",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "清创后一期（6～8小时内）",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "若超过12小时",
+          "answer": [
+            "C",
+            "A",
+            "B"
+          ],
+          "answerMode": "多选",
+          "sourceText": "若超过12小时",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "其它可考虑延期（3周）修复；其它可考虑二期（12周）修复；血管应立即修复；清创后一期（6～8小时内）修复血管、神经、肌腱、骨组织；清创后一期（6～8小时内）；若超过12小时",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-22-page-01.webp",
+        "title": "第22讲第1页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
+        "description": "本题组已按第22讲对应讲义页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "ortho-mixed-g02",
+      "page": 0,
+      "title": "手外伤 · 创面处理方式",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "皮片移植",
+          "sourceText": "B. 皮片移植",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "皮瓣（含有皮下脂肪的皮肤）移植",
+          "sourceText": "C. 皮瓣（含有皮下脂肪的皮肤）移植",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "直接缝合",
+          "sourceText": "A. 直接缝合",
+          "sourceKey": "A",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "皮肤裂伤（没有缺损）",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "皮肤裂伤（没有缺损）",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "皮肤缺损",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "皮肤缺损",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "神经、肌腱、骨关节外露",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "神经、肌腱、骨关节外露",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "皮片移植；皮瓣（含有皮下脂肪的皮肤）移植；直接缝合；皮肤裂伤（没有缺损）；皮肤缺损；神经、肌腱、骨关节外露",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-22-page-01.webp",
+        "title": "第22讲第1页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
+        "description": "本题组已按第22讲对应讲义页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "ortho-mixed-g03",
+      "page": 0,
+      "title": "手外伤 · 固定、再植与Allen试验",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "侧支循环不良",
+          "sourceText": "D. 侧支循环不良",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "固定在功能位（握球状）",
+          "sourceText": "A. 固定在功能位（握球状）",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "6～8小时内，断指可延长至12～24小时",
+          "sourceText": "B. 6～8小时内，断指可延长至12～24小时",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "无药敷料密封干燥冷藏",
+          "sourceText": "C. 无药敷料密封干燥冷藏",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "禁止桡动脉穿刺",
+          "sourceText": "E. 禁止桡动脉穿刺",
+          "sourceKey": "E",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "手外伤固定位置",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "手外伤固定位置",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "断肢/指再植时间",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "断肢/指再植时间",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "断肢/指保存",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "断肢/指保存",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "Allen试验（+）",
+          "answer": [
+            "A",
+            "E"
+          ],
+          "answerMode": "多选",
+          "sourceText": "Allen试验（+）",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "侧支循环不良；固定在功能位（握球状）；6～8小时内，断指可延长至12～24小时；无药敷料密封干燥冷藏；禁止桡动脉穿刺；手外伤固定位置；断肢/指再植时间；断肢/指保存；Allen试验（+）",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-22-page-01.webp",
+        "title": "第22讲第1页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
+        "description": "本题组已按第22讲对应讲义页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "id": "ortho-mixed-g04",
+      "page": 0,
+      "title": "手外伤 · 断肢/指再植成功率",
+      "kind": "ranking",
+      "kindLabel": "排序题",
+      "options": [
+        {
+          "key": "A",
+          "label": "撕脱伤",
+          "sourceText": "C. 撕脱伤",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "切割伤",
+          "sourceText": "A. 切割伤",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "碾压伤",
+          "sourceText": "B. 碾压伤",
+          "sourceKey": "B",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "按断面整齐程度，将断肢/指再植成功率由高到低排序",
+          "answer": [
+            "B",
+            "C",
+            "A"
+          ],
+          "answerMode": "排序",
+          "answerDisplay": "切割伤＞碾压伤＞撕脱伤",
+          "sourceText": "按断面整齐程度，将断肢/指再植成功率由高到低排序",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "撕脱伤；切割伤；碾压伤；按断面整齐程度，将断肢/指再植成功率由高到低排序",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-22-page-01.webp",
+        "title": "第22讲第1页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
+        "description": "本题组已按第22讲对应讲义页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "ortho-mixed-g05",
+      "page": 0,
+      "title": "股骨头无菌性坏死 · 病因",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "乙醇",
+          "sourceText": "E. 乙醇",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "糖皮质激素",
+          "sourceText": "D. 糖皮质激素",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "镰状细胞贫血或地中海贫血",
+          "sourceText": "G. 镰状细胞贫血或地中海贫血",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "股骨颈骨折",
+          "sourceText": "A. 股骨颈骨折",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "减压/沉箱/潜水员病（氮气栓塞）",
+          "sourceText": "F. 减压/沉箱/潜水员病（氮气栓塞）",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "髋关节脱位",
+          "sourceText": "B. 髋关节脱位",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "损伤旋股内侧动脉的分支骺外侧动脉",
+          "sourceText": "C. 损伤旋股内侧动脉的分支骺外侧动脉",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "多为双侧",
+          "sourceText": "H. 多为双侧",
+          "sourceKey": "H",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "外伤性因素",
+          "answer": [
+            "D",
+            "F",
+            "G"
+          ],
+          "answerMode": "多选",
+          "sourceText": "外伤性因素",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "非外伤性因素",
+          "answer": [
+            "B",
+            "A",
+            "E",
+            "C",
+            "H"
+          ],
+          "answerMode": "多选",
+          "sourceText": "非外伤性因素",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "乙醇；糖皮质激素；镰状细胞贫血或地中海贫血；股骨颈骨折；减压/沉箱/潜水员病（氮气栓塞）；髋关节脱位；损伤旋股内侧动脉的分支骺外侧动脉；多为双侧；外伤性因素；非外伤性因素",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 1,
+        "image": "surgery/lecture-pages/lecture-22-page-01.webp",
+        "title": "第22讲第1页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
+        "description": "本题组已按第22讲对应讲义页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ]
+    },
+    {
+      "id": "ortho-mixed-g07",
+      "page": 0,
+      "title": "股骨头无菌性坏死 · X线分期",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "关节间隙变窄",
+          "sourceText": "F. 关节间隙变窄",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "股骨头塌陷",
+          "sourceText": "D. 股骨头塌陷",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "髋臼骨赘形成",
+          "sourceText": "G. 髋臼骨赘形成",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "Shenton线不连续",
+          "sourceText": "E. Shenton线不连续",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "全髋关节置换术",
+          "sourceText": "H. 全髋关节置换术",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "髓芯减压术等",
+          "sourceText": "B. 髓芯减压术等",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "新月征",
+          "sourceText": "A. 新月征",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "硬化带",
+          "sourceText": "C. 硬化带",
+          "sourceKey": "C",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "Ⅰ期：软骨下溶解期",
+          "answer": [
+            "G",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "Ⅰ期：软骨下溶解期",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "Ⅱ期：股骨头修复期",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选",
+          "sourceText": "Ⅱ期：股骨头修复期",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "Ⅲ期：股骨头塌陷期",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "Ⅲ期：股骨头塌陷期",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "Ⅳ期：股骨头脱位期",
+          "answer": [
+            "D",
+            "A",
+            "C",
+            "E"
+          ],
+          "answerMode": "多选",
+          "sourceText": "Ⅳ期：股骨头脱位期",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "关节间隙变窄；股骨头塌陷；髋臼骨赘形成；Shenton线不连续；全髋关节置换术；髓芯减压术等；新月征；硬化带；Ⅰ期：软骨下溶解期；Ⅱ期：股骨头修复期；Ⅲ期：股骨头塌陷期；Ⅳ期：股骨头脱位期",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-22-page-02.webp",
+        "title": "第22讲第2页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
+        "description": "本题组已按第22讲对应讲义页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ]
+    },
+    {
+      "id": "ortho-mixed-g08",
+      "page": 0,
+      "title": "膝关节损伤 · 半月板损伤要素",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "膝半屈",
+          "sourceText": "A. 膝半屈",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "内收或外展",
+          "sourceText": "B. 内收或外展",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "旋转力量",
+          "sourceText": "D. 旋转力量",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "重力挤压",
+          "sourceText": "C. 重力挤压",
+          "sourceKey": "C",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "半月板损伤的要素",
+          "answer": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ],
+          "answerMode": "多选",
+          "sourceText": "半月板损伤的要素",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "膝半屈；内收或外展；旋转力量；重力挤压；半月板损伤的要素",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-22-page-02.webp",
+        "title": "第22讲第2页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
+        "description": "本题组已按第22讲对应讲义页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "ortho-mixed-g09",
+      "page": 0,
+      "title": "膝关节损伤 · 半月板撕裂区域",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "撕裂在滑膜缘有血运区",
+          "sourceText": "A. 撕裂在滑膜缘有血运区",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "完全无血运，多不能愈合",
+          "sourceText": "C. 完全无血运，多不能愈合",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "撕裂在有无血运分界处",
+          "sourceText": "B. 撕裂在有无血运分界处",
+          "sourceKey": "B",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "红-红区",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "红-红区",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "红-白区",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "红-白区",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "白-白区",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "白-白区",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "撕裂在滑膜缘有血运区；完全无血运，多不能愈合；撕裂在有无血运分界处；红-红区；红-白区；白-白区",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 2,
+        "image": "surgery/lecture-pages/lecture-22-page-02.webp",
+        "title": "第22讲第2页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
+        "description": "本题组已按第22讲对应讲义页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "id": "ortho-mixed-g10",
+      "page": 0,
+      "title": "膝关节损伤 · 半月板损伤两个概念",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "穿过半月板全层的纵行撕裂",
+          "sourceText": "A. 穿过半月板全层的纵行撕裂",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "内侧副韧带损伤",
+          "sourceText": "C. 内侧副韧带损伤",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "内侧半月板损伤",
+          "sourceText": "D. 内侧半月板损伤",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "前交叉韧带断裂",
+          "sourceText": "B. 前交叉韧带断裂",
+          "sourceKey": "B",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "半月板桶柄状撕裂",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "半月板桶柄状撕裂",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "多诺格（Donoghue）三联征",
+          "answer": [
+            "D",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "sourceText": "多诺格（Donoghue）三联征",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "穿过半月板全层的纵行撕裂；内侧副韧带损伤；内侧半月板损伤；前交叉韧带断裂；半月板桶柄状撕裂；多诺格（Donoghue）三联征",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-22-page-03.webp",
+        "title": "第22讲第3页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
+        "description": "本题组已按第22讲对应讲义页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "id": "ortho-mixed-g11",
+      "page": 0,
+      "title": "膝关节损伤 · 特殊试验",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "侧方应力试验",
+          "sourceText": "F. 侧方应力试验",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "蹲走试验",
+          "sourceText": "D. 蹲走试验",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "抽屉试验",
+          "sourceText": "H. 抽屉试验",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "研磨/Apley试验",
+          "sourceText": "A. 研磨/Apley试验",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "推后幅度增加→后交叉韧带断裂",
+          "sourceText": "J. 推后幅度增加→后交叉韧带断裂",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "拉前幅度增加→前交叉韧带断裂",
+          "sourceText": "I. 拉前幅度增加→前交叉韧带断裂",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "轴移试验",
+          "sourceText": "K. 轴移试验",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "旋转挤压/McMurray试验",
+          "sourceText": "B. 旋转挤压/McMurray试验",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "过伸过屈试验",
+          "sourceText": "C. 过伸过屈试验",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "Lachman试验",
+          "sourceText": "G. Lachman试验",
+          "sourceKey": "G",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "半月板损伤",
+          "answer": [
+            "D",
+            "H",
+            "I",
+            "B"
+          ],
+          "answerMode": "多选",
+          "sourceText": "半月板损伤",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "侧副韧带损伤",
+          "answer": [
+            "D",
+            "A"
+          ],
+          "answerMode": "多选",
+          "sourceText": "侧副韧带损伤",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "交叉韧带损伤",
+          "answer": [
+            "J",
+            "C",
+            "F",
+            "E"
+          ],
+          "answerMode": "多选",
+          "sourceText": "交叉韧带损伤",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "前交叉韧带断裂后出现的膝关节不稳定",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选",
+          "sourceText": "前交叉韧带断裂后出现的膝关节不稳定",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "侧方应力试验；蹲走试验；抽屉试验；研磨/Apley试验；推后幅度增加→后交叉韧带断裂；拉前幅度增加→前交叉韧带断裂；轴移试验；旋转挤压/McMurray试验；过伸过屈试验；Lachman试验；半月板损伤；侧副韧带损伤；交叉韧带损伤；前交叉韧带断裂后出现的膝关节不稳定",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-22-page-03.webp",
+        "title": "第22讲第3页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
+        "description": "本题组已按第22讲对应讲义页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ]
+    },
+    {
+      "id": "ortho-mixed-g12",
+      "page": 0,
+      "title": "膝关节损伤 · 影像与确诊",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "关节镜",
+          "sourceText": "B. 关节镜",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "MRI",
+          "sourceText": "A. MRI",
+          "sourceKey": "A",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "首选检查",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "首选检查",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "金标准",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "金标准",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "MRI；关节镜；首选检查；金标准",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-22-page-03.webp",
+        "title": "第22讲第3页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
+        "description": "本题组已按第22讲对应讲义页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "id": "ortho-mixed-g13",
+      "page": 0,
+      "title": "周围神经损伤 · 基础与臂丛主要分支",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "Horner综合征",
+          "sourceText": "F. Horner综合征",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "神经再生征",
+          "sourceText": "A. 神经再生征",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "前锯肌萎缩→翼状肩",
+          "sourceText": "C. 前锯肌萎缩→翼状肩",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "神经移位术",
+          "sourceText": "G. 神经移位术",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "腋神经",
+          "sourceText": "D. 腋神经",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "胸长神经",
+          "sourceText": "B. 胸长神经",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "三角肌萎缩→方肩",
+          "sourceText": "E. 三角肌萎缩→方肩",
+          "sourceKey": "E",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "Tinel征",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "Tinel征",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "胸长神经损伤",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "胸长神经损伤",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "腋神经损伤",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选",
+          "sourceText": "腋神经损伤",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "臂丛神经根部撕脱伤",
+          "answer": [
+            "A",
+            "D"
+          ],
+          "answerMode": "多选",
+          "sourceText": "臂丛神经根部撕脱伤",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "Horner综合征；神经再生征；前锯肌萎缩→翼状肩；神经移位术；腋神经；胸长神经；三角肌萎缩→方肩；Tinel征；胸长神经损伤；腋神经损伤；臂丛神经根部撕脱伤",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-22-page-03.webp",
+        "title": "第22讲第3页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
+        "description": "本题组已按第22讲对应讲义页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ]
+    },
+    {
+      "id": "ortho-mixed-g14",
+      "page": 0,
+      "title": "周围神经损伤 · 臂丛神经行程",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "内侧束分出尺神经、正中神经内侧头",
+          "sourceText": "F. 内侧束分出尺神经、正中神经内侧头",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "后束分出腋神经、桡神经",
+          "sourceText": "H. 后束分出腋神经、桡神经",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "由C5～T1神经根前支组成",
+          "sourceText": "A. 由C5～T1神经根前支组成",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "各干分为前、后两股",
+          "sourceText": "C. 各干分为前、后两股",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "C5～C6组成上干，C7延续为中干，C8～T1组成下干",
+          "sourceText": "B. C5～C6组成上干，C7延续为中干，C8～T1组成下干",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "外侧束分出肌皮神经、正中神经外侧头",
+          "sourceText": "E. 外侧束分出肌皮神经、正中神经外侧头",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "正中神经的内、外侧头汇合成正中神经",
+          "sourceText": "G. 正中神经的内、外侧头汇合成正中神经",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "上、中干的前股组成外侧束；下干的前股延续为内侧束；三干的后股组成后束",
+          "sourceText": "D. 上、中干的前股组成外侧束；下干的前股延续为内侧束；三干的后股组成后束",
+          "sourceKey": "D",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "根",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "根",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "干",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "干",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "股",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "股",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "束",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选",
+          "sourceText": "束",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "支",
+          "answer": [
+            "F",
+            "A",
+            "G",
+            "B"
+          ],
+          "answerMode": "多选",
+          "sourceText": "支",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "内侧束分出尺神经、正中神经内侧头；后束分出腋神经、桡神经；由C5～T1神经根前支组成；各干分为前、后两股；C5～C6组成上干，C7延续为中干，C8～T1组成下干；外侧束分出肌皮神经、正中神经外侧头；正中神经的内、外侧头汇合成正中神经；上、中干的前股组成外侧束；下干的前股延续为内侧束；三干的后股组成后束；根；干；股；束；支",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 3,
+        "image": "surgery/lecture-pages/lecture-22-page-03.webp",
+        "title": "第22讲第3页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
+        "description": "本题组已按第22讲对应讲义页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 1,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ]
+    },
+    {
+      "id": "ortho-mixed-g15",
+      "page": 0,
+      "title": "周围神经损伤 · 运动、感觉与特殊提示",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "大鱼际萎缩、手掌平坦；拇指对掌障碍（猿手）；屈腕、前臂旋前和第1～3指屈曲障碍",
+          "sourceText": "A. 大鱼际萎缩、手掌平坦；拇指对掌障碍（猿手）；屈腕、前臂旋前和第1～3指屈曲障碍",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "背屈＝背伸＝伸",
+          "sourceText": "S. 背屈＝背伸＝伸",
+          "sourceKey": "S",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "膝关节伸直障碍",
+          "sourceText": "J. 膝关节伸直障碍",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "小腿后外侧、足部感觉障碍",
+          "sourceText": "M. 小腿后外侧、足部感觉障碍",
+          "sourceKey": "M",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "肱骨中下1/3骨折可致桡神经损伤",
+          "sourceText": "T. 肱骨中下1/3骨折可致桡神经损伤",
+          "sourceKey": "T",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "仅桡骨头脱位致深支损伤时，无伸腕、前臂旋后和感觉障碍",
+          "sourceText": "I. 仅桡骨头脱位致深支损伤时，无伸腕、前臂旋后和感觉障碍",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "仅腕部损伤时无第1～3指屈曲障碍",
+          "sourceText": "C. 仅腕部损伤时无第1～3指屈曲障碍",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "第4、5指爪形手，Froment征、夹纸试验阳性；手指内收外展及第4、5指屈曲障碍",
+          "sourceText": "D. 第4、5指爪形手，Froment征、夹纸试验阳性；手指内收外展及第4、5指屈曲障碍",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "小腿前外侧、足背感觉障碍",
+          "sourceText": "R. 小腿前外侧、足背感觉障碍",
+          "sourceKey": "R",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "背面桡侧1/2手（含虎口）及桡侧1/2手指感觉障碍",
+          "sourceText": "H. 背面桡侧1/2手（含虎口）及桡侧1/2手指感觉障碍",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "伸腕障碍（垂腕）、前臂旋后障碍；伸指及拇指外展障碍",
+          "sourceText": "G. 伸腕障碍（垂腕）、前臂旋后障碍；伸指及拇指外展障碍",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "大腿前方、小腿内侧感觉障碍",
+          "sourceText": "K. 大腿前方、小腿内侧感觉障碍",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "M",
+          "label": "仅腕部损伤时无第4、5指屈曲障碍",
+          "sourceText": "F. 仅腕部损伤时无第4、5指屈曲障碍",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "N",
+          "label": "膝关节屈曲障碍",
+          "sourceText": "L. 膝关节屈曲障碍",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "O",
+          "label": "小腿后侧、足底感觉障碍",
+          "sourceText": "O. 小腿后侧、足底感觉障碍",
+          "sourceKey": "O",
+          "ocrScore": 1
+        },
+        {
+          "key": "P",
+          "label": "肱骨髁上骨折可致桡神经损伤",
+          "sourceText": "U. 肱骨髁上骨折可致桡神经损伤",
+          "sourceKey": "U",
+          "ocrScore": 1
+        },
+        {
+          "key": "Q",
+          "label": "桡骨头脱位（肘部）可致桡神经损伤",
+          "sourceText": "V. 桡骨头脱位（肘部）可致桡神经损伤",
+          "sourceKey": "V",
+          "ocrScore": 1
+        },
+        {
+          "key": "R",
+          "label": "掌面尺侧1/3手及尺侧1.5个手指、背面尺侧1/2手及尺侧1/2手指感觉障碍",
+          "sourceText": "E. 掌面尺侧1/3手及尺侧1.5个手指、背面尺侧1/2手及尺侧1/2手指感觉障碍",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "S",
+          "label": "掌面桡侧2/3手（含大鱼际）及桡侧3.5个手指感觉障碍",
+          "sourceText": "B. 掌面桡侧2/3手（含大鱼际）及桡侧3.5个手指感觉障碍",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "T",
+          "label": "屈踝、屈趾障碍，呈钩状足",
+          "sourceText": "N. 屈踝、屈趾障碍，呈钩状足",
+          "sourceKey": "N",
+          "ocrScore": 1
+        },
+        {
+          "key": "U",
+          "label": "足外翻障碍",
+          "sourceText": "Q. 足外翻障碍",
+          "sourceKey": "Q",
+          "ocrScore": 1
+        },
+        {
+          "key": "V",
+          "label": "跖屈＝屈",
+          "sourceText": "P. 跖屈＝屈",
+          "sourceKey": "P",
+          "ocrScore": 1
+        },
+        {
+          "key": "W",
+          "label": "伸趾障碍",
+          "sourceText": "X. 伸趾障碍",
+          "sourceKey": "X",
+          "ocrScore": 1
+        },
+        {
+          "key": "X",
+          "label": "跨阈步态",
+          "sourceText": "Z. 跨阈步态",
+          "sourceKey": "Z",
+          "ocrScore": 1
+        },
+        {
+          "key": "Y",
+          "label": "伸踝障碍",
+          "sourceText": "W. 伸踝障碍",
+          "sourceKey": "W",
+          "ocrScore": 1
+        },
+        {
+          "key": "Z",
+          "label": "马蹄内翻足",
+          "sourceText": "Y. 马蹄内翻足",
+          "sourceKey": "Y",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "正中神经",
+          "answer": [
+            "A",
+            "S",
+            "G"
+          ],
+          "answerMode": "多选",
+          "sourceText": "正中神经",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲第5页周围神经损伤表格逐项合并并完成选项重映射"
+        },
+        {
+          "text": "尺神经",
+          "answer": [
+            "H",
+            "R",
+            "M"
+          ],
+          "answerMode": "多选",
+          "sourceText": "尺神经",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲第5页周围神经损伤表格逐项合并并完成选项重映射"
+        },
+        {
+          "text": "桡神经",
+          "answer": [
+            "K",
+            "J",
+            "F",
+            "E",
+            "P",
+            "Q"
+          ],
+          "answerMode": "多选",
+          "sourceText": "桡神经",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲第5页周围神经损伤表格逐项合并并完成选项重映射"
+        },
+        {
+          "text": "股神经",
+          "answer": [
+            "C",
+            "L"
+          ],
+          "answerMode": "多选",
+          "sourceText": "股神经",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲第5页周围神经损伤表格逐项合并并完成选项重映射"
+        },
+        {
+          "text": "坐骨神经",
+          "answer": [
+            "N",
+            "D"
+          ],
+          "answerMode": "多选",
+          "sourceText": "坐骨神经",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲第5页周围神经损伤表格逐项合并并完成选项重映射"
+        },
+        {
+          "text": "胫神经",
+          "answer": [
+            "T",
+            "O",
+            "V"
+          ],
+          "answerMode": "多选",
+          "sourceText": "胫神经",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲第5页周围神经损伤表格逐项合并并完成选项重映射"
+        },
+        {
+          "text": "腓总神经",
+          "answer": [
+            "U",
+            "I",
+            "B",
+            "Y",
+            "W",
+            "Z",
+            "X"
+          ],
+          "answerMode": "多选",
+          "sourceText": "腓总神经",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲第5页周围神经损伤表格逐项合并并完成选项重映射"
+        }
+      ],
+      "sourceText": "大鱼际萎缩、手掌平坦；拇指对掌障碍（猿手）；屈腕、前臂旋前和第1～3指屈曲障碍；掌面桡侧2/3手（含大鱼际）及桡侧3.5个手指感觉障碍；仅腕部损伤时无第1～3指屈曲障碍；第4、5指爪形手，Froment征、夹纸试验阳性；手指内收外展及第4、5指屈曲障碍；掌面尺侧1/3手及尺侧1.5个手指、背面尺侧1/2手及尺侧1/2手指感觉障碍；仅腕部损伤时无第4、5指屈曲障碍；伸腕障碍（垂腕）、前臂旋后障碍；伸指及拇指外展障碍；背面桡侧1/2手（含虎口）及桡侧1/2手指感觉障碍；仅桡骨头脱位致深支损伤时，无伸腕、前臂旋后和感觉障碍；膝关节伸直障碍；大腿前方、小腿内侧感觉障碍；膝关节屈曲障碍；小腿后外侧、足部感觉障碍；屈踝、屈趾障碍，呈钩状足；小腿后侧、足底感觉障碍；跖屈＝屈；足外翻障碍；伸踝障碍；伸趾障碍；马蹄内翻足；跨阈步态；小腿前外侧、足背感觉障碍；背屈＝背伸＝伸；肱骨中下1/3骨折可致桡神经损伤；肱骨髁上骨折可致桡神经损伤；桡骨头脱位（肘部）可致桡神经损伤；正中神经；尺神经；桡神经；股神经；坐骨神经；胫神经；腓总神经",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 5,
+        "image": "surgery/lecture-pages/lecture-22-page-05.webp",
+        "title": "第22讲第5页 · 周围神经损伤",
+        "description": "第35～38组已按讲义表格合并为一个题组；各神经作为题干，运动、感觉、备注及桡神经损伤原因作为共用选项。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 3,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    {
+      "id": "ortho-mixed-g19",
+      "page": 0,
+      "title": "周围神经损伤 · 神经慢性损伤",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "桡侧3个手指麻木疼痛（中指为甚）",
+          "sourceText": "C. 桡侧3个手指麻木疼痛（中指为甚）",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "电生理检查（肌电图）",
+          "sourceText": "G. 电生理检查（肌电图）",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "卡压尺神经",
+          "sourceText": "H. 卡压尺神经",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "鱼际肌萎缩",
+          "sourceText": "E. 鱼际肌萎缩",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "拇指对掌无力",
+          "sourceText": "F. 拇指对掌无力",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "卡压桡神经深支",
+          "sourceText": "I. 卡压桡神经深支",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "适当抖动手腕可减轻",
+          "sourceText": "D. 适当抖动手腕可减轻",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "屈腕试验/Phalen征",
+          "sourceText": "B. 屈腕试验/Phalen征",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "卡压正中神经",
+          "sourceText": "A. 卡压正中神经",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "卡压坐骨神经",
+          "sourceText": "J. 卡压坐骨神经",
+          "sourceKey": "J",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "腕管综合征",
+          "answer": [
+            "I",
+            "H",
+            "A",
+            "G",
+            "D",
+            "E",
+            "B"
+          ],
+          "answerMode": "多选",
+          "sourceText": "腕管综合征",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "肘管综合征",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "肘管综合征",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "旋后肌综合征",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选",
+          "sourceText": "旋后肌综合征",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        },
+        {
+          "text": "梨状肌综合征",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选",
+          "sourceText": "梨状肌综合征",
+          "ocrScore": 1,
+          "reviewMethod": "已按第22讲讲义逐项校对并完成选项重映射"
+        }
+      ],
+      "sourceText": "桡侧3个手指麻木疼痛（中指为甚）；电生理检查（肌电图）；卡压尺神经；鱼际肌萎缩；拇指对掌无力；卡压桡神经深支；适当抖动手腕可减轻；屈腕试验/Phalen征；卡压正中神经；卡压坐骨神经；腕管综合征；肘管综合征；旋后肌综合征；梨状肌综合征",
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 6,
+        "image": "surgery/lecture-pages/lecture-22-page-06.webp",
+        "title": "第22讲第6页 · 手外伤、股骨头坏死、膝关节损伤、神经损伤",
+        "description": "本题组已按第22讲对应讲义页逐项复核。"
+      },
+      "hideSource": true,
+      "optionShuffleVersion": 2,
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J"
+      ]
+    }
+  ]
+}

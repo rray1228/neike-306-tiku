@@ -1,0 +1,1086 @@
+{
+  "meta": {
+    "title": "生物化学第 09 讲题库",
+    "sourceLabel": "生化第 09 讲学成选择题（核苷酸代谢）",
+    "sourcePages": 1,
+    "lectureCount": 1,
+    "groupCount": 8,
+    "stemCount": 43,
+    "correctionGroupCount": 0,
+    "generatedBy": "scripts/build_biochemistry_lecture9.py",
+    "siteIntegrated": true,
+    "lectureLinked": true,
+    "answerNote": "仅收录第 09 讲《核苷酸代谢》范围内题目；选项已重新打散，答案按讲义与思维导图复核。"
+  },
+  "topics": [
+    "全部",
+    "核苷酸代谢",
+    "综合"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image": "",
+      "topic": "核苷酸代谢",
+      "searchText": "从头合成原料：嘌呤 vs 嘧啶"
+    },
+    {
+      "page": 2,
+      "image": "",
+      "topic": "核苷酸代谢",
+      "searchText": "嘌呤环原子来源"
+    },
+    {
+      "page": 3,
+      "image": "",
+      "topic": "核苷酸代谢",
+      "searchText": "从头合成：方式、第一产物与分支调节"
+    },
+    {
+      "page": 4,
+      "image": "",
+      "topic": "核苷酸代谢",
+      "searchText": "嘌呤核苷酸：补救合成与分解"
+    },
+    {
+      "page": 5,
+      "image": "",
+      "topic": "核苷酸代谢",
+      "searchText": "嘧啶核苷酸：分解、补救合成与 dTMP"
+    },
+    {
+      "page": 6,
+      "image": "",
+      "topic": "核苷酸代谢",
+      "searchText": "氨基甲酰磷酸合成酶Ⅰ vs Ⅱ"
+    },
+    {
+      "page": 7,
+      "image": "",
+      "topic": "核苷酸代谢",
+      "searchText": "核苷酸抗代谢物：类似物辨析"
+    },
+    {
+      "page": 8,
+      "image": "",
+      "topic": "核苷酸代谢",
+      "searchText": "核苷酸抗代谢物：作用酶与抑制过程"
+    }
+  ],
+  "groups": [
+    {
+      "id": "bio-09-01",
+      "page": 1,
+      "title": "从头合成原料：嘌呤 vs 嘧啶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "CO₂"
+        },
+        {
+          "key": "B",
+          "label": "甘氨酸"
+        },
+        {
+          "key": "C",
+          "label": "一碳单位"
+        },
+        {
+          "key": "D",
+          "label": "磷酸核糖焦磷酸（PRPP）"
+        },
+        {
+          "key": "E",
+          "label": "天冬氨酸"
+        },
+        {
+          "key": "F",
+          "label": "谷氨酰胺"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "嘌呤碱基从头合成的原料",
+          "answerRaw": "E、F、A、C、B",
+          "answer": [
+            "E",
+            "F",
+            "A",
+            "C",
+            "B"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "嘧啶碱基从头合成的原料",
+          "answerRaw": "E、F、A",
+          "answer": [
+            "E",
+            "F",
+            "A"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "嘌呤和嘧啶碱基共同的从头合成原料",
+          "answerRaw": "E、F、A",
+          "answer": [
+            "E",
+            "F",
+            "A"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "嘌呤核苷酸和嘧啶核苷酸共同的从头合成原料",
+          "answerRaw": "E、D、F、A",
+          "answer": [
+            "E",
+            "D",
+            "F",
+            "A"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "从头合成原料：嘌呤 vs 嘧啶",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生化 核苷酸代谢",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-09-page-01.webp",
+        "title": "第 09 讲《生化 核苷酸代谢》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-09-02",
+      "page": 2,
+      "title": "嘌呤环原子来源",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "N₉"
+        },
+        {
+          "key": "B",
+          "label": "C₂"
+        },
+        {
+          "key": "C",
+          "label": "C₅"
+        },
+        {
+          "key": "D",
+          "label": "C₄"
+        },
+        {
+          "key": "E",
+          "label": "C₈"
+        },
+        {
+          "key": "F",
+          "label": "N₇"
+        },
+        {
+          "key": "G",
+          "label": "N₃"
+        },
+        {
+          "key": "H",
+          "label": "C₆"
+        },
+        {
+          "key": "I",
+          "label": "N₁"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "一碳单位提供的嘌呤环原子",
+          "answerRaw": "E、B",
+          "answer": [
+            "E",
+            "B"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "甘氨酸提供的嘌呤环原子",
+          "answerRaw": "C、D、F",
+          "answer": [
+            "C",
+            "D",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "CO₂ 提供的嘌呤环原子",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "天冬氨酸提供的嘌呤环原子",
+          "answerRaw": "I",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "谷氨酰胺提供的嘌呤环原子",
+          "answerRaw": "A、G",
+          "answer": [
+            "A",
+            "G"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "嘌呤环原子来源",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生化 核苷酸代谢",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-09-page-01.webp",
+        "title": "第 09 讲《生化 核苷酸代谢》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-09-03",
+      "page": 3,
+      "title": "从头合成：方式、第一产物与分支调节",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "IMP"
+        },
+        {
+          "key": "B",
+          "label": "UMP"
+        },
+        {
+          "key": "C",
+          "label": "在 PRPP 基础上逐步合成嘌呤环"
+        },
+        {
+          "key": "D",
+          "label": "XMP"
+        },
+        {
+          "key": "E",
+          "label": "GTP 促进 AMP 合成"
+        },
+        {
+          "key": "F",
+          "label": "先合成含嘧啶环的乳清酸、再和 PRPP 相连"
+        },
+        {
+          "key": "G",
+          "label": "腺苷酸代琥珀酸"
+        },
+        {
+          "key": "H",
+          "label": "UTP"
+        },
+        {
+          "key": "I",
+          "label": "GMP 抑制 GMP 合成"
+        },
+        {
+          "key": "J",
+          "label": "AMP 抑制 AMP 合成"
+        },
+        {
+          "key": "K",
+          "label": "ATP 促进 GMP 合成"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "从头合成的第一个嘌呤核苷酸",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "从头合成的第一个嘧啶核苷酸",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "嘌呤核苷酸从头合成的方式",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "嘧啶核苷酸从头合成的方式",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "IMP → AMP 的重要中间产物",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "IMP → GMP 的重要中间产物",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "AMP 合成分支的交叉调节",
+          "answerRaw": "J、E",
+          "answer": [
+            "J",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 8,
+          "text": "GMP 合成分支的交叉调节",
+          "answerRaw": "I、K",
+          "answer": [
+            "I",
+            "K"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 9,
+          "text": "CTP 合成的直接前体",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "从头合成：方式、第一产物与分支调节",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生化 核苷酸代谢",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-09-page-01.webp",
+        "title": "第 09 讲《生化 核苷酸代谢》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-09-04",
+      "page": 4,
+      "title": "嘌呤核苷酸：补救合成与分解",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "APRT（腺嘌呤磷酸核糖转移酶）"
+        },
+        {
+          "key": "B",
+          "label": "腺嘌呤核苷 + 磷酸 → AMP"
+        },
+        {
+          "key": "C",
+          "label": "黄嘌呤氧化酶"
+        },
+        {
+          "key": "D",
+          "label": "尿酸"
+        },
+        {
+          "key": "E",
+          "label": "Lesch-Nyhan 综合征（自毁容貌综合征）"
+        },
+        {
+          "key": "F",
+          "label": "PRPP + A → AMP"
+        },
+        {
+          "key": "G",
+          "label": "主要在脑、骨髓的胞浆"
+        },
+        {
+          "key": "H",
+          "label": "PRPP + I/G → IMP/GMP"
+        },
+        {
+          "key": "I",
+          "label": "HGPRT（次黄嘌呤-鸟嘌呤磷酸核糖转移酶）"
+        },
+        {
+          "key": "J",
+          "label": "腺苷激酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "嘌呤核苷酸补救合成的主要部位",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "腺嘌呤补救合成：①反应 ②所需酶",
+          "answerRaw": "A、F",
+          "answer": [
+            "A",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "次黄嘌呤 / 鸟嘌呤补救合成：①反应 ②所需酶 ③酶缺失导致的疾病",
+          "answerRaw": "E、H、I",
+          "answer": [
+            "E",
+            "H",
+            "I"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "腺嘌呤核苷补救合成：①反应 ②所需酶",
+          "answerRaw": "J、B",
+          "answer": [
+            "J",
+            "B"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "嘌呤核苷酸分解：①产物 ②酶",
+          "answerRaw": "D、C",
+          "answer": [
+            "D",
+            "C"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "嘌呤核苷酸：补救合成与分解",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生化 核苷酸代谢",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-09-page-01.webp",
+        "title": "第 09 讲《生化 核苷酸代谢》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-09-05",
+      "page": 5,
+      "title": "嘧啶核苷酸：分解、补救合成与 dTMP",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "β-丙氨酸"
+        },
+        {
+          "key": "B",
+          "label": "恶性肿瘤的胸苷激酶活性明显升高、并与恶性程度相关"
+        },
+        {
+          "key": "C",
+          "label": "β-氨基异丁酸"
+        },
+        {
+          "key": "D",
+          "label": "嘧啶磷酸核糖转移酶"
+        },
+        {
+          "key": "E",
+          "label": "SAM"
+        },
+        {
+          "key": "F",
+          "label": "N⁵,N¹⁰-CH₂-FH₄"
+        },
+        {
+          "key": "G",
+          "label": "NH₃"
+        },
+        {
+          "key": "H",
+          "label": "尿嘧啶/脱氧胸腺嘧啶核苷 + 磷酸"
+        },
+        {
+          "key": "I",
+          "label": "CO₂"
+        },
+        {
+          "key": "J",
+          "label": "尿苷/胸苷激酶"
+        },
+        {
+          "key": "K",
+          "label": "PRPP + U/T/乳清酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "胞嘧啶核苷酸的分解产物",
+          "answerRaw": "I、A、G",
+          "answer": [
+            "I",
+            "A",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "胸腺嘧啶核苷酸的分解产物",
+          "answerRaw": "I、C、G",
+          "answer": [
+            "I",
+            "C",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "嘧啶碱基 / 乳清酸补救合成：①反应 ②所需酶",
+          "answerRaw": "K、D",
+          "answer": [
+            "K",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "嘧啶核苷补救合成：①反应 ②所需酶 ③胸苷激酶的肿瘤意义",
+          "answerRaw": "B、H、J",
+          "answer": [
+            "B",
+            "H",
+            "J"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "dTMP 所需的甲基来源",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "dTMP 所需的甲基不由其提供",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "嘧啶核苷酸：分解、补救合成与 dTMP",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生化 核苷酸代谢",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-09-page-02.webp",
+        "title": "第 09 讲《生化 核苷酸代谢》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-09-06",
+      "page": 6,
+      "title": "氨基甲酰磷酸合成酶Ⅰ vs Ⅱ",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "不需要 AGA 激活"
+        },
+        {
+          "key": "B",
+          "label": "嘧啶核苷酸从头合成"
+        },
+        {
+          "key": "C",
+          "label": "Gln"
+        },
+        {
+          "key": "D",
+          "label": "所有器官的胞浆（肝活性最高）"
+        },
+        {
+          "key": "E",
+          "label": "NH₃"
+        },
+        {
+          "key": "F",
+          "label": "反应细胞增殖程度"
+        },
+        {
+          "key": "G",
+          "label": "尿素循环"
+        },
+        {
+          "key": "H",
+          "label": "仅肝的线粒体"
+        },
+        {
+          "key": "I",
+          "label": "必须被 AGA 激活"
+        },
+        {
+          "key": "J",
+          "label": "反应肝细胞分化程度"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "氨基甲酰磷酸合成酶Ⅰ：①催化 ②分布 ③氮源 ④AGA ⑤意义",
+          "answerRaw": "I、G、E、H、J",
+          "answer": [
+            "I",
+            "G",
+            "E",
+            "H",
+            "J"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "氨基甲酰磷酸合成酶Ⅱ：①催化 ②分布 ③氮源 ④AGA ⑤意义",
+          "answerRaw": "B、F、A、D、C",
+          "answer": [
+            "B",
+            "F",
+            "A",
+            "D",
+            "C"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "氨基甲酰磷酸合成酶Ⅰ vs Ⅱ",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生化 核苷酸代谢",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-09-page-02.webp",
+        "title": "第 09 讲《生化 核苷酸代谢》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-09-07",
+      "page": 7,
+      "title": "核苷酸抗代谢物：类似物辨析",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "胸腺嘧啶"
+        },
+        {
+          "key": "B",
+          "label": "次黄嘌呤"
+        },
+        {
+          "key": "C",
+          "label": "叶酸"
+        },
+        {
+          "key": "D",
+          "label": "胞苷"
+        },
+        {
+          "key": "E",
+          "label": "谷氨酰胺"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "6-巯基嘌呤（6-MP）类似于",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "别嘌呤醇类似于",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "阿糖胞苷类似于",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "5-氟尿嘧啶（5-FU）类似于",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "甲氨蝶呤（MTX）类似于",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "氮杂丝氨酸类似于",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "核苷酸抗代谢物：类似物辨析",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生化 核苷酸代谢",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-09-page-03.webp",
+        "title": "第 09 讲《生化 核苷酸代谢》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
+      }
+    },
+    {
+      "id": "bio-09-08",
+      "page": 8,
+      "title": "核苷酸抗代谢物：作用酶与抑制过程",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "次黄嘌呤"
+        },
+        {
+          "key": "B",
+          "label": "APRT"
+        },
+        {
+          "key": "C",
+          "label": "合成嘌呤和嘧啶核苷酸"
+        },
+        {
+          "key": "D",
+          "label": "CPS-Ⅱ"
+        },
+        {
+          "key": "E",
+          "label": "CDP 还原酶"
+        },
+        {
+          "key": "F",
+          "label": "合成 dCDP"
+        },
+        {
+          "key": "G",
+          "label": "黄嘌呤氧化酶"
+        },
+        {
+          "key": "H",
+          "label": "分解嘌呤核苷酸"
+        },
+        {
+          "key": "I",
+          "label": "FH₂ 还原酶"
+        },
+        {
+          "key": "J",
+          "label": "胸腺嘧啶"
+        },
+        {
+          "key": "K",
+          "label": "PRPP 酰胺转移酶"
+        },
+        {
+          "key": "L",
+          "label": "胞苷"
+        },
+        {
+          "key": "M",
+          "label": "合成嘌呤核苷酸"
+        },
+        {
+          "key": "N",
+          "label": "叶酸"
+        },
+        {
+          "key": "O",
+          "label": "合成 dTMP（dUMP → dTMP）"
+        },
+        {
+          "key": "P",
+          "label": "谷氨酰胺"
+        },
+        {
+          "key": "Q",
+          "label": "合成嘌呤核苷酸的酶"
+        },
+        {
+          "key": "R",
+          "label": "胸苷酸合酶"
+        },
+        {
+          "key": "S",
+          "label": "HGPRT"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "6-巯基嘌呤（6-MP）：①类似物 ②竞争 / 作用酶 ③抑制过程",
+          "answerRaw": "A、B、K、S、M",
+          "answer": [
+            "A",
+            "B",
+            "K",
+            "S",
+            "M"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "别嘌呤醇：①类似物 ②竞争 / 作用酶 ③抑制过程",
+          "answerRaw": "A、Q、G、H、M",
+          "answer": [
+            "A",
+            "Q",
+            "G",
+            "H",
+            "M"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "阿糖胞苷：①类似物 ②竞争 / 作用酶 ③抑制过程",
+          "answerRaw": "L、E、F",
+          "answer": [
+            "L",
+            "E",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "5-氟尿嘧啶（5-FU）：①类似物 ②竞争 / 作用酶 ③抑制过程",
+          "answerRaw": "J、O、R",
+          "answer": [
+            "J",
+            "O",
+            "R"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "甲氨蝶呤（MTX）：①类似物 ②竞争 / 作用酶 ③抑制过程",
+          "answerRaw": "N、O、I、M",
+          "answer": [
+            "N",
+            "O",
+            "I",
+            "M"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 6,
+          "text": "氮杂丝氨酸：①类似物 ②竞争 / 作用酶 ③抑制过程",
+          "answerRaw": "P、K、D、C",
+          "answer": [
+            "P",
+            "K",
+            "D",
+            "C"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "核苷酸抗代谢物：作用酶与抑制过程",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生化 核苷酸代谢",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-09-page-03.webp",
+        "title": "第 09 讲《生化 核苷酸代谢》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
+      }
+    }
+  ],
+  "lectures": [
+    {
+      "id": "lecture-09",
+      "number": 9,
+      "title": "生化 核苷酸代谢",
+      "pageCount": 9
+    }
+  ]
+}

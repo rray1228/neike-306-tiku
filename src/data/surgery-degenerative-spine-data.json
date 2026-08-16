@@ -1,0 +1,1523 @@
+{
+  "meta": {
+    "title": "颈腰椎退行性病学成选择题",
+    "lectureId": "lecture-27",
+    "lecturePagesReviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "answerNote": "保持Word原有9个题组；题干、选项及答案已按第27讲逐项校对。前8组共用选项池已固定打乱并同步重映射答案；影像学题组删除了提示答案的层级复述项，第9组保留为数字填空题。"
+  },
+  "groups": [
+    {
+      "id": "degenerative-spine-g01",
+      "page": 0,
+      "title": "影像学检查",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "可清楚观察神经和脊髓受压情况",
+          "sourceText": "C. 可清楚观察神经和脊髓受压情况",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "不能清楚观察神经和脊髓受压情况",
+          "sourceText": "G. 不能清楚观察神经和脊髓受压情况",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "不能观察椎间盘",
+          "sourceText": "B. 不能观察椎间盘",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "可见生理曲度异常、骨质增生、钙化、椎间隙狭窄等",
+          "sourceText": "F. 可见生理曲度异常、骨质增生、钙化、椎间隙狭窄等",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "可观察椎间盘",
+          "sourceText": "D. 可观察椎间盘",
+          "sourceKey": "D",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "X线",
+          "answer": [
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "sourceText": "X线",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第2页逐项校对；删除提示答案的层级复述项并同步重映射答案"
+        },
+        {
+          "text": "CT",
+          "answer": [
+            "B",
+            "D",
+            "E"
+          ],
+          "answerMode": "多选",
+          "sourceText": "CT",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第2页逐项校对；删除提示答案的层级复述项并同步重映射答案"
+        },
+        {
+          "text": "MRI",
+          "answer": [
+            "A",
+            "D",
+            "E"
+          ],
+          "answerMode": "多选",
+          "sourceText": "MRI",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第2页逐项校对；删除提示答案的层级复述项并同步重映射答案"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "sourceName": "颈腰椎退行性病_学成选择题_题目与答案.docx",
+      "sourceText": "影像学检查",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "BF",
+        "DFG",
+        "CDF"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "page": "2",
+        "image": "surgery/lecture-pages/lecture-27-page-02.webp",
+        "title": "第27讲第2页：影像学检查",
+        "description": "X线、CT与MRI的可观察内容及局限已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "B",
+        "C",
+        "D",
+        "F",
+        "G"
+      ],
+      "optionShuffleVersion": 3
+    },
+    {
+      "id": "degenerative-spine-g02",
+      "page": 0,
+      "title": "颈椎病：类型鉴别",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "禁止按摩、颌枕带牵引",
+          "sourceText": "C. 禁止按摩、颌枕带牵引",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "吞咽困难",
+          "sourceText": "S. 吞咽困难",
+          "sourceKey": "S",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "颈肩痛＋上肢放射痛",
+          "sourceText": "I. 颈肩痛＋上肢放射痛",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "二便障碍",
+          "sourceText": "K. 二便障碍",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "Babinski征",
+          "sourceText": "J. Babinski征",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "Eaton征",
+          "sourceText": "D. Eaton征",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "最严重",
+          "sourceText": "A. 最严重",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "心悸、出汗或心动过缓、血压下降",
+          "sourceText": "P. 心悸、出汗或心动过缓、血压下降",
+          "sourceKey": "P",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "猝倒、眩晕、视物模糊",
+          "sourceText": "E. 猝倒、眩晕、视物模糊",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "Hoffmann征",
+          "sourceText": "G. Hoffmann征",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "持物不稳、踩棉花感",
+          "sourceText": "M. 持物不稳、踩棉花感",
+          "sourceKey": "M",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "症状多、体征少",
+          "sourceText": "Q. 症状多、体征少",
+          "sourceKey": "Q",
+          "ocrScore": 1
+        },
+        {
+          "key": "M",
+          "label": "首选保守治疗",
+          "sourceText": "B. 首选保守治疗",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "N",
+          "label": "上肢感觉障碍（麻木）",
+          "sourceText": "R. 上肢感觉障碍（麻木）",
+          "sourceKey": "R",
+          "ocrScore": 1
+        },
+        {
+          "key": "O",
+          "label": "最常见",
+          "sourceText": "H. 最常见",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "P",
+          "label": "Spurling征",
+          "sourceText": "L. Spurling征",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "Q",
+          "label": "上肢运动障碍（无力）",
+          "sourceText": "O. 上肢运动障碍（无力）",
+          "sourceKey": "O",
+          "ocrScore": 1
+        },
+        {
+          "key": "R",
+          "label": "四肢感觉、运动障碍",
+          "sourceText": "N. 四肢感觉、运动障碍",
+          "sourceKey": "N",
+          "ocrScore": 1
+        },
+        {
+          "key": "S",
+          "label": "急诊手术",
+          "sourceText": "F. 急诊手术",
+          "sourceKey": "F",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "神经根型",
+          "answer": [
+            "C",
+            "F",
+            "M",
+            "N",
+            "O",
+            "P",
+            "Q"
+          ],
+          "answerMode": "多选",
+          "sourceText": "神经根型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第2页：颈椎病类型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "脊髓型",
+          "answer": [
+            "A",
+            "D",
+            "E",
+            "G",
+            "J",
+            "K",
+            "R",
+            "S"
+          ],
+          "answerMode": "多选",
+          "sourceText": "脊髓型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第2页：颈椎病类型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "交感神经型",
+          "answer": [
+            "H",
+            "L",
+            "M"
+          ],
+          "answerMode": "多选",
+          "sourceText": "交感神经型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第2页：颈椎病类型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "椎动脉型",
+          "answer": [
+            "I",
+            "M"
+          ],
+          "answerMode": "多选",
+          "sourceText": "椎动脉型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第2页：颈椎病类型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "食管型",
+          "answer": [
+            "B",
+            "M"
+          ],
+          "answerMode": "多选",
+          "sourceText": "食管型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第2页：颈椎病类型逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "sourceName": "颈腰椎退行性病_学成选择题_题目与答案.docx",
+      "sourceText": "颈椎病：类型鉴别",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "BDHILOR",
+        "ACFGJKMN",
+        "BPQ",
+        "BE",
+        "BS"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "page": "2",
+        "image": "surgery/lecture-pages/lecture-27-page-02.webp",
+        "title": "第27讲第2页：颈椎病类型",
+        "description": "五型颈椎病的症状、体征、严重程度和治疗已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "degenerative-spine-g03",
+      "page": 0,
+      "title": "颈椎病：鉴别诊断",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "周围神经卡压综合征",
+          "sourceText": "F. 周围神经卡压综合征",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "脊髓空洞症",
+          "sourceText": "E. 脊髓空洞症",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "触觉及深感觉存在",
+          "sourceText": "C. 触觉及深感觉存在",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "痛温觉消失",
+          "sourceText": "H. 痛温觉消失",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "美尼尔病",
+          "sourceText": "A. 美尼尔病",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "反复发作听力下降",
+          "sourceText": "B. 反复发作听力下降",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "旋转性眩晕",
+          "sourceText": "D. 旋转性眩晕",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "肌萎缩侧索硬化症",
+          "sourceText": "I. 肌萎缩侧索硬化症",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "胸廓出口综合征",
+          "sourceText": "G. 胸廓出口综合征",
+          "sourceKey": "G",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "神经根型",
+          "answer": [
+            "A",
+            "I"
+          ],
+          "answerMode": "多选",
+          "sourceText": "神经根型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第3页：颈椎病鉴别诊断逐项校对并完成选项重映射"
+        },
+        {
+          "text": "脊髓型",
+          "answer": [
+            "B",
+            "H"
+          ],
+          "answerMode": "多选",
+          "sourceText": "脊髓型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第3页：颈椎病鉴别诊断逐项校对并完成选项重映射"
+        },
+        {
+          "text": "交感神经型、椎动脉型",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "交感神经型、椎动脉型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第3页：颈椎病鉴别诊断逐项校对并完成选项重映射"
+        },
+        {
+          "text": "脊髓空洞症",
+          "answer": [
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "sourceText": "脊髓空洞症",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第3页：颈椎病鉴别诊断逐项校对并完成选项重映射"
+        },
+        {
+          "text": "美尼尔病",
+          "answer": [
+            "F",
+            "G"
+          ],
+          "answerMode": "多选",
+          "sourceText": "美尼尔病",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第3页：颈椎病鉴别诊断逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "sourceName": "颈腰椎退行性病_学成选择题_题目与答案.docx",
+      "sourceText": "颈椎病：鉴别诊断",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "FG",
+        "EI",
+        "A",
+        "CH",
+        "BD"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "page": "3",
+        "image": "surgery/lecture-pages/lecture-27-page-03.webp",
+        "title": "第27讲第3页：颈椎病鉴别诊断",
+        "description": "神经根型、脊髓型及椎动脉/交感神经型的鉴别疾病与特征已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "degenerative-spine-g04",
+      "page": 0,
+      "title": "腰椎间盘突出症：分型",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "髓核沿软骨终板和椎体之间的血管通道向前纵韧带突出",
+          "sourceText": "D. 髓核沿软骨终板和椎体之间的血管通道向前纵韧带突出",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "髓核突破后纵韧带，髓核根部在椎间隙内",
+          "sourceText": "C. 髓核突破后纵韧带，髓核根部在椎间隙内",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "髓核经上下软骨终板裂隙突入椎体内",
+          "sourceText": "B. 髓核经上下软骨终板裂隙突入椎体内",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "纤维环完全破裂，髓核突向椎管，后纵韧带完整",
+          "sourceText": "A. 纤维环完全破裂，髓核突向椎管，后纵韧带完整",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "纤维环部分破裂，但表层完整",
+          "sourceText": "F. 纤维环部分破裂，但表层完整",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "髓核与原椎间盘完全脱离",
+          "sourceText": "E. 髓核与原椎间盘完全脱离",
+          "sourceKey": "E",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "膨出型",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "膨出型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第3页：腰椎间盘突出症分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "突出型",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "突出型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第3页：腰椎间盘突出症分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "脱出型",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "脱出型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第3页：腰椎间盘突出症分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "游离型",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选",
+          "sourceText": "游离型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第3页：腰椎间盘突出症分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "Schmorl结节",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "Schmorl结节",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第3页：腰椎间盘突出症分型逐项校对并完成选项重映射"
+        },
+        {
+          "text": "经骨突出型",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "经骨突出型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第3页：腰椎间盘突出症分型逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "sourceName": "颈腰椎退行性病_学成选择题_题目与答案.docx",
+      "sourceText": "腰椎间盘突出症：分型",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "F",
+        "A",
+        "C",
+        "E",
+        "B",
+        "D"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "page": "3",
+        "image": "surgery/lecture-pages/lecture-27-page-03.webp",
+        "title": "第27讲第3页：腰椎间盘突出症分型",
+        "description": "六种分型的纤维环、后纵韧带及髓核位置已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "degenerative-spine-g05",
+      "page": 0,
+      "title": "腰椎间盘突出症：神经根定位",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "小腿后、足外、外踝感觉障碍",
+          "sourceText": "L. 小腿后、足外、外踝感觉障碍",
+          "sourceKey": "L",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "屈踝、屈足障碍",
+          "sourceText": "I. 屈踝、屈足障碍",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "L₅～S₁椎间盘",
+          "sourceText": "M. L₅～S₁椎间盘",
+          "sourceKey": "M",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "股神经",
+          "sourceText": "F. 股神经",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "伸膝障碍",
+          "sourceText": "B. 伸膝障碍",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "L₄～L₅椎间盘",
+          "sourceText": "J. L₄～L₅椎间盘",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "伸踝、伸足障碍",
+          "sourceText": "K. 伸踝、伸足障碍",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "小腿外前、足背内感觉障碍",
+          "sourceText": "A. 小腿外前、足背内感觉障碍",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "L₃～L₄椎间盘",
+          "sourceText": "N. L₃～L₄椎间盘",
+          "sourceKey": "N",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "胫神经",
+          "sourceText": "G. 胫神经",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "腓总神经",
+          "sourceText": "E. 腓总神经",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "L",
+          "label": "膝反射障碍",
+          "sourceText": "D. 膝反射障碍",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "M",
+          "label": "膝前、小腿前内、内踝感觉障碍",
+          "sourceText": "H. 膝前、小腿前内、内踝感觉障碍",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "N",
+          "label": "踝/跟腱反射障碍",
+          "sourceText": "C. 踝/跟腱反射障碍",
+          "sourceKey": "C",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "L₄神经根",
+          "answer": [
+            "D",
+            "E",
+            "I",
+            "L",
+            "M"
+          ],
+          "answerMode": "多选",
+          "sourceText": "L₄神经根",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第4页：腰椎神经根定位逐项校对并完成选项重映射"
+        },
+        {
+          "text": "L₅神经根",
+          "answer": [
+            "F",
+            "G",
+            "H",
+            "K"
+          ],
+          "answerMode": "多选",
+          "sourceText": "L₅神经根",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第4页：腰椎神经根定位逐项校对并完成选项重映射"
+        },
+        {
+          "text": "S₁神经根",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "J",
+            "N"
+          ],
+          "answerMode": "多选",
+          "sourceText": "S₁神经根",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第4页：腰椎神经根定位逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "sourceName": "颈腰椎退行性病_学成选择题_题目与答案.docx",
+      "sourceText": "腰椎间盘突出症：神经根定位",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "BDFHN",
+        "AEJK",
+        "CGILM"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "page": "4",
+        "image": "surgery/lecture-pages/lecture-27-page-04.webp",
+        "title": "第27讲第4页：腰椎神经根定位",
+        "description": "L4、L5和S1神经根的对应椎间盘、神经、运动、感觉及反射已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "degenerative-spine-g06",
+      "page": 0,
+      "title": "腰椎间盘突出症：试验与治疗",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "无神经根受压",
+          "sourceText": "B. 无神经根受压",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "直腿抬高试验（＋）、加强试验（＋）",
+          "sourceText": "G. 直腿抬高试验（＋）、加强试验（＋）",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "急诊手术",
+          "sourceText": "H. 急诊手术",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "保守治疗",
+          "sourceText": "E. 保守治疗",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "不作为单独的急诊手术指征",
+          "sourceText": "F. 不作为单独的急诊手术指征",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "有神经根受压",
+          "sourceText": "A. 有神经根受压",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "保守治疗无效后手术",
+          "sourceText": "C. 保守治疗无效后手术",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "直腿抬高试验（-）、加强试验（-）",
+          "sourceText": "D. 直腿抬高试验（-）、加强试验（-）",
+          "sourceKey": "D",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "膨出型、Schmorl结节、经骨突出型",
+          "answer": [
+            "A",
+            "D",
+            "H"
+          ],
+          "answerMode": "多选",
+          "sourceText": "膨出型、Schmorl结节、经骨突出型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第4页：试验与治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "突出型、脱出型、游离型",
+          "answer": [
+            "B",
+            "D",
+            "F",
+            "G"
+          ],
+          "answerMode": "多选",
+          "sourceText": "突出型、脱出型、游离型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第4页：试验与治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "二便障碍",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "sourceText": "二便障碍",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第4页：试验与治疗逐项校对并完成选项重映射"
+        },
+        {
+          "text": "鞍区感觉异常",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "sourceText": "鞍区感觉异常",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第4页：试验与治疗逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "sourceName": "颈腰椎退行性病_学成选择题_题目与答案.docx",
+      "sourceText": "腰椎间盘突出症：试验与治疗",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "BDE",
+        "ACEG",
+        "H",
+        "F"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "page": "4",
+        "image": "surgery/lecture-pages/lecture-27-page-04.webp",
+        "title": "第27讲第4页：试验与治疗",
+        "description": "神经根受压、直腿抬高试验及急诊手术指征已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "degenerative-spine-g07",
+      "page": 0,
+      "title": "腰痛：鉴别诊断",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "直腿抬高试验（＋）、加强试验（＋）",
+          "sourceText": "D. 直腿抬高试验（＋）、加强试验（＋）",
+          "sourceKey": "D",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "直腿抬高试验（＋）、加强试验（-）",
+          "sourceText": "E. 直腿抬高试验（＋）、加强试验（-）",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "神经源性间歇性跛行",
+          "sourceText": "A. 神经源性间歇性跛行",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "直腿抬高试验（-）、加强试验（-）",
+          "sourceText": "B. 直腿抬高试验（-）、加强试验（-）",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "症状多、体征少",
+          "sourceText": "C. 症状多、体征少",
+          "sourceKey": "C",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "急性腰扭伤",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "急性腰扭伤",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第4页：腰痛鉴别诊断逐项校对并完成选项重映射"
+        },
+        {
+          "text": "梨状肌综合征",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "sourceText": "梨状肌综合征",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第4页：腰痛鉴别诊断逐项校对并完成选项重映射"
+        },
+        {
+          "text": "膨出型、Schmorl结节、经骨突出型",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "膨出型、Schmorl结节、经骨突出型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第4页：腰痛鉴别诊断逐项校对并完成选项重映射"
+        },
+        {
+          "text": "慢性腰肌劳损",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "慢性腰肌劳损",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第4页：腰痛鉴别诊断逐项校对并完成选项重映射"
+        },
+        {
+          "text": "第三腰椎横突综合征",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "sourceText": "第三腰椎横突综合征",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第4页：腰痛鉴别诊断逐项校对并完成选项重映射"
+        },
+        {
+          "text": "腰椎管狭窄症",
+          "answer": [
+            "C",
+            "D",
+            "E"
+          ],
+          "answerMode": "多选",
+          "sourceText": "腰椎管狭窄症",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第4页：腰痛鉴别诊断逐项校对并完成选项重映射"
+        },
+        {
+          "text": "突出型、脱出型、游离型",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "sourceText": "突出型、脱出型、游离型",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第4页：腰痛鉴别诊断逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "sourceName": "颈腰椎退行性病_学成选择题_题目与答案.docx",
+      "sourceText": "腰痛：鉴别诊断",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "E",
+        "E",
+        "B",
+        "B",
+        "B",
+        "ABC",
+        "D"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "page": "4",
+        "image": "surgery/lecture-pages/lecture-27-page-04.webp",
+        "title": "第27讲第4页：腰痛鉴别诊断",
+        "description": "直腿抬高及加强试验组合、腰椎管狭窄特点已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "degenerative-spine-g08",
+      "page": 0,
+      "title": "概述与好发特点",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "C₃～C₇有钩椎/Luschka关节",
+          "sourceText": "B. C₃～C₇有钩椎/Luschka关节",
+          "sourceKey": "B",
+          "ocrScore": 1
+        },
+        {
+          "key": "B",
+          "label": "男性多见",
+          "sourceText": "G. 男性多见",
+          "sourceKey": "G",
+          "ocrScore": 1
+        },
+        {
+          "key": "C",
+          "label": "软骨终板、髓核、纤维环",
+          "sourceText": "C. 软骨终板、髓核、纤维环",
+          "sourceKey": "C",
+          "ocrScore": 1
+        },
+        {
+          "key": "D",
+          "label": "女性多见",
+          "sourceText": "K. 女性多见",
+          "sourceKey": "K",
+          "ocrScore": 1
+        },
+        {
+          "key": "E",
+          "label": "第m～n椎间盘压迫第n神经根",
+          "sourceText": "J. 第m～n椎间盘压迫第n神经根",
+          "sourceKey": "J",
+          "ocrScore": 1
+        },
+        {
+          "key": "F",
+          "label": "C₁、C₂无椎间盘",
+          "sourceText": "E. C₁、C₂无椎间盘",
+          "sourceKey": "E",
+          "ocrScore": 1
+        },
+        {
+          "key": "G",
+          "label": "椎间盘易向侧后方突出",
+          "sourceText": "H. 椎间盘易向侧后方突出",
+          "sourceKey": "H",
+          "ocrScore": 1
+        },
+        {
+          "key": "H",
+          "label": "L₄～L₅、L₅～S₁好发",
+          "sourceText": "I. L₄～L₅、L₅～S₁好发",
+          "sourceKey": "I",
+          "ocrScore": 1
+        },
+        {
+          "key": "I",
+          "label": "C₅～C₆好发",
+          "sourceText": "F. C₅～C₆好发",
+          "sourceKey": "F",
+          "ocrScore": 1
+        },
+        {
+          "key": "J",
+          "label": "机械性压迫、化学性刺激、自身免疫性",
+          "sourceText": "A. 机械性压迫、化学性刺激、自身免疫性",
+          "sourceKey": "A",
+          "ocrScore": 1
+        },
+        {
+          "key": "K",
+          "label": "腰痛＋下肢放射痛，腰部活动受限尤其前屈，可有腰椎侧凸",
+          "sourceText": "D. 腰痛＋下肢放射痛，腰部活动受限尤其前屈，可有腰椎侧凸",
+          "sourceKey": "D",
+          "ocrScore": 1
+        }
+      ],
+      "stems": [
+        {
+          "text": "颈椎解剖",
+          "answer": [
+            "A",
+            "F"
+          ],
+          "answerMode": "多选",
+          "sourceText": "颈椎解剖",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第1～4页：概述与好发特点逐项校对并完成选项重映射"
+        },
+        {
+          "text": "椎间盘",
+          "answer": [
+            "C",
+            "E",
+            "G",
+            "J"
+          ],
+          "answerMode": "多选",
+          "sourceText": "椎间盘",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第1～4页：概述与好发特点逐项校对并完成选项重映射"
+        },
+        {
+          "text": "颈椎病",
+          "answer": [
+            "D",
+            "I"
+          ],
+          "answerMode": "多选",
+          "sourceText": "颈椎病",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第1～4页：概述与好发特点逐项校对并完成选项重映射"
+        },
+        {
+          "text": "腰椎间盘突出症",
+          "answer": [
+            "B",
+            "H",
+            "K"
+          ],
+          "answerMode": "多选",
+          "sourceText": "腰椎间盘突出症",
+          "ocrScore": 1,
+          "reviewMethod": "已按第27讲第1～4页：概述与好发特点逐项校对并完成选项重映射"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "sourceName": "颈腰椎退行性病_学成选择题_题目与答案.docx",
+      "sourceText": "概述与好发特点",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "BE",
+        "ACHJ",
+        "FK",
+        "DGI"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "page": "1～4",
+        "image": "surgery/lecture-pages/lecture-27-page-01-04.webp",
+        "title": "第27讲第1～4页：概述与好发特点",
+        "description": "颈椎解剖、椎间盘结构、发病机制及好发人群和节段已逐项复核。"
+      },
+      "optionOriginalOrder": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K"
+      ],
+      "optionShuffleVersion": 2
+    },
+    {
+      "id": "degenerative-spine-g09",
+      "page": 0,
+      "title": "颈腰椎退行性病·数字挖空",
+      "kind": "FILL",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "text": "颈椎病好发于C____～C____",
+          "answer": [
+            "5",
+            "6"
+          ],
+          "answerMode": "填空",
+          "sourceText": "颈椎病好发于C____～C____。5；6",
+          "ocrScore": 1,
+          "blankLabels": [
+            "起始节段",
+            "结束节段"
+          ],
+          "answerDisplay": "C₅～C₆",
+          "inputMode": "text",
+          "reviewMethod": "已按第27讲第2～3页：好发节段数字逐项校对"
+        },
+        {
+          "text": "腰椎间盘突出症好发于L____～L____、L____～S____",
+          "answer": [
+            "4",
+            "5",
+            "5",
+            "1"
+          ],
+          "answerMode": "填空",
+          "sourceText": "腰椎间盘突出症好发于L____～L____、L____～S____。4；5；5；1",
+          "ocrScore": 1,
+          "blankLabels": [
+            "第一起始节段",
+            "第一结束节段",
+            "第二腰椎节段",
+            "骶椎节段"
+          ],
+          "answerDisplay": "L₄～L₅、L₅～S₁",
+          "inputMode": "text",
+          "reviewMethod": "已按第27讲第2～3页：好发节段数字逐项校对"
+        }
+      ],
+      "reviewState": "已完成讲义校对",
+      "reviewIssues": [],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "sourceName": "颈腰椎退行性病_学成选择题_题目与答案.docx",
+      "sourceText": "颈腰椎退行性病·数字挖空",
+      "sourceImage": null,
+      "sourcePdf": null,
+      "sourcePage": null,
+      "sourceAnswer": [
+        "5；6",
+        "4；5；5；1"
+      ],
+      "sourceStemNumbers": [
+        "1",
+        "2"
+      ],
+      "parseWarnings": [],
+      "hideSource": true,
+      "reviewNotes": [],
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "page": "2～3",
+        "image": "surgery/lecture-pages/lecture-27-page-02-03.webp",
+        "title": "第27讲第2～3页：好发节段",
+        "description": "颈椎病与腰椎间盘突出症的好发节段已逐项复核。"
+      },
+      "optionOriginalOrder": [],
+      "optionShuffleVersion": 0
+    }
+  ]
+}
