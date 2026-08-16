@@ -912,9 +912,11 @@ function App() {
           <div className="question-side">
           <section className="question-card">
             <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span>{group.hideSource ? null : <span>来源页 {group.page}</span>}</div>
-            <div className="stem-list">
-              {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} />)}
-            </div>
+            {group.options.some((option) => option.category) && group.stems.some((stem) => stem.optionCategory)
+              ? <CategorizedAnswerTable group={group} selections={currentSelections} submitted={isSubmitted} onSelect={updateSelection} />
+              : <div className="stem-list">
+                {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} />)}
+              </div>}
             <div className="question-card-bottom">
               {isSubmitted ? <div className="submit-summary"><Icon name="check" size={18} /><span>已提交 · {group.stems.filter((stem, index) => !isUnresolvedStem(stem) && stemIsCorrect(currentSelections[index] || [], stem)).length} / {group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确{group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}</span></div> : <span className="hint-text">完成每个题干后提交；排序题按点击先后记录，填空题按空格顺序判分。</span>}
               <button className={`primary-button ${isSubmitted ? 'redo-button' : ''}`} onClick={isSubmitted ? redoGroup : submitGroup}>{isSubmitted ? '重新作答' : '提交本题组'}<Icon name={isSubmitted ? 'right' : 'arrow'} size={17} /></button>
@@ -979,6 +981,67 @@ function GroupJump({ current, total, onJump }) {
       <span>/ {total} 组</span>
       <button type="submit">跳转</button>
     </form>
+  )
+}
+
+function CategorizedAnswerTable({ group, selections, submitted, onSelect }) {
+  const categories = unique(group.stems.map((stem) => stem.optionCategory).filter(Boolean))
+
+  return (
+    <div className="categorized-answer-tables">
+      <div className="answer-table-hint"><Icon name="check" size={15} />左侧查看选项内容，右侧表格只勾选对应字母；多选题可在同一行选择多个。</div>
+      {categories.map((category) => {
+        const options = group.options.filter((option) => option.category === category)
+        const rows = group.stems.map((stem, index) => ({ stem, index })).filter(({ stem }) => stem.optionCategory === category)
+        return (
+          <section className="answer-table-section" key={category}>
+            <div className="answer-table-title"><strong>{category}</strong><span>{rows.length} 个题干 · {options.length} 个共用选项</span></div>
+            <div className="answer-table-scroll">
+              <table className="answer-table">
+                <thead>
+                  <tr>
+                    <th className="answer-table-number">题号</th>
+                    <th className="answer-table-stem">题干</th>
+                    {options.map((option) => <th key={option.key} className="answer-table-option" title={option.label}>{option.displayKey || option.key}</th>)}
+                  </tr>
+                </thead>
+                <tbody>
+                  {rows.map(({ stem, index }) => <CategorizedAnswerRow key={index} group={group} stem={stem} index={index} options={options} selection={selections[index] || []} submitted={submitted} onSelect={onSelect} />)}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )
+      })}
+    </div>
+  )
+}
+
+function CategorizedAnswerRow({ group, stem, index, options, selection, submitted, onSelect }) {
+  const answer = answerLetters(stem)
+  const multi = isMultiStem(group, stem)
+  const unresolved = isUnresolvedStem(stem)
+  const correct = submitted && !unresolved && stemIsCorrect(selection, stem)
+  const missed = submitted && !unresolved && answer.some((item) => !selection.includes(item))
+  const answerDisplay = stem.answerDisplay || answer.map((item) => group.options.find((option) => option.key === item)?.displayKey || item).join('、')
+
+  return (
+    <>
+      <tr className={`answer-table-row ${submitted ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
+        <th scope="row" className="answer-table-number"><span>{String(index + 1).padStart(2, '0')}</span></th>
+        <td className="answer-table-stem"><div className="answer-table-stem-copy">{stem.image && <img src={assetPath(stem.image)} alt={stem.imageAlt || '题干图片'} />}{stem.text && <p>{stem.text}</p>}<span className={`answer-mode ${(multi || stem.answerMode === '排序') ? 'is-multi' : ''}`}>{unresolved ? '待核对' : (stem.answerMode === '排序' ? '排序' : (multi ? '多选' : '单选'))}</span></div></td>
+        {options.map((option) => {
+          const item = option.key
+          const label = option.displayKey || item
+          const active = selection.includes(item)
+          const isAnswer = submitted && answer.includes(item)
+          const isMissed = submitted && isAnswer && !active
+          const stateLabel = isMissed ? '，漏选' : (submitted && active && !isAnswer ? '，错选' : '')
+          return <td key={item} className="answer-table-cell"><button type="button" aria-label={`${String(index + 1).padStart(2, '0')}题，选项 ${label}${stateLabel}`} className={`answer-chip ${active ? 'active' : ''} ${submitted && isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${submitted && active && !isAnswer ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{label}</button></td>
+        })}
+      </tr>
+      {submitted && <tr className={`answer-table-result-row ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><td colSpan={options.length + 2}><span><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? '原题页核对：暂不自动判分' : (correct ? '正确' : `讲义答案：${answerDisplay}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}</span></td></tr>}
+    </>
   )
 }
 
