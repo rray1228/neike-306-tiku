@@ -620,8 +620,8 @@
           "answerMode": "待核对"
         }
       ],
-      "sourceText": "内 | 学成选择题 | 科 | 小红书 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+        "sourceText": "内 | 学成选择题 | 科 | 小红书 | 小红书号：385106504",
+        "reviewState": "待讲义复核",
       "topic": "综合",
       "lectureIds": []
     },
@@ -9883,103 +9883,103 @@
       "options": [
         {
           "key": "A",
-          "label": "轻度性格改变和行为异常",
-          "sourceText": "A.轻度性格改变和行为异常"
+          "label": "有扑翼样震颤",
+          "sourceText": "A.有扑翼样震颤"
         },
         {
           "key": "B",
-          "label": "扑翼样震颤",
-          "sourceText": "B.扑翼样震颤"
+          "label": "无扑翼样震颤",
+          "sourceText": "B.无扑翼样震颤"
         },
         {
           "key": "C",
-          "label": "脑电图正常",
-          "sourceText": "C.脑电图正常"
+          "label": "昏睡能唤醒，神志不清",
+          "sourceText": "C.昏睡能唤醒神志不清"
         },
         {
           "key": "D",
-          "label": "腱反射、肌张力增强",
-          "sourceText": "D.腱反射、肌张力增强"
+          "label": "腱反射、肌张力正常",
+          "sourceText": "D.腱反射肌张力正常"
         },
         {
           "key": "E",
-          "label": "嗜睡、反应迟钝",
-          "sourceText": "E.嗜睡、反应迟钝"
+          "label": "腱反射、肌张力增强",
+          "sourceText": "E.腱反射肌张力增强"
         },
         {
           "key": "F",
-          "label": "昏睡、可唤醒",
-          "sourceText": "F.昏睡、可唤醒"
+          "label": "前驱期",
+          "sourceText": "F.前驱期"
         },
         {
           "key": "G",
-          "label": "脑电图普遍性慢波",
-          "sourceText": "G.脑电图普遍性慢波"
+          "label": "有脑电图异常",
+          "sourceText": "G.有脑电图异常"
         },
         {
           "key": "H",
-          "label": "扑翼样震颤消失",
-          "sourceText": "H.扑翼样震颤消失"
+          "label": "仅心理智能异常",
+          "sourceText": "H.仅心理智能异常"
         },
         {
           "key": "I",
-          "label": "昏迷但对疼痛刺激有反应",
-          "sourceText": "I.昏迷但对疼痛刺激有反应"
+          "label": "病理征阳性",
+          "sourceText": "I.病理征阳性"
         },
         {
           "key": "J",
-          "label": "昏迷且对疼痛刺激无反应",
-          "sourceText": "J.昏迷且对疼痛刺激无反应"
+          "label": "昏迷前期",
+          "sourceText": "J.昏迷前期"
         },
         {
           "key": "K",
           "label": "腱反射、肌张力：浅昏迷增高，深昏迷降低",
-          "sourceText": "K.腱反射、肌张力：浅昏迷增高，深昏迷降低"
+          "sourceText": "K.腱反射肌张力浅昏迷增高，深昏迷降低"
         },
         {
           "key": "L",
-          "label": "定向力障碍",
-          "sourceText": "L.定向力障碍"
+          "label": "轻度性格精神异常（焦虑、健忘、睡眠倒错）",
+          "sourceText": "L.轻度性格精神异常(焦虑、健忘、睡眠倒错)"
         },
         {
           "key": "M",
-          "label": "书写障碍",
-          "sourceText": "M.书写障碍"
+          "label": "昏睡期",
+          "sourceText": "M.昏睡期"
         },
         {
           "key": "N",
-          "label": "计算力下降",
-          "sourceText": "N.计算力下降"
+          "label": "无脑电图异常",
+          "sourceText": "N.无脑电图异常"
         },
         {
           "key": "O",
-          "label": "O期：无异常",
-          "sourceText": "O.O期：无异常"
+          "label": "行为异常、定向障碍、嗜睡、意识错乱",
+          "sourceText": "O.行为异常定向障碍嗜睡、意识错乱"
         },
         {
           "key": "P",
-          "label": "血氨升高",
-          "sourceText": "P.血氨升高"
+          "label": "昏迷期",
+          "sourceText": "P.昏迷期"
         },
         {
           "key": "Q",
-          "label": "深腱反射消失",
-          "sourceText": "Q.深腱反射消失"
+          "label": "病理征阴性",
+          "sourceText": "Q.病理征阴性"
         },
         {
           "key": "R",
-          "label": "病理反射阳性",
-          "sourceText": "R.病理反射阳性"
+          "label": "昏迷不能唤醒",
+          "sourceText": "R.昏迷不能唤醒"
         },
         {
           "key": "S",
-          "label": "脑电图三相波",
-          "sourceText": "S.脑电图三相波"
+          "label": "潜伏期",
+          "sourceText": "S.潜伏期"
         }
       ],
       "stems": [
         {
-          "text": "O期",
+          "text": "0期",
           "answer": [
             "B",
             "D",
@@ -9988,7 +9988,7 @@
             "Q",
             "S"
           ],
-          "sourceText": "O期BDHNQS",
+          "sourceText": "0期BDHNQS",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -10049,8 +10049,8 @@
           "answerMode": "多选"
         }
       ],
-      "sourceText": "肝性脑病分期（按原题页重新分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "sourceText": "肝性脑病分期（已按原题页字母与第20讲第1页讲义分期表逐项核对）",
+      "reviewState": "已按原题页与第20讲第1页讲义复核",
       "topic": "消化",
       "lectureIds": [
         "lecture-14",
@@ -10062,10 +10062,10 @@
       ],
       "lectureEvidence": {
         "lectureId": "lecture-20",
-        "page": 2,
-        "image": "med/lecture-pages/lecture-20-page-02.webp",
-        "title": "第20讲第2页：内科 肝性脑病",
-        "description": "本题组对应第20讲第2页讲义。"
+        "page": 1,
+        "image": "med/lecture-pages/lecture-20-page-01.webp",
+        "title": "第20讲第1页：内科 肝性脑病",
+        "description": "本题组对应第20讲第1页讲义中的肝性脑病分期表。"
       }
     },
     {
@@ -10187,7 +10187,7 @@
         }
       ],
       "sourceText": "问： | A.L-鸟氨酸 | 减少NH3产生和吸收（BEGIKM | B.急性期禁蛋白饮食；慢性期选择植物蛋白质 | C.异亮氨酸 | 促进NH3代谢（ADHJ | D.L-天冬氨酸 | E.高碳水、低脂肪、高纤维素、高维生素 | 减少假性递质（CFLO | F.缬氨酸 | G.生长抑素或奥美拉唑止血 | H.精氨酸 | 1.乳果糖或硫酸镁导泻 | J.谷氨酸 | K.稀醋酸或生理盐水灌肠，禁止肥皂水灌肠 | L.补充支链氨基酸 | M.口服抗生素和益生菌。抗生素首选利福昔明，还可用甲硝唑、新霉素 | O.亮氨酸 | 原发性肝癌 | A.肝内沿门静脉分支血道转移至肝脏本身",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按第20讲第2页讲义复核",
       "topic": "消化",
       "lectureIds": [
         "lecture-14",
