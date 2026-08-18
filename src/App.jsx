@@ -81,7 +81,7 @@ const CONTENT_LOADERS = {
     }
   },
   biochemistry: async () => {
-    const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content] = await Promise.all([
+    const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content] = await Promise.all([
       loadJson(() => import('./data/biochemistry-data.json')),
       loadJson(() => import('./data/biochemistry-lecture2-data.json')),
       loadJson(() => import('./data/biochemistry-lecture3-data.json')),
@@ -93,8 +93,9 @@ const CONTENT_LOADERS = {
       loadJson(() => import('./data/biochemistry-lecture9-data.json')),
       loadJson(() => import('./data/biochemistry-lecture10-data.json')),
       loadJson(() => import('./data/biochemistry-lecture11-data.json')),
+      loadJson(() => import('./data/biochemistry-lecture12-data.json')),
     ])
-    const groups = [...biochemistryContent.groups, ...biochemistryLecture2Content.groups, ...biochemistryLecture3Content.groups, ...biochemistryLecture4Content.groups, ...biochemistryLecture5Content.groups, ...biochemistryLecture6Content.groups, ...biochemistryLecture7Content.groups, ...biochemistryLecture8Content.groups, ...biochemistryLecture9Content.groups, ...biochemistryLecture10Content.groups, ...biochemistryLecture11Content.groups].map((group) => ({
+    const groups = [...biochemistryContent.groups, ...biochemistryLecture2Content.groups, ...biochemistryLecture3Content.groups, ...biochemistryLecture4Content.groups, ...biochemistryLecture5Content.groups, ...biochemistryLecture6Content.groups, ...biochemistryLecture7Content.groups, ...biochemistryLecture8Content.groups, ...biochemistryLecture9Content.groups, ...biochemistryLecture10Content.groups, ...biochemistryLecture11Content.groups, ...biochemistryLecture12Content.groups].map((group) => ({
       ...group,
       topic: biochemistryParentForTopic(group.topic) || group.topic,
     }))
@@ -103,15 +104,15 @@ const CONTENT_LOADERS = {
       meta: {
         ...biochemistryContent.meta,
         title: '生物化学题库',
-        lectureCount: 11,
-        groupCount: biochemistryContent.groups.length + biochemistryLecture2Content.groups.length + biochemistryLecture3Content.groups.length + biochemistryLecture4Content.groups.length + biochemistryLecture5Content.groups.length + biochemistryLecture6Content.groups.length + biochemistryLecture7Content.groups.length + biochemistryLecture8Content.groups.length + biochemistryLecture9Content.groups.length + biochemistryLecture10Content.groups.length + biochemistryLecture11Content.groups.length,
-        stemCount: biochemistryContent.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture2Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture3Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture4Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture5Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture6Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture7Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture8Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture9Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture10Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture11Content.groups.reduce((sum, group) => sum + group.stems.length, 0),
-        answerNote: '已收录第 01～11 讲题组；每题均只关联本讲讲义页，选项与答案均已按讲义复核。',
+        lectureCount: 12,
+        groupCount: biochemistryContent.groups.length + biochemistryLecture2Content.groups.length + biochemistryLecture3Content.groups.length + biochemistryLecture4Content.groups.length + biochemistryLecture5Content.groups.length + biochemistryLecture6Content.groups.length + biochemistryLecture7Content.groups.length + biochemistryLecture8Content.groups.length + biochemistryLecture9Content.groups.length + biochemistryLecture10Content.groups.length + biochemistryLecture11Content.groups.length + biochemistryLecture12Content.groups.length,
+        stemCount: biochemistryContent.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture2Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture3Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture4Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture5Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture6Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture7Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture8Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture9Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture10Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture11Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture12Content.groups.reduce((sum, group) => sum + group.stems.length, 0),
+        answerNote: '已收录第 01～12 讲题组；每题均只关联本讲讲义页，选项与答案均已按讲义复核。',
       },
-      topics: ['糖代谢', '生物氧化', '脂代谢', '氨基酸与蛋白质', '核苷酸代谢', '胆色素代谢与生物转化'],
+      topics: ['糖代谢', '生物氧化', '脂代谢', '氨基酸与蛋白质', '核苷酸代谢', '胆色素代谢与生物转化', '酶'],
       groups,
-      pages: [...biochemistryContent.pages, ...biochemistryLecture2Content.pages, ...biochemistryLecture3Content.pages, ...biochemistryLecture4Content.pages, ...biochemistryLecture5Content.pages, ...biochemistryLecture6Content.pages, ...biochemistryLecture7Content.pages, ...biochemistryLecture8Content.pages, ...biochemistryLecture9Content.pages, ...biochemistryLecture10Content.pages, ...biochemistryLecture11Content.pages],
-      lectures: [...biochemistryContent.lectures, ...biochemistryLecture2Content.lectures, ...biochemistryLecture3Content.lectures, ...biochemistryLecture4Content.lectures, ...biochemistryLecture5Content.lectures, ...biochemistryLecture6Content.lectures, ...biochemistryLecture7Content.lectures, ...biochemistryLecture8Content.lectures, ...biochemistryLecture9Content.lectures, ...biochemistryLecture10Content.lectures, ...biochemistryLecture11Content.lectures],
+      pages: [...biochemistryContent.pages, ...biochemistryLecture2Content.pages, ...biochemistryLecture3Content.pages, ...biochemistryLecture4Content.pages, ...biochemistryLecture5Content.pages, ...biochemistryLecture6Content.pages, ...biochemistryLecture7Content.pages, ...biochemistryLecture8Content.pages, ...biochemistryLecture9Content.pages, ...biochemistryLecture10Content.pages, ...biochemistryLecture11Content.pages, ...biochemistryLecture12Content.pages],
+      lectures: [...biochemistryContent.lectures, ...biochemistryLecture2Content.lectures, ...biochemistryLecture3Content.lectures, ...biochemistryLecture4Content.lectures, ...biochemistryLecture5Content.lectures, ...biochemistryLecture6Content.lectures, ...biochemistryLecture7Content.lectures, ...biochemistryLecture8Content.lectures, ...biochemistryLecture9Content.lectures, ...biochemistryLecture10Content.lectures, ...biochemistryLecture11Content.lectures, ...biochemistryLecture12Content.lectures],
     }
   },
 }
@@ -172,6 +173,7 @@ const TOPIC_ICONS = {
   氨基酸与蛋白质: 'book',
   核苷酸代谢: 'book',
   胆色素代谢与生物转化: 'book',
+  酶: 'spark',
 }
 
 const BIOCHEMISTRY_DIRECTORY = {

@@ -1,0 +1,1284 @@
+{
+  "meta": {
+    "title": "生物化学第 12 讲题库",
+    "sourceLabel": "生化第 12 讲学成选择题（酶）",
+    "sourcePages": 1,
+    "lectureCount": 1,
+    "groupCount": 8,
+    "stemCount": 39,
+    "correctionGroupCount": 0,
+    "generatedBy": "scripts/build_biochemistry_lecture12.py",
+    "siteIntegrated": true,
+    "lectureLinked": true,
+    "answerNote": "仅收录第 12 讲《酶》范围内题目；每组选择题选项均已重新打散，答案已按讲义与思维导图复核。"
+  },
+  "topics": [
+    "全部",
+    "酶",
+    "综合"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image": "",
+      "topic": "酶",
+      "searchText": "活性中心、同工酶与葡萄糖激酶"
+    },
+    {
+      "page": 2,
+      "image": "",
+      "topic": "酶",
+      "searchText": "酶与一般催化剂的不同点"
+    },
+    {
+      "page": 3,
+      "image": "",
+      "topic": "酶",
+      "searchText": "酶的调节"
+    },
+    {
+      "page": 4,
+      "image": "",
+      "topic": "酶",
+      "searchText": "酶促反应速率与Km"
+    },
+    {
+      "page": 5,
+      "image": "",
+      "topic": "酶",
+      "searchText": "抑制剂总分类"
+    },
+    {
+      "page": 6,
+      "image": "",
+      "topic": "酶",
+      "searchText": "不可逆抑制剂"
+    },
+    {
+      "page": 7,
+      "image": "",
+      "topic": "酶",
+      "searchText": "三种可逆抑制"
+    },
+    {
+      "page": 8,
+      "image": "",
+      "topic": "酶",
+      "searchText": "结合酶、酶蛋白与辅因子"
+    }
+  ],
+  "groups": [
+    {
+      "id": "bio-12-01",
+      "page": 1,
+      "title": "活性中心、同工酶与葡萄糖激酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "对葡萄糖亲和力较低"
+        },
+        {
+          "key": "B",
+          "label": "活性中心类似"
+        },
+        {
+          "key": "C",
+          "label": "主要受激素调节"
+        },
+        {
+          "key": "D",
+          "label": "胰岛素可诱导其合成"
+        },
+        {
+          "key": "E",
+          "label": "H₄型"
+        },
+        {
+          "key": "F",
+          "label": "高血糖时有利于肝摄取、利用葡萄糖"
+        },
+        {
+          "key": "G",
+          "label": "Km较低"
+        },
+        {
+          "key": "H",
+          "label": "富含于心肌"
+        },
+        {
+          "key": "I",
+          "label": "催化相同反应"
+        },
+        {
+          "key": "J",
+          "label": "M₄型"
+        },
+        {
+          "key": "K",
+          "label": "其他特性不同"
+        },
+        {
+          "key": "L",
+          "label": "结合基团"
+        },
+        {
+          "key": "M",
+          "label": "可作为变构调节剂、非竞争抑制剂和反竞争抑制剂等某些物质的结合部位"
+        },
+        {
+          "key": "N",
+          "label": "稳定酶的构象"
+        },
+        {
+          "key": "O",
+          "label": "催化基团"
+        },
+        {
+          "key": "P",
+          "label": "富含于骨骼肌、肝"
+        },
+        {
+          "key": "Q",
+          "label": "Km较高"
+        },
+        {
+          "key": "R",
+          "label": "对葡萄糖亲和力较高"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "活性中心内的必需基团",
+          "answerRaw": "L、O",
+          "answer": [
+            "L",
+            "O"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "活性中心外的必需基团",
+          "answerRaw": "N、M",
+          "answer": [
+            "N",
+            "M"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "同工酶",
+          "answerRaw": "B、K、I",
+          "answer": [
+            "B",
+            "K",
+            "I"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "葡萄糖激酶",
+          "answerRaw": "D、C、F、Q、A",
+          "answer": [
+            "D",
+            "C",
+            "F",
+            "Q",
+            "A"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "LDH₁",
+          "answerRaw": "H、E",
+          "answer": [
+            "H",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 6,
+          "text": "LDH₅",
+          "answerRaw": "P、J",
+          "answer": [
+            "P",
+            "J"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "活性中心、同工酶与葡萄糖激酶",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "酶",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生化 酶",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-12-page-01.webp",
+        "title": "第 12 讲《生化 酶》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 12 讲及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-12-02",
+      "page": 2,
+      "title": "酶与一般催化剂的不同点",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "相对特异性：针对一类化合物或一种化学键"
+        },
+        {
+          "key": "B",
+          "label": "绝对特异性：针对特定结构或立体异构体"
+        },
+        {
+          "key": "C",
+          "label": "底物与酶相互诱导"
+        },
+        {
+          "key": "D",
+          "label": "使诸底物正确定位于活性中心"
+        },
+        {
+          "key": "E",
+          "label": "活性中心形成疏水环境"
+        },
+        {
+          "key": "F",
+          "label": "更有效地降低反应活化能"
+        },
+        {
+          "key": "G",
+          "label": "不改变反应平衡点"
+        },
+        {
+          "key": "H",
+          "label": "使底物去溶剂化"
+        },
+        {
+          "key": "I",
+          "label": "酸碱催化：发生质子转移"
+        },
+        {
+          "key": "J",
+          "label": "反应前后催化剂的质量和化学性质不变"
+        },
+        {
+          "key": "K",
+          "label": "可被调节"
+        },
+        {
+          "key": "L",
+          "label": "防止形成水化膜"
+        },
+        {
+          "key": "M",
+          "label": "使诸底物彼此接近"
+        },
+        {
+          "key": "N",
+          "label": "反应条件较温和"
+        },
+        {
+          "key": "O",
+          "label": "引起酶或底物构象改变"
+        },
+        {
+          "key": "P",
+          "label": "共价催化：涉及亲核 / 亲电子作用"
+        },
+        {
+          "key": "Q",
+          "label": "催化单向反应"
+        },
+        {
+          "key": "R",
+          "label": "只催化热力学允许的反应"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "催化效率更高",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "诱导契合",
+          "answerRaw": "O、C",
+          "answer": [
+            "O",
+            "C"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "邻近效应与定向排列",
+          "answerRaw": "D、M",
+          "answer": [
+            "D",
+            "M"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "表面效应",
+          "answerRaw": "E、L、H",
+          "answer": [
+            "E",
+            "L",
+            "H"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "多元催化",
+          "answerRaw": "P、I",
+          "answer": [
+            "P",
+            "I"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 6,
+          "text": "特异性更高",
+          "answerRaw": "B、A",
+          "answer": [
+            "B",
+            "A"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 7,
+          "text": "不稳定性",
+          "answerRaw": "N",
+          "answer": [
+            "N"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "关键酶 / 限速酶",
+          "answerRaw": "Q、K",
+          "answer": [
+            "Q",
+            "K"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "酶与一般催化剂的不同点",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "酶",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生化 酶",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-12-page-03.webp",
+        "title": "第 12 讲《生化 酶》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 12 讲及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-12-03",
+      "page": 3,
+      "title": "酶的调节",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "可消耗ATP"
+        },
+        {
+          "key": "B",
+          "label": "甲基化 / 去甲基化"
+        },
+        {
+          "key": "C",
+          "label": "改变酶的一级结构"
+        },
+        {
+          "key": "D",
+          "label": "水解特定肽链"
+        },
+        {
+          "key": "E",
+          "label": "共价键发生变化"
+        },
+        {
+          "key": "F",
+          "label": "常由代谢物进行反馈调节"
+        },
+        {
+          "key": "G",
+          "label": "酶的合成：诱导和阻遏"
+        },
+        {
+          "key": "H",
+          "label": "具有放大效应"
+        },
+        {
+          "key": "I",
+          "label": "主要改变酶的活性"
+        },
+        {
+          "key": "J",
+          "label": "乙酰化 / 去乙酰化"
+        },
+        {
+          "key": "K",
+          "label": "常由激素介导"
+        },
+        {
+          "key": "L",
+          "label": "调节物与活性中心外的必需基团可逆结合"
+        },
+        {
+          "key": "M",
+          "label": "改变酶的构象"
+        },
+        {
+          "key": "N",
+          "label": "主要改变酶的含量"
+        },
+        {
+          "key": "O",
+          "label": "非共价键发生变化"
+        },
+        {
+          "key": "P",
+          "label": "酶的降解"
+        },
+        {
+          "key": "Q",
+          "label": "常呈S型动力学曲线"
+        },
+        {
+          "key": "R",
+          "label": "腺苷化 / 去腺苷化"
+        },
+        {
+          "key": "S",
+          "label": "-SH 与 -S-S- 互变"
+        },
+        {
+          "key": "T",
+          "label": "形成或暴露活性中心"
+        },
+        {
+          "key": "U",
+          "label": "磷酸化 / 去磷酸化（最常见）"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "缓慢调节",
+          "answerRaw": "P、N、G",
+          "answer": [
+            "P",
+            "N",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "酶原激活",
+          "answerRaw": "D、C、T、I",
+          "answer": [
+            "D",
+            "C",
+            "T",
+            "I"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "化学修饰",
+          "answerRaw": "R、K、U、B、H、J、I、S、E、A",
+          "answer": [
+            "R",
+            "K",
+            "U",
+            "B",
+            "H",
+            "J",
+            "I",
+            "S",
+            "E",
+            "A"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "变构调节",
+          "answerRaw": "O、Q、L、M、F、I",
+          "answer": [
+            "O",
+            "Q",
+            "L",
+            "M",
+            "F",
+            "I"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "酶的调节",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "酶",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生化 酶",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-12-page-03.webp",
+        "title": "第 12 讲《生化 酶》· 第 3 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 12 讲及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-12-04",
+      "page": 4,
+      "title": "酶促反应速率与Km",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "只与底物浓度有关"
+        },
+        {
+          "key": "B",
+          "label": "直线"
+        },
+        {
+          "key": "C",
+          "label": "Km越高，酶与底物的亲和力越高"
+        },
+        {
+          "key": "D",
+          "label": "与温度、pH、离子强度等反应环境有关"
+        },
+        {
+          "key": "E",
+          "label": "S型曲线"
+        },
+        {
+          "key": "F",
+          "label": "钟形曲线"
+        },
+        {
+          "key": "G",
+          "label": "与酶浓度无关"
+        },
+        {
+          "key": "H",
+          "label": "V＝1/2 Vmax 时的底物浓度"
+        },
+        {
+          "key": "I",
+          "label": "Km越高，酶与底物的亲和力越低"
+        },
+        {
+          "key": "J",
+          "label": "矩形双曲线"
+        },
+        {
+          "key": "K",
+          "label": "与底物结构有关"
+        },
+        {
+          "key": "L",
+          "label": "与酶结构有关"
+        },
+        {
+          "key": "M",
+          "label": "使酶活性最大"
+        },
+        {
+          "key": "N",
+          "label": "表示最大反应速度"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "底物浓度对酶促反应速率的影响",
+          "answerRaw": "J",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "酶浓度对酶促反应速率的影响",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "变构调节",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "温度、pH对酶促反应速率的影响",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "Km",
+          "answerRaw": "L、H、K、I、D、G",
+          "answer": [
+            "L",
+            "H",
+            "K",
+            "I",
+            "D",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 6,
+          "text": "最适温度、最适pH",
+          "answerRaw": "M",
+          "answer": [
+            "M"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "酶促反应速率与Km",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "酶",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生化 酶",
+        "page": 4,
+        "image": "biochemistry/lecture-pages/lecture-12-page-04.webp",
+        "title": "第 12 讲《生化 酶》· 第 4 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 12 讲及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-12-05",
+      "page": 5,
+      "title": "抑制剂总分类",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "必然导致酶蛋白变性"
+        },
+        {
+          "key": "B",
+          "label": "包括反竞争性抑制"
+        },
+        {
+          "key": "C",
+          "label": "与酶非共价结合"
+        },
+        {
+          "key": "D",
+          "label": "包括竞争性抑制"
+        },
+        {
+          "key": "E",
+          "label": "增加底物浓度均可解除抑制"
+        },
+        {
+          "key": "F",
+          "label": "使酶活性下降"
+        },
+        {
+          "key": "G",
+          "label": "不能用透析或超滤去除"
+        },
+        {
+          "key": "H",
+          "label": "不引起酶蛋白变性"
+        },
+        {
+          "key": "I",
+          "label": "能用透析或超滤去除"
+        },
+        {
+          "key": "J",
+          "label": "与酶活性中心的必需基团共价结合"
+        },
+        {
+          "key": "K",
+          "label": "包括非竞争性抑制"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "酶抑制剂",
+          "answerRaw": "H、F",
+          "answer": [
+            "H",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "不可逆抑制",
+          "answerRaw": "J、G",
+          "answer": [
+            "J",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "可逆抑制",
+          "answerRaw": "I、D、C、K、B",
+          "answer": [
+            "I",
+            "D",
+            "C",
+            "K",
+            "B"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "抑制剂总分类",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "酶",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生化 酶",
+        "page": 5,
+        "image": "biochemistry/lecture-pages/lecture-12-page-05.webp",
+        "title": "第 12 讲《生化 酶》· 第 5 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 12 讲及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-12-06",
+      "page": 6,
+      "title": "不可逆抑制剂",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "可通过透析去除"
+        },
+        {
+          "key": "B",
+          "label": "结合蛋白酶的巯基等"
+        },
+        {
+          "key": "C",
+          "label": "解毒剂为二巯基丙醇"
+        },
+        {
+          "key": "D",
+          "label": "属于竞争性抑制"
+        },
+        {
+          "key": "E",
+          "label": "解毒剂为解磷定"
+        },
+        {
+          "key": "F",
+          "label": "增加底物浓度即可完全解除"
+        },
+        {
+          "key": "G",
+          "label": "属于不可逆抑制"
+        },
+        {
+          "key": "H",
+          "label": "结合胆碱酯酶"
+        },
+        {
+          "key": "I",
+          "label": "结合丝氨酸的羟基"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "有机磷农药",
+          "answerRaw": "G、H、I、E",
+          "answer": [
+            "G",
+            "H",
+            "I",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "低浓度重金属离子 / 路易士气",
+          "answerRaw": "G、B、C",
+          "answer": [
+            "G",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "不可逆抑制剂",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "酶",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生化 酶",
+        "page": 5,
+        "image": "biochemistry/lecture-pages/lecture-12-page-05.webp",
+        "title": "第 12 讲《生化 酶》· 第 5 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 12 讲及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-12-07",
+      "page": 7,
+      "title": "三种可逆抑制",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "抑制程度与抑制剂和酶的相对亲和力有关"
+        },
+        {
+          "key": "B",
+          "label": "Vmax不变"
+        },
+        {
+          "key": "C",
+          "label": "抑制剂既可与游离酶结合，也可与酶-底物复合物结合"
+        },
+        {
+          "key": "D",
+          "label": "抑制剂仅与游离酶结合"
+        },
+        {
+          "key": "E",
+          "label": "磺胺抑制二氢蝶酸合酶"
+        },
+        {
+          "key": "F",
+          "label": "抑制剂仅与酶-底物复合物结合"
+        },
+        {
+          "key": "G",
+          "label": "苯丙氨酸抑制胎盘型碱性磷酸酶"
+        },
+        {
+          "key": "H",
+          "label": "Km升高"
+        },
+        {
+          "key": "I",
+          "label": "与底物结合于活性中心内相同的结合部位"
+        },
+        {
+          "key": "J",
+          "label": "抑制程度随底物浓度增大而增大"
+        },
+        {
+          "key": "K",
+          "label": "抑制剂与底物结构相似"
+        },
+        {
+          "key": "L",
+          "label": "Vmax降低"
+        },
+        {
+          "key": "M",
+          "label": "核苷酸抗代谢物"
+        },
+        {
+          "key": "N",
+          "label": "抑制剂与底物结构不相似"
+        },
+        {
+          "key": "O",
+          "label": "抑制程度与底物浓度无关"
+        },
+        {
+          "key": "P",
+          "label": "Km降低"
+        },
+        {
+          "key": "Q",
+          "label": "麦芽糖抑制淀粉酶"
+        },
+        {
+          "key": "R",
+          "label": "哇巴因抑制钠钾泵"
+        },
+        {
+          "key": "S",
+          "label": "亮氨酸抑制精氨酸酶"
+        },
+        {
+          "key": "T",
+          "label": "Km不变"
+        },
+        {
+          "key": "U",
+          "label": "与活性中心外的必需基团结合"
+        },
+        {
+          "key": "V",
+          "label": "丙二酸抑制琥珀酸脱氢酶"
+        },
+        {
+          "key": "W",
+          "label": "抑制程度与抑制剂和底物浓度的相对比例有关"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "竞争性抑制",
+          "answerRaw": "V、D、K、M、H、I、A、E、W、B",
+          "answer": [
+            "V",
+            "D",
+            "K",
+            "M",
+            "H",
+            "I",
+            "A",
+            "E",
+            "W",
+            "B"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "非竞争性抑制",
+          "answerRaw": "C、N、Q、O、T、R、L、U、S",
+          "answer": [
+            "C",
+            "N",
+            "Q",
+            "O",
+            "T",
+            "R",
+            "L",
+            "U",
+            "S"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "反竞争性抑制",
+          "answerRaw": "J、N、P、F、G、L、U",
+          "answer": [
+            "J",
+            "N",
+            "P",
+            "F",
+            "G",
+            "L",
+            "U"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "三种可逆抑制",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "酶",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生化 酶",
+        "page": 5,
+        "image": "biochemistry/lecture-pages/lecture-12-page-05.webp",
+        "title": "第 12 讲《生化 酶》· 第 5 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 12 讲及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-12-08",
+      "page": 8,
+      "title": "结合酶、酶蛋白与辅因子",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "作为活性中心内的组成成分"
+        },
+        {
+          "key": "B",
+          "label": "传递氢"
+        },
+        {
+          "key": "C",
+          "label": "传递电子"
+        },
+        {
+          "key": "D",
+          "label": "可用透析或超滤与酶蛋白分离"
+        },
+        {
+          "key": "E",
+          "label": "作为活性中心内连接酶与底物的桥梁"
+        },
+        {
+          "key": "F",
+          "label": "没有辅因子"
+        },
+        {
+          "key": "G",
+          "label": "结合酶必须依靠辅因子才有催化活性"
+        },
+        {
+          "key": "H",
+          "label": "与酶蛋白结合较疏松"
+        },
+        {
+          "key": "I",
+          "label": "决定反应类型"
+        },
+        {
+          "key": "J",
+          "label": "没有四级结构"
+        },
+        {
+          "key": "K",
+          "label": "稳定酶的构象"
+        },
+        {
+          "key": "L",
+          "label": "传递基团（如甲基）"
+        },
+        {
+          "key": "M",
+          "label": "决定酶的特异性"
+        },
+        {
+          "key": "N",
+          "label": "一种酶蛋白多数只与一种辅因子结合"
+        },
+        {
+          "key": "O",
+          "label": "中和阴离子以降低静电斥力"
+        },
+        {
+          "key": "P",
+          "label": "与酶蛋白形成牢固共价键"
+        },
+        {
+          "key": "Q",
+          "label": "辅因子可与多种酶蛋白结合"
+        },
+        {
+          "key": "R",
+          "label": "与酶蛋白以非共价键结合"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "酶蛋白",
+          "answerRaw": "M",
+          "answer": [
+            "M"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "辅因子",
+          "answerRaw": "Q、I、G、N",
+          "answer": [
+            "Q",
+            "I",
+            "G",
+            "N"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "维生素B类辅因子",
+          "answerRaw": "B、L、C",
+          "answer": [
+            "B",
+            "L",
+            "C"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "金属离子",
+          "answerRaw": "K、E、O、A",
+          "answer": [
+            "K",
+            "E",
+            "O",
+            "A"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "单纯酶",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "单体酶",
+          "answerRaw": "J",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "辅酶",
+          "answerRaw": "D、R、H",
+          "answer": [
+            "D",
+            "R",
+            "H"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "结合酶、酶蛋白与辅因子",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "酶",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生化 酶",
+        "page": 6,
+        "image": "biochemistry/lecture-pages/lecture-12-page-06.webp",
+        "title": "第 12 讲《生化 酶》· 第 6 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 12 讲及配套思维导图逐项复核。"
+      }
+    }
+  ],
+  "lectures": [
+    {
+      "id": "lecture-12",
+      "number": 12,
+      "title": "生化 酶",
+      "pageCount": 9
+    }
+  ]
+}
