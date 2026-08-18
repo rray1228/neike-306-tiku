@@ -1,0 +1,776 @@
+{
+  "meta": {
+    "title": "生物化学第 11 讲题库",
+    "sourceLabel": "胆色素代谢与生物转化学成选择题（生物转化）",
+    "sourcePages": 1,
+    "lectureCount": 1,
+    "groupCount": 5,
+    "stemCount": 29,
+    "correctionGroupCount": 0,
+    "generatedBy": "scripts/build_biochemistry_lecture10_11.py",
+    "siteIntegrated": true,
+    "lectureLinked": true,
+    "answerNote": "仅收录第 11 讲《生化 生物转化》范围内题目；选项已逐组打散，答案按讲义与思维导图复核。"
+  },
+  "topics": [
+    "全部",
+    "胆色素代谢与生物转化",
+    "综合"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image": "",
+      "topic": "胆色素代谢与生物转化",
+      "searchText": "生物转化概述与Ⅰ相、Ⅱ相反应"
+    },
+    {
+      "page": 2,
+      "image": "",
+      "topic": "胆色素代谢与生物转化",
+      "searchText": "Ⅰ相反应的氧化酶类"
+    },
+    {
+      "page": 3,
+      "image": "",
+      "topic": "胆色素代谢与生物转化",
+      "searchText": "Ⅱ相结合反应：供体、酶与定位"
+    },
+    {
+      "page": 4,
+      "image": "",
+      "topic": "胆色素代谢与生物转化",
+      "searchText": "苯巴比妥"
+    },
+    {
+      "page": 5,
+      "image": "",
+      "topic": "胆色素代谢与生物转化",
+      "searchText": "生物转化：解毒不等于一定无毒"
+    }
+  ],
+  "groups": [
+    {
+      "id": "bio-11-01",
+      "page": 1,
+      "title": "生物转化概述与Ⅰ相、Ⅱ相反应",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "磷酸化反应"
+        },
+        {
+          "key": "B",
+          "label": "结合反应"
+        },
+        {
+          "key": "C",
+          "label": "使多数非营养物质水溶性增强"
+        },
+        {
+          "key": "D",
+          "label": "可产生解毒作用，也可能产生致毒作用"
+        },
+        {
+          "key": "E",
+          "label": "还原反应"
+        },
+        {
+          "key": "F",
+          "label": "使极性增强"
+        },
+        {
+          "key": "G",
+          "label": "第一相反应"
+        },
+        {
+          "key": "H",
+          "label": "氧化反应"
+        },
+        {
+          "key": "I",
+          "label": "使多数非营养物质水溶性降低"
+        },
+        {
+          "key": "J",
+          "label": "水解反应"
+        },
+        {
+          "key": "K",
+          "label": "第二相反应"
+        },
+        {
+          "key": "L",
+          "label": "所有物质均必须先经过Ⅰ相再经过Ⅱ相"
+        },
+        {
+          "key": "M",
+          "label": "可使某些激素灭活"
+        },
+        {
+          "key": "N",
+          "label": "使所有毒物完全失活"
+        },
+        {
+          "key": "O",
+          "label": "使多数非营养物质活性降低"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "生物转化通常产生的总体变化",
+          "answerRaw": "C、M、O、F",
+          "answer": [
+            "C",
+            "M",
+            "O",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "生物转化的特点",
+          "answerRaw": "M、O、D",
+          "answer": [
+            "M",
+            "O",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "属于Ⅰ相反应",
+          "answerRaw": "J、E、H",
+          "answer": [
+            "J",
+            "E",
+            "H"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "Ⅰ相反应中最常见",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "Ⅱ相反应主要是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "“多数非营养物质水溶性降低”对应",
+          "answerRaw": "I",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "生物转化概述与Ⅰ相、Ⅱ相反应",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "胆色素代谢与生物转化",
+      "lectureIds": [
+        "lecture-11"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-11",
+        "lectureNumber": 11,
+        "lectureTitle": "生化 生物转化",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-11-page-01.webp",
+        "title": "第 11 讲《生化 生物转化》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 11 讲及思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-11-02",
+      "page": 2,
+      "title": "Ⅰ相反应的氧化酶类",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "细胞色素氧化酶"
+        },
+        {
+          "key": "B",
+          "label": "醛脱氢酶"
+        },
+        {
+          "key": "C",
+          "label": "葡萄糖醛酸结合"
+        },
+        {
+          "key": "D",
+          "label": "乙醇→乙醛"
+        },
+        {
+          "key": "E",
+          "label": "肝线粒体"
+        },
+        {
+          "key": "F",
+          "label": "单胺氧化酶"
+        },
+        {
+          "key": "G",
+          "label": "UDP-葡萄糖醛酸基转移酶"
+        },
+        {
+          "key": "H",
+          "label": "细胞核"
+        },
+        {
+          "key": "I",
+          "label": "谷胱甘肽过氧化物酶"
+        },
+        {
+          "key": "J",
+          "label": "肝内质网"
+        },
+        {
+          "key": "K",
+          "label": "细胞色素 P450"
+        },
+        {
+          "key": "L",
+          "label": "乙醛→乙酸"
+        },
+        {
+          "key": "M",
+          "label": "羟化酶/单加氧酶"
+        },
+        {
+          "key": "N",
+          "label": "醇脱氢酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "肝细胞中氧化非营养物质的主要酶类",
+          "answerRaw": "M",
+          "answer": [
+            "M"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "单加氧酶/羟化酶主要依靠的酶系统",
+          "answerRaw": "K",
+          "answer": [
+            "K"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "上述酶系统主要位于",
+          "answerRaw": "J",
+          "answer": [
+            "J"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "肝线粒体中参与生物转化的氧化酶",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "催化乙醇→乙醛",
+          "answerRaw": "N",
+          "answer": [
+            "N"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "催化乙醛→乙酸",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "参与肝生物转化Ⅰ相反应的酶",
+          "answerRaw": "B、F、K、N、M",
+          "answer": [
+            "B",
+            "F",
+            "K",
+            "N",
+            "M"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 8,
+          "text": "属于Ⅱ相结合反应的酶",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "Ⅰ相反应的氧化酶类",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "胆色素代谢与生物转化",
+      "lectureIds": [
+        "lecture-11"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-11",
+        "lectureNumber": 11,
+        "lectureTitle": "生化 生物转化",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-11-page-01.webp",
+        "title": "第 11 讲《生化 生物转化》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 11 讲及思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-11-03",
+      "page": 3,
+      "title": "Ⅱ相结合反应：供体、酶与定位",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "甲基转移酶"
+        },
+        {
+          "key": "B",
+          "label": "UDPGA"
+        },
+        {
+          "key": "C",
+          "label": "葡萄糖醛酸基转移酶"
+        },
+        {
+          "key": "D",
+          "label": "乙酰 CoA"
+        },
+        {
+          "key": "E",
+          "label": "PAPS"
+        },
+        {
+          "key": "F",
+          "label": "细胞核"
+        },
+        {
+          "key": "G",
+          "label": "单加氧酶"
+        },
+        {
+          "key": "H",
+          "label": "溶酶体"
+        },
+        {
+          "key": "I",
+          "label": "NADPH"
+        },
+        {
+          "key": "J",
+          "label": "SAM"
+        },
+        {
+          "key": "K",
+          "label": "细胞质"
+        },
+        {
+          "key": "L",
+          "label": "线粒体"
+        },
+        {
+          "key": "M",
+          "label": "谷胱甘肽过氧化物酶"
+        },
+        {
+          "key": "N",
+          "label": "硫酸转移酶"
+        },
+        {
+          "key": "O",
+          "label": "磷酸吡哆醛"
+        },
+        {
+          "key": "P",
+          "label": "甘氨酸"
+        },
+        {
+          "key": "Q",
+          "label": "酰基转移酶"
+        },
+        {
+          "key": "R",
+          "label": "GSH"
+        },
+        {
+          "key": "S",
+          "label": "乙酰基转移酶"
+        },
+        {
+          "key": "T",
+          "label": "内质网"
+        },
+        {
+          "key": "U",
+          "label": "谷胱甘肽-S-转移酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "葡萄糖醛酸结合：供体、酶与定位",
+          "answerRaw": "B、C、T",
+          "answer": [
+            "B",
+            "C",
+            "T"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "硫酸结合：供体、酶与定位",
+          "answerRaw": "E、N、K",
+          "answer": [
+            "E",
+            "N",
+            "K"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "乙酰基结合：供体、酶与定位",
+          "answerRaw": "D、S、K",
+          "answer": [
+            "D",
+            "S",
+            "K"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "谷胱甘肽结合：供体、酶与定位",
+          "answerRaw": "R、U、K",
+          "answer": [
+            "R",
+            "U",
+            "K"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "甲基结合：供体、酶与定位",
+          "answerRaw": "J、A、K",
+          "answer": [
+            "J",
+            "A",
+            "K"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 6,
+          "text": "甘氨酰基结合：供体、酶与定位",
+          "answerRaw": "P、Q、L",
+          "answer": [
+            "P",
+            "Q",
+            "L"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "Ⅱ相结合反应：供体、酶与定位",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "胆色素代谢与生物转化",
+      "lectureIds": [
+        "lecture-11"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-11",
+        "lectureNumber": 11,
+        "lectureTitle": "生化 生物转化",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-11-page-01.webp",
+        "title": "第 11 讲《生化 生物转化》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 11 讲及思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-11-04",
+      "page": 4,
+      "title": "苯巴比妥",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "抑制肝微粒体单加氧酶"
+        },
+        {
+          "key": "B",
+          "label": "增加胆红素结合"
+        },
+        {
+          "key": "C",
+          "label": "诱导肝微粒体 UDP-葡萄糖醛酸基转移酶合成"
+        },
+        {
+          "key": "D",
+          "label": "抑制细胞色素 P450 合成"
+        },
+        {
+          "key": "E",
+          "label": "可用于新生儿黄疸"
+        },
+        {
+          "key": "F",
+          "label": "减少胆红素与葡萄糖醛酸结合"
+        },
+        {
+          "key": "G",
+          "label": "诱导肝微粒体单加氧酶合成"
+        },
+        {
+          "key": "H",
+          "label": "促进未结合胆红素向结合胆红素转化"
+        },
+        {
+          "key": "I",
+          "label": "长期应用可产生耐药性"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "苯巴比妥长期应用产生耐药性的机制及结果",
+          "answerRaw": "I、G",
+          "answer": [
+            "I",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "苯巴比妥影响胆红素代谢的机制及结果",
+          "answerRaw": "C、B、E、H",
+          "answer": [
+            "C",
+            "B",
+            "E",
+            "H"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "苯巴比妥",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "胆色素代谢与生物转化",
+      "lectureIds": [
+        "lecture-11"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-11",
+        "lectureNumber": 11,
+        "lectureTitle": "生化 生物转化",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-11-page-01.webp",
+        "title": "第 11 讲《生化 生物转化》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 11 讲及思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-11-05",
+      "page": 5,
+      "title": "生物转化：解毒不等于一定无毒",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "环氧黄曲霉毒素"
+        },
+        {
+          "key": "B",
+          "label": "腺嘌呤"
+        },
+        {
+          "key": "C",
+          "label": "单加氧酶"
+        },
+        {
+          "key": "D",
+          "label": "DNA 突变"
+        },
+        {
+          "key": "E",
+          "label": "黄曲霉毒素 B₁"
+        },
+        {
+          "key": "F",
+          "label": "胆红素"
+        },
+        {
+          "key": "G",
+          "label": "解毒与致毒具有双重性"
+        },
+        {
+          "key": "H",
+          "label": "鸟嘌呤"
+        },
+        {
+          "key": "I",
+          "label": "肝癌"
+        },
+        {
+          "key": "J",
+          "label": "葡萄糖醛酸基转移酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "生物转化具有致毒双重性的经典例子",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "将其转化为活性更强中间产物的酶类",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "形成的活性中间产物",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "该产物可与 DNA 中结合的碱基",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "后续可能导致的分子变化",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "最终可增加的疾病风险",
+          "answerRaw": "I",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "这一过程说明的特点",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "生物转化：解毒不等于一定无毒",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "胆色素代谢与生物转化",
+      "lectureIds": [
+        "lecture-11"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-11",
+        "lectureNumber": 11,
+        "lectureTitle": "生化 生物转化",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-11-page-01.webp",
+        "title": "第 11 讲《生化 生物转化》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 11 讲及思维导图逐项复核。"
+      }
+    }
+  ],
+  "lectures": [
+    {
+      "id": "lecture-11",
+      "number": 11,
+      "title": "生化 生物转化",
+      "pageCount": 1
+    }
+  ]
+}

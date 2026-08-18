@@ -1,0 +1,848 @@
+{
+  "meta": {
+    "title": "生物化学第 10 讲题库",
+    "sourceLabel": "胆色素代谢与生物转化学成选择题（胆色素代谢）",
+    "sourcePages": 1,
+    "lectureCount": 1,
+    "groupCount": 5,
+    "stemCount": 25,
+    "correctionGroupCount": 0,
+    "generatedBy": "scripts/build_biochemistry_lecture10_11.py",
+    "siteIntegrated": true,
+    "lectureLinked": true,
+    "answerNote": "仅收录第 10 讲《生化 胆色素代谢》范围内题目；选项已逐组打散，答案按讲义与思维导图复核。"
+  },
+  "topics": [
+    "全部",
+    "胆色素代谢与生物转化",
+    "综合"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image": "",
+      "topic": "胆色素代谢与生物转化",
+      "searchText": "血红素的合成"
+    },
+    {
+      "page": 2,
+      "image": "",
+      "topic": "胆色素代谢与生物转化",
+      "searchText": "胆色素的来源、组成与尿三胆"
+    },
+    {
+      "page": 3,
+      "image": "",
+      "topic": "胆色素代谢与生物转化",
+      "searchText": "UCB 与 CB：名称、性质及毒性"
+    },
+    {
+      "page": 4,
+      "image": "",
+      "topic": "胆色素代谢与生物转化",
+      "searchText": "三种黄疸鉴别"
+    },
+    {
+      "page": 5,
+      "image": "",
+      "topic": "胆色素代谢与生物转化",
+      "searchText": "遗传性胆红素代谢障碍"
+    }
+  ],
+  "groups": [
+    {
+      "id": "bio-10-01",
+      "page": 1,
+      "title": "血红素的合成",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "磷酸吡哆醛"
+        },
+        {
+          "key": "B",
+          "label": "ALA 合酶"
+        },
+        {
+          "key": "C",
+          "label": "Fe²⁺"
+        },
+        {
+          "key": "D",
+          "label": "胞质"
+        },
+        {
+          "key": "E",
+          "label": "睾酮"
+        },
+        {
+          "key": "F",
+          "label": "亚铁螯合酶"
+        },
+        {
+          "key": "G",
+          "label": "粪卟啉原氧化酶"
+        },
+        {
+          "key": "H",
+          "label": "血红素加氧酶"
+        },
+        {
+          "key": "I",
+          "label": "血红素"
+        },
+        {
+          "key": "J",
+          "label": "ALA 脱水酶"
+        },
+        {
+          "key": "K",
+          "label": "胆绿素还原酶"
+        },
+        {
+          "key": "L",
+          "label": "NADPH"
+        },
+        {
+          "key": "M",
+          "label": "线粒体"
+        },
+        {
+          "key": "N",
+          "label": "琥珀酰 CoA"
+        },
+        {
+          "key": "O",
+          "label": "成熟红细胞"
+        },
+        {
+          "key": "P",
+          "label": "甘氨酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "血红素合成的原料",
+          "answerRaw": "N、P、C",
+          "answer": [
+            "N",
+            "P",
+            "C"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "血红素合成的限速酶",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "ALA 合酶所需的辅酶",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "可诱导 ALA 合酶",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "对 ALA 合酶具有反馈调节作用",
+          "answerRaw": "I",
+          "answer": [
+            "I"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "血红素合成的起始和终末阶段位于",
+          "answerRaw": "M",
+          "answer": [
+            "M"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "血红素合成的中间阶段位于",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "铅中毒可抑制的酶",
+          "answerRaw": "F、J、G",
+          "answer": [
+            "F",
+            "J",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 9,
+          "text": "催化血红素向胆绿素转化的酶",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 10,
+          "text": "因缺乏线粒体而不能合成血红素的细胞",
+          "answerRaw": "O",
+          "answer": [
+            "O"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "血红素的合成",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "胆色素代谢与生物转化",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-10",
+        "lectureNumber": 10,
+        "lectureTitle": "生化 胆色素代谢",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-10-page-01.webp",
+        "title": "第 10 讲《生化 胆色素代谢》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 10 讲及思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-10-02",
+      "page": 2,
+      "title": "胆色素的来源、组成与尿三胆",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "胆绿素"
+        },
+        {
+          "key": "B",
+          "label": "肌红蛋白"
+        },
+        {
+          "key": "C",
+          "label": "过氧化氢酶"
+        },
+        {
+          "key": "D",
+          "label": "尿胆素"
+        },
+        {
+          "key": "E",
+          "label": "过氧化物酶"
+        },
+        {
+          "key": "F",
+          "label": "尿胆红素"
+        },
+        {
+          "key": "G",
+          "label": "尿胆素原"
+        },
+        {
+          "key": "H",
+          "label": "胆素"
+        },
+        {
+          "key": "I",
+          "label": "胆汁酸"
+        },
+        {
+          "key": "J",
+          "label": "血红素"
+        },
+        {
+          "key": "K",
+          "label": "卟胆原"
+        },
+        {
+          "key": "L",
+          "label": "血红蛋白"
+        },
+        {
+          "key": "M",
+          "label": "胆素原"
+        },
+        {
+          "key": "N",
+          "label": "胆红素"
+        },
+        {
+          "key": "O",
+          "label": "胆固醇"
+        },
+        {
+          "key": "P",
+          "label": "细胞色素"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "可经代谢生成胆红素的铁卟啉蛋白",
+          "answerRaw": "E、L、P、B、C",
+          "answer": [
+            "E",
+            "L",
+            "P",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "人体内胆色素",
+          "answerRaw": "A、N、M、H",
+          "answer": [
+            "A",
+            "N",
+            "M",
+            "H"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "尿三胆",
+          "answerRaw": "F、D、G",
+          "answer": [
+            "F",
+            "D",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "能够生成胆红素的物质",
+          "answerRaw": "E、L、P、B、C",
+          "answer": [
+            "E",
+            "L",
+            "P",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "胆色素的来源、组成与尿三胆",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "胆色素代谢与生物转化",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-10",
+        "lectureNumber": 10,
+        "lectureTitle": "生化 胆色素代谢",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-10-page-01.webp",
+        "title": "第 10 讲《生化 胆色素代谢》· 第 1 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 10 讲及思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-10-03",
+      "page": 3,
+      "title": "UCB 与 CB：名称、性质及毒性",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "毒性较大"
+        },
+        {
+          "key": "B",
+          "label": "二者毒性完全相同"
+        },
+        {
+          "key": "C",
+          "label": "不会出现在尿液中"
+        },
+        {
+          "key": "D",
+          "label": "肝胆红素"
+        },
+        {
+          "key": "E",
+          "label": "游离胆红素"
+        },
+        {
+          "key": "F",
+          "label": "毒性较小"
+        },
+        {
+          "key": "G",
+          "label": "正常情况下二者均大量出现在尿液中"
+        },
+        {
+          "key": "H",
+          "label": "间接胆红素"
+        },
+        {
+          "key": "I",
+          "label": "肝前胆红素"
+        },
+        {
+          "key": "J",
+          "label": "直接胆红素"
+        },
+        {
+          "key": "K",
+          "label": "可出现在尿液中"
+        },
+        {
+          "key": "L",
+          "label": "不易透过细胞膜"
+        },
+        {
+          "key": "M",
+          "label": "易透过细胞膜"
+        },
+        {
+          "key": "N",
+          "label": "非结合胆红素"
+        },
+        {
+          "key": "O",
+          "label": "葡萄糖醛酸胆红素"
+        },
+        {
+          "key": "P",
+          "label": "两者均易溶于水"
+        },
+        {
+          "key": "Q",
+          "label": "脂溶性"
+        },
+        {
+          "key": "R",
+          "label": "与细胞膜通透性无关"
+        },
+        {
+          "key": "S",
+          "label": "结合胆红素"
+        },
+        {
+          "key": "T",
+          "label": "两者均不溶于水"
+        },
+        {
+          "key": "U",
+          "label": "水溶性"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "未结合胆红素 UCB 的名称",
+          "answerRaw": "H、N、E、I",
+          "answer": [
+            "H",
+            "N",
+            "E",
+            "I"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "UCB 的性质与表现",
+          "answerRaw": "Q、M、C、A",
+          "answer": [
+            "Q",
+            "M",
+            "C",
+            "A"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "结合胆红素 CB 的名称",
+          "answerRaw": "J、S、O、D",
+          "answer": [
+            "J",
+            "S",
+            "O",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "CB 的性质与表现",
+          "answerRaw": "U、L、K、F",
+          "answer": [
+            "U",
+            "L",
+            "K",
+            "F"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "UCB 与 CB：名称、性质及毒性",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "胆色素代谢与生物转化",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-10",
+        "lectureNumber": 10,
+        "lectureTitle": "生化 胆色素代谢",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-10-page-02.webp",
+        "title": "第 10 讲《生化 胆色素代谢》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 10 讲及思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-10-04",
+      "page": 4,
+      "title": "三种黄疸鉴别",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "ALP、GGT 明显升高"
+        },
+        {
+          "key": "B",
+          "label": "ALT、AST、PT 多正常"
+        },
+        {
+          "key": "C",
+          "label": "CB/TB ＞0.8"
+        },
+        {
+          "key": "D",
+          "label": "升高"
+        },
+        {
+          "key": "E",
+          "label": "＋"
+        },
+        {
+          "key": "F",
+          "label": "CB/TB 0.2～0.5"
+        },
+        {
+          "key": "G",
+          "label": "UCB 明显升高"
+        },
+        {
+          "key": "H",
+          "label": "降低"
+        },
+        {
+          "key": "I",
+          "label": "ALT、AST、PT 可升高"
+        },
+        {
+          "key": "J",
+          "label": "ALP、GGT 升高"
+        },
+        {
+          "key": "K",
+          "label": "阴性"
+        },
+        {
+          "key": "L",
+          "label": "ALP、GGT 多正常"
+        },
+        {
+          "key": "M",
+          "label": "ALT、AST、PT 明显升高/异常"
+        },
+        {
+          "key": "N",
+          "label": "尿深、粪便浅甚至白陶土样"
+        },
+        {
+          "key": "O",
+          "label": "不定"
+        },
+        {
+          "key": "P",
+          "label": "胆红素均正常"
+        },
+        {
+          "key": "Q",
+          "label": "CB、UCB 均升高"
+        },
+        {
+          "key": "R",
+          "label": "CB 明显升高"
+        },
+        {
+          "key": "S",
+          "label": "三者均阴性"
+        },
+        {
+          "key": "T",
+          "label": "CB/TB ＜0.2"
+        },
+        {
+          "key": "U",
+          "label": "尿色浅、粪便深是共同表现"
+        },
+        {
+          "key": "V",
+          "label": "尿深、粪便正常或较浅"
+        },
+        {
+          "key": "W",
+          "label": "消失是所有病例的共同表现"
+        },
+        {
+          "key": "X",
+          "label": "尿深、粪便颜色也较深"
+        },
+        {
+          "key": "Y",
+          "label": "CB/TB ＞0.5"
+        },
+        {
+          "key": "Z",
+          "label": "＋＋"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "溶血性黄疸的特点",
+          "answerRaw": "G、T、D、K、X、B、L",
+          "answer": [
+            "G",
+            "T",
+            "D",
+            "K",
+            "X",
+            "B",
+            "L"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "肝细胞性黄疸的特点",
+          "answerRaw": "Q、F、O、E、V、M、J",
+          "answer": [
+            "Q",
+            "F",
+            "O",
+            "E",
+            "V",
+            "M",
+            "J"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "梗阻性黄疸的特点",
+          "answerRaw": "R、Y、H、Z、N、I、A",
+          "answer": [
+            "R",
+            "Y",
+            "H",
+            "Z",
+            "N",
+            "I",
+            "A"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "三种黄疸鉴别",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "胆色素代谢与生物转化",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-10",
+        "lectureNumber": 10,
+        "lectureTitle": "生化 胆色素代谢",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-10-page-02.webp",
+        "title": "第 10 讲《生化 胆色素代谢》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 10 讲及思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-10-05",
+      "page": 5,
+      "title": "遗传性胆红素代谢障碍",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "肝细胞摄取＋结合障碍"
+        },
+        {
+          "key": "B",
+          "label": "肠肝循环障碍"
+        },
+        {
+          "key": "C",
+          "label": "CB↑"
+        },
+        {
+          "key": "D",
+          "label": "肝细胞摄取＋排泄障碍"
+        },
+        {
+          "key": "E",
+          "label": "CB、UCB 均不变"
+        },
+        {
+          "key": "F",
+          "label": "胆红素排泄障碍"
+        },
+        {
+          "key": "G",
+          "label": "胆红素生成障碍"
+        },
+        {
+          "key": "H",
+          "label": "胆红素结合障碍"
+        },
+        {
+          "key": "I",
+          "label": "UCB↑"
+        },
+        {
+          "key": "J",
+          "label": "UCB↑、CB↑"
+        },
+        {
+          "key": "K",
+          "label": "胆红素降低"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "Gilbert 综合征",
+          "answerRaw": "A、I",
+          "answer": [
+            "A",
+            "I"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "Crigler-Najjar 综合征",
+          "answerRaw": "H、I",
+          "answer": [
+            "H",
+            "I"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "Rotor 综合征",
+          "answerRaw": "D、J",
+          "answer": [
+            "D",
+            "J"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "Dubin-Johnson 综合征",
+          "answerRaw": "F、C",
+          "answer": [
+            "F",
+            "C"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "遗传性胆红素代谢障碍",
+      "reviewState": "已按 2027 考研讲义与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "胆色素代谢与生物转化",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-10",
+        "lectureNumber": 10,
+        "lectureTitle": "生化 胆色素代谢",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-10-page-02.webp",
+        "title": "第 10 讲《生化 胆色素代谢》· 第 2 页",
+        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 10 讲及思维导图逐项复核。"
+      }
+    }
+  ],
+  "lectures": [
+    {
+      "id": "lecture-10",
+      "number": 10,
+      "title": "生化 胆色素代谢",
+      "pageCount": 4
+    }
+  ]
+}
