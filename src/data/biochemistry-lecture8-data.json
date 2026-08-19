@@ -5,7 +5,7 @@
     "sourcePages": 1,
     "lectureCount": 1,
     "groupCount": 8,
-    "stemCount": 39,
+    "stemCount": 40,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture7_8.py",
     "siteIntegrated": true,
@@ -669,7 +669,7 @@
       "options": [
         {
           "key": "A",
-          "label": "白蛋白最快"
+          "label": "γ球蛋白"
         },
         {
           "key": "B",
@@ -677,98 +677,58 @@
         },
         {
           "key": "C",
-          "label": "溶液离子强度小"
+          "label": "分子量大"
         },
         {
           "key": "D",
-          "label": "电荷量大"
+          "label": "球状"
         },
         {
           "key": "E",
-          "label": "pH＝pI时呈电中性"
+          "label": "溶液离子强度小"
         },
         {
           "key": "F",
-          "label": "γ球蛋白最慢"
+          "label": "分子量"
         },
         {
           "key": "G",
-          "label": "大分子先洗脱"
+          "label": "电中性"
         },
         {
           "key": "H",
-          "label": "电荷量小的先被分离出"
+          "label": "白蛋白"
         },
         {
           "key": "I",
-          "label": "pH＞pI时带负电"
+          "label": "带正电"
         },
         {
           "key": "J",
-          "label": "仅依据分子量"
+          "label": "带负电"
         },
         {
           "key": "K",
-          "label": "pH＜pI时带正电"
+          "label": "电荷量小"
         },
         {
           "key": "L",
-          "label": "球状"
+          "label": "电荷量大"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "凝胶过滤 / 分子筛层析",
-          "answerRaw": "G",
+          "text": "凝胶过滤 / 分子筛层析中先洗脱的分子特点",
+          "answerRaw": "C",
           "answer": [
-            "G"
+            "C"
           ],
           "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "离子交换层析",
-          "answerRaw": "H",
-          "answer": [
-            "H"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 3,
-          "text": "电泳中跑得较快的因素",
-          "answerRaw": "B、L、C、D",
-          "answer": [
-            "B",
-            "L",
-            "C",
-            "D"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 4,
-          "text": "血清蛋白电泳：①最快 ②最慢",
-          "answerRaw": "A、F",
-          "answer": [
-            "A",
-            "F"
-          ],
-          "answerMode": "多选"
-        },
-        {
-          "number": 5,
-          "text": "十二烷基硫酸钠-聚丙烯酰胺凝胶电泳（SDS-PAGE）的主要依据",
-          "answerRaw": "J",
-          "answer": [
-            "J"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 6,
-          "text": "pH 与等电点关系：pH＜pI",
+          "text": "离子交换层析中先被分离出的分子特点",
           "answerRaw": "K",
           "answer": [
             "K"
@@ -776,20 +736,68 @@
           "answerMode": "单选"
         },
         {
-          "number": 7,
-          "text": "pH 与等电点关系：pH＝pI",
-          "answerRaw": "E",
+          "number": 3,
+          "text": "电泳中跑得较快的因素",
+          "answerRaw": "B、D、E、L",
           "answer": [
-            "E"
+            "B",
+            "D",
+            "E",
+            "L"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "血清蛋白电泳中跑得最快的蛋白",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "血清蛋白电泳中跑得最慢的蛋白",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "SDS-PAGE 的主要分离依据",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "pH＜pI 时蛋白质所带电荷",
+          "answerRaw": "I",
+          "answer": [
+            "I"
           ],
           "answerMode": "单选"
         },
         {
           "number": 8,
-          "text": "pH 与等电点关系：pH＞pI",
-          "answerRaw": "I",
+          "text": "pH＝pI 时蛋白质所带电荷",
+          "answerRaw": "G",
           "answer": [
-            "I"
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 9,
+          "text": "pH＞pI 时蛋白质所带电荷",
+          "answerRaw": "J",
+          "answer": [
+            "J"
           ],
           "answerMode": "单选"
         }

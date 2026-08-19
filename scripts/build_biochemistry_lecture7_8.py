@@ -168,6 +168,32 @@ def main():
     title8 = "生化 蛋白质"
     groups8 = parse_workbook(SOURCE_DIR / "生化_08_蛋白质_学成选择题_选项打散版.docx")
     # 保留原第 05、06 组题目。
+    # 原第 06 组的若干选项把完整结论直接写出来（如“白蛋白最快”），
+    # 会在题干尚未作答时泄露答案。将复合结论拆为中性知识点，并把
+    # “最快 / 最慢”分别改为独立题干，答案仍逐项对应讲义。
+    chromatography_group = next(group for group in groups8 if group["source_index"] == 6)
+    chromatography_group["title"] = "层析、电泳与等电点"
+    chromatography_group["options"] = [
+        ("A", "白蛋白"), ("B", "分子量小"), ("C", "溶液离子强度小"),
+        ("D", "电荷量大"), ("E", "电中性"), ("F", "γ球蛋白"),
+        ("G", "分子量大"), ("H", "电荷量小"), ("I", "带负电"),
+        ("J", "分子量"), ("K", "带正电"), ("L", "球状"),
+    ]
+    chromatography_group["stems"] = [
+        (1, "凝胶过滤 / 分子筛层析中先洗脱的分子特点"),
+        (2, "离子交换层析中先被分离出的分子特点"),
+        (3, "电泳中跑得较快的因素"),
+        (4, "血清蛋白电泳中跑得最快的蛋白"),
+        (5, "血清蛋白电泳中跑得最慢的蛋白"),
+        (6, "SDS-PAGE 的主要分离依据"),
+        (7, "pH＜pI 时蛋白质所带电荷"),
+        (8, "pH＝pI 时蛋白质所带电荷"),
+        (9, "pH＞pI 时蛋白质所带电荷"),
+    ]
+    chromatography_group["answers"] = {
+        1: list("G"), 2: list("H"), 3: list("BLCD"), 4: list("A"), 5: list("F"),
+        6: list("J"), 7: list("K"), 8: list("E"), 9: list("I"),
+    }
     output8 = [make_group(8, title8, index, group, 1) for index, group in enumerate(groups8, 1)]
     data8 = payload(8, title8, "生化第 08 讲学成选择题（蛋白质）", output8)
     data8["lectures"][0]["pageCount"] = 5
