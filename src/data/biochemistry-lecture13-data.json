@@ -1,0 +1,1016 @@
+{
+  "meta": {
+    "title": "生物化学第 13 讲题库",
+    "sourceLabel": "生化第 13 讲学成选择题（维生素）",
+    "sourcePages": 1,
+    "lectureCount": 1,
+    "groupCount": 5,
+    "stemCount": 36,
+    "correctionGroupCount": 0,
+    "generatedBy": "scripts/build_biochemistry_lecture13.py",
+    "siteIntegrated": true,
+    "lectureLinked": true,
+    "answerNote": "仅收录第 13 讲《维生素》范围内题目；每组选项均已打散，答案按讲义、真题与辅因子表复核。"
+  },
+  "topics": [
+    "全部",
+    "维生素",
+    "综合"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image": "",
+      "topic": "维生素",
+      "searchText": "维生素总体性质"
+    },
+    {
+      "page": 2,
+      "image": "",
+      "topic": "维生素",
+      "searchText": "维生素缺乏"
+    },
+    {
+      "page": 3,
+      "image": "",
+      "topic": "维生素",
+      "searchText": "辅因子小结Ⅰ：VitB₁ / B₂ / B₃（PP）/ B₅"
+    },
+    {
+      "page": 4,
+      "image": "",
+      "topic": "维生素",
+      "searchText": "辅因子小结Ⅱ：VitB₆ / B₇ / 叶酸 / B₁₂ / K / C"
+    },
+    {
+      "page": 5,
+      "image": "",
+      "topic": "维生素",
+      "searchText": "表 2-1 部分辅酶 / 辅基在催化中的作用"
+    }
+  ],
+  "groups": [
+    {
+      "id": "bio-13-01",
+      "page": 1,
+      "title": "维生素总体性质",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "扩张血管"
+        },
+        {
+          "key": "B",
+          "label": "治疗高胆固醇血症"
+        },
+        {
+          "key": "C",
+          "label": "VitC"
+        },
+        {
+          "key": "D",
+          "label": "VitE"
+        },
+        {
+          "key": "E",
+          "label": "VitD"
+        },
+        {
+          "key": "F",
+          "label": "构成视觉细胞内的感光物质"
+        },
+        {
+          "key": "G",
+          "label": "色氨酸可转变为 VitPP"
+        },
+        {
+          "key": "H",
+          "label": "代谢产物可与核受体结合"
+        },
+        {
+          "key": "I",
+          "label": "VitB₁"
+        },
+        {
+          "key": "J",
+          "label": "作为辅酶参与糖有氧氧化"
+        },
+        {
+          "key": "K",
+          "label": "有效的抗氧化剂"
+        },
+        {
+          "key": "L",
+          "label": "胃肠不适"
+        },
+        {
+          "key": "M",
+          "label": "VitB₁₂"
+        },
+        {
+          "key": "N",
+          "label": "抑制脂肪动员"
+        },
+        {
+          "key": "O",
+          "label": "排泄少、易蓄积"
+        },
+        {
+          "key": "P",
+          "label": "VitK"
+        },
+        {
+          "key": "Q",
+          "label": "化学本质是类固醇"
+        },
+        {
+          "key": "R",
+          "label": "VLDL 合成↓"
+        },
+        {
+          "key": "S",
+          "label": "VitA"
+        },
+        {
+          "key": "T",
+          "label": "调节体内钙、磷代谢"
+        },
+        {
+          "key": "U",
+          "label": "VitPP"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "抗氧化维生素",
+          "answerRaw": "S、C、D",
+          "answer": [
+            "S",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "脂溶性维生素",
+          "answerRaw": "S、E、D、P",
+          "answer": [
+            "S",
+            "E",
+            "D",
+            "P"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "可结合核受体调节基因表达的维生素 / 代谢产物",
+          "answerRaw": "S、E",
+          "answer": [
+            "S",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "脂溶性维生素的共同特点",
+          "answerRaw": "O",
+          "answer": [
+            "O"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "VitPP",
+          "answerRaw": "G、N、R、B、A、L",
+          "answer": [
+            "G",
+            "N",
+            "R",
+            "B",
+            "A",
+            "L"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "维生素总体性质",
+      "reviewState": "已按维生素讲义、真题要点与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "维生素",
+      "lectureIds": [
+        "lecture-13"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "lectureNumber": 13,
+        "lectureTitle": "生化 维生素",
+        "page": "思维导图",
+        "image": "biochemistry/lecture-pages/lecture-13-mind-map.webp",
+        "title": "第 13 讲《生化 维生素》· 思维导图",
+        "description": "已按维生素讲义、真题要点与辅因子表逐项核对；点击可放大查看思维导图。",
+        "method": "按 2027 考研生化第 13 讲维生素思维导图及配套选择题逐项复核。"
+      }
+    },
+    {
+      "id": "bio-13-02",
+      "page": 2,
+      "title": "维生素缺乏",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "巨幼贫"
+        },
+        {
+          "key": "B",
+          "label": "易出血"
+        },
+        {
+          "key": "C",
+          "label": "溶血性贫血"
+        },
+        {
+          "key": "D",
+          "label": "坏血病"
+        },
+        {
+          "key": "E",
+          "label": "夜盲症"
+        },
+        {
+          "key": "F",
+          "label": "脚气病"
+        },
+        {
+          "key": "G",
+          "label": "佝偻病"
+        },
+        {
+          "key": "H",
+          "label": "糙皮病"
+        },
+        {
+          "key": "I",
+          "label": "暗适应时间延长"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "VitA 缺乏",
+          "answerRaw": "I、E",
+          "answer": [
+            "I",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "VitB₁ 缺乏",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "VitB₁₂ 缺乏",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "叶酸缺乏",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "VitPP 缺乏",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "VitC 缺乏",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "VitD 缺乏",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "VitE 缺乏",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 9,
+          "text": "VitK 缺乏",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "维生素缺乏",
+      "reviewState": "已按维生素讲义、真题要点与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "维生素",
+      "lectureIds": [
+        "lecture-13"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "lectureNumber": 13,
+        "lectureTitle": "生化 维生素",
+        "page": "思维导图",
+        "image": "biochemistry/lecture-pages/lecture-13-mind-map.webp",
+        "title": "第 13 讲《生化 维生素》· 思维导图",
+        "description": "已按维生素讲义、真题要点与辅因子表逐项核对；点击可放大查看思维导图。",
+        "method": "按 2027 考研生化第 13 讲维生素思维导图及配套选择题逐项复核。"
+      }
+    },
+    {
+      "id": "bio-13-03",
+      "page": 3,
+      "title": "辅因子小结Ⅰ：VitB₁ / B₂ / B₃（PP）/ B₅",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "ACP"
+        },
+        {
+          "key": "B",
+          "label": "6-磷酸葡萄糖酸脱氢酶"
+        },
+        {
+          "key": "C",
+          "label": "胆碱脱氢酶"
+        },
+        {
+          "key": "D",
+          "label": "NAD"
+        },
+        {
+          "key": "E",
+          "label": "FMN"
+        },
+        {
+          "key": "F",
+          "label": "苹果酸酶"
+        },
+        {
+          "key": "G",
+          "label": "α-酮酸（丙酮酸、α-酮戊二酸等）脱羧"
+        },
+        {
+          "key": "H",
+          "label": "脂酰 CoA 脱氢酶"
+        },
+        {
+          "key": "I",
+          "label": "辅酶 A（H～SCoA）"
+        },
+        {
+          "key": "J",
+          "label": "谷氨酸脱氢酶（NAD 和 NADP）"
+        },
+        {
+          "key": "K",
+          "label": "FAD"
+        },
+        {
+          "key": "L",
+          "label": "磷酸吡哆醛"
+        },
+        {
+          "key": "M",
+          "label": "焦磷酸硫胺素（TPP）"
+        },
+        {
+          "key": "N",
+          "label": "丙酮酸脱氢酶复合体"
+        },
+        {
+          "key": "O",
+          "label": "线粒体磷酸甘油脱氢酶"
+        },
+        {
+          "key": "P",
+          "label": "生物氧化呼吸链的双递氢体"
+        },
+        {
+          "key": "Q",
+          "label": "琥珀酸脱氢酶"
+        },
+        {
+          "key": "R",
+          "label": "多数脱氢酶"
+        },
+        {
+          "key": "S",
+          "label": "酰基载体蛋白（H～SACP）"
+        },
+        {
+          "key": "T",
+          "label": "转移醛基"
+        },
+        {
+          "key": "U",
+          "label": "G6PD"
+        },
+        {
+          "key": "V",
+          "label": "递酰基"
+        },
+        {
+          "key": "W",
+          "label": "黄嘌呤氧化酶"
+        },
+        {
+          "key": "X",
+          "label": "四氢叶酸（FH₄）"
+        },
+        {
+          "key": "Y",
+          "label": "NADP"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "VitB₁：①衍生物 / 辅因子 ②参与",
+          "answerRaw": "M、G、T",
+          "answer": [
+            "M",
+            "G",
+            "T"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "VitB₂ / 核黄素：①衍生物 / 辅因子 ②参与",
+          "answerRaw": "E、K、P、Q、H、O、C、W、N",
+          "answer": [
+            "E",
+            "K",
+            "P",
+            "Q",
+            "H",
+            "O",
+            "C",
+            "W",
+            "N"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "VitB₃ / VitPP / 烟酸 / 烟酰胺：①衍生物 / 辅因子 ②参与",
+          "answerRaw": "D、Y、R、U、B、F、J",
+          "answer": [
+            "D",
+            "Y",
+            "R",
+            "U",
+            "B",
+            "F",
+            "J"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "VitB₅ / 泛酸 / 遍多酸：①衍生物 / 辅因子 ②参与",
+          "answerRaw": "I、S、V",
+          "answer": [
+            "I",
+            "S",
+            "V"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "含腺嘌呤的辅因子（按考试标准）",
+          "answerRaw": "K、D、Y、I",
+          "answer": [
+            "K",
+            "D",
+            "Y",
+            "I"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "辅因子小结Ⅰ：VitB₁ / B₂ / B₃（PP）/ B₅",
+      "reviewState": "已按维生素讲义、真题要点与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "维生素",
+      "lectureIds": [
+        "lecture-13"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "lectureNumber": 13,
+        "lectureTitle": "生化 维生素",
+        "page": "思维导图",
+        "image": "biochemistry/lecture-pages/lecture-13-mind-map.webp",
+        "title": "第 13 讲《生化 维生素》· 思维导图",
+        "description": "已按维生素讲义、真题要点与辅因子表逐项核对；点击可放大查看思维导图。",
+        "method": "按 2027 考研生化第 13 讲维生素思维导图及配套选择题逐项复核。"
+      }
+    },
+    {
+      "id": "bio-13-04",
+      "page": 4,
+      "title": "辅因子小结Ⅱ：VitB₆ / B₇ / 叶酸 / B₁₂ / K / C",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "递一碳单位"
+        },
+        {
+          "key": "B",
+          "label": "钴胺素（含金属）"
+        },
+        {
+          "key": "C",
+          "label": "焦磷酸硫胺素（TPP）"
+        },
+        {
+          "key": "D",
+          "label": "前胶原分子中脯氨酸、赖氨酸的羟化"
+        },
+        {
+          "key": "E",
+          "label": "胶原蛋白成熟"
+        },
+        {
+          "key": "F",
+          "label": "丙酮酸羧化酶（糖异生）"
+        },
+        {
+          "key": "G",
+          "label": "γ-谷氨酰羧化酶"
+        },
+        {
+          "key": "H",
+          "label": "四氢叶酸（FH₄）"
+        },
+        {
+          "key": "I",
+          "label": "生物素"
+        },
+        {
+          "key": "J",
+          "label": "ALA 合酶（合成血红素）"
+        },
+        {
+          "key": "K",
+          "label": "影响伤口愈合"
+        },
+        {
+          "key": "L",
+          "label": "从头合成嘌呤核苷酸"
+        },
+        {
+          "key": "M",
+          "label": "磷酸化酶（分解糖原）"
+        },
+        {
+          "key": "N",
+          "label": "FAD"
+        },
+        {
+          "key": "O",
+          "label": "转氨酶"
+        },
+        {
+          "key": "P",
+          "label": "磷酸吡哆醛"
+        },
+        {
+          "key": "Q",
+          "label": "辅酶 A"
+        },
+        {
+          "key": "R",
+          "label": "氨基酸脱羧酶"
+        },
+        {
+          "key": "S",
+          "label": "NAD / NADP"
+        },
+        {
+          "key": "T",
+          "label": "羟化酶"
+        },
+        {
+          "key": "U",
+          "label": "SAM 循环：同型半胱氨酸 + N⁵-CH₃-FH₄ → 甲硫氨酸"
+        },
+        {
+          "key": "V",
+          "label": "dUMP → dTMP"
+        },
+        {
+          "key": "W",
+          "label": "乙酰 CoA 羧化酶（合成脂肪酸）"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "VitB₆：①衍生物 / 辅因子 ②参与",
+          "answerRaw": "P、M、O、R、J",
+          "answer": [
+            "P",
+            "M",
+            "O",
+            "R",
+            "J"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "VitB₇ / 生物素：①衍生物 / 辅因子 ②参与",
+          "answerRaw": "I、F、W",
+          "answer": [
+            "I",
+            "F",
+            "W"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "叶酸：①衍生物 / 辅因子 ②参与",
+          "answerRaw": "H、A、L、V",
+          "answer": [
+            "H",
+            "A",
+            "L",
+            "V"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "VitB₁₂：①衍生物 / 本质 ②参与",
+          "answerRaw": "B、U",
+          "answer": [
+            "B",
+            "U"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "VitK：参与",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "VitC：参与 / 缺乏后的关键链条",
+          "answerRaw": "T、D、E、K",
+          "answer": [
+            "T",
+            "D",
+            "E",
+            "K"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "辅因子小结Ⅱ：VitB₆ / B₇ / 叶酸 / B₁₂ / K / C",
+      "reviewState": "已按维生素讲义、真题要点与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "维生素",
+      "lectureIds": [
+        "lecture-13"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "lectureNumber": 13,
+        "lectureTitle": "生化 维生素",
+        "page": "思维导图",
+        "image": "biochemistry/lecture-pages/lecture-13-mind-map.webp",
+        "title": "第 13 讲《生化 维生素》· 思维导图",
+        "description": "已按维生素讲义、真题要点与辅因子表逐项核对；点击可放大查看思维导图。",
+        "method": "按 2027 考研生化第 13 讲维生素思维导图及配套选择题逐项复核。"
+      }
+    },
+    {
+      "id": "bio-13-05",
+      "page": 5,
+      "title": "表 2-1 部分辅酶 / 辅基在催化中的作用",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "维生素 B₆"
+        },
+        {
+          "key": "B",
+          "label": "一碳单位"
+        },
+        {
+          "key": "C",
+          "label": "FMN"
+        },
+        {
+          "key": "D",
+          "label": "维生素 B₂"
+        },
+        {
+          "key": "E",
+          "label": "甲基"
+        },
+        {
+          "key": "F",
+          "label": "泛酸"
+        },
+        {
+          "key": "G",
+          "label": "FAD"
+        },
+        {
+          "key": "H",
+          "label": "生物素"
+        },
+        {
+          "key": "I",
+          "label": "NADP⁺"
+        },
+        {
+          "key": "J",
+          "label": "TPP"
+        },
+        {
+          "key": "K",
+          "label": "相邻碳原子上氢原子、烷基、羧基的互换"
+        },
+        {
+          "key": "L",
+          "label": "氢原子"
+        },
+        {
+          "key": "M",
+          "label": "酰基"
+        },
+        {
+          "key": "N",
+          "label": "维生素 B₁₂"
+        },
+        {
+          "key": "O",
+          "label": "表中未列缩写"
+        },
+        {
+          "key": "P",
+          "label": "FH₄"
+        },
+        {
+          "key": "Q",
+          "label": "二氧化碳"
+        },
+        {
+          "key": "R",
+          "label": "氨基"
+        },
+        {
+          "key": "S",
+          "label": "CoA"
+        },
+        {
+          "key": "T",
+          "label": "醛基"
+        },
+        {
+          "key": "U",
+          "label": "NAD⁺"
+        },
+        {
+          "key": "V",
+          "label": "叶酸"
+        },
+        {
+          "key": "W",
+          "label": "烟酰胺（维生素 PP）"
+        },
+        {
+          "key": "X",
+          "label": "氢原子、电子"
+        },
+        {
+          "key": "Y",
+          "label": "维生素 B₁"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "烟酰胺腺嘌呤二核苷酸，辅酶Ⅰ",
+          "answerRaw": "U、X、W",
+          "answer": [
+            "U",
+            "X",
+            "W"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "烟酰胺腺嘌呤二核苷酸磷酸，辅酶Ⅱ",
+          "answerRaw": "I、X、W",
+          "answer": [
+            "I",
+            "X",
+            "W"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "黄素单核苷酸",
+          "answerRaw": "C、L、D",
+          "answer": [
+            "C",
+            "L",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "黄素腺嘌呤二核苷酸",
+          "answerRaw": "G、L、D",
+          "answer": [
+            "G",
+            "L",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "焦磷酸硫胺素",
+          "answerRaw": "J、T、Y",
+          "answer": [
+            "J",
+            "T",
+            "Y"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 6,
+          "text": "磷酸吡哆醛",
+          "answerRaw": "O、R、A",
+          "answer": [
+            "O",
+            "R",
+            "A"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 7,
+          "text": "辅酶 A",
+          "answerRaw": "S、M、F",
+          "answer": [
+            "S",
+            "M",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 8,
+          "text": "生物素",
+          "answerRaw": "O、Q、H",
+          "answer": [
+            "O",
+            "Q",
+            "H"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 9,
+          "text": "四氢叶酸",
+          "answerRaw": "P、B、V",
+          "answer": [
+            "P",
+            "B",
+            "V"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 10,
+          "text": "甲基钴胺素",
+          "answerRaw": "O、E、N",
+          "answer": [
+            "O",
+            "E",
+            "N"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 11,
+          "text": "5′-脱氧腺苷钴胺素",
+          "answerRaw": "O、K、N",
+          "answer": [
+            "O",
+            "K",
+            "N"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "表 2-1 部分辅酶 / 辅基在催化中的作用",
+      "reviewState": "已按维生素讲义、真题要点与思维导图核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "维生素",
+      "lectureIds": [
+        "lecture-13"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "lectureNumber": 13,
+        "lectureTitle": "生化 维生素",
+        "page": "思维导图",
+        "image": "biochemistry/lecture-pages/lecture-13-mind-map.webp",
+        "title": "第 13 讲《生化 维生素》· 思维导图",
+        "description": "已按维生素讲义、真题要点与辅因子表逐项核对；点击可放大查看思维导图。",
+        "method": "按 2027 考研生化第 13 讲维生素思维导图及配套选择题逐项复核。"
+      }
+    }
+  ],
+  "lectures": [
+    {
+      "id": "lecture-13",
+      "number": 13,
+      "title": "生化 维生素",
+      "pageCount": 2
+    }
+  ]
+}

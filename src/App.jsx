@@ -81,7 +81,7 @@ const CONTENT_LOADERS = {
     }
   },
   biochemistry: async () => {
-    const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content] = await Promise.all([
+    const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content] = await Promise.all([
       loadJson(() => import('./data/biochemistry-data.json')),
       loadJson(() => import('./data/biochemistry-lecture2-data.json')),
       loadJson(() => import('./data/biochemistry-lecture3-data.json')),
@@ -94,8 +94,9 @@ const CONTENT_LOADERS = {
       loadJson(() => import('./data/biochemistry-lecture10-data.json')),
       loadJson(() => import('./data/biochemistry-lecture11-data.json')),
       loadJson(() => import('./data/biochemistry-lecture12-data.json')),
+      loadJson(() => import('./data/biochemistry-lecture13-data.json')),
     ])
-    const groups = [...biochemistryContent.groups, ...biochemistryLecture2Content.groups, ...biochemistryLecture3Content.groups, ...biochemistryLecture4Content.groups, ...biochemistryLecture5Content.groups, ...biochemistryLecture6Content.groups, ...biochemistryLecture7Content.groups, ...biochemistryLecture8Content.groups, ...biochemistryLecture9Content.groups, ...biochemistryLecture10Content.groups, ...biochemistryLecture11Content.groups, ...biochemistryLecture12Content.groups].map((group) => ({
+    const groups = [...biochemistryContent.groups, ...biochemistryLecture2Content.groups, ...biochemistryLecture3Content.groups, ...biochemistryLecture4Content.groups, ...biochemistryLecture5Content.groups, ...biochemistryLecture6Content.groups, ...biochemistryLecture7Content.groups, ...biochemistryLecture8Content.groups, ...biochemistryLecture9Content.groups, ...biochemistryLecture10Content.groups, ...biochemistryLecture11Content.groups, ...biochemistryLecture12Content.groups, ...biochemistryLecture13Content.groups].map((group) => ({
       ...group,
       topic: biochemistryParentForTopic(group.topic) || group.topic,
     }))
@@ -104,15 +105,15 @@ const CONTENT_LOADERS = {
       meta: {
         ...biochemistryContent.meta,
         title: '生物化学题库',
-        lectureCount: 12,
-        groupCount: biochemistryContent.groups.length + biochemistryLecture2Content.groups.length + biochemistryLecture3Content.groups.length + biochemistryLecture4Content.groups.length + biochemistryLecture5Content.groups.length + biochemistryLecture6Content.groups.length + biochemistryLecture7Content.groups.length + biochemistryLecture8Content.groups.length + biochemistryLecture9Content.groups.length + biochemistryLecture10Content.groups.length + biochemistryLecture11Content.groups.length + biochemistryLecture12Content.groups.length,
-        stemCount: biochemistryContent.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture2Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture3Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture4Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture5Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture6Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture7Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture8Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture9Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture10Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture11Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture12Content.groups.reduce((sum, group) => sum + group.stems.length, 0),
-        answerNote: '已收录第 01～12 讲题组；每题均只关联本讲讲义页，选项与答案均已按讲义复核。',
+        lectureCount: 13,
+        groupCount: biochemistryContent.groups.length + biochemistryLecture2Content.groups.length + biochemistryLecture3Content.groups.length + biochemistryLecture4Content.groups.length + biochemistryLecture5Content.groups.length + biochemistryLecture6Content.groups.length + biochemistryLecture7Content.groups.length + biochemistryLecture8Content.groups.length + biochemistryLecture9Content.groups.length + biochemistryLecture10Content.groups.length + biochemistryLecture11Content.groups.length + biochemistryLecture12Content.groups.length + biochemistryLecture13Content.groups.length,
+        stemCount: biochemistryContent.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture2Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture3Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture4Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture5Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture6Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture7Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture8Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture9Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture10Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture11Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture12Content.groups.reduce((sum, group) => sum + group.stems.length, 0) + biochemistryLecture13Content.groups.reduce((sum, group) => sum + group.stems.length, 0),
+        answerNote: '已收录第 01～13 讲题组；每题均只关联本讲讲义页，选项与答案均已按讲义复核。',
       },
-      topics: ['糖代谢', '生物氧化', '脂代谢', '氨基酸与蛋白质', '核苷酸代谢', '胆色素代谢与生物转化', '酶'],
+      topics: ['糖代谢', '生物氧化', '脂代谢', '氨基酸与蛋白质', '核苷酸代谢', '胆色素代谢与生物转化', '酶', '维生素'],
       groups,
-      pages: [...biochemistryContent.pages, ...biochemistryLecture2Content.pages, ...biochemistryLecture3Content.pages, ...biochemistryLecture4Content.pages, ...biochemistryLecture5Content.pages, ...biochemistryLecture6Content.pages, ...biochemistryLecture7Content.pages, ...biochemistryLecture8Content.pages, ...biochemistryLecture9Content.pages, ...biochemistryLecture10Content.pages, ...biochemistryLecture11Content.pages, ...biochemistryLecture12Content.pages],
-      lectures: [...biochemistryContent.lectures, ...biochemistryLecture2Content.lectures, ...biochemistryLecture3Content.lectures, ...biochemistryLecture4Content.lectures, ...biochemistryLecture5Content.lectures, ...biochemistryLecture6Content.lectures, ...biochemistryLecture7Content.lectures, ...biochemistryLecture8Content.lectures, ...biochemistryLecture9Content.lectures, ...biochemistryLecture10Content.lectures, ...biochemistryLecture11Content.lectures, ...biochemistryLecture12Content.lectures],
+      pages: [...biochemistryContent.pages, ...biochemistryLecture2Content.pages, ...biochemistryLecture3Content.pages, ...biochemistryLecture4Content.pages, ...biochemistryLecture5Content.pages, ...biochemistryLecture6Content.pages, ...biochemistryLecture7Content.pages, ...biochemistryLecture8Content.pages, ...biochemistryLecture9Content.pages, ...biochemistryLecture10Content.pages, ...biochemistryLecture11Content.pages, ...biochemistryLecture12Content.pages, ...biochemistryLecture13Content.pages],
+      lectures: [...biochemistryContent.lectures, ...biochemistryLecture2Content.lectures, ...biochemistryLecture3Content.lectures, ...biochemistryLecture4Content.lectures, ...biochemistryLecture5Content.lectures, ...biochemistryLecture6Content.lectures, ...biochemistryLecture7Content.lectures, ...biochemistryLecture8Content.lectures, ...biochemistryLecture9Content.lectures, ...biochemistryLecture10Content.lectures, ...biochemistryLecture11Content.lectures, ...biochemistryLecture12Content.lectures, ...biochemistryLecture13Content.lectures],
     }
   },
 }
@@ -174,6 +175,7 @@ const TOPIC_ICONS = {
   核苷酸代谢: 'book',
   胆色素代谢与生物转化: 'book',
   酶: 'spark',
+  维生素: 'spark',
 }
 
 const BIOCHEMISTRY_DIRECTORY = {
@@ -1117,6 +1119,7 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill })
 function EvidencePanel({ subject, content, group, page, sourceName, submitted, setShowSource, setShowLectureEvidence, mobileEvidence, setMobileEvidence, evidenceCollapsed, setEvidenceCollapsed }) {
   const lectureItems = group.lectureIds.map((id) => content.lectures.find((lecture) => lecture.id === id)).filter(Boolean)
   const currentEvidence = group.lectureEvidence
+  const currentEvidenceLocation = currentEvidence?.pageLabel || (typeof currentEvidence?.page === 'number' ? `对应第 ${currentEvidence.page} 页` : (currentEvidence?.page ? `对应${currentEvidence.page}` : '已关联讲义'))
   return (
     <aside className={`evidence-panel ${mobileEvidence ? 'mobile-visible' : ''} ${evidenceCollapsed ? 'is-collapsed' : ''}`}>
       <div className="evidence-rail">
@@ -1126,7 +1129,7 @@ function EvidencePanel({ subject, content, group, page, sourceName, submitted, s
       </div>
       <div className="evidence-panel-content">
       <div className="evidence-section evidence-section-top"><div className="evidence-title"><span className="evidence-icon"><Icon name="check" size={18} /></span><div><h2>讲义依据</h2><p>{lectureItems.length ? `已关联 ${lectureItems.length} 份讲义` : '按章节关联讲义'}</p></div><span className="verified-dot"><Icon name="check" size={13} /></span><button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏" aria-expanded="true" title="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="chevron" size={16} /></button></div>
-        {lectureItems.slice(0, 4).map((lecture) => <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 讲 · {currentEvidence?.lectureId === lecture.id ? `对应第 ${currentEvidence.page} 页` : `共 ${lecture.pageCount} 页`}</span></div><span className="relevance">对应</span></div>)}
+        {lectureItems.slice(0, 4).map((lecture) => <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 讲 · {currentEvidence?.lectureId === lecture.id ? currentEvidenceLocation : `共 ${lecture.pageCount} 页`}</span></div><span className="relevance">对应</span></div>)}
         <div className="all-lectures">查看全部 {content.meta.lectureCount} 份讲义 <Icon name="right" size={15} /></div>
       </div>
       {currentEvidence && <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><span>对应讲义页</span><strong>{currentEvidence.title}</strong><p>本题组对应的讲义原页，可点击图片放大查看。</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${currentEvidence.title}`}><img src={assetPath(currentEvidence.image)} alt={`${currentEvidence.title}原页`} /><span><Icon name="eye" size={16} />点击放大查看讲义原页</span></button></div>}
