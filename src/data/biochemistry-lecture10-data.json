@@ -5,7 +5,7 @@
     "sourcePages": 1,
     "lectureCount": 1,
     "groupCount": 5,
-    "stemCount": 25,
+    "stemCount": 43,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture10_11.py",
     "siteIntegrated": true,
@@ -40,7 +40,7 @@
       "page": 4,
       "image": "",
       "topic": "胆色素代谢与生物转化",
-      "searchText": "三种黄疸：按完整指标组合鉴别"
+      "searchText": "三种黄疸的指标鉴别"
     },
     {
       "page": 5,
@@ -546,36 +546,27 @@
     {
       "id": "bio-10-04",
       "page": 4,
-      "title": "三种黄疸：按完整指标组合鉴别",
+      "title": "三种黄疸的指标鉴别",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "溶血性黄疸"
+          "label": "梗阻性黄疸"
         },
         {
           "key": "B",
-          "label": "肝细胞性黄疸"
+          "label": "溶血性黄疸"
         },
         {
           "key": "C",
-          "label": "梗阻性黄疸"
+          "label": "肝细胞性黄疸"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "UCB 明显升高，CB/TB ＜0.2；尿胆原升高、尿胆红素阴性；尿深、粪便颜色也较深；ALT、AST、PT 多正常，ALP、GGT 多正常",
-          "answerRaw": "A",
-          "answer": [
-            "A"
-          ],
-          "answerMode": "单选"
-        },
-        {
-          "number": 2,
-          "text": "CB、UCB 均升高，CB/TB 0.2～0.5；尿胆原不定、尿胆红素＋；尿深、粪便正常或较浅；ALT、AST、PT 明显升高/异常，ALP、GGT 升高",
+          "text": "血主要胆红素为 UCB↑↑",
           "answerRaw": "B",
           "answer": [
             "B"
@@ -583,16 +574,187 @@
           "answerMode": "单选"
         },
         {
-          "number": 3,
-          "text": "CB 明显升高，CB/TB ＞0.5；尿胆原降低、尿胆红素＋＋；尿深、粪便浅甚至白陶土样；ALT、AST、PT 可升高，ALP、GGT 明显升高",
+          "number": 2,
+          "text": "血中 CB、UCB 均升高",
           "answerRaw": "C",
           "answer": [
             "C"
           ],
           "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "血主要胆红素为 CB↑↑",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "CB/TB ＜0.2",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "CB/TB 为 0.2～0.5",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "CB/TB ＞0.5",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "尿胆原升高",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "尿胆原不定",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 9,
+          "text": "尿胆原降低",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 10,
+          "text": "尿胆红素阴性",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 11,
+          "text": "尿胆红素阳性（＋）",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 12,
+          "text": "尿胆红素强阳性（＋＋）",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 13,
+          "text": "尿色深、粪便颜色深",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 14,
+          "text": "尿色深、粪便颜色正常或较浅",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 15,
+          "text": "尿色深、粪便浅，甚至呈白陶土样",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 16,
+          "text": "ALT、AST、PT 多正常",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 17,
+          "text": "ALT、AST、PT 明显升高",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 18,
+          "text": "ALT、AST、PT 可升高",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 19,
+          "text": "ALP、GGT 多正常",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 20,
+          "text": "ALP、GGT 升高",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 21,
+          "text": "ALP、GGT 明显升高",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
         }
       ],
-      "sourceText": "三种黄疸：按完整指标组合鉴别",
+      "sourceText": "三种黄疸的指标鉴别",
       "reviewState": "已按 2027 考研讲义与思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [],
