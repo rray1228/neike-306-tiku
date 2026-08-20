@@ -1,0 +1,928 @@
+{
+  "meta": {
+    "title": "生物化学第 15 讲题库",
+    "sourceLabel": "生化第 15 讲学成题（核酸）",
+    "sourcePages": 2,
+    "lectureCount": 1,
+    "groupCount": 7,
+    "stemCount": 30,
+    "correctionGroupCount": 0,
+    "generatedBy": "scripts/build_biochemistry_lecture15.py",
+    "siteIntegrated": true,
+    "lectureLinked": true,
+    "answerNote": "仅收录第 15 讲《核酸》范围内题目；每组选项均已打散，答案按讲义、思维导图与生化合集复核。"
+  },
+  "topics": [
+    "全部",
+    "核酸",
+    "综合"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "核酸：碱基"
+    },
+    {
+      "page": 2,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "核酸：组成与一级结构"
+    },
+    {
+      "page": 3,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "DNA：B-DNA 二级 / 双螺旋结构"
+    },
+    {
+      "page": 4,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "DNA：高级结构与变性"
+    },
+    {
+      "page": 5,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "RNA：mRNA 与密码子"
+    },
+    {
+      "page": 6,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "RNA：tRNA"
+    },
+    {
+      "page": 7,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "RNA：核糖体与非编码 RNA"
+    }
+  ],
+  "groups": [
+    {
+      "id": "bio-15-01",
+      "page": 1,
+      "title": "核酸：碱基",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "T / 胸腺嘧啶"
+        },
+        {
+          "key": "B",
+          "label": "G / 鸟嘌呤"
+        },
+        {
+          "key": "C",
+          "label": "C / 胞嘧啶"
+        },
+        {
+          "key": "D",
+          "label": "A / 腺嘌呤"
+        },
+        {
+          "key": "E",
+          "label": "U / 尿嘧啶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "组成核糖核酸 RNA 的碱基主要是",
+          "answerRaw": "D、B、C、E",
+          "answer": [
+            "D",
+            "B",
+            "C",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "组成脱氧核糖核酸 DNA 的碱基主要是",
+          "answerRaw": "D、B、C、A",
+          "answer": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "核酸：碱基",
+      "reviewState": "已按核酸讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生化 核酸",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-15-page-01.webp",
+        "title": "第 15 讲《生化 核酸》· 第 1 页",
+        "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-15-02",
+      "page": 2,
+      "title": "核酸：组成与一级结构",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "双链"
+        },
+        {
+          "key": "B",
+          "label": "碱基"
+        },
+        {
+          "key": "C",
+          "label": "戊糖"
+        },
+        {
+          "key": "D",
+          "label": "A=T，G≡C"
+        },
+        {
+          "key": "E",
+          "label": "磷酸"
+        },
+        {
+          "key": "F",
+          "label": "A260/A280"
+        },
+        {
+          "key": "G",
+          "label": "C-N 键（β-糖苷键）"
+        },
+        {
+          "key": "H",
+          "label": "3,5-磷酸二酯键"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "构成核苷的成分",
+          "answerRaw": "B、C",
+          "answer": [
+            "B",
+            "C"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "构成核苷酸的成分",
+          "answerRaw": "B、C、E",
+          "answer": [
+            "B",
+            "C",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "核糖 / 脱氧核糖与碱基形成的键",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "维系核酸一级结构的化学键",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "判断核酸样品纯度的指标",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "核酸：组成与一级结构",
+      "reviewState": "已按核酸讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生化 核酸",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-15-page-01.webp",
+        "title": "第 15 讲《生化 核酸》· 第 1 页",
+        "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-15-03",
+      "page": 3,
+      "title": "DNA：B-DNA 二级 / 双螺旋结构",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "每圈有 10.5 对碱基"
+        },
+        {
+          "key": "B",
+          "label": "氢键（横向）"
+        },
+        {
+          "key": "C",
+          "label": "亲水的骨架（磷酸和脱氧核糖）在外侧，与螺旋轴平行"
+        },
+        {
+          "key": "D",
+          "label": "表面的大小沟其中大沟最容易与 DNA 序列相互作用"
+        },
+        {
+          "key": "E",
+          "label": "碱基堆积力（纵向）"
+        },
+        {
+          "key": "F",
+          "label": "双链"
+        },
+        {
+          "key": "G",
+          "label": "Z 型为左手螺旋"
+        },
+        {
+          "key": "H",
+          "label": "反向平行"
+        },
+        {
+          "key": "I",
+          "label": "右手螺旋"
+        },
+        {
+          "key": "J",
+          "label": "螺距 3.54 nm"
+        },
+        {
+          "key": "K",
+          "label": "疏水的碱基在内侧，与螺旋轴垂直"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "B-DNA 二级 / 双螺旋结构的特点",
+          "answerRaw": "F、H、I、J、A、D、C、K",
+          "answer": [
+            "F",
+            "H",
+            "I",
+            "J",
+            "A",
+            "D",
+            "C",
+            "K"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "维系 DNA 双螺旋稳定的作用力",
+          "answerRaw": "E、B",
+          "answer": [
+            "E",
+            "B"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "呈左手螺旋的 DNA 构型",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "DNA：B-DNA 二级 / 双螺旋结构",
+      "reviewState": "已按核酸讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生化 核酸",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-15-page-01.webp",
+        "title": "第 15 讲《生化 核酸》· 第 1 页",
+        "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-15-04",
+      "page": 4,
+      "title": "DNA：高级结构与变性",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "ΔA260 达最大变化值一半所对应的温度"
+        },
+        {
+          "key": "B",
+          "label": "增色效应"
+        },
+        {
+          "key": "C",
+          "label": "氢键断裂→双链变单链（不改变一级结构）"
+        },
+        {
+          "key": "D",
+          "label": "缓慢去除变性条件才可能复性"
+        },
+        {
+          "key": "E",
+          "label": "长度↑"
+        },
+        {
+          "key": "F",
+          "label": "粘度↓、密度↑"
+        },
+        {
+          "key": "G",
+          "label": "260 nm 处紫外吸收度增加"
+        },
+        {
+          "key": "H",
+          "label": "H1：稳定核小体“打结”"
+        },
+        {
+          "key": "I",
+          "label": "溶液离子强度↑"
+        },
+        {
+          "key": "J",
+          "label": "50% 双链解离成单链"
+        },
+        {
+          "key": "K",
+          "label": "核小体核心颗粒"
+        },
+        {
+          "key": "L",
+          "label": "H2A + H2B + H3 + H4"
+        },
+        {
+          "key": "M",
+          "label": "GC 含量↑"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "DNA 高级 / 超螺旋结构中与核小体有关的内容",
+          "answerRaw": "L、K、H",
+          "answer": [
+            "L",
+            "K",
+            "H"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "DNA 变性的表现",
+          "answerRaw": "C、F、B、G",
+          "answer": [
+            "C",
+            "F",
+            "B",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "DNA 理化性质中的 “Tm” 值表达的含义",
+          "answerRaw": "A、J",
+          "answer": [
+            "A",
+            "J"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "能够导致核酸分子 Tm 值升高的因素",
+          "answerRaw": "E、M、I",
+          "answer": [
+            "E",
+            "M",
+            "I"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "DNA 复性的条件",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "DNA：高级结构与变性",
+      "reviewState": "已按核酸讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生化 核酸",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-15-page-01.webp",
+        "title": "第 15 讲《生化 核酸》· 第 1 页",
+        "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-15-05",
+      "page": 5,
+      "title": "RNA：mRNA 与密码子",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "连续性"
+        },
+        {
+          "key": "B",
+          "label": "UGA"
+        },
+        {
+          "key": "C",
+          "label": "维持生物表型稳定"
+        },
+        {
+          "key": "D",
+          "label": "简并性"
+        },
+        {
+          "key": "E",
+          "label": "tRNA 反密码子第 1 位 I 识别 mRNA 密码子第 3 位 A / C / U"
+        },
+        {
+          "key": "F",
+          "label": "方向性：5→3 端"
+        },
+        {
+          "key": "G",
+          "label": "通用性"
+        },
+        {
+          "key": "H",
+          "label": "摆动性"
+        },
+        {
+          "key": "I",
+          "label": "UAG"
+        },
+        {
+          "key": "J",
+          "label": "AUG 开始"
+        },
+        {
+          "key": "K",
+          "label": "3 端 polyA 尾巴"
+        },
+        {
+          "key": "L",
+          "label": "UAA"
+        },
+        {
+          "key": "M",
+          "label": "可读框插入或缺失核苷酸（非 3 的倍数）导致移码突变"
+        },
+        {
+          "key": "N",
+          "label": "翻译的直接模板"
+        },
+        {
+          "key": "O",
+          "label": "5 端 m7GTP 帽子（真核）"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "编码 RNA：mRNA 的特点",
+          "answerRaw": "N、O、K",
+          "answer": [
+            "N",
+            "O",
+            "K"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "终止密码子",
+          "answerRaw": "L、I、B",
+          "answer": [
+            "L",
+            "I",
+            "B"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "密码子的特性",
+          "answerRaw": "G、F、A、D、H",
+          "answer": [
+            "G",
+            "F",
+            "A",
+            "D",
+            "H"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "与移码突变有关的内容",
+          "answerRaw": "A、M",
+          "answer": [
+            "A",
+            "M"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "关于摆动性的叙述，正确的有",
+          "answerRaw": "H、E、C",
+          "answer": [
+            "H",
+            "E",
+            "C"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "RNA：mRNA 与密码子",
+      "reviewState": "已按核酸讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生化 核酸",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-15-page-02.webp",
+        "title": "第 15 讲《生化 核酸》· 第 2 页",
+        "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-15-06",
+      "page": 6,
+      "title": "RNA：tRNA",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "TΨC 环：结合核糖体"
+        },
+        {
+          "key": "B",
+          "label": "三级 / L 形结构"
+        },
+        {
+          "key": "C",
+          "label": "二级 / 三叶草结构"
+        },
+        {
+          "key": "D",
+          "label": "反密码环"
+        },
+        {
+          "key": "E",
+          "label": "氨酰 tRNA 合成酶"
+        },
+        {
+          "key": "F",
+          "label": "一种 tRNA 只能转运一种特定氨基酸"
+        },
+        {
+          "key": "G",
+          "label": "水解错误氨基酸与 tRNA 之间的酯键"
+        },
+        {
+          "key": "H",
+          "label": "校对活性"
+        },
+        {
+          "key": "I",
+          "label": "一种氨基酸通常与多种 tRNA 特异结合"
+        },
+        {
+          "key": "J",
+          "label": "翻译的载体"
+        },
+        {
+          "key": "K",
+          "label": "3 端 CCA-OH：结合氨基酸"
+        },
+        {
+          "key": "L",
+          "label": "DHU 环：结合氨酰 tRNA 合成酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "关于 tRNA 的叙述，正确的有",
+          "answerRaw": "J、I、F、C、B、L、D、A、K",
+          "answer": [
+            "J",
+            "I",
+            "F",
+            "C",
+            "B",
+            "L",
+            "D",
+            "A",
+            "K"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "tRNA 的二级 / 三级结构",
+          "answerRaw": "C、B",
+          "answer": [
+            "C",
+            "B"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "tRNA 的典型结构和功能位点",
+          "answerRaw": "L、D、A、K",
+          "answer": [
+            "L",
+            "D",
+            "A",
+            "K"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "氨酰 tRNA 合成酶的特点",
+          "answerRaw": "E、H、G",
+          "answer": [
+            "E",
+            "H",
+            "G"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "RNA：tRNA",
+      "reviewState": "已按核酸讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生化 核酸",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-15-page-02.webp",
+        "title": "第 15 讲《生化 核酸》· 第 2 页",
+        "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-15-07",
+      "page": 7,
+      "title": "RNA：核糖体与非编码 RNA",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "snRNA——参与 hnRNA 剪接、转运"
+        },
+        {
+          "key": "B",
+          "label": "催化 RNA / 核酶——自身剪接内含子、肽酰转移酶、RNase P、snRNA"
+        },
+        {
+          "key": "C",
+          "label": "snoRNA——参与 45S rRNA 加工修饰"
+        },
+        {
+          "key": "D",
+          "label": "scRNA——组成信号识别颗粒"
+        },
+        {
+          "key": "E",
+          "label": "16S"
+        },
+        {
+          "key": "F",
+          "label": "真核：60S+40S=80S"
+        },
+        {
+          "key": "G",
+          "label": "原核：50S+30S=70S"
+        },
+        {
+          "key": "H",
+          "label": "18S"
+        },
+        {
+          "key": "I",
+          "label": "23S（肽酰转移酶）、5S"
+        },
+        {
+          "key": "J",
+          "label": "siRNA"
+        },
+        {
+          "key": "K",
+          "label": "piRNA"
+        },
+        {
+          "key": "L",
+          "label": "circRNA"
+        },
+        {
+          "key": "M",
+          "label": "miRNA"
+        },
+        {
+          "key": "N",
+          "label": "lncRNA"
+        },
+        {
+          "key": "O",
+          "label": "28S（肽酰转移酶）、5.8S、5S"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "原核核糖体 / 核蛋白体构成",
+          "answerRaw": "G、I、E",
+          "answer": [
+            "G",
+            "I",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "真核核糖体 / 核蛋白体构成",
+          "answerRaw": "F、O、H",
+          "answer": [
+            "F",
+            "O",
+            "H"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "参与 hnRNA 剪接、转运的 RNA",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "参与 45S rRNA 加工修饰的 RNA",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "组成信号识别颗粒的 RNA",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "调控性 “lnc+i” 的例子",
+          "answerRaw": "M、J、K、N、L",
+          "answer": [
+            "M",
+            "J",
+            "K",
+            "N",
+            "L"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "RNA：核糖体与非编码 RNA",
+      "reviewState": "已按核酸讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生化 核酸",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-15-page-02.webp",
+        "title": "第 15 讲《生化 核酸》· 第 2 页",
+        "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
+      }
+    }
+  ],
+  "lectures": [
+    {
+      "id": "lecture-15",
+      "number": 15,
+      "title": "生化 核酸",
+      "pageCount": 2
+    }
+  ]
+}

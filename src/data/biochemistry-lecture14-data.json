@@ -1,0 +1,1932 @@
+{
+  "meta": {
+    "title": "生物化学第 14 讲题库",
+    "sourceLabel": "生化第 14 讲学成题（小基因）",
+    "sourcePages": 4,
+    "lectureCount": 1,
+    "groupCount": 18,
+    "stemCount": 73,
+    "correctionGroupCount": 0,
+    "generatedBy": "scripts/build_biochemistry_lecture14.py",
+    "siteIntegrated": true,
+    "lectureLinked": true,
+    "answerNote": "仅收录第 14 讲《小基因》范围内题目；每组选项均已打散，答案按讲义、思维导图与生化合集复核。"
+  },
+  "topics": [
+    "全部",
+    "小基因",
+    "综合"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "原癌基因：特点"
+    },
+    {
+      "page": 2,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "原癌基因：活化为癌基因"
+    },
+    {
+      "page": 3,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "原癌基因产物"
+    },
+    {
+      "page": 4,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "抑癌基因"
+    },
+    {
+      "page": 5,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "P53、RB、PTEN、P16、P21"
+    },
+    {
+      "page": 6,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "抑癌基因：失活机制"
+    },
+    {
+      "page": 7,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "得到目的基因"
+    },
+    {
+      "page": 8,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "选择载体"
+    },
+    {
+      "page": 9,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "目的基因 + 载体 = 重组 DNA"
+    },
+    {
+      "page": 10,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "重组 DNA 转入受体细胞"
+    },
+    {
+      "page": 11,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "对扩增表达产物进行筛选"
+    },
+    {
+      "page": 12,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "工具酶"
+    },
+    {
+      "page": 13,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "印迹法"
+    },
+    {
+      "page": 14,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "PCR 及衍生技术的应用"
+    },
+    {
+      "page": 15,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "相互作用"
+    },
+    {
+      "page": 16,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "基因诊断"
+    },
+    {
+      "page": 17,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "基因治疗"
+    },
+    {
+      "page": 18,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "基因结构分析"
+    }
+  ],
+  "groups": [
+    {
+      "id": "bio-14-01",
+      "page": 1,
+      "title": "原癌基因：特点",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "p53 蛋白诱导细胞凋亡"
+        },
+        {
+          "key": "B",
+          "label": "正性调控（促进细胞增殖 / 生长 / 分化）"
+        },
+        {
+          "key": "C",
+          "label": "高度保守"
+        },
+        {
+          "key": "D",
+          "label": "正常存在"
+        },
+        {
+          "key": "E",
+          "label": "抑癌基因的过表达"
+        },
+        {
+          "key": "F",
+          "label": "分布广泛"
+        },
+        {
+          "key": "G",
+          "label": "转录因子与 RNA 结合"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "原癌基因的特点",
+          "answerRaw": "D、F、B、C",
+          "answer": [
+            "D",
+            "F",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "原癌基因：特点",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-14-page-01.webp",
+        "title": "第 14 讲《生化 小基因》· 第 1 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-02",
+      "page": 2,
+      "title": "原癌基因：活化为癌基因",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "转录因子与 RNA 结合"
+        },
+        {
+          "key": "B",
+          "label": "获得启动子（起始转录）或增强子（增强启动子的效率）"
+        },
+        {
+          "key": "C",
+          "label": "抑癌基因的过表达"
+        },
+        {
+          "key": "D",
+          "label": "基因突变（点突变最常见）"
+        },
+        {
+          "key": "E",
+          "label": "p53 蛋白诱导细胞凋亡"
+        },
+        {
+          "key": "F",
+          "label": "基因扩增"
+        },
+        {
+          "key": "G",
+          "label": "染色体易位"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "能使原癌基因激活的机制",
+          "answerRaw": "B、F、D、G",
+          "answer": [
+            "B",
+            "F",
+            "D",
+            "G"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "Burkitt 淋巴瘤中 MYC 的活化机制",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "CML 中产生新的融合基因 BCR-ABL 的机制",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "神经母细胞瘤 N-MYC 的活化机制",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "大肠癌、膀胱癌 RAS 的活化机制",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "前病毒 DNA 整合后使 C-MYC 邻近 LTR、提高转录水平",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "原癌基因：活化为癌基因",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-14-page-01.webp",
+        "title": "第 14 讲《生化 小基因》· 第 1 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-03",
+      "page": 3,
+      "title": "原癌基因产物",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "JUN"
+        },
+        {
+          "key": "B",
+          "label": "HER2 / ERBB2"
+        },
+        {
+          "key": "C",
+          "label": "CYCLIN D"
+        },
+        {
+          "key": "D",
+          "label": "FOS"
+        },
+        {
+          "key": "E",
+          "label": "FMS"
+        },
+        {
+          "key": "F",
+          "label": "TRK"
+        },
+        {
+          "key": "G",
+          "label": "MYC"
+        },
+        {
+          "key": "H",
+          "label": "KIT"
+        },
+        {
+          "key": "I",
+          "label": "SRC"
+        },
+        {
+          "key": "J",
+          "label": "SIS / PDGF"
+        },
+        {
+          "key": "K",
+          "label": "RAS"
+        },
+        {
+          "key": "L",
+          "label": "ABL"
+        },
+        {
+          "key": "M",
+          "label": "RAF"
+        },
+        {
+          "key": "N",
+          "label": "EGFR / HER1 / ERBB1"
+        },
+        {
+          "key": "O",
+          "label": "INT-2 / FGF"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "编码产物属于生长因子的原癌基因",
+          "answerRaw": "J、O",
+          "answer": [
+            "J",
+            "O"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "编码产物属于跨膜生长因子受体的原癌基因",
+          "answerRaw": "B、F、N、H、E",
+          "answer": [
+            "B",
+            "F",
+            "N",
+            "H",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "编码产物属于细胞内信号转导分子的原癌基因",
+          "answerRaw": "M、L、K、I",
+          "answer": [
+            "M",
+            "L",
+            "K",
+            "I"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "编码产物属于转录因子的原癌基因",
+          "answerRaw": "G、D、A",
+          "answer": [
+            "G",
+            "D",
+            "A"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 5,
+          "text": "编码产物属于细胞周期调节蛋白的原癌基因",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "原癌基因产物",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-14-page-01.webp",
+        "title": "第 14 讲《生化 小基因》· 第 1 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-04",
+      "page": 4,
+      "title": "抑癌基因",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "BRCA"
+        },
+        {
+          "key": "B",
+          "label": "HER2"
+        },
+        {
+          "key": "C",
+          "label": "EGF"
+        },
+        {
+          "key": "D",
+          "label": "P53"
+        },
+        {
+          "key": "E",
+          "label": "VHL"
+        },
+        {
+          "key": "F",
+          "label": "RB"
+        },
+        {
+          "key": "G",
+          "label": "WT"
+        },
+        {
+          "key": "H",
+          "label": "APC"
+        },
+        {
+          "key": "I",
+          "label": "PTEN"
+        },
+        {
+          "key": "J",
+          "label": "NF"
+        },
+        {
+          "key": "K",
+          "label": "DCC"
+        },
+        {
+          "key": "L",
+          "label": "MYC"
+        },
+        {
+          "key": "M",
+          "label": "P21"
+        },
+        {
+          "key": "N",
+          "label": "P16"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "抑癌基因",
+          "answerRaw": "G、J、M、H、I、A、E、N、F、D、K",
+          "answer": [
+            "G",
+            "J",
+            "M",
+            "H",
+            "I",
+            "A",
+            "E",
+            "N",
+            "F",
+            "D",
+            "K"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "抑癌基因",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-14-page-01.webp",
+        "title": "第 14 讲《生化 小基因》· 第 1 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-05",
+      "page": 5,
+      "title": "P53、RB、PTEN、P16、P21",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "PTEN"
+        },
+        {
+          "key": "B",
+          "label": "P21"
+        },
+        {
+          "key": "C",
+          "label": "P53"
+        },
+        {
+          "key": "D",
+          "label": "P16"
+        },
+        {
+          "key": "E",
+          "label": "RB"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "“基因组卫士”",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "最早发现的抑癌基因",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "双特异磷酸酶活性",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "细胞周期检查点的负调节蛋白",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "抑制 Cdk1、2、4 和 6",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "高磷酸化后失活，不能和转录因子 E2F 结合",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "阻止细胞通过 G1/S 期检查点、促进 DNA 损伤修复、诱导细胞凋亡或老化",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "水解 PIP3，抑制 PI3K / AKT 信号通路",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "P53、RB、PTEN、P16、P21",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-14-page-01.webp",
+        "title": "第 14 讲《生化 小基因》· 第 1 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-06",
+      "page": 6,
+      "title": "抑癌基因：失活机制",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "启动子区 CpG 岛甲基化"
+        },
+        {
+          "key": "B",
+          "label": "杂合性丢失（如 RB）"
+        },
+        {
+          "key": "C",
+          "label": "基因突变（如 P53）"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "抑癌基因失活机制",
+          "answerRaw": "B、A、C",
+          "answer": [
+            "B",
+            "A",
+            "C"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "RB",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "P53",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "抑癌基因：失活机制",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-14-page-01.webp",
+        "title": "第 14 讲《生化 小基因》· 第 1 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-07",
+      "page": 7,
+      "title": "得到目的基因",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "cDNA 文库法 / 逆转录法"
+        },
+        {
+          "key": "B",
+          "label": "基因组文库法"
+        },
+        {
+          "key": "C",
+          "label": "核酸外切酶水解"
+        },
+        {
+          "key": "D",
+          "label": "酵母杂交系统"
+        },
+        {
+          "key": "E",
+          "label": "质粒降解"
+        },
+        {
+          "key": "F",
+          "label": "化学合成法"
+        },
+        {
+          "key": "G",
+          "label": "聚合酶链反应 PCR 法（最常用）"
+        },
+        {
+          "key": "H",
+          "label": "核酸变性"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "得到目的基因的方法",
+          "answerRaw": "G、A、F、D、B",
+          "answer": [
+            "G",
+            "A",
+            "F",
+            "D",
+            "B"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "最常用的方法",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "逆转录合成",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "得到目的基因",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-14-page-02.webp",
+        "title": "第 14 讲《生化 小基因》· 第 2 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-08",
+      "page": 8,
+      "title": "选择载体",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "原核表达载体"
+        },
+        {
+          "key": "B",
+          "label": "质粒"
+        },
+        {
+          "key": "C",
+          "label": "克隆载体"
+        },
+        {
+          "key": "D",
+          "label": "噬菌体 DNA"
+        },
+        {
+          "key": "E",
+          "label": "细菌或酵母人工染色体"
+        },
+        {
+          "key": "F",
+          "label": "真核表达载体"
+        },
+        {
+          "key": "G",
+          "label": "表达载体"
+        },
+        {
+          "key": "H",
+          "label": "柯斯 / 黏粒载体"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "克隆载体",
+          "answerRaw": "H、D、E、B",
+          "answer": [
+            "H",
+            "D",
+            "E",
+            "B"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "表达载体",
+          "answerRaw": "A、F",
+          "answer": [
+            "A",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "细菌染色体外的小分子双链环状 DNA",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "用于目的基因克隆",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "用于目的基因表达",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "选择载体",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-14-page-02.webp",
+        "title": "第 14 讲《生化 小基因》· 第 2 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-09",
+      "page": 9,
+      "title": "目的基因 + 载体 = 重组 DNA",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "cDNA 与 RNA 形成杂交体"
+        },
+        {
+          "key": "B",
+          "label": "黏-平末端连接"
+        },
+        {
+          "key": "C",
+          "label": "PCR 引物与 DNA 模板连接"
+        },
+        {
+          "key": "D",
+          "label": "平端连接"
+        },
+        {
+          "key": "E",
+          "label": "黏性末端连接"
+        },
+        {
+          "key": "F",
+          "label": "氨基酸之间的肽链形成"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "重组 DNA 技术中的连接方式",
+          "answerRaw": "D、E、B",
+          "answer": [
+            "D",
+            "E",
+            "B"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "同一限制酶所致的黏性末端互补",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "目的基因 + 载体 = 重组 DNA",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-14-page-02.webp",
+        "title": "第 14 讲《生化 小基因》· 第 2 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-10",
+      "page": 10,
+      "title": "重组 DNA 转入受体细胞",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "感染"
+        },
+        {
+          "key": "B",
+          "label": "转染"
+        },
+        {
+          "key": "C",
+          "label": "转化"
+        },
+        {
+          "key": "D",
+          "label": "转基因技术克隆动物"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "外源 DNA 直接导入细菌或真菌",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "外源 DNA 直接导入真核细胞",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "以噬菌体 / 逆转录病毒 / 腺病毒 DNA 为载体构建的重组 DNA，经包装形成病毒颗粒后导入宿主细胞",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "用质粒将外源 DNA 转入动物细胞",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "重组 DNA 转入受体细胞",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-14-page-02.webp",
+        "title": "第 14 讲《生化 小基因》· 第 2 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-11",
+      "page": 11,
+      "title": "对扩增表达产物进行筛选",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "抗原-抗体"
+        },
+        {
+          "key": "B",
+          "label": "核酸杂交"
+        },
+        {
+          "key": "C",
+          "label": "PCR"
+        },
+        {
+          "key": "D",
+          "label": "借助载体遗传标志"
+        },
+        {
+          "key": "E",
+          "label": "DNA 测序"
+        },
+        {
+          "key": "F",
+          "label": "RE 酶切"
+        },
+        {
+          "key": "G",
+          "label": "配体-受体"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "标志补救、基因插入失活、抗生素耐药性、噬菌体包装",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "借助序列特异性",
+          "answerRaw": "C、B、E、F",
+          "answer": [
+            "C",
+            "B",
+            "E",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "借助亲和筛选",
+          "answerRaw": "G、A",
+          "answer": [
+            "G",
+            "A"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "对扩增表达产物进行筛选",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-14-page-02.webp",
+        "title": "第 14 讲《生化 小基因》· 第 2 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-12",
+      "page": 12,
+      "title": "工具酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "DNA pol Ⅰ 或 Klenow 片段"
+        },
+        {
+          "key": "B",
+          "label": "碱性磷酸酶"
+        },
+        {
+          "key": "C",
+          "label": "逆转录酶"
+        },
+        {
+          "key": "D",
+          "label": "RNA 聚合酶"
+        },
+        {
+          "key": "E",
+          "label": "DNA 连接酶"
+        },
+        {
+          "key": "F",
+          "label": "限制性核酸内切酶 / 限制酶 / RE"
+        },
+        {
+          "key": "G",
+          "label": "末端转移酶"
+        },
+        {
+          "key": "H",
+          "label": "多聚核苷酸激酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "合成 cDNA 第一链",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "合成 cDNA 第二链",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "5′ 端磷酸化，制作探针",
+          "answerRaw": "H",
+          "answer": [
+            "H"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "3′ 端加尾",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "切除末端磷酸基团",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "识别并切割 DNA 双链内部的特异位点",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "连接目的基因 + 载体",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 8,
+          "text": "标记双链 DNA 3′ 端 / 填补空隙 / 制作探针",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 9,
+          "text": "能够作为重组 DNA 技术的工具酶",
+          "answerRaw": "C、A、B、E、F、H、G",
+          "answer": [
+            "C",
+            "A",
+            "B",
+            "E",
+            "F",
+            "H",
+            "G"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "工具酶",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-14-page-02.webp",
+        "title": "第 14 讲《生化 小基因》· 第 2 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-13",
+      "page": 13,
+      "title": "印迹法",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "Western blotting"
+        },
+        {
+          "key": "B",
+          "label": "Northern blotting"
+        },
+        {
+          "key": "C",
+          "label": "PCR"
+        },
+        {
+          "key": "D",
+          "label": "Southern blotting"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "DNA 印迹法：DNA-DNA 杂交分析",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "RNA 印迹法：检测 RNA 表达",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "蛋白质 / 免疫印迹法：检测蛋白质表达",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "印迹法",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-14-page-03.webp",
+        "title": "第 14 讲《生化 小基因》· 第 3 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-14",
+      "page": 14,
+      "title": "PCR 及衍生技术的应用",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "基因突变分析检测（基因诊断）"
+        },
+        {
+          "key": "B",
+          "label": "基因表达分析检测"
+        },
+        {
+          "key": "C",
+          "label": "蛋白质-蛋白质相互作用分析"
+        },
+        {
+          "key": "D",
+          "label": "DNA 和 RNA 检查分析"
+        },
+        {
+          "key": "E",
+          "label": "DNA 序列分析（测序）"
+        },
+        {
+          "key": "F",
+          "label": "分析蛋白质表达量"
+        },
+        {
+          "key": "G",
+          "label": "基因体外突变（体外改造目的基因）"
+        },
+        {
+          "key": "H",
+          "label": "目的基因克隆（扩增 DNA）获得目的基因"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "PCR 及衍生技术的应用",
+          "answerRaw": "E、B、H、A、G、D",
+          "answer": [
+            "E",
+            "B",
+            "H",
+            "A",
+            "G",
+            "D"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "PCR 及衍生技术的应用",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-14-page-03.webp",
+        "title": "第 14 讲《生化 小基因》· 第 3 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-15",
+      "page": 15,
+      "title": "相互作用",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "亲和分离分析（亲和色谱、免疫共沉淀、GST pull-down）"
+        },
+        {
+          "key": "B",
+          "label": "凝胶阻滞实验 / 电泳迁移率变动测定 EMSA"
+        },
+        {
+          "key": "C",
+          "label": "酵母双杂交"
+        },
+        {
+          "key": "D",
+          "label": "染色质免疫沉淀 ChIP"
+        },
+        {
+          "key": "E",
+          "label": "荧光能量共振转移 FRET"
+        },
+        {
+          "key": "F",
+          "label": "噬菌体显示系统筛选"
+        },
+        {
+          "key": "G",
+          "label": "Western blotting"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "分析 DNA-蛋白质相互作用",
+          "answerRaw": "D、B",
+          "answer": [
+            "D",
+            "B"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "分析体内 DNA 与蛋白质相互作用",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "分析蛋白质-蛋白质相互作用",
+          "answerRaw": "A、F、C、E",
+          "answer": [
+            "A",
+            "F",
+            "C",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "也可用于 RNA-蛋白质相互作用",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "相互作用",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-14-page-03.webp",
+        "title": "第 14 讲《生化 小基因》· 第 3 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-16",
+      "page": 16,
+      "title": "基因诊断",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "PCR（特异、快速）"
+        },
+        {
+          "key": "B",
+          "label": "DNA 序列分析 / 测序（最直接和确切）"
+        },
+        {
+          "key": "C",
+          "label": "基因芯片（大规模）"
+        },
+        {
+          "key": "D",
+          "label": "核酸分子杂交：Southern blotting、Northern blotting、斑点杂交、原位杂交、FISH"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "最基本",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "特异、快速",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "大规模",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "最直接和确切",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "基因诊断方法",
+          "answerRaw": "B、D、A、C",
+          "answer": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "基因诊断",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-14-page-03.webp",
+        "title": "第 14 讲《生化 小基因》· 第 3 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-17",
+      "page": 17,
+      "title": "基因治疗",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "致病基因精确的原位修复（最理想）：基因修 / 矫正"
+        },
+        {
+          "key": "B",
+          "label": "基因干扰 / 沉默：降低特定 RNA、抑制癌基因过度表达"
+        },
+        {
+          "key": "C",
+          "label": "自杀基因：诱发肿瘤细胞死亡"
+        },
+        {
+          "key": "D",
+          "label": "基因增强 / 补（最主要）"
+        },
+        {
+          "key": "E",
+          "label": "基因置换（用正常基因替换）"
+        },
+        {
+          "key": "F",
+          "label": "调整患者 DNA 修复的酶类"
+        },
+        {
+          "key": "G",
+          "label": "提高患者的 DNA 合成能力"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "基因治疗策略",
+          "answerRaw": "B、E、A、D、C",
+          "answer": [
+            "B",
+            "E",
+            "A",
+            "D",
+            "C"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "最主要",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "用正常基因替换",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "降低特定 RNA、抑制癌基因过度表达",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "致病基因精确的原位修复",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "诱发肿瘤细胞死亡",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "基因治疗",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 4,
+        "image": "biochemistry/lecture-pages/lecture-14-page-04.webp",
+        "title": "第 14 讲《生化 小基因》· 第 4 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-18",
+      "page": 18,
+      "title": "基因结构分析",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "核酸-蛋白质相互作用（EMSA 和 ChIP）"
+        },
+        {
+          "key": "B",
+          "label": "生物信息学“数据库”"
+        },
+        {
+          "key": "C",
+          "label": "5′-cDNA 末端快速扩增 RACE"
+        },
+        {
+          "key": "D",
+          "label": "RNA 剪接分析"
+        },
+        {
+          "key": "E",
+          "label": "直接克隆测序"
+        },
+        {
+          "key": "F",
+          "label": "cDNA 文库"
+        },
+        {
+          "key": "G",
+          "label": "染色质免疫共沉淀技术结合测序 ChIP-seq"
+        },
+        {
+          "key": "H",
+          "label": "启动子克隆（PCR 结合测序）"
+        },
+        {
+          "key": "I",
+          "label": "位点特异性整合荧光激活细胞分选测序 SIF-seq"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "确定编码序列",
+          "answerRaw": "D、B、F",
+          "answer": [
+            "D",
+            "B",
+            "F"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "确定启动子",
+          "answerRaw": "B、H、A",
+          "answer": [
+            "B",
+            "H",
+            "A"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 3,
+          "text": "确定转录起始点",
+          "answerRaw": "C、B、E",
+          "answer": [
+            "C",
+            "B",
+            "E"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 4,
+          "text": "确定增强子",
+          "answerRaw": "G、I",
+          "answer": [
+            "G",
+            "I"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "基因结构分析",
+      "reviewState": "已按小基因讲义、思维导图与生化合集核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 4,
+        "image": "biochemistry/lecture-pages/lecture-14-page-04.webp",
+        "title": "第 14 讲《生化 小基因》· 第 4 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    }
+  ],
+  "lectures": [
+    {
+      "id": "lecture-14",
+      "number": 14,
+      "title": "生化 小基因",
+      "pageCount": 4
+    }
+  ]
+}
