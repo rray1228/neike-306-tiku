@@ -17604,11 +17604,12 @@
         {
           "text": "去甲基化",
           "answer": [
+            "B",
             "C",
             "E",
             "G"
           ],
-          "sourceText": "去甲基化CEG",
+          "sourceText": "去甲基化BCEG",
           "sourceY": 0,
           "answerMode": "多选"
         },
