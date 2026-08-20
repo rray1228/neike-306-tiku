@@ -40,7 +40,7 @@
       "page": 4,
       "image": "",
       "topic": "胆色素代谢与生物转化",
-      "searchText": "三种黄疸鉴别"
+      "searchText": "三种黄疸：按完整指标组合鉴别"
     },
     {
       "page": 5,
@@ -546,163 +546,53 @@
     {
       "id": "bio-10-04",
       "page": 4,
-      "title": "三种黄疸鉴别",
+      "title": "三种黄疸：按完整指标组合鉴别",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "ALP、GGT 明显升高"
+          "label": "溶血性黄疸"
         },
         {
           "key": "B",
-          "label": "ALT、AST、PT 多正常"
+          "label": "肝细胞性黄疸"
         },
         {
           "key": "C",
-          "label": "CB/TB ＞0.8"
-        },
-        {
-          "key": "D",
-          "label": "升高"
-        },
-        {
-          "key": "E",
-          "label": "＋"
-        },
-        {
-          "key": "F",
-          "label": "CB/TB 0.2～0.5"
-        },
-        {
-          "key": "G",
-          "label": "UCB 明显升高"
-        },
-        {
-          "key": "H",
-          "label": "降低"
-        },
-        {
-          "key": "I",
-          "label": "ALT、AST、PT 可升高"
-        },
-        {
-          "key": "J",
-          "label": "ALP、GGT 升高"
-        },
-        {
-          "key": "K",
-          "label": "阴性"
-        },
-        {
-          "key": "L",
-          "label": "ALP、GGT 多正常"
-        },
-        {
-          "key": "M",
-          "label": "ALT、AST、PT 明显升高/异常"
-        },
-        {
-          "key": "N",
-          "label": "尿深、粪便浅甚至白陶土样"
-        },
-        {
-          "key": "O",
-          "label": "不定"
-        },
-        {
-          "key": "P",
-          "label": "胆红素均正常"
-        },
-        {
-          "key": "Q",
-          "label": "CB、UCB 均升高"
-        },
-        {
-          "key": "R",
-          "label": "CB 明显升高"
-        },
-        {
-          "key": "S",
-          "label": "三者均阴性"
-        },
-        {
-          "key": "T",
-          "label": "CB/TB ＜0.2"
-        },
-        {
-          "key": "U",
-          "label": "尿色浅、粪便深是共同表现"
-        },
-        {
-          "key": "V",
-          "label": "尿深、粪便正常或较浅"
-        },
-        {
-          "key": "W",
-          "label": "消失是所有病例的共同表现"
-        },
-        {
-          "key": "X",
-          "label": "尿深、粪便颜色也较深"
-        },
-        {
-          "key": "Y",
-          "label": "CB/TB ＞0.5"
-        },
-        {
-          "key": "Z",
-          "label": "＋＋"
+          "label": "梗阻性黄疸"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "溶血性黄疸的特点",
-          "answerRaw": "G、T、D、K、X、B、L",
+          "text": "UCB 明显升高，CB/TB ＜0.2；尿胆原升高、尿胆红素阴性；尿深、粪便颜色也较深；ALT、AST、PT 多正常，ALP、GGT 多正常",
+          "answerRaw": "A",
           "answer": [
-            "G",
-            "T",
-            "D",
-            "K",
-            "X",
-            "B",
-            "L"
+            "A"
           ],
-          "answerMode": "多选"
+          "answerMode": "单选"
         },
         {
           "number": 2,
-          "text": "肝细胞性黄疸的特点",
-          "answerRaw": "Q、F、O、E、V、M、J",
+          "text": "CB、UCB 均升高，CB/TB 0.2～0.5；尿胆原不定、尿胆红素＋；尿深、粪便正常或较浅；ALT、AST、PT 明显升高/异常，ALP、GGT 升高",
+          "answerRaw": "B",
           "answer": [
-            "Q",
-            "F",
-            "O",
-            "E",
-            "V",
-            "M",
-            "J"
+            "B"
           ],
-          "answerMode": "多选"
+          "answerMode": "单选"
         },
         {
           "number": 3,
-          "text": "梗阻性黄疸的特点",
-          "answerRaw": "R、Y、H、Z、N、I、A",
+          "text": "CB 明显升高，CB/TB ＞0.5；尿胆原降低、尿胆红素＋＋；尿深、粪便浅甚至白陶土样；ALT、AST、PT 可升高，ALP、GGT 明显升高",
+          "answerRaw": "C",
           "answer": [
-            "R",
-            "Y",
-            "H",
-            "Z",
-            "N",
-            "I",
-            "A"
+            "C"
           ],
-          "answerMode": "多选"
+          "answerMode": "单选"
         }
       ],
-      "sourceText": "三种黄疸鉴别",
+      "sourceText": "三种黄疸：按完整指标组合鉴别",
       "reviewState": "已按 2027 考研讲义与思维导图核对",
       "reviewIssues": [],
       "reviewNotes": [],
