@@ -81,7 +81,7 @@ const CONTENT_LOADERS = {
     }
   },
   biochemistry: async () => {
-    const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content, biochemistryLecture14Content, biochemistryLecture15Content] = await Promise.all([
+    const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content, biochemistryLecture14Content, biochemistryLecture15Content, biochemistryLecture16Content] = await Promise.all([
       loadJson(() => import('./data/biochemistry-data.json')),
       loadJson(() => import('./data/biochemistry-lecture2-data.json')),
       loadJson(() => import('./data/biochemistry-lecture3-data.json')),
@@ -97,8 +97,9 @@ const CONTENT_LOADERS = {
       loadJson(() => import('./data/biochemistry-lecture13-data.json')),
       loadJson(() => import('./data/biochemistry-lecture14-data.json')),
       loadJson(() => import('./data/biochemistry-lecture15-data.json')),
+      loadJson(() => import('./data/biochemistry-lecture16-data.json')),
     ])
-    const allContents = [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content, biochemistryLecture14Content, biochemistryLecture15Content]
+    const allContents = [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content, biochemistryLecture14Content, biochemistryLecture15Content, biochemistryLecture16Content]
     const groups = allContents.flatMap((content) => content.groups).map((group) => ({
       ...group,
       topic: biochemistryParentForTopic(group.topic) || group.topic,
@@ -108,10 +109,10 @@ const CONTENT_LOADERS = {
       meta: {
         ...biochemistryContent.meta,
         title: '生物化学题库',
-        lectureCount: 15,
+        lectureCount: 16,
         groupCount: groups.length,
         stemCount: groups.reduce((sum, group) => sum + group.stems.length, 0),
-        answerNote: '已收录第 01～15 讲题组；每题均只关联本讲讲义页，选项与答案均已按讲义复核。',
+        answerNote: '已收录第 01～16 讲题组；每题均只关联本讲讲义页，选项与答案均已按讲义复核。',
       },
       topics: ['糖代谢', '生物氧化', '脂代谢', '氨基酸与蛋白质', '核苷酸代谢', '胆色素代谢与生物转化', '酶', '维生素', '小基因', '核酸'],
       groups,

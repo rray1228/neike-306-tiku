@@ -1,0 +1,1122 @@
+{
+  "meta": {
+    "title": "生物化学第 16 讲题库",
+    "sourceLabel": "生化第 16 讲学成题（DNA 的合成）",
+    "sourcePages": 13,
+    "lectureCount": 1,
+    "groupCount": 13,
+    "stemCount": 34,
+    "correctionGroupCount": 0,
+    "generatedBy": "scripts/build_biochemistry_lecture16.py",
+    "siteIntegrated": true,
+    "lectureLinked": true,
+    "answerNote": "仅收录第 16 讲《DNA 的合成》范围内选择题；选项已打散，答案按原始讲义逐项复核。"
+  },
+  "topics": [
+    "全部",
+    "核酸",
+    "综合"
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "DNA 复制方式"
+    },
+    {
+      "page": 2,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "DNA 复制的高保真性"
+    },
+    {
+      "page": 3,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "原核 DNA 聚合酶"
+    },
+    {
+      "page": 4,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "DNApol III"
+    },
+    {
+      "page": 5,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "DNA 复制相关蛋白 / 酶"
+    },
+    {
+      "page": 6,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "前导链、后随链与冈崎片段"
+    },
+    {
+      "page": 7,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "引物切除与连接"
+    },
+    {
+      "page": 8,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "真核 DNA 聚合酶"
+    },
+    {
+      "page": 9,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "端粒酶的组成"
+    },
+    {
+      "page": 10,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "逆转录酶"
+    },
+    {
+      "page": 11,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "逆转录活性"
+    },
+    {
+      "page": 12,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "磷酸二酯键"
+    },
+    {
+      "page": 13,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "DNA 连接酶"
+    }
+  ],
+  "groups": [
+    {
+      "id": "bio-16-01",
+      "page": 1,
+      "title": "DNA 复制方式",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "半不连续复制"
+        },
+        {
+          "key": "B",
+          "label": "多复制子复制"
+        },
+        {
+          "key": "C",
+          "label": "双向复制"
+        },
+        {
+          "key": "D",
+          "label": "半保留复制"
+        },
+        {
+          "key": "E",
+          "label": "D 环复制"
+        },
+        {
+          "key": "F",
+          "label": "滚环复制"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "真核生物染色体 DNA 的复制方式",
+          "answerRaw": "A、C、D",
+          "answer": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选"
+        },
+        {
+          "number": 2,
+          "text": "真核生物体为解决庞大基因组复制问题的适应性机制",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "线粒体 mtDNA 的复制方式",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "DNA 复制方式",
+      "reviewState": "已按 DNA 的合成原始讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生化 DNA 的合成",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-16-page-01-02.webp",
+        "title": "第 16 讲《生化 DNA 的合成》· 第 1–2 页",
+        "description": "DNA 复制方式：半保留、双向、半不连续与多复制子。 点击可查看讲义原页。",
+        "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
+      }
+    },
+    {
+      "id": "bio-16-02",
+      "page": 2,
+      "title": "DNA 复制的高保真性",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "复制叉的结构"
+        },
+        {
+          "key": "B",
+          "label": "氨基酰 tRNA 合成酶对氨基酸的高度特异性"
+        },
+        {
+          "key": "C",
+          "label": "密码子的简并性"
+        },
+        {
+          "key": "D",
+          "label": "半保留复制"
+        },
+        {
+          "key": "E",
+          "label": "DNA 的 SOS 修复"
+        },
+        {
+          "key": "F",
+          "label": "严格的碱基配对原则（A-T、G-C）"
+        },
+        {
+          "key": "G",
+          "label": "DNA 聚合酶：正确选择碱基"
+        },
+        {
+          "key": "H",
+          "label": "修复系统：光复活、剪切、重组等"
+        },
+        {
+          "key": "I",
+          "label": "DNA 聚合酶的核酸外切酶活性和校对功能"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "参与维持 DNA 复制高保真性的因素",
+          "answerRaw": "H、I、A、F、D、G",
+          "answer": [
+            "H",
+            "I",
+            "A",
+            "F",
+            "D",
+            "G"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "DNA 复制的高保真性",
+      "reviewState": "已按 DNA 的合成原始讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生化 DNA 的合成",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-16-page-03.webp",
+        "title": "第 16 讲《生化 DNA 的合成》· 第 3 页",
+        "description": "DNA 复制高保真性及原核 DNA 聚合酶。 点击可查看讲义原页。",
+        "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
+      }
+    },
+    {
+      "id": "bio-16-03",
+      "page": 3,
+      "title": "原核 DNA 聚合酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "DNApol II"
+        },
+        {
+          "key": "B",
+          "label": "DNApol III"
+        },
+        {
+          "key": "C",
+          "label": "DNApol I 的小片段"
+        },
+        {
+          "key": "D",
+          "label": "DNApol I 的 Klenow 片段"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "延长子链最主要",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "应急低保真复制",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "填补空隙",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "5→3 核酸外切酶活性；修复损伤、切除 RNA 引物",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "原核 DNA 聚合酶",
+      "reviewState": "已按 DNA 的合成原始讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生化 DNA 的合成",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-16-page-03.webp",
+        "title": "第 16 讲《生化 DNA 的合成》· 第 3 页",
+        "description": "原核 DNA 聚合酶 I、II、III 的功能。 点击可查看讲义原页。",
+        "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
+      }
+    },
+    {
+      "id": "bio-16-04",
+      "page": 4,
+      "title": "DNApol III",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "α"
+        },
+        {
+          "key": "B",
+          "label": "滑动夹（β）"
+        },
+        {
+          "key": "C",
+          "label": "γ-复合物"
+        },
+        {
+          "key": "D",
+          "label": "θ"
+        },
+        {
+          "key": "E",
+          "label": "ε"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "5→3 聚合酶活性（复制中延长子链最主要）",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "保证复制高保真性（3→5 核酸外切酶活性）",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "夹稳模板链，并能使酶沿模板链滑动",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "DNApol III",
+      "reviewState": "已按 DNA 的合成原始讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生化 DNA 的合成",
+        "page": 4,
+        "image": "biochemistry/lecture-pages/lecture-16-page-04.webp",
+        "title": "第 16 讲《生化 DNA 的合成》· 第 4 页",
+        "description": "DNA 聚合酶 III 的亚基、复制相关酶与蛋白。 点击可查看讲义原页。",
+        "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
+      }
+    },
+    {
+      "id": "bio-16-05",
+      "page": 5,
+      "title": "DNA 复制相关蛋白 / 酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "单链 DNA 结合蛋白 SSB"
+        },
+        {
+          "key": "B",
+          "label": "DnaC"
+        },
+        {
+          "key": "C",
+          "label": "DnaB（解旋酶）"
+        },
+        {
+          "key": "D",
+          "label": "DnaA"
+        },
+        {
+          "key": "E",
+          "label": "拓扑异构酶 II / 促旋酶"
+        },
+        {
+          "key": "F",
+          "label": "拓扑异构酶 I"
+        },
+        {
+          "key": "G",
+          "label": "DnaG（引物酶）"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "辨认复制起点（如富含 AT 的重复序列）",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "切断 DNA 一条链，不需 ATP",
+          "answerRaw": "F",
+          "answer": [
+            "F"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "切断 DNA 两条链、将正超螺旋变为负超螺旋，需 ATP",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "解开双螺旋 / 双链",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "运送协助解旋酶",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 6,
+          "text": "结合单链 DNA，稳定模板的单链状态、保护单链",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 7,
+          "text": "合成引物（短链 RNA）",
+          "answerRaw": "G",
+          "answer": [
+            "G"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "DNA 复制相关蛋白 / 酶",
+      "reviewState": "已按 DNA 的合成原始讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生化 DNA 的合成",
+        "page": 5,
+        "image": "biochemistry/lecture-pages/lecture-16-page-04.webp",
+        "title": "第 16 讲《生化 DNA 的合成》· 第 4 页",
+        "description": "DnaA、DnaB、DnaC、DnaG、SSB 与拓扑异构酶。 点击可查看讲义原页。",
+        "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
+      }
+    },
+    {
+      "id": "bio-16-06",
+      "page": 6,
+      "title": "前导链、后随链与冈崎片段",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "后随链"
+        },
+        {
+          "key": "B",
+          "label": "前导链"
+        },
+        {
+          "key": "C",
+          "label": "冈崎片段"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "先进行、连续延长",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "后进行、不连续延长",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "后随链不连续延长而形成",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "前导链、后随链与冈崎片段",
+      "reviewState": "已按 DNA 的合成原始讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生化 DNA 的合成",
+        "page": 6,
+        "image": "biochemistry/lecture-pages/lecture-16-page-04.webp",
+        "title": "第 16 讲《生化 DNA 的合成》· 第 4 页",
+        "description": "前导链、后随链与冈崎片段。 点击可查看讲义原页。",
+        "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
+      }
+    },
+    {
+      "id": "bio-16-07",
+      "page": 7,
+      "title": "引物切除与连接",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "FEN1"
+        },
+        {
+          "key": "B",
+          "label": "DNA 连接酶"
+        },
+        {
+          "key": "C",
+          "label": "DNApol I"
+        },
+        {
+          "key": "D",
+          "label": "RNase H"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "原核 DNA 复制终止时水解引物、并填补残留的空隙",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "连接双链 DNA 的单链缺口",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "真核 DNA 复制中切除引物",
+          "answerRaw": "D、A",
+          "answer": [
+            "D",
+            "A"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "引物切除与连接",
+      "reviewState": "已按 DNA 的合成原始讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生化 DNA 的合成",
+        "page": 7,
+        "image": "biochemistry/lecture-pages/lecture-16-page-05.webp",
+        "title": "第 16 讲《生化 DNA 的合成》· 第 5 页",
+        "description": "RNA 引物切除、填补与 DNA 连接。 点击可查看讲义原页。",
+        "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
+      }
+    },
+    {
+      "id": "bio-16-08",
+      "page": 8,
+      "title": "真核 DNA 聚合酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "DNApol ε"
+        },
+        {
+          "key": "B",
+          "label": "DNApol α"
+        },
+        {
+          "key": "C",
+          "label": "DNApol β"
+        },
+        {
+          "key": "D",
+          "label": "DNApol γ"
+        },
+        {
+          "key": "E",
+          "label": "DNApol δ"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "引物酶",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 2,
+          "text": "应急低保真复制、错配修复",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 3,
+          "text": "mtDNA 的 D 环复制",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 4,
+          "text": "延长后随链、错配修复",
+          "answerRaw": "E",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选"
+        },
+        {
+          "number": 5,
+          "text": "延长前导链、错配修复",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "真核 DNA 聚合酶",
+      "reviewState": "已按 DNA 的合成原始讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生化 DNA 的合成",
+        "page": 8,
+        "image": "biochemistry/lecture-pages/lecture-16-page-08.webp",
+        "title": "第 16 讲《生化 DNA 的合成》· 第 8 页",
+        "description": "真核 DNA 聚合酶及线粒体 DNA 的 D 环复制。 点击可查看讲义原页。",
+        "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
+      }
+    },
+    {
+      "id": "bio-16-09",
+      "page": 9,
+      "title": "端粒酶的组成",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "引物"
+        },
+        {
+          "key": "B",
+          "label": "RNA 聚合酶"
+        },
+        {
+          "key": "C",
+          "label": "RNA"
+        },
+        {
+          "key": "D",
+          "label": "辅基"
+        },
+        {
+          "key": "E",
+          "label": "逆转录酶"
+        },
+        {
+          "key": "F",
+          "label": "DNA 聚合酶"
+        },
+        {
+          "key": "G",
+          "label": "DNA 修复酶"
+        },
+        {
+          "key": "H",
+          "label": "协同蛋白"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "端粒酶的组成成分",
+          "answerRaw": "C、H、E",
+          "answer": [
+            "C",
+            "H",
+            "E"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "端粒酶的组成",
+      "reviewState": "已按 DNA 的合成原始讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生化 DNA 的合成",
+        "page": 9,
+        "image": "biochemistry/lecture-pages/lecture-16-page-09.webp",
+        "title": "第 16 讲《生化 DNA 的合成》· 第 9 页",
+        "description": "端粒酶的组成。 点击可查看讲义原页。",
+        "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
+      }
+    },
+    {
+      "id": "bio-16-10",
+      "page": 10,
+      "title": "逆转录酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "DDDP"
+        },
+        {
+          "key": "B",
+          "label": "3→5 核酸外切酶活性"
+        },
+        {
+          "key": "C",
+          "label": "RNase H"
+        },
+        {
+          "key": "D",
+          "label": "RDDP"
+        },
+        {
+          "key": "E",
+          "label": "5→3 核酸外切酶活性"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "逆转录病毒中的逆转录酶具有的活性",
+          "answerRaw": "D、C、A",
+          "answer": [
+            "D",
+            "C",
+            "A"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "逆转录酶",
+      "reviewState": "已按 DNA 的合成原始讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生化 DNA 的合成",
+        "page": 10,
+        "image": "biochemistry/lecture-pages/lecture-16-page-10.webp",
+        "title": "第 16 讲《生化 DNA 的合成》· 第 10 页",
+        "description": "逆转录酶的三种酶活性。 点击可查看讲义原页。",
+        "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
+      }
+    },
+    {
+      "id": "bio-16-11",
+      "page": 11,
+      "title": "逆转录活性",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "端粒酶"
+        },
+        {
+          "key": "B",
+          "label": "RNA 聚合酶 II"
+        },
+        {
+          "key": "C",
+          "label": "DNA 聚合酶 δ"
+        },
+        {
+          "key": "D",
+          "label": "光复活酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "具有逆转录活性的酶是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "逆转录活性",
+      "reviewState": "已按 DNA 的合成原始讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生化 DNA 的合成",
+        "page": 11,
+        "image": "biochemistry/lecture-pages/lecture-16-page-11.webp",
+        "title": "第 16 讲《生化 DNA 的合成》· 第 11 页",
+        "description": "端粒酶具有逆转录活性。 点击可查看讲义原页。",
+        "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
+      }
+    },
+    {
+      "id": "bio-16-12",
+      "page": 12,
+      "title": "磷酸二酯键",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "DNase / RNase"
+        },
+        {
+          "key": "B",
+          "label": "核酸外切酶"
+        },
+        {
+          "key": "C",
+          "label": "DNA 聚合酶"
+        },
+        {
+          "key": "D",
+          "label": "拓扑异构酶"
+        },
+        {
+          "key": "E",
+          "label": "引物酶（DnaG 蛋白 / DNApol α）"
+        },
+        {
+          "key": "F",
+          "label": "RNA 聚合酶"
+        },
+        {
+          "key": "G",
+          "label": "DNA 连接酶"
+        },
+        {
+          "key": "H",
+          "label": "逆转录酶"
+        },
+        {
+          "key": "I",
+          "label": "端粒酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "可生成磷酸二酯键的酶",
+          "answerRaw": "G、I、F、D、C、E、H",
+          "answer": [
+            "G",
+            "I",
+            "F",
+            "D",
+            "C",
+            "E",
+            "H"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "磷酸二酯键",
+      "reviewState": "已按 DNA 的合成原始讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生化 DNA 的合成",
+        "page": 12,
+        "image": "biochemistry/lecture-pages/lecture-16-page-10.webp",
+        "title": "第 16 讲《生化 DNA 的合成》· 第 10 页",
+        "description": "DNA、RNA 合成及拓扑反应中的磷酸二酯键生成。 点击可查看讲义原页。",
+        "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
+      }
+    },
+    {
+      "id": "bio-16-13",
+      "page": 13,
+      "title": "DNA 连接酶",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "连接目的基因与载体形成重组 DNA"
+        },
+        {
+          "key": "B",
+          "label": "DNA 损伤修复"
+        },
+        {
+          "key": "C",
+          "label": "合成 cDNA 第一链"
+        },
+        {
+          "key": "D",
+          "label": "复制中最后连接双链 DNA 的单链缺口"
+        },
+        {
+          "key": "E",
+          "label": "切除 RNA 引物"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "text": "DNA 连接酶的作用",
+          "answerRaw": "A、B、D",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "DNA 连接酶",
+      "reviewState": "已按 DNA 的合成原始讲义核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "lectureNumber": 16,
+        "lectureTitle": "生化 DNA 的合成",
+        "page": 13,
+        "image": "biochemistry/lecture-pages/lecture-16-page-11.webp",
+        "title": "第 16 讲《生化 DNA 的合成》· 第 11 页",
+        "description": "DNA 连接酶在复制、修复及基因工程中的作用。 点击可查看讲义原页。",
+        "method": "按第 16 讲《DNA 的合成》原始讲义逐项复核。"
+      }
+    }
+  ],
+  "lectures": [
+    {
+      "id": "lecture-16",
+      "number": 16,
+      "title": "生化 DNA 的合成",
+      "pageCount": 13
+    }
+  ]
+}
