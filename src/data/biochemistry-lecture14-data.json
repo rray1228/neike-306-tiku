@@ -4,13 +4,13 @@
     "sourceLabel": "生化第 14 讲学成题（小基因）",
     "sourcePages": 4,
     "lectureCount": 1,
-    "groupCount": 18,
-    "stemCount": 73,
+    "groupCount": 21,
+    "stemCount": 85,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture14.py",
     "siteIntegrated": true,
     "lectureLinked": true,
-    "answerNote": "仅收录第 14 讲《小基因》范围内题目；每组选项均已打散，答案按讲义、思维导图与生化合集复核。"
+    "answerNote": "完整收录第 14 讲《小基因》选择题与填空题；选择题选项已打散，填空题按 DOCX 原编号与原答案导入。"
   },
   "topics": [
     "全部",
@@ -125,6 +125,24 @@
       "image": "",
       "topic": "小基因",
       "searchText": "基因结构分析"
+    },
+    {
+      "page": 19,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "填空题 F1–F6"
+    },
+    {
+      "page": 20,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "填空题 F7–F10"
+    },
+    {
+      "page": 21,
+      "image": "",
+      "topic": "小基因",
+      "searchText": "填空题 F11–F12"
     }
   ],
   "groups": [
@@ -1916,6 +1934,238 @@
         "page": 4,
         "image": "biochemistry/lecture-pages/lecture-14-page-04.webp",
         "title": "第 14 讲《生化 小基因》· 第 4 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-fill-01",
+      "page": 19,
+      "title": "填空题 F1–F6",
+      "kind": "F",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "number": 1,
+          "text": "原癌基因：正常存在、______、正性调控（促进细胞增殖 / 生长 / 分化）、分布______。",
+          "answerRaw": "高度保守；广泛",
+          "answerDisplay": "高度保守；广泛",
+          "answer": [
+            "高度保守",
+            "广泛"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 2,
+          "text": "原癌基因活化：获得______或______、染色体______、基因______、基因______（______最常见）。",
+          "answerRaw": "启动子；增强子；易位；扩增；突变；点突变",
+          "answerDisplay": "启动子；增强子；易位；扩增；突变；点突变",
+          "answer": [
+            "启动子",
+            "增强子",
+            "易位",
+            "扩增",
+            "突变",
+            "点突变"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 3,
+          "text": "Burkitt 淋巴瘤：______；CML：产生新的______；神经母细胞瘤：______扩增；大肠癌、膀胱癌：______突变。",
+          "answerRaw": "MYC 易位至强启动子或增强子附近；BCR-ABL 融合基因；N-MYC；RAS 点",
+          "answerDisplay": "MYC 易位至强启动子或增强子附近；BCR-ABL 融合基因；N-MYC；RAS 点",
+          "answer": [
+            "MYC 易位至强启动子或增强子附近",
+            "BCR-ABL 融合基因",
+            "N-MYC",
+            "RAS 点"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 4,
+          "text": "P53“______”：阻止细胞通过______期检查点，促进______，诱导细胞______或______。",
+          "answerRaw": "基因组卫士；G1/S；DNA 损伤修复；凋亡；老化",
+          "answerDisplay": "基因组卫士；G1/S；DNA 损伤修复；凋亡；老化",
+          "answer": [
+            "基因组卫士",
+            "G1/S",
+            "DNA 损伤修复",
+            "凋亡",
+            "老化"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 5,
+          "text": "高磷酸化 RB（______）不能和转录因子______结合，细胞能通过 G1/S 期检查点。",
+          "answerRaw": "失活；E2F",
+          "answerDisplay": "失活；E2F",
+          "answer": [
+            "失活",
+            "E2F"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 6,
+          "text": "PTEN 水解______，抑制______信号通路。",
+          "answerRaw": "PIP3；PI3K / AKT",
+          "answerDisplay": "PIP3；PI3K / AKT",
+          "answer": [
+            "PIP3",
+            "PI3K / AKT"
+          ],
+          "answerMode": "填空"
+        }
+      ],
+      "sourceText": "填空题 F1–F6",
+      "reviewState": "已按小基因 DOCX 原文逐空核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 0,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-14-page-01.webp",
+        "title": "第 14 讲《生化 小基因》· 第 1 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-fill-02",
+      "page": 20,
+      "title": "填空题 F7–F10",
+      "kind": "F",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "number": 7,
+          "text": "质粒：细菌染色体外的小分子______链______状 DNA。",
+          "answerRaw": "双；环",
+          "answerDisplay": "双；环",
+          "answer": [
+            "双",
+            "环"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 8,
+          "text": "完整载体：至少有一个复制起始点；至少有一个______；有适宜的 RE ______切点。",
+          "answerRaw": "选择标志；单一",
+          "answerDisplay": "选择标志；单一",
+          "answer": [
+            "选择标志",
+            "单一"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 9,
+          "text": "PCR 反应系统：耐热 DNA 聚合酶（______酶）、模板 DNA、______种特异 DNA 引物、______种 dNTP、缓冲溶液。",
+          "answerRaw": "Taq；两；四",
+          "answerDisplay": "Taq；两；四",
+          "answer": [
+            "Taq",
+            "两",
+            "四"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 10,
+          "text": "PCR 步骤：______ → ______ → ______。",
+          "answerRaw": "变性；复性；延伸",
+          "answerDisplay": "变性；复性；延伸",
+          "answer": [
+            "变性",
+            "复性",
+            "延伸"
+          ],
+          "answerMode": "填空"
+        }
+      ],
+      "sourceText": "填空题 F7–F10",
+      "reviewState": "已按小基因 DOCX 原文逐空核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 0,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-14-page-02.webp",
+        "title": "第 14 讲《生化 小基因》· 第 2 页",
+        "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-14-fill-03",
+      "page": 21,
+      "title": "填空题 F11–F12",
+      "kind": "F",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "number": 11,
+          "text": "DNA 印迹法：______ blotting；RNA 印迹法：______ blotting；蛋白质 / 免疫印迹法：______ blotting。",
+          "answerRaw": "Southern；Northern；Western",
+          "answerDisplay": "Southern；Northern；Western",
+          "answer": [
+            "Southern",
+            "Northern",
+            "Western"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 12,
+          "text": "基因治疗：载体常用______；靶细胞为______（如造血干细胞），禁用______。",
+          "answerRaw": "病毒；体细胞；生殖细胞",
+          "answerDisplay": "病毒；体细胞；生殖细胞",
+          "answer": [
+            "病毒",
+            "体细胞",
+            "生殖细胞"
+          ],
+          "answerMode": "填空"
+        }
+      ],
+      "sourceText": "填空题 F11–F12",
+      "reviewState": "已按小基因 DOCX 原文逐空核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "optionShuffleVersion": 0,
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "lectureNumber": 14,
+        "lectureTitle": "生化 小基因",
+        "page": 3,
+        "image": "biochemistry/lecture-pages/lecture-14-page-03.webp",
+        "title": "第 14 讲《生化 小基因》· 第 3 页",
         "description": "已按小基因讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
         "method": "按 2027 考研生化第 14 讲《小基因》及配套思维导图逐项复核。"
       }

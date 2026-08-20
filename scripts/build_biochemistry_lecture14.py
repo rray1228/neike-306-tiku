@@ -10,6 +10,8 @@ from pathlib import Path
 
 from docx import Document
 
+from biochemistry_fill_questions import make_fill_groups, parse_fill_questions
+
 
 SOURCE = Path("/Users/ray/Downloads/生化_14_小基因_学成题_讲义原话修订版.docx")
 OUTPUT = Path("src/data/biochemistry-lecture14-data.json")
@@ -147,6 +149,17 @@ def main():
         **{index: 4 for index in range(17, 19)},
     }
     groups = [make_group(group, index, evidence_pages[group["source_index"]]) for index, group in enumerate(source_groups, 1)]
+    fill_questions = parse_fill_questions(SOURCE)
+    groups.extend(make_fill_groups(
+        fill_questions,
+        lecture_number=LECTURE_NUMBER,
+        topic=TOPIC,
+        lecture_id="lecture-14",
+        start_page=len(groups) + 1,
+        ranges=[(1, 6, 1), (7, 10, 2), (11, 12, 3)],
+        evidence_for_page=evidence,
+        review_state="已按小基因 DOCX 原文逐空核对",
+    ))
     payload = {
         "meta": {
             "title": "生物化学第 14 讲题库",
@@ -159,7 +172,7 @@ def main():
             "generatedBy": "scripts/build_biochemistry_lecture14.py",
             "siteIntegrated": True,
             "lectureLinked": True,
-            "answerNote": "仅收录第 14 讲《小基因》范围内题目；每组选项均已打散，答案按讲义、思维导图与生化合集复核。",
+            "answerNote": "完整收录第 14 讲《小基因》选择题与填空题；选择题选项已打散，填空题按 DOCX 原编号与原答案导入。",
         },
         "topics": ["全部", TOPIC, "综合"],
         "pages": [{"page": group["page"], "image": "", "topic": TOPIC, "searchText": group["title"]} for group in groups],

@@ -59,6 +59,49 @@ def bank(lecture_number, lecture_title, index, title, options, stems, lecture_pa
     }
 
 
+def categorized_bank(lecture_number, lecture_title, index, title, categories, stems, lecture_page):
+    """Build a bank whose options stay grouped by indicator while shuffling within each group."""
+    shuffled_options = []
+    for category_index, (category, labels) in enumerate(categories):
+        shuffled = list(labels)
+        random.Random(30600 + lecture_number * 100 + index * 10 + category_index).shuffle(shuffled)
+        if shuffled == labels and len(shuffled) > 1:
+            shuffled = shuffled[1:] + shuffled[:1]
+        shuffled_options.extend((category, label) for label in shuffled)
+
+    option_keys = {label: chr(65 + position) for position, (_, label) in enumerate(shuffled_options)}
+    formatted_stems = []
+    for number, (text, answer_labels) in enumerate(stems, 1):
+        answer = [option_keys[label] for label in answer_labels]
+        formatted_stems.append({
+            "number": number,
+            "text": text,
+            "answerRaw": "、".join(answer),
+            "answer": answer,
+            "answerMode": "多选",
+        })
+    return {
+        "id": f"bio-{lecture_number:02d}-{index:02d}",
+        "page": index,
+        "title": title,
+        "kind": "B",
+        "kindLabel": "B型题",
+        "options": [
+            {"key": chr(65 + position), "label": label, "category": category}
+            for position, (category, label) in enumerate(shuffled_options)
+        ],
+        "stems": formatted_stems,
+        "sourceText": title,
+        "reviewState": "已按三种黄疸鉴别表逐项核对",
+        "reviewIssues": [],
+        "reviewNotes": ["题干固定为三种黄疸；每项指标作为独立选项，并按指标类别分区。"],
+        "topic": TOPIC,
+        "lectureIds": [f"lecture-{lecture_number:02d}"],
+        "optionShuffleVersion": 2,
+        "lectureEvidence": evidence(lecture_number, lecture_title, lecture_page),
+    }
+
+
 def payload(lecture_number, title, source_label, page_count, groups):
     return {
         "meta": {
@@ -114,30 +157,18 @@ def main():
             ("结合胆红素 CB 的名称", ["直接胆红素", "结合胆红素", "葡萄糖醛酸胆红素", "肝胆红素"]),
             ("CB 的性质与表现", ["水溶性", "不易透过细胞膜", "可出现在尿液中", "毒性较小"]),
         ], 2),
-        bank(10, bilirubin_title, 4, "三种黄疸的指标鉴别", [
-            "溶血性黄疸", "肝细胞性黄疸", "梗阻性黄疸",
+        categorized_bank(10, bilirubin_title, 4, "三种黄疸的指标鉴别", [
+            ("血主要胆红素", ["血主要胆红素为 UCB↑↑", "血中 CB、UCB 均升高", "血主要胆红素为 CB↑↑"]),
+            ("CB/TB", ["CB/TB＜0.2", "CB/TB 为 0.2～0.5", "CB/TB＞0.5"]),
+            ("尿胆素原", ["尿胆素原升高", "尿胆素原不定", "尿胆素原降低"]),
+            ("尿胆红素", ["尿胆红素阴性", "尿胆红素阳性（＋）", "尿胆红素强阳性（＋＋）"]),
+            ("尿色与粪色", ["尿深、粪深", "尿深、粪正常或较浅", "尿深、粪浅甚至白陶土样"]),
+            ("ALT、AST、PT", ["ALT、AST、PT 多正常", "ALT、AST、PT 明显升高", "ALT、AST、PT 可升高"]),
+            ("ALP、GGT", ["ALP、GGT 多正常", "ALP、GGT 升高", "ALP、GGT 明显升高"]),
         ], [
-            ("血主要胆红素为 UCB↑↑", ["溶血性黄疸"]),
-            ("血中 CB、UCB 均升高", ["肝细胞性黄疸"]),
-            ("血主要胆红素为 CB↑↑", ["梗阻性黄疸"]),
-            ("CB/TB ＜0.2", ["溶血性黄疸"]),
-            ("CB/TB 为 0.2～0.5", ["肝细胞性黄疸"]),
-            ("CB/TB ＞0.5", ["梗阻性黄疸"]),
-            ("尿胆原升高", ["溶血性黄疸"]),
-            ("尿胆原不定", ["肝细胞性黄疸"]),
-            ("尿胆原降低", ["梗阻性黄疸"]),
-            ("尿胆红素阴性", ["溶血性黄疸"]),
-            ("尿胆红素阳性（＋）", ["肝细胞性黄疸"]),
-            ("尿胆红素强阳性（＋＋）", ["梗阻性黄疸"]),
-            ("尿色深、粪便颜色深", ["溶血性黄疸"]),
-            ("尿色深、粪便颜色正常或较浅", ["肝细胞性黄疸"]),
-            ("尿色深、粪便浅，甚至呈白陶土样", ["梗阻性黄疸"]),
-            ("ALT、AST、PT 多正常", ["溶血性黄疸"]),
-            ("ALT、AST、PT 明显升高", ["肝细胞性黄疸"]),
-            ("ALT、AST、PT 可升高", ["梗阻性黄疸"]),
-            ("ALP、GGT 多正常", ["溶血性黄疸"]),
-            ("ALP、GGT 升高", ["肝细胞性黄疸"]),
-            ("ALP、GGT 明显升高", ["梗阻性黄疸"]),
+            ("溶血性黄疸", ["血主要胆红素为 UCB↑↑", "CB/TB＜0.2", "尿胆素原升高", "尿胆红素阴性", "尿深、粪深", "ALT、AST、PT 多正常", "ALP、GGT 多正常"]),
+            ("肝细胞性黄疸", ["血中 CB、UCB 均升高", "CB/TB 为 0.2～0.5", "尿胆素原不定", "尿胆红素阳性（＋）", "尿深、粪正常或较浅", "ALT、AST、PT 明显升高", "ALP、GGT 升高"]),
+            ("梗阻性黄疸", ["血主要胆红素为 CB↑↑", "CB/TB＞0.5", "尿胆素原降低", "尿胆红素强阳性（＋＋）", "尿深、粪浅甚至白陶土样", "ALT、AST、PT 可升高", "ALP、GGT 明显升高"]),
         ], 2),
         bank(10, bilirubin_title, 5, "遗传性胆红素代谢障碍", [
             "肝细胞摄取＋排泄障碍", "胆红素结合障碍", "肝细胞摄取＋结合障碍", "胆红素排泄障碍", "胆红素生成障碍", "肠肝循环障碍", "UCB↑、CB↑", "CB↑", "UCB↑", "胆红素降低", "CB、UCB 均不变",

@@ -14,6 +14,8 @@ from pathlib import Path
 from docx import Document
 from PIL import Image
 
+from biochemistry_fill_questions import make_fill_groups, parse_fill_questions
+
 
 SOURCE = Path("/Users/ray/Downloads/生化_16_DNA的合成_学成题_讲义原话版.docx")
 LECTURE_PDF = Path("/Users/ray/Desktop/306/生物化学/讲义/16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf")
@@ -226,6 +228,17 @@ def main():
     source_groups = parse_workbook()
     build_lecture_images()
     groups = [make_group(group, index) for index, group in enumerate(source_groups, 1)]
+    fill_questions = parse_fill_questions(SOURCE)
+    groups.extend(make_fill_groups(
+        fill_questions,
+        lecture_number=LECTURE_NUMBER,
+        topic=TOPIC,
+        lecture_id="lecture-16",
+        start_page=len(groups) + 1,
+        ranges=[(1, 5, 2), (6, 11, 5), (12, 12, 7), (13, 16, 8), (17, 18, 9), (19, 23, 10)],
+        evidence_for_page=lambda source_group: evidence(source_group),
+        review_state="已按 DNA 的合成 DOCX 原文逐空核对",
+    ))
     payload = {
         "meta": {
             "title": "生物化学第 16 讲题库",
@@ -238,7 +251,7 @@ def main():
             "generatedBy": "scripts/build_biochemistry_lecture16.py",
             "siteIntegrated": True,
             "lectureLinked": True,
-            "answerNote": "仅收录第 16 讲《DNA 的合成》范围内选择题；选项已打散，答案按原始讲义逐项复核。",
+            "answerNote": "完整收录第 16 讲《DNA 的合成》选择题与填空题；选择题选项已打散，填空题按 DOCX 原编号与原答案导入。",
         },
         "topics": ["全部", TOPIC, "综合"],
         "pages": [{"page": group["page"], "image": "", "topic": TOPIC, "searchText": group["title"]} for group in groups],

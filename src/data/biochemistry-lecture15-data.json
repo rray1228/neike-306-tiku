@@ -4,13 +4,13 @@
     "sourceLabel": "生化第 15 讲学成题（核酸）",
     "sourcePages": 2,
     "lectureCount": 1,
-    "groupCount": 7,
-    "stemCount": 30,
+    "groupCount": 11,
+    "stemCount": 55,
     "correctionGroupCount": 0,
     "generatedBy": "scripts/build_biochemistry_lecture15.py",
     "siteIntegrated": true,
     "lectureLinked": true,
-    "answerNote": "仅收录第 15 讲《核酸》范围内题目；每组选项均已打散，答案按讲义、思维导图与生化合集复核。"
+    "answerNote": "完整收录第 15 讲《核酸》选择题与填空题；选择题选项已打散，填空题按 DOCX 原编号与原答案导入。"
   },
   "topics": [
     "全部",
@@ -59,6 +59,30 @@
       "image": "",
       "topic": "核酸",
       "searchText": "RNA：核糖体与非编码 RNA"
+    },
+    {
+      "page": 8,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "填空题 F1–F7"
+    },
+    {
+      "page": 9,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "填空题 F8–F13"
+    },
+    {
+      "page": 10,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "填空题 F14–F19"
+    },
+    {
+      "page": 11,
+      "image": "",
+      "topic": "核酸",
+      "searchText": "填空题 F20–F25"
     }
   ],
   "groups": [
@@ -905,6 +929,404 @@
         "lecture-15"
       ],
       "optionShuffleVersion": 1,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生化 核酸",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-15-page-02.webp",
+        "title": "第 15 讲《生化 核酸》· 第 2 页",
+        "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-15-fill-01",
+      "page": 8,
+      "title": "填空题 F1–F7",
+      "kind": "F",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "number": 1,
+          "text": "DNA 纯品的 A260/A280 = ______。",
+          "answerRaw": "1.8",
+          "answerDisplay": "1.8",
+          "answer": [
+            "1.8"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 2,
+          "text": "RNA 纯品的 A260/A280 = ______。",
+          "answerRaw": "2",
+          "answerDisplay": "2",
+          "answer": [
+            "2"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 3,
+          "text": "碱基与戊糖之间形成______键，又称 β-N-______键。",
+          "answerRaw": "C-N；糖苷",
+          "answerDisplay": "C-N；糖苷",
+          "answer": [
+            "C-N",
+            "糖苷"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 4,
+          "text": "B-DNA 为______链，方向______，呈______手螺旋。",
+          "answerRaw": "双；反向平行；右",
+          "answerDisplay": "双；反向平行；右",
+          "answer": [
+            "双",
+            "反向平行",
+            "右"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 5,
+          "text": "B-DNA 的螺距为______ nm，每圈约有______对碱基。",
+          "answerRaw": "3.54；10.5",
+          "answerDisplay": "3.54；10.5",
+          "answer": [
+            "3.54",
+            "10.5"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 6,
+          "text": "亲水的骨架（______和______）在外侧，与螺旋轴______。",
+          "answerRaw": "磷酸；脱氧核糖；平行",
+          "answerDisplay": "磷酸；脱氧核糖；平行",
+          "answer": [
+            "磷酸",
+            "脱氧核糖",
+            "平行"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 7,
+          "text": "疏水的______在内侧，与螺旋轴______。",
+          "answerRaw": "碱基；垂直",
+          "answerDisplay": "碱基；垂直",
+          "answer": [
+            "碱基",
+            "垂直"
+          ],
+          "answerMode": "填空"
+        }
+      ],
+      "sourceText": "填空题 F1–F7",
+      "reviewState": "已按核酸 DOCX 原文逐空核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "optionShuffleVersion": 0,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生化 核酸",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-15-page-01.webp",
+        "title": "第 15 讲《生化 核酸》· 第 1 页",
+        "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-15-fill-02",
+      "page": 9,
+      "title": "填空题 F8–F13",
+      "kind": "F",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "number": 8,
+          "text": "DNA 双螺旋纵向主要由______维系，横向主要由______维系。",
+          "answerRaw": "碱基堆积力；氢键",
+          "answerDisplay": "碱基堆积力；氢键",
+          "answer": [
+            "碱基堆积力",
+            "氢键"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 9,
+          "text": "DNA 表面最容易与 DNA 序列相互作用的部位是______。",
+          "answerRaw": "大沟",
+          "answerDisplay": "大沟",
+          "answer": [
+            "大沟"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 10,
+          "text": "DNA 双链在核心组蛋白上盘绕______圈，形成核小体核心颗粒；______位于连接区稳定核小体。",
+          "answerRaw": "1.75；H1",
+          "answerDisplay": "1.75；H1",
+          "answer": [
+            "1.75",
+            "H1"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 11,
+          "text": "DNA 变性后粘度______、密度______，并出现______效应，即 260 nm 处紫外吸光度______。",
+          "answerRaw": "↓；↑；增色；增加",
+          "answerDisplay": "↓；↑；增色；增加",
+          "answer": [
+            "↓",
+            "↑",
+            "增色",
+            "增加"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 12,
+          "text": "Tm 是 ΔA260 达最大变化值______所对应的温度，此时约______% 双链解离成单链。",
+          "answerRaw": "一半；50",
+          "answerDisplay": "一半；50",
+          "answer": [
+            "一半",
+            "50"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 13,
+          "text": "DNA 加热变性后，______去除变性条件才可能复性；迅速冷却至______℃以下则不能复性。",
+          "answerRaw": "缓慢；4",
+          "answerDisplay": "缓慢；4",
+          "answer": [
+            "缓慢",
+            "4"
+          ],
+          "answerMode": "填空"
+        }
+      ],
+      "sourceText": "填空题 F8–F13",
+      "reviewState": "已按核酸 DOCX 原文逐空核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "optionShuffleVersion": 0,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生化 核酸",
+        "page": 1,
+        "image": "biochemistry/lecture-pages/lecture-15-page-01.webp",
+        "title": "第 15 讲《生化 核酸》· 第 1 页",
+        "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-15-fill-03",
+      "page": 10,
+      "title": "填空题 F14–F19",
+      "kind": "F",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "number": 14,
+          "text": "真核 mRNA 的 5 端具有______帽子，3 端具有______尾巴。",
+          "answerRaw": "m7GTP；polyA",
+          "answerDisplay": "m7GTP；polyA",
+          "answer": [
+            "m7GTP",
+            "polyA"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 15,
+          "text": "开始密码子是______；终止密码子是______、______、______。",
+          "answerRaw": "AUG；UAA；UAG；UGA",
+          "answerDisplay": "AUG；UAA；UAG；UGA",
+          "answer": [
+            "AUG",
+            "UAA",
+            "UAG",
+            "UGA"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 16,
+          "text": "每______个相邻核苷酸组成 1 个密码子。",
+          "answerRaw": "3",
+          "answerDisplay": "3",
+          "answer": [
+            "3"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 17,
+          "text": "可读框插入或缺失核苷酸（非 3 的倍数）导致移码突变，体现密码子的______性。",
+          "answerRaw": "连续",
+          "answerDisplay": "连续",
+          "answer": [
+            "连续"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 18,
+          "text": "摆动性中，tRNA 反密码子第______位 I 识别 mRNA 密码子第______位 A / C / U；摆动性与简并性有助于维持生物______稳定。",
+          "answerRaw": "1；3；表型",
+          "answerDisplay": "1；3；表型",
+          "answer": [
+            "1",
+            "3",
+            "表型"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 19,
+          "text": "tRNA 的二级结构呈______形，三级结构呈______形。",
+          "answerRaw": "三叶草；L",
+          "answerDisplay": "三叶草；L",
+          "answer": [
+            "三叶草",
+            "L"
+          ],
+          "answerMode": "填空"
+        }
+      ],
+      "sourceText": "填空题 F14–F19",
+      "reviewState": "已按核酸 DOCX 原文逐空核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "optionShuffleVersion": 0,
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "lectureNumber": 15,
+        "lectureTitle": "生化 核酸",
+        "page": 2,
+        "image": "biochemistry/lecture-pages/lecture-15-page-02.webp",
+        "title": "第 15 讲《生化 核酸》· 第 2 页",
+        "description": "已按核酸讲义、思维导图与生化合集逐项核对；点击可查看讲义原页。",
+        "method": "按 2027 考研生化第 15 讲《核酸》及配套思维导图逐项复核。"
+      }
+    },
+    {
+      "id": "bio-15-fill-04",
+      "page": 11,
+      "title": "填空题 F20–F25",
+      "kind": "F",
+      "kindLabel": "填空题",
+      "options": [],
+      "stems": [
+        {
+          "number": 20,
+          "text": "tRNA 的典型环包括______环、______环和______环。",
+          "answerRaw": "DHU；反密码；TΨC",
+          "answerDisplay": "DHU；反密码；TΨC",
+          "answer": [
+            "DHU",
+            "反密码",
+            "TΨC"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 21,
+          "text": "tRNA 的 3 端为______，用于结合氨基酸。",
+          "answerRaw": "CCA-OH",
+          "answerDisplay": "CCA-OH",
+          "answer": [
+            "CCA-OH"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 22,
+          "text": "原核核糖体为______S，由______S 大亚基和______S 小亚基组成。",
+          "answerRaw": "70；50；30",
+          "answerDisplay": "70；50；30",
+          "answer": [
+            "70",
+            "50",
+            "30"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 23,
+          "text": "真核核糖体为______S，由______S 大亚基和______S 小亚基组成。",
+          "answerRaw": "80；60；40",
+          "answerDisplay": "80；60；40",
+          "answer": [
+            "80",
+            "60",
+            "40"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 24,
+          "text": "原核大亚基含______S 和______S rRNA，其中______S rRNA 具有肽酰转移酶活性。",
+          "answerRaw": "23；5；23",
+          "answerDisplay": "23；5；23",
+          "answer": [
+            "23",
+            "5",
+            "23"
+          ],
+          "answerMode": "填空"
+        },
+        {
+          "number": 25,
+          "text": "真核大亚基含______S、______S、______S rRNA，其中______S rRNA 具有肽酰转移酶活性。",
+          "answerRaw": "28；5.8；5；28",
+          "answerDisplay": "28；5.8；5；28",
+          "answer": [
+            "28",
+            "5.8",
+            "5",
+            "28"
+          ],
+          "answerMode": "填空"
+        }
+      ],
+      "sourceText": "填空题 F20–F25",
+      "reviewState": "已按核酸 DOCX 原文逐空核对",
+      "reviewIssues": [],
+      "reviewNotes": [],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "optionShuffleVersion": 0,
       "lectureEvidence": {
         "lectureId": "lecture-15",
         "lectureNumber": 15,
