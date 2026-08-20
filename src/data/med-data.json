@@ -20429,7 +20429,7 @@
       "page": 58,
       "title": "霍奇金淋巴瘤亚型排序",
       "kind": "B",
-      "kindLabel": "B型题",
+      "kindLabel": "排序题",
       "options": [
         {
           "key": "A",
@@ -20463,7 +20463,7 @@
           ],
           "sourceText": "发病率：内科B>A>C>D",
           "sourceY": 560,
-          "answerMode": "多选"
+          "answerMode": "排序"
         },
         {
           "text": "发病率（病理教材：由高到低）",
@@ -20475,7 +20475,7 @@
           ],
           "sourceText": "发病率：病理A>B>C>D",
           "sourceY": 590,
-          "answerMode": "多选"
+          "answerMode": "排序"
         },
         {
           "text": "预后（由好到差）",
@@ -20487,7 +20487,7 @@
           ],
           "sourceText": "预后C>A>B>D",
           "sourceY": 640,
-          "answerMode": "多选"
+          "answerMode": "排序"
         }
       ],
       "sourceText": "A.结节硬化型 | B.混合细胞型 | C.富于淋巴细胞型 | D.淋巴细胞减少型 | 发病率：内科B>A>C>D | 发病率：病理A>B>C>D | 预后C>A>B>D",
