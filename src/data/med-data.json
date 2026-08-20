@@ -17323,48 +17323,48 @@
       "options": [
         {
           "key": "A",
-          "label": "单核细胞绝对值＞1×10⁹/L",
-          "sourceText": "A.单核细胞绝对值＞1×10⁹/L"
+          "label": "外周血单核细胞绝对值＞1×10⁹/L",
+          "sourceText": "A.外周血单核细胞绝对值＞1×10⁹/L"
         },
         {
           "key": "B",
-          "label": "原始细胞＜5%",
-          "sourceText": "B.原始细胞＜5%"
+          "label": "外周血原始细胞＜5%",
+          "sourceText": "B.外周血原始细胞＜5%"
         },
         {
           "key": "C",
-          "label": "原始细胞≥5%",
-          "sourceText": "C.原始细胞≥5%"
+          "label": "外周血原始细胞≥5%",
+          "sourceText": "C.外周血原始细胞≥5%"
         },
         {
           "key": "D",
-          "label": "原始细胞＜1%",
-          "sourceText": "D.原始细胞＜1%"
+          "label": "外周血原始细胞＜1%",
+          "sourceText": "D.外周血原始细胞＜1%"
         },
         {
           "key": "E",
-          "label": "原始细胞5%～20%",
-          "sourceText": "E.原始细胞5%～20%"
+          "label": "骨髓原始细胞5%～20%",
+          "sourceText": "E.骨髓原始细胞5%～20%"
         },
         {
           "key": "F",
-          "label": "原始细胞＜5%",
-          "sourceText": "F.原始细胞＜5%"
+          "label": "骨髓原始细胞＜5%",
+          "sourceText": "F.骨髓原始细胞＜5%"
         },
         {
           "key": "G",
-          "label": "环形铁粒幼细胞＞有核红细胞15%",
-          "sourceText": "G.环形铁粒幼细胞＞有核红细胞15%"
+          "label": "骨髓环形铁粒幼细胞＞有核红细胞15%",
+          "sourceText": "G.骨髓环形铁粒幼细胞＞有核红细胞15%"
         },
         {
           "key": "H",
-          "label": "原始细胞＞20%而＜30%",
-          "sourceText": "H.原始细胞＞20%而＜30%"
+          "label": "骨髓原始细胞＞20%而＜30%",
+          "sourceText": "H.骨髓原始细胞＞20%而＜30%"
         },
         {
           "key": "I",
-          "label": "幼粒细胞出现Auer小体",
-          "sourceText": "I.幼粒细胞出现Auer小体"
+          "label": "骨髓幼粒细胞出现Auer小体",
+          "sourceText": "I.骨髓幼粒细胞出现Auer小体"
         }
       ],
       "stems": [
@@ -17430,11 +17430,11 @@
         "lecture-33"
       ],
       "lectureEvidence": {
-        "lectureId": "lecture-34",
-        "page": 3,
-        "image": "med/lecture-pages/lecture-34-page-03.webp",
-        "title": "第34讲第3页：内科含诊断 白血病",
-        "description": "本题组对应第34讲第3页讲义。"
+        "lectureId": "lecture-33",
+        "page": 1,
+        "image": "med/lecture-pages/lecture-33-page-01.webp",
+        "title": "第33讲第1页：内科 MDS",
+        "description": "本题组对应第33讲第1页讲义中的MDS FAB分型表。"
       }
     },
     {
@@ -20254,7 +20254,7 @@
     {
       "id": "p58-g1",
       "page": 58,
-      "title": "霍奇金淋巴瘤分类与RS细胞",
+      "title": "Burkitt淋巴瘤类型",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -20277,36 +20277,6 @@
           "key": "D",
           "label": "非洲儿童最常见",
           "sourceText": "D.非洲儿童最常见"
-        },
-        {
-          "key": "E",
-          "label": "核仁明显呈红色伴周围空晕",
-          "sourceText": "E.核仁明显呈红色伴周围空晕"
-        },
-        {
-          "key": "F",
-          "label": "陷窝细胞",
-          "sourceText": "F.陷窝细胞"
-        },
-        {
-          "key": "G",
-          "label": "无核分裂象",
-          "sourceText": "G.无核分裂象"
-        },
-        {
-          "key": "H",
-          "label": "爆米花细胞",
-          "sourceText": "H.爆米花细胞"
-        },
-        {
-          "key": "I",
-          "label": "嗜双性",
-          "sourceText": "I.嗜双性"
-        },
-        {
-          "key": "J",
-          "label": "木乃伊/干尸细胞（变性凋亡的RS细胞）",
-          "sourceText": "J.木乃伊/干尸细胞（变性凋亡的RS细胞）"
         }
       ],
       "stems": [
@@ -20337,62 +20307,9 @@
           "sourceText": "Burkitt淋巴瘤：免疫缺陷性C",
           "sourceY": 0,
           "answerMode": "单选"
-        },
-        {
-          "text": "RS细胞：典型",
-          "answer": [
-            "A",
-            "C",
-            "E",
-            "G",
-            "I"
-          ],
-          "sourceText": "RS细胞：典型ACEGI",
-          "sourceY": 0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "RS细胞：不典型",
-          "answer": [
-            "B",
-            "D",
-            "F",
-            "H",
-            "J"
-          ],
-          "sourceText": "RS细胞：不典型BDFHJ",
-          "sourceY": 0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "发病率：内科",
-          "answer": [
-            "B"
-          ],
-          "sourceText": "发病率：内科B",
-          "sourceY": 0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "发病率：病理",
-          "answer": [
-            "A"
-          ],
-          "sourceText": "发病率：病理A",
-          "sourceY": 0,
-          "answerMode": "单选"
-        },
-        {
-          "text": "预后",
-          "answer": [
-            "D"
-          ],
-          "sourceText": "预后D",
-          "sourceY": 0,
-          "answerMode": "单选"
         }
       ],
-      "sourceText": "霍奇金淋巴瘤分类与RS细胞（已按讲义规范化）",
+      "sourceText": "Burkitt淋巴瘤类型（已按原题页与第35讲第3页讲义复核）",
       "reviewState": "已按讲义校对",
       "topic": "血液",
       "lectureIds": [
@@ -20400,10 +20317,10 @@
       ],
       "lectureEvidence": {
         "lectureId": "lecture-35",
-        "page": 5,
-        "image": "med/lecture-pages/lecture-35-page-05.webp",
-        "title": "第35讲第5页：内科含诊断+病理 淋巴瘤",
-        "description": "本题组对应第35讲第5页讲义。"
+        "page": 3,
+        "image": "med/lecture-pages/lecture-35-page-03.webp",
+        "title": "第35讲第3页：内科含诊断+病理 淋巴瘤",
+        "description": "本题组对应第35讲第3页讲义中的Burkitt淋巴瘤分类。"
       }
     },
     {
