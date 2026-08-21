@@ -27795,8 +27795,8 @@
         },
         {
           "key": "C",
-          "label": "可用地尔硫卓",
-          "sourceText": "C.可用地尔硫卓"
+          "label": "可用拉贝洛尔",
+          "sourceText": "C.可用拉贝洛尔"
         },
         {
           "key": "D",
@@ -27847,11 +27847,11 @@
           "answerMode": "单选"
         },
         {
-          "text": "高血压急症伴妊娠或哮喘可能不全",
+          "text": "高血压急症伴妊娠或肾功能不全",
           "answer": [
             "C"
           ],
-          "sourceText": "高血压急症伴妊娠或哮喘可能不全C",
+          "sourceText": "高血压急症伴妊娠或肾功能不全C",
           "sourceY": 0,
           "answerMode": "单选"
         }
@@ -28674,10 +28674,10 @@
           "answer": [
             "A",
             "C",
-            "L",
+            "I",
             "M"
           ],
-          "sourceText": "S1强弱不等 ACLM",
+          "sourceText": "S1强弱不等 ACIM",
           "sourceY": 0,
           "answerMode": "多选"
         }
