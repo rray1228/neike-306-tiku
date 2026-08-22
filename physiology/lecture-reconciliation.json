@@ -7,7 +7,7 @@
     "lectureCount": 41,
     "groupCount": 160,
     "stemCount": 505,
-    "correctionGroupCount": 18,
+    "correctionGroupCount": 19,
     "generatedBy": "scripts/build_physiology_content.py",
     "siteIntegrated": true,
     "lectureLinked": true,
@@ -18,8 +18,8 @@
     "lectureSetFingerprint": "e213273a2bdc0fffcd942dd08aad8cfea51dd719a65fe9cedfe0d6cd9c3f46c0"
   },
   "statusSummary": {
-    "与今年讲义一致": 142,
-    "已校正": 18
+    "与今年讲义一致": 141,
+    "已校正": 19
   },
   "corrections": [
     {
@@ -1846,6 +1846,113 @@
               "BCFIKN",
               "FHMN",
               "ADEGJL"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-153",
+      "topic": "内分泌",
+      "sourcePage": 120,
+      "lectureEvidence": {
+        "lectureId": "lecture-38",
+        "lectureNumber": 38,
+        "lectureTitle": "生理 胰岛素和胰高血糖素",
+        "page": 5,
+        "score": 0.337,
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-38-page-05.webp",
+        "title": "第38讲第5页：生理 胰岛素和胰高血糖素",
+        "description": "本题组已按第38讲第5页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "胰高血糖素受体通路答案校正",
+          "body": "胰高血糖素的性质答案由 BCEH 校正为 BDEH。 依据：27 年第 38 讲第 5 页明确：胰高血糖素来源于胰岛 A 细胞，受体与通路为 GPCR-cAMP-PKA，主要靶器官为肝脏，并可抑制胃酸分泌和胃运动；酪氨酸激酶受体-MAPK/PI3K 属于胰岛素。",
+          "lectureId": "lecture-38",
+          "lecturePages": [
+            5
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "来源胰岛 B 细胞"
+              },
+              {
+                "key": "B",
+                "label": "来源胰岛 A 细胞"
+              },
+              {
+                "key": "C",
+                "label": "受体和通路-酪氨酸激酶受体：MAPK、PI3K"
+              },
+              {
+                "key": "D",
+                "label": "受体和通路-GPCR：cAMP-PKA"
+              },
+              {
+                "key": "E",
+                "label": "主要靶器官-肝脏"
+              },
+              {
+                "key": "F",
+                "label": "主要靶器官-肝脏、骨骼肌、脂肪"
+              },
+              {
+                "key": "G",
+                "label": "促进 K+进入细胞"
+              },
+              {
+                "key": "H",
+                "label": "抑制胃酸分泌和胃运动"
+              }
+            ],
+            "answers": [
+              "ACFG",
+              "BCEH"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "来源胰岛 B 细胞"
+              },
+              {
+                "key": "B",
+                "label": "来源胰岛 A 细胞"
+              },
+              {
+                "key": "C",
+                "label": "受体和通路-酪氨酸激酶受体：MAPK、PI3K"
+              },
+              {
+                "key": "D",
+                "label": "受体和通路-GPCR：cAMP-PKA"
+              },
+              {
+                "key": "E",
+                "label": "主要靶器官-肝脏"
+              },
+              {
+                "key": "F",
+                "label": "主要靶器官-肝脏、骨骼肌、脂肪"
+              },
+              {
+                "key": "G",
+                "label": "促进 K+进入细胞"
+              },
+              {
+                "key": "H",
+                "label": "抑制胃酸分泌和胃运动"
+              }
+            ],
+            "answers": [
+              "ACFG",
+              "BDEH"
             ]
           }
         }
@@ -6255,13 +6362,102 @@
         "lectureTitle": "生理 胰岛素和胰高血糖素",
         "page": 5,
         "score": 0.337,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "method": "按今年讲义原文人工复核并定位",
         "image": "physiology/lecture-pages/lecture-38-page-05.webp",
         "title": "第38讲第5页：生理 胰岛素和胰高血糖素",
         "description": "本题组已按第38讲第5页逐项核对题目、选项与答案。"
       },
-      "corrections": [],
-      "status": "与今年讲义一致"
+      "corrections": [
+        {
+          "title": "胰高血糖素受体通路答案校正",
+          "body": "胰高血糖素的性质答案由 BCEH 校正为 BDEH。 依据：27 年第 38 讲第 5 页明确：胰高血糖素来源于胰岛 A 细胞，受体与通路为 GPCR-cAMP-PKA，主要靶器官为肝脏，并可抑制胃酸分泌和胃运动；酪氨酸激酶受体-MAPK/PI3K 属于胰岛素。",
+          "lectureId": "lecture-38",
+          "lecturePages": [
+            5
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "来源胰岛 B 细胞"
+              },
+              {
+                "key": "B",
+                "label": "来源胰岛 A 细胞"
+              },
+              {
+                "key": "C",
+                "label": "受体和通路-酪氨酸激酶受体：MAPK、PI3K"
+              },
+              {
+                "key": "D",
+                "label": "受体和通路-GPCR：cAMP-PKA"
+              },
+              {
+                "key": "E",
+                "label": "主要靶器官-肝脏"
+              },
+              {
+                "key": "F",
+                "label": "主要靶器官-肝脏、骨骼肌、脂肪"
+              },
+              {
+                "key": "G",
+                "label": "促进 K+进入细胞"
+              },
+              {
+                "key": "H",
+                "label": "抑制胃酸分泌和胃运动"
+              }
+            ],
+            "answers": [
+              "ACFG",
+              "BCEH"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "来源胰岛 B 细胞"
+              },
+              {
+                "key": "B",
+                "label": "来源胰岛 A 细胞"
+              },
+              {
+                "key": "C",
+                "label": "受体和通路-酪氨酸激酶受体：MAPK、PI3K"
+              },
+              {
+                "key": "D",
+                "label": "受体和通路-GPCR：cAMP-PKA"
+              },
+              {
+                "key": "E",
+                "label": "主要靶器官-肝脏"
+              },
+              {
+                "key": "F",
+                "label": "主要靶器官-肝脏、骨骼肌、脂肪"
+              },
+              {
+                "key": "G",
+                "label": "促进 K+进入细胞"
+              },
+              {
+                "key": "H",
+                "label": "抑制胃酸分泌和胃运动"
+              }
+            ],
+            "answers": [
+              "ACFG",
+              "BDEH"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
     },
     {
       "id": "phys-154",

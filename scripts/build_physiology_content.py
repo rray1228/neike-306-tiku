@@ -197,6 +197,15 @@ CORRECTIONS = {
         "evidence_page": 4,
         "answers": {2: list("ADEGJL")},
     },
+    "phys-153": {
+        "title": "胰高血糖素受体通路答案校正",
+        "summary": "胰高血糖素的性质答案由 BCEH 校正为 BDEH。",
+        "basis": "27 年第 38 讲第 5 页明确：胰高血糖素来源于胰岛 A 细胞，受体与通路为 GPCR-cAMP-PKA，主要靶器官为肝脏，并可抑制胃酸分泌和胃运动；酪氨酸激酶受体-MAPK/PI3K 属于胰岛素。",
+        "lecture": 38,
+        "pages": [5],
+        "evidence_page": 5,
+        "answers": {1: list("BDEH")},
+    },
     "phys-154": {
         "title": "促进生长激素分泌答案漏项校正",
         "summary": "促进 GH 分泌答案由 BCEGHK 校正为 BCEGHJK。",

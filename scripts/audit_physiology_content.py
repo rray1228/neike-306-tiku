@@ -12,7 +12,7 @@ from pathlib import Path
 EXPECTED_CORRECTIONS = {
     "phys-002", "phys-006", "phys-024", "phys-049", "phys-070", "phys-085", "phys-087", "phys-089",
     "phys-090", "phys-093", "phys-100", "phys-110", "phys-111", "phys-112", "phys-118", "phys-136",
-    "phys-149", "phys-154",
+    "phys-149", "phys-153", "phys-154",
 }
 
 
@@ -37,7 +37,7 @@ def main() -> None:
 
     corrected_ids = {record["id"] for record in reconciliation["corrections"]}
     assert corrected_ids == EXPECTED_CORRECTIONS, (corrected_ids, EXPECTED_CORRECTIONS)
-    assert reconciliation["statusSummary"] == {"与今年讲义一致": 142, "已校正": 18}
+    assert reconciliation["statusSummary"] == {"与今年讲义一致": 141, "已校正": 19}
 
     platelet_group = next(group for group in payload["groups"] if group["id"] == "phys-024")
     assert platelet_group["stems"][3]["answer"] == list("ACDE")
@@ -65,6 +65,13 @@ def main() -> None:
     hormone_group = next(group for group in payload["groups"] if group["id"] == "phys-149")
     assert hormone_group["stems"][2]["answer"] == list("ADEGJL")
     assert hormone_group["lectureEvidence"]["page"] == 4
+
+    glucagon_group = next(group for group in payload["groups"] if group["id"] == "phys-153")
+    assert glucagon_group["stems"][0]["answer"] == list("ACFG")
+    assert glucagon_group["stems"][1]["answer"] == list("BDEH")
+    assert glucagon_group["stems"][1]["answerRaw"] == "BDEH"
+    assert glucagon_group["lectureEvidence"]["lectureNumber"] == 38
+    assert glucagon_group["lectureEvidence"]["page"] == 5
 
     growth_group = next(group for group in payload["groups"] if group["id"] == "phys-154")
     assert growth_group["stems"][0]["answer"] == list("BCEGHJK")
