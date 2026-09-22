@@ -12,7 +12,7 @@ from pathlib import Path
 EXPECTED_CORRECTIONS = {
     "phys-002", "phys-006", "phys-024", "phys-049", "phys-070", "phys-085", "phys-087", "phys-089",
     "phys-090", "phys-093", "phys-100", "phys-110", "phys-111", "phys-112", "phys-118", "phys-136",
-    "phys-038", "phys-149", "phys-153", "phys-154",
+    "phys-037", "phys-038", "phys-149", "phys-153", "phys-154",
 }
 
 
@@ -37,7 +37,7 @@ def main() -> None:
 
     corrected_ids = {record["id"] for record in reconciliation["corrections"]}
     assert corrected_ids == EXPECTED_CORRECTIONS, (corrected_ids, EXPECTED_CORRECTIONS)
-    assert reconciliation["statusSummary"] == {"与今年讲义一致": 140, "已校正": 20}
+    assert reconciliation["statusSummary"] == {"与今年讲义一致": 139, "已校正": 21}
 
     platelet_group = next(group for group in payload["groups"] if group["id"] == "phys-024")
     assert platelet_group["stems"][3]["answer"] == list("ACDEFGHI")
@@ -82,7 +82,7 @@ def main() -> None:
     assert [option["label"] for option in pump_ring_group["options"]] == [
         "环向右扩大", "环向左扩大", "收缩末期压力-容积曲线斜率增大", "横径增大", "环向上扩大", "横径减小", "环缩小（舒张功能障碍环向左缩小）",
     ]
-    assert [stem["answerRaw"] for stem in pump_ring_group["stems"]] == ["EF", "AD", "BCE", "FG"]
+    assert [stem["answerRaw"] for stem in pump_ring_group["stems"]] == ["EF", "AD", "BCD", "FG"]
 
     pump_curve_group = next(group for group in payload["groups"] if group["id"] == "phys-038")
     assert [stem["text"] for stem in pump_curve_group["stems"]] == [

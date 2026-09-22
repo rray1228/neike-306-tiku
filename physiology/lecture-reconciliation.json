@@ -7,7 +7,7 @@
     "lectureCount": 41,
     "groupCount": 160,
     "stemCount": 505,
-    "correctionGroupCount": 20,
+    "correctionGroupCount": 21,
     "generatedBy": "scripts/build_physiology_content.py",
     "siteIntegrated": true,
     "lectureLinked": true,
@@ -18,8 +18,8 @@
     "lectureSetFingerprint": "e213273a2bdc0fffcd942dd08aad8cfea51dd719a65fe9cedfe0d6cd9c3f46c0"
   },
   "statusSummary": {
-    "与今年讲义一致": 140,
-    "已校正": 20
+    "与今年讲义一致": 139,
+    "已校正": 21
   },
   "corrections": [
     {
@@ -281,6 +281,101 @@
               "A",
               "D",
               "ACDE"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-037",
+      "topic": "循环系统",
+      "sourcePage": 32,
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "lectureNumber": 9,
+        "lectureTitle": "生理 心脏泵血",
+        "page": 8,
+        "score": 0.1822,
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-09-page-08.webp",
+        "title": "第9讲第8页：生理 心脏泵血",
+        "description": "本题组已按第9讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "收缩能力增强时压力-容积环答案校正",
+          "body": "收缩能力增强时，原答案 BD 校正为 BC；拆分复合选项后，网站答案为 BCD。 依据：今年讲义第 8 页明确：收缩能力增强时，压力-容积环向左扩大、收缩末期压力-容积关系曲线斜率增大，环的横径（搏出量）增大；不应选择“环向上扩大”。",
+          "lectureId": "lecture-09",
+          "lecturePages": [
+            8
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "环向右扩大"
+              },
+              {
+                "key": "B",
+                "label": "环向左扩大、斜率增大"
+              },
+              {
+                "key": "C",
+                "label": "横径增大"
+              },
+              {
+                "key": "D",
+                "label": "环向上扩大"
+              },
+              {
+                "key": "E",
+                "label": "横径减小"
+              },
+              {
+                "key": "F",
+                "label": "环缩小（舒张功能障碍环向左缩小）"
+              }
+            ],
+            "answers": [
+              "DE",
+              "AC",
+              "BD",
+              "EF"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "环向右扩大"
+              },
+              {
+                "key": "B",
+                "label": "环向左扩大、斜率增大"
+              },
+              {
+                "key": "C",
+                "label": "横径增大"
+              },
+              {
+                "key": "D",
+                "label": "环向上扩大"
+              },
+              {
+                "key": "E",
+                "label": "横径减小"
+              },
+              {
+                "key": "F",
+                "label": "环缩小（舒张功能障碍环向左缩小）"
+              }
+            ],
+            "answers": [
+              "DE",
+              "AC",
+              "BC",
+              "EF"
             ]
           }
         }
@@ -3048,13 +3143,90 @@
         "lectureTitle": "生理 心脏泵血",
         "page": 8,
         "score": 0.1822,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "method": "按今年讲义原文人工复核并定位",
         "image": "physiology/lecture-pages/lecture-09-page-08.webp",
         "title": "第9讲第8页：生理 心脏泵血",
         "description": "本题组已按第9讲第8页逐项核对题目、选项与答案。"
       },
-      "corrections": [],
-      "status": "与今年讲义一致"
+      "corrections": [
+        {
+          "title": "收缩能力增强时压力-容积环答案校正",
+          "body": "收缩能力增强时，原答案 BD 校正为 BC；拆分复合选项后，网站答案为 BCD。 依据：今年讲义第 8 页明确：收缩能力增强时，压力-容积环向左扩大、收缩末期压力-容积关系曲线斜率增大，环的横径（搏出量）增大；不应选择“环向上扩大”。",
+          "lectureId": "lecture-09",
+          "lecturePages": [
+            8
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "环向右扩大"
+              },
+              {
+                "key": "B",
+                "label": "环向左扩大、斜率增大"
+              },
+              {
+                "key": "C",
+                "label": "横径增大"
+              },
+              {
+                "key": "D",
+                "label": "环向上扩大"
+              },
+              {
+                "key": "E",
+                "label": "横径减小"
+              },
+              {
+                "key": "F",
+                "label": "环缩小（舒张功能障碍环向左缩小）"
+              }
+            ],
+            "answers": [
+              "DE",
+              "AC",
+              "BD",
+              "EF"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "环向右扩大"
+              },
+              {
+                "key": "B",
+                "label": "环向左扩大、斜率增大"
+              },
+              {
+                "key": "C",
+                "label": "横径增大"
+              },
+              {
+                "key": "D",
+                "label": "环向上扩大"
+              },
+              {
+                "key": "E",
+                "label": "横径减小"
+              },
+              {
+                "key": "F",
+                "label": "环缩小（舒张功能障碍环向左缩小）"
+              }
+            ],
+            "answers": [
+              "DE",
+              "AC",
+              "BC",
+              "EF"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
     },
     {
       "id": "phys-038",
