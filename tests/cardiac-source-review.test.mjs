@@ -5,7 +5,7 @@ import assert from 'node:assert/strict'
 
 const data = JSON.parse(readFileSync(new URL('../src/data/med-data.json', import.meta.url)))
 const group = id => data.groups.find(item => item.id === id)
-const reviewedIds = ['p80-g3', 'p81-g2', 'p82-g3', 'p82-g4', 'p83-g2', 'p83-g3', 'p86-g1', 'p86-g2', 'p86-g3', 'p86-table1', 'p91-g4', 'p92-g1', 'p89-table1', 'p89-table2', 'p92-table1']
+const reviewedIds = ['p80-g3', 'p81-g2', 'p82-g3', 'p82-g4', 'p83-g2', 'p83-g3', 'p83-g4', 'p86-g1', 'p86-g2', 'p86-g3', 'p86-table1', 'p91-g4', 'p92-g1', 'p89-table1', 'p89-table2', 'p92-table1']
 
 test('reviewed cardiac groups have valid answer keys and unique options', () => {
   for (const id of reviewedIds) {
@@ -97,6 +97,28 @@ test('page 83 ventricular enlargement directions match the source and lecture', 
   assert.equal(g.options.find(o => o.key === 'H')?.label, '心尖搏动多向左下移位')
   assert.equal(g.options.find(o => o.key === 'J')?.label, '心尖搏动多向左移位')
   assert.deepEqual(g.stems.map(s => s.answer.join('')), ['ADFHIKMO', 'BCEGJLN'])
+})
+
+test('page 83 abnormal pulse options match the source and lecture', () => {
+  const g = group('p83-g4')
+  assert.deepEqual(g.options.map(o => [o.key, o.label]), [
+    ['A', '吸气时脉搏显著减弱甚至消失'],
+    ['B', 'P<心率'],
+    ['C', '严重的右心衰'],
+    ['D', '房颤'],
+    ['E', '严重的心包积液/心脏压塞'],
+    ['F', '脉搏骤起骤落'],
+    ['G', '严重的缩窄性心包炎'],
+    ['H', '甲亢'],
+    ['I', '严重的支气管哮喘'],
+    ['J', '脉搏强弱交替'],
+    ['K', '严重的COPD'],
+    ['L', '左心衰'],
+    ['M', '超声心动图室间隔抖动征/吸气时室间隔左移'],
+    ['N', '慢性主闭'],
+    ['O', '严重的胸膜疾病（大量胸腔积液、张力性气胸）'],
+  ])
+  assert.deepEqual(g.stems.map(s => s.answer.join('')), ['BD', 'FHN', 'JL', 'ACEGIKMO'])
 })
 
 test('all four original tables become answerable B-type groups', () => {
