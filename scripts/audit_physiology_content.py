@@ -85,6 +85,13 @@ def main() -> None:
     assert [stem["answerRaw"] for stem in pump_ring_group["stems"]] == ["EF", "AD", "BCD", "FG"]
 
     pump_curve_group = next(group for group in payload["groups"] if group["id"] == "phys-038")
+    assert [option["label"] for option in pump_curve_group["options"]] == [
+        "心室功能曲线左上移",
+        "心室压力-容积曲线左上移",
+        "长度-张力曲线上移",
+        "张力-速度曲线右上移",
+        "收缩末期压力-容积曲线斜率增大",
+    ]
     assert [stem["text"] for stem in pump_curve_group["stems"]] == [
         "骨骼肌收缩能力↑时，长度-张力曲线的变化",
         "骨骼肌收缩能力↑时，张力-速度曲线的变化",
