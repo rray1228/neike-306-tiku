@@ -999,6 +999,139 @@ def reviewed_groups(payload: dict) -> list[dict]:
     ]
 
 
+DIGESTIVE_OPTION_REPAIRS = {
+    "p20-g1": {
+        "G": "ACh",
+    },
+    "p20-g2": {
+        "J": "癔球症（患者感到咽部不适，有异物感、堵塞感，但又没有真正的吞咽困难）",
+    },
+    "p21-g3": {
+        "B": "与K+竞争结合H+-K+-ATP酶",
+        "G": "酸环境稳定、不需酸激活、起效快、持续时间长、夜间作用确切、用药个体差异小和不良反应少",
+    },
+    "p24-g1": {
+        "S": "胃溃疡病史患者腹痛开始不规律",
+        "T": "若发热、右上腹痛、呃逆→膈下脓肿",
+        "V": "可有移动性浊音（腹水>1000ml）",
+        "W": "不缓解→瘢痕性为主→内镜或胃大部切除术（术前用抗生素）",
+    },
+    "p29-g2": {
+        "A": "杵状指",
+    },
+    "p32-g3": {
+        "A": "海蛇头样（脐周血回流：脐以上向上+脐以下向下，上上下下）",
+        "E": "静脉连续性潺潺音/嗡嗡音",
+    },
+    "p33-g1": {
+        "Q": "总胆固醇TC↓、胆固醇酯/总胆固醇↓",
+        "U": "黄疸（主要为肝细胞性黄疸）",
+    },
+    "p33-g2": {
+        "C": "腹水为渗出液：SAAG<11、细胞>500×10^6/L且以多个核细胞（中性粒细胞）为主",
+        "D": "腹水为渗出液：SAAG<11、细胞>500×10^6/L且以单个核细胞（淋巴细胞）为主",
+    },
+    "p33-g3": {
+        "F": "渗出液（SAAG<11、细胞>500×10^6/L且以多个核细胞/中性粒细胞为主）",
+    },
+}
+
+
+def repair_digestive_options(payload: dict) -> None:
+    """Restore option text split or misread by OCR on source pages 20-34."""
+    groups = {item["id"]: item for item in payload["groups"]}
+    for group_id, repairs in DIGESTIVE_OPTION_REPAIRS.items():
+        target_group = groups[group_id]
+        options = {item["key"]: item for item in target_group["options"]}
+        for key, label in repairs.items():
+            options[key]["label"] = label
+            options[key]["sourceText"] = f"{key}.{label}"
+        target_group["reviewState"] = "已按原题页与对应讲义逐项复核"
+
+    # Page 25 ends with a table that has no literal “问：” marker, so the OCR
+    # pass omitted it.  Convert its two columns into one shared B-type pool.
+    if "p25-g4" not in groups:
+        p25_groups = [item for item in payload["groups"] if item["page"] == 25]
+        p25_4 = group(
+            "p25-g4", "胃大部切除术后梗阻的呕吐物特点", "消化", ["lecture-16"],
+            opts(
+                ("A", "呕吐物含食物、不含胆汁"),
+                ("B", "呕吐物不含食物、含胆汁"),
+                ("C", "呕吐物含食物和胆汁"),
+            ),
+            stems(
+                ("急性完全性输入袢梗阻", "A"),
+                ("慢性不完全性输入袢梗阻", "B"),
+                ("输出袢梗阻", "C"),
+                ("吻合口梗阻", "A"),
+            ),
+        )
+        p25_4["lectureEvidence"] = {
+            "lectureId": "lecture-16", "page": 6,
+            "image": "med/lecture-pages/lecture-16-page-06.webp",
+            "title": "第16讲第6页：胃大部切除术后梗阻",
+            "description": "本题组对应第16讲第6页呕吐物中食物与胆汁的鉴别表。",
+        }
+        replace_page(payload, 25, [*p25_groups, p25_4])
+
+    # Page 33 contains three consecutive option pools before the two peritonitis
+    # groups.  OCR merged the latter two pools' stems into p33-g1, making those
+    # questions point at unrelated liver-function options.  Split all five
+    # source blocks and retain the corrected text above.
+    groups = {item["id"]: item for item in payload["groups"]}
+    p33_1 = groups["p33-g1"]
+    p33_1["title"] = "肝功能不全与门脉高压表现"
+    p33_1["stems"] = p33_1["stems"][:2]
+    p33_1["sourceText"] = "肝功能不全与门脉高压表现（按原题第33页第1组选项池复核）"
+    p33_1["lectureIds"] = ["lecture-22"]
+    p33_1["lectureEvidence"] = {
+        "lectureId": "lecture-22", "page": 2,
+        "image": "med/lecture-pages/lecture-22-page-02.jpg",
+        "title": "第22讲第2页：肝功能不全与门脉高压表现",
+        "description": "本题组对应第22讲第2页讲义。",
+    }
+
+    p33_1b = group(
+        "p33-g1b", "腹水与巨大卵巢囊肿叩诊鉴别", "消化", ["lecture-22"],
+        opts(
+            ("A", "移动性浊音（+）"), ("B", "移动性浊音（-）"),
+            ("C", "仰卧时浊音区域在腹两侧（鼓音区在中部）"), ("D", "尺压试验硬尺搏动"),
+            ("E", "仰卧时浊音区域在腹中部（鼓音区在两侧-肠管）"), ("F", "尺压试验硬尺不搏动"),
+        ),
+        stems(("腹水", "ACF"), ("巨大卵巢囊肿", "BDE")),
+    )
+    p33_1b["lectureEvidence"] = {
+        "lectureId": "lecture-22", "page": 4,
+        "image": "med/lecture-pages/lecture-22-page-04.webp",
+        "title": "第22讲第4页：腹水与巨大卵巢囊肿叩诊鉴别",
+        "description": "本题组对应第22讲第4页讲义。",
+    }
+
+    p33_1c = group(
+        "p33-g1c", "肝硬化并发消化道出血", "消化", ["lecture-22"],
+        opts(
+            ("A", "对因治疗"), ("B", "收缩压<90mmHg：补充血容量"),
+            ("C", "普萘洛尔/卡维地洛"), ("D", "注射栓塞剂等断流术"),
+            ("E", "内镜曲张食管静脉套扎术EVL（中等以下出血量）"),
+            ("F", "生长抑素/奥曲肽"), ("G", "PPI抑制胃酸分泌"),
+            ("H", "三代头孢预防感染"), ("I", "三腔二囊管"), ("J", "TIPS"),
+        ),
+        stems(("治疗", "BEFGHIJ"), ("一级预防", "ACE"), ("二级预防", "CDEJ")),
+    )
+    p33_1c["lectureEvidence"] = {
+        "lectureId": "lecture-22", "page": 6,
+        "image": "med/lecture-pages/lecture-22-page-06.webp",
+        "title": "第22讲第6页：肝硬化并发消化道出血",
+        "description": "本题组对应第22讲第6页讲义。",
+    }
+
+    p33_2 = groups["p33-g2"]
+    p33_2["lectureIds"] = ["lecture-17", "lecture-22"]
+    p33_3 = groups["p33-g3"]
+    p33_3["lectureIds"] = ["lecture-22"]
+    replace_page(payload, 33, [p33_1, p33_1b, p33_1c, p33_2, p33_3])
+
+
 def apply_manual_review(payload: dict) -> None:
     for item in payload["groups"]:
         item["topic"] = page_topic(item["page"])
@@ -1016,3 +1149,5 @@ def apply_manual_review(payload: dict) -> None:
         item["topic"] = page_topic(item["page"])
         if item["id"] == "p43-g1":
             item["lectureIds"] = ["lecture-28"]
+
+    repair_digestive_options(payload)

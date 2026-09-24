@@ -620,8 +620,8 @@
           "answerMode": "待核对"
         }
       ],
-        "sourceText": "内 | 学成选择题 | 科 | 小红书 | 小红书号：385106504",
-        "reviewState": "待讲义复核",
+      "sourceText": "内 | 学成选择题 | 科 | 小红书 | 小红书号：385106504",
+      "reviewState": "待讲义复核",
       "topic": "综合",
       "lectureIds": []
     },
@@ -4359,30 +4359,126 @@
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
-        { "key": "A", "label": "步行或上楼时气短", "sourceText": "A.步行或上楼时气短" },
-        { "key": "B", "label": "不能讲话", "sourceText": "B.不能讲话" },
-        { "key": "C", "label": "稍活动气短", "sourceText": "C.稍活动气短" },
-        { "key": "D", "label": "讲话正常", "sourceText": "D.讲话正常" },
-        { "key": "E", "label": "端坐呼吸", "sourceText": "E.端坐呼吸" },
-        { "key": "F", "label": "弥漫响亮哮鸣音，明显三凹征和奇脉", "sourceText": "F.弥漫响亮哮鸣音，明显三凹征和奇脉" },
-        { "key": "G", "label": "意识障碍", "sourceText": "G.意识障碍" },
-        { "key": "H", "label": "单字表达", "sourceText": "H.单字表达" },
-        { "key": "I", "label": "讲话中断", "sourceText": "I.讲话中断" },
-        { "key": "J", "label": "散在哮鸣音", "sourceText": "J.散在哮鸣音" },
-        { "key": "K", "label": "呼吸频率>30次/分、PEF<60%、心率>120次/分", "sourceText": "K.R>30、PEF<60%、心率>120" },
-        { "key": "L", "label": "弥漫响亮哮鸣音，可有三凹征和奇脉", "sourceText": "L.弥漫响亮哮鸣音，可三凹征和奇脉" },
-        { "key": "M", "label": "可呈沉默肺（哮鸣音减弱甚至消失），脉率慢或不规则、血压下降，胸腹矛盾或反常运动", "sourceText": "M.可沉默肺（哮鸣音减弱甚至消失），脉率慢或不规则、血压↓，胸腹矛盾运动/反常运动" }
+        {
+          "key": "A",
+          "label": "步行或上楼时气短",
+          "sourceText": "A.步行或上楼时气短"
+        },
+        {
+          "key": "B",
+          "label": "不能讲话",
+          "sourceText": "B.不能讲话"
+        },
+        {
+          "key": "C",
+          "label": "稍活动气短",
+          "sourceText": "C.稍活动气短"
+        },
+        {
+          "key": "D",
+          "label": "讲话正常",
+          "sourceText": "D.讲话正常"
+        },
+        {
+          "key": "E",
+          "label": "端坐呼吸",
+          "sourceText": "E.端坐呼吸"
+        },
+        {
+          "key": "F",
+          "label": "弥漫响亮哮鸣音，明显三凹征和奇脉",
+          "sourceText": "F.弥漫响亮哮鸣音，明显三凹征和奇脉"
+        },
+        {
+          "key": "G",
+          "label": "意识障碍",
+          "sourceText": "G.意识障碍"
+        },
+        {
+          "key": "H",
+          "label": "单字表达",
+          "sourceText": "H.单字表达"
+        },
+        {
+          "key": "I",
+          "label": "讲话中断",
+          "sourceText": "I.讲话中断"
+        },
+        {
+          "key": "J",
+          "label": "散在哮鸣音",
+          "sourceText": "J.散在哮鸣音"
+        },
+        {
+          "key": "K",
+          "label": "呼吸频率>30次/分、PEF<60%、心率>120次/分",
+          "sourceText": "K.R>30、PEF<60%、心率>120"
+        },
+        {
+          "key": "L",
+          "label": "弥漫响亮哮鸣音，可有三凹征和奇脉",
+          "sourceText": "L.弥漫响亮哮鸣音，可三凹征和奇脉"
+        },
+        {
+          "key": "M",
+          "label": "可呈沉默肺（哮鸣音减弱甚至消失），脉率慢或不规则、血压下降，胸腹矛盾或反常运动",
+          "sourceText": "M.可沉默肺（哮鸣音减弱甚至消失），脉率慢或不规则、血压↓，胸腹矛盾运动/反常运动"
+        }
       ],
       "stems": [
-        { "text": "轻度", "answer": ["A", "D", "J"], "sourceText": "轻度 ADJ", "sourceY": 0, "answerMode": "多选" },
-        { "text": "中度", "answer": ["C", "I", "L"], "sourceText": "中度 CIL", "sourceY": 0, "answerMode": "多选" },
-        { "text": "重度", "answer": ["E", "F", "H", "K"], "sourceText": "重度 EFHK", "sourceY": 0, "answerMode": "多选" },
-        { "text": "危重度", "answer": ["B", "G", "M", "K"], "sourceText": "危重度 BGMK", "sourceY": 0, "answerMode": "多选" }
+        {
+          "text": "轻度",
+          "answer": [
+            "A",
+            "D",
+            "J"
+          ],
+          "sourceText": "轻度 ADJ",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "中度",
+          "answer": [
+            "C",
+            "I",
+            "L"
+          ],
+          "sourceText": "中度 CIL",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "重度",
+          "answer": [
+            "E",
+            "F",
+            "H",
+            "K"
+          ],
+          "sourceText": "重度 EFHK",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "危重度",
+          "answer": [
+            "B",
+            "G",
+            "M",
+            "K"
+          ],
+          "sourceText": "危重度 BGMK",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
       ],
       "sourceText": "支气管哮喘急性发作分级：轻度ADJ，中度CIL，重度EFHK，危重度BGMK。",
       "reviewState": "已按原题页与讲义复核",
       "topic": "呼吸",
-      "lectureIds": ["lecture-09"],
+      "lectureIds": [
+        "lecture-09"
+      ],
       "lectureEvidence": {
         "lectureId": "lecture-09",
         "page": 5,
@@ -6315,12 +6411,61 @@
       "kind": "B",
       "kindLabel": "B型题",
       "optionBankSections": [
-        { "title": "胸廓", "keys": ["A", "B", "C", "D", "E"] },
-        { "title": "纵隔", "keys": ["F", "G", "H"] },
-        { "title": "语音震颤", "keys": ["I", "J", "K", "L", "M"] },
-        { "title": "叩诊", "keys": ["N", "O", "P"] },
-        { "title": "呼吸音", "keys": ["Q", "R", "S", "T"] },
-        { "title": "啰音", "keys": ["U", "V", "W", "X", "Y"] }
+        {
+          "title": "胸廓",
+          "keys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        },
+        {
+          "title": "纵隔",
+          "keys": [
+            "F",
+            "G",
+            "H"
+          ]
+        },
+        {
+          "title": "语音震颤",
+          "keys": [
+            "I",
+            "J",
+            "K",
+            "L",
+            "M"
+          ]
+        },
+        {
+          "title": "叩诊",
+          "keys": [
+            "N",
+            "O",
+            "P"
+          ]
+        },
+        {
+          "title": "呼吸音",
+          "keys": [
+            "Q",
+            "R",
+            "S",
+            "T"
+          ]
+        },
+        {
+          "title": "啰音",
+          "keys": [
+            "U",
+            "V",
+            "W",
+            "X",
+            "Y"
+          ]
+        }
       ],
       "options": [
         {
@@ -6605,8 +6750,8 @@
         },
         {
           "key": "G",
-          "label": "Ach",
-          "sourceText": "G.Ach"
+          "label": "ACh",
+          "sourceText": "G.ACh"
         },
         {
           "key": "H",
@@ -6747,7 +6892,7 @@
         }
       ],
       "sourceText": "胃食管反流病病因（按原题页重新分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页与对应讲义逐项复核",
       "topic": "消化",
       "lectureIds": [
         "lecture-14"
@@ -6814,8 +6959,8 @@
         },
         {
           "key": "J",
-          "label": "球症(患者感到咽部不适，有异物感、堵塞感，但又没有真正",
-          "sourceText": "J.球症(患者感到咽部不适，有异物感、堵塞感，但又没有真正"
+          "label": "癔球症（患者感到咽部不适，有异物感、堵塞感，但又没有真正的吞咽困难）",
+          "sourceText": "J.癔球症（患者感到咽部不适，有异物感、堵塞感，但又没有真正的吞咽困难）"
         },
         {
           "key": "L",
@@ -6886,7 +7031,7 @@
         }
       ],
       "sourceText": "A.胸痛(多为刺痛) | 问： | B.反流 | 最常见典型症状（BD | C.牙蚀症 | D.烧心(胸骨后剑突下烧灼感) | 因反流物刺激食管痉挛引起（AFH | E.咽喉炎 | F.吞咽困难(多为间歇性) | 食管症状ABDFH | G.慢性咳嗽 | H.胸骨后异物感 | 食管外症状CEGIJLMN | 1.非季节性哮喘 | J.球症(患者感到咽部不适，有异物感、堵塞感，但又没有真正 | 的吞咽困难) | L.声嘶 | M.吸入性肺炎 | N.肺间质纤维化 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页与对应讲义逐项复核",
       "topic": "消化",
       "lectureIds": [
         "lecture-14"
@@ -7109,8 +7254,8 @@
         },
         {
           "key": "B",
-          "label": "与K竞争结合H+-K+-ATP酶",
-          "sourceText": "B.与K竞争结合H+-K+-ATP酶"
+          "label": "与K+竞争结合H+-K+-ATP酶",
+          "sourceText": "B.与K+竞争结合H+-K+-ATP酶"
         },
         {
           "key": "C",
@@ -7134,8 +7279,8 @@
         },
         {
           "key": "G",
-          "label": "酸环境稳定、不需酸激活、起效快、持续时间长、夜间作用确",
-          "sourceText": "G.酸环境稳定、不需酸激活、起效快、持续时间长、夜间作用确"
+          "label": "酸环境稳定、不需酸激活、起效快、持续时间长、夜间作用确切、用药个体差异小和不良反应少",
+          "sourceText": "G.酸环境稳定、不需酸激活、起效快、持续时间长、夜间作用确切、用药个体差异小和不良反应少"
         },
         {
           "key": "H",
@@ -7201,7 +7346,7 @@
         }
       ],
       "sourceText": "A.首选，最佳 | 问： | B.与K竞争结合H+-K+-ATP酶 | 质子泵抑制剂PPI(奥美/泮脱拉唑)ACE | C.与H+-K+-ATP酶不可逆结合 | D.疗程8-12周 | 钾离子竞争性酸阻滞剂P-CAB（伏诺拉生）BEG） | E.疗程4-8周 | H-R拮抗剂(法莫/西咪替丁)（DF | F.适合轻、中度患者 | G.酸环境稳定、不需酸激活、起效快、持续时间长、夜间作用确 | 切、用药个体差异小和不良反应少 | 弱碱性抗酸药（铝碳酸镁、磷酸铝、硫糖铝、氢氧化铝) | H.适合抑酸治疗后疼痛缓解而仍有腹胀的轻度患者 | 1.适合轻度患者临时缓解症状 | 促胃肠动力药(莫沙必利)（H | 小红书号：385106504",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页与对应讲义逐项复核",
       "topic": "消化",
       "lectureIds": [
         "lecture-14",
@@ -7899,13 +8044,13 @@
         },
         {
           "key": "S",
-          "label": "胃溃疡病患者腹痛开始不规律",
-          "sourceText": "S.胃溃疡病患者腹痛开始不规律"
+          "label": "胃溃疡病史患者腹痛开始不规律",
+          "sourceText": "S.胃溃疡病史患者腹痛开始不规律"
         },
         {
           "key": "T",
-          "label": "若发热、右上腹痛、呕逆—膈下脓肿",
-          "sourceText": "T.若发热、右上腹痛、呕逆—膈下脓肿"
+          "label": "若发热、右上腹痛、呃逆→膈下脓肿",
+          "sourceText": "T.若发热、右上腹痛、呃逆→膈下脓肿"
         },
         {
           "key": "U",
@@ -7914,13 +8059,13 @@
         },
         {
           "key": "V",
-          "label": "可有穿孔性大出血（腹水>1000 ml）",
-          "sourceText": "V.可有穿孔性大出血（腹水>1000 ml）"
+          "label": "可有移动性浊音（腹水>1000ml）",
+          "sourceText": "V.可有移动性浊音（腹水>1000ml）"
         },
         {
           "key": "W",
-          "label": "不缓解→瘘痿性为主—内镜或胃大部切除术（术前用抗生素）",
-          "sourceText": "W.不缓解→瘘痿性为主—内镜或胃大部切除术（术前用抗生素）"
+          "label": "不缓解→瘢痕性为主→内镜或胃大部切除术（术前用抗生素）",
+          "sourceText": "W.不缓解→瘢痕性为主→内镜或胃大部切除术（术前用抗生素）"
         },
         {
           "key": "X",
@@ -8058,7 +8203,7 @@
         }
       ],
       "sourceText": "消化性溃疡并发症（按原题页重新分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页与对应讲义逐项复核",
       "topic": "消化",
       "lectureIds": [
         "lecture-14",
@@ -8444,6 +8589,81 @@
         "image": "med/lecture-pages/lecture-16-page-06.webp",
         "title": "第16讲第6页：内科含诊断+外科 消化性溃疡 & 消化道出血",
         "description": "本题组对应第16讲第6页讲义。"
+      }
+    },
+    {
+      "id": "p25-g4",
+      "page": 25,
+      "title": "胃大部切除术后梗阻的呕吐物特点",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "呕吐物含食物、不含胆汁",
+          "sourceText": "A.呕吐物含食物、不含胆汁"
+        },
+        {
+          "key": "B",
+          "label": "呕吐物不含食物、含胆汁",
+          "sourceText": "B.呕吐物不含食物、含胆汁"
+        },
+        {
+          "key": "C",
+          "label": "呕吐物含食物和胆汁",
+          "sourceText": "C.呕吐物含食物和胆汁"
+        }
+      ],
+      "stems": [
+        {
+          "text": "急性完全性输入袢梗阻",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "急性完全性输入袢梗阻 A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "慢性不完全性输入袢梗阻",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "慢性不完全性输入袢梗阻 B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "输出袢梗阻",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "输出袢梗阻 C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "吻合口梗阻",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "吻合口梗阻 A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "胃大部切除术后梗阻的呕吐物特点（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 6,
+        "image": "med/lecture-pages/lecture-16-page-06.webp",
+        "title": "第16讲第6页：胃大部切除术后梗阻",
+        "description": "本题组对应第16讲第6页呕吐物中食物与胆汁的鉴别表。"
       }
     },
     {
@@ -9517,8 +9737,8 @@
       "options": [
         {
           "key": "A",
-          "label": "状指",
-          "sourceText": "A.状指"
+          "label": "杵状指",
+          "sourceText": "A.杵状指"
         },
         {
           "key": "B",
@@ -9601,7 +9821,7 @@
         }
       ],
       "sourceText": "A.状指 | 问： | 与病情无关(与疾病共存)（BDFI | B.原发性硬化性胆管炎 | C.结节性红斑 | 控制病情后可缓解恢复ACEGHJK | D.强直性脊柱炎 | E.坏疽性脓皮病 | F.淀粉样变性 | G.口腔溃疡 | H.外周关节炎 | 1.骶骼关节炎 | J.巩膜外层炎 | K.前葡萄膜炎/虹膜睫状体炎 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页与对应讲义逐项复核",
       "topic": "消化",
       "lectureIds": [
         "lecture-14",
@@ -10841,8 +11061,8 @@
       "options": [
         {
           "key": "A",
-          "label": "海蛇头样(脐周血回流：脐以上向上+脐以下向下上上下下",
-          "sourceText": "A.海蛇头样(脐周血回流：脐以上向上+脐以下向下上上下下"
+          "label": "海蛇头样（脐周血回流：脐以上向上+脐以下向下，上上下下）",
+          "sourceText": "A.海蛇头样（脐周血回流：脐以上向上+脐以下向下，上上下下）"
         },
         {
           "key": "B",
@@ -10861,8 +11081,8 @@
         },
         {
           "key": "E",
-          "label": "静脉连续性潺潺音/音",
-          "sourceText": "E.静脉连续性潺潺音/音"
+          "label": "静脉连续性潺潺音/嗡嗡音",
+          "sourceText": "E.静脉连续性潺潺音/嗡嗡音"
         },
         {
           "key": "F",
@@ -10903,7 +11123,7 @@
         }
       ],
       "sourceText": "问： | A.海蛇头样(脐周血回流：脐以上向上+脐以下向下上上下下 | 食管胃底静脉曲张（BDF | B.钡餐示串珠/蚯蚓样充盈缺损 | C.痔疮→便血 | 腹壁静脉曲张（AE | D.胃镜诊断：红色征很严重 | E.静脉连续性潺潺音/音 | 直肠静脉曲张 C | F.破裂出血-上消化道出血",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页与对应讲义逐项复核",
       "topic": "消化",
       "lectureIds": [
         "lecture-22"
@@ -10919,7 +11139,7 @@
     {
       "id": "p33-g1",
       "page": 33,
-      "title": "与肝功不全有关",
+      "title": "肝功能不全与门脉高压表现",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -11005,8 +11225,8 @@
         },
         {
           "key": "Q",
-          "label": "总胆固醇TCL、胆固醇酯/总胆固醇↓",
-          "sourceText": "Q.总胆固醇TCL、胆固醇酯/总胆固醇↓"
+          "label": "总胆固醇TC↓、胆固醇酯/总胆固醇↓",
+          "sourceText": "Q.总胆固醇TC↓、胆固醇酯/总胆固醇↓"
         },
         {
           "key": "R",
@@ -11025,8 +11245,8 @@
         },
         {
           "key": "U",
-          "label": "黄疽(主要为肝细胞性黄痘)",
-          "sourceText": "U.黄疽(主要为肝细胞性黄痘)"
+          "label": "黄疸（主要为肝细胞性黄疸）",
+          "sourceText": "U.黄疸（主要为肝细胞性黄疸）"
         }
       ],
       "stems": [
@@ -11070,16 +11290,70 @@
           "sourceText": "与门脉高压有关（DEFHIJKMOP",
           "sourceY": 126,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "肝功能不全与门脉高压表现（按原题第33页第1组选项池复核）",
+      "reviewState": "已按原题页与对应讲义逐项复核",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 2,
+        "image": "med/lecture-pages/lecture-22-page-02.jpg",
+        "title": "第22讲第2页：肝功能不全与门脉高压表现",
+        "description": "本题组对应第22讲第2页讲义。"
+      }
+    },
+    {
+      "id": "p33-g1b",
+      "page": 33,
+      "title": "腹水与巨大卵巢囊肿叩诊鉴别",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "移动性浊音（+）",
+          "sourceText": "A.移动性浊音（+）"
         },
         {
-          "text": "《诊断学》：卵巢囊肿与腹腔积液叩诊鉴别；腹水",
+          "key": "B",
+          "label": "移动性浊音（-）",
+          "sourceText": "B.移动性浊音（-）"
+        },
+        {
+          "key": "C",
+          "label": "仰卧时浊音区域在腹两侧（鼓音区在中部）",
+          "sourceText": "C.仰卧时浊音区域在腹两侧（鼓音区在中部）"
+        },
+        {
+          "key": "D",
+          "label": "尺压试验硬尺搏动",
+          "sourceText": "D.尺压试验硬尺搏动"
+        },
+        {
+          "key": "E",
+          "label": "仰卧时浊音区域在腹中部（鼓音区在两侧-肠管）",
+          "sourceText": "E.仰卧时浊音区域在腹中部（鼓音区在两侧-肠管）"
+        },
+        {
+          "key": "F",
+          "label": "尺压试验硬尺不搏动",
+          "sourceText": "F.尺压试验硬尺不搏动"
+        }
+      ],
+      "stems": [
+        {
+          "text": "腹水",
           "answer": [
             "A",
             "C",
             "F"
           ],
-          "sourceText": "腹水（ACF",
-          "sourceY": 700,
+          "sourceText": "腹水 ACF",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -11089,10 +11363,84 @@
             "D",
             "E"
           ],
-          "sourceText": "巨大卵巢囊肿（BDE",
-          "sourceY": 749,
+          "sourceText": "巨大卵巢囊肿 BDE",
+          "sourceY": 0,
           "answerMode": "多选"
+        }
+      ],
+      "sourceText": "腹水与巨大卵巢囊肿叩诊鉴别（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 4,
+        "image": "med/lecture-pages/lecture-22-page-04.webp",
+        "title": "第22讲第4页：腹水与巨大卵巢囊肿叩诊鉴别",
+        "description": "本题组对应第22讲第4页讲义。"
+      }
+    },
+    {
+      "id": "p33-g1c",
+      "page": 33,
+      "title": "肝硬化并发消化道出血",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "对因治疗",
+          "sourceText": "A.对因治疗"
         },
+        {
+          "key": "B",
+          "label": "收缩压<90mmHg：补充血容量",
+          "sourceText": "B.收缩压<90mmHg：补充血容量"
+        },
+        {
+          "key": "C",
+          "label": "普萘洛尔/卡维地洛",
+          "sourceText": "C.普萘洛尔/卡维地洛"
+        },
+        {
+          "key": "D",
+          "label": "注射栓塞剂等断流术",
+          "sourceText": "D.注射栓塞剂等断流术"
+        },
+        {
+          "key": "E",
+          "label": "内镜曲张食管静脉套扎术EVL（中等以下出血量）",
+          "sourceText": "E.内镜曲张食管静脉套扎术EVL（中等以下出血量）"
+        },
+        {
+          "key": "F",
+          "label": "生长抑素/奥曲肽",
+          "sourceText": "F.生长抑素/奥曲肽"
+        },
+        {
+          "key": "G",
+          "label": "PPI抑制胃酸分泌",
+          "sourceText": "G.PPI抑制胃酸分泌"
+        },
+        {
+          "key": "H",
+          "label": "三代头孢预防感染",
+          "sourceText": "H.三代头孢预防感染"
+        },
+        {
+          "key": "I",
+          "label": "三腔二囊管",
+          "sourceText": "I.三腔二囊管"
+        },
+        {
+          "key": "J",
+          "label": "TIPS",
+          "sourceText": "J.TIPS"
+        }
+      ],
+      "stems": [
         {
           "text": "治疗",
           "answer": [
@@ -11104,8 +11452,8 @@
             "I",
             "J"
           ],
-          "sourceText": "治疗（BEFGHIJ",
-          "sourceY": 958,
+          "sourceText": "治疗 BEFGHIJ",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -11115,8 +11463,8 @@
             "C",
             "E"
           ],
-          "sourceText": "一级预防（ACE",
-          "sourceY": 1009,
+          "sourceText": "一级预防 ACE",
+          "sourceY": 0,
           "answerMode": "多选"
         },
         {
@@ -11127,28 +11475,23 @@
             "E",
             "J"
           ],
-          "sourceText": "二级预防（CDEJ",
-          "sourceY": 1059,
+          "sourceText": "二级预防 CDEJ",
+          "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "A.肝脏对雌激素灭活减弱 | 问： | B.白/球蛋白↓或倒置 | 与肝功不全有关ABCEFGHLNPQRSTU | C.月经失调、睾丸萎缩、乳房发育、蜘蛛痣、肝掌 | D.脾肿大 | 与门脉高压有关（DEFHIJKMOP | E.出血和贫血 | F.消化吸收不良、营养不良与肌少症：胃肠道淤血、水肿 | G.肝合成凝血因子减少 | H.水肿：从下肢开始自下而上发展 | 1.侧支循环形成 | J.脾功能亢进致血小板分布异常 | K.食管胃底静脉曲张 | L.血小板生成素TPO减少 | M.腹壁静脉曲张 | N.低白/清蛋白血症(<30g/L) | 0.直肠静脉曲张 | P.腹水 | Q.总胆固醇TCL、胆固醇酯/总胆固醇↓ | R.脂肪和脂溶性维生素等消化吸收不良、营养不良与肌少症 | S.夜盲症：肝贮脂细胞/星状细胞贮存VitA↓ | T.不规则低热 | U.黄疽(主要为肝细胞性黄痘) | A.移动性浊音(+) | 《诊断学》：卵巢囊肿与腹腔积液叩诊鉴别 | B.移动性浊音(-) | 腹水（ACF | C.仰卧时浊音区域在腹两侧(鼓音区在中部) | D.尺压试验硬尺搏动 | 巨大卵巢囊肿（BDE | E.仰卧时浊音区域在腹中部(鼓音区在两侧-肠管) | F.尺压试验硬尺不搏动 | A.对因治疗 | B.收缩压<90:补充血容量 | 问：肝硬化并发消化道出血 | C.普萘洛尔/卡维地洛 | 治疗（BEFGHIJ | D.注射栓塞剂等断流术 | E.内镜曲张食管静脉套扎术EVL(中等以下出血量) | 一级预防（ACE | F.生长抑素/奥曲肽 | G.PPI抑制胃酸分泌 | 二级预防（CDEJ | H.三代头孢预防感染 | 1.三腔二囊管 | J.TIPS | A.发热(低热多见)",
-      "reviewState": "待讲义复核",
+      "sourceText": "肝硬化并发消化道出血（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "消化",
       "lectureIds": [
-        "lecture-14",
-        "lecture-15",
-        "lecture-16",
-        "lecture-17",
-        "lecture-18",
-        "lecture-19"
+        "lecture-22"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-22",
-        "page": 4,
-        "image": "med/lecture-pages/lecture-22-page-04.webp",
-        "title": "第22讲第4页：内科含诊断 肝硬化",
-        "description": "本题组对应第22讲第4页讲义。"
+        "page": 6,
+        "image": "med/lecture-pages/lecture-22-page-06.webp",
+        "title": "第22讲第6页：肝硬化并发消化道出血",
+        "description": "本题组对应第22讲第6页讲义。"
       }
     },
     {
@@ -11170,13 +11513,13 @@
         },
         {
           "key": "C",
-          "label": "腹水为渗出液：SAAG<11、细胞>500x10%且以多个核细胞（中性粒细胞）为主",
-          "sourceText": "C.腹水为渗出液：SAAG<11、细胞>500x10%且以多个核细胞（中性粒细胞）为主"
+          "label": "腹水为渗出液：SAAG<11、细胞>500×10^6/L且以多个核细胞（中性粒细胞）为主",
+          "sourceText": "C.腹水为渗出液：SAAG<11、细胞>500×10^6/L且以多个核细胞（中性粒细胞）为主"
         },
         {
           "key": "D",
-          "label": "腹水为渗出液：SAAG<11、细胞>500x10%且以单个核细胞（淋巴细胞)为主",
-          "sourceText": "D.腹水为渗出液：SAAG<11、细胞>500x10%且以单个核细胞（淋巴细胞)为主"
+          "label": "腹水为渗出液：SAAG<11、细胞>500×10^6/L且以单个核细胞（淋巴细胞）为主",
+          "sourceText": "D.腹水为渗出液：SAAG<11、细胞>500×10^6/L且以单个核细胞（淋巴细胞）为主"
         }
       ],
       "stems": [
@@ -11203,15 +11546,11 @@
         }
       ],
       "sourceText": "A.发热(低热多见) | 问： | B.腹部揉面感 | 自发性细菌性腹膜炎（AC | C.腹水为渗出液：SAAG<11、细胞>500x10%且以多个核细胞（中性粒细胞）为主 | D.腹水为渗出液：SAAG<11、细胞>500x10%且以单个核细胞（淋巴细胞)为主 | 结核性腹膜炎（ABD | A.腹痛、腹水可迅速增加 | B.感染表现（腹膜刺激征/低热）",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页与对应讲义逐项复核",
       "topic": "消化",
       "lectureIds": [
-        "lecture-14",
-        "lecture-15",
-        "lecture-16",
         "lecture-17",
-        "lecture-18",
-        "lecture-19"
+        "lecture-22"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-17",
@@ -11255,8 +11594,8 @@
         },
         {
           "key": "F",
-          "label": "渗出液（SAAG<11、细胞>500且以中性粒细胞为主）",
-          "sourceText": "F.渗出液（SAAG<11、细胞>500且以中性粒细胞为主）"
+          "label": "渗出液（SAAG<11、细胞>500×10^6/L且以多个核细胞/中性粒细胞为主）",
+          "sourceText": "F.渗出液（SAAG<11、细胞>500×10^6/L且以多个核细胞/中性粒细胞为主）"
         }
       ],
       "stems": [
@@ -11285,15 +11624,10 @@
         }
       ],
       "sourceText": "腹膜炎与门静脉血栓形成（按原题页重新分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页与对应讲义逐项复核",
       "topic": "消化",
       "lectureIds": [
-        "lecture-14",
-        "lecture-15",
-        "lecture-16",
-        "lecture-17",
-        "lecture-18",
-        "lecture-19"
+        "lecture-22"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-22",
