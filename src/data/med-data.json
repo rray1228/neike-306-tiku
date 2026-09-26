@@ -28190,6 +28190,11 @@
           "key": "C",
           "label": "不伴靶器官损害",
           "sourceText": "C.不伴靶器官损害"
+        },
+        {
+          "key": "D",
+          "label": "血压高低与急性靶器官损害的程度并非成正比",
+          "sourceText": "D.血压高低与急性靶器官损害的程度并非成正比"
         }
       ],
       "stems": [
@@ -28197,9 +28202,10 @@
           "text": "高血压急症",
           "answer": [
             "A",
-            "B"
+            "B",
+            "D"
           ],
-          "sourceText": "高血压急症AB",
+          "sourceText": "高血压急症ABD",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -32365,8 +32371,8 @@
         },
         {
           "key": "T",
-          "label": "杂音局限、左侧卧位增强",
-          "sourceText": "T.杂音局限、左侧卧位增强"
+          "label": "杂音向颈部传导",
+          "sourceText": "T.杂音向颈部传导"
         },
         {
           "key": "U",
@@ -32375,8 +32381,8 @@
         },
         {
           "key": "V",
-          "label": "杂音向心尖传导",
-          "sourceText": "V.杂音向心尖传导"
+          "label": "杂音局限、左侧卧位增强",
+          "sourceText": "V.杂音局限、左侧卧位增强"
         },
         {
           "key": "W",
@@ -32581,13 +32587,14 @@
             "g",
             "i",
             "k",
+            "l",
             "m",
             "q",
             "r",
             "v",
             "①"
           ],
-          "sourceText": "二尖瓣关闭不全ABDFJLNSUaegikmqrv①",
+          "sourceText": "二尖瓣关闭不全ABDFJLNSUaegiklmqrv①",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -33077,8 +33084,8 @@
       "options": [
         {
           "key": "A",
-          "label": "具备静息型心绞痛的特征",
-          "sourceText": "A.具备静息型心绞痛的特征"
+          "label": "具备静息型心绞痛的特征（因此睡眠中疼痛警惕静息型、变异型心绞痛）",
+          "sourceText": "A.具备静息型心绞痛的特征（因此睡眠中疼痛警惕静息型、变异型心绞痛）"
         },
         {
           "key": "B",
@@ -33283,13 +33290,13 @@
         },
         {
           "key": "D",
-          "label": "明显诱因脑痛，多持续3～5分钟",
-          "sourceText": "D.明显诱因脑痛，多持续3～5分钟"
+          "label": "明显诱因胸痛，多持续3～5分钟",
+          "sourceText": "D.明显诱因胸痛，多持续3～5分钟"
         },
         {
           "key": "E",
-          "label": "休息或含服硝酸甘油时或不能完全缓解",
-          "sourceText": "E.休息或含服硝酸甘油时或不能完全缓解"
+          "label": "休息或含服硝酸甘油暂时或不能完全缓解",
+          "sourceText": "E.休息或含服硝酸甘油暂时或不能完全缓解"
         },
         {
           "key": "F",
@@ -33558,8 +33565,8 @@
         },
         {
           "key": "E",
-          "label": "心肌坏死标志物升高没有STEMI明显",
-          "sourceText": "E.心肌坏死标志物升高没有STEMI明显"
+          "label": "心肌坏死标志物升高不如STEMI明显",
+          "sourceText": "E.心肌坏死标志物升高不如STEMI明显"
         },
         {
           "key": "F",
@@ -33595,11 +33602,6 @@
           "key": "L",
           "label": "典型心电图：病理Q多无、ST段压低≥0.1mV、T波倒置",
           "sourceText": "L.典型心电图：病理Q多无、ST段压低≥0.1mV、T波倒置"
-        },
-        {
-          "key": "M",
-          "label": "最有价值",
-          "sourceText": "M.最有价值"
         }
       ],
       "stems": [
@@ -36384,13 +36386,13 @@
         },
         {
           "key": "F",
-          "label": "P波后也可无QRS波（房早未下传）",
-          "sourceText": "F.P波后也可无QRS波（房早未下传）"
+          "label": "P′波后也可无QRS波（房早未下传）",
+          "sourceText": "F.P′波后也可无QRS波（房早未下传）"
         },
         {
           "key": "G",
-          "label": "逆行P波可在QRS波之前、之后或与QRS波重叠",
-          "sourceText": "G.逆行P波可在QRS波之前、之后或与QRS波重叠"
+          "label": "逆行P′波可在QRS波之前（P′R间期<0.12s）、之后（RP′间期<0.2s）或与QRS波重叠",
+          "sourceText": "G.逆行P′波可在QRS波之前（P′R间期<0.12s）、之后（RP′间期<0.2s）或与QRS波重叠"
         },
         {
           "key": "H",
@@ -36404,13 +36406,13 @@
         },
         {
           "key": "J",
-          "label": "完全性代偿间隙",
-          "sourceText": "J.完全性代偿间隙"
+          "label": "完全性代偿间隙（早搏在内的PP间距=正常PP间距的2倍）",
+          "sourceText": "J.完全性代偿间隙（早搏在内的PP间距=正常PP间距的2倍）"
         },
         {
           "key": "K",
-          "label": "不完全性代偿间隙",
-          "sourceText": "K.不完全性代偿间隙"
+          "label": "不完全性代偿间隙（早搏在内的PP间距<正常PP间距的2倍）",
+          "sourceText": "K.不完全性代偿间隙（早搏在内的PP间距<正常PP间距的2倍）"
         },
         {
           "key": "L",
@@ -36426,11 +36428,6 @@
           "key": "N",
           "label": "尽管多见于器质性心脏病者，但多不治疗",
           "sourceText": "N.尽管多见于器质性心脏病者，但多不治疗"
-        },
-        {
-          "key": "O",
-          "label": "治疗：补镁；先天性长QT间期综合征用β-R拮抗剂",
-          "sourceText": "O.治疗：补镁；先天性长QT间期综合征用β-R拮抗剂"
         }
       ],
       "stems": [
@@ -36438,12 +36435,13 @@
           "text": "房早",
           "answer": [
             "B",
+            "D",
             "F",
             "I",
             "K",
             "L"
           ],
-          "sourceText": "房早 BFIKL",
+          "sourceText": "房早 BDFIKL",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -36497,13 +36495,13 @@
       "options": [
         {
           "key": "A",
-          "label": "阵发性室上性心动过速",
-          "sourceText": "A.阵发性室上性心动过速"
+          "label": "突发突止（不必预防用药）",
+          "sourceText": "A.突发突止（不必预防用药）"
         },
         {
           "key": "B",
-          "label": "室速",
-          "sourceText": "B.室速"
+          "label": "连续出现3个及其以上的宽大畸形QRS波",
+          "sourceText": "B.连续出现3个及其以上的宽大畸形QRS波"
         },
         {
           "key": "C",
@@ -36517,13 +36515,13 @@
         },
         {
           "key": "E",
-          "label": "心律绝对不齐（不同RR间距几乎完全均匀）",
-          "sourceText": "E.心律绝对不齐（不同RR间距几乎完全均匀）"
+          "label": "心律绝对规则（不同RR间距几乎完全均匀）",
+          "sourceText": "E.心律绝对规则（不同RR间距几乎完全均匀）"
         },
         {
           "key": "F",
-          "label": "房室分离：P波与QRS波无关，心室率明显快于心房率",
-          "sourceText": "F.房室分离：P波与QRS波无关，心室率明显快于心房率"
+          "label": "房室分离：P波与QRS波无关，心室率明显快于心房率，心室率多100～250次/分",
+          "sourceText": "F.房室分离：P波与QRS波无关，心室率明显快于心房率，心室率多100～250次/分"
         },
         {
           "key": "G",
@@ -36542,8 +36540,8 @@
         },
         {
           "key": "J",
-          "label": "连续发生3～10个起源于心室的QRS波",
-          "sourceText": "J.连续发生3～10个起源于心室的QRS波"
+          "label": "连续发生3～10个起源于心室的QRS波，心动过速的开始与终止呈渐进性",
+          "sourceText": "J.连续发生3～10个起源于心室的QRS波，心动过速的开始与终止呈渐进性"
         },
         {
           "key": "K",
@@ -36741,8 +36739,8 @@
         },
         {
           "key": "D",
-          "label": "房室率接近",
-          "sourceText": "D.房室率接近"
+          "label": "房室率相等",
+          "sourceText": "D.房室率相等"
         },
         {
           "key": "E",
@@ -36756,8 +36754,8 @@
         },
         {
           "key": "G",
-          "label": "心律绝对不规则",
-          "sourceText": "G.心律绝对不规则"
+          "label": "心律绝对规则",
+          "sourceText": "G.心律绝对规则"
         },
         {
           "key": "H",
@@ -37456,8 +37454,8 @@
         },
         {
           "key": "K",
-          "label": "某些升压药",
-          "sourceText": "K.某些升压药"
+          "label": "某些升压药（去氧肾上腺素/苯肾上腺素、间羟胺、甲氧明）",
+          "sourceText": "K.某些升压药（去氧肾上腺素/苯肾上腺素、间羟胺、甲氧明）"
         }
       ],
       "stems": [
@@ -38065,11 +38063,12 @@
           "text": "IA类",
           "answer": [
             "C",
+            "G",
             "J",
             "N",
             "W"
           ],
-          "sourceText": "IA类CJNW",
+          "sourceText": "IA类CGJNW",
           "sourceY": 0,
           "answerMode": "多选"
         },

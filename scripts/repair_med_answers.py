@@ -318,14 +318,14 @@ def corrected_group_blocks() -> dict[str, tuple[list[str], list[dict]]]:
         option("A", "感染性心内膜炎"), option("B", "风湿病"), option("C", "危险因素类似冠心病"), option("D", "黏液变"), option("E", "梅毒"), option("F", "心梗"),
         option("G", "主动脉血部分向左室反流→左室前/容量负荷↑"), option("H", "左房血进入左室受阻→左室前/容量负荷↓"), option("I", "左室血进入主动脉受阻→左室后/压力负荷↑"), option("J", "左室射血部分向左房反流→左室前/容量负荷↑"),
         option("K", "左室向心性肥厚，之后离心性肥厚"), option("L", "左室慢性后期离心性肥厚，急性早期正常或轻度扩大"), option("M", "左室正常或缩小，心界不向左下扩大"),
-        option("N", "有心尖抬举样搏动"), option("O", "无心尖抬举样搏动，可有心前区/剑突下抬举样搏动"), option("P", "胸骨右缘2肋间收缩期递增递减喷射样杂音"), option("Q", "心尖舒张中晚期递增隆隆样杂音（房颤晚期可消失）"), option("R", "胸骨左缘3～4肋间舒张期递减叹气样杂音"), option("S", "心尖全收缩期一贯吹风样杂音"), option("T", "杂音局限、左侧卧位增强"), option("U", "前叶损害杂音向左腋下和左肩胛下传导，后叶损害为主向心底传导"), option("V", "杂音向心尖传导"), option("W", "杂音向心尖传导"), option("X", "G-S杂音"), option("Y", "A-F杂音"), option("Z", "有相对性肺动脉瓣关闭不全"),
+        option("N", "有心尖抬举样搏动"), option("O", "无心尖抬举样搏动，可有心前区/剑突下抬举样搏动"), option("P", "胸骨右缘2肋间收缩期递增递减喷射样杂音"), option("Q", "心尖舒张中晚期递增隆隆样杂音（房颤晚期可消失）"), option("R", "胸骨左缘3～4肋间舒张期递减叹气样杂音"), option("S", "心尖全收缩期一贯吹风样杂音"), option("T", "杂音向颈部传导"), option("U", "前叶损害杂音向左腋下和左肩胛下传导，后叶损害为主向心底传导"), option("V", "杂音局限、左侧卧位增强"), option("W", "杂音向心尖传导"), option("X", "G-S杂音"), option("Y", "A-F杂音"), option("Z", "有相对性肺动脉瓣关闭不全"),
         option("a", "有相对性二尖瓣狭窄"), option("b", "有相对性主动脉瓣狭窄"), option("c", "S1多正常，也可↓或↑"), option("d", "S1↑"), option("e", "S1↓"), option("f", "S2逆分裂"), option("g", "S2通常分裂"), option("h", "A2↓"), option("i", "S3奔马律"), option("j", "开瓣音"), option("k", "S4奔马律"), option("l", "心尖收缩中晚期喀喇音"), option("m", "易左心衰、房颤、脑栓塞、感染性心内膜炎"), option("n", "最易左室肥厚、心绞痛、晕厥"), option("o", "最易左心衰、房颤、脑栓塞"), option("p", "最易感染性心内膜炎"), option("q", "首选和金标准：超声心动图"), option("r", "慢性者球形心"), option("s", "慢性者靴形心"), option("t", "梨形心"), option("u", "心影一般不大或靴形心，升主动脉扩张"), option("v", "置换术"), option("w", "有开瓣音：经皮球囊二尖瓣成形术"), option("x", "成人置换术，老龄重度不耐受TAVR"), option("y", "儿童青少年非钙化性：分离术"), option("z", "合并二闭等：置换术"), option("①", "修复术"), option("②", "无开瓣音：直视分离术"),
     ]
     p85_valves = group(
         "p85-g1", "心脏瓣膜病的病因、血流动力学与表现", "循环", ["lecture-53"], valve_options,
         [
             stem("二尖瓣狭窄", "BHMOQ V X Zdjoqtwz②".replace(" ", "")),
-            stem("二尖瓣关闭不全", "ABDFJLNSUaegikmqrv①"),
+            stem("二尖瓣关闭不全", "ABDFJLNSUaegiklmqrv①"),
             stem("主动脉瓣狭窄", "CIKNPTcfhknquxy"),
             stem("主动脉瓣关闭不全", "ABDEGLNRWYabehikpqsv"),
         ],
@@ -363,7 +363,7 @@ def corrected_group_blocks() -> dict[str, tuple[list[str], list[dict]]]:
     conduction_options = [option("A", "心房冲动传至心室时间基本恒定，部分心房冲动不能传至心室，导致QRS波脱落"), option("B", "窦房结冲动传至心房时间基本恒定，部分窦房结冲动不能传至心房，导致P波和QRS波均脱落"), option("C", "PR间期基本恒定（恒定正常或恒定延长）"), option("D", "长PP与正常PP有倍数关系"), option("E", "部分P波后无QRS波")]
     p96_blocks = {
         "p96-g1": group("p96-g1", "二度阻滞的心电图特征", "循环", ["lecture-56"], conduction_options, [stem("二度Ⅱ型房室阻滞", "ACE"), stem("二度Ⅱ型窦房阻滞", "BD")]),
-        "p96-g2": group("p96-g2", "AVNRT治疗", "循环", ["lecture-56"], [option("A", "腺苷"), option("B", "β-R拮抗剂"), option("C", "非二氢吡啶类CCB（维拉帕米、地尔硫卓）"), option("D", "胺碘酮"), option("E", "强心苷"), option("F", "迷走N"), option("G", "电复律"), option("H", "普罗帕酮"), option("I", "伊布利特"), option("J", "导管消融"), option("K", "某些升压药")], [stem("AVNRT先用", "F"), stem("无效药物首选", "A"), stem("药物次选", "C"), stem("有收缩性心衰", "E"), stem("其他药物可用", "BDK"), stem("伴血流动力学障碍", "G"), stem("已用强心苷禁止", "G"), stem("根治", "J")]),
+        "p96-g2": group("p96-g2", "AVNRT治疗", "循环", ["lecture-56"], [option("A", "腺苷"), option("B", "β-R拮抗剂"), option("C", "非二氢吡啶类CCB（维拉帕米、地尔硫卓）"), option("D", "胺碘酮"), option("E", "强心苷"), option("F", "迷走N"), option("G", "电复律"), option("H", "普罗帕酮"), option("I", "伊布利特"), option("J", "导管消融"), option("K", "某些升压药（去氧肾上腺素/苯肾上腺素、间羟胺、甲氧明）")], [stem("AVNRT先用", "F"), stem("无效药物首选", "A"), stem("药物次选", "C"), stem("有收缩性心衰", "E"), stem("其他药物可用", "BDK"), stem("伴血流动力学障碍", "G"), stem("已用强心苷禁止", "G"), stem("根治", "J")]),
         "p96-g3": group("p96-g3", "预激综合征伴顺向型AVRT治疗", "循环", ["lecture-56"], [option("A", "腺苷"), option("B", "β-R拮抗剂"), option("C", "非二氢吡啶类CCB"), option("D", "胺碘酮"), option("E", "强心苷"), option("F", "迷走N"), option("G", "电复律"), option("J", "导管消融")], [stem("先用", "F"), stem("无效药物首选", "A"), stem("次选", "C"), stem("禁用", "E"), stem("伴血流动力学障碍", "G"), stem("根治", "J")]),
         "p96-g4": group("p96-g4", "预激综合征伴房颤治疗", "循环", ["lecture-56"], [option("A", "腺苷"), option("B", "β-R拮抗剂"), option("C", "非二氢吡啶类CCB"), option("D", "胺碘酮"), option("E", "强心苷"), option("F", "迷走N"), option("G", "电复律"), option("H", "普罗帕酮"), option("I", "伊布利特"), option("J", "导管消融")], [stem("首选", "G"), stem("无电复律条件", "HI"), stem("禁用", "ABCDEF"), stem("根治", "J")]),
         "p96-g5": group("p96-g5", "房颤转复与维持窦性心律", "循环", ["lecture-56"], [option("D", "胺碘酮"), option("G", "电复律"), option("H", "普罗帕酮"), option("I", "伊布利特"), option("J", "导管消融")], [stem("可用于房颤转复并维持窦性心律", "JDGHI")]),
@@ -373,7 +373,7 @@ def corrected_group_blocks() -> dict[str, tuple[list[str], list[dict]]]:
     antiarrhythmic = group(
         "p97-g1", "抗快速型心律失常药的分类", "循环", ["lecture-56"],
         [option("A", "阻断β-R、拮抗交感效应"), option("B", "阻断钾通道，明显延长动作电位时程APD及有效不应期ERP"), option("C", "阻断快钠通道"), option("D", "阻断L型慢钙通道"), option("E", "几乎不减慢0期Vmax，缩短动作电位时程"), option("F", "显著减慢0期Vmax，轻微延长动作电位时程"), option("G", "减慢0期Vmax，延长动作电位时程"), option("H", "普罗帕酮"), option("I", "胺碘酮"), option("J", "奎尼丁"), option("K", "伊布利特/多非利特"), option("L", "氟卡尼"), option("M", "索他洛尔"), option("N", "丙吡胺"), option("O", "美托洛尔"), option("P", "决奈达隆"), option("Q", "利多卡因"), option("R", "比索洛尔"), option("S", "维拉帕米"), option("T", "苯妥英钠"), option("U", "美西律"), option("V", "恩卡尼"), option("W", "普鲁卡因胺"), option("X", "地尔硫卓"), option("Y", "卡维地洛")],
-        [stem("IA类", "CJNW"), stem("IB类", "EQTU"), stem("IC类", "FHLV"), stem("II类", "AORY"), stem("III类", "BIKMP"), stem("IV类", "DSX")],
+        [stem("IA类", "CGJNW"), stem("IB类", "EQTU"), stem("IC类", "FHLV"), stem("II类", "AORY"), stem("III类", "BIKMP"), stem("IV类", "DSX")],
     )
     pacing = group(
         "p97-g2", "起搏器代码含义", "循环", ["lecture-56"],
@@ -433,7 +433,7 @@ def corrected_group_blocks() -> dict[str, tuple[list[str], list[dict]]]:
     )
     p79_abpm = group("p79-g1", "24小时动态血压监测", "循环", ["lecture-52"], [option("A", "<135/85mmHg"), option("B", "<120/70mmHg"), option("C", "<130/80mmHg")], [stem("24小时动态血压监测平均值", "C"), stem("白天", "A"), stem("夜间", "B")])
     p79_fundus = group("p79-g2", "高血压眼底分级", "循环", ["lecture-52"], [option("A", "Ⅰ～Ⅲ级病变+视盘水肿"), option("B", "视网膜动脉狭窄、动静脉交叉压迫"), option("C", "Ⅱ级病变+眼底出血、棉絮状渗出"), option("D", "视网膜动脉变细、反光增强")], [stem("Ⅰ期", "D"), stem("Ⅱ期", "B"), stem("Ⅲ期", "C"), stem("Ⅳ期", "A")])
-    p79_emergency = group("p79-g3", "高血压急症与亚急症", "循环", ["lecture-52"], [option("A", "血压突然>收缩压180、或舒张压120mmHg"), option("B", "伴靶器官损害如心、脑、肾"), option("C", "不伴靶器官损害")], [stem("高血压急症", "AB"), stem("高血压亚急症", "AC")])
+    p79_emergency = group("p79-g3", "高血压急症与亚急症", "循环", ["lecture-52"], [option("A", "血压突然>收缩压180、或舒张压120mmHg"), option("B", "伴靶器官损害如心、脑、肾"), option("C", "不伴靶器官损害"), option("D", "血压高低与急性靶器官损害的程度并非成正比")], [stem("高血压急症", "ABD"), stem("高血压亚急症", "AC")])
     p79_lowering = group("p79-g4", "高血压急症的降压节奏", "循环", ["lecture-52"], [option("A", "降至160/100mmHg左右"), option("B", "降至正常"), option("C", "降幅<25%")], [stem("1小时内血压", "C"), stem("2～6小时内血压", "A"), stem("24～48小时逐步", "B")])
     p79_drugs = group("p79-g5", "高血压急症用药", "循环", ["lecture-52"], [option("A", "可用尼卡地平"), option("B", "呋塞米"), option("C", "可用地尔硫卓"), option("D", "硝酸酯类"), option("E", "静脉给硝普钠")], [stem("高血压急症首选", "E"), stem("高血压急症初期不用（除非有心衰或明显体液容量负荷过重）", "B"), stem("高血压急症伴急性冠脉综合征", "D"), stem("高血压急症伴急性脑血管病", "A"), stem("高血压急症伴妊娠或哮喘可能不全", "C")])
     p15_water_mechanisms = group(

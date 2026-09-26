@@ -5,7 +5,7 @@ import assert from 'node:assert/strict'
 
 const data = JSON.parse(readFileSync(new URL('../src/data/med-data.json', import.meta.url)))
 const group = id => data.groups.find(item => item.id === id)
-const reviewedIds = ['p80-g3', 'p81-g2', 'p82-g3', 'p82-g4', 'p83-g2', 'p83-g3', 'p83-g4', 'p86-g1', 'p86-g2', 'p86-g3', 'p86-table1', 'p91-g4', 'p92-g1', 'p93-g3', 'p89-table1', 'p89-table2', 'p92-table1']
+const reviewedIds = ['p79-g3', 'p80-g3', 'p81-g2', 'p82-g3', 'p82-g4', 'p83-g2', 'p83-g3', 'p83-g4', 'p85-g1', 'p86-g1', 'p86-g2', 'p86-g3', 'p86-table1', 'p87-g1', 'p87-g3', 'p88-g1', 'p91-g4', 'p92-g1', 'p93-g3', 'p94-g1', 'p94-g2', 'p94-g4', 'p96-g2', 'p97-g1', 'p89-table1', 'p89-table2', 'p92-table1']
 
 test('reviewed cardiac groups have valid answer keys and unique options', () => {
   for (const id of reviewedIds) {
@@ -80,6 +80,47 @@ test('arrhythmia classification matches source page 93 and lecture 56', () => {
     ['R', '颤动'],
   ])
   assert.deepEqual(g.stems.map(s => s.answer.join('')), ['CEGKL', 'DF', 'BHOR', 'AJNP', 'IO', 'MQ'])
+})
+
+test('hypertensive emergency retains the fourth source option and answer', () => {
+  const g = group('p79-g3')
+  assert.equal(g.options.find(o => o.key === 'D')?.label, '血压高低与急性靶器官损害的程度并非成正比')
+  assert.deepEqual(g.stems.map(s => s.answer.join('')), ['ABD', 'AC'])
+})
+
+test('valve-disease transmission options and mitral-regurgitation answer are aligned', () => {
+  const g = group('p85-g1')
+  assert.equal(g.options.find(o => o.key === 'T')?.label, '杂音向颈部传导')
+  assert.equal(g.options.find(o => o.key === 'V')?.label, '杂音局限、左侧卧位增强')
+  assert.equal(g.options.find(o => o.key === 'W')?.label, '杂音向心尖传导')
+  assert.deepEqual(g.stems.find(s => s.text === '二尖瓣关闭不全').answer, [...'ABDFJLNSUaegiklmqrv①'])
+})
+
+test('coronary option pools contain neither OCR wording errors nor adjacent-group leakage', () => {
+  assert.match(group('p87-g1').options.find(o => o.key === 'A')?.label, /睡眠中疼痛/)
+  assert.equal(group('p87-g3').options.find(o => o.key === 'D')?.label, '明显诱因胸痛，多持续3～5分钟')
+  assert.equal(group('p87-g3').options.find(o => o.key === 'E')?.label, '休息或含服硝酸甘油暂时或不能完全缓解')
+  assert.deepEqual(group('p88-g1').options.map(o => o.key), [...'ABCDEFGHIJKL'])
+  assert.equal(group('p88-g1').options.some(o => o.label === '最有价值'), false)
+})
+
+test('arrhythmia groups retain complete source wording and correct classifications', () => {
+  const ectopy = group('p94-g1')
+  assert.deepEqual(ectopy.options.map(o => o.key), [...'ABCDEFGHIJKLMN'])
+  assert.match(ectopy.options.find(o => o.key === 'G')?.label, /P′R间期<0\.12s.*RP′间期<0\.2s/)
+  assert.deepEqual(ectopy.stems.map(s => s.answer.join('')), ['BDFIKL', 'ADGJN', 'CEHJM'])
+
+  const tachy = group('p94-g2')
+  assert.equal(tachy.options.find(o => o.key === 'A')?.label, '突发突止（不必预防用药）')
+  assert.equal(tachy.options.find(o => o.key === 'B')?.label, '连续出现3个及其以上的宽大畸形QRS波')
+  assert.match(tachy.options.find(o => o.key === 'E')?.label, /心律绝对规则/)
+  assert.doesNotMatch(tachy.options.find(o => o.key === 'E')?.label, /不齐|不规则/)
+
+  const comparison = group('p94-g4')
+  assert.equal(comparison.options.find(o => o.key === 'D')?.label, '房室率相等')
+  assert.equal(comparison.options.find(o => o.key === 'G')?.label, '心律绝对规则')
+  assert.match(group('p96-g2').options.find(o => o.key === 'K')?.label, /去氧肾上腺素.*间羟胺.*甲氧明/)
+  assert.deepEqual(group('p97-g1').stems.find(s => s.text === 'IA类').answer, ['C', 'G', 'J', 'N', 'W'])
 })
 
 test('page 82 auscultation locations use their own option bank', () => {
