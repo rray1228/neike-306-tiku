@@ -5,7 +5,7 @@ import assert from 'node:assert/strict'
 
 const data = JSON.parse(readFileSync(new URL('../src/data/med-data.json', import.meta.url)))
 const group = id => data.groups.find(item => item.id === id)
-const reviewedIds = ['p80-g3', 'p81-g2', 'p82-g3', 'p82-g4', 'p83-g2', 'p83-g3', 'p83-g4', 'p86-g1', 'p86-g2', 'p86-g3', 'p86-table1', 'p91-g4', 'p92-g1', 'p89-table1', 'p89-table2', 'p92-table1']
+const reviewedIds = ['p80-g3', 'p81-g2', 'p82-g3', 'p82-g4', 'p83-g2', 'p83-g3', 'p83-g4', 'p86-g1', 'p86-g2', 'p86-g3', 'p86-table1', 'p91-g4', 'p92-g1', 'p93-g3', 'p89-table1', 'p89-table2', 'p92-table1']
 
 test('reviewed cardiac groups have valid answer keys and unique options', () => {
   for (const id of reviewedIds) {
@@ -55,6 +55,31 @@ test('S1 weakening includes cardiomyopathy after restoring the misprinted J opti
   const g = group('p81-g2')
   assert.equal(g.options.find(o => o.key === 'J')?.label, '心肌病')
   assert.deepEqual(g.stems.find(s => s.text === 'S1减弱').answer, ['B', 'D', 'E', 'G', 'H', 'J', 'L', 'N'])
+})
+
+test('arrhythmia classification matches source page 93 and lecture 56', () => {
+  const g = group('p93-g3')
+  assert.deepEqual(g.options.map(o => [o.key, o.label]), [
+    ['A', '窦房阻滞'],
+    ['B', '扑动'],
+    ['C', '窦性心动过速'],
+    ['D', '逸搏'],
+    ['E', '窦性心动过缓'],
+    ['F', '逸搏心律'],
+    ['G', '窦性心律不齐'],
+    ['H', '早搏'],
+    ['I', '预激综合征（房室传导途径异常）。折返是快速型心律失常最常见的发生机制'],
+    ['J', '室内/束支阻滞'],
+    ['K', '窦性停搏'],
+    ['L', '病态窦房结综合征'],
+    ['M', '干扰性房室分离'],
+    ['N', '房内与房间阻滞'],
+    ['O', '心动过速'],
+    ['P', '房室阻滞'],
+    ['Q', '干扰脱节'],
+    ['R', '颤动'],
+  ])
+  assert.deepEqual(g.stems.map(s => s.answer.join('')), ['CEGKL', 'DF', 'BHOR', 'AJNP', 'IO', 'MQ'])
 })
 
 test('page 82 auscultation locations use their own option bank', () => {
