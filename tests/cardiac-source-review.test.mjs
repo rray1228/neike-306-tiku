@@ -104,6 +104,14 @@ test('coronary option pools contain neither OCR wording errors nor adjacent-grou
   assert.equal(stableTreatment.options.find(o => o.key === 'N')?.label, '氯吡格雷（支架植入后使用）')
   assert.equal(stableTreatment.options.find(o => o.key === 'O')?.label, '依折麦布（降低LDL-C）')
   assert.deepEqual(stableTreatment.stems.map(s => s.answer.join('')), ['CEGILP', 'BDEFHJNO', 'AKM'])
+  const ccs = group('p87-g2')
+  assert.deepEqual(ccs.options.map(o => o.label), [
+    '一般体力活动轻度受限：步行>200m或登楼>1层时诱发',
+    '一般体力活动完全受限：轻微活动或休息时也可发作',
+    '一般体力活动（步行和登楼）不受限',
+    '一般体力活动明显受限：步行<200m或登楼1层时诱发',
+  ])
+  assert.deepEqual(ccs.stems.map(s => s.answer.join('')), ['C', 'A', 'D', 'B'])
   assert.match(group('p87-g1').options.find(o => o.key === 'A')?.label, /睡眠中疼痛/)
   assert.equal(group('p87-g3').options.find(o => o.key === 'D')?.label, '明显诱因胸痛，多持续3～5分钟')
   assert.equal(group('p87-g3').options.find(o => o.key === 'E')?.label, '休息或含服硝酸甘油暂时或不能完全缓解')
