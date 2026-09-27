@@ -32930,8 +32930,8 @@
         },
         {
           "key": "B",
-          "label": "他汀类",
-          "sourceText": "B.他汀类"
+          "label": "他汀类（降低LDL-C）",
+          "sourceText": "B.他汀类（原题以R标注降低LDL-C）"
         },
         {
           "key": "C",
@@ -32940,8 +32940,8 @@
         },
         {
           "key": "D",
-          "label": "替格瑞洛",
-          "sourceText": "D.替格瑞洛"
+          "label": "替格瑞洛（支架植入后使用）",
+          "sourceText": "D.替格瑞洛（原题以Q标注支架植入后使用）"
         },
         {
           "key": "E",
@@ -32990,33 +32990,18 @@
         },
         {
           "key": "N",
-          "label": "氯吡格雷",
-          "sourceText": "N.氯吡格雷"
+          "label": "氯吡格雷（支架植入后使用）",
+          "sourceText": "N.氯吡格雷（原题以Q标注支架植入后使用）"
         },
         {
           "key": "O",
-          "label": "依折麦布",
-          "sourceText": "O.依折麦布"
+          "label": "依折麦布（降低LDL-C）",
+          "sourceText": "O.依折麦布（原题以R标注降低LDL-C）"
         },
         {
           "key": "P",
           "label": "伊伐布雷定",
           "sourceText": "P.伊伐布雷定"
-        },
-        {
-          "key": "Q",
-          "label": "支架植入后使用",
-          "sourceText": "Q.支架植入后使用"
-        },
-        {
-          "key": "R",
-          "label": "降低LDL-C",
-          "sourceText": "R.降低LDL-C"
-        },
-        {
-          "key": "S",
-          "label": "主要降低甘油三酯",
-          "sourceText": "S.主要降低甘油三酯"
         }
       ],
       "stems": [
@@ -33042,10 +33027,11 @@
             "E",
             "F",
             "H",
+            "J",
             "N",
             "O"
           ],
-          "sourceText": "预防心梗、改善预后 BDEFHNO",
+          "sourceText": "预防心梗、改善预后 BDEFHJNO（原题J误印为重复字母G，按讲义校正）",
           "sourceY": 0,
           "answerMode": "多选"
         },

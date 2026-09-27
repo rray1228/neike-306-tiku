@@ -97,6 +97,13 @@ test('valve-disease transmission options and mitral-regurgitation answer are ali
 })
 
 test('coronary option pools contain neither OCR wording errors nor adjacent-group leakage', () => {
+  const stableTreatment = group('p86-g3')
+  assert.deepEqual(stableTreatment.options.map(o => o.key), [...'ABCDEFGHIJKLMNOP'])
+  assert.equal(stableTreatment.options.find(o => o.key === 'B')?.label, '他汀类（降低LDL-C）')
+  assert.equal(stableTreatment.options.find(o => o.key === 'D')?.label, '替格瑞洛（支架植入后使用）')
+  assert.equal(stableTreatment.options.find(o => o.key === 'N')?.label, '氯吡格雷（支架植入后使用）')
+  assert.equal(stableTreatment.options.find(o => o.key === 'O')?.label, '依折麦布（降低LDL-C）')
+  assert.deepEqual(stableTreatment.stems.map(s => s.answer.join('')), ['CEGILP', 'BDEFHJNO', 'AKM'])
   assert.match(group('p87-g1').options.find(o => o.key === 'A')?.label, /睡眠中疼痛/)
   assert.equal(group('p87-g3').options.find(o => o.key === 'D')?.label, '明显诱因胸痛，多持续3～5分钟')
   assert.equal(group('p87-g3').options.find(o => o.key === 'E')?.label, '休息或含服硝酸甘油暂时或不能完全缓解')
