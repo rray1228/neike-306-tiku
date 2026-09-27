@@ -21582,8 +21582,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "内分泌",
       "lectureIds": [
-        "lecture-36",
-        "lecture-42"
+        "lecture-36"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-36",
@@ -21607,8 +21606,8 @@
         },
         {
           "key": "B",
-          "label": "额额无能：眼球向上看时前额皮肤不出现皱纹",
-          "sourceText": "B.额额无能：眼球向上看时前额皮肤不出现皱纹"
+          "label": "皱额无能：眼球向上看时前额皮肤不出现皱纹",
+          "sourceText": "B.皱额无能：眼球向上看时前额皮肤不出现皱纹"
         },
         {
           "key": "C",
@@ -21796,6 +21795,95 @@
       }
     },
     {
+      "id": "p61-g4",
+      "page": 61,
+      "title": "甲亢黏液性水肿与甲减黏液性水肿",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "几乎都有",
+          "sourceText": "A.几乎都有"
+        },
+        {
+          "key": "B",
+          "label": "局限性（胫骨前最多见）",
+          "sourceText": "B.局限性（胫骨前最多见）"
+        },
+        {
+          "key": "C",
+          "label": "水肿程度与甲状腺激素水平有关",
+          "sourceText": "C.水肿程度与甲状腺激素水平有关"
+        },
+        {
+          "key": "D",
+          "label": "少数患者",
+          "sourceText": "D.少数患者"
+        },
+        {
+          "key": "E",
+          "label": "全身性",
+          "sourceText": "E.全身性"
+        },
+        {
+          "key": "F",
+          "label": "淋巴细胞→成纤维细胞亢进→透明质酸等黏多糖聚集",
+          "sourceText": "F.淋巴细胞→成纤维细胞亢进→透明质酸等黏多糖聚集"
+        },
+        {
+          "key": "G",
+          "label": "透明质酸酶活性下降→透明质酸等黏多糖聚集",
+          "sourceText": "G.透明质酸酶活性下降→透明质酸等黏多糖聚集"
+        },
+        {
+          "key": "H",
+          "label": "水肿程度与自身免疫反应程度有关",
+          "sourceText": "H.水肿程度与自身免疫反应程度有关"
+        }
+      ],
+      "stems": [
+        {
+          "text": "甲亢黏液性水肿",
+          "answer": [
+            "B",
+            "D",
+            "F",
+            "H"
+          ],
+          "sourceText": "甲亢黏液性水肿 BDFH",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "甲减黏液性水肿",
+          "answer": [
+            "A",
+            "C",
+            "E",
+            "G"
+          ],
+          "sourceText": "甲减黏液性水肿 ACEG",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "甲亢黏液性水肿与甲减黏液性水肿（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-36",
+        "lecture-37"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "page": 3,
+        "image": "med/lecture-pages/lecture-36-page-03.webp",
+        "title": "第36讲第3页：内科含诊断 Graves病",
+        "description": "本题组对应第36讲第3页讲义。"
+      }
+    },
+    {
       "id": "p62-g1",
       "page": 62,
       "title": "甲亢诊断相关指标",
@@ -21892,8 +21980,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "内分泌",
       "lectureIds": [
-        "lecture-36",
-        "lecture-42"
+        "lecture-36"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-36",
@@ -21959,7 +22046,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "内分泌",
       "lectureIds": [
-        "lecture-42"
+        "lecture-36"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-36",
@@ -21993,8 +22080,8 @@
         },
         {
           "key": "D",
-          "label": "诊断甲亢不用T3、T4",
-          "sourceText": "D.诊断甲亢不用T3、T4"
+          "label": "诊断甲亢不用TT3、TT4",
+          "sourceText": "D.诊断甲亢不用TT3、TT4"
         },
         {
           "key": "E",
@@ -22018,8 +22105,8 @@
         },
         {
           "key": "I",
-          "label": "高代谢综合征、甲状腺肿、眼征均不明显",
-          "sourceText": "I.高代谢综合征、甲状腺肿、眼征均不明显"
+          "label": "高代谢综合征、甲状腺肿、眼征均不明显（70%患者无甲状腺肿大）",
+          "sourceText": "I.高代谢综合征、甲状腺肿、眼征均不明显（70%患者无甲状腺肿大）"
         },
         {
           "key": "J",
@@ -22085,8 +22172,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "内分泌",
       "lectureIds": [
-        "lecture-36",
-        "lecture-37"
+        "lecture-36"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-36",
@@ -22164,8 +22250,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "内分泌",
       "lectureIds": [
-        "lecture-37",
-        "lecture-42"
+        "lecture-37"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-37",
@@ -22298,12 +22383,12 @@
           "answerMode": "单选"
         },
         {
-          "text": "神经肽",
+          "text": "神经肽Y",
           "answer": [
             "A",
             "F"
           ],
-          "sourceText": "神经肽 AF",
+          "sourceText": "神经肽Y AF",
           "sourceY": 0,
           "answerMode": "多选"
         }
@@ -22312,8 +22397,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "内分泌",
       "lectureIds": [
-        "lecture-41",
-        "lecture-42"
+        "lecture-41"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-41",
@@ -22407,8 +22491,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "内分泌",
       "lectureIds": [
-        "lecture-40",
-        "lecture-42"
+        "lecture-40"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-40",
@@ -22427,28 +22510,28 @@
       "options": [
         {
           "key": "A",
-          "label": "双侧肾上腺小结节性增生",
-          "sourceText": "A.双侧肾上腺小结节性增生"
+          "label": "若伴皮肤、乳房、心房黏液瘤、睾丸肿瘤、垂体生长激素瘤，为Carney综合征",
+          "sourceText": "A.若伴皮肤、乳房、心房黏液瘤、睾丸肿瘤、垂体生长激素瘤，为Carney综合征"
         },
         {
           "key": "B",
-          "label": "若伴乳腺、乳房、心房黏液瘤、睾丸肿瘤、垂体生长激素瘤为Carney综合征",
-          "sourceText": "B.若伴乳腺、乳房、心房黏液瘤、睾丸肿瘤、垂体生长激素瘤为Carney综合征"
+          "label": "微腺瘤",
+          "sourceText": "B.微腺瘤"
         },
         {
           "key": "C",
-          "label": "微腺瘤",
-          "sourceText": "C.微腺瘤"
+          "label": "多为色素性（原发性色素沉着结节性肾上腺皮质病/Meador综合征）",
+          "sourceText": "C.多为色素性（原发性色素沉着结节性肾上腺皮质病/Meador综合征）"
         },
         {
           "key": "D",
-          "label": "多为色素性（原发性色素沉着结节性肾上腺皮质病/M 病）",
-          "sourceText": "D.多为色素性（原发性色素沉着结节性肾上腺皮质病/M 病）"
+          "label": "小细胞肺癌",
+          "sourceText": "D.小细胞肺癌"
         },
         {
           "key": "E",
-          "label": "大细胞肺癌",
-          "sourceText": "E.大细胞肺癌"
+          "label": "大腺瘤",
+          "sourceText": "E.大腺瘤"
         },
         {
           "key": "F",
@@ -22467,8 +22550,8 @@
         },
         {
           "key": "I",
-          "label": "食物依赖性库欣综合征：抑胃肽受体在肾上腺皮质异位表达，一餐后皮质醇分泌增多",
-          "sourceText": "I.食物依赖性库欣综合征：抑胃肽受体在肾上腺皮质异位表达，一餐后皮质醇分泌增多"
+          "label": "食物依赖性库欣综合征：抑胃肽受体在肾上腺皮质异位表达，餐后皮质醇分泌增多，而清晨空腹时皮质醇正常或降低",
+          "sourceText": "I.食物依赖性库欣综合征：抑胃肽受体在肾上腺皮质异位表达，餐后皮质醇分泌增多，而清晨空腹时皮质醇正常或降低"
         }
       ],
       "stems": [
@@ -22552,7 +22635,7 @@
           "answer": [
             "A"
           ],
-          "sourceText": "确诊库欣综合征（定性）（A）",
+          "sourceText": "确诊库欣综合征（定性） A",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -22561,13 +22644,13 @@
           "answer": [
             "B"
           ],
-          "sourceText": "定因定位（B）",
+          "sourceText": "定因定位 B",
           "sourceY": 0,
           "answerMode": "单选"
         }
       ],
-      "sourceText": "库欣综合征定性与定因定位检查（按原题第63页第3组及第40讲第2页讲义逐项复核）",
-      "reviewState": "已按原题第63页与第40讲讲义逐项复核",
+      "sourceText": "库欣综合征定性与定因定位检查（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "内分泌",
       "lectureIds": [
         "lecture-40"
@@ -22664,7 +22747,7 @@
             "J",
             "K"
           ],
-          "sourceText": "库欣病（CDHIJK）",
+          "sourceText": "库欣病 CDHIJK",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -22677,7 +22760,7 @@
             "K",
             "L"
           ],
-          "sourceText": "异位ACTH综合征（AEJKL）",
+          "sourceText": "异位ACTH综合征 AEJKL",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -22690,7 +22773,7 @@
             "G",
             "L"
           ],
-          "sourceText": "肾上腺皮质瘤或癌（ABFGL）",
+          "sourceText": "肾上腺皮质瘤或癌 ABFGL",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -22703,13 +22786,13 @@
             "L",
             "M"
           ],
-          "sourceText": "双侧肾上腺小/大结节性增生（ABFLM）",
+          "sourceText": "双侧肾上腺小/大结节性增生 ABFLM",
           "sourceY": 0,
           "answerMode": "多选"
         }
       ],
-      "sourceText": "库欣综合征病因定位检查结果（按原题第63页第4组及第40讲第2页讲义逐项复核）",
-      "reviewState": "已按原题第63页与第40讲讲义逐项复核",
+      "sourceText": "库欣综合征病因定位检查结果（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
       "topic": "内分泌",
       "lectureIds": [
         "lecture-40"
@@ -22788,8 +22871,7 @@
       "reviewState": "已按原题页与讲义复核",
       "topic": "内分泌",
       "lectureIds": [
-        "lecture-40",
-        "lecture-42"
+        "lecture-40"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-40",
@@ -22797,6 +22879,109 @@
         "image": "med/lecture-pages/lecture-40-page-02.webp",
         "title": "第40讲第2页：内科 库欣综合征",
         "description": "本题组对应第40讲第2页讲义。"
+      }
+    },
+    {
+      "id": "p64-table1",
+      "page": 64,
+      "title": "库欣综合征治疗（流程图题）",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "经蝶窦切除肿瘤＋短期补激素",
+          "sourceText": "A.经蝶窦切除肿瘤＋短期补激素"
+        },
+        {
+          "key": "B",
+          "label": "垂体放疗",
+          "sourceText": "B.垂体放疗"
+        },
+        {
+          "key": "C",
+          "label": "切除双侧肾上腺＋终身补激素",
+          "sourceText": "C.切除双侧肾上腺＋终身补激素"
+        },
+        {
+          "key": "D",
+          "label": "切除患侧肾上腺＋较长期补激素（半年～1年或更久）",
+          "sourceText": "D.切除患侧肾上腺＋较长期补激素（半年～1年或更久）"
+        },
+        {
+          "key": "E",
+          "label": "肾上腺皮质激素合成阻滞药，如酮康唑",
+          "sourceText": "E.肾上腺皮质激素合成阻滞药，如酮康唑"
+        }
+      ],
+      "stems": [
+        {
+          "text": "库欣病：首选治疗",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "库欣病：首选治疗 A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "库欣病：手术失败或术后复发",
+          "answer": [
+            "B"
+          ],
+          "sourceText": "库欣病：手术失败或术后复发 B",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "库欣病：手术及放疗均失败",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "库欣病：手术及放疗均失败 C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "单侧肾上腺皮质瘤或癌",
+          "answer": [
+            "D"
+          ],
+          "sourceText": "单侧肾上腺皮质瘤或癌 D",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "肾上腺皮质癌已转移",
+          "answer": [
+            "E"
+          ],
+          "sourceText": "肾上腺皮质癌已转移 E",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "不依赖ACTH的双侧肾上腺小/大结节性增生",
+          "answer": [
+            "C"
+          ],
+          "sourceText": "不依赖ACTH的双侧肾上腺小/大结节性增生 C",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "库欣综合征治疗（流程图题）（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-40"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-40",
+        "page": 3,
+        "image": "med/lecture-pages/lecture-40-page-03.webp",
+        "title": "第40讲第3页：内科 库欣综合征",
+        "description": "本题组对应第40讲第3页治疗流程。"
       }
     },
     {
@@ -22982,8 +23167,8 @@
         },
         {
           "key": "R",
-          "label": "起病初期多数不需胰岛素（新诊断基线HbA1c>9%或空腹血糖≥11.1时短期强化）",
-          "sourceText": "R.起病初期多数不需胰岛素（新诊断基线HbA1c>9%或空腹血糖≥11.1时短期强化）"
+          "label": "起病初期多数不需胰岛素（新诊断基线HbA1c≥9%或空腹血糖≥11.1时短期强化）",
+          "sourceText": "R.起病初期多数不需胰岛素（新诊断基线HbA1c≥9%或空腹血糖≥11.1时短期强化）"
         },
         {
           "key": "S",
@@ -23096,8 +23281,8 @@
         },
         {
           "key": "D",
-          "label": "有酸中毒，血糖显著升高",
-          "sourceText": "D.有酸中毒，血糖显著升高"
+          "label": "有酸中毒，出现Kussmaul深快呼吸",
+          "sourceText": "D.有酸中毒，出现Kussmaul深快呼吸"
         },
         {
           "key": "E",
@@ -23146,8 +23331,8 @@
         },
         {
           "key": "N",
-          "label": "补碱：pH<6.9才补",
-          "sourceText": "N.补碱：pH<6.9才补"
+          "label": "仅pH≤6.9才补碱；不恰当补碱可致Hb与氧亲和力↑、低钾血症、碱中毒、反常性脑脊液酸中毒及脑水肿",
+          "sourceText": "N.仅pH≤6.9才补碱；不恰当补碱可致Hb与氧亲和力↑、低钾血症、碱中毒、反常性脑脊液酸中毒及脑水肿"
         },
         {
           "key": "O",
@@ -23156,8 +23341,8 @@
         },
         {
           "key": "P",
-          "label": "静脉NS后若无休克、渗透压>350或血钠>155可输低渗液",
-          "sourceText": "P.静脉NS后若无休克、渗透压>350或血钠>155可输低渗液"
+          "label": "输入生理盐水后，若无休克、血浆渗透压>350 mOsm/L且血钠>155 mmol/L才可输入低渗液",
+          "sourceText": "P.输入生理盐水后，若无休克、血浆渗透压>350 mOsm/L且血钠>155 mmol/L才可输入低渗液"
         },
         {
           "key": "Q",
@@ -23227,6 +23412,260 @@
       }
     },
     {
+      "id": "p66-table1",
+      "page": 66,
+      "title": "CKD按eGFR和UACR分期及进展风险（表格题）",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "肾功能正常",
+          "sourceText": "A.肾功能正常"
+        },
+        {
+          "key": "B",
+          "label": "肾功能轻度下降",
+          "sourceText": "B.肾功能轻度下降"
+        },
+        {
+          "key": "C",
+          "label": "肾功能轻中度下降",
+          "sourceText": "C.肾功能轻中度下降"
+        },
+        {
+          "key": "D",
+          "label": "肾功能中重度下降",
+          "sourceText": "D.肾功能中重度下降"
+        },
+        {
+          "key": "E",
+          "label": "肾功能重度下降",
+          "sourceText": "E.肾功能重度下降"
+        },
+        {
+          "key": "F",
+          "label": "肾衰竭",
+          "sourceText": "F.肾衰竭"
+        },
+        {
+          "key": "G",
+          "label": "eGFR≥90 ml/(min·1.73m²)",
+          "sourceText": "G.eGFR≥90 ml/(min·1.73m²)"
+        },
+        {
+          "key": "H",
+          "label": "eGFR 60～89 ml/(min·1.73m²)",
+          "sourceText": "H.eGFR 60～89 ml/(min·1.73m²)"
+        },
+        {
+          "key": "I",
+          "label": "eGFR 45～59 ml/(min·1.73m²)",
+          "sourceText": "I.eGFR 45～59 ml/(min·1.73m²)"
+        },
+        {
+          "key": "J",
+          "label": "eGFR 30～44 ml/(min·1.73m²)",
+          "sourceText": "J.eGFR 30～44 ml/(min·1.73m²)"
+        },
+        {
+          "key": "K",
+          "label": "eGFR 15～29 ml/(min·1.73m²)",
+          "sourceText": "K.eGFR 15～29 ml/(min·1.73m²)"
+        },
+        {
+          "key": "L",
+          "label": "eGFR<15 ml/(min·1.73m²)",
+          "sourceText": "L.eGFR<15 ml/(min·1.73m²)"
+        },
+        {
+          "key": "M",
+          "label": "A1低风险、A2中风险、A3高风险",
+          "sourceText": "M.A1低风险、A2中风险、A3高风险"
+        },
+        {
+          "key": "N",
+          "label": "A1中风险、A2高风险、A3极高风险",
+          "sourceText": "N.A1中风险、A2高风险、A3极高风险"
+        },
+        {
+          "key": "O",
+          "label": "A1高风险、A2极高风险、A3极高风险",
+          "sourceText": "O.A1高风险、A2极高风险、A3极高风险"
+        },
+        {
+          "key": "P",
+          "label": "A1、A2、A3均为极高风险",
+          "sourceText": "P.A1、A2、A3均为极高风险"
+        },
+        {
+          "key": "Q",
+          "label": "UACR<30 mg/g",
+          "sourceText": "Q.UACR<30 mg/g"
+        },
+        {
+          "key": "R",
+          "label": "30≤UACR<300 mg/g",
+          "sourceText": "R.30≤UACR<300 mg/g"
+        },
+        {
+          "key": "S",
+          "label": "UACR≥300 mg/g",
+          "sourceText": "S.UACR≥300 mg/g"
+        }
+      ],
+      "stems": [
+        {
+          "text": "G1",
+          "answer": [
+            "A",
+            "G",
+            "M"
+          ],
+          "sourceText": "G1 AGM",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "G2",
+          "answer": [
+            "B",
+            "H",
+            "M"
+          ],
+          "sourceText": "G2 BHM",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "G3a",
+          "answer": [
+            "C",
+            "I",
+            "N"
+          ],
+          "sourceText": "G3a CIN",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "G3b",
+          "answer": [
+            "D",
+            "J",
+            "O"
+          ],
+          "sourceText": "G3b DJO",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "G4",
+          "answer": [
+            "E",
+            "K",
+            "P"
+          ],
+          "sourceText": "G4 EKP",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "G5",
+          "answer": [
+            "F",
+            "L",
+            "P"
+          ],
+          "sourceText": "G5 FLP",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "白蛋白尿分期A1：UACR范围",
+          "answer": [
+            "Q"
+          ],
+          "sourceText": "白蛋白尿分期A1：UACR范围 Q",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "白蛋白尿分期A2：UACR范围",
+          "answer": [
+            "R"
+          ],
+          "sourceText": "白蛋白尿分期A2：UACR范围 R",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "白蛋白尿分期A3：UACR范围",
+          "answer": [
+            "S"
+          ],
+          "sourceText": "白蛋白尿分期A3：UACR范围 S",
+          "sourceY": 0,
+          "answerMode": "单选"
+        }
+      ],
+      "sourceText": "CKD按eGFR和UACR分期及进展风险（表格题）（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页与讲义复核",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-38",
+        "lecture-26"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-38",
+        "page": 4,
+        "image": "med/lecture-pages/lecture-38-page-04.webp",
+        "title": "第38讲第4页：内科含诊断 糖尿病",
+        "description": "本题组对应第38讲第4页CKD按eGFR和UACR分期及其进展风险表。"
+      },
+      "optionBankSections": [
+        {
+          "title": "肾功能",
+          "keys": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F"
+          ]
+        },
+        {
+          "title": "eGFR范围",
+          "keys": [
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L"
+          ]
+        },
+        {
+          "title": "各白蛋白尿分期对应的进展风险",
+          "keys": [
+            "M",
+            "N",
+            "O",
+            "P"
+          ]
+        },
+        {
+          "title": "UACR范围",
+          "keys": [
+            "Q",
+            "R",
+            "S"
+          ]
+        }
+      ]
+    },
+    {
       "id": "p66-g1",
       "page": 66,
       "title": "糖尿病视网膜病变分期与处理",
@@ -23260,8 +23699,8 @@
         },
         {
           "key": "F",
-          "label": "每一象限视网膜>20个出血点",
-          "sourceText": "F.每一象限视网膜>20个出血点"
+          "label": "每一象限视网膜≥20个出血点",
+          "sourceText": "F.每一象限视网膜≥20个出血点"
         },
         {
           "key": "G",
@@ -23394,8 +23833,8 @@
         },
         {
           "key": "B",
-          "label": "脊髓病变",
-          "sourceText": "B.脊髓病变"
+          "label": "阿尔茨海默病",
+          "sourceText": "B.阿尔茨海默病"
         },
         {
           "key": "C",
@@ -23685,7 +24124,7 @@
     {
       "id": "p67-g3",
       "page": 67,
-      "title": "口服降糖药分类与体重效应",
+      "title": "降糖药分类与体重效应",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -23849,7 +24288,7 @@
           "answerMode": "多选"
         }
       ],
-      "sourceText": "口服降糖药分类与体重效应（按原题页分组并结合讲义复核）",
+      "sourceText": "降糖药分类与体重效应（按原题页分组并结合讲义复核）",
       "reviewState": "已按原题页与讲义复核",
       "topic": "内分泌",
       "lectureIds": [
@@ -23872,8 +24311,8 @@
       "options": [
         {
           "key": "A",
-          "label": "晚上加中效",
-          "sourceText": "A.晚上加中效"
+          "label": "晚上血糖高",
+          "sourceText": "A.晚上血糖高"
         },
         {
           "key": "B",
@@ -23995,8 +24434,8 @@
         },
         {
           "key": "B",
-          "label": "夜间胰岛素用量不足",
-          "sourceText": "B.夜间胰岛素用量不足"
+          "label": "夜间胰岛素应用不足",
+          "sourceText": "B.夜间胰岛素应用不足"
         },
         {
           "key": "C",
@@ -24341,14 +24780,14 @@
           "answerMode": "多选"
         },
         {
-          "text": "二肽基酶DPP-4抑制剂",
+          "text": "二肽基肽酶DPP-4抑制剂",
           "answer": [
             "B",
             "D",
             "Y",
             "a"
           ],
-          "sourceText": "二肽基酶DPP-4抑制剂 BDYa",
+          "sourceText": "二肽基肽酶DPP-4抑制剂 BDYa",
           "sourceY": 0,
           "answerMode": "多选"
         }

@@ -79,8 +79,9 @@ def main() -> None:
     assert by_id["p46-g3"]["stems"][-1]["answer"] == list("FHI")
     assert by_id["p53-g1"]["stems"][1]["answer"] == list("ACGJ")
     assert by_id["p69-g1"]["options"][1]["label"] == "杵状指"
-    assert len([group for group in payload["groups"] if group["page"] == 61]) == 3
-    assert len([group for group in payload["groups"] if group["page"] == 64]) == 2
+    assert [group["id"] for group in payload["groups"] if group["page"] == 61] == ["p61-g1", "p61-g2", "p61-g3", "p61-g4"]
+    assert [group["id"] for group in payload["groups"] if group["page"] == 66] == ["p66-table1", "p66-g1", "p66-g2", "p66-g3"]
+    assert [group["id"] for group in payload["groups"] if group["page"] == 64] == ["p64-g1", "p64-table1", "p64-g2"]
     assert by_id["p64-g1"]["topic"] == "内分泌"
     assert len([group for group in payload["groups"] if group["page"] == 80]) == 3
     assert len([group for group in payload["groups"] if group["page"] == 94]) == 4
