@@ -1179,7 +1179,7 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill })
       {fill
         ? <div className="fill-answers">{answer.map((_, blankIndex) => <label key={blankIndex}><span>{stem.blankLabels?.[blankIndex] || `空${blankIndex + 1}`}</span><input value={selection[blankIndex] || ''} onChange={(event) => onFill(index, blankIndex, event.target.value)} disabled={submitted} inputMode={stem.inputMode || 'text'} aria-label={`${stem.text}第${blankIndex + 1}空`} /></label>)}</div>
         : (choiceCategories.length
-          ? <div className="answer-choice-category-list">{choiceCategories.map((category) => <div className="answer-choice-category" key={category}><span>{category}</span><div>{choiceOptions.filter((option) => option.category === category).map(renderChoiceButton)}</div></div>)}</div>
+          ? <div className={`answer-choice-category-list ${group.stackedOptionCategories ? 'stacked-choice-categories' : ''}`}>{choiceCategories.map((category) => <div className="answer-choice-category" key={category}><span>{category}</span><div>{choiceOptions.filter((option) => option.category === category).map(renderChoiceButton)}</div></div>)}</div>
           : <div className="answer-choices">{choiceOptions.map(renderChoiceButton)}</div>)}
       {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? unresolvedResult : (correct ? '正确' : `${group.answerSourceLabel || '讲义答案'}：${answerDisplay}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}</div>}
     </div>

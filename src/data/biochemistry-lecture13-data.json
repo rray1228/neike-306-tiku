@@ -373,180 +373,250 @@
       "kindLabel": "B型题",
       "options": [
         {
-          "key": "A",
-          "label": "生物素"
-        },
-        {
-          "key": "B",
-          "label": "氨基酸脱羧酶"
-        },
-        {
-          "key": "C",
-          "label": "谷氨酸脱氢酶（NAD 和 NADP）"
-        },
-        {
-          "key": "D",
-          "label": "多数脱氢酶"
-        },
-        {
-          "key": "E",
-          "label": "钴胺素（含金属）"
-        },
-        {
-          "key": "F",
-          "label": "焦磷酸硫胺素（TPP）"
-        },
-        {
-          "key": "G",
-          "label": "磷酸吡哆醛"
-        },
-        {
-          "key": "H",
-          "label": "α-酮酸（丙酮酸、α-酮戊二酸等）脱羧"
-        },
-        {
-          "key": "I",
-          "label": "四氢叶酸（FH₄）"
-        },
-        {
-          "key": "J",
-          "label": "线粒体磷酸甘油脱氢酶"
-        },
-        {
-          "key": "K",
-          "label": "黄嘌呤氧化酶"
-        },
-        {
-          "key": "L",
-          "label": "辅酶 A（H～SCoA）"
-        },
-        {
-          "key": "M",
-          "label": "生物氧化呼吸链的双递氢体"
-        },
-        {
-          "key": "N",
-          "label": "胶原蛋白成熟"
-        },
-        {
-          "key": "O",
-          "label": "转移醛基"
-        },
-        {
-          "key": "P",
-          "label": "琥珀酸脱氢酶"
-        },
-        {
-          "key": "Q",
-          "label": "胆碱脱氢酶"
-        },
-        {
-          "key": "R",
-          "label": "丙酮酸脱氢酶复合体"
-        },
-        {
-          "key": "S",
-          "label": "NAD"
-        },
-        {
-          "key": "T",
-          "label": "从头合成嘌呤核苷酸"
-        },
-        {
-          "key": "U",
-          "label": "前胶原分子中脯氨酸、赖氨酸的羟化"
-        },
-        {
-          "key": "V",
-          "label": "转氨酶"
-        },
-        {
-          "key": "W",
-          "label": "ALA 合酶（合成血红素）"
+          "key": "AQ",
+          "displayKey": "A",
+          "label": "FAD",
+          "category": "衍生物 / 辅因子"
         },
         {
           "key": "X",
-          "label": "FMN"
+          "displayKey": "B",
+          "label": "FMN",
+          "category": "衍生物 / 辅因子"
         },
         {
-          "key": "Y",
-          "label": "递一碳单位"
+          "key": "G",
+          "displayKey": "C",
+          "label": "磷酸吡哆醛",
+          "category": "衍生物 / 辅因子"
         },
         {
-          "key": "Z",
-          "label": "脂酰 CoA 脱氢酶"
+          "key": "L",
+          "displayKey": "D",
+          "label": "辅酶 A（CoA）",
+          "category": "衍生物 / 辅因子"
         },
         {
-          "key": "AA",
-          "label": "SAM 循环：同型半胱氨酸 + N⁵-CH₃-FH₄ → 甲硫氨酸"
+          "key": "I",
+          "displayKey": "E",
+          "label": "四氢叶酸（FH₄）",
+          "category": "衍生物 / 辅因子"
         },
         {
-          "key": "AB",
-          "label": "ACP"
+          "key": "A",
+          "displayKey": "F",
+          "label": "生物素",
+          "category": "衍生物 / 辅因子"
         },
         {
-          "key": "AC",
-          "label": "γ-谷氨酰羧化酶"
+          "key": "E",
+          "displayKey": "G",
+          "label": "钴胺素（含金属）",
+          "category": "衍生物 / 辅因子"
         },
         {
-          "key": "AD",
-          "label": "丙酮酸羧化酶（糖异生）"
-        },
-        {
-          "key": "AE",
-          "label": "苹果酸酶"
-        },
-        {
-          "key": "AF",
-          "label": "NADP"
-        },
-        {
-          "key": "AG",
-          "label": "影响伤口愈合"
-        },
-        {
-          "key": "AH",
-          "label": "递酰基"
-        },
-        {
-          "key": "AI",
-          "label": "dUMP → dTMP"
-        },
-        {
-          "key": "AJ",
-          "label": "6-磷酸葡萄糖酸脱氢酶"
-        },
-        {
-          "key": "AK",
-          "label": "乙酰 CoA 羧化酶（合成脂肪酸）"
-        },
-        {
-          "key": "AL",
-          "label": "G6PD"
-        },
-        {
-          "key": "AM",
-          "label": "NAD / NADP"
-        },
-        {
-          "key": "AN",
-          "label": "辅酶 A"
-        },
-        {
-          "key": "AO",
-          "label": "磷酸化酶（分解糖原）"
-        },
-        {
-          "key": "AP",
-          "label": "羟化酶"
-        },
-        {
-          "key": "AQ",
-          "label": "FAD"
+          "key": "F",
+          "displayKey": "H",
+          "label": "焦磷酸硫胺素（TPP）",
+          "category": "衍生物 / 辅因子"
         },
         {
           "key": "AR",
-          "label": "酰基载体蛋白（H～SACP）"
+          "displayKey": "I",
+          "label": "酰基载体蛋白（ACP）",
+          "category": "衍生物 / 辅因子"
+        },
+        {
+          "key": "S",
+          "displayKey": "J",
+          "label": "NAD",
+          "category": "衍生物 / 辅因子"
+        },
+        {
+          "key": "AF",
+          "displayKey": "K",
+          "label": "NADP",
+          "category": "衍生物 / 辅因子"
+        },
+        {
+          "key": "K",
+          "displayKey": "L",
+          "label": "黄嘌呤氧化酶",
+          "category": "相关酶"
+        },
+        {
+          "key": "Z",
+          "displayKey": "M",
+          "label": "脂酰 CoA 脱氢酶",
+          "category": "相关酶"
+        },
+        {
+          "key": "R",
+          "displayKey": "N",
+          "label": "丙酮酸脱氢酶复合体",
+          "category": "相关酶"
+        },
+        {
+          "key": "J",
+          "displayKey": "O",
+          "label": "线粒体磷酸甘油脱氢酶",
+          "category": "相关酶"
+        },
+        {
+          "key": "AE",
+          "displayKey": "P",
+          "label": "苹果酸酶",
+          "category": "相关酶"
+        },
+        {
+          "key": "V",
+          "displayKey": "Q",
+          "label": "转氨酶",
+          "category": "相关酶"
+        },
+        {
+          "key": "AP",
+          "displayKey": "R",
+          "label": "羟化酶",
+          "category": "相关酶"
+        },
+        {
+          "key": "AK",
+          "displayKey": "S",
+          "label": "乙酰 CoA 羧化酶（合成脂肪酸）",
+          "category": "相关酶"
+        },
+        {
+          "key": "B",
+          "displayKey": "T",
+          "label": "氨基酸脱羧酶",
+          "category": "相关酶"
+        },
+        {
+          "key": "W",
+          "displayKey": "U",
+          "label": "ALA 合酶（合成血红素）",
+          "category": "相关酶"
+        },
+        {
+          "key": "D",
+          "displayKey": "V",
+          "label": "多数脱氢酶",
+          "category": "相关酶"
+        },
+        {
+          "key": "AD",
+          "displayKey": "W",
+          "label": "丙酮酸羧化酶（糖异生）",
+          "category": "相关酶"
+        },
+        {
+          "key": "AJ",
+          "displayKey": "X",
+          "label": "6-磷酸葡萄糖酸脱氢酶",
+          "category": "相关酶"
+        },
+        {
+          "key": "AL",
+          "displayKey": "Y",
+          "label": "葡萄糖-6-磷酸脱氢酶（G6PD）",
+          "category": "相关酶"
+        },
+        {
+          "key": "C",
+          "displayKey": "Z",
+          "label": "谷氨酸脱氢酶（NAD 和 NADP）",
+          "category": "相关酶"
+        },
+        {
+          "key": "P",
+          "displayKey": "AA",
+          "label": "琥珀酸脱氢酶",
+          "category": "相关酶"
+        },
+        {
+          "key": "AO",
+          "displayKey": "AB",
+          "label": "磷酸化酶（分解糖原）",
+          "category": "相关酶"
+        },
+        {
+          "key": "AC",
+          "displayKey": "AC",
+          "label": "γ-谷氨酰羧化酶",
+          "category": "相关酶"
+        },
+        {
+          "key": "Q",
+          "displayKey": "AD",
+          "label": "胆碱脱氢酶",
+          "category": "相关酶"
+        },
+        {
+          "key": "Y",
+          "displayKey": "AE",
+          "label": "转移一碳单位",
+          "category": "生理作用 / 缺乏后果"
+        },
+        {
+          "key": "M",
+          "displayKey": "AF",
+          "label": "生物氧化呼吸链的双递氢体",
+          "category": "生理作用 / 缺乏后果"
+        },
+        {
+          "key": "T",
+          "displayKey": "AG",
+          "label": "从头合成嘌呤核苷酸",
+          "category": "生理作用 / 缺乏后果"
+        },
+        {
+          "key": "N",
+          "displayKey": "AH",
+          "label": "胶原蛋白成熟",
+          "category": "生理作用 / 缺乏后果"
+        },
+        {
+          "key": "AG",
+          "displayKey": "AI",
+          "label": "缺乏时伤口愈合障碍",
+          "category": "生理作用 / 缺乏后果"
+        },
+        {
+          "key": "H",
+          "displayKey": "AJ",
+          "label": "α-酮酸（丙酮酸、α-酮戊二酸等）脱羧",
+          "category": "生理作用 / 缺乏后果"
+        },
+        {
+          "key": "AH",
+          "displayKey": "AK",
+          "label": "转移酰基",
+          "category": "生理作用 / 缺乏后果"
+        },
+        {
+          "key": "AI",
+          "displayKey": "AL",
+          "label": "dUMP → dTMP",
+          "category": "生理作用 / 缺乏后果"
+        },
+        {
+          "key": "U",
+          "displayKey": "AM",
+          "label": "前胶原分子中脯氨酸、赖氨酸的羟化",
+          "category": "生理作用 / 缺乏后果"
+        },
+        {
+          "key": "O",
+          "displayKey": "AN",
+          "label": "转移醛基",
+          "category": "生理作用 / 缺乏后果"
+        },
+        {
+          "key": "AA",
+          "displayKey": "AO",
+          "label": "SAM 循环：同型半胱氨酸 + N⁵-CH₃-FH₄ → 甲硫氨酸",
+          "category": "生理作用 / 缺乏后果"
         }
       ],
       "stems": [
@@ -692,7 +762,7 @@
       "lectureIds": [
         "lecture-13"
       ],
-      "optionShuffleVersion": 2,
+      "optionShuffleVersion": 3,
       "lectureEvidence": {
         "lectureId": "lecture-13",
         "lectureNumber": 13,
@@ -702,7 +772,8 @@
         "title": "第 13 讲《生化 维生素》· 思维导图",
         "description": "已按维生素讲义、真题要点与辅因子表逐项核对；点击可放大查看思维导图。",
         "method": "按 2027 考研生化第 13 讲维生素思维导图及配套选择题逐项复核。"
-      }
+      },
+      "stackedOptionCategories": true
     },
     {
       "id": "bio-13-04",

@@ -3,15 +3,14 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 import random
 import re
 from pathlib import Path
 
-from docx import Document
-
-
 SOURCE = Path("/Users/ray/Downloads/生化_维生素_学成选择题_连续编号版.docx")
+OUTPUT = Path(__file__).resolve().parents[1] / "src/data/biochemistry-lecture13-data.json"
 LECTURE_NUMBER = 13
 TITLE = "生化 维生素"
 TOPIC = "维生素"
@@ -39,6 +38,8 @@ def parse_options(table):
 
 
 def parse_workbook():
+    from docx import Document
+
     doc = Document(SOURCE)
     groups = []
     current = None
@@ -137,6 +138,78 @@ def merge_cofactor_groups(first, second):
     }
 
 
+def organize_cofactor_options(group):
+    """Deduplicate the shared table and group choices without splitting its stems.
+
+    Keep the existing site's storage keys; displayKey alone controls the new
+    continuous lettering, so saved selections do not silently change meaning.
+    """
+    sections = {
+        "衍生物 / 辅因子": [
+            ("A", "生物素"), ("E", "钴胺素（含金属）"),
+            ("F", "焦磷酸硫胺素（TPP）"), ("G", "磷酸吡哆醛"),
+            ("I", "四氢叶酸（FH₄）"), ("L", "辅酶 A（H～SCoA）"),
+            ("S", "NAD"), ("X", "FMN"), ("AF", "NADP"),
+            ("AQ", "FAD"), ("AR", "酰基载体蛋白（H～SACP）"),
+        ],
+        "相关酶": [
+            ("B", "氨基酸脱羧酶"), ("C", "谷氨酸脱氢酶（NAD 和 NADP）"),
+            ("D", "多数脱氢酶"), ("J", "线粒体磷酸甘油脱氢酶"),
+            ("K", "黄嘌呤氧化酶"), ("P", "琥珀酸脱氢酶"),
+            ("Q", "胆碱脱氢酶"), ("R", "丙酮酸脱氢酶复合体"),
+            ("V", "转氨酶"), ("W", "ALA 合酶（合成血红素）"),
+            ("Z", "脂酰 CoA 脱氢酶"), ("AC", "γ-谷氨酰羧化酶"),
+            ("AD", "丙酮酸羧化酶（糖异生）"), ("AE", "苹果酸酶"),
+            ("AJ", "6-磷酸葡萄糖酸脱氢酶"),
+            ("AK", "乙酰 CoA 羧化酶（合成脂肪酸）"),
+            ("AL", "G6PD"), ("AO", "磷酸化酶（分解糖原）"), ("AP", "羟化酶"),
+        ],
+        "生理作用 / 缺乏后果": [
+            ("H", "α-酮酸（丙酮酸、α-酮戊二酸等）脱羧"),
+            ("M", "生物氧化呼吸链的双递氢体"), ("N", "胶原蛋白成熟"),
+            ("O", "转移醛基"), ("T", "从头合成嘌呤核苷酸"),
+            ("U", "前胶原分子中脯氨酸、赖氨酸的羟化"), ("Y", "递一碳单位"),
+            ("AA", "SAM 循环：同型半胱氨酸 + N⁵-CH₃-FH₄ → 甲硫氨酸"),
+            ("AG", "影响伤口愈合"), ("AH", "递酰基"), ("AI", "dUMP → dTMP"),
+        ],
+    }
+    wording = {
+        "辅酶 A（H～SCoA）": "辅酶 A（CoA）",
+        "酰基载体蛋白（H～SACP）": "酰基载体蛋白（ACP）",
+        "G6PD": "葡萄糖-6-磷酸脱氢酶（G6PD）",
+        "递一碳单位": "转移一碳单位",
+        "递酰基": "转移酰基",
+        "影响伤口愈合": "缺乏时伤口愈合障碍",
+    }
+    label_keys = {}
+    options = []
+    for index, (category, entries) in enumerate(sections.items()):
+        entries = list(entries)
+        random.Random(31303 + index).shuffle(entries)
+        for key, label in entries:
+            label_keys[label] = [key]
+            label_keys[wording.get(label, label)] = [key]
+            options.append({
+                "key": key,
+                "displayKey": option_key(len(options)),
+                "label": wording.get(label, label),
+                "category": category,
+            })
+    label_keys.update({"辅酶 A": ["L"], "ACP": ["AR"], "NAD / NADP": ["S", "AF"]})
+    original = {option["key"]: option["label"] for option in group["options"]}
+    unknown = set(original.values()) - label_keys.keys()
+    if unknown:
+        raise ValueError(f"Unreviewed cofactor options: {sorted(unknown)}")
+    stems = []
+    for stem in group["stems"]:
+        answers = list(dict.fromkeys(
+            key for old_key in stem["answer"] for key in label_keys[original[old_key]]
+        ))
+        stems.append({**stem, "answer": answers, "answerRaw": "、".join(answers)})
+    return {**group, "options": options, "stems": stems,
+            "stackedOptionCategories": True, "optionShuffleVersion": 3}
+
+
 def evidence():
     return {
         "lectureId": "lecture-13",
@@ -196,6 +269,19 @@ def make_group(source_group, display_index):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--refresh-cofactor-group", action="store_true",
+                        help="Update only group 3 from the checked-in data; keep other groups untouched")
+    args = parser.parse_args()
+    if args.refresh_cofactor_group:
+        payload = json.loads(OUTPUT.read_text(encoding="utf-8"))
+        matches = [group for group in payload["groups"] if group["id"] == "bio-13-03"]
+        if len(matches) != 1:
+            raise ValueError("Expected exactly one vitamin cofactor group")
+        payload["groups"] = [organize_cofactor_options(group) if group["id"] == "bio-13-03" else group
+                             for group in payload["groups"]]
+        OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        return
     source_groups = parse_workbook()
     source_groups = [
         *source_groups[:2],
@@ -203,6 +289,7 @@ def main():
         *source_groups[4:],
     ]
     groups = [make_group(group, index) for index, group in enumerate(source_groups, 1)]
+    groups[2] = organize_cofactor_options(groups[2])
     payload = {
         "meta": {
             "title": "生物化学第 13 讲题库",
@@ -222,7 +309,7 @@ def main():
         "groups": groups,
         "lectures": [{"id": "lecture-13", "number": LECTURE_NUMBER, "title": TITLE, "pageCount": 2}],
     }
-    Path("src/data/biochemistry-lecture13-data.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":
