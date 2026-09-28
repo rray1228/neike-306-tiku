@@ -134,8 +134,28 @@ test('arrhythmia groups retain complete source wording and correct classificatio
   const comparison = group('p94-g4')
   assert.equal(comparison.options.find(o => o.key === 'D')?.label, '房室率相等')
   assert.equal(comparison.options.find(o => o.key === 'G')?.label, '心律绝对规则')
+  assert.equal(comparison.options.find(o => o.key === 'H')?.label, '窦性P波')
   assert.match(group('p96-g2').options.find(o => o.key === 'K')?.label, /去氧肾上腺素.*间羟胺.*甲氧明/)
   assert.deepEqual(group('p97-g1').stems.find(s => s.text === 'IA类').answer, ['C', 'G', 'J', 'N', 'W'])
+  assert.deepEqual(group('p97-g1').stems.find(s => s.text === 'IB类').answer, [...'CEQTU'])
+  assert.deepEqual(group('p97-g1').stems.find(s => s.text === 'IC类').answer, [...'CFHLV'])
+})
+
+test('S1, atrial fibrillation and first-degree block retain exact lecture wording', () => {
+  assert.equal(group('p93-g4').options.find(o => o.key === 'B').label, '一度房室阻滞')
+  assert.deepEqual(group('p93-g4').stems.map(s => s.answer.join('')), ['B', 'D', 'ACEF'])
+  assert.match(group('p94-g3').options.find(o => o.key === 'A').label, /V1导联/)
+  assert.match(group('p94-g3').options.find(o => o.key === 'G').label, /2:1.*150/)
+  assert.equal(group('p95-g2').options.find(o => o.key === 'E').label, 'PR间期恒定延长>0.2s')
+  assert.equal(group('p94-g4').title, '窦速、阵发性室上速与房扑鉴别')
+})
+
+test('coronary localisation uses lecture54 page16 and preserves its diagram answers', () => {
+  const g = group('p89-g2')
+  assert.deepEqual(g.stems.map(s => s.answer.join('')), ['ACH','AEK','ACEHK','DEFGM','DF','IJL'])
+  assert.equal(g.lectureEvidence.lectureId, 'lecture-54')
+  assert.equal(g.lectureEvidence.page, 16)
+  assert.ok(existsSync(resolve('public', g.lectureEvidence.image)))
 })
 
 test('page 82 auscultation locations use their own option bank', () => {

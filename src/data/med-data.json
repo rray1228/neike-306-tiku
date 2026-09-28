@@ -12093,7 +12093,7 @@
           "answer": [
             "B"
           ],
-          "sourceText": "功能性蛋白尿B",
+          "sourceText": "功能性蛋白尿 B",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -12102,7 +12102,7 @@
           "answer": [
             "D"
           ],
-          "sourceText": "体位性蛋白尿D",
+          "sourceText": "体位性蛋白尿 D",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -12112,7 +12112,7 @@
             "F",
             "J"
           ],
-          "sourceText": "微量蛋白尿FJ",
+          "sourceText": "微量蛋白尿 FJ",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -12121,7 +12121,7 @@
           "answer": [
             "R"
           ],
-          "sourceText": "肾小球性蛋白尿：选择性R",
+          "sourceText": "肾小球性蛋白尿：选择性 R",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -12130,7 +12130,7 @@
           "answer": [
             "V"
           ],
-          "sourceText": "肾小球性蛋白尿：非选择性V",
+          "sourceText": "肾小球性蛋白尿：非选择性 V",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -12145,7 +12145,7 @@
             "O",
             "S"
           ],
-          "sourceText": "肾小管性蛋白尿AEGIMOS",
+          "sourceText": "肾小管性蛋白尿 AEGIMOS",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -12154,7 +12154,7 @@
           "answer": [
             "L"
           ],
-          "sourceText": "分泌性蛋白尿L",
+          "sourceText": "分泌性蛋白尿 L",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -12163,7 +12163,7 @@
           "answer": [
             "P"
           ],
-          "sourceText": "组织性蛋白尿P",
+          "sourceText": "组织性蛋白尿 P",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -12177,27 +12177,23 @@
             "Q",
             "T"
           ],
-          "sourceText": "溢出性蛋白尿CHKNQT",
+          "sourceText": "溢出性蛋白尿 CHKNQT",
           "sourceY": 0,
           "answerMode": "多选"
         }
       ],
       "sourceText": "蛋白尿分类（按原题页重新分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-24"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-24",
         "page": 1,
         "image": "med/lecture-pages/lecture-24-page-01.webp",
         "title": "第24讲第1页：内科含诊断 泌尿系统总论",
-        "description": "本题组对应第24讲第1页讲义。"
+        "description": "对应第24讲第1页讲义。"
       }
     },
     {
@@ -12254,7 +12250,7 @@
           "answer": [
             "B"
           ],
-          "sourceText": "红细胞管型B",
+          "sourceText": "红细胞管型 B",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -12264,7 +12260,7 @@
             "C",
             "E"
           ],
-          "sourceText": "白细胞管型CE",
+          "sourceText": "白细胞管型 CE",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -12275,7 +12271,7 @@
             "D",
             "G"
           ],
-          "sourceText": "蜡样管型ADG",
+          "sourceText": "蜡样管型 ADG",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -12284,7 +12280,7 @@
           "answer": [
             "F"
           ],
-          "sourceText": "上皮细胞管型F",
+          "sourceText": "上皮细胞管型 F",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -12293,27 +12289,23 @@
           "answer": [
             "H"
           ],
-          "sourceText": "脂肪管型H",
+          "sourceText": "脂肪管型 H",
           "sourceY": 0,
           "answerMode": "单选"
         }
       ],
       "sourceText": "尿管型与肾脏病变（按原题页重新分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-24"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-24",
         "page": 2,
         "image": "med/lecture-pages/lecture-24-page-02.webp",
         "title": "第24讲第2页：内科含诊断 泌尿系统总论",
-        "description": "本题组对应第24讲第2页讲义。"
+        "description": "对应第24讲第2页讲义。"
       }
     },
     {
@@ -12350,7 +12342,7 @@
           "answer": [
             "B"
           ],
-          "sourceText": "尿路感染最常见的细菌B",
+          "sourceText": "尿路感染最常见的细菌 B",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -12359,7 +12351,7 @@
           "answer": [
             "D"
           ],
-          "sourceText": "伴尿路结石多见于D",
+          "sourceText": "伴尿路结石多见于 D",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -12368,7 +12360,7 @@
           "answer": [
             "A"
           ],
-          "sourceText": "血源性尿感多见于A",
+          "sourceText": "血源性尿感多见于 A",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -12377,40 +12369,36 @@
           "answer": [
             "C"
           ],
-          "sourceText": "尿路器械检查后尿感多见于C",
+          "sourceText": "尿路器械检查后尿感多见于 C",
           "sourceY": 0,
           "answerMode": "单选"
         }
       ],
       "sourceText": "尿路感染相关病原体（按原题页重新分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-25"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-25",
         "page": 1,
         "image": "med/lecture-pages/lecture-25-page-01.webp",
         "title": "第25讲第1页：内科 尿路感染",
-        "description": "本题组对应第25讲第1页讲义。"
+        "description": "对应第25讲第1页讲义。"
       }
     },
     {
       "id": "p36-g1",
       "page": 36,
-      "title": "急性膀胱炎",
+      "title": "急性膀胱炎与急性肾盂肾炎鉴别",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "有全身症状(T>38、血WBC↑)",
-          "sourceText": "A.有全身症状(T>38、血WBC↑)"
+          "label": "有全身症状（T>38℃、血WBC↑）",
+          "sourceText": "A.有全身症状（T>38℃、血WBC↑）"
         },
         {
           "key": "B",
@@ -12484,8 +12472,8 @@
         },
         {
           "key": "P",
-          "label": "喹诺酮类",
-          "sourceText": "P.喹诺酮类"
+          "label": "喹诺酮类（除外莫西沙星）",
+          "sourceText": "P.喹诺酮类（除外莫西沙星）"
         },
         {
           "key": "Q",
@@ -12553,12 +12541,12 @@
             "W",
             "X"
           ],
-          "sourceText": "急性膀胱炎CDEGHIJKNPQTUWX",
+          "sourceText": "急性膀胱炎 CDEGHIJKNPQTUWX",
           "sourceY": 100,
           "answerMode": "多选"
         },
         {
-          "text": "急性肾孟肾炎",
+          "text": "急性肾盂肾炎（尿路刺激症可有可无）",
           "answer": [
             "A",
             "C",
@@ -12574,28 +12562,23 @@
             "V",
             "Y"
           ],
-          "sourceText": "急性肾孟肾炎ACFGHKMOPRUVY",
+          "sourceText": "急性肾盂肾炎（尿路刺激症可有可无） ACFGHKMOPRUVY",
           "sourceY": 153,
           "answerMode": "多选"
         }
       ],
       "sourceText": "A.有全身症状(T>38、血WBC↑) | B.无真性细菌尿 | 问： | C.磺胺类 | 急性膀胱炎CDEGHIJKNPQTUWX | D.复方新诺明(磺胺甲恶唑+甲氧苄啶SMZ-TMP) | E.年轻未孕女性抗生素治疗3日短程疗法 | 急性肾孟肾炎ACFGHKMOPRUVY | F.有白细胞管型 | G.有膀胱/尿道刺激症 | H.β内酰胺类(青霉素类如阿莫西林、头孢菌素类) | 1.停抗生素7天后复查尿菌培养若仍阳性应继续治疗至2周 | J.无肾区叩痛 | K.有明显脓尿 | L.莫西沙星 | M.半年内发作2次以上抗生素治疗：6月（长程低剂量抑菌） | N.无白细胞管型 | 0.无膀胱/尿道刺激症 | P.喹诺酮类 | Q.免疫力低下、糖尿病、老年、妊娠、男性7日 | R.复发(病原体与上次完全相同)抗生素治疗：6周 | S.无明显脓尿 | T.呋喃妥因 | U.有真性细菌尿 | V.抗生素治疗2周 | W.匹美西林 | X.无全身症状 | Y.有肾区叩痛",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-14",
-        "lecture-15",
-        "lecture-16",
-        "lecture-17",
-        "lecture-18",
-        "lecture-19"
+        "lecture-25"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-25",
         "page": 2,
         "image": "med/lecture-pages/lecture-25-page-02.webp",
         "title": "第25讲第2页：内科 尿路感染",
-        "description": "本题组对应第25讲第2页讲义。"
+        "description": "对应第25讲第2页讲义。"
       }
     },
     {
@@ -12634,7 +12617,7 @@
             "B",
             "D"
           ],
-          "sourceText": "尿道综合征ABD",
+          "sourceText": "尿道综合征 ABD",
           "sourceY": 792,
           "answerMode": "多选"
         },
@@ -12645,28 +12628,23 @@
             "B",
             "C"
           ],
-          "sourceText": "急性膀胱炎（ABC",
+          "sourceText": "急性膀胱炎 ABC",
           "sourceY": 846,
           "answerMode": "多选"
         }
       ],
       "sourceText": "问： | A.有尿道刺激征 | 尿道综合征ABD | B.无全身症状 | C.有真性细菌尿 | 急性膀胱炎（ABC | D.无真性细菌尿 | 肾衰竭",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-14",
-        "lecture-15",
-        "lecture-16",
-        "lecture-17",
-        "lecture-18",
-        "lecture-19"
+        "lecture-25"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-25",
-        "page": 4,
-        "image": "med/lecture-pages/lecture-25-page-04.webp",
-        "title": "第25讲第4页：内科 尿路感染",
-        "description": "本题组对应第25讲第4页讲义。"
+        "page": 3,
+        "image": "med/lecture-pages/lecture-25-page-03.webp",
+        "title": "第25讲第3页：内科 尿路感染",
+        "description": "对应第25讲第3页讲义。"
       }
     },
     {
@@ -12779,7 +12757,7 @@
             "O",
             "Q"
           ],
-          "sourceText": "肾前性BEHKLOQ",
+          "sourceText": "肾前性 BEHKLOQ",
           "sourceY": 1076,
           "answerMode": "多选"
         },
@@ -12806,28 +12784,23 @@
             "N",
             "P"
           ],
-          "sourceText": "肾后性CGINP",
+          "sourceText": "肾后性 CGINP",
           "sourceY": 1185,
           "answerMode": "多选"
         }
       ],
       "sourceText": "问 | A.急性肾小管坏死ATN | 肾前性BEHKLOQ | B.最常见 | C.尿路结石 | 肾性（ADFJMR | D.肾缺血 | E.大失血 | F.间质性肾炎 | 肾后性CGINP | G.前列腺增生 | H.液体丢失过多 | 1.尿路梗阻 | J.肾中毒(如氨基糖苷类抗生素/鱼胆/蘑菇/血红蛋白/肌红蛋白/轻链蛋白) | K.肝硬化 | L.心衰 | M.原尿外漏 | N.盆腔肿瘤(如晚期宫颈癌直接蔓延侵犯膀胱) | O.机械通气 | P.神经源性膀胱(尿潴留） | Q.有效循环血量↓ | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-14",
-        "lecture-15",
-        "lecture-16",
-        "lecture-17",
-        "lecture-18",
-        "lecture-19"
+        "lecture-26"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-26",
         "page": 1,
         "image": "med/lecture-pages/lecture-26-page-01.webp",
         "title": "第26讲第1页：内科 肾衰竭",
-        "description": "本题组对应第26讲第1页讲义。"
+        "description": "对应第26讲第1页讲义。"
       }
     },
     {
@@ -12839,8 +12812,8 @@
       "options": [
         {
           "key": "A",
-          "label": "尿比重<1.012",
-          "sourceText": "A.尿比重<1.012"
+          "label": "尿比重≤1.012",
+          "sourceText": "A.尿比重≤1.012"
         },
         {
           "key": "B",
@@ -12879,8 +12852,8 @@
         },
         {
           "key": "I",
-          "label": "尿比重>1.018",
-          "sourceText": "I.尿比重>1.018"
+          "label": "尿比重≥1.018",
+          "sourceText": "I.尿比重≥1.018"
         },
         {
           "key": "J",
@@ -12894,8 +12867,8 @@
         },
         {
           "key": "L",
-          "label": "尿肌酐/血清肌酐>40",
-          "sourceText": "L.尿肌酐/血清肌酐>40"
+          "label": "尿肌酐/血清肌酐≥40",
+          "sourceText": "L.尿肌酐/血清肌酐≥40"
         },
         {
           "key": "M",
@@ -12931,7 +12904,7 @@
             "N",
             "O"
           ],
-          "sourceText": "肾前性AKIBCEHILNO",
+          "sourceText": "肾前性AKI BCEHILNO",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -12947,33 +12920,29 @@
             "M",
             "P"
           ],
-          "sourceText": "缺血性ATNADFGJKMP",
+          "sourceText": "缺血性ATN ADFGJKMP",
           "sourceY": 0,
           "answerMode": "多选"
         }
       ],
       "sourceText": "B.尿渗透压>500 | C.尿钠/(mmol/L)<10 | 问： | 肾前性AKIBCEHILNO | D.尿肌酐/血清肌酐<20 | E.血尿素氮(mg/dl)/血清肌酐(mg/dl)>20 | F.钠排泄分数≥1% | 缺血性ATNADFGJKMP | G.肾衰指数≥1 | H.尿沉渣透明管型 | 1.尿比重>1.018 | J.尿渗透压<250 | K.尿钠/(mmol/L)>20 | L.尿肌酐/血清肌酐>40 | M.血尿素氮(mg/dl)/血清肌酐(mg/dl)<10~15 | N.钠排泄分数<1% | 0.肾衰指数<1 | P.尿沉渣棕色颗粒管型 | A.核糖核酸酶",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-26"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-26",
         "page": 1,
         "image": "med/lecture-pages/lecture-26-page-01.webp",
         "title": "第26讲第1页：内科 肾衰竭",
-        "description": "本题组对应第26讲第1页讲义。"
+        "description": "对应第26讲第1页讲义。"
       }
     },
     {
       "id": "p37-g2",
       "page": 37,
-      "title": "小分子毒素",
+      "title": "尿毒症毒素分类",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -13024,8 +12993,8 @@
         },
         {
           "key": "J",
-          "label": "B2-微球蛋白",
-          "sourceText": "J.B2-微球蛋白"
+          "label": "β2-微球蛋白",
+          "sourceText": "J.β2-微球蛋白"
         },
         {
           "key": "K",
@@ -13071,7 +13040,7 @@
             "M",
             "O"
           ],
-          "sourceText": "小分子毒素BDEGIKMO",
+          "sourceText": "小分子毒素 BDEGIKMO",
           "sourceY": 621,
           "answerMode": "多选"
         },
@@ -13082,7 +13051,7 @@
             "H",
             "L"
           ],
-          "sourceText": "中分子毒素（CHL",
+          "sourceText": "中分子毒素 CHL",
           "sourceY": 675,
           "answerMode": "多选"
         },
@@ -13095,33 +13064,29 @@
             "N",
             "P"
           ],
-          "sourceText": "大分子毒素（蛋白质）（AFJNP",
+          "sourceText": "大分子毒素（蛋白质） AFJNP",
           "sourceY": 728,
           "answerMode": "多选"
         }
       ],
       "sourceText": "A.核糖核酸酶 | 问： | B.K+ | 小分子毒素BDEGIKMO | C.甲状旁腺激素PTH | D.P | 中分子毒素（CHL | E.H+ | F.溶菌酶 | 大分子毒素（蛋白质）（AFJNP | G.尿素氮 | H.可致肾性骨营养不良 | 1.胍类 | J.B2-微球蛋白 | K.胺类 | L.软组织钙化 | M.酚类 | N.维生素A结合蛋白 | O.可致糖耐量下降(胰岛素抵抗) | P.氨甲酰化蛋白质",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-26"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-26",
         "page": 2,
         "image": "med/lecture-pages/lecture-26-page-02.webp",
         "title": "第26讲第2页：内科 肾衰竭",
-        "description": "本题组对应第26讲第2页讲义。"
+        "description": "对应第26讲第2页讲义。"
       }
     },
     {
       "id": "p37-g3",
       "page": 37,
-      "title": "急性肾炎",
+      "title": "肾脏疾病的贫血特点",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -13162,7 +13127,7 @@
           "answer": [
             "B"
           ],
-          "sourceText": "急性肾炎（B",
+          "sourceText": "急性肾炎 B",
           "sourceY": 1117,
           "answerMode": "单选"
         },
@@ -13171,7 +13136,7 @@
           "answer": [
             "D"
           ],
-          "sourceText": "急进性肾炎D",
+          "sourceText": "急进性肾炎 D",
           "sourceY": 1170,
           "answerMode": "单选"
         },
@@ -13180,7 +13145,7 @@
           "answer": [
             "A"
           ],
-          "sourceText": "慢性肾炎（A",
+          "sourceText": "慢性肾炎 A",
           "sourceY": 1218,
           "answerMode": "单选"
         },
@@ -13189,7 +13154,7 @@
           "answer": [
             "F"
           ],
-          "sourceText": "急性肾衰F",
+          "sourceText": "急性肾衰 F",
           "sourceY": 1272,
           "answerMode": "单选"
         },
@@ -13198,7 +13163,7 @@
           "answer": [
             "C"
           ],
-          "sourceText": "慢性肾衰（C",
+          "sourceText": "慢性肾衰 C",
           "sourceY": 1328,
           "answerMode": "单选"
         },
@@ -13207,27 +13172,23 @@
           "answer": [
             "E"
           ],
-          "sourceText": "肾病综合征（E",
+          "sourceText": "肾病综合征 E",
           "sourceY": 1379,
           "answerMode": "单选"
         }
       ],
       "sourceText": "问： | A.早期隐匿，后期多有贫血、常为轻中度贫血 | 急性肾炎（B | B.多无贫血，也可轻度贫血 | C.多有轻中度贫血 | 急进性肾炎D | D.多有贫血，常为中度及以上 | E.可有可无贫血 | 慢性肾炎（A | F.多有轻度贫血(病程短) | 急性肾衰F | 慢性肾衰（C | 肾病综合征（E | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-26"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-26",
         "page": 2,
         "image": "med/lecture-pages/lecture-26-page-02.webp",
         "title": "第26讲第2页：内科 肾衰竭",
-        "description": "本题组对应第26讲第2页讲义。"
+        "description": "对应第26讲第2页讲义。"
       }
     },
     {
@@ -13279,7 +13240,7 @@
           "answer": [
             "C"
           ],
-          "sourceText": "男性贫血C",
+          "sourceText": "男性贫血 C",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -13288,7 +13249,7 @@
           "answer": [
             "F"
           ],
-          "sourceText": "女性贫血F",
+          "sourceText": "女性贫血 F",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -13297,7 +13258,7 @@
           "answer": [
             "A"
           ],
-          "sourceText": "孕妇贫血A",
+          "sourceText": "孕妇贫血 A",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -13306,7 +13267,7 @@
           "answer": [
             "E"
           ],
-          "sourceText": "轻度贫血E",
+          "sourceText": "轻度贫血 E",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -13315,7 +13276,7 @@
           "answer": [
             "B"
           ],
-          "sourceText": "中度贫血B",
+          "sourceText": "中度贫血 B",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -13324,7 +13285,7 @@
           "answer": [
             "G"
           ],
-          "sourceText": "重度贫血G",
+          "sourceText": "重度贫血 G",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -13333,23 +13294,23 @@
           "answer": [
             "D"
           ],
-          "sourceText": "极重度贫血D",
+          "sourceText": "极重度贫血 D",
           "sourceY": 0,
           "answerMode": "单选"
         }
       ],
       "sourceText": "贫血分级（按原题页重新分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-28"
+        "lecture-26"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-26",
         "page": 2,
         "image": "med/lecture-pages/lecture-26-page-02.webp",
         "title": "第26讲第2页：内科 肾衰竭",
-        "description": "本题组对应第26讲第2页讲义。"
+        "description": "对应第26讲第2页讲义。"
       }
     },
     {
@@ -13371,13 +13332,13 @@
         },
         {
           "key": "C",
-          "label": "血Cr>707",
-          "sourceText": "C.血Cr>707"
+          "label": "血Cr≥707 μmol/L",
+          "sourceText": "C.血Cr≥707 μmol/L"
         },
         {
           "key": "D",
-          "label": "GFR>90",
-          "sourceText": "D.GFR>90"
+          "label": "GFR≥90 ml/(min·1.73m²)",
+          "sourceText": "D.GFR≥90 ml/(min·1.73m²)"
         },
         {
           "key": "E",
@@ -13436,7 +13397,7 @@
           "answer": [
             "D"
           ],
-          "sourceText": "CKD1D",
+          "sourceText": "CKD1 D",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -13447,27 +13408,29 @@
             "E",
             "F"
           ],
-          "sourceText": "CKD2BEF",
+          "sourceText": "CKD2 BEF",
           "sourceY": 0,
           "answerMode": "多选"
         },
         {
           "text": "CKD3a",
           "answer": [
-            "A",
-            "H"
+            "H",
+            "J",
+            "M"
           ],
-          "sourceText": "CKD3aH",
+          "sourceText": "CKD3a HJM",
           "sourceY": 0,
           "answerMode": "多选"
         },
         {
           "text": "CKD3b",
           "answer": [
-            "B",
-            "L"
+            "J",
+            "L",
+            "M"
           ],
-          "sourceText": "CKD3bL",
+          "sourceText": "CKD3b JLM",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -13478,7 +13441,7 @@
             "K",
             "N"
           ],
-          "sourceText": "CKD4GKN",
+          "sourceText": "CKD4 GKN",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -13489,27 +13452,23 @@
             "C",
             "I"
           ],
-          "sourceText": "CKD5ACI",
+          "sourceText": "CKD5 ACI",
           "sourceY": 0,
           "answerMode": "多选"
         }
       ],
       "sourceText": "慢性肾脏病分期（按原题页重新分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-26"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-26",
         "page": 3,
         "image": "med/lecture-pages/lecture-26-page-03.webp",
         "title": "第26讲第3页：内科 肾衰竭",
-        "description": "本题组对应第26讲第3页讲义。"
+        "description": "对应第26讲第3页讲义。"
       }
     },
     {
@@ -13596,7 +13555,7 @@
             "I",
             "K"
           ],
-          "sourceText": "原位免疫复合物型ACFGIK",
+          "sourceText": "原位免疫复合物型 ACFGIK",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -13609,7 +13568,7 @@
             "J",
             "L"
           ],
-          "sourceText": "循环免疫复合物型DGKJL",
+          "sourceText": "循环免疫复合物型 DGKJL",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -13621,7 +13580,7 @@
             "H",
             "M"
           ],
-          "sourceText": "自身抗体BEHM",
+          "sourceText": "自身抗体 BEHM",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -13631,7 +13590,7 @@
             "A",
             "C"
           ],
-          "sourceText": "抗基底膜GBMAC",
+          "sourceText": "抗基底膜GBM AC",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -13641,7 +13600,7 @@
             "F",
             "I"
           ],
-          "sourceText": "抗足突膜FI",
+          "sourceText": "抗足突膜 FI",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -13650,7 +13609,7 @@
           "answer": [
             "A"
           ],
-          "sourceText": "急进性肾炎I型继发者A",
+          "sourceText": "急进性肾炎I型继发者 A",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -13661,7 +13620,7 @@
             "G",
             "J"
           ],
-          "sourceText": "急进性肾炎II型继发者DGJ",
+          "sourceText": "急进性肾炎II型继发者 DGJ",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -13671,27 +13630,23 @@
             "H",
             "M"
           ],
-          "sourceText": "急进性肾炎III型继发者HM",
+          "sourceText": "急进性肾炎III型继发者 HM",
           "sourceY": 0,
           "answerMode": "多选"
         }
       ],
       "sourceText": "原发性肾小球疾病与免疫机制（按原题页重新分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-27"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-27",
         "page": 1,
         "image": "med/lecture-pages/lecture-27-page-01.webp",
         "title": "第27讲第1页：内科含诊断+病理 原发性肾小球疾病",
-        "description": "本题组对应第27讲第1页讲义。"
+        "description": "对应第27讲第1页讲义。"
       }
     },
     {
@@ -13810,18 +13765,17 @@
         }
       ],
       "sourceText": "肾炎综合征与肾病综合征鉴别（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25"
+        "lecture-27"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-27",
         "page": 3,
         "image": "med/lecture-pages/lecture-27-page-03.webp",
         "title": "第27讲第3页：内科含诊断+病理 原发性肾小球疾病",
-        "description": "本题组对应第27讲第3页讲义。"
+        "description": "对应第27讲第3页讲义。"
       }
     },
     {
@@ -13853,8 +13807,8 @@
         },
         {
           "key": "E",
-          "label": "急进性肾炎",
-          "sourceText": "E.急进性肾炎"
+          "label": "急进性肾炎（《病理学》中也可叫急进性肾炎综合征）",
+          "sourceText": "E.急进性肾炎（《病理学》中也可叫急进性肾炎综合征）"
         },
         {
           "key": "F",
@@ -13899,10 +13853,9 @@
         }
       ],
       "sourceText": "肾小球疾病与综合征对应（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-26",
         "lecture-27"
       ],
       "lectureEvidence": {
@@ -13910,7 +13863,7 @@
         "page": 3,
         "image": "med/lecture-pages/lecture-27-page-03.webp",
         "title": "第27讲第3页：内科含诊断+病理 原发性肾小球疾病",
-        "description": "本题组对应第27讲第3页讲义。"
+        "description": "对应第27讲第3页讲义。"
       }
     },
     {
@@ -13967,8 +13920,8 @@
         },
         {
           "key": "J",
-          "label": "水肿多从下肢开始，或从眼睑、颜面部开始",
-          "sourceText": "J.水肿多从下肢开始，或从眼睑、颜面部开始"
+          "label": "水肿多从下肢开始（赖不住水），或从眼睑、颜面部开始",
+          "sourceText": "J.水肿多从下肢开始（赖不住水），或从眼睑、颜面部开始"
         },
         {
           "key": "K",
@@ -14006,10 +13959,9 @@
         }
       ],
       "sourceText": "肾炎性水肿与肾病性水肿机制（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-25",
         "lecture-27"
       ],
       "lectureEvidence": {
@@ -14017,7 +13969,7 @@
         "page": 3,
         "image": "med/lecture-pages/lecture-27-page-03.webp",
         "title": "第27讲第3页：内科含诊断+病理 原发性肾小球疾病",
-        "description": "本题组对应第27讲第3页讲义。"
+        "description": "对应第27讲第3页讲义。"
       }
     },
     {
@@ -14054,8 +14006,8 @@
         },
         {
           "key": "F",
-          "label": "部分肾小球的部分毛细血管袢硬化（累计少数肾小球<50%，累计肾小球的少数毛细血管<50%）",
-          "sourceText": "F.部分肾小球的部分毛细血管袢硬化（累计少数肾小球<50%，累计肾小球的少数毛细血管<50%）"
+          "label": "部分肾小球的部分毛细血管袢硬化（累及少数肾小球<50%，累及肾小球的少数毛细血管袢<50%）",
+          "sourceText": "F.部分肾小球的部分毛细血管袢硬化（累及少数肾小球<50%，累及肾小球的少数毛细血管袢<50%）"
         },
         {
           "key": "G",
@@ -14134,13 +14086,13 @@
         },
         {
           "key": "e",
-          "label": "可表现为各种肾病综合征",
-          "sourceText": "e.可表现为各种肾病综合征"
+          "label": "可表现为各种病理类型，以系膜增生性肾炎最常见",
+          "sourceText": "e.可表现为各种病理类型，以系膜增生性肾炎最常见"
         },
         {
           "key": "f",
-          "label": "起病缓慢而隐匿，病程常>3个月，可急性发作；B超示双肾体积早期正常、后期对称性缩小",
-          "sourceText": "f.起病缓慢而隐匿，病程常>3个月，可急性发作；B超示双肾体积早期正常、后期对称性缩小"
+          "label": "起病缓慢而隐匿，病程常>3个月，可急性发作；B超示双肾体积早期正常、后期对称性缩小（长径<10cm）",
+          "sourceText": "f.起病缓慢而隐匿，病程常>3个月，可急性发作；B超示双肾体积早期正常、后期对称性缩小（长径<10cm）"
         },
         {
           "key": "g",
@@ -14210,7 +14162,7 @@
       ],
       "stems": [
         {
-          "text": "急性肾炎（重型）",
+          "text": "急性肾炎（包括重型的病理改变）",
           "answer": [
             "E",
             "J",
@@ -14224,38 +14176,59 @@
             "k",
             "l"
           ],
-          "sourceText": "急性肾炎（重型） EJKLNObgikl",
+          "sourceText": "急性肾炎（包括重型的病理改变） EJKLNObgikl",
           "sourceY": 0,
           "answerMode": "多选"
         },
         {
           "text": "急进性肾炎Ⅰ型",
           "answer": [
+            "B",
+            "J",
+            "K",
             "M",
-            "P"
+            "P",
+            "d",
+            "g",
+            "i",
+            "k"
           ],
-          "sourceText": "急进性肾炎Ⅰ型 MP",
+          "sourceText": "急进性肾炎Ⅰ型 BJKMPdgik",
           "sourceY": 0,
           "answerMode": "多选"
         },
         {
           "text": "急进性肾炎Ⅱ型",
           "answer": [
+            "B",
+            "J",
+            "K",
             "N",
             "O",
+            "d",
+            "g",
+            "i",
+            "k",
             "m"
           ],
-          "sourceText": "急进性肾炎Ⅱ型 NOm",
+          "sourceText": "急进性肾炎Ⅱ型 BJKNOdgikm",
           "sourceY": 0,
           "answerMode": "多选"
         },
         {
           "text": "急进性肾炎Ⅲ型",
           "answer": [
+            "B",
+            "J",
+            "K",
             "M",
-            "Q"
+            "Q",
+            "d",
+            "g",
+            "i",
+            "k"
           ],
-          "sourceText": "急进性肾炎Ⅲ型 MQ",
+          "sourceText": "急进性肾炎Ⅲ型 BJKMQdgik",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -14373,17 +14346,17 @@
         }
       ],
       "sourceText": "肾小球疾病病理与临床表现（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
         "lecture-27"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-27",
-        "page": 9,
-        "image": "med/lecture-pages/lecture-27-page-09.webp",
-        "title": "第27讲第9页：内科含诊断+病理 原发性肾小球疾病",
-        "description": "本题组对应第27讲第9页讲义。"
+        "page": 12,
+        "image": "med/lecture-pages/lecture-27-page-12.webp",
+        "title": "第27讲第12页：内科含诊断+病理 原发性肾小球疾病",
+        "description": "对应第27讲第12页讲义。"
       }
     },
     {
@@ -14410,8 +14383,8 @@
         },
         {
           "key": "D",
-          "label": "不用激素+环磷酰胺",
-          "sourceText": "D.不用激素+环磷酰胺"
+          "label": "不常规应用糖皮质激素＋环磷酰胺",
+          "sourceText": "D.不常规应用糖皮质激素＋环磷酰胺"
         },
         {
           "key": "E",
@@ -14440,8 +14413,8 @@
         },
         {
           "key": "J",
-          "label": "收缩压<120、尿蛋白<1",
-          "sourceText": "J.收缩压<120、尿蛋白<1"
+          "label": "收缩压<120 mmHg、尿蛋白<1 g/d",
+          "sourceText": "J.收缩压<120 mmHg、尿蛋白<1 g/d"
         },
         {
           "key": "K",
@@ -14457,7 +14430,7 @@
             "D",
             "K"
           ],
-          "sourceText": "急性肾炎BDK",
+          "sourceText": "急性肾炎 BDK",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -14468,7 +14441,7 @@
             "E",
             "J"
           ],
-          "sourceText": "慢性肾炎DEJ",
+          "sourceText": "慢性肾炎 DEJ",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -14478,7 +14451,7 @@
             "H",
             "D"
           ],
-          "sourceText": "IgA肾病HD",
+          "sourceText": "IgA肾病 HD",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -14488,7 +14461,7 @@
             "A",
             "I"
           ],
-          "sourceText": "急进性肾炎I型AI",
+          "sourceText": "急进性肾炎I型 AI",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -14498,7 +14471,7 @@
             "A",
             "F"
           ],
-          "sourceText": "急进性肾炎II型AF",
+          "sourceText": "急进性肾炎II型 AF",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -14509,7 +14482,7 @@
             "I",
             "F"
           ],
-          "sourceText": "急进性肾炎III型AIF",
+          "sourceText": "急进性肾炎III型 AIF",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -14518,7 +14491,7 @@
           "answer": [
             "C"
           ],
-          "sourceText": "脂性肾病C",
+          "sourceText": "脂性肾病 C",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -14527,7 +14500,7 @@
           "answer": [
             "C"
           ],
-          "sourceText": "局灶节段性肾小球硬化C",
+          "sourceText": "局灶节段性肾小球硬化 C",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -14536,7 +14509,7 @@
           "answer": [
             "C"
           ],
-          "sourceText": "系膜增生性肾炎C",
+          "sourceText": "系膜增生性肾炎 C",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -14545,7 +14518,7 @@
           "answer": [
             "G"
           ],
-          "sourceText": "膜性肾病G",
+          "sourceText": "膜性肾病 G",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -14554,33 +14527,29 @@
           "answer": [
             "G"
           ],
-          "sourceText": "系膜毛细血管性肾炎G",
+          "sourceText": "系膜毛细血管性肾炎 G",
           "sourceY": 0,
           "answerMode": "单选"
         }
       ],
       "sourceText": "肾炎疾病治疗与鉴别（按原题页重新分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-27"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-27",
         "page": 12,
         "image": "med/lecture-pages/lecture-27-page-12.webp",
         "title": "第27讲第12页：内科含诊断+病理 原发性肾小球疾病",
-        "description": "本题组对应第27讲第12页讲义。"
+        "description": "对应第27讲第12页讲义。"
       }
     },
     {
       "id": "p41-g2",
       "page": 41,
-      "title": "急性肾炎与IgA肾病鉴别",
+      "title": "急性肾炎、IgA肾病与过敏性紫癜肾炎鉴别",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -14655,7 +14624,7 @@
             "J",
             "L"
           ],
-          "sourceText": "急性肾炎AFHJL",
+          "sourceText": "急性肾炎 AFHJL",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -14668,7 +14637,7 @@
             "G",
             "K"
           ],
-          "sourceText": "IgA肾病CEFGK",
+          "sourceText": "IgA肾病 CEFGK",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -14680,27 +14649,23 @@
             "D",
             "M"
           ],
-          "sourceText": "过敏性紫癜肾炎BCDM",
+          "sourceText": "过敏性紫癜肾炎 BCDM",
           "sourceY": 0,
           "answerMode": "多选"
         }
       ],
       "sourceText": "急性肾炎与IgA肾病鉴别（按原题页重新分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-27"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-27",
         "page": 10,
         "image": "med/lecture-pages/lecture-27-page-10.webp",
         "title": "第27讲第10页：内科含诊断+病理 原发性肾小球疾病",
-        "description": "本题组对应第27讲第10页讲义。"
+        "description": "对应第27讲第10页讲义。"
       }
     },
     {
@@ -14771,7 +14736,7 @@
             "H",
             "J"
           ],
-          "sourceText": "原发性高血压ADGHJ",
+          "sourceText": "原发性高血压 ADGHJ",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -14784,33 +14749,29 @@
             "F",
             "I"
           ],
-          "sourceText": "慢性肾炎BCEFI",
+          "sourceText": "慢性肾炎 BCEFI",
           "sourceY": 0,
           "answerMode": "多选"
         }
       ],
       "sourceText": "原发性高血压与慢性肾炎鉴别（按原题页重新分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "肾脏",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-27"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-27",
         "page": 11,
         "image": "med/lecture-pages/lecture-27-page-11.webp",
         "title": "第27讲第11页：内科含诊断+病理 原发性肾小球疾病",
-        "description": "本题组对应第27讲第11页讲义。"
+        "description": "对应第27讲第11页讲义。"
       }
     },
     {
       "id": "p42-g1",
       "page": 42,
-      "title": "巨幼贫",
+      "title": "巨幼细胞贫血与缺铁性贫血的核浆发育",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -14831,7 +14792,7 @@
           "answer": [
             "B"
           ],
-          "sourceText": "巨幼贫B",
+          "sourceText": "巨幼贫 B",
           "sourceY": 90,
           "answerMode": "单选"
         },
@@ -14840,34 +14801,29 @@
           "answer": [
             "A"
           ],
-          "sourceText": "缺铁贫（A",
+          "sourceText": "缺铁贫 A",
           "sourceY": 142,
           "answerMode": "单选"
         }
       ],
       "sourceText": "问： | 巨幼贫B | A.核老浆幼 | B.核幼浆老 | 缺铁贫（A",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-28"
       ],
       "lectureEvidence": {
-        "lectureId": "lecture-34",
-        "page": 10,
-        "image": "med/lecture-pages/lecture-34-page-10.webp",
-        "title": "第34讲第10页：内科含诊断 白血病",
-        "description": "本题组对应第34讲第10页讲义。"
+        "lectureId": "lecture-28",
+        "page": 1,
+        "image": "med/lecture-pages/lecture-28-page-01.webp",
+        "title": "第28讲第1页：内科含诊断 缺铁性贫血（含贫血概述）",
+        "description": "对应第28讲第1页讲义。"
       }
     },
     {
       "id": "p42-g2",
       "page": 42,
-      "title": "2价铁",
+      "title": "二价铁与三价铁的功能",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -14899,7 +14855,7 @@
             "B",
             "C"
           ],
-          "sourceText": "2价铁BC",
+          "sourceText": "2价铁 BC",
           "sourceY": 349,
           "answerMode": "多选"
         },
@@ -14909,34 +14865,29 @@
             "A",
             "D"
           ],
-          "sourceText": "3价铁AD",
+          "sourceText": "3价铁 AD",
           "sourceY": 403,
           "answerMode": "多选"
         }
       ],
       "sourceText": "问： | A.储存 | 2价铁BC | B.利用 | C.吸收 | 3价铁AD | D.运输 | A.烦躁易怒、异食癖",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-28"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-28",
         "page": 1,
         "image": "med/lecture-pages/lecture-28-page-01.webp",
         "title": "第28讲第1页：内科含诊断 缺铁性贫血（含贫血概述）",
-        "description": "本题组对应第28讲第1页讲义。"
+        "description": "对应第28讲第1页讲义。"
       }
     },
     {
       "id": "p42-g3",
       "page": 42,
-      "title": "一般贫血的表现",
+      "title": "一般贫血与组织缺铁的表现",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -14967,8 +14918,8 @@
         },
         {
           "key": "F",
-          "label": "口腔炎和口角炎、舌乳头菱缩呈镜面舌/光滑舌",
-          "sourceText": "F.口腔炎和口角炎、舌乳头菱缩呈镜面舌/光滑舌"
+          "label": "口腔炎和口角炎、舌乳头萎缩呈镜面舌/光滑舌",
+          "sourceText": "F.口腔炎和口角炎、舌乳头萎缩呈镜面舌/光滑舌"
         },
         {
           "key": "G",
@@ -15027,7 +14978,7 @@
             "L",
             "O"
           ],
-          "sourceText": "一般贫血的表现（CEGILO",
+          "sourceText": "一般贫血的表现 CEGILO",
           "sourceY": 530,
           "answerMode": "多选"
         },
@@ -15043,28 +14994,23 @@
             "K",
             "M"
           ],
-          "sourceText": "组织缺铁的表现ABDFHJKM",
+          "sourceText": "组织缺铁的表现 ABDFHJKM",
           "sourceY": 583,
           "answerMode": "多选"
         }
       ],
       "sourceText": "A.烦躁易怒、异食癖 | 问： | B.皮肤干燥、毛发干枯易脱落 | 一般贫血的表现（CEGILO | C.乏力 | D.儿童智力低下和生长发育迟缓 | 组织缺铁的表现ABDFHJKM | E.头晕 | F.口腔炎和口角炎、舌乳头菱缩呈镜面舌/光滑舌 | G.心悸 | H.体力耐力下降、易感染 | 1.苍白 | J.匙状/勺状/反甲 | K.Plummer-Vinson综合征(吞咽困难) | L.左心扩大及心尖部收缩期杂音 | M.胃酸减少、消化功能下降 | N.牛肉舌 | 0.一般在贫血改善后可恢复，严重时可致高排量心衰 | 进行性吞咽困难（BDF | A.资门失弛缓症 | 间歇性吞咽困难ACE | B.食管癌 | 感觉咽部有异物感堵塞感、却没有真正的吞咽困难(球症）（E） | C.Plummer-Vinson综合征 | D.肺癌等压迫食管 | E.胃食管反流病 | F.胃食管反流病并发食管狭窄 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-01",
-        "lecture-02",
-        "lecture-03",
-        "lecture-04",
-        "lecture-05",
-        "lecture-06"
+        "lecture-28"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-28",
         "page": 1,
         "image": "med/lecture-pages/lecture-28-page-01.webp",
         "title": "第28讲第1页：内科含诊断 缺铁性贫血（含贫血概述）",
-        "description": "本题组对应第28讲第1页讲义。"
+        "description": "对应第28讲第1页讲义。"
       }
     },
     {
@@ -15113,7 +15059,7 @@
             "D",
             "F"
           ],
-          "sourceText": "进行性吞咽困难（BDF",
+          "sourceText": "进行性吞咽困难 BDF",
           "sourceY": 1000,
           "answerMode": "多选"
         },
@@ -15124,7 +15070,7 @@
             "C",
             "E"
           ],
-          "sourceText": "间歇性吞咽困难（ACE",
+          "sourceText": "间歇性吞咽困难 ACE",
           "sourceY": 1050,
           "answerMode": "多选"
         },
@@ -15133,13 +15079,13 @@
           "answer": [
             "E"
           ],
-          "sourceText": "感觉咽部有异物感堵塞感、却没有真正的吞咽困难（癔球症）E",
+          "sourceText": "感觉咽部有异物感堵塞感，却没有真正的吞咽困难（癔球症） E",
           "sourceY": 1100,
           "answerMode": "单选"
         }
       ],
       "sourceText": "A.贲门失弛缓症 | B.食管癌 | C.Plummer-Vinson综合征 | D.肺癌等压迫食管 | E.胃食管反流病 | F.胃食管反流病并发食管狭窄 | 进行性吞咽困难（BDF | 间歇性吞咽困难（ACE | 感觉咽部有异物感堵塞感、却没有真正的吞咽困难（癔球症）E",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-28"
@@ -15149,13 +15095,13 @@
         "page": 2,
         "image": "med/lecture-pages/lecture-28-page-02.webp",
         "title": "第28讲第2页：内科含诊断 缺铁性贫血（含贫血概述）",
-        "description": "本题组对应第28讲第2页讲义。"
+        "description": "对应第28讲第2页讲义。"
       }
     },
     {
       "id": "p43-g1",
       "page": 43,
-      "title": "缺铁贫",
+      "title": "常见贫血的铁代谢指标鉴别",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -15241,7 +15187,7 @@
             "E",
             "K"
           ],
-          "sourceText": "缺铁贫ABCDEK",
+          "sourceText": "缺铁贫 ABCDEK",
           "sourceY": 846,
           "answerMode": "多选"
         },
@@ -15255,7 +15201,7 @@
             "J",
             "L"
           ],
-          "sourceText": "慢性病贫血ABDHJL",
+          "sourceText": "慢性病贫血 ABDHJL",
           "sourceY": 900,
           "answerMode": "多选"
         },
@@ -15269,7 +15215,7 @@
             "J",
             "M"
           ],
-          "sourceText": "铁粒幼贫血（FGHIJM",
+          "sourceText": "铁粒幼贫血 FGHIJM",
           "sourceY": 954,
           "answerMode": "多选"
         },
@@ -15283,13 +15229,13 @@
             "J",
             "N"
           ],
-          "sourceText": "珠蛋白生成障碍性贫血（FGHIJN",
+          "sourceText": "珠蛋白生成障碍性贫血 FGHIJN",
           "sourceY": 1008,
           "answerMode": "多选"
         }
       ],
       "sourceText": "问： | A.血清铁↓ | 缺铁贫ABCDEK | B.转铁蛋白饱和度↓ | C.血清铁蛋白(储存铁)↓ | 慢性病贫血ABDHJL | D.骨髓细胞内铁↓ | E.骨髓细胞外铁↓ | 铁粒幼贫血（FGHIJM | F.血清铁↑ | G.转铁蛋白饱和度个 | 珠蛋白生成障碍性贫血（FGHIJN | H.血清铁蛋白(储存铁)↑ | 1.骨髓细胞内铁↑ | J.骨髓细胞外铁个 | K.总铁结合力↑ | L.总铁结合力↓ | M.总铁结合力正常 | N.总铁结合力正常/↓ | 小红书号：385106504",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-28"
@@ -15299,7 +15245,7 @@
         "page": 3,
         "image": "med/lecture-pages/lecture-28-page-03.webp",
         "title": "第28讲第3页：内科含诊断 缺铁性贫血（含贫血概述）",
-        "description": "本题组对应第28讲第3页讲义。"
+        "description": "对应第28讲第3页讲义。"
       }
     },
     {
@@ -15331,8 +15277,8 @@
         },
         {
           "key": "E",
-          "label": "骨髓铁染色示骨髓小粒可染铁消失（骨髓细胞外铁缺乏）",
-          "sourceText": "E.骨髓铁染色示骨髓小粒可染铁消失：骨髓小粒的铁蛋白和含铁血黄素缺乏"
+          "label": "骨髓铁染色示骨髓小粒可染铁消失：骨髓小粒的铁蛋白和含铁血黄素（骨髓细胞外铁）缺乏",
+          "sourceText": "E.骨髓铁染色示骨髓小粒可染铁消失：骨髓小粒的铁蛋白和含铁血黄素（骨髓细胞外铁）缺乏"
         },
         {
           "key": "F",
@@ -15393,7 +15339,7 @@
             "E",
             "H"
           ],
-          "sourceText": "贮存铁的耗尽（潜伏期）CEH",
+          "sourceText": "贮存铁的耗尽（潜伏期） CEH",
           "sourceY": 480,
           "answerMode": "多选"
         },
@@ -15412,7 +15358,7 @@
             "N",
             "O"
           ],
-          "sourceText": "红细胞内铁缺乏（ACDEFHIKLNO",
+          "sourceText": "红细胞内铁缺乏 ACDEFHIKLNO",
           "sourceY": 530,
           "answerMode": "多选"
         },
@@ -15435,7 +15381,7 @@
             "N",
             "O"
           ],
-          "sourceText": "缺铁性贫血ABCDEFGHIJKLMNO",
+          "sourceText": "缺铁性贫血 ABCDEFGHIJKLMNO",
           "sourceY": 580,
           "answerMode": "多选"
         },
@@ -15444,7 +15390,7 @@
           "answer": [
             "C"
           ],
-          "sourceText": "最敏感C",
+          "sourceText": "最敏感 C",
           "sourceY": 680,
           "answerMode": "单选"
         },
@@ -15453,7 +15399,7 @@
           "answer": [
             "E"
           ],
-          "sourceText": "最可靠E",
+          "sourceText": "最可靠 E",
           "sourceY": 720,
           "answerMode": "单选"
         },
@@ -15462,7 +15408,7 @@
           "answer": [
             "E"
           ],
-          "sourceText": "骨髓细胞外铁E",
+          "sourceText": "骨髓细胞外铁 E",
           "sourceY": 760,
           "answerMode": "单选"
         },
@@ -15471,7 +15417,7 @@
           "answer": [
             "H"
           ],
-          "sourceText": "骨髓细胞内铁H",
+          "sourceText": "骨髓细胞内铁 H",
           "sourceY": 800,
           "answerMode": "单选"
         },
@@ -15480,13 +15426,13 @@
           "answer": [
             "I"
           ],
-          "sourceText": "反映缺铁性红细胞Hb合成的最佳指标I",
+          "sourceText": "反映缺铁性红细胞Hb合成的最佳指标 I",
           "sourceY": 840,
           "answerMode": "单选"
         }
       ],
       "sourceText": "A.转铁蛋白饱和度TS↓ | B.小细胞低色素性贫血 | C.血清铁蛋白SF<12μg/L | D.未结合铁的转铁蛋白TF↑ | E.骨髓细胞外铁缺乏 | F.总铁结合力TIBC↑ | G.小细胞低色素性贫血指标 | H.铁粒幼红细胞<15% | I.血清可溶性转铁蛋白受体sTfR↑ | J.外周血涂片见红细胞体积小、中央淡染区扩大 | K.血清铁SI↓ | L.锌原卟啉ZPP↑ | M.RBC正常或↓、WBC正常、Plt正常或↑ | N.游离原卟啉FEP↑ | O.FEP/Hb>4.5 | 贮存铁的耗尽（潜伏期）CEH | 红细胞内铁缺乏（ACDEFHIKLNO | 缺铁性贫血ABCDEFGHIJKLMNO | 最敏感C | 最可靠E | 骨髓细胞外铁E | 骨髓细胞内铁H | 反映缺铁性红细胞Hb合成的最佳指标I",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-28"
@@ -15496,7 +15442,7 @@
         "page": 2,
         "image": "med/lecture-pages/lecture-28-page-02.webp",
         "title": "第28讲第2页：内科含诊断 缺铁性贫血（含贫血概述）",
-        "description": "本题组对应第28讲第2页讲义。"
+        "description": "对应第28讲第2页讲义。"
       }
     },
     {
@@ -15637,7 +15583,7 @@
             "H",
             "K"
           ],
-          "sourceText": "大细胞性BDEHK",
+          "sourceText": "大细胞性 BDEHK",
           "sourceY": 40,
           "answerMode": "多选"
         },
@@ -15655,7 +15601,7 @@
             "V",
             "X"
           ],
-          "sourceText": "小细胞低色素性CFIKLMPTVX",
+          "sourceText": "小细胞低色素性 CFIKLMPTVX",
           "sourceY": 90,
           "answerMode": "多选"
         },
@@ -15673,13 +15619,13 @@
             "U",
             "W"
           ],
-          "sourceText": "正细胞性AJKNOQRSUW",
+          "sourceText": "正细胞性 AJKNOQRSUW",
           "sourceY": 140,
           "answerMode": "多选"
         }
       ],
       "sourceText": "A.多数溶血性贫血（除地中海贫血） | B.巨幼细胞贫血 | C.转铁蛋白缺乏症 | D.MCV>100 | E.严重肝病 | F.MCHC<32% | G.贫血 | H.网织红大量增生的溶血性贫血和急性失血 | I.珠蛋白生成障碍性贫血/地贫 | J.急性失血 | K.MDS | L.缺铁贫 | M.MCV<80 | N.再障 | O.MCV 80-100 | P.铁粒幼贫 | Q.白血病 | R.MCHC 32-36% | S.多数骨髓瘤 | T.慢性失血如ITP | U.肾性贫血 | V.慢性病贫血 | W.ITP | X.ITP合并缺铁贫 | 大细胞性BDEHK | 小细胞低色素性CFIKLMPTVX | 正细胞性AJKNOQRSUW",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-28"
@@ -15689,7 +15635,7 @@
         "page": 4,
         "image": "med/lecture-pages/lecture-28-page-04.webp",
         "title": "第28讲第4页：内科含诊断 缺铁性贫血（含贫血概述）",
-        "description": "本题组对应第28讲第4页讲义。"
+        "description": "对应第28讲第4页讲义。"
       }
     },
     {
@@ -15772,7 +15718,7 @@
             "J",
             "K"
           ],
-          "sourceText": "NAP↑ (ACDFHJK)",
+          "sourceText": "NAP↑ ACDFHJK",
           "sourceY": 739,
           "answerMode": "多选"
         },
@@ -15785,28 +15731,23 @@
             "I",
             "L"
           ],
-          "sourceText": "NAP↓BEGIL",
+          "sourceText": "NAP↓ BEGIL",
           "sourceY": 792,
           "answerMode": "多选"
         }
       ],
       "sourceText": "问： | NAP↑ (ACDFHJK) | A.再障 | B.急粒 | NAP↓BEGIL | C.急淋 | D.慢粒急性变 | E.慢粒 | F.细菌性感染 | G.SLE | H.类白血病反应 | 1.PNH | J.真性红细胞增多症 | K.原发性血小板增多症 | L.病毒性感染(正常或↓) | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-28",
-        "lecture-29",
-        "lecture-30",
-        "lecture-32",
-        "lecture-33",
-        "lecture-34"
+        "lecture-29"
       ],
       "lectureEvidence": {
-        "lectureId": "lecture-34",
-        "page": 4,
-        "image": "med/lecture-pages/lecture-34-page-04.webp",
-        "title": "第34讲第4页：内科含诊断 白血病",
-        "description": "本题组对应第34讲第4页讲义。"
+        "lectureId": "lecture-29",
+        "page": 1,
+        "image": "med/lecture-pages/lecture-29-page-01.webp",
+        "title": "第29讲第1页：内科含诊断 再生障碍性贫血",
+        "description": "对应第29讲第1页讲义。"
       }
     },
     {
@@ -15883,7 +15824,7 @@
             "H",
             "J"
           ],
-          "sourceText": "血管外溶血（ABEFHJ",
+          "sourceText": "血管外溶血 ABEFHJ",
           "sourceY": 113,
           "answerMode": "多选"
         },
@@ -15898,27 +15839,23 @@
             "I",
             "K"
           ],
-          "sourceText": "血管内溶血（CDEGHIK",
+          "sourceText": "血管内溶血 CDEGHIK",
           "sourceY": 169,
           "answerMode": "多选"
         }
       ],
       "sourceText": "溶血性贫血 | A.丙酮酸激酶缺乏症 | 血管外溶血（ABEFHJaceg | B.温抗体型自免溶 | C.冷抗体型自免溶 | 血管内溶血（CDEGHIKbcdef | D.蚕豆病 | E.镰刀型细胞贫血 | F.地贫 | G.PNH | H.G6PD缺乏症 | 1.血型不合输血 | J.遗传球 | K.输低渗液 | a.多数起病慢 | b.血红蛋白尿(酱油浓茶色) | c.贫血 | d.急性为主：寒战发热、腰痛、急性肾损伤 | e.黄痘(尿深) | f.慢性(PNH):脾大、含铁血黄素尿 | g.脾大 | A.血结合珠蛋白/触珠蛋白明显↓（反应溶血的敏感指标） | 红细胞自身缺陷和外部异常 | B.网织红Ret明显↑、可达5-20% | C.血游离Hb明显↑（可被氧化为高铁Hb） | 骨髓红系增生明显活跃（BDF | D.粒红比降低或倒置 | E.血红蛋白尿(酱油/浓茶/红葡萄酒色、尿隐血试验+) | 红细胞破坏（ACEGHIG | F.血涂片见有核红细胞(中晚幼为主)，部分含H-J小体、Cabot环 | G.含铁血黄素尿/Rous试验(慢性) | H.红细胞寿命缩短(最可靠) | 1.血涂片见破碎和畸形红细胞个 | G.溶血性黄痘 | A.lgM(0-5度最活跃) | 温抗体型自免溶BDFGIJK | B.不完全抗体→血管外溶血 | C.冷凝集素试验 | 冷抗体型自免溶ACEHJ | D.糖皮质激素(首选) | E.保暖 | F.切脾 | G.lgG (37度最活跃) | H.完全抗体→血管内溶血 | I.Coombs试验(诊断) | J.利妥昔单抗 | K.可有球形细胞个 | 小红书号：385106504",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-30"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-30",
         "page": 2,
         "image": "med/lecture-pages/lecture-30-page-02.webp",
         "title": "第30讲第2页：内科含诊断 溶血性贫血",
-        "description": "本题组对应第30讲第2页讲义。"
+        "description": "对应第30讲第2页讲义。"
       }
     },
     {
@@ -15967,37 +15904,42 @@
       "stems": [
         {
           "text": "血管外溶血",
-          "answer": [],
-          "sourceText": "血管外溶血（aceg",
+          "answer": [
+            "a",
+            "c",
+            "e",
+            "g"
+          ],
+          "sourceText": "血管外溶血 aceg",
           "sourceY": 113,
-          "answerMode": "待核对",
-          "answerState": "待原题页核对"
+          "answerMode": "多选"
         },
         {
           "text": "血管内溶血",
-          "answer": [],
-          "sourceText": "血管内溶血（bcdef",
+          "answer": [
+            "b",
+            "c",
+            "d",
+            "e",
+            "f"
+          ],
+          "sourceText": "血管内溶血 bcdef",
           "sourceY": 169,
-          "answerMode": "待核对",
-          "answerState": "待原题页核对"
+          "answerMode": "多选"
         }
       ],
       "sourceText": "a.多数起病慢 | b.血红蛋白尿（酱油浓茶色） | c.贫血 | d.急性为主：寒战发热、腰痛、急性肾损伤 | e.黄疸（尿深） | f.慢性（PNH）：脾大、含铁血黄素尿 | g.脾大 | 血管外溶血（aceg | 血管内溶血（bcdef",
-      "reviewState": "部分题干待原题页核对",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-30"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-30",
         "page": 2,
         "image": "med/lecture-pages/lecture-30-page-02.webp",
         "title": "第30讲第2页：内科含诊断 溶血性贫血",
-        "description": "本题组对应第30讲第2页讲义。"
+        "description": "对应第30讲第2页讲义。"
       }
     },
     {
@@ -16056,9 +15998,23 @@
           "key": "J",
           "label": "溶血性黄疸",
           "sourceText": "J.溶血性黄疸"
+        },
+        {
+          "key": "K",
+          "label": "针对红细胞膜、酶、血红蛋白及免疫等溶血病因的检查",
+          "sourceText": "K.针对红细胞膜、酶、血红蛋白及免疫等溶血病因的检查"
         }
       ],
       "stems": [
+        {
+          "text": "红细胞自身缺陷和外部异常",
+          "answer": [
+            "K"
+          ],
+          "sourceText": "红细胞自身缺陷和外部异常 K",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
         {
           "text": "骨髓红系增生明显活跃",
           "answer": [
@@ -16066,7 +16022,7 @@
             "D",
             "F"
           ],
-          "sourceText": "骨髓红系增生明显活跃（BDF",
+          "sourceText": "骨髓红系增生明显活跃 BDF",
           "sourceY": 803,
           "answerMode": "多选"
         },
@@ -16081,27 +16037,23 @@
             "I",
             "J"
           ],
-          "sourceText": "红细胞破坏（ACEGHIJ",
+          "sourceText": "红细胞破坏 ACEGHIJ",
           "sourceY": 856,
           "answerMode": "多选"
         }
       ],
       "sourceText": "A.血结合珠蛋白/触珠蛋白明显↓ | B.网织红细胞Ret明显↑ | C.血游离Hb明显↑ | D.粒红比降低或倒置 | E.血红蛋白尿 | F.血涂片见有核红细胞 | G.含铁血黄素尿/Rous试验 | H.红细胞寿命缩短 | I.血涂片见破碎和畸形红细胞↑ | J.溶血性黄疸 | 骨髓红系增生明显活跃（BDF | 红细胞破坏（ACEGHI",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-30"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-30",
         "page": 2,
         "image": "med/lecture-pages/lecture-30-page-02.webp",
         "title": "第30讲第2页：内科含诊断 溶血性贫血",
-        "description": "本题组对应第30讲第2页讲义。"
+        "description": "对应第30讲第2页讲义。"
       }
     },
     {
@@ -16179,7 +16131,7 @@
             "J",
             "K"
           ],
-          "sourceText": "温抗体型自免溶（BDFGIJK",
+          "sourceText": "温抗体型自免溶 BDFGIJK",
           "sourceY": 1074,
           "answerMode": "多选"
         },
@@ -16192,27 +16144,23 @@
             "H",
             "J"
           ],
-          "sourceText": "冷抗体型自免溶（ACEHJ",
+          "sourceText": "冷抗体型自免溶 ACEHJ",
           "sourceY": 1128,
           "answerMode": "多选"
         }
       ],
       "sourceText": "A.IgM | B.不完全抗体→血管外溶血 | C.冷凝集素试验 | D.糖皮质激素（首选） | E.保暖 | F.切脾 | G.IgG | H.完全抗体→血管内溶血 | I.Coombs试验（诊断） | J.利妥昔单抗 | K.可有球形细胞↑ | 温抗体型自免溶（BDFGIJK | 冷抗体型自免溶（ACEHJ",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-24",
-        "lecture-25",
-        "lecture-26",
-        "lecture-27",
-        "lecture-38"
+        "lecture-30"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-30",
         "page": 4,
         "image": "med/lecture-pages/lecture-30-page-04.webp",
         "title": "第30讲第4页：内科含诊断 溶血性贫血",
-        "description": "本题组对应第30讲第4页讲义。"
+        "description": "对应第30讲第4页讲义。"
       }
     },
     {
@@ -16406,7 +16354,7 @@
         }
       ],
       "sourceText": "溶血性贫血分类与特征（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-30"
@@ -16416,7 +16364,7 @@
         "page": 4,
         "image": "med/lecture-pages/lecture-30-page-04.webp",
         "title": "第30讲第4页：内科含诊断 溶血性贫血",
-        "description": "本题组对应第30讲第4页讲义。"
+        "description": "对应第30讲第4页讲义。"
       }
     },
     {
@@ -16482,7 +16430,7 @@
         }
       ],
       "sourceText": "出血性疾病的骨髓巨核细胞表现（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-31"
@@ -16492,7 +16440,7 @@
         "page": 1,
         "image": "med/lecture-pages/lecture-31-page-01.webp",
         "title": "第31讲第1页：内科含诊断 出血性疾病",
-        "description": "本题组对应第31讲第1页讲义。"
+        "description": "对应第31讲第1页讲义。"
       }
     },
     {
@@ -16646,11 +16594,11 @@
           "answerMode": "单选"
         },
         {
-          "text": "妊娠不可用",
+          "text": "妊娠时讲义列为不适合的治疗",
           "answer": [
             "C"
           ],
-          "sourceText": "妊娠不可用 C",
+          "sourceText": "妊娠时讲义列为不适合的治疗 C",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -16664,10 +16612,19 @@
           "sourceText": "促血小板生成药 FHI",
           "sourceY": 0,
           "answerMode": "多选"
+        },
+        {
+          "text": "起效慢、不单独用",
+          "answer": [
+            "G"
+          ],
+          "sourceText": "起效慢、不单独用 G",
+          "sourceY": 0,
+          "answerMode": "单选"
         }
       ],
       "sourceText": "ITP治疗（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-31"
@@ -16677,13 +16634,13 @@
         "page": 2,
         "image": "med/lecture-pages/lecture-31-page-02.webp",
         "title": "第31讲第2页：内科含诊断 出血性疾病",
-        "description": "本题组对应第31讲第2页讲义。"
+        "description": "对应第31讲第2页讲义。"
       }
     },
     {
       "id": "p47-g1",
       "page": 47,
-      "title": "血管壁异常",
+      "title": "出血性疾病的机制分类",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -16764,7 +16721,7 @@
           "answer": [
             "B"
           ],
-          "sourceText": "血管壁异常（B",
+          "sourceText": "血管壁异常 B",
           "sourceY": 44,
           "answerMode": "单选"
         },
@@ -16777,7 +16734,7 @@
             "J",
             "L"
           ],
-          "sourceText": "血小板数量减少DFHJL",
+          "sourceText": "血小板数量减少 DFHJL",
           "sourceY": 96,
           "answerMode": "多选"
         },
@@ -16789,7 +16746,7 @@
             "G",
             "I"
           ],
-          "sourceText": "血小板质量异常（AEGI",
+          "sourceText": "血小板质量异常 AEGI",
           "sourceY": 149,
           "answerMode": "多选"
         },
@@ -16801,7 +16758,7 @@
             "K",
             "N"
           ],
-          "sourceText": "凝血异常（ACKN",
+          "sourceText": "凝血异常 ACKN",
           "sourceY": 203,
           "answerMode": "多选"
         },
@@ -16811,28 +16768,99 @@
             "J",
             "M"
           ],
-          "sourceText": "复合性止血机制异常（JM",
+          "sourceText": "复合性止血机制异常 JM",
           "sourceY": 254,
           "answerMode": "多选"
         }
       ],
       "sourceText": "血管壁异常（B） | 血小板数量减少（DFHJL） | 血小板质量异常（AEGI） | 凝血异常（ACKN） | 复合性止血机制异常（JM） | A.尿毒症 | B.过敏性紫癜(四肢对称分布) | C.肝硬化 | D.再障 | E.感染 | F.白血病 | G.血小板无力症 | H.ITP | I.巨大血小板综合征 | J.DIC | K.血友病 | L.脾亢 | M.血管性血友病 | N.维生素K缺乏症",
-      "reviewState": "已按原题页校正选项匹配",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-14",
-        "lecture-15",
-        "lecture-16",
-        "lecture-17",
-        "lecture-18",
-        "lecture-19"
+        "lecture-31"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-31",
         "page": 2,
         "image": "med/lecture-pages/lecture-31-page-02.webp",
         "title": "第31讲第2页：内科含诊断 出血性疾病",
-        "description": "本题组对应第31讲第2页讲义。"
+        "description": "对应第31讲第2页讲义。"
+      }
+    },
+    {
+      "id": "p47-table1",
+      "page": 47,
+      "title": "血管性血友病与血友病的BT、APTT、PT（表格题）",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "BT延长",
+          "sourceText": "A.BT延长"
+        },
+        {
+          "key": "B",
+          "label": "BT正常",
+          "sourceText": "B.BT正常"
+        },
+        {
+          "key": "C",
+          "label": "APTT延长",
+          "sourceText": "C.APTT延长"
+        },
+        {
+          "key": "D",
+          "label": "APTT正常",
+          "sourceText": "D.APTT正常"
+        },
+        {
+          "key": "E",
+          "label": "PT正常",
+          "sourceText": "E.PT正常"
+        },
+        {
+          "key": "F",
+          "label": "PT延长",
+          "sourceText": "F.PT延长"
+        }
+      ],
+      "stems": [
+        {
+          "text": "血管性血友病",
+          "answer": [
+            "A",
+            "C",
+            "E"
+          ],
+          "sourceText": "血管性血友病 ACE",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "血友病",
+          "answer": [
+            "B",
+            "C",
+            "E"
+          ],
+          "sourceText": "血友病 BCE",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "血管性血友病与血友病的BT、APTT、PT（表格题）（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页及对应讲义逐项复核",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-31"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-31",
+        "page": 2,
+        "image": "med/lecture-pages/lecture-31-page-02.webp",
+        "title": "第31讲第2页：内科含诊断 出血性疾病",
+        "description": "对应第31讲第2页讲义。"
       }
     },
     {
@@ -16963,7 +16991,7 @@
             "N",
             "Q"
           ],
-          "sourceText": "血管检测（CFKNQ",
+          "sourceText": "血管检测 CFKNQ",
           "sourceY": 687,
           "answerMode": "多选"
         },
@@ -16974,7 +17002,7 @@
             "I",
             "O"
           ],
-          "sourceText": "凝血检测AIO",
+          "sourceText": "凝血检测 AIO",
           "sourceY": 738,
           "answerMode": "多选"
         },
@@ -16990,7 +17018,7 @@
             "S",
             "U"
           ],
-          "sourceText": "抗凝检测BEJMNPSU",
+          "sourceText": "抗凝检测 BEJMNPSU",
           "sourceY": 795,
           "answerMode": "多选"
         },
@@ -17005,34 +17033,29 @@
             "T",
             "V"
           ],
-          "sourceText": "纤溶检测（DGHLRTV",
+          "sourceText": "纤溶检测 DGHLRTV",
           "sourceY": 849,
           "answerMode": "多选"
         }
       ],
       "sourceText": "A.活化部分凝血活酶时间APTT | B.心磷脂抗体 | C.出血时间BT | D.PAI | E.AT | F.束臂/毛细血管脆性试验CRT | G.鱼精蛋白副凝3P试验 | H.PIC | I.凝血酶原时间PT | J.PC | K.内皮素ET | L.FDP | M.TAT(凝血酶-抗凝血酶复合物) | N.凝血酶/血栓调节蛋白TM | O.凝血酶时间TT | P.PS | Q.血管性血友病因子vWF | R.D-二聚体 | S.FVIII抗体 | T.纤溶酶原 | U.狼疮抗凝物 | V.t-PA | 血管检测（CFKNQ | 凝血检测AIO | 抗凝检测BEJMNPSU | 纤溶检测（DGHLRTV",
-      "reviewState": "已按原题页校正选项匹配",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-14",
-        "lecture-15",
-        "lecture-16",
-        "lecture-17",
-        "lecture-18",
-        "lecture-19"
+        "lecture-31"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-31",
         "page": 2,
         "image": "med/lecture-pages/lecture-31-page-02.webp",
         "title": "第31讲第2页：内科含诊断 出血性疾病",
-        "description": "本题组对应第31讲第2页讲义。"
+        "description": "对应第31讲第2页讲义。"
       }
     },
     {
       "id": "p48-g1",
       "page": 48,
-      "title": "血管性疾病",
+      "title": "出血性疾病的临床特点",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -17088,13 +17111,13 @@
         },
         {
           "key": "K",
-          "label": "内脏出血多见(深)",
-          "sourceText": "K.内脏出血多见(深)"
+          "label": "内脏出血多见（深）",
+          "sourceText": "K.内脏出血多见（深）"
         },
         {
           "key": "L",
-          "label": "内脏出血多见(浅)",
-          "sourceText": "L.内脏出血多见(浅)"
+          "label": "内脏出血多见（浅）",
+          "sourceText": "L.内脏出血多见（浅）"
         }
       ],
       "stems": [
@@ -17104,7 +17127,7 @@
             "F",
             "I"
           ],
-          "sourceText": "血管性疾病(FI",
+          "sourceText": "血管性疾病 FI",
           "sourceY": 44,
           "answerMode": "多选"
         },
@@ -17116,7 +17139,7 @@
             "E",
             "L"
           ],
-          "sourceText": "血小板性疾病ACEL)",
+          "sourceText": "血小板性疾病 ACEL",
           "sourceY": 95,
           "answerMode": "多选"
         },
@@ -17130,13 +17153,13 @@
             "J",
             "K"
           ],
-          "sourceText": "凝血障碍性疾病BDGHJK",
+          "sourceText": "凝血障碍性疾病 BDGHJK",
           "sourceY": 149,
           "answerMode": "多选"
         }
       ],
       "sourceText": "A.紫癜和瘀斑 | 血管性疾病(FL | B.脐带出血 | C.眼底出血 | 血小板性疾病ACEL) | D.男性多见、与遗传密切 | E.月经过多 | 凝血障碍性疾病BDGHJK | F.女性多见 | G.手术或外伤后渗血不止 | H.关节出血 | 1.紫癜多见 | J.肌肉血肿 | K.内脏出血多见(深) | L.内脏出血多见(浅) | 收缩血管、增加毛细血管致密度、改善通透性（BDFHJ） | A.维生素K | B.维生素C | 合成凝血相关成分所需（A | C.氨基己酸 | D.糖皮质激素 | 抗纤溶（CG | E.凝血酶 | F.曲克芦丁 | 促进VIII、vWF止血因子释放（K。 | G.氨甲苯酸 | H.卡巴克络 | 局部止血（EIL | 1.巴曲酶 | J.垂体后叶素 | K.去氨加压素 | L.明胶海绵 | 小红书 | 小红书号：385106504",
-      "reviewState": "已按原题图片与出血性疾病讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-31"
@@ -17146,7 +17169,7 @@
         "page": 3,
         "image": "med/lecture-pages/lecture-31-page-03.webp",
         "title": "第31讲第3页：内科含诊断 出血性疾病",
-        "description": "本题组对应第31讲第3页讲义。"
+        "description": "对应第31讲第3页讲义。"
       }
     },
     {
@@ -17227,7 +17250,7 @@
             "H",
             "J"
           ],
-          "sourceText": "收缩血管、增加毛细血管致密度、改善通透性（BDFHJ）",
+          "sourceText": "收缩血管、增加毛细血管致密度、改善通透性 BDFHJ",
           "sourceY": 540,
           "answerMode": "多选"
         },
@@ -17236,7 +17259,7 @@
           "answer": [
             "A"
           ],
-          "sourceText": "合成凝血相关成分所需（A）",
+          "sourceText": "合成凝血相关成分所需 A",
           "sourceY": 590,
           "answerMode": "单选"
         },
@@ -17246,7 +17269,7 @@
             "C",
             "G"
           ],
-          "sourceText": "抗纤溶（CG）",
+          "sourceText": "抗纤溶 CG",
           "sourceY": 640,
           "answerMode": "多选"
         },
@@ -17255,7 +17278,7 @@
           "answer": [
             "K"
           ],
-          "sourceText": "促进VIII、vWF止血因子释放（K）",
+          "sourceText": "促进VIII、vWF止血因子释放 K",
           "sourceY": 690,
           "answerMode": "单选"
         },
@@ -17266,13 +17289,13 @@
             "I",
             "L"
           ],
-          "sourceText": "局部止血（EIL）",
+          "sourceText": "局部止血 EIL",
           "sourceY": 740,
           "answerMode": "多选"
         }
       ],
       "sourceText": "A.维生素K | B.维生素C | C.氨基己酸 | D.糖皮质激素 | E.凝血酶 | F.曲克芦丁 | G.氨甲苯酸 | H.卡巴克络 | I.巴曲酶 | J.垂体后叶素 | K.去氨加压素 | L.明胶海绵 | 收缩血管、增加毛细血管致密度、改善通透性（BDFHJ） | 合成凝血相关成分所需（A） | 抗纤溶（CG） | 促进VIII、vWF止血因子释放（K） | 局部止血（EIL）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-31"
@@ -17282,7 +17305,7 @@
         "page": 3,
         "image": "med/lecture-pages/lecture-31-page-03.webp",
         "title": "第31讲第3页：内科含诊断 出血性疾病",
-        "description": "本题组对应第31讲第3页讲义。"
+        "description": "对应第31讲第3页讲义。"
       }
     },
     {
@@ -17319,8 +17342,8 @@
         },
         {
           "key": "F",
-          "label": "出血倾向：血小板减少、血小板功能异常、凝血异常、血管壁受损",
-          "sourceText": "F.出血倾向：血小板减少、血小板功能异常、凝血异常、血管壁受损"
+          "label": "出血倾向：血小板减少、血小板功能异常（被M蛋白包裹）、凝血异常、血管壁受损",
+          "sourceText": "F.出血倾向：血小板减少、血小板功能异常（被M蛋白包裹）、凝血异常、血管壁受损"
         },
         {
           "key": "G",
@@ -17463,7 +17486,7 @@
         }
       ],
       "sourceText": "骨髓瘤临床表现与病理机制（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-32"
@@ -17473,7 +17496,7 @@
         "page": 1,
         "image": "med/lecture-pages/lecture-32-page-01.webp",
         "title": "第32讲第1页：内科 骨髓瘤",
-        "description": "本题组对应第32讲第1页讲义。"
+        "description": "对应第32讲第1页讲义。"
       }
     },
     {
@@ -17515,8 +17538,8 @@
         },
         {
           "key": "G",
-          "label": "血肌酐≥177μmol/L，或肌酐清除率＜40ml/min",
-          "sourceText": "G.血肌酐≥177μmol/L，或肌酐清除率＜40ml/min"
+          "label": "血肌酐≥177 μmol/L，或肌酐清除率≤40 ml/min",
+          "sourceText": "G.血肌酐≥177 μmol/L，或肌酐清除率≤40 ml/min"
         },
         {
           "key": "H",
@@ -17562,7 +17585,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "Ⅲ期A亚型",
+          "text": "Ⅲ期A亚型：选出A亚型条件及全部Ⅲ期指标（Ⅲ期指标满足任一即可分期）",
           "answer": [
             "A",
             "B",
@@ -17570,12 +17593,12 @@
             "H",
             "J"
           ],
-          "sourceText": "Ⅲ期A亚型 ABDHJ",
+          "sourceText": "Ⅲ期A亚型：选出A亚型条件及全部Ⅲ期指标（Ⅲ期指标满足任一即可分期） ABDHJ",
           "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "Ⅲ期B亚型",
+          "text": "Ⅲ期B亚型：选出B亚型条件及全部Ⅲ期指标（Ⅲ期指标满足任一即可分期）",
           "answer": [
             "G",
             "B",
@@ -17583,23 +17606,23 @@
             "H",
             "J"
           ],
-          "sourceText": "Ⅲ期B亚型 GBDHJ",
+          "sourceText": "Ⅲ期B亚型：选出B亚型条件及全部Ⅲ期指标（Ⅲ期指标满足任一即可分期） GBDHJ",
           "sourceY": 0,
           "answerMode": "多选"
         }
       ],
       "sourceText": "骨髓瘤Durie-Salmon分期（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-32"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-32",
-        "page": 3,
-        "image": "med/lecture-pages/lecture-32-page-03.webp",
-        "title": "第32讲第3页：内科 骨髓瘤",
-        "description": "本题组对应第32讲第3页讲义。"
+        "page": 2,
+        "image": "med/lecture-pages/lecture-32-page-02.webp",
+        "title": "第32讲第2页：内科 骨髓瘤",
+        "description": "对应第32讲第2页讲义。"
       }
     },
     {
@@ -17611,65 +17634,101 @@
       "options": [
         {
           "key": "A",
-          "label": "VD：硼替佐米+地塞米松",
-          "sourceText": "A.VD：硼替佐米+地塞米松"
+          "label": "VD",
+          "sourceText": "A.VD"
         },
         {
           "key": "B",
-          "label": "MVP：美法仑/马法兰+硼替佐米+泼尼松",
-          "sourceText": "B.MVP：美法仑/马法兰+硼替佐米+泼尼松"
+          "label": "MVP",
+          "sourceText": "B.MVP"
         },
         {
           "key": "C",
-          "label": "C+H：硼替佐米+地塞米松",
-          "sourceText": "C.C+H：硼替佐米+地塞米松"
+          "label": "硼替佐米",
+          "sourceText": "C.硼替佐米"
         },
         {
           "key": "D",
-          "label": "RD：来那度胺+地塞米松",
-          "sourceText": "D.RD：来那度胺+地塞米松"
+          "label": "RD",
+          "sourceText": "D.RD"
         },
         {
           "key": "E",
-          "label": "F+H：来那度胺+地塞米松",
-          "sourceText": "E.F+H：来那度胺+地塞米松"
+          "label": "美法仑/马法兰",
+          "sourceText": "E.美法仑/马法兰"
         },
         {
           "key": "F",
-          "label": "C+E+G：美法仑/马法兰+硼替佐米+泼尼松",
-          "sourceText": "F.C+E+G：美法仑/马法兰+硼替佐米+泼尼松"
+          "label": "来那度胺",
+          "sourceText": "F.来那度胺"
+        },
+        {
+          "key": "G",
+          "label": "泼尼松",
+          "sourceText": "G.泼尼松"
+        },
+        {
+          "key": "H",
+          "label": "地塞米松",
+          "sourceText": "H.地塞米松"
         }
       ],
       "stems": [
         {
-          "text": "移植候选者",
+          "text": "移植候选者可选的诱导化疗方案",
           "answer": [
             "A",
-            "C",
-            "D",
-            "E"
+            "D"
           ],
-          "sourceText": "移植候选者 ACDE",
+          "sourceText": "移植候选者可选的诱导化疗方案 AD",
           "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "不适合移植者",
+          "text": "不适合移植者可选的诱导化疗方案",
           "answer": [
             "A",
             "B",
-            "C",
-            "D",
-            "E",
-            "F"
+            "D"
           ],
-          "sourceText": "不适合移植者 ABCDEF",
+          "sourceText": "不适合移植者可选的诱导化疗方案 ABD",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "VD方案组成",
+          "answer": [
+            "C",
+            "H"
+          ],
+          "sourceText": "VD方案组成 CH",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "RD方案组成",
+          "answer": [
+            "F",
+            "H"
+          ],
+          "sourceText": "RD方案组成 FH",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "MVP方案组成",
+          "answer": [
+            "C",
+            "E",
+            "G"
+          ],
+          "sourceText": "MVP方案组成 CEG",
           "sourceY": 0,
           "answerMode": "多选"
         }
       ],
       "sourceText": "骨髓瘤移植适应证与治疗方案（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-32"
@@ -17679,8 +17738,28 @@
         "page": 2,
         "image": "med/lecture-pages/lecture-32-page-02.webp",
         "title": "第32讲第2页：内科 骨髓瘤",
-        "description": "本题组对应第32讲第2页讲义。"
-      }
+        "description": "对应第32讲第2页讲义。"
+      },
+      "optionBankSections": [
+        {
+          "title": "方案名称",
+          "keys": [
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "title": "组成药物",
+          "keys": [
+            "C",
+            "E",
+            "F",
+            "G",
+            "H"
+          ]
+        }
+      ]
     },
     {
       "id": "p50-g1",
@@ -17691,13 +17770,13 @@
       "options": [
         {
           "key": "A",
-          "label": "骨髓原始细胞＞30%为急性白血病",
-          "sourceText": "A.骨髓原始细胞＞30%为急性白血病"
+          "label": "骨髓原始细胞≥30%为急性白血病",
+          "sourceText": "A.骨髓原始细胞≥30%为急性白血病"
         },
         {
           "key": "B",
-          "label": "骨髓原始细胞＞20%为急性白血病",
-          "sourceText": "B.骨髓原始细胞＞20%为急性白血病"
+          "label": "骨髓原始细胞≥20%为急性白血病",
+          "sourceText": "B.骨髓原始细胞≥20%为急性白血病"
         }
       ],
       "stems": [
@@ -17721,10 +17800,9 @@
         }
       ],
       "sourceText": "急性白血病诊断分型标准（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-32",
         "lecture-33"
       ],
       "lectureEvidence": {
@@ -17732,7 +17810,7 @@
         "page": 1,
         "image": "med/lecture-pages/lecture-33-page-01.webp",
         "title": "第33讲第1页：内科 MDS",
-        "description": "本题组对应第33讲第1页讲义。"
+        "description": "对应第33讲第1页讲义。"
       }
     },
     {
@@ -17821,13 +17899,13 @@
           "answerMode": "多选"
         },
         {
-          "text": "RAEB-t",
+          "text": "RAEB-t可用于判定的指标（满足任一即可）",
           "answer": [
             "C",
             "H",
             "I"
           ],
-          "sourceText": "RAEB-t CHI",
+          "sourceText": "RAEB-t可用于判定的指标（满足任一即可） CHI",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -17844,10 +17922,9 @@
         }
       ],
       "sourceText": "MDS的FAB分型（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-32",
         "lecture-33"
       ],
       "lectureEvidence": {
@@ -17855,7 +17932,7 @@
         "page": 1,
         "image": "med/lecture-pages/lecture-33-page-01.webp",
         "title": "第33讲第1页：内科 MDS",
-        "description": "本题组对应第33讲第1页讲义中的MDS FAB分型表。"
+        "description": "对应第33讲第1页讲义。"
       }
     },
     {
@@ -17913,40 +17990,39 @@
           "answerMode": "多选"
         },
         {
-          "text": "MDS-IB1",
+          "text": "MDS-IB1可用于判定的指标（满足任一即可）",
           "answer": [
             "A",
             "F"
           ],
-          "sourceText": "MDS-IB1 AF",
+          "sourceText": "MDS-IB1可用于判定的指标（满足任一即可） AF",
           "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "MDS-IB2",
+          "text": "MDS-IB2可用于判定的指标（满足任一即可）",
           "answer": [
             "C",
             "E",
             "G"
           ],
-          "sourceText": "MDS-IB2 CEG",
+          "sourceText": "MDS-IB2可用于判定的指标（满足任一即可） CEG",
           "sourceY": 0,
           "answerMode": "多选"
         }
       ],
       "sourceText": "MDS的WHO分型（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-32",
         "lecture-33"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-33",
-        "page": 3,
-        "image": "med/lecture-pages/lecture-33-page-03.webp",
-        "title": "第33讲第3页：内科 MDS",
-        "description": "本题组对应第33讲第3页讲义。"
+        "page": 1,
+        "image": "med/lecture-pages/lecture-33-page-01.webp",
+        "title": "第33讲第1页：内科 MDS",
+        "description": "对应第33讲第1页讲义。"
       }
     },
     {
@@ -17958,23 +18034,18 @@
       "options": [
         {
           "key": "A",
-          "label": "HSCT根治",
-          "sourceText": "A.HSCT根治"
-        },
-        {
-          "key": "B",
-          "label": "地西他滨",
-          "sourceText": "B.地西他滨"
+          "label": "对于IPSS-R评分>3.5分、年轻、原始细胞增多、伴预后不良染色体核型者首选",
+          "sourceText": "A.对于IPSS-R评分>3.5分、年轻、原始细胞增多、伴预后不良染色体核型者首选"
         },
         {
           "key": "C",
-          "label": "去甲基化",
-          "sourceText": "C.去甲基化"
+          "label": "地西他滨",
+          "sourceText": "C.地西他滨"
         },
         {
           "key": "D",
-          "label": "联合化疗",
-          "sourceText": "D.联合化疗"
+          "label": "蒽环类",
+          "sourceText": "D.蒽环类"
         },
         {
           "key": "E",
@@ -18009,7 +18080,7 @@
             "D",
             "I"
           ],
-          "sourceText": "联合化疗DI",
+          "sourceText": "联合化疗 DI",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -18018,19 +18089,18 @@
           "answer": [
             "A"
           ],
-          "sourceText": "HSCT根治A",
+          "sourceText": "HSCT根治 A",
           "sourceY": 0,
           "answerMode": "单选"
         },
         {
           "text": "去甲基化",
           "answer": [
-            "B",
             "C",
             "E",
             "G"
           ],
-          "sourceText": "去甲基化BCEG",
+          "sourceText": "去甲基化 CEG",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -18040,13 +18110,13 @@
             "F",
             "H"
           ],
-          "sourceText": "生物调节剂FH",
+          "sourceText": "生物调节剂 FH",
           "sourceY": 0,
           "answerMode": "多选"
         }
       ],
       "sourceText": "MDS治疗（已按讲义规范化）",
-      "reviewState": "已按讲义校对",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-33"
@@ -18056,7 +18126,7 @@
         "page": 2,
         "image": "med/lecture-pages/lecture-33-page-02.webp",
         "title": "第33讲第2页：内科 MDS",
-        "description": "本题组对应第33讲第2页讲义。"
+        "description": "对应第33讲第2页讲义。"
       }
     },
     {
@@ -18078,8 +18148,8 @@
         },
         {
           "key": "C",
-          "label": "外周血全血细胞↓",
-          "sourceText": "C.外周血全血细胞↓"
+          "label": "外周血贫血或全血细胞↓",
+          "sourceText": "C.外周血贫血或全血细胞↓"
         },
         {
           "key": "D",
@@ -18117,7 +18187,7 @@
             "D",
             "F"
           ],
-          "sourceText": "MDSABCDF",
+          "sourceText": "MDS ABCDF",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -18130,24 +18200,23 @@
             "G",
             "H"
           ],
-          "sourceText": "巨幼细胞贫血BCEGH",
+          "sourceText": "巨幼细胞贫血 BCEGH",
           "sourceY": 0,
           "answerMode": "多选"
         }
       ],
       "sourceText": "MDS与巨幼细胞贫血鉴别（已按讲义规范化）",
-      "reviewState": "已按讲义校对",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-33",
-        "lecture-28"
+        "lecture-33"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-33",
         "page": 3,
         "image": "med/lecture-pages/lecture-33-page-03.webp",
         "title": "第33讲第3页：内科 MDS",
-        "description": "本题组对应第33讲第3页讲义。"
+        "description": "对应第33讲第3页讲义。"
       }
     },
     {
@@ -18179,8 +18248,8 @@
         },
         {
           "key": "E",
-          "label": "网织红细胞↓",
-          "sourceText": "E.网织红细胞↓"
+          "label": "网织红细胞↓（原位溶血时可正常或轻度增加）",
+          "sourceText": "E.网织红细胞↓（原位溶血时可正常或轻度增加）"
         },
         {
           "key": "F",
@@ -18189,8 +18258,8 @@
         },
         {
           "key": "G",
-          "label": "巨核细胞数量显著减少",
-          "sourceText": "G.巨核细胞数量显著减少"
+          "label": "巨核细胞数量显著减少（全片未见巨核细胞）",
+          "sourceText": "G.巨核细胞数量显著减少（全片未见巨核细胞）"
         },
         {
           "key": "H",
@@ -18240,7 +18309,7 @@
             "L",
             "N"
           ],
-          "sourceText": "MDSACEHJLN",
+          "sourceText": "MDS ACEHJLN",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -18255,24 +18324,23 @@
             "K",
             "M"
           ],
-          "sourceText": "再生障碍性贫血BDFGIKM",
+          "sourceText": "再生障碍性贫血 BDFGIKM",
           "sourceY": 0,
           "answerMode": "多选"
         }
       ],
       "sourceText": "MDS与再生障碍性贫血鉴别（已按讲义规范化）",
-      "reviewState": "已按讲义校对",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-33",
-        "lecture-29"
+        "lecture-33"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-33",
         "page": 3,
         "image": "med/lecture-pages/lecture-33-page-03.webp",
         "title": "第33讲第3页：内科 MDS",
-        "description": "本题组对应第33讲第3页讲义。"
+        "description": "对应第33讲第3页讲义。"
       }
     },
     {
@@ -18314,7 +18382,7 @@
         }
       ],
       "sourceText": "白血病分化停滞（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-34"
@@ -18324,7 +18392,7 @@
         "page": 1,
         "image": "med/lecture-pages/lecture-34-page-01.webp",
         "title": "第34讲第1页：内科含诊断 白血病",
-        "description": "本题组对应第34讲第1页讲义。"
+        "description": "对应第34讲第1页讲义。"
       }
     },
     {
@@ -18380,7 +18448,7 @@
         }
       ],
       "sourceText": "ALL的FAB分型（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-34"
@@ -18390,7 +18458,7 @@
         "page": 2,
         "image": "med/lecture-pages/lecture-34-page-02.webp",
         "title": "第34讲第2页：内科含诊断 白血病",
-        "description": "本题组对应第34讲第2页讲义。"
+        "description": "对应第34讲第2页讲义。"
       }
     },
     {
@@ -18407,23 +18475,23 @@
         },
         {
           "key": "B",
-          "label": "骨髓原始细胞占NEC≥30%，各阶段粒细胞＞20%",
-          "sourceText": "B.骨髓原始细胞占NEC≥30%，各阶段粒细胞＞20%"
+          "label": "骨髓原始细胞占NEC≥30%，各阶段粒细胞≥20%，各阶段单核细胞≥20%",
+          "sourceText": "B.骨髓原始细胞占NEC≥30%，各阶段粒细胞≥20%，各阶段单核细胞≥20%"
         },
         {
           "key": "C",
-          "label": "骨髓原始细胞占NEC的30～89%",
-          "sourceText": "C.骨髓原始细胞占NEC的30～89%"
+          "label": "骨髓原粒细胞占NEC的30%～89%",
+          "sourceText": "C.骨髓原粒细胞占NEC的30%～89%"
         },
         {
           "key": "D",
-          "label": "骨髓原始细胞占NEC≥30%，幼红细胞＞50%",
-          "sourceText": "D.骨髓原始细胞占NEC≥30%，幼红细胞＞50%"
+          "label": "骨髓原始细胞占NEC≥30%，幼红细胞≥50%",
+          "sourceText": "D.骨髓原始细胞占NEC≥30%，幼红细胞≥50%"
         },
         {
           "key": "E",
-          "label": "骨髓原巨核细胞＞30%，血小板抗原（+）",
-          "sourceText": "E.骨髓原巨核细胞＞30%，血小板抗原（+）"
+          "label": "骨髓原始巨核细胞≥30%，血小板抗原（+）",
+          "sourceText": "E.骨髓原始巨核细胞≥30%，血小板抗原（+）"
         },
         {
           "key": "F",
@@ -18431,19 +18499,14 @@
           "sourceText": "F.骨髓原始细胞＞30%（门槛），CD13/33阳性，无Auer小体"
         },
         {
-          "key": "G",
-          "label": "骨髓原和幼单核细胞占NEC＞30%，各阶段单核细胞＞80%",
-          "sourceText": "G.骨髓原和幼单核细胞占NEC＞30%，各阶段单核细胞＞80%"
-        },
-        {
           "key": "H",
-          "label": "骨髓早幼粒细胞占NEC＞30%",
-          "sourceText": "H.骨髓早幼粒细胞占NEC＞30%"
+          "label": "骨髓原和幼单核细胞占NEC≥30%，各阶段单核细胞≥80%",
+          "sourceText": "H.骨髓原和幼单核细胞占NEC≥30%，各阶段单核细胞≥80%"
         },
         {
           "key": "I",
-          "label": "骨髓早幼粒细胞占NEC＞30%",
-          "sourceText": "I.骨髓早幼粒细胞占NEC＞30%"
+          "label": "骨髓早幼粒细胞占NEC≥30%",
+          "sourceText": "I.骨髓早幼粒细胞占NEC≥30%"
         }
       ],
       "stems": [
@@ -18521,7 +18584,7 @@
         }
       ],
       "sourceText": "AML的FAB分型（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-34"
@@ -18531,7 +18594,7 @@
         "page": 2,
         "image": "med/lecture-pages/lecture-34-page-02.webp",
         "title": "第34讲第2页：内科含诊断 白血病",
-        "description": "本题组对应第34讲第2页讲义。"
+        "description": "对应第34讲第2页讲义。"
       }
     },
     {
@@ -18553,8 +18616,8 @@
         },
         {
           "key": "C",
-          "label": "肝脾肿大：多为轻中度，巨脾见于CML",
-          "sourceText": "C.肝脾肿大：多为轻中度，巨脾见于CML"
+          "label": "肝脾肿大：多为轻中度，巨脾见于CML及CML急性变",
+          "sourceText": "C.肝脾肿大：多为轻中度，巨脾见于CML及CML急性变"
         },
         {
           "key": "D",
@@ -18573,13 +18636,13 @@
         },
         {
           "key": "G",
-          "label": "出血：血小板减少、感染、凝血异常、白血病细胞浸润血管壁",
-          "sourceText": "G.出血：血小板减少、感染、凝血异常、白血病细胞浸润血管壁"
+          "label": "出血：血小板减少、感染、凝血异常、白血病细胞浸润血管壁、白血病细胞淤滞在血管腔",
+          "sourceText": "G.出血：血小板减少、感染、凝血异常、白血病细胞浸润血管壁、白血病细胞淤滞在血管腔"
         },
         {
           "key": "H",
-          "label": "淋巴结肿大，多见于ALL、CLL",
-          "sourceText": "H.淋巴结肿大，多见于ALL、CLL"
+          "label": "淋巴结肿大（多无痛）：多见于ALL、CLL，纵隔淋巴结肿大多见于T细胞性；AML有时可有，CML几乎无淋巴结肿大",
+          "sourceText": "H.淋巴结肿大（多无痛）：多见于ALL、CLL，纵隔淋巴结肿大多见于T细胞性；AML有时可有，CML几乎无淋巴结肿大"
         },
         {
           "key": "I",
@@ -18648,7 +18711,7 @@
         }
       ],
       "sourceText": "白血病的临床表现（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-34"
@@ -18658,7 +18721,7 @@
         "page": 2,
         "image": "med/lecture-pages/lecture-34-page-02.webp",
         "title": "第34讲第2页：内科含诊断 白血病",
-        "description": "本题组对应第34讲第2页讲义。"
+        "description": "对应第34讲第2页讲义。"
       }
     },
     {
@@ -18763,7 +18826,7 @@
         }
       ],
       "sourceText": "中枢白血病与睾丸白血病（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-34"
@@ -18773,7 +18836,7 @@
         "page": 2,
         "image": "med/lecture-pages/lecture-34-page-02.webp",
         "title": "第34讲第2页：内科含诊断 白血病",
-        "description": "本题组对应第34讲第2页讲义。"
+        "description": "对应第34讲第2页讲义。"
       }
     },
     {
@@ -18910,17 +18973,17 @@
         }
       ],
       "sourceText": "白血病细胞来源与免疫表型（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-34"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-34",
-        "page": 4,
-        "image": "med/lecture-pages/lecture-34-page-04.webp",
-        "title": "第34讲第4页：内科含诊断 白血病",
-        "description": "本题组对应第34讲第4页讲义。"
+        "page": 3,
+        "image": "med/lecture-pages/lecture-34-page-03.webp",
+        "title": "第34讲第3页：内科含诊断 白血病",
+        "description": "对应第34讲第3页讲义。"
       }
     },
     {
@@ -18937,8 +19000,8 @@
         },
         {
           "key": "B",
-          "label": "t(8;21)(q22;q22)形成RUNX-RUNX1T1（AML1-ETO）",
-          "sourceText": "B.t(8;21)(q22;q22)形成RUNX-RUNX1T1（AML1-ETO）"
+          "label": "t(8;21)(q22;q22)形成RUNX1-RUNX1T1（AML1-ETO）",
+          "sourceText": "B.t(8;21)(q22;q22)形成RUNX1-RUNX1T1（AML1-ETO）"
         },
         {
           "key": "C",
@@ -19001,7 +19064,7 @@
         }
       ],
       "sourceText": "AML细胞遗传学与预后（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-34"
@@ -19011,7 +19074,7 @@
         "page": 4,
         "image": "med/lecture-pages/lecture-34-page-04.webp",
         "title": "第34讲第4页：内科含诊断 白血病",
-        "description": "本题组对应第34讲第4页讲义。"
+        "description": "对应第34讲第4页讲义。"
       }
     },
     {
@@ -19023,8 +19086,8 @@
       "options": [
         {
           "key": "A",
-          "label": "骨髓早幼粒细胞＞30%",
-          "sourceText": "A.骨髓早幼粒细胞＞30%"
+          "label": "骨髓早幼粒细胞≥30%",
+          "sourceText": "A.骨髓早幼粒细胞≥30%"
         },
         {
           "key": "B",
@@ -19043,8 +19106,8 @@
         },
         {
           "key": "E",
-          "label": "各阶段单核细胞＞80%",
-          "sourceText": "E.各阶段单核细胞＞80%"
+          "label": "各阶段单核细胞≥80%",
+          "sourceText": "E.各阶段单核细胞≥80%"
         },
         {
           "key": "F",
@@ -19083,8 +19146,8 @@
         },
         {
           "key": "M",
-          "label": "t(8;21)(q22;q22)→RUNX-RUNX1T1",
-          "sourceText": "M.t(8;21)(q22;q22)→RUNX-RUNX1T1"
+          "label": "t(8;21)(q22;q22)→RUNX1-RUNX1T1",
+          "sourceText": "M.t(8;21)(q22;q22)→RUNX1-RUNX1T1"
         },
         {
           "key": "N",
@@ -19135,7 +19198,7 @@
         }
       ],
       "sourceText": "AML各亚型临床与实验室特征（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-34"
@@ -19145,7 +19208,7 @@
         "page": 5,
         "image": "med/lecture-pages/lecture-34-page-05.webp",
         "title": "第34讲第5页：内科含诊断 白血病",
-        "description": "本题组对应第34讲第5页讲义。"
+        "description": "对应第34讲第5页讲义。"
       }
     },
     {
@@ -19225,10 +19288,9 @@
         }
       ],
       "sourceText": "急性白血病治疗要点（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-33",
         "lecture-34"
       ],
       "lectureEvidence": {
@@ -19236,7 +19298,7 @@
         "page": 5,
         "image": "med/lecture-pages/lecture-34-page-05.webp",
         "title": "第34讲第5页：内科含诊断 白血病",
-        "description": "本题组对应第34讲第5页讲义。"
+        "description": "对应第34讲第5页讲义。"
       }
     },
     {
@@ -19331,7 +19393,7 @@
             "I",
             "M"
           ],
-          "sourceText": "AML（除M3型） B F(A+K) I(C+K) M(D+K)",
+          "sourceText": "AML（除M3型）的预处理及联合化疗方案 BFIM",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -19343,7 +19405,7 @@
             "J",
             "N"
           ],
-          "sourceText": "ALL E H(G+L) J(C+G+L) N(C+G+L+O)",
+          "sourceText": "ALL的预处理及联合化疗方案 EHJN",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -19353,7 +19415,7 @@
             "A",
             "K"
           ],
-          "sourceText": "IA（A+K）",
+          "sourceText": "IA方案组成 AK",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -19363,7 +19425,7 @@
             "C",
             "K"
           ],
-          "sourceText": "DA（C+K）",
+          "sourceText": "DA方案组成 CK",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -19373,7 +19435,7 @@
             "D",
             "K"
           ],
-          "sourceText": "HA（D+K）",
+          "sourceText": "HA方案组成 DK",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -19383,7 +19445,7 @@
             "G",
             "L"
           ],
-          "sourceText": "VP（G+L）",
+          "sourceText": "VP方案组成 GL",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -19394,7 +19456,7 @@
             "G",
             "L"
           ],
-          "sourceText": "DVP（C+G+L）",
+          "sourceText": "DVP方案组成 CGL",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -19406,7 +19468,7 @@
             "L",
             "O"
           ],
-          "sourceText": "DVLP（C+G+L+O）",
+          "sourceText": "DVLP方案组成 CGLO",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -19430,7 +19492,7 @@
         }
       ],
       "sourceText": "急性白血病的联合化疗（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-34"
@@ -19440,7 +19502,7 @@
         "page": 5,
         "image": "med/lecture-pages/lecture-34-page-05.webp",
         "title": "第34讲第5页：内科含诊断 白血病",
-        "description": "本题组对应第34讲第5页讲义。"
+        "description": "对应第34讲第5页讲义。"
       }
     },
     {
@@ -19462,8 +19524,8 @@
         },
         {
           "key": "C",
-          "label": "多数学急粒变，也可为淋巴、单核、巨核、红细胞等类型急性变",
-          "sourceText": "C.多数学急粒变，也可为淋巴、单核、巨核、红细胞等类型急性变"
+          "label": "多数为急粒变，也可为淋巴、单核、巨核、红细胞等类型急性变",
+          "sourceText": "C.多数为急粒变，也可为淋巴、单核、巨核、红细胞等类型急性变"
         },
         {
           "key": "D",
@@ -19487,8 +19549,8 @@
         },
         {
           "key": "H",
-          "label": "外周血或骨髓原始细胞＞10%、外周血嗜碱性粒细胞＞20%、血小板进行性减少或增加",
-          "sourceText": "H.外周血或骨髓原始细胞＞10%、外周血嗜碱性粒细胞＞20%、血小板进行性减少或增加"
+          "label": "外周血或骨髓原始细胞≥10%、外周血嗜碱性粒细胞>20%、血小板进行性减少或增加",
+          "sourceText": "H.外周血或骨髓原始细胞≥10%、外周血嗜碱性粒细胞>20%、血小板进行性减少或增加"
         },
         {
           "key": "I",
@@ -19562,7 +19624,7 @@
         }
       ],
       "sourceText": "慢性髓系白血病分期（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-34"
@@ -19572,7 +19634,7 @@
         "page": 6,
         "image": "med/lecture-pages/lecture-34-page-06.webp",
         "title": "第34讲第6页：内科含诊断 白血病",
-        "description": "本题组对应第34讲第6页讲义。"
+        "description": "对应第34讲第6页讲义。"
       }
     },
     {
@@ -19655,7 +19717,7 @@
             "D",
             "G"
           ],
-          "sourceText": "长春新碱VCR（DG",
+          "sourceText": "长春新碱（VCR） DG",
           "sourceY": 105,
           "answerMode": "多选"
         },
@@ -19664,7 +19726,7 @@
           "answer": [
             "F"
           ],
-          "sourceText": "柔红霉素DNRE",
+          "sourceText": "柔红霉素（DNR） F",
           "sourceY": 154,
           "answerMode": "单选"
         },
@@ -19675,7 +19737,7 @@
             "E",
             "H"
           ],
-          "sourceText": "左旋门冬酰胺酶L-ASPBEH",
+          "sourceText": "左旋门冬酰胺酶（L-ASP） BEH",
           "sourceY": 179,
           "answerMode": "多选"
         },
@@ -19687,7 +19749,7 @@
             "C",
             "J"
           ],
-          "sourceText": "环磷酰胺CTX（AB CJ",
+          "sourceText": "环磷酰胺（CTX） ABCJ",
           "sourceY": 229,
           "answerMode": "多选"
         },
@@ -19696,7 +19758,7 @@
           "answer": [
             "K"
           ],
-          "sourceText": "阿糖胞苷（Ara-C）K",
+          "sourceText": "阿糖胞苷（Ara-C） K",
           "sourceY": 251,
           "answerMode": "单选"
         },
@@ -19707,7 +19769,7 @@
             "I",
             "L"
           ],
-          "sourceText": "甲氨蝶吟MTXBIL",
+          "sourceText": "甲氨蝶呤（MTX） BIL",
           "sourceY": 277,
           "answerMode": "多选"
         },
@@ -19716,13 +19778,13 @@
           "answer": [
             "M"
           ],
-          "sourceText": "高三尖杉酯碱HHT（M",
+          "sourceText": "高三尖杉酯碱HHT M",
           "sourceY": 302,
           "answerMode": "单选"
         }
       ],
       "sourceText": "小结化疗药的副作用：A.骨髓和性腺抑制；B.肝功能损害；C.出血性膀胱炎；D.末梢神经炎；E.过敏反应；F.心脏毒性；G.便秘；H.胰腺炎；I.肾损害；J.脱发；K.小脑共济失调；L.粘膜炎；M.心肌损害",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-34"
@@ -19732,7 +19794,7 @@
         "page": 6,
         "image": "med/lecture-pages/lecture-34-page-06.webp",
         "title": "第34讲第6页：内科含诊断 白血病",
-        "description": "本题组对应第34讲第6页讲义。"
+        "description": "对应第34讲第6页讲义。"
       }
     },
     {
@@ -19754,8 +19816,8 @@
         },
         {
           "key": "C",
-          "label": "常见骨髓象原始细胞>30%（FAB分型）或>20%（WHO分型）",
-          "sourceText": "C.常见骨髓象原始细胞>30%(FAB分型)或>20%(WHO分型)"
+          "label": "常见骨髓象：原始细胞≥30%（FAB分型）或≥20%（WHO分型）",
+          "sourceText": "C.常见骨髓象：原始细胞≥30%（FAB分型）或≥20%（WHO分型）"
         },
         {
           "key": "D",
@@ -19799,8 +19861,8 @@
         },
         {
           "key": "L",
-          "label": "常见骨髓象慢性期：原始细胞<10%，加速期：原始细胞>10%，急变期：原始细胞>20%",
-          "sourceText": "L.常见骨髓象慢性期：原始细胞<10%，加速期：原始细胞>10%，急变期：原始细胞>20%"
+          "label": "常见骨髓象：慢性期原始细胞<10%，加速期原始细胞≥10%，急变期原始细胞>20%",
+          "sourceText": "L.常见骨髓象：慢性期原始细胞<10%，加速期原始细胞≥10%，急变期原始细胞>20%"
         },
         {
           "key": "M",
@@ -19836,7 +19898,7 @@
             "M",
             "P"
           ],
-          "sourceText": "急性白血病（ACEFHKMP）",
+          "sourceText": "急性白血病 ACEFHKMP",
           "sourceY": 510,
           "answerMode": "多选"
         },
@@ -19852,23 +19914,23 @@
             "N",
             "O"
           ],
-          "sourceText": "CML（BDGIJLNO）",
+          "sourceText": "CML BDGIJLNO",
           "sourceY": 560,
           "answerMode": "多选"
         }
       ],
       "sourceText": "A.病情发展快 | B.常见血象慢性期 | C.常见骨髓象原始细胞>30%或>20% | D.巨脾 | E.淋巴结肿大 | F.Ph染色体提示预后差 | G.NAP↓但急性变↑ | H.分化停滞较早 | I.分化停滞较晚 | J.病情发展慢 | K.血象红细胞和血小板↓、白细胞↑ | L.骨髓象慢性期/加速期/急变期 | M.脾脏轻中度肿大 | N.淋巴结几乎无肿大 | O.Ph染色体可诊断 | P.NAP急粒↓、急淋↑ | 急性白血病（ACEFHKMP） | CML（BDGIJLNO）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-34"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-34",
-        "page": 9,
-        "image": "med/lecture-pages/lecture-34-page-09.webp",
-        "title": "第34讲第9页：内科含诊断 白血病",
-        "description": "本题组对应第34讲第9页讲义。"
+        "page": 6,
+        "image": "med/lecture-pages/lecture-34-page-06.webp",
+        "title": "第34讲第6页：内科含诊断 白血病",
+        "description": "对应第34讲第6页讲义。"
       }
     },
     {
@@ -19880,8 +19942,8 @@
       "options": [
         {
           "key": "A",
-          "label": "膈肌同侧>2组淋巴结",
-          "sourceText": "A.膈肌同侧>2组淋巴结"
+          "label": "膈肌同侧≥2组淋巴结",
+          "sourceText": "A.膈肌同侧≥2组淋巴结"
         },
         {
           "key": "B",
@@ -19890,8 +19952,8 @@
         },
         {
           "key": "C",
-          "label": "隔肌上下组淋巴结。可伴相关结外器官局部IE、可累及脾川IS(查体触及或影像)、可两者均有IIE+S",
-          "sourceText": "C.隔肌上下组淋巴结。可伴相关结外器官局部IE、可累及脾川IS(查体触及或影像)、可两者均有IIE+S"
+          "label": "膈肌上下组淋巴结；可伴相关结外器官局部受累ⅢE、可累及脾ⅢS（查体触及或影像），可两者均有ⅢE+S",
+          "sourceText": "C.膈肌上下组淋巴结；可伴相关结外器官局部受累ⅢE、可累及脾ⅢS（查体触及或影像），可两者均有ⅢE+S"
         },
         {
           "key": "D",
@@ -19905,8 +19967,8 @@
         },
         {
           "key": "F",
-          "label": "多个结外器官（如剖腹探查见胃与胰头及腹膜粘连",
-          "sourceText": "F.多个结外器官（如剖腹探查见胃与胰头及腹膜粘连"
+          "label": "多个结外器官（如剖腹探查见胃与胰头及腹膜粘连）",
+          "sourceText": "F.多个结外器官（如剖腹探查见胃与胰头及腹膜粘连）"
         }
       ],
       "stems": [
@@ -19915,7 +19977,7 @@
           "answer": [
             "E"
           ],
-          "sourceText": "I期E",
+          "sourceText": "I期 E",
           "sourceY": 310,
           "answerMode": "单选"
         },
@@ -19924,7 +19986,7 @@
           "answer": [
             "A"
           ],
-          "sourceText": "II期A",
+          "sourceText": "II期 A",
           "sourceY": 360,
           "answerMode": "单选"
         },
@@ -19933,7 +19995,7 @@
           "answer": [
             "C"
           ],
-          "sourceText": "III期C",
+          "sourceText": "III期 C",
           "sourceY": 410,
           "answerMode": "单选"
         },
@@ -19944,28 +20006,23 @@
             "D",
             "F"
           ],
-          "sourceText": "IV期BDF",
+          "sourceText": "IV期 BDF",
           "sourceY": 460,
           "answerMode": "多选"
         }
       ],
       "sourceText": "淋巴瘤 | A.膈肌同侧>2组淋巴结 | B.1个结外器官多部、或非区域淋巴结（如胸水) | C.隔肌上下组淋巴结。可伴相关结外器官局部IE、可累及脾川IS(查体触及或影像)、可两者均有IIE+S | D.骨髓(骨髓穿刺)、或肝(影像或病理) | E.1组淋巴结 | F.多个结外器官（如剖腹探查见胃与胰头及腹膜粘连 | 分期 | ICE | IA | I(C | IVBDF | A.发病率高 | B.首发部位淋巴结（颈部淋巴结最常见) | 霍奇金淋巴瘤HLBEGH | C.淋巴结扩散可呈跳跃性 | D.可向白血病转化，预后差(非常差) | 非霍奇金淋巴瘤NHL（ACDE | E.发病率低 | F.首发部位2/3淋巴结、1/3结外器官组织（在胃肠道以回肠、在胸部以肺门 | 和纵隔、在骨骼以胸腰椎最常见) | G.由近及远向周围淋巴结扩散 | H.无向白血病转化，预后好 | A.全反式维甲酸ATRA | BDE | ALL | B.VP | C.IA | 中枢白血病 | H | D.DVP | E.砷剂 | 睾丸白血病 | F.DVLP | G.DA | M3型A+E+I | AML | H.鞘内注射甲氨蝶呤 | 除M3型CG L | 1.葱环类 | J.双侧睾丸局部放疗 | CML (N | K.ABVD | L.HA | HL | KP | M.VD | N.酪氨酸激酶抑制剂TKI如伊马替尼 | NHL | O.RD | P.BV-AVD | MM (MOR | Q.CHOP | R.MVP | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-28",
-        "lecture-29",
-        "lecture-30",
-        "lecture-32",
-        "lecture-33",
-        "lecture-34"
+        "lecture-35"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-35",
-        "page": 8,
-        "image": "med/lecture-pages/lecture-35-page-08.webp",
-        "title": "第35讲第8页：内科含诊断+病理 淋巴瘤",
-        "description": "本题组对应第35讲第8页讲义。"
+        "page": 1,
+        "image": "med/lecture-pages/lecture-35-page-01.webp",
+        "title": "第35讲第1页：内科含诊断+病理 淋巴瘤",
+        "description": "对应第35讲第1页讲义。"
       }
     },
     {
@@ -20002,8 +20059,8 @@
         },
         {
           "key": "F",
-          "label": "首发部位2/3为淋巴结、1/3为结外器官组织",
-          "sourceText": "F.首发部位2/3淋巴结、1/3结外器官组织"
+          "label": "首发部位2/3为淋巴结、1/3为结外器官组织（胃肠道以回肠、胸部以肺门和纵隔、骨骼以胸腰椎最常见）",
+          "sourceText": "F.首发部位2/3为淋巴结、1/3为结外器官组织（胃肠道以回肠、胸部以肺门和纵隔、骨骼以胸腰椎最常见）"
         },
         {
           "key": "G",
@@ -20025,7 +20082,7 @@
             "G",
             "H"
           ],
-          "sourceText": "霍奇金淋巴瘤（BEGH）",
+          "sourceText": "霍奇金淋巴瘤 BEGH",
           "sourceY": 579,
           "answerMode": "多选"
         },
@@ -20037,13 +20094,13 @@
             "D",
             "F"
           ],
-          "sourceText": "非霍奇金淋巴瘤NHL（ACDF）",
+          "sourceText": "非霍奇金淋巴瘤NHL ACDF",
           "sourceY": 628,
           "answerMode": "多选"
         }
       ],
       "sourceText": "A.发病率高 | B.首发部位淋巴结 | C.淋巴结扩散可呈跳跃性 | D.可向白血病转化、预后差 | E.发病率低 | F.首发部位2/3淋巴结、1/3结外器官组织 | G.由近及远向周围淋巴结扩散 | H.无向白血病转化、预后好 | 霍奇金淋巴瘤（BEGH） | 非霍奇金淋巴瘤NHL（ACDF）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-35"
@@ -20053,7 +20110,7 @@
         "page": 1,
         "image": "med/lecture-pages/lecture-35-page-01.webp",
         "title": "第35讲第1页：内科含诊断+病理 淋巴瘤",
-        "description": "本题组对应第35讲第1页讲义。"
+        "description": "对应第35讲第1页讲义。"
       }
     },
     {
@@ -20162,7 +20219,7 @@
             "D",
             "F"
           ],
-          "sourceText": "ALL（BDF）",
+          "sourceText": "ALL BDF",
           "sourceY": 945,
           "answerMode": "多选"
         },
@@ -20171,7 +20228,7 @@
           "answer": [
             "H"
           ],
-          "sourceText": "中枢白血病（H）",
+          "sourceText": "中枢白血病 H",
           "sourceY": 970,
           "answerMode": "单选"
         },
@@ -20180,7 +20237,7 @@
           "answer": [
             "J"
           ],
-          "sourceText": "睾丸白血病（J）",
+          "sourceText": "睾丸白血病 J",
           "sourceY": 995,
           "answerMode": "单选"
         },
@@ -20191,7 +20248,7 @@
             "E",
             "I"
           ],
-          "sourceText": "M3型（AEI）",
+          "sourceText": "AML：M3型 AEI",
           "sourceY": 1039,
           "answerMode": "多选"
         },
@@ -20202,7 +20259,7 @@
             "G",
             "L"
           ],
-          "sourceText": "除M3型（CGL）",
+          "sourceText": "AML：除M3型 CGL",
           "sourceY": 1064,
           "answerMode": "多选"
         },
@@ -20211,7 +20268,7 @@
           "answer": [
             "N"
           ],
-          "sourceText": "CML（N）",
+          "sourceText": "CML N",
           "sourceY": 1112,
           "answerMode": "单选"
         },
@@ -20221,7 +20278,7 @@
             "K",
             "P"
           ],
-          "sourceText": "HL（KP）",
+          "sourceText": "霍奇金淋巴瘤HL KP",
           "sourceY": 1160,
           "answerMode": "多选"
         },
@@ -20230,7 +20287,7 @@
           "answer": [
             "Q"
           ],
-          "sourceText": "NHL（Q）",
+          "sourceText": "非霍奇金淋巴瘤NHL Q",
           "sourceY": 1210,
           "answerMode": "单选"
         },
@@ -20241,13 +20298,13 @@
             "O",
             "R"
           ],
-          "sourceText": "MM（MOR）",
+          "sourceText": "浆细胞骨髓瘤MM MOR",
           "sourceY": 1261,
           "answerMode": "多选"
         }
       ],
       "sourceText": "A.全反式维甲酸ATRA | B.VP | C.IA | D.DVP | E.砷剂 | F.DVLP | G.DA | H.鞘内注射甲氨蝶呤 | I.蒽环类 | J.双侧睾丸局部放疗 | K.ABVD | L.HA | M.VD | N.TKI如伊马替尼 | O.RD | P.BV-AVD | Q.CHOP | R.MVP | ALL（BDF） | 中枢白血病（H） | 睾丸白血病（J） | M3型（AEI） | 除M3型（CGL） | CML（N） | HL（KP） | NHL（Q） | MM（MOR）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-35"
@@ -20257,7 +20314,7 @@
         "page": 4,
         "image": "med/lecture-pages/lecture-35-page-04.webp",
         "title": "第35讲第4页：内科含诊断+病理 淋巴瘤",
-        "description": "本题组对应第35讲第4页讲义。"
+        "description": "对应第35讲第4页讲义。"
       }
     },
     {
@@ -20355,23 +20412,23 @@
             "M",
             "O"
           ],
-          "sourceText": "B细胞来源的NHLBDEGIMO",
+          "sourceText": "B细胞来源的 BDEGIMO",
           "sourceY": 69,
           "answerMode": "多选"
         },
         {
           "text": "T细胞来源的",
           "answer": [
-            "N",
-            "H",
-            "L",
             "A",
             "C",
             "F",
+            "H",
             "J",
-            "K"
+            "K",
+            "L",
+            "N"
           ],
-          "sourceText": "T细胞来源的NHLACFHJLNK",
+          "sourceText": "T细胞来源的 ACFHJKLN",
           "sourceY": 118,
           "answerMode": "多选"
         },
@@ -20380,7 +20437,7 @@
           "answer": [
             "K"
           ],
-          "sourceText": "NK/T细胞来源的NHL（K",
+          "sourceText": "NK/T细胞来源的NHL K",
           "sourceY": 166,
           "answerMode": "单选"
         },
@@ -20391,7 +20448,7 @@
             "M",
             "O"
           ],
-          "sourceText": "常考的无CD10和BCL6的EMO",
+          "sourceText": "常考的无CD10和BCL6的 EMO",
           "sourceY": 217,
           "answerMode": "多选"
         },
@@ -20405,7 +20462,7 @@
             "M",
             "N"
           ],
-          "sourceText": "惰性淋巴瘤（CDELMN）",
+          "sourceText": "惰性淋巴瘤 CDELMN",
           "sourceY": 267,
           "answerMode": "多选"
         },
@@ -20419,7 +20476,7 @@
             "K",
             "O"
           ],
-          "sourceText": "侵袭性淋巴瘤（BFHJKO",
+          "sourceText": "侵袭性淋巴瘤 BFHJKO",
           "sourceY": 315,
           "answerMode": "多选"
         },
@@ -20430,7 +20487,7 @@
             "G",
             "I"
           ],
-          "sourceText": "高度侵袭性淋巴瘤AGI",
+          "sourceText": "高度侵袭性淋巴瘤 AGI",
           "sourceY": 363,
           "answerMode": "多选"
         },
@@ -20442,7 +20499,7 @@
             "G",
             "I"
           ],
-          "sourceText": "NHL中儿童、青少年多见的AFGI",
+          "sourceText": "NHL中儿童、青少年多见的 AFGI",
           "sourceY": 412,
           "answerMode": "多选"
         },
@@ -20452,28 +20509,23 @@
             "I",
             "K"
           ],
-          "sourceText": "NHL中多不累及淋巴结的（IK",
+          "sourceText": "NHL中多不累及淋巴结的 IK",
           "sourceY": 463,
           "answerMode": "多选"
         }
       ],
       "sourceText": "A.T淋巴母/前体T/T-ALL | B细胞来源的NHLBDEGIMO | B.弥漫大B | C.皮肤T | T细胞来源的NHLACFHJLNK | D.滤泡性 | E.小淋巴/CLL | NK/T细胞来源的NHL（K | F.间变性大 | G.B淋巴母/前体/B-ALL | 常考的无CD10和BCL6的EMO | H.恶性组织细胞增生症 | 1.Burkitt | 惰性淋巴瘤（C(LN)DEM | J.扭曲性/曲折核 | K.NK/T | 侵袭性淋巴瘤（BFHJKO | L.蕈样肉芽肿病 | M.胃结外黏膜相关淋巴组织边缘区淋巴瘤 | 高度侵袭性淋巴瘤AGI | N.Sezary综合征 | 0.套细胞淋巴瘤 | NHL中儿童、青少年多见的AFGI | NHL中多不累及淋巴结的（IK | A.需要抗Hp治疗 | B.我国成人最常见（人口大国) | C.幼淋巴细胞灶性成团形成“增殖中心\"(无CD10和BCL6) | D.小无裂细胞恶变而来 | E.双表达（myc+BCL2高表达）、双打击（myc+BCL2或BCL6异位） | F.儿童更多见，常表现为白血病（血WBC个、但一般不超过100) | G.多累及脾脏、骨髓、腹股沟淋巴结 | H.区分反应增生滤泡和肿瘤滤泡：肿瘤单克隆、18号染色体的BCL2基因转位致BCL2蛋白高表达 | 1.欧美成人最常见 | J.满天星/星空现象（瘤细胞间有胞质丰富的反应性巨噬细胞）→预后差 | K.外周血B淋巴细胞>5x10%/L、骨髓淋巴细胞>40%、以成熟淋巴细胞为主 | L.肿瘤细胞若侵犯血液、骨髓即ALLL3型 | M.侵犯血液即Sezary 综合征 | N.青少年更多见，常表现为胸腺肿块teenage发育 | O.而p53基因突变可见于25-50%患者、常见于EBV阴性者 | P.Pautrier微脓肿/鲍氏小脓肿 | Q.对化疗非常敏感、单独用化疗即可治愈 | R.蕈样肉芽肿病 | S.可由滤泡性淋巴瘤转变而来（p53失活） | 弥漫大BBES | T.脑回状细胞核 | U.儿童、青少年多见 | 滤泡性GH | V.EBV感染 | W.鼻腔受累为主 | 小淋巴/CLLCIK) | X.15岁以下多见 | 淋巴母/前体UX-T-ALL（N | B-ALLF | BurkittDJ LOQUV | 皮肤TMPRT | 间变性大(U) | NK/TVW | 胃结外黏膜相关淋巴组织边缘区淋巴瘤MALT（A） | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-28",
-        "lecture-29",
-        "lecture-30",
-        "lecture-32",
-        "lecture-33",
-        "lecture-34"
+        "lecture-35"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-35",
         "page": 3,
         "image": "med/lecture-pages/lecture-35-page-03.webp",
         "title": "第35讲第3页：内科含诊断+病理 淋巴瘤",
-        "description": "本题组对应第35讲第3页讲义。"
+        "description": "对应第35讲第3页讲义。"
       }
     },
     {
@@ -20510,8 +20562,8 @@
         },
         {
           "key": "F",
-          "label": "儿童更多见，常表现为白血病",
-          "sourceText": "F.儿童更多见，常表现为白血病"
+          "label": "儿童更多见，常表现为白血病（血WBC↑，但一般不超过100×10⁹/L）",
+          "sourceText": "F.儿童更多见，常表现为白血病（血WBC↑，但一般不超过100×10⁹/L）"
         },
         {
           "key": "G",
@@ -20520,8 +20572,8 @@
         },
         {
           "key": "H",
-          "label": "肿瘤滤泡BCL2基因转位致BCL2蛋白高表达",
-          "sourceText": "H.区分反应增生滤泡和肿瘤滤泡：18号染色体的BCL2基因转位致BCL2蛋白高表达"
+          "label": "区分反应性增生滤泡和肿瘤滤泡：肿瘤单克隆、18号染色体的BCL2基因转位致BCL2蛋白高表达",
+          "sourceText": "H.区分反应性增生滤泡和肿瘤滤泡：肿瘤单克隆、18号染色体的BCL2基因转位致BCL2蛋白高表达"
         },
         {
           "key": "I",
@@ -20530,13 +20582,13 @@
         },
         {
           "key": "J",
-          "label": "满天星/星空现象",
+          "label": "满天星/星空现象（瘤细胞间有胞质丰富的反应性巨噬细胞）→预后差",
           "sourceText": "J.满天星/星空现象（瘤细胞间有胞质丰富的反应性巨噬细胞）→预后差"
         },
         {
           "key": "K",
-          "label": "外周血B淋巴细胞>5×10⁹/L、骨髓淋巴细胞>40%，以成熟淋巴细胞为主",
-          "sourceText": "K.外周血B淋巴细胞>5×10⁹/L、骨髓淋巴细胞>40%、以成熟淋巴细胞为主"
+          "label": "外周血B淋巴细胞≥5×10⁹/L、骨髓淋巴细胞≥40%，以成熟淋巴细胞为主",
+          "sourceText": "K.外周血B淋巴细胞≥5×10⁹/L、骨髓淋巴细胞≥40%，以成熟淋巴细胞为主"
         },
         {
           "key": "L",
@@ -20612,7 +20664,7 @@
             "E",
             "S"
           ],
-          "sourceText": "弥漫大B（BES）",
+          "sourceText": "弥漫大B淋巴瘤 BES",
           "sourceY": 986,
           "answerMode": "多选"
         },
@@ -20622,7 +20674,7 @@
             "G",
             "H"
           ],
-          "sourceText": "滤泡性（GH）",
+          "sourceText": "滤泡性淋巴瘤 GH",
           "sourceY": 1034,
           "answerMode": "多选"
         },
@@ -20633,7 +20685,7 @@
             "I",
             "K"
           ],
-          "sourceText": "小淋巴/CLL（CIK）",
+          "sourceText": "小淋巴/CLL CIK",
           "sourceY": 1084,
           "answerMode": "多选"
         },
@@ -20643,7 +20695,7 @@
             "U",
             "X"
           ],
-          "sourceText": "淋巴母/前体（UX）",
+          "sourceText": "淋巴母/前体 UX",
           "sourceY": 1133,
           "answerMode": "多选"
         },
@@ -20652,7 +20704,7 @@
           "answer": [
             "N"
           ],
-          "sourceText": "T-ALL（N）",
+          "sourceText": "T-ALL N",
           "sourceY": 1145,
           "answerMode": "单选"
         },
@@ -20661,7 +20713,7 @@
           "answer": [
             "F"
           ],
-          "sourceText": "B-ALL（F）",
+          "sourceText": "B-ALL F",
           "sourceY": 1158,
           "answerMode": "单选"
         },
@@ -20676,7 +20728,7 @@
             "U",
             "V"
           ],
-          "sourceText": "Burkitt（DJLOQUV）",
+          "sourceText": "Burkitt淋巴瘤 DJLOQUV",
           "sourceY": 1206,
           "answerMode": "多选"
         },
@@ -20688,7 +20740,7 @@
             "R",
             "T"
           ],
-          "sourceText": "皮肤T（MPRT）",
+          "sourceText": "皮肤T细胞淋巴瘤 MPRT",
           "sourceY": 1255,
           "answerMode": "多选"
         },
@@ -20697,7 +20749,7 @@
           "answer": [
             "U"
           ],
-          "sourceText": "间变性大（U）",
+          "sourceText": "间变性大细胞淋巴瘤 U",
           "sourceY": 1303,
           "answerMode": "单选"
         },
@@ -20707,7 +20759,7 @@
             "V",
             "W"
           ],
-          "sourceText": "NK/T（VW）",
+          "sourceText": "NK/T细胞淋巴瘤 VW",
           "sourceY": 1352,
           "answerMode": "多选"
         },
@@ -20716,13 +20768,13 @@
           "answer": [
             "A"
           ],
-          "sourceText": "胃结外黏膜相关淋巴组织边缘区淋巴瘤MALT（A）",
+          "sourceText": "胃结外黏膜相关淋巴组织边缘区淋巴瘤MALT A",
           "sourceY": 1403,
           "answerMode": "单选"
         }
       ],
       "sourceText": "A.需要抗Hp治疗 | B.我国成人最常见 | C.幼淋巴细胞增殖中心 | D.小无裂细胞恶变而来 | E.双表达/双打击 | F.儿童更多见并常表现为白血病 | G.多累及脾脏、骨髓、腹股沟淋巴结 | H.BCL2基因转位并高表达 | I.欧美成人最常见 | J.满天星现象 | K.外周血B淋巴细胞>5×10⁹/L、骨髓淋巴细胞>40% | L.ALL L3型 | M.Sezary综合征 | N.青少年胸腺肿块 | O.p53突变 | P.Pautrier微脓肿 | Q.化疗敏感且可治愈 | R.蕈样肉芽肿病 | S.滤泡性转化而来 | T.脑回状细胞核 | U.儿童青少年多见 | V.EBV感染 | W.鼻腔受累 | X.15岁以下多见 | 弥漫大B（BES） | 滤泡性（GH） | 小淋巴/CLL（CIK） | 淋巴母/前体（UX） | T-ALL（N） | B-ALL（F） | Burkitt（DJLOQUV） | 皮肤T（MPRT） | 间变性大（U） | NK/T（VW） | MALT（A）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-35"
@@ -20732,7 +20784,7 @@
         "page": 3,
         "image": "med/lecture-pages/lecture-35-page-03.webp",
         "title": "第35讲第3页：内科含诊断+病理 淋巴瘤",
-        "description": "本题组对应第35讲第3页讲义。"
+        "description": "对应第35讲第3页讲义。"
       }
     },
     {
@@ -20770,7 +20822,7 @@
             "B",
             "D"
           ],
-          "sourceText": "Burkitt淋巴瘤：地方性BD",
+          "sourceText": "Burkitt淋巴瘤：地方性 BD",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -20779,7 +20831,7 @@
           "answer": [
             "A"
           ],
-          "sourceText": "Burkitt淋巴瘤：散发性A",
+          "sourceText": "Burkitt淋巴瘤：散发性 A",
           "sourceY": 0,
           "answerMode": "单选"
         },
@@ -20788,13 +20840,13 @@
           "answer": [
             "C"
           ],
-          "sourceText": "Burkitt淋巴瘤：免疫缺陷性C",
+          "sourceText": "Burkitt淋巴瘤：免疫缺陷性 C",
           "sourceY": 0,
           "answerMode": "单选"
         }
       ],
       "sourceText": "Burkitt淋巴瘤类型（已按原题页与第35讲第3页讲义复核）",
-      "reviewState": "已按讲义校对",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-35"
@@ -20804,7 +20856,7 @@
         "page": 3,
         "image": "med/lecture-pages/lecture-35-page-03.webp",
         "title": "第35讲第3页：内科含诊断+病理 淋巴瘤",
-        "description": "本题组对应第35讲第3页讲义中的Burkitt淋巴瘤分类。"
+        "description": "对应第35讲第3页讲义。"
       }
     },
     {
@@ -20821,8 +20873,8 @@
         },
         {
           "key": "B",
-          "label": "霍奇金金细胞（单核）",
-          "sourceText": "B.霍奇金金细胞(单核)"
+          "label": "霍奇金细胞（单核）",
+          "sourceText": "B.霍奇金细胞（单核）"
         },
         {
           "key": "C",
@@ -20875,7 +20927,7 @@
             "G",
             "I"
           ],
-          "sourceText": "RS细胞：典型ACEGI",
+          "sourceText": "RS细胞：典型 ACEGI",
           "sourceY": 310,
           "answerMode": "多选"
         },
@@ -20888,13 +20940,13 @@
             "H",
             "J"
           ],
-          "sourceText": "RS细胞：不典型BDFHJ",
+          "sourceText": "RS细胞：不典型 BDFHJ",
           "sourceY": 360,
           "answerMode": "多选"
         }
       ],
       "sourceText": "A.双核（镜影细胞）或多核瘤巨细胞 | B.霍奇金金细胞（单核） | C.核大呈空泡状 | D.变异RS细胞 | E.核仁明显呈红色伴周围空晕 | F.陷窝细胞 | G.无核分裂象 | H.爆米花细胞 | I.嗜双性 | J.木乃伊/干尸细胞 | RS细胞：典型ACEGI | RS细胞：不典型BDFHJ",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-35"
@@ -20904,7 +20956,7 @@
         "page": 5,
         "image": "med/lecture-pages/lecture-35-page-05.webp",
         "title": "第35讲第5页：内科含诊断+病理 淋巴瘤",
-        "description": "本题组对应第35讲第5页讲义。"
+        "description": "对应第35讲第5页讲义。"
       }
     },
     {
@@ -20944,7 +20996,7 @@
             "C",
             "D"
           ],
-          "sourceText": "发病率：内科B>A>C>D",
+          "sourceText": "发病率（内科教材：由高到低） BACD",
           "sourceY": 560,
           "answerMode": "排序"
         },
@@ -20956,7 +21008,7 @@
             "C",
             "D"
           ],
-          "sourceText": "发病率：病理A>B>C>D",
+          "sourceText": "发病率（病理教材：由高到低） ABCD",
           "sourceY": 590,
           "answerMode": "排序"
         },
@@ -20968,13 +21020,13 @@
             "B",
             "D"
           ],
-          "sourceText": "预后C>A>B>D",
+          "sourceText": "预后（由好到差） CABD",
           "sourceY": 640,
           "answerMode": "排序"
         }
       ],
       "sourceText": "A.结节硬化型 | B.混合细胞型 | C.富于淋巴细胞型 | D.淋巴细胞减少型 | 发病率：内科B>A>C>D | 发病率：病理A>B>C>D | 预后C>A>B>D",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-35"
@@ -20984,7 +21036,77 @@
         "page": 5,
         "image": "med/lecture-pages/lecture-35-page-05.webp",
         "title": "第35讲第5页：内科含诊断+病理 淋巴瘤",
-        "description": "本题组对应第35讲第5页讲义。"
+        "description": "对应第35讲第5页讲义。"
+      }
+    },
+    {
+      "id": "p58-g4",
+      "page": 58,
+      "title": "霍奇金淋巴瘤病理分类（导图题）",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "options": [
+        {
+          "key": "A",
+          "label": "爆米花细胞",
+          "sourceText": "A.爆米花细胞"
+        },
+        {
+          "key": "B",
+          "label": "预后最好",
+          "sourceText": "B.预后最好"
+        },
+        {
+          "key": "C",
+          "label": "与EBV感染相关",
+          "sourceText": "C.与EBV感染相关"
+        },
+        {
+          "key": "D",
+          "label": "典型RS细胞",
+          "sourceText": "D.典型RS细胞"
+        },
+        {
+          "key": "E",
+          "label": "多种炎细胞混合浸润为背景",
+          "sourceText": "E.多种炎细胞混合浸润为背景"
+        }
+      ],
+      "stems": [
+        {
+          "text": "结节性淋巴细胞为主型霍奇金淋巴瘤（NLPHL）",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "sourceText": "结节性淋巴细胞为主型霍奇金淋巴瘤（NLPHL） AB",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "经典型霍奇金淋巴瘤（CHL）的共性",
+          "answer": [
+            "C",
+            "D",
+            "E"
+          ],
+          "sourceText": "经典型霍奇金淋巴瘤（CHL）的共性 CDE",
+          "sourceY": 0,
+          "answerMode": "多选"
+        }
+      ],
+      "sourceText": "霍奇金淋巴瘤病理分类（导图题）（按原题页分组并结合讲义复核）",
+      "reviewState": "已按原题页及对应讲义逐项复核",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "page": 5,
+        "image": "med/lecture-pages/lecture-35-page-05.webp",
+        "title": "第35讲第5页：内科含诊断+病理 淋巴瘤",
+        "description": "对应第35讲第5页讲义。"
       }
     },
     {
@@ -21066,7 +21188,7 @@
             "I",
             "L"
           ],
-          "sourceText": "结节硬化型BCDFIL",
+          "sourceText": "结节硬化型 BCDFIL",
           "sourceY": 55,
           "answerMode": "多选"
         },
@@ -21077,7 +21199,7 @@
             "B",
             "G"
           ],
-          "sourceText": "混合细胞型ABG",
+          "sourceText": "混合细胞型 ABG",
           "sourceY": 106,
           "answerMode": "多选"
         },
@@ -21087,7 +21209,7 @@
             "B",
             "E"
           ],
-          "sourceText": "富于淋巴细胞型BE",
+          "sourceText": "富于淋巴细胞型 BE",
           "sourceY": 161,
           "answerMode": "多选"
         },
@@ -21099,13 +21221,13 @@
             "J",
             "K"
           ],
-          "sourceText": "淋巴细胞减少型BHJK",
+          "sourceText": "淋巴细胞减少型 BHJK",
           "sourceY": 214,
           "answerMode": "多选"
         }
       ],
       "sourceText": "A.典型RS和单核RS | 结节硬化型BCDFIL | B.典型RS细胞 | C.陷窝细胞 | 混合细胞型ABG | D.EBV感染率低 | E.大量淋巴细胞 | 富于淋巴细胞型BE | F.青年妇女、纵隔肿块多见 | G.肿瘤细胞与炎细胞混合存在 | 淋巴细胞减少型BHJK | H.EBV感染率接近100% | 1.粗大胶原纤维束将淋巴结分隔为大小不等的结节 | J.典型RS或多形性瘤细胞 | K.HIV者多见 | L.不转变为其它亚型 | 小红书 | 小红书号：385106504",
-      "reviewState": "待讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
         "lecture-35"
@@ -21115,13 +21237,13 @@
         "page": 5,
         "image": "med/lecture-pages/lecture-35-page-05.webp",
         "title": "第35讲第5页：内科含诊断+病理 淋巴瘤",
-        "description": "本题组对应第35讲第5页讲义。"
+        "description": "对应第35讲第5页讲义。"
       }
     },
     {
       "id": "p60-g1",
       "page": 60,
-      "title": "淋巴瘤特征染色体与免疫表型",
+      "title": "血液系统肿瘤特征染色体与免疫表型",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -21285,7 +21407,7 @@
             "O",
             "Z"
           ],
-          "sourceText": "滤泡性（BMOZ",
+          "sourceText": "滤泡性淋巴瘤 BMOZ",
           "sourceY": 113,
           "answerMode": "多选"
         },
@@ -21297,7 +21419,7 @@
             "M",
             "S"
           ],
-          "sourceText": "弥漫大BBKMS",
+          "sourceText": "弥漫大B细胞淋巴瘤 BKMS",
           "sourceY": 139,
           "answerMode": "多选"
         },
@@ -21307,7 +21429,7 @@
             "E",
             "K"
           ],
-          "sourceText": "结外黏膜相关淋巴组织边缘区MALT（EK",
+          "sourceText": "结外黏膜相关淋巴组织边缘区淋巴瘤（MALT） EK",
           "sourceY": 164,
           "answerMode": "多选"
         },
@@ -21319,7 +21441,7 @@
             "H",
             "R"
           ],
-          "sourceText": "套GJHR",
+          "sourceText": "套细胞淋巴瘤 GJHR",
           "sourceY": 186,
           "answerMode": "多选"
         },
@@ -21331,7 +21453,7 @@
             "W",
             "d"
           ],
-          "sourceText": "Burkitt F O W d",
+          "sourceText": "Burkitt淋巴瘤 FOWd",
           "sourceY": 214,
           "answerMode": "多选"
         },
@@ -21341,7 +21463,7 @@
             "A",
             "Y"
           ],
-          "sourceText": "间变性大（AY)",
+          "sourceText": "间变性大细胞淋巴瘤 AY",
           "sourceY": 235,
           "answerMode": "多选"
         },
@@ -21349,9 +21471,10 @@
           "text": "M3型急性早幼粒细胞白血病",
           "answer": [
             "C",
-            "T"
+            "T",
+            "c"
           ],
-          "sourceText": "M3型AML（CTC",
+          "sourceText": "M3型急性早幼粒细胞白血病 CTc",
           "sourceY": 262,
           "answerMode": "多选"
         },
@@ -21360,7 +21483,7 @@
           "answer": [
             "D"
           ],
-          "sourceText": "CML（BCR-ABL）D",
+          "sourceText": "慢性髓性白血病（CML） D",
           "sourceY": 286,
           "answerMode": "单选"
         },
@@ -21369,7 +21492,7 @@
           "answer": [
             "D"
           ],
-          "sourceText": "急性白血病(D)",
+          "sourceText": "急性白血病 D",
           "sourceY": 310,
           "answerMode": "单选"
         },
@@ -21378,7 +21501,7 @@
           "answer": [
             "I"
           ],
-          "sourceText": "CHL(T",
+          "sourceText": "经典型霍奇金淋巴瘤（CHL） I",
           "sourceY": 336,
           "answerMode": "单选"
         },
@@ -21387,7 +21510,7 @@
           "answer": [
             "K"
           ],
-          "sourceText": "NLPHL(K",
+          "sourceText": "结节性淋巴细胞为主型霍奇金淋巴瘤（NLPHL） K",
           "sourceY": 361,
           "answerMode": "单选"
         },
@@ -21396,7 +21519,7 @@
           "answer": [
             "L"
           ],
-          "sourceText": "浆细胞骨髓瘤（L",
+          "sourceText": "浆细胞骨髓瘤 L",
           "sourceY": 385,
           "answerMode": "单选"
         },
@@ -21406,7 +21529,7 @@
             "N",
             "V"
           ],
-          "sourceText": "淋巴母/前体/ALL（NV）",
+          "sourceText": "淋巴母细胞/前体细胞白血病（ALL） NV",
           "sourceY": 409,
           "answerMode": "多选"
         },
@@ -21416,7 +21539,7 @@
             "K",
             "P"
           ],
-          "sourceText": "小淋巴/CLL（KP）",
+          "sourceText": "小淋巴细胞淋巴瘤/CLL KP",
           "sourceY": 433,
           "answerMode": "多选"
         },
@@ -21425,7 +21548,7 @@
           "answer": [
             "Q"
           ],
-          "sourceText": "皮肤T/蕈样肉芽肿病/Sezary综合征（Q",
+          "sourceText": "皮肤T细胞淋巴瘤/蕈样肉芽肿病/Sezary综合征 Q",
           "sourceY": 458,
           "answerMode": "单选"
         },
@@ -21434,7 +21557,7 @@
           "answer": [
             "a"
           ],
-          "sourceText": "NK/T(a)",
+          "sourceText": "NK/T细胞淋巴瘤 a",
           "sourceY": 481,
           "answerMode": "单选"
         },
@@ -21443,7 +21566,7 @@
           "answer": [
             "U"
           ],
-          "sourceText": "M5型AMLU)",
+          "sourceText": "M5型急性单核细胞白血病 U",
           "sourceY": 507,
           "answerMode": "单选"
         },
@@ -21451,30 +21574,25 @@
           "text": "M7型急性巨核细胞白血病",
           "answer": [
             "X",
-            "B"
+            "b"
           ],
-          "sourceText": "M7型AML (Xb)",
+          "sourceText": "M7型急性巨核细胞白血病 Xb",
           "sourceY": 531,
           "answerMode": "多选"
         }
       ],
       "sourceText": "特征染色体 | 滤泡性（BMOZ | 弥漫大BBKMS | A.t(2;5) | 结外黏膜相关淋巴组织边缘区MALT（EK | B.t(14;18) | 套GJHR | C.t(15;17) | Burkitt F O W d | D.t(9;22)/Ph | 间变性大（AY) | E.t(11;18) | M3型AML（CTC | F.t(8;14) | CML (BCR-ABL)(D | G.t(11;14) | 急性白血病(D) | CHL(T | 特征免疫表型 | NLPHL(K | 浆细胞骨髓瘤（L | H.CD5/20 | 淋巴母/前体/ALL（NV） | 1.15/30 | 小淋巴/CLL（KP） | J.CyclinD1 | 皮肤T/蕈样肉芽肿病/Sezary综合征（Q | K.19/20/79a | NK/T(a) | L.38/138 | M5型AMLU) | M.BCL2 | M7型AML (Xb) | N.CD34 | O.BCL6 | P.5/23 | Q.2/3/4+、7/8- | R.BCL1 | S.生发中心型还可表达CD10和BCL6 | T.13/33/117、9 | U.14 | V.TdT | W.Ki67(肿瘤细胞增殖活性高) | X.血小板GP | Y.30 | Z.10/19/20/79a | a.2/16/56 | b.41/61 | c.不表达CD34和HLA-DR | d.10/19/20/22/79a | 小红书号：385106504",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
-        "lecture-28",
-        "lecture-29",
-        "lecture-30",
-        "lecture-32",
-        "lecture-33",
-        "lecture-34"
+        "lecture-35"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-35",
-        "page": 7,
-        "image": "med/lecture-pages/lecture-35-page-07.webp",
-        "title": "第35讲第7页：内科含诊断+病理 淋巴瘤",
-        "description": "本题组对应第35讲第7页讲义。"
+        "page": 6,
+        "image": "med/lecture-pages/lecture-35-page-06.webp",
+        "title": "第35讲第6页：内科含诊断+病理 淋巴瘤",
+        "description": "对应第35讲第6页讲义。"
       }
     },
     {
@@ -34954,11 +35072,11 @@
         "lecture-54"
       ],
       "lectureEvidence": {
-        "lectureId": "lecture-56",
-        "page": 28,
-        "image": "med/lecture-pages/lecture-56-page-28.webp",
-        "title": "第56讲第28页：内科含诊断 心律失常",
-        "description": "本题组对应第56讲第28页讲义。"
+        "lectureId": "lecture-54",
+        "page": 16,
+        "image": "med/lecture-pages/lecture-54-page-16.webp",
+        "title": "第54讲第16页：冠心病心电图定位",
+        "description": "对应第54讲第16页讲义。"
       }
     },
     {
@@ -36655,8 +36773,8 @@
         },
         {
           "key": "B",
-          "label": "二度房室阻滞",
-          "sourceText": "B.二度房室阻滞"
+          "label": "一度房室阻滞",
+          "sourceText": "B.一度房室阻滞"
         },
         {
           "key": "C",
@@ -36721,8 +36839,8 @@
         "lectureId": "lecture-56",
         "page": 4,
         "image": "med/lecture-pages/lecture-56-page-04.webp",
-        "title": "第56讲第4页：内科含诊断 心律失常",
-        "description": "本题组对应第56讲第4页讲义。"
+        "title": "第56讲第4页：心律失常",
+        "description": "对应第56讲第4页讲义。"
       }
     },
     {
@@ -37066,8 +37184,8 @@
       "options": [
         {
           "key": "A",
-          "label": "P波消失、转而形成f波（比F波幅度小、频率快、形态不一致，V导联最明显）",
-          "sourceText": "A.P波消失、转而形成f波（比F波幅度小、频率快、形态不一致，V导联最明显）"
+          "label": "P波消失、转而形成f波（比F波幅度小、频率快、形态不一致，V1导联最明显）",
+          "sourceText": "A.P波消失、转而形成f波（比F波幅度小、频率快、形态不一致，V1导联最明显）"
         },
         {
           "key": "B",
@@ -37096,8 +37214,8 @@
         },
         {
           "key": "G",
-          "label": "心室率、心律与下传情况有关",
-          "sourceText": "G.心室率、心律与下传情况有关"
+          "label": "心室率、心律与下传情况有关：如心房率250～350次/分，遵循2:1传导时心室率约150次/分",
+          "sourceText": "G.心室率、心律与下传情况有关：如心房率250～350次/分，遵循2:1传导时心室率约150次/分"
         }
       ],
       "stems": [
@@ -37134,23 +37252,23 @@
       ],
       "lectureEvidence": {
         "lectureId": "lecture-56",
-        "page": 11,
-        "image": "med/lecture-pages/lecture-56-page-11.webp",
-        "title": "第56讲第11页：内科含诊断 心律失常",
-        "description": "本题组对应第56讲第11页讲义。"
+        "page": 14,
+        "image": "med/lecture-pages/lecture-56-page-14.webp",
+        "title": "第56讲第14页：心律失常",
+        "description": "对应第56讲第14页讲义。"
       }
     },
     {
       "id": "p94-g4",
       "page": 94,
-      "title": "窦速与阵发性室上速",
+      "title": "窦速、阵发性室上速与房扑鉴别",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
         {
           "key": "A",
-          "label": "逆行P波或无P波",
-          "sourceText": "A.逆行P波或无P波"
+          "label": "逆行P′波或无P波",
+          "sourceText": "A.逆行P′波或无P波"
         },
         {
           "key": "B",
@@ -37184,8 +37302,8 @@
         },
         {
           "key": "H",
-          "label": "变性P波",
-          "sourceText": "H.变性P波"
+          "label": "窦性P波",
+          "sourceText": "H.窦性P波"
         },
         {
           "key": "I",
@@ -37262,10 +37380,10 @@
       ],
       "lectureEvidence": {
         "lectureId": "lecture-56",
-        "page": 12,
-        "image": "med/lecture-pages/lecture-56-page-12.webp",
-        "title": "第56讲第12页：内科含诊断 心律失常",
-        "description": "本题组对应第56讲第12页讲义。"
+        "page": 4,
+        "image": "med/lecture-pages/lecture-56-page-04.webp",
+        "title": "第56讲第4页：心律失常",
+        "description": "对应第56讲第4页讲义。"
       }
     },
     {
@@ -37390,8 +37508,8 @@
         },
         {
           "key": "E",
-          "label": "PR间期恒定延长≥0.2s",
-          "sourceText": "E.PR间期恒定延长≥0.2s"
+          "label": "PR间期恒定延长>0.2s",
+          "sourceText": "E.PR间期恒定延长>0.2s"
         },
         {
           "key": "F",
@@ -37516,8 +37634,8 @@
         "lectureId": "lecture-56",
         "page": 18,
         "image": "med/lecture-pages/lecture-56-page-18.webp",
-        "title": "第56讲第18页：内科含诊断 心律失常",
-        "description": "本题组对应第56讲第18页讲义。"
+        "title": "第56讲第18页：心律失常",
+        "description": "对应第56讲第18页讲义。"
       }
     },
     {
@@ -37657,7 +37775,7 @@
       ],
       "sourceText": "请根据房室分离时心室率与心房率的关系判断类型。",
       "reviewState": "根据第56讲讲义第20页新增并校对",
-      "topic": "血液",
+      "topic": "循环",
       "lectureIds": [
         "lecture-56"
       ],
@@ -37738,7 +37856,7 @@
       ],
       "sourceText": "请根据心电图特征判断心脏扩大部位。",
       "reviewState": "根据第56讲讲义第23页新增并校对",
-      "topic": "血液",
+      "topic": "循环",
       "lectureIds": [
         "lecture-56"
       ],
@@ -38379,13 +38497,13 @@
         },
         {
           "key": "E",
-          "label": "几乎不减慢0期Vmax，缩短动作电位时程",
-          "sourceText": "E.几乎不减慢0期Vmax，缩短动作电位时程"
+          "label": "几乎不减慢0期Vmax，缩短动作电位时程（缩短ERP<缩短APD）",
+          "sourceText": "E.几乎不减慢0期Vmax，缩短动作电位时程（缩短ERP<缩短APD）"
         },
         {
           "key": "F",
-          "label": "显著减慢0期Vmax，轻微延长动作电位时程",
-          "sourceText": "F.显著减慢0期Vmax，轻微延长动作电位时程"
+          "label": "显著减慢0期Vmax（显著减慢传导），轻微延长动作电位时程",
+          "sourceText": "F.显著减慢0期Vmax（显著减慢传导），轻微延长动作电位时程"
         },
         {
           "key": "G",
@@ -38493,31 +38611,33 @@
             "N",
             "W"
           ],
-          "sourceText": "IA类CGJNW",
+          "sourceText": "IA类 CGJNW",
           "sourceY": 0,
           "answerMode": "多选"
         },
         {
           "text": "IB类",
           "answer": [
+            "C",
             "E",
             "Q",
             "T",
             "U"
           ],
-          "sourceText": "IB类EQTU",
+          "sourceText": "IB类 CEQTU",
           "sourceY": 0,
           "answerMode": "多选"
         },
         {
           "text": "IC类",
           "answer": [
+            "C",
             "F",
             "H",
             "L",
             "V"
           ],
-          "sourceText": "IC类FHLV",
+          "sourceText": "IC类 CFHLV",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -38568,8 +38688,8 @@
         "lectureId": "lecture-56",
         "page": 25,
         "image": "med/lecture-pages/lecture-56-page-25.webp",
-        "title": "第56讲第25页：内科含诊断 心律失常",
-        "description": "本题组对应第56讲第25页讲义。"
+        "title": "第56讲第25页：心律失常",
+        "description": "对应第56讲第25页讲义。"
       }
     },
     {
@@ -39109,7 +39229,7 @@
       ],
       "sourceText": "请根据每张心电图判断心律失常类型。",
       "reviewState": "已按第56讲讲义校对；选项顺序已固定打乱",
-      "topic": "血液",
+      "topic": "循环",
       "lectureIds": [
         "lecture-56"
       ]

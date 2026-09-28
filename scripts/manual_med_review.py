@@ -1278,3 +1278,7 @@ def apply_manual_review(payload: dict) -> None:
             item["lectureIds"] = ["lecture-28"]
 
     repair_digestive_options(payload)
+    from renal_blood_review import repair_renal_blood
+    repair_renal_blood(payload)
+    from cardiac_followup_review import repair_cardiac_followup
+    repair_cardiac_followup(payload)
