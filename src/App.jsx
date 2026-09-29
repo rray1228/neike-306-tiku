@@ -66,10 +66,17 @@ const appendSupplement = (content, supplement) => ({
 })
 
 const CONTENT_LOADERS = {
-  med: async () => appendSupplement(...await Promise.all([
-    loadJson(() => import('./data/med-data.json')),
-    loadJson(() => import('./data/med-teacher-supplement.json')),
-  ])),
+  med: async () => {
+    const [content, homework, exam] = await Promise.all([
+      loadJson(() => import('./data/med-data.json')),
+      loadJson(() => import('./data/med-teacher-supplement.json')),
+      loadJson(() => import('./data/med-stage-exam-data.json')),
+    ])
+    return appendSupplement(content, {
+      groups: [...homework.groups, ...exam.groups],
+      pages: [...homework.pages, ...exam.pages],
+    })
+  },
   pathology: async () => appendSupplement(...await Promise.all([
     loadJson(() => import('./data/pathology-data.json')),
     loadJson(() => import('./data/pathology-teacher-supplement.json')),
@@ -994,7 +1001,7 @@ function App() {
           {favoritesOnly && <div className="favorite-notebook-banner"><span className="favorite-notebook-icon"><Icon name="bookmarkFill" size={18} /></span><div><strong>{notebookName}</strong><small>正在复习已收藏题组 · 共 {filteredGroups.length} 组</small></div><button onClick={showAllGroupsInChapter}>退出收藏本</button></div>}
           <div className="breadcrumb"><span>{group.topic || '综合'}</span>{currentChapter ? <><Icon name="chevron" size={13} /><span>{currentChapter.title}</span></> : null}<Icon name="chevron" size={13} /><span>{group.supplement ? '教师补充' : group.kindLabel}</span>{group.hideSource ? null : <><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></>}</div>
           <div className="content-heading">
-            <div><h1>{group.title || '题库原题'}</h1><p>{group.supplement ? `教师课后巩固 · ${group.sourceSection} · 第 ${group.sourceQuestion} 题 · ${group.supplementNotice || '原资料答案，尚未按讲义逐项复核'}${group.reviewIssues?.length ? `；${group.reviewIssues.join('；')}` : ''}` : (group.kindLabel === '填空题' ? '按题干顺序填写数字或原词，提交后逐题核对。' : (group.kindLabel === '排序题' ? '依次点击选项完成排序；再次点击可移除后重新排列。' : '共用选项组保留在本题组内；每个题干独立作答，提交后逐题反馈。'))}</p></div>
+            <div><h1>{group.title || '题库原题'}</h1><p>{group.supplement ? `${group.sourceLabel || '教师课后巩固'} · ${group.sourceSection} · 第 ${group.sourceQuestion} 题 · ${group.supplementNotice || '原资料答案，尚未按讲义逐项复核'}${group.reviewIssues?.length ? `；${group.reviewIssues.join('；')}` : ''}` : (group.kindLabel === '填空题' ? '按题干顺序填写数字或原词，提交后逐题核对。' : (group.kindLabel === '排序题' ? '依次点击选项完成排序；再次点击可移除后重新排列。' : '共用选项组保留在本题组内；每个题干独立作答，提交后逐题反馈。'))}</p></div>
             <div className="heading-actions"><button className={`ghost-button ${favorite ? 'selected' : ''}`} onClick={toggleFavorite} aria-pressed={favorite} title={favorite ? `从${group.topic}收藏本移除` : `收藏到${group.topic}收藏本`}><Icon name={favorite ? 'bookmarkFill' : 'bookmark'} size={17} />{favorite ? '已收藏' : '收藏'}</button><button className="ghost-button" onClick={() => setShowNote((value) => !value)}><Icon name="note" size={17} />笔记</button></div>
           </div>
 
@@ -1006,7 +1013,7 @@ function App() {
           <section className="question-card">
             <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span>{group.hideSource ? null : <span>来源页 {group.page}</span>}</div>
             {group.sharedStem ? <div className="shared-stem-panel"><strong>共用题干</strong><p>{group.sharedStem}</p><span>以下 {group.sharedQuestionCount || group.stems.length} 题共用此题干</span></div> : null}
-            {group.options.some((option) => option.category) && group.stems.some((stem) => stem.optionCategory)
+            {group.answerLayout !== 'rows' && group.options.some((option) => option.category) && group.stems.some((stem) => stem.optionCategory)
               ? <CategorizedAnswerTable group={group} selections={currentSelections} submitted={isSubmitted} onSelect={updateSelection} />
               : <div className="stem-list">
                 {group.stems.map((stem, index) => <StemRow key={`${subject}-${group.id}-${index}`} group={group} stem={stem} index={index} selection={currentSelections[index] || []} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} />)}
@@ -1026,7 +1033,7 @@ function App() {
         {filteredGroups.length ? <EvidencePanel subject={subject} content={content} group={group} page={currentPage} sourceName={group.sourceName || subjectConfig.sourceName} submitted={isSubmitted} setShowSource={setShowSource} setShowLectureEvidence={setShowLectureEvidence} mobileEvidence={mobileEvidence} setMobileEvidence={setMobileEvidence} evidenceCollapsed={evidenceCollapsed} setEvidenceCollapsed={setEvidenceCollapsed} /> : <EmptyEvidence subjectConfig={subjectConfig} evidenceCollapsed={evidenceCollapsed} setEvidenceCollapsed={setEvidenceCollapsed} />}
       </div>
 
-      {showSource && currentPage && <SourceModal group={group} page={currentPage} sourceName={group.sourceName || subjectConfig.sourceName} onClose={() => setShowSource(false)} />}
+      {showSource && currentPage && <SourceModal group={group} page={currentPage} pages={content.pages} sourceName={group.sourceName || subjectConfig.sourceName} onClose={() => setShowSource(false)} />}
       {showLectureEvidence && group.lectureEvidence && <LectureEvidenceModal evidence={group.lectureEvidence} onClose={() => setShowLectureEvidence(false)} />}
       <div className="site-watermark" aria-hidden="true">
         {showContentWatermark && <span>内容制作byBi8bo</span>}
@@ -1213,8 +1220,13 @@ function EmptyEvidence({ subjectConfig, evidenceCollapsed, setEvidenceCollapsed 
   return <aside className={`evidence-panel empty-evidence ${evidenceCollapsed ? 'is-collapsed' : ''}`}><div className="evidence-rail"><button className="evidence-toggle" onClick={() => setEvidenceCollapsed(false)} aria-label="展开讲义栏" aria-expanded="false" title="展开讲义栏"><Icon name="left" size={17} /></button><span className="evidence-rail-icon"><Icon name="file" size={18} /></span><span className="evidence-rail-label">讲义</span></div><div className="evidence-panel-content"><div className="evidence-section"><div className="evidence-title"><span className="evidence-icon"><Icon name="file" size={18} /></span><div><h2>暂无讲义匹配</h2><p>当前筛选没有题组</p></div><button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏" aria-expanded="true" title="收起讲义栏"><Icon name="right" size={17} /></button></div><div className="empty-evidence-body">切换章节或清除筛选后，这里会显示对应的{subjectConfig.label}讲义依据。</div></div></div></aside>
 }
 
-function SourceModal({ group, page, sourceName, onClose }) {
-  return <div className="modal-backdrop" onClick={onClose}><div className="source-modal" onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>原题页</span><h2>{group.topic} · 第 {group.page} 页</h2></div><button className="icon-button" onClick={onClose} aria-label="关闭"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap"><img src={assetPath(page?.image)} alt={`原题页 ${group.page}`} /></div><div className="modal-footer"><span>图片来自“{sourceName}”</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
+function SourceModal({ group, page, pages = [], sourceName, onClose }) {
+  const sourcePages = group.sourcePages?.length
+    ? group.sourcePages.map((number) => pages.find((item) => item.page === number && item.sourceKey === group.sourceKey)).filter(Boolean)
+    : [page]
+  const [pageIndex, setPageIndex] = useState(0)
+  const current = sourcePages[pageIndex] || page
+  return <div className="modal-backdrop" onClick={onClose}><div className="source-modal" role="dialog" aria-label="原题页" onClick={(event) => event.stopPropagation()}><div className="modal-header"><div><span>原题页</span><h2>{group.topic} · 第 {current.page} 页</h2>{sourcePages.length > 1 ? <label>本题跨页：<select aria-label="切换本题原文页" value={pageIndex} onChange={(event) => setPageIndex(Number(event.target.value))}>{sourcePages.map((item, index) => <option key={item.page} value={index}>第 {item.page} 页</option>)}</select></label> : null}</div><button className="icon-button" onClick={onClose} aria-label="关闭"><Icon name="close" size={20} /></button></div><div className="modal-image-wrap"><img src={assetPath(current.image)} alt={`原题页 ${current.page}`} /></div><div className="modal-footer"><span>图片来自“{sourceName}”</span><button className="primary-button" onClick={onClose}>返回题组 <Icon name="arrow" size={16} /></button></div></div></div>
 }
 
 function LectureEvidenceModal({ evidence, onClose, contextLabel = '本题组对应的讲义原页' }) {

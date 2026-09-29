@@ -1,0 +1,7079 @@
+{
+  "meta": {
+    "title": "内科含诊断·阶段考试",
+    "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+    "sourcePages": 21,
+    "groupCount": 108,
+    "stemCount": 116,
+    "answerRows": [
+      "CCDCD CBBAC DBACC",
+      "CDCAD CDCCB BDDAA",
+      "CCBCB DABCC CCBAB",
+      "CBCDD CAABA ABCCD",
+      "CCBAA BBBAA BCABB",
+      "CCBDB CDCCC CDCCD",
+      "DBBDB BDCDC ACBCD",
+      "ABACA CCABA A"
+    ],
+    "answerNote": "按用户提供的答案图逐题对应，不代表已进行讲义答案勘误。"
+  },
+  "groups": [
+    {
+      "id": "med-stage-exam-2026-09-q001",
+      "page": 1,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "1",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第1题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肺泡通气量↓"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "DLCO↓"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "MEFV↓"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "闭合容积↓"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "sourceQuestion": 1,
+          "sourcePage": 1,
+          "text": "以下指标可提示早期小气道病变的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-01"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q002",
+      "page": 1,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "2",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第2题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "嗜酸性粒细胞"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "淋巴细胞"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "中性粒细胞"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "巨噬细胞"
+        }
+      ],
+      "stems": [
+        {
+          "number": 2,
+          "sourceQuestion": 2,
+          "sourcePage": 1,
+          "text": "男，50 岁。反复咳嗽、咳痰 5 年余，咳白色黏痰，晨起明显，受凉后加重，秋冬季症状明显，本次加重 3 天。吸烟史 10 余年，约 20 支/日，饮酒史 20 余年。其支气管黏膜活检最主要的炎症细胞是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-01"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q003",
+      "page": 1,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "3",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第3题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "VC 降低，FEV1%正常，RV/TLC＜40%"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "VC 正常，FEV1%降低，RV/TLC＜40%"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "VC 降低，FEV1%增加，RV/TLC＞40%"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "VC 降低，FEV1%降低，RV/TLC＞40%"
+        }
+      ],
+      "stems": [
+        {
+          "number": 3,
+          "sourceQuestion": 3,
+          "sourcePage": 1,
+          "text": "女，58 岁，反复咳嗽咳痰，喘息 32 年，加重 3 天。查体：桶状胸，双肺闻及干、湿啰音，血气分析：PaO2 58mmHg，PaCO2 55mmHg，此时该患者呼吸功能检查结果最可能是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-01"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q004",
+      "page": 1,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "4",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第4题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "IL-1"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "IL-2"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "IL-4"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "IL-10"
+        }
+      ],
+      "stems": [
+        {
+          "number": 4,
+          "sourceQuestion": 4,
+          "sourcePage": 1,
+          "text": "女，36 岁，发作性喘息，呼吸困难多年，再发加重 1 小时，既往氨茶碱可缓解，查体：精神萎靡，体温 37.1 度，脉搏 128 次/分，呼吸 36 次/分，鼻翼煽动，双肺呼吸音粗，可闻及广泛哮鸣音。参与该疾病的物质有",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-09"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q005",
+      "page": 1,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "5",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1,
+        2
+      ],
+      "title": "阶段考试 · 第5题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "双肺满布哮鸣音"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "出现三凹征"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "呼气峰流速（PEF）下降"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "PaCO2 升高"
+        }
+      ],
+      "stems": [
+        {
+          "number": 5,
+          "sourceQuestion": 5,
+          "sourcePage": 1,
+          "text": "提示支气管哮喘急性发作病情危重的表现是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-09"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q006",
+      "page": 2,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "6",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第6题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "金葡菌肺炎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "慢性肺脓肿"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "支气管扩张症"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "纤维空洞型肺结核"
+        }
+      ],
+      "stems": [
+        {
+          "number": 6,
+          "sourceQuestion": 6,
+          "sourcePage": 2,
+          "text": "女，35 岁。间断咳嗽咳痰 10 余年，加重 5 天，每次发作均咳出大量脓性痰，5 天前再次发作，并逐渐加重。查体：右下肺可闻及湿啰音。X 线：右下肺多发薄壁囊腔，部分可见液平。该患者最可能的诊断是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-05"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q007",
+      "page": 2,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "7",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第7题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "阿奇霉素"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "头孢曲松"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "阿米卡星"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "头孢呋辛"
+        }
+      ],
+      "stems": [
+        {
+          "number": 7,
+          "sourceQuestion": 7,
+          "sourcePage": 2,
+          "text": "下列抗菌药物中，可作为耐青霉素肺炎链球菌肺炎治疗首选的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-07"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q008",
+      "page": 2,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "8",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第8题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "大叶性肺炎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肺脓肿"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肺结核"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "支气管扩张症"
+        }
+      ],
+      "stems": [
+        {
+          "number": 8,
+          "sourceQuestion": 8,
+          "sourcePage": 2,
+          "text": "男，43 岁，醉酒后出现发热，咳嗽，咳脓臭痰 5 天，右侧胸痛。查体：T 39.2 度，P 112 次/分，R 26 次/分，BP 130/80mmHg。神志清，右中肺少许湿性啰音。胸部 X 线示右中肺团块状影，可见空洞和气液平面。该患者最可能的诊断是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-06"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q009",
+      "page": 2,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "9",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第9题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肺结核"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "金葡菌肺炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "支原体肺炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "病毒性肺炎"
+        }
+      ],
+      "stems": [
+        {
+          "number": 9,
+          "sourceQuestion": 9,
+          "sourcePage": 2,
+          "text": "女，43 岁，近 2 周发热，乏力，痰中带血，最高体温 38 度。经头孢菌素抗感染治疗 1 周无效。查体：T 37.8 度，P 84 次/分，左上肺语音震颤减弱，呼吸音低。胸部 X 线：左上肺斑片影，其内可见透亮区。该患者最可能的诊断是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-08"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q010",
+      "page": 2,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "10",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2,
+        3
+      ],
+      "title": "阶段考试 · 第10题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "慢性肺脓肿"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "慢性阻塞性肺疾病"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "慢性纤维空洞性肺结核"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "支气管扩张症"
+        }
+      ],
+      "stems": [
+        {
+          "number": 10,
+          "sourceQuestion": 10,
+          "sourcePage": 2,
+          "text": "男，60 岁。间断咳嗽、咳痰 10 余年。查体：双上肺可闻及湿啰音，胸部 X 线片示双上肺多个透亮区，未见液平，双侧肺门上提。最可能的诊断是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-08"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q011",
+      "page": 3,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "11",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第11题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "利福平"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "链霉素"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "乙胺丁醇"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "吡嗪酰胺"
+        }
+      ],
+      "stems": [
+        {
+          "number": 11,
+          "sourceQuestion": 11,
+          "sourcePage": 3,
+          "text": "仅能杀灭巨噬细胞内的结核杆菌的药物是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-08"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q012",
+      "page": 3,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "12",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第12题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肺结核"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肺血栓栓塞症"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "支原体肺炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "冠心病"
+        }
+      ],
+      "stems": [
+        {
+          "number": 12,
+          "sourceQuestion": 12,
+          "sourcePage": 3,
+          "text": "女，50 岁。20 天前无明显诱因出现呼吸困难，心前区痛，曾痰中带血2 次。查体：口唇发绀，颈静脉充盈，不能平卧，双肺未闻及干湿啰音，右下肢肿胀、疼痛。胸片示右下肺小片状密度增高影，右侧少量胸腔积液。心电图示 V1-V3 导联 T 波倒置。该患者最可能的诊断是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-03"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q013",
+      "page": 3,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "13",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第13题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肝素"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "阿替普酶"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "阿司匹林"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "手术"
+        }
+      ],
+      "stems": [
+        {
+          "number": 13,
+          "sourceQuestion": 13,
+          "sourcePage": 3,
+          "text": "急性肺血栓栓塞症最基本的治疗是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-03"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q014",
+      "page": 3,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "14",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第14题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "动脉血气分析"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "超声心动图"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Swan-Ganz 导管"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胸部 X 线"
+        }
+      ],
+      "stems": [
+        {
+          "number": 14,
+          "sourceQuestion": 14,
+          "sourcePage": 3,
+          "text": "鉴别急性呼吸窘迫综合征与心源性肺水肿最有价值的检查是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-10"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q015",
+      "page": 3,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "15",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第15题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "入量＞出量"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "入量=出量"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "入量＜出量"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "不限制"
+        }
+      ],
+      "stems": [
+        {
+          "number": 15,
+          "sourceQuestion": 15,
+          "sourcePage": 3,
+          "text": "男，51 岁，重症肺炎患者，入院后次日病情加重，突发持续性呼吸急促，发绀，伴烦躁，呼吸频率 38 次/分，心率 108 次/分，律齐，双肺可闻及湿啰音。血气分析：PaO2 50mmHg，PaCO2 30mmHg。胸片示两中下肺纹理增多模糊，斑片状阴影，心胸比例正常。对该患者输液的要求是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-10"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q016",
+      "page": 4,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "16",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第16题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-13"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胸膜间皮瘤"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肺部梗死"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "缩窄性心包炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "类风湿关节炎"
+        }
+      ],
+      "stems": [
+        {
+          "number": 16,
+          "sourceQuestion": 16,
+          "sourcePage": 4,
+          "text": "以下疾病的胸腔积液不是由于胸膜毛细血管壁通透性增加所致的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-13"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q017",
+      "page": 4,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "17",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第17题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-13"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胸水呈血性"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胸水血清白蛋白梯度增加"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胸水有核细胞分类以多核细胞为主"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胸水细菌培养阳性"
+        }
+      ],
+      "stems": [
+        {
+          "number": 17,
+          "sourceQuestion": 17,
+          "sourcePage": 4,
+          "text": "肺炎链球菌肺炎合并类肺炎性胸腔积液的患者，需要考虑胸水引流的情况是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-13"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q018",
+      "page": 4,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "18",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第18题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-13"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "气管向右侧移位"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "右下肺闻及干、湿啰音"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "右下肺语音共振减弱"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "右上肺闻及支气管呼吸音"
+        }
+      ],
+      "stems": [
+        {
+          "number": 18,
+          "sourceQuestion": 18,
+          "sourcePage": 4,
+          "text": "女，52 岁。发热，咳嗽 2 天。查体：T 37.8 度，右侧胸廓饱满，右下肺第 4 前肋以下叩诊实音，呼吸音明显减弱。该患者最可能出现的其它体征是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-13"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q019",
+      "page": 4,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "19",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第19题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "慢性肺源性心脏病"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "冠心病"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "扩张型心肌病"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "风湿性心瓣膜病"
+        }
+      ],
+      "stems": [
+        {
+          "number": 19,
+          "sourceQuestion": 19,
+          "sourcePage": 4,
+          "text": "女，67 岁，间断咳嗽、咳痰 15 年，心悸、气短伴双下肢水肿 3 天。心电图：胸前导联重度顺钟向转位，V1 导联呈 RS 型，V5 R/S＜1，RV1+SV5=1.5mv。该患者最可能的诊断是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-02"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q020",
+      "page": 4,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "20",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第20题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "心尖部搏动弥散"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "三尖瓣区触及收缩期震颤"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肺动脉瓣区第二心音逆分裂"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "三尖瓣区闻及舒张期杂音"
+        }
+      ],
+      "stems": [
+        {
+          "number": 20,
+          "sourceQuestion": 20,
+          "sourcePage": 4,
+          "text": "COPD 并发慢性肺心病患者，临床的主要体征是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-02"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q021",
+      "page": 4,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "21",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第21题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "痰细胞学检查"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血清肿瘤标志物"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "低剂量 CT"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "高分辨 CT"
+        }
+      ],
+      "stems": [
+        {
+          "number": 21,
+          "sourceQuestion": 21,
+          "sourcePage": 4,
+          "text": "提高人群肺癌筛查检出率的首选方法是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-12"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q022",
+      "page": 5,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "22",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第22题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肿瘤标志物"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "痰培养"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "经皮穿刺活检"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "增强 CT"
+        }
+      ],
+      "stems": [
+        {
+          "number": 22,
+          "sourceQuestion": 22,
+          "sourcePage": 5,
+          "text": "男，70 岁。咳嗽、咳痰伴痰中带血 1 月，发热 1 周，吸烟 40 年，20 支/天，有杵状指，X 线可见右肺门阴影。为明确诊断可选择",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-12"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q023",
+      "page": 5,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "23",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第23题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-11"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "吸入异物"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "脑干出血"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "脊柱后侧凸"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "哮喘急性发作"
+        }
+      ],
+      "stems": [
+        {
+          "number": 23,
+          "sourceQuestion": 23,
+          "sourcePage": 5,
+          "text": "血气分析示 PaO2 下降，PaCO2 升高，pH 下降或正常，HCO3-升高，以下符合的疾病是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-11"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q024",
+      "page": 5,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "24",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第24题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-55"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "冠心病"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肥厚型心肌病"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "结缔组织病"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "病毒性心肌炎"
+        }
+      ],
+      "stems": [
+        {
+          "number": 24,
+          "sourceQuestion": 24,
+          "sourcePage": 5,
+          "text": "引起慢性心衰的继发性心肌损害是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-55"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q025",
+      "page": 5,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "25",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第25题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-55"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "主动脉瓣关闭不全"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肺动脉高压"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "室间隔缺损"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "动静脉瘘"
+        }
+      ],
+      "stems": [
+        {
+          "number": 25,
+          "sourceQuestion": 25,
+          "sourcePage": 5,
+          "text": "不是由于容量负荷过重所致心力衰竭的疾病是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-55"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q026",
+      "page": 5,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "26",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第26题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-55"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "静脉回流增加"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "外周小动脉扩张"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "膈肌上升"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "迷走神经张力高"
+        }
+      ],
+      "stems": [
+        {
+          "number": 26,
+          "sourceQuestion": 26,
+          "sourcePage": 5,
+          "text": "左心衰竭患者出现夜间阵发性呼吸困难和端坐呼吸的机制不包括",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-55"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q027",
+      "page": 5,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "27",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第27题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-55"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "多巴胺"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "去甲肾上腺素"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "氨茶碱"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "硝普钠"
+        }
+      ],
+      "stems": [
+        {
+          "number": 27,
+          "sourceQuestion": 27,
+          "sourcePage": 5,
+          "text": "女，65 岁。近日突发呼吸困难，肺部满布湿啰音，咳粉红色泡沫痰，既往冠心病史10 年，BP 80/50mmHg，心率 102 次/分，S3 奔马律。该患者不应选择的药物是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-55"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q028",
+      "page": 6,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "28",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第28题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-56"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胺碘酮"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "毛花苷丙"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "按摩颈动脉窦"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "同步直流电复律"
+        }
+      ],
+      "stems": [
+        {
+          "number": 28,
+          "sourceQuestion": 28,
+          "sourcePage": 6,
+          "text": "男，50 岁，突发心悸 1 小时。既往“预激综合征”病史。查体：BP 70/50mmHg，心率 150 次/分，心律绝对不齐。心电图可见宽大畸形的 QRS 波。该患者最佳治疗措施是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-56"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q029",
+      "page": 6,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "29",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第29题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-56"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "硫酸镁"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胺碘酮"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肾上腺素"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "利多卡因"
+        }
+      ],
+      "stems": [
+        {
+          "number": 29,
+          "sourceQuestion": 29,
+          "sourcePage": 6,
+          "text": "转复长 QT 间期所致尖端扭转型室速的最适合药物是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-56"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q030",
+      "page": 6,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "30",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第30题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-56"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "心房颤动"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "心房扑动"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "室上性心动过速"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "室性心动过速"
+        }
+      ],
+      "stems": [
+        {
+          "number": 30,
+          "sourceQuestion": 30,
+          "sourcePage": 6,
+          "text": "阅读心电图，考虑为：",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-56",
+          "image": "med/med-stage-exam-2026-09/q030-ecg.webp",
+          "imageAlt": "阶段考试第30题原始心电图"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q031",
+      "page": 6,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "31",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6,
+        7
+      ],
+      "title": "阶段考试 · 第31题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-52"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "1 级，高危"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "2 级，中危"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "2 级，高危"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "2 级，很高危"
+        }
+      ],
+      "stems": [
+        {
+          "number": 31,
+          "sourceQuestion": 31,
+          "sourcePage": 6,
+          "text": "女，67 岁，体检发现血压高，平素无不适。其父亲于 50 岁时死于急性心肌梗死。查体：血压 155/100mmHg，实验室检查血清总胆固醇 5.9mmol/L。该患者高血压为",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-52"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q032",
+      "page": 7,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "32",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第32题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-52"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "缬沙坦"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "美托洛尔"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "氨氯地平"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "维拉帕米"
+        }
+      ],
+      "stems": [
+        {
+          "number": 32,
+          "sourceQuestion": 32,
+          "sourcePage": 7,
+          "text": "孕妇，30 岁。头痛、头晕 1 周。感恶心，未呕吐。既往支气管哮喘、痛风病史。查体：BP 160/80mmHg，心率 50 次/分，律齐，该患者宜首选的降压药物是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-52"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q033",
+      "page": 7,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "33",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第33题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-54"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "发作时间较前延长"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "发作时出现左心衰"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "静息心绞痛发作"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "ST 段下斜型下移"
+        }
+      ],
+      "stems": [
+        {
+          "number": 33,
+          "sourceQuestion": 33,
+          "sourcePage": 7,
+          "text": "不稳定型心绞痛应争取在 2 小时内进行介入评估的临床情况是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-54"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q034",
+      "page": 7,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "34",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第34题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-54"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "乳头肌断裂"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "室壁瘤"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "室间隔穿孔"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "心梗后综合征"
+        }
+      ],
+      "stems": [
+        {
+          "number": 34,
+          "sourceQuestion": 34,
+          "sourcePage": 7,
+          "text": "女，67 岁，因“急性广泛前壁心肌梗死”于 4 天前入院治疗。今日患者突发喘憋，不能平卧。查体：BP 120/80mmHg，P 107 次/分，胸骨左缘第 3 肋间可触及震颤并可闻及粗糙的 4/6 级全收缩期杂音。该患者最可能的诊断是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-54"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q035",
+      "page": 7,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "35",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第35题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-54"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "1.40 mmol/L"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "1.81 mmol/L"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "2.07 mmol/L"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "2.60 mmol/L"
+        }
+      ],
+      "stems": [
+        {
+          "number": 35,
+          "sourceQuestion": 35,
+          "sourcePage": 7,
+          "text": "男，60 岁。活动时胸痛 1 年，胸痛发作时休息 5 分钟左右即可缓解。既往糖尿病病史 10 年。实验室检查：LDL-C 3.52mmol/L。冠脉造影：左冠状动脉回旋支近段狭窄 80%。该患者控制 LDL-C 的目标是低于",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-54"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q036",
+      "page": 7,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "36",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7,
+        8
+      ],
+      "title": "阶段考试 · 第36题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-54"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "急性前间隔心肌梗死"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "急性前侧壁心肌梗死"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "急性高侧壁心肌梗死"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "急性下壁心肌梗死"
+        }
+      ],
+      "stems": [
+        {
+          "number": 36,
+          "sourceQuestion": 36,
+          "sourcePage": 7,
+          "text": "女，66 岁。因剧烈胸痛 4 小时入院。心电图：窦性心律，心率 55 次/分，Ⅱ、Ⅲ、aVF 导联 ST 段抬高 0.3mv。该患者首先考虑的诊断是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-54"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q037",
+      "page": 8,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "37",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        8
+      ],
+      "title": "阶段考试 · 第37题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-54"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "硝酸异山梨酯"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "辛伐他汀"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "美托洛尔"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "阿司匹林"
+        }
+      ],
+      "stems": [
+        {
+          "number": 37,
+          "sourceQuestion": 37,
+          "sourcePage": 8,
+          "text": "男，62 岁。近 1 年来劳累时胸痛，休息或含服硝酸甘油后数分钟即缓解。高血压病史10 余年。改善患者预后的药物不包括",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-54"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q038",
+      "page": 8,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "38",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        8
+      ],
+      "title": "阶段考试 · 第38题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-53"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "梨形"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "靴形"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "烧瓶形"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "球形"
+        }
+      ],
+      "stems": [
+        {
+          "number": 38,
+          "sourceQuestion": 38,
+          "sourcePage": 8,
+          "text": "男，40 岁。胸骨左缘第 3 肋间闻及舒张期叹气样杂音，向心尖部传导，周围血管征阳性，胸部 X 线最可能出现的心脏外形是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-53"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q039",
+      "page": 8,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "39",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        8
+      ],
+      "title": "阶段考试 · 第39题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-53"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "心房颤动"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "心尖舒张期杂音"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "开瓣音迟晚发生"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肺动脉瓣第二心音亢进"
+        }
+      ],
+      "stems": [
+        {
+          "number": 39,
+          "sourceQuestion": 39,
+          "sourcePage": 8,
+          "text": "以下提示左房粘液瘤而非风湿性二尖瓣狭窄的表现是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-53"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q040",
+      "page": 8,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "40",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        8
+      ],
+      "title": "阶段考试 · 第40题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-53"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "第一心音减弱"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "第二心音减弱"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胸骨左缘第 2 肋间舒张早期递减型杂音"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胸骨左缘第 3 肋间舒张早期递减型杂音"
+        }
+      ],
+      "stems": [
+        {
+          "number": 40,
+          "sourceQuestion": 40,
+          "sourcePage": 8,
+          "text": "女，45 岁。发现风湿性心脏病 10 余年。查体：双侧颊部皮肤呈紫红色，心界向左扩大，心腰膨隆，心率 96 次/分，心尖部可闻及开瓣音及舒张期隆隆样杂音。该患者查体还可能发现的其他阳性体征是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-53"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q041",
+      "page": 8,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "41",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        8
+      ],
+      "title": "阶段考试 · 第41题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-53"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "递增型"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "递减型"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "先增强后减弱"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "先减弱后增强"
+        }
+      ],
+      "stems": [
+        {
+          "number": 41,
+          "sourceQuestion": 41,
+          "sourcePage": 8,
+          "text": "主动脉瓣狭窄的杂音特点是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-53"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q042",
+      "page": 8,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "42–43",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        8,
+        9
+      ],
+      "title": "阶段考试 · 第42–43题（共用题干）",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-49"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "q42-A",
+          "displayKey": "A",
+          "label": "主动脉瓣狭窄",
+          "category": "第42题选项"
+        },
+        {
+          "key": "q42-B",
+          "displayKey": "B",
+          "label": "二尖瓣关闭不全",
+          "category": "第42题选项"
+        },
+        {
+          "key": "q42-C",
+          "displayKey": "C",
+          "label": "肥厚型心肌病",
+          "category": "第42题选项"
+        },
+        {
+          "key": "q42-D",
+          "displayKey": "D",
+          "label": "扩张型心肌病",
+          "category": "第42题选项"
+        },
+        {
+          "key": "q43-A",
+          "displayKey": "A",
+          "label": "心电图",
+          "category": "第43题选项"
+        },
+        {
+          "key": "q43-B",
+          "displayKey": "B",
+          "label": "超声心动图",
+          "category": "第43题选项"
+        },
+        {
+          "key": "q43-C",
+          "displayKey": "C",
+          "label": "心脏核素检查",
+          "category": "第43题选项"
+        },
+        {
+          "key": "q43-D",
+          "displayKey": "D",
+          "label": "心内膜心肌活检",
+          "category": "第43题选项"
+        }
+      ],
+      "stems": [
+        {
+          "number": 42,
+          "sourceQuestion": 42,
+          "sourcePage": 9,
+          "text": "该患者最可能的诊断是",
+          "answerRaw": "C",
+          "answer": [
+            "q42-C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-49",
+          "optionCategory": "第42题选项"
+        },
+        {
+          "number": 43,
+          "sourceQuestion": 43,
+          "sourcePage": 9,
+          "text": "最有价值的诊断方法是",
+          "answerRaw": "B",
+          "answer": [
+            "q43-B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-49",
+          "optionCategory": "第43题选项"
+        }
+      ],
+      "sharedStem": "男，32 岁。活动后心悸，胸痛，喘息 2 月余。查体：P 78 次/分，BP 105/75mmHg，双肺呼吸音清。心尖部闻及第四心音和 3/6 级收缩期杂音，胸骨左缘第 3-4 肋间闻及 3/6 级收缩期喷射样杂音。",
+      "sharedQuestionCount": 2
+    },
+    {
+      "id": "med-stage-exam-2026-09-q044",
+      "page": 9,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "44",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        9
+      ],
+      "title": "阶段考试 · 第44题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-49"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "各心腔均可扩大，以左心室扩大最早和最显著"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "因瓣口开放减小而主要闻及心尖部舒张期杂音"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "一般不发生血栓栓塞"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "LVEF＞35%者无需植入心律转复除颤器（ICD）"
+        }
+      ],
+      "stems": [
+        {
+          "number": 44,
+          "sourceQuestion": 44,
+          "sourcePage": 9,
+          "text": "以下关于扩张型心肌病的描述，正确的是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-49"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q045",
+      "page": 9,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "45",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        9
+      ],
+      "title": "阶段考试 · 第45题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-50"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "心排血量不变，静脉压升高"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "心排血量下降，静脉压升高"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "心排血量增加，静脉压降低"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "心排血量下降，静脉压降低"
+        }
+      ],
+      "stems": [
+        {
+          "number": 45,
+          "sourceQuestion": 45,
+          "sourcePage": 9,
+          "text": "女，40 岁。因阵发性室上性心动过速行射频消融治疗，患者术中突然出现胸闷，烦躁，呼吸困难。查体：BP 80/70mmHg，颈静脉怒张，两肺呼吸音清，心界向两侧扩大，心率 120 次/分，律齐，奇脉(+)。导致其临床表现的机制是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-50"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q046",
+      "page": 9,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "46",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        9
+      ],
+      "title": "阶段考试 · 第46题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-50"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "奇脉"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肝脏肿大"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "心包叩击音"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "Ewart 征"
+        }
+      ],
+      "stems": [
+        {
+          "number": 46,
+          "sourceQuestion": 46,
+          "sourcePage": 9,
+          "text": "缩窄性心包炎最有特异性的体征是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-50"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q047",
+      "page": 9,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "47",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        9
+      ],
+      "title": "阶段考试 · 第47题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-51"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肌钙蛋白"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血培养"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胸部 X 线"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "超声心动图"
+        }
+      ],
+      "stems": [
+        {
+          "number": 47,
+          "sourceQuestion": 47,
+          "sourcePage": 9,
+          "text": "女，37 岁，既往心脏联合瓣膜病变 6 年。近 1 个月发热，体温 37.2-37.6 度，伴厌食，消瘦。查体：贫血貌。为明确诊断，首选的检查是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-51"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q048",
+      "page": 10,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "48",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        10
+      ],
+      "title": "阶段考试 · 第48题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-51"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "心力衰竭"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "法洛四联症"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "二尖瓣脱垂"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "主动脉瓣狭窄"
+        }
+      ],
+      "stems": [
+        {
+          "number": 48,
+          "sourceQuestion": 48,
+          "sourcePage": 10,
+          "text": "以下最容易并发感染性心内膜炎的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-51"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q049",
+      "page": 10,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "49",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        10
+      ],
+      "title": "阶段考试 · 第49题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-57"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "双相波 100J"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "单相波 120J"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "单相波 200J"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "单相波 360J"
+        }
+      ],
+      "stems": [
+        {
+          "number": 49,
+          "sourceQuestion": 49,
+          "sourcePage": 10,
+          "text": "心室颤动时电除颤的能量选择应为",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-57"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q050",
+      "page": 10,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "50",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        10
+      ],
+      "title": "阶段考试 · 第50题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "前列腺素"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "硝酸甘油"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "腹腔积液"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "贲门失弛缓症"
+        }
+      ],
+      "stems": [
+        {
+          "number": 50,
+          "sourceQuestion": 50,
+          "sourcePage": 10,
+          "text": "通过影响 LES 压力，促进胃食管反流病发生，以下不包括",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-14"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q051",
+      "page": 10,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "51",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        10
+      ],
+      "title": "阶段考试 · 第51题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "发病与遗传因素无关"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "多由幽门螺杆菌引起"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "病变主要累及胃体胃底"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "不易合并巨幼细胞性贫血"
+        }
+      ],
+      "stems": [
+        {
+          "number": 51,
+          "sourceQuestion": 51,
+          "sourcePage": 10,
+          "text": "以下关于 A 型胃炎的描述，正确的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-15"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q052",
+      "page": 10,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "52",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        10
+      ],
+      "title": "阶段考试 · 第52题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "急性胃粘膜病变"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "Mallory-Weiss 综合征"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胃癌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胃窦溃疡"
+        }
+      ],
+      "stems": [
+        {
+          "number": 52,
+          "sourceQuestion": 52,
+          "sourcePage": 10,
+          "text": "男，70 岁。突发剧烈头痛，呕吐，左侧肢体活动障碍 6 小时。1 小时前呕暗红色血液。该患者呕血最可能是因为",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-15"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q053",
+      "page": 10,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "53",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        10
+      ],
+      "title": "阶段考试 · 第53题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "伏诺拉生"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "铝碳酸镁"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "法莫替丁"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "铋剂"
+        }
+      ],
+      "stems": [
+        {
+          "number": 53,
+          "sourceQuestion": 53,
+          "sourcePage": 10,
+          "text": "在消化性溃疡患者的治疗中，作用较好的抑酸药是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-16"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q054",
+      "page": 10,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "54",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        10,
+        11
+      ],
+      "title": "阶段考试 · 第54题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "转化生长因子"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "促胃液素"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "乙酰胆碱"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "生长抑素"
+        }
+      ],
+      "stems": [
+        {
+          "number": 54,
+          "sourceQuestion": 54,
+          "sourcePage": 10,
+          "text": "男，33 岁。消化性溃疡反复发作伴出血 3 年，再发出血 1 周，内科治疗无效行手术治疗。组织病理学检查发现明显的壁细胞增生。最可能导致上述改变的内源性物质是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-16"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q055",
+      "page": 11,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "55",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        11
+      ],
+      "title": "阶段考试 · 第55题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "阿米卡星"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "阿莫西林"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "奥美拉唑"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "枸橼酸铋钾"
+        }
+      ],
+      "stems": [
+        {
+          "number": 55,
+          "sourceQuestion": 55,
+          "sourcePage": 11,
+          "text": "男，35 岁，间断上腹痛 2 年。查体：无贫血貌，皮肤巩膜无黄染，心肺无异常，腹软，无压痛，肝脾无肿大。13C 尿素呼气阳性。主要治疗药物不包括",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-15"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q056",
+      "page": 11,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "56",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        11
+      ],
+      "title": "阶段考试 · 第56题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胃溃疡"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胃癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "慢性胃炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "十二指肠溃疡"
+        }
+      ],
+      "stems": [
+        {
+          "number": 56,
+          "sourceQuestion": 56,
+          "sourcePage": 11,
+          "text": "男，32 岁。上腹部进食后不适 6 年，X 线钡餐检查见胃窦胃小弯处龛影，大小约 2.5cm，龛影口部有一狭颈，黏膜皱襞集中，最可能的诊断是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-16"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q057",
+      "page": 11,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "57",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        11
+      ],
+      "title": "阶段考试 · 第57题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "结肠镜"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "立位腹部 X 线片"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "腹部 B 超"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "腹部 CT"
+        }
+      ],
+      "stems": [
+        {
+          "number": 57,
+          "sourceQuestion": 57,
+          "sourcePage": 11,
+          "text": "男，45 岁，1 个月前出现腹胀，无呕吐，伴发热，体温最高 38℃，盗汗。12 小时前突发腹部绞痛，未排气排便。查体：T 37.7℃，P 88 次/分，R 16 次/分，BP 110/80mmHg，心肺查体未见明显异常，腹部呈揉面感，可见肠型及蠕动波，肠鸣音亢进。该患者目前首选的检查是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-17"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q058",
+      "page": 11,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "58",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        11
+      ],
+      "title": "阶段考试 · 第58题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "多见于溃疡型"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "可与便秘交替"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "常伴里急后重"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "大便多无脓血"
+        }
+      ],
+      "stems": [
+        {
+          "number": 58,
+          "sourceQuestion": 58,
+          "sourcePage": 11,
+          "text": "以下关于肠结核腹泻特点的描述，错误的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-17"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q059",
+      "page": 11,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "59",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        11,
+        12
+      ],
+      "title": "阶段考试 · 第59题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "乙状结肠出血"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "直肠癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "多发性瘘管"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "急性肠穿孔"
+        }
+      ],
+      "stems": [
+        {
+          "number": 59,
+          "sourceQuestion": 59,
+          "sourcePage": 11,
+          "text": "溃疡性结肠炎最不常见的并发症是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-18"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q060",
+      "page": 12,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "60",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        12
+      ],
+      "title": "阶段考试 · 第60题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "美沙拉嗪"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "硫唑嘌呤"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "英夫利昔单抗"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "泼尼松"
+        }
+      ],
+      "stems": [
+        {
+          "number": 60,
+          "sourceQuestion": 60,
+          "sourcePage": 12,
+          "text": "男，25 岁，腹痛、脓血便、发热 2 个月，大便 10 次/日，体温 39℃。粪镜检及培养未见病原体。结肠镜示结肠弥漫分布的糜烂及浅溃疡。左氧氟沙星联合甲硝唑治疗1 周症状无缓解。该患者最适宜的治疗药物是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-18"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q061",
+      "page": 12,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "61",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        12
+      ],
+      "title": "阶段考试 · 第61题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "结肠癌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "溃疡性结肠炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "克罗恩病"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肠结核"
+        }
+      ],
+      "stems": [
+        {
+          "number": 61,
+          "sourceQuestion": 61,
+          "sourcePage": 12,
+          "text": "女，28 岁。反复右下腹痛 2 年，伴便秘、口腔溃疡、低热。否认结核密切接触史。查体：右下腹可触及边界不清的包块，可移动，压痛阳性。最可能的诊断是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-18"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q062",
+      "page": 12,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "62",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        12
+      ],
+      "title": "阶段考试 · 第62题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "慢性肠道感染"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "精神心理障碍"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "内脏敏感性高"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "对食物不耐受"
+        }
+      ],
+      "stems": [
+        {
+          "number": 62,
+          "sourceQuestion": 62,
+          "sourcePage": 12,
+          "text": "肠易激综合征最重要的核心发病机制是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-19"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q063",
+      "page": 12,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "63",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        12
+      ],
+      "title": "阶段考试 · 第63题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "只针对 G-杆菌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "针对 G-杆菌，兼顾 G+球菌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "针对 G+球菌，兼顾 G-杆菌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "针对 G+球菌，兼顾厌氧菌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 63,
+          "sourceQuestion": 63,
+          "sourcePage": 12,
+          "text": "肝硬化合并自发性细菌性腹膜炎选择抗生素的原则是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-22"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q064",
+      "page": 12,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "64",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        12
+      ],
+      "title": "阶段考试 · 第64题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "静脉应用生长抑素"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "口服胃黏膜保护剂"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肌内注射维生素 K"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "静脉应用质子泵抑制剂"
+        }
+      ],
+      "stems": [
+        {
+          "number": 64,
+          "sourceQuestion": 64,
+          "sourcePage": 12,
+          "text": "男，58 岁。呕鲜血 4 小时，共 2 次、约 200ml，黑便 1 次。查体：贫血貌，前胸可见数个蜘蛛痣，肝肋下未触及，脾肋下 2cm，移动性浊音阳性。最适宜的药物止血措施是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-22"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q065",
+      "page": 12,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "65",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        12,
+        13
+      ],
+      "title": "阶段考试 · 第65题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "血芳香族氨基酸"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血支链氨基酸"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "血尿素氮"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "脑 α-酮戊二酸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 65,
+          "sourceQuestion": 65,
+          "sourcePage": 12,
+          "text": "肝性脑病患者的以下生化指标升高的是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-20"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q066",
+      "page": 13,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "66",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        13
+      ],
+      "title": "阶段考试 · 第66题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "可发生种植性转移"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "淋巴转移发生最早"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "易侵犯门静脉分支形成癌栓"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肝外血行转移最易至肺"
+        }
+      ],
+      "stems": [
+        {
+          "number": 66,
+          "sourceQuestion": 66,
+          "sourcePage": 13,
+          "text": "以下关于原发性肝细胞癌的转移，错误的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-21"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q067",
+      "page": 13,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "67",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        13
+      ],
+      "title": "阶段考试 · 第67题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "奥曲肽"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "加贝酯"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "谷氨酰胺"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "西咪替丁"
+        }
+      ],
+      "stems": [
+        {
+          "number": 67,
+          "sourceQuestion": 67,
+          "sourcePage": 13,
+          "text": "以下治疗急性胰腺炎的药物中，属于抑制胰酶活性的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-23"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q068",
+      "page": 13,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "68",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        13
+      ],
+      "title": "阶段考试 · 第68题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-24"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "没有肉眼血尿"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "红细胞形态均一"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "尿沉渣见红细胞管型"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "尿红细胞非对称容积分布曲线"
+        }
+      ],
+      "stems": [
+        {
+          "number": 68,
+          "sourceQuestion": 68,
+          "sourcePage": 13,
+          "text": "最能提示非肾小球源性血尿的表现是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-24"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q069",
+      "page": 13,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "69",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        13
+      ],
+      "title": "阶段考试 · 第69题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肾小球滤过率下降"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肾小管重吸收增加"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "血浆胶体渗透压下降"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "RAAS 系统的激活"
+        }
+      ],
+      "stems": [
+        {
+          "number": 69,
+          "sourceQuestion": 69,
+          "sourcePage": 13,
+          "text": "以下哪项不是肾病性水肿的主要发生机制",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-27"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q070",
+      "page": 13,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "70",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        13
+      ],
+      "title": "阶段考试 · 第70题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "急进性肾小球肾炎 I 型"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "急进性肾小球肾炎 II 型"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "急进性肾小球肾炎 III 型"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肾病综合征"
+        }
+      ],
+      "stems": [
+        {
+          "number": 70,
+          "sourceQuestion": 70,
+          "sourcePage": 13,
+          "text": "男，22 岁。乏力、纳差 1 个月，水肿、少尿伴血压升高 1 周，尿蛋白(+++)，尿 RBC 30-50/HP，血 Hb 76g/L，补体 C3 正常，肌酐 421μmol/L，B 超提示双肾增大，血清抗肾小球基底膜抗体阳性，最可能的诊断是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-27"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q071",
+      "page": 13,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "71–72",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        13,
+        14
+      ],
+      "title": "阶段考试 · 第71–72题（共用题干）",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "q71-A",
+          "displayKey": "A",
+          "label": "微小病变型肾病",
+          "category": "第71题选项"
+        },
+        {
+          "key": "q71-B",
+          "displayKey": "B",
+          "label": "膜性肾病",
+          "category": "第71题选项"
+        },
+        {
+          "key": "q71-C",
+          "displayKey": "C",
+          "label": "IgA 肾病",
+          "category": "第71题选项"
+        },
+        {
+          "key": "q71-D",
+          "displayKey": "D",
+          "label": "系膜毛细血管性肾炎",
+          "category": "第71题选项"
+        },
+        {
+          "key": "q72-A",
+          "displayKey": "A",
+          "label": "糖皮质激素",
+          "category": "第72题选项"
+        },
+        {
+          "key": "q72-B",
+          "displayKey": "B",
+          "label": "肝素",
+          "category": "第72题选项"
+        },
+        {
+          "key": "q72-C",
+          "displayKey": "C",
+          "label": "糖皮质激素+环磷酰胺",
+          "category": "第72题选项"
+        },
+        {
+          "key": "q72-D",
+          "displayKey": "D",
+          "label": "利尿剂",
+          "category": "第72题选项"
+        }
+      ],
+      "stems": [
+        {
+          "number": 71,
+          "sourceQuestion": 71,
+          "sourcePage": 14,
+          "text": "该患者最可能的诊断是",
+          "answerRaw": "B",
+          "answer": [
+            "q71-B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-27",
+          "optionCategory": "第71题选项"
+        },
+        {
+          "number": 72,
+          "sourceQuestion": 72,
+          "sourcePage": 14,
+          "text": "该患者应首选的药物治疗是",
+          "answerRaw": "C",
+          "answer": [
+            "q72-C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-27",
+          "optionCategory": "第72题选项"
+        }
+      ],
+      "sharedStem": "男，50 岁。双下肢水肿 2 个月。查体：BP 140/90mmHg，血 ALB 27g/L，Scr 92μmol/L，尿蛋白(+++)，尿潜血(-)。肾活检：基底膜增厚，嗜银染色有钉突形成。",
+      "sharedQuestionCount": 2
+    },
+    {
+      "id": "med-stage-exam-2026-09-q073",
+      "page": 14,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "73",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        14
+      ],
+      "title": "阶段考试 · 第73题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肾病综合征合并肾静脉血栓形成"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肾病综合征合并肾小管功能障碍"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肾病综合征合并泌尿道感染"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "急性感染后肾炎合并肾功能不全"
+        }
+      ],
+      "stems": [
+        {
+          "number": 73,
+          "sourceQuestion": 73,
+          "sourcePage": 14,
+          "text": "男，15 岁。颜面水肿伴少尿 10 天，肉眼血尿合并腰痛 2 天。查体：水肿，腹胀，移动性浊音阳性，右侧肾区叩痛阳性。血常规：Hb 156g/L，WBC 12.6×10⁹/L，Plt 658×10⁹/L。纤维蛋白原 65g/L，D-二聚体明显升高。血浆白蛋白 10g/L，血胆固醇 9.56mmol/L。尿常规：蛋白阳性，红细胞满视野，畸形率约 50%。该患者最可能的诊断是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-27"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q074",
+      "page": 14,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "74–76",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        14
+      ],
+      "title": "阶段考试 · 第74–76题（共用题干）",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "q74-A",
+          "displayKey": "A",
+          "label": "上皮细胞管型",
+          "category": "第74题选项"
+        },
+        {
+          "key": "q74-B",
+          "displayKey": "B",
+          "label": "红细胞管型",
+          "category": "第74题选项"
+        },
+        {
+          "key": "q74-C",
+          "displayKey": "C",
+          "label": "白细胞管型",
+          "category": "第74题选项"
+        },
+        {
+          "key": "q74-D",
+          "displayKey": "D",
+          "label": "蜡样管型",
+          "category": "第74题选项"
+        },
+        {
+          "key": "q75-A",
+          "displayKey": "A",
+          "label": "以支持对症为主",
+          "category": "第75题选项"
+        },
+        {
+          "key": "q75-B",
+          "displayKey": "B",
+          "label": "需使用糖皮质激素",
+          "category": "第75题选项"
+        },
+        {
+          "key": "q75-C",
+          "displayKey": "C",
+          "label": "降血压时先使用利尿剂",
+          "category": "第75题选项"
+        },
+        {
+          "key": "q75-D",
+          "displayKey": "D",
+          "label": "无现症感染证据无需使用抗生素",
+          "category": "第75题选项"
+        },
+        {
+          "key": "q76-A",
+          "displayKey": "A",
+          "label": "泌尿系 B 超",
+          "category": "第76题选项"
+        },
+        {
+          "key": "q76-B",
+          "displayKey": "B",
+          "label": "同位素肾动态显像",
+          "category": "第76题选项"
+        },
+        {
+          "key": "q76-C",
+          "displayKey": "C",
+          "label": "肾穿刺活检",
+          "category": "第76题选项"
+        },
+        {
+          "key": "q76-D",
+          "displayKey": "D",
+          "label": "静脉肾盂造影",
+          "category": "第76题选项"
+        }
+      ],
+      "stems": [
+        {
+          "number": 74,
+          "sourceQuestion": 74,
+          "sourcePage": 14,
+          "text": "该患者最可能出现的管型是",
+          "answerRaw": "B",
+          "answer": [
+            "q74-B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-27",
+          "optionCategory": "第74题选项"
+        },
+        {
+          "number": 75,
+          "sourceQuestion": 75,
+          "sourcePage": 14,
+          "text": "下列对该患者治疗措施的描述中，错误的是",
+          "answerRaw": "B",
+          "answer": [
+            "q75-B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-27",
+          "optionCategory": "第75题选项"
+        },
+        {
+          "number": 76,
+          "sourceQuestion": 76,
+          "sourcePage": 14,
+          "text": "患者 4 天后出现尿量进行性减少，肌酐进行性升高，为明确诊断首选的检查是",
+          "answerRaw": "C",
+          "answer": [
+            "q76-C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-27",
+          "optionCategory": "第76题选项"
+        }
+      ],
+      "sharedStem": "男，19 岁，咽痛，发热，伴咳嗽 2 周，眼睑水肿伴肉眼血尿 3 天，BP 150/100mmHg。实验室检查：尿蛋白(++)，尿红细胞 30-40/HP，管型 3-5/LP，血 C3 降低，Scr 126μmol/L。",
+      "sharedQuestionCount": 3
+    },
+    {
+      "id": "med-stage-exam-2026-09-q077",
+      "page": 14,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "77",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        14,
+        15
+      ],
+      "title": "阶段考试 · 第77题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "急性链球菌感染后肾小球肾炎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "原发性肾病综合征"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "紫癜性肾炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "IgA 肾病"
+        }
+      ],
+      "stems": [
+        {
+          "number": 77,
+          "sourceQuestion": 77,
+          "sourcePage": 14,
+          "text": "男，15 岁。上呼吸道感染后 10 余天出现腹痛和便血，经泼尼松治疗后好转，但在病程第 4 周出现尿蛋白(+++)，红细胞 15-20 个/HP，肾功能及血清补体 C3 正常。最可能的诊断是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-27"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q078",
+      "page": 15,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "78",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        15
+      ],
+      "title": "阶段考试 · 第78题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "血培养"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "清洁中段尿培养"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "静脉肾盂造影"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肾脏 B 超"
+        }
+      ],
+      "stems": [
+        {
+          "number": 78,
+          "sourceQuestion": 78,
+          "sourcePage": 15,
+          "text": "男，70 岁。劳累后突发寒战，高热伴右侧腰痛 1 天。无尿频、尿急、尿痛。查体：右肾区叩击痛。尿沉渣镜检 WBC 30-40/HP，RBC 6-10/HP。明确诊断首选的检查是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-25"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q079",
+      "page": 15,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "79",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        15
+      ],
+      "title": "阶段考试 · 第79题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "尿路刺激症的有无"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "尿白细胞的多少"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "尿白细胞管型的有无"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "真性细菌尿的有无"
+        }
+      ],
+      "stems": [
+        {
+          "number": 79,
+          "sourceQuestion": 79,
+          "sourcePage": 15,
+          "text": "鉴别尿路感染与尿道综合征的关键是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-25"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q080",
+      "page": 15,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "80",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        15
+      ],
+      "title": "阶段考试 · 第80题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "血红蛋白中度以上减低"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血尿素氮与肌酐的比值减低"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "血钾浓度减低"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "尿钠浓度减低"
+        }
+      ],
+      "stems": [
+        {
+          "number": 80,
+          "sourceQuestion": 80,
+          "sourcePage": 15,
+          "text": "急性肾小管坏死维持期出现的实验室异常是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-26"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q081",
+      "page": 15,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "81",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        15
+      ],
+      "title": "阶段考试 · 第81题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "慢性肾脏病 2 期"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "慢性肾脏病 3 期"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "慢性肾脏病 4 期"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "慢性肾脏病 5 期"
+        }
+      ],
+      "stems": [
+        {
+          "number": 81,
+          "sourceQuestion": 81,
+          "sourcePage": 15,
+          "text": "放射性核素肾动态显像：左肾 GFR 10.2ml/min，右肾 GFR 11.5ml/min，肾功能分期为",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-26"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q082",
+      "page": 15,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "82",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        15
+      ],
+      "title": "阶段考试 · 第82题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "珠蛋白生成障碍性贫血"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "转铁蛋白缺乏症"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "慢性失血性贫血"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "再生障碍性贫血"
+        }
+      ],
+      "stems": [
+        {
+          "number": 82,
+          "sourceQuestion": 82,
+          "sourcePage": 15,
+          "text": "以下不属于小细胞性贫血的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-28"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q083",
+      "page": 15,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "83",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        15,
+        16
+      ],
+      "title": "阶段考试 · 第83题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "口角炎、舌炎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "毛发干枯、脱落"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "心悸、气短"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "匙状甲"
+        }
+      ],
+      "stems": [
+        {
+          "number": 83,
+          "sourceQuestion": 83,
+          "sourcePage": 15,
+          "text": "下列不属于缺铁性贫血患者组织缺铁表现的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-28"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q084",
+      "page": 16,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "84",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        16
+      ],
+      "title": "阶段考试 · 第84题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "血清铁降低，总铁结合力降低，红细胞游离原卟啉降低"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血清铁降低，总铁结合力降低，红细胞游离原卟啉增高"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "血清铁降低，总铁结合力增高，红细胞游离原卟啉增高"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "血清铁降低，总铁结合力增高，红细胞游离原卟啉降低"
+        }
+      ],
+      "stems": [
+        {
+          "number": 84,
+          "sourceQuestion": 84,
+          "sourcePage": 16,
+          "text": "女，30 岁，乏力、头晕伴月经过多半年。化验：Hb 60g/L，RBC 3.1×10¹²/L，WBC 7.3×10⁹/L，Plt 320×10⁹/L，红细胞中心淡染区扩大。该患者最可能的化验结果是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-28"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q085",
+      "page": 16,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "85",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        16
+      ],
+      "title": "阶段考试 · 第85题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-30"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "血浆游离血红蛋白"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血浆结合珠蛋白"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "血涂片破碎红细胞"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "尿 Rous 试验"
+        }
+      ],
+      "stems": [
+        {
+          "number": 85,
+          "sourceQuestion": 85,
+          "sourcePage": 16,
+          "text": "以下对鉴别血管内和血管外溶血无帮助的检查是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-30"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q086",
+      "page": 16,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "86",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        16
+      ],
+      "title": "阶段考试 · 第86题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-30"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "巨幼细胞性贫血"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "再生障碍性贫血"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "阵发性睡眠性血红蛋白尿"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "自身免疫性溶血性贫血"
+        }
+      ],
+      "stems": [
+        {
+          "number": 86,
+          "sourceQuestion": 86,
+          "sourcePage": 16,
+          "text": "男，44 岁。头晕乏力，面色苍白 3 年。巩膜轻度黄染，脾肋下 2cm。Hb 56g/L，RBC 1.8×10¹²/L，WBC 2.2×10⁹/L，Plt 32×10⁹/L。骨髓增生减低，但红系增生，以中晚幼红为主，尿 Rous 试验(+)，Ham 试验(+)。首先考虑",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-30"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q087",
+      "page": 16,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "87",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        16
+      ],
+      "title": "阶段考试 · 第87题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-31"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "血小板平均体积偏大"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "骨髓巨核细胞增多"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "抗心磷脂抗体"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "凝血时间延长"
+        }
+      ],
+      "stems": [
+        {
+          "number": 87,
+          "sourceQuestion": 87,
+          "sourcePage": 16,
+          "text": "以下不符合原发免疫性血小板减少症的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-31"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q088",
+      "page": 16,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "88",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        16
+      ],
+      "title": "阶段考试 · 第88题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-33"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "RAS"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "RAEB"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "RAEB-t"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "CMML"
+        }
+      ],
+      "stems": [
+        {
+          "number": 88,
+          "sourceQuestion": 88,
+          "sourcePage": 16,
+          "text": "男，60 岁。面色苍白、乏力 13 个月，牙龈出血 1 月余。实验室检查：Hb 64g/L，WBC 2.4×10⁹/L，Plt 35×10⁹/L。骨髓检查：增生明显活跃，原始细胞 16%，可见 Auer 小体，铁染色示细胞外铁(+++)，环形铁粒幼细胞 12%，诊断为 MDS。根据 FAB 分型最可能的类型是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-33"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q089",
+      "page": 17,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "89–91",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        17
+      ],
+      "title": "阶段考试 · 第89–91题（共用题干）",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-34"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "q89-A",
+          "displayKey": "A",
+          "label": "血小板减少",
+          "category": "第89题选项"
+        },
+        {
+          "key": "q89-B",
+          "displayKey": "B",
+          "label": "血小板功能异常",
+          "category": "第89题选项"
+        },
+        {
+          "key": "q89-C",
+          "displayKey": "C",
+          "label": "弥散性血管内凝血",
+          "category": "第89题选项"
+        },
+        {
+          "key": "q89-D",
+          "displayKey": "D",
+          "label": "异常早幼粒细胞浸润血管壁",
+          "category": "第89题选项"
+        },
+        {
+          "key": "q90-A",
+          "displayKey": "A",
+          "label": "DVP 方案",
+          "category": "第90题选项"
+        },
+        {
+          "key": "q90-B",
+          "displayKey": "B",
+          "label": "高三尖杉酯碱+阿糖胞苷",
+          "category": "第90题选项"
+        },
+        {
+          "key": "q90-C",
+          "displayKey": "C",
+          "label": "DA 方案+肝素",
+          "category": "第90题选项"
+        },
+        {
+          "key": "q90-D",
+          "displayKey": "D",
+          "label": "全反式维甲酸+肝素",
+          "category": "第90题选项"
+        },
+        {
+          "key": "q91-A",
+          "displayKey": "A",
+          "label": "停药，定期随诊",
+          "category": "第91题选项"
+        },
+        {
+          "key": "q91-B",
+          "displayKey": "B",
+          "label": "定期联合化疗",
+          "category": "第91题选项"
+        },
+        {
+          "key": "q91-C",
+          "displayKey": "C",
+          "label": "单用全反式维甲酸维持治疗",
+          "category": "第91题选项"
+        },
+        {
+          "key": "q91-D",
+          "displayKey": "D",
+          "label": "化疗与全反式维甲酸交替治疗",
+          "category": "第91题选项"
+        }
+      ],
+      "stems": [
+        {
+          "number": 89,
+          "sourceQuestion": 89,
+          "sourcePage": 17,
+          "text": "该患者出血的首要原因是",
+          "answerRaw": "C",
+          "answer": [
+            "q89-C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-34",
+          "optionCategory": "第89题选项"
+        },
+        {
+          "number": 90,
+          "sourceQuestion": 90,
+          "sourcePage": 17,
+          "text": "该患者首选的治疗方案是",
+          "answerRaw": "D",
+          "answer": [
+            "q90-D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-34",
+          "optionCategory": "第90题选项"
+        },
+        {
+          "number": 91,
+          "sourceQuestion": 91,
+          "sourcePage": 17,
+          "text": "该患者获得完全缓解后的治疗方法是",
+          "answerRaw": "D",
+          "answer": [
+            "q91-D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-34",
+          "optionCategory": "第91题选项"
+        }
+      ],
+      "sharedStem": "男，30 岁，因发热、面色苍白伴牙龈出血 1 周入院。次日出现皮肤多处片状瘀斑。实验室检查：Hb 80g/L，WBC 2.0×10⁹/L，Plt 50×10⁹/L。血浆纤维蛋白原 0.8g/L。骨髓检查：有核细胞增生极度活跃，胞浆颗粒粗大的早幼粒细胞占 85%。",
+      "sharedQuestionCount": 3
+    },
+    {
+      "id": "med-stage-exam-2026-09-q092",
+      "page": 17,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "92",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        17
+      ],
+      "title": "阶段考试 · 第92题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-34"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "血小板降低"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "NAP 阳性率降低"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "外周血可见有核红细胞"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "骨髓巨核细胞减少"
+        }
+      ],
+      "stems": [
+        {
+          "number": 92,
+          "sourceQuestion": 92,
+          "sourcePage": 17,
+          "text": "支持慢性髓系白血病患者慢性期的化验结果是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-34"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q093",
+      "page": 17,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "93",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        17
+      ],
+      "title": "阶段考试 · 第93题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "女性较多见"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "病变较弥漫"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "多数有皮肤瘙痒"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "常不累及腹膜后淋巴结"
+        }
+      ],
+      "stems": [
+        {
+          "number": 93,
+          "sourceQuestion": 93,
+          "sourcePage": 17,
+          "text": "以原因不明发热为主要起病症状的霍奇金淋巴瘤的特征是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-35"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q094",
+      "page": 17,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "94–95",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        17,
+        18
+      ],
+      "title": "阶段考试 · 第94–95题（共用题干）",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "q94-A",
+          "displayKey": "A",
+          "label": "Ⅲ A",
+          "category": "第94题选项"
+        },
+        {
+          "key": "q94-B",
+          "displayKey": "B",
+          "label": "Ⅲ B",
+          "category": "第94题选项"
+        },
+        {
+          "key": "q94-C",
+          "displayKey": "C",
+          "label": "Ⅳ A",
+          "category": "第94题选项"
+        },
+        {
+          "key": "q94-D",
+          "displayKey": "D",
+          "label": "Ⅳ B",
+          "category": "第94题选项"
+        },
+        {
+          "key": "q95-A",
+          "displayKey": "A",
+          "label": "ABVD",
+          "category": "第95题选项"
+        },
+        {
+          "key": "q95-B",
+          "displayKey": "B",
+          "label": "CHOP",
+          "category": "第95题选项"
+        },
+        {
+          "key": "q95-C",
+          "displayKey": "C",
+          "label": "IA",
+          "category": "第95题选项"
+        },
+        {
+          "key": "q95-D",
+          "displayKey": "D",
+          "label": "RD",
+          "category": "第95题选项"
+        }
+      ],
+      "stems": [
+        {
+          "number": 94,
+          "sourceQuestion": 94,
+          "sourcePage": 17,
+          "text": "该患者的临床分期为",
+          "answerRaw": "D",
+          "answer": [
+            "q94-D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-35",
+          "optionCategory": "第94题选项"
+        },
+        {
+          "number": 95,
+          "sourceQuestion": 95,
+          "sourcePage": 18,
+          "text": "该患者的治疗方案为",
+          "answerRaw": "B",
+          "answer": [
+            "q95-B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-35",
+          "optionCategory": "第95题选项"
+        }
+      ],
+      "sharedStem": "男，46 岁，右颈部无痛性淋巴结肿大 4 个月，伴上腹疼痛，食欲不佳，发热，盗汗，体重减轻。行剖腹探查见胃与胰头及腹膜有粘连，周围有多个肿大的淋巴结，病理检查为非霍奇金淋巴瘤，T 细胞来源。",
+      "sharedQuestionCount": 2
+    },
+    {
+      "id": "med-stage-exam-2026-09-q096",
+      "page": 18,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "96–97",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        18
+      ],
+      "title": "阶段考试 · 第96–97题（共用题干）",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-32"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "q96-A",
+          "displayKey": "A",
+          "label": "肾活检",
+          "category": "第96题选项"
+        },
+        {
+          "key": "q96-B",
+          "displayKey": "B",
+          "label": "骨髓穿刺及血、尿免疫固定电泳",
+          "category": "第96题选项"
+        },
+        {
+          "key": "q96-C",
+          "displayKey": "C",
+          "label": "空腹血糖和 OGTT",
+          "category": "第96题选项"
+        },
+        {
+          "key": "q96-D",
+          "displayKey": "D",
+          "label": "腰椎 MRI",
+          "category": "第96题选项"
+        },
+        {
+          "key": "q97-A",
+          "displayKey": "A",
+          "label": "Ⅱ期 A 组",
+          "category": "第97题选项"
+        },
+        {
+          "key": "q97-B",
+          "displayKey": "B",
+          "label": "Ⅱ期 B 组",
+          "category": "第97题选项"
+        },
+        {
+          "key": "q97-C",
+          "displayKey": "C",
+          "label": "Ⅲ期 A 组",
+          "category": "第97题选项"
+        },
+        {
+          "key": "q97-D",
+          "displayKey": "D",
+          "label": "Ⅲ期 B 组",
+          "category": "第97题选项"
+        }
+      ],
+      "stems": [
+        {
+          "number": 96,
+          "sourceQuestion": 96,
+          "sourcePage": 18,
+          "text": "对明确诊断最有价值的检查是",
+          "answerRaw": "B",
+          "answer": [
+            "q96-B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-32",
+          "optionCategory": "第96题选项"
+        },
+        {
+          "number": 97,
+          "sourceQuestion": 97,
+          "sourcePage": 18,
+          "text": "该患者的 Durie-Salmon 临床分期是",
+          "answerRaw": "D",
+          "answer": [
+            "q97-D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-32",
+          "optionCategory": "第97题选项"
+        }
+      ],
+      "sharedStem": "男，70 岁。腰痛，消瘦，乏力半年，双下肢水肿 3 个月。既往高血压 5 年，糖尿病 3 年。查体：BP 120/80mmHg，贫血貌，双下肢中度凹陷性水肿。尿常规：RBC 0-2 个/HP，尿蛋白 (+++)，尿蛋白定量 3.6g/d，尿糖(+)。血常规：Hb 80g/L，WBC 5.6×10⁹/L，Plt 156×10⁹/L，ESR 106mm/h。血 Scr 190μmol/L，TP 108g/L，ALB 30g/L。腰椎 X 线示第 2 腰椎压缩性骨折。",
+      "sharedQuestionCount": 2
+    },
+    {
+      "id": "med-stage-exam-2026-09-q098",
+      "page": 18,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "98",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        18
+      ],
+      "title": "阶段考试 · 第98题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-31"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肌肉出血"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "内脏出血"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "皮肤黏膜出血"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "迟发出血"
+        }
+      ],
+      "stems": [
+        {
+          "number": 98,
+          "sourceQuestion": 98,
+          "sourcePage": 18,
+          "text": "血管壁异常所致出血的特点是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-31"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q099",
+      "page": 18,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "99",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        18
+      ],
+      "title": "阶段考试 · 第99题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "雄激素"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "泼尼松"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肾病综合征"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "急性病毒性肝炎"
+        }
+      ],
+      "stems": [
+        {
+          "number": 99,
+          "sourceQuestion": 99,
+          "sourcePage": 18,
+          "text": "使甲状腺素结合球蛋白升高的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-36"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q100",
+      "page": 18,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "100",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        18
+      ],
+      "title": "阶段考试 · 第100题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "FT3"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "TRH"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "TSH"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "TRAb"
+        }
+      ],
+      "stems": [
+        {
+          "number": 100,
+          "sourceQuestion": 100,
+          "sourcePage": 18,
+          "text": "反映甲状腺功能最敏感的实验室指标是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-36"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q101",
+      "page": 19,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "101",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        19
+      ],
+      "title": "阶段考试 · 第101题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-37"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "TSH"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "TRAb"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "T3、T4"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "rT3"
+        }
+      ],
+      "stems": [
+        {
+          "number": 101,
+          "sourceQuestion": 101,
+          "sourcePage": 19,
+          "text": "原发性甲减与继发性甲减的鉴别指标是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-37"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q102",
+      "page": 19,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "102",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        19
+      ],
+      "title": "阶段考试 · 第102题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-39"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "血肾素增高"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "反常性酸性尿"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "糖耐量减低"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "心电图 T 波高耸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 102,
+          "sourceQuestion": 102,
+          "sourcePage": 19,
+          "text": "符合原发性醛固酮增多症的检查是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-39"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q103",
+      "page": 19,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "103",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        19
+      ],
+      "title": "阶段考试 · 第103题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-40"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "头颅 CT"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "鞍区 MRI"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胸部 CT"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肾区 B 超"
+        }
+      ],
+      "stems": [
+        {
+          "number": 103,
+          "sourceQuestion": 103,
+          "sourcePage": 19,
+          "text": "女，42 岁。向心性肥胖伴乏力 2 年。查体：BP 180/110mmHg，满月脸、多血质，皮肤可见宽大紫纹，血糖 12.6mmol/L，血钾 3.7mmol/L，尿皮质醇增高，小剂量地塞米松试验不能抑制，大剂量地塞米松试验能抑制。为明确病因，除肾上腺CT 检查外，最需要进行的检查是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-40"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q104",
+      "page": 19,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "104",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        19
+      ],
+      "title": "阶段考试 · 第104题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-40"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "小剂量地塞米松抑制试验"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "大剂量地塞米松抑制试验"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "血浆 ACTH 测定"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "完善胸部其它影像学检查"
+        }
+      ],
+      "stems": [
+        {
+          "number": 104,
+          "sourceQuestion": 104,
+          "sourcePage": 19,
+          "text": "女，45 岁，脸圆，向心性肥胖 1 年余。患者感明显乏力与口干，腹部皮肤可见紫纹，血压 160/80mmHg，闭经 1 年。曾行胸部 CT 检查发现左肺占位性病变，要明确其与本病是否相关，需要进行的检查是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-40"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q105",
+      "page": 19,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "105",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        19
+      ],
+      "title": "阶段考试 · 第105题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-41"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "阿片肽"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血清素"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "神经肽 Y"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肾上腺髓质素"
+        }
+      ],
+      "stems": [
+        {
+          "number": 105,
+          "sourceQuestion": 105,
+          "sourcePage": 19,
+          "text": "引起嗜铬细胞瘤患者面部潮红的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-41"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q106",
+      "page": 19,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "106",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        19,
+        20
+      ],
+      "title": "阶段考试 · 第106题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-38"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "直立性低血压"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "动眼神经麻痹"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "共济失调"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肢端袜套样感觉异常"
+        }
+      ],
+      "stems": [
+        {
+          "number": 106,
+          "sourceQuestion": 106,
+          "sourcePage": 19,
+          "text": "下列属于糖尿病自主神经病变表现的是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-38"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q107",
+      "page": 20,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "107",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        20
+      ],
+      "title": "阶段考试 · 第107题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-38"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "高血压"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "眼底出血"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "心肌梗死"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "足部溃疡"
+        }
+      ],
+      "stems": [
+        {
+          "number": 107,
+          "sourceQuestion": 107,
+          "sourcePage": 20,
+          "text": "下列属于糖尿病微血管病变的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-38"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q108",
+      "page": 20,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "108",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        20
+      ],
+      "title": "阶段考试 · 第108题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-38"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胰岛素"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "格列齐特"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "二甲双胍"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "阿卡波糖"
+        }
+      ],
+      "stems": [
+        {
+          "number": 108,
+          "sourceQuestion": 108,
+          "sourcePage": 20,
+          "text": "男，50 岁。多饮，多尿，体重减轻 1 个月，近 2 周出现颈后疼痛。查体：T 38.6 度，BMI 27.5kg/m²，神志清楚，颈后见4cm×3cm 溃疡，表面有脓性分泌物。空腹血糖 9.2mmol/L，尿糖(++)，尿酮体(-)。为控制该患者的血糖，最应采取的治疗是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-38"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q109",
+      "page": 20,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "109",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        20
+      ],
+      "title": "阶段考试 · 第109题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "风湿",
+      "lectureIds": [
+        "lecture-43"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "类风湿关节炎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "硬皮病"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Reiter 综合征"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "干燥综合征"
+        }
+      ],
+      "stems": [
+        {
+          "number": 109,
+          "sourceQuestion": 109,
+          "sourcePage": 20,
+          "text": "下列不属于弥漫性结缔组织病的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-43"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q110",
+      "page": 20,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "110",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        20
+      ],
+      "title": "阶段考试 · 第110题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "风湿",
+      "lectureIds": [
+        "lecture-45"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "乌帕替尼"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "美洛昔康"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "甲氨蝶呤"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "泼尼松"
+        }
+      ],
+      "stems": [
+        {
+          "number": 110,
+          "sourceQuestion": 110,
+          "sourcePage": 20,
+          "text": "女，50 岁，对称性多关节肿痛 3 年，晨僵 2 小时。双手 X 线示近端指间关节面虫蚀样改变，关节间隙狭窄。可用于治疗该患者的靶向 DMARDs 药物是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-45"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q111",
+      "page": 20,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "111",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        20
+      ],
+      "title": "阶段考试 · 第111题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "风湿",
+      "lectureIds": [
+        "lecture-44"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "非畸形关节炎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "多发性浆膜炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "血沉增快"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "白细胞＜4×10⁹/L"
+        }
+      ],
+      "stems": [
+        {
+          "number": 111,
+          "sourceQuestion": 111,
+          "sourcePage": 20,
+          "text": "下列哪项不是美国风湿病学会诊断系统性红斑狼疮的标准",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-44"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q112",
+      "page": 20,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "112",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        20,
+        21
+      ],
+      "title": "阶段考试 · 第112题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "风湿",
+      "lectureIds": [
+        "lecture-44"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "血沉"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血常规"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "血培养"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "补体"
+        }
+      ],
+      "stems": [
+        {
+          "number": 112,
+          "sourceQuestion": 112,
+          "sourcePage": 20,
+          "text": "女，35 岁，确诊系统性红斑狼疮，经泼尼松 50mg/d 治疗 1 个月后病情稳定，随后激素逐渐减量至 25mg/d 时出现发热，体温 38.4℃。对鉴别发热原因意义不大的检查是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-44"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q113",
+      "page": 21,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "113",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        21
+      ],
+      "title": "阶段考试 · 第113题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "风湿",
+      "lectureIds": [
+        "lecture-45"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "远端指间关节"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "腕关节"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "踝关节"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "第 2 跖趾关节"
+        }
+      ],
+      "stems": [
+        {
+          "number": 113,
+          "sourceQuestion": 113,
+          "sourcePage": 21,
+          "text": "在类风湿关节炎的诊断标准中，关节受累不包括",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-45"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q114",
+      "page": 21,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "114",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        21
+      ],
+      "title": "阶段考试 · 第114题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "风湿",
+      "lectureIds": [
+        "lecture-46"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "抗核抗体"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "抗 SSA 抗体"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "抗 SSB 抗体"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "抗毒蕈碱（M3）受体抗体"
+        }
+      ],
+      "stems": [
+        {
+          "number": 114,
+          "sourceQuestion": 114,
+          "sourcePage": 21,
+          "text": "诊断干燥综合征的主要指标是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-46"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q115",
+      "page": 21,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "115",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        21
+      ],
+      "title": "阶段考试 · 第115题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "中毒",
+      "lectureIds": [
+        "lecture-48"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "阿托品减量过快"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "中间型综合征"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "迟发性神经病变"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "呼吸肌受累致呼吸、循环衰竭"
+        }
+      ],
+      "stems": [
+        {
+          "number": 115,
+          "sourceQuestion": 115,
+          "sourcePage": 21,
+          "text": "女，30 岁，误服有机磷农药后出现恶心呕吐，全身湿冷，双侧瞳孔呈针尖样 1 小时来诊。经初步洗胃，胆碱酯酶复能药、阿托品治疗后症状缓解。停用阿托品 16 小时后患者上述症状再次出现，呼吸心跳停止。患者心脏骤停最可能的原因是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-48"
+        }
+      ]
+    },
+    {
+      "id": "med-stage-exam-2026-09-q116",
+      "page": 21,
+      "sourceKey": "med-stage-exam-2026-09",
+      "sourceName": "【内科含诊断】阶段考试 天天师兄27考研 带动复习！.pdf",
+      "sourceSection": "内科含诊断",
+      "sourceQuestion": "116",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        21
+      ],
+      "title": "阶段考试 · 第116题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "中毒",
+      "lectureIds": [
+        "lecture-48"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "阿片类药物中毒"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "阿托品中毒"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "苯二氮卓类中毒"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "有机磷中毒"
+        }
+      ],
+      "stems": [
+        {
+          "number": 116,
+          "sourceQuestion": 116,
+          "sourcePage": 21,
+          "text": "男，22 岁。昏迷 2 小时，呼吸 6 次/分，瞳孔缩小，呼吸无蒜臭味。首先考虑",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-48"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-01.webp"
+    },
+    {
+      "page": 2,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-02.webp"
+    },
+    {
+      "page": 3,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-03.webp"
+    },
+    {
+      "page": 4,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-04.webp"
+    },
+    {
+      "page": 5,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-05.webp"
+    },
+    {
+      "page": 6,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-06.webp"
+    },
+    {
+      "page": 7,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-07.webp"
+    },
+    {
+      "page": 8,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-08.webp"
+    },
+    {
+      "page": 9,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-09.webp"
+    },
+    {
+      "page": 10,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-10.webp"
+    },
+    {
+      "page": 11,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-11.webp"
+    },
+    {
+      "page": 12,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-12.webp"
+    },
+    {
+      "page": 13,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-13.webp"
+    },
+    {
+      "page": 14,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-14.webp"
+    },
+    {
+      "page": 15,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-15.webp"
+    },
+    {
+      "page": 16,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-16.webp"
+    },
+    {
+      "page": 17,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-17.webp"
+    },
+    {
+      "page": 18,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-18.webp"
+    },
+    {
+      "page": 19,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-19.webp"
+    },
+    {
+      "page": 20,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-20.webp"
+    },
+    {
+      "page": 21,
+      "sourceKey": "med-stage-exam-2026-09",
+      "image": "med/med-stage-exam-2026-09/page-21.webp"
+    }
+  ]
+}
