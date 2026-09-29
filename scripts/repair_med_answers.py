@@ -32,7 +32,8 @@ MANUAL = {
     "p09-g3:7": list("CI"),
     "p13-g1:4": list("F"),
     "p14-g1:4": list("EIL"),
-    "p23-g1:0": list("ACE"),
+    # Lecture 16, page 1: GU is primarily due to impaired mucosal defense (I).
+    "p23-g1:0": list("ACEI"),
     "p37-g1:1": list("ADFGJKMP"),
     "p62-g1:4": list("D"),
     "p62-g1:8": list("ACF"),
