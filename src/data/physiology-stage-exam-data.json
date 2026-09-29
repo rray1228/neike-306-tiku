@@ -1,0 +1,3871 @@
+{
+  "meta": {
+    "title": "生理学·阶段考试",
+    "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+    "sourcePages": 11,
+    "sourceSha256": "15d638257d5636f372d9959929022b0c33600f3ca105b964e3ada38b257f0272",
+    "groupCount": 62,
+    "stemCount": 62,
+    "answerRows": [
+      "BCCCC",
+      "BBDDC",
+      "BDDCA",
+      "DCCDA",
+      "CADDC",
+      "AACDA",
+      "CBDCC",
+      "DCDCD",
+      "CDABA",
+      "CDBCC",
+      "ADACC",
+      "BAACA",
+      "CB"
+    ],
+    "answerNote": "按用户提供的答案图逐题对应，不代表已进行讲义答案勘误。"
+  },
+  "groups": [
+    {
+      "id": "physiology-stage-exam-2026-09-q001",
+      "page": 1,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "1",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第1题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "绪论",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "控制系统为闭合环路"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "准确性和适应性更大"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "无法避免波动和滞后"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "该系统不会发生失误"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "sourceQuestion": 1,
+          "sourcePage": 1,
+          "text": "以下属于前馈控制系统特点的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-01"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q002",
+      "page": 1,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "2",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第2题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "葡萄糖能促进小肠上皮细胞基底膜的钠泵活动"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "葡萄糖能促进小肠上皮细胞顶端膜 Na+和 Cl-的协同转运"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "葡萄糖和 Na+在小肠上皮细胞顶端膜共转运"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "葡萄糖和 Na+在小肠上皮细胞基底膜共转运"
+        }
+      ],
+      "stems": [
+        {
+          "number": 2,
+          "sourceQuestion": 2,
+          "sourcePage": 1,
+          "text": "临床上腹泻患者服用葡萄糖盐水比服用生理盐水能更有效地防止脱水，主要原因是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-02"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q003",
+      "page": 1,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "3",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第3题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "Na+的内向驱动力和 K+的外向驱动力均逐渐减小"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "Na+的内向驱动力和 K+的外向驱动力均逐渐增大"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Na+的内向驱动力逐渐减小，K+的外向驱动力逐渐增大"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "Na+的内向驱动力逐渐增大，K+的外向驱动力逐渐减小"
+        }
+      ],
+      "stems": [
+        {
+          "number": 3,
+          "sourceQuestion": 3,
+          "sourcePage": 1,
+          "text": "在神经纤维动作电位的上升支",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-03"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q004",
+      "page": 1,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "4",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第4题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "将各自通过中点后传导到另一端"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "到达中点后复合成一个更大的动作电位"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "将在中点相遇后停止传导"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "较强的动作电位通过中点而到达另一端"
+        }
+      ],
+      "stems": [
+        {
+          "number": 4,
+          "sourceQuestion": 4,
+          "sourcePage": 1,
+          "text": "实验中，如果同时刺激神经纤维的两端，产生的两个动作电位",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-03"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q005",
+      "page": 1,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "5",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第5题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "动作电位幅度增大"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "动作电位传导加速"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "细胞兴奋性降低"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "发生兴奋时更多的 Na+通道被激活"
+        }
+      ],
+      "stems": [
+        {
+          "number": 5,
+          "sourceQuestion": 5,
+          "sourcePage": 1,
+          "text": "当细胞阈电位水平抬高时，将引起",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-03"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q006",
+      "page": 2,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "6",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第6题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "维持原水平"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "去极化减小"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "发生超极化"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "发生反极化"
+        }
+      ],
+      "stems": [
+        {
+          "number": 6,
+          "sourceQuestion": 6,
+          "sourcePage": 2,
+          "text": "在骨骼肌标本浸液中加入筒箭毒碱后，刺激支配该肌的运动神经纤维，肌细胞终板电位的变化是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-04"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q007",
+      "page": 2,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "7",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第7题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "神经传导的动作电位幅度越来越小"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "神经-肌接头处兴奋传递的能力越来越弱"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肌纤维疲劳，产生动作电位的能力越来越弱"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肌细胞三联管结构的兴奋-收缩耦联能力越来越弱"
+        }
+      ],
+      "stems": [
+        {
+          "number": 7,
+          "sourceQuestion": 7,
+          "sourcePage": 2,
+          "text": "在蛙坐骨神经-腓肠肌标本的刺激神经观察肌肉收缩实验中，若给予连续刺激则肌肉收缩容易出现疲劳，其原因是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-04"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q008",
+      "page": 2,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "8",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第8题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "在收缩期发生动作电位的复合"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "在舒张期发生动作电位的复合"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "连续的阈下刺激发生复合"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胞质中 Ca2+浓度的持续升高"
+        }
+      ],
+      "stems": [
+        {
+          "number": 8,
+          "sourceQuestion": 8,
+          "sourcePage": 2,
+          "text": "骨骼肌发生完全性强直收缩是由于",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-04"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q009",
+      "page": 2,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "9",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第9题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "催乳素"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "醛固酮"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "促甲状腺激素"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "促性腺激素释放激素"
+        }
+      ],
+      "stems": [
+        {
+          "number": 9,
+          "sourceQuestion": 9,
+          "sourcePage": 2,
+          "text": "能以 IP3 和 DAG 作为第二信使的激素是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-05"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q010",
+      "page": 2,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "10",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第10题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "STAT"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "NF-kB"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "SMAD"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "PKG"
+        }
+      ],
+      "stems": [
+        {
+          "number": 10,
+          "sourceQuestion": 10,
+          "sourcePage": 2,
+          "text": "主要与 TGF-β 信号转导密切相关的蛋白质是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-05"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q011",
+      "page": 2,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "11",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第11题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "Ca2+-CaM 激酶"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "PTK"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "PKG"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "PKA"
+        }
+      ],
+      "stems": [
+        {
+          "number": 11,
+          "sourceQuestion": 11,
+          "sourcePage": 2,
+          "text": "下列蛋白激酶中不直接受胞内第二信使调节的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-05"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q012",
+      "page": 3,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "12",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第12题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "三磷酸鸟苷"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "二磷酸鸟苷"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "鸟苷酸交换因子"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "鸟苷酸环化酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 12,
+          "sourceQuestion": 12,
+          "sourcePage": 3,
+          "text": "和 RAS 蛋白活性无直接相关性的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-05"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q013",
+      "page": 3,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "13",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第13题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "血小板不能聚集成团"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血小板黏附减少"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "血凝块回缩障碍"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "不能保持血管内皮完整性"
+        }
+      ],
+      "stems": [
+        {
+          "number": 13,
+          "sourceQuestion": 13,
+          "sourcePage": 3,
+          "text": "血小板减少导致皮肤自发性出血斑点的主要原因是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-07"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q014",
+      "page": 3,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "14",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第14题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "FⅫ"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "FⅧ"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "FⅤ"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "血小板"
+        }
+      ],
+      "stems": [
+        {
+          "number": 14,
+          "sourceQuestion": 14,
+          "sourcePage": 3,
+          "text": "在某凝血功能障碍患者血浆中加入足量组织因子和 Ca2+，血浆凝固时间仍明显较正常人延长，该患者可能缺乏的物质是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-08"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q015",
+      "page": 3,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "15",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第15题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "H 基因"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "A 基因"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "B 基因"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "D 基因"
+        }
+      ],
+      "stems": [
+        {
+          "number": 15,
+          "sourceQuestion": 15,
+          "sourcePage": 3,
+          "text": "孟买型血型缺损的基因主要为",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-06"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q016",
+      "page": 3,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "16",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第16题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环系统",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "等容收缩期初"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "等容收缩期末"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "快速充盈期初"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "快速充盈期末"
+        }
+      ],
+      "stems": [
+        {
+          "number": 16,
+          "sourceQuestion": 16,
+          "sourcePage": 3,
+          "text": "第三心音的出现发生在",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-09"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q017",
+      "page": 3,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "17",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第17题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环系统",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "心率增快"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "心肌肥厚"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Ca2+回收速度加快"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "动脉血压突然升高"
+        }
+      ],
+      "stems": [
+        {
+          "number": 17,
+          "sourceQuestion": 17,
+          "sourcePage": 3,
+          "text": "引起静脉回心血量增多的因素有",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-10"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q018",
+      "page": 4,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "18",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第18题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环系统",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "房-室延搁"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "自律细胞兴奋性增加"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "心室肌有效不应期长"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "心内兴奋传导途径多变"
+        }
+      ],
+      "stems": [
+        {
+          "number": 18,
+          "sourceQuestion": 18,
+          "sourcePage": 4,
+          "text": "期前收缩后代偿间歇形成的机制是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-12"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q019",
+      "page": 4,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "19",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第19题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环系统",
+      "lectureIds": [
+        "lecture-11"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "毛细血管的口径小"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "微动脉位于毛细血管之前"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "毛细血管血压较低"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "微动脉总的横截面积较小"
+        }
+      ],
+      "stems": [
+        {
+          "number": 19,
+          "sourceQuestion": 19,
+          "sourcePage": 4,
+          "text": "血液在毛细血管内流动的速度比在微动脉内慢，是因为",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-11"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q020",
+      "page": 4,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "20",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第20题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环系统",
+      "lectureIds": [
+        "lecture-13"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "具有紧张性活动"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "心迷走神经不含传入纤维"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "在心室肌引起的变力效应比心房肌大"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "电刺激动物心迷走神经将引起心率加快"
+        }
+      ],
+      "stems": [
+        {
+          "number": 20,
+          "sourceQuestion": 20,
+          "sourcePage": 4,
+          "text": "下列关于心迷走神经的描述，正确的是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-13"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q021",
+      "page": 4,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "21",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第21题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肺通气量下降"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肺血流量下降"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "解剖无效腔的存在"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "解剖无效腔的增加"
+        }
+      ],
+      "stems": [
+        {
+          "number": 21,
+          "sourceQuestion": 21,
+          "sourcePage": 4,
+          "text": "对于肺换气而言，浅快呼吸不利于呼吸的原因是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-14"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q022",
+      "page": 4,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "22",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第22题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "膈肌和肋间外肌舒张"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "膈肌和肋间内肌舒张"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "腹肌和肋间外肌舒张"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "腹肌和肋间内肌舒张"
+        }
+      ],
+      "stems": [
+        {
+          "number": 22,
+          "sourceQuestion": 22,
+          "sourcePage": 4,
+          "text": "用力呼气时",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-15"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q023",
+      "page": 4,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "23",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第23题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "儿茶酚胺释放增加"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "PGE2 释放增加"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "吸气时 O2 含量增加"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "内皮素释放增加"
+        }
+      ],
+      "stems": [
+        {
+          "number": 23,
+          "sourceQuestion": 23,
+          "sourcePage": 4,
+          "text": "支气管哮喘患者因支气管平滑肌收缩导致气道阻力增加，可能的因素是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-15"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q024",
+      "page": 4,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "24",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "title": "阶段考试 · 第24题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "体内有较多的氧储备"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "呼吸运动增强，摄氧增多"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "组织血流量代偿性增加"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "血红蛋白具有变构效应"
+        }
+      ],
+      "stems": [
+        {
+          "number": 24,
+          "sourceQuestion": 24,
+          "sourcePage": 4,
+          "text": "肺泡气 PaO2 发生较大变化时，组织 PaO2 只发生很小变化的原因是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-16"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q025",
+      "page": 5,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "25",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第25题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "表明血液在一定 PaO2 时氧含量降低"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "可发生在贫血时"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "可见于储存了数周的血液"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "可见于组织代谢增加时"
+        }
+      ],
+      "stems": [
+        {
+          "number": 25,
+          "sourceQuestion": 25,
+          "sourcePage": 5,
+          "text": "氧解离曲线由正常位置向左移",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-16"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q026",
+      "page": 5,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "26",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第26题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "低 O2 刺激外周化学感受器的作用消失"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "H+刺激外周化学感受器的作用消失"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "CO2 刺激外周化学感受器的作用消失"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "CO2 刺激中枢化学感受器的作用消失"
+        }
+      ],
+      "stems": [
+        {
+          "number": 26,
+          "sourceQuestion": 26,
+          "sourcePage": 5,
+          "text": "慢性阻塞性肺疾病患者在吸入纯氧时可导致呼吸暂停，最主要的原因是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-17"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q027",
+      "page": 5,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "27",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第27题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "慢波的波幅和频率与平滑肌的种类无关"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "在胃肠不收缩的情况下，能记录到慢波"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "慢波起源于纵行肌和环形肌之间的间质细胞"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "动作电位需在慢波去极化的基础上产生"
+        }
+      ],
+      "stems": [
+        {
+          "number": 27,
+          "sourceQuestion": 27,
+          "sourcePage": 5,
+          "text": "关于消化道平滑肌慢波的叙述，错误的是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-18"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q028",
+      "page": 5,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "28",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第28题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "唾液分泌的调节包括条件反射和非条件反射"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "阿托品能明显抑制唾液的分泌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "睡眠时因兴奋唾液分泌中枢而致唾液增加"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "去甲肾上腺素导致固体成分多的黏稠唾液分泌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 28,
+          "sourceQuestion": 28,
+          "sourcePage": 5,
+          "text": "以下关于唾液分泌调节的描述，错误的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-19"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q029",
+      "page": 5,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "29",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第29题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "迷走神经兴奋"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "促胰液素分泌减少"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肠-胃反射减弱"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胃酸对 G 细胞的抑制作用减弱"
+        }
+      ],
+      "stems": [
+        {
+          "number": 29,
+          "sourceQuestion": 29,
+          "sourcePage": 5,
+          "text": "慢性萎缩性胃炎患者血中促胃液素水平增高，其原因是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-20"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q030",
+      "page": 5,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "30",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "title": "阶段考试 · 第30题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "盐酸"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "葡萄糖"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "脂肪酸"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "蛋白质分解产物"
+        }
+      ],
+      "stems": [
+        {
+          "number": 30,
+          "sourceQuestion": 30,
+          "sourcePage": 5,
+          "text": "引起促胰液素分泌最强的物质是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-21"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q031",
+      "page": 6,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "31",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第31题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "促进胰腺导管分泌消化酶"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "促进食管-胃括约肌收缩"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "促进胆管上皮细胞分泌胆汁"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "促进 Oddi 括约肌收缩"
+        }
+      ],
+      "stems": [
+        {
+          "number": 31,
+          "sourceQuestion": 31,
+          "sourcePage": 6,
+          "text": "以下属于缩胆囊素的作用是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-21"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q032",
+      "page": 6,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "32",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第32题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "大部分维生素在小肠上段吸收"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "大部分脂溶性维生素需依赖 Na+的同向转运体"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "内因子与维生素 B12 结合的亲和力比 R 蛋白小"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "萎缩性胃炎或胃大部切除后可发生巨幼细胞贫血"
+        }
+      ],
+      "stems": [
+        {
+          "number": 32,
+          "sourceQuestion": 32,
+          "sourcePage": 6,
+          "text": "以下关于维生素的吸收，错误的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-22"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q033",
+      "page": 6,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "33",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第33题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "一酰甘油及脂肪酸"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "二酰甘油及脂肪酸"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "混合微胶粒"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "乳糜微粒"
+        }
+      ],
+      "stems": [
+        {
+          "number": 33,
+          "sourceQuestion": 33,
+          "sourcePage": 6,
+          "text": "长链脂肪酸合成的三酰甘油进入淋巴液的方式是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-22"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q034",
+      "page": 6,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "34",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第34题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "+20%"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "+30%"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "+50%"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "-20%"
+        }
+      ],
+      "stems": [
+        {
+          "number": 34,
+          "sourceQuestion": 34,
+          "sourcePage": 6,
+          "text": "女性，27 岁，体表面积约 1.5 m²。在基础状态下测得其 1 小时的耗氧量为 16.3 L。我国 20~30 岁正常女性的基础代谢率平均为 146.3 kJ/(m²·h)。该女性的基础代谢率为",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-23"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q035",
+      "page": 6,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "35",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第35题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "基础代谢率减少"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "非战栗产热减少"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "钠钾泵活性增高"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "皮肤血流量增加"
+        }
+      ],
+      "stems": [
+        {
+          "number": 35,
+          "sourceQuestion": 35,
+          "sourcePage": 6,
+          "text": "以下符合冷习服的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-23"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q036",
+      "page": 6,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "36",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第36题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肾小囊内压逐渐升高"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肾小囊内胶体渗透压逐渐升高"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "毛细血管内晶体渗透压逐渐升高"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "毛细血管内胶体渗透压逐渐升高"
+        }
+      ],
+      "stems": [
+        {
+          "number": 36,
+          "sourceQuestion": 36,
+          "sourcePage": 6,
+          "text": "肾小球的滤过作用一般只发生在入球端毛细血管的主要原因是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-25"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q037",
+      "page": 7,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "37",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第37题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肾小球毛细血管血压升高"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肾小球有效滤过压降低"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肾小囊内胶体渗透压升高"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "管-球反馈消失"
+        }
+      ],
+      "stems": [
+        {
+          "number": 37,
+          "sourceQuestion": 37,
+          "sourcePage": 7,
+          "text": "肾小球滤过膜通透性增加将导致",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-25"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q038",
+      "page": 7,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "38",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第38题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "67%在近端小管被重吸收，且重吸收比例较固定"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "远端小管和集合管可重吸收和分泌 K+"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "阿米洛利使小管液负电位减小而减少 K+分泌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "酸中毒时肾脏分泌的 K+和 H+增加"
+        }
+      ],
+      "stems": [
+        {
+          "number": 38,
+          "sourceQuestion": 38,
+          "sourcePage": 7,
+          "text": "以下关于 K+重吸收和分泌的描述，错误的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-26"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q039",
+      "page": 7,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "39",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第39题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "降低肾外髓质部分细胞外渗透压"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "降低肾内髓质部分细胞外渗透压"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "降低肾内髓质集合管对尿素的通透性"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "降低肾内髓质集合管对尿素的重吸收"
+        }
+      ],
+      "stems": [
+        {
+          "number": 39,
+          "sourceQuestion": 39,
+          "sourcePage": 7,
+          "text": "下列关于呋塞米作用的叙述，错误的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-26"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q040",
+      "page": 7,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "40",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第40题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "严重呕吐、腹泻"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "回心血量减少"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "吗啡"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "压力感受器受到刺激加强"
+        }
+      ],
+      "stems": [
+        {
+          "number": 40,
+          "sourceQuestion": 40,
+          "sourcePage": 7,
+          "text": "导致抗利尿激素分泌减少的因素是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-26"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q041",
+      "page": 7,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "41",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第41题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-24"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "630 ml/min"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "660 ml/min"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "1145 ml/min"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "1400 ml/min"
+        }
+      ],
+      "stems": [
+        {
+          "number": 41,
+          "sourceQuestion": 41,
+          "sourcePage": 7,
+          "text": "假设对氨基马尿酸的血浆浓度为 0.02 mg/ml，尿中浓度为 12.6 mg/ml，1 小时尿量为 60 ml，血细胞比容为 45%，则肾血流量为",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-24"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q042",
+      "page": 7,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "42",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第42题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "感觉系统",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "视交叉"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "右侧视神经"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "左侧视束"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "左侧视皮层"
+        }
+      ],
+      "stems": [
+        {
+          "number": 42,
+          "sourceQuestion": 42,
+          "sourcePage": 7,
+          "text": "眼科检查发现患者两眼右半视野大部分缺失，但右黄斑区视野和两眼左半视野保留，该患者视觉通路受损的部位最可能在",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-27"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q043",
+      "page": 8,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "43",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        8
+      ],
+      "title": "阶段考试 · 第43题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "感觉系统",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "不同频率声波引起的行波均从耳蜗底部的基底膜开始传播"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "若前庭窗膜外移，则基底膜下移、蜗窗膜内移"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "毛细胞纤毛摆动引起钾通道开放，产生超极化型感受器电位"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "内毛细胞和外毛细胞释放递质，产生听神经上的动作电位"
+        }
+      ],
+      "stems": [
+        {
+          "number": 43,
+          "sourceQuestion": 43,
+          "sourcePage": 8,
+          "text": "以下有关听觉产生的描述，正确的有",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-28"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q044",
+      "page": 8,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "44",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        8
+      ],
+      "title": "阶段考试 · 第44题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "感觉系统",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "慢动相向左，快动相向右"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "慢动相向右，快动相向左"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "慢动相向左，快动相向左"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "慢动相向右，快动相向右"
+        }
+      ],
+      "stems": [
+        {
+          "number": 44,
+          "sourceQuestion": 44,
+          "sourcePage": 8,
+          "text": "人体向左旋转开始时，关于水平方向眼震颤的叙述，正确的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-29"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q045",
+      "page": 8,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "45",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        8
+      ],
+      "title": "阶段考试 · 第45题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "感觉系统",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "皮肤麦斯纳小体"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "关节囊感受器"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "脑渗透压感受器"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "颈动脉体化学感受器"
+        }
+      ],
+      "stems": [
+        {
+          "number": 45,
+          "sourceQuestion": 45,
+          "sourcePage": 8,
+          "text": "对刺激变化十分灵敏，有利于探索新异事物的感受器是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-29"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q046",
+      "page": 8,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "46",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        8
+      ],
+      "title": "阶段考试 · 第46题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "感觉系统",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "薄束"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "楔束"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "脊髓丘脑束"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "锥体束"
+        }
+      ],
+      "stems": [
+        {
+          "number": 46,
+          "sourceQuestion": 46,
+          "sourcePage": 8,
+          "text": "脊髓外肿瘤压迫脊髓，早期出现腰骶部痛觉和温度觉缺失，受压的传导束为",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-29"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q047",
+      "page": 8,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "47",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        8
+      ],
+      "title": "阶段考试 · 第47题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "中枢神经系统",
+      "lectureIds": [
+        "lecture-31"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "破伤风毒素"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肉毒梭菌毒素"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "α-银环蛇毒"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "新斯的明"
+        }
+      ],
+      "stems": [
+        {
+          "number": 47,
+          "sourceQuestion": 47,
+          "sourcePage": 8,
+          "text": "能使递质持续作用于受体而产生毒性作用的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-31"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q048",
+      "page": 8,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "48",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        8
+      ],
+      "title": "阶段考试 · 第48题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "中枢神经系统",
+      "lectureIds": [
+        "lecture-31"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "传入侧枝抑制"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "回返抑制"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "突触前抑制"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "侧向抑制"
+        }
+      ],
+      "stems": [
+        {
+          "number": 48,
+          "sourceQuestion": 48,
+          "sourcePage": 8,
+          "text": "破伤风患者骨骼肌出现痉挛主要是因为毒素阻断了",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-31"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q049",
+      "page": 9,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "49",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        9
+      ],
+      "title": "阶段考试 · 第49题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "中枢神经系统",
+      "lectureIds": [
+        "lecture-32"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "快速型心律失常"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "前列腺肥大"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "严重盗汗"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "青光眼"
+        }
+      ],
+      "stems": [
+        {
+          "number": 49,
+          "sourceQuestion": 49,
+          "sourcePage": 9,
+          "text": "临床使用阿托品可治疗",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-32"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q050",
+      "page": 9,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "50",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        9
+      ],
+      "title": "阶段考试 · 第50题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "中枢神经系统",
+      "lectureIds": [
+        "lecture-33"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "伸肌肌梭过度兴奋"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "屈肌肌梭过度兴奋"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "伸肌的腱器官兴奋"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "屈肌的腱器官兴奋"
+        }
+      ],
+      "stems": [
+        {
+          "number": 50,
+          "sourceQuestion": 50,
+          "sourcePage": 9,
+          "text": "当一伸肌受到过度拉长时，其张力突然丧失的原因是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-33"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q051",
+      "page": 9,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "51",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        9
+      ],
+      "title": "阶段考试 · 第51题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "中枢神经系统",
+      "lectureIds": [
+        "lecture-34"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "拒食"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "多食"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "饮水增多"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "变得温和"
+        }
+      ],
+      "stems": [
+        {
+          "number": 51,
+          "sourceQuestion": 51,
+          "sourcePage": 9,
+          "text": "破坏下丘脑外侧区的动物将",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-34"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q052",
+      "page": 9,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "52",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        9
+      ],
+      "title": "阶段考试 · 第52题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "中枢神经系统",
+      "lectureIds": [
+        "lecture-34"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "额叶"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "顶叶"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "颞叶"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "枕叶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 52,
+          "sourceQuestion": 52,
+          "sourcePage": 9,
+          "text": "人脑电图中 α 波最明显的部位在",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-34"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q053",
+      "page": 9,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "53",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        9
+      ],
+      "title": "阶段考试 · 第53题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "降钙素"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "甲状腺激素"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "褪黑素"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "前列腺素"
+        }
+      ],
+      "stems": [
+        {
+          "number": 53,
+          "sourceQuestion": 53,
+          "sourcePage": 9,
+          "text": "以下属于肽类激素的为",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-35"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q054",
+      "page": 9,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "54",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        9
+      ],
+      "title": "阶段考试 · 第54题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "最终生成的部位在肝脏"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "升高血钙的作用与小肠无关"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "甲状旁腺激素能促进钙三醇的生成"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "缺乏钙三醇时 PTH 对骨的作用明显增强"
+        }
+      ],
+      "stems": [
+        {
+          "number": 54,
+          "sourceQuestion": 54,
+          "sourcePage": 9,
+          "text": "以下有关钙三醇的描述，正确的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-36"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q055",
+      "page": 9,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "55",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        9,
+        10
+      ],
+      "title": "阶段考试 · 第55题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-37"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "REM"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "应激"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "低血糖"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "IGF-1"
+        }
+      ],
+      "stems": [
+        {
+          "number": 55,
+          "sourceQuestion": 55,
+          "sourcePage": 9,
+          "text": "最显著促进 GH 分泌的因素是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-37"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q056",
+      "page": 10,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "56",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        10
+      ],
+      "title": "阶段考试 · 第56题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-38"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "雌激素"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "生长激素"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "甲状腺激素"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胰高血糖素"
+        }
+      ],
+      "stems": [
+        {
+          "number": 56,
+          "sourceQuestion": 56,
+          "sourcePage": 10,
+          "text": "协同胰岛素发挥明显的促生长效应的激素是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-38"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q057",
+      "page": 10,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "57",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        10
+      ],
+      "title": "阶段考试 · 第57题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-38"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "促胰液素"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血氨基酸增加"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "交感神经兴奋"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "饥饿"
+        }
+      ],
+      "stems": [
+        {
+          "number": 57,
+          "sourceQuestion": 57,
+          "sourcePage": 10,
+          "text": "以下可使胰高血糖素分泌减少的因素是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-38"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q058",
+      "page": 10,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "58",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        10
+      ],
+      "title": "阶段考试 · 第58题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-39"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "血胆固醇"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血糖"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "血氨基酸"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "血钙"
+        }
+      ],
+      "stems": [
+        {
+          "number": 58,
+          "sourceQuestion": 58,
+          "sourcePage": 10,
+          "text": "甲亢时降低的指标有",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-39"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q059",
+      "page": 10,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "59",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        10
+      ],
+      "title": "阶段考试 · 第59题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-40"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "淋巴细胞性白血病"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "新生儿呼吸窘迫综合征"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "应激性溃疡"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "支气管哮喘"
+        }
+      ],
+      "stems": [
+        {
+          "number": 59,
+          "sourceQuestion": 59,
+          "sourcePage": 10,
+          "text": "糖皮质激素的治疗作用不包括",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-40"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q060",
+      "page": 10,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "60",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        10
+      ],
+      "title": "阶段考试 · 第60题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "生殖系统",
+      "lectureIds": [
+        "lecture-41"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "排钠、排水"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "促进蛋白质合成"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "对脂代谢有不利影响"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "刺激骨骺发生闭合"
+        }
+      ],
+      "stems": [
+        {
+          "number": 60,
+          "sourceQuestion": 60,
+          "sourcePage": 10,
+          "text": "关于雄激素的叙述，下列错误的有",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-41"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q061",
+      "page": 10,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "61",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        10,
+        11
+      ],
+      "title": "阶段考试 · 第61题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "生殖系统",
+      "lectureIds": [
+        "lecture-41"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "增强能量代谢"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "促进输卵管分泌黏性液体"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "促进乳腺导管发育"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "抑制母体免疫排斥"
+        }
+      ],
+      "stems": [
+        {
+          "number": 61,
+          "sourceQuestion": 61,
+          "sourcePage": 10,
+          "text": "下列关于孕激素作用的叙述，错误的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-41"
+        }
+      ]
+    },
+    {
+      "id": "physiology-stage-exam-2026-09-q062",
+      "page": 11,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "sourceName": "【生理】阶段考试 天天师兄27考研 加油哦！.pdf",
+      "sourceSection": "生理学",
+      "sourceQuestion": "62",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        11
+      ],
+      "title": "阶段考试 · 第62题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "生殖系统",
+      "lectureIds": [
+        "lecture-41"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-29提供的生理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "人绒毛膜促性腺激素在结构和功能上与 LH 相似"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "人胎盘催乳素有明显的催乳作用"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "临床检测尿中雌三醇可反映胎盘的功能状态"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "孕酮是维持妊娠期子宫处于静息状态的主要激素"
+        }
+      ],
+      "stems": [
+        {
+          "number": 62,
+          "sourceQuestion": 62,
+          "sourcePage": 11,
+          "text": "以下关于胎盘内分泌功能的叙述，错误的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-41"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "image": "physiology/physiology-stage-exam-2026-09/page-01.webp"
+    },
+    {
+      "page": 2,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "image": "physiology/physiology-stage-exam-2026-09/page-02.webp"
+    },
+    {
+      "page": 3,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "image": "physiology/physiology-stage-exam-2026-09/page-03.webp"
+    },
+    {
+      "page": 4,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "image": "physiology/physiology-stage-exam-2026-09/page-04.webp"
+    },
+    {
+      "page": 5,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "image": "physiology/physiology-stage-exam-2026-09/page-05.webp"
+    },
+    {
+      "page": 6,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "image": "physiology/physiology-stage-exam-2026-09/page-06.webp"
+    },
+    {
+      "page": 7,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "image": "physiology/physiology-stage-exam-2026-09/page-07.webp"
+    },
+    {
+      "page": 8,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "image": "physiology/physiology-stage-exam-2026-09/page-08.webp"
+    },
+    {
+      "page": 9,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "image": "physiology/physiology-stage-exam-2026-09/page-09.webp"
+    },
+    {
+      "page": 10,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "image": "physiology/physiology-stage-exam-2026-09/page-10.webp"
+    },
+    {
+      "page": 11,
+      "sourceKey": "physiology-stage-exam-2026-09",
+      "image": "physiology/physiology-stage-exam-2026-09/page-11.webp"
+    }
+  ]
+}

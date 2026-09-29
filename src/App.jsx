@@ -82,11 +82,15 @@ const CONTENT_LOADERS = {
     loadJson(() => import('./data/pathology-teacher-supplement.json')),
   ])),
   physiology: async () => {
-    const [content, supplement] = await Promise.all([
+    const [content, supplement, exam] = await Promise.all([
       loadJson(() => import('./data/physiology-data.json')),
       loadJson(() => import('./data/physiology-teacher-supplement.json')),
+      loadJson(() => import('./data/physiology-stage-exam-data.json')),
     ])
-    return appendSupplement(content, supplement)
+    return appendSupplement(content, {
+      groups: [...supplement.groups, ...exam.groups],
+      pages: [...supplement.pages, ...exam.pages],
+    })
   },
   surgery: async () => {
     const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent, surgeryTeacherContent] = await Promise.all([
