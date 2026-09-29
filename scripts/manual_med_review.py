@@ -1164,9 +1164,26 @@ DIGESTIVE_OPTION_REPAIRS = {
 }
 
 
+def refine_ulcer_perforation(target: dict) -> None:
+    """Lecture 16 pp. 3–4: separate manifestations, investigations and care."""
+    target["answerRevision"] = "perforation-v2"
+    target["lectureIds"] = ["lecture-16"]
+    target["stems"] = stems(
+        ("出血", "BFX⑦"),
+        ("穿孔：相关用药背景", "A"),
+        ("急性穿孔：临床表现与体征", "DGHJRTV"),
+        ("慢性穿孔（穿透性溃疡）：临床表现", "CMO"),
+        ("急性穿孔：检查及阳性发现", "②⑤"),
+        ("急性穿孔：初始处理及手术选择（注意选项中的适用条件）", "Y⑧"),
+        ("幽门梗阻", "EINWY①③⑥"),
+        ("癌变", "KLPQSU④"),
+    )
+
+
 def repair_digestive_options(payload: dict) -> None:
     """Restore option text split or misread by OCR on source pages 20-34."""
     groups = {item["id"]: item for item in payload["groups"]}
+    refine_ulcer_perforation(groups["p24-g1"])
     for group_id, repairs in DIGESTIVE_OPTION_REPAIRS.items():
         target_group = groups[group_id]
         options = {item["key"]: item for item in target_group["options"]}

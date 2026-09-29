@@ -8128,12 +8128,21 @@
             "X",
             "⑦"
           ],
-          "sourceText": "出血BFX⑦",
+          "sourceText": "出血 BFX⑦",
           "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "急性穿孔",
+          "text": "穿孔：相关用药背景",
+          "answer": [
+            "A"
+          ],
+          "sourceText": "穿孔：相关用药背景 A",
+          "sourceY": 0,
+          "answerMode": "单选"
+        },
+        {
+          "text": "急性穿孔：临床表现与体征",
           "answer": [
             "D",
             "G",
@@ -8143,31 +8152,38 @@
             "T",
             "V"
           ],
-          "sourceText": "急性穿孔DGHJRTV",
+          "sourceText": "急性穿孔：临床表现与体征 DGHJRTV",
           "sourceY": 0,
           "answerMode": "多选"
         },
         {
-          "text": "穿孔",
-          "answer": [
-            "A",
-            "Y",
-            "②",
-            "⑤",
-            "⑧"
-          ],
-          "sourceText": "穿孔AY②⑤⑧",
-          "sourceY": 0,
-          "answerMode": "多选"
-        },
-        {
-          "text": "慢性穿孔",
+          "text": "慢性穿孔（穿透性溃疡）：临床表现",
           "answer": [
             "C",
             "M",
             "O"
           ],
-          "sourceText": "慢性穿孔CMO",
+          "sourceText": "慢性穿孔（穿透性溃疡）：临床表现 CMO",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "急性穿孔：检查及阳性发现",
+          "answer": [
+            "②",
+            "⑤"
+          ],
+          "sourceText": "急性穿孔：检查及阳性发现 ②⑤",
+          "sourceY": 0,
+          "answerMode": "多选"
+        },
+        {
+          "text": "急性穿孔：初始处理及手术选择（注意选项中的适用条件）",
+          "answer": [
+            "Y",
+            "⑧"
+          ],
+          "sourceText": "急性穿孔：初始处理及手术选择（注意选项中的适用条件） Y⑧",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -8183,7 +8199,7 @@
             "③",
             "⑥"
           ],
-          "sourceText": "幽门梗阻EINWY①③⑥",
+          "sourceText": "幽门梗阻 EINWY①③⑥",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -8198,7 +8214,7 @@
             "U",
             "④"
           ],
-          "sourceText": "癌变KLPQSU④",
+          "sourceText": "癌变 KLPQSU④",
           "sourceY": 0,
           "answerMode": "多选"
         }
@@ -8207,12 +8223,7 @@
       "reviewState": "已按原题页与对应讲义逐项复核",
       "topic": "消化",
       "lectureIds": [
-        "lecture-14",
-        "lecture-15",
-        "lecture-16",
-        "lecture-17",
-        "lecture-18",
-        "lecture-19"
+        "lecture-16"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-16",
@@ -8220,7 +8231,8 @@
         "image": "med/lecture-pages/lecture-16-page-03.webp",
         "title": "第16讲第3页：内科含诊断+外科 消化性溃疡 & 消化道出血",
         "description": "本题组对应第16讲第3页讲义。"
-      }
+      },
+      "answerRevision": "perforation-v2"
     },
     {
       "id": "p24-g2",

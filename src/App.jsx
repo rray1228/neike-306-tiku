@@ -547,6 +547,11 @@ function groupStorageKey(subject, groupId) {
   return subject === 'med' ? groupId : `${subject}:${groupId}`
 }
 
+function groupAnswerStorageKey(subject, group) {
+  const key = groupStorageKey(subject, group.id)
+  return group.answerRevision ? `${key}:${group.answerRevision}` : key
+}
+
 function omitStudyRecords(records, storageIds) {
   let changed = false
   const next = {}
@@ -748,15 +753,16 @@ function App() {
 
   const group = (jumpGroupId && filteredGroups.find((item) => item.id === jumpGroupId)) || filteredGroups[groupIndex] || content.groups[0]
   const groupStorageId = groupStorageKey(subject, group.id)
-  const currentSelections = selections[groupStorageId] || {}
-  const isSubmitted = Boolean(submitted[groupStorageId])
+  const answerStorageId = groupAnswerStorageKey(subject, group)
+  const currentSelections = selections[answerStorageId] || {}
+  const isSubmitted = Boolean(submitted[answerStorageId])
   const currentPage = content.pages.find((item) => item.page === group.page && item.sourceKey === group.sourceKey)
   const favorite = favorites.includes(groupStorageId)
   const activeSystem = group.topic || topic
   const systemStorageIds = useMemo(() => new Set(
     content.groups
       .filter((item) => item.topic === activeSystem)
-      .map((item) => groupStorageKey(subject, item.id)),
+      .map((item) => groupAnswerStorageKey(subject, item)),
   ), [activeSystem, content, subject])
   const systemAttemptedGroups = useMemo(() => {
     let total = 0
@@ -770,7 +776,7 @@ function App() {
     if (isSubmitted) return
     const stem = group.stems[stemIndex]
     setSelections((previous) => {
-      const nextGroup = { ...(previous[groupStorageId] || {}) }
+      const nextGroup = { ...(previous[answerStorageId] || {}) }
       const ordered = isRankingStem(stem)
       const current = ordered ? unique((nextGroup[stemIndex] || []).map((item) => String(item))) : normalizeSelection(nextGroup[stemIndex])
       const multi = isMultiStem(group, stem)
@@ -779,34 +785,34 @@ function App() {
       } else {
         nextGroup[stemIndex] = [key]
       }
-      return { ...previous, [groupStorageId]: nextGroup }
+      return { ...previous, [answerStorageId]: nextGroup }
     })
   }
 
   function updateFillSelection(stemIndex, blankIndex, value) {
     if (isSubmitted) return
     setSelections((previous) => {
-      const nextGroup = { ...(previous[groupStorageId] || {}) }
+      const nextGroup = { ...(previous[answerStorageId] || {}) }
       const current = [...(nextGroup[stemIndex] || [])]
       current[blankIndex] = value
       nextGroup[stemIndex] = current
-      return { ...previous, [groupStorageId]: nextGroup }
+      return { ...previous, [answerStorageId]: nextGroup }
     })
   }
 
   function submitGroup() {
-    setSubmitted((previous) => ({ ...previous, [groupStorageId]: true }))
+    setSubmitted((previous) => ({ ...previous, [answerStorageId]: true }))
   }
 
   function redoGroup() {
     setSubmitted((previous) => {
       const next = { ...previous }
-      delete next[groupStorageId]
+      delete next[answerStorageId]
       return next
     })
     setSelections((previous) => {
       const next = { ...previous }
-      delete next[groupStorageId]
+      delete next[answerStorageId]
       return next
     })
     setShowSource(false)
