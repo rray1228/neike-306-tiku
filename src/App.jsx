@@ -77,10 +77,20 @@ const CONTENT_LOADERS = {
       pages: [...homework.pages, ...exam.pages],
     })
   },
-  pathology: async () => appendSupplement(...await Promise.all([
-    loadJson(() => import('./data/pathology-data.json')),
-    loadJson(() => import('./data/pathology-teacher-supplement.json')),
-  ])),
+  pathology: async () => {
+    const [content, homework, exam] = await Promise.all([
+      loadJson(() => import('./data/pathology-data.json')),
+      loadJson(() => import('./data/pathology-teacher-supplement.json')),
+      loadJson(() => import('./data/pathology-stage-exam-data.json')),
+    ])
+    return appendSupplement({
+      ...content,
+      topics: unique([...content.topics.filter((topic) => topic !== '综合'), ...exam.topics, '综合']),
+    }, {
+      groups: [...homework.groups, ...exam.groups],
+      pages: [...homework.pages, ...exam.pages],
+    })
+  },
   physiology: async () => {
     const [content, supplement, exam] = await Promise.all([
       loadJson(() => import('./data/physiology-data.json')),

@@ -1,0 +1,3163 @@
+{
+  "meta": {
+    "title": "病理学·阶段考试",
+    "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+    "sourcePages": 8,
+    "sourceSha256": "61362276724e5495c97877b3e4a13c85b93d74a45fd90fddc65c4990982cc49b",
+    "groupCount": 51,
+    "stemCount": 51,
+    "answerRows": [
+      "DBAAD DDAAA ADCAA",
+      "BDDAD BCACC BDCAD",
+      "DCDAA ABABC BBCBD",
+      "DCAAA B"
+    ],
+    "answerNote": "按用户提供的答案图逐题对应，不代表已进行讲义答案勘误。"
+  },
+  "topics": [
+    "淋巴造血系统",
+    "泌尿系统"
+  ],
+  "groups": [
+    {
+      "id": "pathology-stage-exam-2026-09-q001",
+      "page": 1,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "1",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第1题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "卵巢畸胎瘤"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肾透明细胞癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "子宫内膜腺癌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肺鳞癌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "sourceQuestion": 1,
+          "sourcePage": 1,
+          "text": "以下肿瘤与化生有关的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-23"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q002",
+      "page": 1,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "2",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第2题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "血栓"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肾小管"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "心瓣膜"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "动脉硬化斑块"
+        }
+      ],
+      "stems": [
+        {
+          "number": 2,
+          "sourceQuestion": 2,
+          "sourcePage": 1,
+          "text": "转移性钙化常发生于",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-23"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q003",
+      "page": 1,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "3",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第3题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "脑"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "阑尾"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胆囊"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "子宫"
+        }
+      ],
+      "stems": [
+        {
+          "number": 3,
+          "sourceQuestion": 3,
+          "sourcePage": 1,
+          "text": "以下不发生坏疽的脏器是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-23"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q004",
+      "page": 1,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "4",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第4题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "小肠黏膜被覆上皮细胞"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肝细胞"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "纤维细胞"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "血管内皮细胞"
+        }
+      ],
+      "stems": [
+        {
+          "number": 4,
+          "sourceQuestion": 4,
+          "sourcePage": 1,
+          "text": "属于不稳定细胞的是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-22"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q005",
+      "page": 1,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "5",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第5题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "浆细胞"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肌纤维母细胞"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "新生内皮细胞"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "Langhans 巨细胞"
+        }
+      ],
+      "stems": [
+        {
+          "number": 5,
+          "sourceQuestion": 5,
+          "sourcePage": 1,
+          "text": "肉芽组织中常见的细胞不包括",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-22"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q006",
+      "page": 1,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "6",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1,
+        2
+      ],
+      "title": "阶段考试 · 第6题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "小静脉"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "小动脉"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "微动脉"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "毛细血管"
+        }
+      ],
+      "stems": [
+        {
+          "number": 6,
+          "sourceQuestion": 6,
+          "sourcePage": 1,
+          "text": "以出芽方式再生的血管是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-22"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q007",
+      "page": 2,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "7",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第7题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "局部血液循环障碍",
+      "lectureIds": [
+        "lecture-24"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "特发性肺纤维化"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肺肉质变"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "病毒性肺炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "慢性左心衰"
+        }
+      ],
+      "stems": [
+        {
+          "number": 7,
+          "sourceQuestion": 7,
+          "sourcePage": 2,
+          "text": "肺褐色硬化常见于",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-24"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q008",
+      "page": 2,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "8",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第8题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "局部血液循环障碍",
+      "lectureIds": [
+        "lecture-24"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "心、脾、脑"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "心、肾、肺"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肾、脑、肠"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "脾、肺、肠"
+        }
+      ],
+      "stems": [
+        {
+          "number": 8,
+          "sourceQuestion": 8,
+          "sourcePage": 2,
+          "text": "易发生贫血性梗死的脏器是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-24"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q009",
+      "page": 2,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "9",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第9题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "炎症",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "红细胞"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "淋巴细胞"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "嗜碱性粒细胞"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "嗜酸性粒细胞"
+        }
+      ],
+      "stems": [
+        {
+          "number": 9,
+          "sourceQuestion": 9,
+          "sourcePage": 2,
+          "text": "炎症时经被动过程从血管内到血管外组织的细胞是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-25"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q010",
+      "page": 2,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "10",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第10题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "炎症",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "猫抓病"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "淋病"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "阿米巴病"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "细菌性痢疾"
+        }
+      ],
+      "stems": [
+        {
+          "number": 10,
+          "sourceQuestion": 10,
+          "sourcePage": 2,
+          "text": "以下属于肉芽肿的疾病是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-25"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q011",
+      "page": 2,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "11",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第11题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "炎症",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "猫抓病"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "结核性淋巴结炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "急性阑尾炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "风湿性心内膜炎"
+        }
+      ],
+      "stems": [
+        {
+          "number": 11,
+          "sourceQuestion": 11,
+          "sourcePage": 2,
+          "text": "病理表现为中性粒细胞浸润的感染性肉芽肿是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-25"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q012",
+      "page": 2,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "12",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第12题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肿瘤",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "动脉瘤"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "迷离瘤"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "室壁瘤"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "绿色瘤"
+        }
+      ],
+      "stems": [
+        {
+          "number": 12,
+          "sourceQuestion": 12,
+          "sourcePage": 2,
+          "text": "以下病变中属于真性肿瘤的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-26"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q013",
+      "page": 2,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "13",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第13题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肿瘤",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肿瘤发生于实体腺"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "癌细胞异型性明显"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肿瘤细胞呈腺样排列"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "浸润性生长和淋巴转移"
+        }
+      ],
+      "stems": [
+        {
+          "number": 13,
+          "sourceQuestion": 13,
+          "sourcePage": 2,
+          "text": "诊断腺癌最重要的指标是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-26"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q014",
+      "page": 3,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "14",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第14题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肿瘤",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "林奇综合征"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "着色性干皮病"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "纤维瘤病"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "先天性再生障碍性贫血"
+        }
+      ],
+      "stems": [
+        {
+          "number": 14,
+          "sourceQuestion": 14,
+          "sourcePage": 3,
+          "text": "属于常染色体显性遗传的肿瘤病变是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-26"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q015",
+      "page": 3,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "15",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第15题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肿瘤",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "食管"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胃"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肝"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肺"
+        }
+      ],
+      "stems": [
+        {
+          "number": 15,
+          "sourceQuestion": 15,
+          "sourcePage": 3,
+          "text": "男性，62 岁。体检时发现左锁骨上淋巴结肿大，无压痛。淋巴结切除送检，病理诊断：淋巴结内可见鳞癌浸润。肿瘤原发部位最可能是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-26"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q016",
+      "page": 3,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "16",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第16题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肿瘤",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "癌实质与间质多分界清楚"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "癌细胞间多有网状纤维"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "癌细胞常表达角蛋白"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "癌来源于上皮组织"
+        }
+      ],
+      "stems": [
+        {
+          "number": 16,
+          "sourceQuestion": 16,
+          "sourcePage": 3,
+          "text": "以下关于癌与肉瘤的区别，错误的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-26"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q017",
+      "page": 3,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "17",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第17题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "免疫性疾病",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "CD4+ T 细胞"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "小胶质细胞"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "B 淋巴细胞"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "滤泡树突状细胞"
+        }
+      ],
+      "stems": [
+        {
+          "number": 17,
+          "sourceQuestion": 17,
+          "sourcePage": 3,
+          "text": "可受到 HIV 感染、并成为其储备池的细胞是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-17"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q018",
+      "page": 3,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "18",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第18题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "免疫性疾病",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "纤维素样坏死物"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "浆细胞"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "类上皮细胞"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "多核巨细胞"
+        }
+      ],
+      "stems": [
+        {
+          "number": 18,
+          "sourceQuestion": 18,
+          "sourcePage": 3,
+          "text": "不属于类风湿小结的成分是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-17"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q019",
+      "page": 3,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "19",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第19题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "免疫性疾病",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "急性排斥反应细胞型"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "支气管哮喘"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "系统性红斑狼疮"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "类风湿关节炎"
+        }
+      ],
+      "stems": [
+        {
+          "number": 19,
+          "sourceQuestion": 19,
+          "sourcePage": 3,
+          "text": "以下属于迟发型超敏反应的是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-17"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q020",
+      "page": 3,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "20",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第20题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "心血管系统",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "泡沫细胞"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "内皮细胞"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "成纤维细胞"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "平滑肌细胞"
+        }
+      ],
+      "stems": [
+        {
+          "number": 20,
+          "sourceQuestion": 20,
+          "sourcePage": 3,
+          "text": "引起动脉粥样硬化病灶中纤维增生的主要细胞是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-09"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q021",
+      "page": 3,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "21",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "title": "阶段考试 · 第21题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "心血管系统",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "Aschoff 小体具有诊断意义"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "风湿性关节炎为纤维素性炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "可引起缩窄性心包炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "风湿细胞为吞噬纤维素样坏死物的巨噬细胞"
+        }
+      ],
+      "stems": [
+        {
+          "number": 21,
+          "sourceQuestion": 21,
+          "sourcePage": 3,
+          "text": "以下有关风湿病的描述，错误的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-07"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q022",
+      "page": 4,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "22",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第22题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "心血管系统",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "心内膜下结缔组织"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "心肌细胞内"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "心肌间质血管旁"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "心包脏层"
+        }
+      ],
+      "stems": [
+        {
+          "number": 22,
+          "sourceQuestion": 22,
+          "sourcePage": 4,
+          "text": "风湿性心肌炎的 Aschoff 小体最多见于",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-07"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q023",
+      "page": 4,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "23",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第23题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "心血管系统",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肥厚型心肌病"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "限制型心肌病"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "病毒性心肌炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "风湿性心肌炎"
+        }
+      ],
+      "stems": [
+        {
+          "number": 23,
+          "sourceQuestion": 23,
+          "sourcePage": 4,
+          "text": "男性，17 岁。在体育课上打篮球时突然死亡。尸检提示患者室间隔呈不对称性增厚，光镜下心肌细胞核大、畸形、深染，心肌纤维明显走行紊乱。该患者最可能的死因是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-10"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q024",
+      "page": 4,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "24",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第24题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "主要病因是肺炎链球菌感染"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "纤维蛋白渗出为主的炎症"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "支气管常受累"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "可合并肺脓肿及脓胸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 24,
+          "sourceQuestion": 24,
+          "sourcePage": 4,
+          "text": "大叶性肺炎的病理特点不包括",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-14"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q025",
+      "page": 4,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "25",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第25题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "腺癌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "类癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "小细胞癌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "大细胞癌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 25,
+          "sourceQuestion": 25,
+          "sourcePage": 4,
+          "text": "肺癌中恶性程度最高的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-15"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q026",
+      "page": 4,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "26",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第26题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "腺癌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "细支气管肺泡细胞癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "小细胞癌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "大细胞癌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 26,
+          "sourceQuestion": 26,
+          "sourcePage": 4,
+          "text": "呈肺炎样外观的肺癌组织学类型是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-15"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q027",
+      "page": 4,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "27",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第27题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "列兵样排列"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "形成乳头状结构"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "有角化珠"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "有假菊形团结构"
+        }
+      ],
+      "stems": [
+        {
+          "number": 27,
+          "sourceQuestion": 27,
+          "sourcePage": 4,
+          "text": "最符合肺小细胞癌组织学特点的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-15"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q028",
+      "page": 4,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "28",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "title": "阶段考试 · 第28题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "完全型肠上皮化生"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "不完全型胃型肠上皮化生"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "不完全型结肠型肠上皮化生"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "假幽门腺化生"
+        }
+      ],
+      "stems": [
+        {
+          "number": 28,
+          "sourceQuestion": 28,
+          "sourcePage": 4,
+          "text": "慢性萎缩性胃炎与胃腺癌关系最密切的病变是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-01"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q029",
+      "page": 5,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "29",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第29题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "内质网"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "线粒体"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "溶酶体"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "细胞核"
+        }
+      ],
+      "stems": [
+        {
+          "number": 29,
+          "sourceQuestion": 29,
+          "sourcePage": 5,
+          "text": "慢性肝炎时出现的毛玻璃样肝细胞，HBsAg 颗粒主要位于",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-02"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q030",
+      "page": 5,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "30",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第30题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肉眼见肝内大小不等的结节"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "再生的肝细胞所形成的结节"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "异型增生的肝细胞所形成的结节"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "增生的纤维组织包绕的肝细胞结节"
+        }
+      ],
+      "stems": [
+        {
+          "number": 30,
+          "sourceQuestion": 30,
+          "sourcePage": 5,
+          "text": "假小叶是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-03"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q031",
+      "page": 5,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "31",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第31题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "亚硝胺与其发生无关"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "好发于食管上段"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "黏膜下癌属于病变中晚期"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "早期食管癌可有淋巴转移"
+        }
+      ],
+      "stems": [
+        {
+          "number": 31,
+          "sourceQuestion": 31,
+          "sourcePage": 5,
+          "text": "以下关于食管癌的描述，正确的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-05"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q032",
+      "page": 5,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "32",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第32题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "淋巴造血系统",
+      "lectureIds": [],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "B 细胞来源"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "与 EBV 感染有关"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "多累及颈部淋巴结"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "化学治疗效果好"
+        }
+      ],
+      "stems": [
+        {
+          "number": 32,
+          "sourceQuestion": 32,
+          "sourcePage": 5,
+          "text": "不符合 Burkitt 淋巴瘤的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q033",
+      "page": 5,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "33",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第33题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "淋巴造血系统",
+      "lectureIds": [],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "淋巴细胞减少型-混合细胞型-结节硬化型"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "富于淋巴细胞型-结节性淋巴细胞为主型-淋巴细胞减少型"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "结节硬化型-混合细胞型-富于淋巴细胞型"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "结节性淋巴细胞为主型-混合细胞型-淋巴细胞减少型"
+        }
+      ],
+      "stems": [
+        {
+          "number": 33,
+          "sourceQuestion": 33,
+          "sourcePage": 5,
+          "text": "按预后的好坏，霍奇金淋巴瘤的排列顺序为",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q034",
+      "page": 5,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "34",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第34题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "内皮细胞增生"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "成纤维细胞增生"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "脏层上皮细胞增生"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "壁层上皮细胞增生"
+        }
+      ],
+      "stems": [
+        {
+          "number": 34,
+          "sourceQuestion": 34,
+          "sourcePage": 5,
+          "text": "急性弥漫增生性肾小球肾炎的主要病理变化是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q035",
+      "page": 5,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "35",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "title": "阶段考试 · 第35题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "单核细胞构成"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "中性粒细胞构成"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "淋巴细胞构成"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "浆细胞构成"
+        }
+      ],
+      "stems": [
+        {
+          "number": 35,
+          "sourceQuestion": 35,
+          "sourcePage": 5,
+          "text": "新月体主要由增生的壁层上皮细胞和渗出的",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q036",
+      "page": 6,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "36",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第36题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "基膜致密层"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "系膜区"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "内皮下"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "上皮下"
+        }
+      ],
+      "stems": [
+        {
+          "number": 36,
+          "sourceQuestion": 36,
+          "sourcePage": 6,
+          "text": "系膜毛细血管性肾炎Ⅱ型的块状电子致密物主要沉积在",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q037",
+      "page": 6,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "37",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第37题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "血源性感染为主"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "间质化脓性炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "双肾弥漫受累"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "中性粒细胞浸润为主"
+        }
+      ],
+      "stems": [
+        {
+          "number": 37,
+          "sourceQuestion": 37,
+          "sourcePage": 6,
+          "text": "慢性肾盂肾炎",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q038",
+      "page": 6,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "38",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第38题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "生殖系统",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "属于良性肿瘤"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "属于生殖细胞肿瘤"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "常形成嗜酸性小体"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "常有甲胎蛋白阳性"
+        }
+      ],
+      "stems": [
+        {
+          "number": 38,
+          "sourceQuestion": 38,
+          "sourcePage": 6,
+          "text": "卵巢内胚窦瘤的病理特点不包括",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-18"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q039",
+      "page": 6,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "39",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第39题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "生殖系统",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "由单一中间滋养叶细胞构成"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "常有绒毛结构"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "一般无明显出血、坏死"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "免疫组化 hCG 常为阴性"
+        }
+      ],
+      "stems": [
+        {
+          "number": 39,
+          "sourceQuestion": 39,
+          "sourcePage": 6,
+          "text": "胎盘部位滋养细胞肿瘤区别于绒毛膜癌的病理特点不包括",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-18"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q040",
+      "page": 6,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "40",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第40题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "生殖系统",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "滋养层细胞异常增生"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "组织坏死、大片出血"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "可见胎盘绒毛"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "hCG 含量高于正常妊娠"
+        }
+      ],
+      "stems": [
+        {
+          "number": 40,
+          "sourceQuestion": 40,
+          "sourcePage": 6,
+          "text": "绒毛膜癌的病理变化不包括",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-18"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q041",
+      "page": 6,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "41",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第41题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "乳腺疾病",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "癌细胞呈巢状分布"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "癌细胞呈单排分布"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "间质大量淋巴细胞浸润"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "间质有淀粉样物质沉积"
+        }
+      ],
+      "stems": [
+        {
+          "number": 41,
+          "sourceQuestion": 41,
+          "sourcePage": 6,
+          "text": "乳腺浸润性小叶癌的主要病理学特征是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-19"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q042",
+      "page": 6,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "42",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第42题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌系统",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "部分病例肿瘤呈囊状"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "癌细胞核染色质增多"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "局部淋巴结转移较早"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "检测 BRAF 突变可预测预后"
+        }
+      ],
+      "stems": [
+        {
+          "number": 42,
+          "sourceQuestion": 42,
+          "sourcePage": 6,
+          "text": "下列有关甲状腺乳头状癌的描述，错误的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-16"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q043",
+      "page": 7,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "43",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第43题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌系统",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "乳头状癌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "滤泡癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "髓样癌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "未分化癌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 43,
+          "sourceQuestion": 43,
+          "sourcePage": 7,
+          "text": "以下哪种甲状腺肿瘤是由 APUD 细胞发生的",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-16"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q044",
+      "page": 7,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "44",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第44题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌系统",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "滤泡上皮呈高柱状增生"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "滤泡上皮增生、复旧不一致"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "结节多发，包膜完整"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "周围甲状腺有压迫现象"
+        }
+      ],
+      "stems": [
+        {
+          "number": 44,
+          "sourceQuestion": 44,
+          "sourcePage": 7,
+          "text": "结节性甲状腺肿的病理特点是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-16"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q045",
+      "page": 7,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "45",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第45题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "传染病",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "神经元"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "神经胶质细胞"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "硬脑膜"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "软脑膜"
+        }
+      ],
+      "stems": [
+        {
+          "number": 45,
+          "sourceQuestion": 45,
+          "sourcePage": 7,
+          "text": "流脑的病变主要累及",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-21"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q046",
+      "page": 7,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "46",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第46题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "传染病",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "干酪性肺炎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "局灶性肺结核"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "空洞性肺结核"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "急性粟粒性肺结核"
+        }
+      ],
+      "stems": [
+        {
+          "number": 46,
+          "sourceQuestion": 46,
+          "sourcePage": 7,
+          "text": "以下由原发性肺结核引起的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-20"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q047",
+      "page": 7,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "47",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第47题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "传染病",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "病变上重下轻"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "属于开放性肺结核"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "空洞壁外层由干酪样坏死物构成"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "病变多沿支气管在肺内进行播散"
+        }
+      ],
+      "stems": [
+        {
+          "number": 47,
+          "sourceQuestion": 47,
+          "sourcePage": 7,
+          "text": "男性，31 岁。1 年来低热、乏力、盗汗，并有咳嗽。X 线见两肺上叶多个大小不等的厚壁空洞，结核菌素试验阳性。以下不符合该患者疾病描述的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-20"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q048",
+      "page": 7,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "48",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第48题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "传染病",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "颈部"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "支气管"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肠系膜"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "腹股沟"
+        }
+      ],
+      "stems": [
+        {
+          "number": 48,
+          "sourceQuestion": 48,
+          "sourcePage": 7,
+          "text": "淋巴结结核病最常见的部位是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-20"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q049",
+      "page": 7,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "49",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7
+      ],
+      "title": "阶段考试 · 第49题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "传染病",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "凝固性坏死"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "液化性坏死"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "干酪样坏死"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "脂肪坏死"
+        }
+      ],
+      "stems": [
+        {
+          "number": 49,
+          "sourceQuestion": 49,
+          "sourcePage": 7,
+          "text": "伤寒的蜡样变性是指膈肌、腹直肌等发生的",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-21"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q050",
+      "page": 7,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "50",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        7,
+        8
+      ],
+      "title": "阶段考试 · 第50题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "传染病",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "虫卵"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "尾蚴"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "童虫"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "成虫"
+        }
+      ],
+      "stems": [
+        {
+          "number": 50,
+          "sourceQuestion": 50,
+          "sourcePage": 7,
+          "text": "血吸虫病引起机体严重损害的是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-21"
+        }
+      ]
+    },
+    {
+      "id": "pathology-stage-exam-2026-09-q051",
+      "page": 8,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "sourceName": "【病理】阶段考试 天天师兄27考研 不要焦虑！.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "51",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        8
+      ],
+      "title": "阶段考试 · 第51题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "传染病",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案图录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-09-30提供的病理阶段考试答案截图",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "均为性传播"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血管炎和树胶肿是基本病变"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "梅毒肉芽肿内可见大量类上皮细胞"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "病变常累及主动脉，不累及骨骼"
+        }
+      ],
+      "stems": [
+        {
+          "number": 51,
+          "sourceQuestion": 51,
+          "sourcePage": 8,
+          "text": "以下关于梅毒的描述，正确的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-21"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "image": "pathology/pathology-stage-exam-2026-09/page-01.webp"
+    },
+    {
+      "page": 2,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "image": "pathology/pathology-stage-exam-2026-09/page-02.webp"
+    },
+    {
+      "page": 3,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "image": "pathology/pathology-stage-exam-2026-09/page-03.webp"
+    },
+    {
+      "page": 4,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "image": "pathology/pathology-stage-exam-2026-09/page-04.webp"
+    },
+    {
+      "page": 5,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "image": "pathology/pathology-stage-exam-2026-09/page-05.webp"
+    },
+    {
+      "page": 6,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "image": "pathology/pathology-stage-exam-2026-09/page-06.webp"
+    },
+    {
+      "page": 7,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "image": "pathology/pathology-stage-exam-2026-09/page-07.webp"
+    },
+    {
+      "page": 8,
+      "sourceKey": "pathology-stage-exam-2026-09",
+      "image": "pathology/pathology-stage-exam-2026-09/page-08.webp"
+    }
+  ]
+}
