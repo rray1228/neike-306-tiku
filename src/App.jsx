@@ -103,7 +103,7 @@ const CONTENT_LOADERS = {
     })
   },
   surgery: async () => {
-    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent, surgeryTeacherContent] = await Promise.all([
+    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent, surgeryTeacherContent, surgeryExamContent] = await Promise.all([
       loadJson(() => import('./data/surgery-data.json')),
       loadJson(() => import('./data/surgery-fracture-data.json')),
       loadJson(() => import('./data/surgery-deformity-data.json')),
@@ -119,14 +119,18 @@ const CONTENT_LOADERS = {
       import('./data/surgery-general-core-data.js').then((module) => module.default),
       import('./data/surgery-general-late-data.js'),
       loadJson(() => import('./data/surgery-teacher-supplement.json')),
+      loadJson(() => import('./data/surgery-stage-exam-data.json')),
     ])
     return appendSupplement({
       ...surgeryContent,
-      meta: { ...surgeryContent.meta, lectureCount: surgeryContent.meta.lectureCount + surgeryTeacherContent.lectures.length },
-      lectures: [...surgeryContent.lectures, ...surgeryTeacherContent.lectures],
+      meta: { ...surgeryContent.meta, lectureCount: surgeryContent.meta.lectureCount + surgeryTeacherContent.lectures.length + surgeryExamContent.lectures.length },
+      lectures: [...surgeryContent.lectures, ...surgeryTeacherContent.lectures, ...surgeryExamContent.lectures],
       topics: [...surgeryContent.topics.filter((topic) => topic !== '综合'), '骨科', '外科总论', '综合'],
       groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryChronicInjuryContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryNonpurulentArthritisContent.groups, ...surgeryBoneTumorContent.groups, ...surgeryTrunkSpineContent.groups, ...surgeryDegenerativeSpineContent.groups, ...surgeryLimbFractureContent.groups, ...surgeryGeneralCoreContent.groups, ...surgeryGeneralLateContent.surgeryGeneralInfectionGroups, ...surgeryGeneralContent.groups, ...surgeryGeneralLateContent.surgeryGeneralLaterGroups],
-    }, surgeryTeacherContent)
+    }, {
+      groups: [...surgeryTeacherContent.groups, ...surgeryExamContent.groups],
+      pages: [...surgeryTeacherContent.pages, ...surgeryExamContent.pages],
+    })
   },
   biochemistry: async () => {
     const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content, biochemistryLecture14Content, biochemistryLecture15Content, biochemistryLecture16Content, biochemistryLecture17Content, biochemistryLecture18Content, biochemistryLecture19Content, biochemistryLecture20Content, biochemistryTeacherContent] = await Promise.all([

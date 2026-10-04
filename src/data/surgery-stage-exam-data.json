@@ -1,0 +1,2327 @@
+{
+  "meta": {
+    "title": "外科学·阶段考试",
+    "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+    "sourcePages": 6,
+    "sourceSha256": "0be0492a17725146665cc3eaf9c9fb2d5073283eebf56b6fb018776b2bd6d2e6",
+    "groupCount": 37,
+    "stemCount": 37,
+    "answerRows": [
+      "BBDBB",
+      "DCDCC",
+      "DDACC",
+      "CBBBC",
+      "ADDCB",
+      "BCACC",
+      "CBADA",
+      "AD"
+    ],
+    "answerNote": "按用户提供的37个答案逐题对应；保留原卷选项顺序，不代表已进行讲义答案勘误。"
+  },
+  "lectures": [
+    {
+      "id": "med-lecture-16",
+      "number": 16,
+      "title": "内科与外科 消化性溃疡与消化道出血（共用第16讲）",
+      "pageCount": 12,
+      "file": "16 27考研：内科含诊断+外科 消化性溃疡 & 消化道出血 核心-真题-串联-导图 天天师兄.pdf",
+      "sourceSubject": "med"
+    }
+  ],
+  "groups": [
+    {
+      "id": "surgery-stage-exam-2026-10-q001",
+      "page": 1,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "1",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第1题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-31"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "代谢性酸中毒"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "代谢性碱中毒"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "呼吸性酸中毒"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "呼吸性碱中毒"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "sourceQuestion": 1,
+          "sourcePage": 1,
+          "text": "女，45 岁。反复剑突下疼痛 3 年，呕吐10 天，呕吐物有隔夜宿食。该患者最易发生的酸碱平衡失调是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-31"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q002",
+      "page": 1,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "2",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第2题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "脑卒中患者择期手术至少推迟 2 周"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "氯吡格雷在术前 7 天停用"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "高血压患者术前继续服药以避免戒断综合征"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "术前维持血糖在轻度升高的状态"
+        }
+      ],
+      "stems": [
+        {
+          "number": 2,
+          "sourceQuestion": 2,
+          "sourcePage": 1,
+          "text": "对有心脑血管疾病的患者，下列术前准备错误的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-35"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q003",
+      "page": 1,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "3",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第3题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-34"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "伤口包扎过紧"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "止血不充分"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "未使用抗生素"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "初次清创不彻底"
+        }
+      ],
+      "stems": [
+        {
+          "number": 3,
+          "sourceQuestion": 3,
+          "sourcePage": 1,
+          "text": "男，20 岁。施工时左大腿开放伤，未发现骨折，行简单的创口缝合。2 天后感伤部包扎过紧，疼痛剧烈，患肢肿胀明显，缝合处血性液体渗出多，恶臭。导致这种感染最主要的原因是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-34"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q004",
+      "page": 1,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "4",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第4题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-33"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "表皮层"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "真皮浅层"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "真皮深层"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "皮肤全层"
+        }
+      ],
+      "stems": [
+        {
+          "number": 4,
+          "sourceQuestion": 4,
+          "sourcePage": 1,
+          "text": "男，50 岁，上肢被开水烫伤，皮肤见多数较大水疱，其烧伤累及皮肤的深度是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-33"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q005",
+      "page": 1,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "5",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1
+      ],
+      "title": "阶段考试 · 第5题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-32"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "结肠外瘘"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "大面积烧伤"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "急性肝功能衰竭"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "甲亢术后饮水呛咳"
+        }
+      ],
+      "stems": [
+        {
+          "number": 5,
+          "sourceQuestion": 5,
+          "sourcePage": 1,
+          "text": "以下患者多需要使用肠外营养的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-32"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q006",
+      "page": 1,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "6",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        1,
+        2
+      ],
+      "title": "阶段考试 · 第6题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "颈部疾病",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "易发生继发感染"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "包块可能发生破裂"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "可能继发甲亢"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "有压迫症状"
+        }
+      ],
+      "stems": [
+        {
+          "number": 6,
+          "sourceQuestion": 6,
+          "sourcePage": 1,
+          "text": "女，30 岁。发现颈部包块 2 年，包块逐渐增大，无甲亢表现，目前有憋闷感。查体：右侧甲状腺可触及 4cm×3cm 包块，光滑，质韧，随吞咽上下移动，无压痛，未触及肿大淋巴结。核素扫描：甲状腺右叶温结节。建议患者手术治疗最主要的依据是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-01"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q007",
+      "page": 2,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "7",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第7题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "颈部疾病",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "乳头状癌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "滤泡癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "髓样癌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "未分化癌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 7,
+          "sourceQuestion": 7,
+          "sourcePage": 2,
+          "text": "能分泌 5-HT 致面部潮红、腹泻、多汗的甲状腺癌类型是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-01"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q008",
+      "page": 2,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "8",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第8题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "胸部疾病",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "呼吸困难并有皮下气肿"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "患侧叩诊鼓音、呼吸音消失"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "X 线示纵隔显著向健侧移位"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胸膜腔抽出高压气体"
+        }
+      ],
+      "stems": [
+        {
+          "number": 8,
+          "sourceQuestion": 8,
+          "sourcePage": 2,
+          "text": "诊断张力性气胸最重要的依据是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-04"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q009",
+      "page": 2,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "9",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第9题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "乳房疾病",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "BRCA"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "CA15-3"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "ECT"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "MRI"
+        }
+      ],
+      "stems": [
+        {
+          "number": 9,
+          "sourceQuestion": 9,
+          "sourcePage": 2,
+          "text": "女，45 岁。左乳房包块 5 个月。查体：左乳房外上象限可触及 3cm×2cm 包块，质硬，不光滑，无压痛，左腋窝触及 3 枚肿大淋巴结。钼靶：左乳房外上象限 3cm×2cm 高密度影，周边有毛刺，中央有细沙样钙化。经确诊予以手术，患者术后 3 年出现腰背部疼痛，逐渐加重，此时应首选的检查是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-03"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q010",
+      "page": 2,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "10",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第10题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "胃十二指肠疾病",
+      "lectureIds": [
+        "med-lecture-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "禁食补液"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "高选择性迷走神经切断术"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "修补缝合术"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胃大部切除术"
+        }
+      ],
+      "stems": [
+        {
+          "number": 10,
+          "sourceQuestion": 10,
+          "sourcePage": 2,
+          "text": "男，58 岁，进食后突发上腹部刀割样剧痛 2 小时。全腹压痛，板状腹，肝浊音界及肠鸣音消失。X 线示膈下新月形游离气体。既往胃溃疡病史 25 年。最佳的治疗是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "med-lecture-16"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q011",
+      "page": 2,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "11",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2
+      ],
+      "title": "阶段考试 · 第11题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "胃十二指肠疾病",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "钡餐"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "MRI"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "PET-CT"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "电子胃镜"
+        }
+      ],
+      "stems": [
+        {
+          "number": 11,
+          "sourceQuestion": 11,
+          "sourcePage": 2,
+          "text": "术前明确胃癌浸润深度的最佳检查是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-05"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q012",
+      "page": 2,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "12",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        2,
+        3
+      ],
+      "title": "阶段考试 · 第12题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "腹部损伤与感染",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "一期肠修补"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "一期肠切除吻合"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肠造口，1-2 周后处理"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肠外置，3-4 周后处理"
+        }
+      ],
+      "stems": [
+        {
+          "number": 12,
+          "sourceQuestion": 12,
+          "sourcePage": 2,
+          "text": "降结肠外伤后主要的处理措施是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-07"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q013",
+      "page": 3,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "13",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第13题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "腹外疝",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "嵌顿内容物为大网膜"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "不易引起肠绞窄"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "多无肠梗阻表现"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "局部肿块不明显"
+        }
+      ],
+      "stems": [
+        {
+          "number": 13,
+          "sourceQuestion": 13,
+          "sourcePage": 3,
+          "text": "Richter 疝易误诊的原因不包括",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-12"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q014",
+      "page": 3,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "14",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第14题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "小肠与阑尾疾病",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "右下腹麦氏点"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肝下位"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "盆位"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "盲肠后位"
+        }
+      ],
+      "stems": [
+        {
+          "number": 14,
+          "sourceQuestion": 14,
+          "sourcePage": 3,
+          "text": "男，29 岁。转移性右下腹痛伴发热，诊断为急性阑尾炎。查体：嘱患者仰卧，使右髋和右大腿屈曲，然后医生旋转其下肢，引起患者右下腹疼痛。提示阑尾的位置在",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-09"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q015",
+      "page": 3,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "15",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第15题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "小肠与阑尾疾病",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "补液，密切观察病情变化"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "使用吗啡止痛"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "剖腹探查"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "在出现弥漫性腹膜炎后立即手术"
+        }
+      ],
+      "stems": [
+        {
+          "number": 15,
+          "sourceQuestion": 15,
+          "sourcePage": 3,
+          "text": "男，50 岁。术后粘连性肠梗阻 3 天，加重 1 天。查体：可见肠型，右下腹局限性压痛。多次立位腹部 X 线片见固定的肿大肠袢。该患者应",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-08"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q016",
+      "page": 3,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "16",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第16题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "结直肠与肛管疾病",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "排便习惯改变"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "腹部触及肿块"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "大便细，带血"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "低热，伴乏力"
+        }
+      ],
+      "stems": [
+        {
+          "number": 16,
+          "sourceQuestion": 16,
+          "sourcePage": 3,
+          "text": "升结肠癌常见的临床表现不包括",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-10"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q017",
+      "page": 3,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "17",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第17题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "结直肠与肛管疾病",
+      "lectureIds": [
+        "lecture-11"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肛瘘分泌物细菌培养的结果"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肛瘘与肛门括约肌的解剖关系"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肛瘘有几个内口"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肛瘘有几个外口"
+        }
+      ],
+      "stems": [
+        {
+          "number": 17,
+          "sourceQuestion": 17,
+          "sourcePage": 3,
+          "text": "治疗肛瘘时最重要的是确定",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-11"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q018",
+      "page": 3,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "18",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3
+      ],
+      "title": "阶段考试 · 第18题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "腹腔镜胆囊切除术"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胆囊切除，胆总管探查"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胆囊造口，PTCD"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胆囊造口，胆总管切开减压"
+        }
+      ],
+      "stems": [
+        {
+          "number": 18,
+          "sourceQuestion": 18,
+          "sourcePage": 3,
+          "text": "女，60 岁，因突发右上腹痛 8 小时入院。查体：体温 39.1 度，心率 90 次/分，血压 110/80mmHg，右上腹压痛、肌紧张、反跳痛，血 WBC 16×10⁹/L。B 超示胆囊增大，壁厚，内有多个结石，胆总管直径 1.2cm。该患者应选择的治疗方法是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-16"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q019",
+      "page": 3,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "19",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        3,
+        4
+      ],
+      "title": "阶段考试 · 第19题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胆总管切开取石，T 管引流术"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胆总管-空肠 Y 型吻合术"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "EST+取石+ENBD 术"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "Whipple 术"
+        }
+      ],
+      "stems": [
+        {
+          "number": 19,
+          "sourceQuestion": 19,
+          "sourcePage": 3,
+          "text": "胆总管泥沙样结石伴远端狭窄、胆总管扩张的治疗方法是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-16"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q020",
+      "page": 4,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "20",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第20题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胰头癌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "原发性肝癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肝门部胆管癌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胆囊癌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 20,
+          "sourceQuestion": 20,
+          "sourcePage": 4,
+          "text": "男，62 岁，皮肤黄染进行性加重1 个月，伴上腹胀、隐痛。10 天前感皮肤瘙痒，大便呈白陶土样。查体：巩膜黄染，压痛不明显，未触及包块，胆囊无肿大。血AFP 5μg/L。该患者最可能的诊断是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-16"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q021",
+      "page": 4,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "21",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第21题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-13"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肝静脉和门静脉的分布"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肝动脉和门静脉的分布"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肝静脉和肝动脉的分布"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肝内胆管的分布"
+        }
+      ],
+      "stems": [
+        {
+          "number": 21,
+          "sourceQuestion": 21,
+          "sourcePage": 4,
+          "text": "肝脏 Couinaud 分段法的主要依据是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-13"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q022",
+      "page": 4,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "22",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第22题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "减少腹水"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "预防肝功能衰竭"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "预防肝细胞癌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "预防上消化道出血"
+        }
+      ],
+      "stems": [
+        {
+          "number": 22,
+          "sourceQuestion": 22,
+          "sourcePage": 4,
+          "text": "门静脉高压症择期手术的最主要目的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-14"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q023",
+      "page": 4,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "23",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第23题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "med-lecture-23"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胰腺出血坏死越广泛，血和尿淀粉酶越高"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血钙下降和早期血糖升高与严重程度有关"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "体温和白细胞升高是胰腺感染的有力证据"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "重症胰腺炎应尽可能内科保守和微创治疗"
+        }
+      ],
+      "stems": [
+        {
+          "number": 23,
+          "sourceQuestion": 23,
+          "sourcePage": 4,
+          "text": "以下关于急性胰腺炎的描述，正确的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "med-lecture-23"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q024",
+      "page": 4,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "24",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第24题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胰头、胰颈、胰体"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胰头、胰体、胰尾"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胰尾、胰体、胰头"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胰头体尾几率基本相等"
+        }
+      ],
+      "stems": [
+        {
+          "number": 24,
+          "sourceQuestion": 24,
+          "sourcePage": 4,
+          "text": "女，40 岁。近三年经常于清晨突发晕厥，出冷汗，饮糖水后症状缓解。B 超示胰腺占位，约 1.5cm。该肿瘤好发部位依次是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-15"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q025",
+      "page": 4,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "25",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4
+      ],
+      "title": "阶段考试 · 第25题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "周围血管疾病",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "游走性浅静脉炎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "吸烟、高血压、糖尿病病史"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "患肢足背动脉搏动减弱"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "间歇性跛行"
+        }
+      ],
+      "stems": [
+        {
+          "number": 25,
+          "sourceQuestion": 25,
+          "sourcePage": 4,
+          "text": "血栓闭塞性脉管炎的诊断要点不包括",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-17"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q026",
+      "page": 4,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "26",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        4,
+        5
+      ],
+      "title": "阶段考试 · 第26题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿外科",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "药物排石"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "ESWL"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "输尿管镜碎石取石"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "腹腔镜输尿管切开取石"
+        }
+      ],
+      "stems": [
+        {
+          "number": 26,
+          "sourceQuestion": 26,
+          "sourcePage": 4,
+          "text": "针对右侧输尿管上段 1.0×0.8cm 的结石，选择的治疗方法是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-19"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q027",
+      "page": 5,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "27",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第27题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿外科",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "TURBT"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "膀胱部分切除术"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "膀胱全切除术"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "化疗、放疗、免疫治疗"
+        }
+      ],
+      "stems": [
+        {
+          "number": 27,
+          "sourceQuestion": 27,
+          "sourcePage": 5,
+          "text": "膀胱癌 T3 期最佳的治疗方法是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-18"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q028",
+      "page": 5,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "28",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第28题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "10 度"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "20 度"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "40 度"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "50 度"
+        }
+      ],
+      "stems": [
+        {
+          "number": 28,
+          "sourceQuestion": 28,
+          "sourcePage": 5,
+          "text": "临床诊断特发性脊柱侧凸的最低标准是 Cobb 角",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-20"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q029",
+      "page": 5,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "29",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第29题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "膝关节"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肘关节"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "前臂"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "大腿"
+        }
+      ],
+      "stems": [
+        {
+          "number": 29,
+          "sourceQuestion": 29,
+          "sourcePage": 5,
+          "text": "最容易并发骨筋膜室综合征的部位是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-29"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q030",
+      "page": 5,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "30",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第30题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "手法复位+内固定"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "切开复位+内固定"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "半髋关节置换术"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "全髋关节置换术"
+        }
+      ],
+      "stems": [
+        {
+          "number": 30,
+          "sourceQuestion": 30,
+          "sourcePage": 5,
+          "text": "年龄大、合并症多、预期寿命短的股骨颈骨折患者，首选的治疗是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-28"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q031",
+      "page": 5,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "31",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第31题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "颅骨牵引 4 周"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "Halo 架固定 6-8 周"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Halo 架固定 12 周"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "手术内固定"
+        }
+      ],
+      "stems": [
+        {
+          "number": 31,
+          "sourceQuestion": 31,
+          "sourcePage": 5,
+          "text": "男，20 岁，夜间骑自行车时头朝下跌于深沟，X 线示枢椎齿状突骨折，Ⅲ型。该患者首选的治疗是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-26"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q032",
+      "page": 5,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "32",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5
+      ],
+      "title": "阶段考试 · 第32题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "Dugas 征"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "Mills 征"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Spurling 征"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "Thomas 征"
+        }
+      ],
+      "stems": [
+        {
+          "number": 32,
+          "sourceQuestion": 32,
+          "sourcePage": 5,
+          "text": "肱骨外上髁炎的主要体征是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-21"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q033",
+      "page": 5,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "33",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        5,
+        6
+      ],
+      "title": "阶段考试 · 第33题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "患侧踝反射障碍"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "踝和拇趾背屈力弱"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "小腿外侧感觉异常"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "足背内侧感觉异常"
+        }
+      ],
+      "stems": [
+        {
+          "number": 33,
+          "sourceQuestion": 33,
+          "sourcePage": 5,
+          "text": "L4-5 椎间盘突出累及相应神经根时，常见的临床表现不包括",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-27"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q034",
+      "page": 6,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "34",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第34题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "抗结核药物疗效不佳，全身中毒症状严重"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "抗结核药物治疗在 2 周之内"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "有其他脏器活动性结核"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "窦道流脓经久不愈"
+        }
+      ],
+      "stems": [
+        {
+          "number": 34,
+          "sourceQuestion": 34,
+          "sourcePage": 6,
+          "text": "骨与关节结核行病灶清除术的适应证为",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-23"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q035",
+      "page": 6,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "35",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第35题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-24"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "附着点炎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "关节软骨变性"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "关节滑膜炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "骨质破坏"
+        }
+      ],
+      "stems": [
+        {
+          "number": 35,
+          "sourceQuestion": 35,
+          "sourcePage": 6,
+          "text": "强直性脊柱炎属于",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-24"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q036",
+      "page": 6,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "36",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第36题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "化疗+手术+化疗"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "放疗+手术+放疗"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "放疗+化疗+手术"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "放疗+化疗"
+        }
+      ],
+      "stems": [
+        {
+          "number": 36,
+          "sourceQuestion": 36,
+          "sourcePage": 6,
+          "text": "骨肉瘤最佳的治疗方法是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-25"
+        }
+      ]
+    },
+    {
+      "id": "surgery-stage-exam-2026-10-q037",
+      "page": 6,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "sourceName": "【外科】阶段考试 天天师兄27考研 不白学！.pdf",
+      "sourceSection": "外科学",
+      "sourceQuestion": "37",
+      "sourceLabel": "阶段考试",
+      "sourcePages": [
+        6
+      ],
+      "title": "阶段考试 · 第37题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "答案按提供的答案序列录入",
+      "answerSourceLabel": "提供的答案",
+      "answerSourceName": "2026-10-04提供的外科阶段考试答案序列",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "骨盆是好发部位"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "病灶内常见钙化斑"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "以手术治疗为主"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "对放疗敏感"
+        }
+      ],
+      "stems": [
+        {
+          "number": 37,
+          "sourceQuestion": 37,
+          "sourcePage": 6,
+          "text": "以下关于软骨肉瘤的描述，错误的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案序列录入",
+          "lectureId": "lecture-25"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "image": "surgery/surgery-stage-exam-2026-10/page-01.webp"
+    },
+    {
+      "page": 2,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "image": "surgery/surgery-stage-exam-2026-10/page-02.webp"
+    },
+    {
+      "page": 3,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "image": "surgery/surgery-stage-exam-2026-10/page-03.webp"
+    },
+    {
+      "page": 4,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "image": "surgery/surgery-stage-exam-2026-10/page-04.webp"
+    },
+    {
+      "page": 5,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "image": "surgery/surgery-stage-exam-2026-10/page-05.webp"
+    },
+    {
+      "page": 6,
+      "sourceKey": "surgery-stage-exam-2026-10",
+      "image": "surgery/surgery-stage-exam-2026-10/page-06.webp"
+    }
+  ]
+}
