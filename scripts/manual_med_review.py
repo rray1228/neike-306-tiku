@@ -1180,10 +1180,23 @@ def refine_ulcer_perforation(target: dict) -> None:
     )
 
 
+def repair_ibs_short_term(target: dict) -> None:
+    """Lecture 19 p. 1 marks both rifaximin and anticholinergics short-term."""
+    target["options"] = [item for item in target["options"] if item["key"] != "T"]
+    question = next(item for item in target["stems"] if item["text"] == "短期用")
+    question.update({
+        "answer": ["A", "I"],
+        "answerMode": "多选",
+        "sourceText": "短期用 AI（第19讲第1页：利福昔明、抗胆碱药均标注短期用）",
+    })
+    target["sourceText"] = "肠易激综合征（第14问短期用药按第19讲第1页核对为AI）"
+
+
 def repair_digestive_options(payload: dict) -> None:
     """Restore option text split or misread by OCR on source pages 20-34."""
     groups = {item["id"]: item for item in payload["groups"]}
     refine_ulcer_perforation(groups["p24-g1"])
+    repair_ibs_short_term(groups["p30-g1"])
     for group_id, repairs in DIGESTIVE_OPTION_REPAIRS.items():
         target_group = groups[group_id]
         options = {item["key"]: item for item in target_group["options"]}

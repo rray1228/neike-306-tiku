@@ -9943,11 +9943,6 @@
           "key": "Q",
           "label": "乳酸杆菌",
           "sourceText": "Q.乳酸杆菌"
-        },
-        {
-          "key": "T",
-          "label": "短期使用",
-          "sourceText": "T.短期使用"
         }
       ],
       "stems": [
@@ -10092,14 +10087,15 @@
         {
           "text": "短期用",
           "answer": [
-            "A"
+            "A",
+            "I"
           ],
-          "sourceText": "短期用A（原题页答案误写为AT，选项池无T，按讲义和选项池勘误）",
+          "sourceText": "短期用 AI（第19讲第1页：利福昔明、抗胆碱药均标注短期用）",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "多选"
         }
       ],
-      "sourceText": "肠易激综合征（原题页与讲义复核；短期用药按选项池和讲义勘误为A）",
+      "sourceText": "肠易激综合征（第14问短期用药按第19讲第1页核对为AI）",
       "reviewState": "已按原题页与讲义复核",
       "topic": "消化",
       "lectureIds": [
