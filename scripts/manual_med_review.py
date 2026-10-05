@@ -1192,11 +1192,26 @@ def repair_ibs_short_term(target: dict) -> None:
     target["sourceText"] = "肠易激综合征（第14问短期用药按第19讲第1页核对为AI）"
 
 
+def repair_intestinal_tb_extraintestinal(target: dict) -> None:
+    """Lecture 18 p. 5: TB maps to P (rare), not the IBD comparison O."""
+    question = next(item for item in target["stems"] if item["text"] == "肠结核溃疡型")
+    question["answer"] = list("ABCDEFHLMPUX①")
+    question["sourceText"] = "肠结核溃疡型ABCDEFHLMPUX①"
+    target["lectureEvidence"] = {
+        "lectureId": "lecture-18",
+        "page": 5,
+        "image": "med/lecture-pages/lecture-18-page-05.webp",
+        "title": "第18讲第5页：肠结核、克罗恩病与溃疡性结肠炎鉴别",
+        "description": "本题组对应第18讲第4–5页鉴别表，此处展示第5页。",
+    }
+
+
 def repair_digestive_options(payload: dict) -> None:
     """Restore option text split or misread by OCR on source pages 20-34."""
     groups = {item["id"]: item for item in payload["groups"]}
     refine_ulcer_perforation(groups["p24-g1"])
     repair_ibs_short_term(groups["p30-g1"])
+    repair_intestinal_tb_extraintestinal(groups["p29-g1"])
     for group_id, repairs in DIGESTIVE_OPTION_REPAIRS.items():
         target_group = groups[group_id]
         options = {item["key"]: item for item in target_group["options"]}

@@ -33,6 +33,15 @@ test('all digestive groups have complete option banks and valid answers', () => 
   }
 })
 
+test('intestinal TB selects rare extraintestinal manifestations, not the IBD choice', () => {
+  const item = group('p29-g1')
+  assert.equal(item.stems[0].text, '肠结核溃疡型')
+  assert.deepEqual(item.stems[0].answer, Array.from('ABCDEFHLMPUX①'))
+  assert.equal(label('p29-g1', 'P'), '少见肠外表现')
+  assert.equal(label('p29-g1', 'O'), '可有肠外表现')
+  assert.deepEqual(item.stems.slice(1).map(s => s.answer.join('')), ['ACEHJKMNOQSVY①③', 'ACGIORSTWYZ②'])
+})
+
 test('truncated digestive options match the source pages and lectures', () => {
   const expected = {
     'p20-g1': { G: 'ACh' },

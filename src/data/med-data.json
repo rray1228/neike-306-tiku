@@ -9675,10 +9675,9 @@
             "P",
             "U",
             "X",
-            "O",
             "①"
           ],
-          "sourceText": "肠结核溃疡型ABCDEFHLMPUXO①",
+          "sourceText": "肠结核溃疡型ABCDEFHLMPUX①",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -9735,10 +9734,10 @@
       ],
       "lectureEvidence": {
         "lectureId": "lecture-18",
-        "page": 4,
-        "image": "med/lecture-pages/lecture-18-page-04.webp",
-        "title": "第18讲第4页：内科 炎症性肠病",
-        "description": "本题组对应第18讲第4页讲义。"
+        "page": 5,
+        "image": "med/lecture-pages/lecture-18-page-05.webp",
+        "title": "第18讲第5页：肠结核、克罗恩病与溃疡性结肠炎鉴别",
+        "description": "本题组对应第18讲第4–5页鉴别表，此处展示第5页。"
       }
     },
     {
