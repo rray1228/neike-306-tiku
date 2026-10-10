@@ -7,7 +7,7 @@
     "lectureCount": 41,
     "groupCount": 160,
     "stemCount": 505,
-    "correctionGroupCount": 21,
+    "correctionGroupCount": 22,
     "generatedBy": "scripts/build_physiology_content.py",
     "siteIntegrated": true,
     "lectureLinked": true,
@@ -18,8 +18,8 @@
     "lectureSetFingerprint": "e213273a2bdc0fffcd942dd08aad8cfea51dd719a65fe9cedfe0d6cd9c3f46c0"
   },
   "statusSummary": {
-    "与今年讲义一致": 139,
-    "已校正": 21
+    "与今年讲义一致": 138,
+    "已校正": 22
   },
   "corrections": [
     {
@@ -554,6 +554,98 @@
             "answers": [
               "ACEF",
               "BD"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
+    },
+    {
+      "id": "phys-052",
+      "topic": "循环系统",
+      "sourcePage": 44,
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "lectureNumber": 12,
+        "lectureTitle": "生理 心肌电活动和特性",
+        "page": 8,
+        "score": 0.4077,
+        "method": "按今年讲义原文人工复核并定位",
+        "image": "physiology/lecture-pages/lecture-12-page-08.webp",
+        "title": "第12讲第8页：生理 心肌电活动和特性",
+        "description": "本题组已按第12讲第8页逐项核对题目、选项与答案。"
+      },
+      "corrections": [
+        {
+          "title": "心肌传导性增大答案漏项校正",
+          "body": "“传导性增大见于哪些情况”答案由 BEF 补全为 BCDEF；“0 期去极化速度和幅度的影响因素”答案 CD 不变。 依据：今年讲义第 7—8 页明确：0 期去极化速度和幅度增大可提高传导性；细胞内外 Na+ 或 Ca2+ 浓度差增大使平衡电位升高、与膜电位差距增大，进而使 0 期去极化速度和幅度增大。因此 C、D 均应选。闰盘增加、邻旁未兴奋细胞兴奋性升高也提高传导性；分化程度升高而非降低提高传导性，故 A 不选。",
+          "lectureId": "lecture-12",
+          "lecturePages": [
+            7,
+            8
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "心肌细胞分化程度低"
+              },
+              {
+                "key": "B",
+                "label": "心肌细胞间的闰盘↑"
+              },
+              {
+                "key": "C",
+                "label": "平衡电位与膜电位差距增大"
+              },
+              {
+                "key": "D",
+                "label": "细胞内外 Na+或 Ca2+浓度差↑"
+              },
+              {
+                "key": "E",
+                "label": "0 期去极化速度和幅度↑"
+              },
+              {
+                "key": "F",
+                "label": "邻旁未兴奋细胞的兴奋性高"
+              }
+            ],
+            "answers": [
+              "CD",
+              "BEF"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "心肌细胞分化程度低"
+              },
+              {
+                "key": "B",
+                "label": "心肌细胞间的闰盘↑"
+              },
+              {
+                "key": "C",
+                "label": "平衡电位与膜电位差距增大"
+              },
+              {
+                "key": "D",
+                "label": "细胞内外 Na+或 Ca2+浓度差↑"
+              },
+              {
+                "key": "E",
+                "label": "0 期去极化速度和幅度↑"
+              },
+              {
+                "key": "F",
+                "label": "邻旁未兴奋细胞的兴奋性高"
+              }
+            ],
+            "answers": [
+              "CD",
+              "BCDEF"
             ]
           }
         }
@@ -3632,13 +3724,87 @@
         "lectureTitle": "生理 心肌电活动和特性",
         "page": 8,
         "score": 0.4077,
-        "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
+        "method": "按今年讲义原文人工复核并定位",
         "image": "physiology/lecture-pages/lecture-12-page-08.webp",
         "title": "第12讲第8页：生理 心肌电活动和特性",
         "description": "本题组已按第12讲第8页逐项核对题目、选项与答案。"
       },
-      "corrections": [],
-      "status": "与今年讲义一致"
+      "corrections": [
+        {
+          "title": "心肌传导性增大答案漏项校正",
+          "body": "“传导性增大见于哪些情况”答案由 BEF 补全为 BCDEF；“0 期去极化速度和幅度的影响因素”答案 CD 不变。 依据：今年讲义第 7—8 页明确：0 期去极化速度和幅度增大可提高传导性；细胞内外 Na+ 或 Ca2+ 浓度差增大使平衡电位升高、与膜电位差距增大，进而使 0 期去极化速度和幅度增大。因此 C、D 均应选。闰盘增加、邻旁未兴奋细胞兴奋性升高也提高传导性；分化程度升高而非降低提高传导性，故 A 不选。",
+          "lectureId": "lecture-12",
+          "lecturePages": [
+            7,
+            8
+          ],
+          "before": {
+            "options": [
+              {
+                "key": "A",
+                "label": "心肌细胞分化程度低"
+              },
+              {
+                "key": "B",
+                "label": "心肌细胞间的闰盘↑"
+              },
+              {
+                "key": "C",
+                "label": "平衡电位与膜电位差距增大"
+              },
+              {
+                "key": "D",
+                "label": "细胞内外 Na+或 Ca2+浓度差↑"
+              },
+              {
+                "key": "E",
+                "label": "0 期去极化速度和幅度↑"
+              },
+              {
+                "key": "F",
+                "label": "邻旁未兴奋细胞的兴奋性高"
+              }
+            ],
+            "answers": [
+              "CD",
+              "BEF"
+            ]
+          },
+          "after": {
+            "options": [
+              {
+                "key": "A",
+                "label": "心肌细胞分化程度低"
+              },
+              {
+                "key": "B",
+                "label": "心肌细胞间的闰盘↑"
+              },
+              {
+                "key": "C",
+                "label": "平衡电位与膜电位差距增大"
+              },
+              {
+                "key": "D",
+                "label": "细胞内外 Na+或 Ca2+浓度差↑"
+              },
+              {
+                "key": "E",
+                "label": "0 期去极化速度和幅度↑"
+              },
+              {
+                "key": "F",
+                "label": "邻旁未兴奋细胞的兴奋性高"
+              }
+            ],
+            "answers": [
+              "CD",
+              "BCDEF"
+            ]
+          }
+        }
+      ],
+      "status": "已校正"
     },
     {
       "id": "phys-053",
