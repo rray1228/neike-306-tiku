@@ -16006,22 +16006,16 @@
           "key": "J",
           "label": "溶血性黄疸",
           "sourceText": "J.溶血性黄疸"
-        },
-        {
-          "key": "K",
-          "label": "针对红细胞膜、酶、血红蛋白及免疫等溶血病因的检查",
-          "sourceText": "K.针对红细胞膜、酶、血红蛋白及免疫等溶血病因的检查"
         }
       ],
       "stems": [
         {
           "text": "红细胞自身缺陷和外部异常",
-          "answer": [
-            "K"
-          ],
-          "sourceText": "红细胞自身缺陷和外部异常 K",
+          "answer": [],
+          "sourceText": "红细胞自身缺陷和外部异常",
           "sourceY": 0,
-          "answerMode": "单选"
+          "answerMode": "待核对",
+          "answerState": "待原题页核对"
         },
         {
           "text": "骨髓红系增生明显活跃",
@@ -16051,6 +16045,7 @@
         }
       ],
       "sourceText": "A.血结合珠蛋白/触珠蛋白明显↓ | B.网织红细胞Ret明显↑ | C.血游离Hb明显↑ | D.粒红比降低或倒置 | E.血红蛋白尿 | F.血涂片见有核红细胞 | G.含铁血黄素尿/Rous试验 | H.红细胞寿命缩短 | I.血涂片见破碎和畸形红细胞↑ | J.溶血性黄疸 | 骨髓红系增生明显活跃（BDF | 红细胞破坏（ACEGHI",
+      "answerRevision": "hemolysis-20261011",
       "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
@@ -16059,9 +16054,11 @@
       "lectureEvidence": {
         "lectureId": "lecture-30",
         "page": 2,
-        "image": "med/lecture-pages/lecture-30-page-02.webp",
-        "title": "第30讲第2页：内科含诊断 溶血性贫血",
-        "description": "对应第30讲第2页讲义。"
+        "pages": [2, 3],
+        "pageLabel": "第2–3页",
+        "image": "med/lecture-pages/lecture-30-pages-02-03.webp",
+        "title": "第30讲第2–3页：溶血性贫血检查",
+        "description": "第2页为检查分类和红细胞破坏指标，第3页补充溶血性黄疸。"
       }
     },
     {
@@ -16329,9 +16326,11 @@
             "I",
             "M",
             "N",
-            "O"
+            "O",
+            "U"
           ],
-          "sourceText": "温抗体型自身免疫性溶血性贫血 AIMNO",
+          "sourceAnswerRaw": "AIMNO",
+          "sourceText": "温抗体型自身免疫性溶血性贫血 AIMNOU",
           "sourceY": 0,
           "answerMode": "多选"
         },
@@ -16352,16 +16351,19 @@
           "answer": [
             "B",
             "G",
+            "I",
+            "L",
             "S",
-            "T",
-            "L"
+            "T"
           ],
-          "sourceText": "PNH BGSTL",
+          "sourceAnswerRaw": "BGSTL",
+          "sourceText": "PNH BGILST",
           "sourceY": 0,
           "answerMode": "多选"
         }
       ],
       "sourceText": "溶血性贫血分类与特征（按原题页分组并结合讲义复核）",
+      "answerRevision": "hemolysis-20261011",
       "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
@@ -16370,9 +16372,11 @@
       "lectureEvidence": {
         "lectureId": "lecture-30",
         "page": 4,
-        "image": "med/lecture-pages/lecture-30-page-04.webp",
-        "title": "第30讲第4页：内科含诊断 溶血性贫血",
-        "description": "对应第30讲第4页讲义。"
+        "pages": [4, 5],
+        "pageLabel": "第4–5页",
+        "image": "med/lecture-pages/lecture-30-pages-04-05.webp",
+        "title": "第30讲第4–5页：溶血性贫血类型与汇总表",
+        "description": "第4页为各类溶贫检查与治疗，第5页为六种溶贫的对照汇总表。"
       }
     },
     {

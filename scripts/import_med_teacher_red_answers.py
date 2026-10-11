@@ -16,6 +16,7 @@ import pdfplumber
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from build_teacher_pathology_med_supplements import clean, med_topic, MED_LECTURES, title_for_question
+from hemolysis_review import repair_hemolysis_homework
 
 EXPECTED = {1:16, 2:19, 3:18, 4:12, 5:12, 6:15, 7:15, 8:19}
 LECTURES = {**MED_LECTURES,
@@ -161,6 +162,7 @@ def main():
     for g in original_groups:bind_answers(g,records,int(g['id'].split('-')[2]))
     data['groups']=sorted(original_groups+new_groups(records),key=lambda g:min((int(x[-2:]) for x in g['lectureIds']),default=58))
     data['meta'].update(sourceAnswerPdf=args.pdf.name,groupCount=len(data['groups']),stemCount=126,answeredStemCount=125,answerNote='按答案PDF红色选项录入；第8组第3题原PDF缺选项与答案，暂不判分')
+    repair_hemolysis_homework(data)
     assert sum(len(g['stems']) for g in data['groups'])==126
     print('*** Begin Patch');emit_file_patch('src/data/med-teacher-supplement.json',old,json.dumps(data,ensure_ascii=False,indent=2)+'\n');print('*** End Patch')
 

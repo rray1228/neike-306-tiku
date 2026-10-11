@@ -7,9 +7,9 @@
     ],
     "groupCount": 97,
     "stemCount": 126,
-    "answerNote": "按答案PDF红色选项录入；第8组第3题原PDF缺选项与答案，暂不判分",
+    "answerNote": "按答案PDF红色选项录入，PNH诊断按讲义纠正；第6组第8题及第8组第3题暂不判分",
     "sourceAnswerPdf": "内科含诊断课后巩固合集（答案）.pdf",
-    "answeredStemCount": 125
+    "answeredStemCount": 124
   },
   "pages": [],
   "groups": [
@@ -2862,30 +2862,30 @@
         {
           "number": 7,
           "text": "首先考虑",
-          "answerRaw": "B",
+          "answerRaw": "C",
           "answer": [
-            "q7-B"
+            "q7-C"
           ],
           "answerMode": "单选",
-          "answerState": "原PDF标红答案",
+          "answerState": "讲义核对答案",
           "optionCategory": "第 7 题选项",
           "sourceQuestion": 7,
           "lectureId": "lecture-30",
-          "answerSourcePage": 9
+          "answerSourcePage": 9,
+          "sourceAnswerRaw": "B"
         },
         {
           "number": 8,
           "text": "该患者最常见的并发症是",
-          "answerRaw": "C",
-          "answer": [
-            "q8-C"
-          ],
-          "answerMode": "单选",
-          "answerState": "原PDF标红答案",
+          "answerRaw": "",
+          "answer": [],
+          "answerMode": "待核对",
+          "answerState": "待原题页核对",
           "optionCategory": "第 8 题选项",
           "sourceQuestion": 8,
           "lectureId": "lecture-30",
-          "answerSourcePage": 9
+          "answerSourcePage": 9,
+          "sourceAnswerRaw": "C"
         }
       ],
       "sourceText": "男性,44岁。头晕乏力,面色苍白3年。巩膜轻度黄染,脾肋下2cm。Hb56g/L,RBC 1.8×10^12/L,WBC2.2×10^9/L,Plt32×10^9/L。骨髓增生减低,但红系增生,以中晚幼红为主,尿Rous 试验(+),Ham试验(+)。 首先考虑 该患者最常见的并发症是 缺铁性贫血 巨幼细胞性贫血 阵发性睡眠性血红蛋白尿 自身免疫性溶血性贫血 痛风 胆囊结石 肝功能损害 Budd‐ Chiari综合征",
@@ -2893,11 +2893,19 @@
       "lectureIds": [
         "lecture-30"
       ],
-      "reviewState": "按答案PDF红色选项录入（非讲义勘误）",
+      "reviewState": "诊断已按讲义复核；第8题待核对",
       "supplement": true,
-      "supplementNotice": "已录入原PDF标红答案",
-      "answerSourceLabel": "课后题答案",
-      "answerSourceName": "内科含诊断课后巩固合集（答案）.pdf"
+      "supplementNotice": "已核对诊断答案；第8题暂不判分",
+      "answerSourceLabel": "讲义答案",
+      "answerSourceName": "内科含诊断课后巩固合集（答案）.pdf",
+      "answerRevision": "hemolysis-20261011",
+      "lectureEvidence": {
+        "lectureId": "lecture-30",
+        "page": 4,
+        "image": "med/lecture-pages/lecture-30-page-04.webp",
+        "title": "第30讲第4页：阵发性睡眠性血红蛋白尿",
+        "description": "对应PNH的临床表现、Ham与Rous试验及治疗。"
+      }
     },
     {
       "id": "med-teacher-06-09",

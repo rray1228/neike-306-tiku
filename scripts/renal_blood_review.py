@@ -120,11 +120,7 @@ def repair_renal_blood(payload):
     rename('p42-g3', '一般贫血与组织缺铁的表现')
     rename('p43-g1', '常见贫血的铁代谢指标鉴别')
     answers('p45-g2', ['aceg', 'bcdef'])
-    # Restore source row left blank by the student, with a lecture-defined item.
-    if not any(o['key'] == 'K' for o in groups['p45-g3']['options']):
-        groups['p45-g3']['options'].append(option('K', '针对红细胞膜、酶、血红蛋白及免疫等溶血病因的检查'))
-    if not any(s['text'] == '红细胞自身缺陷和外部异常' for s in groups['p45-g3']['stems']):
-        groups['p45-g3']['stems'].insert(0, stem('红细胞自身缺陷和外部异常', 'K'))
+    # The unanswered source row is restored below, without inventing option K.
     if not any(s['answer'] == ['G'] for s in groups['p46-g3']['stems']):
         groups['p46-g3']['stems'].append(stem('起效慢、不单独用', 'G'))
     groups['p46-g3']['stems'][8]['text'] = '妊娠时讲义列为不适合的治疗'
@@ -177,8 +173,10 @@ def repair_renal_blood(payload):
         g['reviewState'] = '已按原题页及对应讲义逐项复核'
         for s in g['stems']:
             s['sourceText'] = s['text'] + ' ' + ''.join(s['answer'])
-            if s.get('answerMode') != '排序':
+            if s.get('answerMode') not in ('排序', '待核对'):
                 s['answerMode'] = '多选' if len(s['answer']) > 1 else '单选'
+    from hemolysis_review import repair_hemolysis
+    repair_hemolysis(payload)
     # These supplemental pages refer to lecture 56, NOT source workbook page 56.
     for gid in ['lecture56-av-dissociation', 'lecture56-cardiac-enlargement', 'ecg56-g1']:
         if gid in groups:
