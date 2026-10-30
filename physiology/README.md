@@ -38,3 +38,18 @@ python3 scripts/build_physiology_content.py \
 
 python3 scripts/audit_physiology_content.py
 ```
+
+## 合集讲义图片
+
+网站的 139 张讲义关联图片已改用带批注的《27跟课生理合集【带导图】》。
+`collection-lecture-pages.json` 保存分讲页到合集页的核对映射、来源指纹和图片指纹；
+题目和答案仍来自原题库。合集 PDF 的物理页码与分讲页码不同，不可直接按页码替换。
+
+重新渲染已核对的合集页（包含高亮、手写批注与配图）：
+
+```bash
+python3 scripts/render_physiology_collection_pages.py /path/to/27跟课生理合集【带导图】.pdf
+```
+
+若重新生成题库数据，应保留当前 `lectureEvidence.image`、`sourceFile`、
+`collectionPage` 和合集标题，以及内分泌小结中对应的三张来源图片。

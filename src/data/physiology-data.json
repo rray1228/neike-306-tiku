@@ -15,7 +15,10 @@
     "fullSemanticAuditDate": "2026-08-13",
     "fullSemanticAuditScope": "160 个题组、505 个题干、41 份 2027 考研生理讲义",
     "lectureEvidencePageCount": 136,
-    "lectureSetFingerprint": "e213273a2bdc0fffcd942dd08aad8cfea51dd719a65fe9cedfe0d6cd9c3f46c0"
+    "lectureSetFingerprint": "e213273a2bdc0fffcd942dd08aad8cfea51dd719a65fe9cedfe0d6cd9c3f46c0",
+    "lectureImageSourceFile": "27跟课生理合集【带导图】.pdf",
+    "lectureImageSourceSha256": "75a46acc1fb42694caf34c6d3ad6e19a8402b53fcfb5dc6bfd001cdc0ad83519",
+    "lectureImageUpdatedAt": "2026-10-30"
   },
   "topics": [
     "全部",
@@ -1023,9 +1026,11 @@
         "page": 6,
         "score": 0.3379,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-01-page-06.webp",
-        "title": "第1讲第6页：生理 绪论",
-        "description": "本题组已按第1讲第6页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-007.webp",
+        "title": "生理 绪论 · 合集第7页",
+        "description": "本题组已按第1讲第6页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 7
       },
       "optionSplitVersion": 1
     },
@@ -1207,9 +1212,11 @@
         "page": 9,
         "score": 0.2033,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-01-page-09.webp",
-        "title": "第1讲第9页：生理 绪论",
-        "description": "本题组已按第1讲第9页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-010.webp",
+        "title": "生理 绪论 · 合集第10页",
+        "description": "本题组已按第1讲第9页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 10
       }
     },
     {
@@ -1534,9 +1541,11 @@
         "page": 10,
         "score": 0.356,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-02-page-10.webp",
-        "title": "第2讲第10页：生理 跨膜转运",
-        "description": "本题组已按第2讲第10页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-023.webp",
+        "title": "生理 跨膜转运 · 合集第23页",
+        "description": "本题组已按第2讲第10页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 23
       },
       "optionSplitVersion": 1
     },
@@ -1609,9 +1618,11 @@
         "page": 2,
         "score": 0.3284,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-02-page-02.webp",
-        "title": "第2讲第2页：生理 跨膜转运",
-        "description": "本题组已按第2讲第2页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-015.webp",
+        "title": "生理 跨膜转运 · 合集第15页",
+        "description": "本题组已按第2讲第2页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 15
       }
     },
     {
@@ -1892,9 +1903,11 @@
         "page": 14,
         "score": 0.2791,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-05-page-14.webp",
-        "title": "第5讲第14页：生理+生化 细胞信号转导",
-        "description": "本题组已按第5讲第14页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-074.webp",
+        "title": "生理+生化 细胞信号转导 · 合集第74页",
+        "description": "本题组已按第5讲第14页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 74
       },
       "optionSplitVersion": 1
     },
@@ -2023,9 +2036,11 @@
         "page": 3,
         "score": 0.3997,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-05-page-03.webp",
-        "title": "第5讲第3页：生理+生化 细胞信号转导",
-        "description": "本题组已按第5讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-063.webp",
+        "title": "生理+生化 细胞信号转导 · 合集第63页",
+        "description": "本题组已按第5讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 63
       }
     },
     {
@@ -2161,9 +2176,11 @@
         "page": 15,
         "score": 0.3291,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-05-page-15.webp",
-        "title": "第5讲第15页：生理+生化 细胞信号转导",
-        "description": "本题组已按第5讲第15页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-075.webp",
+        "title": "生理+生化 细胞信号转导 · 合集第75页",
+        "description": "本题组已按第5讲第15页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 75
       },
       "optionSplitVersion": 1
     },
@@ -2252,9 +2269,11 @@
         "page": 11,
         "score": 0.5632,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-05-page-11.webp",
-        "title": "第5讲第11页：生理+生化 细胞信号转导",
-        "description": "本题组已按第5讲第11页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-071.webp",
+        "title": "生理+生化 细胞信号转导 · 合集第71页",
+        "description": "本题组已按第5讲第11页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 71
       }
     },
     {
@@ -2355,9 +2374,11 @@
         "page": 13,
         "score": 0.453,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-05-page-13.webp",
-        "title": "第5讲第13页：生理+生化 细胞信号转导",
-        "description": "本题组已按第5讲第13页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-073.webp",
+        "title": "生理+生化 细胞信号转导 · 合集第73页",
+        "description": "本题组已按第5讲第13页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 73
       }
     },
     {
@@ -2494,9 +2515,11 @@
         "page": 15,
         "score": 0.3592,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-05-page-15.webp",
-        "title": "第5讲第15页：生理+生化 细胞信号转导",
-        "description": "本题组已按第5讲第15页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-075.webp",
+        "title": "生理+生化 细胞信号转导 · 合集第75页",
+        "description": "本题组已按第5讲第15页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 75
       },
       "optionSplitVersion": 1
     },
@@ -2570,9 +2593,11 @@
         "page": 10,
         "score": 0.5032,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-03-page-10.webp",
-        "title": "第3讲第10页：生理 细胞电活动",
-        "description": "本题组已按第3讲第10页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-036.webp",
+        "title": "生理 细胞电活动 · 合集第36页",
+        "description": "本题组已按第3讲第10页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 36
       }
     },
     {
@@ -2654,9 +2679,11 @@
         "page": 8,
         "score": 0.2771,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-03-page-08.webp",
-        "title": "第3讲第8页：生理 细胞电活动",
-        "description": "本题组已按第3讲第8页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-034.webp",
+        "title": "生理 细胞电活动 · 合集第34页",
+        "description": "本题组已按第3讲第8页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 34
       }
     },
     {
@@ -2729,9 +2756,11 @@
         "page": 6,
         "score": 0.5288,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-03-page-06.webp",
-        "title": "第3讲第6页：生理 细胞电活动",
-        "description": "本题组已按第3讲第6页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-032.webp",
+        "title": "生理 细胞电活动 · 合集第32页",
+        "description": "本题组已按第3讲第6页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 32
       }
     },
     {
@@ -2812,9 +2841,11 @@
         "page": 3,
         "score": 0.2155,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-03-page-03.webp",
-        "title": "第3讲第3页：生理 细胞电活动",
-        "description": "本题组已按第3讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-029.webp",
+        "title": "生理 细胞电活动 · 合集第29页",
+        "description": "本题组已按第3讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 29
       }
     },
     {
@@ -2917,9 +2948,11 @@
         "page": 11,
         "score": 0.4564,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-03-page-11.webp",
-        "title": "第3讲第11页：生理 细胞电活动",
-        "description": "本题组已按第3讲第11页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-037.webp",
+        "title": "生理 细胞电活动 · 合集第37页",
+        "description": "本题组已按第3讲第11页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 37
       }
     },
     {
@@ -2992,9 +3025,11 @@
         "page": 1,
         "score": 0.2717,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-04-page-01.webp",
-        "title": "第4讲第1页：生理 骨骼肌收缩",
-        "description": "本题组已按第4讲第1页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-046.webp",
+        "title": "生理 骨骼肌收缩 · 合集第46页",
+        "description": "本题组已按第4讲第1页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 46
       }
     },
     {
@@ -3067,9 +3102,11 @@
         "page": 4,
         "score": 0.3457,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-04-page-04.webp",
-        "title": "第4讲第4页：生理 骨骼肌收缩",
-        "description": "本题组已按第4讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-049.webp",
+        "title": "生理 骨骼肌收缩 · 合集第49页",
+        "description": "本题组已按第4讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 49
       }
     },
     {
@@ -3169,9 +3206,11 @@
         "page": 6,
         "score": 0.6806,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-04-page-06.webp",
-        "title": "第4讲第6页：生理 骨骼肌收缩",
-        "description": "本题组已按第4讲第6页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-051.webp",
+        "title": "生理 骨骼肌收缩 · 合集第51页",
+        "description": "本题组已按第4讲第6页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 51
       }
     },
     {
@@ -3289,9 +3328,11 @@
         "page": 9,
         "score": 0.3416,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-04-page-09.webp",
-        "title": "第4讲第9页：生理 骨骼肌收缩",
-        "description": "本题组已按第4讲第9页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-054.webp",
+        "title": "生理 骨骼肌收缩 · 合集第54页",
+        "description": "本题组已按第4讲第9页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 54
       },
       "optionSplitVersion": 1
     },
@@ -3380,9 +3421,11 @@
         "page": 10,
         "score": 0.1515,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-04-page-10.webp",
-        "title": "第4讲第10页：生理 骨骼肌收缩",
-        "description": "本题组已按第4讲第10页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-055.webp",
+        "title": "生理 骨骼肌收缩 · 合集第55页",
+        "description": "本题组已按第4讲第10页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 55
       }
     },
     {
@@ -3480,9 +3523,11 @@
         "page": 4,
         "score": 0.3873,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-06-page-04.webp",
-        "title": "第6讲第4页：生理 血型",
-        "description": "本题组已按第6讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-086.webp",
+        "title": "生理 血型 · 合集第86页",
+        "description": "本题组已按第6讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 86
       }
     },
     {
@@ -3600,9 +3645,11 @@
         "page": 3,
         "score": 0.4277,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-07-page-03.webp",
-        "title": "第7讲第3页：生理 血液特性",
-        "description": "本题组已按第7讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-090.webp",
+        "title": "生理 血液特性 · 合集第90页",
+        "description": "本题组已按第7讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 90
       },
       "optionSplitVersion": 1
     },
@@ -3676,9 +3723,11 @@
         "page": 4,
         "score": 0.3201,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-07-page-04.webp",
-        "title": "第7讲第4页：生理 血液特性",
-        "description": "本题组已按第7讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-091.webp",
+        "title": "生理 血液特性 · 合集第91页",
+        "description": "本题组已按第7讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 91
       }
     },
     {
@@ -3894,9 +3943,11 @@
         "page": 4,
         "score": 0.4331,
         "method": "按今年讲义原文人工复核并定位",
-        "image": "physiology/lecture-pages/lecture-07-page-04.webp",
-        "title": "第7讲第4页：生理 血液特性",
-        "description": "本题组已按第7讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-091.webp",
+        "title": "生理 血液特性 · 合集第91页",
+        "description": "本题组已按第7讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 91
       },
       "optionSplitVersion": 1
     },
@@ -4000,9 +4051,11 @@
         "page": 5,
         "score": 0.3712,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-07-page-05.webp",
-        "title": "第7讲第5页：生理 血液特性",
-        "description": "本题组已按第7讲第5页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-092.webp",
+        "title": "生理 血液特性 · 合集第92页",
+        "description": "本题组已按第7讲第5页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 92
       }
     },
     {
@@ -4099,9 +4152,11 @@
         "page": 5,
         "score": 0.3272,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-07-page-05.webp",
-        "title": "第7讲第5页：生理 血液特性",
-        "description": "本题组已按第7讲第5页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-092.webp",
+        "title": "生理 血液特性 · 合集第92页",
+        "description": "本题组已按第7讲第5页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 92
       }
     },
     {
@@ -4292,9 +4347,11 @@
         "page": 6,
         "score": 0.5667,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-08-page-06.webp",
-        "title": "第8讲第6页：生理 生理性止血",
-        "description": "本题组已按第8讲第6页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-104.webp",
+        "title": "生理 生理性止血 · 合集第104页",
+        "description": "本题组已按第8讲第6页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 104
       },
       "optionSplitVersion": 1
     },
@@ -4476,9 +4533,11 @@
         "page": 4,
         "score": 0.4532,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-08-page-04.webp",
-        "title": "第8讲第4页：生理 生理性止血",
-        "description": "本题组已按第8讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-102.webp",
+        "title": "生理 生理性止血 · 合集第102页",
+        "description": "本题组已按第8讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 102
       },
       "optionSplitVersion": 1
     },
@@ -4567,9 +4626,11 @@
         "page": 7,
         "score": 0.4436,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-08-page-07.webp",
-        "title": "第8讲第7页：生理 生理性止血",
-        "description": "本题组已按第8讲第7页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-105.webp",
+        "title": "生理 生理性止血 · 合集第105页",
+        "description": "本题组已按第8讲第7页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 105
       }
     },
     {
@@ -4675,9 +4736,11 @@
         "page": 8,
         "score": 0.4632,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-08-page-08.webp",
-        "title": "第8讲第8页：生理 生理性止血",
-        "description": "本题组已按第8讲第8页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-106.webp",
+        "title": "生理 生理性止血 · 合集第106页",
+        "description": "本题组已按第8讲第8页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 106
       }
     },
     {
@@ -4750,9 +4813,11 @@
         "page": 9,
         "score": 0.2432,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-08-page-09.webp",
-        "title": "第8讲第9页：生理 生理性止血",
-        "description": "本题组已按第8讲第9页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-107.webp",
+        "title": "生理 生理性止血 · 合集第107页",
+        "description": "本题组已按第8讲第9页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 107
       }
     },
     {
@@ -4915,9 +4980,11 @@
         "page": 3,
         "score": 0.193,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-09-page-03.webp",
-        "title": "第9讲第3页：生理 心脏泵血",
-        "description": "本题组已按第9讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-113.webp",
+        "title": "生理 心脏泵血 · 合集第113页",
+        "description": "本题组已按第9讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 113
       }
     },
     {
@@ -5005,9 +5072,11 @@
         "page": 5,
         "score": 0.4288,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-09-page-05.webp",
-        "title": "第9讲第5页：生理 心脏泵血",
-        "description": "本题组已按第9讲第5页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-115.webp",
+        "title": "生理 心脏泵血 · 合集第115页",
+        "description": "本题组已按第9讲第5页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 115
       }
     },
     {
@@ -5089,9 +5158,11 @@
         "page": 6,
         "score": 0.424,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-09-page-06.webp",
-        "title": "第9讲第6页：生理 心脏泵血",
-        "description": "本题组已按第9讲第6页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-116.webp",
+        "title": "生理 心脏泵血 · 合集第116页",
+        "description": "本题组已按第9讲第6页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 116
       }
     },
     {
@@ -5164,9 +5235,11 @@
         "page": 7,
         "score": 0.5046,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-09-page-07.webp",
-        "title": "第9讲第7页：生理 心脏泵血",
-        "description": "本题组已按第9讲第7页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-117.webp",
+        "title": "生理 心脏泵血 · 合集第117页",
+        "description": "本题组已按第9讲第7页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 117
       }
     },
     {
@@ -5260,9 +5333,11 @@
         "page": 8,
         "score": 0.3314,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-09-page-08.webp",
-        "title": "第9讲第8页：生理 心脏泵血",
-        "description": "本题组已按第9讲第8页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-118.webp",
+        "title": "生理 心脏泵血 · 合集第118页",
+        "description": "本题组已按第9讲第8页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 118
       }
     },
     {
@@ -5468,9 +5543,11 @@
         "page": 8,
         "score": 0.1822,
         "method": "按今年讲义原文人工复核并定位",
-        "image": "physiology/lecture-pages/lecture-09-page-08.webp",
-        "title": "第9讲第8页：生理 心脏泵血",
-        "description": "本题组已按第9讲第8页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-118.webp",
+        "title": "生理 心脏泵血 · 合集第118页",
+        "description": "本题组已按第9讲第8页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 118
       },
       "optionSplitVersion": 1
     },
@@ -5634,9 +5711,11 @@
         "page": 9,
         "score": 0.5113,
         "method": "按今年讲义原文人工复核并定位",
-        "image": "physiology/lecture-pages/lecture-09-page-09.webp",
-        "title": "第9讲第9页：生理 心脏泵血",
-        "description": "本题组已按第9讲第9页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-119.webp",
+        "title": "生理 心脏泵血 · 合集第119页",
+        "description": "本题组已按第9讲第9页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 119
       }
     },
     {
@@ -5721,9 +5800,11 @@
         "page": 6,
         "score": 0.313,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-09-page-06.webp",
-        "title": "第9讲第6页：生理 心脏泵血",
-        "description": "本题组已按第9讲第6页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-116.webp",
+        "title": "生理 心脏泵血 · 合集第116页",
+        "description": "本题组已按第9讲第6页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 116
       }
     },
     {
@@ -5853,9 +5934,11 @@
         "page": 5,
         "score": 0.2063,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-10-page-05.webp",
-        "title": "第10讲第5页：生理 血压",
-        "description": "本题组已按第10讲第5页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-127.webp",
+        "title": "生理 血压 · 合集第127页",
+        "description": "本题组已按第10讲第5页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 127
       }
     },
     {
@@ -5991,9 +6074,11 @@
         "page": 6,
         "score": 0.3266,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-10-page-06.webp",
-        "title": "第10讲第6页：生理 血压",
-        "description": "本题组已按第10讲第6页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-128.webp",
+        "title": "生理 血压 · 合集第128页",
+        "description": "本题组已按第10讲第6页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 128
       },
       "optionSplitVersion": 1
     },
@@ -6103,9 +6188,11 @@
         "page": 1,
         "score": 0.3853,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-11-page-01.webp",
-        "title": "第11讲第1页：生理 微循环和冠脉循环",
-        "description": "本题组已按第11讲第1页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-130.webp",
+        "title": "生理 微循环和冠脉循环 · 合集第130页",
+        "description": "本题组已按第11讲第1页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 130
       }
     },
     {
@@ -6193,9 +6280,11 @@
         "page": 2,
         "score": 0.5252,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-11-page-02.webp",
-        "title": "第11讲第2页：生理 微循环和冠脉循环",
-        "description": "本题组已按第11讲第2页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-131.webp",
+        "title": "生理 微循环和冠脉循环 · 合集第131页",
+        "description": "本题组已按第11讲第2页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 131
       }
     },
     {
@@ -6253,9 +6342,11 @@
         "page": 3,
         "score": 0.3033,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-11-page-03.webp",
-        "title": "第11讲第3页：生理 微循环和冠脉循环",
-        "description": "本题组已按第11讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-132.webp",
+        "title": "生理 微循环和冠脉循环 · 合集第132页",
+        "description": "本题组已按第11讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 132
       }
     },
     {
@@ -6343,9 +6434,11 @@
         "page": 4,
         "score": 0.3037,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-11-page-04.webp",
-        "title": "第11讲第4页：生理 微循环和冠脉循环",
-        "description": "本题组已按第11讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-133.webp",
+        "title": "生理 微循环和冠脉循环 · 合集第133页",
+        "description": "本题组已按第11讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 133
       }
     },
     {
@@ -6483,9 +6576,11 @@
         "page": 7,
         "score": 0.4545,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-11-page-07.webp",
-        "title": "第11讲第7页：生理 微循环和冠脉循环",
-        "description": "本题组已按第11讲第7页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-136.webp",
+        "title": "生理 微循环和冠脉循环 · 合集第136页",
+        "description": "本题组已按第11讲第7页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 136
       }
     },
     {
@@ -6579,9 +6674,11 @@
         "page": 1,
         "score": 0.4402,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-12-page-01.webp",
-        "title": "第12讲第1页：生理 心肌电活动和特性",
-        "description": "本题组已按第12讲第1页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-138.webp",
+        "title": "生理 心肌电活动和特性 · 合集第138页",
+        "description": "本题组已按第12讲第1页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 138
       }
     },
     {
@@ -6711,9 +6808,11 @@
         "page": 4,
         "score": 0.0734,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-12-page-04.webp",
-        "title": "第12讲第4页：生理 心肌电活动和特性",
-        "description": "本题组已按第12讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-141.webp",
+        "title": "生理 心肌电活动和特性 · 合集第141页",
+        "description": "本题组已按第12讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 141
       }
     },
     {
@@ -6868,9 +6967,11 @@
         "page": 4,
         "score": 0.556,
         "method": "按今年讲义原文人工复核并定位",
-        "image": "physiology/lecture-pages/lecture-12-page-04.webp",
-        "title": "第12讲第4页：生理 心肌电活动和特性",
-        "description": "本题组已按第12讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-141.webp",
+        "title": "生理 心肌电活动和特性 · 合集第141页",
+        "description": "本题组已按第12讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 141
       }
     },
     {
@@ -6952,9 +7053,11 @@
         "page": 4,
         "score": 0.3769,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-12-page-04.webp",
-        "title": "第12讲第4页：生理 心肌电活动和特性",
-        "description": "本题组已按第12讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-141.webp",
+        "title": "生理 心肌电活动和特性 · 合集第141页",
+        "description": "本题组已按第12讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 141
       }
     },
     {
@@ -7042,9 +7145,11 @@
         "page": 7,
         "score": 0.3371,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-12-page-07.webp",
-        "title": "第12讲第7页：生理 心肌电活动和特性",
-        "description": "本题组已按第12讲第7页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-144.webp",
+        "title": "生理 心肌电活动和特性 · 合集第144页",
+        "description": "本题组已按第12讲第7页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 144
       }
     },
     {
@@ -7201,9 +7306,11 @@
         "page": 8,
         "score": 0.4077,
         "method": "按今年讲义原文人工复核并定位",
-        "image": "physiology/lecture-pages/lecture-12-page-08.webp",
-        "title": "第12讲第8页：生理 心肌电活动和特性",
-        "description": "本题组已按第12讲第8页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-145.webp",
+        "title": "生理 心肌电活动和特性 · 合集第145页",
+        "description": "本题组已按第12讲第8页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 145
       }
     },
     {
@@ -7343,9 +7450,11 @@
         "page": 12,
         "score": 0.3418,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-12-page-12.webp",
-        "title": "第12讲第12页：生理 心肌电活动和特性",
-        "description": "本题组已按第12讲第12页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-149.webp",
+        "title": "生理 心肌电活动和特性 · 合集第149页",
+        "description": "本题组已按第12讲第12页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 149
       }
     },
     {
@@ -7427,9 +7536,11 @@
         "page": 2,
         "score": 0.3255,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-13-page-02.webp",
-        "title": "第13讲第2页：生理 心血管调节",
-        "description": "本题组已按第13讲第2页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-154.webp",
+        "title": "生理 心血管调节 · 合集第154页",
+        "description": "本题组已按第13讲第2页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 154
       }
     },
     {
@@ -7499,9 +7610,11 @@
         "page": 3,
         "score": 0.4754,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-13-page-03.webp",
-        "title": "第13讲第3页：生理 心血管调节",
-        "description": "本题组已按第13讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-155.webp",
+        "title": "生理 心血管调节 · 合集第155页",
+        "description": "本题组已按第13讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 155
       }
     },
     {
@@ -7691,9 +7804,11 @@
         "page": 4,
         "score": 0.3356,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-13-page-04.webp",
-        "title": "第13讲第4页：生理 心血管调节",
-        "description": "本题组已按第13讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-156.webp",
+        "title": "生理 心血管调节 · 合集第156页",
+        "description": "本题组已按第13讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 156
       },
       "optionSplitVersion": 1
     },
@@ -7760,9 +7875,11 @@
         "page": 7,
         "score": 0.2794,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-13-page-07.webp",
-        "title": "第13讲第7页：生理 心血管调节",
-        "description": "本题组已按第13讲第7页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-159.webp",
+        "title": "生理 心血管调节 · 合集第159页",
+        "description": "本题组已按第13讲第7页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 159
       }
     },
     {
@@ -7899,9 +8016,11 @@
         "page": 8,
         "score": 0.2099,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-13-page-08.webp",
-        "title": "第13讲第8页：生理 心血管调节",
-        "description": "本题组已按第13讲第8页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-160.webp",
+        "title": "生理 心血管调节 · 合集第160页",
+        "description": "本题组已按第13讲第8页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 160
       },
       "optionSplitVersion": 1
     },
@@ -8035,9 +8154,11 @@
         "page": 9,
         "score": 0.442,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-13-page-09.webp",
-        "title": "第13讲第9页：生理 心血管调节",
-        "description": "本题组已按第13讲第9页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-161.webp",
+        "title": "生理 心血管调节 · 合集第161页",
+        "description": "本题组已按第13讲第9页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 161
       }
     },
     {
@@ -8131,9 +8252,11 @@
         "page": 9,
         "score": 0.3645,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-13-page-09.webp",
-        "title": "第13讲第9页：生理 心血管调节",
-        "description": "本题组已按第13讲第9页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-161.webp",
+        "title": "生理 心血管调节 · 合集第161页",
+        "description": "本题组已按第13讲第9页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 161
       }
     },
     {
@@ -8231,9 +8354,11 @@
         "page": 11,
         "score": 0.4049,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-13-page-11.webp",
-        "title": "第13讲第11页：生理 心血管调节",
-        "description": "本题组已按第13讲第11页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-163.webp",
+        "title": "生理 心血管调节 · 合集第163页",
+        "description": "本题组已按第13讲第11页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 163
       }
     },
     {
@@ -8360,9 +8485,11 @@
         "page": 11,
         "score": 0.5377,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-13-page-11.webp",
-        "title": "第13讲第11页：生理 心血管调节",
-        "description": "本题组已按第13讲第11页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-163.webp",
+        "title": "生理 心血管调节 · 合集第163页",
+        "description": "本题组已按第13讲第11页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 163
       },
       "optionSplitVersion": 1
     },
@@ -8481,9 +8608,11 @@
         "page": 1,
         "score": 0.6844,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-14-page-01.webp",
-        "title": "第14讲第1页：生理 通气功能的评价",
-        "description": "本题组已按第14讲第1页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-169.webp",
+        "title": "生理 通气功能的评价 · 合集第169页",
+        "description": "本题组已按第14讲第1页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 169
       }
     },
     {
@@ -8691,9 +8820,11 @@
         "page": 2,
         "score": 0.4902,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-14-page-02.webp",
-        "title": "第14讲第2页：生理 通气功能的评价",
-        "description": "本题组已按第14讲第2页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-170.webp",
+        "title": "生理 通气功能的评价 · 合集第170页",
+        "description": "本题组已按第14讲第2页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 170
       },
       "optionSplitVersion": 1
     },
@@ -8787,9 +8918,11 @@
         "page": 2,
         "score": 0.2881,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-14-page-02.webp",
-        "title": "第14讲第2页：生理 通气功能的评价",
-        "description": "本题组已按第14讲第2页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-170.webp",
+        "title": "生理 通气功能的评价 · 合集第170页",
+        "description": "本题组已按第14讲第2页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 170
       }
     },
     {
@@ -8877,9 +9010,11 @@
         "page": 3,
         "score": 0.4483,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-15-page-03.webp",
-        "title": "第15讲第3页：生理 肺通气",
-        "description": "本题组已按第15讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-176.webp",
+        "title": "生理 肺通气 · 合集第176页",
+        "description": "本题组已按第15讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 176
       }
     },
     {
@@ -8959,9 +9094,11 @@
         "page": 4,
         "score": 0.4456,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-15-page-04.webp",
-        "title": "第15讲第4页：生理 肺通气",
-        "description": "本题组已按第15讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-177.webp",
+        "title": "生理 肺通气 · 合集第177页",
+        "description": "本题组已按第15讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 177
       }
     },
     {
@@ -9029,9 +9166,11 @@
         "page": 5,
         "score": 0.4995,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-15-page-05.webp",
-        "title": "第15讲第5页：生理 肺通气",
-        "description": "本题组已按第15讲第5页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-178.webp",
+        "title": "生理 肺通气 · 合集第178页",
+        "description": "本题组已按第15讲第5页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 178
       }
     },
     {
@@ -9221,9 +9360,11 @@
         "page": 7,
         "score": 0.2273,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-15-page-07.webp",
-        "title": "第15讲第7页：生理 肺通气",
-        "description": "本题组已按第15讲第7页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-180.webp",
+        "title": "生理 肺通气 · 合集第180页",
+        "description": "本题组已按第15讲第7页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 180
       },
       "optionSplitVersion": 1
     },
@@ -9380,9 +9521,11 @@
         "page": 8,
         "score": 0.2995,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-15-page-08.webp",
-        "title": "第15讲第8页：生理 肺通气",
-        "description": "本题组已按第15讲第8页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-181.webp",
+        "title": "生理 肺通气 · 合集第181页",
+        "description": "本题组已按第15讲第8页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 181
       }
     },
     {
@@ -9463,9 +9606,11 @@
         "page": 5,
         "score": 0.2953,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-15-page-05.webp",
-        "title": "第15讲第5页：生理 肺通气",
-        "description": "本题组已按第15讲第5页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-178.webp",
+        "title": "生理 肺通气 · 合集第178页",
+        "description": "本题组已按第15讲第5页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 178
       }
     },
     {
@@ -9556,9 +9701,11 @@
         "page": 9,
         "score": 0.1805,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-15-page-09.webp",
-        "title": "第15讲第9页：生理 肺通气",
-        "description": "本题组已按第15讲第9页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-182.webp",
+        "title": "生理 肺通气 · 合集第182页",
+        "description": "本题组已按第15讲第9页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 182
       },
       "optionSplitVersion": 1
     },
@@ -9624,9 +9771,11 @@
         "page": 1,
         "score": 0.177,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-16-page-01.webp",
-        "title": "第16讲第1页：生理 肺换气和气体运输",
-        "description": "本题组已按第16讲第1页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-186.webp",
+        "title": "生理 肺换气和气体运输 · 合集第186页",
+        "description": "本题组已按第16讲第1页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 186
       }
     },
     {
@@ -9708,9 +9857,11 @@
         "page": 2,
         "score": 0.2655,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-16-page-02.webp",
-        "title": "第16讲第2页：生理 肺换气和气体运输",
-        "description": "本题组已按第16讲第2页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-187.webp",
+        "title": "生理 肺换气和气体运输 · 合集第187页",
+        "description": "本题组已按第16讲第2页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 187
       }
     },
     {
@@ -9819,9 +9970,11 @@
         "page": 6,
         "score": 0.3705,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-16-page-06.webp",
-        "title": "第16讲第6页：生理 肺换气和气体运输",
-        "description": "本题组已按第16讲第6页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-191.webp",
+        "title": "生理 肺换气和气体运输 · 合集第191页",
+        "description": "本题组已按第16讲第6页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 191
       }
     },
     {
@@ -9927,9 +10080,11 @@
         "page": 10,
         "score": 0.1773,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-16-page-10.webp",
-        "title": "第16讲第10页：生理 肺换气和气体运输",
-        "description": "本题组已按第16讲第10页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-195.webp",
+        "title": "生理 肺换气和气体运输 · 合集第195页",
+        "description": "本题组已按第16讲第10页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 195
       }
     },
     {
@@ -10023,9 +10178,11 @@
         "page": 3,
         "score": 0.2903,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-17-page-03.webp",
-        "title": "第17讲第3页：生理 呼吸调节",
-        "description": "本题组已按第17讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-202.webp",
+        "title": "生理 呼吸调节 · 合集第202页",
+        "description": "本题组已按第17讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 202
       }
     },
     {
@@ -10131,9 +10288,11 @@
         "page": 1,
         "score": 0.2912,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-18-page-01.webp",
-        "title": "第18讲第1页：生理 消化概述",
-        "description": "本题组已按第18讲第1页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-207.webp",
+        "title": "生理 消化概述 · 合集第207页",
+        "description": "本题组已按第18讲第1页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 207
       }
     },
     {
@@ -10203,9 +10362,11 @@
         "page": 3,
         "score": 0.3002,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-18-page-03.webp",
-        "title": "第18讲第3页：生理 消化概述",
-        "description": "本题组已按第18讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-209.webp",
+        "title": "生理 消化概述 · 合集第209页",
+        "description": "本题组已按第18讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 209
       }
     },
     {
@@ -10283,9 +10444,11 @@
         "page": 1,
         "score": 0.3437,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-19-page-01.webp",
-        "title": "第19讲第1页：生理 口腔和食管的消化",
-        "description": "本题组已按第19讲第1页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-213.webp",
+        "title": "生理 口腔和食管的消化 · 合集第213页",
+        "description": "本题组已按第19讲第1页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 213
       }
     },
     {
@@ -10379,9 +10542,11 @@
         "page": 2,
         "score": 0.3843,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-19-page-02.webp",
-        "title": "第19讲第2页：生理 口腔和食管的消化",
-        "description": "本题组已按第19讲第2页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-214.webp",
+        "title": "生理 口腔和食管的消化 · 合集第214页",
+        "description": "本题组已按第19讲第2页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 214
       }
     },
     {
@@ -10481,9 +10646,11 @@
         "page": 5,
         "score": 0.3166,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-21-page-05.webp",
-        "title": "第21讲第5页：生理 肠内消化",
-        "description": "本题组已按第21讲第5页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-234.webp",
+        "title": "生理 肠内消化 · 合集第234页",
+        "description": "本题组已按第21讲第5页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 234
       }
     },
     {
@@ -10574,9 +10741,11 @@
         "page": 3,
         "score": 0.4041,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-20-page-03.webp",
-        "title": "第20讲第3页：生理 胃内消化",
-        "description": "本题组已按第20讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-219.webp",
+        "title": "生理 胃内消化 · 合集第219页",
+        "description": "本题组已按第20讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 219
       }
     },
     {
@@ -10658,9 +10827,11 @@
         "page": 2,
         "score": 0.3093,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-20-page-02.webp",
-        "title": "第20讲第2页：生理 胃内消化",
-        "description": "本题组已按第20讲第2页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-218.webp",
+        "title": "生理 胃内消化 · 合集第218页",
+        "description": "本题组已按第20讲第2页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 218
       }
     },
     {
@@ -11007,9 +11178,11 @@
         "page": 7,
         "score": 0.2641,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-20-page-07.webp",
-        "title": "第20讲第7页：生理 胃内消化",
-        "description": "本题组已按第20讲第7页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-223.webp",
+        "title": "生理 胃内消化 · 合集第223页",
+        "description": "本题组已按第20讲第7页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 223
       },
       "optionSplitVersion": 1
     },
@@ -11144,9 +11317,11 @@
         "page": 8,
         "score": 0.3499,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-20-page-08.webp",
-        "title": "第20讲第8页：生理 胃内消化",
-        "description": "本题组已按第20讲第8页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-224.webp",
+        "title": "生理 胃内消化 · 合集第224页",
+        "description": "本题组已按第20讲第8页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 224
       },
       "optionSplitVersion": 1
     },
@@ -11301,9 +11476,11 @@
         "page": 7,
         "score": 0.1628,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-21-page-07.webp",
-        "title": "第21讲第7页：生理 肠内消化",
-        "description": "本题组已按第21讲第7页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-236.webp",
+        "title": "生理 肠内消化 · 合集第236页",
+        "description": "本题组已按第21讲第7页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 236
       }
     },
     {
@@ -11391,9 +11568,11 @@
         "page": 2,
         "score": 0.2164,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-21-page-02.webp",
-        "title": "第21讲第2页：生理 肠内消化",
-        "description": "本题组已按第21讲第2页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-231.webp",
+        "title": "生理 肠内消化 · 合集第231页",
+        "description": "本题组已按第21讲第2页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 231
       }
     },
     {
@@ -11580,9 +11759,11 @@
         "page": 8,
         "score": 0.1401,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-21-page-08.webp",
-        "title": "第21讲第8页：生理 肠内消化",
-        "description": "本题组已按第21讲第8页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-237.webp",
+        "title": "生理 肠内消化 · 合集第237页",
+        "description": "本题组已按第21讲第8页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 237
       }
     },
     {
@@ -11762,9 +11943,11 @@
         "page": 5,
         "score": 0.1285,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-21-page-05.webp",
-        "title": "第21讲第5页：生理 肠内消化",
-        "description": "本题组已按第21讲第5页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-234.webp",
+        "title": "生理 肠内消化 · 合集第234页",
+        "description": "本题组已按第21讲第5页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 234
       }
     },
     {
@@ -11889,9 +12072,11 @@
         "page": 1,
         "score": 0.2425,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-22-page-01.webp",
-        "title": "第22讲第1页：生理 肠内吸收",
-        "description": "本题组已按第22讲第1页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-240.webp",
+        "title": "生理 肠内吸收 · 合集第240页",
+        "description": "本题组已按第22讲第1页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 240
       },
       "optionSplitVersion": 1
     },
@@ -11970,9 +12155,11 @@
         "page": 3,
         "score": 0.2217,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-22-page-03.webp",
-        "title": "第22讲第3页：生理 肠内吸收",
-        "description": "本题组已按第22讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-242.webp",
+        "title": "生理 肠内吸收 · 合集第242页",
+        "description": "本题组已按第22讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 242
       }
     },
     {
@@ -12151,9 +12338,11 @@
         "page": 3,
         "score": 0.0948,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-22-page-03.webp",
-        "title": "第22讲第3页：生理 肠内吸收",
-        "description": "本题组已按第22讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-242.webp",
+        "title": "生理 肠内吸收 · 合集第242页",
+        "description": "本题组已按第22讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 242
       }
     },
     {
@@ -12236,9 +12425,11 @@
         "page": 2,
         "score": 0.2148,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-24-page-02.webp",
-        "title": "第24讲第2页：生理 泌尿概述",
-        "description": "本题组已按第24讲第2页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-258.webp",
+        "title": "生理 泌尿概述 · 合集第258页",
+        "description": "本题组已按第24讲第2页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 258
       }
     },
     {
@@ -12341,9 +12532,11 @@
         "page": 5,
         "score": 0.3644,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-24-page-05.webp",
-        "title": "第24讲第5页：生理 泌尿概述",
-        "description": "本题组已按第24讲第5页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-261.webp",
+        "title": "生理 泌尿概述 · 合集第261页",
+        "description": "本题组已按第24讲第5页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 261
       }
     },
     {
@@ -12454,9 +12647,11 @@
         "page": 5,
         "score": 0.3542,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-24-page-05.webp",
-        "title": "第24讲第5页：生理 泌尿概述",
-        "description": "本题组已按第24讲第5页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-261.webp",
+        "title": "生理 泌尿概述 · 合集第261页",
+        "description": "本题组已按第24讲第5页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 261
       }
     },
     {
@@ -12556,9 +12751,11 @@
         "page": 6,
         "score": 0.1285,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-24-page-06.webp",
-        "title": "第24讲第6页：生理 泌尿概述",
-        "description": "本题组已按第24讲第6页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-262.webp",
+        "title": "生理 泌尿概述 · 合集第262页",
+        "description": "本题组已按第24讲第6页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 262
       }
     },
     {
@@ -12637,9 +12834,11 @@
         "page": 8,
         "score": 0.2439,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-24-page-08.webp",
-        "title": "第24讲第8页：生理 泌尿概述",
-        "description": "本题组已按第24讲第8页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-264.webp",
+        "title": "生理 泌尿概述 · 合集第264页",
+        "description": "本题组已按第24讲第8页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 264
       }
     },
     {
@@ -12723,9 +12922,11 @@
         "page": 7,
         "score": 0.2897,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-25-page-07.webp",
-        "title": "第25讲第7页：生理 肾小球滤过",
-        "description": "本题组已按第25讲第7页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-273.webp",
+        "title": "生理 肾小球滤过 · 合集第273页",
+        "description": "本题组已按第25讲第7页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 273
       }
     },
     {
@@ -12922,9 +13123,11 @@
         "page": 9,
         "score": 0.2943,
         "method": "按今年讲义原文人工复核并定位",
-        "image": "physiology/lecture-pages/lecture-26-page-09.webp",
-        "title": "第26讲第9页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
-        "description": "本题组已按第26讲第9页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-283.webp",
+        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 合集第283页",
+        "description": "本题组已按第26讲第9页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 283
       }
     },
     {
@@ -13006,9 +13209,11 @@
         "page": 2,
         "score": 0.6365,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-26-page-02.webp",
-        "title": "第26讲第2页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
-        "description": "本题组已按第26讲第2页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-276.webp",
+        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 合集第276页",
+        "description": "本题组已按第26讲第2页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 276
       }
     },
     {
@@ -13153,9 +13358,11 @@
         "page": 10,
         "score": 0.4051,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-26-page-10.webp",
-        "title": "第26讲第10页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
-        "description": "本题组已按第26讲第10页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-284.webp",
+        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 合集第284页",
+        "description": "本题组已按第26讲第10页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 284
       },
       "optionSplitVersion": 1
     },
@@ -13245,9 +13452,11 @@
         "page": 10,
         "score": 0.1456,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-26-page-10.webp",
-        "title": "第26讲第10页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
-        "description": "本题组已按第26讲第10页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-284.webp",
+        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 合集第284页",
+        "description": "本题组已按第26讲第10页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 284
       }
     },
     {
@@ -13353,9 +13562,11 @@
         "page": 19,
         "score": 0.2042,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-26-page-19.webp",
-        "title": "第26讲第19页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
-        "description": "本题组已按第26讲第19页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-293.webp",
+        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 合集第293页",
+        "description": "本题组已按第26讲第19页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 293
       }
     },
     {
@@ -13430,9 +13641,11 @@
         "page": 3,
         "score": 0.0657,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-26-page-03.webp",
-        "title": "第26讲第3页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
-        "description": "本题组已按第26讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-277.webp",
+        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 合集第277页",
+        "description": "本题组已按第26讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 277
       }
     },
     {
@@ -13535,9 +13748,11 @@
         "page": 3,
         "score": 0.4205,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-26-page-03.webp",
-        "title": "第26讲第3页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
-        "description": "本题组已按第26讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-277.webp",
+        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 合集第277页",
+        "description": "本题组已按第26讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 277
       }
     },
     {
@@ -13625,9 +13840,11 @@
         "page": 5,
         "score": 0.1338,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-26-page-05.webp",
-        "title": "第26讲第5页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
-        "description": "本题组已按第26讲第5页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-279.webp",
+        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 合集第279页",
+        "description": "本题组已按第26讲第5页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 279
       }
     },
     {
@@ -13727,9 +13944,11 @@
         "page": 6,
         "score": 0.1576,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-26-page-06.webp",
-        "title": "第26讲第6页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
-        "description": "本题组已按第26讲第6页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-280.webp",
+        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 合集第280页",
+        "description": "本题组已按第26讲第6页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 280
       }
     },
     {
@@ -13822,9 +14041,11 @@
         "page": 13,
         "score": 0.3238,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-26-page-13.webp",
-        "title": "第26讲第13页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
-        "description": "本题组已按第26讲第13页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-287.webp",
+        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 合集第287页",
+        "description": "本题组已按第26讲第13页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 287
       }
     },
     {
@@ -13976,9 +14197,11 @@
         "page": 14,
         "score": 0.2959,
         "method": "按今年讲义原文人工复核并定位",
-        "image": "physiology/lecture-pages/lecture-26-page-14.webp",
-        "title": "第26讲第14页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
-        "description": "本题组已按第26讲第14页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-288.webp",
+        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 合集第288页",
+        "description": "本题组已按第26讲第14页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 288
       }
     },
     {
@@ -14130,9 +14353,11 @@
         "page": 11,
         "score": 0.2447,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-26-page-11.webp",
-        "title": "第26讲第11页：生理 小管重吸收和分泌、尿浓缩稀释、调节",
-        "description": "本题组已按第26讲第11页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-285.webp",
+        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 合集第285页",
+        "description": "本题组已按第26讲第11页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 285
       }
     },
     {
@@ -14329,9 +14554,11 @@
         "page": 9,
         "score": 0.4692,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-27-page-09.webp",
-        "title": "第27讲第9页：生理 视觉",
-        "description": "本题组已按第27讲第9页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-305.webp",
+        "title": "生理 视觉 · 合集第305页",
+        "description": "本题组已按第27讲第9页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 305
       }
     },
     {
@@ -14461,9 +14688,11 @@
         "page": 8,
         "score": 0.397,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-27-page-08.webp",
-        "title": "第27讲第8页：生理 视觉",
-        "description": "本题组已按第27讲第8页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-304.webp",
+        "title": "生理 视觉 · 合集第304页",
+        "description": "本题组已按第27讲第8页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 304
       }
     },
     {
@@ -14606,9 +14835,11 @@
         "page": 4,
         "score": 0.2438,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-27-page-04.webp",
-        "title": "第27讲第4页：生理 视觉",
-        "description": "本题组已按第27讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-300.webp",
+        "title": "生理 视觉 · 合集第300页",
+        "description": "本题组已按第27讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 300
       }
     },
     {
@@ -14714,9 +14945,11 @@
         "page": 2,
         "score": 0.3478,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-27-page-02.webp",
-        "title": "第27讲第2页：生理 视觉",
-        "description": "本题组已按第27讲第2页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-298.webp",
+        "title": "生理 视觉 · 合集第298页",
+        "description": "本题组已按第27讲第2页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 298
       }
     },
     {
@@ -14810,9 +15043,11 @@
         "page": 8,
         "score": 0.4092,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-29-page-08.webp",
-        "title": "第29讲第8页：生理 其它感觉",
-        "description": "本题组已按第29讲第8页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-333.webp",
+        "title": "生理 其它感觉 · 合集第333页",
+        "description": "本题组已按第29讲第8页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 333
       }
     },
     {
@@ -14889,9 +15124,11 @@
         "page": 4,
         "score": 0.242,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-28-page-04.webp",
-        "title": "第28讲第4页：生理 听觉",
-        "description": "本题组已按第28讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-317.webp",
+        "title": "生理 听觉 · 合集第317页",
+        "description": "本题组已按第28讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 317
       }
     },
     {
@@ -15226,9 +15463,11 @@
         "page": 2,
         "score": 0.1205,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-28-page-02.webp",
-        "title": "第28讲第2页：生理 听觉",
-        "description": "本题组已按第28讲第2页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-315.webp",
+        "title": "生理 听觉 · 合集第315页",
+        "description": "本题组已按第28讲第2页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 315
       }
     },
     {
@@ -15382,9 +15621,11 @@
         "page": 1,
         "score": 0.4507,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-29-page-01.webp",
-        "title": "第29讲第1页：生理 其它感觉",
-        "description": "本题组已按第29讲第1页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-326.webp",
+        "title": "生理 其它感觉 · 合集第326页",
+        "description": "本题组已按第29讲第1页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 326
       }
     },
     {
@@ -15472,9 +15713,11 @@
         "page": 13,
         "score": 0.594,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-27-page-13.webp",
-        "title": "第27讲第13页：生理 视觉",
-        "description": "本题组已按第27讲第13页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-309.webp",
+        "title": "生理 视觉 · 合集第309页",
+        "description": "本题组已按第27讲第13页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 309
       }
     },
     {
@@ -15628,9 +15871,11 @@
         "page": 5,
         "score": 0.4359,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-29-page-05.webp",
-        "title": "第29讲第5页：生理 其它感觉",
-        "description": "本题组已按第29讲第5页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-330.webp",
+        "title": "生理 其它感觉 · 合集第330页",
+        "description": "本题组已按第29讲第5页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 330
       },
       "optionSplitVersion": 1
     },
@@ -15743,9 +15988,11 @@
         "page": 4,
         "score": 0.2199,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-30-page-04.webp",
-        "title": "第30讲第4页：生理 神经元及胶质细胞",
-        "description": "本题组已按第30讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-340.webp",
+        "title": "生理 神经元及胶质细胞 · 合集第340页",
+        "description": "本题组已按第30讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 340
       }
     },
     {
@@ -15848,9 +16095,11 @@
         "page": 3,
         "score": 0.1908,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-30-page-03.webp",
-        "title": "第30讲第3页：生理 神经元及胶质细胞",
-        "description": "本题组已按第30讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-339.webp",
+        "title": "生理 神经元及胶质细胞 · 合集第339页",
+        "description": "本题组已按第30讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 339
       }
     },
     {
@@ -16004,9 +16253,11 @@
         "page": 3,
         "score": 0.3104,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-30-page-03.webp",
-        "title": "第30讲第3页：生理 神经元及胶质细胞",
-        "description": "本题组已按第30讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-339.webp",
+        "title": "生理 神经元及胶质细胞 · 合集第339页",
+        "description": "本题组已按第30讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 339
       },
       "optionSplitVersion": 1
     },
@@ -16095,9 +16346,11 @@
         "page": 1,
         "score": 0.0764,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-31-page-01.webp",
-        "title": "第31讲第1页：生理 突触传递、中枢抑制和易化",
-        "description": "本题组已按第31讲第1页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-345.webp",
+        "title": "生理 突触传递、中枢抑制和易化 · 合集第345页",
+        "description": "本题组已按第31讲第1页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 345
       }
     },
     {
@@ -16277,9 +16530,11 @@
         "page": 2,
         "score": 0.3064,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-31-page-02.webp",
-        "title": "第31讲第2页：生理 突触传递、中枢抑制和易化",
-        "description": "本题组已按第31讲第2页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-346.webp",
+        "title": "生理 突触传递、中枢抑制和易化 · 合集第346页",
+        "description": "本题组已按第31讲第2页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 346
       }
     },
     {
@@ -16380,9 +16635,11 @@
         "page": 4,
         "score": 0.4545,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-31-page-04.webp",
-        "title": "第31讲第4页：生理 突触传递、中枢抑制和易化",
-        "description": "本题组已按第31讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-348.webp",
+        "title": "生理 突触传递、中枢抑制和易化 · 合集第348页",
+        "description": "本题组已按第31讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 348
       }
     },
     {
@@ -16482,9 +16739,11 @@
         "page": 5,
         "score": 0.3228,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-31-page-05.webp",
-        "title": "第31讲第5页：生理 突触传递、中枢抑制和易化",
-        "description": "本题组已按第31讲第5页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-349.webp",
+        "title": "生理 突触传递、中枢抑制和易化 · 合集第349页",
+        "description": "本题组已按第31讲第5页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 349
       }
     },
     {
@@ -16600,9 +16859,11 @@
         "page": 3,
         "score": 0.2541,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-32-page-03.webp",
-        "title": "第32讲第3页：生理 递质和受体",
-        "description": "本题组已按第32讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-358.webp",
+        "title": "生理 递质和受体 · 合集第358页",
+        "description": "本题组已按第32讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 358
       }
     },
     {
@@ -16741,9 +17002,11 @@
         "page": 3,
         "score": 0.2503,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-32-page-03.webp",
-        "title": "第32讲第3页：生理 递质和受体",
-        "description": "本题组已按第32讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-358.webp",
+        "title": "生理 递质和受体 · 合集第358页",
+        "description": "本题组已按第32讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 358
       }
     },
     {
@@ -16829,9 +17092,11 @@
         "page": 1,
         "score": 0.3066,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-32-page-01.webp",
-        "title": "第32讲第1页：生理 递质和受体",
-        "description": "本题组已按第32讲第1页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-356.webp",
+        "title": "生理 递质和受体 · 合集第356页",
+        "description": "本题组已按第32讲第1页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 356
       }
     },
     {
@@ -16983,9 +17248,11 @@
         "page": 3,
         "score": 0.0771,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-32-page-03.webp",
-        "title": "第32讲第3页：生理 递质和受体",
-        "description": "本题组已按第32讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-358.webp",
+        "title": "生理 递质和受体 · 合集第358页",
+        "description": "本题组已按第32讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 358
       }
     },
     {
@@ -17103,9 +17370,11 @@
         "page": 4,
         "score": 0.2049,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-34-page-04.webp",
-        "title": "第34讲第4页：生理 脑电波、睡眠、脑高级功能、下丘脑",
-        "description": "本题组已按第34讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-387.webp",
+        "title": "生理 脑电波、睡眠、脑高级功能、下丘脑 · 合集第387页",
+        "description": "本题组已按第34讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 387
       }
     },
     {
@@ -17187,9 +17456,11 @@
         "page": 1,
         "score": 0.1894,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-34-page-01.webp",
-        "title": "第34讲第1页：生理 脑电波、睡眠、脑高级功能、下丘脑",
-        "description": "本题组已按第34讲第1页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-384.webp",
+        "title": "生理 脑电波、睡眠、脑高级功能、下丘脑 · 合集第384页",
+        "description": "本题组已按第34讲第1页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 384
       }
     },
     {
@@ -17282,9 +17553,11 @@
         "page": 5,
         "score": 0.2681,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-34-page-05.webp",
-        "title": "第34讲第5页：生理 脑电波、睡眠、脑高级功能、下丘脑",
-        "description": "本题组已按第34讲第5页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-388.webp",
+        "title": "生理 脑电波、睡眠、脑高级功能、下丘脑 · 合集第388页",
+        "description": "本题组已按第34讲第5页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 388
       }
     },
     {
@@ -17439,9 +17712,11 @@
         "page": 11,
         "score": 0.3255,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-33-page-11.webp",
-        "title": "第33讲第11页：生理 神经系统调控躯体运动",
-        "description": "本题组已按第33讲第11页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-375.webp",
+        "title": "生理 神经系统调控躯体运动 · 合集第375页",
+        "description": "本题组已按第33讲第11页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 375
       }
     },
     {
@@ -17551,9 +17826,11 @@
         "page": 11,
         "score": 0.1781,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-33-page-11.webp",
-        "title": "第33讲第11页：生理 神经系统调控躯体运动",
-        "description": "本题组已按第33讲第11页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-375.webp",
+        "title": "生理 神经系统调控躯体运动 · 合集第375页",
+        "description": "本题组已按第33讲第11页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 375
       }
     },
     {
@@ -17644,9 +17921,11 @@
         "page": 12,
         "score": 0.2348,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-33-page-12.webp",
-        "title": "第33讲第12页：生理 神经系统调控躯体运动",
-        "description": "本题组已按第33讲第12页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-376.webp",
+        "title": "生理 神经系统调控躯体运动 · 合集第376页",
+        "description": "本题组已按第33讲第12页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 376
       }
     },
     {
@@ -17749,9 +18028,11 @@
         "page": 13,
         "score": 0.3636,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-33-page-13.webp",
-        "title": "第33讲第13页：生理 神经系统调控躯体运动",
-        "description": "本题组已按第33讲第13页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-377.webp",
+        "title": "生理 神经系统调控躯体运动 · 合集第377页",
+        "description": "本题组已按第33讲第13页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 377
       }
     },
     {
@@ -17848,9 +18129,11 @@
         "page": 13,
         "score": 0.2201,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-33-page-13.webp",
-        "title": "第33讲第13页：生理 神经系统调控躯体运动",
-        "description": "本题组已按第33讲第13页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-377.webp",
+        "title": "生理 神经系统调控躯体运动 · 合集第377页",
+        "description": "本题组已按第33讲第13页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 377
       }
     },
     {
@@ -17956,9 +18239,11 @@
         "page": 7,
         "score": 0.4651,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-33-page-07.webp",
-        "title": "第33讲第7页：生理 神经系统调控躯体运动",
-        "description": "本题组已按第33讲第7页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-371.webp",
+        "title": "生理 神经系统调控躯体运动 · 合集第371页",
+        "description": "本题组已按第33讲第7页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 371
       }
     },
     {
@@ -18064,9 +18349,11 @@
         "page": 7,
         "score": 0.2651,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-33-page-07.webp",
-        "title": "第33讲第7页：生理 神经系统调控躯体运动",
-        "description": "本题组已按第33讲第7页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-371.webp",
+        "title": "生理 神经系统调控躯体运动 · 合集第371页",
+        "description": "本题组已按第33讲第7页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 371
       }
     },
     {
@@ -18167,9 +18454,11 @@
         "page": 8,
         "score": 0.3163,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-33-page-08.webp",
-        "title": "第33讲第8页：生理 神经系统调控躯体运动",
-        "description": "本题组已按第33讲第8页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-372.webp",
+        "title": "生理 神经系统调控躯体运动 · 合集第372页",
+        "description": "本题组已按第33讲第8页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 372
       }
     },
     {
@@ -18257,9 +18546,11 @@
         "page": 8,
         "score": 0.387,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-33-page-08.webp",
-        "title": "第33讲第8页：生理 神经系统调控躯体运动",
-        "description": "本题组已按第33讲第8页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-372.webp",
+        "title": "生理 神经系统调控躯体运动 · 合集第372页",
+        "description": "本题组已按第33讲第8页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 372
       }
     },
     {
@@ -18499,9 +18790,11 @@
         "page": 14,
         "score": 0.4188,
         "method": "按今年讲义原文人工复核并定位",
-        "image": "physiology/lecture-pages/lecture-33-page-14.webp",
-        "title": "第33讲第14页：生理 神经系统调控躯体运动",
-        "description": "本题组已按第33讲第14页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-378.webp",
+        "title": "生理 神经系统调控躯体运动 · 合集第378页",
+        "description": "本题组已按第33讲第14页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 378
       }
     },
     {
@@ -18601,9 +18894,11 @@
         "page": 15,
         "score": 0.3891,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-33-page-15.webp",
-        "title": "第33讲第15页：生理 神经系统调控躯体运动",
-        "description": "本题组已按第33讲第15页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-379.webp",
+        "title": "生理 神经系统调控躯体运动 · 合集第379页",
+        "description": "本题组已按第33讲第15页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 379
       }
     },
     {
@@ -18762,9 +19057,11 @@
         "page": 4,
         "score": 0.2936,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-35-page-04.webp",
-        "title": "第35讲第4页：生理 内分泌概述",
-        "description": "本题组已按第35讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-395.webp",
+        "title": "生理 内分泌概述 · 合集第395页",
+        "description": "本题组已按第35讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 395
       },
       "optionSplitVersion": 1
     },
@@ -18910,9 +19207,11 @@
         "page": 2,
         "score": 0.2611,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-35-page-02.webp",
-        "title": "第35讲第2页：生理 内分泌概述",
-        "description": "本题组已按第35讲第2页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-393.webp",
+        "title": "生理 内分泌概述 · 合集第393页",
+        "description": "本题组已按第35讲第2页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 393
       }
     },
     {
@@ -19193,9 +19492,11 @@
         "page": 4,
         "score": 0.2476,
         "method": "按今年讲义原文人工复核并定位",
-        "image": "physiology/lecture-pages/lecture-35-page-04.webp",
-        "title": "第35讲第4页：生理 内分泌概述",
-        "description": "本题组已按第35讲第4页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-395.webp",
+        "title": "生理 内分泌概述 · 合集第395页",
+        "description": "本题组已按第35讲第4页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 395
       }
     },
     {
@@ -19307,9 +19608,11 @@
         "page": 3,
         "score": 0.0962,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-36-page-03.webp",
-        "title": "第36讲第3页：生理 钙调节激素",
-        "description": "本题组已按第36讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-400.webp",
+        "title": "生理 钙调节激素 · 合集第400页",
+        "description": "本题组已按第36讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 400
       }
     },
     {
@@ -19410,9 +19713,11 @@
         "page": 1,
         "score": 0.2726,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-38-page-01.webp",
-        "title": "第38讲第1页：生理 胰岛素和胰高血糖素",
-        "description": "本题组已按第38讲第1页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-406.webp",
+        "title": "生理 胰岛素和胰高血糖素 · 合集第406页",
+        "description": "本题组已按第38讲第1页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 406
       }
     },
     {
@@ -19506,9 +19811,11 @@
         "page": 3,
         "score": 0.3122,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-38-page-03.webp",
-        "title": "第38讲第3页：生理 胰岛素和胰高血糖素",
-        "description": "本题组已按第38讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-408.webp",
+        "title": "生理 胰岛素和胰高血糖素 · 合集第408页",
+        "description": "本题组已按第38讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 408
       }
     },
     {
@@ -19733,9 +20040,11 @@
         "page": 5,
         "score": 0.3317,
         "method": "按今年讲义原文人工复核并定位",
-        "image": "physiology/lecture-pages/lecture-38-page-05.webp",
-        "title": "第38讲第5页：生理 胰岛素和胰高血糖素",
-        "description": "本题组已按第38讲第5页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-410.webp",
+        "title": "生理 胰岛素和胰高血糖素 · 合集第410页",
+        "description": "本题组已按第38讲第5页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 410
       },
       "optionSplitVersion": 1
     },
@@ -19961,9 +20270,11 @@
         "page": 1,
         "score": 0.4308,
         "method": "按今年讲义原文人工复核并定位",
-        "image": "physiology/lecture-pages/lecture-37-page-01.webp",
-        "title": "第37讲第1页：生理 生长激素",
-        "description": "本题组已按第37讲第1页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-403.webp",
+        "title": "生理 生长激素 · 合集第403页",
+        "description": "本题组已按第37讲第1页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 403
       }
     },
     {
@@ -20050,9 +20361,11 @@
         "page": 2,
         "score": 0.2136,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-39-page-02.webp",
-        "title": "第39讲第2页：生理 甲状腺激素",
-        "description": "本题组已按第39讲第2页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-413.webp",
+        "title": "生理 甲状腺激素 · 合集第413页",
+        "description": "本题组已按第39讲第2页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 413
       }
     },
     {
@@ -20175,9 +20488,11 @@
         "page": 3,
         "score": 0.2541,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-40-page-03.webp",
-        "title": "第40讲第3页：生理 糖皮质激素",
-        "description": "本题组已按第40讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-420.webp",
+        "title": "生理 糖皮质激素 · 合集第420页",
+        "description": "本题组已按第40讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 420
       }
     },
     {
@@ -20280,9 +20595,11 @@
         "page": 1,
         "score": 0.1521,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-35-page-01.webp",
-        "title": "第35讲第1页：生理 内分泌概述",
-        "description": "本题组已按第35讲第1页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-392.webp",
+        "title": "生理 内分泌概述 · 合集第392页",
+        "description": "本题组已按第35讲第1页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 392
       }
     },
     {
@@ -20379,9 +20696,11 @@
         "page": 1,
         "score": 0.3579,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-41-page-01.webp",
-        "title": "第41讲第1页：生理 生殖",
-        "description": "本题组已按第41讲第1页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-426.webp",
+        "title": "生理 生殖 · 合集第426页",
+        "description": "本题组已按第41讲第1页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 426
       }
     },
     {
@@ -20535,9 +20854,11 @@
         "page": 3,
         "score": 0.3146,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-41-page-03.webp",
-        "title": "第41讲第3页：生理 生殖",
-        "description": "本题组已按第41讲第3页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-428.webp",
+        "title": "生理 生殖 · 合集第428页",
+        "description": "本题组已按第41讲第3页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 428
       },
       "optionSplitVersion": 1
     },
@@ -20606,9 +20927,11 @@
         "page": 8,
         "score": 0.2061,
         "method": "限定本章讲义范围后的字符三元组相似度匹配，并完成人工勘误复核",
-        "image": "physiology/lecture-pages/lecture-41-page-08.webp",
-        "title": "第41讲第8页：生理 生殖",
-        "description": "本题组已按第41讲第8页逐项核对题目、选项与答案。"
+        "image": "physiology/lecture-pages/collection-75a46acc-page-433.webp",
+        "title": "生理 生殖 · 合集第433页",
+        "description": "本题组已按第41讲第8页逐项核对题目、选项与答案。",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 433
       }
     }
   ],

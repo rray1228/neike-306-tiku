@@ -16,7 +16,10 @@
     "optionShuffleVersion": 1,
     "shuffleMode": "按题组固定打乱，选项重新编号，答案同步重映射",
     "answerNote": "依据2027讲义自编；用户确认的11组70问精简合并版，非原学成资料或阶段考试原题。",
-    "generatedBy": "scripts/import_physiology_endocrine_summary.py"
+    "generatedBy": "scripts/import_physiology_endocrine_summary.py",
+    "lectureImageSourceFile": "27跟课生理合集【带导图】.pdf",
+    "lectureImageSourceSha256": "75a46acc1fb42694caf34c6d3ad6e19a8402b53fcfb5dc6bfd001cdc0ad83519",
+    "lectureImageUpdatedAt": "2026-10-30"
   },
   "groups": [
     {
@@ -184,9 +187,11 @@
         "lectureTitle": "生理 糖皮质激素",
         "page": 4,
         "pageLabel": "对应第 4 页",
-        "title": "第40讲第4页：内分泌小结",
-        "image": "physiology/lecture-pages/lecture-40-page-04.webp",
-        "method": "2027讲义小结改编，用户确认精简合并版后导入"
+        "title": "生理 糖皮质激素 · 合集第421页",
+        "image": "physiology/lecture-pages/collection-75a46acc-page-421.webp",
+        "method": "2027讲义小结改编，用户确认精简合并版后导入",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 421
       }
     },
     {
@@ -358,9 +363,11 @@
         "lectureTitle": "生理 糖皮质激素",
         "page": 5,
         "pageLabel": "对应第 4、5 页",
-        "title": "第40讲第5页：内分泌小结",
-        "image": "physiology/lecture-pages/lecture-40-page-05.webp",
-        "method": "2027讲义小结改编，用户确认精简合并版后导入"
+        "title": "生理 糖皮质激素 · 合集第422页",
+        "image": "physiology/lecture-pages/collection-75a46acc-page-422.webp",
+        "method": "2027讲义小结改编，用户确认精简合并版后导入",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 422
       }
     },
     {
@@ -468,9 +475,11 @@
         "lectureTitle": "生理 糖皮质激素",
         "page": 5,
         "pageLabel": "对应第 5 页",
-        "title": "第40讲第5页：内分泌小结",
-        "image": "physiology/lecture-pages/lecture-40-page-05.webp",
-        "method": "2027讲义小结改编，用户确认精简合并版后导入"
+        "title": "生理 糖皮质激素 · 合集第422页",
+        "image": "physiology/lecture-pages/collection-75a46acc-page-422.webp",
+        "method": "2027讲义小结改编，用户确认精简合并版后导入",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 422
       }
     },
     {
@@ -556,9 +565,11 @@
         "lectureTitle": "生理 糖皮质激素",
         "page": 5,
         "pageLabel": "对应第 5 页",
-        "title": "第40讲第5页：内分泌小结",
-        "image": "physiology/lecture-pages/lecture-40-page-05.webp",
-        "method": "2027讲义小结改编，用户确认精简合并版后导入"
+        "title": "生理 糖皮质激素 · 合集第422页",
+        "image": "physiology/lecture-pages/collection-75a46acc-page-422.webp",
+        "method": "2027讲义小结改编，用户确认精简合并版后导入",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 422
       }
     },
     {
@@ -766,9 +777,11 @@
         "lectureTitle": "生理 糖皮质激素",
         "page": 5,
         "pageLabel": "对应第 5 页",
-        "title": "第40讲第5页：内分泌小结",
-        "image": "physiology/lecture-pages/lecture-40-page-05.webp",
-        "method": "2027讲义小结改编，用户确认精简合并版后导入"
+        "title": "生理 糖皮质激素 · 合集第422页",
+        "image": "physiology/lecture-pages/collection-75a46acc-page-422.webp",
+        "method": "2027讲义小结改编，用户确认精简合并版后导入",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 422
       }
     },
     {
@@ -864,9 +877,11 @@
         "lectureTitle": "生理 糖皮质激素",
         "page": 5,
         "pageLabel": "对应第 5 页",
-        "title": "第40讲第5页：内分泌小结",
-        "image": "physiology/lecture-pages/lecture-40-page-05.webp",
-        "method": "2027讲义小结改编，用户确认精简合并版后导入"
+        "title": "生理 糖皮质激素 · 合集第422页",
+        "image": "physiology/lecture-pages/collection-75a46acc-page-422.webp",
+        "method": "2027讲义小结改编，用户确认精简合并版后导入",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 422
       }
     },
     {
@@ -1043,9 +1058,11 @@
         "lectureTitle": "生理 糖皮质激素",
         "page": 5,
         "pageLabel": "对应第 5 页",
-        "title": "第40讲第5页：内分泌小结",
-        "image": "physiology/lecture-pages/lecture-40-page-05.webp",
-        "method": "2027讲义小结改编，用户确认精简合并版后导入"
+        "title": "生理 糖皮质激素 · 合集第422页",
+        "image": "physiology/lecture-pages/collection-75a46acc-page-422.webp",
+        "method": "2027讲义小结改编，用户确认精简合并版后导入",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 422
       }
     },
     {
@@ -1219,9 +1236,11 @@
         "lectureTitle": "生理 糖皮质激素",
         "page": 6,
         "pageLabel": "对应第 5、6 页",
-        "title": "第40讲第6页：内分泌小结",
-        "image": "physiology/lecture-pages/lecture-40-page-06.webp",
-        "method": "2027讲义小结改编，用户确认精简合并版后导入"
+        "title": "生理 糖皮质激素 · 合集第423页",
+        "image": "physiology/lecture-pages/collection-75a46acc-page-423.webp",
+        "method": "2027讲义小结改编，用户确认精简合并版后导入",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 423
       }
     },
     {
@@ -1364,9 +1383,11 @@
         "lectureTitle": "生理 糖皮质激素",
         "page": 6,
         "pageLabel": "对应第 6 页",
-        "title": "第40讲第6页：内分泌小结",
-        "image": "physiology/lecture-pages/lecture-40-page-06.webp",
-        "method": "2027讲义小结改编，用户确认精简合并版后导入"
+        "title": "生理 糖皮质激素 · 合集第423页",
+        "image": "physiology/lecture-pages/collection-75a46acc-page-423.webp",
+        "method": "2027讲义小结改编，用户确认精简合并版后导入",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 423
       }
     },
     {
@@ -1514,9 +1535,11 @@
         "lectureTitle": "生理 糖皮质激素",
         "page": 6,
         "pageLabel": "对应第 6 页",
-        "title": "第40讲第6页：内分泌小结",
-        "image": "physiology/lecture-pages/lecture-40-page-06.webp",
-        "method": "2027讲义小结改编，用户确认精简合并版后导入"
+        "title": "生理 糖皮质激素 · 合集第423页",
+        "image": "physiology/lecture-pages/collection-75a46acc-page-423.webp",
+        "method": "2027讲义小结改编，用户确认精简合并版后导入",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 423
       }
     },
     {
@@ -1692,9 +1715,11 @@
         "lectureTitle": "生理 糖皮质激素",
         "page": 6,
         "pageLabel": "对应第 6 页",
-        "title": "第40讲第6页：内分泌小结",
-        "image": "physiology/lecture-pages/lecture-40-page-06.webp",
-        "method": "2027讲义小结改编，用户确认精简合并版后导入"
+        "title": "生理 糖皮质激素 · 合集第423页",
+        "image": "physiology/lecture-pages/collection-75a46acc-page-423.webp",
+        "method": "2027讲义小结改编，用户确认精简合并版后导入",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "collectionPage": 423
       }
     }
   ],
@@ -1702,20 +1727,26 @@
     {
       "page": 4,
       "sourceKey": "physiology-endocrine-summary-2026-10",
-      "image": "physiology/lecture-pages/lecture-40-page-04.webp",
-      "topic": "内分泌"
+      "image": "physiology/lecture-pages/collection-75a46acc-page-421.webp",
+      "topic": "内分泌",
+      "sourceFile": "27跟课生理合集【带导图】.pdf",
+      "collectionPage": 421
     },
     {
       "page": 5,
       "sourceKey": "physiology-endocrine-summary-2026-10",
-      "image": "physiology/lecture-pages/lecture-40-page-05.webp",
-      "topic": "内分泌"
+      "image": "physiology/lecture-pages/collection-75a46acc-page-422.webp",
+      "topic": "内分泌",
+      "sourceFile": "27跟课生理合集【带导图】.pdf",
+      "collectionPage": 422
     },
     {
       "page": 6,
       "sourceKey": "physiology-endocrine-summary-2026-10",
-      "image": "physiology/lecture-pages/lecture-40-page-06.webp",
-      "topic": "内分泌"
+      "image": "physiology/lecture-pages/collection-75a46acc-page-423.webp",
+      "topic": "内分泌",
+      "sourceFile": "27跟课生理合集【带导图】.pdf",
+      "collectionPage": 423
     }
   ]
 }
