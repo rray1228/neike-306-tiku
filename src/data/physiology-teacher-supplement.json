@@ -171,14 +171,20 @@
         {
           "number": 5,
           "text": "以调定点作为目标的是__________馈。",
-          "answerRaw": "负",
+          "answerRaw": "负反",
           "answer": [
-            "负"
+            "负反"
           ],
           "answerMode": "填空",
-          "explanation": "填负。负反馈比较受控变量实际值与调定点，纠正二者偏差；正反馈的主要作用是迅速完成某一过程，并非守住调定点。",
+          "explanation": "填“负反”，与题干中的“馈”组成“负反馈”。负反馈比较受控变量实际值与调定点，纠正二者偏差；正反馈的主要作用是迅速完成某一过程，并非守住调定点。",
           "knowledgeConnections": [
             "发热时体温调定点上移，寒战是机体向新调定点升温的调节。"
+          ],
+          "originalAnswerRaw": "负",
+          "acceptedAnswers": [
+            [
+              "负反馈"
+            ]
           ]
         }
       ],
@@ -188,9 +194,10 @@
         "lecture-01"
       ],
       "diseaseTags": [],
-      "reviewState": "教师资料答案，未按讲义逐项复核",
-      "answerSourceLabel": "教师资料答案",
-      "supplement": true
+      "reviewState": "填空答案漏字已校正",
+      "answerSourceLabel": "校正答案",
+      "supplement": true,
+      "studyNotice": "原录入答案漏“反”字；本空填“负反”，完整概念为“负反馈”。"
     },
     {
       "id": "phys-teacher-01-06",
