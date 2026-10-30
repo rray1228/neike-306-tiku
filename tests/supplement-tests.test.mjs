@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync, readdirSync } from 'node:fs'
-import { scopeTestContent } from '../src/supplement-tests.js'
+import { questionBankUrl, scopeTestContent, studyViewUrl } from '../src/supplement-tests.js'
 
 const directory = new URL('../src/data/', import.meta.url)
 const read = name => JSON.parse(readFileSync(new URL(name, directory)))
@@ -9,6 +9,21 @@ const catalog = read('supplement-tests-catalog.json')
 const original = readdirSync(directory).filter(name => name.endsWith('.json') && name !== 'supplement-tests-catalog.json').flatMap(name => {
   const content = read(name)
   return Array.isArray(content.groups) ? content.groups.map(group => ({ ...group, sourceSubject: name.split('-')[0] })) : []
+})
+
+test('test navigation preserves both root hosting and GitHub Pages subdirectories', () => {
+  for (const href of ['https://study.example/?subject=physiology', 'https://owner.github.io/neike-306-tiku/?subject=physiology']) {
+    const before = new URL(href)
+    const tests = new URL(studyViewUrl(href, 'tests'))
+    assert.equal(tests.origin, before.origin)
+    assert.equal(tests.pathname, before.pathname)
+    assert.equal(tests.searchParams.get('subject'), 'physiology')
+    assert.equal(tests.searchParams.get('view'), 'tests')
+    const bank = new URL(questionBankUrl(`${tests.href}&paper=med-stage-exam`))
+    assert.equal(bank.href, href)
+  }
+  assert.equal(questionBankUrl('https://study.example/tests?paper=med-stage-exam'), 'https://study.example/')
+  assert.equal(questionBankUrl('https://owner.github.io/neike-306-tiku/tests?paper=med-stage-exam'), 'https://owner.github.io/neike-306-tiku/')
 })
 
 test('every catalog paper references existing questions with exact displayed counts and no duplicated IDs', () => {

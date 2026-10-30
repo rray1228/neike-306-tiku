@@ -3,7 +3,7 @@ import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } fro
 import { MNEMONIC_SUBJECTS } from './mnemonic-search.js'
 import './mnemonics.css'
 import './supplement-tests.css'
-import { scopeTestContent } from './supplement-tests.js'
+import { scopeTestContent, studyViewUrl } from './supplement-tests.js'
 import { applyReviewedEvidence, lectureForStem } from './med-lecture-evidence.js'
 import { organizePoliticsContent } from './politics-navigation.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
@@ -12,6 +12,7 @@ import { EncouragementDialog, usePracticeEncouragement, VisitorCount } from './S
 import { groupHasResponses } from './study-milestones.js'
 
 const MnemonicLibrary = lazy(() => import('./MnemonicLibrary.jsx'))
+const SupplementTests = lazy(() => import('./SupplementTests.jsx'))
 
 const SUBJECTS = {
   politics: {
@@ -699,7 +700,7 @@ function biochemistryParentForTopic(topic) {
   return Object.entries(BIOCHEMISTRY_DIRECTORY).find(([, topics]) => topics.includes(topic))?.[0] || ''
 }
 
-function App({ testPaper = null, onExitTest } = {}) {
+function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
   const [subject, setSubject] = useState(testPaper?.subject || 'med')
   const subjectConfig = SUBJECTS[subject] || SUBJECTS.med
   const [loadedContent, setLoadedContent] = useState(null)
@@ -754,8 +755,16 @@ function App({ testPaper = null, onExitTest } = {}) {
     if (button?.isConnected && !button.disabled) button.click()
   }, [])
 
+  const restorePracticeRecords = useCallback(() => {
+    setSelections(readLocalStorage('med-selections', {}))
+    setSubmitted(readLocalStorage('med-submitted', {}))
+    setFavorites(readFavorites())
+    setNotes(readLocalStorage('med-notes', {}))
+  }, [])
+
   useEffect(() => {
     const params = new URLSearchParams(window.location.search)
+    if (!testPaper && params.get('view') === 'tests') setViewMode('tests')
     if (!testPaper && params.get('view') === 'mnemonics') {
       setViewMode('mnemonics')
       setMnemonicSearch(params.get('q') || '')
@@ -777,6 +786,18 @@ function App({ testPaper = null, onExitTest } = {}) {
     setTopbarCollapsed(readLocalStorage('study-topbar-collapsed', false))
     setStorageReady(true)
   }, [])
+
+  useEffect(() => {
+    if (testPaper) return undefined
+    const onPopState = () => {
+      const requested = new URLSearchParams(window.location.search).get('view')
+      const next = ['tests', 'mnemonics'].includes(requested) ? requested : 'questions'
+      if (next === 'questions') restorePracticeRecords()
+      setViewMode(next)
+    }
+    window.addEventListener('popstate', onPopState)
+    return () => window.removeEventListener('popstate', onPopState)
+  }, [testPaper, restorePracticeRecords])
 
   useEffect(() => {
     if (viewMode !== 'mnemonics' || mnemonicData || import.meta.env.SSR) return undefined
@@ -821,14 +842,14 @@ function App({ testPaper = null, onExitTest } = {}) {
   }, [])
 
   function selectView(nextView) {
+    if (viewMode === 'tests' && nextView !== 'tests') restorePracticeRecords()
     setViewMode(nextView)
     setShowSource(false)
     setShowLectureEvidence(false)
     pendingOptionRef.current = null
-    const url = new URL(window.location.href)
-    if (nextView === 'mnemonics') url.searchParams.set('view', 'mnemonics')
-    else { url.searchParams.delete('view'); url.searchParams.delete('q'); url.searchParams.delete('mnemonicSubject') }
-    window.history.replaceState(null, '', url)
+    const url = studyViewUrl(window.location.href, nextView)
+    if (nextView === 'tests' || viewMode === 'tests') window.history.pushState(null, '', url)
+    else window.history.replaceState(null, '', url)
     window.scrollTo({ top: 0 })
   }
 
@@ -1279,6 +1300,10 @@ function App({ testPaper = null, onExitTest } = {}) {
     if (typeof window !== 'undefined' && window.innerWidth > 720) setSidebarCollapsed(false)
   }
 
+  if (viewMode === 'tests') {
+    return <Suspense fallback={<main className="supplement-tests"><p role="status">正在加载补充测试…</p></main>}><SupplementTests onReturnToQuestions={() => selectView('questions')} /></Suspense>
+  }
+
   if (isLoadingContent && viewMode === 'questions') {
     return (
       <main className="app-loading" aria-live="polite">
@@ -1298,7 +1323,7 @@ function App({ testPaper = null, onExitTest } = {}) {
             <div className="brand-mark"><Icon name="book" size={23} stroke="white" /></div>
             <div className="brand-copy"><strong>{testPaper ? testPaper.title : viewMode === 'mnemonics' ? '五科口诀库' : subjectConfig.title}</strong><span>{viewMode === 'mnemonics' ? '原口诀 · 对应知识点' : subjectConfig.subtitle}</span></div>
           </div>
-          <div className="study-mode-switch" aria-label="学习内容">{testPaper ? <><a href="/">题库</a><button className="active" onClick={onExitTest}>全部测试</button></> : <><button className={viewMode === 'questions' ? 'active' : ''} aria-pressed={viewMode === 'questions'} onClick={() => selectView('questions')}>题库</button><button className={viewMode === 'mnemonics' ? 'active' : ''} aria-pressed={viewMode === 'mnemonics'} onClick={() => selectView('mnemonics')}>口诀</button><a href="/tests">补充测试</a></>}</div>
+          <div className="study-mode-switch" aria-label="学习内容">{testPaper ? <><button onClick={onReturnToQuestions}>题库</button><button className="active" onClick={onExitTest}>全部测试</button></> : <><button className={viewMode === 'questions' ? 'active' : ''} aria-pressed={viewMode === 'questions'} onClick={() => selectView('questions')}>题库</button><button className={viewMode === 'mnemonics' ? 'active' : ''} aria-pressed={viewMode === 'mnemonics'} onClick={() => selectView('mnemonics')}>口诀</button><button onClick={() => selectView('tests')}>补充测试</button></>}</div>
           {!testPaper && <div className="subject-switch" aria-label="选择科目">
             {viewMode === 'mnemonics' ? <><button className={mnemonicSubject === 'all' ? 'active' : ''} aria-pressed={mnemonicSubject === 'all'} onClick={() => { setMnemonicSubject('all'); setMnemonicChapter('') }}>五科</button>{Object.entries(MNEMONIC_SUBJECTS).map(([key, label]) => <button key={key} className={mnemonicSubject === key ? 'active' : ''} aria-pressed={mnemonicSubject === key} onClick={() => { setMnemonicSubject(key); setMnemonicChapter('') }}>{label}</button>)}</> : Object.entries(SUBJECTS).sort(([a], [b]) => (a === 'politics') - (b === 'politics')).map(([key, item]) => <button key={key} className={subject === key ? 'active' : ''} onClick={() => switchSubject(key)}>{item.label}</button>)}
           </div>}
