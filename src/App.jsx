@@ -950,8 +950,8 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   }, [chapterId, content, currentChapter, favorites, favoritesOnly, search, subject, topic, typeFilter])
 
   useEffect(() => {
-    if (groupIndex >= filteredGroups.length) setGroupIndex(0)
-  }, [filteredGroups.length, groupIndex])
+    if (!isLoadingContent && groupIndex >= filteredGroups.length) setGroupIndex(0)
+  }, [filteredGroups.length, groupIndex, isLoadingContent])
 
   const group = (jumpGroupId && filteredGroups.find((item) => item.id === jumpGroupId)) || filteredGroups[groupIndex] || content.groups[0]
   const groupNotice = group.studyNotice || (group.supplement
