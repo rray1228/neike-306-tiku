@@ -65,3 +65,22 @@ test('the original entrance is unchanged and test scope retains object identity,
   assert.deepEqual(scoped.topics, ['全部', '循环'])
   assert.equal(content.groups.length, 2)
 })
+
+test('every imported homework, practitioner, exam and other supplemental source is included', () => {
+  for (const name of readdirSync(directory).filter(name => name.endsWith('.json') && name !== 'supplement-tests-catalog.json')) {
+    const data = read(name)
+    if (!Array.isArray(data.groups)) continue
+    const subject = name.split('-')[0]
+    const collection = testCollectionForSubject(catalog, subject)
+    const expected = data.groups.filter(group => group.supplement || subject === 'politics' || name === 'physiology-endocrine-summary-data.json')
+    const registered = new Set(catalog.filter(source => source.subject === subject).flatMap(source => source.groupIds))
+    for (const group of expected) assert.ok(registered.has(group.id), `${name}: missing ${group.id}`)
+    assert.deepEqual(scopeTestContent({ groups: data.groups, meta: {} }, collection).groups, expected, name)
+  }
+})
+
+test('new explicitly supplemental questions appear without requiring a manual ID list', () => {
+  const group = { id: 'future-homework', supplement: true, topic: '呼吸', stems: [] }
+  const collection = testCollectionForSubject(catalog, 'med')
+  assert.deepEqual(scopeTestContent({ groups: [group], meta: {} }, collection).groups, [group])
+})

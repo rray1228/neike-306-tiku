@@ -5,6 +5,7 @@ export function testCollectionForSubject(catalog, subject) {
   return {
     title: `${papers[0]?.subjectLabel || ''}补充测试`,
     groupIds: [...new Set(papers.flatMap(paper => paper.groupIds))],
+    includeSupplements: true,
   }
 }
 
@@ -29,7 +30,7 @@ export function questionBankUrl(href) {
 export function scopeTestContent(content, paper) {
   if (!paper) return content
   const ids = new Set(paper.groupIds)
-  const groups = content.groups.filter(group => ids.has(group.id))
+  const groups = content.groups.filter(group => ids.has(group.id) || (paper.includeSupplements && group.supplement))
   return {
     ...content,
     groups,

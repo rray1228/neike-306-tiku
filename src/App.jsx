@@ -14,6 +14,7 @@ import { groupHasResponses } from './study-milestones.js'
 
 const MnemonicLibrary = lazy(() => import('./MnemonicLibrary.jsx'))
 const TEST_COLLECTIONS = Object.fromEntries([...new Set(testCatalog.map(paper => paper.subject))].map(subject => [subject, testCollectionForSubject(testCatalog, subject)]))
+const TEST_SOURCE_CATEGORIES = new Map(testCatalog.flatMap(source => source.groupIds.map(id => [id, source.category])))
 
 const SUBJECTS = {
   politics: {
@@ -730,6 +731,8 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   const [mnemonicFavorites, setMnemonicFavorites] = useState([])
   const searchInputRef = useRef(null)
   const [typeFilter, setTypeFilter] = useState('全部题型')
+  const [testSourceFilter, setTestSourceFilter] = useState('')
+  const testSourceCategories = useMemo(() => [...new Set(testCatalog.filter(source => source.subject === subject).map(source => source.category))], [subject])
   const [groupIndex, setGroupIndex] = useState(0)
   const [jumpGroupId, setJumpGroupId] = useState('')
   const [selections, setSelections] = useState({})
@@ -839,7 +842,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   function selectView(nextView, updateUrl = true) {
     let nextSubject = subject
     if (nextView !== viewMode) {
-      navigationByView.current[viewMode] = { subject, topic, chapterId, search, typeFilter, groupIndex, jumpGroupId, favoritesOnly, keyboardStem, sidebarCollapsed, evidenceCollapsed, topbarCollapsed }
+      navigationByView.current[viewMode] = { subject, topic, chapterId, search, typeFilter, testSourceFilter, groupIndex, jumpGroupId, favoritesOnly, keyboardStem, sidebarCollapsed, evidenceCollapsed, topbarCollapsed }
       if (nextView !== 'mnemonics') {
         const saved = navigationByView.current[nextView]
         nextSubject = saved?.subject || subject
@@ -848,6 +851,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
         setChapterId(saved?.chapterId || '')
         setSearch(saved?.search || '')
         setTypeFilter(saved?.typeFilter || '全部题型')
+        setTestSourceFilter(saved?.testSourceFilter || '')
         setGroupIndex(saved?.groupIndex || 0)
         setJumpGroupId(saved?.jumpGroupId || '')
         setFavoritesOnly(saved?.favoritesOnly || false)
@@ -943,11 +947,13 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       }
       if (favoritesOnly && !favorites.includes(groupStorageKey(subject, group.id))) return false
       if (typeFilter !== '全部题型' && group.kindLabel !== typeFilter) return false
+      if (viewMode === 'tests' && testSourceFilter && TEST_SOURCE_CATEGORIES.get(group.id) !== testSourceFilter) return false
       if (!query) return true
-      const haystack = [group.title, group.topic, group.sourceText, ...(group.diseaseTags || []), ...group.options.map((item) => item.label), ...group.stems.flatMap((stem) => [stem.text, stem.sourceTextForSearch])].join(' ').toLowerCase()
+      const sourceTerms = viewMode === 'tests' ? [TEST_SOURCE_CATEGORIES.get(group.id), group.sourceLabel, group.sourceName, group.sourceSection] : []
+      const haystack = [group.title, group.topic, group.sourceText, ...sourceTerms, ...(group.diseaseTags || []), ...group.options.map((item) => item.label), ...group.stems.flatMap((stem) => [stem.text, stem.sourceTextForSearch])].join(' ').toLowerCase()
       return haystack.includes(query)
     })
-  }, [chapterId, content, currentChapter, favorites, favoritesOnly, search, subject, topic, typeFilter])
+  }, [chapterId, content, currentChapter, favorites, favoritesOnly, search, subject, topic, typeFilter, testSourceFilter, viewMode])
 
   useEffect(() => {
     if (!isLoadingContent && groupIndex >= filteredGroups.length) setGroupIndex(0)
@@ -1309,6 +1315,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     if (nextSubject === subject) return
     const nextConfig = SUBJECTS[nextSubject]
     setSubject(nextSubject)
+    setTestSourceFilter('')
     if (viewMode === 'tests') {
       const url = new URL(window.location.href)
       url.searchParams.set('subject', nextSubject)
@@ -1398,6 +1405,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
               <button className="text-button directory-button" onClick={() => setSidebarCollapsed((value) => !value)}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={16} />{sidebarCollapsed ? '章节' : '收起目录'}</button>
               <select value={topic} onChange={(event) => selectTopic(event.target.value)} aria-label="选择系统">{content.topics.map((item) => <option key={item}>{item}</option>)}</select>
               <select value={chapterId} onChange={(event) => event.target.value ? selectChapter(event.target.value) : selectTopic(topic)} aria-label="选择讲义章节"><option value="">全部讲义章节</option>{chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}</select>
+              {viewMode === 'tests' && <select className="test-source-filter" aria-label="题目来源" value={testSourceFilter} onChange={event => { setTestSourceFilter(event.target.value); setJumpGroupId(''); setGroupIndex(0) }}><option value="">全部来源</option>{testSourceCategories.map(category => <option key={category}>{category}</option>)}</select>}
               <button className={`text-button mobile-favorite-button ${favoritesOnly ? 'selected' : ''}`} onClick={toggleFavoriteNotebook} aria-pressed={favoritesOnly}><Icon name={favoritesOnly ? 'bookmarkFill' : 'bookmark'} size={16} />收藏本 {currentFavoriteCount}</button>
               <button className="text-button" onClick={() => setMobileEvidence((value) => !value)}>{mobileEvidence ? '隐藏讲义' : '显示讲义'} <Icon name="file" size={16} /></button>
               {filteredGroups.length > 0 && activeSystem !== '全部' ? <button className="text-button system-redo-button" onClick={redoSystem} title={`清空${activeSystem}系统全部作答，收藏和笔记保留`} aria-label={`重做${activeSystem}系统，清空全部作答`}><Icon name="redo" size={16} />重做{activeSystem}{systemAttemptedGroups ? ` · ${systemAttemptedGroups}` : ''}</button> : null}
@@ -1408,13 +1416,14 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
                 <option value="">{topic === '全部' ? '全部章节' : `${topic} · 全部章节`}</option>
                 {chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}
               </select>
+              {viewMode === 'tests' && <select className="test-source-filter" aria-label="题目来源" value={testSourceFilter} onChange={event => { setTestSourceFilter(event.target.value); setJumpGroupId(''); setGroupIndex(0) }}><option value="">全部来源</option>{testSourceCategories.map(category => <option key={category}>{category}</option>)}</select>}
               {filteredGroups.length > 0 && activeSystem !== '全部' ? <button className="system-redo-button" onClick={redoSystem} title={`清空${activeSystem}系统全部作答，收藏和笔记保留`} aria-label={`重做${activeSystem}系统，清空全部作答`}><Icon name="redo" size={15} />重做{activeSystem}{systemAttemptedGroups ? ` · ${systemAttemptedGroups}` : ''}</button> : null}
             </div>
           </div>
-          {!filteredGroups.length && <div className="empty-state"><div className="empty-state-icon"><Icon name={favoritesOnly ? 'bookmark' : 'search'} size={22} /></div><h1>{favoritesOnly ? `${notebookName}暂无题组` : '当前筛选下没有题组'}</h1><p>{favoritesOnly ? '点击题组右上角的“收藏”后，它会自动进入当前科目与章节的收藏本。' : '请尝试清除搜索词、切换章节或选择其他题型。'}</p><button className="primary-button" onClick={favoritesOnly ? showAllGroupsInChapter : () => { setTopic('全部'); setSearch(''); setTypeFilter('全部题型'); setGroupIndex(0) }}>{favoritesOnly ? '返回本章全部题组' : '显示全部题库'} <Icon name="arrow" size={17} /></button></div>}
+          {!filteredGroups.length && <div className="empty-state"><div className="empty-state-icon"><Icon name={favoritesOnly ? 'bookmark' : 'search'} size={22} /></div><h1>{favoritesOnly ? `${notebookName}暂无题组` : '当前筛选下没有题组'}</h1><p>{favoritesOnly ? '点击题组右上角的“收藏”后，它会自动进入当前科目与章节的收藏本。' : '请尝试清除搜索词、切换章节或选择其他题型。'}</p><button className="primary-button" onClick={favoritesOnly ? showAllGroupsInChapter : () => { setTopic('全部'); setChapterId(''); setJumpGroupId(''); setSearch(''); setTypeFilter('全部题型'); setTestSourceFilter(''); setGroupIndex(0) }}>{favoritesOnly ? '返回本章全部题组' : '显示全部题库'} <Icon name="arrow" size={17} /></button></div>}
           {filteredGroups.length > 0 && <div className={`study-content ${group.originalMatching ? 'original-matching' : ''}`} data-study-content>
           {favoritesOnly && <div className="favorite-notebook-banner"><span className="favorite-notebook-icon"><Icon name="bookmarkFill" size={18} /></span><div><strong>{notebookName}</strong><small>正在复习已收藏题组 · 共 {filteredGroups.length} 组</small></div><button onClick={showAllGroupsInChapter}>退出收藏本</button></div>}
-          <div className="breadcrumb"><span>{group.topic || '综合'}</span>{currentChapter ? <><Icon name="chevron" size={13} /><span>{currentChapter.title}</span></> : null}<Icon name="chevron" size={13} /><span>{group.supplement ? '教师补充' : group.kindLabel}</span>{group.hideSource ? null : <><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></>}</div>
+          <div className="breadcrumb"><span>{group.topic || '综合'}</span>{currentChapter ? <><Icon name="chevron" size={13} /><span>{currentChapter.title}</span></> : null}<Icon name="chevron" size={13} /><span>{viewMode === 'tests' ? TEST_SOURCE_CATEGORIES.get(group.id) || '补充练习' : group.supplement ? '教师补充' : group.kindLabel}</span>{group.hideSource ? null : <><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></>}</div>
           <div className="content-heading">
             <div><h1>{group.title || '题库原题'}</h1>{groupNotice && <p>{groupNotice}</p>}</div>
             <div className="heading-actions"><button className={`ghost-button ${favorite ? 'selected' : ''}`} onClick={toggleFavorite} aria-pressed={favorite} title={favorite ? `从${group.topic}收藏本移除` : `收藏到${group.topic}收藏本`}><Icon name={favorite ? 'bookmarkFill' : 'bookmark'} size={17} />{favorite ? '已收藏' : '收藏'}</button><button className="ghost-button" onClick={() => setShowNote((value) => !value)}><Icon name="note" size={17} />笔记</button></div>
