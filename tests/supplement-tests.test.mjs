@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync, readdirSync } from 'node:fs'
-import { questionBankUrl, scopeTestContent, studyViewUrl } from '../src/supplement-tests.js'
+import { questionBankUrl, scopeTestContent, studyViewUrl, testCollectionForSubject } from '../src/supplement-tests.js'
 
 const directory = new URL('../src/data/', import.meta.url)
 const read = name => JSON.parse(readFileSync(new URL(name, directory)))
@@ -34,6 +34,22 @@ test('every catalog paper references existing questions with exact displayed cou
     assert.ok(groups.every(Boolean), paper.id)
     assert.equal(groups.length, paper.groupCount, paper.id)
     assert.equal(groups.reduce((sum, group) => sum + group.stems.length, 0), paper.stemCount, paper.id)
+  }
+})
+
+test('the supplementary entrance combines sources within each subject and preserves their system and chapter assignments', () => {
+  for (const subject of new Set(catalog.map(paper => paper.subject))) {
+    const papers = catalog.filter(paper => paper.subject === subject)
+    const collection = testCollectionForSubject(catalog, subject)
+    const sourceGroups = original.filter(group => group.sourceSubject === subject)
+    const scoped = scopeTestContent({ groups: sourceGroups, meta: {} }, collection)
+    assert.equal(scoped.groups.length, papers.reduce((sum, paper) => sum + paper.groupCount, 0))
+    for (const group of scoped.groups) {
+      assert.ok(group.topic)
+      assert.equal(group, sourceGroups.find(source => source.id === group.id))
+      assert.deepEqual(group.lectureIds, sourceGroups.find(source => source.id === group.id).lectureIds)
+    }
+    assert.deepEqual(scoped.topics, ['全部', ...new Set(scoped.groups.map(group => group.topic))])
   }
 })
 

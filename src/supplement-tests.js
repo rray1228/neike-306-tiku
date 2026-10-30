@@ -1,5 +1,13 @@
 // The second entrance references the original groups, including their answer revisions.
 // Add future papers to the catalog without moving or copying question records.
+export function testCollectionForSubject(catalog, subject) {
+  const papers = catalog.filter(paper => paper.subject === subject)
+  return {
+    title: `${papers[0]?.subjectLabel || ''}补充测试`,
+    groupIds: [...new Set(papers.flatMap(paper => paper.groupIds))],
+  }
+}
+
 export function studyViewUrl(href, view) {
   const url = new URL(href)
   if (view === 'questions') url.searchParams.delete('view')

@@ -3,7 +3,8 @@ import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } fro
 import { MNEMONIC_SUBJECTS } from './mnemonic-search.js'
 import './mnemonics.css'
 import './supplement-tests.css'
-import { scopeTestContent, studyViewUrl } from './supplement-tests.js'
+import { questionBankUrl, scopeTestContent, studyViewUrl, testCollectionForSubject } from './supplement-tests.js'
+import testCatalog from './data/supplement-tests-catalog.json'
 import { applyReviewedEvidence, lectureForStem } from './med-lecture-evidence.js'
 import { organizePoliticsContent } from './politics-navigation.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
@@ -12,7 +13,7 @@ import { EncouragementDialog, usePracticeEncouragement, VisitorCount } from './S
 import { groupHasResponses } from './study-milestones.js'
 
 const MnemonicLibrary = lazy(() => import('./MnemonicLibrary.jsx'))
-const SupplementTests = lazy(() => import('./SupplementTests.jsx'))
+const TEST_COLLECTIONS = Object.fromEntries([...new Set(testCatalog.map(paper => paper.subject))].map(subject => [subject, testCollectionForSubject(testCatalog, subject)]))
 
 const SUBJECTS = {
   politics: {
@@ -700,7 +701,7 @@ function biochemistryParentForTopic(topic) {
   return Object.entries(BIOCHEMISTRY_DIRECTORY).find(([, topics]) => topics.includes(topic))?.[0] || ''
 }
 
-function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
+function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 'questions' } = {}) {
   const [subject, setSubject] = useState(testPaper?.subject || 'med')
   const subjectConfig = SUBJECTS[subject] || SUBJECTS.med
   const [loadedContent, setLoadedContent] = useState(null)
@@ -708,8 +709,9 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
   const [loadError, setLoadError] = useState(null)
   const [loadAttempt, setLoadAttempt] = useState(0)
   const [storageReady, setStorageReady] = useState(false)
-  const content = useMemo(() => loadedContent ? scopeTestContent(loadedContent, testPaper) : EMPTY_CONTENT, [loadedContent, testPaper])
-  const isLoadingContent = loadedContent === null
+  const [viewMode, setViewMode] = useState(initialView)
+  const content = useMemo(() => loadedContent && loadedSubjectRef.current === subject ? scopeTestContent(loadedContent, viewMode === 'tests' ? TEST_COLLECTIONS[subject] : testPaper) : EMPTY_CONTENT, [loadedContent, testPaper, subject, viewMode])
+  const isLoadingContent = loadedContent === null || loadedSubjectRef.current !== subject
   const counts = useMemo(() => topicCounts(content.groups), [content])
   const chapterTree = useMemo(() => lectureChapterTree(content, subject), [content, subject])
   const [topic, setTopic] = useState(testPaper ? '全部' : SUBJECTS.med.defaultTopic)
@@ -718,7 +720,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
     && !(subject === 'surgery' && (topic === '骨科' || topic === '外科总论'))
   const [chapterId, setChapterId] = useState('')
   const [search, setSearch] = useState('')
-  const [viewMode, setViewMode] = useState('questions')
+  const navigationByView = useRef({})
   const [mnemonicSearch, setMnemonicSearch] = useState('')
   const [mnemonicSubject, setMnemonicSubject] = useState('all')
   const [mnemonicChapter, setMnemonicChapter] = useState('')
@@ -744,7 +746,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
   const [topbarCollapsed, setTopbarCollapsed] = useState(false)
   const [keyboardStem, setKeyboardStem] = useState(null)
   const { notice: encouragement, recordCompletion, dismiss: dismissEncouragement } = usePracticeEncouragement(
-    storageReady && viewMode === 'questions' && !isLoadingContent,
+    storageReady && viewMode !== 'mnemonics' && !isLoadingContent,
     Boolean(showSource || showLectureEvidence || mobileEvidence),
   )
   const questionCardRef = useRef(null)
@@ -755,16 +757,10 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
     if (button?.isConnected && !button.disabled) button.click()
   }, [])
 
-  const restorePracticeRecords = useCallback(() => {
-    setSelections(readLocalStorage('med-selections', {}))
-    setSubmitted(readLocalStorage('med-submitted', {}))
-    setFavorites(readFavorites())
-    setNotes(readLocalStorage('med-notes', {}))
-  }, [])
-
   useEffect(() => {
     const params = new URLSearchParams(window.location.search)
-    if (!testPaper && params.get('view') === 'tests') setViewMode('tests')
+    const requestedView = params.get('view') || initialView
+    if (!testPaper && requestedView === 'tests') setViewMode('tests')
     if (!testPaper && params.get('view') === 'mnemonics') {
       setViewMode('mnemonics')
       setMnemonicSearch(params.get('q') || '')
@@ -772,11 +768,11 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
     }
     const savedMnemonics = readLocalStorage('study-mnemonic-favorites-v1', [])
     setMnemonicFavorites(Array.isArray(savedMnemonics) ? savedMnemonics.filter(id => typeof id === 'string') : [])
-    const requestedSubject = new URLSearchParams(window.location.search).get('subject')
+    const requestedSubject = params.get('subject') || testCatalog.find(paper => paper.id === params.get('paper'))?.subject
     const storedSubject = SUBJECTS[requestedSubject] ? requestedSubject : readLocalStorage('study-subject', 'med')
     const nextSubject = testPaper?.subject || (SUBJECTS[storedSubject] ? storedSubject : 'med')
     setSubject(nextSubject)
-    setTopic(testPaper ? '全部' : SUBJECTS[nextSubject].defaultTopic)
+    setTopic(testPaper || requestedView === 'tests' ? '全部' : SUBJECTS[nextSubject].defaultTopic)
     setSelections(readLocalStorage('med-selections', {}))
     setSubmitted(readLocalStorage('med-submitted', {}))
     setFavorites(readFavorites())
@@ -792,12 +788,11 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
     const onPopState = () => {
       const requested = new URLSearchParams(window.location.search).get('view')
       const next = ['tests', 'mnemonics'].includes(requested) ? requested : 'questions'
-      if (next === 'questions') restorePracticeRecords()
-      setViewMode(next)
+      selectView(next, false)
     }
     window.addEventListener('popstate', onPopState)
     return () => window.removeEventListener('popstate', onPopState)
-  }, [testPaper, restorePracticeRecords])
+  }, [testPaper, viewMode, subject, topic, chapterId, search, typeFilter, groupIndex, jumpGroupId, favoritesOnly, keyboardStem, sidebarCollapsed, evidenceCollapsed, topbarCollapsed])
 
   useEffect(() => {
     if (viewMode !== 'mnemonics' || mnemonicData || import.meta.env.SSR) return undefined
@@ -841,20 +836,47 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
     setMnemonicFavorites(previous => previous.some(item => ids.has(item)) ? previous.filter(item => !ids.has(item)) : [...previous, id])
   }, [])
 
-  function selectView(nextView) {
-    if (viewMode === 'tests' && nextView !== 'tests') restorePracticeRecords()
+  function selectView(nextView, updateUrl = true) {
+    let nextSubject = subject
+    if (nextView !== viewMode) {
+      navigationByView.current[viewMode] = { subject, topic, chapterId, search, typeFilter, groupIndex, jumpGroupId, favoritesOnly, keyboardStem, sidebarCollapsed, evidenceCollapsed, topbarCollapsed }
+      if (nextView !== 'mnemonics') {
+        const saved = navigationByView.current[nextView]
+        nextSubject = saved?.subject || subject
+        if (nextSubject !== subject) { setSubject(nextSubject); setLoadedContent(null) }
+        setTopic(saved?.topic || (nextView === 'tests' ? '全部' : SUBJECTS[nextSubject].defaultTopic))
+        setChapterId(saved?.chapterId || '')
+        setSearch(saved?.search || '')
+        setTypeFilter(saved?.typeFilter || '全部题型')
+        setGroupIndex(saved?.groupIndex || 0)
+        setJumpGroupId(saved?.jumpGroupId || '')
+        setFavoritesOnly(saved?.favoritesOnly || false)
+        setKeyboardStem(saved?.keyboardStem || null)
+        if (saved) {
+          setSidebarCollapsed(saved.sidebarCollapsed)
+          setEvidenceCollapsed(saved.evidenceCollapsed)
+          setTopbarCollapsed(saved.topbarCollapsed)
+        }
+      }
+    }
     setViewMode(nextView)
     setShowSource(false)
     setShowLectureEvidence(false)
+    setShowNote(false)
+    setMobileEvidence(false)
     pendingOptionRef.current = null
-    const url = studyViewUrl(window.location.href, nextView)
-    if (nextView === 'tests' || viewMode === 'tests') window.history.pushState(null, '', url)
-    else window.history.replaceState(null, '', url)
+    if (updateUrl) {
+      const base = nextView === 'questions' ? questionBankUrl(window.location.href) : window.location.href
+      const url = new URL(studyViewUrl(base, nextView))
+      url.searchParams.set('subject', nextSubject)
+      if (nextView === 'tests' || viewMode === 'tests') window.history.pushState(null, '', url)
+      else window.history.replaceState(null, '', url)
+    }
     window.scrollTo({ top: 0 })
   }
 
   useEffect(() => {
-    if (!storageReady || viewMode !== 'questions' || (loadedSubjectRef.current === subject && loadedContent)) return undefined
+    if (!storageReady || viewMode === 'mnemonics' || (loadedSubjectRef.current === subject && loadedContent)) return undefined
     let cancelled = false
     setLoadedContent(null)
     setLoadError(null)
@@ -874,7 +896,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
     return () => window.cancelAnimationFrame(frame)
   }, [chapterId, loadedContent])
 
-  useEffect(() => { if (storageReady && !testPaper) window.localStorage.setItem('study-subject', JSON.stringify(subject)) }, [storageReady, subject])
+  useEffect(() => { if (storageReady && !testPaper && viewMode !== 'tests') window.localStorage.setItem('study-subject', JSON.stringify(subject)) }, [storageReady, subject])
   useEffect(() => { if (storageReady) window.localStorage.setItem('med-selections', JSON.stringify(selections)) }, [selections, storageReady])
   useEffect(() => { if (storageReady) window.localStorage.setItem('med-submitted', JSON.stringify(submitted)) }, [storageReady, submitted])
   useEffect(() => {
@@ -883,9 +905,9 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
     window.localStorage.setItem('med-favorites', JSON.stringify(favorites))
   }, [favorites, storageReady])
   useEffect(() => { if (storageReady) window.localStorage.setItem('med-notes', JSON.stringify(notes)) }, [notes, storageReady])
-  useEffect(() => { if (storageReady && !testPaper) window.localStorage.setItem('med-sidebar-collapsed', JSON.stringify(sidebarCollapsed)) }, [sidebarCollapsed, storageReady])
-  useEffect(() => { if (storageReady && !testPaper) window.localStorage.setItem('med-evidence-collapsed', JSON.stringify(evidenceCollapsed)) }, [evidenceCollapsed, storageReady])
-  useEffect(() => { if (storageReady && !testPaper) window.localStorage.setItem('study-topbar-collapsed', JSON.stringify(topbarCollapsed)) }, [topbarCollapsed, storageReady])
+  useEffect(() => { if (storageReady && !testPaper && viewMode !== 'tests') window.localStorage.setItem('med-sidebar-collapsed', JSON.stringify(sidebarCollapsed)) }, [sidebarCollapsed, storageReady])
+  useEffect(() => { if (storageReady && !testPaper && viewMode !== 'tests') window.localStorage.setItem('med-evidence-collapsed', JSON.stringify(evidenceCollapsed)) }, [evidenceCollapsed, storageReady])
+  useEffect(() => { if (storageReady && !testPaper && viewMode !== 'tests') window.localStorage.setItem('study-topbar-collapsed', JSON.stringify(topbarCollapsed)) }, [topbarCollapsed, storageReady])
 
   const favoriteCounts = useMemo(() => {
     const byTopic = {}
@@ -1042,7 +1064,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
     let shiftTap = null
 
     function canUseLectureShortcut(event) {
-      if (viewMode !== 'questions' || encouragement) return false
+      if (viewMode === 'mnemonics' || encouragement) return false
       if (event.defaultPrevented || event.isComposing || event.keyCode === 229
         || event.altKey || event.ctrlKey || event.metaKey) return false
       const target = event.target instanceof Element ? event.target : null
@@ -1099,7 +1121,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
   }, [activeStemIndex, encouragement, filteredGroups.length, group, isLoadingContent, showLectureEvidence, showSource, viewMode])
 
   useEffect(() => {
-    if (viewMode !== 'questions' || isLoadingContent || !filteredGroups.length || showSource || showLectureEvidence || mobileEvidence || encouragement) return undefined
+    if (viewMode === 'mnemonics' || isLoadingContent || !filteredGroups.length || showSource || showLectureEvidence || mobileEvidence || encouragement) return undefined
     let sequence = ''
     let timer
 
@@ -1287,7 +1309,12 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
     if (nextSubject === subject) return
     const nextConfig = SUBJECTS[nextSubject]
     setSubject(nextSubject)
-    setTopic(nextConfig.defaultTopic)
+    if (viewMode === 'tests') {
+      const url = new URL(window.location.href)
+      url.searchParams.set('subject', nextSubject)
+      window.history.replaceState(null, '', url)
+    }
+    setTopic(viewMode === 'tests' ? '全部' : nextConfig.defaultTopic)
     setChapterId('')
     setJumpGroupId('')
     setSearch('')
@@ -1300,11 +1327,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
     if (typeof window !== 'undefined' && window.innerWidth > 720) setSidebarCollapsed(false)
   }
 
-  if (viewMode === 'tests') {
-    return <Suspense fallback={<main className="supplement-tests"><p role="status">正在加载补充测试…</p></main>}><SupplementTests onReturnToQuestions={() => selectView('questions')} /></Suspense>
-  }
-
-  if (isLoadingContent && viewMode === 'questions') {
+  if (isLoadingContent && viewMode !== 'mnemonics') {
     return (
       <main className="app-loading" aria-live="polite">
         <div className="app-loading-mark"><Icon name="book" size={26} stroke="white" /></div>
@@ -1321,13 +1344,13 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
         <header id="study-topbar" className="topbar" hidden={topbarCollapsed}>
           <div className="brand-lockup">
             <div className="brand-mark"><Icon name="book" size={23} stroke="white" /></div>
-            <div className="brand-copy"><strong>{testPaper ? testPaper.title : viewMode === 'mnemonics' ? '五科口诀库' : subjectConfig.title}</strong><span>{viewMode === 'mnemonics' ? '原口诀 · 对应知识点' : subjectConfig.subtitle}</span></div>
+            <div className="brand-copy"><strong>{testPaper ? testPaper.title : viewMode === 'tests' ? `${subjectConfig.label} · 补充测试` : viewMode === 'mnemonics' ? '五科口诀库' : subjectConfig.title}</strong><span>{viewMode === 'mnemonics' ? '原口诀 · 对应知识点' : subjectConfig.subtitle}</span></div>
           </div>
-          <div className="study-mode-switch" aria-label="学习内容">{testPaper ? <><button onClick={onReturnToQuestions}>题库</button><button className="active" onClick={onExitTest}>全部测试</button></> : <><button className={viewMode === 'questions' ? 'active' : ''} aria-pressed={viewMode === 'questions'} onClick={() => selectView('questions')}>题库</button><button className={viewMode === 'mnemonics' ? 'active' : ''} aria-pressed={viewMode === 'mnemonics'} onClick={() => selectView('mnemonics')}>口诀</button><button onClick={() => selectView('tests')}>补充测试</button></>}</div>
+          <div className="study-mode-switch" aria-label="学习内容">{testPaper ? <><button onClick={onReturnToQuestions}>题库</button><button className="active" onClick={onExitTest}>全部测试</button></> : <><button className={viewMode === 'questions' ? 'active' : ''} aria-pressed={viewMode === 'questions'} onClick={() => selectView('questions')}>题库</button><button className={viewMode === 'mnemonics' ? 'active' : ''} aria-pressed={viewMode === 'mnemonics'} onClick={() => selectView('mnemonics')}>口诀</button><button className={viewMode === 'tests' ? 'active' : ''} aria-pressed={viewMode === 'tests'} onClick={() => selectView('tests')}>补充测试</button></>}</div>
           {!testPaper && <div className="subject-switch" aria-label="选择科目">
             {viewMode === 'mnemonics' ? <><button className={mnemonicSubject === 'all' ? 'active' : ''} aria-pressed={mnemonicSubject === 'all'} onClick={() => { setMnemonicSubject('all'); setMnemonicChapter('') }}>五科</button>{Object.entries(MNEMONIC_SUBJECTS).map(([key, label]) => <button key={key} className={mnemonicSubject === key ? 'active' : ''} aria-pressed={mnemonicSubject === key} onClick={() => { setMnemonicSubject(key); setMnemonicChapter('') }}>{label}</button>)}</> : Object.entries(SUBJECTS).sort(([a], [b]) => (a === 'politics') - (b === 'politics')).map(([key, item]) => <button key={key} className={subject === key ? 'active' : ''} onClick={() => switchSubject(key)}>{item.label}</button>)}
           </div>}
-          {viewMode === 'questions' ? <div className="progress-strip">
+          {viewMode !== 'mnemonics' ? <div className="progress-strip">
             <span>本轮进度</span><strong>{filteredGroups.length ? `${Math.min(groupIndex + 1, filteredGroups.length)} / ${filteredGroups.length} 组` : '暂无匹配题组'}</strong>
             <div className="progress-bar"><i style={{ width: `${filteredGroups.length ? ((groupIndex + 1) / filteredGroups.length) * 100 : 0}%` }} /></div>
             <span>{filteredGroups.length ? Math.round(((groupIndex + 1) / filteredGroups.length) * 100) : 0}%</span>
@@ -1426,7 +1449,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions } = {}) {
       <VisitorCount />
       {encouragement && <EncouragementDialog notice={encouragement} onDismiss={dismissEncouragement} />}
       <div className="site-watermark" aria-hidden="true">
-        {viewMode === 'questions' && showContentWatermark && <span>内容制作byBi8bo</span>}
+        {viewMode !== 'mnemonics' && showContentWatermark && <span>内容制作byBi8bo</span>}
         <span>网站制作by戒不掉甜食</span>
       </div>
     </div>
