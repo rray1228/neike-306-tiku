@@ -64,6 +64,13 @@ def main() -> None:
     assert not invalid_answers, f"answers missing from option bank: {invalid_answers}"
     assert not glued_answer_stems, f"answer text glued to stem: {glued_answer_stems}"
 
+    inflammation = next(group for group in payload["groups"] if group["id"] == "p32-g2")
+    assert {row["text"]: "".join(row["answer"]) for row in inflammation["stems"]} == {
+        "血管扩张": "ACEGIKM", "发热": "BEJ", "疼痛": "EGK",
+        "趋化因子": "ABCDFHJ", "组织损伤": "LMP", "主动终止急性炎症反应": "NOQ",
+    }
+    assert inflammation["answerRevision"] == "chemotaxis-il1-20261030-v1"
+
     cirrhosis = next(group for group in payload["groups"] if group["id"] == "p04-g1")
     cirrhosis_options = {
         option["key"]: option["label"] for option in cirrhosis["options"]

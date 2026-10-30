@@ -10331,10 +10331,10 @@
             "D",
             "F",
             "H",
-            "I"
+            "J"
           ],
           "answerMode": "多选",
-          "sourceText": "趋化因子（ABCDFHI）",
+          "sourceText": "趋化因子（ABCDFHJ）",
           "sourceY": null,
           "lectureEvidence": {
             "lectureId": "lecture-25",
@@ -10381,7 +10381,8 @@
           }
         }
       ],
-      "sourceText": "A.C5a | B.TNF | C.C3a | D.LTB4 | E.PG | F.细菌产物 | G.P物质 | H.IL-8 | I.组胺 | J.IL-1 | K.缓激肽 | L.白细胞溶酶体酶 | M.NO | N.白细胞介素10（IL-10） | O.脂质素 | P.活性氧 | Q.转化生长因子（TGF-β） | 血管扩张（ACEGIKM） | 发热（BEJ） | 疼痛（EGK） | 趋化因子（ABCDFHI） | 组织损伤（LMP） | 主动终止急性炎症反应（NOQ）",
+      "sourceText": "A.C5a | B.TNF | C.C3a | D.LTB4 | E.PG | F.细菌产物 | G.P物质 | H.IL-8 | I.组胺 | J.IL-1 | K.缓激肽 | L.白细胞溶酶体酶 | M.NO | N.白细胞介素10（IL-10） | O.脂质素 | P.活性氧 | Q.转化生长因子（TGF-β） | 血管扩张（ACEGIKM） | 发热（BEJ） | 疼痛（EGK） | 趋化因子（ABCDFHJ） | 组织损伤（LMP） | 主动终止急性炎症反应（NOQ）",
+      "answerRevision": "chemotaxis-il1-20261030-v1",
       "reviewState": "已按题册原图与讲义逐题复核",
       "topic": "炎症",
       "lectureIds": [

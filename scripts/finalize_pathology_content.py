@@ -12,7 +12,7 @@ import argparse
 import json
 from pathlib import Path
 
-from pathology_manual_pages import repair_ras_tumors, repair_ulcer_locations
+from pathology_manual_pages import repair_inflammation_chemotaxis, repair_ras_tumors, repair_ulcer_locations
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -98,6 +98,7 @@ def repair_and_restore(groups: list[dict]) -> list[dict]:
     by_id = {group["id"]: group for group in groups}
     repair_ulcer_locations(by_id["p23-g1"])
     repair_ras_tumors(by_id["p36-g1"])
+    repair_inflammation_chemotaxis(by_id["p32-g2"])
 
     # Correct visible OCR glyphs while retaining the source booklet's answer key.
     text_repairs = {

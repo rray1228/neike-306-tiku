@@ -458,7 +458,7 @@ def _page_31() -> list[dict]:
 
 
 def _page_32() -> list[dict]:
-    return [
+    groups = [
         _group(
             "p32-g1", 32, "多核巨细胞",
             [
@@ -479,7 +479,7 @@ def _page_32() -> list[dict]:
             ],
             [
                 ("血管扩张", "ACEGIKM"), ("发热", "BEJ"), ("疼痛", "EGK"),
-                ("趋化因子", "ABCDFHI"), ("组织损伤", "LMP"),
+                ("趋化因子", "ABCDFHJ"), ("组织损伤", "LMP"),
                 ("主动终止急性炎症反应", "NOQ"),
             ],
         ),
@@ -503,6 +503,21 @@ def _page_32() -> list[dict]:
             ],
         ),
     ]
+
+
+    repair_inflammation_chemotaxis(groups[1])
+    return groups
+
+
+def repair_inflammation_chemotaxis(group: dict) -> None:
+    """Precision PDF 199 lists IL-1 (J), not histamine (I), for chemotaxis."""
+    row = next(row for row in group["stems"] if row["text"] == "趋化因子")
+    row.update(answer=list("ABCDFHJ"), answerMode="多选", sourceText="趋化因子（ABCDFHJ）")
+    group["sourceText"] = " | ".join([
+        *(row["sourceText"] for row in group["options"]),
+        *(row["sourceText"] for row in group["stems"]),
+    ])
+    group["answerRevision"] = "chemotaxis-il1-20261030-v1"
 
 
 def repair_ras_tumors(group: dict) -> None:
