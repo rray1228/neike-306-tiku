@@ -160,6 +160,17 @@ def parse_choices(section: int, texts: dict[int, str], answers: list[str]) -> li
         if source_mode != mode:
             group["reviewIssues"] = [f"原题标为{source_mode}，参考答案为{raw_answer}；站内按参考答案设为{mode}，需复核。"]
             group["stems"][0]["answerState"] = "待原题页核对"
+        if section == 3 and question["number"] == 4:
+            # User confirmed AC on 2026-10-31; the source's single-choice label is a typo.
+            group["stems"][0].update({
+                "text": "以下属于第二信使的有（多选）",
+                "answerRaw": "AC", "answer": ["A", "C"],
+                "answerMode": "多选", "answerState": "用户确认答案",
+            })
+            group["kindLabel"] = "多项选择"
+            group["reviewState"] = "用户已确认多选答案"
+            group["supplementNotice"] = "答案已确认"
+            group.pop("reviewIssues", None)
         result.append(group)
     return result
 

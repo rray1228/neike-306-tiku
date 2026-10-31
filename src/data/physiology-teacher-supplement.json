@@ -1022,14 +1022,14 @@
       "stems": [
         {
           "number": 4,
-          "text": "以下属于第二信使的有（单选）",
+          "text": "以下属于第二信使的有（多选）",
           "answerRaw": "AC",
           "answer": [
             "A",
             "C"
           ],
           "answerMode": "多选",
-          "answerState": "待原题页核对",
+          "answerState": "用户确认答案",
           "explanation": "选AC。A所指cAMP/cGMP与C的IP₃属于第二信使，可在受体与下游效应蛋白间传递信号；CaMK是Ca²⁺-CaM激活的蛋白激酶，位于第二信使下游；甘油一酯不是PLC通路的第二信使DAG。",
           "knowledgeConnections": [
             "Gq激活PLC水解PIP₂，产生IP₃和DAG",
@@ -1043,12 +1043,10 @@
         "lecture-05"
       ],
       "diseaseTags": [],
-      "reviewState": "教师资料答案，未按讲义逐项复核",
+      "reviewState": "用户已确认多选答案",
       "answerSourceLabel": "教师资料答案",
       "supplement": true,
-      "reviewIssues": [
-        "原题标为单选，参考答案为AC；站内按参考答案设为多选，需复核。"
-      ]
+      "supplementNotice": "答案已确认"
     },
     {
       "id": "phys-teacher-03-05",
