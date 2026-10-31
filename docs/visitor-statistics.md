@@ -1,45 +1,45 @@
 # Visitor statistics
 
-Since 2026-10-31, both public editions use the same Busuanzi counter at
-`https://cdn.busuanzi.cc/api.php`. The canonical site key is
-`https://rray1228.github.io/neike-306-tiku/`.
+On 2026-10-31 the `cdn.busuanzi.cc/api.php` service repeatedly timed out in
+both real-browser requests and direct network checks. Rewording the error was
+not a counting fix. Both editions now use the current official API from
+soxft/busuanzi's client: `https://bsz.iirose.cn/api`.
 
-The browser makes a simple CORS POST directly to the independent service.
-It sends only that fixed public URL and an empty referrer. It sends no search
-parameters, practice answers, notes, old browser identifiers or cookies. No
-third-party script is executed. See the provider's current usage documentation:
-https://www.busuanzi.cc/doc.php
+References:
+- https://busuanzi.9420.ltd/js (official client and current API URL)
+- https://github.com/soxft/busuanzi/wiki/api (POST, GET and identity protocol)
+- https://github.com/soxft/busuanzi/wiki/usage (server deduplication)
 
-The footer uses the provider's `busuanzi_today_uv` and `busuanzi_site_uv` fields,
-not PV or a fabricated browser-local increment. The provider deduplicates by
-IP and its own server-side rules; this differs from the old UUID-in-localStorage
-counter. Switching VPNs may change the provider's visitor identity. The two
-definitions must not be added together.
+One POST supplies both values. `x-bsz-referer` identifies a shared logical
+page at `https://rray1228.github.io/neike-306-tiku/__visitor_day__/YYYY-MM-DD`,
+where the date is in Asia/Shanghai. The response's `page_uv` is therefore the
+number of distinct visitors in that day's bucket; `site_uv` is cumulative
+server-deduplicated UV. PV is never displayed as people. Both publications use
+the same host and bucket. A response crossing midnight is retried for the new
+day instead of being presented as today's count.
 
-The old D1 tables and handler remain intact. A read-only snapshot of
-`site_visitors` contained **152** records at **2026-10-31 09:11 Asia/Shanghai**.
-The footer only shows the current provider's daily and cumulative counts;
-the historical snapshot is not displayed. No prior visitor IDs
-were transferred to the new provider. Visits that never reached the old
-endpoint cannot be reconstructed.
+The service deduplicates using a server-signed visitor identity, IP and browser
+UserAgent. Its `Set-Bsz-Identity` response is retained under the dedicated
+`visitor-identity-soxft-v1` key and sent as `Authorization: Bearer ...` to this
+service alone. Without storage, the in-memory identity and the server's
+IP/browser fallback still work. No actual page query, search terms, answers,
+notes, referring page, old UUID or other service credential is sent. No external
+JavaScript is executed. CORS preflight and real POST responses were checked
+from both production origins, including repeat UV deduplication.
 
-Requests have an eight-second timeout, share one in-flight request, and cache
-successful results for one minute. Network failures retry with a bounded
-backoff; reconnecting or returning to the page also retries. Previously received
-numbers are labelled as not updated if refresh fails. A failure never displays
-zero or increments counts locally. The client still cannot guarantee delivery
-during a complete network outage or blocking of the replacement service.
+This is a new provider and starts counting at the switch. Old service numbers,
+the old D1 database and their browser records are neither deleted nor added to
+this provider's totals. Unreceived visits cannot be reconstructed. The footer
+shows only the current daily and cumulative counts, with no old-statistics row.
 
-Successful service responses are also cached in the current browser for up to
-seven days, keyed to this site's counter. Reloading can display the last received
-values while reconnecting, marked as not updated. A daily value from an earlier
-Shanghai date is shown as a dash, never as today's count. Corrupt, future-dated,
-expired or other-site cache entries are ignored. No cache entry is a visitor ID.
-Without a valid response or cache, failures show “统计暂不可用” with a retry
-button instead of claiming to be continuously connecting. Background retries
-continue. This preserves honest failure feedback; it cannot repair a third-party
-service outage or reconstruct visits it did not receive.
+Requests time out after eight seconds, share one in-flight request and reuse
+successes for one minute. Successful responses are also cached for seven days
+under a provider-specific key, so old-provider numbers cannot flash as new
+counts. Earlier-day daily cache values display a dash; stale cumulative values
+are labelled as not updated. Invalid, future, expired and other-site caches are
+ignored. A cache is only a previous response, never a locally incremented count.
 
-GitHub Pages must not fall back to `chatgpt.site/api/visits`; that would restore
-the original regional reachability problem. Local browser QA must block that
-legacy endpoint and verify the footer still receives independent counts.
+Failures retry with bounded backoff, on reconnect and when the page becomes
+visible. The footer offers manual retry, and honestly reports unavailability if
+neither the service nor a cache is available. Public services have no guaranteed
+availability; the application does not fabricate counts during an outage.

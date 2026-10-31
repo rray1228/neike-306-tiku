@@ -170,7 +170,7 @@ export function VisitorCount() {
     }
   }, [])
   const today = counts && visitorDay(counts.updatedAt) === visitorDay(Date.now()) ? counts.todayVisitors.toLocaleString() : '—'
-  return <footer className="visitor-count" title={`统计服务：不蒜子，按服务端 IP 等规则去重；自 ${VISITOR_START} 起，两处网站合并计数。`}>
+  return <footer className="visitor-count" title={`统计服务：soxft/busuanzi，按服务端访客标记、IP 和浏览器去重；北京时间划分今日人数。自 ${VISITOR_START} 切换后重新统计，两处网站合并计数。`}>
     {counts ? <><span>今日访客 <strong>{today}</strong></span><i aria-hidden="true">·</i><span>累计访客 <strong>{counts.totalVisitors.toLocaleString()}</strong></span>{(loading || unavailable) && <span title={`上次成功更新：${new Date(counts.updatedAt).toLocaleString('zh-CN')}`}>暂未更新</span>}</>
       : <span>{unavailable ? '统计暂不可用' : '访客统计加载中…'}</span>}
     {unavailable && <button className="visitor-retry" disabled={loading} onClick={() => retryNow.current()} aria-label="重新加载访客统计">{loading ? '重试中…' : '重试'}</button>}
