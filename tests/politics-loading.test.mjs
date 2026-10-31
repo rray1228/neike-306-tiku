@@ -2,7 +2,7 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync, readdirSync, statSync } from 'node:fs'
 import { createHash } from 'node:crypto'
-import { migratePoliticsAnswers } from '../src/politics-answers.js'
+import { migratePoliticsAnswers, sourceStemNumber } from '../src/politics-answers.js'
 import { organizePoliticsContent } from '../src/politics-navigation.js'
 
 const root = new URL('../', import.meta.url)
@@ -79,6 +79,9 @@ test('adjacent crop remnants belong to their original text questions and no answ
   assert.ok(stem('politics-daily-day29-思法-s03').text.startsWith('有序的公共生活'))
   assert.match(stem('politics-daily-day30-思法-s02').text, /关系党【空3】/)
   assert.ok(stem('politics-daily-day30-思法-s03').text.startsWith('法律权利与法律义务'))
+  const split = daily.groups.find(group => group.day === 10 && group.topic.endsWith('毛中特'))
+  assert.equal(sourceStemNumber(split, split.stems[0], 0), 5)
+  assert.equal(sourceStemNumber({}, { number: 5 }, 0), 1)
   for (const item of stems) {
     assert.ok(!/^Day\d+/.test(item.text))
     assert.ok(!item.image)

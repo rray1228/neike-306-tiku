@@ -7,7 +7,7 @@ import { questionBankUrl, scopeTestContent, studyViewUrl, testCollectionForSubje
 import testCatalog from './data/supplement-tests-catalog.json'
 import { applyReviewedEvidence, lectureForStem } from './med-lecture-evidence.js'
 import { organizePoliticsContent } from './politics-navigation.js'
-import { migratePoliticsAnswers } from './politics-answers.js'
+import { migratePoliticsAnswers, sourceStemNumber } from './politics-answers.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
 import { fillNavigationTarget } from './fill-navigation.js'
 import { EncouragementDialog, usePracticeEncouragement, VisitorCount } from './StudySupport.jsx'
@@ -1579,7 +1579,7 @@ function CategorizedAnswerRow({ group, stem, index, options, selection, submitte
   return (
     <>
       <tr data-stem-index={index} data-keyboard-active={active} tabIndex={0} aria-label={`小题 ${index + 1}`} className={`answer-table-row ${submitted && !unresolved ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
-        <th scope="row" className="answer-table-number"><span>{String(index + 1).padStart(2, '0')}</span></th>
+        <th scope="row" className="answer-table-number"><span>{String(sourceStemNumber(group, stem, index)).padStart(2, '0')}</span></th>
         <td className="answer-table-stem"><div className="answer-table-stem-copy">{stem.image && <img src={assetPath(stem.image)} alt={stem.imageAlt || '题干图片'} />}{stem.text && <p>{stem.text}</p>}<span className={`answer-mode ${(multi || stem.answerMode === '排序') ? 'is-multi' : ''}`}>{unresolved ? unresolvedLabel : (stem.answerMode === '排序' ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选'))}</span></div></td>
         {options.map((option) => {
           const item = option.key
@@ -1589,7 +1589,7 @@ function CategorizedAnswerRow({ group, stem, index, options, selection, submitte
           const isMissed = submitted && isAnswer && !active
           const isWrong = submitted && !unresolved && active && !isAnswer
           const stateLabel = isMissed ? '，漏选' : (isWrong ? '，错选' : '')
-          return <td key={item} className="answer-table-cell"><button type="button" data-option-label={label} aria-pressed={active} aria-label={`${String(index + 1).padStart(2, '0')}题，选项 ${label}${stateLabel}`} className={`answer-chip ${active ? 'active' : ''} ${isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${isWrong ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{label}</button></td>
+          return <td key={item} className="answer-table-cell"><button type="button" data-option-label={label} aria-pressed={active} aria-label={`${String(sourceStemNumber(group, stem, index)).padStart(2, '0')}题，选项 ${label}${stateLabel}`} className={`answer-chip ${active ? 'active' : ''} ${isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${isWrong ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{label}</button></td>
         })}
       </tr>
       {submitted && <tr className={`answer-table-result-row ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><td colSpan={options.length + 2}><span><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{unresolved ? unresolvedResult : (correct ? '正确' : `${group.answerSourceLabel || '讲义答案'}：${answerDisplay}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}</span></td></tr>}
@@ -1630,7 +1630,7 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
   }
   return (
     <div data-stem-index={index} data-keyboard-active={keyboardActive} tabIndex={0} aria-label={`小题 ${index + 1}`} className={`stem-row ${compact ? 'compact-stem' : ''} ${fill || selfReview ? 'written-stem' : ''} ${stem.image ? 'image-stem' : ''} ${group.dailySelftest ? 'daily-fill-stem' : ''} ${choiceCategories.length ? 'has-choice-categories' : ''} ${submitted && !unresolved ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
-      <div className="stem-main"><span className="stem-number">{String(index + 1).padStart(2, '0')}</span><div className="stem-copy">{stem.image && <figure className="stem-figure"><img src={assetPath(stem.image)} alt={stem.imageAlt || '心电图题干'} /></figure>}{group.dailySelftest && stem.image ? <details className="daily-prompt-zoom"><summary>放大题干（可左右滑动）</summary><div><img src={assetPath(stem.image)} alt={stem.imageAlt || '填空题原文'} loading="lazy" /></div></details> : null}{stem.text ? <div className="stem-heading"><p>{stem.text}</p><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div> : <div className="stem-image-heading"><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div>}</div></div>
+      <div className="stem-main"><span className="stem-number">{String(sourceStemNumber(group, stem, index)).padStart(2, '0')}</span><div className="stem-copy">{stem.image && <figure className="stem-figure"><img src={assetPath(stem.image)} alt={stem.imageAlt || '心电图题干'} /></figure>}{group.dailySelftest && stem.image ? <details className="daily-prompt-zoom"><summary>放大题干（可左右滑动）</summary><div><img src={assetPath(stem.image)} alt={stem.imageAlt || '填空题原文'} loading="lazy" /></div></details> : null}{stem.text ? <div className="stem-heading"><p>{stem.text}</p><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div> : <div className="stem-image-heading"><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div>}</div></div>
       {selfReview ? <div className="review-draft"><label>我的思路<textarea aria-label={`小题${index + 1}作答草稿`} value={selection[0] || ''} onChange={event => onFill(index, 0, event.target.value)} disabled={submitted} placeholder="先写自己的思路或在纸上画图后记下说明，再保存查看参考要点…" rows={5} /></label><small>草稿自动保存在当前浏览器；本题不自动判分。</small></div> : fill
         ? <div className="fill-answers">{answer.map((_, blankIndex) => <label key={blankIndex}>{group.dailySelftest ? <span>空{blankIndex + 1}</span> : null}<input placeholder={group.dailySelftest ? `第${blankIndex + 1}空` : undefined} value={selection[blankIndex] || ''} onChange={(event) => onFill(index, blankIndex, event.target.value)} disabled={submitted} inputMode={stem.inputMode || 'text'} aria-label={`${stem.text}第${blankIndex + 1}空${stem.blankLabels?.[blankIndex] ? `，${stem.blankLabels[blankIndex]}` : ''}`} /></label>)}</div>
         : (choiceCategories.length

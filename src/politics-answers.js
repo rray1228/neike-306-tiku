@@ -1,5 +1,9 @@
 // A new storage revision retains the original records. Joined cross-line blanks
 // and fragments from neighbouring crops migrate to their actual text question.
+export function sourceStemNumber(group, stem, index) {
+  return group.dailySelftest && Number.isInteger(stem.number) ? stem.number : index + 1
+}
+
 export function migratePoliticsAnswers(selections, submitted, groups) {
   let nextSelections = selections
   let nextSubmitted = submitted
