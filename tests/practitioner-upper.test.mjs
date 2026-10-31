@@ -26,7 +26,7 @@ test('all 197 questions occur once and match every supplied five-answer row', ()
     const options = group(s.number).options.filter(o => !s.optionCategory || o.category === s.optionCategory)
     assert.deepEqual(options.map(o => o.displayKey), [...'ABCDE'], String(s.number))
     assert.ok(options.every(o => o.label.trim().length))
-    assert.equal(options.find(o => o.key === s.answer[0])?.displayKey, ({24:'A',103:'A',139:'B',166:'C',172:'A',194:'C'})[s.number] || s.answerRaw)
+    assert.equal(options.find(o => o.key === s.answer[0])?.displayKey, ({24:'A',73:'B',103:'A',139:'B',166:'C',172:'A',194:'C'})[s.number] || s.answerRaw)
   }
   assert.deepEqual(stem(139).answerCorrection, { from: 'A', to: 'B', source: '用户截图中的作者评论：139选B，气钡灌肠' })
   assert.equal(stem(24).answerRaw, 'C')
@@ -141,7 +141,7 @@ test('every question links to existing exact lecture pages, and large cases reta
 })
 
 test('all questions have authored explanations; uncertain supplied answers are not silently replaced', () => {
-  assert.deepEqual(stems.filter(s => s.answerState === '待原题页核对').map(s => s.number), [72,74,89,90])
+  assert.deepEqual(stems.filter(s => s.answerState === '待原题页核对').map(s => s.number), [89,90])
   for (const s of stems) {
     assert.ok(s.explanation.length > 25, String(s.number))
     assert.ok(s.knowledgePoint.length > 3)
@@ -243,4 +243,30 @@ test('question166 follows the reported teacher answer C and refreshes the previo
   assert.match(group(166).title, /手术治疗/)
   assert.ok(group(166).lectureEvidence.knowledgePoints.includes(stem(166).knowledgePoint))
   assert.match(stem(166).explanationReferences[0].url, /uroweb.org/)
+})
+
+test('October31 user screenshots adopt 72E, 73B and 74D with normal independent grading', () => {
+  const expected = [[72,'E','E','穿刺活检'],[73,'A','B','血清淀粉酶'],[74,'D','D','尽量采用肠外营养']]
+  for (const [n,raw,answer,label] of expected) {
+    const s = stem(n), g = group(n)
+    assert.equal(s.answerRaw, raw)
+    assert.deepEqual(s.answer, [answer])
+    assert.equal(s.answerDisplay, answer)
+    assert.equal(g.options.find(o => o.key === answer).label, label)
+    assert.equal(s.answerState, '按截图及明确更正录入')
+    assert.ok(!s.reviewReason)
+    assert.ok(!med.meta.pendingQuestions.includes(n))
+    assert.equal(g.answerRevision, `20261031-q${n}-${answer}-v3`)
+    assert.equal(g.answerSourceLabel, '用户确认答案')
+    assert.equal(g.stems.length, 1)
+    assert.match(s.explanation, new RegExp(`用户确认选${answer}`))
+    assert.doesNotMatch(s.explanation, /待复核|难作唯一|保留.*待/)
+    assert.ok(g.lectureEvidence.knowledgePoints.includes(s.knowledgePoint))
+  }
+  assert.deepEqual(stem(73).answerCorrection, { from:'A', to:'B', source:'用户于2026-10-31提供作答截图并要求按所选答案更新：第73题选B（血清淀粉酶）' })
+  for (const [n,answer] of [[72,'E'],[74,'D']]) {
+    assert.deepEqual(stem(n).answerConfirmation, { answer, source:`用户于2026-10-31提供作答截图并要求按所选答案更新：第${n}题选${answer}` })
+  }
+  assert.notEqual(group(73).id, group(74).id)
+  assert.deepEqual(med.meta.pendingQuestions, [89,90])
 })

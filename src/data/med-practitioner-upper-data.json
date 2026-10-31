@@ -51,8 +51,6 @@
       "AA"
     ],
     "pendingQuestions": [
-      72,
-      74,
       89,
       90
     ],
@@ -9410,7 +9408,7 @@
       "sourcePages": [
         15
       ],
-      "title": "精选执医（上） · 第72题 · 肝癌诊断检查的争议",
+      "title": "精选执医（上） · 第72题 · 肝癌的病理确诊",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -9421,13 +9419,13 @@
       "diseaseTags": [
         "精选执医",
         "执业医师真题（上）",
-        "肝癌诊断检查的争议"
+        "肝癌的病理确诊"
       ],
       "supplement": true,
-      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
-      "answerSourceLabel": "截图参考答案",
-      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
-      "answerRevision": "20261019-v2",
+      "supplementNotice": "第72题按用户作答截图确认为E，正常判分；解析为复习整理。",
+      "answerSourceLabel": "用户确认答案",
+      "answerSourceName": "2026-10-31用户提供的作答截图：第72题选E",
+      "answerRevision": "20261031-q72-E-v3",
       "options": [
         {
           "key": "A",
@@ -9467,15 +9465,18 @@
           ],
           "answerDisplay": "E",
           "answerMode": "单选",
-          "answerState": "待原题页核对",
+          "answerState": "按截图及明确更正录入",
           "lectureId": "lecture-21",
-          "knowledgePoint": "肝癌诊断检查的争议",
-          "explanation": "截图答案E且评论列为争议。肝穿刺病理能提供确诊证据，但慢性乙肝背景肝肿块通常先做多期增强CT或MRI，部分高危患者可依据典型影像无创诊断，不必一律活检。题干“明确诊断最有意义”与“首选检查”口径不同，保留E待复核。",
+          "knowledgePoint": "肝癌的病理确诊",
+          "explanation": "本题按用户确认选E（穿刺活检）。慢性乙肝病史、肝区疼痛及质硬结节性肝肿块提示肝癌可能，题目强调“明确诊断最有意义”，本卷以活检取得病理证据作为答案。AFP只能辅助判断；不能将本题等同于肝癌筛查或首选影像检查。",
           "knowledgeConnections": [
-            "AFP可辅助但不能独立确诊；影像不典型时再结合活检等进一步评估。"
+            "高危患者符合典型多期增强CT或MRI影像标准时可无创诊断，并非所有疑似肝癌都需穿刺；影像不典型时再评估活检。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
-          "reviewReason": "截图评论列为争议题",
+          "answerConfirmation": {
+            "answer": "E",
+            "source": "用户于2026-10-31提供作答截图并要求按所选答案更新：第72题选E"
+          },
           "explanationReferences": [
             {
               "title": "AASLD肝癌指南：增强CT/MRI及无创诊断",
@@ -9496,7 +9497,7 @@
                 72
               ],
               "knowledgePoints": [
-                "肝癌诊断检查的争议"
+                "肝癌的病理确诊"
               ]
             }
           ]
@@ -9516,7 +9517,7 @@
             72
           ],
           "knowledgePoints": [
-            "肝癌诊断检查的争议"
+            "肝癌的病理确诊"
           ]
         }
       ],
@@ -9533,7 +9534,7 @@
           72
         ],
         "knowledgePoints": [
-          "肝癌诊断检查的争议"
+          "肝癌的病理确诊"
         ]
       }
     },
@@ -9548,7 +9549,7 @@
       "sourcePages": [
         15
       ],
-      "title": "精选执医（上） · 第73题 · 急性胰腺炎的酶学检查",
+      "title": "精选执医（上） · 第73题 · 急性胰腺炎的早期酶学检查",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -9559,13 +9560,13 @@
       "diseaseTags": [
         "精选执医",
         "执业医师真题（上）",
-        "急性胰腺炎的酶学检查"
+        "急性胰腺炎的早期酶学检查"
       ],
       "supplement": true,
-      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
-      "answerSourceLabel": "截图参考答案",
-      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
-      "answerRevision": "20261019-v2",
+      "supplementNotice": "第73题按用户作答截图确认为B，正常判分；解析为复习整理。",
+      "answerSourceLabel": "用户确认答案",
+      "answerSourceName": "2026-10-31用户提供的作答截图：第73题选B",
+      "answerRevision": "20261031-q73-B-v3",
       "options": [
         {
           "key": "A",
@@ -9601,18 +9602,29 @@
           "text": "第73题：男，45 岁，进食高脂餐并饮酒后上腹持续疼痛 8 小时，呕吐 2 次后疼痛无缓解，上腹偏左压痛，反跳痛阳性。该患者最有诊断意义的辅助检查是",
           "answerRaw": "A",
           "answer": [
-            "A"
+            "B"
           ],
-          "answerDisplay": "A",
+          "answerDisplay": "B",
           "answerMode": "单选",
           "answerState": "按截图及明确更正录入",
           "lectureId": "lecture-23",
-          "knowledgePoint": "急性胰腺炎的酶学检查",
-          "explanation": "暴饮暴食、饮酒后持续上腹痛伴呕吐而疼痛不缓解，考虑急性胰腺炎。血清脂肪酶对胰腺来源相对更特异且升高持续较久，所列选A。",
+          "knowledgePoint": "急性胰腺炎的早期酶学检查",
+          "explanation": "本题按用户确认选B（血清淀粉酶）。高脂饮食及饮酒后持续上腹痛，呕吐后不缓解，考虑急性胰腺炎。题干为起病8小时，本卷采用血清淀粉酶作为早期辅助诊断的作答口径；淀粉酶升高仍应结合症状和其他检查判断。",
           "knowledgeConnections": [
-            "胰腺炎诊断结合典型疼痛、胰酶明显升高和影像，通常满足其中两项。"
+            "临床诊断通常结合典型腹痛、胰酶显著升高及影像中的两项；脂肪酶常因特异性及升高持续时间而优先使用，本题依用户确认按B计分。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
+          "answerCorrection": {
+            "from": "A",
+            "to": "B",
+            "source": "用户于2026-10-31提供作答截图并要求按所选答案更新：第73题选B（血清淀粉酶）"
+          },
+          "explanationReferences": [
+            {
+              "title": "ACG急性胰腺炎指南：诊断与胰酶检查",
+              "url": "https://gi.org/guidelines/acute-pancreatitis/"
+            }
+          ],
           "lectureEvidencePages": [
             {
               "lectureId": "lecture-23",
@@ -9627,7 +9639,7 @@
                 73
               ],
               "knowledgePoints": [
-                "急性胰腺炎的酶学检查"
+                "急性胰腺炎的早期酶学检查"
               ]
             }
           ]
@@ -9647,7 +9659,7 @@
             73
           ],
           "knowledgePoints": [
-            "急性胰腺炎的酶学检查"
+            "急性胰腺炎的早期酶学检查"
           ]
         }
       ],
@@ -9664,7 +9676,7 @@
           73
         ],
         "knowledgePoints": [
-          "急性胰腺炎的酶学检查"
+          "急性胰腺炎的早期酶学检查"
         ]
       }
     },
@@ -9679,7 +9691,7 @@
       "sourcePages": [
         15
       ],
-      "title": "精选执医（上） · 第74题 · 胰腺炎感染预防与营养",
+      "title": "精选执医（上） · 第74题 · 胰腺炎的肠内与肠外营养",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -9690,13 +9702,13 @@
       "diseaseTags": [
         "精选执医",
         "执业医师真题（上）",
-        "胰腺炎感染预防与营养"
+        "胰腺炎的肠内与肠外营养"
       ],
       "supplement": true,
-      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
-      "answerSourceLabel": "截图参考答案",
-      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
-      "answerRevision": "20261019-v2",
+      "supplementNotice": "第74题按用户作答截图确认为D，正常判分；解析为复习整理。",
+      "answerSourceLabel": "用户确认答案",
+      "answerSourceName": "2026-10-31用户提供的作答截图：第74题选D",
+      "answerRevision": "20261031-q74-D-v3",
       "options": [
         {
           "key": "A",
@@ -9736,15 +9748,18 @@
           ],
           "answerDisplay": "D",
           "answerMode": "单选",
-          "answerState": "待原题页核对",
+          "answerState": "按截图及明确更正录入",
           "lectureId": "lecture-23",
-          "knowledgePoint": "胰腺炎感染预防与营养",
-          "explanation": "截图答案D且评论列为争议。可行时优先经口或肠内营养，有助维持肠屏障，“尽量采用肠外营养”不当；但现代指南同样不推荐常规预防性抗菌药，故C也有问题，题目难作唯一正确判断，保留D待复核。",
+          "knowledgePoint": "胰腺炎的肠内与肠外营养",
+          "explanation": "本题按用户确认选D（尽量采用肠外营养），题干问“错误的是”。可行时优先经口或肠内营养，有助维持肠道屏障并减少感染相关风险；肠外营养用于肠内营养无法实施、不能耐受或不能满足需求的情况，不能笼统主张“尽量采用”。",
           "knowledgeConnections": [
-            "不应将本题A、B、C、E全部背成现代胰腺炎标准处置；抗菌药用于有指征的感染。"
+            "本卷按D判分；其余旧题选项不能直接当作现代标准处置，例如当前指南不推荐常规预防性使用抗菌药。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
-          "reviewReason": "截图评论列为争议题",
+          "answerConfirmation": {
+            "answer": "D",
+            "source": "用户于2026-10-31提供作答截图并要求按所选答案更新：第74题选D"
+          },
           "explanationReferences": [
             {
               "title": "NICE NG104：胰腺炎营养与抗菌药",
@@ -9765,7 +9780,7 @@
                 74
               ],
               "knowledgePoints": [
-                "胰腺炎感染预防与营养"
+                "胰腺炎的肠内与肠外营养"
               ]
             }
           ]
@@ -9785,7 +9800,7 @@
             74
           ],
           "knowledgePoints": [
-            "胰腺炎感染预防与营养"
+            "胰腺炎的肠内与肠外营养"
           ]
         }
       ],
@@ -9802,7 +9817,7 @@
           74
         ],
         "knowledgePoints": [
-          "胰腺炎感染预防与营养"
+          "胰腺炎的肠内与肠外营养"
         ]
       }
     },

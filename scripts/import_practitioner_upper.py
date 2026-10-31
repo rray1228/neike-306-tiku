@@ -28,7 +28,7 @@ ANSWER_ROWS = [
     'ECDCE', 'CCBDA', 'EDADC', 'ECBDB', 'AA',
 ]
 ANSWERS = ''.join(ANSWER_ROWS)
-PENDING = {72, 74, 89, 90}
+PENDING = {89, 90}
 # First subquestion -> (last, beginning of the first actual question).
 SHARED = {
     5: (6, '该患者此时'), 11: (12, '该患者呼吸困难'),
@@ -82,6 +82,7 @@ REFERENCES = {
     'ards': ('ARDS全球定义原文：排除心源性肺水肿', 'https://doi.org/10.1164/rccm.202303-0558WS'),
     'hcc': ('AASLD肝癌指南：增强CT/MRI及无创诊断', 'https://www.aasld.org/sites/default/files/2022-06/HCC-Guideline-2018.pdf'),
     'pancreatitis': ('NICE NG104：胰腺炎营养与抗菌药', 'https://www.nice.org.uk/guidance/ng104/chapter/Recommendations'),
+    'pancreatitis-diagnosis': ('ACG急性胰腺炎指南：诊断与胰酶检查', 'https://gi.org/guidelines/acute-pancreatitis/'),
     'mds': ('WHO第5版髓系肿瘤分类原文', 'https://www.nature.com/articles/s41375-022-01613-1'),
     'retina': ('NICE NG242：增殖性视网膜病变治疗', 'https://www.nice.org.uk/guidance/ng242/chapter/Recommendations'),
     'intussusception': ('RCH肠套叠指南：超声与灌肠', 'https://www.rch.org.au/clinicalguide/guideline_index/Intussusception/'),
@@ -91,11 +92,12 @@ REFERENCES = {
     'dapt': ('AHA/ACC慢性冠脉病指南：抗血小板疗程', 'https://www.ahajournals.org/doi/10.1161/CIR.0000000000001168'),
     'dka': ('ADA/EASD高血糖危象共识：补液与酸中毒处理', 'https://doi.org/10.2337/dci24-0032'),
     'bph': ('EAU男性下尿路症状指南：TURP手术治疗', 'https://uroweb.org/guidelines/management-of-non-neurogenic-male-luts/chapter/disease-management'),
+    'corticosteroids': ('SCCM 2024糖皮质激素使用指南', 'https://sccm.org/clinical-resources/guidelines/guidelines/use-of-corticosteroids-in-sepsis-ards-cap'),
 }
-QUESTION_REFS = {24:['ards'],46:['dapt'],72:['hcc'],74:['pancreatitis'],
+QUESTION_REFS = {24:['ards'],46:['dapt'],72:['hcc'],73:['pancreatitis-diagnosis'],74:['pancreatitis'],
     89:['mds'],90:['mds'],106:['retina'],139:['intussusception'],
     161:['trauma'],162:['trauma'],169:['testis'],170:['infection'],
-    171:['infection'],172:['infection'],103:['dka'],166:['bph']}
+    171:['infection'],172:['infection'],103:['dka'],166:['bph'],122:['corticosteroids']}
 
 
 def clean(text):
@@ -254,6 +256,12 @@ def build():
                     answerSourceLabel='用户转述教师答案',
                     answerSourceName='2026-10-23用户转述老师确认：第166题选C',
                     supplementNotice='第166题按用户转述的老师讲解更正为C（经尿道前列腺切除术）；解析为复习整理。')
+            if n in {72, 73, 74}:
+                confirmed = {72:'E', 73:'B', 74:'D'}[n]
+                g.update(answerRevision=f'20261031-q{n}-{confirmed}-v3',
+                    answerSourceLabel='用户确认答案',
+                    answerSourceName=f'2026-10-31用户提供的作答截图：第{n}题选{confirmed}',
+                    supplementNotice=f'第{n}题按用户作答截图确认为{confirmed}，正常判分；解析为复习整理。')
             if shared_stem:
                 g.update(sharedStem=shared_stem,sharedQuestionCount=len(qq))
             if common:
@@ -271,7 +279,7 @@ def build():
                             o['category'] = category
                         g['options'].append(o)
                 raw = ANSWERS[num-1]
-                adopted = {24:'A',103:'A',139:'B',166:'C',172:'A',194:'C'}.get(num,raw)
+                adopted = {24:'A',73:'B',103:'A',139:'B',166:'C',172:'A',194:'C'}.get(num,raw)
                 s = {'number':num,'sourceQuestion':num,'sourcePage':q['pages'][0],
                     'text':f'第{num}题：{q["text"]}', 'answerRaw':raw,
                     'answer':[key_for(adopted)], 'answerDisplay':adopted,
@@ -300,6 +308,10 @@ def build():
                     s['answerConfirmation'] = {'answer':'B','source':'用户于2026-10-23明确确认：第162题选B（手术探查）'}
                 if num==166:
                     s['answerCorrection'] = {'from':'E','to':'C','source':'用户于2026-10-23转述老师确认：第166题选C（经尿道前列腺切除术）'}
+                if num in {72, 74}:
+                    s['answerConfirmation'] = {'answer':adopted,'source':f'用户于2026-10-31提供作答截图并要求按所选答案更新：第{num}题选{adopted}'}
+                if num==73:
+                    s['answerCorrection'] = {'from':'A','to':'B','source':'用户于2026-10-31提供作答截图并要求按所选答案更新：第73题选B（血清淀粉酶）'}
                 if num in QUESTION_REFS:
                     s['explanationReferences'] = [{'title':REFERENCES[k][0],'url':REFERENCES[k][1]} for k in QUESTION_REFS[num]]
                 g['stems'].append(s)
