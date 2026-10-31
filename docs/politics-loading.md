@@ -37,3 +37,6 @@ path, so refreshing the political module stays in that subject.
 The original political directory also required `Array.prototype.at`, which
 is absent on older iPad browsers. Entry no longer requires that built-in,
 and the migration avoids `Object.hasOwn` for the same compatibility reason.
+The Sites router itself also uses `Object.hasOwn` before the workbench mounts.
+The root document installs that missing built-in before router scripts run;
+production-browser checks disable both APIs to cover the complete entry path.

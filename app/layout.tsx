@@ -9,6 +9,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="zh-CN">
+      <head>
+        {/* The router also calls this API before the study workbench mounts. */}
+        <script dangerouslySetInnerHTML={{ __html: 'if(!Object.hasOwn){Object.defineProperty(Object,"hasOwn",{value:function(object,key){return Object.prototype.hasOwnProperty.call(object,key)},writable:true,configurable:true})}' }} />
+      </head>
       <body>{children}</body>
     </html>
   );
