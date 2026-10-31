@@ -5,6 +5,7 @@ export const VISITOR_SITE = 'https://rray1228.github.io/neike-306-tiku/'
 export const VISITOR_START = '2026-10-31'
 export const VISITOR_CACHE_KEY = 'visitor-counts-soxft-v1'
 export const VISITOR_IDENTITY_KEY = 'visitor-identity-soxft-v1'
+export const LEGACY_VISITOR_CACHE_KEY = 'visitor-counts-v1'
 
 export const visitorDay = time => new Date(time + 8 * 60 * 60 * 1000).toISOString().slice(0, 10)
 
@@ -24,11 +25,11 @@ export function readVisitorCounts(value) {
 export const visitorBucket = time => `${VISITOR_SITE}__visitor_day__/${visitorDay(time)}`
 
 // Only retain actual service responses. This is a display cache, never a counter.
-export function readVisitorCache(storage, now = Date.now()) {
+export function readVisitorCache(storage, now = Date.now(), key = VISITOR_CACHE_KEY) {
   try {
-    const value = JSON.parse(storage.getItem(VISITOR_CACHE_KEY))
+    const value = JSON.parse(storage.getItem(key))
     if (value?.site !== VISITOR_SITE || !Number.isFinite(value.updatedAt)
-      || value.updatedAt > now || now - value.updatedAt > 7 * 24 * 60 * 60 * 1000) return null
+      || value.updatedAt > now || (key !== LEGACY_VISITOR_CACHE_KEY && now - value.updatedAt > 7 * 24 * 60 * 60 * 1000)) return null
     return { ...validateCounts(value.todayVisitors, value.totalVisitors), updatedAt: value.updatedAt }
   } catch { return null }
 }

@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { advancePractice, completePracticeGroup, HALF_HOUR, newPractice, restorePractice, takePracticeNotice } from './study-milestones.js'
 import { drawEncouragement } from './encouragements.js'
-import { countVisitors, readVisitorCache, writeVisitorCache, visitorDay, VISITOR_START } from './visitor-counts.js'
+import { countVisitors, readVisitorCache, writeVisitorCache, visitorDay, LEGACY_VISITOR_CACHE_KEY } from './visitor-counts.js'
 
 const SESSION_KEY = 'study-practice-session-v1'
 const MESSAGE_KEY = 'study-encouragement-deck-v3'
@@ -128,11 +128,17 @@ export function VisitorCount() {
   const [unavailable, setUnavailable] = useState(false)
   const [loading, setLoading] = useState(true)
   const retryNow = useRef(() => {})
+  const [legacySnapshot, setLegacySnapshot] = useState(null)
+  const [recoveryView, setRecoveryView] = useState(false)
   useEffect(() => {
     let active = true
     let retry
     let failures = 0
     let running = false
+    try { setLegacySnapshot(readVisitorCache(localStorage, Date.now(), LEGACY_VISITOR_CACHE_KEY)) } catch { /* Keep the original cache untouched. */ }
+    const inspectBackup = new URLSearchParams(location.search).get('recoverStats') === '1'
+    setRecoveryView(inspectBackup)
+    if (inspectBackup) requestAnimationFrame(() => document.getElementById('visitor-statistics')?.scrollIntoView({ block: 'center' }))
     try { setCounts(readVisitorCache(localStorage)) } catch { /* Storage may be blocked. */ }
     const refresh = async () => {
       if (!active || running) return
@@ -169,10 +175,11 @@ export function VisitorCount() {
       document.removeEventListener('visibilitychange', visible)
     }
   }, [])
-  const today = counts && visitorDay(counts.updatedAt) === visitorDay(Date.now()) ? counts.todayVisitors.toLocaleString() : '—'
-  return <footer className="visitor-count" title={`统计服务：soxft/busuanzi，按服务端访客标记、IP 和浏览器去重；北京时间划分今日人数。自 ${VISITOR_START} 切换后重新统计，两处网站合并计数。`}>
-    {counts ? <><span>今日访客 <strong>{today}</strong></span><i aria-hidden="true">·</i><span>累计访客 <strong>{counts.totalVisitors.toLocaleString()}</strong></span>{(loading || unavailable) && <span title={`上次成功更新：${new Date(counts.updatedAt).toLocaleString('zh-CN')}`}>暂未更新</span>}</>
-      : <span>{unavailable ? '统计暂不可用' : '访客统计加载中…'}</span>}
-    {unavailable && <button className="visitor-retry" disabled={loading} onClick={() => retryNow.current()} aria-label="重新加载访客统计">{loading ? '重试中…' : '重试'}</button>}
+  // The replacement counter is still recording, but its fresh totals must not
+  // masquerade as the complete historical totals while recovery is unfinished.
+  const today = legacySnapshot && visitorDay(legacySnapshot.updatedAt) === visitorDay(Date.now()) ? legacySnapshot.todayVisitors.toLocaleString() : '—'
+  return <footer id="visitor-statistics" className="visitor-count" title="正在核对原数据库、原统计服务和本机保存的历史快照。新计数继续保存，不用新接口的小数字替代完整历史。">
+    {legacySnapshot ? <><span>今日访客 <strong>{today}</strong></span><i aria-hidden="true">·</i><span>累计访客 <strong>{legacySnapshot.totalVisitors.toLocaleString()}</strong></span><span title={`历史快照保存于 ${new Date(legacySnapshot.updatedAt).toLocaleString('zh-CN')}`}>历史恢复中</span></> : <span>历史访客统计恢复中</span>}
+    {recoveryView && <div className="visitor-recovery-backup"><strong>本机原统计备份</strong><p>{legacySnapshot ? '以下是本浏览器保存过的原统计实际回包，未改写原缓存。' : '本浏览器没有可读取的原统计数字备份。原数据库仍保留，正在核对原统计服务。'}</p>{legacySnapshot && <pre>{JSON.stringify({ source: LEGACY_VISITOR_CACHE_KEY, ...legacySnapshot }, null, 2)}</pre>}<details><summary>本次接入的计数状态（尚未接续历史）</summary><p>{loading ? '同步中' : unavailable ? '同步暂不可用' : '正在保存新计数'}</p>{counts && <pre>{JSON.stringify(counts, null, 2)}</pre>}{unavailable && <button className="visitor-retry" disabled={loading} onClick={() => retryNow.current()}>重试同步</button>}</details></div>}
   </footer>
 }

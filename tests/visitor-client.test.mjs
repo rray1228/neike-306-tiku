@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { createVisitorCounter, readVisitorCounts, readVisitorCache, writeVisitorCache, visitorDay, visitorBucket, VISITOR_API, VISITOR_SITE, VISITOR_CACHE_KEY, VISITOR_IDENTITY_KEY } from '../src/visitor-counts.js'
+import { createVisitorCounter, readVisitorCounts, readVisitorCache, writeVisitorCache, visitorDay, visitorBucket, VISITOR_API, VISITOR_SITE, VISITOR_CACHE_KEY, VISITOR_IDENTITY_KEY, LEGACY_VISITOR_CACHE_KEY } from '../src/visitor-counts.js'
 
 const response = (today = 3, total = 9, headers = {}) => Response.json({ success: true, data: { page_uv: today, site_uv: total, page_pv: 1000, site_pv: 2000 } }, { headers })
 
@@ -90,4 +90,15 @@ test('the persistent display cache survives a reload without inventing visits', 
   assert.equal(readVisitorCache(storage, now), null)
   assert.equal(readVisitorCache({ getItem() { throw new Error('blocked') } }, now), null)
   assert.doesNotThrow(() => writeVisitorCache(counts, { setItem() { throw new Error('blocked') } }, now))
+})
+
+test('old provider snapshots can be read independently and are never overwritten by the replacement counter', () => {
+  const now = Date.now(), values = new Map(), storage = { getItem: key => values.get(key), setItem: (key, value) => values.set(key, value) }
+  const original = JSON.stringify({ site: VISITOR_SITE, todayVisitors: 12, totalVisitors: 34, updatedAt: now })
+  storage.setItem(LEGACY_VISITOR_CACHE_KEY, original)
+  writeVisitorCache({ todayVisitors: 1, totalVisitors: 1 }, storage, now)
+  assert.equal(readVisitorCache(storage, now).totalVisitors, 1)
+  assert.equal(readVisitorCache(storage, now, LEGACY_VISITOR_CACHE_KEY).totalVisitors, 34)
+  assert.equal(storage.getItem(LEGACY_VISITOR_CACHE_KEY), original)
+  assert.equal(readVisitorCache(storage, now + 30 * 86400000, LEGACY_VISITOR_CACHE_KEY).totalVisitors, 34, 'historical evidence is not discarded by the live-cache expiration')
 })
