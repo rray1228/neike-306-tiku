@@ -1,0 +1,21 @@
+{
+  "source": "Sites D1: site_visitors and site_visitor_days",
+  "verifiedAt": "2026-10-31T07:55:27Z",
+  "scope": "Original browser-UUID counter only. This is not the subsequent busuanzi.cc counter, and does not claim to include every visit on 2026-10-31.",
+  "totalVisitors": 152,
+  "visitorsFirstSeenBefore20261031": 145,
+  "dailyVisitors": {
+    "2026-10-28": 27,
+    "2026-10-29": 44,
+    "2026-10-30": 92,
+    "2026-10-31": 14
+  },
+  "newVisitorsByDay": {
+    "2026-10-28": 27,
+    "2026-10-29": 39,
+    "2026-10-30": 79,
+    "2026-10-31": 7
+  },
+  "dailyVisitorRecords": 177,
+  "rawVisitorIds": "Kept in the original private database; not published."
+}
