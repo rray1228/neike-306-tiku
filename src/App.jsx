@@ -134,16 +134,17 @@ const CONTENT_LOADERS = {
     }), reviewedEvidence)
   },
   physiology: async () => {
-    const [content, supplement, exam, endocrineSummary] = await Promise.all([
+    const [content, supplement, exam, endocrineSummary, reviewedEvidence] = await Promise.all([
       loadJson(() => import('./data/physiology-data.json')),
       loadJson(() => import('./data/physiology-teacher-supplement.json')),
       loadJson(() => import('./data/physiology-stage-exam-data.json')),
       loadJson(() => import('./data/physiology-endocrine-summary-data.json')),
+      loadJson(() => import('./data/physiology-reviewed-lecture-evidence.json')),
     ])
-    return appendSupplement(content, {
+    return applyReviewedEvidence(appendSupplement(content, {
       groups: [...supplement.groups, ...exam.groups, ...endocrineSummary.groups],
       pages: [...supplement.pages, ...exam.pages, ...endocrineSummary.pages],
-    })
+    }), reviewedEvidence)
   },
   surgery: async () => {
     const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent, surgeryTeacherContent, surgeryExamContent, surgeryPractitionerContent, updatedEvidence] = await Promise.all([
@@ -1700,7 +1701,8 @@ function EvidencePanel({ subject, content, group, page, sourceName, submitted, s
         {lectureItems.slice(0, 4).map((lecture) => <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 讲 · {currentEvidence?.lectureId === lecture.id ? currentEvidenceLocation : `共 ${lecture.pageCount} 页`}</span></div><span className="relevance">对应</span></div>)}
         <div className="all-lectures">查看全部 {content.meta.lectureCount} 份讲义 <Icon name="right" size={15} /></div>
       </div>
-      {evidencePages.map((evidence) => <div className="evidence-section lecture-proof" key={evidence.image}><div className="lecture-proof-heading"><span>{evidence.questionNumbers?.length ? `第 ${evidence.questionNumbers.join('、')} 题对应讲义` : '对应讲义页'}</span><strong>{evidence.title}</strong><p>{evidence.knowledgePoints?.length ? `${evidence.knowledgePoints.join('；')}。点击图片放大查看。` : '本题组对应的讲义原页，可点击图片放大查看。'}</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(evidence)} aria-label={`放大查看${evidence.title}`}><img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} loading="lazy" /><span><Icon name="eye" size={16} />点击放大查看讲义原页</span></button></div>)}
+      {group.lectureEvidenceNotice ? <p className="lecture-evidence-notice">{group.lectureEvidenceNotice}</p> : null}
+      {evidencePages.map((evidence) => <div className="evidence-section lecture-proof" key={evidence.image}><div className="lecture-proof-heading"><span>{evidence.questionNumbers?.length ? `第 ${evidence.questionNumbers.join('、')} 题对应讲义` : '对应讲义页'}{evidence.optionKeys?.length ? ` · 选项 ${evidence.optionKeys.join('、')}` : ''}</span><strong>{evidence.title}</strong><p>{evidence.knowledgePoints?.length ? `${evidence.knowledgePoints.join('；')}。点击图片放大查看。` : '本题组对应的讲义原页，可点击图片放大查看。'}</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(evidence)} aria-label={`放大查看${evidence.title}`}><img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} loading="lazy" /><span><Icon name="eye" size={16} />点击放大查看讲义原页</span></button></div>)}
       {page?.image ? <div className="source-thumb"><img src={assetPath(page.image)} alt={`题库原题第 ${group.page} 页`} /><button onClick={() => setShowSource(true)}><Icon name="eye" size={16} /></button></div> : null}
       </div>
     </aside>
@@ -1721,7 +1723,7 @@ function SourceModal({ group, page, pages = [], sourceName, onClose }) {
 }
 
 function LectureEvidenceModal({ evidence: initialEvidence, pages = [], notice, onClose, contextLabel = '本题组对应的讲义原页' }) {
-  const evidencePages = pages.length ? pages : (initialEvidence ? [initialEvidence] : [])
+  const evidencePages = initialEvidence && !initialEvidence.image ? [] : (pages.length ? pages : (initialEvidence ? [initialEvidence] : []))
   const [pageIndex, setPageIndex] = useState(() => Math.max(0, evidencePages.findIndex(page => page.image === initialEvidence?.image)))
   const [zoom, setZoom] = useState(1)
   const evidence = evidencePages[pageIndex] || initialEvidence

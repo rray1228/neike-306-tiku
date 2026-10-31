@@ -53,3 +53,18 @@ python3 scripts/render_physiology_collection_pages.py /path/to/27跟课生理合
 
 若重新生成题库数据，应保留当前 `lectureEvidence.image`、`sourceFile`、
 `collectionPage` 和合集标题，以及内分泌小结中对应的三张来源图片。
+
+## 按小题和选项关联讲义
+
+`lecture-evidence-review.json` 保存 405 个题组、809 个小题及选项的独立页码。
+`src/data/physiology-reviewed-lecture-evidence.json` 是网站实际加载的关联表，
+覆盖基础题、课后巩固、阶段测试和内分泌小结，共使用 262 张原页。
+题干关联与选项关联分别保存；未在该合集展开的考点显式留空并保留审核备注。
+
+```bash
+python3 scripts/build_physiology_reviewed_evidence.py
+python3 scripts/render_physiology_collection_pages.py /path/to/27跟课生理合集【带导图】.pdf \
+  --manifest src/data/physiology-reviewed-lecture-evidence.json --only-missing
+```
+
+网站在所有生理题目来源合并后统一应用关联表；重建基础题库不会丢失逐小题定位。

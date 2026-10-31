@@ -521,6 +521,17 @@ def finalize_group(source_group: dict, lectures: list[dict], page_vectors: dict)
 
     review_notes = apply_correction(group)
     apply_option_split(group)
+    if group["id"] == "phys-010":
+        group["title"] = "第二信使与 Ca²⁺ 的靶分子"
+        statements = [
+            "参与 G 蛋白耦联受体（GPCR）信号转导的第二信使有哪些？（多选）",
+            "鸟苷酸环化酶（GC）受体信号通路的第二信使是",
+            "PI3K/AKT 信号通路的第二信使是",
+            "Ca²⁺ 的靶分子有哪些？（多选）",
+        ]
+        for stem, statement in zip(group["stems"], statements, strict=True):
+            stem["text"] = statement
+        next(option for option in group["options"] if option["key"] == "G")["label"] = "IP₃、Ca²⁺、DG/DAG"
     evidence = best_evidence(group, lectures, page_vectors)
     correction = CORRECTIONS.get(group["id"], {})
     if correction.get("evidence_page"):

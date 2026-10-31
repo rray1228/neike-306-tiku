@@ -2384,7 +2384,7 @@
     {
       "id": "phys-010",
       "page": 9,
-      "title": "G 蛋白耦联受体GPCR（多选）等",
+      "title": "第二信使与 Ca²⁺ 的靶分子",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -2438,7 +2438,7 @@
         },
         {
           "key": "G",
-          "label": "IP3 、 Ca2+ DG/DAG",
+          "label": "IP₃、Ca²⁺、DG/DAG",
           "sourceText": "E.IP3 、 Ca2+ DG/DAG",
           "splitFrom": [
             "E"
@@ -2456,7 +2456,7 @@
       "stems": [
         {
           "number": 1,
-          "text": "G 蛋白耦联受体GPCR（多选）",
+          "text": "参与 G 蛋白耦联受体（GPCR）信号转导的第二信使有哪些？（多选）",
           "sourceText": "1.G 蛋白耦联受体GPCR（多选）：",
           "answerRaw": "ABG",
           "answer": [
@@ -2468,7 +2468,7 @@
         },
         {
           "number": 2,
-          "text": "鸟苷酸环化酶GC 受体",
+          "text": "鸟苷酸环化酶（GC）受体信号通路的第二信使是",
           "sourceText": "2. 鸟苷酸环化酶GC 受体：",
           "answerRaw": "B",
           "answer": [
@@ -2478,7 +2478,7 @@
         },
         {
           "number": 3,
-          "text": "PI3K/AKT",
+          "text": "PI3K/AKT 信号通路的第二信使是",
           "sourceText": "3.PI3K/AKT：",
           "answerRaw": "F",
           "answer": [
@@ -2488,7 +2488,7 @@
         },
         {
           "number": 4,
-          "text": "Ca2+的靶分子（多选）",
+          "text": "Ca²⁺ 的靶分子有哪些？（多选）",
           "sourceText": "4.Ca2+的靶分子（多选）：",
           "answerRaw": "CDEH",
           "answer": [
