@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { advancePractice, completePracticeGroup, HALF_HOUR, newPractice, restorePractice, takePracticeNotice } from './study-milestones.js'
 import { drawEncouragement } from './encouragements.js'
-import { countVisitors, VISITOR_START } from './visitor-counts.js'
+import { countVisitors, readVisitorCache, writeVisitorCache, visitorDay, VISITOR_START } from './visitor-counts.js'
 
 const SESSION_KEY = 'study-practice-session-v1'
 const MESSAGE_KEY = 'study-encouragement-deck-v3'
@@ -126,25 +126,35 @@ export function EncouragementDialog({ notice, onDismiss }) {
 export function VisitorCount() {
   const [counts, setCounts] = useState(null)
   const [unavailable, setUnavailable] = useState(false)
+  const [loading, setLoading] = useState(true)
+  const retryNow = useRef(() => {})
   useEffect(() => {
     let active = true
     let retry
     let failures = 0
     let running = false
+    try { setCounts(readVisitorCache(localStorage)) } catch { /* Storage may be blocked. */ }
     const refresh = async () => {
       if (!active || running) return
       clearTimeout(retry)
       running = true
+      setLoading(true)
       try {
         const value = await countVisitors()
-        if (active) { setCounts(value); setUnavailable(false); failures = 0 }
+        if (active) {
+          const updatedAt = Date.now()
+          setCounts({ ...value, updatedAt }); setUnavailable(false); failures = 0
+          try { writeVisitorCache(value, localStorage, updatedAt) } catch { /* Storage may be blocked. */ }
+        }
       } catch {
         if (active) {
           setUnavailable(true)
+          setCounts(previous => previous ? { ...previous } : null)
           retry = setTimeout(refresh, [2_000, 10_000, 30_000, 60_000][Math.min(failures++, 3)])
         }
-      } finally { running = false }
+      } finally { running = false; if (active) setLoading(false) }
     }
+    retryNow.current = refresh
     const visible = () => { if (document.visibilityState === 'visible') refresh() }
     refresh()
     window.addEventListener('online', refresh)
@@ -152,14 +162,17 @@ export function VisitorCount() {
     const interval = setInterval(visible, 60_000)
     return () => {
       active = false
+      retryNow.current = () => {}
       clearTimeout(retry)
       clearInterval(interval)
       window.removeEventListener('online', refresh)
       document.removeEventListener('visibilitychange', visible)
     }
   }, [])
+  const today = counts && visitorDay(counts.updatedAt) === visitorDay(Date.now()) ? counts.todayVisitors.toLocaleString() : '—'
   return <footer className="visitor-count" title={`统计服务：不蒜子，按服务端 IP 等规则去重；自 ${VISITOR_START} 起，两处网站合并计数。`}>
-    {counts ? <><span>今日访客 <strong>{counts.todayVisitors.toLocaleString()}</strong></span><i aria-hidden="true">·</i><span>累计访客 <strong>{counts.totalVisitors.toLocaleString()}</strong></span>{unavailable && <span>暂未更新</span>}</>
-      : <span>{unavailable ? '访客统计连接中，稍后自动重试…' : '访客统计加载中…'}</span>}
+    {counts ? <><span>今日访客 <strong>{today}</strong></span><i aria-hidden="true">·</i><span>累计访客 <strong>{counts.totalVisitors.toLocaleString()}</strong></span>{(loading || unavailable) && <span title={`上次成功更新：${new Date(counts.updatedAt).toLocaleString('zh-CN')}`}>暂未更新</span>}</>
+      : <span>{unavailable ? '统计暂不可用' : '访客统计加载中…'}</span>}
+    {unavailable && <button className="visitor-retry" disabled={loading} onClick={() => retryNow.current()} aria-label="重新加载访客统计">{loading ? '重试中…' : '重试'}</button>}
   </footer>
 }

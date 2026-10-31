@@ -30,6 +30,16 @@ numbers are labelled as not updated if refresh fails. A failure never displays
 zero or increments counts locally. The client still cannot guarantee delivery
 during a complete network outage or blocking of the replacement service.
 
+Successful service responses are also cached in the current browser for up to
+seven days, keyed to this site's counter. Reloading can display the last received
+values while reconnecting, marked as not updated. A daily value from an earlier
+Shanghai date is shown as a dash, never as today's count. Corrupt, future-dated,
+expired or other-site cache entries are ignored. No cache entry is a visitor ID.
+Without a valid response or cache, failures show “统计暂不可用” with a retry
+button instead of claiming to be continuously connecting. Background retries
+continue. This preserves honest failure feedback; it cannot repair a third-party
+service outage or reconstruct visits it did not receive.
+
 GitHub Pages must not fall back to `chatgpt.site/api/visits`; that would restore
 the original regional reachability problem. Local browser QA must block that
 legacy endpoint and verify the footer still receives independent counts.
