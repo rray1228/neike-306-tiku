@@ -1,0 +1,46 @@
+// Both publications belong to one counter. Never send the reader's query,
+// answers, browser identifier or referring page to the statistics service.
+export const VISITOR_API = 'https://cdn.busuanzi.cc/api.php'
+export const VISITOR_SITE = 'https://rray1228.github.io/neike-306-tiku/'
+export const VISITOR_START = '2026-10-31'
+export const LEGACY_VISITORS = { count: 152, capturedAt: '2026-10-31 09:11（北京时间）' }
+
+export function readVisitorCounts(value) {
+  const todayVisitors = value?.busuanzi_today_uv
+  const totalVisitors = value?.busuanzi_site_uv
+  if (!Number.isSafeInteger(todayVisitors) || !Number.isSafeInteger(totalVisitors)
+    || todayVisitors < 0 || totalVisitors < todayVisitors) throw new Error('Invalid visitor statistics')
+  return { todayVisitors, totalVisitors }
+}
+
+export function createVisitorCounter(fetcher = (...args) => fetch(...args), now = Date.now) {
+  let pending = null
+  let lastSuccess = null
+  return function countVisitors() {
+    const day = new Date(now() + 8 * 60 * 60 * 1000).toISOString().slice(0, 10)
+    if (lastSuccess?.day === day && now() - lastSuccess.time < 60_000) return Promise.resolve(lastSuccess.counts)
+    if (pending?.day === day) return pending.promise
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), 8_000)
+    const promise = Promise.resolve().then(() => fetcher(VISITOR_API, {
+      method: 'POST',
+      // A CORS simple request avoids an extra preflight that can be blocked.
+      headers: { 'Content-Type': 'text/plain;charset=UTF-8' },
+      body: JSON.stringify({ url: VISITOR_SITE, referrer: '' }),
+      credentials: 'omit', referrerPolicy: 'no-referrer', signal: controller.signal,
+    })).then(async response => {
+      if (!response.ok) throw new Error('Visitor service unavailable')
+      return readVisitorCounts(await response.json())
+    }).then(counts => {
+      lastSuccess = { counts, day, time: now() }
+      return counts
+    }).finally(() => {
+      clearTimeout(timeout)
+      if (pending?.promise === promise) pending = null
+    })
+    pending = { day, promise }
+    return promise
+  }
+}
+
+export const countVisitors = createVisitorCounter()

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { advancePractice, completePracticeGroup, HALF_HOUR, newPractice, restorePractice, takePracticeNotice } from './study-milestones.js'
 import { drawEncouragement } from './encouragements.js'
+import { countVisitors, LEGACY_VISITORS, VISITOR_START } from './visitor-counts.js'
 
 const SESSION_KEY = 'study-practice-session-v1'
 const MESSAGE_KEY = 'study-encouragement-deck-v3'
@@ -124,22 +125,42 @@ export function EncouragementDialog({ notice, onDismiss }) {
 
 export function VisitorCount() {
   const [counts, setCounts] = useState(null)
+  const [unavailable, setUnavailable] = useState(false)
   useEffect(() => {
     let active = true
-    let visitorId
-    try {
-      visitorId = localStorage.getItem('study-visitor-id')
-      if (!/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(visitorId || '')) { visitorId = crypto.randomUUID(); localStorage.setItem('study-visitor-id', visitorId) }
-    } catch { visitorId = crypto.randomUUID() }
-    const api = location.hostname.endsWith('.github.io') ? 'https://neike-306-tiku.phamkhanhs87501.chatgpt.site/api/visits' : '/api/visits'
-    fetch(api, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ visitorId }) })
-      .then(response => { if (!response.ok) throw new Error('Unavailable'); return response.json() })
-      .then(value => { if (active && Number.isInteger(value.todayVisitors) && Number.isInteger(value.totalVisitors)) setCounts(value) })
-      .catch(() => { if (active) setCounts(false) })
-    return () => { active = false }
+    let retry
+    let failures = 0
+    let running = false
+    const refresh = async () => {
+      if (!active || running) return
+      clearTimeout(retry)
+      running = true
+      try {
+        const value = await countVisitors()
+        if (active) { setCounts(value); setUnavailable(false); failures = 0 }
+      } catch {
+        if (active) {
+          setUnavailable(true)
+          retry = setTimeout(refresh, [2_000, 10_000, 30_000, 60_000][Math.min(failures++, 3)])
+        }
+      } finally { running = false }
+    }
+    const visible = () => { if (document.visibilityState === 'visible') refresh() }
+    refresh()
+    window.addEventListener('online', refresh)
+    document.addEventListener('visibilitychange', visible)
+    const interval = setInterval(visible, 60_000)
+    return () => {
+      active = false
+      clearTimeout(retry)
+      clearInterval(interval)
+      window.removeEventListener('online', refresh)
+      document.removeEventListener('visibilitychange', visible)
+    }
   }, [])
-  return <footer className="visitor-count" title="从统计功能上线起记录；按浏览器标识去重，不同设备分别计数。">
-    {counts ? <><span>今日访客 <strong>{counts.todayVisitors.toLocaleString()}</strong></span><i aria-hidden="true">·</i><span>累计访客 <strong>{counts.totalVisitors.toLocaleString()}</strong></span></>
-      : <span>{counts === false ? '访客统计暂不可用' : '访客统计加载中…'}</span>}
+  return <footer className="visitor-count" title={`统计服务：不蒜子，按服务端 IP 等规则去重；新统计自 ${VISITOR_START} 起，两处网站合并计数。旧浏览器口径快照：${LEGACY_VISITORS.capturedAt}共 ${LEGACY_VISITORS.count}；原数据库保留，新旧不相加。`}>
+    {counts ? <><span>今日访客 <strong>{counts.todayVisitors.toLocaleString()}</strong></span><i aria-hidden="true">·</i><span>新累计访客 <strong>{counts.totalVisitors.toLocaleString()}</strong></span>{unavailable && <span>暂未更新</span>}</>
+      : <span>{unavailable ? '访客统计连接中，稍后自动重试…' : '访客统计加载中…'}</span>}
+    <small>10月31日起 · 旧统计 {LEGACY_VISITORS.count}</small>
   </footer>
 }
