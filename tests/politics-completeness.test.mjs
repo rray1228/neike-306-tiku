@@ -36,7 +36,7 @@ test('existing 333 answers and storage IDs are retained; every new item has sour
  for(const g of old)assert.deepEqual(content.groups.find(x=>x.id===g.id).stems,g.stems)
  for(const g of content.groups){
   assert.ok(content.lectures.some(l=>l.id===g.lectureIds[0]&&l.topic===g.topic))
-  assert.ok(g.lectureEvidence?.image?.startsWith('data:image/webp;base64,'))
+  assert.ok(g.lectureEvidence?.image?.match(/^\/politics\/reference-pages\/[a-f0-9]{24}\.webp$/))
  }
  for(const g of [...extra.groups,...homework.groups])for(const s of g.stems){
   assert.ok(s.text&&s.explanation&&s.answerPdfPage)

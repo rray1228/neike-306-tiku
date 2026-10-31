@@ -14,7 +14,7 @@ test('all 17 original matching exercises retain their source pages, item counts 
     assert.deepEqual(g.stems.map(s=>s.number),Array.from({length:g.stems.length},(_,i)=>i+1))
     assert.deepEqual(g.options.map(o=>o.key),Array.from({length:g.options.length},(_,i)=>String.fromCharCode(65+i)))
     assert.deepEqual(g.options.map(o=>o.sourceNumber),g.stems.map(s=>s.number))
-    assert.ok(data.referenceImages[g.lectureEvidence.image]?.startsWith('data:image/webp;base64,'))
+    assert.ok(data.referenceImages[g.lectureEvidence.image]?.match(/^\/politics\/reference-pages\/[a-f0-9]{24}\.webp$/))
   }
 })
 test('all 136 answers agree with the independently reviewed PDF key and retain storage IDs', () => {

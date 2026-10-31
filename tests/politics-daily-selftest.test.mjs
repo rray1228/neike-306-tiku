@@ -12,16 +12,19 @@ const combined = organizePoliticsContent(...previous, daily)
 test('the complete thirty-day workbook retains all 149 original question numbers, continuations and fill slots', () => {
   const counts = [5,6,5,4,5,8,9,6,4,6,6,7,5,4,5,3,4,3,5,5,4,5,5,4,4,3,5,5,4,5]
   assert.equal(daily.meta.stemCount, 149)
-  assert.equal(daily.meta.blankCount, 488)
+  assert.equal(daily.meta.blankCount, 468)
+  assert.equal(daily.meta.legacyBlankCount, 488)
   for (let day = 1; day <= 30; day++) {
     const groups = daily.groups.filter(g => g.day === day)
     const stems = groups.flatMap(g => g.stems).sort((a,b) => a.number - b.number)
     assert.deepEqual(stems.map(s => s.number), Array.from({length:counts[day-1]}, (_,i) => i+1), `Day${day}`)
     for (const group of groups) {
       assert.ok(group.dailySelftest && group.pendingAnswers && group.bookSelftest)
-      assert.ok(daily.referenceImages[group.lectureEvidence.image].startsWith('data:image/webp;base64,'))
+      assert.ok(daily.referenceImages[group.lectureEvidence.image].match(/^\/politics\/reference-pages\/[a-f0-9]{24}\.webp$/))
       for (const stem of group.stems) {
-        assert.ok(stem.image.startsWith('data:image/webp;base64,'))
+        assert.ok(!stem.image)
+        assert.ok(stem.originalImage.match(/^\/politics\/reference-pages\/[a-f0-9]{24}\.webp$/))
+        assert.deepEqual([...stem.text.matchAll(/【空(\d+)】/g)].map(match => Number(match[1])), Array.from({ length: stem.blankCount }, (_, index) => index + 1))
         assert.equal(stem.answerState, '待补答案')
         assert.equal(stem.answerMode, '填空')
         assert.equal(stem.answer.length, stem.blankCount)

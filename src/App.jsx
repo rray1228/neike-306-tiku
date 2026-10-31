@@ -7,6 +7,7 @@ import { questionBankUrl, scopeTestContent, studyViewUrl, testCollectionForSubje
 import testCatalog from './data/supplement-tests-catalog.json'
 import { applyReviewedEvidence, lectureForStem } from './med-lecture-evidence.js'
 import { organizePoliticsContent } from './politics-navigation.js'
+import { migratePoliticsAnswers } from './politics-answers.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
 import { fillNavigationTarget } from './fill-navigation.js'
 import { EncouragementDialog, usePracticeEncouragement, VisitorCount } from './StudySupport.jsx'
@@ -708,7 +709,6 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   const [loadedContent, setLoadedContent] = useState(null)
   const loadedSubjectRef = useRef(null)
   const [loadError, setLoadError] = useState(null)
-  const [loadAttempt, setLoadAttempt] = useState(0)
   const [storageReady, setStorageReady] = useState(false)
   const [viewMode, setViewMode] = useState(initialView)
   const content = useMemo(() => loadedContent && loadedSubjectRef.current === subject ? scopeTestContent(loadedContent, viewMode === 'tests' ? TEST_COLLECTIONS[subject] : testPaper) : EMPTY_CONTENT, [loadedContent, testPaper, subject, viewMode])
@@ -884,13 +884,25 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     let cancelled = false
     setLoadedContent(null)
     setLoadError(null)
+    const slow = setTimeout(() => {
+      if (!cancelled) setLoadError('连接较慢，可以刷新重试或切换其他科目。')
+    }, 15_000)
     CONTENT_LOADERS[subject]().then((nextContent) => {
+      clearTimeout(slow)
       if (!cancelled) { loadedSubjectRef.current = subject; setLoadedContent(nextContent) }
     }).catch(() => {
+      clearTimeout(slow)
       if (!cancelled) setLoadError('题库数据暂时加载失败，请检查网络后重试。')
     })
-    return () => { cancelled = true }
-  }, [subject, loadAttempt, storageReady, viewMode])
+    return () => { cancelled = true; clearTimeout(slow) }
+  }, [subject, storageReady, viewMode])
+
+  useEffect(() => {
+    if (subject !== 'politics' || !loadedContent || !storageReady) return
+    const migrated = migratePoliticsAnswers(selections, submitted, loadedContent.groups)
+    if (migrated.selections !== selections) setSelections(migrated.selections)
+    if (migrated.submitted !== submitted) setSubmitted(migrated.submitted)
+  }, [subject, loadedContent, storageReady])
 
   useEffect(() => {
     if (!chapterId || !loadedContent || typeof window === 'undefined') return undefined
@@ -1316,11 +1328,9 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     const nextConfig = SUBJECTS[nextSubject]
     setSubject(nextSubject)
     setTestSourceFilter('')
-    if (viewMode === 'tests') {
-      const url = new URL(window.location.href)
-      url.searchParams.set('subject', nextSubject)
-      window.history.replaceState(null, '', url)
-    }
+    const url = new URL(window.location.href)
+    url.searchParams.set('subject', nextSubject)
+    window.history.replaceState(null, '', url)
     setTopic(viewMode === 'tests' ? '全部' : nextConfig.defaultTopic)
     setChapterId('')
     setJumpGroupId('')
@@ -1340,7 +1350,13 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
         <div className="app-loading-mark"><Icon name="book" size={26} stroke="white" /></div>
         <strong>{loadError || `正在加载${subjectConfig.label}题库`}</strong>
         <span>{loadError ? '已加载的学习记录不会丢失。' : '首次进入只下载当前科目，切换其他科目时再加载。'}</span>
-        {loadError && <button className="primary-button app-loading-retry" onClick={() => setLoadAttempt((value) => value + 1)}>重新加载 <Icon name="right" size={16} /></button>}
+        {loadError && <button className="primary-button app-loading-retry" onClick={() => {
+          const url = new URL(window.location.href)
+          url.searchParams.set('subject', subject)
+          window.history.replaceState(null, '', url)
+          window.location.reload()
+        }}>刷新重试 <Icon name="right" size={16} /></button>}
+        <div className="subject-switch" aria-label="加载时切换科目">{Object.entries(SUBJECTS).sort(([a], [b]) => (a === 'politics') - (b === 'politics')).map(([key, item]) => <button key={key} className={subject === key ? 'active' : ''} onClick={() => switchSubject(key)}>{item.label}</button>)}</div>
       </main>
     )
   }
@@ -1652,7 +1668,7 @@ function PoliticsEvidence({ group, submitted, mobileEvidence, evidenceCollapsed,
       <div className="evidence-section"><div className="evidence-title"><span className="evidence-icon"><Icon name="file" size={18} /></span><div><h2>{group.bookSelftest ? '自测依据' : '作业依据'}</h2><p>{group.lectureEvidence.pageLabel}</p></div><button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="close" size={16} /></button></div>
         <div className="politics-source-note"><strong>{group.unit} · {group.kindLabel}</strong><p>{group.studyNotice}</p><p>{group.dailySelftest ? `Day${group.day} · 本组 ${group.stems.length} 个小题 · 参考答案待补` : <>参考《{group.answerDocumentLabel || '技巧班课后作业答案'}》PDF 第 {group.answerPageRange || group.answerPdfPage} 页 · 本组 {group.stems.length} 个小题</>}</p><button className="ghost-button" onClick={() => setReveal(value => !value)}>{reveal ? '收起原题' : group.bookSelftest ? '查看本组自测原题' : '查看本组作业原题'}</button></div>
       </div>
-      {reveal ? <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><strong>{group.lectureEvidence.title}</strong><p>原页题号保留在图片中，点击放大核对。</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${group.lectureEvidence.title}`}><img src={group.lectureEvidence.image} alt={group.lectureEvidence.title} /><span><Icon name="eye" size={16} />放大查看</span></button></div> : null}
+      {reveal ? <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><strong>{group.lectureEvidence.title}</strong><p>原页题号保留在图片中，点击放大核对。</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${group.lectureEvidence.title}`}><img src={assetPath(group.lectureEvidence.image)} alt={group.lectureEvidence.title} /><span><Icon name="eye" size={16} />放大查看</span></button></div> : null}
     </div>
   </aside>
   return <aside className={`evidence-panel ${mobileEvidence ? 'mobile-visible' : ''} ${evidenceCollapsed ? 'is-collapsed' : ''}`}>
@@ -1660,7 +1676,7 @@ function PoliticsEvidence({ group, submitted, mobileEvidence, evidenceCollapsed,
     <div className="evidence-panel-content">
       <div className="evidence-section"><div className="evidence-title"><span className="evidence-icon"><Icon name="file" size={18} /></span><div><h2>手册依据</h2><p>{group.originalMatching ? group.lectureEvidence.pageLabel : '书内第 3—4 页 · PDF 第 7—8 页'}</p></div><button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="close" size={16} /></button></div>
       <div className="politics-source-note"><strong>{group.originalMatching ? `${group.unit} · ${group.sourceRange}` : '专题一 · 13 项考点'}</strong><p>{group.originalMatching ? (group.pendingAnswers ? '原书连线题的题干与选项已按原顺序录入。A、B…依次对应原①、②…；未填写参考答案，当前只保存选择。' : `A、B…依次对应原①、②…；已按《自测答案》第 ${group.answerPdfPage} 页核对，提交后显示对错和参考选项。`) : '题目由手册表格改编。先独立匹配，提交后核对；每题选项独立，可以重复使用。'}</p><p>{group.originalMatching ? `原第 ${group.sourceQuestion} 大题 · ${group.stems.length} 个小题 · ${group.pendingAnswers ? '待补答案' : '已配参考答案'}` : '正向匹配 → 反向匹配 → 易混辨析'}</p><button className="ghost-button" onClick={() => setReveal((value) => !value)}>{reveal ? '收起原文' : group.originalMatching ? '查看连线原题' : submitted ? '查看原文依据' : '提前查看原文（含答案）'}</button></div></div>
-      {reveal ? <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><strong>{group.lectureEvidence.title}</strong><p>{group.originalMatching ? '仅显示本组连线原题，点击放大核对。' : '仅显示专题一对应内容，点击放大。'}</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${group.lectureEvidence.title}`}><img src={group.lectureEvidence.image} alt={group.lectureEvidence.title} /><span><Icon name="eye" size={16} />放大查看</span></button></div> : null}
+      {reveal ? <div className="evidence-section lecture-proof"><div className="lecture-proof-heading"><strong>{group.lectureEvidence.title}</strong><p>{group.originalMatching ? '仅显示本组连线原题，点击放大核对。' : '仅显示专题一对应内容，点击放大。'}</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(true)} aria-label={`放大查看${group.lectureEvidence.title}`}><img src={assetPath(group.lectureEvidence.image)} alt={group.lectureEvidence.title} /><span><Icon name="eye" size={16} />放大查看</span></button></div> : null}
     </div>
   </aside>
 }

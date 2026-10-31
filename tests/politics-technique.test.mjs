@@ -13,7 +13,7 @@ test('technique homework covers eight source matching sets, all judgements and e
  for(const g of data.groups){
   assert.equal(g.page,g.pdfPage-7)
   assert.ok(data.lectures.some(l=>l.id===g.lectureIds[0]&&l.topic===g.topic))
-  assert.ok(data.referenceImages[g.lectureEvidence.image].startsWith('data:image/webp;base64,'))
+  assert.ok(data.referenceImages[g.lectureEvidence.image].match(/^\/politics\/reference-pages\/[a-f0-9]{24}\.webp$/))
   for(const s of g.stems){
    assert.ok(s.text&&s.answer.length&&s.explanation)
    assert.ok(s.answerPdfPage>=1&&s.answerPdfPage<=9)

@@ -32,7 +32,8 @@ export function organizePoliticsContent(practice, matching, technique, bookCompl
     const counters = new Map()
     const chapterMap = new Map()
     for (const lecture of data.lectures) {
-      const candidate = lecture.topic.split(' · ').at(-1)
+      const parts = lecture.topic.split(' · ')
+      const candidate = parts[parts.length - 1]
       const topic = POLITICS_SUBJECTS.includes(candidate) ? candidate : '马原'
       const number = (counters.get(topic) || 0) + 1
       counters.set(topic, number)
