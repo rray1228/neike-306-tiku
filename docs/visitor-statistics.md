@@ -27,33 +27,20 @@ notes, referring page, old UUID or other service credential is sent. No external
 JavaScript is executed. CORS preflight and real POST responses were checked
 from both production origins, including repeat UV deduplication.
 
-The user requires the entire history, including the later counter's reported
-several hundred visits today. A new provider's small total must not be labelled
-as that complete history. The normal footer therefore indicates historical
-recovery is pending; if the current browser retains an original response, it
-shows that untouched snapshot with an explicit recovery label. New recording
-continues independently and is cached, so ongoing visits are not discarded.
+The owner stopped historical recovery on 2026-10-31. The footer now shows
+current daily UV and “本期累计”, explicitly dated “10月31日起”. These values
+are real responses from the new provider and do not include earlier history.
+They are not represented as complete historical totals.
 
-`?recoverStats=1#visitor-statistics` opens a local-only backup inspection view.
-It reads `visitor-counts-v1` without modifying or uploading that original cache.
-The replacement counter's independent data is explicitly labelled separately.
+The original `visitor-counts-v1` cache, original D1 visitor tables and recovery
+snapshots are retained unchanged. The verified early database aggregate is in
+`visitor-history-d1-20261031.json`; it is only the earliest counter. No guessed
+baseline or additive merge has been applied.
 
-The old D1 database remains intact. Its verified 152 distinct visitors and 177
-daily entries are documented in `visitor-history-d1-20261031.json`. This is only
-the earliest counter, not all later traffic on 2026-10-31. In particular it does
-not disprove or replace the user's recollection of seven hundred plus visits.
-
-`/api/visitor-recovery` tries the original public provider from the server's
-network and retains a valid recovery snapshot in D1. Attempts are limited to
-one per ten minutes, and page navigation can trigger a background attempt.
-Successful payloads are preserved for metric verification. Values below the
-user's reported historical range are preserved as evidence but cannot be
-declared restored. The threshold is a sanity check, never a displayed count.
-`?source=dashboard` reads the fixed original public statistics page from the
-server, without accepting arbitrary target URLs. Neither operation changes the
-original visitor tables. Recovery remains incomplete until the actual later
-provider data is retrieved and reconciled; unreceived or unavailable records
-must not be fabricated from memory, traffic estimates or a new small counter.
+Navigation no longer starts recovery requests. `/api/visitor-recovery` returns
+410 with `stopped: true` and performs no database or external network calls.
+The optional `?recoverStats=1#visitor-statistics` view only reads the existing
+local cache, and states that recovery has stopped. It does not upload it.
 
 Requests time out after eight seconds, share one in-flight request and reuse
 successes for one minute. Successful responses are also cached for seven days
