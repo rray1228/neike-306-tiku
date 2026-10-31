@@ -18,7 +18,8 @@ definitions must not be added together.
 
 The old D1 tables and handler remain intact. A read-only snapshot of
 `site_visitors` contained **152** records at **2026-10-31 09:11 Asia/Shanghai**.
-The footer labels this historical snapshot separately. No prior visitor IDs
+The footer only shows the current provider's daily and cumulative counts;
+the historical snapshot is not displayed. No prior visitor IDs
 were transferred to the new provider. Visits that never reached the old
 endpoint cannot be reconstructed.
 

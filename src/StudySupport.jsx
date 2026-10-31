@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { advancePractice, completePracticeGroup, HALF_HOUR, newPractice, restorePractice, takePracticeNotice } from './study-milestones.js'
 import { drawEncouragement } from './encouragements.js'
-import { countVisitors, LEGACY_VISITORS, VISITOR_START } from './visitor-counts.js'
+import { countVisitors, VISITOR_START } from './visitor-counts.js'
 
 const SESSION_KEY = 'study-practice-session-v1'
 const MESSAGE_KEY = 'study-encouragement-deck-v3'
@@ -158,9 +158,8 @@ export function VisitorCount() {
       document.removeEventListener('visibilitychange', visible)
     }
   }, [])
-  return <footer className="visitor-count" title={`统计服务：不蒜子，按服务端 IP 等规则去重；新统计自 ${VISITOR_START} 起，两处网站合并计数。旧浏览器口径快照：${LEGACY_VISITORS.capturedAt}共 ${LEGACY_VISITORS.count}；原数据库保留，新旧不相加。`}>
-    {counts ? <><span>今日访客 <strong>{counts.todayVisitors.toLocaleString()}</strong></span><i aria-hidden="true">·</i><span>新累计访客 <strong>{counts.totalVisitors.toLocaleString()}</strong></span>{unavailable && <span>暂未更新</span>}</>
+  return <footer className="visitor-count" title={`统计服务：不蒜子，按服务端 IP 等规则去重；自 ${VISITOR_START} 起，两处网站合并计数。`}>
+    {counts ? <><span>今日访客 <strong>{counts.todayVisitors.toLocaleString()}</strong></span><i aria-hidden="true">·</i><span>累计访客 <strong>{counts.totalVisitors.toLocaleString()}</strong></span>{unavailable && <span>暂未更新</span>}</>
       : <span>{unavailable ? '访客统计连接中，稍后自动重试…' : '访客统计加载中…'}</span>}
-    <small>10月31日起 · 旧统计 {LEGACY_VISITORS.count}</small>
   </footer>
 }

@@ -3,7 +3,6 @@
 export const VISITOR_API = 'https://cdn.busuanzi.cc/api.php'
 export const VISITOR_SITE = 'https://rray1228.github.io/neike-306-tiku/'
 export const VISITOR_START = '2026-10-31'
-export const LEGACY_VISITORS = { count: 152, capturedAt: '2026-10-31 09:11（北京时间）' }
 
 export function readVisitorCounts(value) {
   const todayVisitors = value?.busuanzi_today_uv
