@@ -37199,22 +37199,26 @@
         {
           "key": "B",
           "label": "β-R拮抗剂",
-          "sourceText": "B.β-R拮抗剂"
+          "sourceText": "B.β-R拮抗剂",
+          "displayKey": "A"
         },
         {
           "key": "C",
           "label": "非二氢吡啶类CCB",
-          "sourceText": "C.非二氢吡啶类CCB"
+          "sourceText": "C.非二氢吡啶类CCB",
+          "displayKey": "B"
         },
         {
           "key": "D",
           "label": "地高辛",
-          "sourceText": "D.地高辛"
+          "sourceText": "D.地高辛",
+          "displayKey": "C"
         },
         {
           "key": "E",
           "label": "胺碘酮",
-          "sourceText": "E.胺碘酮"
+          "sourceText": "E.胺碘酮",
+          "displayKey": "D"
         }
       ],
       "stems": [

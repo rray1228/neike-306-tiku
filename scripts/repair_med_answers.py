@@ -368,7 +368,7 @@ def corrected_group_blocks() -> dict[str, tuple[list[str], list[dict]]]:
         "p96-g3": group("p96-g3", "预激综合征伴顺向型AVRT治疗", "循环", ["lecture-56"], [option("A", "腺苷"), option("B", "β-R拮抗剂"), option("C", "非二氢吡啶类CCB"), option("D", "胺碘酮"), option("E", "强心苷"), option("F", "迷走N"), option("G", "电复律"), option("J", "导管消融")], [stem("先用", "F"), stem("无效药物首选", "A"), stem("次选", "C"), stem("禁用", "E"), stem("伴血流动力学障碍", "G"), stem("根治", "J")]),
         "p96-g4": group("p96-g4", "预激综合征伴房颤治疗", "循环", ["lecture-56"], [option("A", "腺苷"), option("B", "β-R拮抗剂"), option("C", "非二氢吡啶类CCB"), option("D", "胺碘酮"), option("E", "强心苷"), option("F", "迷走N"), option("G", "电复律"), option("H", "普罗帕酮"), option("I", "伊布利特"), option("J", "导管消融")], [stem("首选", "G"), stem("无电复律条件", "HI"), stem("禁用", "ABCDEF"), stem("根治", "J")]),
         "p96-g5": group("p96-g5", "房颤转复与维持窦性心律", "循环", ["lecture-56"], [option("D", "胺碘酮"), option("G", "电复律"), option("H", "普罗帕酮"), option("I", "伊布利特"), option("J", "导管消融")], [stem("可用于房颤转复并维持窦性心律", "JDGHI")]),
-        "p96-g6": group("p96-g6", "房颤控制心室率", "循环", ["lecture-56"], [option("B", "β-R拮抗剂"), option("C", "非二氢吡啶类CCB"), option("D", "地高辛"), option("E", "胺碘酮")], [stem("控制心室率首选", "B"), stem("也可用", "C"), stem("收缩性心衰禁用", "C"), stem("伴收缩性心衰且心室率不达标，或β-R拮抗剂有禁忌症", "DE")]),
+        "p96-g6": group("p96-g6", "房颤控制心室率", "循环", ["lecture-56"], [{**option("B", "β-R拮抗剂"), "displayKey": "A"}, {**option("C", "非二氢吡啶类CCB"), "displayKey": "B"}, {**option("D", "地高辛"), "displayKey": "C"}, {**option("E", "胺碘酮"), "displayKey": "D"}], [stem("控制心室率首选", "B"), stem("也可用", "C"), stem("收缩性心衰禁用", "C"), stem("伴收缩性心衰且心室率不达标，或β-R拮抗剂有禁忌症", "DE")]),
     }
 
     antiarrhythmic = group(
