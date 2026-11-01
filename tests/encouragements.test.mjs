@@ -3,9 +3,11 @@ import assert from 'node:assert/strict'
 import { drawEncouragement, encouragements } from '../src/encouragements.js'
 
 test('fifty new learning quotations and reviewed existing quotations include sources', () => {
-  assert.equal(encouragements.filter(q => q.addedOn === '2026-11-01').length, 50)
+  assert.equal(encouragements.filter(q => q.id.startsWith('plain-learning-20261101-')).length, 50)
   assert.ok(encouragements.every(q => q.learningRelevant))
   assert.ok(!encouragements.some(q => q.id === 'quote-165'))
+  assert.ok(!encouragements.some(q => q.id.startsWith('learning-20261101-')))
+  assert.ok(!encouragements.some(q => /君子|不可以已|锲而|弗措|博学之/.test(q.text)))
   assert.equal(new Set(encouragements.map(quote => quote.id)).size, encouragements.length)
   assert.equal(new Set(encouragements.map(quote => quote.text)).size, encouragements.length)
   for (const quote of encouragements) {
