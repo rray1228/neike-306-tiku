@@ -8,6 +8,7 @@ import testCatalog from './data/supplement-tests-catalog.json'
 import { applyReviewedEvidence, lectureForStem } from './med-lecture-evidence.js'
 import { organizePoliticsContent } from './politics-navigation.js'
 import { migratePoliticsAnswers, sourceStemNumber } from './politics-answers.js'
+import { migrateJoinedCaseAnswers } from './joined-case-answers.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
 import { fillNavigationTarget } from './fill-navigation.js'
 import { EncouragementDialog, usePracticeEncouragement, VisitorCount } from './StudySupport.jsx'
@@ -899,8 +900,9 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   }, [subject, storageReady, viewMode])
 
   useEffect(() => {
-    if (subject !== 'politics' || !loadedContent || !storageReady) return
-    const migrated = migratePoliticsAnswers(selections, submitted, loadedContent.groups)
+    if (!['politics', 'med'].includes(subject) || !loadedContent || !storageReady) return
+    const migrate = subject === 'politics' ? migratePoliticsAnswers : migrateJoinedCaseAnswers
+    const migrated = migrate(selections, submitted, loadedContent.groups)
     if (migrated.selections !== selections) setSelections(migrated.selections)
     if (migrated.submitted !== submitted) setSubmitted(migrated.submitted)
   }, [subject, loadedContent, storageReady])

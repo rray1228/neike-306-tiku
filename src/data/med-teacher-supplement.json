@@ -5,7 +5,7 @@
       55,
       72
     ],
-    "groupCount": 97,
+    "groupCount": 96,
     "stemCount": 126,
     "answerNote": "按答案PDF红色选项录入，PNH诊断按讲义纠正；第6组第8题归属第6题病例，答案按讲义核对为B；第8组第3题补全A项肌电图并恢复判分",
     "sourceAnswerPdf": "内科含诊断课后巩固合集（答案）.pdf",
@@ -703,12 +703,12 @@
       "sourceKey": "teacher-2026-08",
       "sourceName": "西综课后巩固（教师补充）.pdf",
       "sourceSection": "内科含诊断·第 2 组",
-      "sourceQuestion": "2–3",
-      "title": "第 2–3 题共用题干",
+      "sourceQuestion": "2–4",
+      "title": "第 2–4 题共用题干",
       "kind": "A",
       "kindLabel": "单项选择",
       "sharedStem": "男性,38岁。醉酒后畏寒、高热,继之咳嗽、咳少量黏液脓性痰,伴左胸和左上腹痛、 全身肌肉酸痛5天。查体:急性病容,口角疱疹,T39.5度,P110次/分,R28次/分,BP120/80mmHg, 心率110次/分,偶有早搏。左下肺叩诊浊音,呼吸音减弱。胸部X线见左肺下叶大片浓淡不均、密度增高浸润阴影,内见空气支气管征。实验室检查:血WBC14.3×10^9/L,N0.92。药敏试验示青霉素耐药。",
-      "sharedQuestionCount": 2,
+      "sharedQuestionCount": 3,
       "options": [
         {
           "key": "q2-A",
@@ -757,6 +757,30 @@
           "displayKey": "D",
           "label": "肺炎克雷伯杆菌",
           "category": "第 3 题选项"
+        },
+        {
+          "key": "q4-A",
+          "label": "头孢曲松",
+          "displayKey": "A",
+          "category": "第 4 题选项"
+        },
+        {
+          "key": "q4-B",
+          "label": "阿奇霉素",
+          "displayKey": "B",
+          "category": "第 4 题选项"
+        },
+        {
+          "key": "q4-C",
+          "label": "阿米卡星",
+          "displayKey": "C",
+          "category": "第 4 题选项"
+        },
+        {
+          "key": "q4-D",
+          "label": "苯唑西林",
+          "displayKey": "D",
+          "category": "第 4 题选项"
         }
       ],
       "stems": [
@@ -797,54 +821,13 @@
             "空气支气管征来自充气支气管被实变肺泡衬托",
             "病原学与药敏结果共同决定抗菌药"
           ]
-        }
-      ],
-      "sourceText": "男性,38岁。醉酒后畏寒、高热,继之咳嗽、咳少量黏液脓性痰,伴左胸和左上腹痛、 全身肌肉酸痛5天。查体:急性病容,口角疱疹,T39.5度,P110次/分,R28次/分,BP120/80mmHg, 心率110次/分,偶有早搏。左下肺叩诊浊音,呼吸音减弱。胸部X线见左肺下叶大片浓淡不均、密度增高浸润阴影,内见空气支气管征。实验室检查:血WBC14.3×10^9/L,N0.92。药敏试验示青霉素耐药。 该患者查体时最不可能出现的其他体征是 该患者最可能感染的病原体是 左下肺语音震颤增强 左下肺闻及支气管呼吸音 左下腋前线部闻及胸膜摩擦音 气管向右侧移位 肺炎支原体 肺炎链球菌 金黄色葡萄球菌 肺炎克雷伯杆菌",
-      "topic": "呼吸",
-      "lectureIds": [
-        "lecture-07"
-      ],
-      "reviewState": "按答案PDF红色选项录入（非讲义勘误）",
-      "supplement": true,
-      "supplementNotice": "已录入原PDF标红答案",
-      "answerSourceLabel": "课后题答案",
-      "answerSourceName": "内科含诊断课后巩固合集（答案）.pdf"
-    },
-    {
-      "id": "med-teacher-02-04",
-      "page": 58,
-      "sourceKey": "teacher-2026-08",
-      "sourceName": "西综课后巩固（教师补充）.pdf",
-      "sourceSection": "内科含诊断·第 2 组",
-      "sourceQuestion": 4,
-      "title": "该患者首选的抗感染药物是",
-      "kind": "A",
-      "kindLabel": "单项选择",
-      "options": [
-        {
-          "key": "A",
-          "label": "头孢曲松"
         },
-        {
-          "key": "B",
-          "label": "阿奇霉素"
-        },
-        {
-          "key": "C",
-          "label": "阿米卡星"
-        },
-        {
-          "key": "D",
-          "label": "苯唑西林"
-        }
-      ],
-      "stems": [
         {
           "number": 4,
           "text": "该患者首选的抗感染药物是",
           "answerRaw": "A",
           "answer": [
-            "A"
+            "q4-A"
           ],
           "answerMode": "单选",
           "answerState": "原PDF标红答案",
@@ -855,10 +838,11 @@
           "knowledgeConnections": [
             "耐青霉素并不自动等于耐所有头孢菌素",
             "抗菌治疗需按药敏而非只凭痰色选择"
-          ]
+          ],
+          "optionCategory": "第 4 题选项"
         }
       ],
-      "sourceText": "该患者首选的抗感染药物是 头孢曲松 阿奇霉素 阿米卡星 苯唑西林",
+      "sourceText": "男性,38岁。醉酒后畏寒、高热,继之咳嗽、咳少量黏液脓性痰,伴左胸和左上腹痛、 全身肌肉酸痛5天。查体:急性病容,口角疱疹,T39.5度,P110次/分,R28次/分,BP120/80mmHg, 心率110次/分,偶有早搏。左下肺叩诊浊音,呼吸音减弱。胸部X线见左肺下叶大片浓淡不均、密度增高浸润阴影,内见空气支气管征。实验室检查:血WBC14.3×10^9/L,N0.92。药敏试验示青霉素耐药。 该患者查体时最不可能出现的其他体征是 该患者最可能感染的病原体是 左下肺语音震颤增强 左下肺闻及支气管呼吸音 左下腋前线部闻及胸膜摩擦音 气管向右侧移位 肺炎支原体 肺炎链球菌 金黄色葡萄球菌 肺炎克雷伯杆菌 该患者首选的抗感染药物是 头孢曲松 阿奇霉素 阿米卡星 苯唑西林",
       "topic": "呼吸",
       "lectureIds": [
         "lecture-07"
@@ -867,7 +851,8 @@
       "supplement": true,
       "supplementNotice": "已录入原PDF标红答案",
       "answerSourceLabel": "课后题答案",
-      "answerSourceName": "内科含诊断课后巩固合集（答案）.pdf"
+      "answerSourceName": "内科含诊断课后巩固合集（答案）.pdf",
+      "answerRevision": "pneumonia-case-v1"
     },
     {
       "id": "med-teacher-02-05",

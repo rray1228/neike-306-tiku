@@ -44,7 +44,7 @@ for (const [label,groups,review,expectedGroups,expectedStems,maxPage] of [
 }
 test('old and new medicine reviews coexist, and important corrected pages are selected',()=>{
  const groups=applyReviewedEvidence({groups:med},old,remaining).groups
- assert.equal(groups.filter(g=>g.lectureEvidence?.image?.startsWith('site-assets/')).length,605)
+ assert.equal(groups.filter(g=>g.lectureEvidence?.image?.startsWith('site-assets/')).length,604)
  const get=id=>groups.find(g=>g.id===id)
  assert.equal(lectureForStem(get('practitioner-upper-20261019-q089'),0).chapterPage,1)
  assert.equal(lectureForStem(get('practitioner-upper-20261019-q093'),0).chapterPage,3)

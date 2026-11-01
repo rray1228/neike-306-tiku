@@ -15,7 +15,7 @@ const withoutEvidence = ({ lectureEvidence, lectureEvidencePages, ...item }) => 
 
 test('all three systems receive reviewed pages without changing questions, answers or navigation', () => {
   const target = groups.filter(group => review.scope.includes(group.topic))
-  assert.equal(target.length, 368)
+  assert.equal(target.length, 367)
   assert.equal(target.reduce((total, group) => total + group.stems.length, 0), 1009)
   assert.deepEqual(Object.keys(review.groups).sort(), target.map(group => group.id).sort())
   assert.deepEqual(updated.groups.map(withoutEvidence), groups.map(withoutEvidence))

@@ -16,6 +16,7 @@ from collections import Counter
 from pathlib import Path
 
 import pdfplumber
+from repair_med_pneumonia_case import repair_pneumonia_case
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -433,6 +434,8 @@ def order_by_lecture(groups: list[dict], lecture_count: int) -> list[dict]:
 
 
 def save(output: Path, groups: list[dict], subject: str, source_pages: tuple[int, int]) -> None:
+    if subject == "内科":
+        repair_pneumonia_case({'groups': groups, 'meta': {}})
     output.write_text(json.dumps({
         "meta": {"title": f"教师课后巩固·{subject}补充", "sourcePageRange": list(source_pages),
                  "groupCount": len(groups), "stemCount": sum(len(group["stems"]) for group in groups),

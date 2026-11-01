@@ -4062,18 +4062,12 @@
     },
     "med-teacher-02-02-03": {
       "pages": [
-        "compiled-043"
-      ],
-      "stemPages": [
         "compiled-043",
-        "compiled-043"
-      ]
-    },
-    "med-teacher-02-04": {
-      "pages": [
         "compiled-044"
       ],
       "stemPages": [
+        "compiled-043",
+        "compiled-043",
         "compiled-044"
       ]
     },
