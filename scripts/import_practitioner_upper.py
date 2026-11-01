@@ -214,7 +214,7 @@ def build():
                 'sourceKey':KEY, 'sourceName':SOURCE_NAME, 'sourceSection':'内科' if subject=='med' else '外科',
                 'sourceQuestion':label, 'sourceLabel':'精选执医（上）',
                 'sourcePages':sorted({p for q in qq for p in q['pages']}),
-                'title':f'精选执医（上） · 第{label}题 · {notes[n][0]}',
+                'title':f'精选执医（上） · 第{label}题',
                 'kind':'B' if common else 'A', 'kindLabel':'B型题' if common else '单项选择',
                 'answerLayout':'rows', 'topic':topics.pop(), 'lectureIds':lectures,
                 'diseaseTags':['精选执医','执业医师真题（上）']+[notes[q['number']][0] for q in qq],

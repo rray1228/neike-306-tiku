@@ -66,7 +66,7 @@
       "sourcePages": [
         24
       ],
-      "title": "精选执医（上） · 第116题 · 甲型血友病的成分输血",
+      "title": "精选执医（上） · 第116题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -197,7 +197,7 @@
       "sourcePages": [
         24
       ],
-      "title": "精选执医（上） · 第117题 · 迟发性溶血性输血反应",
+      "title": "精选执医（上） · 第117题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -328,7 +328,7 @@
       "sourcePages": [
         24
       ],
-      "title": "精选执医（上） · 第118题 · 手术时限分类",
+      "title": "精选执医（上） · 第118题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -459,7 +459,7 @@
       "sourcePages": [
         24
       ],
-      "title": "精选执医（上） · 第119题 · 中心静脉压与低血压的组合",
+      "title": "精选执医（上） · 第119题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -590,7 +590,7 @@
       "sourcePages": [
         24
       ],
-      "title": "精选执医（上） · 第120题 · 肠瘘的肠内营养制剂",
+      "title": "精选执医（上） · 第120题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -721,7 +721,7 @@
       "sourcePages": [
         25
       ],
-      "title": "精选执医（上） · 第121题 · 脓毒症与血培养",
+      "title": "精选执医（上） · 第121题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -852,7 +852,7 @@
       "sourcePages": [
         25
       ],
-      "title": "精选执医（上） · 第122题 · 感染源控制与糖皮质激素",
+      "title": "精选执医（上） · 第122题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -916,10 +916,12 @@
           "knowledgeConnections": [
             "第37讲第3页的激素表述位于感染性休克章节，不能直接外推为本病例的临床给药方案。SCCM 2024指南不推荐成人感染性休克采用高剂量、短疗程糖皮质激素；旧题剂量口径应与现代临床规范分开掌握。"
           ],
-          "explanationReferences": [{
-            "title": "SCCM 2024糖皮质激素使用指南",
-            "url": "https://sccm.org/clinical-resources/guidelines/guidelines/use-of-corticosteroids-in-sepsis-ards-cap"
-          }],
+          "explanationReferences": [
+            {
+              "title": "SCCM 2024糖皮质激素使用指南",
+              "url": "https://sccm.org/clinical-resources/guidelines/guidelines/use-of-corticosteroids-in-sepsis-ards-cap"
+            }
+          ],
           "explanationOrigin": "复习整理，非出版方官方解析",
           "lectureEvidencePages": [
             {
@@ -987,7 +989,7 @@
       "sourcePages": [
         25
       ],
-      "title": "精选执医（上） · 第123题 · 烧伤深度与面积分度",
+      "title": "精选执医（上） · 第123题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -1118,7 +1120,7 @@
       "sourcePages": [
         25
       ],
-      "title": "精选执医（上） · 第124题 · 可切除食管癌的治疗",
+      "title": "精选执医（上） · 第124题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -1250,7 +1252,7 @@
         25,
         26
       ],
-      "title": "精选执医（上） · 第125题 · 甲状腺恶性结节的识别",
+      "title": "精选执医（上） · 第125题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -1382,7 +1384,7 @@
         25,
         26
       ],
-      "title": "精选执医（上） · 第126题 · 甲状腺结节的细胞学检查",
+      "title": "精选执医（上） · 第126题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -1513,7 +1515,7 @@
       "sourcePages": [
         26
       ],
-      "title": "精选执医（上） · 第127题 · 后纵隔肿瘤",
+      "title": "精选执医（上） · 第127题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -1644,7 +1646,7 @@
       "sourcePages": [
         26
       ],
-      "title": "精选执医（上） · 第128题 · 急性乳腺炎的病因",
+      "title": "精选执医（上） · 第128题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -1775,7 +1777,7 @@
       "sourcePages": [
         26
       ],
-      "title": "精选执医（上） · 第129题 · 乳房囊性增生症",
+      "title": "精选执医（上） · 第129题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -1906,7 +1908,7 @@
       "sourcePages": [
         26
       ],
-      "title": "精选执医（上） · 第130题 · 炎性乳腺癌的预后线索",
+      "title": "精选执医（上） · 第130题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -2037,7 +2039,7 @@
       "sourcePages": [
         27
       ],
-      "title": "精选执医（上） · 第131题 · 局部晚期乳腺癌的初始治疗",
+      "title": "精选执医（上） · 第131题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -2168,7 +2170,7 @@
       "sourcePages": [
         27
       ],
-      "title": "精选执医（上） · 第132题 · 乳腺癌内分泌治疗指征",
+      "title": "精选执医（上） · 第132题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -2299,7 +2301,7 @@
       "sourcePages": [
         27
       ],
-      "title": "精选执医（上） · 第133题 · 小细胞肺癌与SIADH",
+      "title": "精选执医（上） · 第133题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -2462,7 +2464,7 @@
       "sourcePages": [
         27
       ],
-      "title": "精选执医（上） · 第134题 · 胃癌TNM分期的版本差异",
+      "title": "精选执医（上） · 第134题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -2594,7 +2596,7 @@
         27,
         28
       ],
-      "title": "精选执医（上） · 第135题 · 消化性溃疡穿孔的穿刺液",
+      "title": "精选执医（上） · 第135题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -2725,7 +2727,7 @@
       "sourcePages": [
         28
       ],
-      "title": "精选执医（上） · 第136题 · 十二指肠腹膜后破裂",
+      "title": "精选执医（上） · 第136题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -2856,7 +2858,7 @@
       "sourcePages": [
         28
       ],
-      "title": "精选执医（上） · 第137题 · 腹股沟管深环体表定位",
+      "title": "精选执医（上） · 第137题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -2987,7 +2989,7 @@
       "sourcePages": [
         28
       ],
-      "title": "精选执医（上） · 第138题 · 斜疝与直疝的血管关系",
+      "title": "精选执医（上） · 第138题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -3118,7 +3120,7 @@
       "sourcePages": [
         28
       ],
-      "title": "精选执医（上） · 第139题 · 肠套叠检查与截图更正",
+      "title": "精选执医（上） · 第139题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -3261,7 +3263,7 @@
         28,
         29
       ],
-      "title": "精选执医（上） · 第140题 · 绞窄性肠梗阻的手术指征",
+      "title": "精选执医（上） · 第140题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -3392,7 +3394,7 @@
       "sourcePages": [
         29
       ],
-      "title": "精选执医（上） · 第141–143题 · 小肠扭转的典型诱因",
+      "title": "精选执医（上） · 第141–143题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -3690,7 +3692,7 @@
         29,
         30
       ],
-      "title": "精选执医（上） · 第144–146题 · 肠系膜上动脉栓塞",
+      "title": "精选执医（上） · 第144–146题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -3977,7 +3979,7 @@
       "sourcePages": [
         30
       ],
-      "title": "精选执医（上） · 第147题 · 阑尾切除术常见并发症",
+      "title": "精选执医（上） · 第147题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -4108,7 +4110,7 @@
       "sourcePages": [
         30
       ],
-      "title": "精选执医（上） · 第148题 · 盆腔脓肿的检查",
+      "title": "精选执医（上） · 第148题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -4239,7 +4241,7 @@
       "sourcePages": [
         30
       ],
-      "title": "精选执医（上） · 第149题 · 直肠癌局部浸润评估",
+      "title": "精选执医（上） · 第149题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -4370,7 +4372,7 @@
       "sourcePages": [
         30
       ],
-      "title": "精选执医（上） · 第150题 · Caroli病的分型",
+      "title": "精选执医（上） · 第150题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -4502,7 +4504,7 @@
         30,
         31
       ],
-      "title": "精选执医（上） · 第151题 · 急性重症胆管炎的引流",
+      "title": "精选执医（上） · 第151题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -4633,7 +4635,7 @@
       "sourcePages": [
         31
       ],
-      "title": "精选执医（上） · 第152题 · 壶腹周围肿瘤与胰头癌鉴别",
+      "title": "精选执医（上） · 第152题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -4764,7 +4766,7 @@
       "sourcePages": [
         31
       ],
-      "title": "精选执医（上） · 第153题 · 肝门部胆管癌",
+      "title": "精选执医（上） · 第153题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -4895,7 +4897,7 @@
       "sourcePages": [
         31
       ],
-      "title": "精选执医（上） · 第154题 · 胰腺肿瘤术前评估",
+      "title": "精选执医（上） · 第154题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -5026,7 +5028,7 @@
       "sourcePages": [
         31
       ],
-      "title": "精选执医（上） · 第155题 · 胰腺术后胰瘘",
+      "title": "精选执医（上） · 第155题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -5157,7 +5159,7 @@
       "sourcePages": [
         32
       ],
-      "title": "精选执医（上） · 第156题 · 急腹症的腹膜刺激征",
+      "title": "精选执医（上） · 第156题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -5288,7 +5290,7 @@
       "sourcePages": [
         32
       ],
-      "title": "精选执医（上） · 第157题 · 下肢慢性缺血的Fontaine分期",
+      "title": "精选执医（上） · 第157题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -5419,7 +5421,7 @@
       "sourcePages": [
         32
       ],
-      "title": "精选执医（上） · 第158题 · 肾损伤与腹膜后血肿",
+      "title": "精选执医（上） · 第158题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -5550,7 +5552,7 @@
       "sourcePages": [
         32
       ],
-      "title": "精选执医（上） · 第159题 · 肾损伤后的感染预防",
+      "title": "精选执医（上） · 第159题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -5682,7 +5684,7 @@
         32,
         33
       ],
-      "title": "精选执医（上） · 第160–162题 · 穿透性肾损伤",
+      "title": "精选执医（上） · 第160–162题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -5985,7 +5987,7 @@
       "sourcePages": [
         33
       ],
-      "title": "精选执医（上） · 第163题 · 骨盆骨折合并后尿道损伤",
+      "title": "精选执医（上） · 第163题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -6116,7 +6118,7 @@
       "sourcePages": [
         33
       ],
-      "title": "精选执医（上） · 第164题 · 尿道损伤的造影",
+      "title": "精选执医（上） · 第164题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -6247,7 +6249,7 @@
       "sourcePages": [
         33
       ],
-      "title": "精选执医（上） · 第165题 · 输尿管上段结石治疗",
+      "title": "精选执医（上） · 第165题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -6378,7 +6380,7 @@
       "sourcePages": [
         34
       ],
-      "title": "精选执医（上） · 第166题 · 良性前列腺增生的手术治疗",
+      "title": "精选执医（上） · 第166题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -6520,7 +6522,7 @@
       "sourcePages": [
         34
       ],
-      "title": "精选执医（上） · 第167题 · 浅表膀胱肿瘤的切除",
+      "title": "精选执医（上） · 第167题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -6651,7 +6653,7 @@
       "sourcePages": [
         34
       ],
-      "title": "精选执医（上） · 第168题 · 肾盂肿瘤的影像线索",
+      "title": "精选执医（上） · 第168题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -6782,7 +6784,7 @@
       "sourcePages": [
         34
       ],
-      "title": "精选执医（上） · 第169题 · 隐睾手术的时间口径",
+      "title": "精选执医（上） · 第169题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -6919,7 +6921,7 @@
       "sourcePages": [
         34
       ],
-      "title": "精选执医（上） · 第170题 · 无功能结核肾的处理",
+      "title": "精选执医（上） · 第170题",
       "kind": "B",
       "kindLabel": "B型题",
       "answerLayout": "rows",
@@ -7056,7 +7058,7 @@
       "sourcePages": [
         34
       ],
-      "title": "精选执医（上） · 第171题 · 双侧受累背景下的肾结核处理",
+      "title": "精选执医（上） · 第171题",
       "kind": "B",
       "kindLabel": "B型题",
       "answerLayout": "rows",
@@ -7193,7 +7195,7 @@
       "sourcePages": [
         34
       ],
-      "title": "精选执医（上） · 第172题 · 早期局限肾结核的抗结核治疗",
+      "title": "精选执医（上） · 第172题",
       "kind": "B",
       "kindLabel": "B型题",
       "answerLayout": "rows",
@@ -7335,7 +7337,7 @@
       "sourcePages": [
         35
       ],
-      "title": "精选执医（上） · 第173题 · 桡骨远端骨折的保守治疗",
+      "title": "精选执医（上） · 第173题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -7498,7 +7500,7 @@
       "sourcePages": [
         35
       ],
-      "title": "精选执医（上） · 第174题 · 骨折血供与愈合",
+      "title": "精选执医（上） · 第174题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -7629,7 +7631,7 @@
       "sourcePages": [
         35
       ],
-      "title": "精选执医（上） · 第175题 · 幼儿股骨干骨折的塑形能力",
+      "title": "精选执医（上） · 第175题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -7760,7 +7762,7 @@
       "sourcePages": [
         35
       ],
-      "title": "精选执医（上） · 第176题 · 幼儿股骨干骨折的牵引",
+      "title": "精选执医（上） · 第176题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -7891,7 +7893,7 @@
       "sourcePages": [
         35
       ],
-      "title": "精选执医（上） · 第177题 · 开放性胫骨骨折的感染风险",
+      "title": "精选执医（上） · 第177题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -8022,7 +8024,7 @@
       "sourcePages": [
         36
       ],
-      "title": "精选执医（上） · 第178题 · 高位颈髓损伤的呼吸处理",
+      "title": "精选执医（上） · 第178题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -8153,7 +8155,7 @@
       "sourcePages": [
         36
       ],
-      "title": "精选执医（上） · 第179题 · 耻骨骨折的相关损伤",
+      "title": "精选执医（上） · 第179题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -8284,7 +8286,7 @@
       "sourcePages": [
         36
       ],
-      "title": "精选执医（上） · 第180题 · 创伤休克的优先处理",
+      "title": "精选执医（上） · 第180题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -8415,7 +8417,7 @@
       "sourcePages": [
         36
       ],
-      "title": "精选执医（上） · 第181题 · 锁骨中段骨折的传统保守方案",
+      "title": "精选执医（上） · 第181题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -8546,7 +8548,7 @@
       "sourcePages": [
         36
       ],
-      "title": "精选执医（上） · 第182题 · 髋关节前脱位的体位",
+      "title": "精选执医（上） · 第182题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -8677,7 +8679,7 @@
       "sourcePages": [
         37
       ],
-      "title": "精选执医（上） · 第183题 · Allis法复位",
+      "title": "精选执医（上） · 第183题",
       "kind": "B",
       "kindLabel": "B型题",
       "answerLayout": "rows",
@@ -8808,7 +8810,7 @@
       "sourcePages": [
         37
       ],
-      "title": "精选执医（上） · 第184题 · Hippocrates法复位",
+      "title": "精选执医（上） · 第184题",
       "kind": "B",
       "kindLabel": "B型题",
       "answerLayout": "rows",
@@ -8939,7 +8941,7 @@
       "sourcePages": [
         37
       ],
-      "title": "精选执医（上） · 第185题 · 离断指体的保存",
+      "title": "精选执医（上） · 第185题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -9070,7 +9072,7 @@
       "sourcePages": [
         37
       ],
-      "title": "精选执医（上） · 第186题 · 腰椎间盘突出与S1神经根",
+      "title": "精选执医（上） · 第186题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -9233,7 +9235,7 @@
       "sourcePages": [
         37
       ],
-      "title": "精选执医（上） · 第187题 · 腰椎间盘突出合并马尾综合征",
+      "title": "精选执医（上） · 第187题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -9364,7 +9366,7 @@
       "sourcePages": [
         37
       ],
-      "title": "精选执医（上） · 第188题 · 梨状肌综合征的疼痛定位",
+      "title": "精选执医（上） · 第188题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -9527,7 +9529,7 @@
       "sourcePages": [
         38
       ],
-      "title": "精选执医（上） · 第189题 · 肱骨外上髁炎的休息部位",
+      "title": "精选执医（上） · 第189题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -9658,7 +9660,7 @@
       "sourcePages": [
         38
       ],
-      "title": "精选执医（上） · 第190题 · 强直性脊柱炎的关节分布",
+      "title": "精选执医（上） · 第190题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -9789,7 +9791,7 @@
       "sourcePages": [
         38
       ],
-      "title": "精选执医（上） · 第191题 · 炎性腰背痛与强直性脊柱炎",
+      "title": "精选执医（上） · 第191题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -9920,7 +9922,7 @@
       "sourcePages": [
         38
       ],
-      "title": "精选执医（上） · 第192题 · 骶髂关节影像检查",
+      "title": "精选执医（上） · 第192题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -10051,7 +10053,7 @@
       "sourcePages": [
         38
       ],
-      "title": "精选执医（上） · 第193题 · 膝骨关节炎",
+      "title": "精选执医（上） · 第193题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -10183,7 +10185,7 @@
         38,
         39
       ],
-      "title": "精选执医（上） · 第194题 · 骨转移病灶的局部MRI评估",
+      "title": "精选执医（上） · 第194题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
@@ -10319,7 +10321,7 @@
       "sourcePages": [
         39
       ],
-      "title": "精选执医（上） · 第195–197题 · 骨巨细胞瘤的影像",
+      "title": "精选执医（上） · 第195–197题",
       "kind": "A",
       "kindLabel": "单项选择",
       "answerLayout": "rows",
