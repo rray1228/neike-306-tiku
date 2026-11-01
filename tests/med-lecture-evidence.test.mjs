@@ -7,6 +7,19 @@ const read = name => JSON.parse(readFileSync(new URL(`../src/data/${name}.json`,
 const review = read('med-reviewed-lecture-evidence')
 const groups = ['med-data', 'med-teacher-supplement', 'med-stage-exam-data', 'med-practitioner-upper-data'].flatMap(name => read(name).groups)
 const content = { groups }
+test('tuberculous pericarditis distinguishes the lecture table dry and wet presentations', () => {
+  const g = groups.find(g => g.id === 'p76-g2')
+  const dry = g.stems.find(s => s.text === '结核性心包炎（干性）')
+  const wet = g.stems.find(s => s.text === '结核性心包炎（湿性）')
+  assert.equal(g.stems.length, 6)
+  assert.deepEqual(dry.answer, [...'AGIMPRTW'])
+  assert.deepEqual(wet.answer, [...'AGINQSTW'])
+  assert.ok(!wet.answer.some(key => ['M', 'P', 'R'].includes(key)))
+  assert.ok(!dry.answer.some(key => ['N', 'Q', 'S'].includes(key)))
+  assert.match(g.sharedStem, /“—”表示未列出/)
+  assert.deepEqual(g.stems.find(s => s.text === '化脓性心包炎').answer, [...'BFKU'])
+  assert.ok(g.answerRevision)
+})
 const updated = applyReviewedMedEvidence(content, review)
 const withoutEvidence = ({ lectureEvidence, lectureEvidencePages, ...item }) => ({
   ...item,
@@ -16,7 +29,7 @@ const withoutEvidence = ({ lectureEvidence, lectureEvidencePages, ...item }) => 
 test('all three systems receive reviewed pages without changing questions, answers or navigation', () => {
   const target = groups.filter(group => review.scope.includes(group.topic))
   assert.equal(target.length, 367)
-  assert.equal(target.reduce((total, group) => total + group.stems.length, 0), 1009)
+  assert.equal(target.reduce((total, group) => total + group.stems.length, 0), 1010)
   assert.deepEqual(Object.keys(review.groups).sort(), target.map(group => group.id).sort())
   assert.deepEqual(updated.groups.map(withoutEvidence), groups.map(withoutEvidence))
   for (const group of updated.groups) {

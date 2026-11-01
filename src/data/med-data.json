@@ -27918,20 +27918,45 @@
           ],
           "sourceText": "急性非特异性心包炎 DFJMPRTVW",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "explanation": "前驱感染1～3周、起病急；发热、胸痛及心包摩擦音明显，积液少，可呈草黄色或血性，以淋巴细胞为主。",
+          "answerState": "讲义表格逐项核对"
         },
         {
-          "text": "结核性心包炎",
+          "text": "结核性心包炎（干性）",
           "answer": [
             "A",
             "G",
             "I",
+            "M",
+            "P",
+            "R",
             "T",
             "W"
           ],
           "sourceText": "结核性心包炎 AGITW",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "explanation": "可伴原发结核灶，起病缓、低热多见。干性时胸痛明显、心包摩擦音明显，积液少；积液可呈血性，以淋巴细胞为主。",
+          "answerState": "讲义表格逐项核对"
+        },
+        {
+          "text": "结核性心包炎（湿性）",
+          "answer": [
+            "A",
+            "G",
+            "I",
+            "N",
+            "Q",
+            "S",
+            "T",
+            "W"
+          ],
+          "sourceText": "结核性心包炎 AGITW",
+          "sourceY": 0,
+          "answerMode": "多选",
+          "explanation": "可伴原发结核灶，起病缓、低热多见。湿性时胸痛常无、心包摩擦音不明显，积液多；积液可呈血性，以淋巴细胞为主。",
+          "answerState": "讲义表格逐项核对"
         },
         {
           "text": "肿瘤性心包炎",
@@ -27947,7 +27972,9 @@
           ],
           "sourceText": "肿瘤性心包炎 EGLNQSTW",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "explanation": "转移性肿瘤多见，起病缓，无或低热；胸痛常无、心包摩擦音不明显，积液多，呈血性，以淋巴细胞为主。",
+          "answerState": "讲义表格逐项核对"
         },
         {
           "text": "化脓性心包炎",
@@ -27959,7 +27986,9 @@
           ],
           "sourceText": "化脓性心包炎 BFKU",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "explanation": "伴原发感染灶、起病急、高热多见，积液以中性粒细胞为主。讲义鉴别表未列出胸痛、摩擦音及积液量的固定特征，本题不据此添加选项。",
+          "answerState": "讲义表格逐项核对"
         },
         {
           "text": "心脏损伤后综合征",
@@ -27972,11 +28001,13 @@
           ],
           "sourceText": "心脏损伤后综合征 CHOQW",
           "sourceY": 0,
-          "answerMode": "多选"
+          "answerMode": "多选",
+          "explanation": "有手术、心梗史，常有发热和胸痛，心包摩擦音不明显，积液以淋巴细胞为主。胸痛不能据此推定摩擦音明显；讲义表未限定积液量。",
+          "answerState": "讲义表格逐项核对"
         }
       ],
       "sourceText": "不同病因心包炎的临床特点（按原题页独立选项池重建并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "按讲义鉴别表区分结核性心包炎干性、湿性并逐项核对",
       "topic": "循环",
       "lectureIds": [
         "lecture-50"
@@ -27988,7 +28019,11 @@
         "title": "第50讲第3页：内科含诊断 心包疾病",
         "description": "本题组对应第50讲第3页讲义。"
       },
-      "showOptionText": true
+      "showOptionText": true,
+      "sharedStem": "依据讲义鉴别表，选择各类心包炎列出的临床特点。结核性心包炎分别按干性、湿性作答；积液颜色与主要细胞成分可同时选择。表中“—”表示未列出相应特征，不据此推断。",
+      "sharedQuestionCount": 6,
+      "answerRevision": "pericarditis-conditions-20261101",
+      "answerSourceLabel": "讲义答案"
     },
     {
       "id": "p76-g3",
