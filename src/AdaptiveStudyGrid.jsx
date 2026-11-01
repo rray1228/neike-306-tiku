@@ -43,7 +43,7 @@ export function AdaptiveStudyGrid({ group, children }) {
     window.addEventListener('resize', update)
     return () => window.removeEventListener('resize', update)
   }, [])
-  return <div ref={gridRef} className={`study-grid ${group.options.length && !group.judgement ? '' : 'no-options'} ${phone || narrow ? 'stacked-study' : ''}`}>{children}</div>
+  return <div ref={gridRef} className={`study-grid ${group.options.length && !group.judgement && !group.showOptionText ? '' : 'no-options'} ${phone || narrow ? 'stacked-study' : ''}`}>{children}</div>
 }
 
 export function AdaptiveAnswerLayout({ minTableWidth, table, children }) {

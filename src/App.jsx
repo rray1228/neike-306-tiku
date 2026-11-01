@@ -1451,7 +1451,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
           {showNote && <div className="note-strip"><Icon name="note" size={17} /><input value={notes[groupStorageId] || ''} onChange={(event) => setNotes((previous) => ({ ...previous, [groupStorageId]: event.target.value }))} placeholder="写下你的易错点或记忆口诀…" /></div>}
 
           <AdaptiveStudyGrid group={group}>
-          {group.options.length > 0 && !group.judgement && <OptionBank group={group} />}
+          {group.options.length > 0 && !group.judgement && !group.showOptionText && <OptionBank group={group} />}
           <div className="question-side">
           <section className="question-card" ref={questionCardRef} onClickCapture={lockStem} onFocusCapture={lockStem}>
             <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span>{group.hideSource ? null : <span>来源页 {group.page}</span>}</div>
@@ -1629,7 +1629,7 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
     const order = ordered && active ? selection.indexOf(item) + 1 : null
     const isWrong = submitted && !unresolved && active && !isAnswer
     const stateLabel = isMissed ? '，漏选' : (isWrong ? '，错选' : '')
-    return <button key={item} data-option-label={label} aria-pressed={active} aria-label={`选项 ${label}${group.judgement ? ` ${option.label}` : ''}${stateLabel}`} className={`answer-chip ${group.judgement ? 'judgement-chip' : ''} ${active ? 'active' : ''} ${isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${isWrong ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{group.judgement ? `${label} · ${option.label}` : label}{order && <sup className="rank-order">{order}</sup>}</button>
+    return <button key={item} data-option-label={label} aria-pressed={active} aria-label={`选项 ${label}${group.judgement || group.showOptionText ? ` ${option.label}` : ''}${stateLabel}`} className={`answer-chip ${group.showOptionText ? 'labeled-option' : ''} ${group.judgement ? 'judgement-chip' : ''} ${active ? 'active' : ''} ${isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${isWrong ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{group.showOptionText ? <><b>{label}</b><span>{option.label}</span></> : group.judgement ? `${label} · ${option.label}` : label}{order && <sup className="rank-order">{order}</sup>}</button>
   }
   return (
     <div data-stem-index={index} data-keyboard-active={keyboardActive} tabIndex={0} aria-label={`小题 ${index + 1}`} className={`stem-row ${compact ? 'compact-stem' : ''} ${fill || selfReview ? 'written-stem' : ''} ${stem.image ? 'image-stem' : ''} ${group.dailySelftest ? 'daily-fill-stem' : ''} ${choiceCategories.length ? 'has-choice-categories' : ''} ${submitted && !unresolved ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
@@ -1637,11 +1637,11 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
       {selfReview ? <div className="review-draft"><label>我的思路<textarea aria-label={`小题${index + 1}作答草稿`} value={selection[0] || ''} onChange={event => onFill(index, 0, event.target.value)} disabled={submitted} placeholder="先写自己的思路或在纸上画图后记下说明，再保存查看参考要点…" rows={5} /></label><small>草稿自动保存在当前浏览器；本题不自动判分。</small></div> : fill
         ? <div className="fill-answers">{answer.map((_, blankIndex) => <label key={blankIndex}>{group.dailySelftest ? <span>空{blankIndex + 1}</span> : null}<input placeholder={group.dailySelftest ? `第${blankIndex + 1}空` : undefined} value={selection[blankIndex] || ''} onChange={(event) => onFill(index, blankIndex, event.target.value)} disabled={submitted} inputMode={stem.inputMode || 'text'} aria-label={`${stem.text}第${blankIndex + 1}空${stem.blankLabels?.[blankIndex] ? `，${stem.blankLabels[blankIndex]}` : ''}`} /></label>)}</div>
         : (choiceCategories.length
-          ? <div className={`answer-choice-category-list ${group.stackedOptionCategories ? 'stacked-choice-categories' : ''}`}>{choiceCategories.map((category) => {
+          ? <div className={`answer-choice-category-list ${group.stackedOptionCategories ? 'stacked-choice-categories' : ''} ${group.showOptionText ? 'text-option-categories' : ''}`}>{choiceCategories.map((category) => {
             const options = choiceOptions.filter((option) => option.category === category)
             return <div className={`answer-choice-category ${options.length > 10 ? 'wide-choice-category' : ''}`} style={{ '--category-count': options.length }} key={category}>
               <span>{category}</span>
-              <BalancedAnswerChoices count={options.length} className="category-choices">{options.map(renderChoiceButton)}</BalancedAnswerChoices>
+              {group.showOptionText ? <div className="labeled-category-choices">{options.map(renderChoiceButton)}</div> : <BalancedAnswerChoices count={options.length} className="category-choices">{options.map(renderChoiceButton)}</BalancedAnswerChoices>}
             </div>
           })}</div>
           : <BalancedAnswerChoices count={choiceOptions.length} judgement={group.judgement}>{choiceOptions.map(renderChoiceButton)}</BalancedAnswerChoices>)}

@@ -254,6 +254,18 @@ button:disabled { cursor: default; }
 .stacked-choice-categories .answer-choice-category > span { font-size: 14px; }
 .stacked-choice-categories .answer-choice-category > div { justify-content: flex-start; gap: 6px; }
 .stacked-choice-categories .answer-chip { min-width: 34px; min-height: 34px; }
+.text-option-categories { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; }
+.text-option-categories .answer-choice-category { grid-template-columns: 88px minmax(0, 1fr); align-items: start; gap: 12px; }
+.text-option-categories .answer-choice-category > span { font-size: 12px; line-height: 36px; }
+.labeled-category-choices { display: flex; flex-wrap: wrap; gap: 6px; min-width: 0; }
+.answer-chip.labeled-option { display: inline-flex; gap: 7px; align-items: center; width: auto; height: auto; min-height: 36px; max-width: 100%; padding: 7px 10px; text-align: left; line-height: 1.45; }
+.labeled-option b { font-size: 12px; opacity: .8; }
+.labeled-option span { font-size: 13px; font-weight: 500; overflow-wrap: anywhere; }
+@container question-panel (max-width: 560px) {
+  .text-option-categories { padding-left: 0; }
+  .text-option-categories .answer-choice-category { grid-template-columns: minmax(0, 1fr); gap: 5px; }
+  .text-option-categories .answer-choice-category > span { line-height: 1.5; }
+}
 @container question-panel (max-width: 560px) {
   .answer-choice-category { flex-basis: 100%; }
 }

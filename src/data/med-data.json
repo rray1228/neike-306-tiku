@@ -16054,7 +16054,10 @@
       "lectureEvidence": {
         "lectureId": "lecture-30",
         "page": 2,
-        "pages": [2, 3],
+        "pages": [
+          2,
+          3
+        ],
         "pageLabel": "第2–3页",
         "image": "med/lecture-pages/lecture-30-pages-02-03.webp",
         "title": "第30讲第2–3页：溶血性贫血检查",
@@ -16372,7 +16375,10 @@
       "lectureEvidence": {
         "lectureId": "lecture-30",
         "page": 4,
-        "pages": [4, 5],
+        "pages": [
+          4,
+          5
+        ],
         "pageLabel": "第4–5页",
         "image": "med/lecture-pages/lecture-30-pages-04-05.webp",
         "title": "第30讲第4–5页：溶血性贫血类型与汇总表",
@@ -27759,118 +27765,141 @@
       "options": [
         {
           "key": "A",
-          "label": "病史｜可伴原发结核灶",
-          "sourceText": "A.可伴原发结核灶"
+          "label": "可伴原发结核灶",
+          "sourceText": "A.可伴原发结核灶",
+          "category": "病史"
         },
         {
           "key": "B",
-          "label": "病史｜伴原发感染灶",
-          "sourceText": "B.伴原发感染灶"
+          "label": "伴原发感染灶",
+          "sourceText": "B.伴原发感染灶",
+          "category": "病史"
         },
         {
           "key": "C",
-          "label": "病史｜手术、心梗史",
-          "sourceText": "C.手术、心梗史"
+          "label": "手术、心梗史",
+          "sourceText": "C.手术、心梗史",
+          "category": "病史"
         },
         {
           "key": "D",
-          "label": "病史｜前驱感染1～3周",
-          "sourceText": "D.前驱感染1～3周"
+          "label": "前驱感染1～3周",
+          "sourceText": "D.前驱感染1～3周",
+          "category": "病史"
         },
         {
           "key": "E",
-          "label": "病史｜转移性肿瘤多见",
-          "sourceText": "E.转移性肿瘤多见"
+          "label": "转移性肿瘤多见",
+          "sourceText": "E.转移性肿瘤多见",
+          "category": "病史"
         },
         {
           "key": "F",
-          "label": "病史｜起病急",
-          "sourceText": "F.起病急"
+          "label": "起病急",
+          "sourceText": "F.起病急",
+          "category": "病史"
         },
         {
           "key": "G",
-          "label": "病史｜起病缓",
-          "sourceText": "G.起病缓"
+          "label": "起病缓",
+          "sourceText": "G.起病缓",
+          "category": "病史"
         },
         {
           "key": "H",
-          "label": "发热｜常有",
-          "sourceText": "H.常有"
+          "label": "常有",
+          "sourceText": "H.常有",
+          "category": "发热"
         },
         {
           "key": "I",
-          "label": "发热｜低热多见",
-          "sourceText": "I.低热多见"
+          "label": "低热多见",
+          "sourceText": "I.低热多见",
+          "category": "发热"
         },
         {
           "key": "J",
-          "label": "发热｜明显",
-          "sourceText": "J.明显"
+          "label": "明显",
+          "sourceText": "J.明显",
+          "category": "发热"
         },
         {
           "key": "K",
-          "label": "发热｜高热多见",
-          "sourceText": "K.高热多见"
+          "label": "高热多见",
+          "sourceText": "K.高热多见",
+          "category": "发热"
         },
         {
           "key": "L",
-          "label": "发热｜无或低热",
-          "sourceText": "L.无或低热"
+          "label": "无或低热",
+          "sourceText": "L.无或低热",
+          "category": "发热"
         },
         {
           "key": "M",
-          "label": "胸痛｜明显",
-          "sourceText": "M.明显"
+          "label": "明显",
+          "sourceText": "M.明显",
+          "category": "胸痛"
         },
         {
           "key": "N",
-          "label": "胸痛｜常无",
-          "sourceText": "N.常无"
+          "label": "常无",
+          "sourceText": "N.常无",
+          "category": "胸痛"
         },
         {
           "key": "O",
-          "label": "胸痛｜常有",
-          "sourceText": "O.常有"
+          "label": "常有",
+          "sourceText": "O.常有",
+          "category": "胸痛"
         },
         {
           "key": "P",
-          "label": "心包摩擦音｜明显",
-          "sourceText": "P.明显"
+          "label": "明显",
+          "sourceText": "P.明显",
+          "category": "心包摩擦音"
         },
         {
           "key": "Q",
-          "label": "心包摩擦音｜不明显",
-          "sourceText": "Q.不明显"
+          "label": "不明显",
+          "sourceText": "Q.不明显",
+          "category": "心包摩擦音"
         },
         {
           "key": "R",
-          "label": "心包积液｜少量",
-          "sourceText": "R.少量"
+          "label": "少量",
+          "sourceText": "R.少量",
+          "category": "心包积液"
         },
         {
           "key": "S",
-          "label": "心包积液｜大量",
-          "sourceText": "S.大量"
+          "label": "大量",
+          "sourceText": "S.大量",
+          "category": "心包积液"
         },
         {
           "key": "T",
-          "label": "主要积液性质｜血性",
-          "sourceText": "T.血性"
+          "label": "血性",
+          "sourceText": "T.血性",
+          "category": "主要积液性质"
         },
         {
           "key": "U",
-          "label": "主要积液性质｜中性粒细胞",
-          "sourceText": "U.中性粒细胞"
+          "label": "中性粒细胞",
+          "sourceText": "U.中性粒细胞",
+          "category": "主要积液性质"
         },
         {
           "key": "V",
-          "label": "主要积液性质｜草黄色",
-          "sourceText": "V.草黄色"
+          "label": "草黄色",
+          "sourceText": "V.草黄色",
+          "category": "主要积液性质"
         },
         {
           "key": "W",
-          "label": "主要积液性质｜淋巴细胞",
-          "sourceText": "W.淋巴细胞"
+          "label": "淋巴细胞",
+          "sourceText": "W.淋巴细胞",
+          "category": "主要积液性质"
         }
       ],
       "stems": [
@@ -27958,7 +27987,8 @@
         "image": "med/lecture-pages/lecture-50-page-03.webp",
         "title": "第50讲第3页：内科含诊断 心包疾病",
         "description": "本题组对应第50讲第3页讲义。"
-      }
+      },
+      "showOptionText": true
     },
     {
       "id": "p76-g3",
