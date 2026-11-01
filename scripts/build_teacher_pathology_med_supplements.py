@@ -422,6 +422,14 @@ def med_groups(texts: dict[int, str]) -> list[dict]:
             }
             if lecture is None:
                 group["reviewIssues"] = ["现有内科讲义目录无骨髓纤维化专章，暂放入血液的未关联讲义。"]
+            if section == 2 and number == 11:
+                text = group["stems"][0]["text"]
+                for before, after in [( ",", "，"), (":", "："), ("(ICD)", "（ICD）"),
+                                      ("心动 图", "心动图"), ("右束支 传导", "右束支传导"),
+                                      ("心律 转复", "心律转复"), ("电除颤一次，就诊后", "电除颤一次。就诊后")]:
+                    text = text.replace(before, after)
+                group["stems"][0]["text"] = text.rstrip("：") + "："
+                group["title"] = group["title"].replace(",", "，")
             groups.append(group)
     return groups
 
