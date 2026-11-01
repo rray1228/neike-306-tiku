@@ -2,8 +2,10 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import { drawEncouragement, encouragements } from '../src/encouragements.js'
 
-test('at least one hundred distinct quotations include authors and verifiable sources', () => {
-  assert.ok(encouragements.length >= 100)
+test('fifty new learning quotations and reviewed existing quotations include sources', () => {
+  assert.equal(encouragements.filter(q => q.addedOn === '2026-11-01').length, 50)
+  assert.ok(encouragements.every(q => q.learningRelevant))
+  assert.ok(!encouragements.some(q => q.id === 'quote-165'))
   assert.equal(new Set(encouragements.map(quote => quote.id)).size, encouragements.length)
   assert.equal(new Set(encouragements.map(quote => quote.text)).size, encouragements.length)
   for (const quote of encouragements) {

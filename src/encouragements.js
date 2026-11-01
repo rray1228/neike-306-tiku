@@ -1,8 +1,9 @@
 import quotes from './data/encouragement-quotes.json' with { type: 'json' }
 
-export const encouragements = quotes
-const byId = new Map(quotes.map(quote => [quote.id, quote]))
-const catalog = quotes.map(quote => quote.id).join('|')
+const learningQuotes = quotes.filter(quote => quote.learningRelevant === true)
+export const encouragements = learningQuotes
+const byId = new Map(learningQuotes.map(quote => [quote.id, quote]))
+const catalog = learningQuotes.map(quote => quote.id).join('|')
 
 // Each browser retains its own shuffled deck. Every quotation is drawn once per
 // round; a new round cannot begin with the preceding round's last quotation.
@@ -15,7 +16,7 @@ export function drawEncouragement(raw, random = Math.random) {
   let remaining = valid ? [...saved.remaining] : []
   const last = byId.has(saved?.last) ? saved.last : null
   if (!remaining.length) {
-    remaining = quotes.map(quote => quote.id)
+    remaining = learningQuotes.map(quote => quote.id)
     for (let i = remaining.length - 1; i > 0; i--) {
       const j = Math.floor(random() * (i + 1))
       ;[remaining[i], remaining[j]] = [remaining[j], remaining[i]]
