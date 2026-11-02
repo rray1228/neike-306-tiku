@@ -246,6 +246,7 @@ def main() -> None:
         wrong_labels = [f"{key}. {label}" for key, label in question["options"].items() if key not in answer]
         stem = {
             "number": q, "sourceQuestion": q, "sourcePage": page_map.get(q), "text": question["stem"],
+            "sharedText": question.get("sharedStem"),
             "answerRaw": answer, "answer": list(answer), "answerMode": "多选" if q >= 136 else "单选",
             "answerState": "按用户提供的答案图录入", "lectureId": lecture_id, "explanation": explanation,
             "knowledgeConnections": [f"讲义定位：{lecture_title}", f"必会项：{answer}. {'；'.join(correct_labels)}", f"易混对照：{'；'.join(wrong_labels)}"],
