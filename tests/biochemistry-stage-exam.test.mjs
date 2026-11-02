@@ -110,6 +110,6 @@ test('stage questions load into real tested chapters, alongside existing lecture
   }
   const app = readFileSync(new URL('../src/App.jsx', import.meta.url), 'utf8')
   assert.match(app, /loadJson\(\(\) => import\('\.\/data\/biochemistry-stage-exam-data\.json'\)\)/)
-  assert.match(app, /groups: \[\.\.\.biochemistryTeacherContent\.groups, \.\.\.biochemistryExamContent\.groups\]/)
-  assert.match(app, /pages: \[\.\.\.biochemistryTeacherContent\.pages, \.\.\.biochemistryExamContent\.pages\]/)
+  assert.match(app, /groups: \[\.\.\.biochemistryTeacherContent\.groups, \.\.\.biochemistryExamContent\.groups(?:,|\])/)
+  assert.match(app, /pages: \[\.\.\.biochemistryTeacherContent\.pages, \.\.\.biochemistryExamContent\.pages(?:,|\])/)
 })

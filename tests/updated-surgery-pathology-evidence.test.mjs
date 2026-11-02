@@ -6,7 +6,8 @@ import surgeryCore from '../src/data/surgery-general-core-data.js'
 import { surgeryGeneralInfectionGroups, surgeryGeneralLaterGroups } from '../src/data/surgery-general-late-data.js'
 const directory = new URL('../src/data/', import.meta.url)
 const read = name => JSON.parse(readFileSync(new URL(`${name}.json`, directory)))
-const collect = subject => readdirSync(directory).filter(name => name.startsWith(subject) && name.endsWith('.json')).flatMap(name => {
+// Keep this review's original scope; paper-specific evidence has separate checks.
+const collect = subject => readdirSync(directory).filter(name => name.startsWith(subject) && name.endsWith('.json') && !/(?:sprint-exam|foundation-mock-exam)-data\.json$/.test(name)).flatMap(name => {
   const data = JSON.parse(readFileSync(new URL(name, directory)))
   return Array.isArray(data.groups) ? data.groups : []
 })

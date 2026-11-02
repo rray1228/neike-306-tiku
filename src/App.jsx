@@ -10,6 +10,7 @@ import { applyReviewedEvidence, lectureForStem } from './med-lecture-evidence.js
 import { organizePoliticsContent } from './politics-navigation.js'
 import { migratePoliticsAnswers, sourceStemNumber } from './politics-answers.js'
 import { migrateJoinedCaseAnswers } from './joined-case-answers.js'
+import { chapterLectureIds, organizeChapterPractice, originalQuestionsFirst } from './chapter-practice.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
 import { fillNavigationTarget } from './fill-navigation.js'
 import { EncouragementDialog, usePracticeEncouragement, VisitorCount } from './StudySupport.jsx'
@@ -699,7 +700,7 @@ function topicCounts(groups) {
 
 function navigationLectureIds(subject, group) {
   const override = subject === 'med' ? MED_CHAPTER_OVERRIDES[group.id] : null
-  const ids = override || (group.lectureIds?.length ? group.lectureIds : (group.lectureEvidence?.lectureId ? [group.lectureEvidence.lectureId] : []))
+  const ids = override || (chapterLectureIds(group).length ? chapterLectureIds(group) : (group.lectureEvidence?.lectureId ? [group.lectureEvidence.lectureId] : []))
   if (subject !== 'med') return unique(ids.map((id) => String(id)).filter(Boolean))
   const range = MED_LECTURE_TOPIC_RANGES[group.topic]
   if (!range) return unique(ids.map((id) => String(id)).filter(Boolean))
@@ -933,7 +934,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     }, 15_000)
     CONTENT_LOADERS[subject]().then((nextContent) => {
       clearTimeout(slow)
-      if (!cancelled) { loadedSubjectRef.current = subject; setLoadedContent(nextContent) }
+      if (!cancelled) { loadedSubjectRef.current = subject; setLoadedContent(organizeChapterPractice(nextContent, subject)) }
     }).catch(() => {
       clearTimeout(slow)
       if (!cancelled) setLoadError('题库数据暂时加载失败，请检查网络后重试。')
@@ -989,7 +990,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   const filteredGroups = useMemo(() => {
     const query = search.trim().toLowerCase()
     const chapterGroupIds = currentChapter?.groupIds || []
-    return content.groups.filter((group) => {
+    const groups = content.groups.filter((group) => {
       if (chapterId) {
         if (chapterGroupIds.length) {
           if (!chapterGroupIds.includes(group.id)) return false
@@ -1010,6 +1011,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       const haystack = [group.title, group.topic, group.sourceText, ...sourceTerms, ...(group.diseaseTags || []), ...group.options.map((item) => item.label), ...group.stems.flatMap((stem) => [stem.text, stem.sourceTextForSearch])].join(' ').toLowerCase()
       return haystack.includes(query)
     })
+    return chapterId ? originalQuestionsFirst(groups) : groups
   }, [chapterId, content, currentChapter, favorites, favoritesOnly, search, subject, topic, typeFilter, testSourceFilter, viewMode])
 
   useEffect(() => {
