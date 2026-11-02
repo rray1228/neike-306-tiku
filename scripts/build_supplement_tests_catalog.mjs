@@ -3,7 +3,7 @@ import { readFileSync, readdirSync, writeFileSync } from 'node:fs'
 const directory = new URL('../src/data/', import.meta.url)
 const labels = { med: '内科', pathology: '病理', surgery: '外科', physiology: '生理', biochemistry: '生化', politics: '政治' }
 const catalog = []
-for (const file of readdirSync(directory).filter(name => name.endsWith('.json') && name !== 'supplement-tests-catalog.json' && !name.includes('-2017-exam-data')).sort()) {
+for (const file of readdirSync(directory).filter(name => name.endsWith('.json') && name !== 'supplement-tests-catalog.json' && !name.includes('-foundation-mock-exam-data')).sort()) {
   const data = JSON.parse(readFileSync(new URL(file, directory)))
   if (!Array.isArray(data.groups)) continue
   const subject = file.split('-')[0]

@@ -1,0 +1,3536 @@
+{
+  "meta": {
+    "title": "基础强化摸底考试·外科",
+    "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+    "sourcePages": 28,
+    "answerNote": "答案依据用户提供的答案图；每题附解析、讲义要点和对应讲义原页。",
+    "groupCount": 32,
+    "stemCount": 32,
+    "lectureCount": 18
+  },
+  "groups": [
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q057",
+      "page": 10,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "57",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第57题 · 外科 输血",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "foundation-surgery-30"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "辐照血小板"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "新鲜冰冻血浆"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "去白红细胞"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "洗涤红细胞"
+        }
+      ],
+      "stems": [
+        {
+          "number": 57,
+          "sourceQuestion": 57,
+          "sourcePage": 10,
+          "text": "女性，28 岁。妊娠 38 周， 拟行剖宫产术。4 年前曾因外伤住院，接受输血后出现严 重过敏反应。患者需要预订的血液成分是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-30",
+          "explanation": "答案为 D（洗涤红细胞）。注意：延迟性溶血反应在输血后 1-2 周；（最严重） ②抗休克、肝素、NaHCO3，有尿→利尿、少尿无尿或高钾血症→血液透析。",
+          "knowledgeConnections": [
+            "讲义定位：外科 输血",
+            "必会项：D. 洗涤红细胞",
+            "易混对照：A. 辐照血小板；B. 新鲜冰冻血浆；C. 去白红细胞"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 输血",
+        "答案依据：D. 洗涤红细胞",
+        "注意：延迟性溶血反应在输血后 1-2 周；（最严重） ②抗休克、肝素、NaHCO3，有尿→利尿、少尿无尿或高钾血症→血液透析。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-30",
+        "sourceSubject": "surgery",
+        "sourceFile": "30 27考研：外科 输血 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "外科 输血 · 第1页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-30-p01.webp",
+        "description": "基础强化摸底考试第57题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 输血",
+          "注意：延迟性溶血反应在输血后 1-2 周；（最严重） ②抗休克、肝素、NaHCO3，有尿→利尿、少尿无尿或高钾血症→血液透析。"
+        ],
+        "questionNumbers": [
+          57
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-30",
+          "sourceSubject": "surgery",
+          "sourceFile": "30 27考研：外科 输血 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "外科 输血 · 第1页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-30-p01.webp",
+          "description": "基础强化摸底考试第57题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 输血",
+            "注意：延迟性溶血反应在输血后 1-2 周；（最严重） ②抗休克、肝素、NaHCO3，有尿→利尿、少尿无尿或高钾血症→血液透析。"
+          ],
+          "questionNumbers": [
+            57
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q058",
+      "page": 10,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "58",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第58题 · 外科 颈部疾病",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "颈胸与乳房疾病",
+      "lectureIds": [
+        "foundation-surgery-01"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "甲状腺高功能腺瘤"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "甲状腺乳头状癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "亚急性甲状腺炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "青少年原发性甲亢"
+        }
+      ],
+      "stems": [
+        {
+          "number": 58,
+          "sourceQuestion": 58,
+          "sourcePage": 10,
+          "text": "下列疾病应及时行甲状腺患侧腺叶大部分切除术的是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-01",
+          "explanation": "答案为 A（甲状腺高功能腺瘤）。②高功能腺瘤首选患侧叶或部分切+冰冻切片；①甲状腺疾病：甲亢外科治疗、甲状腺癌、单纯性甲状腺肿、甲状腺炎（亚甲炎和慢性淋巴细胞性）。",
+          "knowledgeConnections": [
+            "讲义定位：外科 颈部疾病",
+            "必会项：A. 甲状腺高功能腺瘤",
+            "易混对照：B. 甲状腺乳头状癌；C. 亚急性甲状腺炎；D. 青少年原发性甲亢"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 颈部疾病",
+        "答案依据：A. 甲状腺高功能腺瘤",
+        "②高功能腺瘤首选患侧叶或部分切+冰冻切片；①甲状腺疾病：甲亢外科治疗、甲状腺癌、单纯性甲状腺肿、甲状腺炎（亚甲炎和慢性淋巴细胞性）。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-01",
+        "sourceSubject": "surgery",
+        "sourceFile": "1 27考研：外科 颈部疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "外科 颈部疾病 · 第1页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-01-p01.webp",
+        "description": "基础强化摸底考试第58题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 颈部疾病",
+          "②高功能腺瘤首选患侧叶或部分切+冰冻切片；①甲状腺疾病：甲亢外科治疗、甲状腺癌、单纯性甲状腺肿、甲状腺炎（亚甲炎和慢性淋巴细胞性）。"
+        ],
+        "questionNumbers": [
+          58
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-01",
+          "sourceSubject": "surgery",
+          "sourceFile": "1 27考研：外科 颈部疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "外科 颈部疾病 · 第1页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-01-p01.webp",
+          "description": "基础强化摸底考试第58题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 颈部疾病",
+            "②高功能腺瘤首选患侧叶或部分切+冰冻切片；①甲状腺疾病：甲亢外科治疗、甲状腺癌、单纯性甲状腺肿、甲状腺炎（亚甲炎和慢性淋巴细胞性）。"
+          ],
+          "questionNumbers": [
+            58
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q059",
+      "page": 11,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "59",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第59题 · 外科 胃肿瘤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "腹部疾病",
+      "lectureIds": [
+        "foundation-surgery-05"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "吻合口梗阻"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "输入袢梗阻"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "输出袢梗阻"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "倾倒综合征"
+        }
+      ],
+      "stems": [
+        {
+          "number": 59,
+          "sourceQuestion": 59,
+          "sourcePage": 11,
+          "text": "女性，39 岁。因十二指肠溃疡行毕Ⅱ式胃大部切除术，术后恢复尚可。术后 3 周进食 奶茶 20 分钟后出现头晕，心悸，出汗，面色苍白，伴恶心、呕吐，呕吐物含食物和胆 汁。该患者首先考虑的诊断是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-05",
+          "explanation": "答案为 D（倾倒综合征）。③胃窦癌的远端胃大部分切除术（保留贲门+消化道重建选毕Ⅰ或毕Ⅱ式）不清扫第 2、10 组淋巴结——贲门左 2、；④无论是全胃切除术、还是远端胃大部分切除术均不清扫第 13-16 组淋巴结——胰头后、肠系膜上血管旁、结肠。",
+          "knowledgeConnections": [
+            "讲义定位：外科 胃肿瘤",
+            "必会项：D. 倾倒综合征",
+            "易混对照：A. 吻合口梗阻；B. 输入袢梗阻；C. 输出袢梗阻"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 胃肿瘤",
+        "答案依据：D. 倾倒综合征",
+        "③胃窦癌的远端胃大部分切除术（保留贲门+消化道重建选毕Ⅰ或毕Ⅱ式）不清扫第 2、10 组淋巴结——贲门左 2、；④无论是全胃切除术、还是远端胃大部分切除术均不清扫第 13-16 组淋巴结——胰头后、肠系膜上血管旁、结肠。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-05",
+        "sourceSubject": "surgery",
+        "sourceFile": "5 27考研：外科 胃肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "外科 胃肿瘤 · 第2页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-05-p02.webp",
+        "description": "基础强化摸底考试第59题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 胃肿瘤",
+          "③胃窦癌的远端胃大部分切除术（保留贲门+消化道重建选毕Ⅰ或毕Ⅱ式）不清扫第 2、10 组淋巴结——贲门左 2、；④无论是全胃切除术、还是远端胃大部分切除术均不清扫第 13-16 组淋巴结——胰头后、肠系膜上血管旁、结肠。"
+        ],
+        "questionNumbers": [
+          59
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-05",
+          "sourceSubject": "surgery",
+          "sourceFile": "5 27考研：外科 胃肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "外科 胃肿瘤 · 第2页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-05-p02.webp",
+          "description": "基础强化摸底考试第59题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 胃肿瘤",
+            "③胃窦癌的远端胃大部分切除术（保留贲门+消化道重建选毕Ⅰ或毕Ⅱ式）不清扫第 2、10 组淋巴结——贲门左 2、；④无论是全胃切除术、还是远端胃大部分切除术均不清扫第 13-16 组淋巴结——胰头后、肠系膜上血管旁、结肠。"
+          ],
+          "questionNumbers": [
+            59
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q060",
+      "page": 11,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "60",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第60题 · 外科 腹部损伤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "腹部疾病",
+      "lectureIds": [
+        "foundation-surgery-07"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "横结肠造口"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "降结肠穿孔修补术"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "降结肠穿孔处切除，断端吻合术"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "单纯腹腔引流术"
+        }
+      ],
+      "stems": [
+        {
+          "number": 60,
+          "sourceQuestion": 60,
+          "sourcePage": 11,
+          "text": "男性， 35 岁。左下腹外伤后 24 小时。入院时有弥漫性腹膜炎，行剖腹探查，术中 见腹腔内有黄色脓液及粪便，降结肠下段有一 0.5cm 穿孔，有粪便溢出。该患者最合适的 术式是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-07",
+          "explanation": "答案为 A（横结肠造口）。左半结肠损伤合并黄色脓液、粪便溢出和弥漫性腹膜炎，污染重，宜造口/外置，而不是一期修补或吻合。",
+          "knowledgeConnections": [
+            "讲义定位：外科 腹部损伤",
+            "必会项：A. 横结肠造口",
+            "易混对照：B. 降结肠穿孔修补术；C. 降结肠穿孔处切除，断端吻合术；D. 单纯腹腔引流术"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 腹部损伤",
+        "答案依据：A. 横结肠造口",
+        "左半结肠损伤合并黄色脓液、粪便溢出和弥漫性腹膜炎，污染重，宜造口/外置，而不是一期修补或吻合。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-07",
+        "sourceSubject": "surgery",
+        "sourceFile": "7 27考研：外科 腹部损伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "外科 腹部损伤 · 第3页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-07-p03.webp",
+        "description": "基础强化摸底考试第60题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 腹部损伤",
+          "治疗：肠修补或切除吻合+乙状结肠双腔造口；对比：腹腔感染章节的继发性腹膜炎-右旁正中切口。"
+        ],
+        "questionNumbers": [
+          60
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-07",
+          "sourceSubject": "surgery",
+          "sourceFile": "7 27考研：外科 腹部损伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "外科 腹部损伤 · 第3页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-07-p03.webp",
+          "description": "基础强化摸底考试第60题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 腹部损伤",
+            "治疗：肠修补或切除吻合+乙状结肠双腔造口；对比：腹腔感染章节的继发性腹膜炎-右旁正中切口。"
+          ],
+          "questionNumbers": [
+            60
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q061",
+      "page": 11,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "61",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第61题 · 外科 其它大肠与肛管疾病",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "腹部疾病",
+      "lectureIds": [
+        "foundation-surgery-11"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肛门周围脓肿"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "坐骨肛门窝脓肿"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "骨盆直肠窝脓肿"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "括约肌间隙脓肿"
+        }
+      ],
+      "stems": [
+        {
+          "number": 61,
+          "sourceQuestion": 61,
+          "sourcePage": 11,
+          "text": "男性，37 岁。肛门持续性胀痛、跳痛，排便及行走时加重，伴发热、畏寒 2 天。查体： T 38.8 度。膝胸位直肠指检于直肠右侧壁扪及一柔软有 波动感、压痛的肿块，穿刺抽 出少量脓液。该患者最可能的诊断是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-11",
+          "explanation": "答案为 B（坐骨肛门窝脓肿）。坐骨肛管/直肠间隙脓肿 明显 明显 可有直肠和/或膀胱刺激征；骨盆直肠间隙脓肿 不明显 明显 最少见。",
+          "knowledgeConnections": [
+            "讲义定位：外科 其它大肠与肛管疾病",
+            "必会项：B. 坐骨肛门窝脓肿",
+            "易混对照：A. 肛门周围脓肿；C. 骨盆直肠窝脓肿；D. 括约肌间隙脓肿"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 其它大肠与肛管疾病",
+        "答案依据：B. 坐骨肛门窝脓肿",
+        "坐骨肛管/直肠间隙脓肿 明显 明显 可有直肠和/或膀胱刺激征；骨盆直肠间隙脓肿 不明显 明显 最少见。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-11",
+        "sourceSubject": "surgery",
+        "sourceFile": "11 27考研：外科 其它大肠与肛管疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "外科 其它大肠与肛管疾病 · 第3页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-11-p03.webp",
+        "description": "基础强化摸底考试第61题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 其它大肠与肛管疾病",
+          "坐骨肛管/直肠间隙脓肿 明显 明显 可有直肠和/或膀胱刺激征；骨盆直肠间隙脓肿 不明显 明显 最少见。"
+        ],
+        "questionNumbers": [
+          61
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-11",
+          "sourceSubject": "surgery",
+          "sourceFile": "11 27考研：外科 其它大肠与肛管疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "外科 其它大肠与肛管疾病 · 第3页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-11-p03.webp",
+          "description": "基础强化摸底考试第61题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 其它大肠与肛管疾病",
+            "坐骨肛管/直肠间隙脓肿 明显 明显 可有直肠和/或膀胱刺激征；骨盆直肠间隙脓肿 不明显 明显 最少见。"
+          ],
+          "questionNumbers": [
+            61
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q062",
+      "page": 11,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "62",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第62题 · 外科 门脉高压症",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "foundation-surgery-14"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "腹腔穿刺"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "腹部 B 超"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "腹部 X 线"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "腹部 CT"
+        }
+      ],
+      "stems": [
+        {
+          "number": 62,
+          "sourceQuestion": 62,
+          "sourcePage": 11,
+          "text": "男性，60 岁。突发剧烈腹痛，腹胀。既往乙型病毒性肝炎病史 25 年，肝硬化病史 13 年。查体：BP 86/50mmHg，心率 120 次/分，消瘦，肝肋下 3cm，移动性浊音阳性。该患 者确诊的检查方法是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-14",
+          "explanation": "答案为 A（腹腔穿刺）。2021N100-102 A 男性，40 岁。因呕血，黑便 2 天入院，既往乙型肝炎 10 年。查体：神志清，贫血貌，肝肋下未；触及，脾肋下 3cm，腹部无压痛，移动性浊音(+)，肠鸣音活跃。化验：血 Hb 80g/L，血白蛋白 20g/L，血总胆红。",
+          "knowledgeConnections": [
+            "讲义定位：外科 门脉高压症",
+            "必会项：A. 腹腔穿刺",
+            "易混对照：B. 腹部 B 超；C. 腹部 X 线；D. 腹部 CT"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 门脉高压症",
+        "答案依据：A. 腹腔穿刺",
+        "2021N100-102 A 男性，40 岁。因呕血，黑便 2 天入院，既往乙型肝炎 10 年。查体：神志清，贫血貌，肝肋下未；触及，脾肋下 3cm，腹部无压痛，移动性浊音(+)，肠鸣音活跃。化验：血 Hb 80g/L，血白蛋白 20g/L，血总胆红。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-14",
+        "sourceSubject": "surgery",
+        "sourceFile": "14 27考研：外科 门脉高压症 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "外科 门脉高压症 · 第5页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-14-p05.webp",
+        "description": "基础强化摸底考试第62题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 门脉高压症",
+          "2021N100-102 A 男性，40 岁。因呕血，黑便 2 天入院，既往乙型肝炎 10 年。查体：神志清，贫血貌，肝肋下未；触及，脾肋下 3cm，腹部无压痛，移动性浊音(+)，肠鸣音活跃。化验：血 Hb 80g/L，血白蛋白 20g/L，血总胆红。"
+        ],
+        "questionNumbers": [
+          62
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-14",
+          "sourceSubject": "surgery",
+          "sourceFile": "14 27考研：外科 门脉高压症 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "外科 门脉高压症 · 第5页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-14-p05.webp",
+          "description": "基础强化摸底考试第62题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 门脉高压症",
+            "2021N100-102 A 男性，40 岁。因呕血，黑便 2 天入院，既往乙型肝炎 10 年。查体：神志清，贫血貌，肝肋下未；触及，脾肋下 3cm，腹部无压痛，移动性浊音(+)，肠鸣音活跃。化验：血 Hb 80g/L，血白蛋白 20g/L，血总胆红。"
+          ],
+          "questionNumbers": [
+            62
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q063",
+      "page": 11,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "63",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第63题 · 外科 胆系疾病",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "foundation-surgery-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肝总管"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胆总管"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胆囊管"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肝内胆管"
+        }
+      ],
+      "stems": [
+        {
+          "number": 63,
+          "sourceQuestion": 63,
+          "sourcePage": 11,
+          "text": "女性，56 岁。突发右上腹痛 1 天，巩膜无黄染。曾经体检发现胆囊泥沙样结石。B 超提 示胆囊明显肿大 。最可能的梗阻部位在",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-16",
+          "explanation": "答案为 C（胆囊管）。痛，轻度肌紧张，肠鸣音弱。B 超示胆囊内泥沙样结石。胆总管宽 9mm，上段无结石，下段观察不清，胰腺肿；2021N96-97 A 女性，42 岁。因持续上腹痛伴恶心、呕吐 3 天入院。2 年前检查有胆囊结石，平时常有进油腻食物。",
+          "knowledgeConnections": [
+            "讲义定位：外科 胆系疾病",
+            "必会项：C. 胆囊管",
+            "易混对照：A. 肝总管；B. 胆总管；D. 肝内胆管"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 胆系疾病",
+        "答案依据：C. 胆囊管",
+        "痛，轻度肌紧张，肠鸣音弱。B 超示胆囊内泥沙样结石。胆总管宽 9mm，上段无结石，下段观察不清，胰腺肿；2021N96-97 A 女性，42 岁。因持续上腹痛伴恶心、呕吐 3 天入院。2 年前检查有胆囊结石，平时常有进油腻食物。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-16",
+        "sourceSubject": "surgery",
+        "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 18,
+        "pageLabel": "PDF第18页",
+        "title": "外科 胆系疾病 · 第18页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-16-p18.webp",
+        "description": "基础强化摸底考试第63题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 胆系疾病",
+          "痛，轻度肌紧张，肠鸣音弱。B 超示胆囊内泥沙样结石。胆总管宽 9mm，上段无结石，下段观察不清，胰腺肿；2021N96-97 A 女性，42 岁。因持续上腹痛伴恶心、呕吐 3 天入院。2 年前检查有胆囊结石，平时常有进油腻食物。"
+        ],
+        "questionNumbers": [
+          63
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-16",
+          "sourceSubject": "surgery",
+          "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 18,
+          "pageLabel": "PDF第18页",
+          "title": "外科 胆系疾病 · 第18页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-16-p18.webp",
+          "description": "基础强化摸底考试第63题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 胆系疾病",
+            "痛，轻度肌紧张，肠鸣音弱。B 超示胆囊内泥沙样结石。胆总管宽 9mm，上段无结石，下段观察不清，胰腺肿；2021N96-97 A 女性，42 岁。因持续上腹痛伴恶心、呕吐 3 天入院。2 年前检查有胆囊结石，平时常有进油腻食物。"
+          ],
+          "questionNumbers": [
+            63
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q064",
+      "page": 12,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "64",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第64题 · 外科 泌外感染和肿瘤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿外科",
+      "lectureIds": [
+        "foundation-surgery-18"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "根治性前列腺切除"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "放射治疗"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "药物去势+抗雄激素制剂"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "切除一侧睾丸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 64,
+          "sourceQuestion": 64,
+          "sourcePage": 12,
+          "text": "男性，78 岁 。直肠指检触及前列腺增大，并触及质地坚硬的结节，血清 PSA 70.5ng/ml。前列腺穿刺活检诊断为前列腺癌，MRI 提示肿瘤突破前列腺包膜。该患者的最 佳治疗是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-18",
+          "explanation": "答案为 C（药物去势+抗雄激素制剂）。癌突破前列腺 抗雄激素药+去势治疗（切双侧睾丸或药物抑制睾酮）；癌局限在前列腺 根治性前列腺切除术。",
+          "knowledgeConnections": [
+            "讲义定位：外科 泌外感染和肿瘤",
+            "必会项：C. 药物去势+抗雄激素制剂",
+            "易混对照：A. 根治性前列腺切除；B. 放射治疗；D. 切除一侧睾丸"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 泌外感染和肿瘤",
+        "答案依据：C. 药物去势+抗雄激素制剂",
+        "癌突破前列腺 抗雄激素药+去势治疗（切双侧睾丸或药物抑制睾酮）；癌局限在前列腺 根治性前列腺切除术。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-18",
+        "sourceSubject": "surgery",
+        "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "外科 泌外感染和肿瘤 · 第3页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-18-p03.webp",
+        "description": "基础强化摸底考试第64题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 泌外感染和肿瘤",
+          "癌突破前列腺 抗雄激素药+去势治疗（切双侧睾丸或药物抑制睾酮）；癌局限在前列腺 根治性前列腺切除术。"
+        ],
+        "questionNumbers": [
+          64
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-18",
+          "sourceSubject": "surgery",
+          "sourceFile": "18 27考研：外科 泌外感染和肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "外科 泌外感染和肿瘤 · 第3页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-18-p03.webp",
+          "description": "基础强化摸底考试第64题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 泌外感染和肿瘤",
+            "癌突破前列腺 抗雄激素药+去势治疗（切双侧睾丸或药物抑制睾酮）；癌局限在前列腺 根治性前列腺切除术。"
+          ],
+          "questionNumbers": [
+            64
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q065",
+      "page": 12,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "65",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第65题 · 外科 四肢骨折和脱位",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "foundation-surgery-28"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "手法复位，后侧石膏托外固定"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "切开复位，钢板内固定"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "持续尺骨鹰嘴牵引"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "切开前臂深筋膜减压"
+        }
+      ],
+      "stems": [
+        {
+          "number": 65,
+          "sourceQuestion": 65,
+          "sourcePage": 12,
+          "text": "女性，8 岁 。1 小时前跌倒，手掌着地，肘部明显肿胀，疼痛，活动受限。查体：肘 关节半屈位，桡动脉搏动消失，肘后三角存在，被动伸直时有剧烈疼痛。该患者首选的治 疗是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-28",
+          "explanation": "答案为 D（切开前臂深筋膜减压）。105.患者经手法复位，小夹板固定 4 小时后，感觉患肢剧痛，手指麻木、肿胀，活动时疼痛加重，可能的原因是；2020N103-105 A 男性，50 岁。因车轮碾压致左前臂外伤 5 小时。查体：神志清楚，左前臂明显肿胀疼痛，皮肤瘀。",
+          "knowledgeConnections": [
+            "讲义定位：外科 四肢骨折和脱位",
+            "必会项：D. 切开前臂深筋膜减压",
+            "易混对照：A. 手法复位，后侧石膏托外固定；B. 切开复位，钢板内固定；C. 持续尺骨鹰嘴牵引"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 四肢骨折和脱位",
+        "答案依据：D. 切开前臂深筋膜减压",
+        "105.患者经手法复位，小夹板固定 4 小时后，感觉患肢剧痛，手指麻木、肿胀，活动时疼痛加重，可能的原因是；2020N103-105 A 男性，50 岁。因车轮碾压致左前臂外伤 5 小时。查体：神志清楚，左前臂明显肿胀疼痛，皮肤瘀。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-28",
+        "sourceSubject": "surgery",
+        "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 14,
+        "pageLabel": "PDF第14页",
+        "title": "外科 四肢骨折和脱位 · 第14页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-28-p14.webp",
+        "description": "基础强化摸底考试第65题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 四肢骨折和脱位",
+          "105.患者经手法复位，小夹板固定 4 小时后，感觉患肢剧痛，手指麻木、肿胀，活动时疼痛加重，可能的原因是；2020N103-105 A 男性，50 岁。因车轮碾压致左前臂外伤 5 小时。查体：神志清楚，左前臂明显肿胀疼痛，皮肤瘀。"
+        ],
+        "questionNumbers": [
+          65
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-28",
+          "sourceSubject": "surgery",
+          "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 14,
+          "pageLabel": "PDF第14页",
+          "title": "外科 四肢骨折和脱位 · 第14页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-28-p14.webp",
+          "description": "基础强化摸底考试第65题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 四肢骨折和脱位",
+            "105.患者经手法复位，小夹板固定 4 小时后，感觉患肢剧痛，手指麻木、肿胀，活动时疼痛加重，可能的原因是；2020N103-105 A 男性，50 岁。因车轮碾压致左前臂外伤 5 小时。查体：神志清楚，左前臂明显肿胀疼痛，皮肤瘀。"
+          ],
+          "questionNumbers": [
+            65
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q066",
+      "page": 12,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "66",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第66题 · 外科 四肢骨折和脱位",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "foundation-surgery-28"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "三角巾悬吊固定"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "手法复位、石膏外固定"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "切开复位、内固定"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肱骨头置换术"
+        }
+      ],
+      "stems": [
+        {
+          "number": 66,
+          "sourceQuestion": 66,
+          "sourcePage": 12,
+          "text": "男性，70 岁。摔倒后右肩部着地受伤，肩部肿胀、疼痛，肩关节活动障碍。X 线示右侧 肱骨外科颈骨皮质连续性中断，无明显移位 。该患者首选的治疗方法是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-28",
+          "explanation": "答案为 A（三角巾悬吊固定）。105.患者经手法复位，小夹板固定 4 小时后，感觉患肢剧痛，手指麻木、肿胀，活动时疼痛加重，可能的原因是；104.该患者治疗方案选择手法复位外固定的依据是。",
+          "knowledgeConnections": [
+            "讲义定位：外科 四肢骨折和脱位",
+            "必会项：A. 三角巾悬吊固定",
+            "易混对照：B. 手法复位、石膏外固定；C. 切开复位、内固定；D. 肱骨头置换术"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 四肢骨折和脱位",
+        "答案依据：A. 三角巾悬吊固定",
+        "105.患者经手法复位，小夹板固定 4 小时后，感觉患肢剧痛，手指麻木、肿胀，活动时疼痛加重，可能的原因是；104.该患者治疗方案选择手法复位外固定的依据是。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-28",
+        "sourceSubject": "surgery",
+        "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 14,
+        "pageLabel": "PDF第14页",
+        "title": "外科 四肢骨折和脱位 · 第14页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-28-p14.webp",
+        "description": "基础强化摸底考试第66题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 四肢骨折和脱位",
+          "105.患者经手法复位，小夹板固定 4 小时后，感觉患肢剧痛，手指麻木、肿胀，活动时疼痛加重，可能的原因是；104.该患者治疗方案选择手法复位外固定的依据是。"
+        ],
+        "questionNumbers": [
+          66
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-28",
+          "sourceSubject": "surgery",
+          "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 14,
+          "pageLabel": "PDF第14页",
+          "title": "外科 四肢骨折和脱位 · 第14页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-28-p14.webp",
+          "description": "基础强化摸底考试第66题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 四肢骨折和脱位",
+            "105.患者经手法复位，小夹板固定 4 小时后，感觉患肢剧痛，手指麻木、肿胀，活动时疼痛加重，可能的原因是；104.该患者治疗方案选择手法复位外固定的依据是。"
+          ],
+          "questionNumbers": [
+            66
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q067",
+      "page": 12,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "67",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第67题 · 外科 骨肿瘤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "foundation-surgery-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "刮除植骨"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "根治性手术"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "根治性手术+化疗"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "根治性手术+放疗"
+        }
+      ],
+      "stems": [
+        {
+          "number": 67,
+          "sourceQuestion": 67,
+          "sourcePage": 12,
+          "text": "女性，16 岁。6 小时前打 乒乓球后出现左大臂近端疼痛，肿胀，伴活动受限。查 体：左上臂近端畸形，异常活动，可触及骨擦音、骨擦感，压痛阳性。X 线见左肱骨近端 骨折，紧邻骺板见一椭圆形透光区，边界清楚，骨皮质变薄。该患者首选的治疗是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-25",
+          "explanation": "答案为 A（刮除植骨）。2025N103-105 A 男童，11 岁。左上臂近端隐痛 2 个月，骨科检查：左肩部无明显畸形，关节活动自如。X 线片示；左肱骨近端干骺端圆形透亮灶，界限清楚，骨皮质轻度变薄。",
+          "knowledgeConnections": [
+            "讲义定位：外科 骨肿瘤",
+            "必会项：A. 刮除植骨",
+            "易混对照：B. 根治性手术；C. 根治性手术+化疗；D. 根治性手术+放疗"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 骨肿瘤",
+        "答案依据：A. 刮除植骨",
+        "2025N103-105 A 男童，11 岁。左上臂近端隐痛 2 个月，骨科检查：左肩部无明显畸形，关节活动自如。X 线片示；左肱骨近端干骺端圆形透亮灶，界限清楚，骨皮质轻度变薄。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-25",
+        "sourceSubject": "surgery",
+        "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "title": "外科 骨肿瘤 · 第7页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-25-p07.webp",
+        "description": "基础强化摸底考试第67题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 骨肿瘤",
+          "2025N103-105 A 男童，11 岁。左上臂近端隐痛 2 个月，骨科检查：左肩部无明显畸形，关节活动自如。X 线片示；左肱骨近端干骺端圆形透亮灶，界限清楚，骨皮质轻度变薄。"
+        ],
+        "questionNumbers": [
+          67
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-25",
+          "sourceSubject": "surgery",
+          "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "title": "外科 骨肿瘤 · 第7页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-25-p07.webp",
+          "description": "基础强化摸底考试第67题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 骨肿瘤",
+            "2025N103-105 A 男童，11 岁。左上臂近端隐痛 2 个月，骨科检查：左肩部无明显畸形，关节活动自如。X 线片示；左肱骨近端干骺端圆形透亮灶，界限清楚，骨皮质轻度变薄。"
+          ],
+          "questionNumbers": [
+            67
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q095",
+      "page": 17,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "95",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第95题 · 外科 大肠癌",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "腹部疾病",
+      "lectureIds": [
+        "foundation-surgery-10"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "大便培养，血 CEA"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "腹部 MRI"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "全消化道钡剂造影"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "结肠镜"
+        }
+      ],
+      "stems": [
+        {
+          "number": 95,
+          "sourceQuestion": 95,
+          "sourcePage": 17,
+          "text": "[共用题干] 男性，68 岁。半年来每天排便 4-5 次，便中带血及黏液。当地社区按 “细菌性痢疾”治疗，排便次数稍减少，仍可见脓血。既往冠心病 10 年，长期服用阿司匹 林。患者突发腹胀、腹痛、停止排气排便 2 天。查体：T 37.2 度，消瘦，全腹轻微压痛， 腹胀，左侧腹部平脐可触及包块，腹部叩诊鼓音，肠鸣音 6-7 次/分， 直肠指诊未触及 肿物。实验室检查：Hb 90g/L，WBC 6.7×109/L，Plt 280×109/L。X 线平片见全腹多个气液 平。  [95题] 为明确诊断，最佳的检查是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-10",
+          "explanation": "答案为 D（结肠镜）。长期黏液血便、贫血、左腹包块并急性肠梗阻强烈提示左半结肠癌；结肠镜可直视并取活检，是确诊的金标准。",
+          "knowledgeConnections": [
+            "讲义定位：外科 大肠癌",
+            "必会项：D. 结肠镜",
+            "易混对照：A. 大便培养，血 CEA；B. 腹部 MRI；C. 全消化道钡剂造影"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 大肠癌",
+        "答案依据：D. 结肠镜",
+        "长期黏液血便、贫血、左腹包块并急性肠梗阻强烈提示左半结肠癌；结肠镜可直视并取活检，是确诊的金标准。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-10",
+        "sourceSubject": "surgery",
+        "sourceFile": "10 27考研：外科 大肠癌 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "外科 大肠癌 · 第5页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-10-p05.webp",
+        "description": "基础强化摸底考试第95题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 大肠癌",
+          "男性，58 岁，脓血便 2 周，直肠指诊距肛缘 4cm 触及肿物，质硬，不活动，占据左侧大半周，指套有血渍，拟诊；报告：中分化腺癌。3 天前腹胀、腹痛，停止排便排气，诊断肠梗阻。对该患者应选择的手术方式为。"
+        ],
+        "questionNumbers": [
+          95
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-10",
+          "sourceSubject": "surgery",
+          "sourceFile": "10 27考研：外科 大肠癌 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "外科 大肠癌 · 第5页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-10-p05.webp",
+          "description": "基础强化摸底考试第95题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 大肠癌",
+            "男性，58 岁，脓血便 2 周，直肠指诊距肛缘 4cm 触及肿物，质硬，不活动，占据左侧大半周，指套有血渍，拟诊；报告：中分化腺癌。3 天前腹胀、腹痛，停止排便排气，诊断肠梗阻。对该患者应选择的手术方式为。"
+          ],
+          "questionNumbers": [
+            95
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q096",
+      "page": 17,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "96",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第96题 · 外科 大肠癌",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "腹部疾病",
+      "lectureIds": [
+        "foundation-surgery-10"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "降结肠切除术"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "回肠横结肠侧侧吻合"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "置入支架，限期手术"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "须待二期根治性手术"
+        }
+      ],
+      "stems": [
+        {
+          "number": 96,
+          "sourceQuestion": 96,
+          "sourcePage": 17,
+          "text": "[共用题干] 男性，68 岁。半年来每天排便 4-5 次，便中带血及黏液。当地社区按 “细菌性痢疾”治疗，排便次数稍减少，仍可见脓血。既往冠心病 10 年，长期服用阿司匹 林。患者突发腹胀、腹痛、停止排气排便 2 天。查体：T 37.2 度，消瘦，全腹轻微压痛， 腹胀，左侧腹部平脐可触及包块，腹部叩诊鼓音，肠鸣音 6-7 次/分， 直肠指诊未触及 肿物。实验室检查：Hb 90g/L，WBC 6.7×109/L，Plt 280×109/L。X 线平片见全腹多个气液 平。  [96题] 目前的处理措施是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-10",
+          "explanation": "答案为 C（置入支架，限期手术）。左半结肠癌并急性梗阻时，可先置入支架解除梗阻，作为转换至限期根治手术的桥接。",
+          "knowledgeConnections": [
+            "讲义定位：外科 大肠癌",
+            "必会项：C. 置入支架，限期手术",
+            "易混对照：A. 降结肠切除术；B. 回肠横结肠侧侧吻合；D. 须待二期根治性手术"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 大肠癌",
+        "答案依据：C. 置入支架，限期手术",
+        "左半结肠癌并急性梗阻时，可先置入支架解除梗阻，作为转换至限期根治手术的桥接。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-10",
+        "sourceSubject": "surgery",
+        "sourceFile": "10 27考研：外科 大肠癌 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "外科 大肠癌 · 第5页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-10-p05.webp",
+        "description": "基础强化摸底考试第96题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 大肠癌",
+          "男性，58 岁，脓血便 2 周，直肠指诊距肛缘 4cm 触及肿物，质硬，不活动，占据左侧大半周，指套有血渍，拟诊；报告：中分化腺癌。3 天前腹胀、腹痛，停止排便排气，诊断肠梗阻。对该患者应选择的手术方式为。"
+        ],
+        "questionNumbers": [
+          96
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-10",
+          "sourceSubject": "surgery",
+          "sourceFile": "10 27考研：外科 大肠癌 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "外科 大肠癌 · 第5页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-10-p05.webp",
+          "description": "基础强化摸底考试第96题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 大肠癌",
+            "男性，58 岁，脓血便 2 周，直肠指诊距肛缘 4cm 触及肿物，质硬，不活动，占据左侧大半周，指套有血渍，拟诊；报告：中分化腺癌。3 天前腹胀、腹痛，停止排便排气，诊断肠梗阻。对该患者应选择的手术方式为。"
+          ],
+          "questionNumbers": [
+            96
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q097",
+      "page": 17,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "97",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第97题 · 外科 大肠癌",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "腹部疾病",
+      "lectureIds": [
+        "foundation-surgery-10"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "术前 7 天停用阿司匹林"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "术前 1-2 天进流食"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "术前需进行两次灌肠"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "术前需预防性口服肠道制菌剂"
+        }
+      ],
+      "stems": [
+        {
+          "number": 97,
+          "sourceQuestion": 97,
+          "sourcePage": 17,
+          "text": "[共用题干] 男性，68 岁。半年来每天排便 4-5 次，便中带血及黏液。当地社区按 “细菌性痢疾”治疗，排便次数稍减少，仍可见脓血。既往冠心病 10 年，长期服用阿司匹 林。患者突发腹胀、腹痛、停止排气排便 2 天。查体：T 37.2 度，消瘦，全腹轻微压痛， 腹胀，左侧腹部平脐可触及包块，腹部叩诊鼓音，肠鸣音 6-7 次/分， 直肠指诊未触及 肿物。实验室检查：Hb 90g/L，WBC 6.7×109/L，Plt 280×109/L。X 线平片见全腹多个气液 平。  [97题] 关于该患者术前准备的说法， 错误的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-10",
+          "explanation": "答案为 B（术前 1-2 天进流食）。男性，58 岁，脓血便 2 周，直肠指诊距肛缘 4cm 触及肿物，质硬，不活动，占据左侧大半周，指套有血渍，拟诊；报告：中分化腺癌。3 天前腹胀、腹痛，停止排便排气，诊断肠梗阻。对该患者应选择的手术方式为。",
+          "knowledgeConnections": [
+            "讲义定位：外科 大肠癌",
+            "必会项：B. 术前 1-2 天进流食",
+            "易混对照：A. 术前 7 天停用阿司匹林；C. 术前需进行两次灌肠；D. 术前需预防性口服肠道制菌剂"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 大肠癌",
+        "答案依据：B. 术前 1-2 天进流食",
+        "男性，58 岁，脓血便 2 周，直肠指诊距肛缘 4cm 触及肿物，质硬，不活动，占据左侧大半周，指套有血渍，拟诊；报告：中分化腺癌。3 天前腹胀、腹痛，停止排便排气，诊断肠梗阻。对该患者应选择的手术方式为。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-10",
+        "sourceSubject": "surgery",
+        "sourceFile": "10 27考研：外科 大肠癌 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "外科 大肠癌 · 第5页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-10-p05.webp",
+        "description": "基础强化摸底考试第97题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 大肠癌",
+          "男性，58 岁，脓血便 2 周，直肠指诊距肛缘 4cm 触及肿物，质硬，不活动，占据左侧大半周，指套有血渍，拟诊；报告：中分化腺癌。3 天前腹胀、腹痛，停止排便排气，诊断肠梗阻。对该患者应选择的手术方式为。"
+        ],
+        "questionNumbers": [
+          97
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-10",
+          "sourceSubject": "surgery",
+          "sourceFile": "10 27考研：外科 大肠癌 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "外科 大肠癌 · 第5页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-10-p05.webp",
+          "description": "基础强化摸底考试第97题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 大肠癌",
+            "男性，58 岁，脓血便 2 周，直肠指诊距肛缘 4cm 触及肿物，质硬，不活动，占据左侧大半周，指套有血渍，拟诊；报告：中分化腺癌。3 天前腹胀、腹痛，停止排便排气，诊断肠梗阻。对该患者应选择的手术方式为。"
+          ],
+          "questionNumbers": [
+            97
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q098",
+      "page": 18,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "98",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第98题 · 外科 胆系疾病",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "foundation-surgery-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "B 超"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "CT"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "MRCP"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "X 线"
+        }
+      ],
+      "stems": [
+        {
+          "number": 98,
+          "sourceQuestion": 98,
+          "sourcePage": 18,
+          "text": "[共用题干] 男性，68 岁。反复上腹部不适，轻度黄疸 3 个月，既往胆囊结石病史。 2 天前腹痛，黄疸加重伴高热。查体：T 39.5℃，P 122 次/分，BP 85/50mmHg，意识淡 漠，右上腹压痛，肌紧张。  [98题] 首选的检查为",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-16",
+          "explanation": "答案为 A（B 超）。Reynolds 五联征提示急性梗阻性化脓性胆管炎。B 超快速、无创，可显示胆管扩张和结石，是首选影像学检查。",
+          "knowledgeConnections": [
+            "讲义定位：外科 胆系疾病",
+            "必会项：A. B 超",
+            "易混对照：B. CT；C. MRCP；D. X 线"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 胆系疾病",
+        "答案依据：A. B 超",
+        "Reynolds 五联征提示急性梗阻性化脓性胆管炎。B 超快速、无创，可显示胆管扩张和结石，是首选影像学检查。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-16",
+        "sourceSubject": "surgery",
+        "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 15,
+        "pageLabel": "PDF第15页",
+        "title": "外科 胆系疾病 · 第15页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-16-p15.webp",
+        "description": "基础强化摸底考试第98题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 胆系疾病",
+          "39.5℃，P 125 次/分，BP 75/50mmHg，右上腹压痛。腹部超声检查发现胆囊多发结石，胆总管直径 1.5cm，胰头；2017N63 A 男性，65 岁。反复上腹部不适、轻度黄疸 3 个月，腹痛，黄疸加重伴高热 2 天。入院查体：T。"
+        ],
+        "questionNumbers": [
+          98
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-16",
+          "sourceSubject": "surgery",
+          "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 15,
+          "pageLabel": "PDF第15页",
+          "title": "外科 胆系疾病 · 第15页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-16-p15.webp",
+          "description": "基础强化摸底考试第98题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 胆系疾病",
+            "39.5℃，P 125 次/分，BP 75/50mmHg，右上腹压痛。腹部超声检查发现胆囊多发结石，胆总管直径 1.5cm，胰头；2017N63 A 男性，65 岁。反复上腹部不适、轻度黄疸 3 个月，腹痛，黄疸加重伴高热 2 天。入院查体：T。"
+          ],
+          "questionNumbers": [
+            98
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q099",
+      "page": 18,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "99",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第99题 · 外科 胆系疾病",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "foundation-surgery-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "禁食补液，胃肠减压"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "腹腔镜胆囊切除术"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胆总管切开取石，T 管引流"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "ENBD"
+        }
+      ],
+      "stems": [
+        {
+          "number": 99,
+          "sourceQuestion": 99,
+          "sourcePage": 18,
+          "text": "[共用题干] 男性，68 岁。反复上腹部不适，轻度黄疸 3 个月，既往胆囊结石病史。 2 天前腹痛，黄疸加重伴高热。查体：T 39.5℃，P 122 次/分，BP 85/50mmHg，意识淡 漠，右上腹压痛，肌紧张。  [99题] 该患者最佳的处理措施是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-16",
+          "explanation": "答案为 D（ENBD）。39.5℃，P 125 次/分，BP 75/50mmHg，右上腹压痛。腹部超声检查发现胆囊多发结石，胆总管直径 1.5cm，胰头；2017N63 A 男性，65 岁。反复上腹部不适、轻度黄疸 3 个月，腹痛，黄疸加重伴高热 2 天。入院查体：T。",
+          "knowledgeConnections": [
+            "讲义定位：外科 胆系疾病",
+            "必会项：D. ENBD",
+            "易混对照：A. 禁食补液，胃肠减压；B. 腹腔镜胆囊切除术；C. 胆总管切开取石，T 管引流"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 胆系疾病",
+        "答案依据：D. ENBD",
+        "39.5℃，P 125 次/分，BP 75/50mmHg，右上腹压痛。腹部超声检查发现胆囊多发结石，胆总管直径 1.5cm，胰头；2017N63 A 男性，65 岁。反复上腹部不适、轻度黄疸 3 个月，腹痛，黄疸加重伴高热 2 天。入院查体：T。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-16",
+        "sourceSubject": "surgery",
+        "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 15,
+        "pageLabel": "PDF第15页",
+        "title": "外科 胆系疾病 · 第15页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-16-p15.webp",
+        "description": "基础强化摸底考试第99题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 胆系疾病",
+          "39.5℃，P 125 次/分，BP 75/50mmHg，右上腹压痛。腹部超声检查发现胆囊多发结石，胆总管直径 1.5cm，胰头；2017N63 A 男性，65 岁。反复上腹部不适、轻度黄疸 3 个月，腹痛，黄疸加重伴高热 2 天。入院查体：T。"
+        ],
+        "questionNumbers": [
+          99
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-16",
+          "sourceSubject": "surgery",
+          "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 15,
+          "pageLabel": "PDF第15页",
+          "title": "外科 胆系疾病 · 第15页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-16-p15.webp",
+          "description": "基础强化摸底考试第99题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 胆系疾病",
+            "39.5℃，P 125 次/分，BP 75/50mmHg，右上腹压痛。腹部超声检查发现胆囊多发结石，胆总管直径 1.5cm，胰头；2017N63 A 男性，65 岁。反复上腹部不适、轻度黄疸 3 个月，腹痛，黄疸加重伴高热 2 天。入院查体：T。"
+          ],
+          "questionNumbers": [
+            99
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q100",
+      "page": 18,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "100",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第100题 · 外科 胰腺肿瘤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "foundation-surgery-15"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "ALP 和 γ-GT 升高"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "CA19-9 升高"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "尿胆素原升高"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "凝血酶原时间延长"
+        }
+      ],
+      "stems": [
+        {
+          "number": 100,
+          "sourceQuestion": 100,
+          "sourcePage": 18,
+          "text": "[共用题干] 男性，50 岁，体重 60kg。近 1 个月皮肤、巩膜黄染并进行性加重， 尿色黄。 查体：肝脾未触及，深呼吸时于右肋缘下触及半球形肿物，Murphy 征(-)。腹 部增强 MRI 示胆总管末端管壁不规则增厚并强化，管腔狭窄、截断，胰管未见明显扩张。  [100题] 该患者最不可能出现的实验室检查结果是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-15",
+          "explanation": "答案为 C（尿胆素原升高）。2019N71-72 A 男性，65 岁，2 个月来食欲下降，体重下降 3 公斤，无腹胀、腹痛，既往体健。查体：T 36.8℃，P；及一肿物，光滑，质韧，无触痛，深吸气时易触及，移动性浊音(-)，肠鸣音正常。",
+          "knowledgeConnections": [
+            "讲义定位：外科 胰腺肿瘤",
+            "必会项：C. 尿胆素原升高",
+            "易混对照：A. ALP 和 γ-GT 升高；B. CA19-9 升高；D. 凝血酶原时间延长"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 胰腺肿瘤",
+        "答案依据：C. 尿胆素原升高",
+        "2019N71-72 A 男性，65 岁，2 个月来食欲下降，体重下降 3 公斤，无腹胀、腹痛，既往体健。查体：T 36.8℃，P；及一肿物，光滑，质韧，无触痛，深吸气时易触及，移动性浊音(-)，肠鸣音正常。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-15",
+        "sourceSubject": "surgery",
+        "sourceFile": "15 27考研：外科 胰腺肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "外科 胰腺肿瘤 · 第4页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-15-p04.webp",
+        "description": "基础强化摸底考试第100题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 胰腺肿瘤",
+          "2019N71-72 A 男性，65 岁，2 个月来食欲下降，体重下降 3 公斤，无腹胀、腹痛，既往体健。查体：T 36.8℃，P；及一肿物，光滑，质韧，无触痛，深吸气时易触及，移动性浊音(-)，肠鸣音正常。"
+        ],
+        "questionNumbers": [
+          100
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-15",
+          "sourceSubject": "surgery",
+          "sourceFile": "15 27考研：外科 胰腺肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "外科 胰腺肿瘤 · 第4页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-15-p04.webp",
+          "description": "基础强化摸底考试第100题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 胰腺肿瘤",
+            "2019N71-72 A 男性，65 岁，2 个月来食欲下降，体重下降 3 公斤，无腹胀、腹痛，既往体健。查体：T 36.8℃，P；及一肿物，光滑，质韧，无触痛，深吸气时易触及，移动性浊音(-)，肠鸣音正常。"
+          ],
+          "questionNumbers": [
+            100
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q101",
+      "page": 18,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "101",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第101题 · 外科 胰腺肿瘤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "foundation-surgery-15"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "1200 kcal"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "1350 kcal"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "1500 kcal"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "1700 kcal"
+        }
+      ],
+      "stems": [
+        {
+          "number": 101,
+          "sourceQuestion": 101,
+          "sourcePage": 18,
+          "text": "[共用题干] 男性，50 岁，体重 60kg。近 1 个月皮肤、巩膜黄染并进行性加重， 尿色黄。 查体：肝脾未触及，深呼吸时于右肋缘下触及半球形肿物，Murphy 征(-)。腹 部增强 MRI 示胆总管末端管壁不规则增厚并强化，管腔狭窄、截断，胰管未见明显扩张。  [101题] 患者经 ERCP 确诊后行手术治疗，术后每日需要最合适的 热量是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-15",
+          "explanation": "答案为 D（1700 kcal）。2019N71-72 A 男性，65 岁，2 个月来食欲下降，体重下降 3 公斤，无腹胀、腹痛，既往体健。查体：T 36.8℃，P；72 次/分，BP 120/75mmHg，一般情况良好，浅表淋巴结不大，皮肤巩膜明显黄染，心肺(-)，腹平软，右上腹可触。",
+          "knowledgeConnections": [
+            "讲义定位：外科 胰腺肿瘤",
+            "必会项：D. 1700 kcal",
+            "易混对照：A. 1200 kcal；B. 1350 kcal；C. 1500 kcal"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 胰腺肿瘤",
+        "答案依据：D. 1700 kcal",
+        "2019N71-72 A 男性，65 岁，2 个月来食欲下降，体重下降 3 公斤，无腹胀、腹痛，既往体健。查体：T 36.8℃，P；72 次/分，BP 120/75mmHg，一般情况良好，浅表淋巴结不大，皮肤巩膜明显黄染，心肺(-)，腹平软，右上腹可触。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-15",
+        "sourceSubject": "surgery",
+        "sourceFile": "15 27考研：外科 胰腺肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "外科 胰腺肿瘤 · 第4页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-15-p04.webp",
+        "description": "基础强化摸底考试第101题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 胰腺肿瘤",
+          "2019N71-72 A 男性，65 岁，2 个月来食欲下降，体重下降 3 公斤，无腹胀、腹痛，既往体健。查体：T 36.8℃，P；72 次/分，BP 120/75mmHg，一般情况良好，浅表淋巴结不大，皮肤巩膜明显黄染，心肺(-)，腹平软，右上腹可触。"
+        ],
+        "questionNumbers": [
+          101
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-15",
+          "sourceSubject": "surgery",
+          "sourceFile": "15 27考研：外科 胰腺肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "外科 胰腺肿瘤 · 第4页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-15-p04.webp",
+          "description": "基础强化摸底考试第101题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 胰腺肿瘤",
+            "2019N71-72 A 男性，65 岁，2 个月来食欲下降，体重下降 3 公斤，无腹胀、腹痛，既往体健。查体：T 36.8℃，P；72 次/分，BP 120/75mmHg，一般情况良好，浅表淋巴结不大，皮肤巩膜明显黄染，心肺(-)，腹平软，右上腹可触。"
+          ],
+          "questionNumbers": [
+            101
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q102",
+      "page": 18,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "102",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第102题 · 外科 胰腺肿瘤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "foundation-surgery-15"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "急性胰腺炎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胆肠吻合口狭窄"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胰肠吻合口漏"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胃肠吻合口漏"
+        }
+      ],
+      "stems": [
+        {
+          "number": 102,
+          "sourceQuestion": 102,
+          "sourcePage": 18,
+          "text": "[共用题干] 男性，50 岁，体重 60kg。近 1 个月皮肤、巩膜黄染并进行性加重， 尿色黄。 查体：肝脾未触及，深呼吸时于右肋缘下触及半球形肿物，Murphy 征(-)。腹 部增强 MRI 示胆总管末端管壁不规则增厚并强化，管腔狭窄、截断，胰管未见明显扩张。  [102题] 患者术后第 5 天突发上腹剧烈疼痛，腹腔引流量明显增加，引流液淀粉酶 15000 U/L。 最可能发生的并发症是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-15",
+          "explanation": "答案为 C（胰肠吻合口漏）。胰头十二指肠切除术后第 5 天，腹腔引流量骤增且淀粉酶极高，直接提示胰肠吻合口漏/胰瘘。",
+          "knowledgeConnections": [
+            "讲义定位：外科 胰腺肿瘤",
+            "必会项：C. 胰肠吻合口漏",
+            "易混对照：A. 急性胰腺炎；B. 胆肠吻合口狭窄；D. 胃肠吻合口漏"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 胰腺肿瘤",
+        "答案依据：C. 胰肠吻合口漏",
+        "胰头十二指肠切除术后第 5 天，腹腔引流量骤增且淀粉酶极高，直接提示胰肠吻合口漏/胰瘘。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-15",
+        "sourceSubject": "surgery",
+        "sourceFile": "15 27考研：外科 胰腺肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "外科 胰腺肿瘤 · 第4页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-15-p04.webp",
+        "description": "基础强化摸底考试第102题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 胰腺肿瘤",
+          "2019N71-72 A 男性，65 岁，2 个月来食欲下降，体重下降 3 公斤，无腹胀、腹痛，既往体健。查体：T 36.8℃，P；72 次/分，BP 120/75mmHg，一般情况良好，浅表淋巴结不大，皮肤巩膜明显黄染，心肺(-)，腹平软，右上腹可触。"
+        ],
+        "questionNumbers": [
+          102
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-15",
+          "sourceSubject": "surgery",
+          "sourceFile": "15 27考研：外科 胰腺肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "外科 胰腺肿瘤 · 第4页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-15-p04.webp",
+          "description": "基础强化摸底考试第102题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 胰腺肿瘤",
+            "2019N71-72 A 男性，65 岁，2 个月来食欲下降，体重下降 3 公斤，无腹胀、腹痛，既往体健。查体：T 36.8℃，P；72 次/分，BP 120/75mmHg，一般情况良好，浅表淋巴结不大，皮肤巩膜明显黄染，心肺(-)，腹平软，右上腹可触。"
+          ],
+          "questionNumbers": [
+            102
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q103",
+      "page": 18,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "103",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第103题 · 外科 骨肿瘤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "foundation-surgery-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "T 肿瘤 9"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "T 结核 9"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "T 转移瘤 9"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "T 骨髓炎 9"
+        }
+      ],
+      "stems": [
+        {
+          "number": 103,
+          "sourceQuestion": 103,
+          "sourcePage": 18,
+          "text": "[共用题干] 男性，53 岁。双下肢无力，行走受限 2 月。检查：T 压痛，叩痛明 9 显，脐以下痛觉减退，下肢不能自主活动，足趾可微动，病理征阳性。X 线片示 T 椎弓根 9 及椎体后缘显影不清，未见软组织肿大阴影。  [103题] 该患者最可能的诊断为",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-25",
+          "explanation": "答案为 C（T 转移瘤 9）。2025N103-105 A 男童，11 岁。左上臂近端隐痛 2 个月，骨科检查：左肩部无明显畸形，关节活动自如。X 线片示；2024N103-105 A 男性，17 岁。外伤后左膝部持续性疼痛 2 月余。骨科检查：左膝部肿胀，皮温升高，静脉怒张。",
+          "knowledgeConnections": [
+            "讲义定位：外科 骨肿瘤",
+            "必会项：C. T 转移瘤 9",
+            "易混对照：A. T 肿瘤 9；B. T 结核 9；D. T 骨髓炎 9"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 骨肿瘤",
+        "答案依据：C. T 转移瘤 9",
+        "2025N103-105 A 男童，11 岁。左上臂近端隐痛 2 个月，骨科检查：左肩部无明显畸形，关节活动自如。X 线片示；2024N103-105 A 男性，17 岁。外伤后左膝部持续性疼痛 2 月余。骨科检查：左膝部肿胀，皮温升高，静脉怒张。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-25",
+        "sourceSubject": "surgery",
+        "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "title": "外科 骨肿瘤 · 第7页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-25-p07.webp",
+        "description": "基础强化摸底考试第103题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 骨肿瘤",
+          "2025N103-105 A 男童，11 岁。左上臂近端隐痛 2 个月，骨科检查：左肩部无明显畸形，关节活动自如。X 线片示；2024N103-105 A 男性，17 岁。外伤后左膝部持续性疼痛 2 月余。骨科检查：左膝部肿胀，皮温升高，静脉怒张。"
+        ],
+        "questionNumbers": [
+          103
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-25",
+          "sourceSubject": "surgery",
+          "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "title": "外科 骨肿瘤 · 第7页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-25-p07.webp",
+          "description": "基础强化摸底考试第103题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 骨肿瘤",
+            "2025N103-105 A 男童，11 岁。左上臂近端隐痛 2 个月，骨科检查：左肩部无明显畸形，关节活动自如。X 线片示；2024N103-105 A 男性，17 岁。外伤后左膝部持续性疼痛 2 月余。骨科检查：左膝部肿胀，皮温升高，静脉怒张。"
+          ],
+          "questionNumbers": [
+            103
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q104",
+      "page": 19,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "104",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第104题 · 外科 骨肿瘤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "foundation-surgery-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胸椎 CT"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胸椎正、侧、斜位 X 线片"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "全身骨骼同位素扫描"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胸椎 MRI"
+        }
+      ],
+      "stems": [
+        {
+          "number": 104,
+          "sourceQuestion": 104,
+          "sourcePage": 19,
+          "text": "[共用题干] 男性，53 岁。双下肢无力，行走受限 2 月。检查：T 压痛，叩痛明 9 显，脐以下痛觉减退，下肢不能自主活动，足趾可微动，病理征阳性。X 线片示 T 椎弓根 9 及椎体后缘显影不清，未见软组织肿大阴影。  [104题] 为明确诊断，首选的影像学检查为",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-25",
+          "explanation": "答案为 D（胸椎 MRI）。2025N103-105 A 男童，11 岁。左上臂近端隐痛 2 个月，骨科检查：左肩部无明显畸形，关节活动自如。X 线片示；2024N103-105 A 男性，17 岁。外伤后左膝部持续性疼痛 2 月余。骨科检查：左膝部肿胀，皮温升高，静脉怒张。",
+          "knowledgeConnections": [
+            "讲义定位：外科 骨肿瘤",
+            "必会项：D. 胸椎 MRI",
+            "易混对照：A. 胸椎 CT；B. 胸椎正、侧、斜位 X 线片；C. 全身骨骼同位素扫描"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 骨肿瘤",
+        "答案依据：D. 胸椎 MRI",
+        "2025N103-105 A 男童，11 岁。左上臂近端隐痛 2 个月，骨科检查：左肩部无明显畸形，关节活动自如。X 线片示；2024N103-105 A 男性，17 岁。外伤后左膝部持续性疼痛 2 月余。骨科检查：左膝部肿胀，皮温升高，静脉怒张。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-25",
+        "sourceSubject": "surgery",
+        "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "title": "外科 骨肿瘤 · 第7页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-25-p07.webp",
+        "description": "基础强化摸底考试第104题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 骨肿瘤",
+          "2025N103-105 A 男童，11 岁。左上臂近端隐痛 2 个月，骨科检查：左肩部无明显畸形，关节活动自如。X 线片示；2024N103-105 A 男性，17 岁。外伤后左膝部持续性疼痛 2 月余。骨科检查：左膝部肿胀，皮温升高，静脉怒张。"
+        ],
+        "questionNumbers": [
+          104
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-25",
+          "sourceSubject": "surgery",
+          "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "title": "外科 骨肿瘤 · 第7页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-25-p07.webp",
+          "description": "基础强化摸底考试第104题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 骨肿瘤",
+            "2025N103-105 A 男童，11 岁。左上臂近端隐痛 2 个月，骨科检查：左肩部无明显畸形，关节活动自如。X 线片示；2024N103-105 A 男性，17 岁。外伤后左膝部持续性疼痛 2 月余。骨科检查：左膝部肿胀，皮温升高，静脉怒张。"
+          ],
+          "questionNumbers": [
+            104
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q105",
+      "page": 19,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "105",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第105题 · 外科 骨肿瘤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "foundation-surgery-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "开胸探查取活组织病理"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胸椎后外侧入路探查活检"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "CT 引导下穿刺活检"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "B 超引导下穿刺活检"
+        }
+      ],
+      "stems": [
+        {
+          "number": 105,
+          "sourceQuestion": 105,
+          "sourcePage": 19,
+          "text": "[共用题干] 男性，53 岁。双下肢无力，行走受限 2 月。检查：T 压痛，叩痛明 9 显，脐以下痛觉减退，下肢不能自主活动，足趾可微动，病理征阳性。X 线片示 T 椎弓根 9 及椎体后缘显影不清，未见软组织肿大阴影。  [105题] 如经上述影像学检查仍不能确诊，应进一步采取的检查方法为",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-25",
+          "explanation": "答案为 C（CT 引导下穿刺活检）。2025N103-105 A 男童，11 岁。左上臂近端隐痛 2 个月，骨科检查：左肩部无明显畸形，关节活动自如。X 线片示；2024N103-105 A 男性，17 岁。外伤后左膝部持续性疼痛 2 月余。骨科检查：左膝部肿胀，皮温升高，静脉怒张。",
+          "knowledgeConnections": [
+            "讲义定位：外科 骨肿瘤",
+            "必会项：C. CT 引导下穿刺活检",
+            "易混对照：A. 开胸探查取活组织病理；B. 胸椎后外侧入路探查活检；D. B 超引导下穿刺活检"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 骨肿瘤",
+        "答案依据：C. CT 引导下穿刺活检",
+        "2025N103-105 A 男童，11 岁。左上臂近端隐痛 2 个月，骨科检查：左肩部无明显畸形，关节活动自如。X 线片示；2024N103-105 A 男性，17 岁。外伤后左膝部持续性疼痛 2 月余。骨科检查：左膝部肿胀，皮温升高，静脉怒张。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-25",
+        "sourceSubject": "surgery",
+        "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "title": "外科 骨肿瘤 · 第7页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-25-p07.webp",
+        "description": "基础强化摸底考试第105题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 骨肿瘤",
+          "2025N103-105 A 男童，11 岁。左上臂近端隐痛 2 个月，骨科检查：左肩部无明显畸形，关节活动自如。X 线片示；2024N103-105 A 男性，17 岁。外伤后左膝部持续性疼痛 2 月余。骨科检查：左膝部肿胀，皮温升高，静脉怒张。"
+        ],
+        "questionNumbers": [
+          105
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-25",
+          "sourceSubject": "surgery",
+          "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "title": "外科 骨肿瘤 · 第7页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-25-p07.webp",
+          "description": "基础强化摸底考试第105题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 骨肿瘤",
+            "2025N103-105 A 男童，11 岁。左上臂近端隐痛 2 个月，骨科检查：左肩部无明显畸形，关节活动自如。X 线片示；2024N103-105 A 男性，17 岁。外伤后左膝部持续性疼痛 2 月余。骨科检查：左膝部肿胀，皮温升高，静脉怒张。"
+          ],
+          "questionNumbers": [
+            105
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q106",
+      "page": 19,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "106",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第106题 · 外科 颈腰椎退行性病（含损伤平面判断）",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "foundation-surgery-27"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "L 2-3"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "L 3-4"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "L 4-5"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "L -S 5 1"
+        }
+      ],
+      "stems": [
+        {
+          "number": 106,
+          "sourceQuestion": 106,
+          "sourcePage": 19,
+          "text": "[共用题干] 男性，36 岁。间断发作腰痛伴右下肢麻木 3 年，2 小时前搬重物时症 状加重，伴右下肢放射痛。查体：下腰部压痛，右下肢直腿抬高试验(+)，右足背外侧感觉 减弱，右足趾跖屈肌力减弱，Babinski征(-)。  [106题] 该患者最可能累及的节段是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-27",
+          "explanation": "答案为 D（L -S 5 1）。2023N103-105 A 男性，54 岁。右颈肩痛 2 年伴右手麻木 3 个月，颈部活动受限 1 周。查体：C5-6 棘突间压痛，右；2024N67 A 男性，40 岁。腰扭伤后反复腰痛 2 年，右下肢放射痛 2 个月，与劳累有关，咳嗽、用力排便时可加。",
+          "knowledgeConnections": [
+            "讲义定位：外科 颈腰椎退行性病（含损伤平面判断）",
+            "必会项：D. L -S 5 1",
+            "易混对照：A. L 2-3；B. L 3-4；C. L 4-5"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 颈腰椎退行性病（含损伤平面判断）",
+        "答案依据：D. L -S 5 1",
+        "2023N103-105 A 男性，54 岁。右颈肩痛 2 年伴右手麻木 3 个月，颈部活动受限 1 周。查体：C5-6 棘突间压痛，右；2024N67 A 男性，40 岁。腰扭伤后反复腰痛 2 年，右下肢放射痛 2 个月，与劳累有关，咳嗽、用力排便时可加。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-27",
+        "sourceSubject": "surgery",
+        "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "title": "外科 颈腰椎退行性病（含损伤平面判断） · 第7页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-27-p07.webp",
+        "description": "基础强化摸底考试第106题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 颈腰椎退行性病（含损伤平面判断）",
+          "2023N103-105 A 男性，54 岁。右颈肩痛 2 年伴右手麻木 3 个月，颈部活动受限 1 周。查体：C5-6 棘突间压痛，右；2024N67 A 男性，40 岁。腰扭伤后反复腰痛 2 年，右下肢放射痛 2 个月，与劳累有关，咳嗽、用力排便时可加。"
+        ],
+        "questionNumbers": [
+          106
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-27",
+          "sourceSubject": "surgery",
+          "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "title": "外科 颈腰椎退行性病（含损伤平面判断） · 第7页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-27-p07.webp",
+          "description": "基础强化摸底考试第106题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 颈腰椎退行性病（含损伤平面判断）",
+            "2023N103-105 A 男性，54 岁。右颈肩痛 2 年伴右手麻木 3 个月，颈部活动受限 1 周。查体：C5-6 棘突间压痛，右；2024N67 A 男性，40 岁。腰扭伤后反复腰痛 2 年，右下肢放射痛 2 个月，与劳累有关，咳嗽、用力排便时可加。"
+          ],
+          "questionNumbers": [
+            106
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q107",
+      "page": 19,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "107",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第107题 · 外科 颈腰椎退行性病（含损伤平面判断）",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "foundation-surgery-27"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "绝对卧床休息"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "持续牵引"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "糖皮质激素硬膜外注射"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "髓核摘除术"
+        }
+      ],
+      "stems": [
+        {
+          "number": 107,
+          "sourceQuestion": 107,
+          "sourcePage": 19,
+          "text": "[共用题干] 男性，36 岁。间断发作腰痛伴右下肢麻木 3 年，2 小时前搬重物时症 状加重，伴右下肢放射痛。查体：下腰部压痛，右下肢直腿抬高试验(+)，右足背外侧感觉 减弱，右足趾跖屈肌力减弱，Babinski征(-)。  [107题] 患者近 1 个月症状逐渐加重，2 小时前出现大小便障碍。该患者首选的治疗方法是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-27",
+          "explanation": "答案为 D（髓核摘除术）。2023N103-105 A 男性，54 岁。右颈肩痛 2 年伴右手麻木 3 个月，颈部活动受限 1 周。查体：C5-6 棘突间压痛，右；2024N67 A 男性，40 岁。腰扭伤后反复腰痛 2 年，右下肢放射痛 2 个月，与劳累有关，咳嗽、用力排便时可加。",
+          "knowledgeConnections": [
+            "讲义定位：外科 颈腰椎退行性病（含损伤平面判断）",
+            "必会项：D. 髓核摘除术",
+            "易混对照：A. 绝对卧床休息；B. 持续牵引；C. 糖皮质激素硬膜外注射"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 颈腰椎退行性病（含损伤平面判断）",
+        "答案依据：D. 髓核摘除术",
+        "2023N103-105 A 男性，54 岁。右颈肩痛 2 年伴右手麻木 3 个月，颈部活动受限 1 周。查体：C5-6 棘突间压痛，右；2024N67 A 男性，40 岁。腰扭伤后反复腰痛 2 年，右下肢放射痛 2 个月，与劳累有关，咳嗽、用力排便时可加。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-27",
+        "sourceSubject": "surgery",
+        "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "title": "外科 颈腰椎退行性病（含损伤平面判断） · 第7页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-27-p07.webp",
+        "description": "基础强化摸底考试第107题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 颈腰椎退行性病（含损伤平面判断）",
+          "2023N103-105 A 男性，54 岁。右颈肩痛 2 年伴右手麻木 3 个月，颈部活动受限 1 周。查体：C5-6 棘突间压痛，右；2024N67 A 男性，40 岁。腰扭伤后反复腰痛 2 年，右下肢放射痛 2 个月，与劳累有关，咳嗽、用力排便时可加。"
+        ],
+        "questionNumbers": [
+          107
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-27",
+          "sourceSubject": "surgery",
+          "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "title": "外科 颈腰椎退行性病（含损伤平面判断） · 第7页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-27-p07.webp",
+          "description": "基础强化摸底考试第107题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 颈腰椎退行性病（含损伤平面判断）",
+            "2023N103-105 A 男性，54 岁。右颈肩痛 2 年伴右手麻木 3 个月，颈部活动受限 1 周。查体：C5-6 棘突间压痛，右；2024N67 A 男性，40 岁。腰扭伤后反复腰痛 2 年，右下肢放射痛 2 个月，与劳累有关，咳嗽、用力排便时可加。"
+          ],
+          "questionNumbers": [
+            107
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q134",
+      "page": 22,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "134",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第134题 · 外科 周围血管疾病",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "周围血管疾病",
+      "lectureIds": [
+        "foundation-surgery-17"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "Perthes 试验"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "Buerger 试验"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Pratt 试验"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "Trendelenburg 试验"
+        }
+      ],
+      "stems": [
+        {
+          "number": 134,
+          "sourceQuestion": 134,
+          "sourcePage": 22,
+          "text": "男性，55 岁。左下肢麻木胀痛 3 年，间歇性跛行 1 年，左下肢疼痛逐渐加重，夜间疼痛更甚，吸烟 30 年。查体：屈膝位，左小腿皮温较对侧降低，左足背动脉搏动消失。对该患者最有助于诊断的试验是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-17",
+          "explanation": "答案为 B（Buerger 试验）。Trendelenburg 大隐静脉瓣膜功能不全 英文单词最长对应人体；混合型 各处都痛+全下肢肿。股白肿（苍白、皮温升高），股青肿（青紫、动脉搏动消失、皮温下降）。",
+          "knowledgeConnections": [
+            "讲义定位：外科 周围血管疾病",
+            "必会项：B. Buerger 试验",
+            "易混对照：A. Perthes 试验；C. Pratt 试验；D. Trendelenburg 试验"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 周围血管疾病",
+        "答案依据：B. Buerger 试验",
+        "Trendelenburg 大隐静脉瓣膜功能不全 英文单词最长对应人体；混合型 各处都痛+全下肢肿。股白肿（苍白、皮温升高），股青肿（青紫、动脉搏动消失、皮温下降）。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-17",
+        "sourceSubject": "surgery",
+        "sourceFile": "17 27考研：外科 周围血管疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "外科 周围血管疾病 · 第3页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-17-p03.webp",
+        "description": "基础强化摸底考试第134题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 周围血管疾病",
+          "Trendelenburg 大隐静脉瓣膜功能不全 英文单词最长对应人体；混合型 各处都痛+全下肢肿。股白肿（苍白、皮温升高），股青肿（青紫、动脉搏动消失、皮温下降）。"
+        ],
+        "questionNumbers": [
+          134
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-17",
+          "sourceSubject": "surgery",
+          "sourceFile": "17 27考研：外科 周围血管疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "外科 周围血管疾病 · 第3页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-17-p03.webp",
+          "description": "基础强化摸底考试第134题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 周围血管疾病",
+            "Trendelenburg 大隐静脉瓣膜功能不全 英文单词最长对应人体；混合型 各处都痛+全下肢肿。股白肿（苍白、皮温升高），股青肿（青紫、动脉搏动消失、皮温下降）。"
+          ],
+          "questionNumbers": [
+            134
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q135",
+      "page": 22,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "135",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第135题 · 外科 周围血管疾病",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "周围血管疾病",
+      "lectureIds": [
+        "foundation-surgery-17"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "Perthes 试验"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "Buerger 试验"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Pratt 试验"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "Trendelenburg 试验"
+        }
+      ],
+      "stems": [
+        {
+          "number": 135,
+          "sourceQuestion": 135,
+          "sourcePage": 22,
+          "text": "女性，29 岁。产后 1 周，左腰部酸痛不适 3 天，伴左下肢突发肿胀 2 天。查体：左下肢全肢肿胀，小腿屈肌部位张力高，足背水肿，左大腿和小腿皮肤青紫，足部皮温降低，足背动脉搏动极微弱。对该患者最有助于诊断的试验是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-17",
+          "explanation": "答案为 A（Perthes 试验）。产后全下肢肿胀、发绀、皮温下降和动脉搏动减弱提示髪青股肿/严重深静脉血栓；Perthes 试验用于判断深静脉是否通畅。",
+          "knowledgeConnections": [
+            "讲义定位：外科 周围血管疾病",
+            "必会项：A. Perthes 试验",
+            "易混对照：B. Buerger 试验；C. Pratt 试验；D. Trendelenburg 试验"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 周围血管疾病",
+        "答案依据：A. Perthes 试验",
+        "产后全下肢肿胀、发绀、皮温下降和动脉搏动减弱提示髪青股肿/严重深静脉血栓；Perthes 试验用于判断深静脉是否通畅。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-17",
+        "sourceSubject": "surgery",
+        "sourceFile": "17 27考研：外科 周围血管疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "外科 周围血管疾病 · 第3页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-17-p03.webp",
+        "description": "基础强化摸底考试第135题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 周围血管疾病",
+          "Trendelenburg 大隐静脉瓣膜功能不全 英文单词最长对应人体；混合型 各处都痛+全下肢肿。股白肿（苍白、皮温升高），股青肿（青紫、动脉搏动消失、皮温下降）。"
+        ],
+        "questionNumbers": [
+          135
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-17",
+          "sourceSubject": "surgery",
+          "sourceFile": "17 27考研：外科 周围血管疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "外科 周围血管疾病 · 第3页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-17-p03.webp",
+          "description": "基础强化摸底考试第135题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 周围血管疾病",
+            "Trendelenburg 大隐静脉瓣膜功能不全 英文单词最长对应人体；混合型 各处都痛+全下肢肿。股白肿（苍白、皮温升高），股青肿（青紫、动脉搏动消失、皮温下降）。"
+          ],
+          "questionNumbers": [
+            135
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q160",
+      "page": 27,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "160",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第160题 · 外科 营养代谢",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "foundation-surgery-32"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "结肠外瘘"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "短肠综合征"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "重症胰腺炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "甲亢术后饮水呛咳"
+        }
+      ],
+      "stems": [
+        {
+          "number": 160,
+          "sourceQuestion": 160,
+          "sourcePage": 27,
+          "text": "全胃肠外营养的适应证有",
+          "answerRaw": "BC",
+          "answer": [
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-32",
+          "explanation": "答案为 BC（短肠综合征；重症胰腺炎）。1 周以上不能进食或胃肠道功能障碍、肠内营养无法达标：高位小肠瘘、短肠综合征、重症胰腺炎、急性肾衰、；注意：不需要肠外营养如甲亢术后饮水呛咳、脑外伤昏迷（管饲）。",
+          "knowledgeConnections": [
+            "讲义定位：外科 营养代谢",
+            "必会项：BC. 短肠综合征；重症胰腺炎",
+            "易混对照：A. 结肠外瘘；D. 甲亢术后饮水呛咳"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 营养代谢",
+        "答案依据：BC. 短肠综合征；重症胰腺炎",
+        "1 周以上不能进食或胃肠道功能障碍、肠内营养无法达标：高位小肠瘘、短肠综合征、重症胰腺炎、急性肾衰、；注意：不需要肠外营养如甲亢术后饮水呛咳、脑外伤昏迷（管饲）。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-32",
+        "sourceSubject": "surgery",
+        "sourceFile": "32 27考研：外科 营养代谢 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "外科 营养代谢 · 第2页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-32-p02.webp",
+        "description": "基础强化摸底考试第160题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 营养代谢",
+          "1 周以上不能进食或胃肠道功能障碍、肠内营养无法达标：高位小肠瘘、短肠综合征、重症胰腺炎、急性肾衰、；注意：不需要肠外营养如甲亢术后饮水呛咳、脑外伤昏迷（管饲）。"
+        ],
+        "questionNumbers": [
+          160
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-32",
+          "sourceSubject": "surgery",
+          "sourceFile": "32 27考研：外科 营养代谢 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "外科 营养代谢 · 第2页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-32-p02.webp",
+          "description": "基础强化摸底考试第160题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 营养代谢",
+            "1 周以上不能进食或胃肠道功能障碍、肠内营养无法达标：高位小肠瘘、短肠综合征、重症胰腺炎、急性肾衰、；注意：不需要肠外营养如甲亢术后饮水呛咳、脑外伤昏迷（管饲）。"
+          ],
+          "questionNumbers": [
+            160
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q161",
+      "page": 27,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "161",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第161题 · 外科 其它颈胸部疾病",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "颈胸与乳房疾病",
+      "lectureIds": [
+        "foundation-surgery-04"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "如胸膜腔内为气体，引流选在锁骨中线第 2 肋间"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "如胸膜腔内为液体，引流选在腋前线的第 6-8 肋间"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "为保持管腔通畅，要经常挤压引流管"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "拔管时待病人深吸气后屏气，再迅速拔除引流管"
+        }
+      ],
+      "stems": [
+        {
+          "number": 161,
+          "sourceQuestion": 161,
+          "sourcePage": 27,
+          "text": "关于闭式胸膜腔引流术的叙述中，正确的有",
+          "answerRaw": "ACD",
+          "answer": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-04",
+          "explanation": "答案为 ACD（如胸膜腔内为气体，引流选在锁骨中线第 2 肋间；为保持管腔通畅，要经常挤压引流管；拔管时待病人深吸气后屏气，再迅速拔除引流管）。②胸痛、呼吸浅快、断端骨擦音和骨擦感、胸廓畸形及挤压试验阳性、肺部感染和不张、血气胸、肝脾损伤（腹；：抑制性呼吸是因胸部剧痛致吸气突然停止（会呼吸的痛），主要见于胸部严重外伤、肋骨骨折、急性。",
+          "knowledgeConnections": [
+            "讲义定位：外科 其它颈胸部疾病",
+            "必会项：ACD. 如胸膜腔内为气体，引流选在锁骨中线第 2 肋间；为保持管腔通畅，要经常挤压引流管；拔管时待病人深吸气后屏气，再迅速拔除引流管",
+            "易混对照：B. 如胸膜腔内为液体，引流选在腋前线的第 6-8 肋间"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 其它颈胸部疾病",
+        "答案依据：ACD. 如胸膜腔内为气体，引流选在锁骨中线第 2 肋间；为保持管腔通畅，要经常挤压引流管；拔管时待病人深吸气后屏气，再迅速拔除引流管",
+        "②胸痛、呼吸浅快、断端骨擦音和骨擦感、胸廓畸形及挤压试验阳性、肺部感染和不张、血气胸、肝脾损伤（腹；：抑制性呼吸是因胸部剧痛致吸气突然停止（会呼吸的痛），主要见于胸部严重外伤、肋骨骨折、急性。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-04",
+        "sourceSubject": "surgery",
+        "sourceFile": "4 27考研：外科 其它颈胸部疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "外科 其它颈胸部疾病 · 第1页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-04-p01.webp",
+        "description": "基础强化摸底考试第161题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 其它颈胸部疾病",
+          "②胸痛、呼吸浅快、断端骨擦音和骨擦感、胸廓畸形及挤压试验阳性、肺部感染和不张、血气胸、肝脾损伤（腹；：抑制性呼吸是因胸部剧痛致吸气突然停止（会呼吸的痛），主要见于胸部严重外伤、肋骨骨折、急性。"
+        ],
+        "questionNumbers": [
+          161
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-04",
+          "sourceSubject": "surgery",
+          "sourceFile": "4 27考研：外科 其它颈胸部疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "外科 其它颈胸部疾病 · 第1页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-04-p01.webp",
+          "description": "基础强化摸底考试第161题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 其它颈胸部疾病",
+            "②胸痛、呼吸浅快、断端骨擦音和骨擦感、胸廓畸形及挤压试验阳性、肺部感染和不张、血气胸、肝脾损伤（腹；：抑制性呼吸是因胸部剧痛致吸气突然停止（会呼吸的痛），主要见于胸部严重外伤、肋骨骨折、急性。"
+          ],
+          "questionNumbers": [
+            161
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q162",
+      "page": 27,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "162",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第162题 · 外科 阑尾炎",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "腹部疾病",
+      "lectureIds": [
+        "foundation-surgery-09"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "阑尾充盈不全"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "阑尾不充盈"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "阑尾腔不规则"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "阑尾排空延迟至 3 天以上"
+        }
+      ],
+      "stems": [
+        {
+          "number": 162,
+          "sourceQuestion": 162,
+          "sourcePage": 27,
+          "text": "慢性阑尾炎 X 线钡灌肠的表现有",
+          "answerRaw": "ABCD",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-09",
+          "explanation": "答案为 ABCD（阑尾充盈不全；阑尾不充盈；阑尾腔不规则；阑尾排空延迟至 3 天以上）。慢性阑尾炎钡灌肠可见阑尾不充盈、充盈不全、腔不规则和排空延迟至 3 天以上。",
+          "knowledgeConnections": [
+            "讲义定位：外科 阑尾炎",
+            "必会项：ABCD. 阑尾充盈不全；阑尾不充盈；阑尾腔不规则；阑尾排空延迟至 3 天以上",
+            "易混对照："
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 阑尾炎",
+        "答案依据：ABCD. 阑尾充盈不全；阑尾不充盈；阑尾腔不规则；阑尾排空延迟至 3 天以上",
+        "慢性阑尾炎钡灌肠可见阑尾不充盈、充盈不全、腔不规则和排空延迟至 3 天以上。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-09",
+        "sourceSubject": "surgery",
+        "sourceFile": "9 27考研：外科 阑尾炎 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "外科 阑尾炎 · 第4页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-09-p04.webp",
+        "description": "基础强化摸底考试第162题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 阑尾炎",
+          "2014N175 X 慢性阑尾炎钡灌肠 X 线的表现有；D.阑尾排空延迟至 3 天以上。"
+        ],
+        "questionNumbers": [
+          162
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-09",
+          "sourceSubject": "surgery",
+          "sourceFile": "9 27考研：外科 阑尾炎 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "外科 阑尾炎 · 第4页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-09-p04.webp",
+          "description": "基础强化摸底考试第162题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 阑尾炎",
+            "2014N175 X 慢性阑尾炎钡灌肠 X 线的表现有；D.阑尾排空延迟至 3 天以上。"
+          ],
+          "questionNumbers": [
+            162
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q163",
+      "page": 27,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "163",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第163题 · 外科 胆系疾病",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "foundation-surgery-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "有胰腺炎病史"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "术中扪及胆总管内有 蛔虫"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胆总管直径＞0.5cm"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "米粒样的胆囊结石"
+        }
+      ],
+      "stems": [
+        {
+          "number": 163,
+          "sourceQuestion": 163,
+          "sourcePage": 27,
+          "text": "胆囊结石行胆囊切除术，需同时进行胆总管探查的有",
+          "answerRaw": "ABD",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-16",
+          "explanation": "答案为 ABD（有胰腺炎病史；术中扪及胆总管内有 蛔虫；米粒样的胆囊结石）。胆总管探查指征包括小粒/泥沙样胆囊结石、反复胰腺炎或胆管炎、触及胆总管结石/蛔虫以及胆总管扩张；扩张标准通常是 >10 mm，不是 >5 mm。",
+          "knowledgeConnections": [
+            "讲义定位：外科 胆系疾病",
+            "必会项：ABD. 有胰腺炎病史；术中扪及胆总管内有 蛔虫；米粒样的胆囊结石",
+            "易混对照：C. 胆总管直径＞0.5cm"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 胆系疾病",
+        "答案依据：ABD. 有胰腺炎病史；术中扪及胆总管内有 蛔虫；米粒样的胆囊结石",
+        "胆总管探查指征包括小粒/泥沙样胆囊结石、反复胰腺炎或胆管炎、触及胆总管结石/蛔虫以及胆总管扩张；扩张标准通常是 >10 mm，不是 >5 mm。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-16",
+        "sourceSubject": "surgery",
+        "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 17,
+        "pageLabel": "PDF第17页",
+        "title": "外科 胆系疾病 · 第17页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-16-p17.webp",
+        "description": "基础强化摸底考试第163题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 胆系疾病",
+          "囊切除、胆总管探查术，取出结石一枚。术后 3 周经 T 管造影，结果显示：胆总管扩张，直径约 5cm，腔内未见；2019N62 A 女性，28 岁，体检发现胆囊多发结石，最大直径 0.6cm，无症状。应采取的处理措施是。"
+        ],
+        "questionNumbers": [
+          163
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-16",
+          "sourceSubject": "surgery",
+          "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 17,
+          "pageLabel": "PDF第17页",
+          "title": "外科 胆系疾病 · 第17页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-16-p17.webp",
+          "description": "基础强化摸底考试第163题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 胆系疾病",
+            "囊切除、胆总管探查术，取出结石一枚。术后 3 周经 T 管造影，结果显示：胆总管扩张，直径约 5cm，腔内未见；2019N62 A 女性，28 岁，体检发现胆囊多发结石，最大直径 0.6cm，无症状。应采取的处理措施是。"
+          ],
+          "questionNumbers": [
+            163
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q164",
+      "page": 27,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "164",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第164题 · 外科 四肢骨折和脱位",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "foundation-surgery-28"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "若桡骨为横形骨折，尺骨为斜形骨折，手法复位时先复位桡骨"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "若尺桡骨均为斜形骨折，骨折发生在中段，先复位桡骨"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "需警惕骨筋膜室综合征的发生"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "X 线证实骨折愈合前，禁止前臂旋转活动"
+        }
+      ],
+      "stems": [
+        {
+          "number": 164,
+          "sourceQuestion": 164,
+          "sourcePage": 27,
+          "text": "关于前臂双骨折的治疗，正确的有",
+          "answerRaw": "ACD",
+          "answer": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-28",
+          "explanation": "答案为 ACD（若桡骨为横形骨折，尺骨为斜形骨折，手法复位时先复位桡骨；需警惕骨筋膜室综合征的发生；X 线证实骨折愈合前，禁止前臂旋转活动）。前臂双骨折需解剖复位并警惕骨筋膜室综合征。稳定性与不稳定性骨折并存时先复稳定者；两者均不稳定时，下段先桡骨，中上段先尺骨。X 线证实愈合前禁止旋转。",
+          "knowledgeConnections": [
+            "讲义定位：外科 四肢骨折和脱位",
+            "必会项：ACD. 若桡骨为横形骨折，尺骨为斜形骨折，手法复位时先复位桡骨；需警惕骨筋膜室综合征的发生；X 线证实骨折愈合前，禁止前臂旋转活动",
+            "易混对照：B. 若尺桡骨均为斜形骨折，骨折发生在中段，先复位桡骨"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 四肢骨折和脱位",
+        "答案依据：ACD. 若桡骨为横形骨折，尺骨为斜形骨折，手法复位时先复位桡骨；需警惕骨筋膜室综合征的发生；X 线证实骨折愈合前，禁止前臂旋转活动",
+        "前臂双骨折需解剖复位并警惕骨筋膜室综合征。稳定性与不稳定性骨折并存时先复稳定者；两者均不稳定时，下段先桡骨，中上段先尺骨。X 线证实愈合前禁止旋转。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-28",
+        "sourceSubject": "surgery",
+        "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "pageLabel": "PDF第6页",
+        "title": "外科 四肢骨折和脱位 · 第6页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-28-p06.webp",
+        "description": "基础强化摸底考试第164题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 四肢骨折和脱位",
+          "均为不稳定性骨折（如斜形或螺旋形） 发生在下段先复位桡骨、中上段先复位尺骨（挠下痒痒）；10 周 X 线证实骨折已愈合才进行前臂旋转功能锻炼（九转大肠）。"
+        ],
+        "questionNumbers": [
+          164
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-28",
+          "sourceSubject": "surgery",
+          "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "title": "外科 四肢骨折和脱位 · 第6页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-28-p06.webp",
+          "description": "基础强化摸底考试第164题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 四肢骨折和脱位",
+            "均为不稳定性骨折（如斜形或螺旋形） 发生在下段先复位桡骨、中上段先复位尺骨（挠下痒痒）；10 周 X 线证实骨折已愈合才进行前臂旋转功能锻炼（九转大肠）。"
+          ],
+          "questionNumbers": [
+            164
+          ]
+        }
+      ]
+    },
+    {
+      "id": "surgery-foundation-mock-exam-20260907-q165",
+      "page": 27,
+      "sourceKey": "surgery-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "外科",
+      "sourceQuestion": "165",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第165题 · 外科 运动系统畸形",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "foundation-surgery-20"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "髋臼发育不良"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "股骨颈前倾角增大"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "关节韧带松弛症"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "股骨头发育不良 恭喜同学们完成本套试卷！（今年大家做的第一份完整套卷） 它不是用来决定你报考的，不要焦虑分数，以题带动知识点复习非常重要！ 从基础强化阶段进入冲刺押题阶段： 缺氧训练、保持题感、强化技巧、稳住心态 巩固考点、重复熟练、理顺背诵、学成选择 加油鸭！明年的研究生们！继续洗衣服~ 好运！上岸！再相逢！A A C"
+        }
+      ],
+      "stems": [
+        {
+          "number": 165,
+          "sourceQuestion": 165,
+          "sourcePage": 27,
+          "text": "典型性发育性髋关节脱位的主要病因有",
+          "answerRaw": "AC",
+          "answer": [
+            "A",
+            "C"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-surgery-20",
+          "explanation": "答案为 AC（髋臼发育不良；关节韧带松弛症）。①重要病因：原发性髋臼发育不良、关节韧带松弛症；和韧带松弛，股骨头较小、圆韧带肥厚、股骨颈前倾角增大、股骨头可在髋臼内或脱位（鞋-鞋带-脚）。",
+          "knowledgeConnections": [
+            "讲义定位：外科 运动系统畸形",
+            "必会项：AC. 髋臼发育不良；关节韧带松弛症",
+            "易混对照：B. 股骨颈前倾角增大；D. 股骨头发育不良 恭喜同学们完成本套试卷！（今年大家做的第一份完整套卷） 它不是用来决定你报考的，不要焦虑分数，以题带动知识点复习非常重要！ 从基础强化阶段进入冲刺押题阶段： 缺氧训练、保持题感、强化技巧、稳住心态 巩固考点、重复熟练、理顺背诵、学成选择 加油鸭！明年的研究生们！继续洗衣服~ 好运！上岸！再相逢！A A C"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：外科 运动系统畸形",
+        "答案依据：AC. 髋臼发育不良；关节韧带松弛症",
+        "①重要病因：原发性髋臼发育不良、关节韧带松弛症；和韧带松弛，股骨头较小、圆韧带肥厚、股骨颈前倾角增大、股骨头可在髋臼内或脱位（鞋-鞋带-脚）。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-surgery-20",
+        "sourceSubject": "surgery",
+        "sourceFile": "20 27考研：外科 运动系统畸形 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "外科 运动系统畸形 · 第1页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-surgery-20-p01.webp",
+        "description": "基础强化摸底考试第165题对应讲义原页。",
+        "knowledgePoints": [
+          "外科 运动系统畸形",
+          "①重要病因：原发性髋臼发育不良、关节韧带松弛症；和韧带松弛，股骨头较小、圆韧带肥厚、股骨颈前倾角增大、股骨头可在髋臼内或脱位（鞋-鞋带-脚）。"
+        ],
+        "questionNumbers": [
+          165
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-surgery-20",
+          "sourceSubject": "surgery",
+          "sourceFile": "20 27考研：外科 运动系统畸形 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "外科 运动系统畸形 · 第1页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-surgery-20-p01.webp",
+          "description": "基础强化摸底考试第165题对应讲义原页。",
+          "knowledgePoints": [
+            "外科 运动系统畸形",
+            "①重要病因：原发性髋臼发育不良、关节韧带松弛症；和韧带松弛，股骨头较小、圆韧带肥厚、股骨颈前倾角增大、股骨头可在髋臼内或脱位（鞋-鞋带-脚）。"
+          ],
+          "questionNumbers": [
+            165
+          ]
+        }
+      ]
+    }
+  ],
+  "pages": [],
+  "lectures": [
+    {
+      "id": "foundation-surgery-30",
+      "number": 30,
+      "title": "外科 输血",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-01",
+      "number": 1,
+      "title": "外科 颈部疾病",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-05",
+      "number": 5,
+      "title": "外科 胃肿瘤",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-07",
+      "number": 7,
+      "title": "外科 腹部损伤",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-11",
+      "number": 11,
+      "title": "外科 其它大肠与肛管疾病",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-14",
+      "number": 14,
+      "title": "外科 门脉高压症",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-16",
+      "number": 16,
+      "title": "外科 胆系疾病",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-18",
+      "number": 18,
+      "title": "外科 泌外感染和肿瘤",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-28",
+      "number": 28,
+      "title": "外科 四肢骨折和脱位",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-25",
+      "number": 25,
+      "title": "外科 骨肿瘤",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-10",
+      "number": 10,
+      "title": "外科 大肠癌",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-15",
+      "number": 15,
+      "title": "外科 胰腺肿瘤",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-27",
+      "number": 27,
+      "title": "外科 颈腰椎退行性病（含损伤平面判断）",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-17",
+      "number": 17,
+      "title": "外科 周围血管疾病",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-32",
+      "number": 32,
+      "title": "外科 营养代谢",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-04",
+      "number": 4,
+      "title": "外科 其它颈胸部疾病",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-09",
+      "number": 9,
+      "title": "外科 阑尾炎",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-surgery-20",
+      "number": 20,
+      "title": "外科 运动系统畸形",
+      "pageCount": 1
+    }
+  ],
+  "topics": [
+    "外科总论",
+    "颈胸与乳房疾病",
+    "腹部疾病",
+    "肝胆胰疾病",
+    "泌尿外科",
+    "骨科",
+    "周围血管疾病"
+  ]
+}

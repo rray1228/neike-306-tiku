@@ -1,0 +1,2452 @@
+{
+  "meta": {
+    "title": "基础强化摸底考试·生化",
+    "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+    "sourcePages": 28,
+    "answerNote": "答案依据用户提供的答案图；每题附解析、讲义要点和对应讲义原页。",
+    "groupCount": 22,
+    "stemCount": 22,
+    "lectureCount": 14
+  },
+  "groups": [
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q017",
+      "page": 3,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "17",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第17题 · 生化 蛋白质",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "foundation-biochemistry-08"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "在三级结构的基础上进一步折叠而成"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "分子中必定含有辅因子"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "依赖肽键维系 稳定性"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "一定由两条或两条以上的多肽链组成"
+        }
+      ],
+      "stems": [
+        {
+          "number": 17,
+          "sourceQuestion": 17,
+          "sourcePage": 3,
+          "text": "蛋白质分子中四级结构的特征是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-08",
+          "explanation": "答案为 D（一定由两条或两条以上的多肽链组成）。2022N17 A 能够说明蛋白质一级结构是空间构象基础的例子是；2025N17 A 关于蛋白质结构的叙述，正确的是。",
+          "knowledgeConnections": [
+            "讲义定位：生化 蛋白质",
+            "必会项：D. 一定由两条或两条以上的多肽链组成",
+            "易混对照：A. 在三级结构的基础上进一步折叠而成；B. 分子中必定含有辅因子；C. 依赖肽键维系 稳定性"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 蛋白质",
+        "答案依据：D. 一定由两条或两条以上的多肽链组成",
+        "2022N17 A 能够说明蛋白质一级结构是空间构象基础的例子是；2025N17 A 关于蛋白质结构的叙述，正确的是。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-08",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "08 27考研：生化 蛋白质 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "生化 蛋白质 · 第3页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-08-p03.webp",
+        "description": "基础强化摸底考试第17题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 蛋白质",
+          "2022N17 A 能够说明蛋白质一级结构是空间构象基础的例子是；2025N17 A 关于蛋白质结构的叙述，正确的是。"
+        ],
+        "questionNumbers": [
+          17
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-08",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "08 27考研：生化 蛋白质 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "生化 蛋白质 · 第3页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-08-p03.webp",
+          "description": "基础强化摸底考试第17题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 蛋白质",
+            "2022N17 A 能够说明蛋白质一级结构是空间构象基础的例子是；2025N17 A 关于蛋白质结构的叙述，正确的是。"
+          ],
+          "questionNumbers": [
+            17
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q018",
+      "page": 4,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "18",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第18题 · 生化 核酸",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "分子生物学",
+      "lectureIds": [
+        "foundation-biochemistry-15"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "正超螺旋"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "负超螺旋"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Z 型双螺旋"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "α-螺旋"
+        }
+      ],
+      "stems": [
+        {
+          "number": 18,
+          "sourceQuestion": 18,
+          "sourcePage": 4,
+          "text": "DNA 在自然条件下的主要存在形式是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-15",
+          "explanation": "答案为 B（负超螺旋）。（一）B-DNA 的二级/双螺旋结构；①DNA 纯品 A260/A280=1.8，RNA 纯品 A260/A280=2。",
+          "knowledgeConnections": [
+            "讲义定位：生化 核酸",
+            "必会项：B. 负超螺旋",
+            "易混对照：A. 正超螺旋；C. Z 型双螺旋；D. α-螺旋"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 核酸",
+        "答案依据：B. 负超螺旋",
+        "（一）B-DNA 的二级/双螺旋结构；①DNA 纯品 A260/A280=1.8，RNA 纯品 A260/A280=2。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-15",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "15 27考研：生化 核酸 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "生化 核酸 · 第2页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-15-p02.webp",
+        "description": "基础强化摸底考试第18题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 核酸",
+          "（一）B-DNA 的二级/双螺旋结构；①DNA 纯品 A260/A280=1.8，RNA 纯品 A260/A280=2。"
+        ],
+        "questionNumbers": [
+          18
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-15",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "15 27考研：生化 核酸 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "生化 核酸 · 第2页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-15-p02.webp",
+          "description": "基础强化摸底考试第18题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 核酸",
+            "（一）B-DNA 的二级/双螺旋结构；①DNA 纯品 A260/A280=1.8，RNA 纯品 A260/A280=2。"
+          ],
+          "questionNumbers": [
+            18
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q019",
+      "page": 4,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "19",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第19题 · 生化 酶",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "酶与维生素",
+      "lectureIds": [
+        "foundation-biochemistry-12"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "载体的作用"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "维持酶的空间构象"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "促进中间复合物形成"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "提供必需基团"
+        }
+      ],
+      "stems": [
+        {
+          "number": 19,
+          "sourceQuestion": 19,
+          "sourcePage": 4,
+          "text": "辅酶在酶促反应中的作用是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-12",
+          "explanation": "答案为 A（载体的作用）。辅酶与酶蛋白结合松散，在反应中承担电子、原子或基团的转移载体作用；辅基则结合紧密。",
+          "knowledgeConnections": [
+            "讲义定位：生化 酶",
+            "必会项：A. 载体的作用",
+            "易混对照：B. 维持酶的空间构象；C. 促进中间复合物形成；D. 提供必需基团"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 酶",
+        "答案依据：A. 载体的作用",
+        "辅酶与酶蛋白结合松散，在反应中承担电子、原子或基团的转移载体作用；辅基则结合紧密。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-12",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "pageLabel": "PDF第8页",
+        "title": "生化 酶 · 第8页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-12-p08.webp",
+        "description": "基础强化摸底考试第19题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 酶",
+          "2021N18 A 酶促反应中“邻近效应”的含义是；2023N18 A 下列关于酶促反应调节的叙述，错误的是。"
+        ],
+        "questionNumbers": [
+          19
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-12",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "title": "生化 酶 · 第8页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-12-p08.webp",
+          "description": "基础强化摸底考试第19题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 酶",
+            "2021N18 A 酶促反应中“邻近效应”的含义是；2023N18 A 下列关于酶促反应调节的叙述，错误的是。"
+          ],
+          "questionNumbers": [
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q020",
+      "page": 4,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "20",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第20题 · 生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "糖代谢与生物氧化",
+      "lectureIds": [
+        "foundation-biochemistry-01"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "丙酮酸"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "草酰乙酸"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "葡糖-6-磷酸"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "磷酸二羟丙酮"
+        }
+      ],
+      "stems": [
+        {
+          "number": 20,
+          "sourceQuestion": 20,
+          "sourcePage": 4,
+          "text": "联系 糖、脂代谢的重要枢纽物质是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-01",
+          "explanation": "答案为 D（磷酸二羟丙酮）。丙酮酸激酶 己糖激酶 磷酸果糖激酶-1/果糖-6-磷酸激酶-1；催化 PEP→丙酮酸、ATP G→G-6-P F-6-P→F-1,6-DP。",
+          "knowledgeConnections": [
+            "讲义定位：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+            "必会项：D. 磷酸二羟丙酮",
+            "易混对照：A. 丙酮酸；B. 草酰乙酸；C. 葡糖-6-磷酸"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+        "答案依据：D. 磷酸二羟丙酮",
+        "丙酮酸激酶 己糖激酶 磷酸果糖激酶-1/果糖-6-磷酸激酶-1；催化 PEP→丙酮酸、ATP G→G-6-P F-6-P→F-1,6-DP。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-01",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "01 27考研：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 · 第4页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-01-p04.webp",
+        "description": "基础强化摸底考试第20题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+          "丙酮酸激酶 己糖激酶 磷酸果糖激酶-1/果糖-6-磷酸激酶-1；催化 PEP→丙酮酸、ATP G→G-6-P F-6-P→F-1,6-DP。"
+        ],
+        "questionNumbers": [
+          20
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-01",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "01 27考研：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 · 第4页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-01-p04.webp",
+          "description": "基础强化摸底考试第20题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+            "丙酮酸激酶 己糖激酶 磷酸果糖激酶-1/果糖-6-磷酸激酶-1；催化 PEP→丙酮酸、ATP G→G-6-P F-6-P→F-1,6-DP。"
+          ],
+          "questionNumbers": [
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q021",
+      "page": 4,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "21",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第21题 · 生化 血浆脂蛋白",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "脂代谢",
+      "lectureIds": [
+        "foundation-biochemistry-04"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "脂蛋白脂肪酶"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "HMG-CoA 还原酶"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "apoB 受体 100"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "apoB 48"
+        }
+      ],
+      "stems": [
+        {
+          "number": 21,
+          "sourceQuestion": 21,
+          "sourcePage": 4,
+          "text": "血浆乳糜微粒含量增高时，最可能发生缺陷的是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-04",
+          "explanation": "答案为 A（脂蛋白脂肪酶）。乳糜微粒的甘油三酯需毛细血管内皮面的脂蛋白脂肪酶 LPL 水解；LPL 缺陷会使乳糜微粒显著潴留。",
+          "knowledgeConnections": [
+            "讲义定位：生化 血浆脂蛋白",
+            "必会项：A. 脂蛋白脂肪酶",
+            "易混对照：B. HMG-CoA 还原酶；C. apoB 受体 100；D. apoB 48"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 血浆脂蛋白",
+        "答案依据：A. 脂蛋白脂肪酶",
+        "乳糜微粒的甘油三酯需毛细血管内皮面的脂蛋白脂肪酶 LPL 水解；LPL 缺陷会使乳糜微粒显著潴留。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-04",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "04 27考研：生化 血浆脂蛋白 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "生化 血浆脂蛋白 · 第2页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-04-p02.webp",
+        "description": "基础强化摸底考试第21题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 血浆脂蛋白",
+          "④脂类代谢酶的调节剂：apoAⅠ激活 LCAT（胆固醇在血浆酯化）；apoCⅡ激活脂蛋白脂肪酶 LPL；③脂类受体的识别标志：apoAⅠ识别 HDL 受体；apoB100、apoE 识别 LDL 受体。"
+        ],
+        "questionNumbers": [
+          21
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-04",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "04 27考研：生化 血浆脂蛋白 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "生化 血浆脂蛋白 · 第2页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-04-p02.webp",
+          "description": "基础强化摸底考试第21题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 血浆脂蛋白",
+            "④脂类代谢酶的调节剂：apoAⅠ激活 LCAT（胆固醇在血浆酯化）；apoCⅡ激活脂蛋白脂肪酶 LPL；③脂类受体的识别标志：apoAⅠ识别 HDL 受体；apoB100、apoE 识别 LDL 受体。"
+          ],
+          "questionNumbers": [
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q022",
+      "page": 4,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "22",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第22题 · 生化 氨基酸代谢 & 氨基酸",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "foundation-biochemistry-07"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "VitB 、VitB 1 2"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "VitB 、VitB 2 6"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "VitB 、VitB 6 12"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "VitB 、VitPP 6"
+        }
+      ],
+      "stems": [
+        {
+          "number": 22,
+          "sourceQuestion": 22,
+          "sourcePage": 4,
+          "text": "参与 氨基酸联合脱氨基作用的维生素有",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-07",
+          "explanation": "答案为 D（VitB 、VitPP 6）。联合脱氨基包括转氨基和 L-谷氨酸氧化脱氨基：转氨酶以 VitB6 衍生的磷酸吡哆醛为辅酶，谷氨酸脱氢酶使用 NAD+ 或 NADP+，后两者来源于 VitPP。",
+          "knowledgeConnections": [
+            "讲义定位：生化 氨基酸代谢 & 氨基酸",
+            "必会项：D. VitB 、VitPP 6",
+            "易混对照：A. VitB 、VitB 1 2；B. VitB 、VitB 2 6；C. VitB 、VitB 6 12"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 氨基酸代谢 & 氨基酸",
+        "答案依据：D. VitB 、VitPP 6",
+        "联合脱氨基包括转氨基和 L-谷氨酸氧化脱氨基：转氨酶以 VitB6 衍生的磷酸吡哆醛为辅酶，谷氨酸脱氢酶使用 NAD+ 或 NADP+，后两者来源于 VitPP。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-07",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "07 27考研：生化 氨基酸代谢 & 氨基酸 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "生化 氨基酸代谢 & 氨基酸 · 第2页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-07-p02.webp",
+        "description": "基础强化摸底考试第22题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 氨基酸代谢 & 氨基酸",
+          "L-谷氨酸脱氢酶活性高、分布广，唯一既能用 NAD（VitPP）、又能用 NADP（VitPP）作辅因子；（二）心肌、骨骼肌的联合脱氨基=转氨基+嘌呤核苷酸循环（非氧化脱氨基）。"
+        ],
+        "questionNumbers": [
+          22
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-07",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "07 27考研：生化 氨基酸代谢 & 氨基酸 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "生化 氨基酸代谢 & 氨基酸 · 第2页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-07-p02.webp",
+          "description": "基础强化摸底考试第22题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 氨基酸代谢 & 氨基酸",
+            "L-谷氨酸脱氢酶活性高、分布广，唯一既能用 NAD（VitPP）、又能用 NADP（VitPP）作辅因子；（二）心肌、骨骼肌的联合脱氨基=转氨基+嘌呤核苷酸循环（非氧化脱氨基）。"
+          ],
+          "questionNumbers": [
+            22
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q023",
+      "page": 4,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "23",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第23题 · 生化 DNA的合成",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "分子生物学",
+      "lectureIds": [
+        "foundation-biochemistry-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "呈半不连续性"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "冈崎片段较短"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "复制子同步激活"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "需 PCNA 辅助"
+        }
+      ],
+      "stems": [
+        {
+          "number": 23,
+          "sourceQuestion": 23,
+          "sourcePage": 4,
+          "text": "以下关于 真核生物染色体 DNA 复制特点的叙述，错误的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-16",
+          "explanation": "答案为 C（复制子同步激活）。PCNA 辅助 并有和原核 DNApol Ⅲ的 β 亚基相同的功能）；组装核小体 （真核 DNA 复制与核小体装配同步进行）。",
+          "knowledgeConnections": [
+            "讲义定位：生化 DNA的合成",
+            "必会项：C. 复制子同步激活",
+            "易混对照：A. 呈半不连续性；B. 冈崎片段较短；D. 需 PCNA 辅助"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 DNA的合成",
+        "答案依据：C. 复制子同步激活",
+        "PCNA 辅助 并有和原核 DNApol Ⅲ的 β 亚基相同的功能）；组装核小体 （真核 DNA 复制与核小体装配同步进行）。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-16",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "pageLabel": "PDF第8页",
+        "title": "生化 DNA的合成 · 第8页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-16-p08.webp",
+        "description": "基础强化摸底考试第23题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 DNA的合成",
+          "PCNA 辅助 并有和原核 DNApol Ⅲ的 β 亚基相同的功能）；组装核小体 （真核 DNA 复制与核小体装配同步进行）。"
+        ],
+        "questionNumbers": [
+          23
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-16",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "title": "生化 DNA的合成 · 第8页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-16-p08.webp",
+          "description": "基础强化摸底考试第23题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 DNA的合成",
+            "PCNA 辅助 并有和原核 DNApol Ⅲ的 β 亚基相同的功能）；组装核小体 （真核 DNA 复制与核小体装配同步进行）。"
+          ],
+          "questionNumbers": [
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q024",
+      "page": 4,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "24",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第24题 · 生化 转录",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "分子生物学",
+      "lectureIds": [
+        "foundation-biochemistry-17"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "45S rRNA"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "tRNA"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "piRNA"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "DNApol Ⅲ"
+        }
+      ],
+      "stems": [
+        {
+          "number": 24,
+          "sourceQuestion": 24,
+          "sourcePage": 4,
+          "text": "具有Ⅲ类启动子的基因能编码",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-17",
+          "explanation": "答案为 B（tRNA）。产物 两个双链 DNA mRNA、tRNA、rRNA 等；概念 DNA→DNA DNA→RNA。",
+          "knowledgeConnections": [
+            "讲义定位：生化 转录",
+            "必会项：B. tRNA",
+            "易混对照：A. 45S rRNA；C. piRNA；D. DNApol Ⅲ"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 转录",
+        "答案依据：B. tRNA",
+        "产物 两个双链 DNA mRNA、tRNA、rRNA 等；概念 DNA→DNA DNA→RNA。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-17",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "生化 转录 · 第1页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-17-p01.webp",
+        "description": "基础强化摸底考试第24题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 转录",
+          "产物 两个双链 DNA mRNA、tRNA、rRNA 等；概念 DNA→DNA DNA→RNA。"
+        ],
+        "questionNumbers": [
+          24
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-17",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "生化 转录 · 第1页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-17-p01.webp",
+          "description": "基础强化摸底考试第24题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 转录",
+            "产物 两个双链 DNA mRNA、tRNA、rRNA 等；概念 DNA→DNA DNA→RNA。"
+          ],
+          "questionNumbers": [
+            24
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q025",
+      "page": 5,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "25",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第25题 · 生化 转录",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "分子生物学",
+      "lectureIds": [
+        "foundation-biochemistry-17"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "使 RNA 形成茎环或发夹结构"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "结合 RNA polyC 碱基"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "释放结合在启动子上的 RNA 聚合酶"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "参与真核生物转录的终止过程"
+        }
+      ],
+      "stems": [
+        {
+          "number": 25,
+          "sourceQuestion": 25,
+          "sourcePage": 5,
+          "text": "ρ 因子的功能是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-17",
+          "explanation": "答案为 B（结合 RNA polyC 碱基）。①ρ 因子识别结合 RNA 3 端的 （转录终止信号）→改变 RNA 聚合酶构象；→RNA 形成鼓槌/茎环/发夹形式的二级结构+多聚 尾巴。",
+          "knowledgeConnections": [
+            "讲义定位：生化 转录",
+            "必会项：B. 结合 RNA polyC 碱基",
+            "易混对照：A. 使 RNA 形成茎环或发夹结构；C. 释放结合在启动子上的 RNA 聚合酶；D. 参与真核生物转录的终止过程"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 转录",
+        "答案依据：B. 结合 RNA polyC 碱基",
+        "①ρ 因子识别结合 RNA 3 端的 （转录终止信号）→改变 RNA 聚合酶构象；→RNA 形成鼓槌/茎环/发夹形式的二级结构+多聚 尾巴。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-17",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "生化 转录 · 第4页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-17-p04.webp",
+        "description": "基础强化摸底考试第25题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 转录",
+          "①ρ 因子识别结合 RNA 3 端的 （转录终止信号）→改变 RNA 聚合酶构象；→RNA 形成鼓槌/茎环/发夹形式的二级结构+多聚 尾巴。"
+        ],
+        "questionNumbers": [
+          25
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-17",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "生化 转录 · 第4页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-17-p04.webp",
+          "description": "基础强化摸底考试第25题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 转录",
+            "①ρ 因子识别结合 RNA 3 端的 （转录终止信号）→改变 RNA 聚合酶构象；→RNA 形成鼓槌/茎环/发夹形式的二级结构+多聚 尾巴。"
+          ],
+          "questionNumbers": [
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q026",
+      "page": 5,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "26",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第26题 · 生化 基因表达调控",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "分子生物学",
+      "lectureIds": [
+        "foundation-biochemistry-19"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "形成茎-环结构"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "组蛋白泛素化修饰"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "对核酸酶不敏感"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "CpG 岛甲基化活跃"
+        }
+      ],
+      "stems": [
+        {
+          "number": 26,
+          "sourceQuestion": 26,
+          "sourcePage": 5,
+          "text": "活性基因染色质结构的变化有",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-19",
+          "explanation": "答案为 B（组蛋白泛素化修饰）。活性染色质结构疏松、对核酸酶敏感，CpG 岛倾向低甲基化；组蛋白乙酰化及部分泛素化与活性转录相关。",
+          "knowledgeConnections": [
+            "讲义定位：生化 基因表达调控",
+            "必会项：B. 组蛋白泛素化修饰",
+            "易混对照：A. 形成茎-环结构；C. 对核酸酶不敏感；D. CpG 岛甲基化活跃"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 基因表达调控",
+        "答案依据：B. 组蛋白泛素化修饰",
+        "活性染色质结构疏松、对核酸酶敏感，CpG 岛倾向低甲基化；组蛋白乙酰化及部分泛素化与活性转录相关。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-19",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "生化 基因表达调控 · 第1页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-19-p01.webp",
+        "description": "基础强化摸底考试第26题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 基因表达调控",
+          "（2）组蛋白 降低，H2A-H2B 不稳定，H3、H4 发生乙酰化、磷酸化、泛素化等组蛋白修饰。上述；二、DNA 和染色质水平的基因表达调控——活性染色质。"
+        ],
+        "questionNumbers": [
+          26
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-19",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "生化 基因表达调控 · 第1页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-19-p01.webp",
+          "description": "基础强化摸底考试第26题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 基因表达调控",
+            "（2）组蛋白 降低，H2A-H2B 不稳定，H3、H4 发生乙酰化、磷酸化、泛素化等组蛋白修饰。上述；二、DNA 和染色质水平的基因表达调控——活性染色质。"
+          ],
+          "questionNumbers": [
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q027",
+      "page": 5,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "27",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第27题 · 生化 小基因",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "分子生物学",
+      "lectureIds": [
+        "foundation-biochemistry-14"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "质粒"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "噬菌体"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "人类 DNA"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "逆转录病毒"
+        }
+      ],
+      "stems": [
+        {
+          "number": 27,
+          "sourceQuestion": 27,
+          "sourcePage": 5,
+          "text": "用于基因治疗较为理想的载体是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-14",
+          "explanation": "答案为 D（逆转录病毒）。基因治疗载体常用病毒载体；逆转录病毒可将外源基因整合至靶细胞基因组，在备选项中最合适。",
+          "knowledgeConnections": [
+            "讲义定位：生化 小基因",
+            "必会项：D. 逆转录病毒",
+            "易混对照：A. 质粒；B. 噬菌体；C. 人类 DNA"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 小基因",
+        "答案依据：D. 逆转录病毒",
+        "基因治疗载体常用病毒载体；逆转录病毒可将外源基因整合至靶细胞基因组，在备选项中最合适。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-14",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "14 27考研：生化 小基因 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "pageLabel": "PDF第6页",
+        "title": "生化 小基因 · 第6页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-14-p06.webp",
+        "description": "基础强化摸底考试第27题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 小基因",
+          "C.用病毒载体将外源 DNA 转入大肠埃希菌；2019N26 A 在 DNA 重组技术中使用质粒的目的是。"
+        ],
+        "questionNumbers": [
+          27
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-14",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "14 27考研：生化 小基因 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "title": "生化 小基因 · 第6页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-14-p06.webp",
+          "description": "基础强化摸底考试第27题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 小基因",
+            "C.用病毒载体将外源 DNA 转入大肠埃希菌；2019N26 A 在 DNA 重组技术中使用质粒的目的是。"
+          ],
+          "questionNumbers": [
+            27
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q028",
+      "page": 5,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "28",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第28题 · 生化 蛋白质",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "foundation-biochemistry-08"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "透析"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "盐析"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "超速离心"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "凝胶过滤"
+        }
+      ],
+      "stems": [
+        {
+          "number": 28,
+          "sourceQuestion": 28,
+          "sourcePage": 5,
+          "text": "以下蛋白质分离和纯化的方法与另外的 方法原理不同的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-08",
+          "explanation": "答案为 B（盐析）。2017N145 X 以下选项中，属于蛋白质体内降解代谢途径的有；2017N21 A 食物蛋白质营养价值指的是。",
+          "knowledgeConnections": [
+            "讲义定位：生化 蛋白质",
+            "必会项：B. 盐析",
+            "易混对照：A. 透析；C. 超速离心；D. 凝胶过滤"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 蛋白质",
+        "答案依据：B. 盐析",
+        "2017N145 X 以下选项中，属于蛋白质体内降解代谢途径的有；2017N21 A 食物蛋白质营养价值指的是。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-08",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "08 27考研：生化 蛋白质 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "生化 蛋白质 · 第2页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-08-p02.webp",
+        "description": "基础强化摸底考试第28题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 蛋白质",
+          "2017N145 X 以下选项中，属于蛋白质体内降解代谢途径的有；2017N21 A 食物蛋白质营养价值指的是。"
+        ],
+        "questionNumbers": [
+          28
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-08",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "08 27考研：生化 蛋白质 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "生化 蛋白质 · 第2页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-08-p02.webp",
+          "description": "基础强化摸底考试第28题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 蛋白质",
+            "2017N145 X 以下选项中，属于蛋白质体内降解代谢途径的有；2017N21 A 食物蛋白质营养价值指的是。"
+          ],
+          "questionNumbers": [
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q120",
+      "page": 21,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "120",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第120题 · 生化 氧化磷酸化",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "糖代谢与生物氧化",
+      "lectureIds": [
+        "foundation-biochemistry-02"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "异柠檬酸脱氢酶"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "6-磷酸葡萄糖酸脱氢酶"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "琥珀酸脱氢酶"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "丙酮酸脱氢酶复合体"
+        }
+      ],
+      "stems": [
+        {
+          "number": 120,
+          "sourceQuestion": 120,
+          "sourcePage": 21,
+          "text": "以上脱氢酶催化的反应不伴脱羧的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-02",
+          "explanation": "答案为 C（琥珀酸脱氢酶）。专题串联·葡萄糖有氧氧化的能量计算；2025N20 A 甘油-3-磷酸穿梭的生理意义是。",
+          "knowledgeConnections": [
+            "讲义定位：生化 氧化磷酸化",
+            "必会项：C. 琥珀酸脱氢酶",
+            "易混对照：A. 异柠檬酸脱氢酶；B. 6-磷酸葡萄糖酸脱氢酶；D. 丙酮酸脱氢酶复合体"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 氧化磷酸化",
+        "答案依据：C. 琥珀酸脱氢酶",
+        "专题串联·葡萄糖有氧氧化的能量计算；2025N20 A 甘油-3-磷酸穿梭的生理意义是。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-02",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "pageLabel": "PDF第6页",
+        "title": "生化 氧化磷酸化 · 第6页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-02-p06.webp",
+        "description": "基础强化摸底考试第120题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 氧化磷酸化",
+          "专题串联·葡萄糖有氧氧化的能量计算；2025N20 A 甘油-3-磷酸穿梭的生理意义是。"
+        ],
+        "questionNumbers": [
+          120
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-02",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "title": "生化 氧化磷酸化 · 第6页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-02-p06.webp",
+          "description": "基础强化摸底考试第120题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 氧化磷酸化",
+            "专题串联·葡萄糖有氧氧化的能量计算；2025N20 A 甘油-3-磷酸穿梭的生理意义是。"
+          ],
+          "questionNumbers": [
+            120
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q121",
+      "page": 21,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "121",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第121题 · 生化 磷酸戊糖途径、糖原、糖异生",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "糖代谢与生物氧化",
+      "lectureIds": [
+        "foundation-biochemistry-03"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "异柠檬酸脱氢酶"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "6-磷酸葡萄糖酸脱氢酶"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "琥珀酸脱氢酶"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "丙酮酸脱氢酶复合体"
+        }
+      ],
+      "stems": [
+        {
+          "number": 121,
+          "sourceQuestion": 121,
+          "sourcePage": 21,
+          "text": "以上脱氢酶需以 NADP+ 作为辅酶的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-03",
+          "explanation": "答案为 B（6-磷酸葡萄糖酸脱氢酶）。D.6-磷酸葡萄糖酸内酯；D.抑制磷酸烯醇式丙酮酸羧激酶的合成。",
+          "knowledgeConnections": [
+            "讲义定位：生化 磷酸戊糖途径、糖原、糖异生",
+            "必会项：B. 6-磷酸葡萄糖酸脱氢酶",
+            "易混对照：A. 异柠檬酸脱氢酶；C. 琥珀酸脱氢酶；D. 丙酮酸脱氢酶复合体"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 磷酸戊糖途径、糖原、糖异生",
+        "答案依据：B. 6-磷酸葡萄糖酸脱氢酶",
+        "D.6-磷酸葡萄糖酸内酯；D.抑制磷酸烯醇式丙酮酸羧激酶的合成。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-03",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "03 27考研：生化 磷酸戊糖途径、糖原、糖异生 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "生化 磷酸戊糖途径、糖原、糖异生 · 第5页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-03-p05.webp",
+        "description": "基础强化摸底考试第121题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 磷酸戊糖途径、糖原、糖异生",
+          "D.6-磷酸葡萄糖酸内酯；D.抑制磷酸烯醇式丙酮酸羧激酶的合成。"
+        ],
+        "questionNumbers": [
+          121
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-03",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "03 27考研：生化 磷酸戊糖途径、糖原、糖异生 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "生化 磷酸戊糖途径、糖原、糖异生 · 第5页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-03-p05.webp",
+          "description": "基础强化摸底考试第121题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 磷酸戊糖途径、糖原、糖异生",
+            "D.6-磷酸葡萄糖酸内酯；D.抑制磷酸烯醇式丙酮酸羧激酶的合成。"
+          ],
+          "questionNumbers": [
+            121
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q122",
+      "page": 21,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "122",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第122题 · 生化 翻译",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "分子生物学",
+      "lectureIds": [
+        "foundation-biochemistry-18"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "5S rRNA"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "16S rRNA"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "18S rRNA"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "28S rRNA"
+        }
+      ],
+      "stems": [
+        {
+          "number": 122,
+          "sourceQuestion": 122,
+          "sourcePage": 21,
+          "text": "在蛋白质生物合成的起始阶段，识别 S-D 序列的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-18",
+          "explanation": "答案为 B（16S rRNA）。原核翻译起始时，16S rRNA 与 mRNA 上的 Shine-Dalgarno 序列互补配对，定位起始密码。",
+          "knowledgeConnections": [
+            "讲义定位：生化 翻译",
+            "必会项：B. 16S rRNA",
+            "易混对照：A. 5S rRNA；C. 18S rRNA；D. 28S rRNA"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 翻译",
+        "答案依据：B. 16S rRNA",
+        "原核翻译起始时，16S rRNA 与 mRNA 上的 Shine-Dalgarno 序列互补配对，定位起始密码。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-18",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "生化 翻译 · 第1页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-18-p01.webp",
+        "description": "基础强化摸底考试第122题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 翻译",
+          "②SD 序列被 rRNA 通过碱基互补准确识别→翻译起始阶段 mRNA 和核糖体小亚基准确定位；核糖体结合位点/RBS（S-D 序列）：。"
+        ],
+        "questionNumbers": [
+          122
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-18",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "生化 翻译 · 第1页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-18-p01.webp",
+          "description": "基础强化摸底考试第122题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 翻译",
+            "②SD 序列被 rRNA 通过碱基互补准确识别→翻译起始阶段 mRNA 和核糖体小亚基准确定位；核糖体结合位点/RBS（S-D 序列）：。"
+          ],
+          "questionNumbers": [
+            122
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q123",
+      "page": 21,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "123",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第123题 · 生化 翻译",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "分子生物学",
+      "lectureIds": [
+        "foundation-biochemistry-18"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "5S rRNA"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "16S rRNA"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "18S rRNA"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "28S rRNA"
+        }
+      ],
+      "stems": [
+        {
+          "number": 123,
+          "sourceQuestion": 123,
+          "sourcePage": 21,
+          "text": "在蛋白质生物合成的延长阶段，催化成肽过程的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-18",
+          "explanation": "答案为 D（28S rRNA）。2018N144 X 参与蛋白质生物合成的能量物质有；2018N25 A 蛋白质生物合成时具有 GTP 酶活性的物质是。",
+          "knowledgeConnections": [
+            "讲义定位：生化 翻译",
+            "必会项：D. 28S rRNA",
+            "易混对照：A. 5S rRNA；B. 16S rRNA；C. 18S rRNA"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 翻译",
+        "答案依据：D. 28S rRNA",
+        "2018N144 X 参与蛋白质生物合成的能量物质有；2018N25 A 蛋白质生物合成时具有 GTP 酶活性的物质是。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-18",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 10,
+        "pageLabel": "PDF第10页",
+        "title": "生化 翻译 · 第10页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-18-p10.webp",
+        "description": "基础强化摸底考试第123题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 翻译",
+          "2018N144 X 参与蛋白质生物合成的能量物质有；2018N25 A 蛋白质生物合成时具有 GTP 酶活性的物质是。"
+        ],
+        "questionNumbers": [
+          123
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-18",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 10,
+          "pageLabel": "PDF第10页",
+          "title": "生化 翻译 · 第10页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-18-p10.webp",
+          "description": "基础强化摸底考试第123题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 翻译",
+            "2018N144 X 参与蛋白质生物合成的能量物质有；2018N25 A 蛋白质生物合成时具有 GTP 酶活性的物质是。"
+          ],
+          "questionNumbers": [
+            123
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q142",
+      "page": 23,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "142",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第142题 · 生化 酶",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "酶与维生素",
+      "lectureIds": [
+        "foundation-biochemistry-12"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "关键酶常位于代谢途径的 第一个反应"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "若一代谢物有几条代谢途径，则在分叉点的第一个反应常是关键酶所在"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "代谢途径中关键酶的活性最高，对整个代谢途径的流量起决定作用"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "关键酶常是别构酶，受激素调节的酶也常是关键酶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 142,
+          "sourceQuestion": 142,
+          "sourcePage": 23,
+          "text": "以下关于关键酶的叙述，正确的有",
+          "answerRaw": "ABD",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-12",
+          "explanation": "答案为 ABD（关键酶常位于代谢途径的 第一个反应；若一代谢物有几条代谢途径，则在分叉点的第一个反应常是关键酶所在；关键酶常是别构酶，受激素调节的酶也常是关键酶）。关键酶常位于代谢途径起始处或分叉后的第一个反应，且常为别构酶或受激素调节的酶；它通常催化慢反应，活性不是最高。",
+          "knowledgeConnections": [
+            "讲义定位：生化 酶",
+            "必会项：ABD. 关键酶常位于代谢途径的 第一个反应；若一代谢物有几条代谢途径，则在分叉点的第一个反应常是关键酶所在；关键酶常是别构酶，受激素调节的酶也常是关键酶",
+            "易混对照：C. 代谢途径中关键酶的活性最高，对整个代谢途径的流量起决定作用"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 酶",
+        "答案依据：ABD. 关键酶常位于代谢途径的 第一个反应；若一代谢物有几条代谢途径，则在分叉点的第一个反应常是关键酶所在；关键酶常是别构酶，受激素调节的酶也常是关键酶",
+        "关键酶常位于代谢途径起始处或分叉后的第一个反应，且常为别构酶或受激素调节的酶；它通常催化慢反应，活性不是最高。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-12",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "pageLabel": "PDF第8页",
+        "title": "生化 酶 · 第8页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-12-p08.webp",
+        "description": "基础强化摸底考试第142题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 酶",
+          "2022N143 X 以下关于代谢调节的描述，正确的有；B.受别构调节的酶决定整个代谢的类型。"
+        ],
+        "questionNumbers": [
+          142
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-12",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "title": "生化 酶 · 第8页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-12-p08.webp",
+          "description": "基础强化摸底考试第142题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 酶",
+            "2022N143 X 以下关于代谢调节的描述，正确的有；B.受别构调节的酶决定整个代谢的类型。"
+          ],
+          "questionNumbers": [
+            142
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q143",
+      "page": 24,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "143",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第143题 · 生化 氧化磷酸化",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "糖代谢与生物氧化",
+      "lectureIds": [
+        "foundation-biochemistry-02"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "NADH"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "草酰乙酸"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "脂酰 CoA"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "磷酸二羟丙酮"
+        }
+      ],
+      "stems": [
+        {
+          "number": 143,
+          "sourceQuestion": 143,
+          "sourcePage": 24,
+          "text": "不能自由通过 线粒体膜的物质有",
+          "answerRaw": "ABC",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-02",
+          "explanation": "答案为 ABC（NADH；草酰乙酸；脂酰 CoA）。FADH2（双递氢体）：琥珀酸、脂酰 CoA、线粒体中的 α-磷酸甘油、胆碱；②辅酶 Q/CoQ/泛醌：脂溶性强（在线粒体内膜自由扩散）。由于 Q 是双电子传递体，而 Cyt c 是单。",
+          "knowledgeConnections": [
+            "讲义定位：生化 氧化磷酸化",
+            "必会项：ABC. NADH；草酰乙酸；脂酰 CoA",
+            "易混对照：D. 磷酸二羟丙酮"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 氧化磷酸化",
+        "答案依据：ABC. NADH；草酰乙酸；脂酰 CoA",
+        "FADH2（双递氢体）：琥珀酸、脂酰 CoA、线粒体中的 α-磷酸甘油、胆碱；②辅酶 Q/CoQ/泛醌：脂溶性强（在线粒体内膜自由扩散）。由于 Q 是双电子传递体，而 Cyt c 是单。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-02",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "生化 氧化磷酸化 · 第2页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-02-p02.webp",
+        "description": "基础强化摸底考试第143题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 氧化磷酸化",
+          "FADH2（双递氢体）：琥珀酸、脂酰 CoA、线粒体中的 α-磷酸甘油、胆碱；②辅酶 Q/CoQ/泛醌：脂溶性强（在线粒体内膜自由扩散）。由于 Q 是双电子传递体，而 Cyt c 是单。"
+        ],
+        "questionNumbers": [
+          143
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-02",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "生化 氧化磷酸化 · 第2页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-02-p02.webp",
+          "description": "基础强化摸底考试第143题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 氧化磷酸化",
+            "FADH2（双递氢体）：琥珀酸、脂酰 CoA、线粒体中的 α-磷酸甘油、胆碱；②辅酶 Q/CoQ/泛醌：脂溶性强（在线粒体内膜自由扩散）。由于 Q 是双电子传递体，而 Cyt c 是单。"
+          ],
+          "questionNumbers": [
+            143
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q144",
+      "page": 24,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "144",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第144题 · 生化 核苷酸代谢",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "foundation-biochemistry-09"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "UTP→CTP"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "dUMP→dTMP"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "IMP→GMP"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "PRPP→PRA"
+        }
+      ],
+      "stems": [
+        {
+          "number": 144,
+          "sourceQuestion": 144,
+          "sourcePage": 24,
+          "text": "使用氮杂丝氨酸作为 核苷酸抗代谢物时，能阻断的有",
+          "answerRaw": "ACD",
+          "answer": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-09",
+          "explanation": "答案为 ACD（UTP→CTP；IMP→GMP；PRPP→PRA）。氮杂丝氨酸 Gln PRPP 酰胺转移酶、CPS-Ⅱ等 合成嘌呤和嘧啶核苷酸；5-氟尿嘧啶/5-FU T 胸苷酸合酶 合成 dTMP（dUMP→dTMP）。",
+          "knowledgeConnections": [
+            "讲义定位：生化 核苷酸代谢",
+            "必会项：ACD. UTP→CTP；IMP→GMP；PRPP→PRA",
+            "易混对照：B. dUMP→dTMP"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 核苷酸代谢",
+        "答案依据：ACD. UTP→CTP；IMP→GMP；PRPP→PRA",
+        "氮杂丝氨酸 Gln PRPP 酰胺转移酶、CPS-Ⅱ等 合成嘌呤和嘧啶核苷酸；5-氟尿嘧啶/5-FU T 胸苷酸合酶 合成 dTMP（dUMP→dTMP）。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-09",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "pageLabel": "PDF第6页",
+        "title": "生化 核苷酸代谢 · 第6页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-09-p06.webp",
+        "description": "基础强化摸底考试第144题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 核苷酸代谢",
+          "氮杂丝氨酸 Gln PRPP 酰胺转移酶、CPS-Ⅱ等 合成嘌呤和嘧啶核苷酸；5-氟尿嘧啶/5-FU T 胸苷酸合酶 合成 dTMP（dUMP→dTMP）。"
+        ],
+        "questionNumbers": [
+          144
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-09",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "title": "生化 核苷酸代谢 · 第6页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-09-p06.webp",
+          "description": "基础强化摸底考试第144题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 核苷酸代谢",
+            "氮杂丝氨酸 Gln PRPP 酰胺转移酶、CPS-Ⅱ等 合成嘌呤和嘧啶核苷酸；5-氟尿嘧啶/5-FU T 胸苷酸合酶 合成 dTMP（dUMP→dTMP）。"
+          ],
+          "questionNumbers": [
+            144
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q145",
+      "page": 24,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "145",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第145题 · 生化 蛋白质",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "foundation-biochemistry-08"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "氨基酸的序列储存着折叠的信息"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "需要肽脯氨酰基顺反异构酶的协助"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "分子伴侣主要加速折叠反应的速度"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "伴侣蛋白 提供正确折叠的微环境"
+        }
+      ],
+      "stems": [
+        {
+          "number": 145,
+          "sourceQuestion": 145,
+          "sourcePage": 24,
+          "text": "以下有关新生多肽链折叠的叙述，正确的有",
+          "answerRaw": "ABD",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-08",
+          "explanation": "答案为 ABD（氨基酸的序列储存着折叠的信息；需要肽脯氨酰基顺反异构酶的协助；伴侣蛋白 提供正确折叠的微环境）。2025N17 A 关于蛋白质结构的叙述，正确的是；D.一个氨基酸改变不会影响蛋白质空间结构。",
+          "knowledgeConnections": [
+            "讲义定位：生化 蛋白质",
+            "必会项：ABD. 氨基酸的序列储存着折叠的信息；需要肽脯氨酰基顺反异构酶的协助；伴侣蛋白 提供正确折叠的微环境",
+            "易混对照：C. 分子伴侣主要加速折叠反应的速度"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 蛋白质",
+        "答案依据：ABD. 氨基酸的序列储存着折叠的信息；需要肽脯氨酰基顺反异构酶的协助；伴侣蛋白 提供正确折叠的微环境",
+        "2025N17 A 关于蛋白质结构的叙述，正确的是；D.一个氨基酸改变不会影响蛋白质空间结构。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-08",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "08 27考研：生化 蛋白质 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "生化 蛋白质 · 第3页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-08-p03.webp",
+        "description": "基础强化摸底考试第145题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 蛋白质",
+          "2025N17 A 关于蛋白质结构的叙述，正确的是；D.一个氨基酸改变不会影响蛋白质空间结构。"
+        ],
+        "questionNumbers": [
+          145
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-08",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "08 27考研：生化 蛋白质 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "生化 蛋白质 · 第3页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-08-p03.webp",
+          "description": "基础强化摸底考试第145题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 蛋白质",
+            "2025N17 A 关于蛋白质结构的叙述，正确的是；D.一个氨基酸改变不会影响蛋白质空间结构。"
+          ],
+          "questionNumbers": [
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q146",
+      "page": 24,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "146",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第146题 · 生化 基因表达调控",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "分子生物学",
+      "lectureIds": [
+        "foundation-biochemistry-19"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "是与被调控基因在同一条链上的顺式作用元件"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "方向倒置的增强子依然能发挥作用"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "对启动子没有严格的专一性和方向性"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "可不与转录因子结合即可发挥增强转录的作用"
+        }
+      ],
+      "stems": [
+        {
+          "number": 146,
+          "sourceQuestion": 146,
+          "sourcePage": 24,
+          "text": "以下关于 增强子特点的叙述，正确的有",
+          "answerRaw": "ABC",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-19",
+          "explanation": "答案为 ABC（是与被调控基因在同一条链上的顺式作用元件；方向倒置的增强子依然能发挥作用；对启动子没有严格的专一性和方向性）。（增强转录） ②对启动子 严格专一性；④属于远端调控元件，但发挥作用距离所调控基因。",
+          "knowledgeConnections": [
+            "讲义定位：生化 基因表达调控",
+            "必会项：ABC. 是与被调控基因在同一条链上的顺式作用元件；方向倒置的增强子依然能发挥作用；对启动子没有严格的专一性和方向性",
+            "易混对照：D. 可不与转录因子结合即可发挥增强转录的作用"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 基因表达调控",
+        "答案依据：ABC. 是与被调控基因在同一条链上的顺式作用元件；方向倒置的增强子依然能发挥作用；对启动子没有严格的专一性和方向性",
+        "（增强转录） ②对启动子 严格专一性；④属于远端调控元件，但发挥作用距离所调控基因。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-19",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "title": "生化 基因表达调控 · 第7页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-19-p07.webp",
+        "description": "基础强化摸底考试第146题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 基因表达调控",
+          "（增强转录） ②对启动子 严格专一性；④属于远端调控元件，但发挥作用距离所调控基因。"
+        ],
+        "questionNumbers": [
+          146
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-19",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "title": "生化 基因表达调控 · 第7页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-19-p07.webp",
+          "description": "基础强化摸底考试第146题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 基因表达调控",
+            "（增强转录） ②对启动子 严格专一性；④属于远端调控元件，但发挥作用距离所调控基因。"
+          ],
+          "questionNumbers": [
+            146
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biochemistry-foundation-mock-exam-20260907-q147",
+      "page": 24,
+      "sourceKey": "biochemistry-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生化",
+      "sourceQuestion": "147",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第147题 · 生化 小基因",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "分子生物学",
+      "lectureIds": [
+        "foundation-biochemistry-14"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "RT-PCR"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "实时荧光定量 PCR"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "探针的标记与合成"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "Western blotting"
+        }
+      ],
+      "stems": [
+        {
+          "number": 147,
+          "sourceQuestion": 147,
+          "sourcePage": 24,
+          "text": "以下技术或方法可能使用 DNA 聚合酶的有",
+          "answerRaw": "ABC",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-biochemistry-14",
+          "explanation": "答案为 ABC（RT-PCR；实时荧光定量 PCR；探针的标记与合成）。B.Western blotting；C.Northern blotting。",
+          "knowledgeConnections": [
+            "讲义定位：生化 小基因",
+            "必会项：ABC. RT-PCR；实时荧光定量 PCR；探针的标记与合成",
+            "易混对照：D. Western blotting"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生化 小基因",
+        "答案依据：ABC. RT-PCR；实时荧光定量 PCR；探针的标记与合成",
+        "B.Western blotting；C.Northern blotting。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-biochemistry-14",
+        "sourceSubject": "biochemistry",
+        "sourceFile": "14 27考研：生化 小基因 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "pageLabel": "PDF第6页",
+        "title": "生化 小基因 · 第6页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-14-p06.webp",
+        "description": "基础强化摸底考试第147题对应讲义原页。",
+        "knowledgePoints": [
+          "生化 小基因",
+          "B.Western blotting；C.Northern blotting。"
+        ],
+        "questionNumbers": [
+          147
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-biochemistry-14",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "14 27考研：生化 小基因 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "title": "生化 小基因 · 第6页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-14-p06.webp",
+          "description": "基础强化摸底考试第147题对应讲义原页。",
+          "knowledgePoints": [
+            "生化 小基因",
+            "B.Western blotting；C.Northern blotting。"
+          ],
+          "questionNumbers": [
+            147
+          ]
+        }
+      ]
+    }
+  ],
+  "pages": [],
+  "lectures": [
+    {
+      "id": "foundation-biochemistry-08",
+      "number": 8,
+      "title": "生化 蛋白质",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-biochemistry-15",
+      "number": 15,
+      "title": "生化 核酸",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-biochemistry-12",
+      "number": 12,
+      "title": "生化 酶",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-biochemistry-01",
+      "number": 1,
+      "title": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-biochemistry-04",
+      "number": 4,
+      "title": "生化 血浆脂蛋白",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-biochemistry-07",
+      "number": 7,
+      "title": "生化 氨基酸代谢 & 氨基酸",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-biochemistry-16",
+      "number": 16,
+      "title": "生化 DNA的合成",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-biochemistry-17",
+      "number": 17,
+      "title": "生化 转录",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-biochemistry-19",
+      "number": 19,
+      "title": "生化 基因表达调控",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-biochemistry-14",
+      "number": 14,
+      "title": "生化 小基因",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-biochemistry-02",
+      "number": 2,
+      "title": "生化 氧化磷酸化",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-biochemistry-03",
+      "number": 3,
+      "title": "生化 磷酸戊糖途径、糖原、糖异生",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-biochemistry-18",
+      "number": 18,
+      "title": "生化 翻译",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-biochemistry-09",
+      "number": 9,
+      "title": "生化 核苷酸代谢",
+      "pageCount": 1
+    }
+  ],
+  "topics": [
+    "氨基酸与蛋白质",
+    "分子生物学",
+    "酶与维生素",
+    "糖代谢与生物氧化",
+    "脂代谢",
+    "核苷酸代谢"
+  ]
+}

@@ -1,0 +1,2458 @@
+{
+  "meta": {
+    "title": "基础强化摸底考试·病理",
+    "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+    "sourcePages": 28,
+    "answerNote": "答案依据用户提供的答案图；每题附解析、讲义要点和对应讲义原页。",
+    "groupCount": 22,
+    "stemCount": 22,
+    "lectureCount": 14
+  },
+  "groups": [
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q029",
+      "page": 5,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "29",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第29题 · 病理 适应和损伤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "适应与损伤",
+      "lectureIds": [
+        "foundation-pathology-23"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "缺血缺氧的损伤"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "细胞膜的损伤"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "线粒体的损伤"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胞质内游离 Ca2+的损伤"
+        }
+      ],
+      "stems": [
+        {
+          "number": 29,
+          "sourceQuestion": 29,
+          "sourcePage": 5,
+          "text": "细胞损伤最常见和最重要的 中心环节是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-23",
+          "explanation": "答案为 A（缺血缺氧的损伤）。线粒体损伤多是细胞损伤的早期标志；内含大量红染细颗粒物（线粒体和内质网等细胞器肿胀扩张）。",
+          "knowledgeConnections": [
+            "讲义定位：病理 适应和损伤",
+            "必会项：A. 缺血缺氧的损伤",
+            "易混对照：B. 细胞膜的损伤；C. 线粒体的损伤；D. 胞质内游离 Ca2+的损伤"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 适应和损伤",
+        "答案依据：A. 缺血缺氧的损伤",
+        "线粒体损伤多是细胞损伤的早期标志；内含大量红染细颗粒物（线粒体和内质网等细胞器肿胀扩张）。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-23",
+        "sourceSubject": "pathology",
+        "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "病理 适应和损伤 · 第5页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-23-p05.webp",
+        "description": "基础强化摸底考试第29题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 适应和损伤",
+          "线粒体损伤多是细胞损伤的早期标志；内含大量红染细颗粒物（线粒体和内质网等细胞器肿胀扩张）。"
+        ],
+        "questionNumbers": [
+          29
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-23",
+          "sourceSubject": "pathology",
+          "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "病理 适应和损伤 · 第5页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-23-p05.webp",
+          "description": "基础强化摸底考试第29题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 适应和损伤",
+            "线粒体损伤多是细胞损伤的早期标志；内含大量红染细颗粒物（线粒体和内质网等细胞器肿胀扩张）。"
+          ],
+          "questionNumbers": [
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q030",
+      "page": 5,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "30",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第30题 · 病理 损伤的修复",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "foundation-pathology-22"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "巨噬细胞"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "中性粒细胞"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "神经纤维"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "异物"
+        }
+      ],
+      "stems": [
+        {
+          "number": 30,
+          "sourceQuestion": 30,
+          "sourcePage": 5,
+          "text": "肉芽组织中一般不含有",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-22",
+          "explanation": "答案为 C（神经纤维）。肉芽组织主要由新生毛细血管、成纤维细胞、巨噬细胞及其他炎细胞构成；一般不含神经纤维。",
+          "knowledgeConnections": [
+            "讲义定位：病理 损伤的修复",
+            "必会项：C. 神经纤维",
+            "易混对照：A. 巨噬细胞；B. 中性粒细胞；D. 异物"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 损伤的修复",
+        "答案依据：C. 神经纤维",
+        "肉芽组织主要由新生毛细血管、成纤维细胞、巨噬细胞及其他炎细胞构成；一般不含神经纤维。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-22",
+        "sourceSubject": "pathology",
+        "sourceFile": "22 27考研：病理 损伤的修复 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "病理 损伤的修复 · 第2页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-22-p02.webp",
+        "description": "基础强化摸底考试第30题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 损伤的修复",
+          "（1）肉芽组织是增生旺盛的新生幼稚结缔组织，一般在组织损伤 2-3 天后开始形成；③数量不等的炎细胞，以巨噬细胞为主、它能分泌生长因子→毛细血管和成纤维细胞进一。"
+        ],
+        "questionNumbers": [
+          30
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-22",
+          "sourceSubject": "pathology",
+          "sourceFile": "22 27考研：病理 损伤的修复 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "病理 损伤的修复 · 第2页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-22-p02.webp",
+          "description": "基础强化摸底考试第30题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 损伤的修复",
+            "（1）肉芽组织是增生旺盛的新生幼稚结缔组织，一般在组织损伤 2-3 天后开始形成；③数量不等的炎细胞，以巨噬细胞为主、它能分泌生长因子→毛细血管和成纤维细胞进一。"
+          ],
+          "questionNumbers": [
+            30
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q031",
+      "page": 6,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "31",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第31题 · 病理 局部血液循环障碍",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "局部血液循环障碍",
+      "lectureIds": [
+        "foundation-pathology-24"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肺小动脉内发现角化上皮"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肺小静脉内发现 胎毛和胎脂"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肺毛细血管内发现广泛透明血栓"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肺泡内发现大量嗜酸性粒细胞"
+        }
+      ],
+      "stems": [
+        {
+          "number": 31,
+          "sourceQuestion": 31,
+          "sourcePage": 6,
+          "text": "病理诊断羊水栓塞的主要依据是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-24",
+          "explanation": "答案为 A（肺小动脉内发现角化上皮）。分娩→肺栓塞（肺小动脉和毛细血管内有角化上皮、胎毛等）；②长期卧床等下肢深静脉血栓形成后脱落→肺动脉栓塞。",
+          "knowledgeConnections": [
+            "讲义定位：病理 局部血液循环障碍",
+            "必会项：A. 肺小动脉内发现角化上皮",
+            "易混对照：B. 肺小静脉内发现 胎毛和胎脂；C. 肺毛细血管内发现广泛透明血栓；D. 肺泡内发现大量嗜酸性粒细胞"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 局部血液循环障碍",
+        "答案依据：A. 肺小动脉内发现角化上皮",
+        "分娩→肺栓塞（肺小动脉和毛细血管内有角化上皮、胎毛等）；②长期卧床等下肢深静脉血栓形成后脱落→肺动脉栓塞。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-24",
+        "sourceSubject": "pathology",
+        "sourceFile": "24 27考研：病理 局部血液循环障碍 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "病理 局部血液循环障碍 · 第5页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-24-p05.webp",
+        "description": "基础强化摸底考试第31题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 局部血液循环障碍",
+          "分娩→肺栓塞（肺小动脉和毛细血管内有角化上皮、胎毛等）；②长期卧床等下肢深静脉血栓形成后脱落→肺动脉栓塞。"
+        ],
+        "questionNumbers": [
+          31
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-24",
+          "sourceSubject": "pathology",
+          "sourceFile": "24 27考研：病理 局部血液循环障碍 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "病理 局部血液循环障碍 · 第5页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-24-p05.webp",
+          "description": "基础强化摸底考试第31题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 局部血液循环障碍",
+            "分娩→肺栓塞（肺小动脉和毛细血管内有角化上皮、胎毛等）；②长期卧床等下肢深静脉血栓形成后脱落→肺动脉栓塞。"
+          ],
+          "questionNumbers": [
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q032",
+      "page": 6,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "32",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第32题 · 病理 局部血液循环障碍",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "局部血液循环障碍",
+      "lectureIds": [
+        "foundation-pathology-24"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "梗死的原因"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "坏死的类型"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "梗死灶的含血量"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "血管的分布方式"
+        }
+      ],
+      "stems": [
+        {
+          "number": 32,
+          "sourceQuestion": 32,
+          "sourcePage": 6,
+          "text": "器官梗死灶的 质地主要取决于",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-24",
+          "explanation": "答案为 B（坏死的类型）。（1）形状取决于血管分布方式：心-地图形心电图、肠-节段形、脾/肾/肺-锥形（ttsx 尖端；（2）质地取决于坏死类型。",
+          "knowledgeConnections": [
+            "讲义定位：病理 局部血液循环障碍",
+            "必会项：B. 坏死的类型",
+            "易混对照：A. 梗死的原因；C. 梗死灶的含血量；D. 血管的分布方式"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 局部血液循环障碍",
+        "答案依据：B. 坏死的类型",
+        "（1）形状取决于血管分布方式：心-地图形心电图、肠-节段形、脾/肾/肺-锥形（ttsx 尖端；（2）质地取决于坏死类型。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-24",
+        "sourceSubject": "pathology",
+        "sourceFile": "24 27考研：病理 局部血液循环障碍 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "pageLabel": "PDF第6页",
+        "title": "病理 局部血液循环障碍 · 第6页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-24-p06.webp",
+        "description": "基础强化摸底考试第32题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 局部血液循环障碍",
+          "（1）形状取决于血管分布方式：心-地图形心电图、肠-节段形、脾/肾/肺-锥形（ttsx 尖端；（2）质地取决于坏死类型。"
+        ],
+        "questionNumbers": [
+          32
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-24",
+          "sourceSubject": "pathology",
+          "sourceFile": "24 27考研：病理 局部血液循环障碍 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "title": "病理 局部血液循环障碍 · 第6页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-24-p06.webp",
+          "description": "基础强化摸底考试第32题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 局部血液循环障碍",
+            "（1）形状取决于血管分布方式：心-地图形心电图、肠-节段形、脾/肾/肺-锥形（ttsx 尖端；（2）质地取决于坏死类型。"
+          ],
+          "questionNumbers": [
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q033",
+      "page": 6,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "33",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第33题 · 病理 肿瘤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肿瘤",
+      "lectureIds": [
+        "foundation-pathology-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "畸胎瘤"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "错构瘤"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "多形性腺瘤"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "精原细胞瘤"
+        }
+      ],
+      "stems": [
+        {
+          "number": 33,
+          "sourceQuestion": 33,
+          "sourcePage": 6,
+          "text": "以下属于恶性肿瘤的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-26",
+          "explanation": "答案为 D（精原细胞瘤）。2022N33 A 以下肿瘤中，不属于恶性肿瘤的是；2023N35 A 下列肿瘤中，不属于恶性的是。",
+          "knowledgeConnections": [
+            "讲义定位：病理 肿瘤",
+            "必会项：D. 精原细胞瘤",
+            "易混对照：A. 畸胎瘤；B. 错构瘤；C. 多形性腺瘤"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 肿瘤",
+        "答案依据：D. 精原细胞瘤",
+        "2022N33 A 以下肿瘤中，不属于恶性肿瘤的是；2023N35 A 下列肿瘤中，不属于恶性的是。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-26",
+        "sourceSubject": "pathology",
+        "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 19,
+        "pageLabel": "PDF第19页",
+        "title": "病理 肿瘤 · 第19页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p19.webp",
+        "description": "基础强化摸底考试第33题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 肿瘤",
+          "2022N33 A 以下肿瘤中，不属于恶性肿瘤的是；2023N35 A 下列肿瘤中，不属于恶性的是。"
+        ],
+        "questionNumbers": [
+          33
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-26",
+          "sourceSubject": "pathology",
+          "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 19,
+          "pageLabel": "PDF第19页",
+          "title": "病理 肿瘤 · 第19页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p19.webp",
+          "description": "基础强化摸底考试第33题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 肿瘤",
+            "2022N33 A 以下肿瘤中，不属于恶性肿瘤的是；2023N35 A 下列肿瘤中，不属于恶性的是。"
+          ],
+          "questionNumbers": [
+            33
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q034",
+      "page": 6,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "34",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第34题 · 病理 肿瘤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肿瘤",
+      "lectureIds": [
+        "foundation-pathology-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "EMA"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "Ki-67"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Syn"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "Keratin"
+        }
+      ],
+      "stems": [
+        {
+          "number": 34,
+          "sourceQuestion": 34,
+          "sourcePage": 6,
+          "text": "能反映肿瘤细胞增殖活性的标记是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-26",
+          "explanation": "答案为 B（Ki-67）。（11）Ki-67（肿瘤细胞增殖活性高）：如 Burkitt 淋巴瘤（Ki-kitt）、绒癌；（1）癌：角蛋白 CK/Keratin、上皮膜抗原 EMA（em CK 贴着皮）。",
+          "knowledgeConnections": [
+            "讲义定位：病理 肿瘤",
+            "必会项：B. Ki-67",
+            "易混对照：A. EMA；C. Syn；D. Keratin"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 肿瘤",
+        "答案依据：B. Ki-67",
+        "（11）Ki-67（肿瘤细胞增殖活性高）：如 Burkitt 淋巴瘤（Ki-kitt）、绒癌；（1）癌：角蛋白 CK/Keratin、上皮膜抗原 EMA（em CK 贴着皮）。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-26",
+        "sourceSubject": "pathology",
+        "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 10,
+        "pageLabel": "PDF第10页",
+        "title": "病理 肿瘤 · 第10页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p10.webp",
+        "description": "基础强化摸底考试第34题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 肿瘤",
+          "（11）Ki-67（肿瘤细胞增殖活性高）：如 Burkitt 淋巴瘤（Ki-kitt）、绒癌；（1）癌：角蛋白 CK/Keratin、上皮膜抗原 EMA（em CK 贴着皮）。"
+        ],
+        "questionNumbers": [
+          34
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-26",
+          "sourceSubject": "pathology",
+          "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 10,
+          "pageLabel": "PDF第10页",
+          "title": "病理 肿瘤 · 第10页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p10.webp",
+          "description": "基础强化摸底考试第34题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 肿瘤",
+            "（11）Ki-67（肿瘤细胞增殖活性高）：如 Burkitt 淋巴瘤（Ki-kitt）、绒癌；（1）癌：角蛋白 CK/Keratin、上皮膜抗原 EMA（em CK 贴着皮）。"
+          ],
+          "questionNumbers": [
+            34
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q035",
+      "page": 6,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "35",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第35题 · 病理 肺炎",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "foundation-pathology-14"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "浆液和红细胞"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "纤维蛋白和红细胞"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "浆液和中性粒细胞"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "纤维蛋白和中性粒细胞"
+        }
+      ],
+      "stems": [
+        {
+          "number": 35,
+          "sourceQuestion": 35,
+          "sourcePage": 6,
+          "text": "在大叶性肺炎的灰色肝样变期，肺泡腔内主要为",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-14",
+          "explanation": "答案为 D（纤维蛋白和中性粒细胞）。①实变：指肺泡内浆液、纤维素、细胞等渗出，肺泡气体消失，病变经肺泡间孔（Cohn；：由于肺泡内渗出的中性粒细胞数量过少或功能缺陷→。",
+          "knowledgeConnections": [
+            "讲义定位：病理 肺炎",
+            "必会项：D. 纤维蛋白和中性粒细胞",
+            "易混对照：A. 浆液和红细胞；B. 纤维蛋白和红细胞；C. 浆液和中性粒细胞"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 肺炎",
+        "答案依据：D. 纤维蛋白和中性粒细胞",
+        "①实变：指肺泡内浆液、纤维素、细胞等渗出，肺泡气体消失，病变经肺泡间孔（Cohn；：由于肺泡内渗出的中性粒细胞数量过少或功能缺陷→。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-14",
+        "sourceSubject": "pathology",
+        "sourceFile": "14 27考研：病理 肺炎 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "病理 肺炎 · 第2页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-14-p02.webp",
+        "description": "基础强化摸底考试第35题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 肺炎",
+          "①实变：指肺泡内浆液、纤维素、细胞等渗出，肺泡气体消失，病变经肺泡间孔（Cohn；：由于肺泡内渗出的中性粒细胞数量过少或功能缺陷→。"
+        ],
+        "questionNumbers": [
+          35
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-14",
+          "sourceSubject": "pathology",
+          "sourceFile": "14 27考研：病理 肺炎 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "病理 肺炎 · 第2页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-14-p02.webp",
+          "description": "基础强化摸底考试第35题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 肺炎",
+            "①实变：指肺泡内浆液、纤维素、细胞等渗出，肺泡气体消失，病变经肺泡间孔（Cohn；：由于肺泡内渗出的中性粒细胞数量过少或功能缺陷→。"
+          ],
+          "questionNumbers": [
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q036",
+      "page": 6,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "36",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第36题 · 病理 风湿病",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "心血管系统",
+      "lectureIds": [
+        "foundation-pathology-07"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "绒毛心"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "McCallum 斑"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Osler 小结"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "小舞蹈病"
+        }
+      ],
+      "stems": [
+        {
+          "number": 36,
+          "sourceQuestion": 36,
+          "sourcePage": 6,
+          "text": "不属于风湿病病理变化的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-07",
+          "explanation": "答案为 C（Osler 小结）。流冲击较重引起心内膜灶状增厚（McCallum 斑），多见于左心房后壁马后炮；①浆液渗出为主→心包积液；纤维素渗出为主→绒毛心。",
+          "knowledgeConnections": [
+            "讲义定位：病理 风湿病",
+            "必会项：C. Osler 小结",
+            "易混对照：A. 绒毛心；B. McCallum 斑；D. 小舞蹈病"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 风湿病",
+        "答案依据：C. Osler 小结",
+        "流冲击较重引起心内膜灶状增厚（McCallum 斑），多见于左心房后壁马后炮；①浆液渗出为主→心包积液；纤维素渗出为主→绒毛心。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-07",
+        "sourceSubject": "pathology",
+        "sourceFile": "07 27考研：病理 风湿病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "病理 风湿病 · 第2页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-07-p02.webp",
+        "description": "基础强化摸底考试第36题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 风湿病",
+          "流冲击较重引起心内膜灶状增厚（McCallum 斑），多见于左心房后壁马后炮；①浆液渗出为主→心包积液；纤维素渗出为主→绒毛心。"
+        ],
+        "questionNumbers": [
+          36
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-07",
+          "sourceSubject": "pathology",
+          "sourceFile": "07 27考研：病理 风湿病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "病理 风湿病 · 第2页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-07-p02.webp",
+          "description": "基础强化摸底考试第36题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 风湿病",
+            "流冲击较重引起心内膜灶状增厚（McCallum 斑），多见于左心房后壁马后炮；①浆液渗出为主→心包积液；纤维素渗出为主→绒毛心。"
+          ],
+          "questionNumbers": [
+            36
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q037",
+      "page": 7,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "37",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第37题 · 病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "foundation-pathology-01"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胃黏膜腺体和纤维组织共同修复"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "表面被覆上皮和纤维组织共同修复"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胃黏膜腺体和表面被覆上皮共同修复"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "炎性肉芽肿填充 修复"
+        }
+      ],
+      "stems": [
+        {
+          "number": 37,
+          "sourceQuestion": 37,
+          "sourcePage": 7,
+          "text": "胃溃疡的愈合过程需要",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-01",
+          "explanation": "答案为 B（表面被覆上皮和纤维组织共同修复）。组织增生形成瘢痕组织修复，同时周围黏膜上皮再生覆盖溃疡面而愈合；③肉芽组织层：大量新生毛细血管和成纤维细胞。",
+          "knowledgeConnections": [
+            "讲义定位：病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病",
+            "必会项：B. 表面被覆上皮和纤维组织共同修复",
+            "易混对照：A. 胃黏膜腺体和纤维组织共同修复；C. 胃黏膜腺体和表面被覆上皮共同修复；D. 炎性肉芽肿填充 修复"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病",
+        "答案依据：B. 表面被覆上皮和纤维组织共同修复",
+        "组织增生形成瘢痕组织修复，同时周围黏膜上皮再生覆盖溃疡面而愈合；③肉芽组织层：大量新生毛细血管和成纤维细胞。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-01",
+        "sourceSubject": "pathology",
+        "sourceFile": "01 27考研：病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病 · 第3页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-01-p03.webp",
+        "description": "基础强化摸底考试第37题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病",
+          "组织增生形成瘢痕组织修复，同时周围黏膜上皮再生覆盖溃疡面而愈合；③肉芽组织层：大量新生毛细血管和成纤维细胞。"
+        ],
+        "questionNumbers": [
+          37
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-01",
+          "sourceSubject": "pathology",
+          "sourceFile": "01 27考研：病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病 · 第3页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-01-p03.webp",
+          "description": "基础强化摸底考试第37题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病",
+            "组织增生形成瘢痕组织修复，同时周围黏膜上皮再生覆盖溃疡面而愈合；③肉芽组织层：大量新生毛细血管和成纤维细胞。"
+          ],
+          "questionNumbers": [
+            37
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q038",
+      "page": 7,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "38",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第38题 · 病理 内分泌系统疾病",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌系统",
+      "lectureIds": [
+        "foundation-pathology-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "甲状腺呈均匀肿大，常有疼痛"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "甲状腺广泛破坏、萎缩，胶质外溢"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "类似结核结节肉芽肿，常见异物巨细胞"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "大量淋巴细胞和不等量嗜酸性粒细胞浸润"
+        }
+      ],
+      "stems": [
+        {
+          "number": 38,
+          "sourceQuestion": 38,
+          "sourcePage": 7,
+          "text": "以下符合 亚急性甲状腺炎的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-16",
+          "explanation": "答案为 C（类似结核结节肉芽肿，常见异物巨细胞）。亚急性甲状腺炎又称肉芽肿性/巨细胞性甲状腺炎，可见滤泡部分破坏、胶质外溢和异物巨细胞构成的结核样肉芽肿。",
+          "knowledgeConnections": [
+            "讲义定位：病理 内分泌系统疾病",
+            "必会项：C. 类似结核结节肉芽肿，常见异物巨细胞",
+            "易混对照：A. 甲状腺呈均匀肿大，常有疼痛；B. 甲状腺广泛破坏、萎缩，胶质外溢；D. 大量淋巴细胞和不等量嗜酸性粒细胞浸润"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 内分泌系统疾病",
+        "答案依据：C. 类似结核结节肉芽肿，常见异物巨细胞",
+        "亚急性甲状腺炎又称肉芽肿性/巨细胞性甲状腺炎，可见滤泡部分破坏、胶质外溢和异物巨细胞构成的结核样肉芽肿。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-16",
+        "sourceSubject": "pathology",
+        "sourceFile": "16 27考研：病理 内分泌系统疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "病理 内分泌系统疾病 · 第3页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-16-p03.webp",
+        "description": "基础强化摸底考试第38题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 内分泌系统疾病",
+          "伴大量淋巴细胞和不等量的嗜酸性粒细胞浸 伴多量中性粒细胞和不等量的嗜酸性粒细；慢性淋巴细胞性/自身免疫性甲状腺炎/桥本 亚急性/肉芽肿性/巨细胞性甲状腺炎。"
+        ],
+        "questionNumbers": [
+          38
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-16",
+          "sourceSubject": "pathology",
+          "sourceFile": "16 27考研：病理 内分泌系统疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "病理 内分泌系统疾病 · 第3页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-16-p03.webp",
+          "description": "基础强化摸底考试第38题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 内分泌系统疾病",
+            "伴大量淋巴细胞和不等量的嗜酸性粒细胞浸 伴多量中性粒细胞和不等量的嗜酸性粒细；慢性淋巴细胞性/自身免疫性甲状腺炎/桥本 亚急性/肉芽肿性/巨细胞性甲状腺炎。"
+          ],
+          "questionNumbers": [
+            38
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q039",
+      "page": 7,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "39",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第39题 · 病理 乳腺疾病",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "乳腺疾病",
+      "lectureIds": [
+        "foundation-pathology-19"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "浸润性导管癌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "浸润性小叶癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "黏液腺癌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "实性乳头状癌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 39,
+          "sourceQuestion": 39,
+          "sourcePage": 7,
+          "text": "常转移至脑脊液的乳腺癌类型是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-19",
+          "explanation": "答案为 B（浸润性小叶癌）。浸润性小叶癌细胞常呈单行串珠样或靶环样排列，常转移至脑脊液、浆膜、卵巢、子宫和骨髓。",
+          "knowledgeConnections": [
+            "讲义定位：病理 乳腺疾病",
+            "必会项：B. 浸润性小叶癌",
+            "易混对照：A. 浸润性导管癌；C. 黏液腺癌；D. 实性乳头状癌"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 乳腺疾病",
+        "答案依据：B. 浸润性小叶癌",
+        "浸润性小叶癌细胞常呈单行串珠样或靶环样排列，常转移至脑脊液、浆膜、卵巢、子宫和骨髓。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-19",
+        "sourceSubject": "pathology",
+        "sourceFile": "19 27考研：病理 乳腺疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "病理 乳腺疾病 · 第2页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-19-p02.webp",
+        "description": "基础强化摸底考试第39题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 乳腺疾病",
+          "乳头分泌黏液 实性乳头状癌；②浸润性小叶癌：由小叶原位癌穿透基膜向间质浸润所致。癌细胞大小一致、核分裂象少。"
+        ],
+        "questionNumbers": [
+          39
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-19",
+          "sourceSubject": "pathology",
+          "sourceFile": "19 27考研：病理 乳腺疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "病理 乳腺疾病 · 第2页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-19-p02.webp",
+          "description": "基础强化摸底考试第39题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 乳腺疾病",
+            "乳头分泌黏液 实性乳头状癌；②浸润性小叶癌：由小叶原位癌穿透基膜向间质浸润所致。癌细胞大小一致、核分裂象少。"
+          ],
+          "questionNumbers": [
+            39
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q040",
+      "page": 7,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "40",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第40题 · 病理 其它传染病",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "传染病",
+      "lectureIds": [
+        "foundation-pathology-21"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "仅见于第三期梅毒"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "朗汉斯巨细胞较少见"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "必有闭塞性动脉内膜炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "常见原有血管壁轮廓和钙化"
+        }
+      ],
+      "stems": [
+        {
+          "number": 40,
+          "sourceQuestion": 40,
+          "sourcePage": 7,
+          "text": "以下关于梅毒特征病变树胶样肿的叙述，错误的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-21",
+          "explanation": "答案为 D（常见原有血管壁轮廓和钙化）。而类上皮细胞和朗汉斯巨细胞少见，绝少钙化，伴凝固性坏死（可见原有血管壁轮廓）；1.基本病变：闭塞性动脉内膜炎、小血管周围炎、肉芽肿（特征）周围塞车肿么办。",
+          "knowledgeConnections": [
+            "讲义定位：病理 其它传染病",
+            "必会项：D. 常见原有血管壁轮廓和钙化",
+            "易混对照：A. 仅见于第三期梅毒；B. 朗汉斯巨细胞较少见；C. 必有闭塞性动脉内膜炎"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 其它传染病",
+        "答案依据：D. 常见原有血管壁轮廓和钙化",
+        "而类上皮细胞和朗汉斯巨细胞少见，绝少钙化，伴凝固性坏死（可见原有血管壁轮廓）；1.基本病变：闭塞性动脉内膜炎、小血管周围炎、肉芽肿（特征）周围塞车肿么办。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-21",
+        "sourceSubject": "pathology",
+        "sourceFile": "21 27考研：病理 其它传染病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "病理 其它传染病 · 第4页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-21-p04.webp",
+        "description": "基础强化摸底考试第40题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 其它传染病",
+          "而类上皮细胞和朗汉斯巨细胞少见，绝少钙化，伴凝固性坏死（可见原有血管壁轮廓）；1.基本病变：闭塞性动脉内膜炎、小血管周围炎、肉芽肿（特征）周围塞车肿么办。"
+        ],
+        "questionNumbers": [
+          40
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-21",
+          "sourceSubject": "pathology",
+          "sourceFile": "21 27考研：病理 其它传染病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "病理 其它传染病 · 第4页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-21-p04.webp",
+          "description": "基础强化摸底考试第40题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 其它传染病",
+            "而类上皮细胞和朗汉斯巨细胞少见，绝少钙化，伴凝固性坏死（可见原有血管壁轮廓）；1.基本病变：闭塞性动脉内膜炎、小血管周围炎、肉芽肿（特征）周围塞车肿么办。"
+          ],
+          "questionNumbers": [
+            40
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q124",
+      "page": 21,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "124",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第124题 · 病理 肿瘤",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "肿瘤",
+      "lectureIds": [
+        "foundation-pathology-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "鼻咽癌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "淋巴管瘤"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "甲状腺滤泡癌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "卵巢粒层细胞瘤"
+        }
+      ],
+      "stems": [
+        {
+          "number": 124,
+          "sourceQuestion": 124,
+          "sourcePage": 21,
+          "text": "呈浸润性生长，不发生淋巴转移的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-26",
+          "explanation": "答案为 B（淋巴管瘤）。淋巴管瘤属良性脉管肿瘤，可呈局部浸润性生长、易复发，但不发生转移。",
+          "knowledgeConnections": [
+            "讲义定位：病理 肿瘤",
+            "必会项：B. 淋巴管瘤",
+            "易混对照：A. 鼻咽癌；C. 甲状腺滤泡癌；D. 卵巢粒层细胞瘤"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 肿瘤",
+        "答案依据：B. 淋巴管瘤",
+        "淋巴管瘤属良性脉管肿瘤，可呈局部浸润性生长、易复发，但不发生转移。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-26",
+        "sourceSubject": "pathology",
+        "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "病理 肿瘤 · 第4页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p04.webp",
+        "description": "基础强化摸底考试第124题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 肿瘤",
+          "皮肤基底细胞癌、卵巢粒层细胞瘤 √ 很少基粒来不及转移；1.交界性肿瘤：组织形态、生物学行为介于良恶性之间，呈浸润性生长（易局部复发）、多。"
+        ],
+        "questionNumbers": [
+          124
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-26",
+          "sourceSubject": "pathology",
+          "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "病理 肿瘤 · 第4页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p04.webp",
+          "description": "基础强化摸底考试第124题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 肿瘤",
+            "皮肤基底细胞癌、卵巢粒层细胞瘤 √ 很少基粒来不及转移；1.交界性肿瘤：组织形态、生物学行为介于良恶性之间，呈浸润性生长（易局部复发）、多。"
+          ],
+          "questionNumbers": [
+            124
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q125",
+      "page": 21,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "125",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第125题 · 病理 肿瘤",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "肿瘤",
+      "lectureIds": [
+        "foundation-pathology-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "鼻咽癌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "淋巴管瘤"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "甲状腺滤泡癌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "卵巢粒层细胞瘤"
+        }
+      ],
+      "stems": [
+        {
+          "number": 125,
+          "sourceQuestion": 125,
+          "sourcePage": 21,
+          "text": "呈浸润性生长，常发生淋巴转移的是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-26",
+          "explanation": "答案为 A（鼻咽癌）。鼻咽癌是恶性上皮性肿瘤，呈浸润性生长，并常早期经淋巴道转移至颈部淋巴结。",
+          "knowledgeConnections": [
+            "讲义定位：病理 肿瘤",
+            "必会项：A. 鼻咽癌",
+            "易混对照：B. 淋巴管瘤；C. 甲状腺滤泡癌；D. 卵巢粒层细胞瘤"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 肿瘤",
+        "答案依据：A. 鼻咽癌",
+        "鼻咽癌是恶性上皮性肿瘤，呈浸润性生长，并常早期经淋巴道转移至颈部淋巴结。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-26",
+        "sourceSubject": "pathology",
+        "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "病理 肿瘤 · 第4页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p04.webp",
+        "description": "基础强化摸底考试第125题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 肿瘤",
+          "皮肤基底细胞癌、卵巢粒层细胞瘤 √ 很少基粒来不及转移；1.交界性肿瘤：组织形态、生物学行为介于良恶性之间，呈浸润性生长（易局部复发）、多。"
+        ],
+        "questionNumbers": [
+          125
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-26",
+          "sourceSubject": "pathology",
+          "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "病理 肿瘤 · 第4页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p04.webp",
+          "description": "基础强化摸底考试第125题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 肿瘤",
+            "皮肤基底细胞癌、卵巢粒层细胞瘤 √ 很少基粒来不及转移；1.交界性肿瘤：组织形态、生物学行为介于良恶性之间，呈浸润性生长（易局部复发）、多。"
+          ],
+          "questionNumbers": [
+            125
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q126",
+      "page": 21,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "126",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第126题 · 病理 肿瘤",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "肿瘤",
+      "lectureIds": [
+        "foundation-pathology-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "结节性淋巴细胞为主型"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "结节硬化型"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "混合细胞型"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "淋巴细胞减少型"
+        }
+      ],
+      "stems": [
+        {
+          "number": 126,
+          "sourceQuestion": 126,
+          "sourcePage": 21,
+          "text": "上述霍奇金淋巴瘤中镜影细胞最常见于",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-26",
+          "explanation": "答案为 C（混合细胞型）。混合细胞型经典型霍奇金淋巴瘤中，典型 RS 细胞（双核镜影细胞）与多种炎细胞混合存在。",
+          "knowledgeConnections": [
+            "讲义定位：病理 肿瘤",
+            "必会项：C. 混合细胞型",
+            "易混对照：A. 结节性淋巴细胞为主型；B. 结节硬化型；D. 淋巴细胞减少型"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 肿瘤",
+        "答案依据：C. 混合细胞型",
+        "混合细胞型经典型霍奇金淋巴瘤中，典型 RS 细胞（双核镜影细胞）与多种炎细胞混合存在。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-26",
+        "sourceSubject": "pathology",
+        "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 19,
+        "pageLabel": "PDF第19页",
+        "title": "病理 肿瘤 · 第19页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p19.webp",
+        "description": "基础强化摸底考试第126题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 肿瘤",
+          "A.Burkitt 淋巴瘤；2022N33 A 以下肿瘤中，不属于恶性肿瘤的是。"
+        ],
+        "questionNumbers": [
+          126
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-26",
+          "sourceSubject": "pathology",
+          "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 19,
+          "pageLabel": "PDF第19页",
+          "title": "病理 肿瘤 · 第19页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p19.webp",
+          "description": "基础强化摸底考试第126题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 肿瘤",
+            "A.Burkitt 淋巴瘤；2022N33 A 以下肿瘤中，不属于恶性肿瘤的是。"
+          ],
+          "questionNumbers": [
+            126
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q127",
+      "page": 21,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "127",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第127题 · 病理 肿瘤",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "肿瘤",
+      "lectureIds": [
+        "foundation-pathology-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "结节性淋巴细胞为主型"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "结节硬化型"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "混合细胞型"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "淋巴细胞减少型"
+        }
+      ],
+      "stems": [
+        {
+          "number": 127,
+          "sourceQuestion": 127,
+          "sourcePage": 21,
+          "text": "上述霍奇金淋巴瘤中 EBV 感染最常见于",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-26",
+          "explanation": "答案为 D（淋巴细胞减少型）。经典型霍奇金淋巴瘤中，淋巴细胞减少型的 EBV 感染率最高，可接近 100%，且常与 HIV 感染相关。",
+          "knowledgeConnections": [
+            "讲义定位：病理 肿瘤",
+            "必会项：D. 淋巴细胞减少型",
+            "易混对照：A. 结节性淋巴细胞为主型；B. 结节硬化型；C. 混合细胞型"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 肿瘤",
+        "答案依据：D. 淋巴细胞减少型",
+        "经典型霍奇金淋巴瘤中，淋巴细胞减少型的 EBV 感染率最高，可接近 100%，且常与 HIV 感染相关。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-26",
+        "sourceSubject": "pathology",
+        "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 19,
+        "pageLabel": "PDF第19页",
+        "title": "病理 肿瘤 · 第19页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p19.webp",
+        "description": "基础强化摸底考试第127题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 肿瘤",
+          "A.Burkitt 淋巴瘤；2025N149 X 与 Epstein-Barr 病毒感染密切相关的疾病有。"
+        ],
+        "questionNumbers": [
+          127
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-26",
+          "sourceSubject": "pathology",
+          "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 19,
+          "pageLabel": "PDF第19页",
+          "title": "病理 肿瘤 · 第19页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p19.webp",
+          "description": "基础强化摸底考试第127题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 肿瘤",
+            "A.Burkitt 淋巴瘤；2025N149 X 与 Epstein-Barr 病毒感染密切相关的疾病有。"
+          ],
+          "questionNumbers": [
+            127
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q148",
+      "page": 24,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "148",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第148题 · 病理 适应和损伤",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "适应与损伤",
+      "lectureIds": [
+        "foundation-pathology-23"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "Barrett 食管"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "慢性宫颈炎形成的子宫颈糜烂"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肝胆结石时发生的化生"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胃黏膜上皮转变为肠黏膜上皮"
+        }
+      ],
+      "stems": [
+        {
+          "number": 148,
+          "sourceQuestion": 148,
+          "sourcePage": 24,
+          "text": "下列属于 柱状上皮化生的有",
+          "answerRaw": "AD",
+          "answer": [
+            "A",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-23",
+          "explanation": "答案为 AD（Barrett 食管；胃黏膜上皮转变为肠黏膜上皮）。，Barrett 食管和；食管腺癌（胃食管反流病致食管下段鳞状上皮化生为柱状上皮、需定期接受胃镜复查）。",
+          "knowledgeConnections": [
+            "讲义定位：病理 适应和损伤",
+            "必会项：AD. Barrett 食管；胃黏膜上皮转变为肠黏膜上皮",
+            "易混对照：B. 慢性宫颈炎形成的子宫颈糜烂；C. 肝胆结石时发生的化生"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 适应和损伤",
+        "答案依据：AD. Barrett 食管；胃黏膜上皮转变为肠黏膜上皮",
+        "，Barrett 食管和；食管腺癌（胃食管反流病致食管下段鳞状上皮化生为柱状上皮、需定期接受胃镜复查）。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-23",
+        "sourceSubject": "pathology",
+        "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "病理 适应和损伤 · 第5页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-23-p05.webp",
+        "description": "基础强化摸底考试第148题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 适应和损伤",
+          "，Barrett 食管和；食管腺癌（胃食管反流病致食管下段鳞状上皮化生为柱状上皮、需定期接受胃镜复查）。"
+        ],
+        "questionNumbers": [
+          148
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-23",
+          "sourceSubject": "pathology",
+          "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "病理 适应和损伤 · 第5页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-23-p05.webp",
+          "description": "基础强化摸底考试第148题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 适应和损伤",
+            "，Barrett 食管和；食管腺癌（胃食管反流病致食管下段鳞状上皮化生为柱状上皮、需定期接受胃镜复查）。"
+          ],
+          "questionNumbers": [
+            148
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q149",
+      "page": 25,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "149",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第149题 · 病理 适应和损伤",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "适应与损伤",
+      "lectureIds": [
+        "foundation-pathology-23"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "子宫内膜异位症患者卵巢的巧克力囊肿"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胆汁性肝硬化患者羽毛状变性的肝细胞"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "蛋白尿患者肾近端小管细胞的玻璃样小体"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "营养耗竭性患者 萎缩的心肌细胞"
+        }
+      ],
+      "stems": [
+        {
+          "number": 149,
+          "sourceQuestion": 149,
+          "sourcePage": 25,
+          "text": "与 溶酶体关系密切的病变包括",
+          "answerRaw": "ACD",
+          "answer": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-23",
+          "explanation": "答案为 ACD（子宫内膜异位症患者卵巢的巧克力囊肿；蛋白尿患者肾近端小管细胞的玻璃样小体；营养耗竭性患者 萎缩的心肌细胞）。含铁血黄素、近端小管玻璃样小滴和脂褐素均与溶酶体消化/自噬有关；胆汁性肝硬化羽毛状变是胆色素/胆盐淤积损伤。",
+          "knowledgeConnections": [
+            "讲义定位：病理 适应和损伤",
+            "必会项：ACD. 子宫内膜异位症患者卵巢的巧克力囊肿；蛋白尿患者肾近端小管细胞的玻璃样小体；营养耗竭性患者 萎缩的心肌细胞",
+            "易混对照：B. 胆汁性肝硬化患者羽毛状变性的肝细胞"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 适应和损伤",
+        "答案依据：ACD. 子宫内膜异位症患者卵巢的巧克力囊肿；蛋白尿患者肾近端小管细胞的玻璃样小体；营养耗竭性患者 萎缩的心肌细胞",
+        "含铁血黄素、近端小管玻璃样小滴和脂褐素均与溶酶体消化/自噬有关；胆汁性肝硬化羽毛状变是胆色素/胆盐淤积损伤。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-23",
+        "sourceSubject": "pathology",
+        "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "pageLabel": "PDF第8页",
+        "title": "病理 适应和损伤 · 第8页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-23-p08.webp",
+        "description": "基础强化摸底考试第149题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 适应和损伤",
+          "大叶性肺炎的铁锈色痰、陈旧性出血（如子宫内膜异位症致卵巢巧克力囊肿）；④胆色素：胆汁性肝硬化（肝细胞羽毛状/网状变性）毛蛋。"
+        ],
+        "questionNumbers": [
+          149
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-23",
+          "sourceSubject": "pathology",
+          "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "title": "病理 适应和损伤 · 第8页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-23-p08.webp",
+          "description": "基础强化摸底考试第149题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 适应和损伤",
+            "大叶性肺炎的铁锈色痰、陈旧性出血（如子宫内膜异位症致卵巢巧克力囊肿）；④胆色素：胆汁性肝硬化（肝细胞羽毛状/网状变性）毛蛋。"
+          ],
+          "questionNumbers": [
+            149
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q150",
+      "page": 25,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "150",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第150题 · 病理 炎症",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "炎症",
+      "lectureIds": [
+        "foundation-pathology-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "扩张血管"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "趋化作用"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "引起发热"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "引起疼痛"
+        }
+      ],
+      "stems": [
+        {
+          "number": 150,
+          "sourceQuestion": 150,
+          "sourcePage": 25,
+          "text": "前列腺素在炎症的发生发展中 主要参与",
+          "answerRaw": "ACD",
+          "answer": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-25",
+          "explanation": "答案为 ACD（扩张血管；引起发热；引起疼痛）。2015N43 A 严重烧伤时，导致血管通透性增加的主要机制是；2016N45 A 能引起绒毛心的原发疾病是。",
+          "knowledgeConnections": [
+            "讲义定位：病理 炎症",
+            "必会项：ACD. 扩张血管；引起发热；引起疼痛",
+            "易混对照：B. 趋化作用"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 炎症",
+        "答案依据：ACD. 扩张血管；引起发热；引起疼痛",
+        "2015N43 A 严重烧伤时，导致血管通透性增加的主要机制是；2016N45 A 能引起绒毛心的原发疾病是。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-25",
+        "sourceSubject": "pathology",
+        "sourceFile": "25 27考研：病理 炎症 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 9,
+        "pageLabel": "PDF第9页",
+        "title": "病理 炎症 · 第9页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-25-p09.webp",
+        "description": "基础强化摸底考试第150题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 炎症",
+          "2015N43 A 严重烧伤时，导致血管通透性增加的主要机制是；2016N45 A 能引起绒毛心的原发疾病是。"
+        ],
+        "questionNumbers": [
+          150
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-25",
+          "sourceSubject": "pathology",
+          "sourceFile": "25 27考研：病理 炎症 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 9,
+          "pageLabel": "PDF第9页",
+          "title": "病理 炎症 · 第9页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-25-p09.webp",
+          "description": "基础强化摸底考试第150题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 炎症",
+            "2015N43 A 严重烧伤时，导致血管通透性增加的主要机制是；2016N45 A 能引起绒毛心的原发疾病是。"
+          ],
+          "questionNumbers": [
+            150
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q151",
+      "page": 25,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "151",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第151题 · 病理 肝硬化",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "foundation-pathology-03"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "结节直径一般在 3mm 以下，纤维间隔较细"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "假小叶大小相仿，其内肝细胞排列紊乱"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "假小叶内的中央静脉缺如、偏位、两个以上"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "再生的肝细胞体积大，有双核、核大、深染"
+        }
+      ],
+      "stems": [
+        {
+          "number": 151,
+          "sourceQuestion": 151,
+          "sourcePage": 25,
+          "text": "下列 符合小结节性肝硬化特点描述的是",
+          "answerRaw": "ACD",
+          "answer": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-03",
+          "explanation": "答案为 ACD（结节直径一般在 3mm 以下，纤维间隔较细；假小叶内的中央静脉缺如、偏位、两个以上；再生的肝细胞体积大，有双核、核大、深染）。小结节性肝硬化的结节通常不超过 3 mm，纤维间隔较细；假小叶中央静脉可缺如、偏位或出现两个以上，再生肝细胞可体积增大、双核、核大深染。",
+          "knowledgeConnections": [
+            "讲义定位：病理 肝硬化",
+            "必会项：ACD. 结节直径一般在 3mm 以下，纤维间隔较细；假小叶内的中央静脉缺如、偏位、两个以上；再生的肝细胞体积大，有双核、核大、深染",
+            "易混对照：B. 假小叶大小相仿，其内肝细胞排列紊乱"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 肝硬化",
+        "答案依据：ACD. 结节直径一般在 3mm 以下，纤维间隔较细；假小叶内的中央静脉缺如、偏位、两个以上；再生的肝细胞体积大，有双核、核大、深染",
+        "小结节性肝硬化的结节通常不超过 3 mm，纤维间隔较细；假小叶中央静脉可缺如、偏位或出现两个以上，再生肝细胞可体积增大、双核、核大深染。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-03",
+        "sourceSubject": "pathology",
+        "sourceFile": "03 27考研：病理 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "病理 肝硬化 · 第2页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-03-p02.webp",
+        "description": "基础强化摸底考试第151题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 肝硬化",
+          "④肝细胞索排列紊乱，肝细胞变性坏死、结节状再生（体积大、核大深染、有时见双核，；②中央静脉常缺如、偏位、或两个以上。"
+        ],
+        "questionNumbers": [
+          151
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-03",
+          "sourceSubject": "pathology",
+          "sourceFile": "03 27考研：病理 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "病理 肝硬化 · 第2页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-03-p02.webp",
+          "description": "基础强化摸底考试第151题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 肝硬化",
+            "④肝细胞索排列紊乱，肝细胞变性坏死、结节状再生（体积大、核大深染、有时见双核，；②中央静脉常缺如、偏位、或两个以上。"
+          ],
+          "questionNumbers": [
+            151
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q152",
+      "page": 25,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "152",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第152题 · 病理 结核",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "结核",
+      "lectureIds": [
+        "foundation-pathology-20"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "淋巴细胞几乎消失"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "见大量分枝杆菌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "明显的结核结节"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "残留少许浆细胞"
+        }
+      ],
+      "stems": [
+        {
+          "number": 152,
+          "sourceQuestion": 152,
+          "sourcePage": 25,
+          "text": "符合 HIV 合并肺结核者的晚期淋巴组织病理变化是",
+          "answerRaw": "ABD",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-pathology-20",
+          "explanation": "答案为 ABD（淋巴细胞几乎消失；见大量分枝杆菌；残留少许浆细胞）。三、结核的病理特征是慢性干酪性肉芽肿（结核结节）；（1）构成结核结节的细胞（凌晨累死）。",
+          "knowledgeConnections": [
+            "讲义定位：病理 结核",
+            "必会项：ABD. 淋巴细胞几乎消失；见大量分枝杆菌；残留少许浆细胞",
+            "易混对照：C. 明显的结核结节"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 结核",
+        "答案依据：ABD. 淋巴细胞几乎消失；见大量分枝杆菌；残留少许浆细胞",
+        "三、结核的病理特征是慢性干酪性肉芽肿（结核结节）；（1）构成结核结节的细胞（凌晨累死）。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-pathology-20",
+        "sourceSubject": "pathology",
+        "sourceFile": "20 27考研：病理 结核 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "病理 结核 · 第1页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-20-p01.webp",
+        "description": "基础强化摸底考试第152题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 结核",
+          "三、结核的病理特征是慢性干酪性肉芽肿（结核结节）；（1）构成结核结节的细胞（凌晨累死）。"
+        ],
+        "questionNumbers": [
+          152
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-pathology-20",
+          "sourceSubject": "pathology",
+          "sourceFile": "20 27考研：病理 结核 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "病理 结核 · 第1页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-20-p01.webp",
+          "description": "基础强化摸底考试第152题对应讲义原页。",
+          "knowledgePoints": [
+            "病理 结核",
+            "三、结核的病理特征是慢性干酪性肉芽肿（结核结节）；（1）构成结核结节的细胞（凌晨累死）。"
+          ],
+          "questionNumbers": [
+            152
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pathology-foundation-mock-exam-20260907-q153",
+      "page": 25,
+      "sourceKey": "pathology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "病理",
+      "sourceQuestion": "153",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第153题 · 内科 尿路感染",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "foundation-med-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "不规则瘢痕"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肾小管“甲状腺化”"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "颗粒性固缩肾"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "细小动脉壁玻璃样变性"
+        }
+      ],
+      "stems": [
+        {
+          "number": 153,
+          "sourceQuestion": 153,
+          "sourcePage": 25,
+          "text": "慢性肾盂肾炎可出现的病变有",
+          "answerRaw": "ABD",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-med-25",
+          "explanation": "答案为 ABD（不规则瘢痕；肾小管“甲状腺化”；细小动脉壁玻璃样变性）。4.静脉肾盂/尿路造影 IVP/IVU（慢性肾盂肾炎的金标准）；可能可能最可能 急性膀胱炎 急性肾盂肾炎。",
+          "knowledgeConnections": [
+            "讲义定位：内科 尿路感染",
+            "必会项：ABD. 不规则瘢痕；肾小管“甲状腺化”；细小动脉壁玻璃样变性",
+            "易混对照：C. 颗粒性固缩肾"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：内科 尿路感染",
+        "答案依据：ABD. 不规则瘢痕；肾小管“甲状腺化”；细小动脉壁玻璃样变性",
+        "4.静脉肾盂/尿路造影 IVP/IVU（慢性肾盂肾炎的金标准）；可能可能最可能 急性膀胱炎 急性肾盂肾炎。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-med-25",
+        "sourceSubject": "med",
+        "sourceFile": "25 27考研：内科 尿路感染 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "内科 尿路感染 · 第2页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-med-25-p02.webp",
+        "description": "基础强化摸底考试第153题对应讲义原页。",
+        "knowledgePoints": [
+          "内科 尿路感染",
+          "4.静脉肾盂/尿路造影 IVP/IVU（慢性肾盂肾炎的金标准）；可能可能最可能 急性膀胱炎 急性肾盂肾炎。"
+        ],
+        "questionNumbers": [
+          153
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-med-25",
+          "sourceSubject": "med",
+          "sourceFile": "25 27考研：内科 尿路感染 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "内科 尿路感染 · 第2页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-med-25-p02.webp",
+          "description": "基础强化摸底考试第153题对应讲义原页。",
+          "knowledgePoints": [
+            "内科 尿路感染",
+            "4.静脉肾盂/尿路造影 IVP/IVU（慢性肾盂肾炎的金标准）；可能可能最可能 急性膀胱炎 急性肾盂肾炎。"
+          ],
+          "questionNumbers": [
+            153
+          ]
+        }
+      ]
+    }
+  ],
+  "pages": [],
+  "lectures": [
+    {
+      "id": "foundation-pathology-23",
+      "number": 23,
+      "title": "病理 适应和损伤",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-pathology-22",
+      "number": 22,
+      "title": "病理 损伤的修复",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-pathology-24",
+      "number": 24,
+      "title": "病理 局部血液循环障碍",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-pathology-26",
+      "number": 26,
+      "title": "病理 肿瘤",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-pathology-14",
+      "number": 14,
+      "title": "病理 肺炎",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-pathology-07",
+      "number": 7,
+      "title": "病理 风湿病",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-pathology-01",
+      "number": 1,
+      "title": "病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-pathology-16",
+      "number": 16,
+      "title": "病理 内分泌系统疾病",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-pathology-19",
+      "number": 19,
+      "title": "病理 乳腺疾病",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-pathology-21",
+      "number": 21,
+      "title": "病理 其它传染病",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-pathology-25",
+      "number": 25,
+      "title": "病理 炎症",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-pathology-03",
+      "number": 3,
+      "title": "病理 肝硬化",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-pathology-20",
+      "number": 20,
+      "title": "病理 结核",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-med-25",
+      "number": 25,
+      "title": "内科 尿路感染",
+      "pageCount": 1
+    }
+  ],
+  "topics": [
+    "适应与损伤",
+    "损伤与修复",
+    "局部血液循环障碍",
+    "肿瘤",
+    "呼吸系统",
+    "心血管系统",
+    "消化系统",
+    "内分泌系统",
+    "乳腺疾病",
+    "传染病",
+    "炎症",
+    "结核",
+    "泌尿系统"
+  ]
+}

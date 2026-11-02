@@ -1,0 +1,2918 @@
+{
+  "meta": {
+    "title": "基础强化摸底考试·生理",
+    "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+    "sourcePages": 28,
+    "answerNote": "答案依据用户提供的答案图；每题附解析、讲义要点和对应讲义原页。",
+    "groupCount": 26,
+    "stemCount": 26,
+    "lectureCount": 20
+  },
+  "groups": [
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q001",
+      "page": 1,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "1",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第1题 · 生理 骨骼肌收缩",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "foundation-physiology-04"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "促使 Ca2+进入运动神经末梢"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "减少细胞外液的 Mg2+浓度"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "抑制胆碱酯酶的活性"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "阻断终板膜非选择性通道"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "sourceQuestion": 1,
+          "sourcePage": 1,
+          "text": "下列选项中可使 骨骼肌松弛的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-04",
+          "explanation": "答案为 D（阻断终板膜非选择性通道）。通道是非选择性阳离子通道：它对 Na+、K+、Ca2+都有通透性，而对 Cl-无通透性不挑剔阳；2.运动神经-骨骼肌接头的电-化学-电传递过程。",
+          "knowledgeConnections": [
+            "讲义定位：生理 骨骼肌收缩",
+            "必会项：D. 阻断终板膜非选择性通道",
+            "易混对照：A. 促使 Ca2+进入运动神经末梢；B. 减少细胞外液的 Mg2+浓度；C. 抑制胆碱酯酶的活性"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 骨骼肌收缩",
+        "答案依据：D. 阻断终板膜非选择性通道",
+        "通道是非选择性阳离子通道：它对 Na+、K+、Ca2+都有通透性，而对 Cl-无通透性不挑剔阳；2.运动神经-骨骼肌接头的电-化学-电传递过程。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-04",
+        "sourceSubject": "physiology",
+        "sourceFile": "4 27考研：生理 骨骼肌收缩 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "生理 骨骼肌收缩 · 第2页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-04-p02.webp",
+        "description": "基础强化摸底考试第1题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 骨骼肌收缩",
+          "通道是非选择性阳离子通道：它对 Na+、K+、Ca2+都有通透性，而对 Cl-无通透性不挑剔阳；2.运动神经-骨骼肌接头的电-化学-电传递过程。"
+        ],
+        "questionNumbers": [
+          1
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-04",
+          "sourceSubject": "physiology",
+          "sourceFile": "4 27考研：生理 骨骼肌收缩 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "生理 骨骼肌收缩 · 第2页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-04-p02.webp",
+          "description": "基础强化摸底考试第1题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 骨骼肌收缩",
+            "通道是非选择性阳离子通道：它对 Na+、K+、Ca2+都有通透性，而对 Cl-无通透性不挑剔阳；2.运动神经-骨骼肌接头的电-化学-电传递过程。"
+          ],
+          "questionNumbers": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q002",
+      "page": 1,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "2",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第2题 · 生理 生理性止血",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "foundation-physiology-08"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "试管中加入草酸钾"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "试管中加入肝素"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "将试管置于温水中"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "将试管壁涂上 石蜡油"
+        }
+      ],
+      "stems": [
+        {
+          "number": 2,
+          "sourceQuestion": 2,
+          "sourcePage": 1,
+          "text": "能延缓试管中血液凝固的方法不包括",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-08",
+          "explanation": "答案为 C（将试管置于温水中）。血液凝固的本质是——1→1a→n1a（纤维蛋白原的激活并交织成网）；1 纤维蛋白原 血液凝固的本质是纤维蛋白原→纤维蛋白并交织成网。",
+          "knowledgeConnections": [
+            "讲义定位：生理 生理性止血",
+            "必会项：C. 将试管置于温水中",
+            "易混对照：A. 试管中加入草酸钾；B. 试管中加入肝素；D. 将试管壁涂上 石蜡油"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 生理性止血",
+        "答案依据：C. 将试管置于温水中",
+        "血液凝固的本质是——1→1a→n1a（纤维蛋白原的激活并交织成网）；1 纤维蛋白原 血液凝固的本质是纤维蛋白原→纤维蛋白并交织成网。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-08",
+        "sourceSubject": "physiology",
+        "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "生理 生理性止血 · 第3页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-08-p03.webp",
+        "description": "基础强化摸底考试第2题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 生理性止血",
+          "血液凝固的本质是——1→1a→n1a（纤维蛋白原的激活并交织成网）；1 纤维蛋白原 血液凝固的本质是纤维蛋白原→纤维蛋白并交织成网。"
+        ],
+        "questionNumbers": [
+          2
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-08",
+          "sourceSubject": "physiology",
+          "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "生理 生理性止血 · 第3页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-08-p03.webp",
+          "description": "基础强化摸底考试第2题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 生理性止血",
+            "血液凝固的本质是——1→1a→n1a（纤维蛋白原的激活并交织成网）；1 纤维蛋白原 血液凝固的本质是纤维蛋白原→纤维蛋白并交织成网。"
+          ],
+          "questionNumbers": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q003",
+      "page": 1,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "3",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第3题 · 生理 心肌电活动和特性",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环系统",
+      "lectureIds": [
+        "foundation-physiology-12"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "静息电位水平"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "阈电位 水平"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Na+通道状态"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "细胞外 Na+浓度"
+        }
+      ],
+      "stems": [
+        {
+          "number": 3,
+          "sourceQuestion": 3,
+          "sourcePage": 1,
+          "text": "影响心室肌细胞 0 期去极化的速度和幅度的因素不包括",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-12",
+          "explanation": "答案为 B（阈电位 水平）。Na+或 Ca2+↑ →0 期去极化速度和幅度↑；②维拉帕米阻断 ICa-L→抑制慢反应细胞如房室结 0 期 ICa-L→0 期去极化速度和幅度↓→传。",
+          "knowledgeConnections": [
+            "讲义定位：生理 心肌电活动和特性",
+            "必会项：B. 阈电位 水平",
+            "易混对照：A. 静息电位水平；C. Na+通道状态；D. 细胞外 Na+浓度"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 心肌电活动和特性",
+        "答案依据：B. 阈电位 水平",
+        "Na+或 Ca2+↑ →0 期去极化速度和幅度↑；②维拉帕米阻断 ICa-L→抑制慢反应细胞如房室结 0 期 ICa-L→0 期去极化速度和幅度↓→传。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-12",
+        "sourceSubject": "physiology",
+        "sourceFile": "12 27考研：生理 心肌电活动和特性 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "pageLabel": "PDF第8页",
+        "title": "生理 心肌电活动和特性 · 第8页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-12-p08.webp",
+        "description": "基础强化摸底考试第3题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 心肌电活动和特性",
+          "Na+或 Ca2+↑ →0 期去极化速度和幅度↑；②维拉帕米阻断 ICa-L→抑制慢反应细胞如房室结 0 期 ICa-L→0 期去极化速度和幅度↓→传。"
+        ],
+        "questionNumbers": [
+          3
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-12",
+          "sourceSubject": "physiology",
+          "sourceFile": "12 27考研：生理 心肌电活动和特性 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "title": "生理 心肌电活动和特性 · 第8页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-12-p08.webp",
+          "description": "基础强化摸底考试第3题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 心肌电活动和特性",
+            "Na+或 Ca2+↑ →0 期去极化速度和幅度↑；②维拉帕米阻断 ICa-L→抑制慢反应细胞如房室结 0 期 ICa-L→0 期去极化速度和幅度↓→传。"
+          ],
+          "questionNumbers": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q004",
+      "page": 1,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "4",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第4题 · 生理 心血管调节",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环系统",
+      "lectureIds": [
+        "foundation-physiology-13"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "通过颈动脉窦压力感受器引起交感神经活动增加"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "中心静脉压增高"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "血管升压素分泌减少"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "下肢静脉跨壁压降低"
+        }
+      ],
+      "stems": [
+        {
+          "number": 4,
+          "sourceQuestion": 4,
+          "sourcePage": 1,
+          "text": "人体从卧位转变为立位时",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-13",
+          "explanation": "答案为 A（通过颈动脉窦压力感受器引起交感神经活动增加）。感受器 颈动脉窦 颈动脉体 心房、心室 心室；内皮素 ET、大剂量血管升压素 VP、血管紧张素 AngⅡ→肾素↓（EVA）。",
+          "knowledgeConnections": [
+            "讲义定位：生理 心血管调节",
+            "必会项：A. 通过颈动脉窦压力感受器引起交感神经活动增加",
+            "易混对照：B. 中心静脉压增高；C. 血管升压素分泌减少；D. 下肢静脉跨壁压降低"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 心血管调节",
+        "答案依据：A. 通过颈动脉窦压力感受器引起交感神经活动增加",
+        "感受器 颈动脉窦 颈动脉体 心房、心室 心室；内皮素 ET、大剂量血管升压素 VP、血管紧张素 AngⅡ→肾素↓（EVA）。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-13",
+        "sourceSubject": "physiology",
+        "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "生理 心血管调节 · 第4页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-13-p04.webp",
+        "description": "基础强化摸底考试第4题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 心血管调节",
+          "感受器 颈动脉窦 颈动脉体 心房、心室 心室；内皮素 ET、大剂量血管升压素 VP、血管紧张素 AngⅡ→肾素↓（EVA）。"
+        ],
+        "questionNumbers": [
+          4
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-13",
+          "sourceSubject": "physiology",
+          "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "生理 心血管调节 · 第4页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-13-p04.webp",
+          "description": "基础强化摸底考试第4题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 心血管调节",
+            "感受器 颈动脉窦 颈动脉体 心房、心室 心室；内皮素 ET、大剂量血管升压素 VP、血管紧张素 AngⅡ→肾素↓（EVA）。"
+          ],
+          "questionNumbers": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q005",
+      "page": 1,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "5",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第5题 · 生理 心血管调节",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环系统",
+      "lectureIds": [
+        "foundation-physiology-13"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "长期低盐饮食"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "动脉血压下降"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肾内的前列腺素增加"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肾小球滤过的 Na+增加"
+        }
+      ],
+      "stems": [
+        {
+          "number": 5,
+          "sourceQuestion": 5,
+          "sourcePage": 1,
+          "text": "促进球旁细胞分泌肾素的因素不包括",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-13",
+          "explanation": "答案为 D（肾小球滤过的 Na+增加）。小管液 Na+↓（血浆 Na+↓、肾小球滤过 Na+↓） 肾素↑（远曲小管致密斑感受器）；（血压/平均动脉压↓、血容量↓、长期低盐饮食）。",
+          "knowledgeConnections": [
+            "讲义定位：生理 心血管调节",
+            "必会项：D. 肾小球滤过的 Na+增加",
+            "易混对照：A. 长期低盐饮食；B. 动脉血压下降；C. 肾内的前列腺素增加"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 心血管调节",
+        "答案依据：D. 肾小球滤过的 Na+增加",
+        "小管液 Na+↓（血浆 Na+↓、肾小球滤过 Na+↓） 肾素↑（远曲小管致密斑感受器）；（血压/平均动脉压↓、血容量↓、长期低盐饮食）。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-13",
+        "sourceSubject": "physiology",
+        "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "生理 心血管调节 · 第4页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-13-p04.webp",
+        "description": "基础强化摸底考试第5题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 心血管调节",
+          "小管液 Na+↓（血浆 Na+↓、肾小球滤过 Na+↓） 肾素↑（远曲小管致密斑感受器）；（血压/平均动脉压↓、血容量↓、长期低盐饮食）。"
+        ],
+        "questionNumbers": [
+          5
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-13",
+          "sourceSubject": "physiology",
+          "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "生理 心血管调节 · 第4页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-13-p04.webp",
+          "description": "基础强化摸底考试第5题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 心血管调节",
+            "小管液 Na+↓（血浆 Na+↓、肾小球滤过 Na+↓） 肾素↑（远曲小管致密斑感受器）；（血压/平均动脉压↓、血容量↓、长期低盐饮食）。"
+          ],
+          "questionNumbers": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q006",
+      "page": 2,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "6",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第6题 · 生理 肺通气",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "foundation-physiology-15"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "气道阻力始终是吸气的阻力，呼气的动力"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肺的弹性阻力始终是吸气的阻力，呼气的动力"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "当肺容量＞肺总量的 67%时，胸廓的弹性阻力是吸气的动力"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "当肺容量＜肺总量的 67%时，胸廓的弹性阻力是呼气的动力"
+        }
+      ],
+      "stems": [
+        {
+          "number": 6,
+          "sourceQuestion": 6,
+          "sourcePage": 2,
+          "text": "以下关于 肺通气的阻力，说法正确的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-15",
+          "explanation": "答案为 B（肺的弹性阻力始终是吸气的阻力，呼气的动力）。胸廓的弹性阻力 ①肺容量＞肺总量的 67%（深吸气）：胸廓弹性阻力向内；②肺容量＜肺总量的 67%（呼气）：胸廓弹性阻力向外。",
+          "knowledgeConnections": [
+            "讲义定位：生理 肺通气",
+            "必会项：B. 肺的弹性阻力始终是吸气的阻力，呼气的动力",
+            "易混对照：A. 气道阻力始终是吸气的阻力，呼气的动力；C. 当肺容量＞肺总量的 67%时，胸廓的弹性阻力是吸气的动力；D. 当肺容量＜肺总量的 67%时，胸廓的弹性阻力是呼气的动力"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 肺通气",
+        "答案依据：B. 肺的弹性阻力始终是吸气的阻力，呼气的动力",
+        "胸廓的弹性阻力 ①肺容量＞肺总量的 67%（深吸气）：胸廓弹性阻力向内；②肺容量＜肺总量的 67%（呼气）：胸廓弹性阻力向外。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-15",
+        "sourceSubject": "physiology",
+        "sourceFile": "15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "pageLabel": "PDF第8页",
+        "title": "生理 肺通气 · 第8页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-15-p08.webp",
+        "description": "基础强化摸底考试第6题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 肺通气",
+          "胸廓的弹性阻力 ①肺容量＞肺总量的 67%（深吸气）：胸廓弹性阻力向内；②肺容量＜肺总量的 67%（呼气）：胸廓弹性阻力向外。"
+        ],
+        "questionNumbers": [
+          6
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-15",
+          "sourceSubject": "physiology",
+          "sourceFile": "15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "title": "生理 肺通气 · 第8页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-15-p08.webp",
+          "description": "基础强化摸底考试第6题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 肺通气",
+            "胸廓的弹性阻力 ①肺容量＞肺总量的 67%（深吸气）：胸廓弹性阻力向内；②肺容量＜肺总量的 67%（呼气）：胸廓弹性阻力向外。"
+          ],
+          "questionNumbers": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q007",
+      "page": 2,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "7",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第7题 · 生理 肠内吸收",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "foundation-physiology-22"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "载体介导的易化扩散"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "原发性主动转运"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "依赖 Na+的继发性主动转运"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "依赖 H+的继发性主动转运"
+        }
+      ],
+      "stems": [
+        {
+          "number": 7,
+          "sourceQuestion": 7,
+          "sourcePage": 2,
+          "text": "不参与小肠吸收葡萄糖至组织间液的物质转运方式有",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-22",
+          "explanation": "答案为 D（依赖 H+的继发性主动转运）。1.多数水溶性维生素：依赖 Na+的同向转运体；2.VitB12：受体介导入胞（受体介导入胞转运 LDL、运铁蛋白、维生素 B12 转运蛋白）。",
+          "knowledgeConnections": [
+            "讲义定位：生理 肠内吸收",
+            "必会项：D. 依赖 H+的继发性主动转运",
+            "易混对照：A. 载体介导的易化扩散；B. 原发性主动转运；C. 依赖 Na+的继发性主动转运"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 肠内吸收",
+        "答案依据：D. 依赖 H+的继发性主动转运",
+        "1.多数水溶性维生素：依赖 Na+的同向转运体；2.VitB12：受体介导入胞（受体介导入胞转运 LDL、运铁蛋白、维生素 B12 转运蛋白）。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-22",
+        "sourceSubject": "physiology",
+        "sourceFile": "22 27考研：生理 肠内吸收 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "生理 肠内吸收 · 第1页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-22-p01.webp",
+        "description": "基础强化摸底考试第7题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 肠内吸收",
+          "1.多数水溶性维生素：依赖 Na+的同向转运体；2.VitB12：受体介导入胞（受体介导入胞转运 LDL、运铁蛋白、维生素 B12 转运蛋白）。"
+        ],
+        "questionNumbers": [
+          7
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-22",
+          "sourceSubject": "physiology",
+          "sourceFile": "22 27考研：生理 肠内吸收 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "生理 肠内吸收 · 第1页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-22-p01.webp",
+          "description": "基础强化摸底考试第7题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 肠内吸收",
+            "1.多数水溶性维生素：依赖 Na+的同向转运体；2.VitB12：受体介导入胞（受体介导入胞转运 LDL、运铁蛋白、维生素 B12 转运蛋白）。"
+          ],
+          "questionNumbers": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q008",
+      "page": 2,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "8",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第8题 · 生理 能量代谢和体温",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "能量代谢与体温",
+      "lectureIds": [
+        "foundation-physiology-23"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "体温调节中枢功能障碍"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "温度觉传导通路功能异常"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "非调节性体温升高"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "冷敏神经元发放冲动增加"
+        }
+      ],
+      "stems": [
+        {
+          "number": 8,
+          "sourceQuestion": 8,
+          "sourcePage": 2,
+          "text": "细菌感染引起体温升高的主要原因是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-23",
+          "explanation": "答案为 D（冷敏神经元发放冲动增加）。对比中暑的体温升高：其调定点不变（非调节性体温升高），原因是体温调节中枢功能障；③在一定范围：温度升高→热敏神经元放电频率↑；温度降低→冷敏神经元放电频率↑。",
+          "knowledgeConnections": [
+            "讲义定位：生理 能量代谢和体温",
+            "必会项：D. 冷敏神经元发放冲动增加",
+            "易混对照：A. 体温调节中枢功能障碍；B. 温度觉传导通路功能异常；C. 非调节性体温升高"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 能量代谢和体温",
+        "答案依据：D. 冷敏神经元发放冲动增加",
+        "对比中暑的体温升高：其调定点不变（非调节性体温升高），原因是体温调节中枢功能障；③在一定范围：温度升高→热敏神经元放电频率↑；温度降低→冷敏神经元放电频率↑。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-23",
+        "sourceSubject": "physiology",
+        "sourceFile": "23 27考研：生理 能量代谢和体温 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "pageLabel": "PDF第6页",
+        "title": "生理 能量代谢和体温 · 第6页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-23-p06.webp",
+        "description": "基础强化摸底考试第8题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 能量代谢和体温",
+          "对比中暑的体温升高：其调定点不变（非调节性体温升高），原因是体温调节中枢功能障；③在一定范围：温度升高→热敏神经元放电频率↑；温度降低→冷敏神经元放电频率↑。"
+        ],
+        "questionNumbers": [
+          8
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-23",
+          "sourceSubject": "physiology",
+          "sourceFile": "23 27考研：生理 能量代谢和体温 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "title": "生理 能量代谢和体温 · 第6页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-23-p06.webp",
+          "description": "基础强化摸底考试第8题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 能量代谢和体温",
+            "对比中暑的体温升高：其调定点不变（非调节性体温升高），原因是体温调节中枢功能障；③在一定范围：温度升高→热敏神经元放电频率↑；温度降低→冷敏神经元放电频率↑。"
+          ],
+          "questionNumbers": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q009",
+      "page": 2,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "9",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第9题 · 生理 小管重吸收和分泌、尿浓缩稀释、调节",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "foundation-physiology-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肾小囊超滤液"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "髓袢降支细段末"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "髓袢升支粗段末"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "内髓部集合管"
+        }
+      ],
+      "stems": [
+        {
+          "number": 9,
+          "sourceQuestion": 9,
+          "sourcePage": 2,
+          "text": "发生高渗性脱水时，下列 渗透压可为低渗的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-26",
+          "explanation": "答案为 C（髓袢升支粗段末）。髓袢升支粗段对水不通透，主动重吸收 NaCl，末端小管液为低渗。高渗性脱水时 ADH 高，集合管尿液趋向高渗。",
+          "knowledgeConnections": [
+            "讲义定位：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+            "必会项：C. 髓袢升支粗段末",
+            "易混对照：A. 肾小囊超滤液；B. 髓袢降支细段末；D. 内髓部集合管"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "答案依据：C. 髓袢升支粗段末",
+        "髓袢升支粗段对水不通透，主动重吸收 NaCl，末端小管液为低渗。高渗性脱水时 ADH 高，集合管尿液趋向高渗。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-26",
+        "sourceSubject": "physiology",
+        "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 14,
+        "pageLabel": "PDF第14页",
+        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第14页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-26-p14.webp",
+        "description": "基础强化摸底考试第9题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+          "髓袢升支粗段通过 Na+-K+-2Cl- 增加外髓部组织间液的渗透压；髓袢升支细段对水不通透、对 NaCl 通透 小管液高浓度的 NaCl 被动扩散至内髓部组。"
+        ],
+        "questionNumbers": [
+          9
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-26",
+          "sourceSubject": "physiology",
+          "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 14,
+          "pageLabel": "PDF第14页",
+          "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第14页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-26-p14.webp",
+          "description": "基础强化摸底考试第9题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+            "髓袢升支粗段通过 Na+-K+-2Cl- 增加外髓部组织间液的渗透压；髓袢升支细段对水不通透、对 NaCl 通透 小管液高浓度的 NaCl 被动扩散至内髓部组。"
+          ],
+          "questionNumbers": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q010",
+      "page": 2,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "10",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第10题 · 生理 视觉",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "神经与感觉",
+      "lectureIds": [
+        "foundation-physiology-27"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "视角为 1 分角时的视力"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "视网膜中任意一处的视力"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "相当于最小的视网膜像大小"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "相当于一个感光细胞的平均直径"
+        }
+      ],
+      "stems": [
+        {
+          "number": 10,
+          "sourceQuestion": 10,
+          "sourcePage": 2,
+          "text": "国际标准视力表中的 1.0 所代表的生理意义，以下 最准确的是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-27",
+          "explanation": "答案为 A（视角为 1 分角时的视力）。视力 1.0 的标准是最小视角约 1 分角。视网膜中央凹单线联系、视锥细胞直径小，因而视敏度最高。",
+          "knowledgeConnections": [
+            "讲义定位：生理 视觉",
+            "必会项：A. 视角为 1 分角时的视力",
+            "易混对照：B. 视网膜中任意一处的视力；C. 相当于最小的视网膜像大小；D. 相当于一个感光细胞的平均直径"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 视觉",
+        "答案依据：A. 视角为 1 分角时的视力",
+        "视力 1.0 的标准是最小视角约 1 分角。视网膜中央凹单线联系、视锥细胞直径小，因而视敏度最高。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-27",
+        "sourceSubject": "physiology",
+        "sourceFile": "27 27考研：生理 视觉 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "pageLabel": "PDF第8页",
+        "title": "生理 视觉 · 第8页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-27-p08.webp",
+        "description": "基础强化摸底考试第10题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 视觉",
+          "相当于中央凹一个视锥细胞的平均直径；→设计视力表（看清最小的 E）。"
+        ],
+        "questionNumbers": [
+          10
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-27",
+          "sourceSubject": "physiology",
+          "sourceFile": "27 27考研：生理 视觉 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "title": "生理 视觉 · 第8页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-27-p08.webp",
+          "description": "基础强化摸底考试第10题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 视觉",
+            "相当于中央凹一个视锥细胞的平均直径；→设计视力表（看清最小的 E）。"
+          ],
+          "questionNumbers": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q011",
+      "page": 2,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "11",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第11题 · 生理 其它感觉",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "神经与感觉",
+      "lectureIds": [
+        "foundation-physiology-29"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "唾液分泌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "呼吸加快"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "心率加快"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "血压升高"
+        }
+      ],
+      "stems": [
+        {
+          "number": 11,
+          "sourceQuestion": 11,
+          "sourcePage": 2,
+          "text": "前庭自主神经反应的表现不包括",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-29",
+          "explanation": "答案为 D（血压升高）。前庭器官过强或过久受刺激可引起心率加快、呼吸加快、血压下降，以及恶心、呕吐、出汗等前庭自主神经反应。",
+          "knowledgeConnections": [
+            "讲义定位：生理 其它感觉",
+            "必会项：D. 血压升高",
+            "易混对照：A. 唾液分泌；B. 呼吸加快；C. 心率加快"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 其它感觉",
+        "答案依据：D. 血压升高",
+        "前庭器官过强或过久受刺激可引起心率加快、呼吸加快、血压下降，以及恶心、呕吐、出汗等前庭自主神经反应。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-29",
+        "sourceSubject": "physiology",
+        "sourceFile": "29 27考研：生理 其它感觉 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "生理 其它感觉 · 第5页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-29-p05.webp",
+        "description": "基础强化摸底考试第11题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 其它感觉",
+          "素、P 物质、K+、H+、组胺、5-羟色胺、降钙素基因相关肽、神经生长因子、细胞因子如；①痛觉感受器是游离神经末梢。伤害性刺激→组织损伤→释放致痛物质（缓激肽、前列腺。"
+        ],
+        "questionNumbers": [
+          11
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-29",
+          "sourceSubject": "physiology",
+          "sourceFile": "29 27考研：生理 其它感觉 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "生理 其它感觉 · 第5页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-29-p05.webp",
+          "description": "基础强化摸底考试第11题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 其它感觉",
+            "素、P 物质、K+、H+、组胺、5-羟色胺、降钙素基因相关肽、神经生长因子、细胞因子如；①痛觉感受器是游离神经末梢。伤害性刺激→组织损伤→释放致痛物质（缓激肽、前列腺。"
+          ],
+          "questionNumbers": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q012",
+      "page": 3,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "12",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第12题 · 生理 递质和受体",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "神经与感觉",
+      "lectureIds": [
+        "foundation-physiology-32"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "冠状动脉"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "骨骼肌血管"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胃肠括约肌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "小肠平滑肌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 12,
+          "sourceQuestion": 12,
+          "sourcePage": 3,
+          "text": "去甲肾上腺素激活 α 受体后引起 舒张效应的部位是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-32",
+          "explanation": "答案为 D（小肠平滑肌）。去甲肾上腺素激活 α2 受体可使小肠壁平滑肌舒张；α1 受体主要使皮肤/内脏血管和胃肠括约肌收缩。",
+          "knowledgeConnections": [
+            "讲义定位：生理 递质和受体",
+            "必会项：D. 小肠平滑肌",
+            "易混对照：A. 冠状动脉；B. 骨骼肌血管；C. 胃肠括约肌"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 递质和受体",
+        "答案依据：D. 小肠平滑肌",
+        "去甲肾上腺素激活 α2 受体可使小肠壁平滑肌舒张；α1 受体主要使皮肤/内脏血管和胃肠括约肌收缩。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-32",
+        "sourceSubject": "physiology",
+        "sourceFile": "32 27考研：生理 递质和受体 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "生理 递质和受体 · 第3页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-32-p03.webp",
+        "description": "基础强化摸底考试第12题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 递质和受体",
+          "β2-R 皮肤和内脏血管舒张、冠脉和骨骼肌血管舒张 普萘洛尔；α2-R 小肠平滑肌舒张等 酚妥拉明、酚苄明、育。"
+        ],
+        "questionNumbers": [
+          12
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-32",
+          "sourceSubject": "physiology",
+          "sourceFile": "32 27考研：生理 递质和受体 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "生理 递质和受体 · 第3页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-32-p03.webp",
+          "description": "基础强化摸底考试第12题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 递质和受体",
+            "β2-R 皮肤和内脏血管舒张、冠脉和骨骼肌血管舒张 普萘洛尔；α2-R 小肠平滑肌舒张等 酚妥拉明、酚苄明、育。"
+          ],
+          "questionNumbers": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q013",
+      "page": 3,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "13",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第13题 · 生理 神经系统调控躯体运动",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "神经与感觉",
+      "lectureIds": [
+        "foundation-physiology-33"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "与 GABA 能中间神经元病变有关"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "直接通路增强，间接通路减弱"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肌张力降低，随意运动增多"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "高频电刺激丘脑底核是治疗方法之一"
+        }
+      ],
+      "stems": [
+        {
+          "number": 13,
+          "sourceQuestion": 13,
+          "sourcePage": 3,
+          "text": "以下关于帕金森病的叙述 ，正确的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-33",
+          "explanation": "答案为 D（高频电刺激丘脑底核是治疗方法之一）。机 ①中脑黑质多巴胺能神经元病变→直接通路↓、间接通路 ①新纹状体 GABA 能神经；②中脑黑质多巴胺能神经元病变→对新纹状体胆碱能神 ②新纹状体 GABA 能神经。",
+          "knowledgeConnections": [
+            "讲义定位：生理 神经系统调控躯体运动",
+            "必会项：D. 高频电刺激丘脑底核是治疗方法之一",
+            "易混对照：A. 与 GABA 能中间神经元病变有关；B. 直接通路增强，间接通路减弱；C. 肌张力降低，随意运动增多"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 神经系统调控躯体运动",
+        "答案依据：D. 高频电刺激丘脑底核是治疗方法之一",
+        "机 ①中脑黑质多巴胺能神经元病变→直接通路↓、间接通路 ①新纹状体 GABA 能神经；②中脑黑质多巴胺能神经元病变→对新纹状体胆碱能神 ②新纹状体 GABA 能神经。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-33",
+        "sourceSubject": "physiology",
+        "sourceFile": "33 27考研：生理 神经系统调控躯体运动 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 11,
+        "pageLabel": "PDF第11页",
+        "title": "生理 神经系统调控躯体运动 · 第11页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-33-p11.webp",
+        "description": "基础强化摸底考试第13题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 神经系统调控躯体运动",
+          "机 ①中脑黑质多巴胺能神经元病变→直接通路↓、间接通路 ①新纹状体 GABA 能神经；②中脑黑质多巴胺能神经元病变→对新纹状体胆碱能神 ②新纹状体 GABA 能神经。"
+        ],
+        "questionNumbers": [
+          13
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-33",
+          "sourceSubject": "physiology",
+          "sourceFile": "33 27考研：生理 神经系统调控躯体运动 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 11,
+          "pageLabel": "PDF第11页",
+          "title": "生理 神经系统调控躯体运动 · 第11页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-33-p11.webp",
+          "description": "基础强化摸底考试第13题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 神经系统调控躯体运动",
+            "机 ①中脑黑质多巴胺能神经元病变→直接通路↓、间接通路 ①新纹状体 GABA 能神经；②中脑黑质多巴胺能神经元病变→对新纹状体胆碱能神 ②新纹状体 GABA 能神经。"
+          ],
+          "questionNumbers": [
+            13
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q014",
+      "page": 3,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "14",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第14题 · 生理 生殖",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "生殖系统",
+      "lectureIds": [
+        "foundation-physiology-41"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "缩宫素"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "生长激素"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "甲状腺激素"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "糖皮质激素"
+        }
+      ],
+      "stems": [
+        {
+          "number": 14,
+          "sourceQuestion": 14,
+          "sourcePage": 3,
+          "text": "与催乳素共同参与 射乳反射的激素是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-41",
+          "explanation": "答案为 A（缩宫素）。缩胆囊素-促胃液素、促胰液素-血管活性肠肽、生长激素-催乳素、LH-hCG、ACTH-促黑；⑥启动分娩的决定因素是孕激素撤退（不是缩宫素）。",
+          "knowledgeConnections": [
+            "讲义定位：生理 生殖",
+            "必会项：A. 缩宫素",
+            "易混对照：B. 生长激素；C. 甲状腺激素；D. 糖皮质激素"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 生殖",
+        "答案依据：A. 缩宫素",
+        "缩胆囊素-促胃液素、促胰液素-血管活性肠肽、生长激素-催乳素、LH-hCG、ACTH-促黑；⑥启动分娩的决定因素是孕激素撤退（不是缩宫素）。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-41",
+        "sourceSubject": "physiology",
+        "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "pageLabel": "PDF第8页",
+        "title": "生理 生殖 · 第8页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-41-p08.webp",
+        "description": "基础强化摸底考试第14题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 生殖",
+          "缩胆囊素-促胃液素、促胰液素-血管活性肠肽、生长激素-催乳素、LH-hCG、ACTH-促黑；⑥启动分娩的决定因素是孕激素撤退（不是缩宫素）。"
+        ],
+        "questionNumbers": [
+          14
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-41",
+          "sourceSubject": "physiology",
+          "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "title": "生理 生殖 · 第8页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-41-p08.webp",
+          "description": "基础强化摸底考试第14题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 生殖",
+            "缩胆囊素-促胃液素、促胰液素-血管活性肠肽、生长激素-催乳素、LH-hCG、ACTH-促黑；⑥启动分娩的决定因素是孕激素撤退（不是缩宫素）。"
+          ],
+          "questionNumbers": [
+            14
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q015",
+      "page": 3,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "15",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第15题 · 生理 甲状腺激素",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "foundation-physiology-39"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "抑制组织利用糖，使血糖浓度升高"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "促进脂肪酸合成，并抑制其降解"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "促进胆固醇合成，更加速其转化"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "加强蛋白质分解，出现负氮平衡"
+        }
+      ],
+      "stems": [
+        {
+          "number": 15,
+          "sourceQuestion": 15,
+          "sourcePage": 3,
+          "text": "甲状腺素在生理浓度范围内对 物质代谢的影响是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-39",
+          "explanation": "答案为 C（促进胆固醇合成，更加速其转化）。三、甲状腺激素对物质代谢的影响；串：甲亢高血糖 ②促进外周组织利用糖以降低血糖（恢复）。",
+          "knowledgeConnections": [
+            "讲义定位：生理 甲状腺激素",
+            "必会项：C. 促进胆固醇合成，更加速其转化",
+            "易混对照：A. 抑制组织利用糖，使血糖浓度升高；B. 促进脂肪酸合成，并抑制其降解；D. 加强蛋白质分解，出现负氮平衡"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 甲状腺激素",
+        "答案依据：C. 促进胆固醇合成，更加速其转化",
+        "三、甲状腺激素对物质代谢的影响；串：甲亢高血糖 ②促进外周组织利用糖以降低血糖（恢复）。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-39",
+        "sourceSubject": "physiology",
+        "sourceFile": "39 27考研：生理 甲状腺激素 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "生理 甲状腺激素 · 第2页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-39-p02.webp",
+        "description": "基础强化摸底考试第15题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 甲状腺激素",
+          "三、甲状腺激素对物质代谢的影响；串：甲亢高血糖 ②促进外周组织利用糖以降低血糖（恢复）。"
+        ],
+        "questionNumbers": [
+          15
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-39",
+          "sourceSubject": "physiology",
+          "sourceFile": "39 27考研：生理 甲状腺激素 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "生理 甲状腺激素 · 第2页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-39-p02.webp",
+          "description": "基础强化摸底考试第15题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 甲状腺激素",
+            "三、甲状腺激素对物质代谢的影响；串：甲亢高血糖 ②促进外周组织利用糖以降低血糖（恢复）。"
+          ],
+          "questionNumbers": [
+            15
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q016",
+      "page": 3,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "16",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第16题 · 生理 生殖",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "生殖系统",
+      "lectureIds": [
+        "foundation-physiology-41"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "血清 FSH 水平升高"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血清 LH 水平升高"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "血清雌激素水平升高"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "血清孕激素水平升高"
+        }
+      ],
+      "stems": [
+        {
+          "number": 16,
+          "sourceQuestion": 16,
+          "sourcePage": 3,
+          "text": "下列最有助于判断 有排卵发生的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-41",
+          "explanation": "答案为 D（血清孕激素水平升高）。排卵后黄体形成，孕激素明显升高，并使基础体温升高，因此孕激素升高更能证明“已经发生排卵”。",
+          "knowledgeConnections": [
+            "讲义定位：生理 生殖",
+            "必会项：D. 血清孕激素水平升高",
+            "易混对照：A. 血清 FSH 水平升高；B. 血清 LH 水平升高；C. 血清雌激素水平升高"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 生殖",
+        "答案依据：D. 血清孕激素水平升高",
+        "排卵后黄体形成，孕激素明显升高，并使基础体温升高，因此孕激素升高更能证明“已经发生排卵”。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-41",
+        "sourceSubject": "physiology",
+        "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 10,
+        "pageLabel": "PDF第10页",
+        "title": "生理 生殖 · 第10页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-41-p10.webp",
+        "description": "基础强化摸底考试第16题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 生殖",
+          "增加到一定程度的雌激素和卵泡颗粒细胞产生的抑制素→负反馈抑制 FSH；FSH 受体丰富的卵泡发育更快、分泌更多雌激素、又促进自身表达更多 FSH 受体。"
+        ],
+        "questionNumbers": [
+          16
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-41",
+          "sourceSubject": "physiology",
+          "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 10,
+          "pageLabel": "PDF第10页",
+          "title": "生理 生殖 · 第10页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-41-p10.webp",
+          "description": "基础强化摸底考试第16题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 生殖",
+            "增加到一定程度的雌激素和卵泡颗粒细胞产生的抑制素→负反馈抑制 FSH；FSH 受体丰富的卵泡发育更快、分泌更多雌激素、又促进自身表达更多 FSH 受体。"
+          ],
+          "questionNumbers": [
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q116",
+      "page": 21,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "116",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第116题 · 生理 细胞电活动",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "foundation-physiology-03"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "电压门控 Na+ 通道开放，产生净 Na+ 流动"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "电压门控 Na+ 通道开放，不产生净 Na+ 流动"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "电压门控 K+ 通道开放，不产生净 K+ 流动"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "膜两侧 K+ 浓度梯度为 0"
+        }
+      ],
+      "stems": [
+        {
+          "number": 116,
+          "sourceQuestion": 116,
+          "sourcePage": 21,
+          "text": "膜电位突然由静息电位改变为 0 mV 时",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-03",
+          "explanation": "答案为 A（电压门控 Na+ 通道开放，产生净 Na+ 流动）。2018N2 A 神经细胞在静息时，电压门控钠通道对 Na+通透的门控状态是；2016N3 A 神经细胞的静息电位为-70mv，Na+平衡电位为+60mv，Na+的电-化学驱动力为。",
+          "knowledgeConnections": [
+            "讲义定位：生理 细胞电活动",
+            "必会项：A. 电压门控 Na+ 通道开放，产生净 Na+ 流动",
+            "易混对照：B. 电压门控 Na+ 通道开放，不产生净 Na+ 流动；C. 电压门控 K+ 通道开放，不产生净 K+ 流动；D. 膜两侧 K+ 浓度梯度为 0"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 细胞电活动",
+        "答案依据：A. 电压门控 Na+ 通道开放，产生净 Na+ 流动",
+        "2018N2 A 神经细胞在静息时，电压门控钠通道对 Na+通透的门控状态是；2016N3 A 神经细胞的静息电位为-70mv，Na+平衡电位为+60mv，Na+的电-化学驱动力为。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-03",
+        "sourceSubject": "physiology",
+        "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 14,
+        "pageLabel": "PDF第14页",
+        "title": "生理 细胞电活动 · 第14页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-03-p14.webp",
+        "description": "基础强化摸底考试第116题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 细胞电活动",
+          "2018N2 A 神经细胞在静息时，电压门控钠通道对 Na+通透的门控状态是；2016N3 A 神经细胞的静息电位为-70mv，Na+平衡电位为+60mv，Na+的电-化学驱动力为。"
+        ],
+        "questionNumbers": [
+          116
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-03",
+          "sourceSubject": "physiology",
+          "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 14,
+          "pageLabel": "PDF第14页",
+          "title": "生理 细胞电活动 · 第14页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-03-p14.webp",
+          "description": "基础强化摸底考试第116题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 细胞电活动",
+            "2018N2 A 神经细胞在静息时，电压门控钠通道对 Na+通透的门控状态是；2016N3 A 神经细胞的静息电位为-70mv，Na+平衡电位为+60mv，Na+的电-化学驱动力为。"
+          ],
+          "questionNumbers": [
+            116
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q117",
+      "page": 21,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "117",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第117题 · 生理 细胞电活动",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "foundation-physiology-03"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "电压门控 Na+ 通道开放，产生净 Na+ 流动"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "电压门控 Na+ 通道开放，不产生净 Na+ 流动"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "电压门控 K+ 通道开放，不产生净 K+ 流动"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "膜两侧 K+ 浓度梯度为 0"
+        }
+      ],
+      "stems": [
+        {
+          "number": 117,
+          "sourceQuestion": 117,
+          "sourcePage": 21,
+          "text": "膜电位突然由静息电位去极化至 Na+ 平衡电位时",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-03",
+          "explanation": "答案为 B（电压门控 Na+ 通道开放，不产生净 Na+ 流动）。2016N3 A 神经细胞的静息电位为-70mv，Na+平衡电位为+60mv，Na+的电-化学驱动力为；2018N2 A 神经细胞在静息时，电压门控钠通道对 Na+通透的门控状态是。",
+          "knowledgeConnections": [
+            "讲义定位：生理 细胞电活动",
+            "必会项：B. 电压门控 Na+ 通道开放，不产生净 Na+ 流动",
+            "易混对照：A. 电压门控 Na+ 通道开放，产生净 Na+ 流动；C. 电压门控 K+ 通道开放，不产生净 K+ 流动；D. 膜两侧 K+ 浓度梯度为 0"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 细胞电活动",
+        "答案依据：B. 电压门控 Na+ 通道开放，不产生净 Na+ 流动",
+        "2016N3 A 神经细胞的静息电位为-70mv，Na+平衡电位为+60mv，Na+的电-化学驱动力为；2018N2 A 神经细胞在静息时，电压门控钠通道对 Na+通透的门控状态是。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-03",
+        "sourceSubject": "physiology",
+        "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 14,
+        "pageLabel": "PDF第14页",
+        "title": "生理 细胞电活动 · 第14页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-03-p14.webp",
+        "description": "基础强化摸底考试第117题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 细胞电活动",
+          "2016N3 A 神经细胞的静息电位为-70mv，Na+平衡电位为+60mv，Na+的电-化学驱动力为；2018N2 A 神经细胞在静息时，电压门控钠通道对 Na+通透的门控状态是。"
+        ],
+        "questionNumbers": [
+          117
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-03",
+          "sourceSubject": "physiology",
+          "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 14,
+          "pageLabel": "PDF第14页",
+          "title": "生理 细胞电活动 · 第14页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-03-p14.webp",
+          "description": "基础强化摸底考试第117题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 细胞电活动",
+            "2016N3 A 神经细胞的静息电位为-70mv，Na+平衡电位为+60mv，Na+的电-化学驱动力为；2018N2 A 神经细胞在静息时，电压门控钠通道对 Na+通透的门控状态是。"
+          ],
+          "questionNumbers": [
+            117
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q118",
+      "page": 21,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "118",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第118题 · 生理 神经元及胶质细胞",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "神经与感觉",
+      "lectureIds": [
+        "foundation-physiology-30"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "Aα 类纤维"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "Aβ 类纤维"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Aδ 类纤维"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "B 类纤维"
+        }
+      ],
+      "stems": [
+        {
+          "number": 118,
+          "sourceQuestion": 118,
+          "sourcePage": 21,
+          "text": "传导皮肤粗略触压觉的神经纤维是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-30",
+          "explanation": "答案为 C（Aδ 类纤维）。需注意：传导触压觉的周围神经纤维有 Aβ、C、Aδ（BCD）；Aδ Ⅲ 触压觉、快痛觉、温度觉。",
+          "knowledgeConnections": [
+            "讲义定位：生理 神经元及胶质细胞",
+            "必会项：C. Aδ 类纤维",
+            "易混对照：A. Aα 类纤维；B. Aβ 类纤维；D. B 类纤维"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 神经元及胶质细胞",
+        "答案依据：C. Aδ 类纤维",
+        "需注意：传导触压觉的周围神经纤维有 Aβ、C、Aδ（BCD）；Aδ Ⅲ 触压觉、快痛觉、温度觉。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-30",
+        "sourceSubject": "physiology",
+        "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "生理 神经元及胶质细胞 · 第3页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-30-p03.webp",
+        "description": "基础强化摸底考试第118题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 神经元及胶质细胞",
+          "需注意：传导触压觉的周围神经纤维有 Aβ、C、Aδ（BCD）；Aδ Ⅲ 触压觉、快痛觉、温度觉。"
+        ],
+        "questionNumbers": [
+          118
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-30",
+          "sourceSubject": "physiology",
+          "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "生理 神经元及胶质细胞 · 第3页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-30-p03.webp",
+          "description": "基础强化摸底考试第118题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 神经元及胶质细胞",
+            "需注意：传导触压觉的周围神经纤维有 Aβ、C、Aδ（BCD）；Aδ Ⅲ 触压觉、快痛觉、温度觉。"
+          ],
+          "questionNumbers": [
+            118
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q119",
+      "page": 21,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "119",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第119题 · 生理 神经元及胶质细胞",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "神经与感觉",
+      "lectureIds": [
+        "foundation-physiology-30"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "Aα 类纤维"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "Aβ 类纤维"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Aδ 类纤维"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "B 类纤维"
+        }
+      ],
+      "stems": [
+        {
+          "number": 119,
+          "sourceQuestion": 119,
+          "sourcePage": 21,
+          "text": "传导皮肤精细触压觉的神经纤维是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-30",
+          "explanation": "答案为 B（Aβ 类纤维）。Aβ（II 类）有髓纤维主要传导触压觉和本体感觉，与精细触压觉相匹配；Aδ 更常与粗略触压觉、快痛和温度觉相联系。",
+          "knowledgeConnections": [
+            "讲义定位：生理 神经元及胶质细胞",
+            "必会项：B. Aβ 类纤维",
+            "易混对照：A. Aα 类纤维；C. Aδ 类纤维；D. B 类纤维"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 神经元及胶质细胞",
+        "答案依据：B. Aβ 类纤维",
+        "Aβ（II 类）有髓纤维主要传导触压觉和本体感觉，与精细触压觉相匹配；Aδ 更常与粗略触压觉、快痛和温度觉相联系。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-30",
+        "sourceSubject": "physiology",
+        "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "生理 神经元及胶质细胞 · 第3页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-30-p03.webp",
+        "description": "基础强化摸底考试第119题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 神经元及胶质细胞",
+          "需注意：传导触压觉的周围神经纤维有 Aβ、C、Aδ（BCD）；Aδ Ⅲ 触压觉、快痛觉、温度觉。"
+        ],
+        "questionNumbers": [
+          119
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-30",
+          "sourceSubject": "physiology",
+          "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "生理 神经元及胶质细胞 · 第3页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-30-p03.webp",
+          "description": "基础强化摸底考试第119题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 神经元及胶质细胞",
+            "需注意：传导触压觉的周围神经纤维有 Aβ、C、Aδ（BCD）；Aδ Ⅲ 触压觉、快痛觉、温度觉。"
+          ],
+          "questionNumbers": [
+            119
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q136",
+      "page": 23,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "136",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第136题 · 生理 绪论",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "绪论",
+      "lectureIds": [
+        "foundation-physiology-01"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "冬泳锻炼脱衣入水前体温恒定的维持"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "赛跑起跑枪声未响前运动员心率加快"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "促胃液素等胃肠激素促进胰岛素分泌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "见到食物后引起的唾液和胃液的分泌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 136,
+          "sourceQuestion": 136,
+          "sourcePage": 23,
+          "text": "以下生理活动中， 前馈控制系统参与的有",
+          "answerRaw": "ABD",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-01",
+          "explanation": "答案为 ABD（冬泳锻炼脱衣入水前体温恒定的维持；赛跑起跑枪声未响前运动员心率加快；见到食物后引起的唾液和胃液的分泌）。前馈控制是在被控变量尚未明显变化前，由预先信息启动调节。脱衣入水前的体温调节、起跑前心率增快和见食物后的消化液分泌均属于此类。",
+          "knowledgeConnections": [
+            "讲义定位：生理 绪论",
+            "必会项：ABD. 冬泳锻炼脱衣入水前体温恒定的维持；赛跑起跑枪声未响前运动员心率加快；见到食物后引起的唾液和胃液的分泌",
+            "易混对照：C. 促胃液素等胃肠激素促进胰岛素分泌"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 绪论",
+        "答案依据：ABD. 冬泳锻炼脱衣入水前体温恒定的维持；赛跑起跑枪声未响前运动员心率加快；见到食物后引起的唾液和胃液的分泌",
+        "前馈控制是在被控变量尚未明显变化前，由预先信息启动调节。脱衣入水前的体温调节、起跑前心率增快和见食物后的消化液分泌均属于此类。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-01",
+        "sourceSubject": "physiology",
+        "sourceFile": "1 27考研：生理 绪论 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 11,
+        "pageLabel": "PDF第11页",
+        "title": "生理 绪论 · 第11页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-01-p11.webp",
+        "description": "基础强化摸底考试第136题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 绪论",
+          "D.百米赛跑起跑枪声未响前运动员心率加快；2024N1 A 在人体的自动控制系统中，由受控部分发出到达控制部分的信息是。"
+        ],
+        "questionNumbers": [
+          136
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-01",
+          "sourceSubject": "physiology",
+          "sourceFile": "1 27考研：生理 绪论 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 11,
+          "pageLabel": "PDF第11页",
+          "title": "生理 绪论 · 第11页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-01-p11.webp",
+          "description": "基础强化摸底考试第136题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 绪论",
+            "D.百米赛跑起跑枪声未响前运动员心率加快；2024N1 A 在人体的自动控制系统中，由受控部分发出到达控制部分的信息是。"
+          ],
+          "questionNumbers": [
+            136
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q137",
+      "page": 23,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "137",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第137题 · 生理 生理性止血",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "foundation-physiology-08"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胶原"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肾上腺素"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "5-羟色胺"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "前列环素"
+        }
+      ],
+      "stems": [
+        {
+          "number": 137,
+          "sourceQuestion": 137,
+          "sourcePage": 23,
+          "text": "以下属于血小板生理性致聚剂 的有",
+          "answerRaw": "ABC",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-08",
+          "explanation": "答案为 ABC（胶原；肾上腺素；5-羟色胺）。胶原、肾上腺素和 5-HT 都可促进血小板活化/聚集；前列环素 PGI2 来自内皮，升高血小板 cAMP 而抑制聚集。",
+          "knowledgeConnections": [
+            "讲义定位：生理 生理性止血",
+            "必会项：ABC. 胶原；肾上腺素；5-羟色胺",
+            "易混对照：D. 前列环素"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 生理性止血",
+        "答案依据：ABC. 胶原；肾上腺素；5-羟色胺",
+        "胶原、肾上腺素和 5-HT 都可促进血小板活化/聚集；前列环素 PGI2 来自内皮，升高血小板 cAMP 而抑制聚集。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-08",
+        "sourceSubject": "physiology",
+        "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 10,
+        "pageLabel": "PDF第10页",
+        "title": "生理 生理性止血 · 第10页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-08-p10.webp",
+        "description": "基础强化摸底考试第137题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 生理性止血",
+          "2016N152 X 以下物质中，能使纤溶酶原激活为纤溶酶的有；2014N5 A 以下凝血因子中，需要维生素 K 参与其合成的。"
+        ],
+        "questionNumbers": [
+          137
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-08",
+          "sourceSubject": "physiology",
+          "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 10,
+          "pageLabel": "PDF第10页",
+          "title": "生理 生理性止血 · 第10页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-08-p10.webp",
+          "description": "基础强化摸底考试第137题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 生理性止血",
+            "2016N152 X 以下物质中，能使纤溶酶原激活为纤溶酶的有；2014N5 A 以下凝血因子中，需要维生素 K 参与其合成的。"
+          ],
+          "questionNumbers": [
+            137
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q138",
+      "page": 23,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "138",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第138题 · 生理 肺换气和气体运输",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "foundation-physiology-16"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "氧解离曲线 右移"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "Hb 与 H+的结合能力降低"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Hb 与 CO 的结合能力降低 2"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "P 降低 50"
+        }
+      ],
+      "stems": [
+        {
+          "number": 138,
+          "sourceQuestion": 138,
+          "sourcePage": 23,
+          "text": "Hb 的构型由 R 型变为 T 型时，下列叙述错误的有",
+          "answerRaw": "BCD",
+          "answer": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-16",
+          "explanation": "答案为 BCD（Hb 与 H+的结合能力降低；Hb 与 CO 的结合能力降低 2；P 降低 50）。Hb 由 R 型转为 T 型时对 O2 亲和力降低，氧解离曲线右移、P50 升高，对 H+ 和 CO2 的结合能力增强。",
+          "knowledgeConnections": [
+            "讲义定位：生理 肺换气和气体运输",
+            "必会项：BCD. Hb 与 H+的结合能力降低；Hb 与 CO 的结合能力降低 2；P 降低 50",
+            "易混对照：A. 氧解离曲线 右移"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 肺换气和气体运输",
+        "答案依据：BCD. Hb 与 H+的结合能力降低；Hb 与 CO 的结合能力降低 2；P 降低 50",
+        "Hb 由 R 型转为 T 型时对 O2 亲和力降低，氧解离曲线右移、P50 升高，对 H+ 和 CO2 的结合能力增强。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-16",
+        "sourceSubject": "physiology",
+        "sourceFile": "16 27考研：生理 肺换气和气体运输 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "pageLabel": "PDF第6页",
+        "title": "生理 肺换气和气体运输 · 第6页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-16-p06.webp",
+        "description": "基础强化摸底考试第138题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 肺换气和气体运输",
+          "2,3-二磷酸甘油酸 氧解离曲线右移（P50↑）增高右移；，都使氧解离曲线右移、以便机体更易利用 O2（想象跑步）。"
+        ],
+        "questionNumbers": [
+          138
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-16",
+          "sourceSubject": "physiology",
+          "sourceFile": "16 27考研：生理 肺换气和气体运输 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "title": "生理 肺换气和气体运输 · 第6页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-16-p06.webp",
+          "description": "基础强化摸底考试第138题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 肺换气和气体运输",
+            "2,3-二磷酸甘油酸 氧解离曲线右移（P50↑）增高右移；，都使氧解离曲线右移、以便机体更易利用 O2（想象跑步）。"
+          ],
+          "questionNumbers": [
+            138
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q139",
+      "page": 23,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "139",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第139题 · 生理 胃内消化",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "foundation-physiology-20"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "扩张刺激胃底胃体，通过迷走-迷走长反射"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "扩张刺激胃底胃体，通过壁内神经丛短反射"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "蛋白质消化产物引起促胃液素释放"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胃期分泌的胃液量大，酸度和胃蛋白酶含量高"
+        }
+      ],
+      "stems": [
+        {
+          "number": 139,
+          "sourceQuestion": 139,
+          "sourcePage": 23,
+          "text": "关于 胃期胃液分泌的调节，正确的有",
+          "answerRaw": "ABCD",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-20",
+          "explanation": "答案为 ABCD（扩张刺激胃底胃体，通过迷走-迷走长反射；扩张刺激胃底胃体，通过壁内神经丛短反射；蛋白质消化产物引起促胃液素释放；胃期分泌的胃液量大，酸度和胃蛋白酶含量高）。胃期由食物扩张胃底/胃体通过迷走-迷走长反射和壁内神经丛短反射促进，蛋白质消化产物促进胃液素释放；分泌量大且酸度/胃蛋白酶含量高。",
+          "knowledgeConnections": [
+            "讲义定位：生理 胃内消化",
+            "必会项：ABCD. 扩张刺激胃底胃体，通过迷走-迷走长反射；扩张刺激胃底胃体，通过壁内神经丛短反射；蛋白质消化产物引起促胃液素释放；胃期分泌的胃液量大，酸度和胃蛋白酶含量高",
+            "易混对照："
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 胃内消化",
+        "答案依据：ABCD. 扩张刺激胃底胃体，通过迷走-迷走长反射；扩张刺激胃底胃体，通过壁内神经丛短反射；蛋白质消化产物引起促胃液素释放；胃期分泌的胃液量大，酸度和胃蛋白酶含量高",
+        "胃期由食物扩张胃底/胃体通过迷走-迷走长反射和壁内神经丛短反射促进，蛋白质消化产物促进胃液素释放；分泌量大且酸度/胃蛋白酶含量高。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-20",
+        "sourceSubject": "physiology",
+        "sourceFile": "20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "生理 胃内消化 · 第3页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-20-p03.webp",
+        "description": "基础强化摸底考试第139题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 胃内消化",
+          "消化期的胃液分泌根据感受食物刺激的部位分为头期、胃期、肠期，它们几乎同时开始、；能力 （胃酸和胃蛋白酶含量高）。"
+        ],
+        "questionNumbers": [
+          139
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-20",
+          "sourceSubject": "physiology",
+          "sourceFile": "20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "生理 胃内消化 · 第3页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-20-p03.webp",
+          "description": "基础强化摸底考试第139题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 胃内消化",
+            "消化期的胃液分泌根据感受食物刺激的部位分为头期、胃期、肠期，它们几乎同时开始、；能力 （胃酸和胃蛋白酶含量高）。"
+          ],
+          "questionNumbers": [
+            139
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q140",
+      "page": 23,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "140",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第140题 · 生理 小管重吸收和分泌、尿浓缩稀释、调节",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "foundation-physiology-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "尿量"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "尿中碳酸氢盐"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "尿中排出的 H+"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "尿中排出的 K+"
+        }
+      ],
+      "stems": [
+        {
+          "number": 140,
+          "sourceQuestion": 140,
+          "sourcePage": 23,
+          "text": "临床上使用乙酰唑胺后， 下列指标可增加的是",
+          "answerRaw": "ABD",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-26",
+          "explanation": "答案为 ABD（尿量；尿中碳酸氢盐；尿中排出的 K+）。乙酰唑胺抑制碳酸酐酶，使近端小管 Na+-H+ 交换和 HCO3- 重吸收下降：尿量、尿 HCO3- 和尿 K+ 增加，尿 H+ 下降。",
+          "knowledgeConnections": [
+            "讲义定位：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+            "必会项：ABD. 尿量；尿中碳酸氢盐；尿中排出的 K+",
+            "易混对照：C. 尿中排出的 H+"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 小管重吸收和分泌、尿浓缩稀释、调节",
+        "答案依据：ABD. 尿量；尿中碳酸氢盐；尿中排出的 K+",
+        "乙酰唑胺抑制碳酸酐酶，使近端小管 Na+-H+ 交换和 HCO3- 重吸收下降：尿量、尿 HCO3- 和尿 K+ 增加，尿 H+ 下降。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-26",
+        "sourceSubject": "physiology",
+        "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第4页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-26-p04.webp",
+        "description": "基础强化摸底考试第140题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+          "串：乙酰唑胺抑制碳酸酐酶 CA；②集合管闰细胞分泌 H+：H+-ATP 酶、H+-K+-ATP 酶（分泌 H+和重吸收 K+）。"
+        ],
+        "questionNumbers": [
+          140
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-26",
+          "sourceSubject": "physiology",
+          "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第4页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-26-p04.webp",
+          "description": "基础强化摸底考试第140题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+            "串：乙酰唑胺抑制碳酸酐酶 CA；②集合管闰细胞分泌 H+：H+-ATP 酶、H+-K+-ATP 酶（分泌 H+和重吸收 K+）。"
+          ],
+          "questionNumbers": [
+            140
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-foundation-mock-exam-20260907-q141",
+      "page": 23,
+      "sourceKey": "physiology-foundation-mock-exam-20260907",
+      "sourceName": "【基础强化】摸底考试 天天师兄27考研 冲刺押题见！.pdf",
+      "sourceSection": "生理",
+      "sourceQuestion": "141",
+      "sourceLabel": "基础强化摸底卷",
+      "title": "基础摸底卷 · 第141题 · 生理 脑电波、睡眠、脑高级功能、下丘脑",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "神经与感觉",
+      "lectureIds": [
+        "foundation-physiology-34"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和对应讲义",
+      "answerSourceLabel": "基础摸底卷答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "调控渴觉和水摄入与排出"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "维持体温相对稳定"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "调节肌紧张"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "控制日节律"
+        }
+      ],
+      "stems": [
+        {
+          "number": 141,
+          "sourceQuestion": 141,
+          "sourcePage": 23,
+          "text": "下丘脑在 机体生理活动中发挥着信息整合的核心作用，包括",
+          "answerRaw": "ABD",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按用户提供的答案图录入",
+          "lectureId": "foundation-physiology-34",
+          "explanation": "答案为 ABD（调控渴觉和水摄入与排出；维持体温相对稳定；控制日节律）。下丘脑视交叉上核+松果体 调节生物节律交叉。如体温清晨低、午后高，波动不超；视前区-下丘脑前部 PO/AH 体温调节中枢、温度敏感神经元（热敏神经元较多）。",
+          "knowledgeConnections": [
+            "讲义定位：生理 脑电波、睡眠、脑高级功能、下丘脑",
+            "必会项：ABD. 调控渴觉和水摄入与排出；维持体温相对稳定；控制日节律",
+            "易混对照：C. 调节肌紧张"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：生理 脑电波、睡眠、脑高级功能、下丘脑",
+        "答案依据：ABD. 调控渴觉和水摄入与排出；维持体温相对稳定；控制日节律",
+        "下丘脑视交叉上核+松果体 调节生物节律交叉。如体温清晨低、午后高，波动不超；视前区-下丘脑前部 PO/AH 体温调节中枢、温度敏感神经元（热敏神经元较多）。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "foundation-physiology-34",
+        "sourceSubject": "physiology",
+        "sourceFile": "34 27考研：生理 脑电波、睡眠、脑高级功能、下丘脑 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "生理 脑电波、睡眠、脑高级功能、下丘脑 · 第4页",
+        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-34-p04.webp",
+        "description": "基础强化摸底考试第141题对应讲义原页。",
+        "knowledgePoints": [
+          "生理 脑电波、睡眠、脑高级功能、下丘脑",
+          "下丘脑视交叉上核+松果体 调节生物节律交叉。如体温清晨低、午后高，波动不超；视前区-下丘脑前部 PO/AH 体温调节中枢、温度敏感神经元（热敏神经元较多）。"
+        ],
+        "questionNumbers": [
+          141
+        ]
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "foundation-physiology-34",
+          "sourceSubject": "physiology",
+          "sourceFile": "34 27考研：生理 脑电波、睡眠、脑高级功能、下丘脑 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "生理 脑电波、睡眠、脑高级功能、下丘脑 · 第4页",
+          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-34-p04.webp",
+          "description": "基础强化摸底考试第141题对应讲义原页。",
+          "knowledgePoints": [
+            "生理 脑电波、睡眠、脑高级功能、下丘脑",
+            "下丘脑视交叉上核+松果体 调节生物节律交叉。如体温清晨低、午后高，波动不超；视前区-下丘脑前部 PO/AH 体温调节中枢、温度敏感神经元（热敏神经元较多）。"
+          ],
+          "questionNumbers": [
+            141
+          ]
+        }
+      ]
+    }
+  ],
+  "pages": [],
+  "lectures": [
+    {
+      "id": "foundation-physiology-04",
+      "number": 4,
+      "title": "生理 骨骼肌收缩",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-08",
+      "number": 8,
+      "title": "生理 生理性止血",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-12",
+      "number": 12,
+      "title": "生理 心肌电活动和特性",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-13",
+      "number": 13,
+      "title": "生理 心血管调节",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-15",
+      "number": 15,
+      "title": "生理 肺通气",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-22",
+      "number": 22,
+      "title": "生理 肠内吸收",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-23",
+      "number": 23,
+      "title": "生理 能量代谢和体温",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-26",
+      "number": 26,
+      "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-27",
+      "number": 27,
+      "title": "生理 视觉",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-29",
+      "number": 29,
+      "title": "生理 其它感觉",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-32",
+      "number": 32,
+      "title": "生理 递质和受体",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-33",
+      "number": 33,
+      "title": "生理 神经系统调控躯体运动",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-41",
+      "number": 41,
+      "title": "生理 生殖",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-39",
+      "number": 39,
+      "title": "生理 甲状腺激素",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-03",
+      "number": 3,
+      "title": "生理 细胞电活动",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-30",
+      "number": 30,
+      "title": "生理 神经元及胶质细胞",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-01",
+      "number": 1,
+      "title": "生理 绪论",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-16",
+      "number": 16,
+      "title": "生理 肺换气和气体运输",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-20",
+      "number": 20,
+      "title": "生理 胃内消化",
+      "pageCount": 1
+    },
+    {
+      "id": "foundation-physiology-34",
+      "number": 34,
+      "title": "生理 脑电波、睡眠、脑高级功能、下丘脑",
+      "pageCount": 1
+    }
+  ],
+  "topics": [
+    "细胞基本功能",
+    "血液",
+    "循环系统",
+    "呼吸系统",
+    "消化系统",
+    "能量代谢与体温",
+    "泌尿系统",
+    "神经与感觉",
+    "生殖系统",
+    "内分泌",
+    "绪论"
+  ]
+}
