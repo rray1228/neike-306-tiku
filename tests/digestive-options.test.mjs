@@ -33,6 +33,27 @@ test('all digestive groups have complete option banks and valid answers', () => 
   }
 })
 
+test('IBD comparison grades both diseases as multiple choice with the lecture-specific complications', () => {
+  const item = group('p27-g1')
+  assert.deepEqual(item.stems.map(stem => stem.answer.join('')), ['ACEFKLMNOQUVX', 'BDGHIJLOPRSTUWX'])
+  assert.equal(item.stems.length, 2)
+  assert.equal(item.options.length, 24)
+  assert.ok(item.stems.every(stem => stem.answerMode === '多选' && !stem.answerState))
+  assert.deepEqual(item.lectureIds, ['lecture-18'])
+  assert.ok(item.showOptionText)
+  assert.equal(new Set(item.options.map(option => option.category)).size, 7)
+  assert.ok(item.options.every(option => option.category))
+  assert.deepEqual(item.stems[0].answer.filter(key => item.stems[1].answer.includes(key)), [...'LOUX'])
+  assert.ok(item.stems[0].answer.includes('K'))
+  assert.ok(!item.stems[1].answer.includes('K'))
+  assert.ok(item.stems[1].answer.includes('J'))
+  assert.ok(!item.stems[0].answer.includes('J'))
+  assert.match(label('p27-g1', 'K'), /重度.*中毒性巨结肠.*急性穿孔/)
+  assert.match(label('p27-g1', 'J'), /最常见/)
+  assert.match(label('p27-g1', 'L'), /可并发/)
+  assert.ok(!item.options.some(option => option.key === 'Y'))
+})
+
 test('intestinal TB selects rare extraintestinal manifestations, not the IBD choice', () => {
   const item = group('p29-g1')
   assert.equal(item.stems[0].text, '肠结核溃疡型')

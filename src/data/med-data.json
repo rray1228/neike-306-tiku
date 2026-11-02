@@ -8866,124 +8866,148 @@
       "kindLabel": "B型题",
       "options": [
         {
-          "key": "A",
-          "label": "病变分布连续、弥漫性",
-          "sourceText": "A.病变分布连续、弥漫性"
-        },
-        {
-          "key": "B",
-          "label": "右下腹痛、腹部包块",
-          "sourceText": "B.右下腹痛、腹部包块"
-        },
-        {
-          "key": "C",
-          "label": "浅表溃疡",
-          "sourceText": "C.浅表溃疡"
-        },
-        {
-          "key": "D",
-          "label": "早期鹅口疮，之后纵行裂隙状深溃疡",
-          "sourceText": "D.早期鹅口疮，之后纵行裂隙状深溃疡"
-        },
-        {
-          "key": "E",
-          "label": "钡灌肠可有铅管征",
-          "sourceText": "E.钡灌肠可有铅管征"
-        },
-        {
           "key": "F",
           "label": "直肠及乙状结肠",
-          "sourceText": "F.直肠及乙状结肠"
+          "sourceText": "F.直肠及乙状结肠",
+          "category": "好发部位"
         },
         {
           "key": "G",
           "label": "回肠末端及邻近结肠",
-          "sourceText": "G.回肠末端及邻近结肠"
+          "sourceText": "G.回肠末端及邻近结肠",
+          "category": "好发部位"
+        },
+        {
+          "key": "A",
+          "label": "病变分布连续、弥漫性",
+          "sourceText": "A.病变分布连续、弥漫性",
+          "category": "病变分布"
         },
         {
           "key": "H",
           "label": "病变分布节段、跳跃性",
-          "sourceText": "H.病变分布节段、跳跃性"
+          "sourceText": "H.病变分布节段、跳跃性",
+          "category": "病变分布"
         },
         {
-          "key": "I",
-          "label": "瘘管",
-          "sourceText": "I.瘘管"
-        },
-        {
-          "key": "J",
-          "label": "肠梗阻是最常见并发症",
-          "sourceText": "J.肠梗阻是最常见并发症"
-        },
-        {
-          "key": "K",
-          "label": "并发中毒性巨结肠最易穿孔",
-          "sourceText": "K.并发中毒性巨结肠最易穿孔"
-        },
-        {
-          "key": "L",
-          "label": "梗阻",
-          "sourceText": "L.梗阻"
+          "key": "B",
+          "label": "右下腹痛、腹部包块",
+          "sourceText": "B.右下腹痛、腹部包块",
+          "category": "主要症状"
         },
         {
           "key": "M",
           "label": "左下腹痛、黏液脓血便、里急后重",
-          "sourceText": "M.左下腹痛、黏液脓血便、里急后重"
-        },
-        {
-          "key": "N",
-          "label": "隐窝脓肿、杯状细胞减少",
-          "sourceText": "N.隐窝脓肿、杯状细胞减少"
-        },
-        {
-          "key": "O",
-          "label": "出血",
-          "sourceText": "O.出血"
-        },
-        {
-          "key": "P",
-          "label": "偏心性肠腔狭窄",
-          "sourceText": "P.偏心性肠腔狭窄"
-        },
-        {
-          "key": "Q",
-          "label": "中心性肠腔狭窄",
-          "sourceText": "Q.中心性肠腔狭窄"
-        },
-        {
-          "key": "R",
-          "label": "腹腔或肛周脓肿",
-          "sourceText": "R.腹腔或肛周脓肿"
-        },
-        {
-          "key": "S",
-          "label": "结肠镜见鹅卵石样、铺路石样改变，非干酪性肉芽肿",
-          "sourceText": "S.结肠镜见鹅卵石样、铺路石样改变，非干酪性肉芽肿"
-        },
-        {
-          "key": "T",
-          "label": "钡灌肠有线样征、鹅卵石征、铺路石征",
-          "sourceText": "T.钡灌肠有线样征、鹅卵石征、铺路石征"
-        },
-        {
-          "key": "U",
-          "label": "癌变",
-          "sourceText": "U.癌变"
+          "sourceText": "M.左下腹痛、黏液脓血便、里急后重",
+          "category": "主要症状"
         },
         {
           "key": "V",
           "label": "腹痛→便意→便后缓解为主",
-          "sourceText": "V.腹痛→便意→便后缓解为主"
+          "sourceText": "V.腹痛→便意→便后缓解为主",
+          "category": "腹痛规律"
         },
         {
           "key": "W",
           "label": "腹痛—进食—疼痛加重为主",
-          "sourceText": "W.腹痛—进食—疼痛加重为主"
+          "sourceText": "W.腹痛—进食—疼痛加重为主",
+          "category": "腹痛规律"
+        },
+        {
+          "key": "C",
+          "label": "浅表溃疡",
+          "sourceText": "C.浅表溃疡",
+          "category": "内镜与病理"
+        },
+        {
+          "key": "D",
+          "label": "早期鹅口疮，之后纵行裂隙状深溃疡",
+          "sourceText": "D.早期鹅口疮，之后纵行裂隙状深溃疡",
+          "category": "内镜与病理"
+        },
+        {
+          "key": "N",
+          "label": "隐窝脓肿、杯状细胞减少",
+          "sourceText": "N.隐窝脓肿、杯状细胞减少",
+          "category": "内镜与病理"
+        },
+        {
+          "key": "P",
+          "label": "偏心性肠腔狭窄",
+          "sourceText": "P.偏心性肠腔狭窄",
+          "category": "内镜与病理"
+        },
+        {
+          "key": "Q",
+          "label": "中心性肠腔狭窄",
+          "sourceText": "Q.中心性肠腔狭窄",
+          "category": "内镜与病理"
+        },
+        {
+          "key": "S",
+          "label": "结肠镜见鹅卵石样、铺路石样改变，非干酪性肉芽肿",
+          "sourceText": "S.结肠镜见鹅卵石样、铺路石样改变，非干酪性肉芽肿",
+          "category": "内镜与病理"
+        },
+        {
+          "key": "E",
+          "label": "钡灌肠可有铅管征",
+          "sourceText": "E.钡灌肠可有铅管征",
+          "category": "钡灌肠"
+        },
+        {
+          "key": "T",
+          "label": "钡灌肠有线样征、鹅卵石征、铺路石征",
+          "sourceText": "T.钡灌肠有线样征、鹅卵石征、铺路石征",
+          "category": "钡灌肠"
+        },
+        {
+          "key": "I",
+          "label": "瘘管",
+          "sourceText": "I.瘘管",
+          "category": "并发症"
+        },
+        {
+          "key": "J",
+          "label": "肠梗阻是最常见并发症",
+          "sourceText": "J.肠梗阻是最常见并发症",
+          "category": "并发症"
+        },
+        {
+          "key": "K",
+          "label": "重度病变并发中毒性巨结肠时，易发生急性穿孔",
+          "sourceText": "K.并发中毒性巨结肠最易穿孔",
+          "category": "并发症"
+        },
+        {
+          "key": "L",
+          "label": "可并发肠梗阻",
+          "sourceText": "L.梗阻",
+          "category": "并发症"
+        },
+        {
+          "key": "O",
+          "label": "可并发出血",
+          "sourceText": "O.出血",
+          "category": "并发症"
+        },
+        {
+          "key": "R",
+          "label": "腹腔或肛周脓肿",
+          "sourceText": "R.腹腔或肛周脓肿",
+          "category": "并发症"
+        },
+        {
+          "key": "U",
+          "label": "可癌变",
+          "sourceText": "U.癌变",
+          "category": "并发症"
         },
         {
           "key": "X",
-          "label": "穿孔",
-          "sourceText": "X.穿孔"
+          "label": "可发生急性穿孔",
+          "sourceText": "X.穿孔",
+          "category": "并发症"
         }
       ],
       "stems": [
@@ -9004,10 +9028,9 @@
             "V",
             "X"
           ],
-          "sourceText": "溃疡性结肠炎（UC） ACEFKLMNOQUVXY",
+          "sourceText": "溃疡性结肠炎（UC） ACEFKLMNOQUVX",
           "sourceY": 0,
-          "answerMode": "待核对",
-          "answerState": "待原题页核对（原图答案含Y，但可见选项池只到X）"
+          "answerMode": "多选"
         },
         {
           "text": "克罗恩病（CD）",
@@ -9034,11 +9057,10 @@
         }
       ],
       "sourceText": "溃疡性结肠炎与克罗恩病鉴别（按原题页分组并结合讲义复核）",
-      "reviewState": "已按原题页与讲义复核",
+      "reviewState": "已按讲义校对",
       "topic": "消化",
       "lectureIds": [
-        "lecture-18",
-        "lecture-19"
+        "lecture-18"
       ],
       "lectureEvidence": {
         "lectureId": "lecture-18",
@@ -9046,7 +9068,10 @@
         "image": "med/lecture-pages/lecture-18-page-02.webp",
         "title": "第18讲第2页：内科 炎症性肠病",
         "description": "本题组对应第18讲第2页讲义。"
-      }
+      },
+      "showOptionText": true,
+      "sharedStem": "分别选出符合下列疾病的全部表现。同一选项可重复选用；可发生的并发症与最常见并发症须区分。",
+      "answerSourceLabel": "讲义答案"
     },
     {
       "id": "p27-g2",

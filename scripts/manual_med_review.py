@@ -199,7 +199,7 @@ def reviewed_groups(payload: dict) -> list[dict]:
     )
 
     p27_1 = group(
-        "p27-g1", "溃疡性结肠炎与克罗恩病鉴别", "消化", ["lecture-18", "lecture-19"],
+        "p27-g1", "溃疡性结肠炎与克罗恩病鉴别", "消化", ["lecture-18"],
         opts(
             ("A", "病变分布连续、弥漫性"), ("B", "右下腹痛、腹部包块"), ("C", "浅表溃疡"),
             ("D", "早期鹅口疮，之后纵行裂隙状深溃疡"), ("E", "钡灌肠可有铅管征"), ("F", "直肠及乙状结肠"),
@@ -211,14 +211,9 @@ def reviewed_groups(payload: dict) -> list[dict]:
             ("T", "钡灌肠有线样征、鹅卵石征、铺路石征"), ("U", "癌变"),
             ("V", "腹痛→便意→便后缓解为主"), ("W", "腹痛—进食—疼痛加重为主"), ("X", "穿孔"),
         ),
-        stems(("溃疡性结肠炎（UC）", "ACEFKLMNOQUVXY"), ("克罗恩病（CD）", "BDGHIJLOPRSTUWX")),
+        stems(("溃疡性结肠炎（UC）", "ACEFKLMNOQUVX"), ("克罗恩病（CD）", "BDGHIJLOPRSTUWX")),
     )
-    # The source answer bubble contains Y, but the visible option bank ends at X.
-    # Keep only verifiable keys and make the discrepancy explicit instead of
-    # inventing an unseen option.
-    p27_1["stems"][0]["answer"] = list("ACEFKLMNOQUVX")
-    p27_1["stems"][0]["answerMode"] = "待核对"
-    p27_1["stems"][0]["answerState"] = "待原题页核对（原图答案含Y，但可见选项池只到X）"
+    refine_ibd_comparison(p27_1)
     p27_2 = group(
         "p27-g2", "炎症性肠病相关症状鉴别", "消化", ["lecture-18", "lecture-19"],
         opts(
@@ -1036,6 +1031,46 @@ DIGESTIVE_OPTION_REPAIRS = {
         "F": "渗出液（SAAG<11、细胞>500×10^6/L且以多个核细胞/中性粒细胞为主）",
     },
 }
+
+
+def refine_ibd_comparison(target: dict) -> None:
+    """Lecture 18 p2-3 (collection p126-127): grade the complete comparison.
+
+    The old Y suffix is not an option. The lecture verifies all A-X entries;
+    retain their keys and the two stem positions for existing answer records.
+    """
+    target["lectureIds"] = ["lecture-18"]
+    target["showOptionText"] = True
+    target["sharedStem"] = "分别选出符合下列疾病的全部表现。同一选项可重复选用；可发生的并发症与最常见并发症须区分。"
+    target["answerSourceLabel"] = "讲义答案"
+    target["reviewState"] = "已按讲义校对"
+    labels = {
+        "K": "重度病变并发中毒性巨结肠时，易发生急性穿孔",
+        "L": "可并发肠梗阻",
+        "O": "可并发出血",
+        "U": "可癌变",
+        "X": "可发生急性穿孔",
+    }
+    categories = [
+        ("好发部位", "FG"), ("病变分布", "AH"), ("主要症状", "BM"),
+        ("腹痛规律", "VW"), ("内镜与病理", "CDNPQS"),
+        ("钡灌肠", "ET"), ("并发症", "IJKLORUX"),
+    ]
+    options = {item["key"]: item for item in target["options"]}
+    target["options"] = []
+    for category, keys in categories:
+        for key in keys:
+            item = options[key]
+            item["category"] = category
+            if key in labels:
+                item["label"] = labels[key]
+            target["options"].append(item)
+    for index, answer in enumerate(["ACEFKLMNOQUVX", "BDGHIJLOPRSTUWX"]):
+        item = target["stems"][index]
+        item["answer"] = list(answer)
+        item["answerMode"] = "多选"
+        item.pop("answerState", None)
+        item["sourceText"] = f'{item["text"]} {answer}'
 
 
 def refine_ulcer_perforation(target: dict) -> None:
