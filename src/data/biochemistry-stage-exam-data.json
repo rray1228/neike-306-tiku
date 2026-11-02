@@ -1526,8 +1526,8 @@
       "supplementNotice": "",
       "studyNotice": "生物化学",
       "answerSourceLabel": "答案",
-      "answerSourceName": "用户授权拟答：讲义与补充资料核对（2026-10-17）",
-      "answerRevision": "bio-stage-draft-20261017-v1",
+      "answerSourceName": "用户按书校正（2026-11-02）",
+      "answerRevision": "bio-stage-p53-20261102-v2",
       "options": [
         {
           "key": "A",
@@ -1556,24 +1556,20 @@
           "sourceQuestion": 21,
           "sourcePage": 4,
           "text": "野生型 p53 蛋白有着“基因组卫士”之称，p53 的靶基因主要有",
-          "answerRaw": "ABCD",
+          "answerRaw": "ABD",
           "answer": [
             "A",
             "B",
-            "C",
             "D"
           ],
           "answerMode": "多选",
           "sourceAnswerMode": "多选",
-          "answerState": "讲义核对拟答（非官方）",
-          "answerProvenance": "assistant-draft",
-          "explanation": "p21介导周期阻滞，BAX参与凋亡，GADD45参与DNA损伤应答；PTEN同样可受p53直接转录激活，不能因讲义简表只列另外三项就漏选C。",
-          "answerReferences": [
-            "https://pubmed.ncbi.nlm.nih.gov/11545734/"
-          ],
+          "answerState": "用户校正",
+          "answerProvenance": "user-correction",
+          "explanation": "本题按书上列举范围选A、B、D：p21介导细胞周期阻滞，BAX参与细胞凋亡，GADD45参与DNA损伤应答。",
           "lectureId": "lecture-14",
           "knowledgeConnections": [
-            "p53可通过周期阻滞、损伤应答和凋亡抑制肿瘤；p21抑CDK、BAX促凋亡、PTEN限制PI3K-AKT。"
+            "p21—细胞周期阻滞；BAX—细胞凋亡；GADD45—DNA损伤应答。"
           ]
         }
       ]

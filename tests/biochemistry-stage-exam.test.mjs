@@ -36,20 +36,21 @@ test('all user-authorized draft answers are attributed, explained and never labe
   assert.deepEqual(data.groups.map(g => g.stems[0].answerRaw), [
     'B', 'D', 'BC', 'ABC', 'D', 'ABD', 'C', 'B', 'A', 'AC',
     'ABCD', 'D', 'ABD', 'B', 'B', 'B', 'B', 'AC', 'D', 'B',
-    'ABCD', 'ACD', 'C', 'B', 'D',
+    'ABD', 'ACD', 'C', 'B', 'D',
   ])
   for (const g of data.groups) {
     const s = g.stems[0]
     assert.equal(g.supplementNotice, '')
     assert.equal(g.studyNotice, '生物化学')
     assert.equal(g.answerSourceLabel, '答案')
-    assert.match(g.answerSourceName, s.number === 10 ? /用户校正/ : /用户授权拟答/)
-    assert.equal(g.answerRevision, s.number === 10 ? 'bio-answer-audit-20261029-v1' : 'bio-stage-draft-20261017-v1')
+    const corrected = [10, 21].includes(s.number)
+    assert.match(g.answerSourceName, corrected ? /用户.*校正/ : /用户授权拟答/)
+    assert.equal(g.answerRevision, s.number === 21 ? 'bio-stage-p53-20261102-v2' : s.number === 10 ? 'bio-answer-audit-20261029-v1' : 'bio-stage-draft-20261017-v1')
     assert.deepEqual(s.answer, s.answerRaw.split(''))
     assert.ok(s.answer.length && s.answer.every(k => g.options.some(o => o.key === k)))
     assert.equal(s.sourceAnswerMode, s.answerMode)
-    assert.equal(s.answerState, s.number === 10 ? '用户校正' : '讲义核对拟答（非官方）')
-    assert.equal(s.answerProvenance, s.number === 10 ? 'user-correction' : 'assistant-draft')
+    assert.equal(s.answerState, corrected ? '用户校正' : '讲义核对拟答（非官方）')
+    assert.equal(s.answerProvenance, corrected ? 'user-correction' : 'assistant-draft')
     assert.ok(s.explanation.length > 30)
     assert.doesNotMatch([g.supplementNotice, g.studyNotice, g.answerSourceLabel, s.explanation].join(' '), /拟答|暂拟|非官方|后续校正|待你校正|保留原卷多选操作|本题口径待复核/)
     for (const a of s.acceptedAnswers || []) assert.ok(a.length && a.every(k => g.options.some(o => o.key === k)))
@@ -73,8 +74,20 @@ test('ambiguous source wording is explicit and CPSII is not confused with CPSI',
   assert.match(q(11).stems[0].explanation, /不能泛化/)
   assert.match(q(18).stems[0].explanation, /最终多肽/)
   assert.match(q(24).stems[0].explanation, /GST.*谷胱甘肽/)
-  assert.deepEqual(q(21).stems[0].answer, ['A', 'B', 'C', 'D'])
-  assert.ok(q(21).stems[0].answerReferences.some(url => url.includes('11545734')))
+})
+
+test('p53 question 21 grades only ABD within the book scope and removes the added C rationale', () => {
+  const g = q(21), s = g.stems[0]
+  assert.deepEqual(s.answer, ['A', 'B', 'D'])
+  assert.equal(s.answerRaw, 'ABD')
+  assert.equal(s.answerMode, '多选')
+  assert.deepEqual(s.acceptedAnswers || [], [])
+  assert.doesNotMatch([s.explanation, ...(s.knowledgeConnections || [])].join(' '), /PTEN|漏选C|选C/)
+  assert.equal(s.answerReferences, undefined)
+  assert.match(s.explanation, /书上列举范围/)
+  const grade = selected => [...selected].sort().join('') === [...s.answer].sort().join('')
+  assert.equal(grade(['A', 'B', 'D']), true)
+  assert.equal(grade(['A', 'B', 'C', 'D']), false)
 })
 
 test('cross-page choices, source page images and notation survive extraction', () => {

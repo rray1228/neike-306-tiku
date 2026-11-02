@@ -31,7 +31,7 @@ TOPICS = {2: '生物氧化', 3: '糖代谢', 6: '脂代谢',
 # Requested by the user on 2026-10-17, not transcribed from an official key.
 DRAFT_ANSWERS = ['B', 'D', 'BC', 'ABC', 'D', 'ABD', 'C', 'B', 'A', 'A',
                  'ABCD', 'D', 'ABD', 'B', 'B', 'B', 'B', 'AC', 'D', 'B',
-                 'ABCD', 'ACD', 'C', 'B', 'D']
+                 'ABD', 'ACD', 'C', 'B', 'D']
 EXPLANATIONS = {
     1: '拟答B。接近生理pH时，pI低于环境pH的蛋白质带负电、向正极迁移。按本题以pI比较的条件，自正极侧依次为B（2.77）、A（6.01）、D（7.80）、C（9.64）。',
     2: '拟答D。肌肉缺乏葡糖-6-磷酸酶，不能将葡糖-6-磷酸水解为可释放入血的游离葡萄糖；不要与磷酸戊糖途径中的葡糖-6-磷酸脱氢酶混淆。',
@@ -53,7 +53,7 @@ EXPLANATIONS = {
     18: '拟答AC。一个mRNA可同时结合多个核糖体，形成多聚核糖体；C按各核糖体完成同一开放阅读框后所得最终多肽解释。瞬时新生肽链长度不同，合成单条完整肽链所需时间并未因此缩短，提高的是并行产量。',
     19: '拟答D。典型动物miRNA与靶mRNA多不完全互补。转录后调控、Dicer加工和RISC参与并不是miRNA相对于siRNA独有的特点。',
     20: '拟答B。按本讲义的经典原核/真核比较，miRNA调控属于真核机制；原核可通过反义RNA、调节蛋白结合mRNA及稀有密码子比例影响表达。本题不讨论非典型或工程化RNA系统。',
-    21: '拟答ABCD。p21介导周期阻滞，BAX参与凋亡，GADD45参与DNA损伤应答；PTEN同样可受p53直接转录激活，不能因讲义简表只列另外三项就漏选C。',
+    21: '本题按书上列举范围选A、B、D：p21介导细胞周期阻滞，BAX参与细胞凋亡，GADD45参与DNA损伤应答。',
     22: '拟答ACD。化学合成、cDNA文库和PCR均可用于获得目的基因。基因芯片主要用于检测、分析序列或表达信息，不是本题所考的目的基因制备方法。',
     23: '拟答C。GATATC的反向互补序列仍为GATATC，符合本题所考常见Ⅱ类限制酶识别的回文结构；EcoRV即识别这一序列。并非所有Ⅱ类限制酶都只识别这种回文序列。',
     24: '暂拟B。按本讲义中用于蛋白质相互作用分析的GST pull-down考点，标签是GST；GST与固定化谷胱甘肽结合以捕获相互作用蛋白。“目前最常用”缺少统计范围，不能据此断言GST在所有标签技术中都最常用；His标签也能用于亲和纯化及pull-down，保留本题口径待复核。',
@@ -67,7 +67,6 @@ REFERENCES = {
     4: ['https://pubmed.ncbi.nlm.nih.gov/1747116/'],
     10: ['https://pubmed.ncbi.nlm.nih.gov/14651476/'],
     11: ['https://www.jci.org/articles/view/107882', 'https://pubmed.ncbi.nlm.nih.gov/2444264/'],
-    21: ['https://pubmed.ncbi.nlm.nih.gov/11545734/'],
     24: ['https://www.thermofisher.com/order/catalog/product/21516'],
 }
 
@@ -160,14 +159,15 @@ def build():
             'answerLayout': 'rows', 'topic': TOPICS[lecture], 'lectureIds': [lid],
             'supplement': True, 'supplementNotice': '', 'studyNotice': '生物化学',
             'answerSourceLabel': '答案',
-            'answerSourceName': '用户授权拟答：讲义与补充资料核对（2026-10-17）',
-            'answerRevision': 'bio-stage-draft-20261017-v1',
+            'answerSourceName': '用户按书校正（2026-11-02）' if n == 21 else '用户授权拟答：讲义与补充资料核对（2026-10-17）',
+            'answerRevision': 'bio-stage-p53-20261102-v2' if n == 21 else 'bio-stage-draft-20261017-v1',
             'options': [{'key': key, 'displayKey': key, 'label': value}
                         for key, value in q['options'].items()],
             'stems': [{'number': n, 'sourceQuestion': n, 'sourcePage': q['page'],
                        'text': q['text'], 'answerRaw': answer, 'answer': list(answer),
                        'answerMode': mode, 'sourceAnswerMode': mode,
-                       'answerState': '讲义核对拟答（非官方）', 'answerProvenance': 'assistant-draft',
+                       'answerState': '用户校正' if n == 21 else '讲义核对拟答（非官方）',
+                       'answerProvenance': 'user-correction' if n == 21 else 'assistant-draft',
                        'explanation': display_explanation(n),
                        **({'acceptedAnswers': ACCEPTED_ALTERNATIVES[n]} if n in ACCEPTED_ALTERNATIVES else {}),
                        **({'answerReviewNote': '原题表述/题型口径需复核，详见答后解析'} if n in REVIEW_QUESTIONS else {}),
