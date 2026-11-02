@@ -5,6 +5,7 @@ import './mnemonics.css'
 import './supplement-tests.css'
 import { questionBankUrl, scopeTestContent, studyViewUrl, testCollectionForSubject } from './supplement-tests.js'
 import testCatalog from './data/supplement-tests-catalog.json'
+import exam2017Catalog from './data/2017-exam-catalog.json'
 import { applyReviewedEvidence, lectureForStem } from './med-lecture-evidence.js'
 import { organizePoliticsContent } from './politics-navigation.js'
 import { migratePoliticsAnswers, sourceStemNumber } from './politics-answers.js'
@@ -15,8 +16,9 @@ import { EncouragementDialog, usePracticeEncouragement, VisitorCount } from './S
 import { groupHasResponses } from './study-milestones.js'
 
 const MnemonicLibrary = lazy(() => import('./MnemonicLibrary.jsx'))
-const TEST_COLLECTIONS = Object.fromEntries([...new Set(testCatalog.map(paper => paper.subject))].map(subject => [subject, testCollectionForSubject(testCatalog, subject)]))
-const TEST_SOURCE_CATEGORIES = new Map(testCatalog.flatMap(source => source.groupIds.map(id => [id, source.category])))
+const ALL_TEST_CATALOG = [...testCatalog, ...exam2017Catalog]
+const TEST_COLLECTIONS = Object.fromEntries([...new Set(ALL_TEST_CATALOG.map(paper => paper.subject))].map(subject => [subject, testCollectionForSubject(ALL_TEST_CATALOG, subject)]))
+const TEST_SOURCE_CATEGORIES = new Map(ALL_TEST_CATALOG.flatMap(source => source.groupIds.map(id => [id, source.category])))
 
 const SUBJECTS = {
   politics: {
@@ -86,9 +88,12 @@ const appendSupplement = (content, supplement) => ({
     groupCount: content.groups.length + supplement.groups.length,
     stemCount: [...content.groups, ...supplement.groups].reduce((count, group) => count + group.stems.length, 0),
     supplementCount: supplement.groups.length,
+    lectureCount: unique([...(content.lectures || []).map(lecture => lecture.id), ...(supplement.lectures || []).map(lecture => lecture.id)]).length,
   },
+  topics: unique([...(content.topics || []), ...(supplement.topics || [])]),
   groups: [...content.groups, ...supplement.groups],
   pages: [...content.pages, ...supplement.pages],
+  lectures: [...(content.lectures || []), ...(supplement.lectures || []).filter(lecture => !(content.lectures || []).some(existing => existing.id === lecture.id))],
 })
 
 const CONTENT_LOADERS = {
@@ -106,49 +111,58 @@ const CONTENT_LOADERS = {
     return organizePoliticsContent(practice, matching, technique, bookCompletion, techniqueCompletion, dailySelftest)
   },
   med: async () => {
-    const [content, homework, exam, practitioner, reviewedEvidence, remainingEvidence] = await Promise.all([
+    const [content, homework, exam, practitioner, exam2017, reviewedEvidence, remainingEvidence] = await Promise.all([
       loadJson(() => import('./data/med-data.json')),
       loadJson(() => import('./data/med-teacher-supplement.json')),
       loadJson(() => import('./data/med-stage-exam-data.json')),
       loadJson(() => import('./data/med-practitioner-upper-data.json')),
+      loadJson(() => import('./data/med-2017-exam-data.json')),
       loadJson(() => import('./data/med-reviewed-lecture-evidence.json')),
       loadJson(() => import('./data/med-remaining-reviewed-lecture-evidence.json')),
     ])
     return applyReviewedEvidence(appendSupplement(content, {
-      groups: [...homework.groups, ...exam.groups, ...practitioner.groups],
-      pages: [...homework.pages, ...exam.pages, ...practitioner.pages],
+      groups: [...homework.groups, ...exam.groups, ...practitioner.groups, ...exam2017.groups],
+      pages: [...homework.pages, ...exam.pages, ...practitioner.pages, ...exam2017.pages],
+      topics: exam2017.topics,
+      lectures: exam2017.lectures,
     }), reviewedEvidence, remainingEvidence)
   },
   pathology: async () => {
-    const [content, homework, exam, reviewedEvidence] = await Promise.all([
+    const [content, homework, exam, exam2017, reviewedEvidence] = await Promise.all([
       loadJson(() => import('./data/pathology-data.json')),
       loadJson(() => import('./data/pathology-teacher-supplement.json')),
       loadJson(() => import('./data/pathology-stage-exam-data.json')),
+      loadJson(() => import('./data/pathology-2017-exam-data.json')),
       loadJson(() => import('./data/pathology-reviewed-lecture-evidence.json')),
     ])
     return applyReviewedEvidence(appendSupplement({
       ...content,
       topics: unique([...content.topics.filter((topic) => topic !== '综合'), ...exam.topics, '综合']),
     }, {
-      groups: [...homework.groups, ...exam.groups],
-      pages: [...homework.pages, ...exam.pages],
+      groups: [...homework.groups, ...exam.groups, ...exam2017.groups],
+      pages: [...homework.pages, ...exam.pages, ...exam2017.pages],
+      topics: exam2017.topics,
+      lectures: exam2017.lectures,
     }), reviewedEvidence)
   },
   physiology: async () => {
-    const [content, supplement, exam, endocrineSummary, reviewedEvidence] = await Promise.all([
+    const [content, supplement, exam, endocrineSummary, exam2017, reviewedEvidence] = await Promise.all([
       loadJson(() => import('./data/physiology-data.json')),
       loadJson(() => import('./data/physiology-teacher-supplement.json')),
       loadJson(() => import('./data/physiology-stage-exam-data.json')),
       loadJson(() => import('./data/physiology-endocrine-summary-data.json')),
+      loadJson(() => import('./data/physiology-2017-exam-data.json')),
       loadJson(() => import('./data/physiology-reviewed-lecture-evidence.json')),
     ])
     return applyReviewedEvidence(appendSupplement(content, {
-      groups: [...supplement.groups, ...exam.groups, ...endocrineSummary.groups],
-      pages: [...supplement.pages, ...exam.pages, ...endocrineSummary.pages],
+      groups: [...supplement.groups, ...exam.groups, ...endocrineSummary.groups, ...exam2017.groups],
+      pages: [...supplement.pages, ...exam.pages, ...endocrineSummary.pages, ...exam2017.pages],
+      topics: exam2017.topics,
+      lectures: exam2017.lectures,
     }), reviewedEvidence)
   },
   surgery: async () => {
-    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent, surgeryTeacherContent, surgeryExamContent, surgeryPractitionerContent, updatedEvidence] = await Promise.all([
+    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent, surgeryTeacherContent, surgeryExamContent, surgeryPractitionerContent, surgery2017Content, updatedEvidence] = await Promise.all([
       loadJson(() => import('./data/surgery-data.json')),
       loadJson(() => import('./data/surgery-fracture-data.json')),
       loadJson(() => import('./data/surgery-deformity-data.json')),
@@ -166,6 +180,7 @@ const CONTENT_LOADERS = {
       loadJson(() => import('./data/surgery-teacher-supplement.json')),
       loadJson(() => import('./data/surgery-stage-exam-data.json')),
       loadJson(() => import('./data/surgery-practitioner-upper-data.json')),
+      loadJson(() => import('./data/surgery-2017-exam-data.json')),
       loadJson(() => import('./data/surgery-updated-lecture-evidence.json')),
     ])
     return applyReviewedEvidence(appendSupplement({
@@ -175,12 +190,14 @@ const CONTENT_LOADERS = {
       topics: [...surgeryContent.topics.filter((topic) => topic !== '综合'), '骨科', '外科总论', '综合'],
       groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryChronicInjuryContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryNonpurulentArthritisContent.groups, ...surgeryBoneTumorContent.groups, ...surgeryTrunkSpineContent.groups, ...surgeryDegenerativeSpineContent.groups, ...surgeryLimbFractureContent.groups, ...surgeryGeneralCoreContent.groups, ...surgeryGeneralLateContent.surgeryGeneralInfectionGroups, ...surgeryGeneralContent.groups, ...surgeryGeneralLateContent.surgeryGeneralLaterGroups],
     }, {
-      groups: [...surgeryTeacherContent.groups, ...surgeryExamContent.groups, ...surgeryPractitionerContent.groups],
-      pages: [...surgeryTeacherContent.pages, ...surgeryExamContent.pages, ...surgeryPractitionerContent.pages],
+      groups: [...surgeryTeacherContent.groups, ...surgeryExamContent.groups, ...surgeryPractitionerContent.groups, ...surgery2017Content.groups],
+      pages: [...surgeryTeacherContent.pages, ...surgeryExamContent.pages, ...surgeryPractitionerContent.pages, ...surgery2017Content.pages],
+      topics: surgery2017Content.topics,
+      lectures: surgery2017Content.lectures,
     }), updatedEvidence)
   },
   biochemistry: async () => {
-    const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content, biochemistryLecture14Content, biochemistryLecture15Content, biochemistryLecture16Content, biochemistryLecture17Content, biochemistryLecture18Content, biochemistryLecture19Content, biochemistryLecture20Content, biochemistryTeacherContent, biochemistryExamContent, reviewedEvidence] = await Promise.all([
+    const [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content, biochemistryLecture14Content, biochemistryLecture15Content, biochemistryLecture16Content, biochemistryLecture17Content, biochemistryLecture18Content, biochemistryLecture19Content, biochemistryLecture20Content, biochemistryTeacherContent, biochemistryExamContent, biochemistry2017Content, reviewedEvidence] = await Promise.all([
       loadJson(() => import('./data/biochemistry-data.json')),
       loadJson(() => import('./data/biochemistry-lecture2-data.json')),
       loadJson(() => import('./data/biochemistry-lecture3-data.json')),
@@ -203,6 +220,7 @@ const CONTENT_LOADERS = {
       loadJson(() => import('./data/biochemistry-lecture20-data.json')),
       loadJson(() => import('./data/biochemistry-teacher-supplement.json')),
       loadJson(() => import('./data/biochemistry-stage-exam-data.json')),
+      loadJson(() => import('./data/biochemistry-2017-exam-data.json')),
       loadJson(() => import('./data/biochemistry-reviewed-lecture-evidence.json')),
     ])
     const allContents = [biochemistryContent, biochemistryLecture2Content, biochemistryLecture3Content, biochemistryLecture4Content, biochemistryLecture5Content, biochemistryLecture6Content, biochemistryLecture7Content, biochemistryLecture8Content, biochemistryLecture9Content, biochemistryLecture10Content, biochemistryLecture11Content, biochemistryLecture12Content, biochemistryLecture13Content, biochemistryLecture14Content, biochemistryLecture15Content, biochemistryLecture16Content, biochemistryLecture17Content, biochemistryLecture18Content, biochemistryLecture19Content, biochemistryLecture20Content]
@@ -225,13 +243,16 @@ const CONTENT_LOADERS = {
       pages: allContents.flatMap((content) => content.pages),
       lectures: allContents.flatMap((content) => content.lectures),
     }, {
-      groups: [...biochemistryTeacherContent.groups, ...biochemistryExamContent.groups],
-      pages: [...biochemistryTeacherContent.pages, ...biochemistryExamContent.pages],
+      groups: [...biochemistryTeacherContent.groups, ...biochemistryExamContent.groups, ...biochemistry2017Content.groups],
+      pages: [...biochemistryTeacherContent.pages, ...biochemistryExamContent.pages, ...biochemistry2017Content.pages],
+      topics: biochemistry2017Content.topics,
+      lectures: biochemistry2017Content.lectures,
     }), reviewedEvidence)
   },
 }
 
 const TOPIC_ICONS = {
+  医学人文: 'book',
   呼吸: 'lungs',
   消化: 'stomach',
   肾脏: 'kidney',
@@ -663,6 +684,7 @@ function navigationLectureIds(subject, group) {
   const range = MED_LECTURE_TOPIC_RANGES[group.topic]
   if (!range) return unique(ids.map((id) => String(id)).filter(Boolean))
   return unique(ids.map((id) => String(id)).filter(Boolean)).filter((id) => {
+    if (!/^lecture-\d+$/.test(id)) return true
     const number = Number(String(id).replace('lecture-', ''))
     return number >= range[0] && number <= range[1]
   })
@@ -734,7 +756,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   const searchInputRef = useRef(null)
   const [typeFilter, setTypeFilter] = useState('全部题型')
   const [testSourceFilter, setTestSourceFilter] = useState('')
-  const testSourceCategories = useMemo(() => [...new Set(testCatalog.filter(source => source.subject === subject).map(source => source.category))], [subject])
+  const testSourceCategories = useMemo(() => [...new Set(ALL_TEST_CATALOG.filter(source => source.subject === subject).map(source => source.category))], [subject])
   const [groupIndex, setGroupIndex] = useState(0)
   const [jumpGroupId, setJumpGroupId] = useState('')
   const [selections, setSelections] = useState({})
@@ -773,7 +795,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     }
     const savedMnemonics = readLocalStorage('study-mnemonic-favorites-v1', [])
     setMnemonicFavorites(Array.isArray(savedMnemonics) ? savedMnemonics.filter(id => typeof id === 'string') : [])
-    const requestedSubject = params.get('subject') || testCatalog.find(paper => paper.id === params.get('paper'))?.subject
+    const requestedSubject = params.get('subject') || ALL_TEST_CATALOG.find(paper => paper.id === params.get('paper'))?.subject
     const storedSubject = SUBJECTS[requestedSubject] ? requestedSubject : readLocalStorage('study-subject', 'med')
     const nextSubject = testPaper?.subject || (SUBJECTS[storedSubject] ? storedSubject : 'med')
     setSubject(nextSubject)
@@ -1704,6 +1726,7 @@ function EvidencePanel({ subject, content, group, page, sourceName, submitted, s
         <div className="all-lectures">查看全部 {content.meta.lectureCount} 份讲义 <Icon name="right" size={15} /></div>
       </div>
       {group.lectureEvidenceNotice ? <p className="lecture-evidence-notice">{group.lectureEvidenceNotice}</p> : null}
+      {group.lectureSummary?.length ? <div className="evidence-section lecture-summary"><div className="lecture-summary-heading"><span>讲义要点</span><strong>{group.title}</strong></div><ul>{group.lectureSummary.map((item, index) => <li key={index}>{item}</li>)}</ul></div> : null}
       {evidencePages.map((evidence) => <div className="evidence-section lecture-proof" key={evidence.image}><div className="lecture-proof-heading"><span>{evidence.questionNumbers?.length ? `第 ${evidence.questionNumbers.join('、')} 题对应讲义` : '对应讲义页'}{evidence.optionKeys?.length ? ` · 选项 ${evidence.optionKeys.join('、')}` : ''}</span><strong>{evidence.title}</strong><p>{evidence.knowledgePoints?.length ? `${evidence.knowledgePoints.join('；')}。点击图片放大查看。` : '本题组对应的讲义原页，可点击图片放大查看。'}</p></div><button className="lecture-proof-image" onClick={() => setShowLectureEvidence(evidence)} aria-label={`放大查看${evidence.title}`}><img src={assetPath(evidence.image)} alt={`${evidence.title}原页`} loading="lazy" /><span><Icon name="eye" size={16} />点击放大查看讲义原页</span></button></div>)}
       {page?.image ? <div className="source-thumb"><img src={assetPath(page.image)} alt={`题库原题第 ${group.page} 页`} /><button onClick={() => setShowSource(true)}><Icon name="eye" size={16} /></button></div> : null}
       </div>

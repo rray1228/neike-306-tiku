@@ -336,6 +336,12 @@ button:disabled { cursor: default; }
 .lecture-item .relevance { flex: 0 0 auto; color: var(--green); border-radius: 4px; padding: 3px 5px; background: var(--green-soft); }
 .all-lectures { display: flex; justify-content: center; align-items: center; gap: 5px; padding: 12px 0 9px; color: var(--blue); font-size: 12px; cursor: pointer; }
 .lecture-proof { border-color: #cfe5d9; background: #fbfffd; }
+.lecture-summary { border-color: #eadcae; background: #fffdf5; }
+.lecture-summary-heading { padding: 14px 15px 8px; }
+.lecture-summary-heading span { display: block; margin-bottom: 5px; color: #9a6c18; font-size: 11px; font-weight: 800; letter-spacing: .08em; }
+.lecture-summary-heading strong { color: #5e4c2b; font-size: 13px; }
+.lecture-summary ul { margin: 0; padding: 0 18px 14px 32px; color: #66583d; font-size: 12px; line-height: 1.7; }
+.lecture-summary li + li { margin-top: 6px; }
 .lecture-proof-heading { padding: 14px 15px 12px; }
 .lecture-proof-heading span { display: block; margin-bottom: 6px; color: var(--green); font-size: 11px; font-weight: 700; letter-spacing: .05em; }
 .lecture-proof-heading strong { display: block; color: #2f4c3f; font-size: 13px; }

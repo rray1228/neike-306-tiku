@@ -1,0 +1,1904 @@
+{
+  "meta": {
+    "sourceLabel": "2017年临床医学综合能力（西医）真题",
+    "answerNote": "答案按用户提供的答案图录入",
+    "groupCount": 22,
+    "stemCount": 22,
+    "lectureCount": 0
+  },
+  "topics": [
+    "全部",
+    "损伤与修复",
+    "局部血液循环障碍",
+    "炎症",
+    "传染病",
+    "呼吸系统",
+    "综合",
+    "肿瘤",
+    "生殖系统",
+    "免疫性疾病"
+  ],
+  "pages": [],
+  "lectures": [],
+  "groups": [
+    {
+      "id": "exam-2017-pathology-q029",
+      "page": 5,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "29",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第29题 · 适应和损伤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "多是片状细胞死亡"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "细胞核固缩、碎裂"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "常为炎症反应和修复再生"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "细胞膜完整，发泡成芽"
+        }
+      ],
+      "stems": [
+        {
+          "number": 29,
+          "sourceQuestion": 29,
+          "sourcePage": 5,
+          "text": "以下形态学改变中属于凋亡特征的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-23",
+          "explanation": "凋亡多累及散在细胞，细胞膜保持完整并出芽形成凋亡小体，通常不引起明显炎症。",
+          "knowledgeConnections": [
+            "讲义定位：病理 适应和损伤",
+            "必会项：D. 细胞膜完整，发泡成芽",
+            "易混对照：A. 多是片状细胞死亡 ；B. 细胞核固缩、碎裂 ；C. 常为炎症反应和修复再生"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 适应和损伤",
+        "答案依据：D. 细胞膜完整，发泡成芽",
+        "凋亡多累及散在细胞，细胞膜保持完整并出芽形成凋亡小体，通常不引起明显炎症。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 13,
+        "image": "pathology/lecture-pages/lecture-23-page-13.webp",
+        "title": "第23讲第13页：病理 适应和损伤",
+        "sourceFile": "对应讲义",
+        "description": "2017年真题第29题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 适应和损伤",
+          "凋亡多累及散在细胞，细胞膜保持完整并出芽形成凋亡小体，通常不引起明显炎症。"
+        ],
+        "questionNumbers": [
+          29
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q030",
+      "page": 6,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "30",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第30题 · 局部血液循环障碍",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "局部血液循环障碍",
+      "lectureIds": [
+        "lecture-24"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肺静脉小分支破裂"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肺动脉小分支破裂"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肺静脉端毛细血管漏出增加"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肺动脉端毛细血管漏出增加"
+        }
+      ],
+      "stems": [
+        {
+          "number": 30,
+          "sourceQuestion": 30,
+          "sourcePage": 6,
+          "text": "急性左心功能衰竭导致肺出血的原因是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-24",
+          "explanation": "急性左心衰使肺静脉及静脉端毛细血管压骤升，红细胞由毛细血管漏出。",
+          "knowledgeConnections": [
+            "讲义定位：病理 局部血液循环障碍",
+            "必会项：C. 肺静脉端毛细血管漏出增加",
+            "易混对照：A. 肺静脉小分支破裂 ；B. 肺动脉小分支破裂 ；D. 肺动脉端毛细血管漏出增加"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 局部血液循环障碍",
+        "答案依据：C. 肺静脉端毛细血管漏出增加",
+        "急性左心衰使肺静脉及静脉端毛细血管压骤升，红细胞由毛细血管漏出。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-24",
+        "page": 3,
+        "image": "pathology/lecture-pages/lecture-24-page-03.webp",
+        "title": "第24讲第3页：病理 局部血液循环障碍",
+        "sourceFile": "对应讲义",
+        "description": "2017年真题第30题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 局部血液循环障碍",
+          "急性左心衰使肺静脉及静脉端毛细血管压骤升，红细胞由毛细血管漏出。"
+        ],
+        "questionNumbers": [
+          30
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q031",
+      "page": 6,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "31",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第31题 · 炎症",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "炎症",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "术后缝线反应"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "风湿小结"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "结核结节"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "黏液潴留结节"
+        }
+      ],
+      "stems": [
+        {
+          "number": 31,
+          "sourceQuestion": 31,
+          "sourcePage": 6,
+          "text": "以下肉芽肿中常见有 Langhans 巨细胞的是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-25",
+          "explanation": "Langhans巨细胞是结核性肉芽肿的典型组成，其多个细胞核常排列于胞质周边。",
+          "knowledgeConnections": [
+            "讲义定位：病理 炎症",
+            "必会项：C. 结核结节",
+            "易混对照：A. 术后缝线反应 ；B. 风湿小结 ；D. 黏液潴留结节"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 炎症",
+        "答案依据：C. 结核结节",
+        "Langhans巨细胞是结核性肉芽肿的典型组成，其多个细胞核常排列于胞质周边。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "page": 7,
+        "image": "pathology/lecture-pages/lecture-25-page-07.webp",
+        "title": "第25讲第7页：病理 炎症",
+        "sourceFile": "对应讲义",
+        "description": "2017年真题第31题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 炎症",
+          "Langhans巨细胞是结核性肉芽肿的典型组成，其多个细胞核常排列于胞质周边。"
+        ],
+        "questionNumbers": [
+          31
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q032",
+      "page": 6,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "32",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第32题 · 结核",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "传染病",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肝癌肺转移"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "小叶性肺炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "血源性播散性结核"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "栓塞性肺脓肿"
+        }
+      ],
+      "stems": [
+        {
+          "number": 32,
+          "sourceQuestion": 32,
+          "sourcePage": 6,
+          "text": "尸检病理见脏层胸膜内多发、粟粒大小、一致性硬结节，应首先考虑",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-20",
+          "explanation": "胸膜上多发、均一的粟粒大小硬结节符合血行播散性结核的粟粒样病变。",
+          "knowledgeConnections": [
+            "讲义定位：病理 结核",
+            "必会项：C. 血源性播散性结核",
+            "易混对照：A. 肝癌肺转移 ；B. 小叶性肺炎 ；D. 栓塞性肺脓肿"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 结核",
+        "答案依据：C. 血源性播散性结核",
+        "胸膜上多发、均一的粟粒大小硬结节符合血行播散性结核的粟粒样病变。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "page": 5,
+        "image": "pathology/lecture-pages/lecture-20-page-05.webp",
+        "title": "第20讲第5页：病理 结核",
+        "sourceFile": "对应讲义",
+        "description": "2017年真题第32题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 结核",
+          "胸膜上多发、均一的粟粒大小硬结节符合血行播散性结核的粟粒样病变。"
+        ],
+        "questionNumbers": [
+          32
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q033",
+      "page": 6,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "33",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第33题 · 适应和损伤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "急进性高血压"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "良性高血压"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "心肌病"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肺动脉高压"
+        }
+      ],
+      "stems": [
+        {
+          "number": 33,
+          "sourceQuestion": 33,
+          "sourcePage": 6,
+          "text": "小血管壁纤维素性坏死常见的疾病是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-23",
+          "explanation": "急进性高血压时小动脉壁可发生纤维素样坏死；良性高血压多见玻璃样变。",
+          "knowledgeConnections": [
+            "讲义定位：病理 适应和损伤",
+            "必会项：A. 急进性高血压",
+            "易混对照：B. 良性高血压 ；C. 心肌病 ；D. 肺动脉高压"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 适应和损伤",
+        "答案依据：A. 急进性高血压",
+        "急进性高血压时小动脉壁可发生纤维素样坏死；良性高血压多见玻璃样变。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 13,
+        "image": "pathology/lecture-pages/lecture-23-page-13.webp",
+        "title": "第23讲第13页：病理 适应和损伤",
+        "sourceFile": "对应讲义",
+        "description": "2017年真题第33题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 适应和损伤",
+          "急进性高血压时小动脉壁可发生纤维素样坏死；良性高血压多见玻璃样变。"
+        ],
+        "questionNumbers": [
+          33
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q034",
+      "page": 6,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "34",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第34题 · 肺炎",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肺泡间隔水肿，炎细胞浸润"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "常有肺泡结构破坏"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肺泡内壁常有大量纤维素渗出"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "局部区域中性粒细胞浸润"
+        }
+      ],
+      "stems": [
+        {
+          "number": 34,
+          "sourceQuestion": 34,
+          "sourcePage": 6,
+          "text": "以下病理改变中，属于病毒性肺炎的是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-14",
+          "explanation": "病毒性肺炎主要累及肺间质，表现为肺泡间隔水肿及单核细胞浸润。",
+          "knowledgeConnections": [
+            "讲义定位：病理 肺炎",
+            "必会项：A. 肺泡间隔水肿，炎细胞浸润",
+            "易混对照：B. 常有肺泡结构破坏 ；C. 肺泡内壁常有大量纤维素渗出 ；D. 局部区域中性粒细胞浸润"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 肺炎",
+        "答案依据：A. 肺泡间隔水肿，炎细胞浸润",
+        "病毒性肺炎主要累及肺间质，表现为肺泡间隔水肿及单核细胞浸润。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "page": 4,
+        "image": "pathology/lecture-pages/lecture-14-page-04.webp",
+        "title": "第14讲第4页：病理 肺炎",
+        "sourceFile": "对应讲义",
+        "description": "2017年真题第34题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 肺炎",
+          "病毒性肺炎主要累及肺间质，表现为肺泡间隔水肿及单核细胞浸润。"
+        ],
+        "questionNumbers": [
+          34
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q035",
+      "page": 7,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "35",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第35题 · 病毒性肝炎",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "综合",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "HAV"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "HBV"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "HCV"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "HEV"
+        }
+      ],
+      "stems": [
+        {
+          "number": 35,
+          "sourceQuestion": 35,
+          "sourcePage": 7,
+          "text": "可引起肝细胞毛玻璃样变性的病原体是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-02",
+          "explanation": "HBV表面抗原在肝细胞内质网蓄积，可使胞质呈毛玻璃样外观。",
+          "knowledgeConnections": [
+            "讲义定位：病理 病毒性肝炎",
+            "必会项：B. HBV",
+            "易混对照：A. HAV ；C. HCV ；D. HEV"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 病毒性肝炎",
+        "答案依据：B. HBV",
+        "HBV表面抗原在肝细胞内质网蓄积，可使胞质呈毛玻璃样外观。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "page": 9,
+        "image": "site-assets/pathology-review-20261025/page-009.avif",
+        "title": "病理精编第2讲 · 病毒性肝炎 · 合集第9页",
+        "sourceFile": "27病理精编版合集【带导图】.pdf",
+        "description": "2017年真题第35题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 病毒性肝炎",
+          "HBV表面抗原在肝细胞内质网蓄积，可使胞质呈毛玻璃样外观。"
+        ],
+        "questionNumbers": [
+          35
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q036",
+      "page": 7,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "36",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第36题 · 结核",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "传染病",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "阿米巴肠病"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "伤寒"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "痢疾"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肠结核"
+        }
+      ],
+      "stems": [
+        {
+          "number": 36,
+          "sourceQuestion": 36,
+          "sourcePage": 7,
+          "text": "以下选项中容易导致肠腔狭窄的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-20",
+          "explanation": "肠结核尤其增生型病变可引起肠壁增厚、纤维化和肠腔狭窄。",
+          "knowledgeConnections": [
+            "讲义定位：病理 结核",
+            "必会项：D. 肠结核",
+            "易混对照：A. 阿米巴肠病 ；B. 伤寒 ；C. 痢疾"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 结核",
+        "答案依据：D. 肠结核",
+        "肠结核尤其增生型病变可引起肠壁增厚、纤维化和肠腔狭窄。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "page": 5,
+        "image": "pathology/lecture-pages/lecture-20-page-05.webp",
+        "title": "第20讲第5页：病理 结核",
+        "sourceFile": "对应讲义",
+        "description": "2017年真题第36题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 结核",
+          "肠结核尤其增生型病变可引起肠壁增厚、纤维化和肠腔狭窄。"
+        ],
+        "questionNumbers": [
+          36
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q037",
+      "page": 7,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "37",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第37题 · 炎症",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "炎症",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "变质性炎症"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "增生性炎症"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "化脓性炎症"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肉芽肿性炎症"
+        }
+      ],
+      "stems": [
+        {
+          "number": 37,
+          "sourceQuestion": 37,
+          "sourcePage": 7,
+          "text": "慢性肾盂肾炎的炎症性质是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-25",
+          "explanation": "慢性肾盂肾炎本质为化脓性炎，可见肾间质慢性炎细胞浸润和瘢痕。",
+          "knowledgeConnections": [
+            "讲义定位：病理 炎症",
+            "必会项：C. 化脓性炎症",
+            "易混对照：A. 变质性炎症 ；B. 增生性炎症 ；D. 肉芽肿性炎症"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 炎症",
+        "答案依据：C. 化脓性炎症",
+        "慢性肾盂肾炎本质为化脓性炎，可见肾间质慢性炎细胞浸润和瘢痕。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "page": 2,
+        "image": "exams/sprint-exam-20261021/lecture-133.webp",
+        "title": "病理学第21讲《病理 其它传染病》",
+        "sourceFile": "21 27考研：病理 其它传染病 核心-真题-串联-导图 天天师兄.pdf",
+        "description": "2017年真题第37题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 炎症",
+          "慢性肾盂肾炎本质为化脓性炎，可见肾间质慢性炎细胞浸润和瘢痕。"
+        ],
+        "questionNumbers": [
+          37
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q038",
+      "page": 7,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "38",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第38题 · 肿瘤",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肿瘤",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "霍奇金淋巴瘤"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "T 细胞淋巴瘤"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Burkitt 淋巴瘤"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "弥漫性大 B 细胞淋巴瘤"
+        }
+      ],
+      "stems": [
+        {
+          "number": 38,
+          "sourceQuestion": 38,
+          "sourcePage": 7,
+          "text": "在淋巴结活检切片中见到单核、双核的大细胞，核仁明显，呈红色，首先考虑 的疾病",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-26",
+          "explanation": "单核或双核巨细胞、明显嗜酸性大核仁提示Reed-Sternberg细胞，首先考虑霍奇金淋巴瘤。",
+          "knowledgeConnections": [
+            "讲义定位：病理 肿瘤",
+            "必会项：A. 霍奇金淋巴瘤",
+            "易混对照：B. T 细胞淋巴瘤 ；C. Burkitt 淋巴瘤 ；D. 弥漫性大 B 细胞淋巴瘤"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 肿瘤",
+        "答案依据：A. 霍奇金淋巴瘤",
+        "单核或双核巨细胞、明显嗜酸性大核仁提示Reed-Sternberg细胞，首先考虑霍奇金淋巴瘤。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "page": 1,
+        "image": "exams/sprint-exam-20261021/precise-36.webp",
+        "title": "35 27考研：内科含诊断+病理 淋巴瘤 ",
+        "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "description": "2017年真题第38题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 肿瘤",
+          "单核或双核巨细胞、明显嗜酸性大核仁提示Reed-Sternberg细胞，首先考虑霍奇金淋巴瘤。"
+        ],
+        "questionNumbers": [
+          38
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q039",
+      "page": 7,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "39",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第39题 · 生殖系统疾病",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "生殖系统",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "葡萄胎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "侵袭性葡萄胎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "绒毛状腺瘤"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "绒毛膜上皮癌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 39,
+          "sourceQuestion": 39,
+          "sourcePage": 7,
+          "text": "在子宫肌层内发现水肿的绒毛，诊断为",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-18",
+          "explanation": "水肿绒毛侵入子宫肌层是侵袭性葡萄胎的关键病理特征。",
+          "knowledgeConnections": [
+            "讲义定位：病理 生殖系统疾病",
+            "必会项：B. 侵袭性葡萄胎",
+            "易混对照：A. 葡萄胎 ；C. 绒毛状腺瘤 ；D. 绒毛膜上皮癌"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 生殖系统疾病",
+        "答案依据：B. 侵袭性葡萄胎",
+        "水肿绒毛侵入子宫肌层是侵袭性葡萄胎的关键病理特征。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "page": 10,
+        "image": "pathology/lecture-pages/lecture-18-page-10.webp",
+        "title": "第18讲第10页：病理 生殖系统疾病",
+        "sourceFile": "对应讲义",
+        "description": "2017年真题第39题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 生殖系统疾病",
+          "水肿绒毛侵入子宫肌层是侵袭性葡萄胎的关键病理特征。"
+        ],
+        "questionNumbers": [
+          39
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q040",
+      "page": 7,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "40",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第40题 · 免疫性疾病",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "免疫性疾病",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "纤维素"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "血小板凝块"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "血小板凝块和低毒化脓菌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "纤维素网格和血小板小梁"
+        }
+      ],
+      "stems": [
+        {
+          "number": 40,
+          "sourceQuestion": 40,
+          "sourcePage": 7,
+          "text": "系统性红斑狼疮所致的疣状心内膜炎，其赘生物的主要成分是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-17",
+          "explanation": "SLE的Libman-Sacks心内膜炎赘生物为无菌性纤维素与血小板沉积。",
+          "knowledgeConnections": [
+            "讲义定位：病理 免疫性疾病",
+            "必会项：B. 血小板凝块",
+            "易混对照：A. 纤维素 ；C. 血小板凝块和低毒化脓菌 ；D. 纤维素网格和血小板小梁"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 免疫性疾病",
+        "答案依据：B. 血小板凝块",
+        "SLE的Libman-Sacks心内膜炎赘生物为无菌性纤维素与血小板沉积。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "page": 5,
+        "image": "pathology/lecture-pages/lecture-17-page-05.webp",
+        "title": "第17讲第5页：病理 免疫性疾病",
+        "sourceFile": "对应讲义",
+        "description": "2017年真题第40题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 免疫性疾病",
+          "SLE的Libman-Sacks心内膜炎赘生物为无菌性纤维素与血小板沉积。"
+        ],
+        "questionNumbers": [
+          40
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q124",
+      "page": 23,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "124",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第124题 · 高血压",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "answerLayout": "rows",
+      "topic": "综合",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "动脉玻璃样变性"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "动脉纤维素样变性"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "动脉粥样硬化"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "动脉中层钙化"
+        }
+      ],
+      "stems": [
+        {
+          "number": 124,
+          "sourceQuestion": 124,
+          "sourcePage": 23,
+          "text": "高血压病常见的血管病变是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-08",
+          "explanation": "良性高血压的典型小动脉病变是玻璃样变，管壁增厚、管腔狭窄。",
+          "knowledgeConnections": [
+            "讲义定位：病理 高血压",
+            "必会项：A. 动脉玻璃样变性",
+            "易混对照：B. 动脉纤维素样变性 ；C. 动脉粥样硬化 ；D. 动脉中层钙化"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 高血压",
+        "答案依据：A. 动脉玻璃样变性",
+        "良性高血压的典型小动脉病变是玻璃样变，管壁增厚、管腔狭窄。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "page": 1,
+        "image": "exams/sprint-exam-20261021/lecture-156.webp",
+        "title": "08 27考研：病理 高血压",
+        "sourceFile": "08 27考研：病理 高血压 核心-真题-串联-导图 天天师兄.pdf",
+        "description": "2017年真题第124题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 高血压",
+          "良性高血压的典型小动脉病变是玻璃样变，管壁增厚、管腔狭窄。"
+        ],
+        "questionNumbers": [
+          124
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q125",
+      "page": 23,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "125",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第125题 · 高血压",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "answerLayout": "rows",
+      "topic": "综合",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "动脉玻璃样变性"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "动脉纤维素样变性"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "动脉粥样硬化"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "动脉中层钙化"
+        }
+      ],
+      "stems": [
+        {
+          "number": 125,
+          "sourceQuestion": 125,
+          "sourcePage": 23,
+          "text": "心肌梗死常见的冠状动脉病变是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-08",
+          "explanation": "心肌梗死最常见的基础病变是冠状动脉粥样硬化旑块破裂并血栓形成。",
+          "knowledgeConnections": [
+            "讲义定位：病理 高血压",
+            "必会项：C. 动脉粥样硬化",
+            "易混对照：A. 动脉玻璃样变性 ；B. 动脉纤维素样变性 ；D. 动脉中层钙化"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 高血压",
+        "答案依据：C. 动脉粥样硬化",
+        "心肌梗死最常见的基础病变是冠状动脉粥样硬化旑块破裂并血栓形成。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "page": 1,
+        "image": "exams/sprint-exam-20261021/lecture-156.webp",
+        "title": "08 27考研：病理 高血压",
+        "sourceFile": "08 27考研：病理 高血压 核心-真题-串联-导图 天天师兄.pdf",
+        "description": "2017年真题第125题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 高血压",
+          "心肌梗死最常见的基础病变是冠状动脉粥样硬化旑块破裂并血栓形成。"
+        ],
+        "questionNumbers": [
+          125
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q126",
+      "page": 23,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "126",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第126题 · 炎症",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "answerLayout": "rows",
+      "topic": "炎症",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "化脓性炎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "变质性炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "浆液性炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "纤维素性炎"
+        }
+      ],
+      "stems": [
+        {
+          "number": 126,
+          "sourceQuestion": 126,
+          "sourcePage": 23,
+          "text": "急性蜂窝状炎性阑尾炎的病理特点为",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-25",
+          "explanation": "急性蜂窝织炎性阑尾炎以中性粒细胞弥漫浸润阑尾壁为特征，属化脓性炎。",
+          "knowledgeConnections": [
+            "讲义定位：病理 炎症",
+            "必会项：A. 化脓性炎",
+            "易混对照：B. 变质性炎 ；C. 浆液性炎 ；D. 纤维素性炎"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 炎症",
+        "答案依据：A. 化脓性炎",
+        "急性蜂窝织炎性阑尾炎以中性粒细胞弥漫浸润阑尾壁为特征，属化脓性炎。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "page": 7,
+        "image": "pathology/lecture-pages/lecture-25-page-07.webp",
+        "title": "第25讲第7页：病理 炎症",
+        "sourceFile": "对应讲义",
+        "description": "2017年真题第126题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 炎症",
+          "急性蜂窝织炎性阑尾炎以中性粒细胞弥漫浸润阑尾壁为特征，属化脓性炎。"
+        ],
+        "questionNumbers": [
+          126
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q127",
+      "page": 23,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "127",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第127题 · 炎症",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "answerLayout": "rows",
+      "topic": "炎症",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "化脓性炎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "变质性炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "浆液性炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "纤维素性炎"
+        }
+      ],
+      "stems": [
+        {
+          "number": 127,
+          "sourceQuestion": 127,
+          "sourcePage": 23,
+          "text": "风湿性关节炎的病理特点为",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-25",
+          "explanation": "风湿性关节炎急性期以浆液和纤维素渗出为主，属浆液性炎。",
+          "knowledgeConnections": [
+            "讲义定位：病理 炎症",
+            "必会项：C. 浆液性炎",
+            "易混对照：A. 化脓性炎 ；B. 变质性炎 ；D. 纤维素性炎"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 炎症",
+        "答案依据：C. 浆液性炎",
+        "风湿性关节炎急性期以浆液和纤维素渗出为主，属浆液性炎。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "page": 7,
+        "image": "pathology/lecture-pages/lecture-25-page-07.webp",
+        "title": "第25讲第7页：病理 炎症",
+        "sourceFile": "对应讲义",
+        "description": "2017年真题第127题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 炎症",
+          "风湿性关节炎急性期以浆液和纤维素渗出为主，属浆液性炎。"
+        ],
+        "questionNumbers": [
+          127
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q148",
+      "page": 26,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "148",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第148题 · 肿瘤",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "肿瘤",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肺癌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肝癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "鼻咽癌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "淋巴瘤"
+        }
+      ],
+      "stems": [
+        {
+          "number": 148,
+          "sourceQuestion": 148,
+          "sourcePage": 26,
+          "text": "以下肿瘤中与 EB 病毒发生有关的有",
+          "answerRaw": "CD",
+          "answer": [
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-26",
+          "explanation": "EBV与鼻咽癌及多种淋巴瘤（如Burkitt淋巴瘤）发生密切相关。",
+          "knowledgeConnections": [
+            "讲义定位：病理 肿瘤",
+            "必会项：C. 鼻咽癌 ；D. 淋巴瘤",
+            "易混对照：A. 肺癌 ；B. 肝癌"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 肿瘤",
+        "答案依据：C. 鼻咽癌 ；D. 淋巴瘤",
+        "EBV与鼻咽癌及多种淋巴瘤（如Burkitt淋巴瘤）发生密切相关。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "page": 19,
+        "image": "exams/sprint-exam-20261021/lecture-157.webp",
+        "title": "26 27考研：病理 肿瘤",
+        "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "description": "2017年真题第148题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 肿瘤",
+          "EBV与鼻咽癌及多种淋巴瘤（如Burkitt淋巴瘤）发生密切相关。"
+        ],
+        "questionNumbers": [
+          148
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q149",
+      "page": 26,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "149",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第149题 · 病毒性肝炎",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "综合",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胞浆不透明似毛玻璃样"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胞浆内含淀粉样物质"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胞浆内含 HBsAg(+)"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胞浆内充满嗜酸性细颗粒物质"
+        }
+      ],
+      "stems": [
+        {
+          "number": 149,
+          "sourceQuestion": 149,
+          "sourcePage": 26,
+          "text": "毛玻璃样肝细胞的特点有",
+          "answerRaw": "ACD",
+          "answer": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-02",
+          "explanation": "毛玻璃样肝细胞胞质不透明、呈嗜酸性细颗粒状，内质网蓄积HBsAg，不是淀粉样物质。",
+          "knowledgeConnections": [
+            "讲义定位：病理 病毒性肝炎",
+            "必会项：A. 胞浆不透明似毛玻璃样 ；C. 胞浆内含 HBsAg(+) ；D. 胞浆内充满嗜酸性细颗粒物质",
+            "易混对照：B. 胞浆内含淀粉样物质"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 病毒性肝炎",
+        "答案依据：A. 胞浆不透明似毛玻璃样 ；C. 胞浆内含 HBsAg(+) ；D. 胞浆内充满嗜酸性细颗粒物质",
+        "毛玻璃样肝细胞胞质不透明、呈嗜酸性细颗粒状，内质网蓄积HBsAg，不是淀粉样物质。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "page": 9,
+        "image": "site-assets/pathology-review-20261025/page-009.avif",
+        "title": "病理精编第2讲 · 病毒性肝炎 · 合集第9页",
+        "sourceFile": "27病理精编版合集【带导图】.pdf",
+        "description": "2017年真题第149题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 病毒性肝炎",
+          "毛玻璃样肝细胞胞质不透明、呈嗜酸性细颗粒状，内质网蓄积HBsAg，不是淀粉样物质。"
+        ],
+        "questionNumbers": [
+          149
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q150",
+      "page": 26,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "150",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第150题 · 炎症",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "炎症",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "伤寒小结"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "子宫内膜结核"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "硅肺结节"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "新月体性肾小球肾炎"
+        }
+      ],
+      "stems": [
+        {
+          "number": 150,
+          "sourceQuestion": 150,
+          "sourcePage": 26,
+          "text": "以下病变中属于肉芽肿性炎的有",
+          "answerRaw": "AB",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerMode": "多选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-25",
+          "explanation": "伤寒小结和子宫内膜结核均为巨噬细胞聚集形成的肉芽肿性炎。",
+          "knowledgeConnections": [
+            "讲义定位：病理 炎症",
+            "必会项：A. 伤寒小结 ；B. 子宫内膜结核",
+            "易混对照：C. 硅肺结节 ；D. 新月体性肾小球肾炎"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 炎症",
+        "答案依据：A. 伤寒小结 ；B. 子宫内膜结核",
+        "伤寒小结和子宫内膜结核均为巨噬细胞聚集形成的肉芽肿性炎。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "page": 7,
+        "image": "pathology/lecture-pages/lecture-25-page-07.webp",
+        "title": "第25讲第7页：病理 炎症",
+        "sourceFile": "对应讲义",
+        "description": "2017年真题第150题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 炎症",
+          "伤寒小结和子宫内膜结核均为巨噬细胞聚集形成的肉芽肿性炎。"
+        ],
+        "questionNumbers": [
+          150
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q151",
+      "page": 26,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "151",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第151题 · 生殖系统疾病",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "生殖系统",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "轻度异型增生"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "中度异型增生"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "重度异型增生"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "原位癌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 151,
+          "sourceQuestion": 151,
+          "sourcePage": 26,
+          "text": "属于子宫颈 CIN Ⅲ的有",
+          "answerRaw": "CD",
+          "answer": [
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-18",
+          "explanation": "CINⅢ包括重度异型增生和原位癌，异型细胞累及上皮超过2/3直至全层但未突破基底膜。",
+          "knowledgeConnections": [
+            "讲义定位：病理 生殖系统疾病",
+            "必会项：C. 重度异型增生 ；D. 原位癌",
+            "易混对照：A. 轻度异型增生 ；B. 中度异型增生"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 生殖系统疾病",
+        "答案依据：C. 重度异型增生 ；D. 原位癌",
+        "CINⅢ包括重度异型增生和原位癌，异型细胞累及上皮超过2/3直至全层但未突破基底膜。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "page": 10,
+        "image": "pathology/lecture-pages/lecture-18-page-10.webp",
+        "title": "第18讲第10页：病理 生殖系统疾病",
+        "sourceFile": "对应讲义",
+        "description": "2017年真题第151题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 生殖系统疾病",
+          "CINⅢ包括重度异型增生和原位癌，异型细胞累及上皮超过2/3直至全层但未突破基底膜。"
+        ],
+        "questionNumbers": [
+          151
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q152",
+      "page": 27,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "152",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第152题 · 免疫性疾病",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "免疫性疾病",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "大量中性粒细胞浸润"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "大量淋巴细胞浸润"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "滑膜细胞增生"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "血管增生明显"
+        }
+      ],
+      "stems": [
+        {
+          "number": 152,
+          "sourceQuestion": 152,
+          "sourcePage": 27,
+          "text": "类风湿关节炎的滑膜改变有",
+          "answerRaw": "BCD",
+          "answer": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-17",
+          "explanation": "类风湿关节炎滑膜可见淋巴细胞浸润、滑膜细胞和血管增生，并可形成血管翳。",
+          "knowledgeConnections": [
+            "讲义定位：病理 免疫性疾病",
+            "必会项：B. 大量淋巴细胞浸润 ；C. 滑膜细胞增生 ；D. 血管增生明显",
+            "易混对照：A. 大量中性粒细胞浸润"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 免疫性疾病",
+        "答案依据：B. 大量淋巴细胞浸润 ；C. 滑膜细胞增生 ；D. 血管增生明显",
+        "类风湿关节炎滑膜可见淋巴细胞浸润、滑膜细胞和血管增生，并可形成血管翳。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "page": 5,
+        "image": "pathology/lecture-pages/lecture-17-page-05.webp",
+        "title": "第17讲第5页：病理 免疫性疾病",
+        "sourceFile": "对应讲义",
+        "description": "2017年真题第152题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 免疫性疾病",
+          "类风湿关节炎滑膜可见淋巴细胞浸润、滑膜细胞和血管增生，并可形成血管翳。"
+        ],
+        "questionNumbers": [
+          152
+        ]
+      }
+    },
+    {
+      "id": "exam-2017-pathology-q153",
+      "page": 27,
+      "sourceKey": "clinical-2017-exam",
+      "sourceName": "【2017】年临综真题 天天师兄冲刺十年真题.pdf",
+      "sourceSection": "病理学",
+      "sourceQuestion": "153",
+      "sourceLabel": "2017年临综真题",
+      "title": "2017真题 · 第153题 · 肿瘤",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "肿瘤",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "supplement": true,
+      "supplementNotice": "已录入完整题干、答案、解析和讲义要点",
+      "answerSourceLabel": "2017真题答案",
+      "answerSourceName": "用户提供的答案图",
+      "hideSource": true,
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "BCL-2"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "CD3"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "CD20"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "CD79a"
+        }
+      ],
+      "stems": [
+        {
+          "number": 153,
+          "sourceQuestion": 153,
+          "sourcePage": 27,
+          "text": "在滤泡细胞性淋巴瘤的免疫组化中，阳性的有",
+          "answerRaw": "ACD",
+          "answer": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按提供的答案图录入",
+          "lectureId": "lecture-26",
+          "explanation": "滤泡性淋巴瘤为成熟B细胞肿瘤，常表达BCL-2、CD20和CD79a；CD3是T细胞标志。",
+          "knowledgeConnections": [
+            "讲义定位：病理 肿瘤",
+            "必会项：A. BCL-2 ；C. CD20 ；D. CD79a",
+            "易混对照：B. CD3"
+          ]
+        }
+      ],
+      "lectureSummary": [
+        "所属模块：病理 肿瘤",
+        "答案依据：A. BCL-2 ；C. CD20 ；D. CD79a",
+        "滤泡性淋巴瘤为成熟B细胞肿瘤，常表达BCL-2、CD20和CD79a；CD3是T细胞标志。"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "page": 1,
+        "image": "exams/sprint-exam-20261021/precise-36.webp",
+        "title": "35 27考研：内科含诊断+病理 淋巴瘤 ",
+        "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "description": "2017年真题第153题对应讲义原页。",
+        "knowledgePoints": [
+          "病理 肿瘤",
+          "滤泡性淋巴瘤为成熟B细胞肿瘤，常表达BCL-2、CD20和CD79a；CD3是T细胞标志。"
+        ],
+        "questionNumbers": [
+          153
+        ]
+      }
+    }
+  ]
+}
