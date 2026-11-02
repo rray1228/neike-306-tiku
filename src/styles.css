@@ -243,6 +243,9 @@ button:disabled { cursor: default; }
 .stack-answer-choices .answer-choices { padding-left: 30px; }
 .category-choices .choice-row { justify-content: flex-start; }
 .stem-copy p { overflow-wrap: anywhere; text-wrap: pretty; }
+.shared-stem-box { margin: 0 0 12px; padding: 12px 14px; border: 1px solid #dbe7f7; border-radius: 9px; background: #f7faff; }
+.shared-stem-box strong { display: block; margin-bottom: 6px; color: #2f6dc6; font-size: 12px; letter-spacing: .04em; }
+.shared-stem-box p { color: #3f5069; font-size: 13px; line-height: 1.7; white-space: pre-line; }
 .stem-row.has-choice-categories { grid-template-columns: minmax(0, 1fr); align-items: start; }
 .answer-choice-category-list { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: flex-start; gap: 8px 12px; padding-left: 30px; }
 .answer-choice-category { flex: 1 1 min(100%, calc(var(--category-count, 6) * 35px + 20px)); min-width: 0; display: grid; grid-template-columns: minmax(0, 1fr); align-content: start; gap: 8px; padding: 10px 12px; border: 1px solid #e5ebf3; border-radius: 7px; background: #fafcff; }

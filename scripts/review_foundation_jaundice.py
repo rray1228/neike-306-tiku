@@ -7,7 +7,7 @@ GROUP_ID = "med-foundation-mock-exam-20260907-q041"
 LECTURE_ID = "foundation-biochemistry-10"
 
 EXPLANATION = (
-    "选B。题干的关键是“UCB甚高、核黄疸、预后极差”，提示胆红素结合过程严重受损，"
+    "正确答案：B（Crigler-Najjar综合征）。\n\n题干的关键是“UCB甚高、核黄疸、预后极差”，提示胆红素结合过程严重受损，"
     "对应重型Crigler-Najjar综合征（Ⅰ型）。胆红素UDP-葡萄糖醛酸转移酶（UGT）严重缺陷，"
     "使UCB不能充分转化为CB，血UCB显著升高；未与白蛋白结合的UCB具有脂溶性和神经毒性，"
     "可进入脑组织引起核黄疸。\n\n"

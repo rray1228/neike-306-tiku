@@ -155,15 +155,13 @@ def extract_exam(source: Path) -> tuple[dict[int, dict], dict[int, str]]:
         for j, om in enumerate(markers[:4]):
             oend = markers[j + 1].start() if j + 1 < 4 else len(block)
             opts[om.group(1)] = normalize(block[om.end():oend])
-        if q in shared:
-            stem = f"[共用题干] {shared[q]}  [{q}题] {stem}"
-        questions[q] = {"stem": stem, "options": opts}
+        questions[q] = {"stem": stem, "sharedStem": shared.get(q), "options": opts}
 
     for q, (option_text, stem) in B_OVERRIDES.items():
         opts = {}
         for line in option_text.splitlines():
             opts[line[0]] = line[2:]
-        questions[q] = {"stem": stem, "options": opts}
+        questions[q] = {"stem": stem, "sharedStem": None, "options": opts}
     return questions, shared
 
 
