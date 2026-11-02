@@ -5,7 +5,7 @@ import { questionBankUrl, scopeTestContent, studyViewUrl, testCollectionForSubje
 
 const directory = new URL('../src/data/', import.meta.url)
 const read = name => JSON.parse(readFileSync(new URL(name, directory)))
-const catalog = read('supplement-tests-catalog.json')
+const catalog = [...read('supplement-tests-catalog.json'), ...read('2017-exam-catalog.json')]
 const original = readdirSync(directory).filter(name => name.endsWith('.json') && name !== 'supplement-tests-catalog.json').flatMap(name => {
   const content = read(name)
   return Array.isArray(content.groups) ? content.groups.map(group => ({ ...group, sourceSubject: name.split('-')[0] })) : []

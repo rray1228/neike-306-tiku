@@ -1,0 +1,2260 @@
+{
+  "meta": {
+    "title": "冲刺押题阶段考试·生理",
+    "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+    "sourcePages": 29,
+    "answerNote": "答案依据用户提供的答案速查表；解析区保留已发现的选项歧义与旧题口径。",
+    "groupCount": 26,
+    "stemCount": 26
+  },
+  "groups": [
+    {
+      "id": "physiology-sprint-exam-20261021-q001",
+      "page": 1,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "1",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        1
+      ],
+      "title": "冲刺押题卷 · 第1题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "绪论",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "不会失误"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "速度快、准确性高"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "有预见性、适应性强"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "避免矫枉过正产生的波动"
+        }
+      ],
+      "stems": [
+        {
+          "number": 1,
+          "sourceQuestion": 1,
+          "sourcePage": 1,
+          "text": "与反馈控制系统相比，前馈的优点不具有",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-01",
+          "explanation": "前馈依据干扰信息提前调节，反应快、有预见性，可减少反馈校正的波动；但预测可能失误，不能保证完全准确，因此“不具有”的是A。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "sourceSubject": "physiology",
+        "sourceFile": "1 27考研：生理 绪论 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 10,
+        "pageLabel": "PDF第10页",
+        "title": "1 27考研：生理 绪论",
+        "image": "exams/sprint-exam-20261021/lecture-000.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-01",
+          "sourceSubject": "physiology",
+          "sourceFile": "1 27考研：生理 绪论 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 10,
+          "pageLabel": "PDF第10页",
+          "title": "1 27考研：生理 绪论",
+          "image": "exams/sprint-exam-20261021/lecture-000.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q002",
+      "page": 1,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "2",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        1
+      ],
+      "title": "冲刺押题卷 · 第2题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "膜内电位负值增大"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "Na+-K+泵活动减弱"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "K+电导增大"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "Na+电导增大"
+        }
+      ],
+      "stems": [
+        {
+          "number": 2,
+          "sourceQuestion": 2,
+          "sourcePage": 1,
+          "text": "细胞外 K+浓度明显升高将导致神经细胞",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-03",
+          "explanation": "细胞外K⁺升高使K⁺平衡电位负值减小，静息膜去极化；同时可使K⁺通道电导增大，选C。细胞内外离子变化也可增强钠泵活动，不是泵活动减弱。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "sourceSubject": "physiology",
+        "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 15,
+        "pageLabel": "PDF第15页",
+        "title": "3 27考研：生理 细胞电活动",
+        "image": "exams/sprint-exam-20261021/lecture-001.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "sourceSubject": "physiology",
+          "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 15,
+          "pageLabel": "PDF第15页",
+          "title": "3 27考研：生理 细胞电活动",
+          "image": "exams/sprint-exam-20261021/lecture-001.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q003",
+      "page": 1,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "3",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        1
+      ],
+      "title": "冲刺押题卷 · 第3题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "每个肌细胞每次收缩幅度增加"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "产生动作电位的幅度增大"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "兴奋经更多的闰盘在细胞间传导"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "收缩的频率加快"
+        }
+      ],
+      "stems": [
+        {
+          "number": 3,
+          "sourceQuestion": 3,
+          "sourcePage": 1,
+          "text": "机体增强骨骼肌收缩程度是通过",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-04",
+          "explanation": "骨骼肌动作电位遵循全或无，不能靠增大动作电位幅度调节力量。提高刺激频率可发生收缩总和、强直收缩，故D成立；骨骼肌细胞间无心肌式闰盘。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "sourceSubject": "physiology",
+        "sourceFile": "4 27考研：生理 骨骼肌收缩 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 13,
+        "pageLabel": "PDF第13页",
+        "title": "4 27考研：生理 骨骼肌收缩",
+        "image": "exams/sprint-exam-20261021/lecture-002.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-04",
+          "sourceSubject": "physiology",
+          "sourceFile": "4 27考研：生理 骨骼肌收缩 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 13,
+          "pageLabel": "PDF第13页",
+          "title": "4 27考研：生理 骨骼肌收缩",
+          "image": "exams/sprint-exam-20261021/lecture-002.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q004",
+      "page": 1,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "4",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        1
+      ],
+      "title": "冲刺押题卷 · 第4题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "在体内抑制凝血因子的产生"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "在体内促进 TFPI 的释放"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "在体内促进抗凝血酶的产生"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "在体外与抗凝血酶的亲和性低"
+        }
+      ],
+      "stems": [
+        {
+          "number": 4,
+          "sourceQuestion": 4,
+          "sourcePage": 1,
+          "text": "静脉注射肝素所引起的体内抗凝作用大于其体外抗凝作用，这主要是因为肝素",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-08",
+          "explanation": "肝素在体内除增强抗凝血酶活性外，还可促进血管内皮释放组织因子途径抑制物TFPI，增加抗凝作用；这不是促进抗凝血酶合成。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "sourceSubject": "physiology",
+        "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "8 27考研：生理 生理性止血",
+        "image": "exams/sprint-exam-20261021/lecture-003.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-08",
+          "sourceSubject": "physiology",
+          "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "8 27考研：生理 生理性止血",
+          "image": "exams/sprint-exam-20261021/lecture-003.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q005",
+      "page": 2,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "5",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        2
+      ],
+      "title": "冲刺押题卷 · 第5题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环系统",
+      "lectureIds": [
+        "lecture-13"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "窦神经传入冲动减少"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "房室延搁时间缩短"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "房室交界区有效不应期延长"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "窦房结细胞 4 期自动去极化减弱"
+        }
+      ],
+      "stems": [
+        {
+          "number": 5,
+          "sourceQuestion": 5,
+          "sourcePage": 2,
+          "text": "临床上通过按压左侧颈动脉窦治疗阵发性室上性心动过速，最主要的机制是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-13",
+          "explanation": "A：不选：按压使窦壁牵张增加，压力感受器传入冲动增加；不是减少。\nB：不选：迷走作用使房室结传导减慢、房室延搁延长，选项将方向写反。\nC：选：迷走兴奋延长房室交界区有效不应期，可阻断房室结参与的折返环路，终止相应室上速。\nD：不选作最佳：窦房结4期自动去极化减慢可以降低自律性，但对本题的折返性心动过速，最直接的终止环节是房室结的不应期和传导。",
+          "knowledgeConnections": [
+            "窦房结自律性决定窦性节律；房室结传导及不应期决定部分室上速折返能否维持。不要把“心率变慢”这一共同结果当作全部机制。"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "sourceSubject": "physiology",
+        "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "生理学第13讲《生理 心血管调节》",
+        "image": "exams/sprint-exam-20261021/lecture-004.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-13",
+          "sourceSubject": "physiology",
+          "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "生理学第13讲《生理 心血管调节》",
+          "image": "exams/sprint-exam-20261021/lecture-004.webp"
+        },
+        {
+          "lectureId": "lecture-13",
+          "sourceSubject": "physiology",
+          "sourceFile": "12 27考研：生理 心肌电活动和特性 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 12,
+          "pageLabel": "PDF第12页",
+          "title": "生理学第12讲《生理 心肌电活动和特性》",
+          "image": "exams/sprint-exam-20261021/lecture-005.webp"
+        },
+        {
+          "lectureId": "lecture-13",
+          "sourceSubject": "physiology",
+          "sourceFile": "12 27考研：生理 心肌电活动和特性 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 13,
+          "pageLabel": "PDF第13页",
+          "title": "生理学第12讲《生理 心肌电活动和特性》",
+          "image": "exams/sprint-exam-20261021/lecture-006.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q006",
+      "page": 2,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "6",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        2
+      ],
+      "title": "冲刺押题卷 · 第6题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "循环系统",
+      "lectureIds": [
+        "lecture-13"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "较为持久的舒张小动脉作用"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "正性肌力作用，使冠脉血流量增加"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "促进肾小球滤过和肾排钠排水"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "血管紧张素Ⅱ抑制肾上腺髓质素的分泌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 6,
+          "sourceQuestion": 6,
+          "sourcePage": 2,
+          "text": "以下关于肾上腺髓质素的描述，错误的是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-13",
+          "explanation": "肾上腺髓质素可扩血管、改善心肌及肾脏血流、促进排钠。血管紧张素Ⅱ等可刺激其释放形成拮抗调节，所以“抑制分泌”错误。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "sourceSubject": "physiology",
+        "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 13,
+        "pageLabel": "PDF第13页",
+        "title": "13 27考研：生理 心血管调节",
+        "image": "exams/sprint-exam-20261021/lecture-007.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-13",
+          "sourceSubject": "physiology",
+          "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 13,
+          "pageLabel": "PDF第13页",
+          "title": "13 27考研：生理 心血管调节",
+          "image": "exams/sprint-exam-20261021/lecture-007.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q007",
+      "page": 2,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "7",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        2
+      ],
+      "title": "冲刺押题卷 · 第7题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "吸气时肺弹性阻力减小，呼气时肺弹性阻力增大"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "吸气时胸廓弹性阻力减小，呼气时胸廓弹性阻力增大"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "吸气时气道阻力减小，呼气时气道阻力增大"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "吸气时胸内负压减小，呼气时胸内负压增大"
+        }
+      ],
+      "stems": [
+        {
+          "number": 7,
+          "sourceQuestion": 7,
+          "sourcePage": 2,
+          "text": "支气管哮喘患者呼气比吸气更为困难， 其原因是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-15",
+          "explanation": "吸气时肺扩张对气道有牵拉作用；呼气时肺容积减小、胸内压升高，气道更易狭窄。哮喘在此基础上气道阻力进一步增加，故呼气更困难。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "sourceSubject": "physiology",
+        "sourceFile": "15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "pageLabel": "PDF第8页",
+        "title": "15 27考研：生理 肺通气",
+        "image": "exams/sprint-exam-20261021/lecture-008.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-15",
+          "sourceSubject": "physiology",
+          "sourceFile": "15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "title": "15 27考研：生理 肺通气",
+          "image": "exams/sprint-exam-20261021/lecture-008.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q008",
+      "page": 2,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "8",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        2
+      ],
+      "title": "冲刺押题卷 · 第8题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "迷走神经兴奋"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "促胰液素分泌减少"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肠-胃反射减弱"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胃酸对 G 细胞的抑制作用减弱"
+        }
+      ],
+      "stems": [
+        {
+          "number": 8,
+          "sourceQuestion": 8,
+          "sourcePage": 2,
+          "text": "自身免疫性慢性萎缩性胃炎患者血中促胃液素水平增高，其原因是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-20",
+          "explanation": "自身免疫性胃炎损伤壁细胞，胃酸减少，解除胃酸对胃窦G细胞的负反馈抑制，促胃液素升高；并非必须由迷走神经兴奋引起。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "sourceSubject": "physiology",
+        "sourceFile": "20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "pageLabel": "PDF第6页",
+        "title": "20 27考研：生理 胃内消化",
+        "image": "exams/sprint-exam-20261021/lecture-009.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-20",
+          "sourceSubject": "physiology",
+          "sourceFile": "20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "title": "20 27考研：生理 胃内消化",
+          "image": "exams/sprint-exam-20261021/lecture-009.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q009",
+      "page": 2,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "9",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        2
+      ],
+      "title": "冲刺押题卷 · 第9题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "能量代谢与体温",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "蒸发散热"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "辐射散热"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "传导散热"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "对流散热"
+        }
+      ],
+      "stems": [
+        {
+          "number": 9,
+          "sourceQuestion": 9,
+          "sourcePage": 2,
+          "text": "用酒精给高热病人擦浴的散热方式是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-23",
+          "explanation": "酒精挥发由液体变为气体时吸收皮肤热量，主要属于蒸发散热。此题仅考物理机制，不据此推导所有高热患者均适合酒精擦浴。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "sourceSubject": "physiology",
+        "sourceFile": "23 27考研：生理 能量代谢和体温 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "23 27考研：生理 能量代谢和体温",
+        "image": "exams/sprint-exam-20261021/lecture-010.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-23",
+          "sourceSubject": "physiology",
+          "sourceFile": "23 27考研：生理 能量代谢和体温 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "23 27考研：生理 能量代谢和体温",
+          "image": "exams/sprint-exam-20261021/lecture-010.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q010",
+      "page": 2,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "10",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        2
+      ],
+      "title": "冲刺押题卷 · 第10题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肾血浆流量增大"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "滤过膜上的裂孔素减少"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "滤过膜的有效滤过面积增大"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肾小管对蛋白质的重吸收减少"
+        }
+      ],
+      "stems": [
+        {
+          "number": 10,
+          "sourceQuestion": 10,
+          "sourcePage": 2,
+          "text": "肾病患者出现尿蛋白的主要原因是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-25",
+          "explanation": "足细胞裂孔膜及裂孔素等蛋白受损，滤过屏障对蛋白质的限制减弱，形成蛋白尿。滤过面积和血流量增加并不是此题的主要机制。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "sourceSubject": "physiology",
+        "sourceFile": "25 27考研：生理 肾小球滤过 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "25 27考研：生理 肾小球滤过",
+        "image": "exams/sprint-exam-20261021/lecture-011.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-25",
+          "sourceSubject": "physiology",
+          "sourceFile": "25 27考研：生理 肾小球滤过 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "25 27考研：生理 肾小球滤过",
+          "image": "exams/sprint-exam-20261021/lecture-011.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q011",
+      "page": 3,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "11",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        3
+      ],
+      "title": "冲刺押题卷 · 第11题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "肾小球滤过率增加"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "近端小管重吸收减少"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "集合管重吸收减少"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "醛固酮的分泌减少"
+        }
+      ],
+      "stems": [
+        {
+          "number": 11,
+          "sourceQuestion": 11,
+          "sourcePage": 3,
+          "text": "渗透性利尿时，球-管平衡被破坏，尿量增多的主要机制是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-26",
+          "explanation": "A：不选：渗透性利尿可以在肾小球滤过率没有增加时发生；滤过率增加不是这里的主要解释。\nB：选：小管液中难以重吸收的溶质增多，保留水分并削弱近端小管水、NaCl重吸收，球—管平衡被破坏。\nC：不选作最佳：集合管影响终尿，但题干所指球—管平衡主要是近端小管重吸收与滤过量保持比例的关系。\nD：不选：醛固酮主要促进远曲小管、集合管Na⁺重吸收及K⁺分泌，不能解释本题的近端小管渗透性利尿。",
+          "knowledgeConnections": [
+            "渗透性利尿是溶质留在管腔；水利尿则常与ADH减少有关。球—管平衡与致密斑参与的管—球反馈也不是同一个概念。"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "sourceSubject": "physiology",
+        "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "生理学第26讲《生理 小管重吸收和分泌、尿浓缩稀释、调节》",
+        "image": "exams/sprint-exam-20261021/lecture-012.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-26",
+          "sourceSubject": "physiology",
+          "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "生理学第26讲《生理 小管重吸收和分泌、尿浓缩稀释、调节》",
+          "image": "exams/sprint-exam-20261021/lecture-012.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q012",
+      "page": 3,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "12",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        3
+      ],
+      "title": "冲刺押题卷 · 第12题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "感觉系统",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "皮肤麦斯纳小体"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "关节囊感受器"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "脑渗透压感受器"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "颈动脉体化学感受器"
+        }
+      ],
+      "stems": [
+        {
+          "number": 12,
+          "sourceQuestion": 12,
+          "sourcePage": 3,
+          "text": "对刺激变化十分灵敏，有利于探索新异事物的感受器是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-29",
+          "explanation": "麦斯纳小体是快适应触觉感受器，对刺激改变敏感，适合辨认新异刺激。渗透压、化学和关节位置感受更需持续反映状态。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "sourceSubject": "physiology",
+        "sourceFile": "29 27考研：生理 其它感觉 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "29 27考研：生理 其它感觉",
+        "image": "exams/sprint-exam-20261021/lecture-013.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-29",
+          "sourceSubject": "physiology",
+          "sourceFile": "29 27考研：生理 其它感觉 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "29 27考研：生理 其它感觉",
+          "image": "exams/sprint-exam-20261021/lecture-013.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q013",
+      "page": 3,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "13",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        3
+      ],
+      "title": "冲刺押题卷 · 第13题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "中枢神经系统",
+      "lectureIds": [
+        "lecture-30"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "修复和再生"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "绝缘和屏障"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "营养性作用"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "泵 K+能力"
+        }
+      ],
+      "stems": [
+        {
+          "number": 13,
+          "sourceQuestion": 13,
+          "sourcePage": 3,
+          "text": "当神经胶质细胞过度增生时，可因下列哪项功能减弱而形成局部癫痫病灶",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-30",
+          "explanation": "星形胶质细胞摄取、缓冲胞外K⁺，有助稳定神经元兴奋性。该功能下降可致胞外K⁺积聚、异常放电，故与癫痫病灶有关。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-30",
+        "sourceSubject": "physiology",
+        "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "30 27考研：生理 神经元及胶质细胞",
+        "image": "exams/sprint-exam-20261021/lecture-014.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-30",
+          "sourceSubject": "physiology",
+          "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "30 27考研：生理 神经元及胶质细胞",
+          "image": "exams/sprint-exam-20261021/lecture-014.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q014",
+      "page": 3,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "14",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        3
+      ],
+      "title": "冲刺押题卷 · 第14题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "中枢神经系统",
+      "lectureIds": [
+        "lecture-34"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "Broca 区"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "Wernicke 区"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "颞上回后部"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "右侧顶叶"
+        }
+      ],
+      "stems": [
+        {
+          "number": 14,
+          "sourceQuestion": 14,
+          "sourcePage": 3,
+          "text": "女性，56 岁， 右利手。突然语言困难 2 天，有心房颤动病史 7 年。查体： 神志清楚， 四肢运动感觉无异常。 门诊医生问诊：“生什么病？”， 答：“呀！ 吃饭吗？”； 医生：“把右手举起来”， 答：“是”， 却向门口走去。 该患者最可能受损的语言中枢是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-34",
+          "explanation": "言语流利但内容不合语境，且不能理解指令，属于感觉性失语，定位优势半球Wernicke区，解剖部位为颞上回后部。本卷B和C指向同一中枢，选项重叠；答案表取C，应保留此命题瑕疵。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-34",
+        "sourceSubject": "physiology",
+        "sourceFile": "34 27考研：生理 脑电波、睡眠、脑高级功能、下丘脑 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "34 27考研：生理 脑电波、睡眠、脑高级功能、下丘脑",
+        "image": "exams/sprint-exam-20261021/lecture-015.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-34",
+          "sourceSubject": "physiology",
+          "sourceFile": "34 27考研：生理 脑电波、睡眠、脑高级功能、下丘脑 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "34 27考研：生理 脑电波、睡眠、脑高级功能、下丘脑",
+          "image": "exams/sprint-exam-20261021/lecture-015.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q015",
+      "page": 3,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "15",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        3
+      ],
+      "title": "冲刺押题卷 · 第15题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-35"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胺类"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "肽类"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "蛋白质"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "类固醇"
+        }
+      ],
+      "stems": [
+        {
+          "number": 15,
+          "sourceQuestion": 15,
+          "sourcePage": 3,
+          "text": "褪黑素的化学本质是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-35",
+          "explanation": "褪黑素是由色氨酸衍生的吲哚胺，归属胺类激素；不是肽类、蛋白质或类固醇。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-35",
+        "sourceSubject": "physiology",
+        "sourceFile": "35 27考研：生理 内分泌概述 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "35 27考研：生理 内分泌概述",
+        "image": "exams/sprint-exam-20261021/lecture-016.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-35",
+          "sourceSubject": "physiology",
+          "sourceFile": "35 27考研：生理 内分泌概述 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "35 27考研：生理 内分泌概述",
+          "image": "exams/sprint-exam-20261021/lecture-016.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q016",
+      "page": 3,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "16",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        3
+      ],
+      "title": "冲刺押题卷 · 第16题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "生殖系统",
+      "lectureIds": [
+        "lecture-41"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "子宫内膜"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胎盘"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "睾丸"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "肾上腺皮质"
+        }
+      ],
+      "stems": [
+        {
+          "number": 16,
+          "sourceQuestion": 16,
+          "sourcePage": 3,
+          "text": "体内可产生雌激素的部位不包括",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-41",
+          "explanation": "卵巢、胎盘及睾丸、肾上腺来源的类固醇代谢可提供雌激素；子宫内膜主要为雌激素靶组织，按本题选A。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-41",
+        "sourceSubject": "physiology",
+        "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 10,
+        "pageLabel": "PDF第10页",
+        "title": "41 27考研：生理 生殖",
+        "image": "exams/sprint-exam-20261021/lecture-017.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-41",
+          "sourceSubject": "physiology",
+          "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 10,
+          "pageLabel": "PDF第10页",
+          "title": "41 27考研：生理 生殖",
+          "image": "exams/sprint-exam-20261021/lecture-017.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q136",
+      "page": 24,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "136",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        24
+      ],
+      "title": "冲刺押题卷 · 第136题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "表面积/体积比降低"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "可塑变形性下降"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "渗透脆性变大"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "血沉加快"
+        }
+      ],
+      "stems": [
+        {
+          "number": 136,
+          "sourceQuestion": 136,
+          "sourcePage": 24,
+          "text": "遗传性球形红细胞增多症患者的红细胞",
+          "answerRaw": "ABC",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-07",
+          "explanation": "膜骨架异常使红细胞丢失膜面积，表面积/体积比下降、变形能力减弱，渗透脆性增加。球形红细胞不易叠连，不能据此选血沉加快。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "sourceSubject": "physiology",
+        "sourceFile": "7 27考研：生理 血液特性 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "7 27考研：生理 血液特性",
+        "image": "exams/sprint-exam-20261021/lecture-109.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-07",
+          "sourceSubject": "physiology",
+          "sourceFile": "7 27考研：生理 血液特性 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "7 27考研：生理 血液特性",
+          "image": "exams/sprint-exam-20261021/lecture-109.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q137",
+      "page": 24,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "137",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        24
+      ],
+      "title": "冲刺押题卷 · 第137题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "循环系统",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "使静脉回流量与搏出量维持平衡"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "防止心室舒张末期压力发生过久的改变"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "通过改变心肌兴奋-收缩耦联来调节心脏泵血功能"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "心肌可增加活化的横桥数目来增强心肌收缩力"
+        }
+      ],
+      "stems": [
+        {
+          "number": 137,
+          "sourceQuestion": 137,
+          "sourcePage": 24,
+          "text": "下列关于心肌异长自身调节的叙述，正确的有",
+          "answerRaw": "AB",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerMode": "多选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-09",
+          "explanation": "异长调节通过初长度改变实现搏出量与回心血量匹配，减少心室充盈压持续波动，选AB；C、D偏向收缩能力和活化状态的改变，不是本题异长调节的核心。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "sourceSubject": "physiology",
+        "sourceFile": "9 27考研：生理 心脏泵血 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "9 27考研：生理 心脏泵血",
+        "image": "exams/sprint-exam-20261021/lecture-110.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-09",
+          "sourceSubject": "physiology",
+          "sourceFile": "9 27考研：生理 心脏泵血 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "9 27考研：生理 心脏泵血",
+          "image": "exams/sprint-exam-20261021/lecture-110.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q138",
+      "page": 24,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "138",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        24
+      ],
+      "title": "冲刺押题卷 · 第138题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "脂肪的消化分解"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "水溶性维生素的吸收"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胃酸的中和"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "视黄醛的合成"
+        }
+      ],
+      "stems": [
+        {
+          "number": 138,
+          "sourceQuestion": 138,
+          "sourcePage": 24,
+          "text": "肝损伤的患者胆汁分泌减少，主要影响",
+          "answerRaw": "ACD",
+          "answer": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-21",
+          "explanation": "胆汁参与脂肪乳化和脂溶性物质吸收，并有助中和胃酸；视黄醛来源于脂溶性维生素A，吸收受限可影响其合成。水溶性维生素吸收不是胆汁减少的主要受损环节。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "sourceSubject": "physiology",
+        "sourceFile": "21 27考研：生理 肠内消化 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "pageLabel": "PDF第6页",
+        "title": "21 27考研：生理 肠内消化",
+        "image": "exams/sprint-exam-20261021/lecture-111.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-21",
+          "sourceSubject": "physiology",
+          "sourceFile": "21 27考研：生理 肠内消化 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "title": "21 27考研：生理 肠内消化",
+          "image": "exams/sprint-exam-20261021/lecture-111.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q139",
+      "page": 25,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "139",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        25
+      ],
+      "title": "冲刺押题卷 · 第139题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "大量出汗"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "ADH 分泌明显减少"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胰岛素分泌明显减少"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "有效循环血量增多"
+        }
+      ],
+      "stems": [
+        {
+          "number": 139,
+          "sourceQuestion": 139,
+          "sourcePage": 25,
+          "text": "可引起尿量增多和大量饮水的是",
+          "answerRaw": "BC",
+          "answer": [
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-26",
+          "explanation": "A：不选：大量出汗丢水可引起口渴，但会促进ADH释放、保水，通常尿量减少，不符合同时多尿。\nB：选：ADH显著减少使集合管对水通透性下降，排出大量低渗尿；失水、血浆渗透压升高又引起口渴。\nC：选：胰岛素显著减少可导致明显高血糖和糖尿，糖留在小管液中引起渗透性利尿，继而多饮。\nD：不选：有效循环血量增加可经容量调节促进排水，但不具有“失水性口渴、大量饮水”的典型因果链。",
+          "knowledgeConnections": [
+            "判断联合条件要逐项检查：是否多尿？是否引起口渴？出汗只满足后者；ADH缺乏和明显糖尿病可同时满足两者。"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "sourceSubject": "physiology",
+        "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "生理学第26讲《生理 小管重吸收和分泌、尿浓缩稀释、调节》",
+        "image": "exams/sprint-exam-20261021/lecture-012.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-26",
+          "sourceSubject": "physiology",
+          "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "生理学第26讲《生理 小管重吸收和分泌、尿浓缩稀释、调节》",
+          "image": "exams/sprint-exam-20261021/lecture-012.webp"
+        },
+        {
+          "lectureId": "lecture-26",
+          "sourceSubject": "physiology",
+          "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "title": "生理学第26讲《生理 小管重吸收和分泌、尿浓缩稀释、调节》",
+          "image": "exams/sprint-exam-20261021/lecture-112.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q140",
+      "page": 25,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "140",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        25
+      ],
+      "title": "冲刺押题卷 · 第140题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "感觉系统",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "前庭窗膜外移，蜗窗膜内移"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "K+内流入毛细胞，产生去极化感受器电位"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "外毛细胞可释放递质，引起听神经产生动作电位"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "内毛细胞可加强基底膜的振动，起放大器的作用"
+        }
+      ],
+      "stems": [
+        {
+          "number": 140,
+          "sourceQuestion": 140,
+          "sourcePage": 25,
+          "text": "当耳蜗基底膜上移时",
+          "answerRaw": "AB",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerMode": "多选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-28",
+          "explanation": "按耳蜗液体位移关系，基底膜上移对应前庭窗膜外移、蜗窗膜内移；毛细胞静纤毛适当偏转开放机械门控通道，内淋巴K⁺内流去极化。内毛细胞主要传入，外毛细胞主要放大，C、D将功能颠倒。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "sourceSubject": "physiology",
+        "sourceFile": "28 27考研：生理 听觉 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "title": "28 27考研：生理 听觉",
+        "image": "exams/sprint-exam-20261021/lecture-113.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-28",
+          "sourceSubject": "physiology",
+          "sourceFile": "28 27考研：生理 听觉 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "title": "28 27考研：生理 听觉",
+          "image": "exams/sprint-exam-20261021/lecture-113.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q141",
+      "page": 25,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "141",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        25
+      ],
+      "title": "冲刺押题卷 · 第141题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "中枢神经系统",
+      "lectureIds": [
+        "lecture-33"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "参与运动的执行过程"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "参与姿势平衡的调节"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "调节肌紧张"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "处理本体感觉传入"
+        }
+      ],
+      "stems": [
+        {
+          "number": 141,
+          "sourceQuestion": 141,
+          "sourcePage": 25,
+          "text": "基底神经节的功能主要有",
+          "answerRaw": "CD",
+          "answer": [
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-33",
+          "explanation": "A：不选：本课程对照表把基底神经节主要定位于运动准备和发动阶段，不能把它概括成运动执行结构。\nB：不选：调节姿势平衡的经典对应是前庭小脑及前庭相关通路，不是本题所考基底神经节主要功能。\nC：选：基底神经节参与调节肌紧张，相关病变可出现肌张力异常和运动异常。\nD：选：基底神经节与小脑均参与处理本体感觉传入信息；不要将这一共性只留给小脑。",
+          "knowledgeConnections": [
+            "讲义明确列出二者共性：运动策划编程、调节肌紧张、处理本体感觉。区别是基底神经节偏准备发动，小脑也参与运动进行中的调节。"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "sourceSubject": "physiology",
+        "sourceFile": "33 27考研：生理 神经系统调控躯体运动 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 13,
+        "pageLabel": "PDF第13页",
+        "title": "生理学第33讲《生理 神经系统调控躯体运动》",
+        "image": "exams/sprint-exam-20261021/lecture-114.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-33",
+          "sourceSubject": "physiology",
+          "sourceFile": "33 27考研：生理 神经系统调控躯体运动 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 13,
+          "pageLabel": "PDF第13页",
+          "title": "生理学第33讲《生理 神经系统调控躯体运动》",
+          "image": "exams/sprint-exam-20261021/lecture-114.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q116",
+      "page": 22,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "116",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        22
+      ],
+      "title": "冲刺押题卷 · 第116题（B型共用选项 116—117）",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "动脉血中 PaO2 的降低"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "动脉血中 PaCO2 的升高"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "动脉血中[H+]的升高"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "动脉血中[HCO3-]的升高"
+        }
+      ],
+      "stems": [
+        {
+          "number": 116,
+          "sourceQuestion": 116,
+          "sourcePage": 22,
+          "text": "肺源性心脏病患者长期出现低氧血症和 CO2 潴留，此时刺激呼吸的主要因素是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-17",
+          "explanation": "长期CO₂潴留后中枢化学感受器对高CO₂的反应减弱，低PaO₂对外周化学感受器的刺激成为重要呼吸驱动因素。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "sourceSubject": "physiology",
+        "sourceFile": "17 27考研：生理 呼吸调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "17 27考研：生理 呼吸调节",
+        "image": "exams/sprint-exam-20261021/lecture-150.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-17",
+          "sourceSubject": "physiology",
+          "sourceFile": "17 27考研：生理 呼吸调节 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "17 27考研：生理 呼吸调节",
+          "image": "exams/sprint-exam-20261021/lecture-150.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q117",
+      "page": 22,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "117",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        22
+      ],
+      "title": "冲刺押题卷 · 第117题（B型共用选项 116—117）",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "动脉血中 PaO2 的降低"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "动脉血中 PaCO2 的升高"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "动脉血中[H+]的升高"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "动脉血中[HCO3-]的升高"
+        }
+      ],
+      "stems": [
+        {
+          "number": 117,
+          "sourceQuestion": 117,
+          "sourcePage": 22,
+          "text": "运动停止后肺通气量不会立即恢复至运动前水平，此时刺激呼吸的主要因素是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-17",
+          "explanation": "运动后乳酸等代谢产物尚未清除，H⁺刺激外周化学感受器，使肺通气不能立即回到运动前水平；HCO₃⁻增高不构成这种酸刺激。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "sourceSubject": "physiology",
+        "sourceFile": "17 27考研：生理 呼吸调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "title": "17 27考研：生理 呼吸调节",
+        "image": "exams/sprint-exam-20261021/lecture-150.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-17",
+          "sourceSubject": "physiology",
+          "sourceFile": "17 27考研：生理 呼吸调节 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "title": "17 27考研：生理 呼吸调节",
+          "image": "exams/sprint-exam-20261021/lecture-150.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q118",
+      "page": 22,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "118",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        22
+      ],
+      "title": "冲刺押题卷 · 第118题（B型共用选项 118—119）",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-40"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "糖皮质激素"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "甲状腺激素"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "生长激素"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胰岛素"
+        }
+      ],
+      "stems": [
+        {
+          "number": 118,
+          "sourceQuestion": 118,
+          "sourcePage": 22,
+          "text": "促进肝外蛋白质分解、 肝内蛋白质合成的激素是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-40",
+          "explanation": "糖皮质激素促进肝外蛋白分解，提供氨基酸用于肝内糖异生及相关酶蛋白合成；与生长激素、胰岛素的主要促合成效应区别。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-40",
+        "sourceSubject": "physiology",
+        "sourceFile": "40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "40 27考研：生理 糖皮质激素",
+        "image": "exams/sprint-exam-20261021/lecture-151.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-40",
+          "sourceSubject": "physiology",
+          "sourceFile": "40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "40 27考研：生理 糖皮质激素",
+          "image": "exams/sprint-exam-20261021/lecture-151.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "physiology-sprint-exam-20261021-q119",
+      "page": 22,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "119",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        22
+      ],
+      "title": "冲刺押题卷 · 第119题（B型共用选项 118—119）",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-39"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "糖皮质激素"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "甲状腺激素"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "生长激素"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胰岛素"
+        }
+      ],
+      "stems": [
+        {
+          "number": 119,
+          "sourceQuestion": 119,
+          "sourcePage": 22,
+          "text": "生理量促进蛋白质合成、大剂量促进蛋白质分解的激素是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-39",
+          "explanation": "甲状腺激素生理量有利于蛋白质合成，过量则分解代谢占优势，出现负氮平衡及消瘦。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-39",
+        "sourceSubject": "physiology",
+        "sourceFile": "39 27考研：生理 甲状腺激素 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "pageLabel": "PDF第6页",
+        "title": "39 27考研：生理 甲状腺激素",
+        "image": "exams/sprint-exam-20261021/lecture-152.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-39",
+          "sourceSubject": "physiology",
+          "sourceFile": "39 27考研：生理 甲状腺激素 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "title": "39 27考研：生理 甲状腺激素",
+          "image": "exams/sprint-exam-20261021/lecture-152.webp"
+        }
+      ],
+      "sourceSection": "生理学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "image": "exams/sprint-exam-20261021/paper-01.webp"
+    },
+    {
+      "page": 2,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "image": "exams/sprint-exam-20261021/paper-02.webp"
+    },
+    {
+      "page": 3,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "image": "exams/sprint-exam-20261021/paper-03.webp"
+    },
+    {
+      "page": 22,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "image": "exams/sprint-exam-20261021/paper-22.webp"
+    },
+    {
+      "page": 24,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "image": "exams/sprint-exam-20261021/paper-24.webp"
+    },
+    {
+      "page": 25,
+      "sourceKey": "physiology-sprint-exam-20261021",
+      "image": "exams/sprint-exam-20261021/paper-25.webp"
+    }
+  ],
+  "lectures": [],
+  "topics": [
+    "绪论",
+    "细胞基本功能",
+    "血液",
+    "循环系统",
+    "呼吸系统",
+    "消化系统",
+    "能量代谢与体温",
+    "泌尿系统",
+    "感觉系统",
+    "中枢神经系统",
+    "内分泌",
+    "生殖系统"
+  ]
+}

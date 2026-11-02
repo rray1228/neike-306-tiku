@@ -251,6 +251,26 @@ const CONTENT_LOADERS = {
   },
 }
 
+// Each subject fetches its sprint-paper questions alongside the existing bank.
+const SPRINT_LOADERS = {
+  med: () => import('./data/med-sprint-exam-data.json'),
+  pathology: () => import('./data/pathology-sprint-exam-data.json'),
+  physiology: () => import('./data/physiology-sprint-exam-data.json'),
+  surgery: () => import('./data/surgery-sprint-exam-data.json'),
+  biochemistry: () => import('./data/biochemistry-sprint-exam-data.json'),
+}
+for (const [subject, loadSprint] of Object.entries(SPRINT_LOADERS)) {
+  const loadExisting = CONTENT_LOADERS[subject]
+  CONTENT_LOADERS[subject] = async () => {
+    const [content, sprint] = await Promise.all([loadExisting(), loadJson(loadSprint)])
+    return {
+      ...appendSupplement(content, sprint),
+      topics: unique([...content.topics, ...sprint.topics]),
+      lectures: [...content.lectures, ...sprint.lectures],
+    }
+  }
+}
+
 const TOPIC_ICONS = {
   医学人文: 'book',
   呼吸: 'lungs',

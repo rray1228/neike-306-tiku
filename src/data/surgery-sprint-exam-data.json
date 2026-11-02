@@ -1,0 +1,3143 @@
+{
+  "meta": {
+    "title": "冲刺押题阶段考试·外科",
+    "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+    "sourcePages": 29,
+    "answerNote": "答案依据用户提供的答案速查表；解析区保留已发现的选项歧义与旧题口径。",
+    "groupCount": 36,
+    "stemCount": 36
+  },
+  "groups": [
+    {
+      "id": "surgery-sprint-exam-20261021-q057",
+      "page": 11,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "57",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        11
+      ],
+      "title": "冲刺押题卷 · 第57题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-31"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "10 mmol"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "20 mmol"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "40 mmol"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "80 mmol"
+        }
+      ],
+      "stems": [
+        {
+          "number": 57,
+          "sourceQuestion": 57,
+          "sourcePage": 11,
+          "text": "静脉补氯化钾的速度一般每小时不宜超过",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-31",
+          "explanation": "A：不选作上限：10mmol/h可作为某些常规补钾情境的速度，但低于本题教材所给的一般上限。\nB：选：本课程要求一般补钾速度不超过约20mmol/h，配合尿量、肾功能和心电监测等条件。\nC：不选：40mmol/h明显超出本题一般常规速度范围。\nD：不选：80mmol/h远超本题一般上限，可带来严重心律失常风险。",
+          "knowledgeConnections": [
+            "上限不等于推荐每人按该速度给。静脉补钾需区分一般外周补液与重症监护下特殊方案；浓度、输注途径、尿量及肾功能均影响安全性。"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-31",
+        "sourceSubject": "surgery",
+        "sourceFile": "31 27考研：外科 体液失衡 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "外科第31讲《外科 体液失衡》",
+        "image": "exams/sprint-exam-20261021/lecture-063.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-31",
+          "sourceSubject": "surgery",
+          "sourceFile": "31 27考研：外科 体液失衡 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "外科第31讲《外科 体液失衡》",
+          "image": "exams/sprint-exam-20261021/lecture-063.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q058",
+      "page": 11,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "58",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        11
+      ],
+      "title": "冲刺押题卷 · 第58题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-34"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "伤口包扎过紧"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "止血不充分"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "未使用抗生素"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "初次清创不彻底"
+        }
+      ],
+      "stems": [
+        {
+          "number": 58,
+          "sourceQuestion": 58,
+          "sourcePage": 11,
+          "text": "男性，36 岁。右下肢肿胀，剧痛 2 小时。3 天前施工时右大腿开放伤，未发现骨折，行简单的创口缝合，2 天后感伤部包扎过紧。查体：右大腿皮肤水肿，黑紫色， 缝合处见血性浆液渗出， 恶臭， 局部皮下捻发音。 导致这种感染最主要的原因是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-34",
+          "explanation": "恶臭、血性渗液、捻发音及迅速进展提示气性坏疽。开放伤初次清创不彻底，残留失活组织形成厌氧环境，是最重要诱因；不能靠抗生素代替彻底清创。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-34",
+        "sourceSubject": "surgery",
+        "sourceFile": "34 27考研：外科 感染 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "34 27考研：外科 感染",
+        "image": "exams/sprint-exam-20261021/lecture-064.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-34",
+          "sourceSubject": "surgery",
+          "sourceFile": "34 27考研：外科 感染 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "34 27考研：外科 感染",
+          "image": "exams/sprint-exam-20261021/lecture-064.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q059",
+      "page": 11,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "59",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        11
+      ],
+      "title": "冲刺押题卷 · 第59题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "乳房疾病",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "Ⅰ期"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "Ⅱ期"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Ⅲ期"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "Ⅳ期"
+        }
+      ],
+      "stems": [
+        {
+          "number": 59,
+          "sourceQuestion": 59,
+          "sourcePage": 11,
+          "text": "女性，55 岁。左侧乳房内肿块 4×3cm，基底不固定，皮肤水肿呈橘皮样变，左腋下可触及多个质硬淋巴结，无痛，可推动，淋巴活检病理报告乳腺癌转移，未发现远处转移。按照国际标准，属于的分期是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-03",
+          "explanation": "A：不选：已有皮肤橘皮样变及腋窝淋巴结转移，不符合局限早期Ⅰ期。\nB：不选：虽然肿块4cm按大小可落T2，但橘皮样变使局部分类进入T4，不能只按尺寸分期。\nC：选：皮肤水肿橘皮样变符合T4b线索；同侧可推动腋窝结节属区域淋巴结，M0，按本题属于Ⅲ期。\nD：不选：Ⅳ期需要远处转移M1。区域腋窝淋巴结不是远处器官转移，橘皮样变也不是M1。",
+          "knowledgeConnections": [
+            "依次判T、N、M：T看大小及胸壁/皮肤侵犯；N看区域结节；M看远处转移。T4会覆盖单纯大小的T2判断。"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "sourceSubject": "surgery",
+        "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "外科第3讲《外科 乳房疾病》",
+        "image": "exams/sprint-exam-20261021/lecture-065.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "sourceSubject": "surgery",
+          "sourceFile": "3 27考研：外科 乳房疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "外科第3讲《外科 乳房疾病》",
+          "image": "exams/sprint-exam-20261021/lecture-065.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q060",
+      "page": 12,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "60",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        12
+      ],
+      "title": "冲刺押题卷 · 第60题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "腹部损伤与感染",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "禁食，胃肠减压"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "镇静镇痛，抗生素"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "阑尾切除手术"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "修补缝合手术"
+        }
+      ],
+      "stems": [
+        {
+          "number": 60,
+          "sourceQuestion": 60,
+          "sourcePage": 12,
+          "text": "男性，36 岁。上腹剧痛半小时，疼痛蔓延至右下腹及全腹。查体：P 110 次 /分，BP 130/80mmHg，全腹压痛、反跳痛、肌紧张，上腹部为著，板状腹，肠鸣音减弱。化验 Hb 120g/L，WBC 11.5×109/L。该患者最佳的治疗措施是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-06",
+          "explanation": "突发上腹剧痛向全腹扩散，板状腹提示消化性溃疡穿孔、弥漫性腹膜炎，需要手术修补穿孔。并非以右下腹痛就按阑尾炎处理。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "sourceSubject": "surgery",
+        "sourceFile": "6 27考研：外科 腹腔感染 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "6 27考研：外科 腹腔感染",
+        "image": "exams/sprint-exam-20261021/lecture-066.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-06",
+          "sourceSubject": "surgery",
+          "sourceFile": "6 27考研：外科 腹腔感染 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "6 27考研：外科 腹腔感染",
+          "image": "exams/sprint-exam-20261021/lecture-066.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q061",
+      "page": 12,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "61",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        12
+      ],
+      "title": "冲刺押题卷 · 第61题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "腹外疝",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "腹外斜肌腱膜"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "腹内斜肌腱膜"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "腹横肌腱膜"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "腹横筋膜"
+        }
+      ],
+      "stems": [
+        {
+          "number": 61,
+          "sourceQuestion": 61,
+          "sourcePage": 12,
+          "text": "腹股沟管的前壁主要是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-12",
+          "explanation": "A：选：前壁主要为腹外斜肌腱膜，外侧段有腹内斜肌等加强。\nB：不选作主要前壁：腹内斜肌参与外侧加强，并与腹横肌弓状下缘构成上壁，不能替代主要前壁结构。\nC：不选：腹横肌相关结构参与上壁及联合腱等，不是腹股沟管主要前壁。\nD：不选：腹横筋膜是腹股沟管后壁主要结构，内侧有联合腱等加强。",
+          "knowledgeConnections": [
+            "四壁按前后上下逐一对应，不要只把“腹斜肌”作为模糊词记忆。腹股沟管深环在腹横筋膜，浅环在腹外斜肌腱膜。"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "sourceSubject": "surgery",
+        "sourceFile": "12 27考研：外科 腹外疝 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "外科第12讲《外科 腹外疝》",
+        "image": "exams/sprint-exam-20261021/lecture-067.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-12",
+          "sourceSubject": "surgery",
+          "sourceFile": "12 27考研：外科 腹外疝 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "外科第12讲《外科 腹外疝》",
+          "image": "exams/sprint-exam-20261021/lecture-067.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q062",
+      "page": 12,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "62",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        12
+      ],
+      "title": "冲刺押题卷 · 第62题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "小肠与阑尾疾病",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "补液，密切观察病情变化"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "使用吗啡止痛"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "剖腹探查"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "在出现弥漫性腹膜炎后立即手术"
+        }
+      ],
+      "stems": [
+        {
+          "number": 62,
+          "sourceQuestion": 62,
+          "sourcePage": 12,
+          "text": "男性，50 岁。术后粘连性肠梗阻 3 天，加重 1 天。查体：可见肠型，右下腹局限性压痛。多次立位腹部 X 线片见固定的肿大肠袢。该患者应",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-08",
+          "explanation": "粘连性肠梗阻加重、局限压痛及固定扩张肠袢，提示闭袢或绞窄风险，应及时剖腹探查，不能等到弥漫性腹膜炎再手术。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "sourceSubject": "surgery",
+        "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "8 27考研：外科 肠梗阻",
+        "image": "exams/sprint-exam-20261021/lecture-068.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-08",
+          "sourceSubject": "surgery",
+          "sourceFile": "8 27考研：外科 肠梗阻 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "8 27考研：外科 肠梗阻",
+          "image": "exams/sprint-exam-20261021/lecture-068.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q063",
+      "page": 12,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "63",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        12
+      ],
+      "title": "冲刺押题卷 · 第63题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "穿刺抽吸囊液"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "囊肿置管引流"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "手术切除囊肿"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "囊肿空肠 R-Y 吻合"
+        }
+      ],
+      "stems": [
+        {
+          "number": 63,
+          "sourceQuestion": 63,
+          "sourcePage": 12,
+          "text": "男性，30 岁。半年前上腹部曾受钝挫伤。2 个月前上腹部出现包块。近来常有呕吐，无发热、腹痛。查体：上腹部触及一约 9×10cm 囊性包块。B 超示包块内为液性成分。该患者最佳的治疗方法是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-15",
+          "explanation": "A：不选：单次穿刺抽液易再积聚，并有感染等风险，不能解决这一成熟巨大囊肿的持续引流问题。\nB：不选作本题最佳：外置管引流在感染、囊壁不成熟等情境可有价值，但成熟无感染假性囊肿内引流更符合本题给定选项。\nC：不选：假性囊肿缺乏真性上皮囊壁，周围常有炎性粘连，常规切除不是本题首选。\nD：选：成熟、较大且产生压迫症状，可将囊液引入消化道；囊肿空肠Roux-en-Y吻合为教材经典内引流方式。\n核验：现代治疗可包括超声内镜等引流方式；本题只在所给四项中比较，不将开放吻合术写成所有患者唯一方案。",
+          "knowledgeConnections": [
+            "看三件事：病程是否达到囊壁成熟阶段，是否足够大或有症状，是否感染。成熟无感染偏内引流；感染/坏死物积聚等要另判。"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "sourceSubject": "surgery",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "page": 137,
+        "pageLabel": "PDF第137页",
+        "title": "内科跟课合集｜急性胰腺炎局部并发症",
+        "image": "exams/sprint-exam-20261021/lecture-069.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-15",
+          "sourceSubject": "surgery",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "page": 137,
+          "pageLabel": "PDF第137页",
+          "title": "内科跟课合集｜急性胰腺炎局部并发症",
+          "image": "exams/sprint-exam-20261021/lecture-069.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q064",
+      "page": 12,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "64",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        12
+      ],
+      "title": "冲刺押题卷 · 第64题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "草绿色链球菌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "大肠埃希菌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肺炎链球菌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "克雷伯杆菌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 64,
+          "sourceQuestion": 64,
+          "sourcePage": 12,
+          "text": "女性，40 岁。右上腹胀痛伴畏寒、发热 2 天，巩膜黄染 1 天。查体：T 39 度，P 100 次/分，右上腹压痛、反跳痛及肌紧张明显，肝区叩击痛阳性。血 WBC 18.2×109/L，N 0.85，B 超示胆囊及胆总管结石。该患者最可能感染的致病菌是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-16",
+          "explanation": "胆道结石继发感染最常见为肠源性革兰阴性菌，大肠埃希菌为经典首选。草绿色链球菌及肺炎链球菌不是本题最常见病原。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "sourceSubject": "surgery",
+        "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 19,
+        "pageLabel": "PDF第19页",
+        "title": "16 27考研：外科 胆系疾病",
+        "image": "exams/sprint-exam-20261021/lecture-070.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "sourceSubject": "surgery",
+          "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 19,
+          "pageLabel": "PDF第19页",
+          "title": "16 27考研：外科 胆系疾病",
+          "image": "exams/sprint-exam-20261021/lecture-070.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q065",
+      "page": 13,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "65",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        13
+      ],
+      "title": "冲刺押题卷 · 第65题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-28"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "髋关节外旋"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "髋关节伸直"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "患肢延长"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "大粗隆达 Nelaton 线之上"
+        }
+      ],
+      "stems": [
+        {
+          "number": 65,
+          "sourceQuestion": 65,
+          "sourcePage": 13,
+          "text": "髋关节后脱位的常见体征是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-28",
+          "explanation": "髋后脱位典型为屈曲、内收、内旋和患肢缩短，大粗隆上移至Nelaton线以上；外旋、伸直、延长与之不符。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-28",
+        "sourceSubject": "surgery",
+        "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 10,
+        "pageLabel": "PDF第10页",
+        "title": "28 27考研：外科 四肢骨折和脱位",
+        "image": "exams/sprint-exam-20261021/lecture-071.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-28",
+          "sourceSubject": "surgery",
+          "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 10,
+          "pageLabel": "PDF第10页",
+          "title": "28 27考研：外科 四肢骨折和脱位",
+          "image": "exams/sprint-exam-20261021/lecture-071.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q066",
+      "page": 13,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "66",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        13
+      ],
+      "title": "冲刺押题卷 · 第66题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "神经根型颈椎病"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "脊髓型颈椎病"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "椎动脉型颈椎病"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "交感神经型颈椎病"
+        }
+      ],
+      "stems": [
+        {
+          "number": 66,
+          "sourceQuestion": 66,
+          "sourcePage": 13,
+          "text": "男性，60 岁。 近3 个月来反复头痛， 头晕， 今日下午在突然旋转头部时感眩晕， 耳鸣，随即摔倒在地，10 分钟左右缓解。X 线：C5-C6 椎体后缘骨质增生，椎间孔狭窄。该患者最可能的诊断是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-27",
+          "explanation": "转头诱发眩晕、耳鸣和猝倒，结合颈椎退变，按传统分型考虑椎动脉型颈椎病。神经根型以放射痛、麻木为主，脊髓型以长束征及步态异常为主。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "sourceSubject": "surgery",
+        "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "title": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断）",
+        "image": "exams/sprint-exam-20261021/lecture-072.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-27",
+          "sourceSubject": "surgery",
+          "sourceFile": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "title": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断）",
+          "image": "exams/sprint-exam-20261021/lecture-072.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q067",
+      "page": 13,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "67",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        13
+      ],
+      "title": "冲刺押题卷 · 第67题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "类风湿侵犯髋关节"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "股骨头缺血坏死"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "髋关节结核"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "合并强直性脊柱炎"
+        }
+      ],
+      "stems": [
+        {
+          "number": 67,
+          "sourceQuestion": 67,
+          "sourcePage": 13,
+          "text": "女性，60 岁。 类风湿关节炎30 年， 长期服用泼尼松和甲氨蝶呤。 查体： 双手手指尺侧偏斜， 屈曲畸形。 近来出现双侧髋关节疼痛， 活动受限， X 线未见股骨头异常改变。患者髋关节疼痛最可能的原因是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-22",
+          "explanation": "A：不选作最可能：类风湿可以累及髋关节，但题干突出长期糖皮质激素及新出现双侧髋痛，更应警惕缺血坏死。\nB：选：糖皮质激素是非创伤性股骨头坏死的重要危险因素，可双侧发生；早期普通X线可无异常。\nC：不选：髋结核常见病程和局部表现需另有支持，双侧同时新发且长期激素背景下不如B贴合。\nD：不选：强直性脊柱炎通常需要炎性腰背痛、骶髂关节炎等证据；不能只凭髋痛和类风湿史认定合并。",
+          "knowledgeConnections": [
+            "普通X线正常不能排除早期股骨头坏死。临床怀疑时MRI更敏感；不要因“片子正常”放弃由危险因素和症状提示的病变。"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "sourceSubject": "surgery",
+        "sourceFile": "22 27考研：外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "外科第22讲《外科 手外伤、股骨头坏死、膝关节损伤、神经损伤》",
+        "image": "exams/sprint-exam-20261021/lecture-073.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-22",
+          "sourceSubject": "surgery",
+          "sourceFile": "22 27考研：外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "外科第22讲《外科 手外伤、股骨头坏死、膝关节损伤、神经损伤》",
+          "image": "exams/sprint-exam-20261021/lecture-073.webp"
+        },
+        {
+          "lectureId": "lecture-22",
+          "sourceSubject": "surgery",
+          "sourceFile": "22 27考研：外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "外科第22讲《外科 手外伤、股骨头坏死、膝关节损伤、神经损伤》",
+          "image": "exams/sprint-exam-20261021/lecture-074.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q093",
+      "page": 18,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "93",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        18
+      ],
+      "title": "冲刺押题卷 · 第93题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "颈部疾病",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "Ⅰ期"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "Ⅱ期"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Ⅲ期"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "Ⅳ期"
+        }
+      ],
+      "stems": [
+        {
+          "number": 93,
+          "sourceQuestion": 93,
+          "sourcePage": 18,
+          "text": "该患者的临床分期是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-01",
+          "explanation": "年轻分化型甲状腺癌出现远处转移，按本卷采用的年龄分层TNM体系分为Ⅱ期；不能将所有骨转移一概定为Ⅳ期。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "sourceSubject": "surgery",
+        "sourceFile": "1 27考研：外科 颈部疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 9,
+        "pageLabel": "PDF第9页",
+        "title": "1 27考研：外科 颈部疾病",
+        "image": "exams/sprint-exam-20261021/lecture-095.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-01",
+          "sourceSubject": "surgery",
+          "sourceFile": "1 27考研：外科 颈部疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 9,
+          "pageLabel": "PDF第9页",
+          "title": "1 27考研：外科 颈部疾病",
+          "image": "exams/sprint-exam-20261021/lecture-095.webp"
+        }
+      ],
+      "sharedStem": "女性，35 岁。 颈部单发肿块两年。查体：甲状软骨右侧触及直径约 1.5cm 大小结节，质硬，表面不光滑，无明显触痛，听诊未闻及血管杂音。 病理诊断为甲状腺乳头状癌。骨扫描诊断为右肱骨转移。",
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q094",
+      "page": 18,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "94",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        18
+      ],
+      "title": "冲刺押题卷 · 第94题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-36"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "全脊髓麻醉"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "膈神经麻痹"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "霍纳综合征"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "气胸"
+        }
+      ],
+      "stems": [
+        {
+          "number": 94,
+          "sourceQuestion": 94,
+          "sourcePage": 18,
+          "text": "该患者行甲状腺全切术， 在颈丛麻醉时很少出现的并发症是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-36",
+          "explanation": "A：不选“很少出现”：深颈部注射药物异常扩散或误入相关间隙，可导致高位硬膜外或全脊髓麻醉，是需警惕并发症。\nB：不选：膈神经来自C3—C5，颈丛阻滞可波及而出现同侧膈肌麻痹，双侧深颈丛阻滞尤其危险。\nC：不选：药物扩散影响颈交感神经，可出现Horner综合征。\nD：选：颈丛阻滞相较锁骨上臂丛、肋间神经阻滞，气胸较少见；题目问的是相对少见而非绝不可能。",
+          "knowledgeConnections": [
+            "讲义表格逐列对：颈丛重点看膈神经、喉返神经、交感神经及高位阻滞；锁骨上臂丛、肋间更强调胸膜邻近及气胸。"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-36",
+        "sourceSubject": "surgery",
+        "sourceFile": "36 27考研：外科 麻醉 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "外科第36讲《外科 麻醉》",
+        "image": "exams/sprint-exam-20261021/lecture-096.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-36",
+          "sourceSubject": "surgery",
+          "sourceFile": "36 27考研：外科 麻醉 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "外科第36讲《外科 麻醉》",
+          "image": "exams/sprint-exam-20261021/lecture-096.webp"
+        }
+      ],
+      "sharedStem": "女性，35 岁。 颈部单发肿块两年。查体：甲状软骨右侧触及直径约 1.5cm 大小结节，质硬，表面不光滑，无明显触痛，听诊未闻及血管杂音。 病理诊断为甲状腺乳头状癌。骨扫描诊断为右肱骨转移。",
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q095",
+      "page": 18,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "95",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        18
+      ],
+      "title": "冲刺押题卷 · 第95题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "颈部疾病",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "喉返神经损伤"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "喉上神经内支损伤"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "喉上神经外支损伤"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "声带损伤"
+        }
+      ],
+      "stems": [
+        {
+          "number": 95,
+          "sourceQuestion": 95,
+          "sourcePage": 18,
+          "text": "该患者术后第一天出现饮水时有呛咳，最可能的原因是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-01",
+          "explanation": "喉上神经内支承担声门上感觉，损伤导致误吸及饮水呛咳；外支损伤影响环甲肌、高音，喉返神经损伤更典型为声音嘶哑。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "sourceSubject": "surgery",
+        "sourceFile": "1 27考研：外科 颈部疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "pageLabel": "PDF第8页",
+        "title": "1 27考研：外科 颈部疾病",
+        "image": "exams/sprint-exam-20261021/lecture-097.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-01",
+          "sourceSubject": "surgery",
+          "sourceFile": "1 27考研：外科 颈部疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "title": "1 27考研：外科 颈部疾病",
+          "image": "exams/sprint-exam-20261021/lecture-097.webp"
+        }
+      ],
+      "sharedStem": "女性，35 岁。 颈部单发肿块两年。查体：甲状软骨右侧触及直径约 1.5cm 大小结节，质硬，表面不光滑，无明显触痛，听诊未闻及血管杂音。 病理诊断为甲状腺乳头状癌。骨扫描诊断为右肱骨转移。",
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q096",
+      "page": 18,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "96",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        18
+      ],
+      "title": "冲刺押题卷 · 第96题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "胸部疾病",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "右偏"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "左偏"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "在右侧与正中间摆动"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "在左侧与正中间摆动"
+        }
+      ],
+      "stems": [
+        {
+          "number": 96,
+          "sourceQuestion": 96,
+          "sourcePage": 18,
+          "text": "该患者纵隔的位置是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-04",
+          "explanation": "A：不选：持续右偏不是本题典型描述，也不是右侧胸膜腔开放造成的正常方向。\nB：不选作完整答案：吸气时可向左健侧偏，但呼气时回向中线，不能仅写固定左偏。\nC：不选：右侧是患侧；本题经典纵隔扑动范围不是右侧与正中之间。\nD：选：吸气时健侧胸内负压更明显，将纵隔牵向左侧；呼气时向中线回移，表现为左侧与中线间摆动。",
+          "knowledgeConnections": [
+            "先标患侧右、健侧左，再判断压力。闭合性大量气胸可固定向健侧推移；开放性气胸则因呼吸压力差出现纵隔扑动。"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "sourceSubject": "surgery",
+        "sourceFile": "13 27考研：内科含诊断+外科 胸膜疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "内科第13讲《内科含诊断+外科 胸膜疾病》",
+        "image": "exams/sprint-exam-20261021/lecture-098.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-04",
+          "sourceSubject": "surgery",
+          "sourceFile": "13 27考研：内科含诊断+外科 胸膜疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "内科第13讲《内科含诊断+外科 胸膜疾病》",
+          "image": "exams/sprint-exam-20261021/lecture-098.webp"
+        }
+      ],
+      "sharedStem": "男性，30 岁。半小时前被刀刺右前胸部， 咳血痰， 呼吸困难。 查体：血压 107/78mmHg，右前胸有轻度皮下气肿，右锁骨中线 4 肋间可见 3cm 长创口，随呼吸有气体进出伤口响声。",
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q097",
+      "page": 18,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "97",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        18
+      ],
+      "title": "冲刺押题卷 · 第97题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "胸部疾病",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "吸氧，补液"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胸膜腔穿刺"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "剖胸探查"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "闭合胸部创口"
+        }
+      ],
+      "stems": [
+        {
+          "number": 97,
+          "sourceQuestion": 97,
+          "sourcePage": 18,
+          "text": "此时应采取的急救措施是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-04",
+          "explanation": "开放性气胸伤口与外界相通，应立即封闭胸壁创口，使其转为闭合状态并进一步处理胸腔。吸氧补液是支持措施，不能替代封闭伤口。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "sourceSubject": "surgery",
+        "sourceFile": "4 27考研：外科 其它颈胸部疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "4 27考研：外科 其它颈胸部疾病",
+        "image": "exams/sprint-exam-20261021/lecture-099.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-04",
+          "sourceSubject": "surgery",
+          "sourceFile": "4 27考研：外科 其它颈胸部疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "4 27考研：外科 其它颈胸部疾病",
+          "image": "exams/sprint-exam-20261021/lecture-099.webp"
+        }
+      ],
+      "sharedStem": "男性，30 岁。半小时前被刀刺右前胸部， 咳血痰， 呼吸困难。 查体：血压 107/78mmHg，右前胸有轻度皮下气肿，右锁骨中线 4 肋间可见 3cm 长创口，随呼吸有气体进出伤口响声。",
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q098",
+      "page": 19,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "98",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        19
+      ],
+      "title": "冲刺押题卷 · 第98题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "胸部疾病",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "鳞癌"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "腺癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "腺鳞癌"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "未分化癌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 98,
+          "sourceQuestion": 98,
+          "sourcePage": 19,
+          "text": "行活组织病理检查，最可能的结果是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-02",
+          "explanation": "我国食管癌以鳞状细胞癌为主；本题颈胸上段食管病变更符合鳞癌，腺癌常见于食管下段胃食管交界背景。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "sourceSubject": "surgery",
+        "sourceFile": "2 27考研：外科 食管疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "2 27考研：外科 食管疾病",
+        "image": "exams/sprint-exam-20261021/lecture-100.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-02",
+          "sourceSubject": "surgery",
+          "sourceFile": "2 27考研：外科 食管疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "2 27考研：外科 食管疾病",
+          "image": "exams/sprint-exam-20261021/lecture-100.webp"
+        }
+      ],
+      "sharedStem": "男性，60 岁。进行性吞咽困难 4 月余。胃镜：距门齿 20cm 处食管后壁可见隆起病变，黏膜粗糙、质硬，表面破溃、易出血。未见其他部位转移征象。",
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q099",
+      "page": 19,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "99",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        19
+      ],
+      "title": "冲刺押题卷 · 第99题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "胸部疾病",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "根治手术"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胃造瘘肠内营养"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "放疗"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "化疗"
+        }
+      ],
+      "stems": [
+        {
+          "number": 99,
+          "sourceQuestion": 99,
+          "sourcePage": 19,
+          "text": "该患者最佳治疗方案是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-02",
+          "explanation": "A：不选作本题最佳：上段病变手术难度、邻近结构及功能影响较大，按本课程经典单选口径优先放疗。\nB：不选：胃造瘘仅解决营养通路，不能作为尚无远处转移患者的主要抗肿瘤治疗。\nC：选：颈段、上段食管癌的教材经典治疗选择偏放射治疗，本题四项中C最佳。\nD：不选：单独化疗一般不能替代局部根治性治疗；本题没有支持以单药物方案作为最佳答案的条件。",
+          "knowledgeConnections": [
+            "先定位，再分局部/远处，再比较治疗目的。现实治疗可能采用同步放化疗、手术等多学科方案，不能把这道单选题背成“上段食管癌一律只放疗”。"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "sourceSubject": "surgery",
+        "sourceFile": "2 27考研：外科 食管疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "外科第2讲《外科 食管疾病》",
+        "image": "exams/sprint-exam-20261021/lecture-101.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-02",
+          "sourceSubject": "surgery",
+          "sourceFile": "2 27考研：外科 食管疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "外科第2讲《外科 食管疾病》",
+          "image": "exams/sprint-exam-20261021/lecture-101.webp"
+        }
+      ],
+      "sharedStem": "男性，60 岁。进行性吞咽困难 4 月余。胃镜：距门齿 20cm 处食管后壁可见隆起病变，黏膜粗糙、质硬，表面破溃、易出血。未见其他部位转移征象。",
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q100",
+      "page": 19,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "100",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        19
+      ],
+      "title": "冲刺押题卷 · 第100题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "十二指肠溃疡"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胃癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "门静脉高压症"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胆管结石"
+        }
+      ],
+      "stems": [
+        {
+          "number": 100,
+          "sourceQuestion": 100,
+          "sourcePage": 19,
+          "text": "应首先考虑的诊断是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-14",
+          "explanation": "乙肝病史、脾大、腹水和低白蛋白提示肝硬化门静脉高压，呕血黑便首先考虑食管胃底静脉曲张破裂出血。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "sourceSubject": "surgery",
+        "sourceFile": "14 27考研：外科 门脉高压症 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "14 27考研：外科 门脉高压症",
+        "image": "exams/sprint-exam-20261021/lecture-102.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-14",
+          "sourceSubject": "surgery",
+          "sourceFile": "14 27考研：外科 门脉高压症 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "14 27考研：外科 门脉高压症",
+          "image": "exams/sprint-exam-20261021/lecture-102.webp"
+        }
+      ],
+      "sharedStem": "男性，40 岁。因呕血，黑便 2 天入院，既往乙型肝炎 10 年。 查体： 神志清， 贫血貌， 肝肋下未触及， 脾肋下3cm， 腹部无压痛， 移动性浊音(+)， 肠鸣音活跃。化验：血 Hb 80g/L，血白蛋白 20g/L，血总胆红素 76μmol/L。",
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q101",
+      "page": 19,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "101",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        19
+      ],
+      "title": "冲刺押题卷 · 第101题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胃镜"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "上消化道造影"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "腹部 X 线"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "腹部 B 超"
+        }
+      ],
+      "stems": [
+        {
+          "number": 101,
+          "sourceQuestion": 101,
+          "sourcePage": 19,
+          "text": "为明确诊断首选的检查是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-14",
+          "explanation": "A：选：胃镜可直接判断食管胃底静脉曲张及出血来源，还可提供内镜治疗机会，是本题确诊首选。\nB：不选作首选：上消化道造影可显示某些曲张形态，但急性出血时不如内镜直接，也不能同时内镜止血。\nC：不选：腹部普通X线不能可靠明确食管胃底静脉曲张出血。\nD：不选作确诊首选：超声可支持肝硬化、门静脉高压、腹水等，但不能替代对上消化道出血来源的直接观察。",
+          "knowledgeConnections": [
+            "乙肝史、脾大、腹水加呕血黑便提示静脉曲张出血，但“提示病因”与“确认出血来源”要分清。"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "sourceSubject": "surgery",
+        "sourceFile": "14 27考研：外科 门脉高压症 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "外科第14讲《外科 门脉高压症》",
+        "image": "exams/sprint-exam-20261021/lecture-103.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-14",
+          "sourceSubject": "surgery",
+          "sourceFile": "14 27考研：外科 门脉高压症 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "外科第14讲《外科 门脉高压症》",
+          "image": "exams/sprint-exam-20261021/lecture-103.webp"
+        }
+      ],
+      "sharedStem": "男性，40 岁。因呕血，黑便 2 天入院，既往乙型肝炎 10 年。 查体： 神志清， 贫血貌， 肝肋下未触及， 脾肋下3cm， 腹部无压痛， 移动性浊音(+)， 肠鸣音活跃。化验：血 Hb 80g/L，血白蛋白 20g/L，血总胆红素 76μmol/L。",
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q102",
+      "page": 19,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "102",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        19
+      ],
+      "title": "冲刺押题卷 · 第102题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "扩容补液"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "手术治疗"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "内镜治疗"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "使用奥曲肽"
+        }
+      ],
+      "stems": [
+        {
+          "number": 102,
+          "sourceQuestion": 102,
+          "sourcePage": 19,
+          "text": "以下治疗措施中不恰当的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-14",
+          "explanation": "失代偿肝硬化、明显腹水、白蛋白低及胆红素高，手术风险大；急性出血优先复苏、血管活性药及内镜止血，不以手术作为常规初始方案。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "sourceSubject": "surgery",
+        "sourceFile": "14 27考研：外科 门脉高压症 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "title": "14 27考研：外科 门脉高压症",
+        "image": "exams/sprint-exam-20261021/lecture-102.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-14",
+          "sourceSubject": "surgery",
+          "sourceFile": "14 27考研：外科 门脉高压症 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "title": "14 27考研：外科 门脉高压症",
+          "image": "exams/sprint-exam-20261021/lecture-102.webp"
+        }
+      ],
+      "sharedStem": "男性，40 岁。因呕血，黑便 2 天入院，既往乙型肝炎 10 年。 查体： 神志清， 贫血貌， 肝肋下未触及， 脾肋下3cm， 腹部无压痛， 移动性浊音(+)， 肠鸣音活跃。化验：血 Hb 80g/L，血白蛋白 20g/L，血总胆红素 76μmol/L。",
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q103",
+      "page": 20,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "103",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        20
+      ],
+      "title": "冲刺押题卷 · 第103题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "骨结核"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "骨髓炎"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "骨囊肿"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "骨肉瘤"
+        }
+      ],
+      "stems": [
+        {
+          "number": 103,
+          "sourceQuestion": 103,
+          "sourcePage": 20,
+          "text": "最需要与该疾病进行鉴别诊断的是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-25",
+          "explanation": "儿童骨干疼痛、发热、葱皮样骨膜反应提示尤文肉瘤，需与骨髓炎鉴别；两者均可发热、局部炎症样表现。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "sourceSubject": "surgery",
+        "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "title": "25 27考研：外科 骨肿瘤",
+        "image": "exams/sprint-exam-20261021/lecture-104.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-25",
+          "sourceSubject": "surgery",
+          "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "title": "25 27考研：外科 骨肿瘤",
+          "image": "exams/sprint-exam-20261021/lecture-104.webp"
+        }
+      ],
+      "sharedStem": "女性，10 岁。 右小腿酸痛2 个月， 进行性加重伴发热1 周。 现疼痛难忍，夜间尤其明显。 查体：T 38 度。右胫骨中段膨隆，压痛，局部皮温增高。X 线示右胫骨中段骨质破坏，骨膜呈葱皮样改变。",
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q104",
+      "page": 20,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "104",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        20
+      ],
+      "title": "冲刺押题卷 · 第104题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "手术，化疗"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "手术，放疗"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "手术，化疗，放疗"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "化疗，放疗"
+        }
+      ],
+      "stems": [
+        {
+          "number": 104,
+          "sourceQuestion": 104,
+          "sourcePage": 20,
+          "text": "该患者经活检病理检查确诊后，最适合的治疗是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-25",
+          "explanation": "尤文肉瘤为全身性治疗敏感的小圆细胞肿瘤，按本题取化疗联合手术及放疗的综合方案；局部治疗具体取决于部位及可切除性。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "sourceSubject": "surgery",
+        "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "title": "25 27考研：外科 骨肿瘤",
+        "image": "exams/sprint-exam-20261021/lecture-104.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-25",
+          "sourceSubject": "surgery",
+          "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "title": "25 27考研：外科 骨肿瘤",
+          "image": "exams/sprint-exam-20261021/lecture-104.webp"
+        }
+      ],
+      "sharedStem": "女性，10 岁。 右小腿酸痛2 个月， 进行性加重伴发热1 周。 现疼痛难忍，夜间尤其明显。 查体：T 38 度。右胫骨中段膨隆，压痛，局部皮温增高。X 线示右胫骨中段骨质破坏，骨膜呈葱皮样改变。",
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q105",
+      "page": 20,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "105",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        20
+      ],
+      "title": "冲刺押题卷 · 第105题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "含糖原的小圆细胞"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "单核基质细胞为主"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "肿瘤产生骨样基质"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "有透明软骨的分化"
+        }
+      ],
+      "stems": [
+        {
+          "number": 105,
+          "sourceQuestion": 105,
+          "sourcePage": 20,
+          "text": "该疾病的病理特征是",
+          "answerRaw": "A",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-25",
+          "explanation": "尤文肉瘤病理为含糖原的小圆细胞。肿瘤直接形成骨样基质偏骨肉瘤；透明软骨分化偏软骨源性肿瘤。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "sourceSubject": "surgery",
+        "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "title": "25 27考研：外科 骨肿瘤",
+        "image": "exams/sprint-exam-20261021/lecture-104.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-25",
+          "sourceSubject": "surgery",
+          "sourceFile": "25 27考研：外科 骨肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "title": "25 27考研：外科 骨肿瘤",
+          "image": "exams/sprint-exam-20261021/lecture-104.webp"
+        }
+      ],
+      "sharedStem": "女性，10 岁。 右小腿酸痛2 个月， 进行性加重伴发热1 周。 现疼痛难忍，夜间尤其明显。 查体：T 38 度。右胫骨中段膨隆，压痛，局部皮温增高。X 线示右胫骨中段骨质破坏，骨膜呈葱皮样改变。",
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q106",
+      "page": 20,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "106",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        20
+      ],
+      "title": "冲刺押题卷 · 第106题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "化脓性脊柱炎"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胸椎结核"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胸椎骨巨细胞瘤"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "胸椎转移癌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 106,
+          "sourceQuestion": 106,
+          "sourcePage": 20,
+          "text": "该患者首先考虑的诊断是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-23",
+          "explanation": "低热、消瘦、ESR快、椎间隙变窄、相邻椎体破坏及椎旁阴影增宽，支持胸椎结核伴寒性脓肿，而非典型转移癌。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "sourceSubject": "surgery",
+        "sourceFile": "23 27考研：外科 骨与关节感染 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "title": "23 27考研：外科 骨与关节感染",
+        "image": "exams/sprint-exam-20261021/lecture-105.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-23",
+          "sourceSubject": "surgery",
+          "sourceFile": "23 27考研：外科 骨与关节感染 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "title": "23 27考研：外科 骨与关节感染",
+          "image": "exams/sprint-exam-20261021/lecture-105.webp"
+        }
+      ],
+      "sharedStem": "女性，40 岁。进行性背痛半年，下肢乏力。查体：全身消瘦， T 37.8 度，P 90 次/分，R 18 次/分，BP 100/60mmHg，第 6 胸椎后凸畸形，局部叩痛。X 线示第 6、7 胸椎间隙变窄， 上下缘模糊，椎旁软组织阴影增宽。实验室检查：Hb 98g/L，WBC 7.0×109/L，Plt 112×109/L，ESR 60mm/h。",
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q107",
+      "page": 20,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "107",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        20
+      ],
+      "title": "冲刺押题卷 · 第107题",
+      "kind": "A",
+      "kindLabel": "单项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "立即手术"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "抗结核治疗"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "化疗，放疗"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "足量抗生素"
+        }
+      ],
+      "stems": [
+        {
+          "number": 107,
+          "sourceQuestion": 107,
+          "sourcePage": 20,
+          "text": "该患者的治疗方法是",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-23",
+          "explanation": "脊柱结核治疗的基础为规范联合抗结核；是否手术取决于脊髓压迫、稳定性、畸形及脓肿等，不能脱离病情直接一律立即手术。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "sourceSubject": "surgery",
+        "sourceFile": "23 27考研：外科 骨与关节感染 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "title": "23 27考研：外科 骨与关节感染",
+        "image": "exams/sprint-exam-20261021/lecture-105.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-23",
+          "sourceSubject": "surgery",
+          "sourceFile": "23 27考研：外科 骨与关节感染 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "title": "23 27考研：外科 骨与关节感染",
+          "image": "exams/sprint-exam-20261021/lecture-105.webp"
+        }
+      ],
+      "sharedStem": "女性，40 岁。进行性背痛半年，下肢乏力。查体：全身消瘦， T 37.8 度，P 90 次/分，R 18 次/分，BP 100/60mmHg，第 6 胸椎后凸畸形，局部叩痛。X 线示第 6、7 胸椎间隙变窄， 上下缘模糊，椎旁软组织阴影增宽。实验室检查：Hb 98g/L，WBC 7.0×109/L，Plt 112×109/L，ESR 60mm/h。",
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q160",
+      "page": 28,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "160",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        28
+      ],
+      "title": "冲刺押题卷 · 第160题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-32"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "严重脓毒症"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "小肠仅剩 50cm"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "急性重症胰腺炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "脑外伤昏迷"
+        }
+      ],
+      "stems": [
+        {
+          "number": 160,
+          "sourceQuestion": 160,
+          "sourcePage": 28,
+          "text": "肠外营养的适应症有",
+          "answerRaw": "ABC",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-32",
+          "explanation": "本卷按传统外科营养题选ABC，短肠50cm尤其支持肠外营养。重症感染和重症胰腺炎需结合胃肠功能；现代临床肠道可用时优先肠内营养，不能仅按病名一律肠外。脑外伤昏迷但胃肠可用时宜肠内。",
+          "knowledgeConnections": [],
+          "explanationReferences": [
+            {
+              "label": "AGA急性胰腺炎指南",
+              "url": "https://gastro.org/clinical-guidance/initial-management-of-acute-pancreatitis-ap/"
+            }
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-32",
+        "sourceSubject": "surgery",
+        "sourceFile": "32 27考研：外科 营养代谢 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "32 27考研：外科 营养代谢",
+        "image": "exams/sprint-exam-20261021/lecture-142.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-32",
+          "sourceSubject": "surgery",
+          "sourceFile": "32 27考研：外科 营养代谢 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "32 27考研：外科 营养代谢",
+          "image": "exams/sprint-exam-20261021/lecture-142.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q161",
+      "page": 29,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "161",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        29
+      ],
+      "title": "冲刺押题卷 · 第161题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "胸部疾病",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "压迫位于胸廓上口的器官组织"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "颈静脉怒张"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "霍纳综合征"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "上肢运动障碍"
+        }
+      ],
+      "stems": [
+        {
+          "number": 161,
+          "sourceQuestion": 161,
+          "sourcePage": 29,
+          "text": "Pancoast 瘤的临床表现有",
+          "answerRaw": "ABCD",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-04",
+          "explanation": "A：选：肺尖、胸廓上口解剖空间狭窄，肺上沟瘤可侵犯或压迫邻近血管、神经等结构。\nB：按本卷选：若压迫邻近静脉并妨碍回流，可有颈静脉怒张；这不代表每个肺上沟瘤都必须出现完整上腔静脉综合征。\nC：选：侵犯颈交感通路可出现同侧瞳孔缩小、眼睑下垂等Horner综合征。\nD：选：侵犯臂丛神经可有肩臂痛、麻木、手部肌力下降、肌萎缩或上肢运动障碍。",
+          "knowledgeConnections": [
+            "肺尖定位后按受压结构逐条找表现：静脉→回流障碍；交感→Horner；臂丛→肩臂痛及运动障碍。"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "sourceSubject": "surgery",
+        "sourceFile": "12 27考研：内科+外科 肺癌 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "内科第12讲《内科+外科 肺癌》",
+        "image": "exams/sprint-exam-20261021/lecture-143.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-04",
+          "sourceSubject": "surgery",
+          "sourceFile": "12 27考研：内科+外科 肺癌 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "内科第12讲《内科+外科 肺癌》",
+          "image": "exams/sprint-exam-20261021/lecture-143.webp"
+        },
+        {
+          "lectureId": "lecture-04",
+          "sourceSubject": "surgery",
+          "sourceFile": "12 27考研：内科+外科 肺癌 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "内科第12讲《内科+外科 肺癌》",
+          "image": "exams/sprint-exam-20261021/lecture-144.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q162",
+      "page": 29,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "162",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        29
+      ],
+      "title": "冲刺押题卷 · 第162题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "多见于中年肥胖女性"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "临床表现与结石性胆囊炎相似"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "一般在 24 小时内即发展为坏疽性胆囊炎"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "发病早期可行肝胆核素扫描"
+        }
+      ],
+      "stems": [
+        {
+          "number": 162,
+          "sourceQuestion": 162,
+          "sourcePage": 29,
+          "text": "关于急性非结石性胆囊炎的描述，正确的有",
+          "answerRaw": "BCD",
+          "answer": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-16",
+          "explanation": "急性非结石性胆囊炎多见于严重创伤、大手术、危重症等，可迅速缺血坏疽，表现类似结石性胆囊炎；早期核素扫描可辅助诊断。中年肥胖女性是结石性疾病的常见画像。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "sourceSubject": "surgery",
+        "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "pageLabel": "PDF第6页",
+        "title": "16 27考研：外科 胆系疾病",
+        "image": "exams/sprint-exam-20261021/lecture-145.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "sourceSubject": "surgery",
+          "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "title": "16 27考研：外科 胆系疾病",
+          "image": "exams/sprint-exam-20261021/lecture-145.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q163",
+      "page": 29,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "163",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        29
+      ],
+      "title": "冲刺押题卷 · 第163题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "泌尿外科",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "针对左侧输尿管下段 1.9cm×1.8cm 的结石，首选输尿管镜碎石取石"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "针对左侧肾盂 1.4cm×1.3cm 的结石，MRU 示左肾盂输尿管处梗阻，首选 ESWL"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "针对右侧肾盂 1.8cm×1.2cm 的结石，CTU 示右肾轻度积水，首选 ESWL"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "针对右侧肾盂 1.4cm 的结石和左侧输尿管上段 0.8cm 的结石， 首选右肾盂ESWL"
+        }
+      ],
+      "stems": [
+        {
+          "number": 163,
+          "sourceQuestion": 163,
+          "sourcePage": 29,
+          "text": "以下关于上尿路结石的治疗， 正确的有",
+          "answerRaw": "AC",
+          "answer": [
+            "A",
+            "C"
+          ],
+          "answerMode": "多选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-19",
+          "explanation": "A：选：输尿管下段约1.9cm结石，按教材适合输尿管镜碎石取石，能直接处理该部位结石。\nB：不选：肾盂输尿管连接处已有梗阻，体外碎石后碎片排出受限；治疗需同时考虑解除梗阻，不能单纯首选ESWL。\nC：按本卷选：约1.8cm肾盂结石、仅轻度积水且未给远端解剖梗阻，教材尺寸表可选ESWL。\nD：不选：一侧肾结石、一侧输尿管结石时，优先处理输尿管侧，以减少其梗阻风险；不是先做右肾ESWL。\n核验：现代指南允许根据结石密度、解剖、下盏条件等选择多种方案；本题按给定选项和所用讲义表比较。",
+          "knowledgeConnections": [
+            "决策顺序：感染和梗阻安全问题→位置→大小→双侧处理次序。ESWL必须考虑碎片是否有通畅的下行道路。"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "sourceSubject": "surgery",
+        "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "title": "外科第19讲《外科 泌外梗阻和外伤》",
+        "image": "exams/sprint-exam-20261021/lecture-146.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "sourceSubject": "surgery",
+          "sourceFile": "19 27考研：外科 泌外梗阻和外伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "外科第19讲《外科 泌外梗阻和外伤》",
+          "image": "exams/sprint-exam-20261021/lecture-146.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q164",
+      "page": 29,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "164",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        29
+      ],
+      "title": "冲刺押题卷 · 第164题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "Finkelstein 征"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "Trendelenburg 征"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Allis 征"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "Barlow 试验(+)"
+        }
+      ],
+      "stems": [
+        {
+          "number": 164,
+          "sourceQuestion": 164,
+          "sourcePage": 29,
+          "text": "站立前期发育性髋关节脱位的典型体征有",
+          "answerRaw": "CD",
+          "answer": [
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-20",
+          "explanation": "站立前期可见Allis征及Barlow试验阳性；Trendelenburg征需站立负重观察，不适用于尚未站立的婴儿；Finkelstein征用于桡骨茎突狭窄性腱鞘炎。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "sourceSubject": "surgery",
+        "sourceFile": "20 27考研：外科 运动系统畸形 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "title": "20 27考研：外科 运动系统畸形",
+        "image": "exams/sprint-exam-20261021/lecture-147.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-20",
+          "sourceSubject": "surgery",
+          "sourceFile": "20 27考研：外科 运动系统畸形 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "title": "20 27考研：外科 运动系统畸形",
+          "image": "exams/sprint-exam-20261021/lecture-147.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q165",
+      "page": 29,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "165",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        29
+      ],
+      "title": "冲刺押题卷 · 第165题",
+      "kind": "X",
+      "kindLabel": "多项选择",
+      "answerLayout": "rows",
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-29"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "股骨颈骨折内收型"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "胫骨中下 1/3 骨折"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "Colles 骨折"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "舟月骨骨折"
+        }
+      ],
+      "stems": [
+        {
+          "number": 165,
+          "sourceQuestion": 165,
+          "sourcePage": 29,
+          "text": "骨折后因血运不良影响骨折愈合的常见部位有",
+          "answerRaw": "ABD",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-29",
+          "explanation": "A：选：股骨颈内收型不稳定，股骨头血供易受损，增加不愈合和缺血性坏死风险。\nB：选：胫骨中下1/3处血供条件相对差、软组织覆盖有限，是延迟愈合、不愈合的经典部位。\nC：不选：Colles骨折位于桡骨远端，局部松质骨及血供较丰富，通常并非因血运差不愈合的经典部位；须注意的是复位丢失等其他问题。\nD：按本卷选：原卷写“舟月骨骨折”，答案表选D。经典缺血性坏死和不愈合高风险重点是舟骨腰部/近侧，月骨也有缺血问题；不能将所有腕骨骨折一概而论。\n核验：保留原卷D的“舟月骨”字样，同时标注其用词较笼统。复习讲义时以舟骨近侧等明确部位为核心，不擅自改写原题。",
+          "knowledgeConnections": [
+            "“容易骨折”和“骨折后因血供差而不愈合”不是同一个排序。记具体骨段和供血方向，尤其舟骨近侧血供风险。"
+          ]
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-29",
+        "sourceSubject": "surgery",
+        "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 12,
+        "pageLabel": "PDF第12页",
+        "title": "外科第28讲《外科 四肢骨折和脱位》",
+        "image": "exams/sprint-exam-20261021/lecture-148.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-29",
+          "sourceSubject": "surgery",
+          "sourceFile": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 12,
+          "pageLabel": "PDF第12页",
+          "title": "外科第28讲《外科 四肢骨折和脱位》",
+          "image": "exams/sprint-exam-20261021/lecture-148.webp"
+        },
+        {
+          "lectureId": "lecture-29",
+          "sourceSubject": "surgery",
+          "sourceFile": "29 27考研：外科 骨折概论 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "title": "外科第29讲《外科 骨折概论》",
+          "image": "exams/sprint-exam-20261021/lecture-149.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q132",
+      "page": 24,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "132",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        24
+      ],
+      "title": "冲刺押题卷 · 第132题（B型共用选项 132—133）",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-13"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "脓肿穿刺抽脓"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "脓肿切开引流"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "部分肝切除"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "只需抗生素治疗"
+        }
+      ],
+      "stems": [
+        {
+          "number": 132,
+          "sourceQuestion": 132,
+          "sourcePage": 24,
+          "text": "大于 5cm 的单发细菌性肝脓肿应行",
+          "answerRaw": "B",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-13",
+          "explanation": "按本卷传统外科分界，大于5cm单发细菌性肝脓肿选切开引流。现代临床不少病例可优先影像引导经皮置管，不能把历史题径值直接当作一律开刀的规则。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "sourceSubject": "surgery",
+        "sourceFile": "13 27考研：外科 细菌性肝脓肿 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "13 27考研：外科 细菌性肝脓肿",
+        "image": "exams/sprint-exam-20261021/lecture-162.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-13",
+          "sourceSubject": "surgery",
+          "sourceFile": "13 27考研：外科 细菌性肝脓肿 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "13 27考研：外科 细菌性肝脓肿",
+          "image": "exams/sprint-exam-20261021/lecture-162.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q133",
+      "page": 24,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "133",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        24
+      ],
+      "title": "冲刺押题卷 · 第133题（B型共用选项 132—133）",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-13"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "脓肿穿刺抽脓"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "脓肿切开引流"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "部分肝切除"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "只需抗生素治疗"
+        }
+      ],
+      "stems": [
+        {
+          "number": 133,
+          "sourceQuestion": 133,
+          "sourcePage": 24,
+          "text": "慢性细菌性肝脓肿的局限厚壁脓肿应行",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-13",
+          "explanation": "慢性、局限、壁厚且引流不易治愈的细菌性肝脓肿，必要时可行病变部分肝切除；单纯抗生素往往不足。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "sourceSubject": "surgery",
+        "sourceFile": "13 27考研：外科 细菌性肝脓肿 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "title": "13 27考研：外科 细菌性肝脓肿",
+        "image": "exams/sprint-exam-20261021/lecture-162.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-13",
+          "sourceSubject": "surgery",
+          "sourceFile": "13 27考研：外科 细菌性肝脓肿 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "title": "13 27考研：外科 细菌性肝脓肿",
+          "image": "exams/sprint-exam-20261021/lecture-162.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q134",
+      "page": 24,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "134",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        24
+      ],
+      "title": "冲刺押题卷 · 第134题（B型共用选项 134—135）",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胆囊结石"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "下段胆管癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胆道蛔虫症"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "壶腹癌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 134,
+          "sourceQuestion": 134,
+          "sourcePage": 24,
+          "text": "男性，14 岁。突发剑突下剧烈绞痛 2 小时，疼痛呈钻顶样，辗转不安。查体： 腹肌柔软，右上腹轻微压痛。首先考虑的诊断是",
+          "answerRaw": "C",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-16",
+          "explanation": "年轻人突发剑突下钻顶样绞痛，疼痛剧烈而体征轻，符合胆道蛔虫症的痛征不符特点。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "sourceSubject": "surgery",
+        "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 13,
+        "pageLabel": "PDF第13页",
+        "title": "16 27考研：外科 胆系疾病",
+        "image": "exams/sprint-exam-20261021/lecture-163.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "sourceSubject": "surgery",
+          "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 13,
+          "pageLabel": "PDF第13页",
+          "title": "16 27考研：外科 胆系疾病",
+          "image": "exams/sprint-exam-20261021/lecture-163.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    },
+    {
+      "id": "surgery-sprint-exam-20261021-q135",
+      "page": 24,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "sourceName": "27考研【冲刺押题阶段】考试.pdf",
+      "sourceQuestion": "135",
+      "sourceLabel": "冲刺押题卷",
+      "sourcePages": [
+        24
+      ],
+      "title": "冲刺押题卷 · 第135题（B型共用选项 134—135）",
+      "kind": "B",
+      "kindLabel": "配伍单选",
+      "answerLayout": "rows",
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "supplement": true,
+      "answerSourceLabel": "本卷答案表",
+      "answerSourceName": "用户提供的答案速查表",
+      "options": [
+        {
+          "key": "A",
+          "displayKey": "A",
+          "label": "胆囊结石"
+        },
+        {
+          "key": "B",
+          "displayKey": "B",
+          "label": "下段胆管癌"
+        },
+        {
+          "key": "C",
+          "displayKey": "C",
+          "label": "胆道蛔虫症"
+        },
+        {
+          "key": "D",
+          "displayKey": "D",
+          "label": "壶腹癌"
+        }
+      ],
+      "stems": [
+        {
+          "number": 135,
+          "sourceQuestion": 135,
+          "sourcePage": 24,
+          "text": "男性，65 岁。 无痛性皮肤、 巩膜黄染4 个月， 曾经稍有减退， 近2 个月来呈进行性加重。 查体： 腹软， 右上腹轻压痛， 可触及肿大的胆囊， 全腹未触及肿块。 首先考虑的诊断是",
+          "answerRaw": "D",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "answerState": "按本卷答案表录入",
+          "lectureId": "lecture-16",
+          "explanation": "无痛性黄疸呈波动后加重、胆囊肿大，按本卷最符合壶腹癌；肿瘤坏死、短暂再通可使黄疸暂退，与持续完全梗阻有所区别。",
+          "knowledgeConnections": []
+        }
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "sourceSubject": "surgery",
+        "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 18,
+        "pageLabel": "PDF第18页",
+        "title": "16 27考研：外科 胆系疾病",
+        "image": "exams/sprint-exam-20261021/lecture-164.webp"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "sourceSubject": "surgery",
+          "sourceFile": "16 27考研：外科 胆系疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 18,
+          "pageLabel": "PDF第18页",
+          "title": "16 27考研：外科 胆系疾病",
+          "image": "exams/sprint-exam-20261021/lecture-164.webp"
+        }
+      ],
+      "sourceSection": "外科学",
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+    }
+  ],
+  "pages": [
+    {
+      "page": 11,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "image": "exams/sprint-exam-20261021/paper-11.webp"
+    },
+    {
+      "page": 12,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "image": "exams/sprint-exam-20261021/paper-12.webp"
+    },
+    {
+      "page": 13,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "image": "exams/sprint-exam-20261021/paper-13.webp"
+    },
+    {
+      "page": 18,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "image": "exams/sprint-exam-20261021/paper-18.webp"
+    },
+    {
+      "page": 19,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "image": "exams/sprint-exam-20261021/paper-19.webp"
+    },
+    {
+      "page": 20,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "image": "exams/sprint-exam-20261021/paper-20.webp"
+    },
+    {
+      "page": 24,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "image": "exams/sprint-exam-20261021/paper-24.webp"
+    },
+    {
+      "page": 28,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "image": "exams/sprint-exam-20261021/paper-28.webp"
+    },
+    {
+      "page": 29,
+      "sourceKey": "surgery-sprint-exam-20261021",
+      "image": "exams/sprint-exam-20261021/paper-29.webp"
+    }
+  ],
+  "lectures": [],
+  "topics": [
+    "外科总论",
+    "乳房疾病",
+    "腹部损伤与感染",
+    "腹外疝",
+    "小肠与阑尾疾病",
+    "肝胆胰疾病",
+    "骨科",
+    "颈部疾病",
+    "胸部疾病",
+    "泌尿外科"
+  ]
+}

@@ -3,7 +3,7 @@ import { readFileSync, readdirSync, writeFileSync } from 'node:fs'
 const directory = new URL('../src/data/', import.meta.url)
 const labels = { med: '内科', pathology: '病理', surgery: '外科', physiology: '生理', biochemistry: '生化', politics: '政治' }
 const catalog = []
-for (const file of readdirSync(directory).filter(name => name.endsWith('.json') && name !== 'supplement-tests-catalog.json').sort()) {
+for (const file of readdirSync(directory).filter(name => name.endsWith('.json') && name !== 'supplement-tests-catalog.json' && !name.includes('-2017-exam-data')).sort()) {
   const data = JSON.parse(readFileSync(new URL(file, directory)))
   if (!Array.isArray(data.groups)) continue
   const subject = file.split('-')[0]
@@ -12,7 +12,8 @@ for (const file of readdirSync(directory).filter(name => name.endsWith('.json') 
   // Other subjects explicitly mark imported homework, exams and practitioner questions.
   const groups = data.groups.filter(group => group.supplement || subject === 'politics' || file === 'physiology-endocrine-summary-data.json')
   if (!groups.length) continue
-  const category = file.includes('practitioner') ? '执医题'
+  const category = file.includes('sprint-exam') ? '冲刺押题卷'
+    : file.includes('practitioner') ? '执医题'
     : file.includes('stage-exam') ? '阶段考试'
       : file.includes('teacher') ? '课后巩固'
         : file.includes('technique') ? '技巧班作业'

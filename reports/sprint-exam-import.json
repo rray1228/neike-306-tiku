@@ -1,0 +1,22 @@
+{
+  "total": 165,
+  "subjects": {
+    "med": 59,
+    "physiology": 26,
+    "biochemistry": 22,
+    "pathology": 22,
+    "surgery": 36
+  },
+  "lecturePages": 165,
+  "paperPages": 29,
+  "sharedQuestions": 40,
+  "warnings": [
+    14,
+    19,
+    20,
+    73,
+    131,
+    132,
+    160
+  ]
+}
