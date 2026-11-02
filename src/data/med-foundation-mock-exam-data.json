@@ -65,52 +65,132 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-biochemistry-10",
-          "explanation": "答案为 B（Crigler-Najjar 综合征）。Crigler-Najjar 综合征由胆红素 UDP-葡萄糖醛酸转移酶严重缺陷引起，未结合胆红素显著升高，I 型可致核黄疸。",
+          "explanation": "选B。题干的关键是“UCB甚高、核黄疸、预后极差”，提示胆红素结合过程严重受损，对应重型Crigler-Najjar综合征（Ⅰ型）。胆红素UDP-葡萄糖醛酸转移酶（UGT）严重缺陷，使UCB不能充分转化为CB，血UCB显著升高；未与白蛋白结合的UCB具有脂溶性和神经毒性，可进入脑组织引起核黄疸。\n\nA．Gilbert综合征：讲义归纳为肝细胞摄取、结合障碍，血UCB升高。与B同属UCB升高型，但本题进一步给出严重核黄疸及极差预后，应选B。\n\nB．Crigler-Najjar综合征：胆红素结合障碍，血UCB升高；题干描述的是严重结合障碍所致的重型表现。\n\nC．Rotor综合征：讲义归纳为摄取、排泄障碍，血UCB和CB均可升高，与题干突出严重UCB升高的结合障碍不符。\n\nD．Dubin-Johnson综合征：胆红素排泄障碍，血CB升高，不是题干所述的UCB极高型黄疸。",
           "knowledgeConnections": [
-            "讲义定位：生化 胆色素代谢",
-            "必会项：B. Crigler-Najjar 综合征",
-            "易混对照：A. Gilbert 综合征；C. Rotor 综合征；D. Dubin-Johnson 综合征"
+            "胆红素代谢：血UCB与白蛋白结合运输→肝细胞摄取→UGT催化与UDP-葡萄糖醛酸结合形成CB→经MRP2排入胆汁。",
+            "UCB为间接胆红素，脂溶性、毒性较大，不出现在尿液中；CB为直接胆红素，水溶性、毒性较小，可出现在尿液中。",
+            "结合障碍：Gilbert与Crigler-Najjar均可出现UCB升高；题干的严重程度是本题区分两者的关键。",
+            "排泄障碍：Dubin-Johnson以CB升高为主；Rotor按讲义表格记为摄取、排泄障碍，UCB及CB均升高。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-biochemistry-10",
+              "lectureNumber": 10,
+              "sourceSubject": "biochemistry",
+              "sourceFile": "10 27考研：生化 胆色素代谢 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "第10讲 · PDF第2页",
+              "title": "胆色素代谢：四种遗传性黄疸对照表与胆红素代谢途径",
+              "image": "biochemistry/lecture-pages/lecture-10-page-02.webp",
+              "questionNumbers": [
+                41
+              ],
+              "optionKeys": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "knowledgePoints": [
+                "Gilbert：摄取、结合障碍→UCB↑。",
+                "Crigler-Najjar：结合障碍→UCB↑；重型可出现核黄疸。",
+                "Rotor：摄取、排泄障碍→UCB↑、CB↑。",
+                "Dubin-Johnson：排泄障碍→CB↑。"
+              ]
+            },
+            {
+              "lectureId": "foundation-biochemistry-10",
+              "lectureNumber": 10,
+              "sourceSubject": "biochemistry",
+              "sourceFile": "【精编版】生化合集.pdf",
+              "page": 81,
+              "pageLabel": "精编合集 · PDF第81页",
+              "title": "胆色素代谢：UCB、CB的转化及尿胆红素",
+              "image": "site-assets/biochemistry-review-20261023/precision-page-081.avif",
+              "questionNumbers": [
+                41
+              ],
+              "knowledgePoints": [
+                "UCB为脂溶性未结合胆红素，CB为水溶性结合胆红素。",
+                "尿胆红素指尿CB；UCB不出现在尿液中。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "所属模块：生化 胆色素代谢",
-        "答案依据：B. Crigler-Najjar 综合征",
-        "Crigler-Najjar 综合征由胆红素 UDP-葡萄糖醛酸转移酶严重缺陷引起，未结合胆红素显著升高，I 型可致核黄疸。"
+        "Gilbert：摄取、结合障碍→UCB↑。",
+        "Crigler-Najjar：结合障碍→UCB↑；重型可出现核黄疸。",
+        "Rotor：摄取、排泄障碍→UCB↑、CB↑。",
+        "Dubin-Johnson：排泄障碍→CB↑。",
+        "UCB→CB为UGT催化的结合反应；CB排入胆汁依赖转运蛋白MRP2。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-10",
+        "lectureNumber": 10,
         "sourceSubject": "biochemistry",
         "sourceFile": "10 27考研：生化 胆色素代谢 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 1,
-        "pageLabel": "PDF第1页",
-        "title": "生化 胆色素代谢 · 第1页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-10-p01.webp",
-        "description": "基础强化摸底考试第41题对应讲义原页。",
-        "knowledgePoints": [
-          "生化 胆色素代谢",
-          "生物化学 核苷酸代谢 & 胆色素代谢 & 生物转化 & 酶 & 维生素。"
-        ],
+        "page": 2,
+        "pageLabel": "第10讲 · PDF第2页",
+        "title": "胆色素代谢：四种遗传性黄疸对照表与胆红素代谢途径",
+        "image": "biochemistry/lecture-pages/lecture-10-page-02.webp",
         "questionNumbers": [
           41
+        ],
+        "optionKeys": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "knowledgePoints": [
+          "Gilbert：摄取、结合障碍→UCB↑。",
+          "Crigler-Najjar：结合障碍→UCB↑；重型可出现核黄疸。",
+          "Rotor：摄取、排泄障碍→UCB↑、CB↑。",
+          "Dubin-Johnson：排泄障碍→CB↑。"
         ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "foundation-biochemistry-10",
+          "lectureNumber": 10,
           "sourceSubject": "biochemistry",
           "sourceFile": "10 27考研：生化 胆色素代谢 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
-          "title": "生化 胆色素代谢 · 第1页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-biochemistry-10-p01.webp",
-          "description": "基础强化摸底考试第41题对应讲义原页。",
-          "knowledgePoints": [
-            "生化 胆色素代谢",
-            "生物化学 核苷酸代谢 & 胆色素代谢 & 生物转化 & 酶 & 维生素。"
-          ],
+          "page": 2,
+          "pageLabel": "第10讲 · PDF第2页",
+          "title": "胆色素代谢：四种遗传性黄疸对照表与胆红素代谢途径",
+          "image": "biochemistry/lecture-pages/lecture-10-page-02.webp",
           "questionNumbers": [
             41
+          ],
+          "optionKeys": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "knowledgePoints": [
+            "Gilbert：摄取、结合障碍→UCB↑。",
+            "Crigler-Najjar：结合障碍→UCB↑；重型可出现核黄疸。",
+            "Rotor：摄取、排泄障碍→UCB↑、CB↑。",
+            "Dubin-Johnson：排泄障碍→CB↑。"
+          ]
+        },
+        {
+          "lectureId": "foundation-biochemistry-10",
+          "lectureNumber": 10,
+          "sourceSubject": "biochemistry",
+          "sourceFile": "【精编版】生化合集.pdf",
+          "page": 81,
+          "pageLabel": "精编合集 · PDF第81页",
+          "title": "胆色素代谢：UCB、CB的转化及尿胆红素",
+          "image": "site-assets/biochemistry-review-20261023/precision-page-081.avif",
+          "questionNumbers": [
+            41
+          ],
+          "knowledgePoints": [
+            "UCB为脂溶性未结合胆红素，CB为水溶性结合胆红素。",
+            "尿胆红素指尿CB；UCB不出现在尿液中。"
           ]
         }
       ]
@@ -6425,7 +6505,7 @@
       "id": "foundation-biochemistry-10",
       "number": 10,
       "title": "生化 胆色素代谢",
-      "pageCount": 1
+      "pageCount": 4
     },
     {
       "id": "foundation-med-47",

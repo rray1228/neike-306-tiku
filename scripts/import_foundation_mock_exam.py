@@ -13,6 +13,7 @@ from pathlib import Path
 from PIL import Image
 
 from build_mock_exam_error_book import ROWS, extract_exam
+from review_foundation_jaundice import review_foundation_jaundice
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -276,6 +277,7 @@ def main() -> None:
         payload["lectures"] = list(lecture_meta[subject].values())
         payload["meta"].update(groupCount=len(payload["groups"]), stemCount=len(payload["groups"]), lectureCount=len(payload["lectures"]))
         target = ROOT / f"src/data/{subject}-foundation-mock-exam-data.json"
+        review_foundation_jaundice(payload)
         target.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
         catalog.append({
             "id": f"{subject}-foundation-mock-exam", "subject": subject, "subjectLabel": SUBJECT_LABELS[subject],
