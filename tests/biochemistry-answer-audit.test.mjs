@@ -21,10 +21,10 @@ test('content review covers all 20 chapters and both supplements without droppin
   }
   assert.equal(audit.changes.length, 32)
   assert.equal(new Set(audit.changes.map(c => c.id)).size, 32)
-  for (const { id, note } of audit.changes) {
-    assert.equal(get(id).answerRevision, audit.revision, id)
-    assert.equal(get(id).reviewedAt, audit.date, id)
-    assert.ok(get(id).reviewNotes.includes(note), id)
+  for (const { id, note, supersededBy } of audit.changes) {
+    assert.equal(get(id).answerRevision, supersededBy?.revision || audit.revision, id)
+    assert.equal(get(id).reviewedAt, supersededBy?.date || audit.date, id)
+    assert.ok(get(id).reviewNotes.includes(supersededBy?.note || note), id)
   }
 })
 
@@ -32,10 +32,21 @@ test('known omitted valid choices are restored and answer modes follow the new k
   assert.deepEqual(answers('bio-02-04-focus-2', 2), ['F', 'A', 'B'])
   assert.match(stem('bio-02-04-focus-2', 2).text, /辅基/)
   assert.deepEqual(answers('bio-02-08', 2), ['I', 'L', 'G'])
-  assert.ok(answers('bio-07-02', 7).includes('A'))
-  assert.equal(label('bio-07-02', 'A'), '色氨酸')
   assert.deepEqual(answers('bio-16-01', 1), ['A', 'B', 'C', 'D'])
   assert.deepEqual(answers('bio-13-03', 8), ['A', 'D', 'I', 'J', 'K'])
+})
+
+test('amino acid classification follows the supplied lecture without adding tryptophan to its nonpolar list', () => {
+  const s = stem('bio-07-02', 7)
+  assert.equal(label('bio-07-02', 'A'), '色氨酸')
+  assert.match(s.text, /本讲义列出/)
+  assert.deepEqual(s.answer, ['I', 'L', 'B', 'E', 'N', 'M', 'K', 'J'])
+  assert.equal(s.answerRaw, 'I、L、B、E、N、M、K、J')
+  assert.equal(s.answerMode, '多选')
+  assert.deepEqual(s.acceptedAnswers || [], [])
+  assert.doesNotMatch(s.explanation, /色氨酸/)
+  assert.ok(answers('bio-07-02', 6).includes('A'), '芳香族分类保留色氨酸')
+  assert.equal(get('bio-07-02').answerRevision, 'bio-amino-classification-20261103-v2')
 })
 
 test('mammalian phospholipid pathways no longer import microbial routes or indirect methylation', () => {

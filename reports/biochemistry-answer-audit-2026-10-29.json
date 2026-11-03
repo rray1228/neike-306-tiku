@@ -169,7 +169,12 @@
     {
       "id": "bio-07-02",
       "note": "非极性氨基酸补入色氨酸；芳香族与非极性不是互斥分类。",
-      "file": "src/data/biochemistry-lecture7-data.json"
+      "file": "src/data/biochemistry-lecture7-data.json",
+      "supersededBy": {
+        "date": "2026-11-03",
+        "revision": "bio-amino-classification-20261103-v2",
+        "note": "按用户2026-11-03校正，撤回此前追加的色氨酸，恢复讲义列出的非极性氨基酸答案。"
+      }
     },
     {
       "id": "bio-08-03",
