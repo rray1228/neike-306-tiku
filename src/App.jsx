@@ -10,6 +10,7 @@ import { applyReviewedEvidence, lectureForStem } from './med-lecture-evidence.js
 import { organizePoliticsContent } from './politics-navigation.js'
 import { migratePoliticsAnswers, sourceStemNumber } from './politics-answers.js'
 import { migrateJoinedCaseAnswers } from './joined-case-answers.js'
+import { combineSharedClinicalCases, migrateSharedClinicalCases } from './shared-clinical-cases.js'
 import { chapterLectureIds, organizeChapterPractice, originalQuestionsFirst } from './chapter-practice.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
 import { fillNavigationTarget } from './fill-navigation.js'
@@ -930,7 +931,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     }, 15_000)
     CONTENT_LOADERS[subject]().then((nextContent) => {
       clearTimeout(slow)
-      if (!cancelled) { loadedSubjectRef.current = subject; setLoadedContent(organizeChapterPractice(nextContent, subject)) }
+      if (!cancelled) { loadedSubjectRef.current = subject; setLoadedContent(organizeChapterPractice(subject === 'politics' ? nextContent : combineSharedClinicalCases(nextContent), subject)) }
     }).catch(() => {
       clearTimeout(slow)
       if (!cancelled) setLoadError('题库数据暂时加载失败，请检查网络后重试。')
@@ -939,11 +940,14 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   }, [subject, storageReady, viewMode])
 
   useEffect(() => {
-    if (!['politics', 'med'].includes(subject) || !loadedContent || !storageReady) return
+    if (!loadedContent || !storageReady) return
     const migrate = subject === 'politics' ? migratePoliticsAnswers : migrateJoinedCaseAnswers
-    const migrated = migrate(selections, submitted, loadedContent.groups)
+    const previous = migrate(selections, submitted, loadedContent.groups)
+    const migrated = subject === 'politics' ? previous : migrateSharedClinicalCases(subject, previous.selections, previous.submitted, favorites, notes, loadedContent.groups)
     if (migrated.selections !== selections) setSelections(migrated.selections)
     if (migrated.submitted !== submitted) setSubmitted(migrated.submitted)
+    if (migrated.favorites && migrated.favorites !== favorites) setFavorites(migrated.favorites)
+    if (migrated.notes && migrated.notes !== notes) setNotes(migrated.notes)
   }, [subject, loadedContent, storageReady])
 
   useEffect(() => {
