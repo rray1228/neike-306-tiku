@@ -119,6 +119,13 @@ def repair_renal_blood(payload):
     rename('p42-g2', '二价铁与三价铁的功能')
     rename('p42-g3', '一般贫血与组织缺铁的表现')
     rename('p43-g1', '常见贫血的铁代谢指标鉴别')
+    # The isolated "G.贫血" is not a classification or an answer choice.
+    # Keep storage keys stable while closing the visible lettering gap.
+    anemia = groups['p44-g1']
+    anemia['options'] = [o for o in anemia['options'] if o['key'] != 'G']
+    for index, choice in enumerate(anemia['options']):
+        choice['displayKey'] = chr(ord('A') + index)
+    anemia['sourceText'] = anemia['sourceText'].replace(' | G.贫血', '')
     answers('p45-g2', ['aceg', 'bcdef'])
     # The unanswered source row is restored below, without inventing option K.
     if not any(s['answer'] == ['G'] for s in groups['p46-g3']['stems']):

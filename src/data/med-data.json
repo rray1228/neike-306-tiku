@@ -15488,122 +15488,140 @@
         {
           "key": "A",
           "label": "多数溶血性贫血（除地中海贫血）",
-          "sourceText": "A.多数溶贫(除地贫)"
+          "sourceText": "A.多数溶贫(除地贫)",
+          "displayKey": "A"
         },
         {
           "key": "B",
           "label": "巨幼细胞贫血",
-          "sourceText": "B.巨幼贫"
+          "sourceText": "B.巨幼贫",
+          "displayKey": "B"
         },
         {
           "key": "C",
           "label": "转铁蛋白缺乏症",
-          "sourceText": "C.转铁蛋白缺乏症"
+          "sourceText": "C.转铁蛋白缺乏症",
+          "displayKey": "C"
         },
         {
           "key": "D",
           "label": "MCV>100",
-          "sourceText": "D.MCV>100"
+          "sourceText": "D.MCV>100",
+          "displayKey": "D"
         },
         {
           "key": "E",
           "label": "严重肝病",
-          "sourceText": "E.严重肝病"
+          "sourceText": "E.严重肝病",
+          "displayKey": "E"
         },
         {
           "key": "F",
           "label": "MCHC<32%（320g/L）",
-          "sourceText": "F.MCHC<32%(320g/L)"
-        },
-        {
-          "key": "G",
-          "label": "贫血",
-          "sourceText": "G.贫血"
+          "sourceText": "F.MCHC<32%(320g/L)",
+          "displayKey": "F"
         },
         {
           "key": "H",
           "label": "网织红大量增生的溶血性贫血和急性失血",
-          "sourceText": "H.网织红大量增生的溶贫和急性失血"
+          "sourceText": "H.网织红大量增生的溶贫和急性失血",
+          "displayKey": "G"
         },
         {
           "key": "I",
           "label": "珠蛋白生成障碍性贫血/地贫",
-          "sourceText": "I.珠蛋白生成障碍性贫血/地贫"
+          "sourceText": "I.珠蛋白生成障碍性贫血/地贫",
+          "displayKey": "H"
         },
         {
           "key": "J",
           "label": "急性失血",
-          "sourceText": "J.急性失血"
+          "sourceText": "J.急性失血",
+          "displayKey": "I"
         },
         {
           "key": "K",
           "label": "MDS",
-          "sourceText": "K.MDS"
+          "sourceText": "K.MDS",
+          "displayKey": "J"
         },
         {
           "key": "L",
           "label": "缺铁贫",
-          "sourceText": "L.缺铁贫"
+          "sourceText": "L.缺铁贫",
+          "displayKey": "K"
         },
         {
           "key": "M",
           "label": "MCV<80",
-          "sourceText": "M.MCV<80"
+          "sourceText": "M.MCV<80",
+          "displayKey": "L"
         },
         {
           "key": "N",
           "label": "再障",
-          "sourceText": "N.再障"
+          "sourceText": "N.再障",
+          "displayKey": "M"
         },
         {
           "key": "O",
           "label": "MCV 80-100",
-          "sourceText": "O.MCV 80-100"
+          "sourceText": "O.MCV 80-100",
+          "displayKey": "N"
         },
         {
           "key": "P",
           "label": "铁粒幼贫",
-          "sourceText": "P.铁粒幼"
+          "sourceText": "P.铁粒幼",
+          "displayKey": "O"
         },
         {
           "key": "Q",
           "label": "白血病",
-          "sourceText": "Q.白血病"
+          "sourceText": "Q.白血病",
+          "displayKey": "P"
         },
         {
           "key": "R",
           "label": "MCHC 32-36%（320-360g/L）",
-          "sourceText": "R.MCHC 32-36%(320-360g/L)"
+          "sourceText": "R.MCHC 32-36%(320-360g/L)",
+          "displayKey": "Q"
         },
         {
           "key": "S",
           "label": "多数骨髓瘤",
-          "sourceText": "S.多数骨髓瘤"
+          "sourceText": "S.多数骨髓瘤",
+          "displayKey": "R"
         },
         {
           "key": "T",
           "label": "慢性失血如ITP",
-          "sourceText": "T.慢性失血如ITP"
+          "sourceText": "T.慢性失血如ITP",
+          "displayKey": "S"
         },
         {
           "key": "U",
           "label": "肾性贫血",
-          "sourceText": "U.肾性贫血"
+          "sourceText": "U.肾性贫血",
+          "displayKey": "T"
         },
         {
           "key": "V",
           "label": "慢性病贫血",
-          "sourceText": "V.慢性病贫血"
+          "sourceText": "V.慢性病贫血",
+          "displayKey": "U"
         },
         {
           "key": "W",
           "label": "ITP",
-          "sourceText": "W.ITP"
+          "sourceText": "W.ITP",
+          "displayKey": "V"
         },
         {
           "key": "X",
           "label": "ITP合并缺铁贫",
-          "sourceText": "X.ITP合并缺铁贫"
+          "sourceText": "X.ITP合并缺铁贫",
+          "displayKey": "W"
         }
       ],
       "stems": [
@@ -15657,7 +15675,7 @@
           "answerMode": "多选"
         }
       ],
-      "sourceText": "A.多数溶血性贫血（除地中海贫血） | B.巨幼细胞贫血 | C.转铁蛋白缺乏症 | D.MCV>100 | E.严重肝病 | F.MCHC<32% | G.贫血 | H.网织红大量增生的溶血性贫血和急性失血 | I.珠蛋白生成障碍性贫血/地贫 | J.急性失血 | K.MDS | L.缺铁贫 | M.MCV<80 | N.再障 | O.MCV 80-100 | P.铁粒幼贫 | Q.白血病 | R.MCHC 32-36% | S.多数骨髓瘤 | T.慢性失血如ITP | U.肾性贫血 | V.慢性病贫血 | W.ITP | X.ITP合并缺铁贫 | 大细胞性BDEHK | 小细胞低色素性CFIKLMPTVX | 正细胞性AJKNOQRSUW",
+      "sourceText": "A.多数溶血性贫血（除地中海贫血） | B.巨幼细胞贫血 | C.转铁蛋白缺乏症 | D.MCV>100 | E.严重肝病 | F.MCHC<32% | H.网织红大量增生的溶血性贫血和急性失血 | I.珠蛋白生成障碍性贫血/地贫 | J.急性失血 | K.MDS | L.缺铁贫 | M.MCV<80 | N.再障 | O.MCV 80-100 | P.铁粒幼贫 | Q.白血病 | R.MCHC 32-36% | S.多数骨髓瘤 | T.慢性失血如ITP | U.肾性贫血 | V.慢性病贫血 | W.ITP | X.ITP合并缺铁贫 | 大细胞性BDEHK | 小细胞低色素性CFIKLMPTVX | 正细胞性AJKNOQRSUW",
       "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [
