@@ -1315,6 +1315,44 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     setFavorites((previous) => previous.includes(groupStorageId) ? previous.filter((id) => id !== groupStorageId) : [...previous, groupStorageId])
   }
 
+  useEffect(() => {
+    let optionTap = null
+    const cancel = () => { optionTap = null }
+    function allowed(event) {
+      const target = event.target instanceof Element ? event.target : null
+      return viewMode !== 'mnemonics' && !isLoadingContent && filteredGroups.length > 0
+        && !showSource && !showLectureEvidence && !encouragement
+        && !event.defaultPrevented && !event.isComposing && event.keyCode !== 229
+        && !event.ctrlKey && !event.metaKey && !event.shiftKey
+        && !event.getModifierState?.('AltGraph')
+        && !target?.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"]), [role="textbox"], [role="combobox"], [role="dialog"]')
+    }
+    function down(event) {
+      if (event.key !== 'Alt') { cancel(); return }
+      if (event.repeat) return
+      // Commit only on release; Option combinations and Option-click stay normal.
+      optionTap = !optionTap && allowed(event) ? (event.code || 'Alt') : null
+    }
+    function up(event) {
+      const single = event.key === 'Alt' && optionTap && (optionTap === 'Alt' || event.code === optionTap)
+      cancel()
+      if (!single || !allowed(event)) return
+      event.preventDefault()
+      event.stopPropagation()
+      toggleFavorite()
+    }
+    window.addEventListener('keydown', down, true)
+    window.addEventListener('keyup', up, true)
+    window.addEventListener('blur', cancel)
+    window.addEventListener('pointerdown', cancel, true)
+    return () => {
+      window.removeEventListener('keydown', down, true)
+      window.removeEventListener('keyup', up, true)
+      window.removeEventListener('blur', cancel)
+      window.removeEventListener('pointerdown', cancel, true)
+    }
+  }, [encouragement, filteredGroups.length, groupStorageId, isLoadingContent, showLectureEvidence, showSource, viewMode])
+
   function toggleFavoriteNotebook() {
     setFavoritesOnly((value) => !value)
     setJumpGroupId('')
@@ -1490,7 +1528,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
           <div className="breadcrumb"><span>{group.topic || '综合'}</span>{currentChapter ? <><Icon name="chevron" size={13} /><span>{currentChapter.title}</span></> : null}<Icon name="chevron" size={13} /><span>{viewMode === 'tests' ? TEST_SOURCE_CATEGORIES.get(group.id) || '补充练习' : group.supplement ? '教师补充' : group.kindLabel}</span>{group.hideSource ? null : <><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></>}</div>
           <div className="content-heading">
             <div><h1>{group.title || '题库原题'}</h1>{groupNotice && <p>{groupNotice}</p>}</div>
-            <div className="heading-actions"><button className={`ghost-button ${favorite ? 'selected' : ''}`} onClick={toggleFavorite} aria-pressed={favorite} title={favorite ? `从${group.topic}收藏本移除` : `收藏到${group.topic}收藏本`}><Icon name={favorite ? 'bookmarkFill' : 'bookmark'} size={17} />{favorite ? '已收藏' : '收藏'}</button><button className="ghost-button" onClick={() => setShowNote((value) => !value)}><Icon name="note" size={17} />笔记</button></div>
+            <div className="heading-actions"><button className={`ghost-button ${favorite ? 'selected' : ''}`} onClick={toggleFavorite} aria-pressed={favorite} title={`${favorite ? `从${group.topic}收藏本移除` : `收藏到${group.topic}收藏本`} · Option（⌥）收藏 / 取消收藏`}><Icon name={favorite ? 'bookmarkFill' : 'bookmark'} size={17} />{favorite ? '已收藏' : '收藏'}</button><button className="ghost-button" onClick={() => setShowNote((value) => !value)}><Icon name="note" size={17} />笔记</button></div>
           </div>
 
           {showNote && <div className="note-strip"><Icon name="note" size={17} /><input value={notes[groupStorageId] || ''} onChange={(event) => setNotes((previous) => ({ ...previous, [groupStorageId]: event.target.value }))} placeholder="写下你的易错点或记忆口诀…" /></div>}
