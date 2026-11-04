@@ -9454,7 +9454,7 @@
     {
       "id": "p28-g3",
       "page": 28,
-      "title": "炎症性肠病治疗选择",
+      "title": "克罗恩病（CD）治疗选择",
       "kind": "B",
       "kindLabel": "B型题",
       "options": [
@@ -9486,7 +9486,7 @@
       ],
       "stems": [
         {
-          "text": "活动期诱导缓解",
+          "text": "克罗恩病活动期诱导缓解",
           "answer": [
             "B",
             "C",
@@ -9497,7 +9497,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "缓解期维持治疗",
+          "text": "克罗恩病缓解期维持治疗",
           "answer": [
             "C",
             "D"
@@ -9507,7 +9507,7 @@
           "answerMode": "多选"
         },
         {
-          "text": "肛瘘",
+          "text": "克罗恩病合并肛瘘的治疗",
           "answer": [
             "D",
             "E"
@@ -9517,7 +9517,7 @@
           "answerMode": "多选"
         }
       ],
-      "sourceText": "炎症性肠病治疗选择（按原题页重新分组并结合讲义复核）",
+      "sourceText": "克罗恩病治疗选择（按原题页重新分组并结合讲义复核）",
       "reviewState": "已按原题页与讲义复核",
       "topic": "消化",
       "lectureIds": [
@@ -9528,7 +9528,7 @@
         "page": 4,
         "image": "med/lecture-pages/lecture-18-page-04.webp",
         "title": "第18讲第4页：内科 炎症性肠病",
-        "description": "本题组对应第18讲第4页讲义。"
+        "description": "本题组对应第18讲第4页“克罗恩病的治疗”。"
       }
     },
     {
