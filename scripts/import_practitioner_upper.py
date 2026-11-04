@@ -28,7 +28,7 @@ ANSWER_ROWS = [
     'ECDCE', 'CCBDA', 'EDADC', 'ECBDB', 'AA',
 ]
 ANSWERS = ''.join(ANSWER_ROWS)
-PENDING = {89, 90}
+PENDING = {90}
 # First subquestion -> (last, beginning of the first actual question).
 SHARED = {
     5: (6, '该患者此时'), 11: (12, '该患者呼吸困难'),
@@ -226,6 +226,10 @@ def build():
                 g.update(answerRevision='20261019-q24-A-v3',
                     answerSourceLabel='用户确认答案',
                     supplementNotice='第24题按用户确认更正为A；解析为复习整理。')
+            if n == 89:
+                g.update(answerSourceLabel='用户确认答案',
+                         answerSourceName='用户于2026-11-04确认',
+                         supplementNotice='答案已确认，提交后自动判分。')
             if n == 102:
                 g.update(answerRevision='20261020-q103-A-v3',
                     answerSourceLabel='截图及用户更正',
@@ -300,6 +304,9 @@ def build():
                     s['answerCorrection'] = {'from':'E','to':'A','source':'用户于2026-10-20明确确认：第102～104题题组的第二小题选A'}
                 if num==106:
                     s['answerConfirmation'] = {'answer':'E','source':'用户于2026-10-20明确确认：第105～107题题组的第二小题选E'}
+                if num==89:
+                    s['answerState'] = '用户确认答案'
+                    s['answerConfirmation'] = {'answer':'C','source':'用户于2026-11-04明确确认：第89题选C（MDS-LB）'}
                 if num==194:
                     s['answerCorrection'] = {'from':'D','to':'C','source':'用户于2026-10-20明确确认：X线已定位右股骨颈及转子区域病灶，第194题选C'}
                 if num==172:

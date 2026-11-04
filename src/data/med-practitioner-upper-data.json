@@ -51,7 +51,6 @@
       "AA"
     ],
     "pendingQuestions": [
-      89,
       90
     ],
     "explanationNote": "逐题复习解析及易混点为补充整理，非原卷官方解析；部分争议及版本差异附外部依据。",
@@ -11681,9 +11680,9 @@
         "MDS低原始细胞与环形铁粒幼细胞"
       ],
       "supplement": true,
-      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
-      "answerSourceLabel": "截图参考答案",
-      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "supplementNotice": "答案已确认，提交后自动判分。",
+      "answerSourceLabel": "用户确认答案",
+      "answerSourceName": "用户于2026-11-04确认",
       "answerRevision": "20261019-v2",
       "options": [
         {
@@ -11724,15 +11723,14 @@
           ],
           "answerDisplay": "C",
           "answerMode": "单选",
-          "answerState": "待原题页核对",
+          "answerState": "用户确认答案",
           "lectureId": "lecture-33",
           "knowledgePoint": "MDS低原始细胞与环形铁粒幼细胞",
-          "explanation": "截图答案C，评论将本题列为争议。三系减少、多系病态造血及-7支持MDS；骨髓原始细胞4%符合低原始细胞范围。环形铁粒幼细胞11%且未给SF3B1结果，不足以仅凭此改选环形铁粒幼细胞相关亚型。保留C并待复核。",
+          "explanation": "选C（MDS-LB）。三系减少、多系病态造血、小巨核细胞及-7支持MDS；骨髓原始细胞4%属于低原始细胞范围。环形铁粒幼细胞11%不能单凭该项改选MDS-RAS。",
           "knowledgeConnections": [
             "MDS分型需同时看原始细胞、形态和遗传资料，不能只看见环形铁粒幼细胞就定亚型。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
-          "reviewReason": "截图评论列为争议题",
           "explanationReferences": [
             {
               "title": "WHO第5版髓系肿瘤分类原文",
@@ -11756,7 +11754,11 @@
                 "MDS低原始细胞与环形铁粒幼细胞"
               ]
             }
-          ]
+          ],
+          "answerConfirmation": {
+            "answer": "C",
+            "source": "用户于2026-11-04明确确认：第89题选C（MDS-LB）"
+          }
         }
       ],
       "lectureEvidencePages": [

@@ -141,7 +141,7 @@ test('every question links to existing exact lecture pages, and large cases reta
 })
 
 test('all questions have authored explanations; uncertain supplied answers are not silently replaced', () => {
-  assert.deepEqual(stems.filter(s => s.answerState === '待原题页核对').map(s => s.number), [89,90])
+  assert.deepEqual(stems.filter(s => s.answerState === '待原题页核对').map(s => s.number), [90])
   for (const s of stems) {
     assert.ok(s.explanation.length > 25, String(s.number))
     assert.ok(s.knowledgePoint.length > 3)
@@ -268,5 +268,19 @@ test('October31 user screenshots adopt 72E, 73B and 74D with normal independent 
     assert.deepEqual(stem(n).answerConfirmation, { answer, source:`用户于2026-10-31提供作答截图并要求按所选答案更新：第${n}题选${answer}` })
   }
   assert.notEqual(group(73).id, group(74).id)
-  assert.deepEqual(med.meta.pendingQuestions, [89,90])
+  assert.deepEqual(med.meta.pendingQuestions, [90])
+})
+
+
+test('q89 accepts the user-confirmed C answer and resumes grading the existing attempt', () => {
+  const g = group(89), s = stem(89)
+  assert.deepEqual(s.answer, ['C'])
+  assert.equal(s.answerMode, '单选')
+  assert.equal(s.answerState, '用户确认答案')
+  assert.equal(s.reviewReason, undefined)
+  assert.equal(g.answerRevision, '20261019-v2')
+  assert.equal(s.answerConfirmation.answer, 'C')
+  assert.doesNotMatch(s.explanation + g.supplementNotice, /争议|待复核|待核对/)
+  assert.match(s.explanation, /MDS-LB/)
+  assert.equal(g.answerSourceLabel, '用户确认答案')
 })
