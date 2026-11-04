@@ -127,6 +127,8 @@ def repair_renal_blood(payload):
         choice['displayKey'] = chr(ord('A') + index)
     anemia['sourceText'] = anemia['sourceText'].replace(' | G.贫血', '')
     answers('p45-g2', ['aceg', 'bcdef'])
+    for choice in groups['p45-g2']['options']:
+        choice['displayKey'] = choice['key'].upper()
     # The unanswered source row is restored below, without inventing option K.
     if not any(s['answer'] == ['G'] for s in groups['p46-g3']['stems']):
         groups['p46-g3']['stems'].append(stem('起效慢、不单独用', 'G'))

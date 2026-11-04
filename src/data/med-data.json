@@ -15919,37 +15919,44 @@
         {
           "key": "a",
           "label": "多数起病慢",
-          "sourceText": "a.多数起病慢"
+          "sourceText": "a.多数起病慢",
+          "displayKey": "A"
         },
         {
           "key": "b",
           "label": "血红蛋白尿（酱油浓茶色）",
-          "sourceText": "b.血红蛋白尿(酱油浓茶色)"
+          "sourceText": "b.血红蛋白尿(酱油浓茶色)",
+          "displayKey": "B"
         },
         {
           "key": "c",
           "label": "贫血",
-          "sourceText": "c.贫血"
+          "sourceText": "c.贫血",
+          "displayKey": "C"
         },
         {
           "key": "d",
           "label": "急性为主：寒战发热、腰痛、急性肾损伤",
-          "sourceText": "d.急性为主：寒战发热、腰痛、急性肾损伤"
+          "sourceText": "d.急性为主：寒战发热、腰痛、急性肾损伤",
+          "displayKey": "D"
         },
         {
           "key": "e",
           "label": "黄疸（尿深）",
-          "sourceText": "e.黄疸(尿深)"
+          "sourceText": "e.黄疸(尿深)",
+          "displayKey": "E"
         },
         {
           "key": "f",
           "label": "慢性（PNH）：脾大、含铁血黄素尿",
-          "sourceText": "f.慢性(PNH):脾大、含铁血黄素尿"
+          "sourceText": "f.慢性(PNH):脾大、含铁血黄素尿",
+          "displayKey": "F"
         },
         {
           "key": "g",
           "label": "脾大",
-          "sourceText": "g.脾大"
+          "sourceText": "g.脾大",
+          "displayKey": "G"
         }
       ],
       "stems": [
