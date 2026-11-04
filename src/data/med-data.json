@@ -18199,42 +18199,50 @@
         {
           "key": "A",
           "label": "病态造血",
-          "sourceText": "A.病态造血"
-        },
-        {
-          "key": "B",
-          "label": "可有原位溶血（UCB↑）",
-          "sourceText": "B.可有原位溶血（UCB↑）"
-        },
-        {
-          "key": "C",
-          "label": "外周血贫血或全血细胞↓",
-          "sourceText": "C.外周血贫血或全血细胞↓"
-        },
-        {
-          "key": "D",
-          "label": "网织红细胞↓（原位溶血时可正常或轻度增加）",
-          "sourceText": "D.网织红细胞↓（原位溶血时可正常或轻度增加）"
+          "sourceText": "A.病态造血",
+          "category": "机制 / 病因"
         },
         {
           "key": "E",
-          "label": "缺乏叶酸、VitB12",
-          "sourceText": "E.缺乏叶酸、VitB12"
+          "label": "叶酸和/或维生素B12缺乏",
+          "sourceText": "E.叶酸和/或维生素B12缺乏",
+          "category": "机制 / 病因"
         },
         {
           "key": "F",
           "label": "大细胞、正细胞或小细胞性贫血",
-          "sourceText": "F.大细胞、正细胞或小细胞性贫血"
+          "sourceText": "F.大细胞、正细胞或小细胞性贫血",
+          "category": "贫血分类"
         },
         {
           "key": "G",
           "label": "大细胞性贫血",
-          "sourceText": "G.大细胞性贫血"
+          "sourceText": "G.大细胞性贫血",
+          "category": "贫血分类"
+        },
+        {
+          "key": "B",
+          "label": "可有原位溶血（UCB↑）",
+          "sourceText": "B.可有原位溶血（UCB↑）",
+          "category": "原位溶血"
+        },
+        {
+          "key": "C",
+          "label": "外周血贫血或全血细胞↓",
+          "sourceText": "C.外周血贫血或全血细胞↓",
+          "category": "外周血"
+        },
+        {
+          "key": "D",
+          "label": "网织红细胞↓（原位溶血时可正常或轻度增加）",
+          "sourceText": "D.网织红细胞↓（原位溶血时可正常或轻度增加）",
+          "category": "网织红细胞"
         },
         {
           "key": "H",
           "label": "网织红细胞正常或轻度↑（原位溶血时明显↑）",
-          "sourceText": "H.网织红细胞正常或轻度↑（原位溶血时明显↑）"
+          "sourceText": "H.网织红细胞正常或轻度↑（原位溶血时明显↑）",
+          "category": "网织红细胞"
         }
       ],
       "stems": [
@@ -18277,7 +18285,10 @@
         "image": "med/lecture-pages/lecture-33-page-03.webp",
         "title": "第33讲第3页：内科 MDS",
         "description": "对应第33讲第3页讲义。"
-      }
+      },
+      "sharedStem": "分别选择五个比较项目中符合各疾病的完整描述；共同特点可重复选择。",
+      "showOptionText": true,
+      "answerLayout": "rows"
     },
     {
       "id": "p51-g3",

@@ -85,6 +85,27 @@ LOCATIONS = {
 }
 
 
+def clarify_mds_megaloblastic(target):
+    """Clarify only workbook p51-g2; keep its two answers and storage keys."""
+    sections = [
+        ('机制 / 病因', 'AE'), ('贫血分类', 'FG'), ('原位溶血', 'B'),
+        ('外周血', 'C'), ('网织红细胞', 'DH'),
+    ]
+    options = {item['key']: item for item in target['options']}
+    options['E']['label'] = '叶酸和/或维生素B12缺乏'
+    options['E']['sourceText'] = 'E.叶酸和/或维生素B12缺乏'
+    target['options'] = []
+    for category, keys in sections:
+        for key in keys:
+            options[key]['category'] = category
+            target['options'].append(options[key])
+    target.update(
+        sharedStem='分别选择五个比较项目中符合各疾病的完整描述；共同特点可重复选择。',
+        showOptionText=True,
+        answerLayout='rows',
+    )
+
+
 def repair_renal_blood(payload):
     from manual_med_review import option, stem, group, opts, stems
 
@@ -119,6 +140,7 @@ def repair_renal_blood(payload):
     rename('p42-g2', '二价铁与三价铁的功能')
     rename('p42-g3', '一般贫血与组织缺铁的表现')
     rename('p43-g1', '常见贫血的铁代谢指标鉴别')
+    clarify_mds_megaloblastic(groups['p51-g2'])
     # The isolated "G.贫血" is not a classification or an answer choice.
     # Keep storage keys stable while closing the visible lettering gap.
     anemia = groups['p44-g1']
