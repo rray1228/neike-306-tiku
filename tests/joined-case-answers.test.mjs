@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
-import { migrateJoinedCaseAnswers } from '../src/joined-case-answers.js'
+import { migrateJoinedCaseAnswers, migrateHemolysisLabAnswers } from '../src/joined-case-answers.js'
 const data = JSON.parse(readFileSync(new URL('../src/data/med-teacher-supplement.json', import.meta.url)))
 const old = 'med-teacher-02-02-03', treatment = 'med-teacher-02-04', key = `${old}:pneumonia-case-v1`
 test('one pneumonia case retains all three scoped questions and answers', () => {
@@ -32,4 +32,21 @@ test('partially completed previous groups remain editable after joining', () => 
   const result=migrateJoinedCaseAnswers({[treatment]:{0:['A']}},{[treatment]:true},data.groups)
   assert.deepEqual(result.selections[key],{2:['q4-A']})
   assert.equal(result.submitted[key],false)
+})
+
+test('removing only the hemolysis placeholder shifts its saved two answers without changing other records', () => {
+  const groups = JSON.parse(readFileSync(new URL('../src/data/med-data.json', import.meta.url))).groups
+  const old = 'p45-g3:hemolysis-20261011', key = 'p45-g3:hemolysis-lab-no-placeholder-20261104'
+  const selections = { [old]: {0:['J'],1:['B','D','F'],2:['A','C','E','G','H','I','J']}, other:{0:['C']} }
+  const submitted = { [old]:true, other:true }
+  const state = migrateHemolysisLabAnswers(selections, submitted, groups)
+  assert.deepEqual(state.selections[key], {0:['B','D','F'],1:['A','C','E','G','H','I','J']})
+  assert.equal(state.submitted[key], true)
+  assert.equal(state.selections.other, selections.other)
+  assert.equal(state.selections[old], selections[old])
+  assert.equal(migrateHemolysisLabAnswers(state.selections, state.submitted, groups).selections, state.selections)
+  const partial = migrateHemolysisLabAnswers({[old]:{2:['A']}}, {}, groups)
+  assert.deepEqual(partial.selections[key], {1:['A']})
+  assert.equal(partial.submitted[key], false)
+  assert.equal(migrateHemolysisLabAnswers(selections, submitted, []).selections, selections)
 })

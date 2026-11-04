@@ -9,7 +9,7 @@ import foundationMockExamCatalog from './data/foundation-mock-exam-catalog.json'
 import { applyReviewedEvidence, lectureForStem } from './med-lecture-evidence.js'
 import { organizePoliticsContent } from './politics-navigation.js'
 import { migratePoliticsAnswers, sourceStemNumber } from './politics-answers.js'
-import { migrateJoinedCaseAnswers } from './joined-case-answers.js'
+import { migrateJoinedCaseAnswers, migrateHemolysisLabAnswers } from './joined-case-answers.js'
 import { combineSharedClinicalCases, migrateSharedClinicalCases } from './shared-clinical-cases.js'
 import { chapterLectureIds, organizeChapterPractice, originalQuestionsFirst } from './chapter-practice.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
@@ -943,7 +943,8 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     if (!loadedContent || !storageReady) return
     const migrate = subject === 'politics' ? migratePoliticsAnswers : migrateJoinedCaseAnswers
     const previous = migrate(selections, submitted, loadedContent.groups)
-    const migrated = subject === 'politics' ? previous : migrateSharedClinicalCases(subject, previous.selections, previous.submitted, favorites, notes, loadedContent.groups)
+    const indexed = subject === 'med' ? migrateHemolysisLabAnswers(previous.selections, previous.submitted, loadedContent.groups) : previous
+    const migrated = subject === 'politics' ? indexed : migrateSharedClinicalCases(subject, indexed.selections, indexed.submitted, favorites, notes, loadedContent.groups)
     if (migrated.selections !== selections) setSelections(migrated.selections)
     if (migrated.submitted !== submitted) setSubmitted(migrated.submitted)
     if (migrated.favorites && migrated.favorites !== favorites) setFavorites(migrated.favorites)

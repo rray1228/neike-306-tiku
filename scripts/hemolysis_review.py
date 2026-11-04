@@ -12,11 +12,8 @@ def repair_hemolysis(payload):
     groups = {g['id']: g for g in payload['groups']}
     g = groups['p45-g3']
     g['options'] = [o for o in g['options'] if o['key'] != 'K']
-    if not any(s['text'] == '红细胞自身缺陷和外部异常' for s in g['stems']):
-        g['stems'].insert(0, {'text': '红细胞自身缺陷和外部异常', 'sourceY': 0})
-    s = next(s for s in g['stems'] if s['text'] == '红细胞自身缺陷和外部异常')
-    s.update(answer=[], answerMode='待核对', answerState='待原题页核对', sourceText=s['text'])
-    g['answerRevision'] = REVISION
+    g['stems'] = [s for s in g['stems'] if s['text'] != '红细胞自身缺陷和外部异常']
+    g['answerRevision'] = 'hemolysis-lab-no-placeholder-20261104'
 
     g = groups['p46-g1']
     for text, original, answer in [

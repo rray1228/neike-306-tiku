@@ -18,15 +18,14 @@ test('hemolysis source pools retain their case-sensitive option letters and sepa
   assert.deepEqual(answers('p45-g4'), ['BDFGIJK', 'ACEHJ'])
   assert.equal(group('p45-g3').options.map(o => o.key).join(''), 'ABCDEFGHIJ')
   assert.equal(group('p45-g3').options.find(o => o.key === 'J').label, '溶血性黄疸')
-  assert.deepEqual(answers('p45-g3').slice(1), ['BDF', 'ACEGHIJ'])
+  assert.deepEqual(answers('p45-g3'), ['BDF', 'ACEGHIJ'])
 })
 
-test('a source row without matching options is retained but not graded using an invented K', () => {
-  const s = group('p45-g3').stems[0]
-  assert.equal(s.text, '红细胞自身缺陷和外部异常')
-  assert.deepEqual(s.answer, [])
-  assert.equal(s.answerMode, '待核对')
-  assert.equal(s.answerState, '待原题页核对')
+test('the requested placeholder is removed while the two laboratory questions remain', () => {
+  const g = group('p45-g3')
+  assert.deepEqual(g.stems.map(s => s.text), ['骨髓红系增生明显活跃', '红细胞破坏'])
+  assert.ok(g.stems.every(s => s.answerMode === '多选' && !s.answerState))
+  assert.equal(g.answerRevision, 'hemolysis-lab-no-placeholder-20261104')
 })
 
 test('summary includes lecture-backed splenectomy for warm AIHA and glucocorticoids for PNH', () => {
@@ -70,7 +69,7 @@ test('hemolysis evidence covers the actual pages and corrected attempts have a f
     const g = group(id)
     assert.deepEqual(g.lectureEvidence.pages, pages)
     assert.ok(existsSync(resolve('public', g.lectureEvidence.image)), id)
-    assert.equal(g.answerRevision, 'hemolysis-20261011')
+    assert.equal(g.answerRevision, id === 'p45-g3' ? 'hemolysis-lab-no-placeholder-20261104' : 'hemolysis-20261011')
   }
   for (const id of ['med-teacher-06-06', 'med-teacher-06-07-08']) {
     assert.equal(group(id).answerRevision, 'hemolysis-homework-20261015')

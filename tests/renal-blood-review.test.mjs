@@ -17,11 +17,6 @@ test('renal and blood source blocks have answerable stems and correct chapter ev
     assert.ok(g.lectureIds.includes(g.lectureEvidence.lectureId), g.id)
     assert.ok(existsSync(resolve('public', g.lectureEvidence.image)), g.id)
     for (const s of g.stems) {
-      if (g.id === 'p45-g3' && s.text === '红细胞自身缺陷和外部异常') {
-        assert.deepEqual(s.answer, [])
-        assert.equal(s.answerMode, '待核对')
-        continue
-      }
       assert.ok(s.answer.length, `${g.id}: ${s.text}`)
       assert.equal(new Set(s.answer).size, s.answer.length, g.id)
       assert.ok(s.answer.every(key => g.options.some(o => o.key === key)), g.id)
@@ -39,7 +34,7 @@ test('CKD and RPGN inherit shared source bracket answers', () => {
 
 test('hemolysis lowercase answers and omitted source questions are restored', () => {
   assert.deepEqual(answers('p45-g2'), ['aceg','bcdef'])
-  assert.equal(group('p45-g3').stems[0].text, '红细胞自身缺陷和外部异常')
+  assert.equal(group('p45-g3').stems[0].text, '骨髓红系增生明显活跃')
   assert.equal(answers('p45-g3').at(-1), 'ACEGHIJ')
   assert.equal(group('p46-g3').stems.at(-1).text, '起效慢、不单独用')
   assert.equal(answers('p46-g3').at(-1), 'G')

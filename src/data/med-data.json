@@ -16060,14 +16060,6 @@
       ],
       "stems": [
         {
-          "text": "红细胞自身缺陷和外部异常",
-          "answer": [],
-          "sourceText": "红细胞自身缺陷和外部异常",
-          "sourceY": 0,
-          "answerMode": "待核对",
-          "answerState": "待原题页核对"
-        },
-        {
           "text": "骨髓红系增生明显活跃",
           "answer": [
             "B",
@@ -16095,7 +16087,7 @@
         }
       ],
       "sourceText": "A.血结合珠蛋白/触珠蛋白明显↓ | B.网织红细胞Ret明显↑ | C.血游离Hb明显↑ | D.粒红比降低或倒置 | E.血红蛋白尿 | F.血涂片见有核红细胞 | G.含铁血黄素尿/Rous试验 | H.红细胞寿命缩短 | I.血涂片见破碎和畸形红细胞↑ | J.溶血性黄疸 | 骨髓红系增生明显活跃（BDF | 红细胞破坏（ACEGHI",
-      "answerRevision": "hemolysis-20261011",
+      "answerRevision": "hemolysis-lab-no-placeholder-20261104",
       "reviewState": "已按原题页及对应讲义逐项复核",
       "topic": "血液",
       "lectureIds": [

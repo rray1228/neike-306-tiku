@@ -11,7 +11,7 @@ const remaining = read('med-remaining-reviewed-lecture-evidence')
 const ortho = read('surgery-ortho-reviewed-lecture-evidence')
 const strip = ({lectureEvidence,lectureEvidencePages,lectureEvidenceNotice,...item}) => ({...item,...(item.stems ? {stems:item.stems.map(strip)} : {})})
 for (const [label,groups,review,expectedGroups,expectedStems,maxPage] of [
-  ['remaining medicine',med,remaining,237,688,482],
+  ['remaining medicine',med,remaining,237,687,482],
   ['orthopedics',surgery,ortho,142,458,286],
 ]) {
  test(`${label}: complete coverage and per-stem references preserve all question content`, () => {
