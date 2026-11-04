@@ -1,0 +1,2667 @@
+{
+  "physiology-foundation-mock-exam-20260907-q001": {
+    "explanation": "正确答案：D（阻断终板膜非选择性通道）。\n\nD：阻断终板膜烟碱型ACh受体的非选择性阳离子通道，终板电位不能达到肌膜动作电位阈值，肌肉松弛。A促进神经末梢释放ACh；B解除Mg²⁺对递质释放的抑制；C使ACh降解减少，均促进神经肌接头传递。",
+    "knowledgeConnections": [
+      "运动神经末梢Ca²⁺内流→ACh释放→终板电位→肌膜动作电位→肌质网释放Ca²⁺。",
+      "终板受体通道阻断影响神经肌接头；肌浆Ca²⁺被SERCA泵回肌质网才是肌丝滑行终止的环节。"
+    ],
+    "lectureSummary": [
+      "运动神经末梢Ca²⁺内流→ACh释放→终板电位→肌膜动作电位→肌质网释放Ca²⁺。",
+      "终板受体通道阻断影响神经肌接头；肌浆Ca²⁺被SERCA泵回肌质网才是肌丝滑行终止的环节。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "4 27考研：生理 骨骼肌收缩 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "knowledgePoints": [
+          "运动神经末梢Ca²⁺内流→ACh释放→终板电位→肌膜动作电位→肌质网释放Ca²⁺。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/4 27考研：生理 骨骼肌收缩 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "4 27考研：生理 骨骼肌收缩 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "终板受体通道阻断影响神经肌接头；肌浆Ca²⁺被SERCA泵回肌质网才是肌丝滑行终止的环节。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/4 27考研：生理 骨骼肌收缩 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q002": {
+    "explanation": "正确答案：C（将试管置于温水中）。\n\nC：温热加快凝血相关酶促反应，不能延缓凝血。A草酸钾沉淀Ca²⁺；B肝素增强抗凝血酶作用；D石蜡使接触面光滑，减少接触激活。",
+    "knowledgeConnections": [
+      "体外抗凝：去除Ca²⁺、增强抗凝系统、降低温度或使接触面光滑。",
+      "粗糙异物表面可激活血小板和因子Ⅻ；凝血因子活化多数属于酶促反应。"
+    ],
+    "lectureSummary": [
+      "体外抗凝：去除Ca²⁺、增强抗凝系统、降低温度或使接触面光滑。",
+      "粗糙异物表面可激活血小板和因子Ⅻ；凝血因子活化多数属于酶促反应。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "体外抗凝：去除Ca²⁺、增强抗凝系统、降低温度或使接触面光滑。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "knowledgePoints": [
+          "体外抗凝：去除Ca²⁺、增强抗凝系统、降低温度或使接触面光滑。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q003": {
+    "explanation": "正确答案：B（阈电位 水平）。\n\nB：阈电位决定是否触发动作电位，不直接决定0期去极化的速度和幅度。A静息电位影响备用Na⁺通道数量；C通道激活、失活状态影响内向电流；D细胞外Na⁺改变电化学驱动力，均影响0期。",
+    "knowledgeConnections": [
+      "快反应细胞0期主要由Na⁺快速内流形成；慢反应细胞0期以L型Ca²⁺内流形成。",
+      "静息电位负值减小→Na⁺通道失活增多→0期上升速度和幅度减小→传导减慢。"
+    ],
+    "lectureSummary": [
+      "快反应细胞0期主要由Na⁺快速内流形成；慢反应细胞0期以L型Ca²⁺内流形成。",
+      "静息电位负值减小→Na⁺通道失活增多→0期上升速度和幅度减小→传导减慢。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "12 27考研：生理 心肌电活动和特性 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "快反应细胞0期主要由Na⁺快速内流形成；慢反应细胞0期以L型Ca²⁺内流形成。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/12 27考研：生理 心肌电活动和特性 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "12 27考研：生理 心肌电活动和特性 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "knowledgePoints": [
+          "快反应细胞0期主要由Na⁺快速内流形成；慢反应细胞0期以L型Ca²⁺内流形成。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/12 27考研：生理 心肌电活动和特性 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q004": {
+    "explanation": "正确答案：A（通过颈动脉窦压力感受器引起交感神经活动增加）。\n\nA：站立使下肢血液淤积，回心血量及动脉压短暂下降，窦弓感受器放电减少，交感反射增强。B中心静脉压下降；C血容量和血压下降可促进而非减少ADH释放；D重力使下肢静脉内压及跨壁压升高。",
+    "knowledgeConnections": [
+      "体位改变：静脉回流↓→搏出量↓→血压↓→压力感受性反射减弱。",
+      "代偿为交感增强、迷走减弱，心率加快、小动脉及静脉收缩。"
+    ],
+    "lectureSummary": [
+      "体位改变：静脉回流↓→搏出量↓→血压↓→压力感受性反射减弱。",
+      "代偿为交感增强、迷走减弱，心率加快、小动脉及静脉收缩。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "knowledgePoints": [
+          "体位改变：静脉回流↓→搏出量↓→血压↓→压力感受性反射减弱。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "体位改变：静脉回流↓→搏出量↓→血压↓→压力感受性反射减弱。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q005": {
+    "explanation": "正确答案：D（肾小球滤过的 Na+增加）。\n\nD：球旁器致密斑感受到NaCl递送增多时，抑制肾素释放；低盐摄入、肾灌注压下降及肾内前列腺素增加均可促进肾素分泌，故A、B、C不选。",
+    "knowledgeConnections": [
+      "肾素释放的三条主要信号：入球小动脉压力↓、致密斑NaCl递送↓、肾交感β₁受体兴奋。",
+      "肾素→血管紧张素Ⅱ→醛固酮，增加血管阻力及钠水潴留。"
+    ],
+    "lectureSummary": [
+      "肾素释放的三条主要信号：入球小动脉压力↓、致密斑NaCl递送↓、肾交感β₁受体兴奋。",
+      "肾素→血管紧张素Ⅱ→醛固酮，增加血管阻力及钠水潴留。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "肾素释放的三条主要信号：入球小动脉压力↓、致密斑NaCl递送↓、肾交感β₁受体兴奋。"
+        ]
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q006": {
+    "explanation": "正确答案：B（肺的弹性阻力始终是吸气的阻力，呼气的动力）。\n\nB：肺在生理容积范围内始终有向内回缩力，阻碍吸气而帮助呼气。A气道摩擦阻力始终与气流方向相反，吸、呼气均受阻。C、D胸廓高于自然容积约肺总量67%时向内回缩，低于该水平时趋向向外扩张，两项方向均写反。",
+    "knowledgeConnections": [
+      "肺弹性阻力与气道阻力不同：前者可成为呼气动力，后者始终阻碍气流。",
+      "胸廓自然容积是判断胸廓弹性力方向的分界点，不能套用肺的始终向内回缩。"
+    ],
+    "lectureSummary": [
+      "肺弹性阻力与气道阻力不同：前者可成为呼气动力，后者始终阻碍气流。",
+      "胸廓自然容积是判断胸廓弹性力方向的分界点，不能套用肺的始终向内回缩。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "肺弹性阻力与气道阻力不同：前者可成为呼气动力，后者始终阻碍气流。"
+        ]
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "knowledgePoints": [
+          "肺弹性阻力与气道阻力不同：前者可成为呼气动力，后者始终阻碍气流。"
+        ]
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "knowledgePoints": [
+          "肺弹性阻力与气道阻力不同：前者可成为呼气动力，后者始终阻碍气流。"
+        ]
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q007": {
+    "explanation": "正确答案：D（依赖 H+的继发性主动转运）。\n\nD：葡萄糖顶端膜吸收依赖Na⁺-葡萄糖同向转运；基底侧以GLUT易化扩散入组织液，Na⁺-K⁺泵原发主动转运维持Na⁺梯度，因此A、B、C都参与。H⁺耦联主要用于二、三肽转运，不是葡萄糖吸收。",
+    "knowledgeConnections": [
+      "肠腔→SGLT1→上皮细胞→GLUT2→组织液。",
+      "继发主动转运不直接耗ATP，但依赖Na⁺-K⁺泵建立的浓度梯度。"
+    ],
+    "lectureSummary": [
+      "肠腔→SGLT1→上皮细胞→GLUT2→组织液。",
+      "继发主动转运不直接耗ATP，但依赖Na⁺-K⁺泵建立的浓度梯度。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "22 27考研：生理 肠内吸收 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "肠腔→SGLT1→上皮细胞→GLUT2→组织液。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/22 27考研：生理 肠内吸收 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q008": {
+    "explanation": "正确答案：D（冷敏神经元发放冲动增加）。\n\nD：细菌致热原通过内生致热原和前列腺素E₂使体温调定点上移，冷敏神经元活动增强，产热增加、散热减少。A、B并非感染性发热的主要机制；C是中暑等调定点未上移时的体温升高。",
+    "knowledgeConnections": [
+      "发热的调定点上移；体温未达到新调定点前可有畏寒、寒战。",
+      "退热时调定点恢复，表现为皮肤血管舒张、出汗增多。"
+    ],
+    "lectureSummary": [
+      "发热的调定点上移；体温未达到新调定点前可有畏寒、寒战。",
+      "退热时调定点恢复，表现为皮肤血管舒张、出汗增多。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "23 27考研：生理 能量代谢和体温 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "knowledgePoints": [
+          "发热的调定点上移；体温未达到新调定点前可有畏寒、寒战。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/23 27考研：生理 能量代谢和体温 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "23 27考研：生理 能量代谢和体温 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "knowledgePoints": [
+          "发热的调定点上移；体温未达到新调定点前可有畏寒、寒战。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/23 27考研：生理 能量代谢和体温 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q009": {
+    "explanation": "正确答案：C（髓袢升支粗段末）。\n\nC：髓袢升支粗段重吸收NaCl而对水不通透，管液被稀释，即使高渗性脱水、ADH升高，该段末仍可低渗。A超滤液近似等渗；B降支失水而高渗；D内髓集合管在ADH作用下重吸收水，尿液浓缩。",
+    "knowledgeConnections": [
+      "髓袢降支：水易通透、管液浓缩；升支粗段：重吸收盐、管液稀释。",
+      "ADH主要改变远曲小管后段和集合管的水通透性，不取消升支粗段的稀释作用。"
+    ],
+    "lectureSummary": [
+      "髓袢降支：水易通透、管液浓缩；升支粗段：重吸收盐、管液稀释。",
+      "ADH主要改变远曲小管后段和集合管的水通透性，不取消升支粗段的稀释作用。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 11,
+        "knowledgePoints": [
+          "髓袢降支：水易通透、管液浓缩；升支粗段：重吸收盐、管液稀释。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 12,
+        "knowledgePoints": [
+          "髓袢降支：水易通透、管液浓缩；升支粗段：重吸收盐、管液稀释。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 13,
+        "knowledgePoints": [
+          "髓袢降支：水易通透、管液浓缩；升支粗段：重吸收盐、管液稀释。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q010": {
+    "explanation": "正确答案：A（视角为 1 分角时的视力）。\n\nA：标准视力1.0指能分辨的最小视角为1分角。B错误，中央凹视力最高，视网膜各处不等。C、D把视角这一光学分辨指标与视网膜像或单个感光细胞直径混为一谈，不能直接等同。",
+    "knowledgeConnections": [
+      "视力＝分辨两点的能力，常以最小视角的倒数表示。",
+      "视力与视野不同：视野强调可见空间范围；中央凹视锥密集，精细分辨能力强。"
+    ],
+    "lectureSummary": [
+      "视力＝分辨两点的能力，常以最小视角的倒数表示。",
+      "视力与视野不同：视野强调可见空间范围；中央凹视锥密集，精细分辨能力强。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "27 27考研：生理 视觉 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 10,
+        "knowledgePoints": [
+          "视力＝分辨两点的能力，常以最小视角的倒数表示。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/27 27考研：生理 视觉 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q011": {
+    "explanation": "正确答案：D（血压升高）。\n\nD：前庭过度刺激可引起唾液分泌、恶心呕吐、呼吸和心率改变，血压常下降，故“血压升高”不属本题所列前庭自主反应。A、B、C为讲义列举的反应。",
+    "knowledgeConnections": [
+      "前庭器官既参与姿势、眼运动反射，也可通过自主神经引起晕动反应。",
+      "椭圆囊和球囊感受直线加速度，半规管感受角加速度。"
+    ],
+    "lectureSummary": [
+      "前庭器官既参与姿势、眼运动反射，也可通过自主神经引起晕动反应。",
+      "椭圆囊和球囊感受直线加速度，半规管感受角加速度。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "29 27考研：生理 其它感觉 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/29 27考研：生理 其它感觉 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "knowledgePoints": [
+          "前庭感受器包括椭圆囊、球囊和半规管；分别感受直线与旋转加速度。"
+        ]
+      }
+    ],
+    "evidenceNotice": "原讲义此页介绍前庭感受器和适宜刺激，未逐项列出前庭自主神经反应。"
+  },
+  "physiology-foundation-mock-exam-20260907-q012": {
+    "explanation": "正确答案：D（小肠平滑肌）。\n\nD：α受体兴奋可抑制小肠平滑肌运动，出现舒张。A、B血管平滑肌α受体兴奋主要收缩；冠脉或骨骼肌血管舒张应区分β₂受体及局部代谢作用。C胃肠括约肌α受体兴奋为收缩。",
+    "knowledgeConnections": [
+      "交感神经对胃肠道常呈抑制：管壁松弛、括约肌收缩。",
+      "同一递质效应取决于受体及组织，不能把α受体一概记为所有平滑肌都收缩。"
+    ],
+    "lectureSummary": [
+      "交感神经对胃肠道常呈抑制：管壁松弛、括约肌收缩。",
+      "同一递质效应取决于受体及组织，不能把α受体一概记为所有平滑肌都收缩。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "32 27考研：生理 递质和受体 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "交感神经对胃肠道常呈抑制：管壁松弛、括约肌收缩。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/32 27考研：生理 递质和受体 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q013": {
+    "explanation": "正确答案：D（高频电刺激丘脑底核是治疗方法之一）。\n\nD：高频刺激丘脑底核可用于调节异常基底神经节环路。帕金森病主要为黑质多巴胺能神经元变性，不是A的GABA能中间神经元病变；B为直接通路减弱、间接通路增强；C表现肌张力增高、随意运动减少。",
+    "knowledgeConnections": [
+      "黑质-纹状体多巴胺：兴奋D₁直接通路、抑制D₂间接通路，净效应促进运动。",
+      "多巴胺减少→丘脑受到的抑制增强→运动启动困难；GABA能神经元病变须与亨廷顿病区分。"
+    ],
+    "lectureSummary": [
+      "黑质-纹状体多巴胺：兴奋D₁直接通路、抑制D₂间接通路，净效应促进运动。",
+      "多巴胺减少→丘脑受到的抑制增强→运动启动困难；GABA能神经元病变须与亨廷顿病区分。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "33 27考研：生理 神经系统调控躯体运动 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 11,
+        "knowledgePoints": [
+          "黑质-纹状体多巴胺：兴奋D₁直接通路、抑制D₂间接通路，净效应促进运动。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/33 27考研：生理 神经系统调控躯体运动 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q014": {
+    "explanation": "正确答案：A（缩宫素）。\n\nA：催乳素促进乳汁生成，缩宫素使乳腺腺泡周围肌上皮细胞收缩而射乳。B生长激素、C甲状腺激素和D糖皮质激素虽影响发育代谢，均不是吸吮触发射乳反射的直接效应激素。",
+    "knowledgeConnections": [
+      "吸吮→下丘脑→神经垂体释放缩宫素→肌上皮细胞收缩。",
+      "泌乳与射乳分开：催乳素来自腺垂体；缩宫素在下丘脑合成、由神经垂体释放。"
+    ],
+    "lectureSummary": [
+      "吸吮→下丘脑→神经垂体释放缩宫素→肌上皮细胞收缩。",
+      "泌乳与射乳分开：催乳素来自腺垂体；缩宫素在下丘脑合成、由神经垂体释放。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "1 27考研：生理 绪论 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "knowledgePoints": [
+          "吸吮→下丘脑→神经垂体释放缩宫素→肌上皮细胞收缩。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/1 27考研：生理 绪论 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q015": {
+    "explanation": "正确答案：C（促进胆固醇合成，更加速其转化）。\n\nC：甲状腺激素既促进胆固醇合成，也促进其转化清除，后者较明显。A实际促进糖吸收和利用；B也促进脂肪分解；D负氮平衡主要见于甲状腺激素过量，生理量促进蛋白质合成。",
+    "knowledgeConnections": [
+      "甲亢可出现代谢率、产热和食欲升高，同时体重下降。",
+      "甲状腺激素对蛋白质作用有剂量差异：生理量促合成，过量促分解。"
+    ],
+    "lectureSummary": [
+      "甲亢可出现代谢率、产热和食欲升高，同时体重下降。",
+      "甲状腺激素对蛋白质作用有剂量差异：生理量促合成，过量促分解。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "39 27考研：生理 甲状腺激素 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "甲亢可出现代谢率、产热和食欲升高，同时体重下降。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/39 27考研：生理 甲状腺激素 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q016": {
+    "explanation": "正确答案：D（血清孕激素水平升高）。\n\nD：排卵后形成黄体，孕激素显著增加，因此较能说明已经排卵。FSH促进卵泡发育，雌激素在排卵前已升高，LH峰是排卵的触发信号，A、B、C升高都不如孕激素升高能证明已形成黄体。",
+    "knowledgeConnections": [
+      "排卵前雌激素持续高水平→正反馈→LH峰→排卵。",
+      "黄体分泌孕激素→基础体温升高，并使增生期子宫内膜转为分泌期。"
+    ],
+    "lectureSummary": [
+      "排卵前雌激素持续高水平→正反馈→LH峰→排卵。",
+      "黄体分泌孕激素→基础体温升高，并使增生期子宫内膜转为分泌期。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "排卵前雌激素持续高水平→正反馈→LH峰→排卵。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "knowledgePoints": [
+          "排卵前雌激素持续高水平→正反馈→LH峰→排卵。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q116": {
+    "explanation": "正确答案：A（电压门控 Na+ 通道开放，产生净 Na+ 流动）。\n\nA：膜去极化至0mV时，Na⁺通道可被激活，膜电位仍低于Na⁺平衡电位，Na⁺有净内流。B须达到Na⁺平衡电位才成立；C在0mV仍有K⁺外向驱动力；D瞬间改变电压不会消除K⁺浓度梯度。",
+    "knowledgeConnections": [
+      "离子电流取决于通透性与驱动力，两者缺一不可。",
+      "膜电位等于某离子的平衡电位时，该离子净电流为零，其他离子仍可有净流动。"
+    ],
+    "lectureSummary": [
+      "离子电流取决于通透性与驱动力，两者缺一不可。",
+      "膜电位等于某离子的平衡电位时，该离子净电流为零，其他离子仍可有净流动。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "离子电流取决于通透性与驱动力，两者缺一不可。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "离子电流取决于通透性与驱动力，两者缺一不可。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q117": {
+    "explanation": "正确答案：B（电压门控 Na+ 通道开放，不产生净 Na+ 流动）。\n\nB：Na⁺平衡电位时，Na⁺的化学驱动力与电场力抵消，虽有通道开放也无净Na⁺流动。A对应膜电位偏离Na⁺平衡电位；C需达到K⁺平衡电位；D离子达电化学平衡不意味着浓度梯度为零。",
+    "knowledgeConnections": [
+      "离子电流取决于通透性与驱动力，两者缺一不可。",
+      "膜电位等于某离子的平衡电位时，该离子净电流为零，其他离子仍可有净流动。"
+    ],
+    "lectureSummary": [
+      "离子电流取决于通透性与驱动力，两者缺一不可。",
+      "膜电位等于某离子的平衡电位时，该离子净电流为零，其他离子仍可有净流动。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "离子电流取决于通透性与驱动力，两者缺一不可。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "离子电流取决于通透性与驱动力，两者缺一不可。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q118": {
+    "explanation": "正确答案：C（Aδ 类纤维）。\n\nC：皮肤粗略触压觉经Aδ类纤维传导；精细触压觉经Aβ类纤维。Aα主要传导本体感觉并支配骨骼肌；B为精细触压觉；D为自主神经节前纤维。",
+    "knowledgeConnections": [
+      "神经纤维一般直径越大、髓鞘越完整，传导越快。",
+      "Aδ有髓、传快痛；C无髓、传慢痛及部分自主节后冲动。"
+    ],
+    "lectureSummary": [
+      "神经纤维一般直径越大、髓鞘越完整，传导越快。",
+      "Aδ有髓、传快痛；C无髓、传慢痛及部分自主节后冲动。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "神经纤维一般直径越大、髓鞘越完整，传导越快。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q119": {
+    "explanation": "正确答案：B（Aβ 类纤维）。\n\nB：皮肤精细触压觉经Aβ类纤维传导。Aα主要为本体感觉和骨骼肌运动；Aδ传导快痛、温度及粗略触压觉；B类为有髓自主神经节前纤维。",
+    "knowledgeConnections": [
+      "神经纤维一般直径越大、髓鞘越完整，传导越快。",
+      "Aδ有髓、传快痛；C无髓、传慢痛及部分自主节后冲动。"
+    ],
+    "lectureSummary": [
+      "神经纤维一般直径越大、髓鞘越完整，传导越快。",
+      "Aδ有髓、传快痛；C无髓、传慢痛及部分自主节后冲动。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "神经纤维一般直径越大、髓鞘越完整，传导越快。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q136": {
+    "explanation": "正确答案：ABD（按本卷答案保留）。\n\nA冬泳前提前产热，B起跑前心率加快，D见食物提前分泌唾液和胃液，均在预期干扰或实际摄入前调节，符合前馈。C也不能简单判作非前馈：讲义第1讲第9页明确把胃肠激素与胰岛素组成的肠-胰岛轴列为前馈，原卷ABD与该处存在不一致，保留答案键并标明这一点。",
+    "knowledgeConnections": [
+      "前馈依据预测信息预先反应，反馈依据已发生的输出变化校正。",
+      "前馈可能失误，通常需与负反馈共同维持稳定。"
+    ],
+    "lectureSummary": [
+      "前馈依据预测信息预先反应，反馈依据已发生的输出变化校正。",
+      "前馈可能失误，通常需与负反馈共同维持稳定。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "1 27考研：生理 绪论 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 9,
+        "knowledgePoints": [
+          "前馈依据预测信息预先反应，反馈依据已发生的输出变化校正。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/1 27考研：生理 绪论 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ],
+    "verificationNotes": "本卷ABD与讲义p9肠-胰岛轴前馈例子不一致；保留原答案而明确C争议，不伪造排除理由。"
+  },
+  "physiology-foundation-mock-exam-20260907-q137": {
+    "explanation": "正确答案：ABC（胶原；肾上腺素；5-羟色胺）。\n\nA胶原暴露后激活血小板；B肾上腺素和C5-羟色胺可促进聚集。D前列环素由血管内皮产生，通过升高血小板cAMP抑制聚集并舒张血管，作用方向相反。",
+    "knowledgeConnections": [
+      "血小板聚集有生理性致聚剂与抑制剂；ADP、TXA₂也促进聚集。",
+      "PGI₂抑制聚集、TXA₂促进聚集，两者共同调节局部止血。"
+    ],
+    "lectureSummary": [
+      "血小板聚集有生理性致聚剂与抑制剂；ADP、TXA₂也促进聚集。",
+      "PGI₂抑制聚集、TXA₂促进聚集，两者共同调节局部止血。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "knowledgePoints": [
+          "血小板聚集有生理性致聚剂与抑制剂；ADP、TXA₂也促进聚集。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "knowledgePoints": [
+          "血小板聚集有生理性致聚剂与抑制剂；ADP、TXA₂也促进聚集。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q138": {
+    "explanation": "正确答案：BCD（Hb 与 H+的结合能力降低；Hb 与 CO 的结合能力降低 2；P 降低 50）。\n\n本题选错误项。R型高亲氧、T型低亲氧，R→T使曲线右移、P₅₀升高，故A正确、D错误。T型更易结合H⁺及CO₂而促进组织气体交换，B、C“结合能力降低”均写反。",
+    "knowledgeConnections": [
+      "P₅₀是Hb氧饱和度50%时的PO₂；P₅₀↑表示亲和力↓。",
+      "组织H⁺、CO₂增加促进Hb释氧；肺部氧合有利于Hb释放H⁺和CO₂。"
+    ],
+    "lectureSummary": [
+      "P₅₀是Hb氧饱和度50%时的PO₂；P₅₀↑表示亲和力↓。",
+      "组织H⁺、CO₂增加促进Hb释氧；肺部氧合有利于Hb释放H⁺和CO₂。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "16 27考研：生理 肺换气和气体运输 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/16 27考研：生理 肺换气和气体运输 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "knowledgePoints": [
+          "P₅₀是Hb氧饱和度50%时的PO₂；P₅₀↑表示亲和力↓。"
+        ]
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q139": {
+    "explanation": "正确答案：ABCD（扩张刺激胃底胃体，通过迷走-迷走长反射；扩张刺激胃底胃体，通过壁内神经丛短反射；蛋白质消化产物引起促胃液素释放；胃期分泌的胃液量大，酸度和胃蛋白酶含量高）。\n\nA胃底、胃体扩张激活迷走-迷走长反射；B也通过壁内神经丛短反射促分泌。C蛋白质消化产物促进G细胞释放促胃液素。D胃期分泌量大、酸度及胃蛋白酶含量较高，四项均符合讲义。",
+    "knowledgeConnections": [
+      "胃期刺激包括胃扩张及蛋白质消化产物，经神经和体液共同调节。",
+      "胃酸降至较低pH后，经生长抑素等负反馈抑制促胃液素和胃酸分泌。"
+    ],
+    "lectureSummary": [
+      "胃期刺激包括胃扩张及蛋白质消化产物，经神经和体液共同调节。",
+      "胃酸降至较低pH后，经生长抑素等负反馈抑制促胃液素和胃酸分泌。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "胃期刺激包括胃扩张及蛋白质消化产物，经神经和体液共同调节。"
+        ]
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "胃期刺激包括胃扩张及蛋白质消化产物，经神经和体液共同调节。"
+        ]
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q140": {
+    "explanation": "正确答案：ABD（尿量；尿中碳酸氢盐；尿中排出的 K+）。\n\n乙酰唑胺抑制碳酸酐酶，H⁺生成及Na⁺-H⁺交换减少，HCO₃⁻重吸收减少，尿HCO₃⁻和尿量增加，故A、B正确，C排H⁺增加错误。远端Na⁺递送和流量增加可促进K⁺排出，D正确。",
+    "knowledgeConnections": [
+      "碳酸酐酶抑制→碱性尿、代谢性酸中毒。",
+      "肾小管中保Na⁺与排K⁺相互关联，利尿时需同时关注酸碱及钾平衡。"
+    ],
+    "lectureSummary": [
+      "碳酸酐酶抑制→碱性尿、代谢性酸中毒。",
+      "肾小管中保Na⁺与排K⁺相互关联，利尿时需同时关注酸碱及钾平衡。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "碳酸酐酶抑制→碱性尿、代谢性酸中毒。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-foundation-mock-exam-20260907-q141": {
+    "explanation": "正确答案：ABD（调控渴觉和水摄入与排出；维持体温相对稳定；控制日节律）。\n\nA下丘脑整合渗透压、渴觉和ADH释放；B参与体温调节；D视交叉上核参与昼夜节律。C肌紧张的主要调节环路位于脊髓、脑干、基底神经节和小脑，不作为下丘脑核心功能。",
+    "knowledgeConnections": [
+      "下丘脑联系自主神经、内分泌及行为反应，协调内环境稳定。",
+      "视上核、室旁核与水平衡相关；视交叉上核与昼夜节律相关。"
+    ],
+    "lectureSummary": [
+      "下丘脑联系自主神经、内分泌及行为反应，协调内环境稳定。",
+      "视上核、室旁核与水平衡相关；视交叉上核与昼夜节律相关。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "34 27考研：生理 脑电波、睡眠、脑高级功能、下丘脑 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "下丘脑联系自主神经、内分泌及行为反应，协调内环境稳定。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/34 27考研：生理 脑电波、睡眠、脑高级功能、下丘脑 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q001": {
+    "explanation": "正确答案：A（不会失误）。\n\nA：前馈按预测信息预先调节，速度快、有预见性，可减少滞后和波动，但预测可能错误，不能保证“不会失误”。B、C、D为讲义列举的优点。",
+    "knowledgeConnections": [
+      "前馈在偏差发生前行动，反馈在输出变化后纠偏。",
+      "前馈不是反馈的替代，机体常把二者结合。"
+    ],
+    "lectureSummary": [
+      "前馈在偏差发生前行动，反馈在输出变化后纠偏。",
+      "前馈不是反馈的替代，机体常把二者结合。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "1 27考研：生理 绪论 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 9,
+        "knowledgePoints": [
+          "前馈在偏差发生前行动，反馈在输出变化后纠偏。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/1 27考研：生理 绪论 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q002": {
+    "explanation": "正确答案：C（K+电导增大）。\n\nC：细胞外K⁺明显增高可增加K⁺电导。A错误，K⁺外流的浓度驱动力减小，静息电位负值减小；B高K⁺可激活Na⁺-K⁺泵；D持续去极化使Na⁺通道失活，不能概括为Na⁺电导增大。",
+    "knowledgeConnections": [
+      "高钾对膜电位与通道状态的影响须分开：去极化不等于持续兴奋性增强。",
+      "严重高钾可因Na⁺通道失活造成兴奋性下降和传导障碍。"
+    ],
+    "lectureSummary": [
+      "高钾对膜电位与通道状态的影响须分开：去极化不等于持续兴奋性增强。",
+      "严重高钾可因Na⁺通道失活造成兴奋性下降和传导障碍。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 16,
+        "knowledgePoints": [
+          "高钾对膜电位与通道状态的影响须分开：去极化不等于持续兴奋性增强。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q003": {
+    "explanation": "正确答案：D（收缩的频率加快）。\n\nD：提高刺激和收缩频率，单收缩发生时间总和，可形成强直收缩、增强肌力。A、B单个肌纤维动作电位及单次反应具有全或无特点；C闰盘属于心肌，骨骼肌不依靠闰盘在细胞间传导。",
+    "knowledgeConnections": [
+      "整体肌力可通过募集更多运动单位或提高放电频率调节。",
+      "骨骼肌有效不应期短于机械收缩期，因此能发生收缩总和及强直收缩。"
+    ],
+    "lectureSummary": [
+      "整体肌力可通过募集更多运动单位或提高放电频率调节。",
+      "骨骼肌有效不应期短于机械收缩期，因此能发生收缩总和及强直收缩。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "4 27考研：生理 骨骼肌收缩 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 10,
+        "knowledgePoints": [
+          "整体肌力可通过募集更多运动单位或提高放电频率调节。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/4 27考研：生理 骨骼肌收缩 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q004": {
+    "explanation": "正确答案：B（在体内促进 TFPI 的释放）。\n\nB：肝素除增强抗凝血酶外，在体内还能促血管内皮释放TFPI，故体内抗凝更强。A抑制凝血因子合成是维生素K拮抗药的机制；C肝素增强抗凝血酶活性而非促进其合成；D体内外亲和力差异不是主要原因。",
+    "knowledgeConnections": [
+      "抗凝血酶灭活凝血酶及多种活化凝血因子，肝素显著增强其作用。",
+      "TFPI抑制组织因子途径，区别于蛋白C系统灭活Ⅴa、Ⅷa。"
+    ],
+    "lectureSummary": [
+      "抗凝血酶灭活凝血酶及多种活化凝血因子，肝素显著增强其作用。",
+      "TFPI抑制组织因子途径，区别于蛋白C系统灭活Ⅴa、Ⅷa。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "抗凝血酶灭活凝血酶及多种活化凝血因子，肝素显著增强其作用。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "knowledgePoints": [
+          "抗凝血酶灭活凝血酶及多种活化凝血因子，肝素显著增强其作用。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q005": {
+    "explanation": "正确答案：C（房室交界区有效不应期延长）。\n\nC：按压窦部增加感受器传入，迷走活动增强，使房室交界区传导减慢、有效不应期延长，可阻断依赖房室结的折返。A传入应增加；B房室延搁应延长；D虽可减慢窦率，但不是终止本题室上速的主要环节。",
+    "knowledgeConnections": [
+      "窦弓反射：舌咽神经或迷走传入→延髓→迷走增强、交感减弱。",
+      "心迷走兴奋产生负性频率、负性传导及对心房较明显的负性肌力作用。"
+    ],
+    "lectureSummary": [
+      "窦弓反射：舌咽神经或迷走传入→延髓→迷走增强、交感减弱。",
+      "心迷走兴奋产生负性频率、负性传导及对心房较明显的负性肌力作用。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "knowledgePoints": [
+          "窦弓反射：舌咽神经或迷走传入→延髓→迷走增强、交感减弱。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "窦弓反射：舌咽神经或迷走传入→延髓→迷走增强、交感减弱。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q006": {
+    "explanation": "正确答案：D（血管紧张素Ⅱ抑制肾上腺髓质素的分泌）。\n\nD：讲义列血管紧张素Ⅱ促进肾上腺髓质素分泌，“抑制”写反。A髓质素舒张小动脉较持久；B有正性肌力及增加冠脉血流作用；C可促进肾滤过及排钠排水，均属其效应。",
+    "knowledgeConnections": [
+      "肾上腺髓质素为舒血管活性肽，与儿茶酚胺作用不同。",
+      "血管活性体液因子要区分缩血管的血管紧张素Ⅱ与舒血管的髓质素、NO等。"
+    ],
+    "lectureSummary": [
+      "肾上腺髓质素为舒血管活性肽，与儿茶酚胺作用不同。",
+      "血管活性体液因子要区分缩血管的血管紧张素Ⅱ与舒血管的髓质素、NO等。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 10,
+        "knowledgePoints": [
+          "肾上腺髓质素为舒血管活性肽，与儿茶酚胺作用不同。"
+        ]
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q007": {
+    "explanation": "正确答案：C（吸气时气道阻力减小，呼气时气道阻力增大）。\n\nC：吸气时肺扩张牵拉小气道，气道阻力减小；呼气时牵拉减弱且胸膜腔压力上升，小气道更易变窄。A、B把主要机制归于弹性阻力不当；D吸气时胸腔负压通常增大而非减小。",
+    "knowledgeConnections": [
+      "气道阻力与半径关系密切，气道狭窄时呼气性阻塞更明显。",
+      "气道阻力同时阻碍吸、呼气；肺弹性回缩力则是吸气阻力、呼气动力。"
+    ],
+    "lectureSummary": [
+      "气道阻力与半径关系密切，气道狭窄时呼气性阻塞更明显。",
+      "气道阻力同时阻碍吸、呼气；肺弹性回缩力则是吸气阻力、呼气动力。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "knowledgePoints": [
+          "气道阻力与半径关系密切，气道狭窄时呼气性阻塞更明显。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "knowledgePoints": [
+          "气道阻力与半径关系密切，气道狭窄时呼气性阻塞更明显。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q008": {
+    "explanation": "正确答案：D（胃酸对 G 细胞的抑制作用减弱）。\n\nD：自身免疫损伤壁细胞，胃酸减少，解除酸对G细胞的抑制，促胃液素代偿升高。A不是迷走持续兴奋所致；B、C不是其核心病因。",
+    "knowledgeConnections": [
+      "壁细胞减少还使内因子不足，可影响维生素B₁₂吸收并导致巨幼细胞贫血。",
+      "A型胃炎以胃体、胃底萎缩为主，低胃酸与高促胃液素可并存。"
+    ],
+    "lectureSummary": [
+      "壁细胞减少还使内因子不足，可影响维生素B₁₂吸收并导致巨幼细胞贫血。",
+      "A型胃炎以胃体、胃底萎缩为主，低胃酸与高促胃液素可并存。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "knowledgePoints": [
+          "壁细胞减少还使内因子不足，可影响维生素B₁₂吸收并导致巨幼细胞贫血。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "knowledgePoints": [
+          "壁细胞减少还使内因子不足，可影响维生素B₁₂吸收并导致巨幼细胞贫血。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q009": {
+    "explanation": "正确答案：A（蒸发散热）。\n\nA：酒精挥发带走汽化潜热，属于蒸发散热。辐射为红外线传热；传导为直接接触传热；对流为周围空气或液体流动带走热量，都不是酒精擦浴题所指的主要方式。",
+    "knowledgeConnections": [
+      "蒸发散热取决于液体汽化，不等同于出汗量本身。",
+      "环境温度等于或高于皮温时，蒸发仍可散热；辐射、传导、对流作用受温差限制。"
+    ],
+    "lectureSummary": [
+      "蒸发散热取决于液体汽化，不等同于出汗量本身。",
+      "环境温度等于或高于皮温时，蒸发仍可散热；辐射、传导、对流作用受温差限制。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "23 27考研：生理 能量代谢和体温 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "蒸发散热取决于液体汽化，不等同于出汗量本身。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/23 27考研：生理 能量代谢和体温 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q010": {
+    "explanation": "正确答案：B（滤过膜上的裂孔素减少）。\n\nB：足细胞裂孔膜及裂孔素受损削弱滤过屏障，蛋白滤过增加。A肾血浆流量及C滤过面积改变不直接等于蛋白屏障破坏；D可造成肾小管性蛋白尿，但不是本题肾小球病变的主要原因。",
+    "knowledgeConnections": [
+      "滤过膜由内皮、基膜、足细胞裂孔膜组成，具有分子大小和电荷选择性。",
+      "肾小球性蛋白尿侧重滤过屏障；小管性蛋白尿侧重低分子蛋白重吸收不足。"
+    ],
+    "lectureSummary": [
+      "滤过膜由内皮、基膜、足细胞裂孔膜组成，具有分子大小和电荷选择性。",
+      "肾小球性蛋白尿侧重滤过屏障；小管性蛋白尿侧重低分子蛋白重吸收不足。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "25 27考研：生理 肾小球滤过 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "knowledgePoints": [
+          "滤过膜由内皮、基膜、足细胞裂孔膜组成，具有分子大小和电荷选择性。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/25 27考研：生理 肾小球滤过 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "25 27考研：生理 肾小球滤过 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "滤过膜由内皮、基膜、足细胞裂孔膜组成，具有分子大小和电荷选择性。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/25 27考研：生理 肾小球滤过 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q011": {
+    "explanation": "正确答案：B（近端小管重吸收减少）。\n\nB：管腔难重吸收溶质增加，降低近端小管水、Na⁺重吸收，破坏近端球管平衡而利尿。A不是GFR增加；C集合管重吸收可受影响，但不是题干所问球管平衡的主要部位；D不以醛固酮减少为主要机制。",
+    "knowledgeConnections": [
+      "球管平衡指近端小管重吸收量随滤过量变化而保持一定比例。",
+      "葡萄糖超过肾糖阈或甘露醇留在管腔均可产生渗透性利尿。"
+    ],
+    "lectureSummary": [
+      "球管平衡指近端小管重吸收量随滤过量变化而保持一定比例。",
+      "葡萄糖超过肾糖阈或甘露醇留在管腔均可产生渗透性利尿。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "球管平衡指近端小管重吸收量随滤过量变化而保持一定比例。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "球管平衡指近端小管重吸收量随滤过量变化而保持一定比例。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q012": {
+    "explanation": "正确答案：A（皮肤麦斯纳小体）。\n\nA：麦斯纳小体为快适应感受器，对刺激变化灵敏，有利于探索。B关节囊、C渗透压及D化学感受器需持续监测内环境或姿势，属于慢适应类。",
+    "knowledgeConnections": [
+      "快适应感受器强调刺激的开始、结束和变化；慢适应感受器持续报告刺激。",
+      "适应是持续刺激时传入放电逐渐减弱，不等同于感受器疲劳。"
+    ],
+    "lectureSummary": [
+      "快适应感受器强调刺激的开始、结束和变化；慢适应感受器持续报告刺激。",
+      "适应是持续刺激时传入放电逐渐减弱，不等同于感受器疲劳。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "29 27考研：生理 其它感觉 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "knowledgePoints": [
+          "快适应感受器强调刺激的开始、结束和变化；慢适应感受器持续报告刺激。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/29 27考研：生理 其它感觉 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "29 27考研：生理 其它感觉 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "knowledgePoints": [
+          "快适应感受器强调刺激的开始、结束和变化；慢适应感受器持续报告刺激。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/29 27考研：生理 其它感觉 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q013": {
+    "explanation": "正确答案：D（泵 K+能力）。\n\nD：星形胶质细胞缓冲细胞外K⁺，泵K⁺能力减弱使局部K⁺蓄积、神经元去极化，易出现异常同步放电。A修复、B屏障、C营养均为胶质功能，但不能直接解释本题膜兴奋性变化。",
+    "knowledgeConnections": [
+      "胶质细胞维持神经元周围离子和递质微环境。",
+      "细胞外K⁺升高使静息电位负值减小；持续严重升高又可使Na⁺通道失活。"
+    ],
+    "lectureSummary": [
+      "胶质细胞维持神经元周围离子和递质微环境。",
+      "细胞外K⁺升高使静息电位负值减小；持续严重升高又可使Na⁺通道失活。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "胶质细胞维持神经元周围离子和递质微环境。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q014": {
+    "explanation": "正确答案：C（颞上回后部）。\n\n按本卷答案选C。患者能发声但答非所问、不能理解口头指令，符合感觉性失语，定位优势半球颞上回后部。A Broca区损伤以表达困难为主；D右侧顶叶不符合右利手常见语言优势侧。B Wernicke区与C颞上回后部在此语境存在重叠，不能据此把B医学上硬判为无关。",
+    "knowledgeConnections": [
+      "Broca失语以表达障碍为主，感觉性失语以语言理解障碍为主。",
+      "右利手语言优势半球通常在左侧，语言内容异常应与构音障碍区分。"
+    ],
+    "lectureSummary": [
+      "Broca失语以表达障碍为主，感觉性失语以语言理解障碍为主。",
+      "右利手语言优势半球通常在左侧，语言内容异常应与构音障碍区分。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "34 27考研：生理 脑电波、睡眠、脑高级功能、下丘脑 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "Broca失语以表达障碍为主，感觉性失语以语言理解障碍为主。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/34 27考研：生理 脑电波、睡眠、脑高级功能、下丘脑 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ],
+    "verificationNotes": "B、C定位重叠，保留原卷C，解释明确歧义。"
+  },
+  "physiology-sprint-exam-20261021-q015": {
+    "explanation": "正确答案：A（胺类）。\n\nA：褪黑素由色氨酸衍生，为胺类激素。B、C肽与蛋白质类由氨基酸链构成；D类固醇由胆固醇衍生，均不符合褪黑素。",
+    "knowledgeConnections": [
+      "松果体褪黑素参与昼夜节律，分泌受光暗周期影响。",
+      "胺类包括儿茶酚胺、甲状腺激素、褪黑素，但不同胺类的受体和运输方式不完全相同。"
+    ],
+    "lectureSummary": [
+      "松果体褪黑素参与昼夜节律，分泌受光暗周期影响。",
+      "胺类包括儿茶酚胺、甲状腺激素、褪黑素，但不同胺类的受体和运输方式不完全相同。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "35 27考研：生理 内分泌概述 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/35 27考研：生理 内分泌概述 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "松果体褪黑素参与昼夜节律，分泌受光暗周期影响。"
+        ]
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q016": {
+    "explanation": "正确答案：A（子宫内膜）。\n\nA：子宫内膜是雌激素靶组织，不是本讲列举的雌激素来源。B胎盘可与胎儿共同合成雌激素；C睾丸可经芳香化产生雌激素；D肾上腺皮质参与性激素来源。",
+    "knowledgeConnections": [
+      "卵巢雌激素合成：LH作用内泡膜细胞生成雄激素，FSH作用颗粒细胞芳香化。",
+      "妊娠中后期雌激素来源须联系胎盘-胎儿单位，不能只记卵巢。"
+    ],
+    "lectureSummary": [
+      "卵巢雌激素合成：LH作用内泡膜细胞生成雄激素，FSH作用颗粒细胞芳香化。",
+      "妊娠中后期雌激素来源须联系胎盘-胎儿单位，不能只记卵巢。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "knowledgePoints": [
+          "卵巢雌激素合成：LH作用内泡膜细胞生成雄激素，FSH作用颗粒细胞芳香化。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "knowledgePoints": [
+          "卵巢雌激素合成：LH作用内泡膜细胞生成雄激素，FSH作用颗粒细胞芳香化。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q136": {
+    "explanation": "正确答案：ABC（表面积/体积比降低；可塑变形性下降；渗透脆性变大）。\n\nA球形红细胞表面积/体积比降低；B变形能力下降；C在低渗溶液中容积扩张余地小，渗透脆性增大。D球形细胞不易形成缗钱状聚集，不能据此判断血沉加快。",
+    "knowledgeConnections": [
+      "可塑变形性影响红细胞通过微循环，球形细胞易在脾内滞留破坏。",
+      "渗透脆性与变形能力是不同指标；血沉主要反映红细胞悬浮稳定性。"
+    ],
+    "lectureSummary": [
+      "可塑变形性影响红细胞通过微循环，球形细胞易在脾内滞留破坏。",
+      "渗透脆性与变形能力是不同指标；血沉主要反映红细胞悬浮稳定性。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "7 27考研：生理 血液特性 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "knowledgePoints": [
+          "可塑变形性影响红细胞通过微循环，球形细胞易在脾内滞留破坏。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/7 27考研：生理 血液特性 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "7 27考研：生理 血液特性 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "可塑变形性影响红细胞通过微循环，球形细胞易在脾内滞留破坏。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/7 27考研：生理 血液特性 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q137": {
+    "explanation": "正确答案：AB（使静脉回流量与搏出量维持平衡；防止心室舒张末期压力发生过久的改变）。\n\nA、B：静脉回流增加使舒张末容积和初长度增加，随之搏出量增大，使心脏输出与回流平衡、避免舒张末压长期改变。C改变兴奋-收缩耦联、D增加活化横桥数是心肌收缩能力调节的表述，不是本题异长调节的讲义归类。",
+    "knowledgeConnections": [
+      "异长调节依赖前负荷、初长度，即Frank-Starling机制。",
+      "等长调节改变心肌收缩能力，与单纯改变初长度区分。"
+    ],
+    "lectureSummary": [
+      "异长调节依赖前负荷、初长度，即Frank-Starling机制。",
+      "等长调节改变心肌收缩能力，与单纯改变初长度区分。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "9 27考研：生理 心脏泵血 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/9 27考研：生理 心脏泵血 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "异长调节依赖前负荷、初长度，即Frank-Starling机制。"
+        ]
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "9 27考研：生理 心脏泵血 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/9 27考研：生理 心脏泵血 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "knowledgePoints": [
+          "异长调节依赖前负荷、初长度，即Frank-Starling机制。"
+        ]
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q138": {
+    "explanation": "正确答案：ACD（脂肪的消化分解；胃酸的中和；视黄醛的合成）。\n\nA胆盐乳化脂肪并促进脂肪酶作用；C胆汁中的HCO₃⁻参与中和胃酸；D胆盐不足使维生素A吸收受影响，进而影响视黄醛合成。B胆汁主要影响脂溶性维生素而非水溶性维生素吸收。",
+    "knowledgeConnections": [
+      "胆盐参与混合微胶粒形成，促进脂肪消化产物及A、D、E、K吸收。",
+      "胆汁不含消化酶，促脂肪消化主要依靠乳化和微胶粒作用。"
+    ],
+    "lectureSummary": [
+      "胆盐参与混合微胶粒形成，促进脂肪消化产物及A、D、E、K吸收。",
+      "胆汁不含消化酶，促脂肪消化主要依靠乳化和微胶粒作用。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "21 27考研：生理 肠内消化 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/21 27考研：生理 肠内消化 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "胆盐参与混合微胶粒形成，促进脂肪消化产物及A、D、E、K吸收。"
+        ]
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "21 27考研：生理 肠内消化 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/21 27考研：生理 肠内消化 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "胆盐参与混合微胶粒形成，促进脂肪消化产物及A、D、E、K吸收。"
+        ]
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q139": {
+    "explanation": "正确答案：BC（ADH 分泌明显减少；胰岛素分泌明显减少）。\n\nB：ADH明显不足导致大量稀尿，失水提高渗透压而口渴。C胰岛素不足可使血糖升高、尿糖增多，产生渗透性利尿和口渴。A出汗通常使ADH增加、尿量减少；D有效血容量增多可利尿，但不同时造成大量饮水。",
+    "knowledgeConnections": [
+      "尿崩症：水重吸收不足；糖尿病：管腔葡萄糖造成渗透性利尿。",
+      "口渴主要受血浆渗透压升高及血容量减少刺激。"
+    ],
+    "lectureSummary": [
+      "尿崩症：水重吸收不足；糖尿病：管腔葡萄糖造成渗透性利尿。",
+      "口渴主要受血浆渗透压升高及血容量减少刺激。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "knowledgePoints": [
+          "尿崩症：水重吸收不足；糖尿病：管腔葡萄糖造成渗透性利尿。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 9,
+        "knowledgePoints": [
+          "尿崩症：水重吸收不足；糖尿病：管腔葡萄糖造成渗透性利尿。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q140": {
+    "explanation": "正确答案：AB（前庭窗膜外移，蜗窗膜内移；K+内流入毛细胞，产生去极化感受器电位）。\n\nA：基底膜上移时对应前庭窗与蜗窗的反向运动。B毛细胞纤毛向兴奋方向偏转，机械门控通道开放，富K⁺内淋巴中的K⁺内流使毛细胞去极化。C、D将内、外毛细胞职能颠倒：内毛细胞主要向听神经传递，外毛细胞主要放大振动。",
+    "knowledgeConnections": [
+      "毛细胞去极化主要由K⁺而非Na⁺内流，因内淋巴液富K⁺。",
+      "外毛细胞具有电运动性，为耳蜗放大器；内毛细胞承担主要听觉传入。"
+    ],
+    "lectureSummary": [
+      "毛细胞去极化主要由K⁺而非Na⁺内流，因内淋巴液富K⁺。",
+      "外毛细胞具有电运动性，为耳蜗放大器；内毛细胞承担主要听觉传入。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "28 27考研：生理 听觉 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "knowledgePoints": [
+          "毛细胞去极化主要由K⁺而非Na⁺内流，因内淋巴液富K⁺。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/28 27考研：生理 听觉 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "28 27考研：生理 听觉 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "knowledgePoints": [
+          "外毛细胞具有电运动性，为耳蜗放大器；内毛细胞承担主要听觉传入。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/28 27考研：生理 听觉 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q141": {
+    "explanation": "正确答案：CD（调节肌紧张；处理本体感觉传入）。\n\nC、D：基底神经节调节肌紧张并处理本体感觉信息，参与运动方案选择与整合。A不直接承担运动执行；B姿势平衡的主要调节须联系小脑、前庭及脑干环路，不能作为本题基底神经节主要功能。",
+    "knowledgeConnections": [
+      "基底神经节经皮质-纹状体-苍白球/黑质-丘脑环路调节运动。",
+      "基底神经节损害可表现运动过少或过多，与小脑共济失调区分。"
+    ],
+    "lectureSummary": [
+      "基底神经节经皮质-纹状体-苍白球/黑质-丘脑环路调节运动。",
+      "基底神经节损害可表现运动过少或过多，与小脑共济失调区分。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "33 27考研：生理 神经系统调控躯体运动 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 13,
+        "knowledgePoints": [
+          "基底神经节经皮质-纹状体-苍白球/黑质-丘脑环路调节运动。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/33 27考研：生理 神经系统调控躯体运动 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q116": {
+    "explanation": "正确答案：A（动脉血中 PaO2 的降低）。\n\nA：慢性高碳酸血症时中枢化学感受器对CO₂反应适应，低氧对外周化学感受器的刺激成为主要呼吸驱动。B更符合急性CO₂升高；C血H⁺主要作用外周、不是本题主要因素；D HCO₃⁻不是直接的主要呼吸兴奋因素。",
+    "knowledgeConnections": [
+      "CO₂易过血脑屏障，主要通过脑脊液H⁺刺激中枢化学感受器。",
+      "低氧主要刺激颈动脉体等外周化学感受器；慢性高碳酸血症需与急性情况区分。"
+    ],
+    "lectureSummary": [
+      "CO₂易过血脑屏障，主要通过脑脊液H⁺刺激中枢化学感受器。",
+      "低氧主要刺激颈动脉体等外周化学感受器；慢性高碳酸血症需与急性情况区分。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "17 27考研：生理 呼吸调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "CO₂易过血脑屏障，主要通过脑脊液H⁺刺激中枢化学感受器。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/17 27考研：生理 呼吸调节 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "17 27考研：生理 呼吸调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "CO₂易过血脑屏障，主要通过脑脊液H⁺刺激中枢化学感受器。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/17 27考研：生理 呼吸调节 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q117": {
+    "explanation": "正确答案：C（动脉血中[H+]的升高）。\n\nC：运动结束后代谢性H⁺等恢复较慢，仍可刺激外周化学感受器而维持通气。A、B低氧和高CO₂并非正常运动后持续通气的主要普遍原因；D HCO₃⁻升高不是主要刺激。",
+    "knowledgeConnections": [
+      "运动通气增加由神经前馈、运动传入和化学因素共同参与。",
+      "血H⁺不易过血脑屏障，对呼吸的直接刺激主要经外周感受器。"
+    ],
+    "lectureSummary": [
+      "运动通气增加由神经前馈、运动传入和化学因素共同参与。",
+      "血H⁺不易过血脑屏障，对呼吸的直接刺激主要经外周感受器。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "17 27考研：生理 呼吸调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "运动通气增加由神经前馈、运动传入和化学因素共同参与。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/17 27考研：生理 呼吸调节 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "17 27考研：生理 呼吸调节 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "运动通气增加由神经前馈、运动传入和化学因素共同参与。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/17 27考研：生理 呼吸调节 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q118": {
+    "explanation": "正确答案：A（糖皮质激素）。\n\nA：糖皮质激素促进肝外蛋白分解，同时促进肝内某些蛋白、酶合成，提供糖异生原料。B甲状腺激素需区分剂量；C生长激素、D胰岛素总体促进蛋白合成，不符合题干肝外分解的特征。",
+    "knowledgeConnections": [
+      "糖皮质激素使氨基酸转向肝糖异生，长期过量可肌萎缩、负氮平衡。",
+      "应激时糖皮质激素有升糖、动员能量并维持血管反应性的作用。"
+    ],
+    "lectureSummary": [
+      "糖皮质激素使氨基酸转向肝糖异生，长期过量可肌萎缩、负氮平衡。",
+      "应激时糖皮质激素有升糖、动员能量并维持血管反应性的作用。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "knowledgePoints": [
+          "糖皮质激素使氨基酸转向肝糖异生，长期过量可肌萎缩、负氮平衡。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "糖皮质激素使氨基酸转向肝糖异生，长期过量可肌萎缩、负氮平衡。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/40 27考研：生理 糖皮质激素 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "physiology-sprint-exam-20261021-q119": {
+    "explanation": "正确答案：B（甲状腺激素）。\n\nB：甲状腺激素生理量促进蛋白合成，过量加速分解。A糖皮质激素有肝外分解、肝内合成的组织差异；C生长激素和D胰岛素主要促蛋白合成，均不以题干剂量关系为典型。",
+    "knowledgeConnections": [
+      "甲亢可出现消瘦和肌无力，联系蛋白质分解及基础代谢升高。",
+      "甲状腺激素是正常生长和神经发育所必需，不能一概视为分解激素。"
+    ],
+    "lectureSummary": [
+      "甲亢可出现消瘦和肌无力，联系蛋白质分解及基础代谢升高。",
+      "甲状腺激素是正常生长和神经发育所必需，不能一概视为分解激素。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "physiology",
+        "sourceFile": "39 27考研：生理 甲状腺激素 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "甲亢可出现消瘦和肌无力，联系蛋白质分解及基础代谢升高。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/39 27考研：生理 甲状腺激素 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q017": {
+    "explanation": "正确答案：D（一定由两条或两条以上的多肽链组成）。\n\nD：四级结构指两条或以上具有各自三级结构的亚基按一定方式聚合。A把三级结构再折叠误当四级结构；B不一定含辅因子；C亚基间主要由非共价作用维持，不靠肽键把亚基连接。",
+    "knowledgeConnections": [
+      "三级结构描述一条多肽链整体构象；四级结构描述亚基间空间排列和相互作用。",
+      "血红蛋白有四级结构，肌红蛋白为单链、没有四级结构。"
+    ],
+    "lectureSummary": [
+      "三级结构描述一条多肽链整体构象；四级结构描述亚基间空间排列和相互作用。",
+      "血红蛋白有四级结构，肌红蛋白为单链、没有四级结构。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "【精编版】生化合集.pdf",
+        "page": 51,
+        "knowledgePoints": [
+          "三级结构描述一条多肽链整体构象；四级结构描述亚基间空间排列和相互作用。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/【精编版】生化合集.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q018": {
+    "explanation": "正确答案：B（负超螺旋）。\n\nB：自然条件下DNA多呈负超螺旋，有利于局部解链及复制、转录。A正超螺旋是过度缠绕；C Z型是特定条件下的左手双螺旋；D α螺旋主要是蛋白质二级结构形式。",
+    "knowledgeConnections": [
+      "DNA二级结构与高级结构分开：B型双螺旋与负超螺旋不是同一层级概念。",
+      "拓扑异构酶调节超螺旋，参与复制和转录中的拓扑应力解除。"
+    ],
+    "lectureSummary": [
+      "DNA二级结构与高级结构分开：B型双螺旋与负超螺旋不是同一层级概念。",
+      "拓扑异构酶调节超螺旋，参与复制和转录中的拓扑应力解除。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "15 27考研：生化 核酸 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "DNA二级结构与高级结构分开：B型双螺旋与负超螺旋不是同一层级概念。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/15 27考研：生化 核酸 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "15 27考研：生化 核酸 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "DNA二级结构与高级结构分开：B型双螺旋与负超螺旋不是同一层级概念。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/15 27考研：生化 核酸 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q019": {
+    "explanation": "正确答案：A（载体的作用）。\n\nA：辅酶在反应中转移电子、质子或特定化学基团，起载体作用。B稳定蛋白构象、C促复合物形成不是辅酶的核心概括；D酶必需基团通常是酶蛋白的化学基团，不应与辅酶承担的基团转移混同。",
+    "knowledgeConnections": [
+      "辅酶结合较疏松、可在不同酶之间转移；辅基与酶结合较紧。",
+      "NAD⁺/NADP⁺载氢，CoA转移酰基，磷酸吡哆醛参与氨基酸代谢。"
+    ],
+    "lectureSummary": [
+      "辅酶结合较疏松、可在不同酶之间转移；辅基与酶结合较紧。",
+      "NAD⁺/NADP⁺载氢，CoA转移酰基，磷酸吡哆醛参与氨基酸代谢。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "knowledgePoints": [
+          "辅酶结合较疏松、可在不同酶之间转移；辅基与酶结合较紧。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "13 27考研：生化 维生素 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "辅酶结合较疏松、可在不同酶之间转移；辅基与酶结合较紧。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/13 27考研：生化 维生素 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q020": {
+    "explanation": "正确答案：D（磷酸二羟丙酮）。\n\nD：磷酸二羟丙酮可还原为3-磷酸甘油，形成甘油三酯的甘油骨架，直接连接糖代谢与脂肪合成。A丙酮酸、B草酰乙酸也参与多途径，但不是题目所指甘油骨架的连接点；C葡糖-6-磷酸主要是糖代谢分支点。",
+    "knowledgeConnections": [
+      "糖酵解磷酸二羟丙酮→3-磷酸甘油→甘油三酯。",
+      "脂肪组织甘油激酶活性低，甘油骨架主要依赖葡萄糖代谢。"
+    ],
+    "lectureSummary": [
+      "糖酵解磷酸二羟丙酮→3-磷酸甘油→甘油三酯。",
+      "脂肪组织甘油激酶活性低，甘油骨架主要依赖葡萄糖代谢。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "06 27考研：生化 脂肪代谢 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "knowledgePoints": [
+          "糖酵解磷酸二羟丙酮→3-磷酸甘油→甘油三酯。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/06 27考研：生化 脂肪代谢 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q021": {
+    "explanation": "正确答案：A（脂蛋白脂肪酶）。\n\nA：LPL水解乳糜微粒、VLDL中的甘油三酯，缺陷时CM清除受阻。B HMG-CoA还原酶参与胆固醇合成；C apoB100受体主要识别LDL等；D apoB48为CM组装所需，缺陷通常不能解释CM在血浆堆积。",
+    "knowledgeConnections": [
+      "CM运输外源性甘油三酯，VLDL运输内源性甘油三酯。",
+      "apoCⅡ激活LPL；apoAⅠ激活LCAT，分别针对甘油三酯水解与胆固醇酯化。"
+    ],
+    "lectureSummary": [
+      "CM运输外源性甘油三酯，VLDL运输内源性甘油三酯。",
+      "apoCⅡ激活LPL；apoAⅠ激活LCAT，分别针对甘油三酯水解与胆固醇酯化。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "04 27考研：生化 血浆脂蛋白 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "CM运输外源性甘油三酯，VLDL运输内源性甘油三酯。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/04 27考研：生化 血浆脂蛋白 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q022": {
+    "explanation": "正确答案：D（VitB 、VitPP 6）。\n\nD：联合脱氨包括转氨和谷氨酸氧化脱氨。转氨酶需磷酸吡哆醛，来自VitB₆；谷氨酸脱氢酶需NAD⁺/NADP⁺，对应VitPP。A、B、C均未同时包括这一组合。",
+    "knowledgeConnections": [
+      "多数氨基酸先把氨基转给α-酮戊二酸形成谷氨酸，再释放NH₃。",
+      "VitB₆也参与氨基酸脱羧；VitPP构成NAD⁺/NADP⁺。"
+    ],
+    "lectureSummary": [
+      "多数氨基酸先把氨基转给α-酮戊二酸形成谷氨酸，再释放NH₃。",
+      "VitB₆也参与氨基酸脱羧；VitPP构成NAD⁺/NADP⁺。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "07 27考研：生化 氨基酸代谢 & 氨基酸 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "多数氨基酸先把氨基转给α-酮戊二酸形成谷氨酸，再释放NH₃。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/07 27考研：生化 氨基酸代谢 & 氨基酸 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q023": {
+    "explanation": "正确答案：C（复制子同步激活）。\n\nC：真核染色体有多个复制子，其激活有时间先后，并非全部同步。A前导链连续、随从链不连续；B真核冈崎片段较短；D PCNA作为滑动夹辅助聚合酶持续合成，均正确。",
+    "knowledgeConnections": [
+      "真核多起点、多复制子，提高长染色体复制效率。",
+      "半不连续性来自两条模板反向平行，而DNA聚合酶只沿5′→3′延长。"
+    ],
+    "lectureSummary": [
+      "真核多起点、多复制子，提高长染色体复制效率。",
+      "半不连续性来自两条模板反向平行，而DNA聚合酶只沿5′→3′延长。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "真核多起点、多复制子，提高长染色体复制效率。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "knowledgePoints": [
+          "真核多起点、多复制子，提高长染色体复制效率。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q024": {
+    "explanation": "正确答案：B（tRNA）。\n\nB：Ⅲ类启动子由RNA聚合酶Ⅲ识别，主要转录tRNA及5S rRNA。A45S rRNA由RNA聚合酶Ⅰ转录；C piRNA不是此经典归类；D DNA聚合酶Ⅲ是原核复制酶，其蛋白编码不属于本题真核RNA聚合酶Ⅲ产物。",
+    "knowledgeConnections": [
+      "RNApolⅠ：45S rRNA；Ⅱ：hnRNA及多种非编码RNA；Ⅲ：tRNA、5S rRNA。",
+      "45S前体加工形成18S、5.8S、28S rRNA，5S rRNA另行转录。"
+    ],
+    "lectureSummary": [
+      "RNApolⅠ：45S rRNA；Ⅱ：hnRNA及多种非编码RNA；Ⅲ：tRNA、5S rRNA。",
+      "45S前体加工形成18S、5.8S、28S rRNA，5S rRNA另行转录。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "knowledgePoints": [
+          "RNApolⅠ：45S rRNA；Ⅱ：hnRNA及多种非编码RNA；Ⅲ：tRNA、5S rRNA。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q025": {
+    "explanation": "正确答案：B（结合 RNA polyC 碱基）。\n\nB：ρ因子结合新生RNA富C、少G序列，利用ATP沿RNA移动而促终止。A发夹结构主要是非ρ依赖终止的结构；C辨认启动子和起始释放应联系σ因子；Dρ参与原核而非真核转录终止。",
+    "knowledgeConnections": [
+      "原核转录终止分ρ依赖和非ρ依赖两类。",
+      "σ因子辨认启动子、ρ因子参与终止，二者作用阶段不同。"
+    ],
+    "lectureSummary": [
+      "原核转录终止分ρ依赖和非ρ依赖两类。",
+      "σ因子辨认启动子、ρ因子参与终止，二者作用阶段不同。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "原核转录终止分ρ依赖和非ρ依赖两类。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "原核转录终止分ρ依赖和非ρ依赖两类。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q026": {
+    "explanation": "正确答案：B（组蛋白泛素化修饰）。\n\nB：讲义将组蛋白泛素化等修饰列为活性染色质相关变化。A茎环是核酸局部结构，不是此处染色质开放的特征；C活性染色质对核酸酶更敏感；D CpG岛高甲基化通常使转录受抑。",
+    "knowledgeConnections": [
+      "染色质开放有利于转录装置接近DNA。",
+      "DNA甲基化和组蛋白修饰须区分：不同位点修饰的转录效应可不同，不可一概等同激活。"
+    ],
+    "lectureSummary": [
+      "染色质开放有利于转录装置接近DNA。",
+      "DNA甲基化和组蛋白修饰须区分：不同位点修饰的转录效应可不同，不可一概等同激活。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "knowledgePoints": [
+          "染色质开放有利于转录装置接近DNA。"
+        ]
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q027": {
+    "explanation": "正确答案：D（逆转录病毒）。\n\nD：按讲义基因治疗载体比较，逆转录病毒可高效导入并整合外源基因。A质粒是常用重组载体但转导特点不同；B噬菌体主要用于细菌系统；C人类DNA本身不具备完整载体递送功能。",
+    "knowledgeConnections": [
+      "逆转录病毒RNA先逆转录为DNA，再形成可整合的双链DNA。",
+      "基因重组的克隆载体与基因治疗递送载体用途不同；整合也须联系插入突变风险。"
+    ],
+    "lectureSummary": [
+      "逆转录病毒RNA先逆转录为DNA，再形成可整合的双链DNA。",
+      "基因重组的克隆载体与基因治疗递送载体用途不同；整合也须联系插入突变风险。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "【精编版】生化合集.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/【精编版】生化合集.pdf",
+        "page": 110,
+        "knowledgePoints": [
+          "逆转录病毒RNA先逆转录为DNA，再形成可整合的双链DNA。",
+          "基因重组的克隆载体与基因治疗递送载体用途不同；整合也须联系插入突变风险。"
+        ]
+      }
+    ],
+    "chapterLectureId": "foundation-biochemistry-14",
+    "chapterTitle": "生化 小基因"
+  },
+  "biochemistry-foundation-mock-exam-20260907-q028": {
+    "explanation": "正确答案：B（盐析）。\n\nB：盐析利用蛋白质溶解度随盐浓度变化而沉淀。A透析利用分子大小及膜通透性；C超速离心主要利用沉降差异；D凝胶过滤按分子大小分离，故盐析与其余按大小/物理迁移差异的方式不同。",
+    "knowledgeConnections": [
+      "低盐可盐溶，高盐破坏水化层并降低溶解度而盐析。",
+      "盐析一般不必然使蛋白变性，纯化与变性不能混同。"
+    ],
+    "lectureSummary": [
+      "低盐可盐溶，高盐破坏水化层并降低溶解度而盐析。",
+      "盐析一般不必然使蛋白变性，纯化与变性不能混同。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "【精编版】生化合集.pdf",
+        "page": 51,
+        "knowledgePoints": [
+          "低盐可盐溶，高盐破坏水化层并降低溶解度而盐析。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/【精编版】生化合集.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "【精编版】生化合集.pdf",
+        "page": 56,
+        "knowledgePoints": [
+          "盐析一般不必然使蛋白变性，纯化与变性不能混同。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/【精编版】生化合集.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q120": {
+    "explanation": "正确答案：C（琥珀酸脱氢酶）。\n\nC：琥珀酸脱氢为延胡索酸，只脱氢、不释放CO₂。A异柠檬酸氧化脱羧；B6-磷酸葡萄糖酸氧化脱羧产生核酮糖-5-磷酸；D丙酮酸氧化脱羧为乙酰CoA，均伴脱羧。",
+    "knowledgeConnections": [
+      "琥珀酸脱氢酶以FAD为辅基，同时属于三羧酸循环及呼吸链复合体Ⅱ。",
+      "脱氢不一定脱羧，判断时看反应底物与产物是否减少一个碳。"
+    ],
+    "lectureSummary": [
+      "琥珀酸脱氢酶以FAD为辅基，同时属于三羧酸循环及呼吸链复合体Ⅱ。",
+      "脱氢不一定脱羧，判断时看反应底物与产物是否减少一个碳。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "01 27考研：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "knowledgePoints": [
+          "琥珀酸脱氢酶以FAD为辅基，同时属于三羧酸循环及呼吸链复合体Ⅱ。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/01 27考研：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "琥珀酸脱氢酶以FAD为辅基，同时属于三羧酸循环及呼吸链复合体Ⅱ。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q121": {
+    "explanation": "正确答案：B（6-磷酸葡萄糖酸脱氢酶）。\n\nB：6-磷酸葡萄糖酸脱氢酶处于磷酸戊糖途径，以NADP⁺为受氢体生成NADPH。A本题代谢归类的异柠檬酸脱氢酶及D丙酮酸脱氢酶使用NAD⁺；C琥珀酸脱氢酶使用FAD。",
+    "knowledgeConnections": [
+      "磷酸戊糖途径生成NADPH和核糖-5-磷酸。",
+      "NADPH用于还原合成及维持还原型谷胱甘肽，NADH主要用于氧化供能。"
+    ],
+    "lectureSummary": [
+      "磷酸戊糖途径生成NADPH和核糖-5-磷酸。",
+      "NADPH用于还原合成及维持还原型谷胱甘肽，NADH主要用于氧化供能。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "03 27考研：生化 磷酸戊糖途径、糖原、糖异生 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "knowledgePoints": [
+          "磷酸戊糖途径生成NADPH和核糖-5-磷酸。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/03 27考研：生化 磷酸戊糖途径、糖原、糖异生 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q122": {
+    "explanation": "正确答案：B（16S rRNA）。\n\nB：原核小亚基16S rRNA的3′端与mRNA的S-D序列配对，帮助选择起始位置。A5S属于大亚基；C18S为真核小亚基rRNA；D28S为真核大亚基主要rRNA，均不执行原核S-D识别。",
+    "knowledgeConnections": [
+      "原核核糖体70S＝30S＋50S；真核80S＝40S＋60S。",
+      "起始定位决定阅读框；S-D序列不是起始密码子本身。"
+    ],
+    "lectureSummary": [
+      "原核核糖体70S＝30S＋50S；真核80S＝40S＋60S。",
+      "起始定位决定阅读框；S-D序列不是起始密码子本身。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "原核核糖体70S＝30S＋50S；真核80S＝40S＋60S。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q123": {
+    "explanation": "正确答案：D（28S rRNA）。\n\nD：真核大亚基28S rRNA承担肽酰转移酶中心功能，催化肽键生成。A5S不作为该催化核心；B16S和C18S分别属于原核、真核小亚基，主要参与mRNA识别与解码。",
+    "knowledgeConnections": [
+      "肽酰转移酶本质为rRNA核酶，不是普通蛋白酶。",
+      "原核对应催化rRNA为23S，真核为28S；勿与识别S-D的16S混淆。"
+    ],
+    "lectureSummary": [
+      "肽酰转移酶本质为rRNA核酶，不是普通蛋白酶。",
+      "原核对应催化rRNA为23S，真核为28S；勿与识别S-D的16S混淆。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "肽酰转移酶本质为rRNA核酶，不是普通蛋白酶。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "肽酰转移酶本质为rRNA核酶，不是普通蛋白酶。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q142": {
+    "explanation": "正确答案：ABD（关键酶常位于代谢途径的 第一个反应；若一代谢物有几条代谢途径，则在分叉点的第一个反应常是关键酶所在；关键酶常是别构酶，受激素调节的酶也常是关键酶）。\n\nA、B：关键酶常位于途径起始或分叉后第一个不可逆步骤；D常受别构或激素调控。C“活性最高”错误：限速步骤通常相对较慢，其活性决定总体流量，不是越快越能限速。",
+    "knowledgeConnections": [
+      "关键酶决定通路流量和方向，通常催化远离平衡的反应。",
+      "酶原激活、化学修饰和别构调节是不同的快速活性调节方式。"
+    ],
+    "lectureSummary": [
+      "关键酶决定通路流量和方向，通常催化远离平衡的反应。",
+      "酶原激活、化学修饰和别构调节是不同的快速活性调节方式。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "关键酶决定通路流量和方向，通常催化远离平衡的反应。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "01 27考研：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "关键酶决定通路流量和方向，通常催化远离平衡的反应。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/01 27考研：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q143": {
+    "explanation": "正确答案：ABC（NADH；草酰乙酸；脂酰 CoA）。\n\nA NADH不能自由通过线粒体内膜，靠穿梭转移还原当量；B草酰乙酸需转为苹果酸或天冬氨酸转运；C长链脂酰CoA需肉碱穿梭。D磷酸二羟丙酮参与磷酸甘油穿梭，本题不列入上述三类受限物质。",
+    "knowledgeConnections": [
+      "线粒体外膜与内膜通透性不同，代谢题所称膜转运限制主要指内膜。",
+      "NADH穿梭转移的是还原当量；肉碱穿梭转移的是脂酰基。"
+    ],
+    "lectureSummary": [
+      "线粒体外膜与内膜通透性不同，代谢题所称膜转运限制主要指内膜。",
+      "NADH穿梭转移的是还原当量；肉碱穿梭转移的是脂酰基。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "knowledgePoints": [
+          "胞质NADH的还原当量通过磷酸甘油穿梭或苹果酸-天冬氨酸穿梭进入线粒体。"
+        ]
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "【精编版】生化合集.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/【精编版】生化合集.pdf",
+        "page": 43,
+        "knowledgePoints": [
+          "长链脂酰CoA经肉碱转运进入线粒体，在线粒体内进行β氧化。"
+        ],
+        "optionKeys": [
+          "C"
+        ]
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q144": {
+    "explanation": "正确答案：ACD（UTP→CTP；IMP→GMP；PRPP→PRA）。\n\n氮杂丝氨酸为谷氨酰胺类似物，抑制利用其酰胺氮的反应：A UTP→CTP、C IMP→GMP、D PRPP→PRA均需谷氨酰胺。B dUMP→dTMP的一碳单位来自N⁵,N¹⁰-甲烯四氢叶酸，不是谷氨酰胺供氮。",
+    "knowledgeConnections": [
+      "核苷酸抗代谢药可针对供氮、供一碳单位或核糖核苷酸还原等环节。",
+      "dTMP合成联系叶酸循环；甲氨蝶呤、5-FU的靶点与氮杂丝氨酸不同。"
+    ],
+    "lectureSummary": [
+      "核苷酸抗代谢药可针对供氮、供一碳单位或核糖核苷酸还原等环节。",
+      "dTMP合成联系叶酸循环；甲氨蝶呤、5-FU的靶点与氮杂丝氨酸不同。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "核苷酸抗代谢药可针对供氮、供一碳单位或核糖核苷酸还原等环节。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "核苷酸抗代谢药可针对供氮、供一碳单位或核糖核苷酸还原等环节。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "knowledgePoints": [
+          "氮杂丝氨酸是谷氨酰胺类似物，可抑制核苷酸从头合成中依赖谷氨酰胺供氮的反应。"
+        ]
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q145": {
+    "explanation": "正确答案：ABD（氨基酸的序列储存着折叠的信息；需要肽脯氨酰基顺反异构酶的协助；伴侣蛋白 提供正确折叠的微环境）。\n\nA一级结构储存折叠所需信息；B肽脯氨酰顺反异构酶帮助相关肽键异构化；D伴侣蛋白提供隔离环境促进正确折叠。C把分子伴侣主要作用概括为加速折叠反应不当，关键在防止错误折叠和聚集。",
+    "knowledgeConnections": [
+      "分子伴侣与伴侣蛋白帮助折叠，但不决定目标蛋白最终一级结构。",
+      "蛋白质二硫键异构酶与肽脯氨酰异构酶分别处理二硫键和脯氨酸肽键相关折叠。"
+    ],
+    "lectureSummary": [
+      "分子伴侣与伴侣蛋白帮助折叠，但不决定目标蛋白最终一级结构。",
+      "蛋白质二硫键异构酶与肽脯氨酰异构酶分别处理二硫键和脯氨酸肽键相关折叠。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "【精编版】生化合集.pdf",
+        "page": 156,
+        "knowledgePoints": [
+          "分子伴侣与伴侣蛋白帮助折叠，但不决定目标蛋白最终一级结构。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/【精编版】生化合集.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q146": {
+    "explanation": "正确答案：ABC（是与被调控基因在同一条链上的顺式作用元件；方向倒置的增强子依然能发挥作用；对启动子没有严格的专一性和方向性）。\n\nA增强子为顺式DNA元件；B方向倒置仍可发挥增强作用；C对启动子无严格专一性与方向限制。D错误，增强子需结合转录因子，通过蛋白相互作用影响转录装置。",
+    "knowledgeConnections": [
+      "增强子可位于上游、下游或内含子内，是远端调控元件。",
+      "顺式元件为DNA序列，反式作用因子多为识别并结合该序列的蛋白质。"
+    ],
+    "lectureSummary": [
+      "增强子可位于上游、下游或内含子内，是远端调控元件。",
+      "顺式元件为DNA序列，反式作用因子多为识别并结合该序列的蛋白质。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "knowledgePoints": [
+          "增强子可位于上游、下游或内含子内，是远端调控元件。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "knowledgePoints": [
+          "增强子可位于上游、下游或内含子内，是远端调控元件。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "knowledgePoints": [
+          "增强子可位于上游、下游或内含子内，是远端调控元件。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-foundation-mock-exam-20260907-q147": {
+    "explanation": "正确答案：ABC（RT-PCR；实时荧光定量 PCR；探针的标记与合成）。\n\nA RT-PCR先逆转录形成cDNA，再由DNA聚合酶扩增；B实时荧光定量PCR同样需要DNA扩增；C探针标记、合成可利用DNA聚合酶掺入标记核苷酸。D Western blot通过抗原-抗体反应检测蛋白，不需要DNA聚合酶。",
+    "knowledgeConnections": [
+      "PCR扩增DNA；RT-PCR增加RNA→cDNA的逆转录步骤。",
+      "Southern检测DNA、Northern检测RNA、Western检测蛋白，检测对象与工具酶分开。"
+    ],
+    "lectureSummary": [
+      "PCR扩增DNA；RT-PCR增加RNA→cDNA的逆转录步骤。",
+      "Southern检测DNA、Northern检测RNA、Western检测蛋白，检测对象与工具酶分开。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "【精编版】生化合集.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/【精编版】生化合集.pdf",
+        "page": 111,
+        "knowledgePoints": [
+          "PCR扩增DNA；RT-PCR增加RNA→cDNA的逆转录步骤。",
+          "Southern检测DNA、Northern检测RNA、Western检测蛋白，检测对象与工具酶分开。"
+        ]
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q017": {
+    "explanation": "正确答案：A（涉及二硫键的破坏）。\n\nA：按讲义，蛋白质变性可涉及二硫键等空间结构维系作用的破坏。B变性不等于肽链水解，分子量不因此降低；C变性后溶解度降低、较难结晶；D分子杂交主要是核酸复性的概念。",
+    "knowledgeConnections": [
+      "蛋白质变性主要破坏高级结构，通常不破坏肽键和一级结构。",
+      "二硫键并非每次变性都必定断裂，A的“涉及”不应改写为“均必须破坏二硫键”。"
+    ],
+    "lectureSummary": [
+      "蛋白质变性主要破坏高级结构，通常不破坏肽键和一级结构。",
+      "二硫键并非每次变性都必定断裂，A的“涉及”不应改写为“均必须破坏二硫键”。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "【精编版】生化合集.pdf",
+        "page": 51,
+        "knowledgePoints": [
+          "蛋白质变性主要破坏高级结构，通常不破坏肽键和一级结构。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/【精编版】生化合集.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q018": {
+    "explanation": "正确答案：C（反竞争性抑制作用）。\n\nC：反竞争抑制剂仅结合ES，不结合游离E。A竞争抑制主要结合游离E并与底物竞争；B非竞争可结合E及ES；D不可逆抑制主要以共价等强结合破坏必需基团，不以只结合ES定义。",
+    "knowledgeConnections": [
+      "竞争：Km↑、Vmax不变；非竞争：Km不变、Vmax↓。",
+      "反竞争：Km及Vmax均下降，增加底物不能解除抑制。"
+    ],
+    "lectureSummary": [
+      "竞争：Km↑、Vmax不变；非竞争：Km不变、Vmax↓。",
+      "反竞争：Km及Vmax均下降，增加底物不能解除抑制。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "knowledgePoints": [
+          "竞争：Km↑、Vmax不变；非竞争：Km不变、Vmax↓。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q019": {
+    "explanation": "正确答案：C（维生素 C 是羟化酶的辅因子，缺乏可致糙皮病）。\n\n按本卷答案选C。C维生素C缺乏导致坏血病，糙皮病由烟酸缺乏引起。A维生素D参与钙磷调节；B维生素E有抗氧化及基因表达调节作用。D也有表述问题：TPP参与的是转酮基及α-酮酸氧化脱羧，不是“转醛基”，因此按现有文字错误不止一个。",
+    "knowledgeConnections": [
+      "维生素C参与脯氨酸、赖氨酸羟化，缺乏影响胶原稳定。",
+      "VitB₁→TPP；VitPP→NAD⁺/NADP⁺，对应脚气病与糙皮病，勿混。"
+    ],
+    "lectureSummary": [
+      "维生素C参与脯氨酸、赖氨酸羟化，缺乏影响胶原稳定。",
+      "VitB₁→TPP；VitPP→NAD⁺/NADP⁺，对应脚气病与糙皮病，勿混。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "13 27考研：生化 维生素 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "knowledgePoints": [
+          "维生素C参与脯氨酸、赖氨酸羟化，缺乏影响胶原稳定。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/13 27考研：生化 维生素 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "13 27考研：生化 维生素 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "维生素C参与脯氨酸、赖氨酸羟化，缺乏影响胶原稳定。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/13 27考研：生化 维生素 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ],
+    "verificationNotes": "C与D均存在错误表述；保留本卷C，需原卷或教师澄清D“转醛基”。"
+  },
+  "biochemistry-sprint-exam-20261021-q020": {
+    "explanation": "正确答案：D（胰高血糖素）。\n\n精编合集第41页调节表明确列出：柠檬酸、异柠檬酸、乙酰CoA及丙二酰CoA为乙酰CoA羧化酶激活剂，故A、B、C均不选。D胰高血糖素促进磷酸化而抑制该酶，减少脂肪酸合成。",
+    "knowledgeConnections": [
+      "乙酰CoA羧化酶是脂肪酸合成的关键酶，需生物素，生成丙二酰CoA。",
+      "胰岛素促进去磷酸化和脂肪合成；胰高血糖素方向相反。"
+    ],
+    "lectureSummary": [
+      "乙酰CoA羧化酶是脂肪酸合成的关键酶，需生物素，生成丙二酰CoA。",
+      "胰岛素促进去磷酸化和脂肪合成；胰高血糖素方向相反。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "【精编版】生化合集.pdf",
+        "page": 41,
+        "knowledgePoints": [
+          "乙酰CoA羧化酶是脂肪酸合成的关键酶，需生物素，生成丙二酰CoA。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/【精编版】生化合集.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q021": {
+    "explanation": "正确答案：A（apoAⅠ）。\n\nA：apoAⅠ激活LCAT，使血浆游离胆固醇酯化并进入HDL核心。B apoB48参与CM组装；C apoB100参与VLDL/LDL结构及受体识别；D apoCⅡ激活LPL，而非LCAT。",
+    "knowledgeConnections": [
+      "LCAT作用在血浆，ACAT参与细胞内胆固醇酯化。",
+      "HDL参与胆固醇逆向转运；LPL水解CM、VLDL中的甘油三酯。"
+    ],
+    "lectureSummary": [
+      "LCAT作用在血浆，ACAT参与细胞内胆固醇酯化。",
+      "HDL参与胆固醇逆向转运；LPL水解CM、VLDL中的甘油三酯。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "04 27考研：生化 血浆脂蛋白 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "LCAT作用在血浆，ACAT参与细胞内胆固醇酯化。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/04 27考研：生化 血浆脂蛋白 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q022": {
+    "explanation": "正确答案：D（6.5）。\n\nD：粉蝶霉素抑制复合体Ⅰ，NADH不能由该入口供能，FADH₂入口仍可工作。丁酰CoA一次β氧化产生1个FADH₂，两个乙酰CoA进入三羧酸循环再产生2个FADH₂及2个GTP，共3×1.5＋2＝6.5 ATP。A、B、C均漏计产能环节。",
+    "knowledgeConnections": [
+      "题干已是丁酰CoA，不再扣除脂肪酸活化的2个高能磷酸键。",
+      "复合体Ⅰ抑制不同于整条呼吸链被阻断，也不同于ATP合酶抑制。"
+    ],
+    "lectureSummary": [
+      "题干已是丁酰CoA，不再扣除脂肪酸活化的2个高能磷酸键。",
+      "复合体Ⅰ抑制不同于整条呼吸链被阻断，也不同于ATP合酶抑制。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "题干已是丁酰CoA，不再扣除脂肪酸活化的2个高能磷酸键。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "题干已是丁酰CoA，不再扣除脂肪酸活化的2个高能磷酸键。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "06 27考研：生化 脂肪代谢 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "题干已是丁酰CoA，不再扣除脂肪酸活化的2个高能磷酸键。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/06 27考研：生化 脂肪代谢 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q023": {
+    "explanation": "正确答案：C（模板链和编码链能进行交替转换）。\n\nC：不同基因可选DNA不同链为模板，模板链与编码链在不同转录单位间可交替。A RNA总沿5′→3′延长；B不能说某一整条链不含结构基因；D同一条转录产物并非由两条DNA模板拼合。",
+    "knowledgeConnections": [
+      "同一基因仅一条链作为模板链，另一条为编码链。",
+      "编码链与RNA序列相同方向对应，仅DNA的T与RNA的U不同。"
+    ],
+    "lectureSummary": [
+      "同一基因仅一条链作为模板链，另一条为编码链。",
+      "编码链与RNA序列相同方向对应，仅DNA的T与RNA的U不同。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "knowledgePoints": [
+          "同一基因仅一条链作为模板链，另一条为编码链。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q024": {
+    "explanation": "正确答案：B（无义介导的 mRNA 降解）。\n\nB：无义介导降解识别带提前终止密码子的异常mRNA，是主要质量监控机制。A脱腺苷酸化是常规降解途径；C针对缺失终止密码子的另一类异常；D描述酶切过程而非此主要监控类型。",
+    "knowledgeConnections": [
+      "提前终止密码子可由错误剪接、移码等产生，异常短蛋白有潜在毒性。",
+      "mRNA正常寿命调节与异常转录物质量控制需区分。"
+    ],
+    "lectureSummary": [
+      "提前终止密码子可由错误剪接、移码等产生，异常短蛋白有潜在毒性。",
+      "mRNA正常寿命调节与异常转录物质量控制需区分。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 9,
+        "knowledgePoints": [
+          "提前终止密码子可由错误剪接、移码等产生，异常短蛋白有潜在毒性。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q025": {
+    "explanation": "正确答案：B（IF3）。\n\nB：IF3阻止原核核糖体大、小亚基过早结合，并帮助起始氨酰tRNA选择。A IF2为GTP酶，帮助起始tRNA进入P位；C、D RF1、RF2识别终止密码子，属于释放因子。",
+    "knowledgeConnections": [
+      "原核起始因子IF1、IF2、IF3与延长因子EF、终止因子RF分阶段记忆。",
+      "IF2识别起始氨酰tRNA，IF3防止过早结合，不能互换。"
+    ],
+    "lectureSummary": [
+      "原核起始因子IF1、IF2、IF3与延长因子EF、终止因子RF分阶段记忆。",
+      "IF2识别起始氨酰tRNA，IF3防止过早结合，不能互换。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "原核起始因子IF1、IF2、IF3与延长因子EF、终止因子RF分阶段记忆。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q026": {
+    "explanation": "正确答案：D（核糖体）。\n\nD：色氨酸操纵子衰减调控依赖转录与翻译耦联，核糖体在前导肽上的停顿决定RNA形成终止或反终止结构。A阻遏蛋白承担粗调；B一般转录因子及C终止因子不解释本题精细衰减机制。",
+    "knowledgeConnections": [
+      "色氨酸充足→前导肽顺利翻译→终止发夹形成→转录衰减。",
+      "色氨酸缺乏→核糖体停在连续Trp密码子→反终止结构形成→继续转录。"
+    ],
+    "lectureSummary": [
+      "色氨酸充足→前导肽顺利翻译→终止发夹形成→转录衰减。",
+      "色氨酸缺乏→核糖体停在连续Trp密码子→反终止结构形成→继续转录。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "色氨酸充足→前导肽顺利翻译→终止发夹形成→转录衰减。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "knowledgePoints": [
+          "色氨酸充足→前导肽顺利翻译→终止发夹形成→转录衰减。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q027": {
+    "explanation": "正确答案：D（多数 miRNA 与靶 mRNA 碱基不完全互补）。\n\nD：多数miRNA与靶mRNA不完全互补，常抑制翻译并促进降解。A转录后调节、B双链前体及Dicer加工、C进入RISC都是miRNA与siRNA共有环节，不能作显著区别。",
+    "knowledgeConnections": [
+      "siRNA通常与靶mRNA高度或完全互补，促特异切割。",
+      "miRNA可调控多个靶mRNA，一个mRNA也可受多个miRNA调节。"
+    ],
+    "lectureSummary": [
+      "siRNA通常与靶mRNA高度或完全互补，促特异切割。",
+      "miRNA可调控多个靶mRNA，一个mRNA也可受多个miRNA调节。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 10,
+        "knowledgePoints": [
+          "siRNA通常与靶mRNA高度或完全互补，促特异切割。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q028": {
+    "explanation": "正确答案：A（苯巴比妥诱导单加氧酶合成）。\n\nA：苯巴比妥诱导肝微粒体单加氧酶系统，增强自身及其他药物的氧化代谢，产生代谢性耐受。B单胺氧化酶主要涉及胺类代谢；C硫酸化、D葡萄糖醛酸结合属于Ⅱ相反应，不是本题所指主要酶诱导机制。",
+    "knowledgeConnections": [
+      "Ⅰ相生物转化：氧化、还原、水解；Ⅱ相：与葡萄糖醛酸、硫酸等结合。",
+      "酶诱导可使药物清除加快，且可能影响合并用药，区别于受体敏感性下降。"
+    ],
+    "lectureSummary": [
+      "Ⅰ相生物转化：氧化、还原、水解；Ⅱ相：与葡萄糖醛酸、硫酸等结合。",
+      "酶诱导可使药物清除加快，且可能影响合并用药，区别于受体敏感性下降。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "【精编版】生化合集.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/【精编版】生化合集.pdf",
+        "page": 87,
+        "knowledgePoints": [
+          "Ⅰ相生物转化：氧化、还原、水解；Ⅱ相：与葡萄糖醛酸、硫酸等结合。",
+          "酶诱导可使药物清除加快，且可能影响合并用药，区别于受体敏感性下降。"
+        ]
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q142": {
+    "explanation": "正确答案：ABD（DNA 的碱基对数；DNA 的碱基组成；离子浓度或强度）。\n\nA DNA长度、B G-C比例及D盐离子强度均影响Tm。C温度是熔解实验所改变的自变量，不能把它再作为决定Tm数值的独立结构环境因素。",
+    "knowledgeConnections": [
+      "Tm为DNA变性达到一半时的温度，G-C比例高通常Tm较高。",
+      "盐离子屏蔽磷酸骨架负电荷，提高双链稳定性；低盐易解链。"
+    ],
+    "lectureSummary": [
+      "Tm为DNA变性达到一半时的温度，G-C比例高通常Tm较高。",
+      "盐离子屏蔽磷酸骨架负电荷，提高双链稳定性；低盐易解链。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "15 27考研：生化 核酸 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "Tm为DNA变性达到一半时的温度，G-C比例高通常Tm较高。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/15 27考研：生化 核酸 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q143": {
+    "explanation": "正确答案：ACD（转变为丙氨酸；异生成葡萄糖；进入线粒体氧化供能）。\n\nA丙酮酸转氨可成丙氨酸；C经丙酮酸羧化酶等旁路参与糖异生；D入线粒体氧化脱羧为乙酰CoA供能。B丙酮属于酮体代谢产物，不是丙酮酸经异构酶直接生成。",
+    "knowledgeConnections": [
+      "丙酮酸有三条重要去路：乳酸、乙酰CoA、草酰乙酸，还可转氨为丙氨酸。",
+      "丙酮酸→乙酰CoA不可逆，因此偶数碳脂肪酸不能净转变为葡萄糖。"
+    ],
+    "lectureSummary": [
+      "丙酮酸有三条重要去路：乳酸、乙酰CoA、草酰乙酸，还可转氨为丙氨酸。",
+      "丙酮酸→乙酰CoA不可逆，因此偶数碳脂肪酸不能净转变为葡萄糖。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "03 27考研：生化 磷酸戊糖途径、糖原、糖异生 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "丙酮酸有三条重要去路：乳酸、乙酰CoA、草酰乙酸，还可转氨为丙氨酸。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/03 27考研：生化 磷酸戊糖途径、糖原、糖异生 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "01 27考研：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "knowledgePoints": [
+          "丙酮酸有三条重要去路：乳酸、乙酰CoA、草酰乙酸，还可转氨为丙氨酸。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/01 27考研：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q144": {
+    "explanation": "正确答案：ABD（GTP 促进 AMP 合成，ATP 促进 GMP 合成；dTMP 的合成在一磷酸水平完成；PRPP 合成酶参与嘌呤和嘧啶核苷酸的合成）。\n\nA嘌呤分支交叉使用能量：GTP促进AMP、ATP促进GMP；B dUMP直接在一磷酸水平转为dTMP；D PRPP合成酶为嘌呤及嘧啶核苷酸供PRPP。C写反，嘧啶先合成环再与PRPP结合，嘌呤才在PRPP上逐步建环。",
+    "knowledgeConnections": [
+      "核糖核苷酸还原通常在二磷酸水平；dTMP合成为一磷酸水平。",
+      "嘌呤与嘧啶从头合成共有谷氨酰胺和天冬氨酸等来源，但建环顺序不同。"
+    ],
+    "lectureSummary": [
+      "核糖核苷酸还原通常在二磷酸水平；dTMP合成为一磷酸水平。",
+      "嘌呤与嘧啶从头合成共有谷氨酰胺和天冬氨酸等来源，但建环顺序不同。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "knowledgePoints": [
+          "核糖核苷酸还原通常在二磷酸水平；dTMP合成为一磷酸水平。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "核糖核苷酸还原通常在二磷酸水平；dTMP合成为一磷酸水平。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "knowledgePoints": [
+          "核糖核苷酸还原通常在二磷酸水平；dTMP合成为一磷酸水平。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q145": {
+    "explanation": "正确答案：ABC（Shine-Dalgarno 序列；抗生素抗性基因；多克隆酶切位点）。\n\nA S-D序列帮助原核核糖体结合与起始；B抗性标记筛选阳性克隆；C多克隆位点便于插入目的片段。D poly(A)加尾信号属于真核转录后加工要求，不是原核表达载体必备。",
+    "knowledgeConnections": [
+      "克隆载体强调复制与筛选；表达载体还须有宿主可识别的转录、翻译调控元件。",
+      "原核S-D序列与真核Kozak序列、poly(A)信号分开记忆。"
+    ],
+    "lectureSummary": [
+      "克隆载体强调复制与筛选；表达载体还须有宿主可识别的转录、翻译调控元件。",
+      "原核S-D序列与真核Kozak序列、poly(A)信号分开记忆。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "【精编版】生化合集.pdf",
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/【精编版】生化合集.pdf",
+        "page": 110,
+        "knowledgePoints": [
+          "克隆载体强调复制与筛选；表达载体还须有宿主可识别的转录、翻译调控元件。",
+          "原核S-D序列与真核Kozak序列、poly(A)信号分开记忆。"
+        ]
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q146": {
+    "explanation": "正确答案：ABC（以复制叉进行定点的双向复制；前导链和随从链均按 5→3 方向复制；必有冈崎片段，必须切除引物）。\n\nA复制起点形成双向复制叉；B两条新链均为5′→3′合成；C随从链形成冈崎片段、RNA引物需去除。D拓扑异构酶解除复制引起的超螺旋应力，参与全过程，并非仅起始。",
+    "knowledgeConnections": [
+      "前导链连续、随从链不连续，但合成方向相同。",
+      "DNA连接酶连接双链DNA中的单链缺口，聚合酶负责填补核苷酸缺口。"
+    ],
+    "lectureSummary": [
+      "前导链连续、随从链不连续，但合成方向相同。",
+      "DNA连接酶连接双链DNA中的单链缺口，聚合酶负责填补核苷酸缺口。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 2,
+        "knowledgePoints": [
+          "前导链连续、随从链不连续，但合成方向相同。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "knowledgePoints": [
+          "前导链连续、随从链不连续，但合成方向相同。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "knowledgePoints": [
+          "前导链连续、随从链不连续，但合成方向相同。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "knowledgePoints": [
+          "前导链连续、随从链不连续，但合成方向相同。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q147": {
+    "explanation": "正确答案：ABD（PKC 通路；PKG 通路；PI3K-AKT 通路）。\n\nA PKC通路使用DAG及Ca²⁺等第二信使；B PKG由cGMP激活；D PI3K产生PIP₃后募集AKT。C JAK-STAT主要通过蛋白质酪氨酸磷酸化传递信号，不依赖本题所列小分子第二信使。",
+    "knowledgeConnections": [
+      "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。",
+      "第二信使与激酶不同：cGMP是信使，PKG是信使下游蛋白激酶。"
+    ],
+    "lectureSummary": [
+      "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。",
+      "第二信使与激酶不同：cGMP是信使，PKG是信使下游蛋白激酶。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "knowledgePoints": [
+          "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 11,
+        "knowledgePoints": [
+          "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 15,
+        "knowledgePoints": [
+          "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 16,
+        "knowledgePoints": [
+          "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生理学/讲义/5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q120": {
+    "explanation": "正确答案：B（L-酪氨酸）。\n\nB：酪氨酸属于芳香族氨基酸，不属于本题治疗用六合氨基酸配方。A亮氨酸是支链氨基酸；C谷氨酸可参与氨的结合；D精氨酸参与尿素合成，均与该配方治疗目的相关。",
+    "knowledgeConnections": [
+      "肝性脑病联系芳香族/支链氨基酸比例失衡及氨代谢异常。",
+      "支链氨基酸为亮氨酸、异亮氨酸、缬氨酸；芳香族包括苯丙氨酸、酪氨酸、色氨酸。"
+    ],
+    "lectureSummary": [
+      "肝性脑病联系芳香族/支链氨基酸比例失衡及氨代谢异常。",
+      "支链氨基酸为亮氨酸、异亮氨酸、缬氨酸；芳香族包括苯丙氨酸、酪氨酸、色氨酸。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "【精编版】生化合集.pdf",
+        "page": 59,
+        "knowledgePoints": [
+          "肝性脑病联系芳香族/支链氨基酸比例失衡及氨代谢异常。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/【精编版】生化合集.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "【精编版】生化合集.pdf",
+        "page": 65,
+        "knowledgePoints": [
+          "支链氨基酸为亮氨酸、异亮氨酸、缬氨酸；芳香族包括苯丙氨酸、酪氨酸、色氨酸。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/【精编版】生化合集.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q121": {
+    "explanation": "正确答案：B（L-酪氨酸）。\n\nB：酪氨酸在酪氨酸酶作用下生成黑色素，酪氨酸酶缺陷与白化病密切相关。A亮氨酸为支链氨基酸；C谷氨酸及D精氨酸虽有其他代谢功能，不是该黑色素合成起点。",
+    "knowledgeConnections": [
+      "酪氨酸还可生成儿茶酚胺及甲状腺激素。",
+      "苯丙酮尿症与苯丙氨酸→酪氨酸障碍有关，白化病则主要是酪氨酸→黑色素环节。"
+    ],
+    "lectureSummary": [
+      "酪氨酸还可生成儿茶酚胺及甲状腺激素。",
+      "苯丙酮尿症与苯丙氨酸→酪氨酸障碍有关，白化病则主要是酪氨酸→黑色素环节。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "【精编版】生化合集.pdf",
+        "page": 61,
+        "knowledgePoints": [
+          "酪氨酸还可生成儿茶酚胺及甲状腺激素。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/【精编版】生化合集.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "【精编版】生化合集.pdf",
+        "page": 99,
+        "knowledgePoints": [
+          "苯丙酮尿症与苯丙氨酸→酪氨酸障碍有关，白化病则主要是酪氨酸→黑色素环节。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/【精编版】生化合集.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q122": {
+    "explanation": "正确答案：B（增强子）。\n\nB：增强子结合特异转录因子，决定基因表达的时空特异性。A启动子是基本转录装置结合区域；C沉默子抑制表达；D绝缘子阻隔不适当的增强子-启动子联系。",
+    "knowledgeConnections": [
+      "增强子为顺式DNA序列，转录激活蛋白为反式作用因子。",
+      "增强子可远离启动子、方向倒置仍有效，其作用需相应转录因子。"
+    ],
+    "lectureSummary": [
+      "增强子为顺式DNA序列，转录激活蛋白为反式作用因子。",
+      "增强子可远离启动子、方向倒置仍有效，其作用需相应转录因子。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 6,
+        "knowledgePoints": [
+          "增强子为顺式DNA序列，转录激活蛋白为反式作用因子。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "knowledgePoints": [
+          "增强子为顺式DNA序列，转录激活蛋白为反式作用因子。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf"
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 8,
+        "knowledgePoints": [
+          "增强子为顺式DNA序列，转录激活蛋白为反式作用因子。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  },
+  "biochemistry-sprint-exam-20261021-q123": {
+    "explanation": "正确答案：D（绝缘子）。\n\nD：绝缘子可阻挡增强子对其另一侧启动子的作用。A启动子负责转录起始；B增强子促进转录；C沉默子通过结合抑制因子降低转录，不等同于空间阻隔增强子联系。",
+    "knowledgeConnections": [
+      "绝缘子的作用取决于所处位置及其结合蛋白。",
+      "增强子、沉默子、绝缘子均属顺式调控序列，但增强、抑制与隔离作用不同。"
+    ],
+    "lectureSummary": [
+      "绝缘子的作用取决于所处位置及其结合蛋白。",
+      "增强子、沉默子、绝缘子均属顺式调控序列，但增强、抑制与隔离作用不同。"
+    ],
+    "evidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 7,
+        "knowledgePoints": [
+          "绝缘子的作用取决于所处位置及其结合蛋白。"
+        ],
+        "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf"
+      }
+    ]
+  }
+}

@@ -66,38 +66,68 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-04",
-          "explanation": "正确答案：D（阻断终板膜非选择性通道）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：下列选项中可使骨骼肌松弛的是。讲义依据：：ACh 激动 N2- ②终板膜（接头后膜）的非选择性阳离子通道（属于化学门控通道）；通道是非选择性阳离子通道：它对 Na+、K+、Ca2+都有通透性，而对 Cl-无通透性不挑剔阳。因此答案为D（阻断终板膜非选择性通道）。",
+          "explanation": "正确答案：D（阻断终板膜非选择性通道）。\n\nD：阻断终板膜烟碱型ACh受体的非选择性阳离子通道，终板电位不能达到肌膜动作电位阈值，肌肉松弛。A促进神经末梢释放ACh；B解除Mg²⁺对递质释放的抑制；C使ACh降解减少，均促进神经肌接头传递。",
           "knowledgeConnections": [
-            "题干线索：下列选项中可使骨骼肌松弛的是",
-            "讲义要点：：ACh 激动 N2- ②终板膜（接头后膜）的非选择性阳离子通道（属于化学门控通道）",
-            "讲义要点：通道是非选择性阳离子通道：它对 Na+、K+、Ca2+都有通透性，而对 Cl-无通透性不挑剔阳",
-            "讲义要点：终板膜分布的化学门控通道开放后只能产生局部电位（终板电位导火索） ，它以电紧张方式向邻近的普通骨骼肌细胞膜扩布，引起电压门控 Na+ 通道开放，可产生动作电位。",
-            "易混项：A. 促使 Ca2+进入运动神经末梢；B. 减少细胞外液的 Mg2+浓度；C. 抑制胆碱酯酶的活性"
+            "运动神经末梢Ca²⁺内流→ACh释放→终板电位→肌膜动作电位→肌质网释放Ca²⁺。",
+            "终板受体通道阻断影响神经肌接头；肌浆Ca²⁺被SERCA泵回肌质网才是肌丝滑行终止的环节。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-04",
+              "sourceSubject": "physiology",
+              "sourceFile": "4 27考研：生理 骨骼肌收缩 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 4,
+              "title": "生理 骨骼肌收缩 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/physiology-f189f148ea-p001.webp",
+              "questionNumbers": [
+                1
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "运动神经末梢Ca²⁺内流→ACh释放→终板电位→肌膜动作电位→肌质网释放Ca²⁺。"
+              ]
+            },
+            {
+              "lectureId": "foundation-physiology-04",
+              "sourceSubject": "physiology",
+              "sourceFile": "4 27考研：生理 骨骼肌收缩 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 4,
+              "title": "生理 骨骼肌收缩 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/physiology-f189f148ea-p003.webp",
+              "questionNumbers": [
+                1
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "终板受体通道阻断影响神经肌接头；肌浆Ca²⁺被SERCA泵回肌质网才是肌丝滑行终止的环节。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 骨骼肌收缩",
-        "：ACh 激动 N2- ②终板膜（接头后膜）的非选择性阳离子通道（属于化学门控通道）",
-        "通道是非选择性阳离子通道：它对 Na+、K+、Ca2+都有通透性，而对 Cl-无通透性不挑剔阳",
-        "终板膜分布的化学门控通道开放后只能产生局部电位（终板电位导火索） ，它以电紧张方式向邻近的普通骨骼肌细胞膜扩布，引起电压门控 Na+ 通道开放，可产生动作电位。",
-        "③终板膜的 N2-ACh 受体是化学门控通道：它被 ACh 打开、不是被去极化打开"
+        "运动神经末梢Ca²⁺内流→ACh释放→终板电位→肌膜动作电位→肌质网释放Ca²⁺。",
+        "终板受体通道阻断影响神经肌接头；肌浆Ca²⁺被SERCA泵回肌质网才是肌丝滑行终止的环节。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-04",
         "sourceSubject": "physiology",
         "sourceFile": "4 27考研：生理 骨骼肌收缩 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 12,
-        "pageLabel": "PDF第12页",
-        "title": "生理 骨骼肌收缩 · 第12页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-04-p12.webp",
-        "description": "第1题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "：ACh 激动 N2- ②终板膜（接头后膜）的非选择性阳离子通道（属于化学门控通道）",
-          "③终板膜的 N2-ACh 受体是化学门控通道：它被 ACh 打开、不是被去极化打开"
-        ],
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "lectureNumber": 4,
+        "title": "生理 骨骼肌收缩 · 第1页",
+        "image": "exams/reviewed-mocks-20261104/physiology-f189f148ea-p001.webp",
         "questionNumbers": [
           1
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "运动神经末梢Ca²⁺内流→ACh释放→终板电位→肌膜动作电位→肌质网释放Ca²⁺。"
         ]
       },
       "lectureEvidencePages": [
@@ -105,34 +135,34 @@
           "lectureId": "foundation-physiology-04",
           "sourceSubject": "physiology",
           "sourceFile": "4 27考研：生理 骨骼肌收缩 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 12,
-          "pageLabel": "PDF第12页",
-          "title": "生理 骨骼肌收缩 · 第12页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-04-p12.webp",
-          "description": "第1题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "：ACh 激动 N2- ②终板膜（接头后膜）的非选择性阳离子通道（属于化学门控通道）",
-            "③终板膜的 N2-ACh 受体是化学门控通道：它被 ACh 打开、不是被去极化打开"
-          ],
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "lectureNumber": 4,
+          "title": "生理 骨骼肌收缩 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/physiology-f189f148ea-p001.webp",
           "questionNumbers": [
             1
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "运动神经末梢Ca²⁺内流→ACh释放→终板电位→肌膜动作电位→肌质网释放Ca²⁺。"
           ]
         },
         {
           "lectureId": "foundation-physiology-04",
           "sourceSubject": "physiology",
           "sourceFile": "4 27考研：生理 骨骼肌收缩 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
-          "title": "生理 骨骼肌收缩 · 第2页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-04-p02.webp",
-          "description": "第1题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "通道是非选择性阳离子通道：它对 Na+、K+、Ca2+都有通透性，而对 Cl-无通透性不挑剔阳",
-            "终板膜分布的化学门控通道开放后只能产生局部电位（终板电位导火索） ，它以电紧张方式向邻近的普通骨骼肌细胞膜扩布，引起电压门控 Na+ 通道开放，可产生动作电位。"
-          ],
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "lectureNumber": 4,
+          "title": "生理 骨骼肌收缩 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/physiology-f189f148ea-p003.webp",
           "questionNumbers": [
             1
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "终板受体通道阻断影响神经肌接头；肌浆Ca²⁺被SERCA泵回肌质网才是肌丝滑行终止的环节。"
           ]
         }
       ]
@@ -194,38 +224,68 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-08",
-          "explanation": "正确答案：C（将试管置于温水中）。\n\n判断思路：题干要求选择错误项，需先用讲义中的标准结论逐项反向核对。关键线索是：能延缓试管中血液凝固的方法不包括。讲义依据：血液凝固的本质是——1→1a→n1a（纤维蛋白原的激活并交织成网）；而二期止血是指血液凝固形成凝血块，其中。因此答案为C（将试管置于温水中）。",
+          "explanation": "正确答案：C（将试管置于温水中）。\n\nC：温热加快凝血相关酶促反应，不能延缓凝血。A草酸钾沉淀Ca²⁺；B肝素增强抗凝血酶作用；D石蜡使接触面光滑，减少接触激活。",
           "knowledgeConnections": [
-            "题干线索：能延缓试管中血液凝固的方法不包括",
-            "讲义要点：血液凝固的本质是——1→1a→n1a（纤维蛋白原的激活并交织成网）",
-            "讲义要点：而二期止血是指血液凝固形成凝血块，其中",
-            "讲义要点：1→1a→n1a：纤维蛋白原变为纤维蛋白并交织成网即血液凝固（10÷5=2÷1",
-            "易混项：A. 试管中加入草酸钾；B. 试管中加入肝素；D. 将试管壁涂上 石蜡油"
+            "体外抗凝：去除Ca²⁺、增强抗凝系统、降低温度或使接触面光滑。",
+            "粗糙异物表面可激活血小板和因子Ⅻ；凝血因子活化多数属于酶促反应。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-08",
+              "sourceSubject": "physiology",
+              "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 8,
+              "title": "生理 生理性止血 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/physiology-30700988bf-p004.webp",
+              "questionNumbers": [
+                2
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "体外抗凝：去除Ca²⁺、增强抗凝系统、降低温度或使接触面光滑。"
+              ]
+            },
+            {
+              "lectureId": "foundation-physiology-08",
+              "sourceSubject": "physiology",
+              "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 8,
+              "title": "生理 生理性止血 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/physiology-30700988bf-p005.webp",
+              "questionNumbers": [
+                2
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "体外抗凝：去除Ca²⁺、增强抗凝系统、降低温度或使接触面光滑。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 生理性止血",
-        "血液凝固的本质是——1→1a→n1a（纤维蛋白原的激活并交织成网）",
-        "而二期止血是指血液凝固形成凝血块，其中",
-        "1→1a→n1a：纤维蛋白原变为纤维蛋白并交织成网即血液凝固（10÷5=2÷1",
-        "肽释放酶 PK、高分子量激肽原 HK 1 纤维蛋白原血液凝固的本质是纤维蛋白原→纤维蛋白并交织成网 2 凝血酶原→凝血酶： 凝血酶原 ①凝血酶最主要的是激活（或分解）因子 1 形成或暴露活性中心 ②还可激活因子 5、8、11、13、血小板（除 13 以外为正反馈） 双十一医生要我爸查血小板。"
+        "体外抗凝：去除Ca²⁺、增强抗凝系统、降低温度或使接触面光滑。",
+        "粗糙异物表面可激活血小板和因子Ⅻ；凝血因子活化多数属于酶促反应。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-08",
         "sourceSubject": "physiology",
         "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 3,
-        "pageLabel": "PDF第3页",
-        "title": "生理 生理性止血 · 第3页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-08-p03.webp",
-        "description": "第2题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "血液凝固的本质是——1→1a→n1a（纤维蛋白原的激活并交织成网）",
-          "肽释放酶 PK、高分子量激肽原 HK 1 纤维蛋白原血液凝固的本质是纤维蛋白原→纤维蛋白并交织成网 2 凝血酶原→凝血酶： 凝血酶原 ①凝血酶最主要的是激活（或分解）因子 1 形成或暴露活性中心 ②还可激活因子 5、8、11、13、血小板（除 13 以外为正反馈） 双十一医生要我爸查血小板。"
-        ],
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 8,
+        "title": "生理 生理性止血 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/physiology-30700988bf-p004.webp",
         "questionNumbers": [
           2
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "体外抗凝：去除Ca²⁺、增强抗凝系统、降低温度或使接触面光滑。"
         ]
       },
       "lectureEvidencePages": [
@@ -233,33 +293,34 @@
           "lectureId": "foundation-physiology-08",
           "sourceSubject": "physiology",
           "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 3,
-          "pageLabel": "PDF第3页",
-          "title": "生理 生理性止血 · 第3页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-08-p03.webp",
-          "description": "第2题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "血液凝固的本质是——1→1a→n1a（纤维蛋白原的激活并交织成网）",
-            "肽释放酶 PK、高分子量激肽原 HK 1 纤维蛋白原血液凝固的本质是纤维蛋白原→纤维蛋白并交织成网 2 凝血酶原→凝血酶： 凝血酶原 ①凝血酶最主要的是激活（或分解）因子 1 形成或暴露活性中心 ②还可激活因子 5、8、11、13、血小板（除 13 以外为正反馈） 双十一医生要我爸查血小板。"
-          ],
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 8,
+          "title": "生理 生理性止血 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/physiology-30700988bf-p004.webp",
           "questionNumbers": [
             2
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "体外抗凝：去除Ca²⁺、增强抗凝系统、降低温度或使接触面光滑。"
           ]
         },
         {
           "lectureId": "foundation-physiology-08",
           "sourceSubject": "physiology",
           "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
-          "title": "生理 生理性止血 · 第1页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-08-p01.webp",
-          "description": "第2题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "而二期止血是指血液凝固形成凝血块，其中"
-          ],
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "lectureNumber": 8,
+          "title": "生理 生理性止血 · 第5页",
+          "image": "exams/reviewed-mocks-20261104/physiology-30700988bf-p005.webp",
           "questionNumbers": [
             2
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "体外抗凝：去除Ca²⁺、增强抗凝系统、降低温度或使接触面光滑。"
           ]
         }
       ]
@@ -321,38 +382,68 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-12",
-          "explanation": "正确答案：B（阈电位 水平）。\n\n判断思路：题干要求选择错误项，需先用讲义中的标准结论逐项反向核对。关键线索是：影响心室肌细胞 0 期去极化的速度和幅度的因素不包括。讲义依据：需注意 0 期去极化速度和幅度的影响因素（影响离子跨膜流动的因素，即动作电位的；（二）乙酰胆碱 ACh 心房肌抑制心房肌细胞平台期 ICa-L、促进 IK-ACh（ACh 敏感的钾通道在心房收缩力↓ 肌、窦房结）→平台期缩短（动作电位时程缩短）、Ca2+内流↓ 传导↓ 抑制慢反应细胞 0 期 ICa-L→0 期去极化速度和幅度↓ 心率↓ 抑制窦房结 4 期 ICa-T 和 If、促进 IK-ACh→4 期自动去极化速度↓对着干 （自律性↓） ↓ 最大复极电位超极化→最大复极电位与阈电位距离变远。因此答案为B（阈电位 水平）。",
+          "explanation": "正确答案：B（阈电位 水平）。\n\nB：阈电位决定是否触发动作电位，不直接决定0期去极化的速度和幅度。A静息电位影响备用Na⁺通道数量；C通道激活、失活状态影响内向电流；D细胞外Na⁺改变电化学驱动力，均影响0期。",
           "knowledgeConnections": [
-            "题干线索：影响心室肌细胞 0 期去极化的速度和幅度的因素不包括",
-            "讲义要点：需注意 0 期去极化速度和幅度的影响因素（影响离子跨膜流动的因素，即动作电位的",
-            "讲义要点：（二）乙酰胆碱 ACh 心房肌抑制心房肌细胞平台期 ICa-L、促进 IK-ACh（ACh 敏感的钾通道在心房收缩力↓ 肌、窦房结）→平台期缩短（动作电位时程缩短）、Ca2+内流↓ 传导↓ 抑制慢反应细胞 0 期 ICa-L→0 期去极化速度和幅度↓ 心率↓ 抑制窦房结 4 期 ICa-T 和 If、促进 IK-ACh→4 期自动去极化速度↓对着干 （自律性↓） ↓ 最大复极电位超极化→最大复极电位与阈电位距离变远",
-            "讲义要点：（1）0 期去极化速度和幅度（主要）↑→传导性↑（形成的电位差大→局部电流强）",
-            "易混项：A. 静息电位水平；C. Na+通道状态；D. 细胞外 Na+浓度"
+            "快反应细胞0期主要由Na⁺快速内流形成；慢反应细胞0期以L型Ca²⁺内流形成。",
+            "静息电位负值减小→Na⁺通道失活增多→0期上升速度和幅度减小→传导减慢。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-12",
+              "sourceSubject": "physiology",
+              "sourceFile": "12 27考研：生理 心肌电活动和特性 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 12,
+              "title": "生理 心肌电活动和特性 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/physiology-8986fcbf50-p002.webp",
+              "questionNumbers": [
+                3
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "快反应细胞0期主要由Na⁺快速内流形成；慢反应细胞0期以L型Ca²⁺内流形成。"
+              ]
+            },
+            {
+              "lectureId": "foundation-physiology-12",
+              "sourceSubject": "physiology",
+              "sourceFile": "12 27考研：生理 心肌电活动和特性 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 8,
+              "pageLabel": "PDF第8页",
+              "lectureNumber": 12,
+              "title": "生理 心肌电活动和特性 · 第8页",
+              "image": "exams/reviewed-mocks-20261104/physiology-8986fcbf50-p008.webp",
+              "questionNumbers": [
+                3
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "快反应细胞0期主要由Na⁺快速内流形成；慢反应细胞0期以L型Ca²⁺内流形成。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 心肌电活动和特性",
-        "需注意 0 期去极化速度和幅度的影响因素（影响离子跨膜流动的因素，即动作电位的",
-        "（二）乙酰胆碱 ACh 心房肌抑制心房肌细胞平台期 ICa-L、促进 IK-ACh（ACh 敏感的钾通道在心房收缩力↓ 肌、窦房结）→平台期缩短（动作电位时程缩短）、Ca2+内流↓ 传导↓ 抑制慢反应细胞 0 期 ICa-L→0 期去极化速度和幅度↓ 心率↓ 抑制窦房结 4 期 ICa-T 和 If、促进 IK-ACh→4 期自动去极化速度↓对着干 （自律性↓） ↓ 最大复极电位超极化→最大复极电位与阈电位距离变远",
-        "（1）0 期去极化速度和幅度（主要）↑→传导性↑（形成的电位差大→局部电流强）",
-        "（五）小结兴奋性传导性自律性收缩性膜电位与阈电 0 期去极化速度和幅 4 期自动去极化速度活化横桥数目位的距离度（主要）、邻旁兴 （主要）、最大复极 （Ca2+）、横桥 ATP 用阈强度衡量奋性、细胞结构电位与阈电位的距离酶活性等有效不应期长房室延搁超速驱动阻抑全或无同步收缩"
+        "快反应细胞0期主要由Na⁺快速内流形成；慢反应细胞0期以L型Ca²⁺内流形成。",
+        "静息电位负值减小→Na⁺通道失活增多→0期上升速度和幅度减小→传导减慢。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-12",
         "sourceSubject": "physiology",
         "sourceFile": "12 27考研：生理 心肌电活动和特性 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 7,
-        "pageLabel": "PDF第7页",
-        "title": "生理 心肌电活动和特性 · 第7页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-12-p07.webp",
-        "description": "第3题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "需注意 0 期去极化速度和幅度的影响因素（影响离子跨膜流动的因素，即动作电位的",
-          "（1）0 期去极化速度和幅度（主要）↑→传导性↑（形成的电位差大→局部电流强）"
-        ],
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "lectureNumber": 12,
+        "title": "生理 心肌电活动和特性 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/physiology-8986fcbf50-p002.webp",
         "questionNumbers": [
           3
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "快反应细胞0期主要由Na⁺快速内流形成；慢反应细胞0期以L型Ca²⁺内流形成。"
         ]
       },
       "lectureEvidencePages": [
@@ -360,33 +451,34 @@
           "lectureId": "foundation-physiology-12",
           "sourceSubject": "physiology",
           "sourceFile": "12 27考研：生理 心肌电活动和特性 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 7,
-          "pageLabel": "PDF第7页",
-          "title": "生理 心肌电活动和特性 · 第7页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-12-p07.webp",
-          "description": "第3题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "需注意 0 期去极化速度和幅度的影响因素（影响离子跨膜流动的因素，即动作电位的",
-            "（1）0 期去极化速度和幅度（主要）↑→传导性↑（形成的电位差大→局部电流强）"
-          ],
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "lectureNumber": 12,
+          "title": "生理 心肌电活动和特性 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/physiology-8986fcbf50-p002.webp",
           "questionNumbers": [
             3
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "快反应细胞0期主要由Na⁺快速内流形成；慢反应细胞0期以L型Ca²⁺内流形成。"
           ]
         },
         {
           "lectureId": "foundation-physiology-12",
           "sourceSubject": "physiology",
           "sourceFile": "12 27考研：生理 心肌电活动和特性 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 12,
-          "pageLabel": "PDF第12页",
-          "title": "生理 心肌电活动和特性 · 第12页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-12-p12.webp",
-          "description": "第3题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "（二）乙酰胆碱 ACh 心房肌抑制心房肌细胞平台期 ICa-L、促进 IK-ACh（ACh 敏感的钾通道在心房收缩力↓ 肌、窦房结）→平台期缩短（动作电位时程缩短）、Ca2+内流↓ 传导↓ 抑制慢反应细胞 0 期 ICa-L→0 期去极化速度和幅度↓ 心率↓ 抑制窦房结 4 期 ICa-T 和 If、促进 IK-ACh→4 期自动去极化速度↓对着干 （自律性↓） ↓ 最大复极电位超极化→最大复极电位与阈电位距离变远"
-          ],
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "lectureNumber": 12,
+          "title": "生理 心肌电活动和特性 · 第8页",
+          "image": "exams/reviewed-mocks-20261104/physiology-8986fcbf50-p008.webp",
           "questionNumbers": [
             3
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "快反应细胞0期主要由Na⁺快速内流形成；慢反应细胞0期以L型Ca²⁺内流形成。"
           ]
         }
       ]
@@ -448,22 +540,52 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-13",
-          "explanation": "正确答案：A（通过颈动脉窦压力感受器引起交感神经活动增加）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：人体从卧位转变为立位时。讲义依据：若夹闭颈总动脉→颈动脉窦压力↓→传入神经冲动↓→压力感受性反射↓→交感神经传出冲动；1.压力感受器：颈动脉窦、主动脉弓。。因此答案为A（通过颈动脉窦压力感受器引起交感神经活动增加）。",
+          "explanation": "正确答案：A（通过颈动脉窦压力感受器引起交感神经活动增加）。\n\nA：站立使下肢血液淤积，回心血量及动脉压短暂下降，窦弓感受器放电减少，交感反射增强。B中心静脉压下降；C血容量和血压下降可促进而非减少ADH释放；D重力使下肢静脉内压及跨壁压升高。",
           "knowledgeConnections": [
-            "题干线索：人体从卧位转变为立位时",
-            "讲义要点：若夹闭颈总动脉→颈动脉窦压力↓→传入神经冲动↓→压力感受性反射↓→交感神经传出冲动",
-            "讲义要点：1.压力感受器：颈动脉窦、主动脉弓。",
-            "讲义要点：小结心血管神经调节： 反射压力感受性外周化学感受性心肺容量感受性心交感传入感受器颈动脉窦颈动脉体心房、心室心室主动脉弓主动脉体肺循环大血管刺激血压↑等牵张 PaO2↓、PaCO2↑、H+↑ 血容量↑等腺苷↑等效应交感↓、迷走↑ 呼吸加深加快钠尿肽↑、ADH 和醛交感↑ ↓ 交感↑、迷走↓ 固酮↓、交感↓、迷走↑ ↓ 血压↓ ↓ ↓ 血压↑ 血压↑ 血容量↓、血压↓ 意义缓冲血压危急情况调节血容量心肌缺血时快速波动维持心、脑血供维持血压",
-            "易混项：B. 中心静脉压增高；C. 血管升压素分泌减少；D. 下肢静脉跨壁压降低"
+            "体位改变：静脉回流↓→搏出量↓→血压↓→压力感受性反射减弱。",
+            "代偿为交感增强、迷走减弱，心率加快、小动脉及静脉收缩。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-13",
+              "sourceSubject": "physiology",
+              "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 13,
+              "title": "生理 心血管调节 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/physiology-89610819b3-p001.webp",
+              "questionNumbers": [
+                4
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "体位改变：静脉回流↓→搏出量↓→血压↓→压力感受性反射减弱。"
+              ]
+            },
+            {
+              "lectureId": "foundation-physiology-13",
+              "sourceSubject": "physiology",
+              "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 13,
+              "title": "生理 心血管调节 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/physiology-89610819b3-p002.webp",
+              "questionNumbers": [
+                4
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "体位改变：静脉回流↓→搏出量↓→血压↓→压力感受性反射减弱。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 心血管调节",
-        "若夹闭颈总动脉→颈动脉窦压力↓→传入神经冲动↓→压力感受性反射↓→交感神经传出冲动",
-        "1.压力感受器：颈动脉窦、主动脉弓。",
-        "小结心血管神经调节： 反射压力感受性外周化学感受性心肺容量感受性心交感传入感受器颈动脉窦颈动脉体心房、心室心室主动脉弓主动脉体肺循环大血管刺激血压↑等牵张 PaO2↓、PaCO2↑、H+↑ 血容量↑等腺苷↑等效应交感↓、迷走↑ 呼吸加深加快钠尿肽↑、ADH 和醛交感↑ ↓ 交感↑、迷走↓ 固酮↓、交感↓、迷走↑ ↓ 血压↓ ↓ ↓ 血压↑ 血压↑ 血容量↓、血压↓ 意义缓冲血压危急情况调节血容量心肌缺血时快速波动维持心、脑血供维持血压",
-        "垂体后 ADH 抗利尿、大剂量还可收缩血管叶素禁用高血压、冠心病、心衰、孕妇引起口渴和喝水 AngⅡ刺激下丘脑室周器穹窿下器→ADH↑ 调节交感神经活动度交感神经释放递质 NA/NE↑ （交感和 RAAS 是好基友） 交感缩血管中枢紧张性↑ 中枢对压力感受性反射的敏感性↓ 参与高血压重调定肾素↓ 负反馈促进心血管重构重构指心肌细胞肥大和凋亡、心肌成纤维细胞和血管增殖、细胞外基质堆积（纤维化） AngⅡ和醛固酮是心血管重构的主要原因"
+        "体位改变：静脉回流↓→搏出量↓→血压↓→压力感受性反射减弱。",
+        "代偿为交感增强、迷走减弱，心率加快、小动脉及静脉收缩。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-13",
@@ -471,15 +593,15 @@
         "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
         "page": 1,
         "pageLabel": "PDF第1页",
+        "lectureNumber": 13,
         "title": "生理 心血管调节 · 第1页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-13-p01.webp",
-        "description": "第4题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "若夹闭颈总动脉→颈动脉窦压力↓→传入神经冲动↓→压力感受性反射↓→交感神经传出冲动",
-          "1.压力感受器：颈动脉窦、主动脉弓。"
-        ],
+        "image": "exams/reviewed-mocks-20261104/physiology-89610819b3-p001.webp",
         "questionNumbers": [
           4
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "体位改变：静脉回流↓→搏出量↓→血压↓→压力感受性反射减弱。"
         ]
       },
       "lectureEvidencePages": [
@@ -489,15 +611,32 @@
           "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
           "page": 1,
           "pageLabel": "PDF第1页",
+          "lectureNumber": 13,
           "title": "生理 心血管调节 · 第1页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-13-p01.webp",
-          "description": "第4题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "若夹闭颈总动脉→颈动脉窦压力↓→传入神经冲动↓→压力感受性反射↓→交感神经传出冲动",
-            "1.压力感受器：颈动脉窦、主动脉弓。"
-          ],
+          "image": "exams/reviewed-mocks-20261104/physiology-89610819b3-p001.webp",
           "questionNumbers": [
             4
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "体位改变：静脉回流↓→搏出量↓→血压↓→压力感受性反射减弱。"
+          ]
+        },
+        {
+          "lectureId": "foundation-physiology-13",
+          "sourceSubject": "physiology",
+          "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "lectureNumber": 13,
+          "title": "生理 心血管调节 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/physiology-89610819b3-p002.webp",
+          "questionNumbers": [
+            4
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "体位改变：静脉回流↓→搏出量↓→血压↓→压力感受性反射减弱。"
           ]
         }
       ]
@@ -559,38 +698,51 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-13",
-          "explanation": "正确答案：D（肾小球滤过的 Na+增加）。\n\n判断思路：题干要求选择错误项，需先用讲义中的标准结论逐项反向核对。关键线索是：促进球旁细胞分泌肾素的因素不包括。讲义依据：另一方面 ACEI/ARB 让残余肾单位休息时许多物质滤过减少，此时不能再让肾单位休息了、否则大家都休息了高血钾 ACEI/ARB 抑制醛固酮致钾排泄减少 （血 K+＞5.5mmol/L） 双肾动脉狭窄肾动脉主干或主要分支狭窄→肾小球滤过↓（从进水口来的水 ，但 AngⅡ选择性收缩出球动脉可维持肾小球滤过（没少了） 法开源、只能节流） ，因此用 ACEI/ARB 使肾小球滤过进一步降低、可致肾衰竭妊娠低血压；1.肾上腺髓质的嗜铬细胞释放 80%的 Adr 和 20%的 NA/NE 茶水，因此：。因此答案为D（肾小球滤过的 Na+增加）。",
+          "explanation": "正确答案：D（肾小球滤过的 Na+增加）。\n\nD：球旁器致密斑感受到NaCl递送增多时，抑制肾素释放；低盐摄入、肾灌注压下降及肾内前列腺素增加均可促进肾素分泌，故A、B、C不选。",
           "knowledgeConnections": [
-            "题干线索：促进球旁细胞分泌肾素的因素不包括",
-            "讲义要点：另一方面 ACEI/ARB 让残余肾单位休息时许多物质滤过减少，此时不能再让肾单位休息了、否则大家都休息了高血钾 ACEI/ARB 抑制醛固酮致钾排泄减少 （血 K+＞5.5mmol/L） 双肾动脉狭窄肾动脉主干或主要分支狭窄→肾小球滤过↓（从进水口来的水 ，但 AngⅡ选择性收缩出球动脉可维持肾小球滤过（没少了） 法开源、只能节流） ，因此用 ACEI/ARB 使肾小球滤过进一步降低、可致肾衰竭妊娠低血压",
-            "讲义要点：1.肾上腺髓质的嗜铬细胞释放 80%的 Adr 和 20%的 NA/NE 茶水，因此：",
-            "讲义要点：②不用 ACEI/ARB 机甲吓人地血肌酐 ACEI/ARB 选择性舒张出球动脉（出水口压力↓）→肾小球滤 Cr＞265μmol/L 过↓→尿蛋白排泄↓（病理情况） ，这是 ACEI/ARB 减少尿蛋白、保护肾脏的优势（让肾病患者残余肾单位休息） 但血 Cr＞265 时一方面药物蓄积易致高血钾",
-            "易混项：A. 长期低盐饮食；B. 动脉血压下降；C. 肾内的前列腺素增加"
+            "肾素释放的三条主要信号：入球小动脉压力↓、致密斑NaCl递送↓、肾交感β₁受体兴奋。",
+            "肾素→血管紧张素Ⅱ→醛固酮，增加血管阻力及钠水潴留。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-13",
+              "sourceSubject": "physiology",
+              "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 13,
+              "title": "生理 心血管调节 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/physiology-89610819b3-p004.webp",
+              "questionNumbers": [
+                5
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "肾素释放的三条主要信号：入球小动脉压力↓、致密斑NaCl递送↓、肾交感β₁受体兴奋。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 心血管调节",
-        "另一方面 ACEI/ARB 让残余肾单位休息时许多物质滤过减少，此时不能再让肾单位休息了、否则大家都休息了高血钾 ACEI/ARB 抑制醛固酮致钾排泄减少 （血 K+＞5.5mmol/L） 双肾动脉狭窄肾动脉主干或主要分支狭窄→肾小球滤过↓（从进水口来的水 ，但 AngⅡ选择性收缩出球动脉可维持肾小球滤过（没少了） 法开源、只能节流） ，因此用 ACEI/ARB 使肾小球滤过进一步降低、可致肾衰竭妊娠低血压",
-        "1.肾上腺髓质的嗜铬细胞释放 80%的 Adr 和 20%的 NA/NE 茶水，因此：",
-        "②不用 ACEI/ARB 机甲吓人地血肌酐 ACEI/ARB 选择性舒张出球动脉（出水口压力↓）→肾小球滤 Cr＞265μmol/L 过↓→尿蛋白排泄↓（病理情况） ，这是 ACEI/ARB 减少尿蛋白、保护肾脏的优势（让肾病患者残余肾单位休息） 但血 Cr＞265 时一方面药物蓄积易致高血钾",
-        "①来源：球旁细胞/近球细胞/颗粒细胞（肾脏不止搞尿、还搞内分泌）"
+        "肾素释放的三条主要信号：入球小动脉压力↓、致密斑NaCl递送↓、肾交感β₁受体兴奋。",
+        "肾素→血管紧张素Ⅱ→醛固酮，增加血管阻力及钠水潴留。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-13",
         "sourceSubject": "physiology",
         "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 9,
-        "pageLabel": "PDF第9页",
-        "title": "生理 心血管调节 · 第9页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-13-p09.webp",
-        "description": "第5题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "另一方面 ACEI/ARB 让残余肾单位休息时许多物质滤过减少，此时不能再让肾单位休息了、否则大家都休息了高血钾 ACEI/ARB 抑制醛固酮致钾排泄减少 （血 K+＞5.5mmol/L） 双肾动脉狭窄肾动脉主干或主要分支狭窄→肾小球滤过↓（从进水口来的水 ，但 AngⅡ选择性收缩出球动脉可维持肾小球滤过（没少了） 法开源、只能节流） ，因此用 ACEI/ARB 使肾小球滤过进一步降低、可致肾衰竭妊娠低血压",
-          "②不用 ACEI/ARB 机甲吓人地血肌酐 ACEI/ARB 选择性舒张出球动脉（出水口压力↓）→肾小球滤 Cr＞265μmol/L 过↓→尿蛋白排泄↓（病理情况） ，这是 ACEI/ARB 减少尿蛋白、保护肾脏的优势（让肾病患者残余肾单位休息） 但血 Cr＞265 时一方面药物蓄积易致高血钾"
-        ],
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 13,
+        "title": "生理 心血管调节 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/physiology-89610819b3-p004.webp",
         "questionNumbers": [
           5
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "肾素释放的三条主要信号：入球小动脉压力↓、致密斑NaCl递送↓、肾交感β₁受体兴奋。"
         ]
       },
       "lectureEvidencePages": [
@@ -598,33 +750,17 @@
           "lectureId": "foundation-physiology-13",
           "sourceSubject": "physiology",
           "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 9,
-          "pageLabel": "PDF第9页",
-          "title": "生理 心血管调节 · 第9页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-13-p09.webp",
-          "description": "第5题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "另一方面 ACEI/ARB 让残余肾单位休息时许多物质滤过减少，此时不能再让肾单位休息了、否则大家都休息了高血钾 ACEI/ARB 抑制醛固酮致钾排泄减少 （血 K+＞5.5mmol/L） 双肾动脉狭窄肾动脉主干或主要分支狭窄→肾小球滤过↓（从进水口来的水 ，但 AngⅡ选择性收缩出球动脉可维持肾小球滤过（没少了） 法开源、只能节流） ，因此用 ACEI/ARB 使肾小球滤过进一步降低、可致肾衰竭妊娠低血压",
-            "②不用 ACEI/ARB 机甲吓人地血肌酐 ACEI/ARB 选择性舒张出球动脉（出水口压力↓）→肾小球滤 Cr＞265μmol/L 过↓→尿蛋白排泄↓（病理情况） ，这是 ACEI/ARB 减少尿蛋白、保护肾脏的优势（让肾病患者残余肾单位休息） 但血 Cr＞265 时一方面药物蓄积易致高血钾"
-          ],
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 13,
+          "title": "生理 心血管调节 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/physiology-89610819b3-p004.webp",
           "questionNumbers": [
             5
-          ]
-        },
-        {
-          "lectureId": "foundation-physiology-13",
-          "sourceSubject": "physiology",
-          "sourceFile": "13 27考研：生理 心血管调节 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 6,
-          "pageLabel": "PDF第6页",
-          "title": "生理 心血管调节 · 第6页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-13-p06.webp",
-          "description": "第5题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "1.肾上腺髓质的嗜铬细胞释放 80%的 Adr 和 20%的 NA/NE 茶水，因此："
           ],
-          "questionNumbers": [
-            5
+          "optionKeys": [],
+          "knowledgePoints": [
+            "肾素释放的三条主要信号：入球小动脉压力↓、致密斑NaCl递送↓、肾交感β₁受体兴奋。"
           ]
         }
       ]
@@ -686,37 +822,85 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-15",
-          "explanation": "正确答案：B（肺的弹性阻力始终是吸气的阻力，呼气的动力）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：以下关于肺通气的阻力，说法正确的是。讲义依据：阻力始终是吸气的阻力、呼气的动力；→吸气阻力↓（肺弹性阻力是吸气的阻力、呼气的动力）。。因此答案为B（肺的弹性阻力始终是吸气的阻力，呼气的动力）。",
+          "explanation": "正确答案：B（肺的弹性阻力始终是吸气的阻力，呼气的动力）。\n\nB：肺在生理容积范围内始终有向内回缩力，阻碍吸气而帮助呼气。A气道摩擦阻力始终与气流方向相反，吸、呼气均受阻。C、D胸廓高于自然容积约肺总量67%时向内回缩，低于该水平时趋向向外扩张，两项方向均写反。",
           "knowledgeConnections": [
-            "题干线索：以下关于肺通气的阻力，说法正确的是",
-            "讲义要点：阻力始终是吸气的阻力、呼气的动力",
-            "讲义要点：→吸气阻力↓（肺弹性阻力是吸气的阻力、呼气的动力）。",
-            "讲义要点：1.肺通气的阻力气道阻力（非弹性阻力） 吸气和呼气的阻力肺的弹性阻力吸气的阻力、呼气的动力（肺始终要弹性回缩） 胸廓的弹性阻力 ①肺容量＞肺总量的 67%（深吸气）：胸廓弹性阻力向内 （胸廓有双弹性） （吸气的阻力、呼气的动力） ②肺容量＜肺总量的 67%（呼气）：胸廓弹性阻力向外 （吸气的动力、呼气的阻力）",
-            "易混项：A. 气道阻力始终是吸气的阻力，呼气的动力；C. 当肺容量＞肺总量的 67%时，胸廓的弹性阻力是吸气的动力；D. 当肺容量＜肺总量的 67%时，胸廓的弹性阻力是呼气的动力"
+            "肺弹性阻力与气道阻力不同：前者可成为呼气动力，后者始终阻碍气流。",
+            "胸廓自然容积是判断胸廓弹性力方向的分界点，不能套用肺的始终向内回缩。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-15",
+              "sourceSubject": "physiology",
+              "sourceFile": "15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 15,
+              "title": "生理 肺通气 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/physiology-22ed28d430-p004.webp",
+              "questionNumbers": [
+                6
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "肺弹性阻力与气道阻力不同：前者可成为呼气动力，后者始终阻碍气流。"
+              ]
+            },
+            {
+              "lectureId": "foundation-physiology-15",
+              "sourceSubject": "physiology",
+              "sourceFile": "15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 15,
+              "title": "生理 肺通气 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/physiology-22ed28d430-p005.webp",
+              "questionNumbers": [
+                6
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "肺弹性阻力与气道阻力不同：前者可成为呼气动力，后者始终阻碍气流。"
+              ]
+            },
+            {
+              "lectureId": "foundation-physiology-15",
+              "sourceSubject": "physiology",
+              "sourceFile": "15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 7,
+              "pageLabel": "PDF第7页",
+              "lectureNumber": 15,
+              "title": "生理 肺通气 · 第7页",
+              "image": "exams/reviewed-mocks-20261104/physiology-22ed28d430-p007.webp",
+              "questionNumbers": [
+                6
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "肺弹性阻力与气道阻力不同：前者可成为呼气动力，后者始终阻碍气流。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 肺通气",
-        "阻力始终是吸气的阻力、呼气的动力",
-        "→吸气阻力↓（肺弹性阻力是吸气的阻力、呼气的动力）。",
-        "1.肺通气的阻力气道阻力（非弹性阻力） 吸气和呼气的阻力肺的弹性阻力吸气的阻力、呼气的动力（肺始终要弹性回缩） 胸廓的弹性阻力 ①肺容量＞肺总量的 67%（深吸气）：胸廓弹性阻力向内 （胸廓有双弹性） （吸气的阻力、呼气的动力） ②肺容量＜肺总量的 67%（呼气）：胸廓弹性阻力向外 （吸气的动力、呼气的阻力）",
-        "1.胸廓的弹性阻力（胸廓有双弹性） 肺容量=肺总量的 67% 胸廓在自然位置不表现胸廓弹性阻力 （平静吸气末） （胸廓没有变形） 肺容量＞肺总量的 67% 胸廓向外扩大胸廓弹性阻力向内 （深吸气） （胸廓想弹回去） （吸气的阻力、呼气的动力） 肺容量＜肺总量的 67% 胸廓向内缩小胸廓弹性阻力向外 （呼气） （胸廓想弹回去） （吸气的动力、呼气的阻力）"
+        "肺弹性阻力与气道阻力不同：前者可成为呼气动力，后者始终阻碍气流。",
+        "胸廓自然容积是判断胸廓弹性力方向的分界点，不能套用肺的始终向内回缩。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-15",
         "sourceSubject": "physiology",
         "sourceFile": "15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 5,
-        "pageLabel": "PDF第5页",
-        "title": "生理 肺通气 · 第5页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-15-p05.webp",
-        "description": "第6题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "阻力始终是吸气的阻力、呼气的动力"
-        ],
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 15,
+        "title": "生理 肺通气 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/physiology-22ed28d430-p004.webp",
         "questionNumbers": [
           6
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "肺弹性阻力与气道阻力不同：前者可成为呼气动力，后者始终阻碍气流。"
         ]
       },
       "lectureEvidencePages": [
@@ -724,33 +908,51 @@
           "lectureId": "foundation-physiology-15",
           "sourceSubject": "physiology",
           "sourceFile": "15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 5,
-          "pageLabel": "PDF第5页",
-          "title": "生理 肺通气 · 第5页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-15-p05.webp",
-          "description": "第6题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "阻力始终是吸气的阻力、呼气的动力"
-          ],
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 15,
+          "title": "生理 肺通气 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/physiology-22ed28d430-p004.webp",
           "questionNumbers": [
             6
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "肺弹性阻力与气道阻力不同：前者可成为呼气动力，后者始终阻碍气流。"
           ]
         },
         {
           "lectureId": "foundation-physiology-15",
           "sourceSubject": "physiology",
           "sourceFile": "15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 8,
-          "pageLabel": "PDF第8页",
-          "title": "生理 肺通气 · 第8页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-15-p08.webp",
-          "description": "第6题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "→吸气阻力↓（肺弹性阻力是吸气的阻力、呼气的动力）。",
-            "1.肺通气的阻力气道阻力（非弹性阻力） 吸气和呼气的阻力肺的弹性阻力吸气的阻力、呼气的动力（肺始终要弹性回缩） 胸廓的弹性阻力 ①肺容量＞肺总量的 67%（深吸气）：胸廓弹性阻力向内 （胸廓有双弹性） （吸气的阻力、呼气的动力） ②肺容量＜肺总量的 67%（呼气）：胸廓弹性阻力向外 （吸气的动力、呼气的阻力）"
-          ],
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "lectureNumber": 15,
+          "title": "生理 肺通气 · 第5页",
+          "image": "exams/reviewed-mocks-20261104/physiology-22ed28d430-p005.webp",
           "questionNumbers": [
             6
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "肺弹性阻力与气道阻力不同：前者可成为呼气动力，后者始终阻碍气流。"
+          ]
+        },
+        {
+          "lectureId": "foundation-physiology-15",
+          "sourceSubject": "physiology",
+          "sourceFile": "15 27考研：生理 肺通气 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "lectureNumber": 15,
+          "title": "生理 肺通气 · 第7页",
+          "image": "exams/reviewed-mocks-20261104/physiology-22ed28d430-p007.webp",
+          "questionNumbers": [
+            6
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "肺弹性阻力与气道阻力不同：前者可成为呼气动力，后者始终阻碍气流。"
           ]
         }
       ]
@@ -812,22 +1014,35 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-22",
-          "explanation": "正确答案：D（依赖 H+的继发性主动转运）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：不参与小肠吸收葡萄糖至组织间液的物质转运方式有。讲义依据：①二、三肽等寡肽为 H+-继发性主动转运，且比氨基酸吸收更快（寡人爱卿更快）；1.多数水溶性维生素：依赖 Na+的同向转运体。因此答案为D（依赖 H+的继发性主动转运）。",
+          "explanation": "正确答案：D（依赖 H+的继发性主动转运）。\n\nD：葡萄糖顶端膜吸收依赖Na⁺-葡萄糖同向转运；基底侧以GLUT易化扩散入组织液，Na⁺-K⁺泵原发主动转运维持Na⁺梯度，因此A、B、C都参与。H⁺耦联主要用于二、三肽转运，不是葡萄糖吸收。",
           "knowledgeConnections": [
-            "题干线索：不参与小肠吸收葡萄糖至组织间液的物质转运方式有",
-            "讲义要点：①二、三肽等寡肽为 H+-继发性主动转运，且比氨基酸吸收更快（寡人爱卿更快）",
-            "讲义要点：1.多数水溶性维生素：依赖 Na+的同向转运体",
-            "讲义要点：1.小肠是吸收的主要部位",
-            "易混项：A. 载体介导的易化扩散；B. 原发性主动转运；C. 依赖 Na+的继发性主动转运"
+            "肠腔→SGLT1→上皮细胞→GLUT2→组织液。",
+            "继发主动转运不直接耗ATP，但依赖Na⁺-K⁺泵建立的浓度梯度。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-22",
+              "sourceSubject": "physiology",
+              "sourceFile": "22 27考研：生理 肠内吸收 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 22,
+              "title": "生理 肠内吸收 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/physiology-81db84a2db-p003.webp",
+              "questionNumbers": [
+                7
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "肠腔→SGLT1→上皮细胞→GLUT2→组织液。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 肠内吸收",
-        "①二、三肽等寡肽为 H+-继发性主动转运，且比氨基酸吸收更快（寡人爱卿更快）",
-        "1.多数水溶性维生素：依赖 Na+的同向转运体",
-        "1.小肠是吸收的主要部位",
-        "③单糖的吸收速度：己糖（半乳糖和葡萄糖＞果糖＞甘露糖半个葡萄果然甘甜）＞戊糖如"
+        "肠腔→SGLT1→上皮细胞→GLUT2→组织液。",
+        "继发主动转运不直接耗ATP，但依赖Na⁺-K⁺泵建立的浓度梯度。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-22",
@@ -835,15 +1050,15 @@
         "sourceFile": "22 27考研：生理 肠内吸收 核心-真题-串联-导图 天天师兄.pdf",
         "page": 3,
         "pageLabel": "PDF第3页",
+        "lectureNumber": 22,
         "title": "生理 肠内吸收 · 第3页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-22-p03.webp",
-        "description": "第7题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "①二、三肽等寡肽为 H+-继发性主动转运，且比氨基酸吸收更快（寡人爱卿更快）",
-          "③单糖的吸收速度：己糖（半乳糖和葡萄糖＞果糖＞甘露糖半个葡萄果然甘甜）＞戊糖如"
-        ],
+        "image": "exams/reviewed-mocks-20261104/physiology-81db84a2db-p003.webp",
         "questionNumbers": [
           7
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "肠腔→SGLT1→上皮细胞→GLUT2→组织液。"
         ]
       },
       "lectureEvidencePages": [
@@ -853,32 +1068,15 @@
           "sourceFile": "22 27考研：生理 肠内吸收 核心-真题-串联-导图 天天师兄.pdf",
           "page": 3,
           "pageLabel": "PDF第3页",
+          "lectureNumber": 22,
           "title": "生理 肠内吸收 · 第3页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-22-p03.webp",
-          "description": "第7题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "①二、三肽等寡肽为 H+-继发性主动转运，且比氨基酸吸收更快（寡人爱卿更快）",
-            "③单糖的吸收速度：己糖（半乳糖和葡萄糖＞果糖＞甘露糖半个葡萄果然甘甜）＞戊糖如"
-          ],
+          "image": "exams/reviewed-mocks-20261104/physiology-81db84a2db-p003.webp",
           "questionNumbers": [
             7
-          ]
-        },
-        {
-          "lectureId": "foundation-physiology-22",
-          "sourceSubject": "physiology",
-          "sourceFile": "22 27考研：生理 肠内吸收 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
-          "title": "生理 肠内吸收 · 第1页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-22-p01.webp",
-          "description": "第7题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "1.多数水溶性维生素：依赖 Na+的同向转运体",
-            "1.小肠是吸收的主要部位"
           ],
-          "questionNumbers": [
-            7
+          "optionKeys": [],
+          "knowledgePoints": [
+            "肠腔→SGLT1→上皮细胞→GLUT2→组织液。"
           ]
         }
       ]
@@ -940,39 +1138,68 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-23",
-          "explanation": "正确答案：D（冷敏神经元发放冲动增加）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：细菌感染引起体温升高的主要原因是。讲义依据：温度降低→冷敏神经元放电频率↑；③在一定范围：温度升高→热敏神经元放电频率↑。因此答案为D（冷敏神经元发放冲动增加）。",
+          "explanation": "正确答案：D（冷敏神经元发放冲动增加）。\n\nD：细菌致热原通过内生致热原和前列腺素E₂使体温调定点上移，冷敏神经元活动增强，产热增加、散热减少。A、B并非感染性发热的主要机制；C是中暑等调定点未上移时的体温升高。",
           "knowledgeConnections": [
-            "题干线索：细菌感染引起体温升高的主要原因是",
-            "讲义要点：温度降低→冷敏神经元放电频率↑",
-            "讲义要点：③在一定范围：温度升高→热敏神经元放电频率↑",
-            "讲义要点：①PO/AH 区热敏神经元较多，而脑干网状结构和下丘脑弓状核冷敏神经元较多（老公冷）",
-            "易混项：A. 体温调节中枢功能障碍；B. 温度觉传导通路功能异常；C. 非调节性体温升高"
+            "发热的调定点上移；体温未达到新调定点前可有畏寒、寒战。",
+            "退热时调定点恢复，表现为皮肤血管舒张、出汗增多。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-23",
+              "sourceSubject": "physiology",
+              "sourceFile": "23 27考研：生理 能量代谢和体温 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 23,
+              "title": "生理 能量代谢和体温 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/physiology-76d2c7ff87-p005.webp",
+              "questionNumbers": [
+                8
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "发热的调定点上移；体温未达到新调定点前可有畏寒、寒战。"
+              ]
+            },
+            {
+              "lectureId": "foundation-physiology-23",
+              "sourceSubject": "physiology",
+              "sourceFile": "23 27考研：生理 能量代谢和体温 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 6,
+              "pageLabel": "PDF第6页",
+              "lectureNumber": 23,
+              "title": "生理 能量代谢和体温 · 第6页",
+              "image": "exams/reviewed-mocks-20261104/physiology-76d2c7ff87-p006.webp",
+              "questionNumbers": [
+                8
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "发热的调定点上移；体温未达到新调定点前可有畏寒、寒战。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 能量代谢和体温",
-        "温度降低→冷敏神经元放电频率↑",
-        "③在一定范围：温度升高→热敏神经元放电频率↑",
-        "①PO/AH 区热敏神经元较多，而脑干网状结构和下丘脑弓状核冷敏神经元较多（老公冷）",
-        "①下丘脑温度敏感神经元的放电频率决定调定点（调定点取决于温度敏感神经元）： 若热敏神经元反应曲线斜率↓（调节高温能力即降温能力↓） 调定点上移若冷敏神经元反应曲线斜率↑（调节低温能力即升温能力↑） （先放电再重调）"
+        "发热的调定点上移；体温未达到新调定点前可有畏寒、寒战。",
+        "退热时调定点恢复，表现为皮肤血管舒张、出汗增多。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-23",
         "sourceSubject": "physiology",
         "sourceFile": "23 27考研：生理 能量代谢和体温 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 6,
-        "pageLabel": "PDF第6页",
-        "title": "生理 能量代谢和体温 · 第6页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-23-p06.webp",
-        "description": "第8题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "温度降低→冷敏神经元放电频率↑",
-          "③在一定范围：温度升高→热敏神经元放电频率↑",
-          "①PO/AH 区热敏神经元较多，而脑干网状结构和下丘脑弓状核冷敏神经元较多（老公冷）"
-        ],
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "lectureNumber": 23,
+        "title": "生理 能量代谢和体温 · 第5页",
+        "image": "exams/reviewed-mocks-20261104/physiology-76d2c7ff87-p005.webp",
         "questionNumbers": [
           8
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "发热的调定点上移；体温未达到新调定点前可有畏寒、寒战。"
         ]
       },
       "lectureEvidencePages": [
@@ -980,18 +1207,34 @@
           "lectureId": "foundation-physiology-23",
           "sourceSubject": "physiology",
           "sourceFile": "23 27考研：生理 能量代谢和体温 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 6,
-          "pageLabel": "PDF第6页",
-          "title": "生理 能量代谢和体温 · 第6页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-23-p06.webp",
-          "description": "第8题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "温度降低→冷敏神经元放电频率↑",
-            "③在一定范围：温度升高→热敏神经元放电频率↑",
-            "①PO/AH 区热敏神经元较多，而脑干网状结构和下丘脑弓状核冷敏神经元较多（老公冷）"
-          ],
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "lectureNumber": 23,
+          "title": "生理 能量代谢和体温 · 第5页",
+          "image": "exams/reviewed-mocks-20261104/physiology-76d2c7ff87-p005.webp",
           "questionNumbers": [
             8
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "发热的调定点上移；体温未达到新调定点前可有畏寒、寒战。"
+          ]
+        },
+        {
+          "lectureId": "foundation-physiology-23",
+          "sourceSubject": "physiology",
+          "sourceFile": "23 27考研：生理 能量代谢和体温 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "lectureNumber": 23,
+          "title": "生理 能量代谢和体温 · 第6页",
+          "image": "exams/reviewed-mocks-20261104/physiology-76d2c7ff87-p006.webp",
+          "questionNumbers": [
+            8
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "发热的调定点上移；体温未达到新调定点前可有畏寒、寒战。"
           ]
         }
       ]
@@ -1053,37 +1296,85 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-26",
-          "explanation": "正确答案：C（髓袢升支粗段末）。\n\n判断思路：髓袢升支粗段对水不通透，主动重吸收 NaCl，末端小管液为低渗。高渗性脱水时 ADH 高，集合管尿液趋向高渗。",
+          "explanation": "正确答案：C（髓袢升支粗段末）。\n\nC：髓袢升支粗段重吸收NaCl而对水不通透，管液被稀释，即使高渗性脱水、ADH升高，该段末仍可低渗。A超滤液近似等渗；B降支失水而高渗；D内髓集合管在ADH作用下重吸收水，尿液浓缩。",
           "knowledgeConnections": [
-            "题干线索：发生高渗性脱水时，下列渗透压可为低渗的是",
-            "讲义要点：髓袢升支粗段对水不通透，主动重吸收 NaCl，末端小管液为低渗。高渗性脱水时 ADH 高，集合管尿液趋向高渗。",
-            "讲义要点：1.髓袢升支粗段 Na+-K+-2Cl-是逆流倍增最重要的起始动力（粗得升起来最厉害）",
-            "讲义要点：肾髓质组织间液渗透梯度的形成由下列重要因素构成： 髓袢升支粗段通过 Na+-K+-2Cl- 增加外髓部组织间液的渗透压主动重吸收 NaCl、对水不通透是建立髓质间液高渗的最重要起始动力髓袢降支细段对水通透、对 NaCl 不通透增加小管液的渗透浓度髓袢升支细段对水不通透、对 NaCl 通透小管液高浓度的 NaCl 被动扩散至内髓部组织间液、使之渗透压增加尿素再循环使尿素和 NaCl 一起形成内髓部组织间液的高渗持续滤过推动小管液从髓袢至集合管、 促进肾脏建立渗透浓度梯度向肾乳头方向流动",
-            "易混项：A. 肾小囊超滤液；B. 髓袢降支细段末；D. 内髓部集合管"
+            "髓袢降支：水易通透、管液浓缩；升支粗段：重吸收盐、管液稀释。",
+            "ADH主要改变远曲小管后段和集合管的水通透性，不取消升支粗段的稀释作用。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-26",
+              "sourceSubject": "physiology",
+              "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 11,
+              "pageLabel": "PDF第11页",
+              "lectureNumber": 26,
+              "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第11页",
+              "image": "exams/reviewed-mocks-20261104/physiology-a32e92c253-p011.webp",
+              "questionNumbers": [
+                9
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "髓袢降支：水易通透、管液浓缩；升支粗段：重吸收盐、管液稀释。"
+              ]
+            },
+            {
+              "lectureId": "foundation-physiology-26",
+              "sourceSubject": "physiology",
+              "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 12,
+              "pageLabel": "PDF第12页",
+              "lectureNumber": 26,
+              "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第12页",
+              "image": "exams/reviewed-mocks-20261104/physiology-a32e92c253-p012.webp",
+              "questionNumbers": [
+                9
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "髓袢降支：水易通透、管液浓缩；升支粗段：重吸收盐、管液稀释。"
+              ]
+            },
+            {
+              "lectureId": "foundation-physiology-26",
+              "sourceSubject": "physiology",
+              "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 13,
+              "pageLabel": "PDF第13页",
+              "lectureNumber": 26,
+              "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第13页",
+              "image": "exams/reviewed-mocks-20261104/physiology-a32e92c253-p013.webp",
+              "questionNumbers": [
+                9
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "髓袢降支：水易通透、管液浓缩；升支粗段：重吸收盐、管液稀释。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 小管重吸收和分泌、尿浓缩稀释、调节",
-        "髓袢升支粗段对水不通透，主动重吸收 NaCl，末端小管液为低渗。高渗性脱水时 ADH 高，集合管尿液趋向高渗。",
-        "1.髓袢升支粗段 Na+-K+-2Cl-是逆流倍增最重要的起始动力（粗得升起来最厉害）",
-        "肾髓质组织间液渗透梯度的形成由下列重要因素构成： 髓袢升支粗段通过 Na+-K+-2Cl- 增加外髓部组织间液的渗透压主动重吸收 NaCl、对水不通透是建立髓质间液高渗的最重要起始动力髓袢降支细段对水通透、对 NaCl 不通透增加小管液的渗透浓度髓袢升支细段对水不通透、对 NaCl 通透小管液高浓度的 NaCl 被动扩散至内髓部组织间液、使之渗透压增加尿素再循环使尿素和 NaCl 一起形成内髓部组织间液的高渗持续滤过推动小管液从髓袢至集合管、 促进肾脏建立渗透浓度梯度向肾乳头方向流动",
-        "3.使肾浓缩功能↓的因素举例影响呋塞米、依他尼酸等袢利尿剂抑制髓袢升支粗段 Na+-K+-2Cl- 髓质间液营养不良（蛋白质↓） 尿素↓（内髓部渗透压↓） 高渗形成纤维化等破坏髓袢小孩髓袢较成人短逆流倍增效率较低 （小孩尿量较多、渗透压较低） 影响髓质间液直小血管血流量或速度↑ 从肾髓质间液带走较多溶质高渗维持肾血流量或速度明显↓ 供氧不足→肾小管转运功能障碍影响集合管尿崩症（下丘脑合成 ADH↓ AQP-2↓ 对水通透性或集合管 V2-R 缺陷）"
+        "髓袢降支：水易通透、管液浓缩；升支粗段：重吸收盐、管液稀释。",
+        "ADH主要改变远曲小管后段和集合管的水通透性，不取消升支粗段的稀释作用。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-26",
         "sourceSubject": "physiology",
         "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 12,
-        "pageLabel": "PDF第12页",
-        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第12页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-26-p12.webp",
-        "description": "第9题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "1.髓袢升支粗段 Na+-K+-2Cl-是逆流倍增最重要的起始动力（粗得升起来最厉害）"
-        ],
+        "page": 11,
+        "pageLabel": "PDF第11页",
+        "lectureNumber": 26,
+        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第11页",
+        "image": "exams/reviewed-mocks-20261104/physiology-a32e92c253-p011.webp",
         "questionNumbers": [
           9
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "髓袢降支：水易通透、管液浓缩；升支粗段：重吸收盐、管液稀释。"
         ]
       },
       "lectureEvidencePages": [
@@ -1091,33 +1382,51 @@
           "lectureId": "foundation-physiology-26",
           "sourceSubject": "physiology",
           "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 12,
-          "pageLabel": "PDF第12页",
-          "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第12页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-26-p12.webp",
-          "description": "第9题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "1.髓袢升支粗段 Na+-K+-2Cl-是逆流倍增最重要的起始动力（粗得升起来最厉害）"
-          ],
+          "page": 11,
+          "pageLabel": "PDF第11页",
+          "lectureNumber": 26,
+          "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第11页",
+          "image": "exams/reviewed-mocks-20261104/physiology-a32e92c253-p011.webp",
           "questionNumbers": [
             9
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "髓袢降支：水易通透、管液浓缩；升支粗段：重吸收盐、管液稀释。"
           ]
         },
         {
           "lectureId": "foundation-physiology-26",
           "sourceSubject": "physiology",
           "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 14,
-          "pageLabel": "PDF第14页",
-          "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第14页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-26-p14.webp",
-          "description": "第9题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "肾髓质组织间液渗透梯度的形成由下列重要因素构成： 髓袢升支粗段通过 Na+-K+-2Cl- 增加外髓部组织间液的渗透压主动重吸收 NaCl、对水不通透是建立髓质间液高渗的最重要起始动力髓袢降支细段对水通透、对 NaCl 不通透增加小管液的渗透浓度髓袢升支细段对水不通透、对 NaCl 通透小管液高浓度的 NaCl 被动扩散至内髓部组织间液、使之渗透压增加尿素再循环使尿素和 NaCl 一起形成内髓部组织间液的高渗持续滤过推动小管液从髓袢至集合管、 促进肾脏建立渗透浓度梯度向肾乳头方向流动",
-            "3.使肾浓缩功能↓的因素举例影响呋塞米、依他尼酸等袢利尿剂抑制髓袢升支粗段 Na+-K+-2Cl- 髓质间液营养不良（蛋白质↓） 尿素↓（内髓部渗透压↓） 高渗形成纤维化等破坏髓袢小孩髓袢较成人短逆流倍增效率较低 （小孩尿量较多、渗透压较低） 影响髓质间液直小血管血流量或速度↑ 从肾髓质间液带走较多溶质高渗维持肾血流量或速度明显↓ 供氧不足→肾小管转运功能障碍影响集合管尿崩症（下丘脑合成 ADH↓ AQP-2↓ 对水通透性或集合管 V2-R 缺陷）"
-          ],
+          "page": 12,
+          "pageLabel": "PDF第12页",
+          "lectureNumber": 26,
+          "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第12页",
+          "image": "exams/reviewed-mocks-20261104/physiology-a32e92c253-p012.webp",
           "questionNumbers": [
             9
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "髓袢降支：水易通透、管液浓缩；升支粗段：重吸收盐、管液稀释。"
+          ]
+        },
+        {
+          "lectureId": "foundation-physiology-26",
+          "sourceSubject": "physiology",
+          "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 13,
+          "pageLabel": "PDF第13页",
+          "lectureNumber": 26,
+          "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第13页",
+          "image": "exams/reviewed-mocks-20261104/physiology-a32e92c253-p013.webp",
+          "questionNumbers": [
+            9
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "髓袢降支：水易通透、管液浓缩；升支粗段：重吸收盐、管液稀释。"
           ]
         }
       ]
@@ -1179,22 +1488,35 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-27",
-          "explanation": "正确答案：A（视角为 1 分角时的视力）。\n\n判断思路：视力 1.0 的标准是最小视角约 1 分角。视网膜中央凹单线联系、视锥细胞直径小，因而视敏度最高。",
+          "explanation": "正确答案：A（视角为 1 分角时的视力）。\n\nA：标准视力1.0指能分辨的最小视角为1分角。B错误，中央凹视力最高，视网膜各处不等。C、D把视角这一光学分辨指标与视网膜像或单个感光细胞直径混为一谈，不能直接等同。",
           "knowledgeConnections": [
-            "题干线索：国际标准视力表中的 1.0 所代表的生理意义，以下最准确的是",
-            "讲义要点：视力 1.0 的标准是最小视角约 1 分角。视网膜中央凹单线联系、视锥细胞直径小，因而视敏度最高。",
-            "讲义要点：人的双眼可以各自独立看东西，但左右两眼有间距、就会造成两眼的视角有细微差别",
-            "讲义要点：①弥补单眼的生理性盲点、扩大视野",
-            "易混项：B. 视网膜中任意一处的视力；C. 相当于最小的视网膜像大小；D. 相当于一个感光细胞的平均直径"
+            "视力＝分辨两点的能力，常以最小视角的倒数表示。",
+            "视力与视野不同：视野强调可见空间范围；中央凹视锥密集，精细分辨能力强。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-27",
+              "sourceSubject": "physiology",
+              "sourceFile": "27 27考研：生理 视觉 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 10,
+              "pageLabel": "PDF第10页",
+              "lectureNumber": 27,
+              "title": "生理 视觉 · 第10页",
+              "image": "exams/reviewed-mocks-20261104/physiology-e9d00c2ba1-p010.webp",
+              "questionNumbers": [
+                10
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "视力＝分辨两点的能力，常以最小视角的倒数表示。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 视觉",
-        "视力 1.0 的标准是最小视角约 1 分角。视网膜中央凹单线联系、视锥细胞直径小，因而视敏度最高。",
-        "人的双眼可以各自独立看东西，但左右两眼有间距、就会造成两眼的视角有细微差别",
-        "①弥补单眼的生理性盲点、扩大视野",
-        "（双眼同时看某一物体产生的视觉）"
+        "视力＝分辨两点的能力，常以最小视角的倒数表示。",
+        "视力与视野不同：视野强调可见空间范围；中央凹视锥密集，精细分辨能力强。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-27",
@@ -1202,16 +1524,15 @@
         "sourceFile": "27 27考研：生理 视觉 核心-真题-串联-导图 天天师兄.pdf",
         "page": 10,
         "pageLabel": "PDF第10页",
+        "lectureNumber": 27,
         "title": "生理 视觉 · 第10页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-27-p10.webp",
-        "description": "第10题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "人的双眼可以各自独立看东西，但左右两眼有间距、就会造成两眼的视角有细微差别",
-          "①弥补单眼的生理性盲点、扩大视野",
-          "（双眼同时看某一物体产生的视觉）"
-        ],
+        "image": "exams/reviewed-mocks-20261104/physiology-e9d00c2ba1-p010.webp",
         "questionNumbers": [
           10
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "视力＝分辨两点的能力，常以最小视角的倒数表示。"
         ]
       },
       "lectureEvidencePages": [
@@ -1221,16 +1542,15 @@
           "sourceFile": "27 27考研：生理 视觉 核心-真题-串联-导图 天天师兄.pdf",
           "page": 10,
           "pageLabel": "PDF第10页",
+          "lectureNumber": 27,
           "title": "生理 视觉 · 第10页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-27-p10.webp",
-          "description": "第10题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "人的双眼可以各自独立看东西，但左右两眼有间距、就会造成两眼的视角有细微差别",
-            "①弥补单眼的生理性盲点、扩大视野",
-            "（双眼同时看某一物体产生的视觉）"
-          ],
+          "image": "exams/reviewed-mocks-20261104/physiology-e9d00c2ba1-p010.webp",
           "questionNumbers": [
             10
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "视力＝分辨两点的能力，常以最小视角的倒数表示。"
           ]
         }
       ]
@@ -1292,38 +1612,51 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-29",
-          "explanation": "正确答案：D（血压升高）。\n\n判断思路：前庭器官过强或过久受刺激可引起心率加快、呼吸加快、血压下降，以及恶心、呕吐、出汗等前庭自主神经反应。",
+          "explanation": "正确答案：D（血压升高）。\n\nD：前庭过度刺激可引起唾液分泌、恶心呕吐、呼吸和心率改变，血压常下降，故“血压升高”不属本题所列前庭自主反应。A、B、C为讲义列举的反应。",
           "knowledgeConnections": [
-            "题干线索：前庭自主神经反应的表现不包括",
-            "讲义要点：前庭器官过强或过久受刺激可引起心率加快、呼吸加快、血压下降，以及恶心、呕吐、出汗等前庭自主神经反应。",
-            "讲义要点：②利于对某些功能状态（如血压、姿势）进行持久恒定的调节",
-            "讲义要点：（通过抑制性中间神经元）",
-            "易混项：A. 唾液分泌；B. 呼吸加快；C. 心率加快"
+            "前庭器官既参与姿势、眼运动反射，也可通过自主神经引起晕动反应。",
+            "椭圆囊和球囊感受直线加速度，半规管感受角加速度。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-29",
+              "sourceSubject": "physiology",
+              "sourceFile": "29 27考研：生理 其它感觉 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 29,
+              "title": "生理 其它感觉 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/physiology-e72959dc3a-p001.webp",
+              "questionNumbers": [
+                11
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "前庭感受器包括椭圆囊、球囊和半规管；分别感受直线与旋转加速度。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 其它感觉",
-        "前庭器官过强或过久受刺激可引起心率加快、呼吸加快、血压下降，以及恶心、呕吐、出汗等前庭自主神经反应。",
-        "②利于对某些功能状态（如血压、姿势）进行持久恒定的调节",
-        "（通过抑制性中间神经元）",
-        "①痛觉感受器是游离神经末梢。"
+        "前庭器官既参与姿势、眼运动反射，也可通过自主神经引起晕动反应。",
+        "椭圆囊和球囊感受直线加速度，半规管感受角加速度。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-29",
         "sourceSubject": "physiology",
         "sourceFile": "29 27考研：生理 其它感觉 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 5,
-        "pageLabel": "PDF第5页",
-        "title": "生理 其它感觉 · 第5页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-29-p05.webp",
-        "description": "第11题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "②利于对某些功能状态（如血压、姿势）进行持久恒定的调节",
-          "①痛觉感受器是游离神经末梢。"
-        ],
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "lectureNumber": 29,
+        "title": "生理 其它感觉 · 第1页",
+        "image": "exams/reviewed-mocks-20261104/physiology-e72959dc3a-p001.webp",
         "questionNumbers": [
           11
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "前庭感受器包括椭圆囊、球囊和半规管；分别感受直线与旋转加速度。"
         ]
       },
       "lectureEvidencePages": [
@@ -1331,37 +1664,21 @@
           "lectureId": "foundation-physiology-29",
           "sourceSubject": "physiology",
           "sourceFile": "29 27考研：生理 其它感觉 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 5,
-          "pageLabel": "PDF第5页",
-          "title": "生理 其它感觉 · 第5页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-29-p05.webp",
-          "description": "第11题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "②利于对某些功能状态（如血压、姿势）进行持久恒定的调节",
-            "①痛觉感受器是游离神经末梢。"
-          ],
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "lectureNumber": 29,
+          "title": "生理 其它感觉 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/physiology-e72959dc3a-p001.webp",
           "questionNumbers": [
             11
-          ]
-        },
-        {
-          "lectureId": "foundation-physiology-29",
-          "sourceSubject": "physiology",
-          "sourceFile": "29 27考研：生理 其它感觉 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 6,
-          "pageLabel": "PDF第6页",
-          "title": "生理 其它感觉 · 第6页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-29-p06.webp",
-          "description": "第11题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "（通过抑制性中间神经元）",
-            "一个局部刺激可激活多个神经元"
           ],
-          "questionNumbers": [
-            11
+          "optionKeys": [],
+          "knowledgePoints": [
+            "前庭感受器包括椭圆囊、球囊和半规管；分别感受直线与旋转加速度。"
           ]
         }
-      ]
+      ],
+      "lectureEvidenceNotice": "原讲义此页介绍前庭感受器和适宜刺激，未逐项列出前庭自主神经反应。"
     },
     {
       "id": "physiology-foundation-mock-exam-20260907-q012",
@@ -1420,22 +1737,35 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-32",
-          "explanation": "正确答案：D（小肠平滑肌）。\n\n判断思路：去甲肾上腺素激活 α2 受体可使小肠壁平滑肌舒张；α1 受体主要使皮肤/内脏血管和胃肠括约肌收缩。",
+          "explanation": "正确答案：D（小肠平滑肌）。\n\nD：α受体兴奋可抑制小肠平滑肌运动，出现舒张。A、B血管平滑肌α受体兴奋主要收缩；冠脉或骨骼肌血管舒张应区分β₂受体及局部代谢作用。C胃肠括约肌α受体兴奋为收缩。",
           "knowledgeConnections": [
-            "题干线索：去甲肾上腺素激活 α 受体后引起舒张效应的部位是",
-            "讲义要点：去甲肾上腺素激活 α2 受体可使小肠壁平滑肌舒张；α1 受体主要使皮肤/内脏血管和胃肠括约肌收缩。",
-            "讲义要点：消化和泌尿活动↑：平滑肌收缩、括约肌舒张（但 LES收缩） 呼循消泌血腺眼腺体：分泌↑。",
-            "讲义要点：1.ACh 受体效应阻断剂举例 M-R 心脏：四负效应→血压↓，腺苷↓→冠脉收缩阿托品 （GPCR） 后马托品冠脉、骨骼肌血管、唾液腺/胃肠外分泌腺/脑膜/ 毒蕈碱外生殖器血管：舒张虹膜环形肌/瞳孔括约肌收缩：缩瞳睫状肌收缩：睫状小带/悬韧带松弛→晶状体变凸抑制心脏 →屈光度↑→视近物抑制血管兴奋其它支气管平滑肌收缩：气道口径↓→气道阻力↑",
-            "易混项：A. 冠状动脉；B. 骨骼肌血管；C. 胃肠括约肌"
+            "交感神经对胃肠道常呈抑制：管壁松弛、括约肌收缩。",
+            "同一递质效应取决于受体及组织，不能把α受体一概记为所有平滑肌都收缩。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-32",
+              "sourceSubject": "physiology",
+              "sourceFile": "32 27考研：生理 递质和受体 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 32,
+              "title": "生理 递质和受体 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/physiology-c62913006d-p003.webp",
+              "questionNumbers": [
+                12
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "交感神经对胃肠道常呈抑制：管壁松弛、括约肌收缩。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 递质和受体",
-        "去甲肾上腺素激活 α2 受体可使小肠壁平滑肌舒张；α1 受体主要使皮肤/内脏血管和胃肠括约肌收缩。",
-        "消化和泌尿活动↑：平滑肌收缩、括约肌舒张（但 LES收缩） 呼循消泌血腺眼腺体：分泌↑。",
-        "1.ACh 受体效应阻断剂举例 M-R 心脏：四负效应→血压↓，腺苷↓→冠脉收缩阿托品 （GPCR） 后马托品冠脉、骨骼肌血管、唾液腺/胃肠外分泌腺/脑膜/ 毒蕈碱外生殖器血管：舒张虹膜环形肌/瞳孔括约肌收缩：缩瞳睫状肌收缩：睫状小带/悬韧带松弛→晶状体变凸抑制心脏 →屈光度↑→视近物抑制血管兴奋其它支气管平滑肌收缩：气道口径↓→气道阻力↑",
-        "（动作电位仅见于可兴奋细胞：神经元、骨骼肌、心肌、平滑肌、部分腺体细胞）"
+        "交感神经对胃肠道常呈抑制：管壁松弛、括约肌收缩。",
+        "同一递质效应取决于受体及组织，不能把α受体一概记为所有平滑肌都收缩。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-32",
@@ -1443,15 +1773,15 @@
         "sourceFile": "32 27考研：生理 递质和受体 核心-真题-串联-导图 天天师兄.pdf",
         "page": 3,
         "pageLabel": "PDF第3页",
+        "lectureNumber": 32,
         "title": "生理 递质和受体 · 第3页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-32-p03.webp",
-        "description": "第12题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "消化和泌尿活动↑：平滑肌收缩、括约肌舒张（但 LES收缩） 呼循消泌血腺眼腺体：分泌↑。",
-          "1.ACh 受体效应阻断剂举例 M-R 心脏：四负效应→血压↓，腺苷↓→冠脉收缩阿托品 （GPCR） 后马托品冠脉、骨骼肌血管、唾液腺/胃肠外分泌腺/脑膜/ 毒蕈碱外生殖器血管：舒张虹膜环形肌/瞳孔括约肌收缩：缩瞳睫状肌收缩：睫状小带/悬韧带松弛→晶状体变凸抑制心脏 →屈光度↑→视近物抑制血管兴奋其它支气管平滑肌收缩：气道口径↓→气道阻力↑"
-        ],
+        "image": "exams/reviewed-mocks-20261104/physiology-c62913006d-p003.webp",
         "questionNumbers": [
           12
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "交感神经对胃肠道常呈抑制：管壁松弛、括约肌收缩。"
         ]
       },
       "lectureEvidencePages": [
@@ -1461,15 +1791,15 @@
           "sourceFile": "32 27考研：生理 递质和受体 核心-真题-串联-导图 天天师兄.pdf",
           "page": 3,
           "pageLabel": "PDF第3页",
+          "lectureNumber": 32,
           "title": "生理 递质和受体 · 第3页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-32-p03.webp",
-          "description": "第12题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "消化和泌尿活动↑：平滑肌收缩、括约肌舒张（但 LES收缩） 呼循消泌血腺眼腺体：分泌↑。",
-            "1.ACh 受体效应阻断剂举例 M-R 心脏：四负效应→血压↓，腺苷↓→冠脉收缩阿托品 （GPCR） 后马托品冠脉、骨骼肌血管、唾液腺/胃肠外分泌腺/脑膜/ 毒蕈碱外生殖器血管：舒张虹膜环形肌/瞳孔括约肌收缩：缩瞳睫状肌收缩：睫状小带/悬韧带松弛→晶状体变凸抑制心脏 →屈光度↑→视近物抑制血管兴奋其它支气管平滑肌收缩：气道口径↓→气道阻力↑"
-          ],
+          "image": "exams/reviewed-mocks-20261104/physiology-c62913006d-p003.webp",
           "questionNumbers": [
             12
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "交感神经对胃肠道常呈抑制：管壁松弛、括约肌收缩。"
           ]
         }
       ]
@@ -1531,22 +1861,35 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-33",
-          "explanation": "正确答案：D（高频电刺激丘脑底核是治疗方法之一）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：以下关于帕金森病的叙述 ，正确的是。讲义依据：拳王阿里职业生涯头部遭遇了超过近 3 万次重击，这可能是阿里患上帕金森的重要原因；爬行时期：足底受刺激引起拇趾背伸+四趾呈扇形散开（方便爬高）——原始反射。因此答案为D（高频电刺激丘脑底核是治疗方法之一）。",
+          "explanation": "正确答案：D（高频电刺激丘脑底核是治疗方法之一）。\n\nD：高频刺激丘脑底核可用于调节异常基底神经节环路。帕金森病主要为黑质多巴胺能神经元变性，不是A的GABA能中间神经元病变；B为直接通路减弱、间接通路增强；C表现肌张力增高、随意运动减少。",
           "knowledgeConnections": [
-            "题干线索：以下关于帕金森病的叙述 ，正确的是",
-            "讲义要点：拳王阿里职业生涯头部遭遇了超过近 3 万次重击，这可能是阿里患上帕金森的重要原因",
-            "讲义要点：爬行时期：足底受刺激引起拇趾背伸+四趾呈扇形散开（方便爬高）——原始反射",
-            "讲义要点：直立行走时期：足底受刺激引起所有足趾跖屈（方便迈步），它抑制了原始反射",
-            "易混项：A. 与 GABA 能中间神经元病变有关；B. 直接通路增强，间接通路减弱；C. 肌张力降低，随意运动增多"
+            "黑质-纹状体多巴胺：兴奋D₁直接通路、抑制D₂间接通路，净效应促进运动。",
+            "多巴胺减少→丘脑受到的抑制增强→运动启动困难；GABA能神经元病变须与亨廷顿病区分。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-33",
+              "sourceSubject": "physiology",
+              "sourceFile": "33 27考研：生理 神经系统调控躯体运动 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 11,
+              "pageLabel": "PDF第11页",
+              "lectureNumber": 33,
+              "title": "生理 神经系统调控躯体运动 · 第11页",
+              "image": "exams/reviewed-mocks-20261104/physiology-4fd963e671-p011.webp",
+              "questionNumbers": [
+                13
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "黑质-纹状体多巴胺：兴奋D₁直接通路、抑制D₂间接通路，净效应促进运动。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 神经系统调控躯体运动",
-        "拳王阿里职业生涯头部遭遇了超过近 3 万次重击，这可能是阿里患上帕金森的重要原因",
-        "爬行时期：足底受刺激引起拇趾背伸+四趾呈扇形散开（方便爬高）——原始反射",
-        "直立行走时期：足底受刺激引起所有足趾跖屈（方便迈步），它抑制了原始反射",
-        "疼痛刺激解除后、肢体仍能维持一段时间 （后发放/后放电——环式联系的正反馈）"
+        "黑质-纹状体多巴胺：兴奋D₁直接通路、抑制D₂间接通路，净效应促进运动。",
+        "多巴胺减少→丘脑受到的抑制增强→运动启动困难；GABA能神经元病变须与亨廷顿病区分。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-33",
@@ -1554,14 +1897,15 @@
         "sourceFile": "33 27考研：生理 神经系统调控躯体运动 核心-真题-串联-导图 天天师兄.pdf",
         "page": 11,
         "pageLabel": "PDF第11页",
+        "lectureNumber": 33,
         "title": "生理 神经系统调控躯体运动 · 第11页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-33-p11.webp",
-        "description": "第13题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "拳王阿里职业生涯头部遭遇了超过近 3 万次重击，这可能是阿里患上帕金森的重要原因"
-        ],
+        "image": "exams/reviewed-mocks-20261104/physiology-4fd963e671-p011.webp",
         "questionNumbers": [
           13
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "黑质-纹状体多巴胺：兴奋D₁直接通路、抑制D₂间接通路，净效应促进运动。"
         ]
       },
       "lectureEvidencePages": [
@@ -1571,31 +1915,15 @@
           "sourceFile": "33 27考研：生理 神经系统调控躯体运动 核心-真题-串联-导图 天天师兄.pdf",
           "page": 11,
           "pageLabel": "PDF第11页",
+          "lectureNumber": 33,
           "title": "生理 神经系统调控躯体运动 · 第11页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-33-p11.webp",
-          "description": "第13题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "拳王阿里职业生涯头部遭遇了超过近 3 万次重击，这可能是阿里患上帕金森的重要原因"
-          ],
+          "image": "exams/reviewed-mocks-20261104/physiology-4fd963e671-p011.webp",
           "questionNumbers": [
             13
-          ]
-        },
-        {
-          "lectureId": "foundation-physiology-33",
-          "sourceSubject": "physiology",
-          "sourceFile": "33 27考研：生理 神经系统调控躯体运动 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 14,
-          "pageLabel": "PDF第14页",
-          "title": "生理 神经系统调控躯体运动 · 第14页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-33-p14.webp",
-          "description": "第13题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "爬行时期：足底受刺激引起拇趾背伸+四趾呈扇形散开（方便爬高）——原始反射",
-            "直立行走时期：足底受刺激引起所有足趾跖屈（方便迈步），它抑制了原始反射"
           ],
-          "questionNumbers": [
-            13
+          "optionKeys": [],
+          "knowledgePoints": [
+            "黑质-纹状体多巴胺：兴奋D₁直接通路、抑制D₂间接通路，净效应促进运动。"
           ]
         }
       ]
@@ -1657,58 +1985,69 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-41",
-          "explanation": "正确答案：A（缩宫素）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：与催乳素共同参与射乳反射的激素是。讲义依据：⑥启动分娩的决定因素是孕激素撤退（不是缩宫素）；缩胆囊素-促胃液素、促胰液素-血管活性肠肽、生长激素-催乳素、LH-hCG、ACTH-促黑。因此答案为A（缩宫素）。",
+          "explanation": "正确答案：A（缩宫素）。\n\nA：催乳素促进乳汁生成，缩宫素使乳腺腺泡周围肌上皮细胞收缩而射乳。B生长激素、C甲状腺激素和D糖皮质激素虽影响发育代谢，均不是吸吮触发射乳反射的直接效应激素。",
           "knowledgeConnections": [
-            "题干线索：与催乳素共同参与射乳反射的激素是",
-            "讲义要点：⑥启动分娩的决定因素是孕激素撤退（不是缩宫素）",
-            "讲义要点：缩胆囊素-促胃液素、促胰液素-血管活性肠肽、生长激素-催乳素、LH-hCG、ACTH-促黑",
-            "讲义要点：泌雌、孕激素（接盘侠）",
-            "易混项：B. 生长激素；C. 甲状腺激素；D. 糖皮质激素"
+            "吸吮→下丘脑→神经垂体释放缩宫素→肌上皮细胞收缩。",
+            "泌乳与射乳分开：催乳素来自腺垂体；缩宫素在下丘脑合成、由神经垂体释放。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-41",
+              "sourceSubject": "physiology",
+              "sourceFile": "1 27考研：生理 绪论 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 1,
+              "title": "生理 绪论 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/physiology-e94a067473-p005.webp",
+              "questionNumbers": [
+                14
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "吸吮→下丘脑→神经垂体释放缩宫素→肌上皮细胞收缩。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 生殖",
-        "⑥启动分娩的决定因素是孕激素撤退（不是缩宫素）",
-        "缩胆囊素-促胃液素、促胰液素-血管活性肠肽、生长激素-催乳素、LH-hCG、ACTH-促黑",
-        "泌雌、孕激素（接盘侠）",
-        "肾上腺皮质网状带分泌的雄激素，在脂肪组织等经芳香化酶→雌激素，是绝经后雌激素的"
+        "吸吮→下丘脑→神经垂体释放缩宫素→肌上皮细胞收缩。",
+        "泌乳与射乳分开：催乳素来自腺垂体；缩宫素在下丘脑合成、由神经垂体释放。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-41",
         "sourceSubject": "physiology",
-        "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 8,
-        "pageLabel": "PDF第8页",
-        "title": "生理 生殖 · 第8页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-41-p08.webp",
-        "description": "第14题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "⑥启动分娩的决定因素是孕激素撤退（不是缩宫素）",
-          "缩胆囊素-促胃液素、促胰液素-血管活性肠肽、生长激素-催乳素、LH-hCG、ACTH-促黑",
-          "泌雌、孕激素（接盘侠）"
-        ],
+        "sourceFile": "1 27考研：生理 绪论 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "lectureNumber": 1,
+        "title": "生理 绪论 · 第5页",
+        "image": "exams/reviewed-mocks-20261104/physiology-e94a067473-p005.webp",
         "questionNumbers": [
           14
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "吸吮→下丘脑→神经垂体释放缩宫素→肌上皮细胞收缩。"
         ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "foundation-physiology-41",
           "sourceSubject": "physiology",
-          "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 8,
-          "pageLabel": "PDF第8页",
-          "title": "生理 生殖 · 第8页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-41-p08.webp",
-          "description": "第14题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "⑥启动分娩的决定因素是孕激素撤退（不是缩宫素）",
-            "缩胆囊素-促胃液素、促胰液素-血管活性肠肽、生长激素-催乳素、LH-hCG、ACTH-促黑",
-            "泌雌、孕激素（接盘侠）"
-          ],
+          "sourceFile": "1 27考研：生理 绪论 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "lectureNumber": 1,
+          "title": "生理 绪论 · 第5页",
+          "image": "exams/reviewed-mocks-20261104/physiology-e94a067473-p005.webp",
           "questionNumbers": [
             14
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "吸吮→下丘脑→神经垂体释放缩宫素→肌上皮细胞收缩。"
           ]
         }
       ]
@@ -1770,22 +2109,35 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-39",
-          "explanation": "正确答案：C（促进胆固醇合成，更加速其转化）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：甲状腺素在生理浓度范围内对物质代谢的影响是。讲义依据：三、甲状腺激素对物质代谢的影响；性感认识：加速物质代谢的双向作用血糖 ①促进葡萄糖在肠吸收、促进糖原分解、促进糖异生、增强升糖先↑（餐后）后↓ 激素的升糖效应串：甲亢高血糖 ②促进外周组织利用糖以降低血糖（恢复） 脂类体脂↓、血胆固醇↓ 分解↑＞合成↑ 串：甲减易致动脉粥样硬化蛋白质 ①生理量合成↑：与生长激素协同促进骨等。因此答案为C（促进胆固醇合成，更加速其转化）。",
+          "explanation": "正确答案：C（促进胆固醇合成，更加速其转化）。\n\nC：甲状腺激素既促进胆固醇合成，也促进其转化清除，后者较明显。A实际促进糖吸收和利用；B也促进脂肪分解；D负氮平衡主要见于甲状腺激素过量，生理量促进蛋白质合成。",
           "knowledgeConnections": [
-            "题干线索：甲状腺素在生理浓度范围内对物质代谢的影响是",
-            "讲义要点：三、甲状腺激素对物质代谢的影响",
-            "讲义要点：性感认识：加速物质代谢的双向作用血糖 ①促进葡萄糖在肠吸收、促进糖原分解、促进糖异生、增强升糖先↑（餐后）后↓ 激素的升糖效应串：甲亢高血糖 ②促进外周组织利用糖以降低血糖（恢复） 脂类体脂↓、血胆固醇↓ 分解↑＞合成↑ 串：甲减易致动脉粥样硬化蛋白质 ①生理量合成↑：与生长激素协同促进骨等",
-            "讲义要点：五、甲状腺激素分泌的影响因素",
-            "易混项：A. 抑制组织利用糖，使血糖浓度升高；B. 促进脂肪酸合成，并抑制其降解；D. 加强蛋白质分解，出现负氮平衡"
+            "甲亢可出现代谢率、产热和食欲升高，同时体重下降。",
+            "甲状腺激素对蛋白质作用有剂量差异：生理量促合成，过量促分解。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-39",
+              "sourceSubject": "physiology",
+              "sourceFile": "39 27考研：生理 甲状腺激素 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 39,
+              "title": "生理 甲状腺激素 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/physiology-b2e1fd01b6-p002.webp",
+              "questionNumbers": [
+                15
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "甲亢可出现代谢率、产热和食欲升高，同时体重下降。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 甲状腺激素",
-        "三、甲状腺激素对物质代谢的影响",
-        "性感认识：加速物质代谢的双向作用血糖 ①促进葡萄糖在肠吸收、促进糖原分解、促进糖异生、增强升糖先↑（餐后）后↓ 激素的升糖效应串：甲亢高血糖 ②促进外周组织利用糖以降低血糖（恢复） 脂类体脂↓、血胆固醇↓ 分解↑＞合成↑ 串：甲减易致动脉粥样硬化蛋白质 ①生理量合成↑：与生长激素协同促进骨等",
-        "五、甲状腺激素分泌的影响因素",
-        "二、甲状腺激素的合成和储存"
+        "甲亢可出现代谢率、产热和食欲升高，同时体重下降。",
+        "甲状腺激素对蛋白质作用有剂量差异：生理量促合成，过量促分解。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-39",
@@ -1793,15 +2145,15 @@
         "sourceFile": "39 27考研：生理 甲状腺激素 核心-真题-串联-导图 天天师兄.pdf",
         "page": 2,
         "pageLabel": "PDF第2页",
+        "lectureNumber": 39,
         "title": "生理 甲状腺激素 · 第2页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-39-p02.webp",
-        "description": "第15题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "三、甲状腺激素对物质代谢的影响",
-          "性感认识：加速物质代谢的双向作用血糖 ①促进葡萄糖在肠吸收、促进糖原分解、促进糖异生、增强升糖先↑（餐后）后↓ 激素的升糖效应串：甲亢高血糖 ②促进外周组织利用糖以降低血糖（恢复） 脂类体脂↓、血胆固醇↓ 分解↑＞合成↑ 串：甲减易致动脉粥样硬化蛋白质 ①生理量合成↑：与生长激素协同促进骨等"
-        ],
+        "image": "exams/reviewed-mocks-20261104/physiology-b2e1fd01b6-p002.webp",
         "questionNumbers": [
           15
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "甲亢可出现代谢率、产热和食欲升高，同时体重下降。"
         ]
       },
       "lectureEvidencePages": [
@@ -1811,15 +2163,15 @@
           "sourceFile": "39 27考研：生理 甲状腺激素 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
+          "lectureNumber": 39,
           "title": "生理 甲状腺激素 · 第2页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-39-p02.webp",
-          "description": "第15题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "三、甲状腺激素对物质代谢的影响",
-            "性感认识：加速物质代谢的双向作用血糖 ①促进葡萄糖在肠吸收、促进糖原分解、促进糖异生、增强升糖先↑（餐后）后↓ 激素的升糖效应串：甲亢高血糖 ②促进外周组织利用糖以降低血糖（恢复） 脂类体脂↓、血胆固醇↓ 分解↑＞合成↑ 串：甲减易致动脉粥样硬化蛋白质 ①生理量合成↑：与生长激素协同促进骨等"
-          ],
+          "image": "exams/reviewed-mocks-20261104/physiology-b2e1fd01b6-p002.webp",
           "questionNumbers": [
             15
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "甲亢可出现代谢率、产热和食欲升高，同时体重下降。"
           ]
         }
       ]
@@ -1881,38 +2233,68 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-41",
-          "explanation": "正确答案：D（血清孕激素水平升高）。\n\n判断思路：排卵后黄体形成，孕激素明显升高，并使基础体温升高，因此孕激素升高更能证明“已经发生排卵”。",
+          "explanation": "正确答案：D（血清孕激素水平升高）。\n\nD：排卵后形成黄体，孕激素显著增加，因此较能说明已经排卵。FSH促进卵泡发育，雌激素在排卵前已升高，LH峰是排卵的触发信号，A、B、C升高都不如孕激素升高能证明已形成黄体。",
           "knowledgeConnections": [
-            "题干线索：下列最有助于判断有排卵发生的是",
-            "讲义要点：排卵后黄体形成，孕激素明显升高，并使基础体温升高，因此孕激素升高更能证明“已经发生排卵”。",
-            "讲义要点：泌雌、孕激素（接盘侠）",
-            "讲义要点：（没有雌孕激素撤退——停经）",
-            "易混项：A. 血清 FSH 水平升高；B. 血清 LH 水平升高；C. 血清雌激素水平升高"
+            "排卵前雌激素持续高水平→正反馈→LH峰→排卵。",
+            "黄体分泌孕激素→基础体温升高，并使增生期子宫内膜转为分泌期。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-41",
+              "sourceSubject": "physiology",
+              "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 41,
+              "title": "生理 生殖 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/physiology-a60d1b5713-p004.webp",
+              "questionNumbers": [
+                16
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "排卵前雌激素持续高水平→正反馈→LH峰→排卵。"
+              ]
+            },
+            {
+              "lectureId": "foundation-physiology-41",
+              "sourceSubject": "physiology",
+              "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 41,
+              "title": "生理 生殖 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/physiology-a60d1b5713-p005.webp",
+              "questionNumbers": [
+                16
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "排卵前雌激素持续高水平→正反馈→LH峰→排卵。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 生殖",
-        "排卵后黄体形成，孕激素明显升高，并使基础体温升高，因此孕激素升高更能证明“已经发生排卵”。",
-        "泌雌、孕激素（接盘侠）",
-        "（没有雌孕激素撤退——停经）",
-        "孕激素使子宫内膜分泌增多"
+        "排卵前雌激素持续高水平→正反馈→LH峰→排卵。",
+        "黄体分泌孕激素→基础体温升高，并使增生期子宫内膜转为分泌期。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-41",
         "sourceSubject": "physiology",
         "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 8,
-        "pageLabel": "PDF第8页",
-        "title": "生理 生殖 · 第8页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-41-p08.webp",
-        "description": "第16题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "泌雌、孕激素（接盘侠）",
-          "（没有雌孕激素撤退——停经）"
-        ],
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 41,
+        "title": "生理 生殖 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/physiology-a60d1b5713-p004.webp",
         "questionNumbers": [
           16
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "排卵前雌激素持续高水平→正反馈→LH峰→排卵。"
         ]
       },
       "lectureEvidencePages": [
@@ -1920,17 +2302,34 @@
           "lectureId": "foundation-physiology-41",
           "sourceSubject": "physiology",
           "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 8,
-          "pageLabel": "PDF第8页",
-          "title": "生理 生殖 · 第8页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-41-p08.webp",
-          "description": "第16题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "泌雌、孕激素（接盘侠）",
-            "（没有雌孕激素撤退——停经）"
-          ],
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 41,
+          "title": "生理 生殖 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/physiology-a60d1b5713-p004.webp",
           "questionNumbers": [
             16
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "排卵前雌激素持续高水平→正反馈→LH峰→排卵。"
+          ]
+        },
+        {
+          "lectureId": "foundation-physiology-41",
+          "sourceSubject": "physiology",
+          "sourceFile": "41 27考研：生理 生殖 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "lectureNumber": 41,
+          "title": "生理 生殖 · 第5页",
+          "image": "exams/reviewed-mocks-20261104/physiology-a60d1b5713-p005.webp",
+          "questionNumbers": [
+            16
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "排卵前雌激素持续高水平→正反馈→LH峰→排卵。"
           ]
         }
       ]
@@ -1992,37 +2391,68 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-03",
-          "explanation": "正确答案：A（电压门控 Na+ 通道开放，产生净 Na+ 流动）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：膜电位突然由静息电位改变为 0 mV 时。讲义依据：阈下刺激→电压门控钠通道开放较少→Na+内流引起的去极化达不到阈电位、其去极化很快；尚未关（GNa↑） 电压门控钾通道。因此答案为A（电压门控 Na+ 通道开放，产生净 Na+ 流动）。",
+          "explanation": "正确答案：A（电压门控 Na+ 通道开放，产生净 Na+ 流动）。\n\nA：膜去极化至0mV时，Na⁺通道可被激活，膜电位仍低于Na⁺平衡电位，Na⁺有净内流。B须达到Na⁺平衡电位才成立；C在0mV仍有K⁺外向驱动力；D瞬间改变电压不会消除K⁺浓度梯度。",
           "knowledgeConnections": [
-            "题干线索：膜电位突然由静息电位改变为 0 mV 时",
-            "讲义要点：阈下刺激→电压门控钠通道开放较少→Na+内流引起的去极化达不到阈电位、其去极化很快",
-            "讲义要点：尚未关（GNa↑） 电压门控钾通道",
-            "讲义要点：Na+电导变化的本质是电压门控钠通道的开放、关闭，因此需要刺激使电压门控钠通道被激",
-            "易混项：B. 电压门控 Na+ 通道开放，不产生净 Na+ 流动；C. 电压门控 K+ 通道开放，不产生净 K+ 流动；D. 膜两侧 K+ 浓度梯度为 0"
+            "离子电流取决于通透性与驱动力，两者缺一不可。",
+            "膜电位等于某离子的平衡电位时，该离子净电流为零，其他离子仍可有净流动。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-03",
+              "sourceSubject": "physiology",
+              "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 3,
+              "title": "生理 细胞电活动 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/physiology-72122f52b8-p003.webp",
+              "questionNumbers": [
+                116
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "离子电流取决于通透性与驱动力，两者缺一不可。"
+              ]
+            },
+            {
+              "lectureId": "foundation-physiology-03",
+              "sourceSubject": "physiology",
+              "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 3,
+              "title": "生理 细胞电活动 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/physiology-72122f52b8-p004.webp",
+              "questionNumbers": [
+                116
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "离子电流取决于通透性与驱动力，两者缺一不可。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 细胞电活动",
-        "阈下刺激→电压门控钠通道开放较少→Na+内流引起的去极化达不到阈电位、其去极化很快",
-        "尚未关（GNa↑） 电压门控钾通道",
-        "Na+电导变化的本质是电压门控钠通道的开放、关闭，因此需要刺激使电压门控钠通道被激",
-        "电压门控通道越多→电导越大"
+        "离子电流取决于通透性与驱动力，两者缺一不可。",
+        "膜电位等于某离子的平衡电位时，该离子净电流为零，其他离子仍可有净流动。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-03",
         "sourceSubject": "physiology",
         "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 13,
-        "pageLabel": "PDF第13页",
-        "title": "生理 细胞电活动 · 第13页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-03-p13.webp",
-        "description": "第116题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "阈下刺激→电压门控钠通道开放较少→Na+内流引起的去极化达不到阈电位、其去极化很快"
-        ],
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "lectureNumber": 3,
+        "title": "生理 细胞电活动 · 第3页",
+        "image": "exams/reviewed-mocks-20261104/physiology-72122f52b8-p003.webp",
         "questionNumbers": [
           116
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "离子电流取决于通透性与驱动力，两者缺一不可。"
         ]
       },
       "lectureEvidencePages": [
@@ -2030,32 +2460,34 @@
           "lectureId": "foundation-physiology-03",
           "sourceSubject": "physiology",
           "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 13,
-          "pageLabel": "PDF第13页",
-          "title": "生理 细胞电活动 · 第13页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-03-p13.webp",
-          "description": "第116题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "阈下刺激→电压门控钠通道开放较少→Na+内流引起的去极化达不到阈电位、其去极化很快"
-          ],
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "lectureNumber": 3,
+          "title": "生理 细胞电活动 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/physiology-72122f52b8-p003.webp",
           "questionNumbers": [
             116
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "离子电流取决于通透性与驱动力，两者缺一不可。"
           ]
         },
         {
           "lectureId": "foundation-physiology-03",
           "sourceSubject": "physiology",
           "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 11,
-          "pageLabel": "PDF第11页",
-          "title": "生理 细胞电活动 · 第11页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-03-p11.webp",
-          "description": "第116题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "尚未关（GNa↑） 电压门控钾通道"
-          ],
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 3,
+          "title": "生理 细胞电活动 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/physiology-72122f52b8-p004.webp",
           "questionNumbers": [
             116
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "离子电流取决于通透性与驱动力，两者缺一不可。"
           ]
         }
       ]
@@ -2117,37 +2549,68 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-03",
-          "explanation": "正确答案：B（电压门控 Na+ 通道开放，不产生净 Na+ 流动）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：膜电位突然由静息电位去极化至 Na+ 平衡电位时。讲义依据：阈下刺激→电压门控钠通道开放较少→Na+内流引起的去极化达不到阈电位、其去极化很快；Na+电导↓（去极化阻滞）、K+电导↑（电压门控钾通道没有失活态）。因此答案为B（电压门控 Na+ 通道开放，不产生净 Na+ 流动）。",
+          "explanation": "正确答案：B（电压门控 Na+ 通道开放，不产生净 Na+ 流动）。\n\nB：Na⁺平衡电位时，Na⁺的化学驱动力与电场力抵消，虽有通道开放也无净Na⁺流动。A对应膜电位偏离Na⁺平衡电位；C需达到K⁺平衡电位；D离子达电化学平衡不意味着浓度梯度为零。",
           "knowledgeConnections": [
-            "题干线索：膜电位突然由静息电位去极化至 Na+ 平衡电位时",
-            "讲义要点：阈下刺激→电压门控钠通道开放较少→Na+内流引起的去极化达不到阈电位、其去极化很快",
-            "讲义要点：Na+电导↓（去极化阻滞）、K+电导↑（电压门控钾通道没有失活态）",
-            "讲义要点：尚未关（GNa↑） 电压门控钾通道",
-            "易混项：A. 电压门控 Na+ 通道开放，产生净 Na+ 流动；C. 电压门控 K+ 通道开放，不产生净 K+ 流动；D. 膜两侧 K+ 浓度梯度为 0"
+            "离子电流取决于通透性与驱动力，两者缺一不可。",
+            "膜电位等于某离子的平衡电位时，该离子净电流为零，其他离子仍可有净流动。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-03",
+              "sourceSubject": "physiology",
+              "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 3,
+              "title": "生理 细胞电活动 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/physiology-72122f52b8-p003.webp",
+              "questionNumbers": [
+                117
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "离子电流取决于通透性与驱动力，两者缺一不可。"
+              ]
+            },
+            {
+              "lectureId": "foundation-physiology-03",
+              "sourceSubject": "physiology",
+              "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 3,
+              "title": "生理 细胞电活动 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/physiology-72122f52b8-p004.webp",
+              "questionNumbers": [
+                117
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "离子电流取决于通透性与驱动力，两者缺一不可。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 细胞电活动",
-        "阈下刺激→电压门控钠通道开放较少→Na+内流引起的去极化达不到阈电位、其去极化很快",
-        "Na+电导↓（去极化阻滞）、K+电导↑（电压门控钾通道没有失活态）",
-        "尚未关（GNa↑） 电压门控钾通道",
-        "Na+电导变化的本质是电压门控钠通道的开放、关闭，因此需要刺激使电压门控钠通道被激"
+        "离子电流取决于通透性与驱动力，两者缺一不可。",
+        "膜电位等于某离子的平衡电位时，该离子净电流为零，其他离子仍可有净流动。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-03",
         "sourceSubject": "physiology",
         "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 13,
-        "pageLabel": "PDF第13页",
-        "title": "生理 细胞电活动 · 第13页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-03-p13.webp",
-        "description": "第117题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "阈下刺激→电压门控钠通道开放较少→Na+内流引起的去极化达不到阈电位、其去极化很快"
-        ],
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "lectureNumber": 3,
+        "title": "生理 细胞电活动 · 第3页",
+        "image": "exams/reviewed-mocks-20261104/physiology-72122f52b8-p003.webp",
         "questionNumbers": [
           117
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "离子电流取决于通透性与驱动力，两者缺一不可。"
         ]
       },
       "lectureEvidencePages": [
@@ -2155,32 +2618,34 @@
           "lectureId": "foundation-physiology-03",
           "sourceSubject": "physiology",
           "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 13,
-          "pageLabel": "PDF第13页",
-          "title": "生理 细胞电活动 · 第13页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-03-p13.webp",
-          "description": "第117题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "阈下刺激→电压门控钠通道开放较少→Na+内流引起的去极化达不到阈电位、其去极化很快"
-          ],
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "lectureNumber": 3,
+          "title": "生理 细胞电活动 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/physiology-72122f52b8-p003.webp",
           "questionNumbers": [
             117
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "离子电流取决于通透性与驱动力，两者缺一不可。"
           ]
         },
         {
           "lectureId": "foundation-physiology-03",
           "sourceSubject": "physiology",
           "sourceFile": "3 27考研：生理 细胞电活动 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 16,
-          "pageLabel": "PDF第16页",
-          "title": "生理 细胞电活动 · 第16页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-03-p16.webp",
-          "description": "第117题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "Na+电导↓（去极化阻滞）、K+电导↑（电压门控钾通道没有失活态）"
-          ],
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 3,
+          "title": "生理 细胞电活动 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/physiology-72122f52b8-p004.webp",
           "questionNumbers": [
             117
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "离子电流取决于通透性与驱动力，两者缺一不可。"
           ]
         }
       ]
@@ -2242,39 +2707,51 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-30",
-          "explanation": "正确答案：C（Aδ 类纤维）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：传导皮肤粗略触压觉的神经纤维是。讲义依据：3.神经纤维的兴奋传导；轴突被胶质细胞反复包绕形成髓鞘 （有髓神经纤维）。因此答案为C（Aδ 类纤维）。",
+          "explanation": "正确答案：C（Aδ 类纤维）。\n\nC：皮肤粗略触压觉经Aδ类纤维传导；精细触压觉经Aβ类纤维。Aα主要传导本体感觉并支配骨骼肌；B为精细触压觉；D为自主神经节前纤维。",
           "knowledgeConnections": [
-            "题干线索：传导皮肤粗略触压觉的神经纤维是",
-            "讲义要点：3.神经纤维的兴奋传导",
-            "讲义要点：轴突被胶质细胞反复包绕形成髓鞘 （有髓神经纤维）",
-            "讲义要点：串：糖尿病、多发性硬化症、吉兰-巴雷综合征等因脱髓鞘导致神经纤维传导速度减慢、中断，患者出现运动和感觉障碍温度温度↑（代谢↑）→速度↑ 串：低温麻醉导致神经传导阻滞",
-            "易混项：A. Aα 类纤维；B. Aβ 类纤维；D. B 类纤维"
+            "神经纤维一般直径越大、髓鞘越完整，传导越快。",
+            "Aδ有髓、传快痛；C无髓、传慢痛及部分自主节后冲动。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-30",
+              "sourceSubject": "physiology",
+              "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 30,
+              "title": "生理 神经元及胶质细胞 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/physiology-eaea720624-p003.webp",
+              "questionNumbers": [
+                118
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "神经纤维一般直径越大、髓鞘越完整，传导越快。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 神经元及胶质细胞",
-        "3.神经纤维的兴奋传导",
-        "轴突被胶质细胞反复包绕形成髓鞘 （有髓神经纤维）",
-        "串：糖尿病、多发性硬化症、吉兰-巴雷综合征等因脱髓鞘导致神经纤维传导速度减慢、中断，患者出现运动和感觉障碍温度温度↑（代谢↑）→速度↑ 串：低温麻醉导致神经传导阻滞",
-        "（2）神经纤维兴奋传导速度的影响因素直径直径↑（电阻↓）→速度↑ 当轴索（如轴突）直径与神经纤维（如轴突外面包绕髓鞘形成有髓神经纤维） 总直径之比为 0.6:1 时出现速度峰值髓鞘有髓神经纤维通过郎飞结跳跃式传导：速度快、耗能少"
+        "神经纤维一般直径越大、髓鞘越完整，传导越快。",
+        "Aδ有髓、传快痛；C无髓、传慢痛及部分自主节后冲动。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-30",
         "sourceSubject": "physiology",
         "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 2,
-        "pageLabel": "PDF第2页",
-        "title": "生理 神经元及胶质细胞 · 第2页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-30-p02.webp",
-        "description": "第118题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "3.神经纤维的兴奋传导",
-          "串：糖尿病、多发性硬化症、吉兰-巴雷综合征等因脱髓鞘导致神经纤维传导速度减慢、中断，患者出现运动和感觉障碍温度温度↑（代谢↑）→速度↑ 串：低温麻醉导致神经传导阻滞",
-          "（2）神经纤维兴奋传导速度的影响因素直径直径↑（电阻↓）→速度↑ 当轴索（如轴突）直径与神经纤维（如轴突外面包绕髓鞘形成有髓神经纤维） 总直径之比为 0.6:1 时出现速度峰值髓鞘有髓神经纤维通过郎飞结跳跃式传导：速度快、耗能少"
-        ],
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "lectureNumber": 30,
+        "title": "生理 神经元及胶质细胞 · 第3页",
+        "image": "exams/reviewed-mocks-20261104/physiology-eaea720624-p003.webp",
         "questionNumbers": [
           118
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "神经纤维一般直径越大、髓鞘越完整，传导越快。"
         ]
       },
       "lectureEvidencePages": [
@@ -2282,34 +2759,17 @@
           "lectureId": "foundation-physiology-30",
           "sourceSubject": "physiology",
           "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
-          "title": "生理 神经元及胶质细胞 · 第2页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-30-p02.webp",
-          "description": "第118题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "3.神经纤维的兴奋传导",
-            "串：糖尿病、多发性硬化症、吉兰-巴雷综合征等因脱髓鞘导致神经纤维传导速度减慢、中断，患者出现运动和感觉障碍温度温度↑（代谢↑）→速度↑ 串：低温麻醉导致神经传导阻滞",
-            "（2）神经纤维兴奋传导速度的影响因素直径直径↑（电阻↓）→速度↑ 当轴索（如轴突）直径与神经纤维（如轴突外面包绕髓鞘形成有髓神经纤维） 总直径之比为 0.6:1 时出现速度峰值髓鞘有髓神经纤维通过郎飞结跳跃式传导：速度快、耗能少"
-          ],
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "lectureNumber": 30,
+          "title": "生理 神经元及胶质细胞 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/physiology-eaea720624-p003.webp",
           "questionNumbers": [
             118
-          ]
-        },
-        {
-          "lectureId": "foundation-physiology-30",
-          "sourceSubject": "physiology",
-          "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
-          "title": "生理 神经元及胶质细胞 · 第1页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-30-p01.webp",
-          "description": "第118题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "轴突被胶质细胞反复包绕形成髓鞘 （有髓神经纤维）"
           ],
-          "questionNumbers": [
-            118
+          "optionKeys": [],
+          "knowledgePoints": [
+            "神经纤维一般直径越大、髓鞘越完整，传导越快。"
           ]
         }
       ]
@@ -2371,39 +2831,51 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-30",
-          "explanation": "正确答案：B（Aβ 类纤维）。\n\n判断思路：Aβ（II 类）有髓纤维主要传导触压觉和本体感觉，与精细触压觉相匹配；Aδ 更常与粗略触压觉、快痛和温度觉相联系。",
+          "explanation": "正确答案：B（Aβ 类纤维）。\n\nB：皮肤精细触压觉经Aβ类纤维传导。Aα主要为本体感觉和骨骼肌运动；Aδ传导快痛、温度及粗略触压觉；B类为有髓自主神经节前纤维。",
           "knowledgeConnections": [
-            "题干线索：传导皮肤精细触压觉的神经纤维是",
-            "讲义要点：Aβ（II 类）有髓纤维主要传导触压觉和本体感觉，与精细触压觉相匹配；Aδ 更常与粗略触压觉、快痛和温度觉相联系。",
-            "讲义要点：3.神经纤维的兴奋传导",
-            "讲义要点：轴突被胶质细胞反复包绕形成髓鞘 （有髓神经纤维）",
-            "易混项：A. Aα 类纤维；C. Aδ 类纤维；D. B 类纤维"
+            "神经纤维一般直径越大、髓鞘越完整，传导越快。",
+            "Aδ有髓、传快痛；C无髓、传慢痛及部分自主节后冲动。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-30",
+              "sourceSubject": "physiology",
+              "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 30,
+              "title": "生理 神经元及胶质细胞 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/physiology-eaea720624-p003.webp",
+              "questionNumbers": [
+                119
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "神经纤维一般直径越大、髓鞘越完整，传导越快。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 神经元及胶质细胞",
-        "Aβ（II 类）有髓纤维主要传导触压觉和本体感觉，与精细触压觉相匹配；Aδ 更常与粗略触压觉、快痛和温度觉相联系。",
-        "3.神经纤维的兴奋传导",
-        "轴突被胶质细胞反复包绕形成髓鞘 （有髓神经纤维）",
-        "串：糖尿病、多发性硬化症、吉兰-巴雷综合征等因脱髓鞘导致神经纤维传导速度减慢、中断，患者出现运动和感觉障碍温度温度↑（代谢↑）→速度↑ 串：低温麻醉导致神经传导阻滞"
+        "神经纤维一般直径越大、髓鞘越完整，传导越快。",
+        "Aδ有髓、传快痛；C无髓、传慢痛及部分自主节后冲动。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-30",
         "sourceSubject": "physiology",
         "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 2,
-        "pageLabel": "PDF第2页",
-        "title": "生理 神经元及胶质细胞 · 第2页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-30-p02.webp",
-        "description": "第119题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "3.神经纤维的兴奋传导",
-          "串：糖尿病、多发性硬化症、吉兰-巴雷综合征等因脱髓鞘导致神经纤维传导速度减慢、中断，患者出现运动和感觉障碍温度温度↑（代谢↑）→速度↑ 串：低温麻醉导致神经传导阻滞",
-          "（2）神经纤维兴奋传导速度的影响因素直径直径↑（电阻↓）→速度↑ 当轴索（如轴突）直径与神经纤维（如轴突外面包绕髓鞘形成有髓神经纤维） 总直径之比为 0.6:1 时出现速度峰值髓鞘有髓神经纤维通过郎飞结跳跃式传导：速度快、耗能少"
-        ],
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "lectureNumber": 30,
+        "title": "生理 神经元及胶质细胞 · 第3页",
+        "image": "exams/reviewed-mocks-20261104/physiology-eaea720624-p003.webp",
         "questionNumbers": [
           119
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "神经纤维一般直径越大、髓鞘越完整，传导越快。"
         ]
       },
       "lectureEvidencePages": [
@@ -2411,34 +2883,17 @@
           "lectureId": "foundation-physiology-30",
           "sourceSubject": "physiology",
           "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
-          "title": "生理 神经元及胶质细胞 · 第2页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-30-p02.webp",
-          "description": "第119题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "3.神经纤维的兴奋传导",
-            "串：糖尿病、多发性硬化症、吉兰-巴雷综合征等因脱髓鞘导致神经纤维传导速度减慢、中断，患者出现运动和感觉障碍温度温度↑（代谢↑）→速度↑ 串：低温麻醉导致神经传导阻滞",
-            "（2）神经纤维兴奋传导速度的影响因素直径直径↑（电阻↓）→速度↑ 当轴索（如轴突）直径与神经纤维（如轴突外面包绕髓鞘形成有髓神经纤维） 总直径之比为 0.6:1 时出现速度峰值髓鞘有髓神经纤维通过郎飞结跳跃式传导：速度快、耗能少"
-          ],
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "lectureNumber": 30,
+          "title": "生理 神经元及胶质细胞 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/physiology-eaea720624-p003.webp",
           "questionNumbers": [
             119
-          ]
-        },
-        {
-          "lectureId": "foundation-physiology-30",
-          "sourceSubject": "physiology",
-          "sourceFile": "30 27考研：生理 神经元及胶质细胞 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
-          "title": "生理 神经元及胶质细胞 · 第1页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-30-p01.webp",
-          "description": "第119题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "轴突被胶质细胞反复包绕形成髓鞘 （有髓神经纤维）"
           ],
-          "questionNumbers": [
-            119
+          "optionKeys": [],
+          "knowledgePoints": [
+            "神经纤维一般直径越大、髓鞘越完整，传导越快。"
           ]
         }
       ]
@@ -2502,22 +2957,35 @@
           "answerMode": "多选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-01",
-          "explanation": "正确答案：ABD（冬泳锻炼脱衣入水前体温恒定的维持；赛跑起跑枪声未响前运动员心率加快；见到食物后引起的唾液和胃液的分泌）。\n\n判断思路：前馈控制是在被控变量尚未明显变化前，由预先信息启动调节。脱衣入水前的体温调节、起跑前心率增快和见食物后的消化液分泌均属于此类。",
+          "explanation": "正确答案：ABD（按本卷答案保留）。\n\nA冬泳前提前产热，B起跑前心率加快，D见食物提前分泌唾液和胃液，均在预期干扰或实际摄入前调节，符合前馈。C也不能简单判作非前馈：讲义第1讲第9页明确把胃肠激素与胰岛素组成的肠-胰岛轴列为前馈，原卷ABD与该处存在不一致，保留答案键并标明这一点。",
           "knowledgeConnections": [
-            "题干线索：以下生理活动中， 前馈控制系统参与的有",
-            "讲义要点：前馈控制是在被控变量尚未明显变化前，由预先信息启动调节。脱衣入水前的体温调节、起跑前心率增快和见食物后的消化液分泌均属于此类。",
-            "讲义要点：③前馈可能失误，如见到食物后引起唾液和胃液的分泌、但可能没有吃到食物",
-            "讲义要点：③条件反射：见到食物后引起唾液和胃液的分泌，为即将到来的进食提前做好消化准备",
-            "易混项：C. 促胃液素等胃肠激素促进胰岛素分泌"
+            "前馈依据预测信息预先反应，反馈依据已发生的输出变化校正。",
+            "前馈可能失误，通常需与负反馈共同维持稳定。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-01",
+              "sourceSubject": "physiology",
+              "sourceFile": "1 27考研：生理 绪论 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 9,
+              "pageLabel": "PDF第9页",
+              "lectureNumber": 1,
+              "title": "生理 绪论 · 第9页",
+              "image": "exams/reviewed-mocks-20261104/physiology-e94a067473-p009.webp",
+              "questionNumbers": [
+                136
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "前馈依据预测信息预先反应，反馈依据已发生的输出变化校正。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 绪论",
-        "前馈控制是在被控变量尚未明显变化前，由预先信息启动调节。脱衣入水前的体温调节、起跑前心率增快和见食物后的消化液分泌均属于此类。",
-        "③前馈可能失误，如见到食物后引起唾液和胃液的分泌、但可能没有吃到食物",
-        "③条件反射：见到食物后引起唾液和胃液的分泌，为即将到来的进食提前做好消化准备",
-        "①参加赛跑：尽管起跑信号枪声还没响起前，运动员就已经出现了肾上腺素分泌增加、心"
+        "前馈依据预测信息预先反应，反馈依据已发生的输出变化校正。",
+        "前馈可能失误，通常需与负反馈共同维持稳定。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-01",
@@ -2525,16 +2993,15 @@
         "sourceFile": "1 27考研：生理 绪论 核心-真题-串联-导图 天天师兄.pdf",
         "page": 9,
         "pageLabel": "PDF第9页",
+        "lectureNumber": 1,
         "title": "生理 绪论 · 第9页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-01-p09.webp",
-        "description": "第136题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "③前馈可能失误，如见到食物后引起唾液和胃液的分泌、但可能没有吃到食物",
-          "③条件反射：见到食物后引起唾液和胃液的分泌，为即将到来的进食提前做好消化准备",
-          "①参加赛跑：尽管起跑信号枪声还没响起前，运动员就已经出现了肾上腺素分泌增加、心"
-        ],
+        "image": "exams/reviewed-mocks-20261104/physiology-e94a067473-p009.webp",
         "questionNumbers": [
           136
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "前馈依据预测信息预先反应，反馈依据已发生的输出变化校正。"
         ]
       },
       "lectureEvidencePages": [
@@ -2544,16 +3011,15 @@
           "sourceFile": "1 27考研：生理 绪论 核心-真题-串联-导图 天天师兄.pdf",
           "page": 9,
           "pageLabel": "PDF第9页",
+          "lectureNumber": 1,
           "title": "生理 绪论 · 第9页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-01-p09.webp",
-          "description": "第136题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "③前馈可能失误，如见到食物后引起唾液和胃液的分泌、但可能没有吃到食物",
-            "③条件反射：见到食物后引起唾液和胃液的分泌，为即将到来的进食提前做好消化准备",
-            "①参加赛跑：尽管起跑信号枪声还没响起前，运动员就已经出现了肾上腺素分泌增加、心"
-          ],
+          "image": "exams/reviewed-mocks-20261104/physiology-e94a067473-p009.webp",
           "questionNumbers": [
             136
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "前馈依据预测信息预先反应，反馈依据已发生的输出变化校正。"
           ]
         }
       ]
@@ -2617,22 +3083,52 @@
           "answerMode": "多选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-08",
-          "explanation": "正确答案：ABC（胶原；肾上腺素；5-羟色胺）。\n\n判断思路：胶原、肾上腺素和 5-HT 都可促进血小板活化/聚集；前列环素 PGI2 来自内皮，升高血小板 cAMP 而抑制聚集。",
+          "explanation": "正确答案：ABC（胶原；肾上腺素；5-羟色胺）。\n\nA胶原暴露后激活血小板；B肾上腺素和C5-羟色胺可促进聚集。D前列环素由血管内皮产生，通过升高血小板cAMP抑制聚集并舒张血管，作用方向相反。",
           "knowledgeConnections": [
-            "题干线索：以下属于血小板生理性致聚剂的有",
-            "讲义要点：胶原、肾上腺素和 5-HT 都可促进血小板活化/聚集；前列环素 PGI2 来自内皮，升高血小板 cAMP 而抑制聚集。",
-            "讲义要点：2.形成血小板血栓（血小板在生理性止血居中心地位）",
-            "讲义要点：3.血管收缩和形成血小板血栓属于一期止血。",
-            "易混项：D. 前列环素"
+            "血小板聚集有生理性致聚剂与抑制剂；ADP、TXA₂也促进聚集。",
+            "PGI₂抑制聚集、TXA₂促进聚集，两者共同调节局部止血。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-08",
+              "sourceSubject": "physiology",
+              "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 8,
+              "title": "生理 生理性止血 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/physiology-30700988bf-p001.webp",
+              "questionNumbers": [
+                137
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "血小板聚集有生理性致聚剂与抑制剂；ADP、TXA₂也促进聚集。"
+              ]
+            },
+            {
+              "lectureId": "foundation-physiology-08",
+              "sourceSubject": "physiology",
+              "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 8,
+              "title": "生理 生理性止血 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/physiology-30700988bf-p005.webp",
+              "questionNumbers": [
+                137
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "血小板聚集有生理性致聚剂与抑制剂；ADP、TXA₂也促进聚集。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 生理性止血",
-        "胶原、肾上腺素和 5-HT 都可促进血小板活化/聚集；前列环素 PGI2 来自内皮，升高血小板 cAMP 而抑制聚集。",
-        "2.形成血小板血栓（血小板在生理性止血居中心地位）",
-        "3.血管收缩和形成血小板血栓属于一期止血。",
-        "思维导图·生理性止血"
+        "血小板聚集有生理性致聚剂与抑制剂；ADP、TXA₂也促进聚集。",
+        "PGI₂抑制聚集、TXA₂促进聚集，两者共同调节局部止血。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-08",
@@ -2640,16 +3136,15 @@
         "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
         "page": 1,
         "pageLabel": "PDF第1页",
+        "lectureNumber": 8,
         "title": "生理 生理性止血 · 第1页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-08-p01.webp",
-        "description": "第137题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "2.形成血小板血栓（血小板在生理性止血居中心地位）",
-          "3.血管收缩和形成血小板血栓属于一期止血。",
-          "一、生理性止血的过程"
-        ],
+        "image": "exams/reviewed-mocks-20261104/physiology-30700988bf-p001.webp",
         "questionNumbers": [
           137
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "血小板聚集有生理性致聚剂与抑制剂；ADP、TXA₂也促进聚集。"
         ]
       },
       "lectureEvidencePages": [
@@ -2659,16 +3154,32 @@
           "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
           "page": 1,
           "pageLabel": "PDF第1页",
+          "lectureNumber": 8,
           "title": "生理 生理性止血 · 第1页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-08-p01.webp",
-          "description": "第137题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "2.形成血小板血栓（血小板在生理性止血居中心地位）",
-            "3.血管收缩和形成血小板血栓属于一期止血。",
-            "一、生理性止血的过程"
-          ],
+          "image": "exams/reviewed-mocks-20261104/physiology-30700988bf-p001.webp",
           "questionNumbers": [
             137
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "血小板聚集有生理性致聚剂与抑制剂；ADP、TXA₂也促进聚集。"
+          ]
+        },
+        {
+          "lectureId": "foundation-physiology-08",
+          "sourceSubject": "physiology",
+          "sourceFile": "8 27考研：生理 生理性止血 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "lectureNumber": 8,
+          "title": "生理 生理性止血 · 第5页",
+          "image": "exams/reviewed-mocks-20261104/physiology-30700988bf-p005.webp",
+          "questionNumbers": [
+            137
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "血小板聚集有生理性致聚剂与抑制剂；ADP、TXA₂也促进聚集。"
           ]
         }
       ]
@@ -2732,38 +3243,51 @@
           "answerMode": "多选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-16",
-          "explanation": "正确答案：BCD（Hb 与 H+的结合能力降低；Hb 与 CO 的结合能力降低 2；P 降低 50）。\n\n判断思路：Hb 由 R 型转为 T 型时对 O2 亲和力降低，氧解离曲线右移、P50 升高，对 H+ 和 CO2 的结合能力增强。",
+          "explanation": "正确答案：BCD（Hb 与 H+的结合能力降低；Hb 与 CO 的结合能力降低 2；P 降低 50）。\n\n本题选错误项。R型高亲氧、T型低亲氧，R→T使曲线右移、P₅₀升高，故A正确、D错误。T型更易结合H⁺及CO₂而促进组织气体交换，B、C“结合能力降低”均写反。",
           "knowledgeConnections": [
-            "题干线索：Hb 的构型由 R 型变为 T 型时，下列叙述错误的有",
-            "讲义要点：Hb 由 R 型转为 T 型时对 O2 亲和力降低，氧解离曲线右移、P50 升高，对 H+ 和 CO2 的结合能力增强。",
-            "讲义要点：Hb 与 O2 分开时 Hb 容易与 CO2 结合",
-            "讲义要点：妨碍 Hb 与 O2 的结合 CO 与 Hb 的亲合力是 O2 的 250 倍（CO 霸占 Hb） （在肺不让 Hb 与 O2 结合） →HbO2↓ 看来 Hb 是海王啊：Hb 与 O2、CO2、CO、 →动脉血氧含量↓ NO、H2S 都能结合妨碍 Hb 与 O2 的解离 CO 与 Hb 一个亚基结合后会增加其它三个亚基对 （在组织不让 HbO2 解离释放 O2） O2 的亲合力（Hb 变构为 R 型、氧解离曲线左移）",
-            "易混项：A. 氧解离曲线 右移"
+            "P₅₀是Hb氧饱和度50%时的PO₂；P₅₀↑表示亲和力↓。",
+            "组织H⁺、CO₂增加促进Hb释氧；肺部氧合有利于Hb释放H⁺和CO₂。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-16",
+              "sourceSubject": "physiology",
+              "sourceFile": "16 27考研：生理 肺换气和气体运输 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 6,
+              "pageLabel": "PDF第6页",
+              "lectureNumber": 16,
+              "title": "生理 肺换气和气体运输 · 第6页",
+              "image": "exams/reviewed-mocks-20261104/physiology-d07a2ba4a4-p006.webp",
+              "questionNumbers": [
+                138
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "P₅₀是Hb氧饱和度50%时的PO₂；P₅₀↑表示亲和力↓。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 肺换气和气体运输",
-        "Hb 由 R 型转为 T 型时对 O2 亲和力降低，氧解离曲线右移、P50 升高，对 H+ 和 CO2 的结合能力增强。",
-        "Hb 与 O2 分开时 Hb 容易与 CO2 结合",
-        "妨碍 Hb 与 O2 的结合 CO 与 Hb 的亲合力是 O2 的 250 倍（CO 霸占 Hb） （在肺不让 Hb 与 O2 结合） →HbO2↓ 看来 Hb 是海王啊：Hb 与 O2、CO2、CO、 →动脉血氧含量↓ NO、H2S 都能结合妨碍 Hb 与 O2 的解离 CO 与 Hb 一个亚基结合后会增加其它三个亚基对 （在组织不让 HbO2 解离释放 O2） O2 的亲合力（Hb 变构为 R 型、氧解离曲线左移）",
-        "在组织：部分 HbO2 解离释放 O2，Hb 变成去氧 Hb、与 CO2 结合成 HbCO2"
+        "P₅₀是Hb氧饱和度50%时的PO₂；P₅₀↑表示亲和力↓。",
+        "组织H⁺、CO₂增加促进Hb释氧；肺部氧合有利于Hb释放H⁺和CO₂。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-16",
         "sourceSubject": "physiology",
         "sourceFile": "16 27考研：生理 肺换气和气体运输 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 5,
-        "pageLabel": "PDF第5页",
-        "title": "生理 肺换气和气体运输 · 第5页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-16-p05.webp",
-        "description": "第138题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "Hb 与 O2 分开时 Hb 容易与 CO2 结合",
-          "在组织：部分 HbO2 解离释放 O2，Hb 变成去氧 Hb、与 CO2 结合成 HbCO2"
-        ],
+        "page": 6,
+        "pageLabel": "PDF第6页",
+        "lectureNumber": 16,
+        "title": "生理 肺换气和气体运输 · 第6页",
+        "image": "exams/reviewed-mocks-20261104/physiology-d07a2ba4a4-p006.webp",
         "questionNumbers": [
           138
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "P₅₀是Hb氧饱和度50%时的PO₂；P₅₀↑表示亲和力↓。"
         ]
       },
       "lectureEvidencePages": [
@@ -2771,34 +3295,17 @@
           "lectureId": "foundation-physiology-16",
           "sourceSubject": "physiology",
           "sourceFile": "16 27考研：生理 肺换气和气体运输 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 5,
-          "pageLabel": "PDF第5页",
-          "title": "生理 肺换气和气体运输 · 第5页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-16-p05.webp",
-          "description": "第138题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "Hb 与 O2 分开时 Hb 容易与 CO2 结合",
-            "在组织：部分 HbO2 解离释放 O2，Hb 变成去氧 Hb、与 CO2 结合成 HbCO2"
-          ],
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "lectureNumber": 16,
+          "title": "生理 肺换气和气体运输 · 第6页",
+          "image": "exams/reviewed-mocks-20261104/physiology-d07a2ba4a4-p006.webp",
           "questionNumbers": [
             138
-          ]
-        },
-        {
-          "lectureId": "foundation-physiology-16",
-          "sourceSubject": "physiology",
-          "sourceFile": "16 27考研：生理 肺换气和气体运输 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 9,
-          "pageLabel": "PDF第9页",
-          "title": "生理 肺换气和气体运输 · 第9页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-16-p09.webp",
-          "description": "第138题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "妨碍 Hb 与 O2 的结合 CO 与 Hb 的亲合力是 O2 的 250 倍（CO 霸占 Hb） （在肺不让 Hb 与 O2 结合） →HbO2↓ 看来 Hb 是海王啊：Hb 与 O2、CO2、CO、 →动脉血氧含量↓ NO、H2S 都能结合妨碍 Hb 与 O2 的解离 CO 与 Hb 一个亚基结合后会增加其它三个亚基对 （在组织不让 HbO2 解离释放 O2） O2 的亲合力（Hb 变构为 R 型、氧解离曲线左移）",
-            "CO 抑制 Hb 与 O2 发生新的结合对于早已结合 O2 的 Hb、CO 则抑制其释放"
           ],
-          "questionNumbers": [
-            138
+          "optionKeys": [],
+          "knowledgePoints": [
+            "P₅₀是Hb氧饱和度50%时的PO₂；P₅₀↑表示亲和力↓。"
           ]
         }
       ]
@@ -2863,37 +3370,68 @@
           "answerMode": "多选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-20",
-          "explanation": "正确答案：ABCD（扩张刺激胃底胃体，通过迷走-迷走长反射；扩张刺激胃底胃体，通过壁内神经丛短反射；蛋白质消化产物引起促胃液素释放；胃期分泌的胃液量大，酸度和胃蛋白酶含量高）。\n\n判断思路：胃期由食物扩张胃底/胃体通过迷走-迷走长反射和壁内神经丛短反射促进，蛋白质消化产物促进胃液素释放；分泌量大且酸度/胃蛋白酶含量高。",
+          "explanation": "正确答案：ABCD（扩张刺激胃底胃体，通过迷走-迷走长反射；扩张刺激胃底胃体，通过壁内神经丛短反射；蛋白质消化产物引起促胃液素释放；胃期分泌的胃液量大，酸度和胃蛋白酶含量高）。\n\nA胃底、胃体扩张激活迷走-迷走长反射；B也通过壁内神经丛短反射促分泌。C蛋白质消化产物促进G细胞释放促胃液素。D胃期分泌量大、酸度及胃蛋白酶含量较高，四项均符合讲义。",
           "knowledgeConnections": [
-            "题干线索：关于胃期胃液分泌的调节，正确的有",
-            "讲义要点：胃期由食物扩张胃底/胃体通过迷走-迷走长反射和壁内神经丛短反射促进，蛋白质消化产物促进胃液素释放；分泌量大且酸度/胃蛋白酶含量高。",
-            "讲义要点：小结： 肠-胃反射抑制胃排空、抑制胃液分泌迷走-迷走长反射促进胃排空（机械性消化） 和促进胃期胃液分泌（化学性消化） 壁内在神经丛短反射促进胃容受性舒张（特征运动） 迷走神经肽能纤维食物经过食管时 LES 舒张：VIP+NO 胃容受性舒张：VIP+NO 促进 G 细胞释放胃泌素：胃泌素释放肽/GRP/铃蟾素/蛙皮素",
-            "讲义要点：①胃内因素促进胃排空（食物对胃的扩张）：迷走-迷走长反射、壁内在神经丛短反射",
-            "易混项："
+            "胃期刺激包括胃扩张及蛋白质消化产物，经神经和体液共同调节。",
+            "胃酸降至较低pH后，经生长抑素等负反馈抑制促胃液素和胃酸分泌。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-20",
+              "sourceSubject": "physiology",
+              "sourceFile": "20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 20,
+              "title": "生理 胃内消化 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/physiology-e4092c1308-p003.webp",
+              "questionNumbers": [
+                139
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "胃期刺激包括胃扩张及蛋白质消化产物，经神经和体液共同调节。"
+              ]
+            },
+            {
+              "lectureId": "foundation-physiology-20",
+              "sourceSubject": "physiology",
+              "sourceFile": "20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 20,
+              "title": "生理 胃内消化 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/physiology-e4092c1308-p004.webp",
+              "questionNumbers": [
+                139
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "胃期刺激包括胃扩张及蛋白质消化产物，经神经和体液共同调节。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 胃内消化",
-        "胃期由食物扩张胃底/胃体通过迷走-迷走长反射和壁内神经丛短反射促进，蛋白质消化产物促进胃液素释放；分泌量大且酸度/胃蛋白酶含量高。",
-        "小结： 肠-胃反射抑制胃排空、抑制胃液分泌迷走-迷走长反射促进胃排空（机械性消化） 和促进胃期胃液分泌（化学性消化） 壁内在神经丛短反射促进胃容受性舒张（特征运动） 迷走神经肽能纤维食物经过食管时 LES 舒张：VIP+NO 胃容受性舒张：VIP+NO 促进 G 细胞释放胃泌素：胃泌素释放肽/GRP/铃蟾素/蛙皮素",
-        "①胃内因素促进胃排空（食物对胃的扩张）：迷走-迷走长反射、壁内在神经丛短反射",
-        "头期胃液分泌胃期胃液分泌"
+        "胃期刺激包括胃扩张及蛋白质消化产物，经神经和体液共同调节。",
+        "胃酸降至较低pH后，经生长抑素等负反馈抑制促胃液素和胃酸分泌。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-20",
         "sourceSubject": "physiology",
         "sourceFile": "20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 4,
-        "pageLabel": "PDF第4页",
-        "title": "生理 胃内消化 · 第4页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-20-p04.webp",
-        "description": "第139题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "小结： 肠-胃反射抑制胃排空、抑制胃液分泌迷走-迷走长反射促进胃排空（机械性消化） 和促进胃期胃液分泌（化学性消化） 壁内在神经丛短反射促进胃容受性舒张（特征运动） 迷走神经肽能纤维食物经过食管时 LES 舒张：VIP+NO 胃容受性舒张：VIP+NO 促进 G 细胞释放胃泌素：胃泌素释放肽/GRP/铃蟾素/蛙皮素"
-        ],
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "lectureNumber": 20,
+        "title": "生理 胃内消化 · 第3页",
+        "image": "exams/reviewed-mocks-20261104/physiology-e4092c1308-p003.webp",
         "questionNumbers": [
           139
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "胃期刺激包括胃扩张及蛋白质消化产物，经神经和体液共同调节。"
         ]
       },
       "lectureEvidencePages": [
@@ -2901,32 +3439,34 @@
           "lectureId": "foundation-physiology-20",
           "sourceSubject": "physiology",
           "sourceFile": "20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 4,
-          "pageLabel": "PDF第4页",
-          "title": "生理 胃内消化 · 第4页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-20-p04.webp",
-          "description": "第139题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "小结： 肠-胃反射抑制胃排空、抑制胃液分泌迷走-迷走长反射促进胃排空（机械性消化） 和促进胃期胃液分泌（化学性消化） 壁内在神经丛短反射促进胃容受性舒张（特征运动） 迷走神经肽能纤维食物经过食管时 LES 舒张：VIP+NO 胃容受性舒张：VIP+NO 促进 G 细胞释放胃泌素：胃泌素释放肽/GRP/铃蟾素/蛙皮素"
-          ],
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "lectureNumber": 20,
+          "title": "生理 胃内消化 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/physiology-e4092c1308-p003.webp",
           "questionNumbers": [
             139
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "胃期刺激包括胃扩张及蛋白质消化产物，经神经和体液共同调节。"
           ]
         },
         {
           "lectureId": "foundation-physiology-20",
           "sourceSubject": "physiology",
           "sourceFile": "20 27考研：生理 胃内消化 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
-          "title": "生理 胃内消化 · 第2页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-20-p02.webp",
-          "description": "第139题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "①胃内因素促进胃排空（食物对胃的扩张）：迷走-迷走长反射、壁内在神经丛短反射"
-          ],
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 20,
+          "title": "生理 胃内消化 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/physiology-e4092c1308-p004.webp",
           "questionNumbers": [
             139
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "胃期刺激包括胃扩张及蛋白质消化产物，经神经和体液共同调节。"
           ]
         }
       ]
@@ -2990,39 +3530,51 @@
           "answerMode": "多选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-26",
-          "explanation": "正确答案：ABD（尿量；尿中碳酸氢盐；尿中排出的 K+）。\n\n判断思路：乙酰唑胺抑制碳酸酐酶，使近端小管 Na+-H+ 交换和 HCO3- 重吸收下降：尿量、尿 HCO3- 和尿 K+ 增加，尿 H+ 下降。",
+          "explanation": "正确答案：ABD（尿量；尿中碳酸氢盐；尿中排出的 K+）。\n\n乙酰唑胺抑制碳酸酐酶，H⁺生成及Na⁺-H⁺交换减少，HCO₃⁻重吸收减少，尿HCO₃⁻和尿量增加，故A、B正确，C排H⁺增加错误。远端Na⁺递送和流量增加可促进K⁺排出，D正确。",
           "knowledgeConnections": [
-            "题干线索：临床上使用乙酰唑胺后， 下列指标可增加的是",
-            "讲义要点：乙酰唑胺抑制碳酸酐酶，使近端小管 Na+-H+ 交换和 HCO3- 重吸收下降：尿量、尿 HCO3- 和尿 K+ 增加，尿 H+ 下降。",
-            "讲义要点：①下丘脑损伤→ADH↓→终尿量↑、尿渗透压↓（中枢性尿崩症）",
-            "讲义要点：若集合管主细胞 V2-R 缺陷→终尿量↑、尿渗透压↓（肾性尿崩症）",
-            "易混项：C. 尿中排出的 H+"
+            "碳酸酐酶抑制→碱性尿、代谢性酸中毒。",
+            "肾小管中保Na⁺与排K⁺相互关联，利尿时需同时关注酸碱及钾平衡。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-26",
+              "sourceSubject": "physiology",
+              "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 26,
+              "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/physiology-a32e92c253-p004.webp",
+              "questionNumbers": [
+                140
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "碳酸酐酶抑制→碱性尿、代谢性酸中毒。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 小管重吸收和分泌、尿浓缩稀释、调节",
-        "乙酰唑胺抑制碳酸酐酶，使近端小管 Na+-H+ 交换和 HCO3- 重吸收下降：尿量、尿 HCO3- 和尿 K+ 增加，尿 H+ 下降。",
-        "①下丘脑损伤→ADH↓→终尿量↑、尿渗透压↓（中枢性尿崩症）",
-        "若集合管主细胞 V2-R 缺陷→终尿量↑、尿渗透压↓（肾性尿崩症）",
-        "大量出汗、高热、严重呕吐腹泻血浆晶渗压↑→ADH↑→尿量↓、尿比重↑ 饮大量清水（水利尿）检测肾的稀释能力血浆晶渗压↓→ADH↓→尿量↑、尿比重↓"
+        "碳酸酐酶抑制→碱性尿、代谢性酸中毒。",
+        "肾小管中保Na⁺与排K⁺相互关联，利尿时需同时关注酸碱及钾平衡。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-26",
         "sourceSubject": "physiology",
         "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 8,
-        "pageLabel": "PDF第8页",
-        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第8页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-26-p08.webp",
-        "description": "第140题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "①下丘脑损伤→ADH↓→终尿量↑、尿渗透压↓（中枢性尿崩症）",
-          "若集合管主细胞 V2-R 缺陷→终尿量↑、尿渗透压↓（肾性尿崩症）",
-          "膜 AQP-2↑→集合管对水的通透性↑→水的重吸收↑→尿量↓"
-        ],
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 26,
+        "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/physiology-a32e92c253-p004.webp",
         "questionNumbers": [
           140
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "碳酸酐酶抑制→碱性尿、代谢性酸中毒。"
         ]
       },
       "lectureEvidencePages": [
@@ -3030,18 +3582,17 @@
           "lectureId": "foundation-physiology-26",
           "sourceSubject": "physiology",
           "sourceFile": "26 27考研：生理 小管重吸收和分泌、尿浓缩稀释、调节 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 8,
-          "pageLabel": "PDF第8页",
-          "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第8页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-26-p08.webp",
-          "description": "第140题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "①下丘脑损伤→ADH↓→终尿量↑、尿渗透压↓（中枢性尿崩症）",
-            "若集合管主细胞 V2-R 缺陷→终尿量↑、尿渗透压↓（肾性尿崩症）",
-            "膜 AQP-2↑→集合管对水的通透性↑→水的重吸收↑→尿量↓"
-          ],
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 26,
+          "title": "生理 小管重吸收和分泌、尿浓缩稀释、调节 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/physiology-a32e92c253-p004.webp",
           "questionNumbers": [
             140
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "碳酸酐酶抑制→碱性尿、代谢性酸中毒。"
           ]
         }
       ]
@@ -3105,37 +3656,51 @@
           "answerMode": "多选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-34",
-          "explanation": "正确答案：ABD（调控渴觉和水摄入与排出；维持体温相对稳定；控制日节律）。\n\n判断思路：本题为多选题，应按同一讲义判据逐项判断，不能因为某项表述熟悉就漏选。关键线索是：下丘脑在机体生理活动中发挥着信息整合的核心作用，包括。讲义依据：核心精讲·脑电波、睡眠、脑高级功能、下丘脑（0-2）；血压存在昼夜波动的日节律（双峰双谷）。因此答案为ABD（调控渴觉和水摄入与排出；维持体温相对稳定；控制日节律）。",
+          "explanation": "正确答案：ABD（调控渴觉和水摄入与排出；维持体温相对稳定；控制日节律）。\n\nA下丘脑整合渗透压、渴觉和ADH释放；B参与体温调节；D视交叉上核参与昼夜节律。C肌紧张的主要调节环路位于脊髓、脑干、基底神经节和小脑，不作为下丘脑核心功能。",
           "knowledgeConnections": [
-            "题干线索：下丘脑在机体生理活动中发挥着信息整合的核心作用，包括",
-            "讲义要点：核心精讲·脑电波、睡眠、脑高级功能、下丘脑（0-2）",
-            "讲义要点：血压存在昼夜波动的日节律（双峰双谷）",
-            "讲义要点：思维导图·脑电波、睡眠、脑高级功能、下丘脑",
-            "易混项：C. 调节肌紧张"
+            "下丘脑联系自主神经、内分泌及行为反应，协调内环境稳定。",
+            "视上核、室旁核与水平衡相关；视交叉上核与昼夜节律相关。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-physiology-34",
+              "sourceSubject": "physiology",
+              "sourceFile": "34 27考研：生理 脑电波、睡眠、脑高级功能、下丘脑 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 34,
+              "title": "生理 脑电波、睡眠、脑高级功能、下丘脑 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/physiology-03cf9ad6da-p004.webp",
+              "questionNumbers": [
+                141
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "下丘脑联系自主神经、内分泌及行为反应，协调内环境稳定。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：生理 脑电波、睡眠、脑高级功能、下丘脑",
-        "核心精讲·脑电波、睡眠、脑高级功能、下丘脑（0-2）",
-        "血压存在昼夜波动的日节律（双峰双谷）",
-        "思维导图·脑电波、睡眠、脑高级功能、下丘脑",
-        "生长激素增多减少做梦少多（梦到异国他乡） 眼球无快速运动有快速运动唤醒不易更不易 （下丘脑体温调节功能明显减退、其睡眠深度更深、快波睡眠的唤醒阈比慢波睡眠高） 脑电波同步化去同步化、低幅、高频的快波（β 波） 与觉醒相似但行为表现为睡眠（异相）"
+        "下丘脑联系自主神经、内分泌及行为反应，协调内环境稳定。",
+        "视上核、室旁核与水平衡相关；视交叉上核与昼夜节律相关。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-physiology-34",
         "sourceSubject": "physiology",
         "sourceFile": "34 27考研：生理 脑电波、睡眠、脑高级功能、下丘脑 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 1,
-        "pageLabel": "PDF第1页",
-        "title": "生理 脑电波、睡眠、脑高级功能、下丘脑 · 第1页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-physiology-34-p01.webp",
-        "description": "第141题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "核心精讲·脑电波、睡眠、脑高级功能、下丘脑（0-2）"
-        ],
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 34,
+        "title": "生理 脑电波、睡眠、脑高级功能、下丘脑 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/physiology-03cf9ad6da-p004.webp",
         "questionNumbers": [
           141
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "下丘脑联系自主神经、内分泌及行为反应，协调内环境稳定。"
         ]
       },
       "lectureEvidencePages": [
@@ -3143,32 +3708,17 @@
           "lectureId": "foundation-physiology-34",
           "sourceSubject": "physiology",
           "sourceFile": "34 27考研：生理 脑电波、睡眠、脑高级功能、下丘脑 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
-          "title": "生理 脑电波、睡眠、脑高级功能、下丘脑 · 第1页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-34-p01.webp",
-          "description": "第141题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "核心精讲·脑电波、睡眠、脑高级功能、下丘脑（0-2）"
-          ],
-          "questionNumbers": [
-            141
-          ]
-        },
-        {
-          "lectureId": "foundation-physiology-34",
-          "sourceSubject": "physiology",
-          "sourceFile": "34 27考研：生理 脑电波、睡眠、脑高级功能、下丘脑 核心-真题-串联-导图 天天师兄.pdf",
           "page": 4,
           "pageLabel": "PDF第4页",
+          "lectureNumber": 34,
           "title": "生理 脑电波、睡眠、脑高级功能、下丘脑 · 第4页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-physiology-34-p04.webp",
-          "description": "第141题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "血压存在昼夜波动的日节律（双峰双谷）"
-          ],
+          "image": "exams/reviewed-mocks-20261104/physiology-03cf9ad6da-p004.webp",
           "questionNumbers": [
             141
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "下丘脑联系自主神经、内分泌及行为反应，协调内环境稳定。"
           ]
         }
       ]

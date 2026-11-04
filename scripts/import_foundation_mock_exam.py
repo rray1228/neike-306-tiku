@@ -14,6 +14,7 @@ from PIL import Image
 
 from build_mock_exam_error_book import ROWS, extract_exam
 from review_foundation_jaundice import review_foundation_jaundice
+from apply_reviewed_mock_notes import apply_reviewed_notes
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -279,6 +280,7 @@ def main() -> None:
         payload["meta"].update(groupCount=len(payload["groups"]), stemCount=len(payload["groups"]), lectureCount=len(payload["lectures"]))
         target = ROOT / f"src/data/{subject}-foundation-mock-exam-data.json"
         review_foundation_jaundice(payload)
+        apply_reviewed_notes(payload, render_missing=True)
         target.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
         catalog.append({
             "id": f"{subject}-foundation-mock-exam", "subject": subject, "subjectLabel": SUBJECT_LABELS[subject],

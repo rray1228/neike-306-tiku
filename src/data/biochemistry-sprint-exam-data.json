@@ -64,34 +64,71 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-08",
-          "explanation": "A：按本卷选：蛋白质在还原性变性处理中可涉及二硫键断裂；例如尿素配合巯基乙醇处理核糖核酸酶。注意“可涉及”不等于所有变性都必须断二硫键。\nB：不选：单纯变性通常不水解肽键，不使多肽链变成小分子肽或游离氨基酸；不能把分子量降低当作一般特征。\nC：不选：变性后有规则空间结构被破坏，溶解性常下降，通常更易聚集、沉淀，不是更易形成规则结晶。\nD：不选：分子杂交是核酸互补链复性相关概念，不是蛋白质复性的通常表述。\n核验：A的表述应按“变性处理中可涉及二硫键破坏”理解，不能背成“凡变性必断二硫键”。讲义中“一级结构不变”重点在氨基酸组成和排列顺序不变。",
+          "explanation": "正确答案：A（涉及二硫键的破坏）。\n\nA：按讲义，蛋白质变性可涉及二硫键等空间结构维系作用的破坏。B变性不等于肽链水解，分子量不因此降低；C变性后溶解度降低、较难结晶；D分子杂交主要是核酸复性的概念。",
           "knowledgeConnections": [
-            "变性、沉淀、凝固、降解分别判断。蛋白质变性主要讨论空间结构和活性；核酸复性可讨论互补链杂交。"
+            "蛋白质变性主要破坏高级结构，通常不破坏肽键和一级结构。",
+            "二硫键并非每次变性都必定断裂，A的“涉及”不应改写为“均必须破坏二硫键”。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-08",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "【精编版】生化合集.pdf",
+              "page": 51,
+              "pageLabel": "PDF第51页",
+              "title": "【精编版】生化合集 · 第51页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p051.webp",
+              "questionNumbers": [
+                17
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "蛋白质变性主要破坏高级结构，通常不破坏肽键和一级结构。"
+              ]
+            }
           ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-08",
         "sourceSubject": "biochemistry",
-        "sourceFile": "27生化跟课版合集【带导图】.pdf",
-        "page": 69,
-        "pageLabel": "PDF第69页",
-        "title": "生化跟课合集｜蛋白质",
-        "image": "exams/sprint-exam-20261021/lecture-018.webp"
+        "sourceFile": "【精编版】生化合集.pdf",
+        "page": 51,
+        "pageLabel": "PDF第51页",
+        "title": "【精编版】生化合集 · 第51页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p051.webp",
+        "questionNumbers": [
+          17
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "蛋白质变性主要破坏高级结构，通常不破坏肽键和一级结构。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-08",
           "sourceSubject": "biochemistry",
-          "sourceFile": "27生化跟课版合集【带导图】.pdf",
-          "page": 69,
-          "pageLabel": "PDF第69页",
-          "title": "生化跟课合集｜蛋白质",
-          "image": "exams/sprint-exam-20261021/lecture-018.webp"
+          "sourceFile": "【精编版】生化合集.pdf",
+          "page": 51,
+          "pageLabel": "PDF第51页",
+          "title": "【精编版】生化合集 · 第51页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p051.webp",
+          "questionNumbers": [
+            17
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "蛋白质变性主要破坏高级结构，通常不破坏肽键和一级结构。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "蛋白质变性主要破坏高级结构，通常不破坏肽键和一级结构。",
+        "二硫键并非每次变性都必定断裂，A的“涉及”不应改写为“均必须破坏二硫键”。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q018",
@@ -149,8 +186,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-12",
-          "explanation": "反竞争性抑制剂只结合酶—底物复合物ES，不结合游离酶E；竞争性主要结合E，纯非竞争性可结合E与ES。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C（反竞争性抑制作用）。\n\nC：反竞争抑制剂仅结合ES，不结合游离E。A竞争抑制主要结合游离E并与底物竞争；B非竞争可结合E及ES；D不可逆抑制主要以共价等强结合破坏必需基团，不以只结合ES定义。",
+          "knowledgeConnections": [
+            "竞争：Km↑、Vmax不变；非竞争：Km不变、Vmax↓。",
+            "反竞争：Km及Vmax均下降，增加底物不能解除抑制。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-12",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 12,
+              "title": "生化 酶 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-e1750fc190-p005.webp",
+              "questionNumbers": [
+                18
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "竞争：Km↑、Vmax不变；非竞争：Km不变、Vmax↓。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -159,8 +218,16 @@
         "sourceFile": "12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf",
         "page": 5,
         "pageLabel": "PDF第5页",
-        "title": "12 27考研：生化 酶",
-        "image": "exams/sprint-exam-20261021/lecture-019.webp"
+        "lectureNumber": 12,
+        "title": "生化 酶 · 第5页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-e1750fc190-p005.webp",
+        "questionNumbers": [
+          18
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "竞争：Km↑、Vmax不变；非竞争：Km不变、Vmax↓。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -169,12 +236,24 @@
           "sourceFile": "12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf",
           "page": 5,
           "pageLabel": "PDF第5页",
-          "title": "12 27考研：生化 酶",
-          "image": "exams/sprint-exam-20261021/lecture-019.webp"
+          "lectureNumber": 12,
+          "title": "生化 酶 · 第5页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-e1750fc190-p005.webp",
+          "questionNumbers": [
+            18
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "竞争：Km↑、Vmax不变；非竞争：Km不变、Vmax↓。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "竞争：Km↑、Vmax不变；非竞争：Km不变、Vmax↓。",
+        "反竞争：Km及Vmax均下降，增加底物不能解除抑制。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q019",
@@ -232,32 +311,108 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-13",
-          "explanation": "本卷选C：维生素C缺乏引起坏血病，糙皮病与烟酸不足有关。另D写“转醛基”不严谨，TPP参与转酮基和α-酮酸氧化脱羧，故此题存在不止一个不准确表述，不宜当作无瑕疵单选题。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C（维生素 C 是羟化酶的辅因子，缺乏可致糙皮病）。\n\n按本卷答案选C。C维生素C缺乏导致坏血病，糙皮病由烟酸缺乏引起。A维生素D参与钙磷调节；B维生素E有抗氧化及基因表达调节作用。D也有表述问题：TPP参与的是转酮基及α-酮酸氧化脱羧，不是“转醛基”，因此按现有文字错误不止一个。",
+          "knowledgeConnections": [
+            "维生素C参与脯氨酸、赖氨酸羟化，缺乏影响胶原稳定。",
+            "VitB₁→TPP；VitPP→NAD⁺/NADP⁺，对应脚气病与糙皮病，勿混。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-13",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "13 27考研：生化 维生素 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 13,
+              "title": "生化 维生素 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-8237f63f81-p001.webp",
+              "questionNumbers": [
+                19
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "维生素C参与脯氨酸、赖氨酸羟化，缺乏影响胶原稳定。"
+              ]
+            },
+            {
+              "lectureId": "lecture-13",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "13 27考研：生化 维生素 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 13,
+              "title": "生化 维生素 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-8237f63f81-p002.webp",
+              "questionNumbers": [
+                19
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "维生素C参与脯氨酸、赖氨酸羟化，缺乏影响胶原稳定。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-13",
         "sourceSubject": "biochemistry",
         "sourceFile": "13 27考研：生化 维生素 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 2,
-        "pageLabel": "PDF第2页",
-        "title": "13 27考研：生化 维生素",
-        "image": "exams/sprint-exam-20261021/lecture-020.webp"
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "lectureNumber": 13,
+        "title": "生化 维生素 · 第1页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-8237f63f81-p001.webp",
+        "questionNumbers": [
+          19
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "维生素C参与脯氨酸、赖氨酸羟化，缺乏影响胶原稳定。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-13",
           "sourceSubject": "biochemistry",
           "sourceFile": "13 27考研：生化 维生素 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "lectureNumber": 13,
+          "title": "生化 维生素 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-8237f63f81-p001.webp",
+          "questionNumbers": [
+            19
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "维生素C参与脯氨酸、赖氨酸羟化，缺乏影响胶原稳定。"
+          ]
+        },
+        {
+          "lectureId": "lecture-13",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "13 27考研：生化 维生素 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
-          "title": "13 27考研：生化 维生素",
-          "image": "exams/sprint-exam-20261021/lecture-020.webp"
+          "lectureNumber": 13,
+          "title": "生化 维生素 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-8237f63f81-p002.webp",
+          "questionNumbers": [
+            19
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "维生素C参与脯氨酸、赖氨酸羟化，缺乏影响胶原稳定。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "维生素C参与脯氨酸、赖氨酸羟化，缺乏影响胶原稳定。",
+        "VitB₁→TPP；VitPP→NAD⁺/NADP⁺，对应脚气病与糙皮病，勿混。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q020",
@@ -315,32 +470,71 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-06",
-          "explanation": "胰高血糖素通过磷酸化等途径抑制乙酰CoA羧化酶，答案表选D。柠檬酸是经典变构激活剂；C“丙二酸单酰CoA”是该反应产物，不应直接列为经典激活剂，本题选项亦需结合教师勘误核对。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：D（胰高血糖素）。\n\n精编合集第41页调节表明确列出：柠檬酸、异柠檬酸、乙酰CoA及丙二酰CoA为乙酰CoA羧化酶激活剂，故A、B、C均不选。D胰高血糖素促进磷酸化而抑制该酶，减少脂肪酸合成。",
+          "knowledgeConnections": [
+            "乙酰CoA羧化酶是脂肪酸合成的关键酶，需生物素，生成丙二酰CoA。",
+            "胰岛素促进去磷酸化和脂肪合成；胰高血糖素方向相反。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-06",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "【精编版】生化合集.pdf",
+              "page": 41,
+              "pageLabel": "PDF第41页",
+              "title": "【精编版】生化合集 · 第41页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p041.webp",
+              "questionNumbers": [
+                20
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "乙酰CoA羧化酶是脂肪酸合成的关键酶，需生物素，生成丙二酰CoA。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-06",
         "sourceSubject": "biochemistry",
-        "sourceFile": "06 27考研：生化 脂肪代谢 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 1,
-        "pageLabel": "PDF第1页",
-        "title": "06 27考研：生化 脂肪代谢",
-        "image": "exams/sprint-exam-20261021/lecture-021.webp"
+        "sourceFile": "【精编版】生化合集.pdf",
+        "page": 41,
+        "pageLabel": "PDF第41页",
+        "title": "【精编版】生化合集 · 第41页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p041.webp",
+        "questionNumbers": [
+          20
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "乙酰CoA羧化酶是脂肪酸合成的关键酶，需生物素，生成丙二酰CoA。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-06",
           "sourceSubject": "biochemistry",
-          "sourceFile": "06 27考研：生化 脂肪代谢 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
-          "title": "06 27考研：生化 脂肪代谢",
-          "image": "exams/sprint-exam-20261021/lecture-021.webp"
+          "sourceFile": "【精编版】生化合集.pdf",
+          "page": 41,
+          "pageLabel": "PDF第41页",
+          "title": "【精编版】生化合集 · 第41页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p041.webp",
+          "questionNumbers": [
+            20
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "乙酰CoA羧化酶是脂肪酸合成的关键酶，需生物素，生成丙二酰CoA。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "乙酰CoA羧化酶是脂肪酸合成的关键酶，需生物素，生成丙二酰CoA。",
+        "胰岛素促进去磷酸化和脂肪合成；胰高血糖素方向相反。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q021",
@@ -398,8 +592,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-04",
-          "explanation": "apoAⅠ激活LCAT，促进血浆中游离胆固醇酯化。apoCⅡ主要激活脂蛋白脂肪酶，apoB48参与乳糜微粒形成，apoB100参与LDL受体识别。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：A（apoAⅠ）。\n\nA：apoAⅠ激活LCAT，使血浆游离胆固醇酯化并进入HDL核心。B apoB48参与CM组装；C apoB100参与VLDL/LDL结构及受体识别；D apoCⅡ激活LPL，而非LCAT。",
+          "knowledgeConnections": [
+            "LCAT作用在血浆，ACAT参与细胞内胆固醇酯化。",
+            "HDL参与胆固醇逆向转运；LPL水解CM、VLDL中的甘油三酯。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-04",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "04 27考研：生化 血浆脂蛋白 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 4,
+              "title": "生化 血浆脂蛋白 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-d336c36d07-p002.webp",
+              "questionNumbers": [
+                21
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "LCAT作用在血浆，ACAT参与细胞内胆固醇酯化。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -408,8 +624,16 @@
         "sourceFile": "04 27考研：生化 血浆脂蛋白 核心-真题-串联-导图 天天师兄.pdf",
         "page": 2,
         "pageLabel": "PDF第2页",
-        "title": "04 27考研：生化 血浆脂蛋白",
-        "image": "exams/sprint-exam-20261021/lecture-022.webp"
+        "lectureNumber": 4,
+        "title": "生化 血浆脂蛋白 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-d336c36d07-p002.webp",
+        "questionNumbers": [
+          21
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "LCAT作用在血浆，ACAT参与细胞内胆固醇酯化。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -418,12 +642,24 @@
           "sourceFile": "04 27考研：生化 血浆脂蛋白 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
-          "title": "04 27考研：生化 血浆脂蛋白",
-          "image": "exams/sprint-exam-20261021/lecture-022.webp"
+          "lectureNumber": 4,
+          "title": "生化 血浆脂蛋白 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-d336c36d07-p002.webp",
+          "questionNumbers": [
+            21
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "LCAT作用在血浆，ACAT参与细胞内胆固醇酯化。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "LCAT作用在血浆，ACAT参与细胞内胆固醇酯化。",
+        "HDL参与胆固醇逆向转运；LPL水解CM、VLDL中的甘油三酯。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q022",
@@ -481,32 +717,142 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-02",
-          "explanation": "按粉蝶霉素抑制NADH进入复合体Ⅰ的条件计算：丁酰CoA一次β氧化产生1FADH₂及2乙酰CoA；前者提供1.5ATP，2乙酰CoA各保留1FADH₂与1GTP，共5ATP，合计6.5ATP。底物已为酰基CoA，不另扣活化能。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：D（6.5）。\n\nD：粉蝶霉素抑制复合体Ⅰ，NADH不能由该入口供能，FADH₂入口仍可工作。丁酰CoA一次β氧化产生1个FADH₂，两个乙酰CoA进入三羧酸循环再产生2个FADH₂及2个GTP，共3×1.5＋2＝6.5 ATP。A、B、C均漏计产能环节。",
+          "knowledgeConnections": [
+            "题干已是丁酰CoA，不再扣除脂肪酸活化的2个高能磷酸键。",
+            "复合体Ⅰ抑制不同于整条呼吸链被阻断，也不同于ATP合酶抑制。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-02",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 2,
+              "title": "生化 氧化磷酸化 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-e3cc083b30-p002.webp",
+              "questionNumbers": [
+                22
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "题干已是丁酰CoA，不再扣除脂肪酸活化的2个高能磷酸键。"
+              ]
+            },
+            {
+              "lectureId": "lecture-02",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 2,
+              "title": "生化 氧化磷酸化 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-e3cc083b30-p003.webp",
+              "questionNumbers": [
+                22
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "题干已是丁酰CoA，不再扣除脂肪酸活化的2个高能磷酸键。"
+              ]
+            },
+            {
+              "lectureId": "lecture-02",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "06 27考研：生化 脂肪代谢 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 6,
+              "title": "生化 脂肪代谢 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-c35a2b29d1-p003.webp",
+              "questionNumbers": [
+                22
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "题干已是丁酰CoA，不再扣除脂肪酸活化的2个高能磷酸键。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-02",
         "sourceSubject": "biochemistry",
         "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 3,
-        "pageLabel": "PDF第3页",
-        "title": "02 27考研：生化 氧化磷酸化",
-        "image": "exams/sprint-exam-20261021/lecture-023.webp"
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "lectureNumber": 2,
+        "title": "生化 氧化磷酸化 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-e3cc083b30-p002.webp",
+        "questionNumbers": [
+          22
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "题干已是丁酰CoA，不再扣除脂肪酸活化的2个高能磷酸键。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-02",
           "sourceSubject": "biochemistry",
           "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "lectureNumber": 2,
+          "title": "生化 氧化磷酸化 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-e3cc083b30-p002.webp",
+          "questionNumbers": [
+            22
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "题干已是丁酰CoA，不再扣除脂肪酸活化的2个高能磷酸键。"
+          ]
+        },
+        {
+          "lectureId": "lecture-02",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
           "page": 3,
           "pageLabel": "PDF第3页",
-          "title": "02 27考研：生化 氧化磷酸化",
-          "image": "exams/sprint-exam-20261021/lecture-023.webp"
+          "lectureNumber": 2,
+          "title": "生化 氧化磷酸化 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-e3cc083b30-p003.webp",
+          "questionNumbers": [
+            22
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "题干已是丁酰CoA，不再扣除脂肪酸活化的2个高能磷酸键。"
+          ]
+        },
+        {
+          "lectureId": "lecture-02",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "06 27考研：生化 脂肪代谢 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "lectureNumber": 6,
+          "title": "生化 脂肪代谢 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-c35a2b29d1-p003.webp",
+          "questionNumbers": [
+            22
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "题干已是丁酰CoA，不再扣除脂肪酸活化的2个高能磷酸键。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "题干已是丁酰CoA，不再扣除脂肪酸活化的2个高能磷酸键。",
+        "复合体Ⅰ抑制不同于整条呼吸链被阻断，也不同于ATP合酶抑制。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q023",
@@ -564,8 +910,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-17",
-          "explanation": "对一个转录单位仅以其中一条DNA链为模板，但不同基因可选择不同链，因此同一DNA分子上的模板链和编码链可依基因交替。RNA始终按5′→3′方向合成。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C（模板链和编码链能进行交替转换）。\n\nC：不同基因可选DNA不同链为模板，模板链与编码链在不同转录单位间可交替。A RNA总沿5′→3′延长；B不能说某一整条链不含结构基因；D同一条转录产物并非由两条DNA模板拼合。",
+          "knowledgeConnections": [
+            "同一基因仅一条链作为模板链，另一条为编码链。",
+            "编码链与RNA序列相同方向对应，仅DNA的T与RNA的U不同。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-17",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 17,
+              "title": "生化 转录 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-07851e4590-p001.webp",
+              "questionNumbers": [
+                23
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "同一基因仅一条链作为模板链，另一条为编码链。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -574,8 +942,16 @@
         "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
         "page": 1,
         "pageLabel": "PDF第1页",
-        "title": "17 27考研：生化 转录",
-        "image": "exams/sprint-exam-20261021/lecture-024.webp"
+        "lectureNumber": 17,
+        "title": "生化 转录 · 第1页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-07851e4590-p001.webp",
+        "questionNumbers": [
+          23
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "同一基因仅一条链作为模板链，另一条为编码链。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -584,12 +960,24 @@
           "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
           "page": 1,
           "pageLabel": "PDF第1页",
-          "title": "17 27考研：生化 转录",
-          "image": "exams/sprint-exam-20261021/lecture-024.webp"
+          "lectureNumber": 17,
+          "title": "生化 转录 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-07851e4590-p001.webp",
+          "questionNumbers": [
+            23
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "同一基因仅一条链作为模板链，另一条为编码链。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "同一基因仅一条链作为模板链，另一条为编码链。",
+        "编码链与RNA序列相同方向对应，仅DNA的T与RNA的U不同。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q024",
@@ -647,9 +1035,29 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-17",
-          "explanation": "A：不选：脱腺苷酸化后降解是常见mRNA周转途径，处理正常mRNA寿命问题，不是本题问的主要异常质量监控机制。\nB：选：无义介导降解NMD识别含提前终止密码子的异常mRNA，减少潜在有害截短蛋白的产生，是本题重点。\nC：不选作最佳：无终止密码子介导降解NSD针对缺少终止密码子的异常转录物，也属于监控，但不是本题的主要机制。\nD：不选：内切酶参与降解描述的是酶学方式，不能替代题目所要求的特定监控机制名称。",
+          "explanation": "正确答案：B（无义介导的 mRNA 降解）。\n\nB：无义介导降解识别带提前终止密码子的异常mRNA，是主要质量监控机制。A脱腺苷酸化是常规降解途径；C针对缺失终止密码子的另一类异常；D描述酶切过程而非此主要监控类型。",
           "knowledgeConnections": [
-            "提前终止密码子→NMD；无终止密码子→NSD；核糖体异常停滞→NGD。正常转录物的寿命调节另看脱尾、去帽等途径。"
+            "提前终止密码子可由错误剪接、移码等产生，异常短蛋白有潜在毒性。",
+            "mRNA正常寿命调节与异常转录物质量控制需区分。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-17",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 9,
+              "pageLabel": "PDF第9页",
+              "lectureNumber": 17,
+              "title": "生化 转录 · 第9页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-07851e4590-p009.webp",
+              "questionNumbers": [
+                24
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "提前终止密码子可由错误剪接、移码等产生，异常短蛋白有潜在毒性。"
+              ]
+            }
           ]
         }
       ],
@@ -659,8 +1067,16 @@
         "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
         "page": 9,
         "pageLabel": "PDF第9页",
-        "title": "生物化学第17讲《生化 转录》",
-        "image": "exams/sprint-exam-20261021/lecture-025.webp"
+        "lectureNumber": 17,
+        "title": "生化 转录 · 第9页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-07851e4590-p009.webp",
+        "questionNumbers": [
+          24
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "提前终止密码子可由错误剪接、移码等产生，异常短蛋白有潜在毒性。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -669,12 +1085,24 @@
           "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
           "page": 9,
           "pageLabel": "PDF第9页",
-          "title": "生物化学第17讲《生化 转录》",
-          "image": "exams/sprint-exam-20261021/lecture-025.webp"
+          "lectureNumber": 17,
+          "title": "生化 转录 · 第9页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-07851e4590-p009.webp",
+          "questionNumbers": [
+            24
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "提前终止密码子可由错误剪接、移码等产生，异常短蛋白有潜在毒性。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "提前终止密码子可由错误剪接、移码等产生，异常短蛋白有潜在毒性。",
+        "mRNA正常寿命调节与异常转录物质量控制需区分。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q025",
@@ -732,8 +1160,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-18",
-          "explanation": "IF3结合原核核糖体小亚基，防止其与大亚基过早结合；IF2参与起始tRNA定位，RF1、RF2是终止释放因子。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：B（IF3）。\n\nB：IF3阻止原核核糖体大、小亚基过早结合，并帮助起始氨酰tRNA选择。A IF2为GTP酶，帮助起始tRNA进入P位；C、D RF1、RF2识别终止密码子，属于释放因子。",
+          "knowledgeConnections": [
+            "原核起始因子IF1、IF2、IF3与延长因子EF、终止因子RF分阶段记忆。",
+            "IF2识别起始氨酰tRNA，IF3防止过早结合，不能互换。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-18",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 18,
+              "title": "生化 翻译 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-510a1aa1bd-p003.webp",
+              "questionNumbers": [
+                25
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "原核起始因子IF1、IF2、IF3与延长因子EF、终止因子RF分阶段记忆。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -742,8 +1192,16 @@
         "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
         "page": 3,
         "pageLabel": "PDF第3页",
-        "title": "18 27考研：生化 翻译",
-        "image": "exams/sprint-exam-20261021/lecture-026.webp"
+        "lectureNumber": 18,
+        "title": "生化 翻译 · 第3页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-510a1aa1bd-p003.webp",
+        "questionNumbers": [
+          25
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "原核起始因子IF1、IF2、IF3与延长因子EF、终止因子RF分阶段记忆。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -752,12 +1210,24 @@
           "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
           "page": 3,
           "pageLabel": "PDF第3页",
-          "title": "18 27考研：生化 翻译",
-          "image": "exams/sprint-exam-20261021/lecture-026.webp"
+          "lectureNumber": 18,
+          "title": "生化 翻译 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-510a1aa1bd-p003.webp",
+          "questionNumbers": [
+            25
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "原核起始因子IF1、IF2、IF3与延长因子EF、终止因子RF分阶段记忆。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "原核起始因子IF1、IF2、IF3与延长因子EF、终止因子RF分阶段记忆。",
+        "IF2识别起始氨酰tRNA，IF3防止过早结合，不能互换。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q026",
@@ -815,32 +1285,108 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-19",
-          "explanation": "色氨酸操纵子衰减调节依赖前导肽翻译速度：核糖体在色氨酸密码子处是否停顿，决定终止或反终止结构形成。阻遏蛋白参与另一层调控，精细衰减机制选核糖体。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：D（核糖体）。\n\nD：色氨酸操纵子衰减调控依赖转录与翻译耦联，核糖体在前导肽上的停顿决定RNA形成终止或反终止结构。A阻遏蛋白承担粗调；B一般转录因子及C终止因子不解释本题精细衰减机制。",
+          "knowledgeConnections": [
+            "色氨酸充足→前导肽顺利翻译→终止发夹形成→转录衰减。",
+            "色氨酸缺乏→核糖体停在连续Trp密码子→反终止结构形成→继续转录。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 19,
+              "title": "生化 基因表达调控 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p004.webp",
+              "questionNumbers": [
+                26
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "色氨酸充足→前导肽顺利翻译→终止发夹形成→转录衰减。"
+              ]
+            },
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 19,
+              "title": "生化 基因表达调控 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p005.webp",
+              "questionNumbers": [
+                26
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "色氨酸充足→前导肽顺利翻译→终止发夹形成→转录衰减。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-19",
         "sourceSubject": "biochemistry",
         "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 13,
-        "pageLabel": "PDF第13页",
-        "title": "19 27考研：生化 基因表达调控",
-        "image": "exams/sprint-exam-20261021/lecture-027.webp"
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 19,
+        "title": "生化 基因表达调控 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p004.webp",
+        "questionNumbers": [
+          26
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "色氨酸充足→前导肽顺利翻译→终止发夹形成→转录衰减。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-19",
           "sourceSubject": "biochemistry",
           "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 13,
-          "pageLabel": "PDF第13页",
-          "title": "19 27考研：生化 基因表达调控",
-          "image": "exams/sprint-exam-20261021/lecture-027.webp"
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 19,
+          "title": "生化 基因表达调控 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p004.webp",
+          "questionNumbers": [
+            26
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "色氨酸充足→前导肽顺利翻译→终止发夹形成→转录衰减。"
+          ]
+        },
+        {
+          "lectureId": "lecture-19",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "lectureNumber": 19,
+          "title": "生化 基因表达调控 · 第5页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p005.webp",
+          "questionNumbers": [
+            26
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "色氨酸充足→前导肽顺利翻译→终止发夹形成→转录衰减。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "色氨酸充足→前导肽顺利翻译→终止发夹形成→转录衰减。",
+        "色氨酸缺乏→核糖体停在连续Trp密码子→反终止结构形成→继续转录。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q027",
@@ -898,8 +1444,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-19",
-          "explanation": "miRNA与靶mRNA多为不完全互补，常抑制翻译并促进降解；siRNA通常高度互补并引导切割。Dicer加工、RISC参与及转录后调节均不是miRNA独有特征。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：D（多数 miRNA 与靶 mRNA 碱基不完全互补）。\n\nD：多数miRNA与靶mRNA不完全互补，常抑制翻译并促进降解。A转录后调节、B双链前体及Dicer加工、C进入RISC都是miRNA与siRNA共有环节，不能作显著区别。",
+          "knowledgeConnections": [
+            "siRNA通常与靶mRNA高度或完全互补，促特异切割。",
+            "miRNA可调控多个靶mRNA，一个mRNA也可受多个miRNA调节。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 10,
+              "pageLabel": "PDF第10页",
+              "lectureNumber": 19,
+              "title": "生化 基因表达调控 · 第10页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p010.webp",
+              "questionNumbers": [
+                27
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "siRNA通常与靶mRNA高度或完全互补，促特异切割。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -908,8 +1476,16 @@
         "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
         "page": 10,
         "pageLabel": "PDF第10页",
-        "title": "19 27考研：生化 基因表达调控",
-        "image": "exams/sprint-exam-20261021/lecture-028.webp"
+        "lectureNumber": 19,
+        "title": "生化 基因表达调控 · 第10页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p010.webp",
+        "questionNumbers": [
+          27
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "siRNA通常与靶mRNA高度或完全互补，促特异切割。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -918,12 +1494,24 @@
           "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
           "page": 10,
           "pageLabel": "PDF第10页",
-          "title": "19 27考研：生化 基因表达调控",
-          "image": "exams/sprint-exam-20261021/lecture-028.webp"
+          "lectureNumber": 19,
+          "title": "生化 基因表达调控 · 第10页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p010.webp",
+          "questionNumbers": [
+            27
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "siRNA通常与靶mRNA高度或完全互补，促特异切割。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "siRNA通常与靶mRNA高度或完全互补，促特异切割。",
+        "miRNA可调控多个靶mRNA，一个mRNA也可受多个miRNA调节。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q028",
@@ -981,34 +1569,74 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-11",
-          "explanation": "A：选：诱导肝微粒体细胞色素P450相关单加氧酶，药物代谢加快，同剂量效应减弱，形成药代动力学耐受。\nB：不选：单胺氧化酶主要参与单胺的氧化脱氨，不能因名称中有“单”和“氧”就替代微粒体单加氧酶。\nC：不选：硫酸基转移酶参与Ⅱ相结合反应，不是本题苯巴比妥自身耐受的经典主要环节。\nD：不选作最佳：苯巴比妥也可诱导某些结合酶，但本题的标准考点是P450单加氧酶及药物氧化代谢，A最符合。",
+          "explanation": "正确答案：A（苯巴比妥诱导单加氧酶合成）。\n\nA：苯巴比妥诱导肝微粒体单加氧酶系统，增强自身及其他药物的氧化代谢，产生代谢性耐受。B单胺氧化酶主要涉及胺类代谢；C硫酸化、D葡萄糖醛酸结合属于Ⅱ相反应，不是本题所指主要酶诱导机制。",
           "knowledgeConnections": [
-            "Ⅰ相多为氧化、还原、水解；Ⅱ相为结合。单加氧酶常定位内质网/微粒体，单胺氧化酶则是另一套底物和定位。"
+            "Ⅰ相生物转化：氧化、还原、水解；Ⅱ相：与葡萄糖醛酸、硫酸等结合。",
+            "酶诱导可使药物清除加快，且可能影响合并用药，区别于受体敏感性下降。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-11",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "【精编版】生化合集.pdf",
+              "page": 87,
+              "pageLabel": "PDF第87页",
+              "title": "【精编版】生化合集 · 第87页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p087.webp",
+              "questionNumbers": [
+                28
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "Ⅰ相生物转化：氧化、还原、水解；Ⅱ相：与葡萄糖醛酸、硫酸等结合。",
+                "酶诱导可使药物清除加快，且可能影响合并用药，区别于受体敏感性下降。"
+              ]
+            }
           ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-11",
         "sourceSubject": "biochemistry",
-        "sourceFile": "27生化跟课版合集【带导图】.pdf",
-        "page": 92,
-        "pageLabel": "PDF第92页",
-        "title": "生化跟课合集｜生物转化",
-        "image": "exams/sprint-exam-20261021/lecture-029.webp"
+        "sourceFile": "【精编版】生化合集.pdf",
+        "page": 87,
+        "pageLabel": "PDF第87页",
+        "title": "【精编版】生化合集 · 第87页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p087.webp",
+        "questionNumbers": [
+          28
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "Ⅰ相生物转化：氧化、还原、水解；Ⅱ相：与葡萄糖醛酸、硫酸等结合。",
+          "酶诱导可使药物清除加快，且可能影响合并用药，区别于受体敏感性下降。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-11",
           "sourceSubject": "biochemistry",
-          "sourceFile": "27生化跟课版合集【带导图】.pdf",
-          "page": 92,
-          "pageLabel": "PDF第92页",
-          "title": "生化跟课合集｜生物转化",
-          "image": "exams/sprint-exam-20261021/lecture-029.webp"
+          "sourceFile": "【精编版】生化合集.pdf",
+          "page": 87,
+          "pageLabel": "PDF第87页",
+          "title": "【精编版】生化合集 · 第87页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p087.webp",
+          "questionNumbers": [
+            28
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "Ⅰ相生物转化：氧化、还原、水解；Ⅱ相：与葡萄糖醛酸、硫酸等结合。",
+            "酶诱导可使药物清除加快，且可能影响合并用药，区别于受体敏感性下降。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "Ⅰ相生物转化：氧化、还原、水解；Ⅱ相：与葡萄糖醛酸、硫酸等结合。",
+        "酶诱导可使药物清除加快，且可能影响合并用药，区别于受体敏感性下降。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q142",
@@ -1068,32 +1696,74 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-15",
-          "explanation": "Tm受双链长度、碱基组成尤其GC比例、离子强度等影响；温度本身是实验改变的变量，不能作为DNA所具有的Tm的决定属性，按本题选ABD。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：ABD（DNA 的碱基对数；DNA 的碱基组成；离子浓度或强度）。\n\nA DNA长度、B G-C比例及D盐离子强度均影响Tm。C温度是熔解实验所改变的自变量，不能把它再作为决定Tm数值的独立结构环境因素。",
+          "knowledgeConnections": [
+            "Tm为DNA变性达到一半时的温度，G-C比例高通常Tm较高。",
+            "盐离子屏蔽磷酸骨架负电荷，提高双链稳定性；低盐易解链。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-15",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "15 27考研：生化 核酸 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 15,
+              "title": "生化 核酸 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-1a6cf37315-p003.webp",
+              "questionNumbers": [
+                142
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "Tm为DNA变性达到一半时的温度，G-C比例高通常Tm较高。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-15",
         "sourceSubject": "biochemistry",
         "sourceFile": "15 27考研：生化 核酸 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 9,
-        "pageLabel": "PDF第9页",
-        "title": "15 27考研：生化 核酸",
-        "image": "exams/sprint-exam-20261021/lecture-115.webp"
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "lectureNumber": 15,
+        "title": "生化 核酸 · 第3页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-1a6cf37315-p003.webp",
+        "questionNumbers": [
+          142
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "Tm为DNA变性达到一半时的温度，G-C比例高通常Tm较高。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-15",
           "sourceSubject": "biochemistry",
           "sourceFile": "15 27考研：生化 核酸 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 9,
-          "pageLabel": "PDF第9页",
-          "title": "15 27考研：生化 核酸",
-          "image": "exams/sprint-exam-20261021/lecture-115.webp"
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "lectureNumber": 15,
+          "title": "生化 核酸 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-1a6cf37315-p003.webp",
+          "questionNumbers": [
+            142
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "Tm为DNA变性达到一半时的温度，G-C比例高通常Tm较高。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "Tm为DNA变性达到一半时的温度，G-C比例高通常Tm较高。",
+        "盐离子屏蔽磷酸骨架负电荷，提高双链稳定性；低盐易解链。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q143",
@@ -1153,9 +1823,74 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-01",
-          "explanation": "A：选：丙酮酸接受氨基，可经丙氨酸氨基转移酶生成丙氨酸；二者构成常见转氨关系。\nB：不选：丙酮是酮体成员，通常由乙酰乙酸脱羧形成；不是丙酮酸经异构酶直接生成。\nC：选：丙酮酸可经丙酮酸羧化酶生成草酰乙酸，再经磷酸烯醇式丙酮酸进入糖异生。\nD：选：丙酮酸进入线粒体，经丙酮酸脱氢酶复合体形成乙酰CoA，进入三羧酸循环并经氧化磷酸化供能。",
+          "explanation": "正确答案：ACD（转变为丙氨酸；异生成葡萄糖；进入线粒体氧化供能）。\n\nA丙酮酸转氨可成丙氨酸；C经丙酮酸羧化酶等旁路参与糖异生；D入线粒体氧化脱羧为乙酰CoA供能。B丙酮属于酮体代谢产物，不是丙酮酸经异构酶直接生成。",
           "knowledgeConnections": [
-            "丙酮酸的去路可按四支记：乳酸、丙氨酸、草酰乙酸、乙酰CoA。丙酮属于另一个“酮体家族”。"
+            "丙酮酸有三条重要去路：乳酸、乙酰CoA、草酰乙酸，还可转氨为丙氨酸。",
+            "丙酮酸→乙酰CoA不可逆，因此偶数碳脂肪酸不能净转变为葡萄糖。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-01",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "03 27考研：生化 磷酸戊糖途径、糖原、糖异生 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 3,
+              "title": "生化 磷酸戊糖途径、糖原、糖异生 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-4323c3ebc2-p003.webp",
+              "questionNumbers": [
+                143
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "丙酮酸有三条重要去路：乳酸、乙酰CoA、草酰乙酸，还可转氨为丙氨酸。"
+              ]
+            },
+            {
+              "lectureId": "lecture-01",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "01 27考研：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 6,
+              "pageLabel": "PDF第6页",
+              "lectureNumber": 1,
+              "title": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 · 第6页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-cce9937b13-p006.webp",
+              "questionNumbers": [
+                143
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "丙酮酸有三条重要去路：乳酸、乙酰CoA、草酰乙酸，还可转氨为丙氨酸。"
+              ]
+            },
+            {
+              "lectureId": "lecture-01",
+              "title": "143题A选项代谢流程图",
+              "pageLabel": "解析流程图",
+              "image": "exams/sprint-exam-20261021/flow-A.webp",
+              "page": 1
+            },
+            {
+              "lectureId": "lecture-01",
+              "title": "143题B选项代谢流程图",
+              "pageLabel": "解析流程图",
+              "image": "exams/sprint-exam-20261021/flow-B.webp",
+              "page": 2
+            },
+            {
+              "lectureId": "lecture-01",
+              "title": "143题C选项代谢流程图",
+              "pageLabel": "解析流程图",
+              "image": "exams/sprint-exam-20261021/flow-C.webp",
+              "page": 3
+            },
+            {
+              "lectureId": "lecture-01",
+              "title": "143题D选项代谢流程图",
+              "pageLabel": "解析流程图",
+              "image": "exams/sprint-exam-20261021/flow-D.webp",
+              "page": 4
+            }
           ]
         }
       ],
@@ -1165,8 +1900,16 @@
         "sourceFile": "03 27考研：生化 磷酸戊糖途径、糖原、糖异生 核心-真题-串联-导图 天天师兄.pdf",
         "page": 3,
         "pageLabel": "PDF第3页",
-        "title": "生物化学第3讲《生化 磷酸戊糖途径、糖原、糖异生》",
-        "image": "exams/sprint-exam-20261021/lecture-116.webp"
+        "lectureNumber": 3,
+        "title": "生化 磷酸戊糖途径、糖原、糖异生 · 第3页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-4323c3ebc2-p003.webp",
+        "questionNumbers": [
+          143
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "丙酮酸有三条重要去路：乳酸、乙酰CoA、草酰乙酸，还可转氨为丙氨酸。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -1175,26 +1918,33 @@
           "sourceFile": "03 27考研：生化 磷酸戊糖途径、糖原、糖异生 核心-真题-串联-导图 天天师兄.pdf",
           "page": 3,
           "pageLabel": "PDF第3页",
-          "title": "生物化学第3讲《生化 磷酸戊糖途径、糖原、糖异生》",
-          "image": "exams/sprint-exam-20261021/lecture-116.webp"
-        },
-        {
-          "lectureId": "lecture-01",
-          "sourceSubject": "biochemistry",
-          "sourceFile": "07 27考研：生化 氨基酸代谢 & 氨基酸 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
-          "title": "生物化学第7讲《生化 氨基酸代谢 & 氨基酸》",
-          "image": "exams/sprint-exam-20261021/lecture-117.webp"
+          "lectureNumber": 3,
+          "title": "生化 磷酸戊糖途径、糖原、糖异生 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-4323c3ebc2-p003.webp",
+          "questionNumbers": [
+            143
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "丙酮酸有三条重要去路：乳酸、乙酰CoA、草酰乙酸，还可转氨为丙氨酸。"
+          ]
         },
         {
           "lectureId": "lecture-01",
           "sourceSubject": "biochemistry",
           "sourceFile": "01 27考研：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 3,
-          "pageLabel": "PDF第3页",
-          "title": "生物化学第1讲《生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物》",
-          "image": "exams/sprint-exam-20261021/lecture-118.webp"
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "lectureNumber": 1,
+          "title": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 · 第6页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-cce9937b13-p006.webp",
+          "questionNumbers": [
+            143
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "丙酮酸有三条重要去路：乳酸、乙酰CoA、草酰乙酸，还可转氨为丙氨酸。"
+          ]
         },
         {
           "lectureId": "lecture-01",
@@ -1226,7 +1976,11 @@
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "丙酮酸有三条重要去路：乳酸、乙酰CoA、草酰乙酸，还可转氨为丙氨酸。",
+        "丙酮酸→乙酰CoA不可逆，因此偶数碳脂肪酸不能净转变为葡萄糖。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q144",
@@ -1286,9 +2040,63 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-09",
-          "explanation": "A：选：IMP分流合成AMP需GTP，合成GMP需ATP，交叉供能有利于两类嘌呤核苷酸平衡。\nB：选：胸苷酸合酶将dUMP转为dTMP，两个底物、产物均为一磷酸形式；不是二磷酸水平。\nC：不选：在PRPP上逐步搭环的是嘌呤；嘧啶先合成乳清酸环，再连接PRPP。\nD：选：PRPP提供活化的磷酸核糖，PRPP合成酶参与嘌呤和嘧啶核苷酸的从头合成。",
+          "explanation": "正确答案：ABD（GTP 促进 AMP 合成，ATP 促进 GMP 合成；dTMP 的合成在一磷酸水平完成；PRPP 合成酶参与嘌呤和嘧啶核苷酸的合成）。\n\nA嘌呤分支交叉使用能量：GTP促进AMP、ATP促进GMP；B dUMP直接在一磷酸水平转为dTMP；D PRPP合成酶为嘌呤及嘧啶核苷酸供PRPP。C写反，嘧啶先合成环再与PRPP结合，嘌呤才在PRPP上逐步建环。",
           "knowledgeConnections": [
-            "“核苷酸还原”和“胸苷酸甲基化”是两步不同反应。另把从头合成的起始骨架分清：嘌呤搭环于糖，嘧啶先环后糖。"
+            "核糖核苷酸还原通常在二磷酸水平；dTMP合成为一磷酸水平。",
+            "嘌呤与嘧啶从头合成共有谷氨酰胺和天冬氨酸等来源，但建环顺序不同。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-09",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 9,
+              "title": "生化 核苷酸代谢 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-5d46f3a947-p001.webp",
+              "questionNumbers": [
+                144
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "核糖核苷酸还原通常在二磷酸水平；dTMP合成为一磷酸水平。"
+              ]
+            },
+            {
+              "lectureId": "lecture-09",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 9,
+              "title": "生化 核苷酸代谢 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-5d46f3a947-p002.webp",
+              "questionNumbers": [
+                144
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "核糖核苷酸还原通常在二磷酸水平；dTMP合成为一磷酸水平。"
+              ]
+            },
+            {
+              "lectureId": "lecture-09",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 9,
+              "title": "生化 核苷酸代谢 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-5d46f3a947-p003.webp",
+              "questionNumbers": [
+                144
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "核糖核苷酸还原通常在二磷酸水平；dTMP合成为一磷酸水平。"
+              ]
+            }
           ]
         }
       ],
@@ -1298,8 +2106,16 @@
         "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
         "page": 1,
         "pageLabel": "PDF第1页",
-        "title": "生物化学第9讲《生化 核苷酸代谢》",
-        "image": "exams/sprint-exam-20261021/lecture-119.webp"
+        "lectureNumber": 9,
+        "title": "生化 核苷酸代谢 · 第1页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-5d46f3a947-p001.webp",
+        "questionNumbers": [
+          144
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "核糖核苷酸还原通常在二磷酸水平；dTMP合成为一磷酸水平。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -1308,8 +2124,16 @@
           "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
           "page": 1,
           "pageLabel": "PDF第1页",
-          "title": "生物化学第9讲《生化 核苷酸代谢》",
-          "image": "exams/sprint-exam-20261021/lecture-119.webp"
+          "lectureNumber": 9,
+          "title": "生化 核苷酸代谢 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-5d46f3a947-p001.webp",
+          "questionNumbers": [
+            144
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "核糖核苷酸还原通常在二磷酸水平；dTMP合成为一磷酸水平。"
+          ]
         },
         {
           "lectureId": "lecture-09",
@@ -1317,8 +2141,16 @@
           "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
-          "title": "生物化学第9讲《生化 核苷酸代谢》",
-          "image": "exams/sprint-exam-20261021/lecture-120.webp"
+          "lectureNumber": 9,
+          "title": "生化 核苷酸代谢 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-5d46f3a947-p002.webp",
+          "questionNumbers": [
+            144
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "核糖核苷酸还原通常在二磷酸水平；dTMP合成为一磷酸水平。"
+          ]
         },
         {
           "lectureId": "lecture-09",
@@ -1326,12 +2158,24 @@
           "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
           "page": 3,
           "pageLabel": "PDF第3页",
-          "title": "生物化学第9讲《生化 核苷酸代谢》",
-          "image": "exams/sprint-exam-20261021/lecture-121.webp"
+          "lectureNumber": 9,
+          "title": "生化 核苷酸代谢 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-5d46f3a947-p003.webp",
+          "questionNumbers": [
+            144
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "核糖核苷酸还原通常在二磷酸水平；dTMP合成为一磷酸水平。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "核糖核苷酸还原通常在二磷酸水平；dTMP合成为一磷酸水平。",
+        "嘌呤与嘧啶从头合成共有谷氨酰胺和天冬氨酸等来源，但建环顺序不同。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q145",
@@ -1391,32 +2235,74 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-14",
-          "explanation": "原核表达载体保留抗性筛选标记和MCS，并需要SD核糖体结合位点等原核翻译信号。poly(A)加尾信号属真核表达调控元件，故选ABC。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：ABC（Shine-Dalgarno 序列；抗生素抗性基因；多克隆酶切位点）。\n\nA S-D序列帮助原核核糖体结合与起始；B抗性标记筛选阳性克隆；C多克隆位点便于插入目的片段。D poly(A)加尾信号属于真核转录后加工要求，不是原核表达载体必备。",
+          "knowledgeConnections": [
+            "克隆载体强调复制与筛选；表达载体还须有宿主可识别的转录、翻译调控元件。",
+            "原核S-D序列与真核Kozak序列、poly(A)信号分开记忆。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-14",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "【精编版】生化合集.pdf",
+              "page": 110,
+              "pageLabel": "PDF第110页",
+              "title": "【精编版】生化合集 · 第110页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p110.webp",
+              "questionNumbers": [
+                145
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "克隆载体强调复制与筛选；表达载体还须有宿主可识别的转录、翻译调控元件。",
+                "原核S-D序列与真核Kozak序列、poly(A)信号分开记忆。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-14",
         "sourceSubject": "biochemistry",
-        "sourceFile": "14 27考研：生化 小基因 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 6,
-        "pageLabel": "PDF第6页",
-        "title": "14 27考研：生化 小基因",
-        "image": "exams/sprint-exam-20261021/lecture-122.webp"
+        "sourceFile": "【精编版】生化合集.pdf",
+        "page": 110,
+        "pageLabel": "PDF第110页",
+        "title": "【精编版】生化合集 · 第110页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p110.webp",
+        "questionNumbers": [
+          145
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "克隆载体强调复制与筛选；表达载体还须有宿主可识别的转录、翻译调控元件。",
+          "原核S-D序列与真核Kozak序列、poly(A)信号分开记忆。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-14",
           "sourceSubject": "biochemistry",
-          "sourceFile": "14 27考研：生化 小基因 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 6,
-          "pageLabel": "PDF第6页",
-          "title": "14 27考研：生化 小基因",
-          "image": "exams/sprint-exam-20261021/lecture-122.webp"
+          "sourceFile": "【精编版】生化合集.pdf",
+          "page": 110,
+          "pageLabel": "PDF第110页",
+          "title": "【精编版】生化合集 · 第110页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p110.webp",
+          "questionNumbers": [
+            145
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "克隆载体强调复制与筛选；表达载体还须有宿主可识别的转录、翻译调控元件。",
+            "原核S-D序列与真核Kozak序列、poly(A)信号分开记忆。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "克隆载体强调复制与筛选；表达载体还须有宿主可识别的转录、翻译调控元件。",
+        "原核S-D序列与真核Kozak序列、poly(A)信号分开记忆。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q146",
@@ -1476,32 +2362,176 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-16",
-          "explanation": "典型细胞染色体复制为定点起始、复制叉双向推进；前导与后随链均5′→3′合成，后随链有冈崎片段且引物需去除。拓扑异构酶在链延伸过程中也用于解除拓扑张力，D错误。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：ABC（以复制叉进行定点的双向复制；前导链和随从链均按 5→3 方向复制；必有冈崎片段，必须切除引物）。\n\nA复制起点形成双向复制叉；B两条新链均为5′→3′合成；C随从链形成冈崎片段、RNA引物需去除。D拓扑异构酶解除复制引起的超螺旋应力，参与全过程，并非仅起始。",
+          "knowledgeConnections": [
+            "前导链连续、随从链不连续，但合成方向相同。",
+            "DNA连接酶连接双链DNA中的单链缺口，聚合酶负责填补核苷酸缺口。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-16",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 16,
+              "title": "生化 DNA的合成 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-bacc8b791a-p002.webp",
+              "questionNumbers": [
+                146
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "前导链连续、随从链不连续，但合成方向相同。"
+              ]
+            },
+            {
+              "lectureId": "lecture-16",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 16,
+              "title": "生化 DNA的合成 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-bacc8b791a-p004.webp",
+              "questionNumbers": [
+                146
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "前导链连续、随从链不连续，但合成方向相同。"
+              ]
+            },
+            {
+              "lectureId": "lecture-16",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 16,
+              "title": "生化 DNA的合成 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-bacc8b791a-p005.webp",
+              "questionNumbers": [
+                146
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "前导链连续、随从链不连续，但合成方向相同。"
+              ]
+            },
+            {
+              "lectureId": "lecture-16",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 8,
+              "pageLabel": "PDF第8页",
+              "lectureNumber": 16,
+              "title": "生化 DNA的合成 · 第8页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-bacc8b791a-p008.webp",
+              "questionNumbers": [
+                146
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "前导链连续、随从链不连续，但合成方向相同。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-16",
         "sourceSubject": "biochemistry",
         "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 13,
-        "pageLabel": "PDF第13页",
-        "title": "16 27考研：生化 DNA的合成",
-        "image": "exams/sprint-exam-20261021/lecture-123.webp"
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "lectureNumber": 16,
+        "title": "生化 DNA的合成 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-bacc8b791a-p002.webp",
+        "questionNumbers": [
+          146
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "前导链连续、随从链不连续，但合成方向相同。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-16",
           "sourceSubject": "biochemistry",
           "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 13,
-          "pageLabel": "PDF第13页",
-          "title": "16 27考研：生化 DNA的合成",
-          "image": "exams/sprint-exam-20261021/lecture-123.webp"
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "lectureNumber": 16,
+          "title": "生化 DNA的合成 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-bacc8b791a-p002.webp",
+          "questionNumbers": [
+            146
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "前导链连续、随从链不连续，但合成方向相同。"
+          ]
+        },
+        {
+          "lectureId": "lecture-16",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 16,
+          "title": "生化 DNA的合成 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-bacc8b791a-p004.webp",
+          "questionNumbers": [
+            146
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "前导链连续、随从链不连续，但合成方向相同。"
+          ]
+        },
+        {
+          "lectureId": "lecture-16",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "lectureNumber": 16,
+          "title": "生化 DNA的合成 · 第5页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-bacc8b791a-p005.webp",
+          "questionNumbers": [
+            146
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "前导链连续、随从链不连续，但合成方向相同。"
+          ]
+        },
+        {
+          "lectureId": "lecture-16",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "lectureNumber": 16,
+          "title": "生化 DNA的合成 · 第8页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-bacc8b791a-p008.webp",
+          "questionNumbers": [
+            146
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "前导链连续、随从链不连续，但合成方向相同。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "前导链连续、随从链不连续，但合成方向相同。",
+        "DNA连接酶连接双链DNA中的单链缺口，聚合酶负责填补核苷酸缺口。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q147",
@@ -1561,9 +2591,80 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-19",
-          "explanation": "A：选：PLC使PIP₂裂解为IP₃和DAG；IP₃促进Ca²⁺释放，DAG及Ca²⁺参与激活PKC。\nB：选：鸟苷酸环化酶生成cGMP，cGMP激活PKG，符合小分子第二信使通路。\nC：不选：JAK-STAT主要靠受体相关激酶和转录因子依次磷酸化，不依赖题目所指小分子第二信使中继。\nD：选：PI3K将PIP₂转为PIP₃，PIP₃作为脂质第二信使招募、促进AKT相关信号传导。",
+          "explanation": "正确答案：ABD（PKC 通路；PKG 通路；PI3K-AKT 通路）。\n\nA PKC通路使用DAG及Ca²⁺等第二信使；B PKG由cGMP激活；D PI3K产生PIP₃后募集AKT。C JAK-STAT主要通过蛋白质酪氨酸磷酸化传递信号，不依赖本题所列小分子第二信使。",
           "knowledgeConnections": [
-            "不要因PI3K-AKT属于酶偶联受体下游，就排除第二信使。分类问的是不同维度：受体类型和胞内中继形式可以同时描述同一通路。"
+            "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。",
+            "第二信使与激酶不同：cGMP是信使，PKG是信使下游蛋白激酶。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 7,
+              "pageLabel": "PDF第7页",
+              "lectureNumber": 5,
+              "title": "生理+生化 细胞信号转导 · 第7页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-709a3772f0-p007.webp",
+              "questionNumbers": [
+                147
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。"
+              ]
+            },
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 11,
+              "pageLabel": "PDF第11页",
+              "lectureNumber": 5,
+              "title": "生理+生化 细胞信号转导 · 第11页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-709a3772f0-p011.webp",
+              "questionNumbers": [
+                147
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。"
+              ]
+            },
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 15,
+              "pageLabel": "PDF第15页",
+              "lectureNumber": 5,
+              "title": "生理+生化 细胞信号转导 · 第15页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-709a3772f0-p015.webp",
+              "questionNumbers": [
+                147
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。"
+              ]
+            },
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 16,
+              "pageLabel": "PDF第16页",
+              "lectureNumber": 5,
+              "title": "生理+生化 细胞信号转导 · 第16页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-709a3772f0-p016.webp",
+              "questionNumbers": [
+                147
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。"
+              ]
+            }
           ]
         }
       ],
@@ -1571,33 +2672,95 @@
         "lectureId": "lecture-19",
         "sourceSubject": "biochemistry",
         "sourceFile": "5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 11,
-        "pageLabel": "PDF第11页",
-        "title": "生理学第5讲《生理+生化 细胞信号转导》",
-        "image": "exams/sprint-exam-20261021/lecture-124.webp"
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "lectureNumber": 5,
+        "title": "生理+生化 细胞信号转导 · 第7页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-709a3772f0-p007.webp",
+        "questionNumbers": [
+          147
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-19",
           "sourceSubject": "biochemistry",
           "sourceFile": "5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 11,
-          "pageLabel": "PDF第11页",
-          "title": "生理学第5讲《生理+生化 细胞信号转导》",
-          "image": "exams/sprint-exam-20261021/lecture-124.webp"
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "lectureNumber": 5,
+          "title": "生理+生化 细胞信号转导 · 第7页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-709a3772f0-p007.webp",
+          "questionNumbers": [
+            147
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。"
+          ]
         },
         {
           "lectureId": "lecture-19",
           "sourceSubject": "biochemistry",
           "sourceFile": "5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 13,
-          "pageLabel": "PDF第13页",
-          "title": "生理学第5讲《生理+生化 细胞信号转导》",
-          "image": "exams/sprint-exam-20261021/lecture-125.webp"
+          "page": 11,
+          "pageLabel": "PDF第11页",
+          "lectureNumber": 5,
+          "title": "生理+生化 细胞信号转导 · 第11页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-709a3772f0-p011.webp",
+          "questionNumbers": [
+            147
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。"
+          ]
+        },
+        {
+          "lectureId": "lecture-19",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 15,
+          "pageLabel": "PDF第15页",
+          "lectureNumber": 5,
+          "title": "生理+生化 细胞信号转导 · 第15页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-709a3772f0-p015.webp",
+          "questionNumbers": [
+            147
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。"
+          ]
+        },
+        {
+          "lectureId": "lecture-19",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "5 27考研：生理+生化 细胞信号转导 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 16,
+          "pageLabel": "PDF第16页",
+          "lectureNumber": 5,
+          "title": "生理+生化 细胞信号转导 · 第16页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-709a3772f0-p016.webp",
+          "questionNumbers": [
+            147
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "PLC水解PIP₂→IP₃＋DAG；PI3K使PIP₂磷酸化→PIP₃。",
+        "第二信使与激酶不同：cGMP是信使，PKG是信使下游蛋白激酶。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q120",
@@ -1655,32 +2818,103 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-07",
-          "explanation": "肝性脑病用氨基酸制剂着眼于纠正支链/芳香族氨基酸失衡。酪氨酸属芳香族氨基酸，不作为此类六合氨基酸的补充成分。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：B（L-酪氨酸）。\n\nB：酪氨酸属于芳香族氨基酸，不属于本题治疗用六合氨基酸配方。A亮氨酸是支链氨基酸；C谷氨酸可参与氨的结合；D精氨酸参与尿素合成，均与该配方治疗目的相关。",
+          "knowledgeConnections": [
+            "肝性脑病联系芳香族/支链氨基酸比例失衡及氨代谢异常。",
+            "支链氨基酸为亮氨酸、异亮氨酸、缬氨酸；芳香族包括苯丙氨酸、酪氨酸、色氨酸。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-07",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "【精编版】生化合集.pdf",
+              "page": 59,
+              "pageLabel": "PDF第59页",
+              "title": "【精编版】生化合集 · 第59页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p059.webp",
+              "questionNumbers": [
+                120
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "肝性脑病联系芳香族/支链氨基酸比例失衡及氨代谢异常。"
+              ]
+            },
+            {
+              "lectureId": "lecture-07",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "【精编版】生化合集.pdf",
+              "page": 65,
+              "pageLabel": "PDF第65页",
+              "title": "【精编版】生化合集 · 第65页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p065.webp",
+              "questionNumbers": [
+                120
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "支链氨基酸为亮氨酸、异亮氨酸、缬氨酸；芳香族包括苯丙氨酸、酪氨酸、色氨酸。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-07",
         "sourceSubject": "biochemistry",
-        "sourceFile": "07 27考研：生化 氨基酸代谢 & 氨基酸 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 10,
-        "pageLabel": "PDF第10页",
-        "title": "07 27考研：生化 氨基酸代谢 & 氨基酸",
-        "image": "exams/sprint-exam-20261021/lecture-153.webp"
+        "sourceFile": "【精编版】生化合集.pdf",
+        "page": 59,
+        "pageLabel": "PDF第59页",
+        "title": "【精编版】生化合集 · 第59页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p059.webp",
+        "questionNumbers": [
+          120
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "肝性脑病联系芳香族/支链氨基酸比例失衡及氨代谢异常。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-07",
           "sourceSubject": "biochemistry",
-          "sourceFile": "07 27考研：生化 氨基酸代谢 & 氨基酸 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 10,
-          "pageLabel": "PDF第10页",
-          "title": "07 27考研：生化 氨基酸代谢 & 氨基酸",
-          "image": "exams/sprint-exam-20261021/lecture-153.webp"
+          "sourceFile": "【精编版】生化合集.pdf",
+          "page": 59,
+          "pageLabel": "PDF第59页",
+          "title": "【精编版】生化合集 · 第59页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p059.webp",
+          "questionNumbers": [
+            120
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "肝性脑病联系芳香族/支链氨基酸比例失衡及氨代谢异常。"
+          ]
+        },
+        {
+          "lectureId": "lecture-07",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "【精编版】生化合集.pdf",
+          "page": 65,
+          "pageLabel": "PDF第65页",
+          "title": "【精编版】生化合集 · 第65页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p065.webp",
+          "questionNumbers": [
+            120
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "支链氨基酸为亮氨酸、异亮氨酸、缬氨酸；芳香族包括苯丙氨酸、酪氨酸、色氨酸。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "肝性脑病联系芳香族/支链氨基酸比例失衡及氨代谢异常。",
+        "支链氨基酸为亮氨酸、异亮氨酸、缬氨酸；芳香族包括苯丙氨酸、酪氨酸、色氨酸。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q121",
@@ -1738,32 +2972,103 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-07",
-          "explanation": "酪氨酸酶参与酪氨酸转化生成黑色素；其缺陷与部分白化病密切相关，故选酪氨酸，而非亮氨酸或精氨酸代谢。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：B（L-酪氨酸）。\n\nB：酪氨酸在酪氨酸酶作用下生成黑色素，酪氨酸酶缺陷与白化病密切相关。A亮氨酸为支链氨基酸；C谷氨酸及D精氨酸虽有其他代谢功能，不是该黑色素合成起点。",
+          "knowledgeConnections": [
+            "酪氨酸还可生成儿茶酚胺及甲状腺激素。",
+            "苯丙酮尿症与苯丙氨酸→酪氨酸障碍有关，白化病则主要是酪氨酸→黑色素环节。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-07",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "【精编版】生化合集.pdf",
+              "page": 61,
+              "pageLabel": "PDF第61页",
+              "title": "【精编版】生化合集 · 第61页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p061.webp",
+              "questionNumbers": [
+                121
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "酪氨酸还可生成儿茶酚胺及甲状腺激素。"
+              ]
+            },
+            {
+              "lectureId": "lecture-07",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "【精编版】生化合集.pdf",
+              "page": 99,
+              "pageLabel": "PDF第99页",
+              "title": "【精编版】生化合集 · 第99页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p099.webp",
+              "questionNumbers": [
+                121
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "苯丙酮尿症与苯丙氨酸→酪氨酸障碍有关，白化病则主要是酪氨酸→黑色素环节。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-07",
         "sourceSubject": "biochemistry",
-        "sourceFile": "07 27考研：生化 氨基酸代谢 & 氨基酸 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 10,
-        "pageLabel": "PDF第10页",
-        "title": "07 27考研：生化 氨基酸代谢 & 氨基酸",
-        "image": "exams/sprint-exam-20261021/lecture-153.webp"
+        "sourceFile": "【精编版】生化合集.pdf",
+        "page": 61,
+        "pageLabel": "PDF第61页",
+        "title": "【精编版】生化合集 · 第61页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p061.webp",
+        "questionNumbers": [
+          121
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "酪氨酸还可生成儿茶酚胺及甲状腺激素。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-07",
           "sourceSubject": "biochemistry",
-          "sourceFile": "07 27考研：生化 氨基酸代谢 & 氨基酸 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 10,
-          "pageLabel": "PDF第10页",
-          "title": "07 27考研：生化 氨基酸代谢 & 氨基酸",
-          "image": "exams/sprint-exam-20261021/lecture-153.webp"
+          "sourceFile": "【精编版】生化合集.pdf",
+          "page": 61,
+          "pageLabel": "PDF第61页",
+          "title": "【精编版】生化合集 · 第61页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p061.webp",
+          "questionNumbers": [
+            121
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "酪氨酸还可生成儿茶酚胺及甲状腺激素。"
+          ]
+        },
+        {
+          "lectureId": "lecture-07",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "【精编版】生化合集.pdf",
+          "page": 99,
+          "pageLabel": "PDF第99页",
+          "title": "【精编版】生化合集 · 第99页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p099.webp",
+          "questionNumbers": [
+            121
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "苯丙酮尿症与苯丙氨酸→酪氨酸障碍有关，白化病则主要是酪氨酸→黑色素环节。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "酪氨酸还可生成儿茶酚胺及甲状腺激素。",
+        "苯丙酮尿症与苯丙氨酸→酪氨酸障碍有关，白化病则主要是酪氨酸→黑色素环节。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q122",
@@ -1821,32 +3126,142 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-19",
-          "explanation": "增强子通过结合特异转录因子影响基因表达的组织、细胞及时间特异性；启动子控制转录起始，沉默子抑制转录。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：B（增强子）。\n\nB：增强子结合特异转录因子，决定基因表达的时空特异性。A启动子是基本转录装置结合区域；C沉默子抑制表达；D绝缘子阻隔不适当的增强子-启动子联系。",
+          "knowledgeConnections": [
+            "增强子为顺式DNA序列，转录激活蛋白为反式作用因子。",
+            "增强子可远离启动子、方向倒置仍有效，其作用需相应转录因子。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 6,
+              "pageLabel": "PDF第6页",
+              "lectureNumber": 19,
+              "title": "生化 基因表达调控 · 第6页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p006.webp",
+              "questionNumbers": [
+                122
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "增强子为顺式DNA序列，转录激活蛋白为反式作用因子。"
+              ]
+            },
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 7,
+              "pageLabel": "PDF第7页",
+              "lectureNumber": 19,
+              "title": "生化 基因表达调控 · 第7页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p007.webp",
+              "questionNumbers": [
+                122
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "增强子为顺式DNA序列，转录激活蛋白为反式作用因子。"
+              ]
+            },
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 8,
+              "pageLabel": "PDF第8页",
+              "lectureNumber": 19,
+              "title": "生化 基因表达调控 · 第8页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p008.webp",
+              "questionNumbers": [
+                122
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "增强子为顺式DNA序列，转录激活蛋白为反式作用因子。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-19",
         "sourceSubject": "biochemistry",
         "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 7,
-        "pageLabel": "PDF第7页",
-        "title": "19 27考研：生化 基因表达调控",
-        "image": "exams/sprint-exam-20261021/lecture-154.webp"
+        "page": 6,
+        "pageLabel": "PDF第6页",
+        "lectureNumber": 19,
+        "title": "生化 基因表达调控 · 第6页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p006.webp",
+        "questionNumbers": [
+          122
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "增强子为顺式DNA序列，转录激活蛋白为反式作用因子。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-19",
           "sourceSubject": "biochemistry",
           "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "lectureNumber": 19,
+          "title": "生化 基因表达调控 · 第6页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p006.webp",
+          "questionNumbers": [
+            122
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "增强子为顺式DNA序列，转录激活蛋白为反式作用因子。"
+          ]
+        },
+        {
+          "lectureId": "lecture-19",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
           "page": 7,
           "pageLabel": "PDF第7页",
-          "title": "19 27考研：生化 基因表达调控",
-          "image": "exams/sprint-exam-20261021/lecture-154.webp"
+          "lectureNumber": 19,
+          "title": "生化 基因表达调控 · 第7页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p007.webp",
+          "questionNumbers": [
+            122
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "增强子为顺式DNA序列，转录激活蛋白为反式作用因子。"
+          ]
+        },
+        {
+          "lectureId": "lecture-19",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "lectureNumber": 19,
+          "title": "生化 基因表达调控 · 第8页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p008.webp",
+          "questionNumbers": [
+            122
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "增强子为顺式DNA序列，转录激活蛋白为反式作用因子。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "增强子为顺式DNA序列，转录激活蛋白为反式作用因子。",
+        "增强子可远离启动子、方向倒置仍有效，其作用需相应转录因子。"
+      ]
     },
     {
       "id": "biochemistry-sprint-exam-20261021-q123",
@@ -1904,8 +3319,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-19",
-          "explanation": "绝缘子位于增强子与启动子之间时，可阻断二者的作用联系；不应将其与一般转录抑制元件沉默子等同。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：D（绝缘子）。\n\nD：绝缘子可阻挡增强子对其另一侧启动子的作用。A启动子负责转录起始；B增强子促进转录；C沉默子通过结合抑制因子降低转录，不等同于空间阻隔增强子联系。",
+          "knowledgeConnections": [
+            "绝缘子的作用取决于所处位置及其结合蛋白。",
+            "增强子、沉默子、绝缘子均属顺式调控序列，但增强、抑制与隔离作用不同。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 7,
+              "pageLabel": "PDF第7页",
+              "lectureNumber": 19,
+              "title": "生化 基因表达调控 · 第7页",
+              "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p007.webp",
+              "questionNumbers": [
+                123
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "绝缘子的作用取决于所处位置及其结合蛋白。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -1914,8 +3351,16 @@
         "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
         "page": 7,
         "pageLabel": "PDF第7页",
-        "title": "19 27考研：生化 基因表达调控",
-        "image": "exams/sprint-exam-20261021/lecture-154.webp"
+        "lectureNumber": 19,
+        "title": "生化 基因表达调控 · 第7页",
+        "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p007.webp",
+        "questionNumbers": [
+          123
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "绝缘子的作用取决于所处位置及其结合蛋白。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -1924,12 +3369,24 @@
           "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
           "page": 7,
           "pageLabel": "PDF第7页",
-          "title": "19 27考研：生化 基因表达调控",
-          "image": "exams/sprint-exam-20261021/lecture-154.webp"
+          "lectureNumber": 19,
+          "title": "生化 基因表达调控 · 第7页",
+          "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p007.webp",
+          "questionNumbers": [
+            123
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "绝缘子的作用取决于所处位置及其结合蛋白。"
+          ]
         }
       ],
       "sourceSection": "生物化学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "绝缘子的作用取决于所处位置及其结合蛋白。",
+        "增强子、沉默子、绝缘子均属顺式调控序列，但增强、抑制与隔离作用不同。"
+      ]
     }
   ],
   "pages": [

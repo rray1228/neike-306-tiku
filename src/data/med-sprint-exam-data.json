@@ -64,8 +64,31 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-01",
-          "explanation": "含气越多叩诊越空响，顺序为鼓音、过清音、清音、浊音、实音。浊音与实音不能颠倒。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：A。\n\n含气量由多到少依次为鼓音、过清音、清音、浊音、实音，选A。BD颠倒浊音与实音；CD还颠倒鼓音与过清音。",
+          "knowledgeConnections": [
+            "胃泡区可呈鼓音，肺气肿常过清音，正常肺为清音。",
+            "肺实变可浊音，大量胸水或实质器官常实音。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-01",
+              "sourceSubject": "med",
+              "sourceFile": "01 27考研：内科含诊断 COPD 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 11,
+              "pageLabel": "PDF第11页",
+              "lectureNumber": 1,
+              "title": "内科含诊断 COPD · 第11页",
+              "image": "exams/reviewed-mocks-20261104/med-b2c6ebd0a8-p011.webp",
+              "questionNumbers": [
+                41
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "胃泡区可呈鼓音，肺气肿常过清音，正常肺为清音。",
+                "肺实变可浊音，大量胸水或实质器官常实音。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -74,8 +97,17 @@
         "sourceFile": "01 27考研：内科含诊断 COPD 核心-真题-串联-导图 天天师兄.pdf",
         "page": 11,
         "pageLabel": "PDF第11页",
-        "title": "01 27考研：内科含诊断 COPD",
-        "image": "exams/sprint-exam-20261021/lecture-045.webp"
+        "lectureNumber": 1,
+        "title": "内科含诊断 COPD · 第11页",
+        "image": "exams/reviewed-mocks-20261104/med-b2c6ebd0a8-p011.webp",
+        "questionNumbers": [
+          41
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "胃泡区可呈鼓音，肺气肿常过清音，正常肺为清音。",
+          "肺实变可浊音，大量胸水或实质器官常实音。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -84,12 +116,25 @@
           "sourceFile": "01 27考研：内科含诊断 COPD 核心-真题-串联-导图 天天师兄.pdf",
           "page": 11,
           "pageLabel": "PDF第11页",
-          "title": "01 27考研：内科含诊断 COPD",
-          "image": "exams/sprint-exam-20261021/lecture-045.webp"
+          "lectureNumber": 1,
+          "title": "内科含诊断 COPD · 第11页",
+          "image": "exams/reviewed-mocks-20261104/med-b2c6ebd0a8-p011.webp",
+          "questionNumbers": [
+            41
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "胃泡区可呈鼓音，肺气肿常过清音，正常肺为清音。",
+            "肺实变可浊音，大量胸水或实质器官常实音。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "胃泡区可呈鼓音，肺气肿常过清音，正常肺为清音。",
+        "肺实变可浊音，大量胸水或实质器官常实音。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q042",
@@ -147,9 +192,29 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-22",
-          "explanation": "A：不选：妊娠子宫位于腹部中央、下腹部，可把含气肠管推向两侧，出现中间浊、两侧鼓。\nB：不选：巨大卵巢囊肿可占据腹中部，肠管被推向两侧；该体征反而支持此类占位。\nC：不选：明显尿潴留的充盈膀胱从耻骨上向上扩大，形成中央下腹部浊音区。\nD：选“最不可能”：仰卧位腹水多积聚于两侧低处，表现为两侧浊音、中腹部肠管鼓音，并可有移动性浊音。",
+          "explanation": "正确答案：D。\n\n腹水仰卧时液体向两侧低处聚集，通常两侧浊音而中央鼓音；题干恰好相反，故D最不可能。ABC妊娠子宫、卵巢囊肿及膨大膀胱均可居中，肠管被挤向两旁而出现中央浊音。",
           "knowledgeConnections": [
-            "先画出液体位置：游离腹水流向两侧低处；囊肿、子宫和膀胱是居中的占位。不要仅见“液体”就把囊肿与腹水混在一起。"
+            "腹水与中央囊性或实性包块可用叩诊浊音分布鉴别。",
+            "移动性浊音支持腹水；包块浊音一般不随体位同样移动。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-22",
+              "sourceSubject": "med",
+              "sourceFile": "22 27考研：内科含诊断 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 22,
+              "title": "内科含诊断 肝硬化 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-3de33c998e-p004.webp",
+              "questionNumbers": [
+                42
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "腹水与巨大卵巢囊肿的叩诊鼓音、浊音分布及移动性浊音不同。"
+              ]
+            }
           ]
         }
       ],
@@ -159,8 +224,16 @@
         "sourceFile": "22 27考研：内科含诊断 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
         "page": 4,
         "pageLabel": "PDF第4页",
-        "title": "内科第22讲《内科含诊断 肝硬化》",
-        "image": "exams/sprint-exam-20261021/lecture-046.webp"
+        "lectureNumber": 22,
+        "title": "内科含诊断 肝硬化 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/med-3de33c998e-p004.webp",
+        "questionNumbers": [
+          42
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "腹水与巨大卵巢囊肿的叩诊鼓音、浊音分布及移动性浊音不同。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -169,12 +242,24 @@
           "sourceFile": "22 27考研：内科含诊断 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
           "page": 4,
           "pageLabel": "PDF第4页",
-          "title": "内科第22讲《内科含诊断 肝硬化》",
-          "image": "exams/sprint-exam-20261021/lecture-046.webp"
+          "lectureNumber": 22,
+          "title": "内科含诊断 肝硬化 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-3de33c998e-p004.webp",
+          "questionNumbers": [
+            42
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "腹水与巨大卵巢囊肿的叩诊鼓音、浊音分布及移动性浊音不同。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "腹水与中央囊性或实性包块可用叩诊浊音分布鉴别。",
+        "移动性浊音支持腹水；包块浊音一般不随体位同样移动。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q043",
@@ -232,9 +317,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-09",
-          "explanation": "A：不选：长期口服全身糖皮质激素不良反应较多，不是此病例在现有ICS基础上的最适宜常规加药。\nB：不选作最佳：茶碱可舒张支气管并有一定抗炎作用，但治疗窗窄，且没有D针对过敏性鼻炎的匹配优势。\nC：不选作本题最佳：福莫特罗为LABA，主要舒张支气管；与ICS联合常用，但题干突出鼻炎和加强抗炎，D更符合给定条件。\nD：选：扎鲁司特是白三烯受体拮抗剂；这一类对哮喘炎症和过敏性鼻炎相关症状有针对性。",
+          "explanation": "正确答案：D。\n\n白三烯受体拮抗剂可辅助哮喘抗炎，并对伴过敏性鼻炎者有帮助，选D扎鲁司特。A长期全身激素不作为此情况常规升级；B茶碱不是优先抗炎措施；C福莫特罗主要支气管舒张，不能代替针对白三烯炎症的选择。",
           "knowledgeConnections": [
-            "把“缓解支气管痉挛”和“控制气道炎症”分开，再看鼻炎、阿司匹林诱发、运动诱发等提示。这里是选项之间的考试比较，不等同于所有哮喘患者的统一升级处方。"
+            "吸入激素是哮喘抗炎基础，合并鼻炎需同时控制上气道炎症。",
+            "LABA、抗胆碱药以扩张支气管为主；白三烯拮抗剂具有抗炎辅助作用。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-09",
+              "sourceSubject": "med",
+              "sourceFile": "09 27考研：内科含诊断 支气管哮喘 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 9,
+              "title": "内科含诊断 支气管哮喘 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-88b25a3b1c-p004.webp",
+              "questionNumbers": [
+                43
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "吸入激素是哮喘抗炎基础，合并鼻炎需同时控制上气道炎症。",
+                "LABA、抗胆碱药以扩张支气管为主；白三烯拮抗剂具有抗炎辅助作用。"
+              ]
+            }
           ]
         }
       ],
@@ -244,8 +350,17 @@
         "sourceFile": "09 27考研：内科含诊断 支气管哮喘 核心-真题-串联-导图 天天师兄.pdf",
         "page": 4,
         "pageLabel": "PDF第4页",
-        "title": "内科第9讲《内科含诊断 支气管哮喘》",
-        "image": "exams/sprint-exam-20261021/lecture-047.webp"
+        "lectureNumber": 9,
+        "title": "内科含诊断 支气管哮喘 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/med-88b25a3b1c-p004.webp",
+        "questionNumbers": [
+          43
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "吸入激素是哮喘抗炎基础，合并鼻炎需同时控制上气道炎症。",
+          "LABA、抗胆碱药以扩张支气管为主；白三烯拮抗剂具有抗炎辅助作用。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -254,12 +369,25 @@
           "sourceFile": "09 27考研：内科含诊断 支气管哮喘 核心-真题-串联-导图 天天师兄.pdf",
           "page": 4,
           "pageLabel": "PDF第4页",
-          "title": "内科第9讲《内科含诊断 支气管哮喘》",
-          "image": "exams/sprint-exam-20261021/lecture-047.webp"
+          "lectureNumber": 9,
+          "title": "内科含诊断 支气管哮喘 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-88b25a3b1c-p004.webp",
+          "questionNumbers": [
+            43
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "吸入激素是哮喘抗炎基础，合并鼻炎需同时控制上气道炎症。",
+            "LABA、抗胆碱药以扩张支气管为主；白三烯拮抗剂具有抗炎辅助作用。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "吸入激素是哮喘抗炎基础，合并鼻炎需同时控制上气道炎症。",
+        "LABA、抗胆碱药以扩张支气管为主；白三烯拮抗剂具有抗炎辅助作用。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q044",
@@ -317,32 +445,74 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-02",
-          "explanation": "肺动脉高压应用大剂量钙通道阻滞剂需满足急性血管反应试验阳性等条件。本题试验阴性，不宜选地尔硫卓；其他选项属于肺动脉高压靶向治疗药物类别，具体不能任意联合。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：D。\n\n肺动脉高压急性血管反应试验阴性，不适合按阳性反应者使用大剂量钙通道阻滞剂，选D地尔硫卓。A西地那非、B前列环素类及C利奥西呱分别作用于相关肺血管舒张通路。",
+          "knowledgeConnections": [
+            "肺动脉高压的钙拮抗剂治疗需看急性血管反应试验，不能因血压升高就直接套用。",
+            "靶向药主要涉及内皮素、NO-cGMP及前列环素通路。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-02",
+              "sourceSubject": "med",
+              "sourceFile": "02 27考研：内科含诊断 肺动脉高压 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 2,
+              "title": "内科含诊断 肺动脉高压 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-0b3bd263e6-p004.webp",
+              "questionNumbers": [
+                44
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "急性血管反应试验阳性者可用钙拮抗剂，阴性者需按其他靶向治疗选择。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-02",
         "sourceSubject": "med",
         "sourceFile": "02 27考研：内科含诊断 肺动脉高压 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 5,
-        "pageLabel": "PDF第5页",
-        "title": "02 27考研：内科含诊断 肺动脉高压",
-        "image": "exams/sprint-exam-20261021/lecture-048.webp"
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 2,
+        "title": "内科含诊断 肺动脉高压 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/med-0b3bd263e6-p004.webp",
+        "questionNumbers": [
+          44
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "急性血管反应试验阳性者可用钙拮抗剂，阴性者需按其他靶向治疗选择。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-02",
           "sourceSubject": "med",
           "sourceFile": "02 27考研：内科含诊断 肺动脉高压 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 5,
-          "pageLabel": "PDF第5页",
-          "title": "02 27考研：内科含诊断 肺动脉高压",
-          "image": "exams/sprint-exam-20261021/lecture-048.webp"
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 2,
+          "title": "内科含诊断 肺动脉高压 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-0b3bd263e6-p004.webp",
+          "questionNumbers": [
+            44
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "急性血管反应试验阳性者可用钙拮抗剂，阴性者需按其他靶向治疗选择。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "肺动脉高压的钙拮抗剂治疗需看急性血管反应试验，不能因血压升高就直接套用。",
+        "靶向药主要涉及内皮素、NO-cGMP及前列环素通路。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q045",
@@ -400,32 +570,77 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-03",
-          "explanation": "急性肺栓塞导致通气/血流失调，引起低氧；反射性过度通气常使PaCO₂降低，典型血气为低氧伴低碳酸血症。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：A。\n\n术后卧床、下肢肿胀、CTPA确诊肺栓塞，典型血气为低氧血症伴代偿过度通气导致PaCO2下降，选A。B高CO2并非多数急性肺栓塞早期特点；CD的正常氧分压不符合本例发绀低氧表现。",
+          "knowledgeConnections": [
+            "肺栓塞使通气血流比失衡，增加无效腔并造成低氧。",
+            "肺栓塞可呼吸困难明显而听诊相对清晰，确诊依赖影像及风险判断。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-03",
+              "sourceSubject": "med",
+              "sourceFile": "03 27考研：内科 急性肺血栓栓塞症 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 3,
+              "title": "内科 急性肺血栓栓塞症 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/med-7f45362b2b-p002.webp",
+              "questionNumbers": [
+                45
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "肺栓塞使通气血流比失衡，增加无效腔并造成低氧。",
+                "肺栓塞可呼吸困难明显而听诊相对清晰，确诊依赖影像及风险判断。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-03",
         "sourceSubject": "med",
         "sourceFile": "03 27考研：内科 急性肺血栓栓塞症 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 5,
-        "pageLabel": "PDF第5页",
-        "title": "03 27考研：内科 急性肺血栓栓塞症",
-        "image": "exams/sprint-exam-20261021/lecture-049.webp"
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "lectureNumber": 3,
+        "title": "内科 急性肺血栓栓塞症 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/med-7f45362b2b-p002.webp",
+        "questionNumbers": [
+          45
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "肺栓塞使通气血流比失衡，增加无效腔并造成低氧。",
+          "肺栓塞可呼吸困难明显而听诊相对清晰，确诊依赖影像及风险判断。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-03",
           "sourceSubject": "med",
           "sourceFile": "03 27考研：内科 急性肺血栓栓塞症 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 5,
-          "pageLabel": "PDF第5页",
-          "title": "03 27考研：内科 急性肺血栓栓塞症",
-          "image": "exams/sprint-exam-20261021/lecture-049.webp"
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "lectureNumber": 3,
+          "title": "内科 急性肺血栓栓塞症 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/med-7f45362b2b-p002.webp",
+          "questionNumbers": [
+            45
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "肺栓塞使通气血流比失衡，增加无效腔并造成低氧。",
+            "肺栓塞可呼吸困难明显而听诊相对清晰，确诊依赖影像及风险判断。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "肺栓塞使通气血流比失衡，增加无效腔并造成低氧。",
+        "肺栓塞可呼吸困难明显而听诊相对清晰，确诊依赖影像及风险判断。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q046",
@@ -483,9 +698,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-52",
-          "explanation": "A：不选：收缩压155虽落在1级，但舒张压100已达2级，取较高分级。\nB：选：舒张压100为2级；有年龄、明显血脂异常、早发心血管病家族史等风险线索，按本讲义分层属于高危。\nC：不选：分级与分层均不匹配；不能只看收缩压，也不能直接跳到很高危。\nD：不选：题干未给既往卒中、冠心病、明确临床肾脏病等足以直接进入临床合并症层的证据。尿蛋白240mg/24h不能当成≥300mg/24h的临床蛋白尿阈值。\n核验：本题依用户所给2027讲义的分级及分层口径。临床决策还需重复规范测压、完整器官评估等，不能用这一道题的选项代替诊疗结论。",
+          "explanation": "正确答案：B。\n\n收缩压155属1级，舒张压100属2级，分级取较高者为2级；年龄、血脂及早发心血管病家族史使风险升高，本卷判高危，选B。AC分级错误；D很高危通常需已确立心血管病、相关严重损害等更高层次依据。",
           "knowledgeConnections": [
-            "第一步按收缩压、舒张压较高级别定级；第二步分别列危险因素、靶器官损害及临床合并症，再查风险表。总尿蛋白与尿白蛋白也不应混写。"
+            "血压级别取收缩压和舒张压中较高分级。",
+            "危险分层还需危险因素、靶器官损害及临床疾病，不能只看血压数值。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-52",
+              "sourceSubject": "med",
+              "sourceFile": "52 27考研：内科含诊断 高血压 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 52,
+              "title": "内科含诊断 高血压 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/med-c5db7f0958-p002.webp",
+              "questionNumbers": [
+                46
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "血压级别取收缩压和舒张压中较高分级。",
+                "危险分层还需危险因素、靶器官损害及临床疾病，不能只看血压数值。"
+              ]
+            }
           ]
         }
       ],
@@ -493,33 +729,46 @@
         "lectureId": "lecture-52",
         "sourceSubject": "med",
         "sourceFile": "52 27考研：内科含诊断 高血压 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 1,
-        "pageLabel": "PDF第1页",
-        "title": "内科第52讲《内科含诊断 高血压》",
-        "image": "exams/sprint-exam-20261021/lecture-050.webp"
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "lectureNumber": 52,
+        "title": "内科含诊断 高血压 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/med-c5db7f0958-p002.webp",
+        "questionNumbers": [
+          46
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "血压级别取收缩压和舒张压中较高分级。",
+          "危险分层还需危险因素、靶器官损害及临床疾病，不能只看血压数值。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-52",
           "sourceSubject": "med",
           "sourceFile": "52 27考研：内科含诊断 高血压 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
-          "title": "内科第52讲《内科含诊断 高血压》",
-          "image": "exams/sprint-exam-20261021/lecture-050.webp"
-        },
-        {
-          "lectureId": "lecture-52",
-          "sourceSubject": "med",
-          "sourceFile": "52 27考研：内科含诊断 高血压 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
-          "title": "内科第52讲《内科含诊断 高血压》",
-          "image": "exams/sprint-exam-20261021/lecture-051.webp"
+          "lectureNumber": 52,
+          "title": "内科含诊断 高血压 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/med-c5db7f0958-p002.webp",
+          "questionNumbers": [
+            46
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "血压级别取收缩压和舒张压中较高分级。",
+            "危险分层还需危险因素、靶器官损害及临床疾病，不能只看血压数值。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "血压级别取收缩压和舒张压中较高分级。",
+        "危险分层还需危险因素、靶器官损害及临床疾病，不能只看血压数值。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q047",
@@ -577,32 +826,77 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-54",
-          "explanation": "胸痛、ST段压低并cTnI阳性提示NSTEMI；溶栓用于符合指征的STEMI，不能将阿替普酶常规用于NSTEMI。其余抗血小板、抗凝及合适条件下β阻滞为相应治疗组成。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：D。\n\n持续缺血胸痛、ST段压低及肌钙蛋白阳性符合NSTEMI，不采用溶栓，D阿替普酶不宜。A抗凝、B抗血小板和C符合条件时控制心率减少耗氧属于可选治疗。",
+          "knowledgeConnections": [
+            "STEMI与NSTEMI再灌注策略不同，不能把溶栓用于所有急性冠脉综合征。",
+            "NSTEMI需依据缺血和出血风险选择抗栓及有创时机。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-54",
+              "sourceSubject": "med",
+              "sourceFile": "54 27考研：内科含诊断 冠心病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 8,
+              "pageLabel": "PDF第8页",
+              "lectureNumber": 54,
+              "title": "内科含诊断 冠心病 · 第8页",
+              "image": "exams/reviewed-mocks-20261104/med-4d66dbb376-p008.webp",
+              "questionNumbers": [
+                47
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "STEMI与NSTEMI再灌注策略不同，不能把溶栓用于所有急性冠脉综合征。",
+                "NSTEMI需依据缺血和出血风险选择抗栓及有创时机。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-54",
         "sourceSubject": "med",
         "sourceFile": "54 27考研：内科含诊断 冠心病 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 23,
-        "pageLabel": "PDF第23页",
-        "title": "54 27考研：内科含诊断 冠心病",
-        "image": "exams/sprint-exam-20261021/lecture-052.webp"
+        "page": 8,
+        "pageLabel": "PDF第8页",
+        "lectureNumber": 54,
+        "title": "内科含诊断 冠心病 · 第8页",
+        "image": "exams/reviewed-mocks-20261104/med-4d66dbb376-p008.webp",
+        "questionNumbers": [
+          47
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "STEMI与NSTEMI再灌注策略不同，不能把溶栓用于所有急性冠脉综合征。",
+          "NSTEMI需依据缺血和出血风险选择抗栓及有创时机。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-54",
           "sourceSubject": "med",
           "sourceFile": "54 27考研：内科含诊断 冠心病 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 23,
-          "pageLabel": "PDF第23页",
-          "title": "54 27考研：内科含诊断 冠心病",
-          "image": "exams/sprint-exam-20261021/lecture-052.webp"
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "lectureNumber": 54,
+          "title": "内科含诊断 冠心病 · 第8页",
+          "image": "exams/reviewed-mocks-20261104/med-4d66dbb376-p008.webp",
+          "questionNumbers": [
+            47
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "STEMI与NSTEMI再灌注策略不同，不能把溶栓用于所有急性冠脉综合征。",
+            "NSTEMI需依据缺血和出血风险选择抗栓及有创时机。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "STEMI与NSTEMI再灌注策略不同，不能把溶栓用于所有急性冠脉综合征。",
+        "NSTEMI需依据缺血和出血风险选择抗栓及有创时机。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q048",
@@ -660,32 +954,108 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-53",
-          "explanation": "二尖瓣重度狭窄合并中度关闭不全，不适合球囊成形术；急性肺淤血先内科稳定，再考虑置换。按本卷避免过强动脉扩张，选择硝酸异山梨酯后择期手术。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：D。\n\n重度二尖瓣狭窄合并中度反流及肺水肿，应先减轻肺淤血，再择期瓣膜置换，选D。A未先稳定病情；B已有中度反流不适合单纯球囊扩张；C硝普钠显著降低外周阻力不是本讲义此情景首选。",
+          "knowledgeConnections": [
+            "二尖瓣球囊成形术要求适宜瓣膜形态，明显反流限制应用。",
+            "瓣膜狭窄合并关闭不全时，治疗需兼顾两种病变。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-53",
+              "sourceSubject": "med",
+              "sourceFile": "53 27考研：内科含诊断 心瓣膜病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 7,
+              "pageLabel": "PDF第7页",
+              "lectureNumber": 53,
+              "title": "内科含诊断 心瓣膜病 · 第7页",
+              "image": "exams/reviewed-mocks-20261104/med-b738ebd2a5-p007.webp",
+              "questionNumbers": [
+                48
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "二尖瓣狭窄并急性肺水肿可用硝酸酯、呋塞米等缓解。"
+              ]
+            },
+            {
+              "lectureId": "lecture-53",
+              "sourceSubject": "med",
+              "sourceFile": "53 27考研：内科含诊断 心瓣膜病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 8,
+              "pageLabel": "PDF第8页",
+              "lectureNumber": 53,
+              "title": "内科含诊断 心瓣膜病 · 第8页",
+              "image": "exams/reviewed-mocks-20261104/med-b738ebd2a5-p008.webp",
+              "questionNumbers": [
+                48
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "二尖瓣狭窄合并中重度关闭不全，适合人工瓣膜置换，不能简单球囊成形。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-53",
         "sourceSubject": "med",
         "sourceFile": "53 27考研：内科含诊断 心瓣膜病 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 10,
-        "pageLabel": "PDF第10页",
-        "title": "53 27考研：内科含诊断 心瓣膜病",
-        "image": "exams/sprint-exam-20261021/lecture-053.webp"
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "lectureNumber": 53,
+        "title": "内科含诊断 心瓣膜病 · 第7页",
+        "image": "exams/reviewed-mocks-20261104/med-b738ebd2a5-p007.webp",
+        "questionNumbers": [
+          48
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "二尖瓣狭窄并急性肺水肿可用硝酸酯、呋塞米等缓解。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-53",
           "sourceSubject": "med",
           "sourceFile": "53 27考研：内科含诊断 心瓣膜病 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 10,
-          "pageLabel": "PDF第10页",
-          "title": "53 27考研：内科含诊断 心瓣膜病",
-          "image": "exams/sprint-exam-20261021/lecture-053.webp"
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "lectureNumber": 53,
+          "title": "内科含诊断 心瓣膜病 · 第7页",
+          "image": "exams/reviewed-mocks-20261104/med-b738ebd2a5-p007.webp",
+          "questionNumbers": [
+            48
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "二尖瓣狭窄并急性肺水肿可用硝酸酯、呋塞米等缓解。"
+          ]
+        },
+        {
+          "lectureId": "lecture-53",
+          "sourceSubject": "med",
+          "sourceFile": "53 27考研：内科含诊断 心瓣膜病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "lectureNumber": 53,
+          "title": "内科含诊断 心瓣膜病 · 第8页",
+          "image": "exams/reviewed-mocks-20261104/med-b738ebd2a5-p008.webp",
+          "questionNumbers": [
+            48
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "二尖瓣狭窄合并中重度关闭不全，适合人工瓣膜置换，不能简单球囊成形。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "二尖瓣球囊成形术要求适宜瓣膜形态，明显反流限制应用。",
+        "瓣膜狭窄合并关闭不全时，治疗需兼顾两种病变。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q049",
@@ -743,32 +1113,77 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-51",
-          "explanation": "发热、瓣膜杂音、结膜出血点及血尿提示感染性心内膜炎；治疗中突发腰痛及肉眼血尿，应考虑赘生物栓塞肾动脉导致肾梗死，而非慢性免疫性肾炎的通常表现。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：A。\n\n发热、贫血、出血点、主动脉反流杂音及血尿提示感染性心内膜炎；突发腰痛和肉眼血尿最支持赘生物脱落致肾动脉栓塞和肾梗死，选A。B免疫性肾炎多非如此突发绞痛；C原位血栓缺少依据；D感染不能最好解释突发栓塞性表现。",
+          "knowledgeConnections": [
+            "左心感染性心内膜炎可发生脑、脾、肾等体循环栓塞。",
+            "其肾损害还包括免疫复合物性肾炎，需用起病方式及临床表现鉴别。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-51",
+              "sourceSubject": "med",
+              "sourceFile": "51 27考研：内科 感染性心内膜炎 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 51,
+              "title": "内科 感染性心内膜炎 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/med-6bc62b9ea0-p002.webp",
+              "questionNumbers": [
+                49
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "左心感染性心内膜炎可发生脑、脾、肾等体循环栓塞。",
+                "其肾损害还包括免疫复合物性肾炎，需用起病方式及临床表现鉴别。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-51",
         "sourceSubject": "med",
         "sourceFile": "51 27考研：内科 感染性心内膜炎 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 4,
-        "pageLabel": "PDF第4页",
-        "title": "51 27考研：内科 感染性心内膜炎",
-        "image": "exams/sprint-exam-20261021/lecture-054.webp"
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "lectureNumber": 51,
+        "title": "内科 感染性心内膜炎 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/med-6bc62b9ea0-p002.webp",
+        "questionNumbers": [
+          49
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "左心感染性心内膜炎可发生脑、脾、肾等体循环栓塞。",
+          "其肾损害还包括免疫复合物性肾炎，需用起病方式及临床表现鉴别。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-51",
           "sourceSubject": "med",
           "sourceFile": "51 27考研：内科 感染性心内膜炎 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 4,
-          "pageLabel": "PDF第4页",
-          "title": "51 27考研：内科 感染性心内膜炎",
-          "image": "exams/sprint-exam-20261021/lecture-054.webp"
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "lectureNumber": 51,
+          "title": "内科 感染性心内膜炎 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/med-6bc62b9ea0-p002.webp",
+          "questionNumbers": [
+            49
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "左心感染性心内膜炎可发生脑、脾、肾等体循环栓塞。",
+            "其肾损害还包括免疫复合物性肾炎，需用起病方式及临床表现鉴别。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "左心感染性心内膜炎可发生脑、脾、肾等体循环栓塞。",
+        "其肾损害还包括免疫复合物性肾炎，需用起病方式及临床表现鉴别。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q050",
@@ -826,8 +1241,31 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-16",
-          "explanation": "溃疡底部裸露血管属于高危再出血征象，需要内镜止血并联合PPI抑酸。单独PPI或单独内镜均不足，手术保留于内镜等治疗失败或其他指征。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C。\n\n溃疡基底裸露血管为再出血高危征象，应内镜止血并配合PPI，选C。A单纯抑酸不足；B缺少抑酸支持；D不是所有裸露血管都需常规立即手术，内镜失败或其他指征时再考虑。",
+          "knowledgeConnections": [
+            "消化性溃疡出血内镜分层重视活动出血及裸露血管。",
+            "止血后抑酸有利于血凝块稳定，并需进一步处理幽门螺杆菌等病因。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-16",
+              "sourceSubject": "med",
+              "sourceFile": "16 27考研：内科含诊断+外科 消化性溃疡 & 消化道出血 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 16,
+              "title": "内科含诊断+外科 消化性溃疡 & 消化道出血 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-3a93ca7c5b-p004.webp",
+              "questionNumbers": [
+                50
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "消化性溃疡出血内镜分层重视活动出血及裸露血管。",
+                "止血后抑酸有利于血凝块稳定，并需进一步处理幽门螺杆菌等病因。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -836,8 +1274,17 @@
         "sourceFile": "16 27考研：内科含诊断+外科 消化性溃疡 & 消化道出血 核心-真题-串联-导图 天天师兄.pdf",
         "page": 4,
         "pageLabel": "PDF第4页",
-        "title": "16 27考研：内科含诊断+外科 消化性溃疡 & 消化道出血",
-        "image": "exams/sprint-exam-20261021/lecture-055.webp"
+        "lectureNumber": 16,
+        "title": "内科含诊断+外科 消化性溃疡 & 消化道出血 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/med-3a93ca7c5b-p004.webp",
+        "questionNumbers": [
+          50
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "消化性溃疡出血内镜分层重视活动出血及裸露血管。",
+          "止血后抑酸有利于血凝块稳定，并需进一步处理幽门螺杆菌等病因。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -846,12 +1293,25 @@
           "sourceFile": "16 27考研：内科含诊断+外科 消化性溃疡 & 消化道出血 核心-真题-串联-导图 天天师兄.pdf",
           "page": 4,
           "pageLabel": "PDF第4页",
-          "title": "16 27考研：内科含诊断+外科 消化性溃疡 & 消化道出血",
-          "image": "exams/sprint-exam-20261021/lecture-055.webp"
+          "lectureNumber": 16,
+          "title": "内科含诊断+外科 消化性溃疡 & 消化道出血 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-3a93ca7c5b-p004.webp",
+          "questionNumbers": [
+            50
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "消化性溃疡出血内镜分层重视活动出血及裸露血管。",
+            "止血后抑酸有利于血凝块稳定，并需进一步处理幽门螺杆菌等病因。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "消化性溃疡出血内镜分层重视活动出血及裸露血管。",
+        "止血后抑酸有利于血凝块稳定，并需进一步处理幽门螺杆菌等病因。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q051",
@@ -909,9 +1369,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-20",
-          "explanation": "A：不选：轻度性格和行为改变主要对应Ⅰ期。\nB：不选作本题Ⅱ期：神志不清或幻觉在本课程分期中更符合Ⅲ期嗜睡期。\nC：选：Ⅱ期可有腱反射亢进、肌张力增加、踝阵挛及Babinski征阳性等神经体征。\nD：不选：Ⅱ期脑电图已有典型异常，不能概括为多数正常；早期轻微表现时脑电图可正常或轻度异常。",
+          "explanation": "正确答案：C。\n\n肝性脑病Ⅱ期可出现嗜睡、行为异常及病理反射，Babinski征阳性符合，选C。A轻微性格改变偏Ⅰ期；B明显神志不清或幻觉更偏更晚期；DⅡ期脑电图一般已有异常。",
           "knowledgeConnections": [
-            "按“性格行为→定向力与神经体征→嗜睡但可唤醒→昏迷”串起Ⅰ至Ⅳ期，比单独背一个症状更稳。"
+            "肝性脑病分期随意识水平和神经体征加深：前驱、昏迷前、昏睡、昏迷。",
+            "扑翼样震颤可见于早中期，进入深昏迷时不一定能引出。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-20",
+              "sourceSubject": "med",
+              "sourceFile": "20 27考研：内科 肝性脑病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 20,
+              "title": "内科 肝性脑病 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/med-01fba1e6fb-p001.webp",
+              "questionNumbers": [
+                51
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "肝性脑病分期随意识水平和神经体征加深：前驱、昏迷前、昏睡、昏迷。",
+                "扑翼样震颤可见于早中期，进入深昏迷时不一定能引出。"
+              ]
+            }
           ]
         }
       ],
@@ -921,8 +1402,17 @@
         "sourceFile": "20 27考研：内科 肝性脑病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 1,
         "pageLabel": "PDF第1页",
-        "title": "内科第20讲《内科 肝性脑病》",
-        "image": "exams/sprint-exam-20261021/lecture-056.webp"
+        "lectureNumber": 20,
+        "title": "内科 肝性脑病 · 第1页",
+        "image": "exams/reviewed-mocks-20261104/med-01fba1e6fb-p001.webp",
+        "questionNumbers": [
+          51
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "肝性脑病分期随意识水平和神经体征加深：前驱、昏迷前、昏睡、昏迷。",
+          "扑翼样震颤可见于早中期，进入深昏迷时不一定能引出。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -931,21 +1421,25 @@
           "sourceFile": "20 27考研：内科 肝性脑病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 1,
           "pageLabel": "PDF第1页",
-          "title": "内科第20讲《内科 肝性脑病》",
-          "image": "exams/sprint-exam-20261021/lecture-056.webp"
-        },
-        {
-          "lectureId": "lecture-20",
-          "sourceSubject": "med",
-          "sourceFile": "20 27考研：内科 肝性脑病 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
-          "title": "内科第20讲《内科 肝性脑病》",
-          "image": "exams/sprint-exam-20261021/lecture-057.webp"
+          "lectureNumber": 20,
+          "title": "内科 肝性脑病 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/med-01fba1e6fb-p001.webp",
+          "questionNumbers": [
+            51
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "肝性脑病分期随意识水平和神经体征加深：前驱、昏迷前、昏睡、昏迷。",
+            "扑翼样震颤可见于早中期，进入深昏迷时不一定能引出。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "肝性脑病分期随意识水平和神经体征加深：前驱、昏迷前、昏睡、昏迷。",
+        "扑翼样震颤可见于早中期，进入深昏迷时不一定能引出。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q052",
@@ -1003,8 +1497,35 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-23",
-          "explanation": "中重症急性胰腺炎可有短暂器官衰竭（48小时内恢复）和/或局部、全身并发症，而无持续器官衰竭。持续超过48小时的器官衰竭提示重症；并非一定有坏死。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C。\n\n第23讲第2页采用轻症、中重症、重症、危重四档表：中重症对应一过性器官衰竭（≤48小时）和/或无菌性坏死，所以C正确。A“一定器官衰竭”和B“一定坏死”均错在把“和/或”改成必备；D感染性坏死在该讲义表中归入重症或危重，而非中重症。不同分级体系的名称不能直接混用。",
+          "knowledgeConnections": [
+            "本讲义四档分级：轻症=无器官衰竭且无坏死。",
+            "中重症=器官衰竭≤48小时和/或无菌性坏死。",
+            "重症=器官衰竭>48小时或感染性坏死；危重=两者同时存在。",
+            "不要将该四档表与其他三档分级体系的名称直接互换。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-23",
+              "sourceSubject": "med",
+              "sourceFile": "23 27考研：内科+外科 胰腺炎 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 23,
+              "title": "内科+外科 胰腺炎 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/med-9d0630ddd4-p002.webp",
+              "questionNumbers": [
+                52
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "本讲义四档分级：轻症=无器官衰竭且无坏死。",
+                "中重症=器官衰竭≤48小时和/或无菌性坏死。",
+                "重症=器官衰竭>48小时或感染性坏死；危重=两者同时存在。",
+                "不要将该四档表与其他三档分级体系的名称直接互换。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -1013,8 +1534,19 @@
         "sourceFile": "23 27考研：内科+外科 胰腺炎 核心-真题-串联-导图 天天师兄.pdf",
         "page": 2,
         "pageLabel": "PDF第2页",
-        "title": "23 27考研：内科+外科 胰腺炎",
-        "image": "exams/sprint-exam-20261021/lecture-058.webp"
+        "lectureNumber": 23,
+        "title": "内科+外科 胰腺炎 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/med-9d0630ddd4-p002.webp",
+        "questionNumbers": [
+          52
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "本讲义四档分级：轻症=无器官衰竭且无坏死。",
+          "中重症=器官衰竭≤48小时和/或无菌性坏死。",
+          "重症=器官衰竭>48小时或感染性坏死；危重=两者同时存在。",
+          "不要将该四档表与其他三档分级体系的名称直接互换。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -1023,12 +1555,29 @@
           "sourceFile": "23 27考研：内科+外科 胰腺炎 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
-          "title": "23 27考研：内科+外科 胰腺炎",
-          "image": "exams/sprint-exam-20261021/lecture-058.webp"
+          "lectureNumber": 23,
+          "title": "内科+外科 胰腺炎 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/med-9d0630ddd4-p002.webp",
+          "questionNumbers": [
+            52
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "本讲义四档分级：轻症=无器官衰竭且无坏死。",
+            "中重症=器官衰竭≤48小时和/或无菌性坏死。",
+            "重症=器官衰竭>48小时或感染性坏死；危重=两者同时存在。",
+            "不要将该四档表与其他三档分级体系的名称直接互换。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "本讲义四档分级：轻症=无器官衰竭且无坏死。",
+        "中重症=器官衰竭≤48小时和/或无菌性坏死。",
+        "重症=器官衰竭>48小时或感染性坏死；危重=两者同时存在。",
+        "不要将该四档表与其他三档分级体系的名称直接互换。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q053",
@@ -1086,9 +1635,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-27",
-          "explanation": "A：选：肾病综合征并发急性肾损伤，在本课程中最常见于微小病变性肾病，即脂性肾病。\nB：不选：膜性肾病的突出关联是高凝、肾静脉血栓等；虽可有肾功能损害，但不是本题所问的最常见类型。\nC：不选：系膜毛细血管性/膜增生性肾小球肾炎可进行性损害肾功能，但不对应本题最常见的急性并发情形。\nD：不选：局灶节段性肾小球硬化可有激素抵抗和慢性进展，也不是本题答案。",
+          "explanation": "正确答案：A。\n\n肾病综合征合并急性肾损伤常见于微小病变性肾病，选A。B膜性肾病更突出高凝及肾静脉血栓；C膜增生和D局灶节段硬化可影响肾功能，但不对应本讲义最常见配对。",
           "knowledgeConnections": [
-            "同一肾病综合征应按并发症分别配对：感染、血栓、急性肾损伤、脂代谢异常不能互相借用“最常见”。"
+            "微小病变相关AKI可涉及有效循环不足、肾间质水肿及肾小管损害。",
+            "肾病综合征肾功能突然恶化需排查血容量、药物、感染及血栓。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-27",
+              "sourceSubject": "med",
+              "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 7,
+              "pageLabel": "PDF第7页",
+              "lectureNumber": 27,
+              "title": "内科含诊断+病理 原发性肾小球疾病 · 第7页",
+              "image": "exams/reviewed-mocks-20261104/med-e648a78052-p007.webp",
+              "questionNumbers": [
+                53
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "微小病变相关AKI可涉及有效循环不足、肾间质水肿及肾小管损害。",
+                "肾病综合征肾功能突然恶化需排查血容量、药物、感染及血栓。"
+              ]
+            }
           ]
         }
       ],
@@ -1098,8 +1668,17 @@
         "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 7,
         "pageLabel": "PDF第7页",
-        "title": "内科第27讲《内科含诊断+病理 原发性肾小球疾病》",
-        "image": "exams/sprint-exam-20261021/lecture-059.webp"
+        "lectureNumber": 27,
+        "title": "内科含诊断+病理 原发性肾小球疾病 · 第7页",
+        "image": "exams/reviewed-mocks-20261104/med-e648a78052-p007.webp",
+        "questionNumbers": [
+          53
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "微小病变相关AKI可涉及有效循环不足、肾间质水肿及肾小管损害。",
+          "肾病综合征肾功能突然恶化需排查血容量、药物、感染及血栓。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -1108,12 +1687,25 @@
           "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 7,
           "pageLabel": "PDF第7页",
-          "title": "内科第27讲《内科含诊断+病理 原发性肾小球疾病》",
-          "image": "exams/sprint-exam-20261021/lecture-059.webp"
+          "lectureNumber": 27,
+          "title": "内科含诊断+病理 原发性肾小球疾病 · 第7页",
+          "image": "exams/reviewed-mocks-20261104/med-e648a78052-p007.webp",
+          "questionNumbers": [
+            53
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "微小病变相关AKI可涉及有效循环不足、肾间质水肿及肾小管损害。",
+            "肾病综合征肾功能突然恶化需排查血容量、药物、感染及血栓。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "微小病变相关AKI可涉及有效循环不足、肾间质水肿及肾小管损害。",
+        "肾病综合征肾功能突然恶化需排查血容量、药物、感染及血栓。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q054",
@@ -1171,9 +1763,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-28",
-          "explanation": "A：不选：缺铁性贫血与慢性病性贫血的血清铁均可降低，单用它区分能力差。\nB：选：缺铁性贫血储存铁减少、血清铁蛋白低；慢性病性贫血铁被滞留于储存系统，铁蛋白常正常或升高。\nC：不选：MCV、MCHC可有重叠；慢性病性贫血既可正细胞，也可呈小细胞低色素。\nD：不选：环形铁粒幼细胞主要提示铁粒幼细胞性贫血，不是本题两类贫血的首要鉴别指标。",
+          "explanation": "正确答案：B。\n\n缺铁贫铁储备减少，铁蛋白降低；慢性病贫血铁被滞留于储存系统，铁蛋白可正常或升高，故选B。A两者血清铁均可低；C两者均可小细胞低色素；D环形铁粒幼细胞用于铁粒幼贫的辨别。",
           "knowledgeConnections": [
-            "储存铁主要以铁蛋白、含铁血黄素两种形式存在；血清铁蛋白是反映体内铁储备的常用指标，不等于储存铁的全部。血清铁则主要指血液中与转铁蛋白结合、正在运输的铁。"
+            "缺铁贫总铁结合力常增高，慢性病贫血常降低。",
+            "铁蛋白还是急性期反应蛋白，合并炎症时应综合铁状态判断。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-28",
+              "sourceSubject": "med",
+              "sourceFile": "28 27考研：内科含诊断 缺铁性贫血（含贫血概述） 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 28,
+              "title": "内科含诊断 缺铁性贫血（含贫血概述） · 第3页",
+              "image": "exams/reviewed-mocks-20261104/med-d547795e2e-p003.webp",
+              "questionNumbers": [
+                54
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "缺铁贫总铁结合力常增高，慢性病贫血常降低。",
+                "铁蛋白还是急性期反应蛋白，合并炎症时应综合铁状态判断。"
+              ]
+            }
           ]
         }
       ],
@@ -1183,8 +1796,17 @@
         "sourceFile": "28 27考研：内科含诊断 缺铁性贫血（含贫血概述） 核心-真题-串联-导图 天天师兄.pdf",
         "page": 3,
         "pageLabel": "PDF第3页",
-        "title": "内科第28讲《内科含诊断 缺铁性贫血（含贫血概述）》",
-        "image": "exams/sprint-exam-20261021/lecture-060.webp"
+        "lectureNumber": 28,
+        "title": "内科含诊断 缺铁性贫血（含贫血概述） · 第3页",
+        "image": "exams/reviewed-mocks-20261104/med-d547795e2e-p003.webp",
+        "questionNumbers": [
+          54
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "缺铁贫总铁结合力常增高，慢性病贫血常降低。",
+          "铁蛋白还是急性期反应蛋白，合并炎症时应综合铁状态判断。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -1193,12 +1815,25 @@
           "sourceFile": "28 27考研：内科含诊断 缺铁性贫血（含贫血概述） 核心-真题-串联-导图 天天师兄.pdf",
           "page": 3,
           "pageLabel": "PDF第3页",
-          "title": "内科第28讲《内科含诊断 缺铁性贫血（含贫血概述）》",
-          "image": "exams/sprint-exam-20261021/lecture-060.webp"
+          "lectureNumber": 28,
+          "title": "内科含诊断 缺铁性贫血（含贫血概述） · 第3页",
+          "image": "exams/reviewed-mocks-20261104/med-d547795e2e-p003.webp",
+          "questionNumbers": [
+            54
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "缺铁贫总铁结合力常增高，慢性病贫血常降低。",
+            "铁蛋白还是急性期反应蛋白，合并炎症时应综合铁状态判断。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "缺铁贫总铁结合力常增高，慢性病贫血常降低。",
+        "铁蛋白还是急性期反应蛋白，合并炎症时应综合铁状态判断。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q055",
@@ -1256,32 +1891,108 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-38",
-          "explanation": "使用促胰岛素分泌的格列喹酮且饮食不规律，晨起昏迷、皮肤潮湿，首先考虑药物相关低血糖。应与常有脱水、深大呼吸的酮症酸中毒区别。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：D。\n\n服磺脲类格列喹酮、进食不规律，晨起昏迷并皮肤潮湿、心率快，符合低血糖交感兴奋及神经缺糖表现，选D。ABC多伴脱水、不同程度深大呼吸或代谢酸中毒，不如低血糖与用药及出汗相符。",
+          "knowledgeConnections": [
+            "意识障碍糖尿病患者应迅速检测血糖。",
+            "磺脲类促胰岛素分泌，漏餐或进食减少可增加低血糖风险。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-38",
+              "sourceSubject": "med",
+              "sourceFile": "38 27考研：内科含诊断 糖尿病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 9,
+              "pageLabel": "PDF第9页",
+              "lectureNumber": 38,
+              "title": "内科含诊断 糖尿病 · 第9页",
+              "image": "exams/reviewed-mocks-20261104/med-3a9a40908c-p009.webp",
+              "questionNumbers": [
+                55
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "磺脲类药促胰岛素分泌，包括格列喹酮。"
+              ]
+            },
+            {
+              "lectureId": "lecture-38",
+              "sourceSubject": "med",
+              "sourceFile": "38 27考研：内科含诊断 糖尿病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 10,
+              "pageLabel": "PDF第10页",
+              "lectureNumber": 38,
+              "title": "内科含诊断 糖尿病 · 第10页",
+              "image": "exams/reviewed-mocks-20261104/med-3a9a40908c-p010.webp",
+              "questionNumbers": [
+                55
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "糖尿病药物可致低血糖；心慌、出汗与皮肤湿润是相关表现。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-38",
         "sourceSubject": "med",
         "sourceFile": "38 27考研：内科含诊断 糖尿病 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 12,
-        "pageLabel": "PDF第12页",
-        "title": "38 27考研：内科含诊断 糖尿病",
-        "image": "exams/sprint-exam-20261021/lecture-061.webp"
+        "page": 9,
+        "pageLabel": "PDF第9页",
+        "lectureNumber": 38,
+        "title": "内科含诊断 糖尿病 · 第9页",
+        "image": "exams/reviewed-mocks-20261104/med-3a9a40908c-p009.webp",
+        "questionNumbers": [
+          55
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "磺脲类药促胰岛素分泌，包括格列喹酮。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-38",
           "sourceSubject": "med",
           "sourceFile": "38 27考研：内科含诊断 糖尿病 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 12,
-          "pageLabel": "PDF第12页",
-          "title": "38 27考研：内科含诊断 糖尿病",
-          "image": "exams/sprint-exam-20261021/lecture-061.webp"
+          "page": 9,
+          "pageLabel": "PDF第9页",
+          "lectureNumber": 38,
+          "title": "内科含诊断 糖尿病 · 第9页",
+          "image": "exams/reviewed-mocks-20261104/med-3a9a40908c-p009.webp",
+          "questionNumbers": [
+            55
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "磺脲类药促胰岛素分泌，包括格列喹酮。"
+          ]
+        },
+        {
+          "lectureId": "lecture-38",
+          "sourceSubject": "med",
+          "sourceFile": "38 27考研：内科含诊断 糖尿病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 10,
+          "pageLabel": "PDF第10页",
+          "lectureNumber": 38,
+          "title": "内科含诊断 糖尿病 · 第10页",
+          "image": "exams/reviewed-mocks-20261104/med-3a9a40908c-p010.webp",
+          "questionNumbers": [
+            55
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "糖尿病药物可致低血糖；心慌、出汗与皮肤湿润是相关表现。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "意识障碍糖尿病患者应迅速检测血糖。",
+        "磺脲类促胰岛素分泌，漏餐或进食减少可增加低血糖风险。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q056",
@@ -1339,32 +2050,77 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-45",
-          "explanation": "对称性小关节炎及持续晨僵支持类风湿关节炎。抗CCP抗体较类风湿因子特异，可早期阳性；ANA特异性低，早期X线也可无典型侵蚀。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C。\n\n对称性近端指间、腕、肘关节炎和长时间晨僵支持RA，抗CCP抗体特异性较高并有早期诊断意义，选C。ARF敏感性有价值但特异性较低；BANA用于其他结缔组织病筛查；DX线有助结构评估，但早期未必有典型改变。",
+          "knowledgeConnections": [
+            "RA常累及近端指间和掌指关节，通常不以远端指间关节为主。",
+            "抗CCP还与侵蚀性病变风险有关，诊断需结合关节表现和炎症指标。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-45",
+              "sourceSubject": "med",
+              "sourceFile": "45 27考研：内科+外科 类风湿关节炎 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 45,
+              "title": "内科+外科 类风湿关节炎 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/med-69da40e716-p001.webp",
+              "questionNumbers": [
+                56
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "RA常累及近端指间和掌指关节，通常不以远端指间关节为主。",
+                "抗CCP还与侵蚀性病变风险有关，诊断需结合关节表现和炎症指标。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-45",
         "sourceSubject": "med",
         "sourceFile": "45 27考研：内科+外科 类风湿关节炎 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 4,
-        "pageLabel": "PDF第4页",
-        "title": "45 27考研：内科+外科 类风湿关节炎",
-        "image": "exams/sprint-exam-20261021/lecture-062.webp"
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "lectureNumber": 45,
+        "title": "内科+外科 类风湿关节炎 · 第1页",
+        "image": "exams/reviewed-mocks-20261104/med-69da40e716-p001.webp",
+        "questionNumbers": [
+          56
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "RA常累及近端指间和掌指关节，通常不以远端指间关节为主。",
+          "抗CCP还与侵蚀性病变风险有关，诊断需结合关节表现和炎症指标。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-45",
           "sourceSubject": "med",
           "sourceFile": "45 27考研：内科+外科 类风湿关节炎 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 4,
-          "pageLabel": "PDF第4页",
-          "title": "45 27考研：内科+外科 类风湿关节炎",
-          "image": "exams/sprint-exam-20261021/lecture-062.webp"
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "lectureNumber": 45,
+          "title": "内科+外科 类风湿关节炎 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/med-69da40e716-p001.webp",
+          "questionNumbers": [
+            56
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "RA常累及近端指间和掌指关节，通常不以远端指间关节为主。",
+            "抗CCP还与侵蚀性病变风险有关，诊断需结合关节表现和炎症指标。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "RA常累及近端指间和掌指关节，通常不以远端指间关节为主。",
+        "抗CCP还与侵蚀性病变风险有关，诊断需结合关节表现和炎症指标。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q068",
@@ -1422,8 +2178,31 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-14",
-          "explanation": "烧心伴夜间咳嗽、声嘶、喘息，抗感染无效，提示胃食管反流的食管外表现。胃镜正常不能排除非糜烂性反流病。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：D。\n\n夜间咳嗽、声嘶、烧心、胸痛和喘息，抗感染无效，提示反流引起食管外症状，选D。A小结节不能解释完整症状；B感染证据不足；C哮喘可解释喘息，却不如反流解释烧心及相关夜间症状。",
+          "knowledgeConnections": [
+            "GERD可出现慢性咳嗽、声嘶及哮喘样表现。",
+            "胃镜正常或仅浅表胃炎不能排除非糜烂性反流病。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-14",
+              "sourceSubject": "med",
+              "sourceFile": "14 27考研：内科 胃食管反流病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 14,
+              "title": "内科 胃食管反流病 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/med-cba532d8cb-p002.webp",
+              "questionNumbers": [
+                68
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "GERD可出现慢性咳嗽、声嘶及哮喘样表现。",
+                "胃镜正常或仅浅表胃炎不能排除非糜烂性反流病。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -1432,8 +2211,17 @@
         "sourceFile": "14 27考研：内科 胃食管反流病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 2,
         "pageLabel": "PDF第2页",
-        "title": "14 27考研：内科 胃食管反流病",
-        "image": "exams/sprint-exam-20261021/lecture-075.webp"
+        "lectureNumber": 14,
+        "title": "内科 胃食管反流病 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/med-cba532d8cb-p002.webp",
+        "questionNumbers": [
+          68
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "GERD可出现慢性咳嗽、声嘶及哮喘样表现。",
+          "胃镜正常或仅浅表胃炎不能排除非糜烂性反流病。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -1442,13 +2230,26 @@
           "sourceFile": "14 27考研：内科 胃食管反流病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
-          "title": "14 27考研：内科 胃食管反流病",
-          "image": "exams/sprint-exam-20261021/lecture-075.webp"
+          "lectureNumber": 14,
+          "title": "内科 胃食管反流病 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/med-cba532d8cb-p002.webp",
+          "questionNumbers": [
+            68
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "GERD可出现慢性咳嗽、声嘶及哮喘样表现。",
+            "胃镜正常或仅浅表胃炎不能排除非糜烂性反流病。"
+          ]
         }
       ],
       "sharedStem": "女性，32 岁。咳嗽、声嘶半年，夜间为甚，间断伴烧心，胸痛， 喘息。胸部 X 线示右下肺小结节影。胃镜：慢性浅表性胃炎，余未见明显异常。给予抗感染治疗未见明显好转。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "GERD可出现慢性咳嗽、声嘶及哮喘样表现。",
+        "胃镜正常或仅浅表胃炎不能排除非糜烂性反流病。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q069",
@@ -1506,33 +2307,78 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-14",
-          "explanation": "食管24小时pH监测用于客观检测酸暴露及症状相关性，有助于胃镜阴性的反流病诊断；胸CT、肺功能或痰培养不能直接确认反流。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：B。\n\n食管24小时pH监测可评价酸暴露及症状与反流的关系，适合胃镜未见食管炎而怀疑GERD者，选B。ACT、C肺功能、D痰培养分别用于肺结构、气流和感染评估，不能直接证实反流。",
+          "knowledgeConnections": [
+            "反流监测可弥补胃镜不能检出所有GERD的局限。",
+            "诊断需区分酸反流、非酸反流和其他慢性咳嗽原因。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-14",
+              "sourceSubject": "med",
+              "sourceFile": "14 27考研：内科 胃食管反流病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 14,
+              "title": "内科 胃食管反流病 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/med-cba532d8cb-p003.webp",
+              "questionNumbers": [
+                69
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "反流监测可弥补胃镜不能检出所有GERD的局限。",
+                "诊断需区分酸反流、非酸反流和其他慢性咳嗽原因。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-14",
         "sourceSubject": "med",
         "sourceFile": "14 27考研：内科 胃食管反流病 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 5,
-        "pageLabel": "PDF第5页",
-        "title": "14 27考研：内科 胃食管反流病",
-        "image": "exams/sprint-exam-20261021/lecture-076.webp"
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "lectureNumber": 14,
+        "title": "内科 胃食管反流病 · 第3页",
+        "image": "exams/reviewed-mocks-20261104/med-cba532d8cb-p003.webp",
+        "questionNumbers": [
+          69
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "反流监测可弥补胃镜不能检出所有GERD的局限。",
+          "诊断需区分酸反流、非酸反流和其他慢性咳嗽原因。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-14",
           "sourceSubject": "med",
           "sourceFile": "14 27考研：内科 胃食管反流病 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 5,
-          "pageLabel": "PDF第5页",
-          "title": "14 27考研：内科 胃食管反流病",
-          "image": "exams/sprint-exam-20261021/lecture-076.webp"
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "lectureNumber": 14,
+          "title": "内科 胃食管反流病 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/med-cba532d8cb-p003.webp",
+          "questionNumbers": [
+            69
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "反流监测可弥补胃镜不能检出所有GERD的局限。",
+            "诊断需区分酸反流、非酸反流和其他慢性咳嗽原因。"
+          ]
         }
       ],
       "sharedStem": "女性，32 岁。咳嗽、声嘶半年，夜间为甚，间断伴烧心，胸痛， 喘息。胸部 X 线示右下肺小结节影。胃镜：慢性浅表性胃炎，余未见明显异常。给予抗感染治疗未见明显好转。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "反流监测可弥补胃镜不能检出所有GERD的局限。",
+        "诊断需区分酸反流、非酸反流和其他慢性咳嗽原因。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q070",
@@ -1590,33 +2436,109 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-28",
-          "explanation": "MCV122fl的大细胞性贫血合并全血细胞减少、远端感觉异常及共济失调，提示维生素B₁₂缺乏相关巨幼细胞贫血，而非单纯再障。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：A。\n\nMCV122fl的大细胞性贫血合并远端感觉障碍及共济失调，提示维生素B12缺乏性巨幼细胞贫血，选A。B再障常网织红低及骨髓低增生；CPNH偏血管内溶血；D自身免疫性溶血不解释此神经改变与大细胞组合。",
+          "knowledgeConnections": [
+            "维生素B12缺乏可同时影响DNA合成及神经髓鞘。",
+            "叶酸缺乏也可巨幼贫，但典型神经损害更提示B12缺乏。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-28",
+              "sourceSubject": "med",
+              "sourceFile": "33 27考研：内科 MDS 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 33,
+              "title": "内科 MDS · 第3页",
+              "image": "exams/reviewed-mocks-20261104/med-ce98024b40-p003.webp",
+              "questionNumbers": [
+                70
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "维生素B12缺乏可同时影响DNA合成及神经髓鞘。"
+              ]
+            },
+            {
+              "lectureId": "lecture-28",
+              "sourceSubject": "physiology",
+              "sourceFile": "7 27考研：生理 血液特性 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 7,
+              "title": "生理 血液特性 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/physiology-8a4d42f17c-p001.webp",
+              "questionNumbers": [
+                70
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "叶酸、维生素B12缺乏可致巨幼细胞性贫血，核幼浆老；胃大部切除、A型胃炎或回肠末端切除可致维生素B12缺乏。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-28",
         "sourceSubject": "med",
-        "sourceFile": "28 27考研：内科含诊断 缺铁性贫血（含贫血概述） 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 7,
-        "pageLabel": "PDF第7页",
-        "title": "28 27考研：内科含诊断 缺铁性贫血（含贫血概述）",
-        "image": "exams/sprint-exam-20261021/lecture-077.webp"
+        "sourceFile": "33 27考研：内科 MDS 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "lectureNumber": 33,
+        "title": "内科 MDS · 第3页",
+        "image": "exams/reviewed-mocks-20261104/med-ce98024b40-p003.webp",
+        "questionNumbers": [
+          70
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "维生素B12缺乏可同时影响DNA合成及神经髓鞘。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-28",
           "sourceSubject": "med",
-          "sourceFile": "28 27考研：内科含诊断 缺铁性贫血（含贫血概述） 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 7,
-          "pageLabel": "PDF第7页",
-          "title": "28 27考研：内科含诊断 缺铁性贫血（含贫血概述）",
-          "image": "exams/sprint-exam-20261021/lecture-077.webp"
+          "sourceFile": "33 27考研：内科 MDS 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "lectureNumber": 33,
+          "title": "内科 MDS · 第3页",
+          "image": "exams/reviewed-mocks-20261104/med-ce98024b40-p003.webp",
+          "questionNumbers": [
+            70
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "维生素B12缺乏可同时影响DNA合成及神经髓鞘。"
+          ]
+        },
+        {
+          "lectureId": "lecture-28",
+          "sourceSubject": "physiology",
+          "sourceFile": "7 27考研：生理 血液特性 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "lectureNumber": 7,
+          "title": "生理 血液特性 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/physiology-8a4d42f17c-p001.webp",
+          "questionNumbers": [
+            70
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "叶酸、维生素B12缺乏可致巨幼细胞性贫血，核幼浆老；胃大部切除、A型胃炎或回肠末端切除可致维生素B12缺乏。"
+          ]
         }
       ],
       "sharedStem": "男性，56 岁。2 个月以来进行性乏力，头晕，心悸，食欲不振。查体：心率 110 次/分， 对称性远端肢体麻木，共济失调。血常规：Hb 88g/L，MCV 122fl，MCH 34pg，MCHC 330g/L，Ret 0.04，WBC 3.0×109/L，Plt 75×109/L。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "维生素B12缺乏可同时影响DNA合成及神经髓鞘。",
+        "叶酸缺乏也可巨幼贫，但典型神经损害更提示B12缺乏。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q071",
@@ -1674,33 +2596,109 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-28",
-          "explanation": "巨幼细胞贫血可出现舌乳头萎缩、光滑舌；明显酱油色尿偏血管内溶血，淋巴细胞比例明显升高更提示再障等情况。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：A。\n\n巨幼细胞贫血可有牛肉舌及舌乳头萎缩、舌面光滑，选A。B明显淋巴比例增加非特征；C明显肝脾大黄染需考虑其他溶血或肝病；D酱油尿更提示血红蛋白尿。",
+          "knowledgeConnections": [
+            "巨幼贫可因无效造血出现轻度溶血指标，但不等同大量血管内溶血。",
+            "舌黏膜改变也可见缺铁贫，需结合MCV及神经症状区分。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-28",
+              "sourceSubject": "med",
+              "sourceFile": "28 27考研：内科含诊断 缺铁性贫血（含贫血概述） 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 28,
+              "title": "内科含诊断 缺铁性贫血（含贫血概述） · 第1页",
+              "image": "exams/reviewed-mocks-20261104/med-d547795e2e-p001.webp",
+              "questionNumbers": [
+                71
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "巨幼贫可因无效造血出现轻度溶血指标，但不等同大量血管内溶血。"
+              ]
+            },
+            {
+              "lectureId": "lecture-28",
+              "sourceSubject": "physiology",
+              "sourceFile": "7 27考研：生理 血液特性 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 7,
+              "title": "生理 血液特性 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/physiology-8a4d42f17c-p001.webp",
+              "questionNumbers": [
+                71
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "叶酸、维生素B12缺乏可致巨幼细胞性贫血，核幼浆老；胃大部切除、A型胃炎或回肠末端切除可致维生素B12缺乏。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-28",
         "sourceSubject": "med",
         "sourceFile": "28 27考研：内科含诊断 缺铁性贫血（含贫血概述） 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 7,
-        "pageLabel": "PDF第7页",
-        "title": "28 27考研：内科含诊断 缺铁性贫血（含贫血概述）",
-        "image": "exams/sprint-exam-20261021/lecture-077.webp"
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "lectureNumber": 28,
+        "title": "内科含诊断 缺铁性贫血（含贫血概述） · 第1页",
+        "image": "exams/reviewed-mocks-20261104/med-d547795e2e-p001.webp",
+        "questionNumbers": [
+          71
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "巨幼贫可因无效造血出现轻度溶血指标，但不等同大量血管内溶血。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-28",
           "sourceSubject": "med",
           "sourceFile": "28 27考研：内科含诊断 缺铁性贫血（含贫血概述） 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 7,
-          "pageLabel": "PDF第7页",
-          "title": "28 27考研：内科含诊断 缺铁性贫血（含贫血概述）",
-          "image": "exams/sprint-exam-20261021/lecture-077.webp"
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "lectureNumber": 28,
+          "title": "内科含诊断 缺铁性贫血（含贫血概述） · 第1页",
+          "image": "exams/reviewed-mocks-20261104/med-d547795e2e-p001.webp",
+          "questionNumbers": [
+            71
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "巨幼贫可因无效造血出现轻度溶血指标，但不等同大量血管内溶血。"
+          ]
+        },
+        {
+          "lectureId": "lecture-28",
+          "sourceSubject": "physiology",
+          "sourceFile": "7 27考研：生理 血液特性 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "lectureNumber": 7,
+          "title": "生理 血液特性 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/physiology-8a4d42f17c-p001.webp",
+          "questionNumbers": [
+            71
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "叶酸、维生素B12缺乏可致巨幼细胞性贫血，核幼浆老；胃大部切除、A型胃炎或回肠末端切除可致维生素B12缺乏。"
+          ]
         }
       ],
       "sharedStem": "男性，56 岁。2 个月以来进行性乏力，头晕，心悸，食欲不振。查体：心率 110 次/分， 对称性远端肢体麻木，共济失调。血常规：Hb 88g/L，MCV 122fl，MCH 34pg，MCHC 330g/L，Ret 0.04，WBC 3.0×109/L，Plt 75×109/L。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "巨幼贫可因无效造血出现轻度溶血指标，但不等同大量血管内溶血。",
+        "舌黏膜改变也可见缺铁贫，需结合MCV及神经症状区分。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q072",
@@ -1758,33 +2756,109 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-28",
-          "explanation": "DNA合成障碍使细胞核发育落后于胞浆，骨髓可见核幼浆老、巨幼变。CD55异常支持PNH；球形红细胞不是巨幼贫血的核心依据。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：A。\n\nDNA合成障碍使细胞核发育迟于胞质，骨髓红系增生伴核幼浆老，选A。B贮铁及NAP不是巨幼贫特异依据；C球形红细胞偏溶血性疾病；DCD55缺失提示PNH。",
+          "knowledgeConnections": [
+            "核幼浆老是巨幼变的核心，缺铁贫则常记核老浆幼。",
+            "巨幼贫可全血细胞减少，但骨髓通常增生而非再障式低增生。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-28",
+              "sourceSubject": "med",
+              "sourceFile": "33 27考研：内科 MDS 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 33,
+              "title": "内科 MDS · 第3页",
+              "image": "exams/reviewed-mocks-20261104/med-ce98024b40-p003.webp",
+              "questionNumbers": [
+                72
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "核幼浆老是巨幼变的核心，缺铁贫则常记核老浆幼。"
+              ]
+            },
+            {
+              "lectureId": "lecture-28",
+              "sourceSubject": "physiology",
+              "sourceFile": "7 27考研：生理 血液特性 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 7,
+              "title": "生理 血液特性 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/physiology-8a4d42f17c-p001.webp",
+              "questionNumbers": [
+                72
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "叶酸、维生素B12缺乏可致巨幼细胞性贫血，核幼浆老；胃大部切除、A型胃炎或回肠末端切除可致维生素B12缺乏。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-28",
         "sourceSubject": "med",
-        "sourceFile": "28 27考研：内科含诊断 缺铁性贫血（含贫血概述） 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 7,
-        "pageLabel": "PDF第7页",
-        "title": "28 27考研：内科含诊断 缺铁性贫血（含贫血概述）",
-        "image": "exams/sprint-exam-20261021/lecture-077.webp"
+        "sourceFile": "33 27考研：内科 MDS 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "lectureNumber": 33,
+        "title": "内科 MDS · 第3页",
+        "image": "exams/reviewed-mocks-20261104/med-ce98024b40-p003.webp",
+        "questionNumbers": [
+          72
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "核幼浆老是巨幼变的核心，缺铁贫则常记核老浆幼。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-28",
           "sourceSubject": "med",
-          "sourceFile": "28 27考研：内科含诊断 缺铁性贫血（含贫血概述） 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 7,
-          "pageLabel": "PDF第7页",
-          "title": "28 27考研：内科含诊断 缺铁性贫血（含贫血概述）",
-          "image": "exams/sprint-exam-20261021/lecture-077.webp"
+          "sourceFile": "33 27考研：内科 MDS 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "lectureNumber": 33,
+          "title": "内科 MDS · 第3页",
+          "image": "exams/reviewed-mocks-20261104/med-ce98024b40-p003.webp",
+          "questionNumbers": [
+            72
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "核幼浆老是巨幼变的核心，缺铁贫则常记核老浆幼。"
+          ]
+        },
+        {
+          "lectureId": "lecture-28",
+          "sourceSubject": "physiology",
+          "sourceFile": "7 27考研：生理 血液特性 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "lectureNumber": 7,
+          "title": "生理 血液特性 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/physiology-8a4d42f17c-p001.webp",
+          "questionNumbers": [
+            72
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "叶酸、维生素B12缺乏可致巨幼细胞性贫血，核幼浆老；胃大部切除、A型胃炎或回肠末端切除可致维生素B12缺乏。"
+          ]
         }
       ],
       "sharedStem": "男性，56 岁。2 个月以来进行性乏力，头晕，心悸，食欲不振。查体：心率 110 次/分， 对称性远端肢体麻木，共济失调。血常规：Hb 88g/L，MCV 122fl，MCH 34pg，MCHC 330g/L，Ret 0.04，WBC 3.0×109/L，Plt 75×109/L。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "核幼浆老是巨幼变的核心，缺铁贫则常记核老浆幼。",
+        "巨幼贫可全血细胞减少，但骨髓通常增生而非再障式低增生。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q073",
@@ -1842,9 +2916,46 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-01",
-          "explanation": "A：不选：低氧若由功能性分流解释，应是分流增加；“减少”方向不对。\nB：不选作本卷最佳：单纯全肺肺泡通气量下降通常使CO₂排出不足、PaCO₂升高；本例PaCO₂为40mmHg，应先注意它并非典型低通气伴高碳酸血症的血气，不能只凭COPD就直接选B。但正常PaCO₂也不能否认所有局部低通气或V/Q失调。\nC：不选：无效腔减少一般改善有效通气，不是造成低氧血症的合理方向。\nD：本卷选D：肺气肿可破坏肺泡壁、减少有效气体交换面积，影响弥散；结合A、C方向错误及本例无CO₂潴留的线索，按本卷选项取D。不能把这一步外推成“无CO₂潴留就必然只有弥散障碍”。\n核验：已按本人补充将真实错因改为“漏读关键血气”。本卷计分答案仍为D；正常PaCO₂本身不能唯一证明弥散障碍，COPD也可有V/Q失调等机制。保留机制边界，不把PaO₂65误写为已经达到Ⅰ型呼衰。",
+          "explanation": "正确答案：D。\n\n本卷答案为D弥散障碍。病例为COPD、PaO2 65mmHg而PaCO2 40mmHg，不能仅由这组血气推定通气不足；A功能分流减少和C无效腔减少不会解释低氧。需注意：讲义还列COPD肺泡通气下降及通气血流失衡，D不能被扩展成“COPD低氧一律以弥散障碍为主”，原题给定选项存在局限。",
           "knowledgeConnections": [
-            "先分“低氧血症”与“已达到呼吸衰竭”：原题PaO₂＝65mmHg、PaCO₂＝40mmHg。按海平面、静息吸空气的常用标准，Ⅰ型呼衰要求PaO₂＜60mmHg，同时PaCO₂正常或降低，因此本例不应直接命名为Ⅰ型呼衰；准确表述是低氧血症、无CO₂潴留。无CO₂潴留是本题选项判断线索，不是呼衰诊断本身。"
+            "低氧机制包括肺泡通气不足、通气血流失衡、弥散障碍及分流。",
+            "PaCO2正常不排除肺部低氧，但血气数值不能单独准确区分所有低氧机制。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-01",
+              "sourceSubject": "med",
+              "sourceFile": "01 27考研：内科含诊断 COPD 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 1,
+              "title": "内科含诊断 COPD · 第3页",
+              "image": "exams/reviewed-mocks-20261104/med-b2c6ebd0a8-p003.webp",
+              "questionNumbers": [
+                73
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "COPD可有通气/血流比例失调，DLCO下降提示弥散能力下降；弥散障碍可导致低氧。"
+              ]
+            },
+            {
+              "lectureId": "lecture-01",
+              "sourceSubject": "med",
+              "sourceFile": "01 27考研：内科含诊断 COPD 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 1,
+              "title": "内科含诊断 COPD · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-b2c6ebd0a8-p004.webp",
+              "questionNumbers": [
+                73
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "低氧机制包括肺泡通气不足、通气血流失衡、弥散障碍及分流。"
+              ]
+            }
           ]
         }
       ],
@@ -1854,8 +2965,16 @@
         "sourceFile": "01 27考研：内科含诊断 COPD 核心-真题-串联-导图 天天师兄.pdf",
         "page": 3,
         "pageLabel": "PDF第3页",
-        "title": "内科第1讲《内科含诊断 COPD》",
-        "image": "exams/sprint-exam-20261021/lecture-078.webp"
+        "lectureNumber": 1,
+        "title": "内科含诊断 COPD · 第3页",
+        "image": "exams/reviewed-mocks-20261104/med-b2c6ebd0a8-p003.webp",
+        "questionNumbers": [
+          73
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "COPD可有通气/血流比例失调，DLCO下降提示弥散能力下降；弥散障碍可导致低氧。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -1864,31 +2983,42 @@
           "sourceFile": "01 27考研：内科含诊断 COPD 核心-真题-串联-导图 天天师兄.pdf",
           "page": 3,
           "pageLabel": "PDF第3页",
-          "title": "内科第1讲《内科含诊断 COPD》",
-          "image": "exams/sprint-exam-20261021/lecture-078.webp"
+          "lectureNumber": 1,
+          "title": "内科含诊断 COPD · 第3页",
+          "image": "exams/reviewed-mocks-20261104/med-b2c6ebd0a8-p003.webp",
+          "questionNumbers": [
+            73
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "COPD可有通气/血流比例失调，DLCO下降提示弥散能力下降；弥散障碍可导致低氧。"
+          ]
         },
         {
           "lectureId": "lecture-01",
           "sourceSubject": "med",
           "sourceFile": "01 27考研：内科含诊断 COPD 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 8,
-          "pageLabel": "PDF第8页",
-          "title": "内科第1讲《内科含诊断 COPD》",
-          "image": "exams/sprint-exam-20261021/lecture-079.webp"
-        },
-        {
-          "lectureId": "lecture-01",
-          "sourceSubject": "med",
-          "sourceFile": "11 27考研：内科含诊断 呼吸衰竭 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
-          "title": "内科第11讲《呼吸衰竭》",
-          "image": "exams/sprint-exam-20261021/lecture-080.webp"
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 1,
+          "title": "内科含诊断 COPD · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-b2c6ebd0a8-p004.webp",
+          "questionNumbers": [
+            73
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "低氧机制包括肺泡通气不足、通气血流失衡、弥散障碍及分流。"
+          ]
         }
       ],
       "sharedStem": "男性，57 岁。反复咳嗽，咳痰 15 余年，伴劳力性气促 5 年。半年前因病情加重住院，经无创通气，抗感染，平喘等治疗，随后病情好转出院。近 3 个月走平路 100 米即需停下来喘气。 吸烟 30 余年。查体：桶状胸，双肺呼吸音低，叩诊过清音，呼气相延长。动脉血气分析：pH 7.39，PaO2 65mmHg，PaCO2 40mmHg。肺功能检查：吸入支气管扩张剂后 FEV1% pred 55% ，FEV1/FVC 60%。 胸片检查可见双肺透亮度增加。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "低氧机制包括肺泡通气不足、通气血流失衡、弥散障碍及分流。",
+        "PaCO2正常不排除肺部低氧，但血气数值不能单独准确区分所有低氧机制。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q074",
@@ -1946,33 +3076,78 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-01",
-          "explanation": "走平路约100米或数分钟就需停下来喘气，符合mMRC3级；4级为严重到不能离家或穿衣即气短。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C。\n\n平地行走约100米即需停下喘气，对应mMRC3级，选C。1级为快步或缓坡；2级为较同龄人慢或平地需停歇；4级为不能离家或穿衣即气促。",
+          "knowledgeConnections": [
+            "mMRC评价呼吸困难症状，并非肺功能GOLD分级。",
+            "该例FEV1预计值55%为GOLD2级，可与mMRC3级并存。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-01",
+              "sourceSubject": "med",
+              "sourceFile": "01 27考研：内科含诊断 COPD 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 1,
+              "title": "内科含诊断 COPD · 第5页",
+              "image": "exams/reviewed-mocks-20261104/med-b2c6ebd0a8-p005.webp",
+              "questionNumbers": [
+                74
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "mMRC评价呼吸困难症状，并非肺功能GOLD分级。",
+                "该例FEV1预计值55%为GOLD2级，可与mMRC3级并存。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-01",
         "sourceSubject": "med",
         "sourceFile": "01 27考研：内科含诊断 COPD 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 10,
-        "pageLabel": "PDF第10页",
-        "title": "01 27考研：内科含诊断 COPD",
-        "image": "exams/sprint-exam-20261021/lecture-081.webp"
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "lectureNumber": 1,
+        "title": "内科含诊断 COPD · 第5页",
+        "image": "exams/reviewed-mocks-20261104/med-b2c6ebd0a8-p005.webp",
+        "questionNumbers": [
+          74
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "mMRC评价呼吸困难症状，并非肺功能GOLD分级。",
+          "该例FEV1预计值55%为GOLD2级，可与mMRC3级并存。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-01",
           "sourceSubject": "med",
           "sourceFile": "01 27考研：内科含诊断 COPD 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 10,
-          "pageLabel": "PDF第10页",
-          "title": "01 27考研：内科含诊断 COPD",
-          "image": "exams/sprint-exam-20261021/lecture-081.webp"
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "lectureNumber": 1,
+          "title": "内科含诊断 COPD · 第5页",
+          "image": "exams/reviewed-mocks-20261104/med-b2c6ebd0a8-p005.webp",
+          "questionNumbers": [
+            74
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "mMRC评价呼吸困难症状，并非肺功能GOLD分级。",
+            "该例FEV1预计值55%为GOLD2级，可与mMRC3级并存。"
+          ]
         }
       ],
       "sharedStem": "男性，57 岁。反复咳嗽，咳痰 15 余年，伴劳力性气促 5 年。半年前因病情加重住院，经无创通气，抗感染，平喘等治疗，随后病情好转出院。近 3 个月走平路 100 米即需停下来喘气。 吸烟 30 余年。查体：桶状胸，双肺呼吸音低，叩诊过清音，呼气相延长。动脉血气分析：pH 7.39，PaO2 65mmHg，PaCO2 40mmHg。肺功能检查：吸入支气管扩张剂后 FEV1% pred 55% ，FEV1/FVC 60%。 胸片检查可见双肺透亮度增加。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "mMRC评价呼吸困难症状，并非肺功能GOLD分级。",
+        "该例FEV1预计值55%为GOLD2级，可与mMRC3级并存。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q075",
@@ -2030,33 +3205,78 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-01",
-          "explanation": "稳定期COPD症状重，首选长效支气管扩张剂联合：LABA福莫特罗＋LAMA噻托溴铵；不能将短效联合或无明确指征的ICS方案直接替代。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C。\n\n该例症状多且有急性加重住院史，稳定期吸入LABA+LAMA是合适基础方案，福莫特罗加噻托溴铵符合，选C。AB缺少完整长效双支气管扩张；D为短效药组合且常规加ICS需进一步适应证。",
+          "knowledgeConnections": [
+            "稳定期治疗需综合症状和急性加重风险，而非只依FEV1。",
+            "ICS是否加入还参考嗜酸性粒细胞、哮喘特征及急性加重情况。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-01",
+              "sourceSubject": "med",
+              "sourceFile": "01 27考研：内科含诊断 COPD 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 1,
+              "title": "内科含诊断 COPD · 第5页",
+              "image": "exams/reviewed-mocks-20261104/med-b2c6ebd0a8-p005.webp",
+              "questionNumbers": [
+                75
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "稳定期治疗需综合症状和急性加重风险，而非只依FEV1。",
+                "ICS是否加入还参考嗜酸性粒细胞、哮喘特征及急性加重情况。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-01",
         "sourceSubject": "med",
         "sourceFile": "01 27考研：内科含诊断 COPD 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 10,
-        "pageLabel": "PDF第10页",
-        "title": "01 27考研：内科含诊断 COPD",
-        "image": "exams/sprint-exam-20261021/lecture-081.webp"
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "lectureNumber": 1,
+        "title": "内科含诊断 COPD · 第5页",
+        "image": "exams/reviewed-mocks-20261104/med-b2c6ebd0a8-p005.webp",
+        "questionNumbers": [
+          75
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "稳定期治疗需综合症状和急性加重风险，而非只依FEV1。",
+          "ICS是否加入还参考嗜酸性粒细胞、哮喘特征及急性加重情况。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-01",
           "sourceSubject": "med",
           "sourceFile": "01 27考研：内科含诊断 COPD 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 10,
-          "pageLabel": "PDF第10页",
-          "title": "01 27考研：内科含诊断 COPD",
-          "image": "exams/sprint-exam-20261021/lecture-081.webp"
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "lectureNumber": 1,
+          "title": "内科含诊断 COPD · 第5页",
+          "image": "exams/reviewed-mocks-20261104/med-b2c6ebd0a8-p005.webp",
+          "questionNumbers": [
+            75
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "稳定期治疗需综合症状和急性加重风险，而非只依FEV1。",
+            "ICS是否加入还参考嗜酸性粒细胞、哮喘特征及急性加重情况。"
+          ]
         }
       ],
       "sharedStem": "男性，57 岁。反复咳嗽，咳痰 15 余年，伴劳力性气促 5 年。半年前因病情加重住院，经无创通气，抗感染，平喘等治疗，随后病情好转出院。近 3 个月走平路 100 米即需停下来喘气。 吸烟 30 余年。查体：桶状胸，双肺呼吸音低，叩诊过清音，呼气相延长。动脉血气分析：pH 7.39，PaO2 65mmHg，PaCO2 40mmHg。肺功能检查：吸入支气管扩张剂后 FEV1% pred 55% ，FEV1/FVC 60%。 胸片检查可见双肺透亮度增加。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "稳定期治疗需综合症状和急性加重风险，而非只依FEV1。",
+        "ICS是否加入还参考嗜酸性粒细胞、哮喘特征及急性加重情况。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q076",
@@ -2114,8 +3334,31 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-56",
-          "explanation": "心率38、晕厥、大炮音提示房室分离；低位完全房室阻滞由室性逸搏维持，可出现宽大畸形QRS。三度阻滞通常心房率高于心室率，非PR逐渐延长的文氏型。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：A。\n\n心率38、晕厥、低血压和大炮音提示三度房室阻滞；远端阻滞时室性逸搏可有宽大畸形QRS，选A。B三度阻滞是P频率大于QRS；CPR递增为二度Ⅰ型；D长PP整倍数偏窦房传导阻滞。",
+          "knowledgeConnections": [
+            "三度房室阻滞为房室分离，PR不固定且房率大于室率。",
+            "心室率低于40、宽QRS及不稳定逸搏提示阻滞部位较低。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-56",
+              "sourceSubject": "med",
+              "sourceFile": "56 27考研：内科含诊断 心律失常 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 18,
+              "pageLabel": "PDF第18页",
+              "lectureNumber": 56,
+              "title": "内科含诊断 心律失常 · 第18页",
+              "image": "exams/reviewed-mocks-20261104/med-8a3d08f145-p018.webp",
+              "questionNumbers": [
+                76
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "三度房室阻滞为房室分离，PR不固定且房率大于室率。",
+                "心室率低于40、宽QRS及不稳定逸搏提示阻滞部位较低。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -2124,8 +3367,17 @@
         "sourceFile": "56 27考研：内科含诊断 心律失常 核心-真题-串联-导图 天天师兄.pdf",
         "page": 18,
         "pageLabel": "PDF第18页",
-        "title": "内科第56讲《内科含诊断 心律失常》",
-        "image": "exams/sprint-exam-20261021/lecture-085.webp"
+        "lectureNumber": 56,
+        "title": "内科含诊断 心律失常 · 第18页",
+        "image": "exams/reviewed-mocks-20261104/med-8a3d08f145-p018.webp",
+        "questionNumbers": [
+          76
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "三度房室阻滞为房室分离，PR不固定且房率大于室率。",
+          "心室率低于40、宽QRS及不稳定逸搏提示阻滞部位较低。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -2134,13 +3386,26 @@
           "sourceFile": "56 27考研：内科含诊断 心律失常 核心-真题-串联-导图 天天师兄.pdf",
           "page": 18,
           "pageLabel": "PDF第18页",
-          "title": "内科第56讲《内科含诊断 心律失常》",
-          "image": "exams/sprint-exam-20261021/lecture-085.webp"
+          "lectureNumber": 56,
+          "title": "内科含诊断 心律失常 · 第18页",
+          "image": "exams/reviewed-mocks-20261104/med-8a3d08f145-p018.webp",
+          "questionNumbers": [
+            76
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "三度房室阻滞为房室分离，PR不固定且房率大于室率。",
+            "心室率低于40、宽QRS及不稳定逸搏提示阻滞部位较低。"
+          ]
         }
       ],
       "sharedStem": "女性，25 岁。近半个月发热，伴恶心、呕吐、腹泻，自测体温 37.6-38 度，2 天来出现心前区闷痛，气短，活动后加重，行走时眼前发黑，偶伴晕厥。查体：T 37.8 度，P 38 次/分，R 21 次/分，BP 85/50mmHg，面色苍白， 精神萎靡，甲状腺Ⅰ度肿大，双肺未闻及啰音，心率 38 次/分，律不齐，心尖部闻及大炮音。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "三度房室阻滞为房室分离，PR不固定且房率大于室率。",
+        "心室率低于40、宽QRS及不稳定逸搏提示阻滞部位较低。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q077",
@@ -2198,33 +3463,109 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-56",
-          "explanation": "年轻人发热、胃肠道感染前驱症状后胸闷及严重房室传导阻滞，最符合急性心肌炎；无冠心病、强心苷用药等其他主导证据。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：B。\n\n青年病毒样感染后出现胸闷、严重传导阻滞及低灌注，最支持急性心肌炎，选B。A下壁心梗可阻滞，但缺少相应缺血证据；C肥厚型心肌病无此感染后急性过程；D无强心苷用药史。",
+          "knowledgeConnections": [
+            "急性心肌炎可损害传导系统，出现高级或完全性房室阻滞。",
+            "病因诊断与紧急处理同时进行，不能因等待病因确认而延误纠正低灌注。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-56",
+              "sourceSubject": "med",
+              "sourceFile": "49 27考研：内科 心肌疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 49,
+              "title": "内科 心肌疾病 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-8b197f2d17-p004.webp",
+              "questionNumbers": [
+                77
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "急性心肌炎可损害传导系统，出现高级或完全性房室阻滞。"
+              ]
+            },
+            {
+              "lectureId": "lecture-56",
+              "sourceSubject": "med",
+              "sourceFile": "56 27考研：内科含诊断 心律失常 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 18,
+              "pageLabel": "PDF第18页",
+              "lectureNumber": 56,
+              "title": "内科含诊断 心律失常 · 第18页",
+              "image": "exams/reviewed-mocks-20261104/med-8a3d08f145-p018.webp",
+              "questionNumbers": [
+                77
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "病因诊断与紧急处理同时进行，不能因等待病因确认而延误纠正低灌注。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-56",
         "sourceSubject": "med",
-        "sourceFile": "56 27考研：内科含诊断 心律失常 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 18,
-        "pageLabel": "PDF第18页",
-        "title": "内科第56讲《内科含诊断 心律失常》",
-        "image": "exams/sprint-exam-20261021/lecture-085.webp"
+        "sourceFile": "49 27考研：内科 心肌疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 49,
+        "title": "内科 心肌疾病 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/med-8b197f2d17-p004.webp",
+        "questionNumbers": [
+          77
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "急性心肌炎可损害传导系统，出现高级或完全性房室阻滞。"
+        ]
       },
       "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-56",
+          "sourceSubject": "med",
+          "sourceFile": "49 27考研：内科 心肌疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 49,
+          "title": "内科 心肌疾病 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-8b197f2d17-p004.webp",
+          "questionNumbers": [
+            77
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "急性心肌炎可损害传导系统，出现高级或完全性房室阻滞。"
+          ]
+        },
         {
           "lectureId": "lecture-56",
           "sourceSubject": "med",
           "sourceFile": "56 27考研：内科含诊断 心律失常 核心-真题-串联-导图 天天师兄.pdf",
           "page": 18,
           "pageLabel": "PDF第18页",
-          "title": "内科第56讲《内科含诊断 心律失常》",
-          "image": "exams/sprint-exam-20261021/lecture-085.webp"
+          "lectureNumber": 56,
+          "title": "内科含诊断 心律失常 · 第18页",
+          "image": "exams/reviewed-mocks-20261104/med-8a3d08f145-p018.webp",
+          "questionNumbers": [
+            77
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "病因诊断与紧急处理同时进行，不能因等待病因确认而延误纠正低灌注。"
+          ]
         }
       ],
       "sharedStem": "女性，25 岁。近半个月发热，伴恶心、呕吐、腹泻，自测体温 37.6-38 度，2 天来出现心前区闷痛，气短，活动后加重，行走时眼前发黑，偶伴晕厥。查体：T 37.8 度，P 38 次/分，R 21 次/分，BP 85/50mmHg，面色苍白， 精神萎靡，甲状腺Ⅰ度肿大，双肺未闻及啰音，心率 38 次/分，律不齐，心尖部闻及大炮音。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "急性心肌炎可损害传导系统，出现高级或完全性房室阻滞。",
+        "病因诊断与紧急处理同时进行，不能因等待病因确认而延误纠正低灌注。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q078",
@@ -2282,9 +3623,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-56",
-          "explanation": "A：不选作当前首要：感染或心肌炎的病因处理可能需要，但不能代替对严重缓慢心率、低灌注的立即支持。\nB：不选：电复律不能解决完全性房室阻滞所致的缓慢心室率；本题也未提供足以确诊房颤的心电图证据。即使确有房颤合并三度房室阻滞，心率38次/分伴低血压、晕厥时，首先需要处理严重心动过缓，不能因“房颤”二字直接选电复律。\nC：不选作最合适：阿托品对房室结水平阻滞可能有效，但对希氏束以下阻滞效果不可靠。本组第76题标准为QRS波宽大畸形，结合心率低于40次/分，按命题逻辑更支持低位阻滞、室性逸搏；不能仅依赖阿托品。\nD：选：严重症状性三度房室传导阻滞，已有低血压、晕厥，应以临时起搏提高心室率、维持灌注。急性心肌炎造成的传导障碍可能恢复，当前题目所问是临时起搏支持。\n核验：同组证据串联（属于命题逻辑推断，并非题干已展示的心电图）：76题标准A“QRS波宽大畸形”＋心率38次/分，支持低位阻滞伴室性逸搏；77题标准B“急性心肌炎”，与年轻、发热及胃肠道前驱症状相符；78题D“临时置入起搏器”。题干未提供实际心电图，不能把房颤作为已证实诊断。",
+          "explanation": "正确答案：D。\n\n严重房室阻滞伴晕厥、低血压，需临时起搏支持，选D。A抗感染不能立即恢复可靠心室率；B电复律不治疗此缓慢型阻滞；C阿托品对远端阻滞效果差，不能替代起搏。",
           "knowledgeConnections": [
-            "普通房颤通常为心律绝对不齐、第一心音强弱不等，常有脉搏短绌；房颤合并三度房室阻滞时，心室脱离心房控制，由逸搏灶驱动，典型表现为慢而规则的心室律。三度阻滞本身可有房室分离、第一心音变化及大炮音。原题只写“律不齐”，脉率与心率均为38次/分，未给P波消失、f波或实际心电图，因此不足以加诊房颤；也不能仅凭脉率等于心率就排除房颤。低位逸搏可不稳定，不宜把原题“律不齐”硬解释成房颤。"
+            "二度Ⅱ型和三度阻滞合并症状应尽早起搏。",
+            "阻滞可逆性决定后续是否需要永久起搏器。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-56",
+              "sourceSubject": "med",
+              "sourceFile": "56 27考研：内科含诊断 心律失常 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 17,
+              "pageLabel": "PDF第17页",
+              "lectureNumber": 56,
+              "title": "内科含诊断 心律失常 · 第17页",
+              "image": "exams/reviewed-mocks-20261104/med-8a3d08f145-p017.webp",
+              "questionNumbers": [
+                78
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "二度Ⅱ型和三度阻滞合并症状应尽早起搏。",
+                "阻滞可逆性决定后续是否需要永久起搏器。"
+              ]
+            }
           ]
         }
       ],
@@ -2294,8 +3656,17 @@
         "sourceFile": "56 27考研：内科含诊断 心律失常 核心-真题-串联-导图 天天师兄.pdf",
         "page": 17,
         "pageLabel": "PDF第17页",
-        "title": "内科第56讲《内科含诊断 心律失常》",
-        "image": "exams/sprint-exam-20261021/lecture-083.webp"
+        "lectureNumber": 56,
+        "title": "内科含诊断 心律失常 · 第17页",
+        "image": "exams/reviewed-mocks-20261104/med-8a3d08f145-p017.webp",
+        "questionNumbers": [
+          78
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "二度Ⅱ型和三度阻滞合并症状应尽早起搏。",
+          "阻滞可逆性决定后续是否需要永久起搏器。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -2304,31 +3675,26 @@
           "sourceFile": "56 27考研：内科含诊断 心律失常 核心-真题-串联-导图 天天师兄.pdf",
           "page": 17,
           "pageLabel": "PDF第17页",
-          "title": "内科第56讲《内科含诊断 心律失常》",
-          "image": "exams/sprint-exam-20261021/lecture-083.webp"
-        },
-        {
-          "lectureId": "lecture-56",
-          "sourceSubject": "med",
-          "sourceFile": "56 27考研：内科含诊断 心律失常 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 13,
-          "pageLabel": "PDF第13页",
-          "title": "内科第56讲《内科含诊断 心律失常》",
-          "image": "exams/sprint-exam-20261021/lecture-084.webp"
-        },
-        {
-          "lectureId": "lecture-56",
-          "sourceSubject": "med",
-          "sourceFile": "56 27考研：内科含诊断 心律失常 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 18,
-          "pageLabel": "PDF第18页",
-          "title": "内科第56讲《内科含诊断 心律失常》",
-          "image": "exams/sprint-exam-20261021/lecture-085.webp"
+          "lectureNumber": 56,
+          "title": "内科含诊断 心律失常 · 第17页",
+          "image": "exams/reviewed-mocks-20261104/med-8a3d08f145-p017.webp",
+          "questionNumbers": [
+            78
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "二度Ⅱ型和三度阻滞合并症状应尽早起搏。",
+            "阻滞可逆性决定后续是否需要永久起搏器。"
+          ]
         }
       ],
       "sharedStem": "女性，25 岁。近半个月发热，伴恶心、呕吐、腹泻，自测体温 37.6-38 度，2 天来出现心前区闷痛，气短，活动后加重，行走时眼前发黑，偶伴晕厥。查体：T 37.8 度，P 38 次/分，R 21 次/分，BP 85/50mmHg，面色苍白， 精神萎靡，甲状腺Ⅰ度肿大，双肺未闻及啰音，心率 38 次/分，律不齐，心尖部闻及大炮音。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "二度Ⅱ型和三度阻滞合并症状应尽早起搏。",
+        "阻滞可逆性决定后续是否需要永久起搏器。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q079",
@@ -2386,8 +3752,47 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-18",
-          "explanation": "全结肠溃疡性结肠炎、每日7次血便并治疗无效，按本题活动程度需要全身糖皮质激素诱导缓解，选泼尼松；美沙拉嗪更常用于轻中度病例。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：B。\n\n频繁黏液脓血便、全结肠连续浅溃疡及隐窝脓肿为活动性UC，排便7次/日提示病情较重，本卷选全身糖皮质激素泼尼松B。AD氨基水杨酸更适于轻中度；C布地奈德的作用范围和强度不能替代此情境的全身治疗。",
+          "knowledgeConnections": [
+            "UC重度线索包括明显血便、排便频繁及系统炎症表现。",
+            "糖皮质激素用于诱导缓解，不能作为长期维持治疗。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-18",
+              "sourceSubject": "med",
+              "sourceFile": "18 27考研：内科 炎症性肠病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 18,
+              "title": "内科 炎症性肠病 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/med-8e846bad1d-p001.webp",
+              "questionNumbers": [
+                79
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "UC重度线索包括明显血便、排便频繁及系统炎症表现。"
+              ]
+            },
+            {
+              "lectureId": "lecture-18",
+              "sourceSubject": "med",
+              "sourceFile": "18 27考研：内科 炎症性肠病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 18,
+              "title": "内科 炎症性肠病 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-8e846bad1d-p004.webp",
+              "questionNumbers": [
+                79
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "糖皮质激素用于诱导缓解，不能作为长期维持治疗。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -2396,8 +3801,16 @@
         "sourceFile": "18 27考研：内科 炎症性肠病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 1,
         "pageLabel": "PDF第1页",
-        "title": "18 27考研：内科 炎症性肠病",
-        "image": "exams/sprint-exam-20261021/lecture-086.webp"
+        "lectureNumber": 18,
+        "title": "内科 炎症性肠病 · 第1页",
+        "image": "exams/reviewed-mocks-20261104/med-8e846bad1d-p001.webp",
+        "questionNumbers": [
+          79
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "UC重度线索包括明显血便、排便频繁及系统炎症表现。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -2406,13 +3819,42 @@
           "sourceFile": "18 27考研：内科 炎症性肠病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 1,
           "pageLabel": "PDF第1页",
-          "title": "18 27考研：内科 炎症性肠病",
-          "image": "exams/sprint-exam-20261021/lecture-086.webp"
+          "lectureNumber": 18,
+          "title": "内科 炎症性肠病 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/med-8e846bad1d-p001.webp",
+          "questionNumbers": [
+            79
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "UC重度线索包括明显血便、排便频繁及系统炎症表现。"
+          ]
+        },
+        {
+          "lectureId": "lecture-18",
+          "sourceSubject": "med",
+          "sourceFile": "18 27考研：内科 炎症性肠病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 18,
+          "title": "内科 炎症性肠病 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-8e846bad1d-p004.webp",
+          "questionNumbers": [
+            79
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "糖皮质激素用于诱导缓解，不能作为长期维持治疗。"
+          ]
         }
       ],
       "sharedStem": "女性，28 岁。反复黏液脓血便 2 年，伴下腹部疼痛，大便 7 次/ 天，给予左氧氟沙星及甲硝唑症状无好转。曾行肠镜检查提示全结肠黏膜弥漫性充血红肿，直肠、乙状结肠为著， 伴糜烂及不规则浅溃疡，隐窝脓肿。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "UC重度线索包括明显血便、排便频繁及系统炎症表现。",
+        "糖皮质激素用于诱导缓解，不能作为长期维持治疗。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q080",
@@ -2470,33 +3912,78 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-18",
-          "explanation": "溃疡性结肠炎出现高热、心动过速、腹胀、肠鸣音消失及低钾，应考虑中毒性巨结肠。不能仅因腹胀就改诊克罗恩病肠梗阻。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：B。\n\n重度UC后高热、心动过速、腹胀、全腹压痛及肠鸣音消失，合并低钾诱因，提示中毒性巨结肠，选B。A穿孔应有更典型腹膜刺激及游离气体；CD与已确立UC病变不符。",
+          "knowledgeConnections": [
+            "中毒性巨结肠实质为结肠扩张伴明显毒血症，横结肠常最显著。",
+            "低钾、钡灌肠、抗胆碱药和阿片类可诱发，且有穿孔风险。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-18",
+              "sourceSubject": "med",
+              "sourceFile": "18 27考研：内科 炎症性肠病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 18,
+              "title": "内科 炎症性肠病 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/med-8e846bad1d-p002.webp",
+              "questionNumbers": [
+                80
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "中毒性巨结肠实质为结肠扩张伴明显毒血症，横结肠常最显著。",
+                "低钾、钡灌肠、抗胆碱药和阿片类可诱发，且有穿孔风险。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-18",
         "sourceSubject": "med",
         "sourceFile": "18 27考研：内科 炎症性肠病 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 6,
-        "pageLabel": "PDF第6页",
-        "title": "18 27考研：内科 炎症性肠病",
-        "image": "exams/sprint-exam-20261021/lecture-087.webp"
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "lectureNumber": 18,
+        "title": "内科 炎症性肠病 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/med-8e846bad1d-p002.webp",
+        "questionNumbers": [
+          80
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "中毒性巨结肠实质为结肠扩张伴明显毒血症，横结肠常最显著。",
+          "低钾、钡灌肠、抗胆碱药和阿片类可诱发，且有穿孔风险。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-18",
           "sourceSubject": "med",
           "sourceFile": "18 27考研：内科 炎症性肠病 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 6,
-          "pageLabel": "PDF第6页",
-          "title": "18 27考研：内科 炎症性肠病",
-          "image": "exams/sprint-exam-20261021/lecture-087.webp"
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "lectureNumber": 18,
+          "title": "内科 炎症性肠病 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/med-8e846bad1d-p002.webp",
+          "questionNumbers": [
+            80
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "中毒性巨结肠实质为结肠扩张伴明显毒血症，横结肠常最显著。",
+            "低钾、钡灌肠、抗胆碱药和阿片类可诱发，且有穿孔风险。"
+          ]
         }
       ],
       "sharedStem": "女性，28 岁。反复黏液脓血便 2 年，伴下腹部疼痛，大便 7 次/ 天，给予左氧氟沙星及甲硝唑症状无好转。曾行肠镜检查提示全结肠黏膜弥漫性充血红肿，直肠、乙状结肠为著， 伴糜烂及不规则浅溃疡，隐窝脓肿。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "中毒性巨结肠实质为结肠扩张伴明显毒血症，横结肠常最显著。",
+        "低钾、钡灌肠、抗胆碱药和阿片类可诱发，且有穿孔风险。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q081",
@@ -2554,9 +4041,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-18",
-          "explanation": "A：不选：疑似中毒性巨结肠时全结肠镜和充气操作可增加穿孔风险，不是进一步确认扩张程度的首选。\nB：选：腹部X线可观察结肠扩张、气体分布及有无穿孔征象，是本题最合适的检查。\nC：不选作最佳：超声可提供部分信息，但不如腹部X线直观评价结肠明显扩张这一经典考点。\nD：不选：重症扩张结肠做钡剂灌肠存在加重、诱发穿孔等风险，不应作为本题首选。",
+          "explanation": "正确答案：B。\n\n疑中毒性巨结肠，首选腹部X线观察结肠扩张、袋形消失及游离气体，选B。A结肠镜及D钡灌肠可增加穿孔风险；C超声不是评估此结肠扩张的首选。",
           "knowledgeConnections": [
-            "初诊炎症性肠病看内镜活检；重症出现中毒性扩张时，检查策略随危险状态改变。病例组题每出现新病情，须重新选择当下问题。"
+            "中毒性巨结肠诊断重视腹平片及全身毒血症。",
+            "活动期一般结肠镜评价与重症并发巨结肠时检查禁忌应区别。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-18",
+              "sourceSubject": "med",
+              "sourceFile": "18 27考研：内科 炎症性肠病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 18,
+              "title": "内科 炎症性肠病 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/med-8e846bad1d-p002.webp",
+              "questionNumbers": [
+                81
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "中毒性巨结肠诊断重视腹平片及全身毒血症。",
+                "活动期一般结肠镜评价与重症并发巨结肠时检查禁忌应区别。"
+              ]
+            }
           ]
         }
       ],
@@ -2566,8 +4074,17 @@
         "sourceFile": "18 27考研：内科 炎症性肠病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 2,
         "pageLabel": "PDF第2页",
-        "title": "内科第18讲《内科 炎症性肠病》",
-        "image": "exams/sprint-exam-20261021/lecture-088.webp"
+        "lectureNumber": 18,
+        "title": "内科 炎症性肠病 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/med-8e846bad1d-p002.webp",
+        "questionNumbers": [
+          81
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "中毒性巨结肠诊断重视腹平片及全身毒血症。",
+          "活动期一般结肠镜评价与重症并发巨结肠时检查禁忌应区别。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -2576,13 +4093,26 @@
           "sourceFile": "18 27考研：内科 炎症性肠病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
-          "title": "内科第18讲《内科 炎症性肠病》",
-          "image": "exams/sprint-exam-20261021/lecture-088.webp"
+          "lectureNumber": 18,
+          "title": "内科 炎症性肠病 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/med-8e846bad1d-p002.webp",
+          "questionNumbers": [
+            81
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "中毒性巨结肠诊断重视腹平片及全身毒血症。",
+            "活动期一般结肠镜评价与重症并发巨结肠时检查禁忌应区别。"
+          ]
         }
       ],
       "sharedStem": "女性，28 岁。反复黏液脓血便 2 年，伴下腹部疼痛，大便 7 次/ 天，给予左氧氟沙星及甲硝唑症状无好转。曾行肠镜检查提示全结肠黏膜弥漫性充血红肿，直肠、乙状结肠为著， 伴糜烂及不规则浅溃疡，隐窝脓肿。 患者近日腹痛加重，血便明显，伴高热， 衰弱。查体：T 39.1 度，心率 120 次/分，腹部膨隆，全腹有压痛，肠鸣音消失。化验血钾 2.9mmol/L。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "中毒性巨结肠诊断重视腹平片及全身毒血症。",
+        "活动期一般结肠镜评价与重症并发巨结肠时检查禁忌应区别。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q082",
@@ -2640,33 +4170,78 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-27",
-          "explanation": "咯血伴急进性肾炎、肾功能快速恶化提示肺出血—肾炎综合征，血清抗GBM抗体有关键诊断价值；单纯ASO、IgA或补体不能直接证实。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：B。\n\n急性肾炎伴快速肾功能恶化和肺出血提示抗GBM病，血清抗GBM抗体最有诊断价值，选B。AIgA不特异；CASO偏链球菌感染证据；D补体可辅助鉴别但不直接确定抗GBM病。",
+          "knowledgeConnections": [
+            "肺－肾综合征应鉴别抗GBM病和ANCA相关血管炎。",
+            "抗GBM型急进性肾炎免疫荧光可呈沿基膜线样沉积。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-27",
+              "sourceSubject": "med",
+              "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 27,
+              "title": "内科含诊断+病理 原发性肾小球疾病 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/med-e648a78052-p005.webp",
+              "questionNumbers": [
+                82
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "肺－肾综合征应鉴别抗GBM病和ANCA相关血管炎。",
+                "抗GBM型急进性肾炎免疫荧光可呈沿基膜线样沉积。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-27",
         "sourceSubject": "med",
         "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 16,
-        "pageLabel": "PDF第16页",
-        "title": "27 27考研：内科含诊断+病理 原发性肾小球疾病",
-        "image": "exams/sprint-exam-20261021/lecture-089.webp"
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "lectureNumber": 27,
+        "title": "内科含诊断+病理 原发性肾小球疾病 · 第5页",
+        "image": "exams/reviewed-mocks-20261104/med-e648a78052-p005.webp",
+        "questionNumbers": [
+          82
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "肺－肾综合征应鉴别抗GBM病和ANCA相关血管炎。",
+          "抗GBM型急进性肾炎免疫荧光可呈沿基膜线样沉积。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-27",
           "sourceSubject": "med",
           "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 16,
-          "pageLabel": "PDF第16页",
-          "title": "27 27考研：内科含诊断+病理 原发性肾小球疾病",
-          "image": "exams/sprint-exam-20261021/lecture-089.webp"
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "lectureNumber": 27,
+          "title": "内科含诊断+病理 原发性肾小球疾病 · 第5页",
+          "image": "exams/reviewed-mocks-20261104/med-e648a78052-p005.webp",
+          "questionNumbers": [
+            82
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "肺－肾综合征应鉴别抗GBM病和ANCA相关血管炎。",
+            "抗GBM型急进性肾炎免疫荧光可呈沿基膜线样沉积。"
+          ]
         }
       ],
       "sharedStem": "男性，58 岁。肉眼血尿伴少尿 6 天，咳嗽、痰中带血 3 天入院。2 周前有咽痛，发热。查体：BP 160/95mmHg，皮肤黏膜未见出血点， 双眼睑水肿，双下肢凹陷性水肿(++)。化验尿常规：尿蛋白(+++)，沉渣 RBC 50- 60/HP，血肌酐 413μmol/L。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "肺－肾综合征应鉴别抗GBM病和ANCA相关血管炎。",
+        "抗GBM型急进性肾炎免疫荧光可呈沿基膜线样沉积。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q083",
@@ -2724,33 +4299,109 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-27",
-          "explanation": "抗GBM病伴肺出血需要迅速清除致病抗体，血浆置换为本组选项中的首选，同时临床常联合糖皮质激素和免疫抑制。透析主要解决相应肾衰并发症。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C。\n\n抗GBM相关肺－肾综合征需尽快清除致病抗体，血浆置换最符合本问首选，选C。A青霉素不能清除自身抗体；B透析为肾衰支持；D环磷酰胺可联合抑制抗体生成，但不等同快速清除现存抗体。",
+          "knowledgeConnections": [
+            "血浆置换、糖皮质激素及免疫抑制可从清除抗体和减少生成两方面治疗。",
+            "是否透析另依高钾、酸中毒、容量及尿毒症等指征。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-27",
+              "sourceSubject": "med",
+              "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 6,
+              "pageLabel": "PDF第6页",
+              "lectureNumber": 27,
+              "title": "内科含诊断+病理 原发性肾小球疾病 · 第6页",
+              "image": "exams/reviewed-mocks-20261104/med-e648a78052-p006.webp",
+              "questionNumbers": [
+                83
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "血浆置换、糖皮质激素及免疫抑制可从清除抗体和减少生成两方面治疗。"
+              ]
+            },
+            {
+              "lectureId": "lecture-27",
+              "sourceSubject": "med",
+              "sourceFile": "48 27考研：内科 中毒 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 48,
+              "title": "内科 中毒 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/med-64bc0f7267-p002.webp",
+              "questionNumbers": [
+                83
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "是否透析另依高钾、酸中毒、容量及尿毒症等指征。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-27",
         "sourceSubject": "med",
         "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 16,
-        "pageLabel": "PDF第16页",
-        "title": "27 27考研：内科含诊断+病理 原发性肾小球疾病",
-        "image": "exams/sprint-exam-20261021/lecture-089.webp"
+        "page": 6,
+        "pageLabel": "PDF第6页",
+        "lectureNumber": 27,
+        "title": "内科含诊断+病理 原发性肾小球疾病 · 第6页",
+        "image": "exams/reviewed-mocks-20261104/med-e648a78052-p006.webp",
+        "questionNumbers": [
+          83
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "血浆置换、糖皮质激素及免疫抑制可从清除抗体和减少生成两方面治疗。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-27",
           "sourceSubject": "med",
           "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 16,
-          "pageLabel": "PDF第16页",
-          "title": "27 27考研：内科含诊断+病理 原发性肾小球疾病",
-          "image": "exams/sprint-exam-20261021/lecture-089.webp"
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "lectureNumber": 27,
+          "title": "内科含诊断+病理 原发性肾小球疾病 · 第6页",
+          "image": "exams/reviewed-mocks-20261104/med-e648a78052-p006.webp",
+          "questionNumbers": [
+            83
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "血浆置换、糖皮质激素及免疫抑制可从清除抗体和减少生成两方面治疗。"
+          ]
+        },
+        {
+          "lectureId": "lecture-27",
+          "sourceSubject": "med",
+          "sourceFile": "48 27考研：内科 中毒 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "lectureNumber": 48,
+          "title": "内科 中毒 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/med-64bc0f7267-p002.webp",
+          "questionNumbers": [
+            83
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "是否透析另依高钾、酸中毒、容量及尿毒症等指征。"
+          ]
         }
       ],
       "sharedStem": "男性，58 岁。肉眼血尿伴少尿 6 天，咳嗽、痰中带血 3 天入院。2 周前有咽痛，发热。查体：BP 160/95mmHg，皮肤黏膜未见出血点， 双眼睑水肿，双下肢凹陷性水肿(++)。化验尿常规：尿蛋白(+++)，沉渣 RBC 50- 60/HP，血肌酐 413μmol/L。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "血浆置换、糖皮质激素及免疫抑制可从清除抗体和减少生成两方面治疗。",
+        "是否透析另依高钾、酸中毒、容量及尿毒症等指征。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q084",
@@ -2808,33 +4459,78 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-27",
-          "explanation": "少尿性急性肾损伤易潴留钾、镁、磷；水潴留常使钠被稀释，高钠不是本组典型改变，故选B。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：B。\n\n少尿及肾小球滤过降低常引起钾、镁、磷潴留，ACD均可能；高钠不是典型改变，水潴留反而易稀释性低钠，故选B。",
+          "knowledgeConnections": [
+            "AKI常见高钾、代谢性酸中毒及水钠潴留。",
+            "血钠浓度反映水钠比例，不能把总体钠潴留直接等同高钠血症。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-27",
+              "sourceSubject": "med",
+              "sourceFile": "26 27考研：内科 肾衰竭 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 26,
+              "title": "内科 肾衰竭 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/med-3e291131c7-p001.webp",
+              "questionNumbers": [
+                84
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "AKI常见高钾、代谢性酸中毒及水钠潴留。",
+                "血钠浓度反映水钠比例，不能把总体钠潴留直接等同高钠血症。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-27",
         "sourceSubject": "med",
-        "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 16,
-        "pageLabel": "PDF第16页",
-        "title": "27 27考研：内科含诊断+病理 原发性肾小球疾病",
-        "image": "exams/sprint-exam-20261021/lecture-089.webp"
+        "sourceFile": "26 27考研：内科 肾衰竭 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "lectureNumber": 26,
+        "title": "内科 肾衰竭 · 第1页",
+        "image": "exams/reviewed-mocks-20261104/med-3e291131c7-p001.webp",
+        "questionNumbers": [
+          84
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "AKI常见高钾、代谢性酸中毒及水钠潴留。",
+          "血钠浓度反映水钠比例，不能把总体钠潴留直接等同高钠血症。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-27",
           "sourceSubject": "med",
-          "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 16,
-          "pageLabel": "PDF第16页",
-          "title": "27 27考研：内科含诊断+病理 原发性肾小球疾病",
-          "image": "exams/sprint-exam-20261021/lecture-089.webp"
+          "sourceFile": "26 27考研：内科 肾衰竭 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "lectureNumber": 26,
+          "title": "内科 肾衰竭 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/med-3e291131c7-p001.webp",
+          "questionNumbers": [
+            84
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "AKI常见高钾、代谢性酸中毒及水钠潴留。",
+            "血钠浓度反映水钠比例，不能把总体钠潴留直接等同高钠血症。"
+          ]
         }
       ],
       "sharedStem": "男性，58 岁。肉眼血尿伴少尿 6 天，咳嗽、痰中带血 3 天入院。2 周前有咽痛，发热。查体：BP 160/95mmHg，皮肤黏膜未见出血点， 双眼睑水肿，双下肢凹陷性水肿(++)。化验尿常规：尿蛋白(+++)，沉渣 RBC 50- 60/HP，血肌酐 413μmol/L。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "AKI常见高钾、代谢性酸中毒及水钠潴留。",
+        "血钠浓度反映水钠比例，不能把总体钠潴留直接等同高钠血症。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q085",
@@ -2892,33 +4588,109 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-30",
-          "explanation": "免疫性溶血证据（网织红细胞增多、球形红细胞、黄疸）合并免疫性血小板减少，符合Evans综合征。单纯遗传性球形细胞增多不能解释明显免疫性血小板减少。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C。\n\n溶血证据加严重血小板减少，骨髓红系及巨核系增生但产板障碍，提示自身免疫性溶血合并ITP，即Evans综合征，选C。ATTP应有微血管病性碎片红细胞等；BPNH为GPI锚蛋白缺陷；D遗传性球形红细胞增多症不能解释免疫性血小板破坏。",
+          "knowledgeConnections": [
+            "Evans综合征为自身免疫性溶血性贫血合并免疫性血小板减少等。",
+            "ITP为巨核细胞增多或正常伴成熟障碍，与再障巨核细胞减少不同。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-30",
+              "sourceSubject": "med",
+              "sourceFile": "30 27考研：内科含诊断 溶血性贫血 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 30,
+              "title": "内科含诊断 溶血性贫血 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-7afb4389ee-p004.webp",
+              "questionNumbers": [
+                85
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "Evans综合征为自身免疫性溶血性贫血合并免疫性血小板减少等。"
+              ]
+            },
+            {
+              "lectureId": "lecture-30",
+              "sourceSubject": "med",
+              "sourceFile": "31 27考研：内科含诊断 出血性疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 31,
+              "title": "内科含诊断 出血性疾病 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/med-771c23cdff-p001.webp",
+              "questionNumbers": [
+                85
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "ITP为巨核细胞增多或正常伴成熟障碍，与再障巨核细胞减少不同。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-30",
         "sourceSubject": "med",
         "sourceFile": "30 27考研：内科含诊断 溶血性贫血 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 7,
-        "pageLabel": "PDF第7页",
-        "title": "30 27考研：内科含诊断 溶血性贫血",
-        "image": "exams/sprint-exam-20261021/lecture-090.webp"
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 30,
+        "title": "内科含诊断 溶血性贫血 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/med-7afb4389ee-p004.webp",
+        "questionNumbers": [
+          85
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "Evans综合征为自身免疫性溶血性贫血合并免疫性血小板减少等。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-30",
           "sourceSubject": "med",
           "sourceFile": "30 27考研：内科含诊断 溶血性贫血 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 7,
-          "pageLabel": "PDF第7页",
-          "title": "30 27考研：内科含诊断 溶血性贫血",
-          "image": "exams/sprint-exam-20261021/lecture-090.webp"
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 30,
+          "title": "内科含诊断 溶血性贫血 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-7afb4389ee-p004.webp",
+          "questionNumbers": [
+            85
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "Evans综合征为自身免疫性溶血性贫血合并免疫性血小板减少等。"
+          ]
+        },
+        {
+          "lectureId": "lecture-30",
+          "sourceSubject": "med",
+          "sourceFile": "31 27考研：内科含诊断 出血性疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "lectureNumber": 31,
+          "title": "内科含诊断 出血性疾病 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/med-771c23cdff-p001.webp",
+          "questionNumbers": [
+            85
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "ITP为巨核细胞增多或正常伴成熟障碍，与再障巨核细胞减少不同。"
+          ]
         }
       ],
       "sharedStem": "女性，30 岁。面色苍白，乏力 1 年，伴皮肤出血点 2 周。 查体： 神志清， 巩膜轻度黄染， 肝肋下未触及， 脾肋下2cm。 血常规：Hb 60g/L，RBC 1.8×1012/L，WBC 4.6×109/L，Plt 12×109/L，Ret 0.12，血涂片可见球形红细胞。骨髓穿刺细胞学检查： 红系、 巨核系明显增生， 全片见巨核细胞96 个， 未见产板型巨核细胞。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "Evans综合征为自身免疫性溶血性贫血合并免疫性血小板减少等。",
+        "ITP为巨核细胞增多或正常伴成熟障碍，与再障巨核细胞减少不同。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q086",
@@ -2976,33 +4748,78 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-30",
-          "explanation": "Evans综合征中的自身免疫性溶血常直接抗人球蛋白试验Coombs阳性。尿Rous试验偏慢性血管内溶血；并非以CD34减少诊断。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：A。\n\nEvans包含自身免疫性溶血，直接抗人球蛋白Coombs试验可阳性，选A。BRous阳性偏慢性血管内溶血；CCD34细胞减少偏造血干细胞衰竭；D小细胞高色素并非本病特征。",
+          "knowledgeConnections": [
+            "Coombs检测红细胞表面结合的抗体或补体，支持免疫性溶血。",
+            "球形红细胞可见遗传性及自身免疫性溶血，需结合Coombs鉴别。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-30",
+              "sourceSubject": "med",
+              "sourceFile": "30 27考研：内科含诊断 溶血性贫血 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 30,
+              "title": "内科含诊断 溶血性贫血 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-7afb4389ee-p004.webp",
+              "questionNumbers": [
+                86
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "Coombs检测红细胞表面结合的抗体或补体，支持免疫性溶血。",
+                "球形红细胞可见遗传性及自身免疫性溶血，需结合Coombs鉴别。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-30",
         "sourceSubject": "med",
         "sourceFile": "30 27考研：内科含诊断 溶血性贫血 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 7,
-        "pageLabel": "PDF第7页",
-        "title": "30 27考研：内科含诊断 溶血性贫血",
-        "image": "exams/sprint-exam-20261021/lecture-090.webp"
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 30,
+        "title": "内科含诊断 溶血性贫血 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/med-7afb4389ee-p004.webp",
+        "questionNumbers": [
+          86
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "Coombs检测红细胞表面结合的抗体或补体，支持免疫性溶血。",
+          "球形红细胞可见遗传性及自身免疫性溶血，需结合Coombs鉴别。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-30",
           "sourceSubject": "med",
           "sourceFile": "30 27考研：内科含诊断 溶血性贫血 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 7,
-          "pageLabel": "PDF第7页",
-          "title": "30 27考研：内科含诊断 溶血性贫血",
-          "image": "exams/sprint-exam-20261021/lecture-090.webp"
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 30,
+          "title": "内科含诊断 溶血性贫血 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-7afb4389ee-p004.webp",
+          "questionNumbers": [
+            86
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "Coombs检测红细胞表面结合的抗体或补体，支持免疫性溶血。",
+            "球形红细胞可见遗传性及自身免疫性溶血，需结合Coombs鉴别。"
+          ]
         }
       ],
       "sharedStem": "女性，30 岁。面色苍白，乏力 1 年，伴皮肤出血点 2 周。 查体： 神志清， 巩膜轻度黄染， 肝肋下未触及， 脾肋下2cm。 血常规：Hb 60g/L，RBC 1.8×1012/L，WBC 4.6×109/L，Plt 12×109/L，Ret 0.12，血涂片可见球形红细胞。骨髓穿刺细胞学检查： 红系、 巨核系明显增生， 全片见巨核细胞96 个， 未见产板型巨核细胞。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "Coombs检测红细胞表面结合的抗体或补体，支持免疫性溶血。",
+        "球形红细胞可见遗传性及自身免疫性溶血，需结合Coombs鉴别。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q087",
@@ -3060,33 +4877,109 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-30",
-          "explanation": "Evans综合征初始治疗通常以糖皮质激素控制免疫破坏；利妥昔单抗、脾切除等用于相应难治或复发情形，不先选择造血干细胞移植。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：B。\n\nEvans综合征首选糖皮质激素抑制免疫破坏，选B。A移植不是一般首选；C脾切除及D利妥昔单抗多用于难治或复发，需评估具体情况。",
+          "knowledgeConnections": [
+            "自身免疫性溶血与ITP均可对激素治疗有反应。",
+            "治疗除纠正血细胞外，还需查找SLE、淋巴增殖疾病等继发病因。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-30",
+              "sourceSubject": "med",
+              "sourceFile": "30 27考研：内科含诊断 溶血性贫血 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 30,
+              "title": "内科含诊断 溶血性贫血 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-7afb4389ee-p004.webp",
+              "questionNumbers": [
+                87
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "自身免疫性溶血与ITP均可对激素治疗有反应。"
+              ]
+            },
+            {
+              "lectureId": "lecture-30",
+              "sourceSubject": "med",
+              "sourceFile": "31 27考研：内科含诊断 出血性疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 31,
+              "title": "内科含诊断 出血性疾病 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/med-771c23cdff-p002.webp",
+              "questionNumbers": [
+                87
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "治疗除纠正血细胞外，还需查找SLE、淋巴增殖疾病等继发病因。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-30",
         "sourceSubject": "med",
         "sourceFile": "30 27考研：内科含诊断 溶血性贫血 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 7,
-        "pageLabel": "PDF第7页",
-        "title": "30 27考研：内科含诊断 溶血性贫血",
-        "image": "exams/sprint-exam-20261021/lecture-090.webp"
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 30,
+        "title": "内科含诊断 溶血性贫血 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/med-7afb4389ee-p004.webp",
+        "questionNumbers": [
+          87
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "自身免疫性溶血与ITP均可对激素治疗有反应。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-30",
           "sourceSubject": "med",
           "sourceFile": "30 27考研：内科含诊断 溶血性贫血 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 7,
-          "pageLabel": "PDF第7页",
-          "title": "30 27考研：内科含诊断 溶血性贫血",
-          "image": "exams/sprint-exam-20261021/lecture-090.webp"
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 30,
+          "title": "内科含诊断 溶血性贫血 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-7afb4389ee-p004.webp",
+          "questionNumbers": [
+            87
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "自身免疫性溶血与ITP均可对激素治疗有反应。"
+          ]
+        },
+        {
+          "lectureId": "lecture-30",
+          "sourceSubject": "med",
+          "sourceFile": "31 27考研：内科含诊断 出血性疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "lectureNumber": 31,
+          "title": "内科含诊断 出血性疾病 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/med-771c23cdff-p002.webp",
+          "questionNumbers": [
+            87
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "治疗除纠正血细胞外，还需查找SLE、淋巴增殖疾病等继发病因。"
+          ]
         }
       ],
       "sharedStem": "女性，30 岁。面色苍白，乏力 1 年，伴皮肤出血点 2 周。 查体： 神志清， 巩膜轻度黄染， 肝肋下未触及， 脾肋下2cm。 血常规：Hb 60g/L，RBC 1.8×1012/L，WBC 4.6×109/L，Plt 12×109/L，Ret 0.12，血涂片可见球形红细胞。骨髓穿刺细胞学检查： 红系、 巨核系明显增生， 全片见巨核细胞96 个， 未见产板型巨核细胞。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "自身免疫性溶血与ITP均可对激素治疗有反应。",
+        "治疗除纠正血细胞外，还需查找SLE、淋巴增殖疾病等继发病因。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q088",
@@ -3144,33 +5037,78 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-36",
-          "explanation": "FT₃、FT₄高及TSH低，伴弥漫甲状腺肿，支持Graves甲亢。一般首选甲巯咪唑抗甲状腺治疗；普萘洛尔仅控制交感症状，碘剂不用于长期单药。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：A。\n\n本例非妊娠成年男性Graves病，无甲状腺危象线索，常规抗甲状腺药首选甲巯咪唑，选A。B丙硫氧嘧啶有特定应用情境；C碘剂非长期单用；D普萘洛尔主要控制症状，不能替代抑制激素合成。",
+          "knowledgeConnections": [
+            "硫脲类抑制甲状腺过氧化物酶，减少激素合成。",
+            "治疗前后关注粒细胞减少及肝损害；β阻滞剂用于心悸手颤等。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-36",
+              "sourceSubject": "med",
+              "sourceFile": "36 27考研：内科含诊断 Graves病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 36,
+              "title": "内科含诊断 Graves病 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-5d7748c161-p004.webp",
+              "questionNumbers": [
+                88
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "硫脲类抑制甲状腺过氧化物酶，减少激素合成。",
+                "治疗前后关注粒细胞减少及肝损害；β阻滞剂用于心悸手颤等。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-36",
         "sourceSubject": "med",
         "sourceFile": "36 27考研：内科含诊断 Graves病 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 8,
-        "pageLabel": "PDF第8页",
-        "title": "36 27考研：内科含诊断 Graves病",
-        "image": "exams/sprint-exam-20261021/lecture-091.webp"
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 36,
+        "title": "内科含诊断 Graves病 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/med-5d7748c161-p004.webp",
+        "questionNumbers": [
+          88
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "硫脲类抑制甲状腺过氧化物酶，减少激素合成。",
+          "治疗前后关注粒细胞减少及肝损害；β阻滞剂用于心悸手颤等。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-36",
           "sourceSubject": "med",
           "sourceFile": "36 27考研：内科含诊断 Graves病 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 8,
-          "pageLabel": "PDF第8页",
-          "title": "36 27考研：内科含诊断 Graves病",
-          "image": "exams/sprint-exam-20261021/lecture-091.webp"
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 36,
+          "title": "内科含诊断 Graves病 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-5d7748c161-p004.webp",
+          "questionNumbers": [
+            88
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "硫脲类抑制甲状腺过氧化物酶，减少激素合成。",
+            "治疗前后关注粒细胞减少及肝损害；β阻滞剂用于心悸手颤等。"
+          ]
         }
       ],
       "sharedStem": "男性，35 岁。乏力，心悸一年余，近 2 个月症状加重，伴消瘦、手颤。查体：甲状腺弥漫性肿大，心率 126 次/分，心律整。实验室检查提示 FT3、FT4 显著增高，TSH 降低。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "硫脲类抑制甲状腺过氧化物酶，减少激素合成。",
+        "治疗前后关注粒细胞减少及肝损害；β阻滞剂用于心悸手颤等。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q089",
@@ -3228,33 +5166,78 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-36",
-          "explanation": "甲状腺刺激免疫球蛋白反映致病性TSH受体抗体活性，持续升高提示停药复发风险；甲功恢复正常不等于自身免疫病程结束。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：D。\n\n甲状腺刺激免疫球蛋白反映刺激性TSH受体抗体活性，持续阳性提示停药后复发风险，选D。A甲功主要评价当前功能；B摄碘率非最合适复发预测；CTgAb与刺激性抗体作用不同。",
+          "knowledgeConnections": [
+            "Graves病的致病抗体是TSH受体刺激性抗体。",
+            "停药评估还需综合疗程、甲状腺大小、病情及甲功，不由单一数值机械决定。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-36",
+              "sourceSubject": "med",
+              "sourceFile": "36 27考研：内科含诊断 Graves病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 36,
+              "title": "内科含诊断 Graves病 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-5d7748c161-p004.webp",
+              "questionNumbers": [
+                89
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "Graves病的致病抗体是TSH受体刺激性抗体。",
+                "停药评估还需综合疗程、甲状腺大小、病情及甲功，不由单一数值机械决定。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-36",
         "sourceSubject": "med",
         "sourceFile": "36 27考研：内科含诊断 Graves病 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 8,
-        "pageLabel": "PDF第8页",
-        "title": "36 27考研：内科含诊断 Graves病",
-        "image": "exams/sprint-exam-20261021/lecture-091.webp"
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 36,
+        "title": "内科含诊断 Graves病 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/med-5d7748c161-p004.webp",
+        "questionNumbers": [
+          89
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "Graves病的致病抗体是TSH受体刺激性抗体。",
+          "停药评估还需综合疗程、甲状腺大小、病情及甲功，不由单一数值机械决定。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-36",
           "sourceSubject": "med",
           "sourceFile": "36 27考研：内科含诊断 Graves病 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 8,
-          "pageLabel": "PDF第8页",
-          "title": "36 27考研：内科含诊断 Graves病",
-          "image": "exams/sprint-exam-20261021/lecture-091.webp"
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 36,
+          "title": "内科含诊断 Graves病 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-5d7748c161-p004.webp",
+          "questionNumbers": [
+            89
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "Graves病的致病抗体是TSH受体刺激性抗体。",
+            "停药评估还需综合疗程、甲状腺大小、病情及甲功，不由单一数值机械决定。"
+          ]
         }
       ],
       "sharedStem": "男性，35 岁。乏力，心悸一年余，近 2 个月症状加重，伴消瘦、手颤。查体：甲状腺弥漫性肿大，心率 126 次/分，心律整。实验室检查提示 FT3、FT4 显著增高，TSH 降低。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "Graves病的致病抗体是TSH受体刺激性抗体。",
+        "停药评估还需综合疗程、甲状腺大小、病情及甲功，不由单一数值机械决定。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q090",
@@ -3312,33 +5295,78 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-36",
-          "explanation": "甲亢患者突发下肢软瘫，须考虑甲亢相关低钾性周期性瘫痪，首查血电解质，尤其血钾，而非先查颅脑CT或基础代谢率。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C。\n\n甲亢男性突发下肢软瘫，优先考虑低钾性周期性麻痹，先测血电解质，选C。ACT针对中枢病变；B肌电图不能最快确认低钾；D基础代谢率不能解释和处理急性瘫痪。",
+          "knowledgeConnections": [
+            "甲亢可促钾进入细胞，引起周期性麻痹。",
+            "补钾及监测需防反跳高钾，并同时控制甲亢。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-36",
+              "sourceSubject": "med",
+              "sourceFile": "36 27考研：内科含诊断 Graves病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 36,
+              "title": "内科含诊断 Graves病 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/med-5d7748c161-p002.webp",
+              "questionNumbers": [
+                90
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "甲亢可促钾进入细胞，引起周期性麻痹。",
+                "补钾及监测需防反跳高钾，并同时控制甲亢。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-36",
         "sourceSubject": "med",
         "sourceFile": "36 27考研：内科含诊断 Graves病 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 8,
-        "pageLabel": "PDF第8页",
-        "title": "36 27考研：内科含诊断 Graves病",
-        "image": "exams/sprint-exam-20261021/lecture-091.webp"
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "lectureNumber": 36,
+        "title": "内科含诊断 Graves病 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/med-5d7748c161-p002.webp",
+        "questionNumbers": [
+          90
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "甲亢可促钾进入细胞，引起周期性麻痹。",
+          "补钾及监测需防反跳高钾，并同时控制甲亢。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-36",
           "sourceSubject": "med",
           "sourceFile": "36 27考研：内科含诊断 Graves病 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 8,
-          "pageLabel": "PDF第8页",
-          "title": "36 27考研：内科含诊断 Graves病",
-          "image": "exams/sprint-exam-20261021/lecture-091.webp"
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "lectureNumber": 36,
+          "title": "内科含诊断 Graves病 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/med-5d7748c161-p002.webp",
+          "questionNumbers": [
+            90
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "甲亢可促钾进入细胞，引起周期性麻痹。",
+            "补钾及监测需防反跳高钾，并同时控制甲亢。"
+          ]
         }
       ],
       "sharedStem": "男性，35 岁。乏力，心悸一年余，近 2 个月症状加重，伴消瘦、手颤。查体：甲状腺弥漫性肿大，心率 126 次/分，心律整。实验室检查提示 FT3、FT4 显著增高，TSH 降低。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "甲亢可促钾进入细胞，引起周期性麻痹。",
+        "补钾及监测需防反跳高钾，并同时控制甲亢。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q091",
@@ -3396,9 +5424,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-44",
-          "explanation": "A：不选：白塞病虽常有口腔溃疡，但典型组合还有生殖器溃疡、眼部病变等，不能解释这里的补体下降、三系减少和明显肾损害组合。\nB：选：年轻女性、发热皮疹、口腔溃疡、关节炎、雷诺现象、血细胞减少、低补体和蛋白尿血尿，整体最符合SLE。\nC：不选：SSA也可见于SLE；本题未以口干、眼干、猖獗龋齿等外分泌腺损伤为主，不能只凭SSA作干燥综合征诊断。\nD：不选：类风湿关节炎可有对称小关节炎，但无法更好统合明显皮疹、低补体、三系减少和肾炎等线索。",
+          "explanation": "正确答案：B。\n\n年轻女性皮疹、口腔溃疡、雷诺现象、多关节炎、血细胞减少、低补体及肾损害，符合SLE，选B。A贝赫切特病重反复口生殖器溃疡及眼炎；C干燥综合征重口眼干；DRA难完整解释低补体与明显肾炎。",
           "knowledgeConnections": [
-            "疾病诊断不等于抗体配对。SSA并非干燥综合征专属；SLE相关抗体中，ANA敏感但不特异，抗Sm特异性强，抗dsDNA常与活动和肾损害有关。"
+            "SLE为多系统自身免疫病，可累及皮肤、关节、肾及血液系统。",
+            "抗SSA不是SLE独有标志，不能脱离临床组合只凭单一抗体诊断。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-44",
+              "sourceSubject": "med",
+              "sourceFile": "44 27考研：内科含诊断 SLE 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 44,
+              "title": "内科含诊断 SLE · 第1页",
+              "image": "exams/reviewed-mocks-20261104/med-11af1edb66-p001.webp",
+              "questionNumbers": [
+                91
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "SLE为多系统自身免疫病，可累及皮肤、关节、肾及血液系统。",
+                "抗SSA不是SLE独有标志，不能脱离临床组合只凭单一抗体诊断。"
+              ]
+            }
           ]
         }
       ],
@@ -3408,8 +5457,17 @@
         "sourceFile": "44 27考研：内科含诊断 SLE 核心-真题-串联-导图 天天师兄.pdf",
         "page": 1,
         "pageLabel": "PDF第1页",
-        "title": "内科第44讲《内科含诊断 SLE》",
-        "image": "exams/sprint-exam-20261021/lecture-092.webp"
+        "lectureNumber": 44,
+        "title": "内科含诊断 SLE · 第1页",
+        "image": "exams/reviewed-mocks-20261104/med-11af1edb66-p001.webp",
+        "questionNumbers": [
+          91
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "SLE为多系统自身免疫病，可累及皮肤、关节、肾及血液系统。",
+          "抗SSA不是SLE独有标志，不能脱离临床组合只凭单一抗体诊断。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -3418,22 +5476,26 @@
           "sourceFile": "44 27考研：内科含诊断 SLE 核心-真题-串联-导图 天天师兄.pdf",
           "page": 1,
           "pageLabel": "PDF第1页",
-          "title": "内科第44讲《内科含诊断 SLE》",
-          "image": "exams/sprint-exam-20261021/lecture-092.webp"
-        },
-        {
-          "lectureId": "lecture-44",
-          "sourceSubject": "med",
-          "sourceFile": "44 27考研：内科含诊断 SLE 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
-          "title": "内科第44讲《内科含诊断 SLE》",
-          "image": "exams/sprint-exam-20261021/lecture-093.webp"
+          "lectureNumber": 44,
+          "title": "内科含诊断 SLE · 第1页",
+          "image": "exams/reviewed-mocks-20261104/med-11af1edb66-p001.webp",
+          "questionNumbers": [
+            91
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "SLE为多系统自身免疫病，可累及皮肤、关节、肾及血液系统。",
+            "抗SSA不是SLE独有标志，不能脱离临床组合只凭单一抗体诊断。"
+          ]
         }
       ],
       "sharedStem": "女性，30 岁。 发热， 面部皮疹，口腔溃疡 4 个月， 双手近端指间关节压痛，肿胀 2 个月， 双手指遇冷变白、变紫 2 周。查体：T 38.2 度，BP 160/100mmHg， 腹部移动性浊音(+)， 双下肢中度凹陷性水肿。 实验室检查：Hb 96g/L， WBC 3.1×109/L，Plt 67×109/L。尿沉渣镜检 RBC 满视野，WBC 8-10/HP，尿蛋白定量 4.2g/d。抗 SSA 抗体(+)，血 C3 下降。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "SLE为多系统自身免疫病，可累及皮肤、关节、肾及血液系统。",
+        "抗SSA不是SLE独有标志，不能脱离临床组合只凭单一抗体诊断。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q092",
@@ -3491,33 +5553,78 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-44",
-          "explanation": "SLE出现间接胆红素升高、尿胆原增加且尿胆红素阴性，提示溶血。严重活动性自身免疫性溶血需大剂量糖皮质激素冲击，不能只输血或仅用小剂量激素。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C。\n\nSLE患者出现贫血、间接胆红素及尿胆原升高而尿胆红素阴性，提示急性自身免疫性溶血；重症活动需大剂量甲泼尼龙冲击，原卷选C。A输血不能替代免疫治疗；B小剂量激素不足以控制此急性重症；D环磷酰胺不是本问快速首选。",
+          "knowledgeConnections": [
+            "溶血导致未结合胆红素升高，不从尿排出，尿胆原可增多。",
+            "SLE重症血液系统受累可需激素冲击，随后按反应及器官受累调整免疫治疗。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-44",
+              "sourceSubject": "med",
+              "sourceFile": "44 27考研：内科含诊断 SLE 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 44,
+              "title": "内科含诊断 SLE · 第2页",
+              "image": "exams/reviewed-mocks-20261104/med-11af1edb66-p002.webp",
+              "questionNumbers": [
+                92
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "溶血导致未结合胆红素升高，不从尿排出，尿胆原可增多。",
+                "SLE重症血液系统受累可需激素冲击，随后按反应及器官受累调整免疫治疗。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-44",
         "sourceSubject": "med",
         "sourceFile": "44 27考研：内科含诊断 SLE 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 4,
-        "pageLabel": "PDF第4页",
-        "title": "44 27考研：内科含诊断 SLE",
-        "image": "exams/sprint-exam-20261021/lecture-094.webp"
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "lectureNumber": 44,
+        "title": "内科含诊断 SLE · 第2页",
+        "image": "exams/reviewed-mocks-20261104/med-11af1edb66-p002.webp",
+        "questionNumbers": [
+          92
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "溶血导致未结合胆红素升高，不从尿排出，尿胆原可增多。",
+          "SLE重症血液系统受累可需激素冲击，随后按反应及器官受累调整免疫治疗。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-44",
           "sourceSubject": "med",
           "sourceFile": "44 27考研：内科含诊断 SLE 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 4,
-          "pageLabel": "PDF第4页",
-          "title": "44 27考研：内科含诊断 SLE",
-          "image": "exams/sprint-exam-20261021/lecture-094.webp"
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "lectureNumber": 44,
+          "title": "内科含诊断 SLE · 第2页",
+          "image": "exams/reviewed-mocks-20261104/med-11af1edb66-p002.webp",
+          "questionNumbers": [
+            92
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "溶血导致未结合胆红素升高，不从尿排出，尿胆原可增多。",
+            "SLE重症血液系统受累可需激素冲击，随后按反应及器官受累调整免疫治疗。"
+          ]
         }
       ],
       "sharedStem": "女性，30 岁。 发热， 面部皮疹，口腔溃疡 4 个月， 双手近端指间关节压痛，肿胀 2 个月， 双手指遇冷变白、变紫 2 周。查体：T 38.2 度，BP 160/100mmHg， 腹部移动性浊音(+)， 双下肢中度凹陷性水肿。 实验室检查：Hb 96g/L， WBC 3.1×109/L，Plt 67×109/L。尿沉渣镜检 RBC 满视野，WBC 8-10/HP，尿蛋白定量 4.2g/d。抗 SSA 抗体(+)，血 C3 下降。",
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "溶血导致未结合胆红素升高，不从尿排出，尿胆原可增多。",
+        "SLE重症血液系统受累可需激素冲击，随后按反应及器官受累调整免疫治疗。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q108",
@@ -3575,9 +5682,10 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-99",
-          "explanation": "A：选：医疗保密是传统医德长期延续的核心范畴，保护患者隐私和秘密，形成患者如实求助、医患信任的基础。\nB：不选：医疗公正关注平等对待、资源分配等；虽重要，不是本题这组历史性表述所指。\nC：不选：医疗权利关注患者及医务人员的正当权益，不是本题固定搭配。\nD：不选：医疗义务是医务人员应承担的责任，概念更宽，不能代替“医疗保密”的专门历史考点。\n核验：未找到Ray本人的医学人文专门讲义。本题附WMA官方历史准则原页作为原文补充图，明确标为非个人讲义。",
+          "explanation": "正确答案：A。\n\n医疗保密具有悠久传统，是最古老且持续具有生命力的医德范畴，选A。BCD分别涉及公正、权利及义务，但不是本题所问范畴。",
           "knowledgeConnections": [
-            "“最古老”这一教材性归纳与“现代规范仍要求保密”分开标注。附图可核对保密义务的延续性，不声称官方准则原页直接写了这道题的答案措辞。"
+            "保密涵盖患者隐私、病情及诊疗资料等。",
+            "保密义务有公共利益等法定边界，不等于无条件对一切信息隐瞒。"
           ]
         }
       ],
@@ -3607,7 +5715,11 @@
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "保密涵盖患者隐私、病情及诊疗资料等。",
+        "保密义务有公共利益等法定边界，不等于无条件对一切信息隐瞒。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q109",
@@ -3665,8 +5777,11 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-99",
-          "explanation": "保护患者隐私同时应尽量降低第三者受感染风险，优先劝说患者向伴侣如实告知并就诊。直接自行泄露和无条件同意隐瞒均不妥。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：A。\n\n应先劝患者如实告知伴侣并说明传播风险、检测与治疗需要，选A。B直接请示疾控不是本题首要伦理沟通；C未经程序直接泄露不如劝告本人妥当；D完全同意隐瞒忽视伴侣健康及疾病传播风险。",
+          "knowledgeConnections": [
+            "性传播疾病应兼顾患者保密、他人保护及依法报告要求。",
+            "先充分沟通并促进患者自主告知，与未经同意直接泄露有区别。"
+          ]
         }
       ],
       "lectureEvidence": {
@@ -3695,7 +5810,11 @@
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "性传播疾病应兼顾患者保密、他人保护及依法报告要求。",
+        "先充分沟通并促进患者自主告知，与未经同意直接泄露有区别。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q110",
@@ -3753,9 +5872,10 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-99",
-          "explanation": "A：不选：专业上认为可能有益，并不等于已取得患者对额外卵巢切除的同意；也不能仅凭联系不到家属自行扩大。\nB：不选作最佳：本题最直接违反的是知情同意，而非以较笼统的患者至上原则替代具体义务。\nC：选：额外切除左侧卵巢涉及手术范围和身体自主决定，应取得相应明确同意；题目没有给出可适用紧急例外的条件。\nD：不选作最佳：最优化比较治疗的利益、风险与代价；本题首要问题是未经授权的额外切除。\n核验：本题附法院公开文本中的《民法典》第1219条原文图；紧急例外条件另见所附国家卫健委条例链接。这些是官方原文证据，不冒充个人讲义。",
+          "explanation": "正确答案：C。\n\n非紧急、未经授权的扩大手术侵犯知情同意权，术后恢复良好不使程序自动正当，选C。A专业判断不能代替授权；BD不是本例最直接违反的原则。",
           "knowledgeConnections": [
-            "知情同意是事前的过程义务，不因术后恢复好自动补齐。紧急救治例外须满足紧急等法定条件和程序，不能把任何术中发现都当紧急。"
+            "知情同意应包括拟行操作、替代方案、主要风险及范围。",
+            "术中紧急救命且无法取得意见的例外，与可择期处理的偶然发现不同。"
           ]
         }
       ],
@@ -3785,7 +5905,11 @@
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "知情同意应包括拟行操作、替代方案、主要风险及范围。",
+        "术中紧急救命且无法取得意见的例外，与可择期处理的偶然发现不同。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q111",
@@ -3843,8 +5967,11 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-99",
-          "explanation": "急救不能以经济能力决定是否救治。按本卷最佳项C迅速实施抢救；必要抢救不应因等待收费、社会救助或手续拖延。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C。\n\n急救应积极抢救危重患者，不能仅因无力支付而放弃；本卷选C所表达的及时实施抢救。A把决定推给民政会延误；B放弃、D仅限低费用支持均违背救死扶伤。紧急救治义务不能概括为必须等家属及领导均同意才开始。",
+          "knowledgeConnections": [
+            "急救伦理首先保障生命，费用问题应通过医院及社会支持机制解决。",
+            "不能用经济能力取代医疗必要性作为是否救治的标准。"
+          ]
         }
       ],
       "lectureEvidence": {
@@ -3864,7 +5991,11 @@
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "急救伦理首先保障生命，费用问题应通过医院及社会支持机制解决。",
+        "不能用经济能力取代医疗必要性作为是否救治的标准。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q112",
@@ -3922,8 +6053,11 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-99",
-          "explanation": "对已有标准降压治疗需要的高血压患者，长期以安慰剂替代有效治疗增加风险；按人头付费招募还造成利益冲突，故选A。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：A。\n\n高血压中危患者已有有效治疗，将其长期置于空白安慰剂对照可能使其失去标准治疗；按招募人数付酬也带来利益冲突，选A。B错误地肯定设计；C科学性不豁免伦理；D不能以研究价值替代合理风险和标准治疗保障。",
+          "knowledgeConnections": [
+            "临床研究需有科学依据、伦理审查、知情同意及合理风险收益。",
+            "研究者或招募者经济利益可能影响自愿招募与风险说明。"
+          ]
         }
       ],
       "lectureEvidence": {
@@ -3943,7 +6077,11 @@
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "临床研究需有科学依据、伦理审查、知情同意及合理风险收益。",
+        "研究者或招募者经济利益可能影响自愿招募与风险说明。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q113",
@@ -4001,8 +6139,11 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-99",
-          "explanation": "最优化需综合疗效、风险、痛苦与资源代价，选择最小合理代价取得最大医疗效果；只追求最便宜、无痛或零风险均不全面。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：B。\n\n最优化是在具体条件下以较小代价取得较大健康获益，选B。A不存在普遍零风险治疗；C仅省钱忽视疗效；D仅保守、无痛也不必然使总体获益最大。",
+          "knowledgeConnections": [
+            "最优化综合疗效、风险、痛苦、费用与患者价值。",
+            "费用最低和风险最低均不能脱离治疗效果单独判断。"
+          ]
         }
       ],
       "lectureEvidence": {
@@ -4022,7 +6163,11 @@
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "最优化综合疗效、风险、痛苦、费用与患者价值。",
+        "费用最低和风险最低均不能脱离治疗效果单独判断。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q114",
@@ -4080,8 +6225,11 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-99",
-          "explanation": "此题按试卷所依据的医师考核规定：暂停执业并培训后再次考核仍不合格，予注销注册。保留历史题的规定语境，不与个案现行执业处理混用。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C。\n\n暂停执业培训期满后再次考核仍不合格，按本卷所依条文应注销注册，选C。A重新、B暂缓和D变更注册对应其他管理情形。",
+          "knowledgeConnections": [
+            "定期考核不合格先暂停、培训及再考核，仍不合格的处理更进一步。",
+            "注册变更涉及执业地点、类别或范围等，与注销不同。"
+          ]
         }
       ],
       "lectureEvidence": {
@@ -4101,7 +6249,11 @@
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "定期考核不合格先暂停、培训及再考核，仍不合格的处理更进一步。",
+        "注册变更涉及执业地点、类别或范围等，与注销不同。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q115",
@@ -4159,9 +6311,10 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-99",
-          "explanation": "A：不选：6小时常见于抢救急危患者未及时书写病历后的补记时限，不是本题重大医疗过失报告时限。\nB：选：《医疗事故处理条例》第14条要求，导致患者死亡或可能为二级以上等重大医疗过失，医疗机构应在12小时内向所在地卫生行政部门报告。\nC：不选：24小时不是该条规定的时限。\nD：不选：48小时不是本题报告时限；医疗事故争议中常与死亡后尸检等其他程序联系，但条件完全不同。\n核验：附政府公开《医疗事故处理条例》原文第14条图，替代未找到的个人医学人文讲义；条文与题干逐项对应。",
+          "explanation": "正确答案：B。\n\n死亡或可能二级以上医疗事故等重大医疗过失行为，应在12小时内向卫生行政部门报告，选B。6、24、48小时均非本条时限。",
           "knowledgeConnections": [
-            "发生或发现后科室/机构内部报告要求“立即”；达到本题重大情形，机构对外报告在12小时内。把内部立即与外部12小时分开。"
+            "重大医疗过失报告时限与抢救病历补记6小时不同。",
+            "报告不等于最终事故鉴定，发现重大过失风险即应履行报告义务。"
           ]
         }
       ],
@@ -4191,7 +6344,11 @@
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "重大医疗过失报告时限与抢救病历补记6小时不同。",
+        "报告不等于最终事故鉴定，发现重大过失风险即应履行报告义务。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q154",
@@ -4251,9 +6408,46 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-10",
-          "explanation": "A：错误，应选：意识模糊、呼吸37次/分、矛盾呼吸提示严重呼吸功增加及气道保护问题，不能把常规无创正压通气当作此时合适方案，应评估有创气道与通气。\nB：错误，应选：氧合指数75/0.5＝150，存在明显氧合障碍，不能机械套用“慢阻肺低浓度给氧”；此时应保证充分氧合。\nC：错误，应选：这是非心源性肺水肿情境，且血压98/62偏低；“大量利尿”可能损害灌注，不等于合理的保守液体策略。\nD：正确，不选：发热和肺部感染表现支持经验性抗感染，并根据培养、病情进一步调整。\n核验：按命题意图，最可能为肺部感染诱发ARDS，导致急性低氧性呼吸衰竭，通常呈Ⅰ型模式。题干未给PaCO2，不能严格证实Ⅰ型或排除合并高碳酸血症。PaO2 75是在FiO2 0.5吸氧下测得，P/F=150，不能套用呼吸空气时PaO2<60的界值排除呼衰。P/F数值在传统中度ARDS范围，但缺少PEEP/CPAP等条件，不能只靠比值完成严格确诊及分级。感染为可能诱因，ARDS为肺损伤综合征，呼衰为功能后果。意识模糊、矛盾呼吸提示严重呼吸窘迫，不能仅据意识改变认定CO2潴留。",
+          "explanation": "正确答案：ABC。\n\nPaO2/FiO2=75/0.5=150mmHg，且意识模糊、呼吸急促及矛盾呼吸提示重症氧合与通气支持需求。A无创通气不能可靠保护气道；B降低吸氧浓度加重低氧；C不分循环状况大量利尿可损害灌注，故选ABC。D感染为可能诱因，经验性抗菌药合理。",
           "knowledgeConnections": [
-            "题干问错误治疗，因此ABC都应选。P/F＝150提示中度氧合障碍范围，但严格ARDS分级还需满足包括呼气末正压等诊断条件，不能只靠一个比值完成全部定义。"
+            "ARDS的氧合指数需用PaO2除以吸氧分数；本例为150而不是75。",
+            "肺保护性有创通气、合理PEEP及保守液体策略应建立在气道和灌注评估基础上。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-10",
+              "sourceSubject": "med",
+              "sourceFile": "10 27考研：内科 ARDS 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 10,
+              "title": "内科 ARDS · 第2页",
+              "image": "exams/reviewed-mocks-20261104/med-dd97b5624a-p002.webp",
+              "questionNumbers": [
+                154
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "ARDS的氧合指数需用PaO2除以吸氧分数；本例为150而不是75。"
+              ]
+            },
+            {
+              "lectureId": "lecture-10",
+              "sourceSubject": "med",
+              "sourceFile": "10 27考研：内科 ARDS 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 10,
+              "title": "内科 ARDS · 第3页",
+              "image": "exams/reviewed-mocks-20261104/med-dd97b5624a-p003.webp",
+              "questionNumbers": [
+                154
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "肺保护性有创通气、合理PEEP及保守液体策略应建立在气道和灌注评估基础上。"
+              ]
+            }
           ]
         }
       ],
@@ -4263,8 +6457,16 @@
         "sourceFile": "10 27考研：内科 ARDS 核心-真题-串联-导图 天天师兄.pdf",
         "page": 2,
         "pageLabel": "PDF第2页",
-        "title": "内科第10讲《内科 ARDS》",
-        "image": "exams/sprint-exam-20261021/lecture-135.webp"
+        "lectureNumber": 10,
+        "title": "内科 ARDS · 第2页",
+        "image": "exams/reviewed-mocks-20261104/med-dd97b5624a-p002.webp",
+        "questionNumbers": [
+          154
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "ARDS的氧合指数需用PaO2除以吸氧分数；本例为150而不是75。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -4273,8 +6475,16 @@
           "sourceFile": "10 27考研：内科 ARDS 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
-          "title": "内科第10讲《内科 ARDS》",
-          "image": "exams/sprint-exam-20261021/lecture-135.webp"
+          "lectureNumber": 10,
+          "title": "内科 ARDS · 第2页",
+          "image": "exams/reviewed-mocks-20261104/med-dd97b5624a-p002.webp",
+          "questionNumbers": [
+            154
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "ARDS的氧合指数需用PaO2除以吸氧分数；本例为150而不是75。"
+          ]
         },
         {
           "lectureId": "lecture-10",
@@ -4282,12 +6492,24 @@
           "sourceFile": "10 27考研：内科 ARDS 核心-真题-串联-导图 天天师兄.pdf",
           "page": 3,
           "pageLabel": "PDF第3页",
-          "title": "内科第10讲《内科 ARDS》",
-          "image": "exams/sprint-exam-20261021/lecture-136.webp"
+          "lectureNumber": 10,
+          "title": "内科 ARDS · 第3页",
+          "image": "exams/reviewed-mocks-20261104/med-dd97b5624a-p003.webp",
+          "questionNumbers": [
+            154
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "肺保护性有创通气、合理PEEP及保守液体策略应建立在气道和灌注评估基础上。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "ARDS的氧合指数需用PaO2除以吸氧分数；本例为150而不是75。",
+        "肺保护性有创通气、合理PEEP及保守液体策略应建立在气道和灌注评估基础上。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q155",
@@ -4347,12 +6569,35 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-55",
-          "explanation": "对符合适应证的射血分数降低心衰，卡维地洛、SGLT2抑制剂恩格列净及ARNI具有预后获益；地高辛可改善症状、减少住院，但未证实降低总体死亡率。",
-          "knowledgeConnections": [],
+          "explanation": "正确答案：ABC。\n\n卡维地洛、恩格列净及ARNI分别代表循证β受体阻滞剂、SGLT2抑制剂和血管紧张素受体脑啡肽酶抑制剂，可降低适宜慢性心衰人群死亡或恶化风险，选ABC。D地高辛可改善症状及减少住院，未证明同等降低死亡率。",
+          "knowledgeConnections": [
+            "慢性射血分数降低型心衰基础药还包括醛固酮受体拮抗剂。",
+            "需区分改善症状、减少住院与降低死亡率这三类终点。"
+          ],
           "explanationReferences": [
             {
               "label": "AHA/ACC/HFSA心衰指南",
               "url": "https://professional.heart.org/en/science-news/2022-guideline-for-the-management-of-heart-failure"
+            }
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-55",
+              "sourceSubject": "med",
+              "sourceFile": "55 27考研：内科含诊断 收缩性心衰 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 7,
+              "pageLabel": "PDF第7页",
+              "lectureNumber": 55,
+              "title": "内科含诊断 收缩性心衰 · 第7页",
+              "image": "exams/reviewed-mocks-20261104/med-355888886a-p007.webp",
+              "questionNumbers": [
+                155
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "慢性射血分数降低型心衰基础药还包括醛固酮受体拮抗剂。",
+                "需区分改善症状、减少住院与降低死亡率这三类终点。"
+              ]
             }
           ]
         }
@@ -4361,24 +6606,46 @@
         "lectureId": "lecture-55",
         "sourceSubject": "med",
         "sourceFile": "55 27考研：内科含诊断 收缩性心衰 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 6,
-        "pageLabel": "PDF第6页",
-        "title": "55 27考研：内科含诊断 收缩性心衰",
-        "image": "exams/sprint-exam-20261021/lecture-137.webp"
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "lectureNumber": 55,
+        "title": "内科含诊断 收缩性心衰 · 第7页",
+        "image": "exams/reviewed-mocks-20261104/med-355888886a-p007.webp",
+        "questionNumbers": [
+          155
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "慢性射血分数降低型心衰基础药还包括醛固酮受体拮抗剂。",
+          "需区分改善症状、减少住院与降低死亡率这三类终点。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-55",
           "sourceSubject": "med",
           "sourceFile": "55 27考研：内科含诊断 收缩性心衰 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 6,
-          "pageLabel": "PDF第6页",
-          "title": "55 27考研：内科含诊断 收缩性心衰",
-          "image": "exams/sprint-exam-20261021/lecture-137.webp"
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "lectureNumber": 55,
+          "title": "内科含诊断 收缩性心衰 · 第7页",
+          "image": "exams/reviewed-mocks-20261104/med-355888886a-p007.webp",
+          "questionNumbers": [
+            155
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "慢性射血分数降低型心衰基础药还包括醛固酮受体拮抗剂。",
+            "需区分改善症状、减少住院与降低死亡率这三类终点。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "慢性射血分数降低型心衰基础药还包括醛固酮受体拮抗剂。",
+        "需区分改善症状、减少住院与降低死亡率这三类终点。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q156",
@@ -4439,9 +6706,29 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-22",
-          "explanation": "A：选：门静脉高压使腹腔内脏血管床静水压增高，促进液体外移、减少回吸收，是腹水形成的重要直接机制。\nB：选：肝合成白蛋白减少，血浆胶体渗透压下降，使液体更易进入组织及腹腔。\nC：选：有效动脉循环容量不足激活RAAS等保钠保水机制，肾血流和GFR可下降，进一步促使水钠潴留。\nD：选：肝窦压力增加使肝淋巴生成增多，超过引流能力后可经肝表面漏入腹腔。",
+          "explanation": "正确答案：ABCD。\n\n肝硬化腹水涉及门静脉及肝窦压力高、白蛋白低及有效循环不足继发RAAS激活，四项均符合，选ABCD。A静水压高减少回吸收；B胶体渗透压低促进外渗；C肾血流和滤过下降促钠水潴留；D肝淋巴生成增多超过回流能力。",
           "knowledgeConnections": [
-            "用“静水压↑、胶渗压↓、淋巴↑、有效循环量↓后肾保钠水”四个环节串联，既包含局部驱动力，也包含全身代偿恶性循环。"
+            "腹水并非只由低白蛋白一种机制形成。",
+            "内脏血管扩张造成有效动脉血容量不足，可与全身体液过多同时存在。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-22",
+              "sourceSubject": "med",
+              "sourceFile": "22 27考研：内科含诊断 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 22,
+              "title": "内科含诊断 肝硬化 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-3de33c998e-p004.webp",
+              "questionNumbers": [
+                156
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "腹水形成与门静脉压力高、低白蛋白、有效循环减少、RAAS激活及肝淋巴生成增多有关。"
+              ]
+            }
           ]
         }
       ],
@@ -4451,8 +6738,16 @@
         "sourceFile": "22 27考研：内科含诊断 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
         "page": 4,
         "pageLabel": "PDF第4页",
-        "title": "内科第22讲《内科含诊断 肝硬化》",
-        "image": "exams/sprint-exam-20261021/lecture-046.webp"
+        "lectureNumber": 22,
+        "title": "内科含诊断 肝硬化 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/med-3de33c998e-p004.webp",
+        "questionNumbers": [
+          156
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "腹水形成与门静脉压力高、低白蛋白、有效循环减少、RAAS激活及肝淋巴生成增多有关。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -4461,12 +6756,24 @@
           "sourceFile": "22 27考研：内科含诊断 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
           "page": 4,
           "pageLabel": "PDF第4页",
-          "title": "内科第22讲《内科含诊断 肝硬化》",
-          "image": "exams/sprint-exam-20261021/lecture-046.webp"
+          "lectureNumber": 22,
+          "title": "内科含诊断 肝硬化 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-3de33c998e-p004.webp",
+          "questionNumbers": [
+            156
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "腹水形成与门静脉压力高、低白蛋白、有效循环减少、RAAS激活及肝淋巴生成增多有关。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "腹水并非只由低白蛋白一种机制形成。",
+        "内脏血管扩张造成有效动脉血容量不足，可与全身体液过多同时存在。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q157",
@@ -4526,9 +6833,30 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-25",
-          "explanation": "A：按本卷应选：氧氟沙星为氟喹诺酮类，妊娠期通常避免常规使用，属于本题“不适合”项。\nB：按本卷应选：庆大霉素属氨基糖苷类，涉及胎儿耳毒性等风险，教材考试通常列入慎用/避免项；不能据此说临床任何情况下都绝对禁用。\nC：按本卷应选：阿奇霉素在妊娠期某些感染中可以使用，但不是通常大肠埃希菌等引起的急性肾盂肾炎的常规有效方案；本题重点是感染适配性而非宣称它致畸。\nD：按本卷不选：氨苄西林属于β-内酰胺类，孕期安全性基础较好。但是否有效仍要看药敏，不能记成可无条件单药经验治疗所有妊娠肾盂肾炎。\n核验：教材计分口径ABC。ACOG指南可在住院、具体病原和监测条件下使用含庆大霉素方案；因此B不应外推成绝对禁忌。氨苄西林也须考虑常见大肠埃希菌耐药，不能照选项自行用药。",
+          "explanation": "正确答案：ABC。\n\n妊娠期肾盂肾炎按本卷选ABC不适合：氧氟沙星有胎儿软骨等风险，庆大霉素有耳肾毒性，阿奇霉素并非常见尿路革兰阴性菌的适宜经验用药。D氨苄西林属妊娠可用β内酰胺类之一，但仍须根据培养药敏及耐药情况选择。",
           "knowledgeConnections": [
-            "用两道筛子：母胎安全性、病原与肾组织治疗适配性。阿奇霉素可用于妊娠衣原体感染，但由此不能推出它适合大肠埃希菌肾盂肾炎。"
+            "妊娠尿路感染选择药物同时考虑母胎安全与尿路病原覆盖。",
+            "“妊娠可用”不等于对本次尿路感染经验治疗一定有效。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-25",
+              "sourceSubject": "med",
+              "sourceFile": "25 27考研：内科 尿路感染 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 25,
+              "title": "内科 尿路感染 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/med-ab1ac7554d-p002.webp",
+              "questionNumbers": [
+                157
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "妊娠尿路感染选择药物同时考虑母胎安全与尿路病原覆盖。",
+                "“妊娠可用”不等于对本次尿路感染经验治疗一定有效。"
+              ]
+            }
           ]
         }
       ],
@@ -4536,33 +6864,46 @@
         "lectureId": "lecture-25",
         "sourceSubject": "med",
         "sourceFile": "25 27考研：内科 尿路感染 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 1,
-        "pageLabel": "PDF第1页",
-        "title": "内科第25讲《内科 尿路感染》",
-        "image": "exams/sprint-exam-20261021/lecture-138.webp"
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "lectureNumber": 25,
+        "title": "内科 尿路感染 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/med-ab1ac7554d-p002.webp",
+        "questionNumbers": [
+          157
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "妊娠尿路感染选择药物同时考虑母胎安全与尿路病原覆盖。",
+          "“妊娠可用”不等于对本次尿路感染经验治疗一定有效。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-25",
           "sourceSubject": "med",
           "sourceFile": "25 27考研：内科 尿路感染 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
-          "title": "内科第25讲《内科 尿路感染》",
-          "image": "exams/sprint-exam-20261021/lecture-138.webp"
-        },
-        {
-          "lectureId": "lecture-25",
-          "sourceSubject": "med",
-          "sourceFile": "25 27考研：内科 尿路感染 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
-          "title": "内科第25讲《内科 尿路感染》",
-          "image": "exams/sprint-exam-20261021/lecture-139.webp"
+          "lectureNumber": 25,
+          "title": "内科 尿路感染 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/med-ab1ac7554d-p002.webp",
+          "questionNumbers": [
+            157
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "妊娠尿路感染选择药物同时考虑母胎安全与尿路病原覆盖。",
+            "“妊娠可用”不等于对本次尿路感染经验治疗一定有效。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "妊娠尿路感染选择药物同时考虑母胎安全与尿路病原覆盖。",
+        "“妊娠可用”不等于对本次尿路感染经验治疗一定有效。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q158",
@@ -4622,9 +6963,29 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-34",
-          "explanation": "A：选：白血病相关症状和体征消失是完全缓解的组成部分，不能只背实验室指标。\nB：不选：错在“无原始细胞”。骨髓原始细胞标准是＜5%，不是必须绝对为0；骨髓三系造血恢复这一半本身没有错。\nC：选：外周血无原始细胞、无髓外白血病，均为CR的重要要求。\nD：选：外周血血小板≥100×10⁹/L符合本题标准；同时还要考虑中性粒细胞等恢复条件。\n核验：完全缓解是多个条件同时满足；不能以单项血小板达标替代全部缓解判断。",
+          "explanation": "正确答案：ACD。\n\nCR要求白血病临床表现消失、外周血恢复及无髓外白血病，ACD正确。B错在“无原始细胞”：骨髓原始细胞应低于规定阈值，通常<5%，并非绝对为零。",
           "knowledgeConnections": [
-            "必须分清外周血与骨髓：外周血无原始细胞；骨髓原始细胞＜5%。形态学CR也不代表所有残留白血病细胞清零。"
+            "CR还需结合中性粒细胞、血小板及骨髓三系恢复等条件。",
+            "形态学完全缓解不等同微小残留病阴性，也不等于治愈。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-34",
+              "sourceSubject": "med",
+              "sourceFile": "34 27考研：内科含诊断 白血病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 34,
+              "title": "内科含诊断 白血病 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/med-55b6afd534-p005.webp",
+              "questionNumbers": [
+                158
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "完全缓解要求白血病表现消失、血细胞恢复及骨髓原始细胞低于规定阈值，而非完全没有原始细胞。"
+              ]
+            }
           ]
         }
       ],
@@ -4634,8 +6995,16 @@
         "sourceFile": "34 27考研：内科含诊断 白血病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 5,
         "pageLabel": "PDF第5页",
-        "title": "内科第34讲《内科含诊断 白血病》",
-        "image": "exams/sprint-exam-20261021/lecture-140.webp"
+        "lectureNumber": 34,
+        "title": "内科含诊断 白血病 · 第5页",
+        "image": "exams/reviewed-mocks-20261104/med-55b6afd534-p005.webp",
+        "questionNumbers": [
+          158
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "完全缓解要求白血病表现消失、血细胞恢复及骨髓原始细胞低于规定阈值，而非完全没有原始细胞。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -4644,12 +7013,24 @@
           "sourceFile": "34 27考研：内科含诊断 白血病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 5,
           "pageLabel": "PDF第5页",
-          "title": "内科第34讲《内科含诊断 白血病》",
-          "image": "exams/sprint-exam-20261021/lecture-140.webp"
+          "lectureNumber": 34,
+          "title": "内科含诊断 白血病 · 第5页",
+          "image": "exams/reviewed-mocks-20261104/med-55b6afd534-p005.webp",
+          "questionNumbers": [
+            158
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "完全缓解要求白血病表现消失、血细胞恢复及骨髓原始细胞低于规定阈值，而非完全没有原始细胞。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "CR还需结合中性粒细胞、血小板及骨髓三系恢复等条件。",
+        "形态学完全缓解不等同微小残留病阴性，也不等于治愈。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q159",
@@ -4708,32 +7089,77 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-40",
-          "explanation": "垂体ACTH微腺瘤导致Cushing病，皮质醇节律消失、双侧肾上腺增生。典型垂体性病例大剂量地塞米松可被抑制，不能按“不抑制”选择B；ACTH兴奋反应也不应简单记为阴性。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：AD。\n\n垂体微腺瘤所致库欣病可有皮质醇节律消失及双侧肾上腺皮质增生，选AD。B把大剂量地塞米松可抑制写为阴性，C把ACTH兴奋可有反应写为阴性，均与本讲义垂体型典型配对相反。",
+          "knowledgeConnections": [
+            "同基础卷相似病例，需看B、C的阴阳性文字，不能只照抄答案。",
+            "库欣病是ACTH依赖性皮质醇增多；自主肾上腺肿瘤与异位ACTH反应模式不同。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-40",
+              "sourceSubject": "med",
+              "sourceFile": "40 27考研：内科 库欣综合征 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 40,
+              "title": "内科 库欣综合征 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/med-1f846d0a97-p002.webp",
+              "questionNumbers": [
+                159
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "同基础卷相似病例，需看B、C的阴阳性文字，不能只照抄答案。",
+                "库欣病是ACTH依赖性皮质醇增多；自主肾上腺肿瘤与异位ACTH反应模式不同。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-40",
         "sourceSubject": "med",
         "sourceFile": "40 27考研：内科 库欣综合征 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 4,
-        "pageLabel": "PDF第4页",
-        "title": "40 27考研：内科 库欣综合征",
-        "image": "exams/sprint-exam-20261021/lecture-141.webp"
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "lectureNumber": 40,
+        "title": "内科 库欣综合征 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/med-1f846d0a97-p002.webp",
+        "questionNumbers": [
+          159
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "同基础卷相似病例，需看B、C的阴阳性文字，不能只照抄答案。",
+          "库欣病是ACTH依赖性皮质醇增多；自主肾上腺肿瘤与异位ACTH反应模式不同。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-40",
           "sourceSubject": "med",
           "sourceFile": "40 27考研：内科 库欣综合征 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 4,
-          "pageLabel": "PDF第4页",
-          "title": "40 27考研：内科 库欣综合征",
-          "image": "exams/sprint-exam-20261021/lecture-141.webp"
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "lectureNumber": 40,
+          "title": "内科 库欣综合征 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/med-1f846d0a97-p002.webp",
+          "questionNumbers": [
+            159
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "同基础卷相似病例，需看B、C的阴阳性文字，不能只照抄答案。",
+            "库欣病是ACTH依赖性皮质醇增多；自主肾上腺肿瘤与异位ACTH反应模式不同。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "同基础卷相似病例，需看B、C的阴阳性文字，不能只照抄答案。",
+        "库欣病是ACTH依赖性皮质醇增多；自主肾上腺肿瘤与异位ACTH反应模式不同。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q128",
@@ -4791,32 +7217,77 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-05",
-          "explanation": "长期大量脓痰，下肺多发薄壁囊状透亮区伴液平，支持囊状支气管扩张。慢性肺脓肿常为更局限的脓腔。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：D。\n\n长期咳脓痰、双下肺湿啰音及多个薄壁囊状透亮区伴液平，符合囊状支气管扩张，选D。A肺脓肿常为较大脓腔；BCOPD以肺气肿透亮度增加为主；C慢纤空结核多上肺及纤维收缩。",
+          "knowledgeConnections": [
+            "支扩表现与扩张支气管内分泌物潴留相关，可有液平。",
+            "高分辨率CT可确认扩张支气管及分布。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-05",
+              "sourceSubject": "med",
+              "sourceFile": "04 27考研：内科 间质性肺疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 4,
+              "title": "内科 间质性肺疾病 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/med-79020f5689-p001.webp",
+              "questionNumbers": [
+                128
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "支扩表现与扩张支气管内分泌物潴留相关，可有液平。",
+                "高分辨率CT可确认扩张支气管及分布。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-05",
         "sourceSubject": "med",
-        "sourceFile": "05 27考研：内科含诊断 支气管扩张症 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 2,
-        "pageLabel": "PDF第2页",
-        "title": "05 27考研：内科含诊断 支气管扩张症",
-        "image": "exams/sprint-exam-20261021/lecture-159.webp"
+        "sourceFile": "04 27考研：内科 间质性肺疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "lectureNumber": 4,
+        "title": "内科 间质性肺疾病 · 第1页",
+        "image": "exams/reviewed-mocks-20261104/med-79020f5689-p001.webp",
+        "questionNumbers": [
+          128
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "支扩表现与扩张支气管内分泌物潴留相关，可有液平。",
+          "高分辨率CT可确认扩张支气管及分布。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-05",
           "sourceSubject": "med",
-          "sourceFile": "05 27考研：内科含诊断 支气管扩张症 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
-          "title": "05 27考研：内科含诊断 支气管扩张症",
-          "image": "exams/sprint-exam-20261021/lecture-159.webp"
+          "sourceFile": "04 27考研：内科 间质性肺疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "lectureNumber": 4,
+          "title": "内科 间质性肺疾病 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/med-79020f5689-p001.webp",
+          "questionNumbers": [
+            128
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "支扩表现与扩张支气管内分泌物潴留相关，可有液平。",
+            "高分辨率CT可确认扩张支气管及分布。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "支扩表现与扩张支气管内分泌物潴留相关，可有液平。",
+        "高分辨率CT可确认扩张支气管及分布。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q129",
@@ -4874,32 +7345,77 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-08",
-          "explanation": "上肺多发空洞、肺门上提反映纤维收缩，符合慢性纤维空洞型肺结核；支气管扩张多以下叶囊状改变及脓痰为提示。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C。\n\n双上肺多发空洞伴肺门上提，提示慢性纤维收缩和空洞性结核，选C。A肺脓肿多脓腔液平；BCOPD主要气肿而无此纤维牵拉组合；D支扩常见囊状或柱状支气管改变。",
+          "knowledgeConnections": [
+            "继发性结核好发肺尖及上叶尖后段。",
+            "纤维收缩可牵拉肺门上提及纵隔向患侧，与大量胸水推向健侧相反。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-08",
+              "sourceSubject": "med",
+              "sourceFile": "08 27考研：内科含诊断 肺结核 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 8,
+              "title": "内科含诊断 肺结核 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/med-8422cccd01-p002.webp",
+              "questionNumbers": [
+                129
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "继发性结核好发肺尖及上叶尖后段。",
+                "纤维收缩可牵拉肺门上提及纵隔向患侧，与大量胸水推向健侧相反。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-08",
         "sourceSubject": "med",
         "sourceFile": "08 27考研：内科含诊断 肺结核 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 7,
-        "pageLabel": "PDF第7页",
-        "title": "08 27考研：内科含诊断 肺结核",
-        "image": "exams/sprint-exam-20261021/lecture-160.webp"
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "lectureNumber": 8,
+        "title": "内科含诊断 肺结核 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/med-8422cccd01-p002.webp",
+        "questionNumbers": [
+          129
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "继发性结核好发肺尖及上叶尖后段。",
+          "纤维收缩可牵拉肺门上提及纵隔向患侧，与大量胸水推向健侧相反。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-08",
           "sourceSubject": "med",
           "sourceFile": "08 27考研：内科含诊断 肺结核 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 7,
-          "pageLabel": "PDF第7页",
-          "title": "08 27考研：内科含诊断 肺结核",
-          "image": "exams/sprint-exam-20261021/lecture-160.webp"
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "lectureNumber": 8,
+          "title": "内科含诊断 肺结核 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/med-8422cccd01-p002.webp",
+          "questionNumbers": [
+            129
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "继发性结核好发肺尖及上叶尖后段。",
+            "纤维收缩可牵拉肺门上提及纵隔向患侧，与大量胸水推向健侧相反。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "继发性结核好发肺尖及上叶尖后段。",
+        "纤维收缩可牵拉肺门上提及纵隔向患侧，与大量胸水推向健侧相反。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q130",
@@ -4957,8 +7473,31 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-48",
-          "explanation": "山莨菪碱为抗胆碱药，主要拮抗外周M受体。复能剂作用于胆碱酯酶，不是直接拮抗M受体。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：A。\n\n山莨菪碱主要阻断外周M受体，选A。B东莨菪碱中枢作用较强；CD为胆碱酯酶复能剂，不直接作为M受体拮抗剂。",
+          "knowledgeConnections": [
+            "M样表现包括分泌增多、支气管痉挛、缩瞳及胃肠症状。",
+            "抗胆碱药与复能剂分别作用于受体效应及酶活性，常需联合。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-48",
+              "sourceSubject": "med",
+              "sourceFile": "48 27考研：内科 中毒 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 48,
+              "title": "内科 中毒 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-64bc0f7267-p004.webp",
+              "questionNumbers": [
+                130
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "M样表现包括分泌增多、支气管痉挛、缩瞳及胃肠症状。",
+                "抗胆碱药与复能剂分别作用于受体效应及酶活性，常需联合。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -4967,8 +7506,17 @@
         "sourceFile": "48 27考研：内科 中毒 核心-真题-串联-导图 天天师兄.pdf",
         "page": 4,
         "pageLabel": "PDF第4页",
-        "title": "48 27考研：内科 中毒",
-        "image": "exams/sprint-exam-20261021/lecture-161.webp"
+        "lectureNumber": 48,
+        "title": "内科 中毒 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/med-64bc0f7267-p004.webp",
+        "questionNumbers": [
+          130
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "M样表现包括分泌增多、支气管痉挛、缩瞳及胃肠症状。",
+          "抗胆碱药与复能剂分别作用于受体效应及酶活性，常需联合。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -4977,12 +7525,25 @@
           "sourceFile": "48 27考研：内科 中毒 核心-真题-串联-导图 天天师兄.pdf",
           "page": 4,
           "pageLabel": "PDF第4页",
-          "title": "48 27考研：内科 中毒",
-          "image": "exams/sprint-exam-20261021/lecture-161.webp"
+          "lectureNumber": 48,
+          "title": "内科 中毒 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-64bc0f7267-p004.webp",
+          "questionNumbers": [
+            130
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "M样表现包括分泌增多、支气管痉挛、缩瞳及胃肠症状。",
+            "抗胆碱药与复能剂分别作用于受体效应及酶活性，常需联合。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "M样表现包括分泌增多、支气管痉挛、缩瞳及胃肠症状。",
+        "抗胆碱药与复能剂分别作用于受体效应及酶活性，常需联合。"
+      ]
     },
     {
       "id": "med-sprint-exam-20261021-q131",
@@ -5040,8 +7601,31 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-48",
-          "explanation": "本卷答案选C氯解磷定，重点为胆碱酯酶复能剂改善N样症状、肌无力。碘解磷定也属复能剂，此组区分并非绝对“只有C有N作用”。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C。\n\n氯解磷定可恢复胆碱酯酶活性，改善神经肌肉接头N样症状，本卷选C。AB抗胆碱药主要拮抗M效应；D碘解磷定亦为复能剂，但本讲义对应首选氯解磷定，不应解释成D完全无此作用。",
+          "knowledgeConnections": [
+            "N样表现有肌束颤动、肌无力及呼吸肌麻痹。",
+            "复能剂需尽早使用，在酶老化后效果明显下降。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-48",
+              "sourceSubject": "med",
+              "sourceFile": "48 27考研：内科 中毒 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 48,
+              "title": "内科 中毒 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-64bc0f7267-p004.webp",
+              "questionNumbers": [
+                131
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "N样表现有肌束颤动、肌无力及呼吸肌麻痹。",
+                "复能剂需尽早使用，在酶老化后效果明显下降。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -5050,8 +7634,17 @@
         "sourceFile": "48 27考研：内科 中毒 核心-真题-串联-导图 天天师兄.pdf",
         "page": 4,
         "pageLabel": "PDF第4页",
-        "title": "48 27考研：内科 中毒",
-        "image": "exams/sprint-exam-20261021/lecture-161.webp"
+        "lectureNumber": 48,
+        "title": "内科 中毒 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/med-64bc0f7267-p004.webp",
+        "questionNumbers": [
+          131
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "N样表现有肌束颤动、肌无力及呼吸肌麻痹。",
+          "复能剂需尽早使用，在酶老化后效果明显下降。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -5060,12 +7653,25 @@
           "sourceFile": "48 27考研：内科 中毒 核心-真题-串联-导图 天天师兄.pdf",
           "page": 4,
           "pageLabel": "PDF第4页",
-          "title": "48 27考研：内科 中毒",
-          "image": "exams/sprint-exam-20261021/lecture-161.webp"
+          "lectureNumber": 48,
+          "title": "内科 中毒 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-64bc0f7267-p004.webp",
+          "questionNumbers": [
+            131
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "N样表现有肌束颤动、肌无力及呼吸肌麻痹。",
+            "复能剂需尽早使用，在酶老化后效果明显下降。"
+          ]
         }
       ],
       "sourceSection": "内科学与医学人文",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "N样表现有肌束颤动、肌无力及呼吸肌麻痹。",
+        "复能剂需尽早使用，在酶老化后效果明显下降。"
+      ]
     }
   ],
   "pages": [

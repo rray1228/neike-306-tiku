@@ -66,38 +66,52 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-23",
-          "explanation": "正确答案：A（缺血缺氧的损伤）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：细胞损伤最常见和最重要的中心环节是。讲义依据：线粒体损伤多是细胞损伤的早期标志；注意：细胞不可逆性损伤即细胞死亡，包括。因此答案为A（缺血缺氧的损伤）。",
+          "explanation": "正确答案：A。\n\n本卷标示A。缺血缺氧是细胞损伤的重要原因，可经ATP耗竭引起膜泵障碍、细胞水肿与进一步损伤。B细胞膜损伤、C线粒体损伤及D胞质游离Ca²⁺升高均属损伤机制；题干使用“中心环节”而非“损伤原因”，与答案A的层级不一致，应区分原因与机制，不能据此认定其余机制不重要。",
           "knowledgeConnections": [
-            "题干线索：细胞损伤最常见和最重要的中心环节是",
-            "讲义要点：线粒体损伤多是细胞损伤的早期标志",
-            "讲义要点：注意：细胞不可逆性损伤即细胞死亡，包括",
-            "讲义要点：思维导图·适应 & 损伤",
-            "易混项：B. 细胞膜的损伤；C. 线粒体的损伤；D. 胞质内游离 Ca2+的损伤"
+            "缺氧→ATP减少→Na⁺-K⁺泵障碍→细胞水肿。",
+            "膜通透性增加、线粒体功能障碍和钙稳态失衡可相互加重。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-23",
+              "sourceSubject": "pathology",
+              "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 23,
+              "title": "病理 适应和损伤 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p001.webp",
+              "questionNumbers": [
+                29
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "细胞损伤可表现为变性、坏死及凋亡；本题“中心环节”与缺氧病因存在措辞层级差异。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 适应和损伤",
-        "线粒体损伤多是细胞损伤的早期标志",
-        "注意：细胞不可逆性损伤即细胞死亡，包括",
-        "思维导图·适应 & 损伤",
-        "二、可逆性损伤/变性"
+        "本卷标示A。",
+        "缺氧→ATP减少→Na⁺-K⁺泵障碍→细胞水肿。",
+        "膜通透性增加、线粒体功能障碍和钙稳态失衡可相互加重。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-23",
         "sourceSubject": "pathology",
         "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 5,
-        "pageLabel": "PDF第5页",
-        "title": "病理 适应和损伤 · 第5页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-23-p05.webp",
-        "description": "第29题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "线粒体损伤多是细胞损伤的早期标志",
-          "二、可逆性损伤/变性"
-        ],
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "lectureNumber": 23,
+        "title": "病理 适应和损伤 · 第1页",
+        "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p001.webp",
         "questionNumbers": [
           29
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "细胞损伤可表现为变性、坏死及凋亡；本题“中心环节”与缺氧病因存在措辞层级差异。"
         ]
       },
       "lectureEvidencePages": [
@@ -105,33 +119,17 @@
           "lectureId": "foundation-pathology-23",
           "sourceSubject": "pathology",
           "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 5,
-          "pageLabel": "PDF第5页",
-          "title": "病理 适应和损伤 · 第5页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-23-p05.webp",
-          "description": "第29题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "线粒体损伤多是细胞损伤的早期标志",
-            "二、可逆性损伤/变性"
-          ],
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "lectureNumber": 23,
+          "title": "病理 适应和损伤 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p001.webp",
           "questionNumbers": [
             29
-          ]
-        },
-        {
-          "lectureId": "foundation-pathology-23",
-          "sourceSubject": "pathology",
-          "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 13,
-          "pageLabel": "PDF第13页",
-          "title": "病理 适应和损伤 · 第13页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-23-p13.webp",
-          "description": "第29题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "注意：细胞不可逆性损伤即细胞死亡，包括"
           ],
-          "questionNumbers": [
-            29
+          "optionKeys": [],
+          "knowledgePoints": [
+            "细胞损伤可表现为变性、坏死及凋亡；本题“中心环节”与缺氧病因存在措辞层级差异。"
           ]
         }
       ]
@@ -193,22 +191,36 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-22",
-          "explanation": "正确答案：C（神经纤维）。\n\n判断思路：肉芽组织主要由新生毛细血管、成纤维细胞、巨噬细胞及其他炎细胞构成；一般不含神经纤维。",
+          "explanation": "正确答案：C。\n\n肉芽组织由新生毛细血管、成纤维细胞和炎细胞组成，通常没有神经纤维，故选C。巨噬细胞常见且能分泌生长因子；有感染时可见中性粒细胞；肉芽组织也能包围异物并参与机化。",
           "knowledgeConnections": [
-            "题干线索：肉芽组织中一般不含有",
-            "讲义要点：肉芽组织主要由新生毛细血管、成纤维细胞、巨噬细胞及其他炎细胞构成；一般不含神经纤维。",
-            "讲义要点：三） 、或因截肢失去远端（分手） ，则再生的神经纤维不能到达远端，便与增生的结缔组织",
-            "讲义要点：混杂在一起卷曲成团，形成创伤性神经纤维瘤",
-            "易混项：A. 巨噬细胞；B. 中性粒细胞；D. 异物"
+            "新生毛细血管多，故肉芽组织鲜红、易出血。",
+            "肉芽组织成熟后血管与细胞减少、胶原增加，形成瘢痕。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-22",
+              "sourceSubject": "pathology",
+              "sourceFile": "22 27考研：病理 损伤的修复 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 22,
+              "title": "病理 损伤的修复 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/pathology-14d162d15c-p002.webp",
+              "questionNumbers": [
+                30
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "肉芽组织由新生毛细血管、成纤维细胞和炎细胞组成，通常没有神经纤维，故选C。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 损伤的修复",
-        "肉芽组织主要由新生毛细血管、成纤维细胞、巨噬细胞及其他炎细胞构成；一般不含神经纤维。",
-        "三） 、或因截肢失去远端（分手） ，则再生的神经纤维不能到达远端，便与增生的结缔组织",
-        "混杂在一起卷曲成团，形成创伤性神经纤维瘤",
-        "周围神经系统的神经纤维若发生损伤，只要所属神经元（胞体）存活即可"
+        "肉芽组织由新生毛细血管、成纤维细胞和炎细胞组成，通常没有神经纤维，故选C。",
+        "新生毛细血管多，故肉芽组织鲜红、易出血。",
+        "肉芽组织成熟后血管与细胞减少、胶原增加，形成瘢痕。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-22",
@@ -216,16 +228,15 @@
         "sourceFile": "22 27考研：病理 损伤的修复 核心-真题-串联-导图 天天师兄.pdf",
         "page": 2,
         "pageLabel": "PDF第2页",
+        "lectureNumber": 22,
         "title": "病理 损伤的修复 · 第2页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-22-p02.webp",
-        "description": "第30题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "三） 、或因截肢失去远端（分手） ，则再生的神经纤维不能到达远端，便与增生的结缔组织",
-          "混杂在一起卷曲成团，形成创伤性神经纤维瘤",
-          "（2）肉芽组织无神经、易出血、水分丰富"
-        ],
+        "image": "exams/reviewed-mocks-20261104/pathology-14d162d15c-p002.webp",
         "questionNumbers": [
           30
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "肉芽组织由新生毛细血管、成纤维细胞和炎细胞组成，通常没有神经纤维，故选C。"
         ]
       },
       "lectureEvidencePages": [
@@ -235,16 +246,15 @@
           "sourceFile": "22 27考研：病理 损伤的修复 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
+          "lectureNumber": 22,
           "title": "病理 损伤的修复 · 第2页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-22-p02.webp",
-          "description": "第30题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "三） 、或因截肢失去远端（分手） ，则再生的神经纤维不能到达远端，便与增生的结缔组织",
-            "混杂在一起卷曲成团，形成创伤性神经纤维瘤",
-            "（2）肉芽组织无神经、易出血、水分丰富"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-14d162d15c-p002.webp",
           "questionNumbers": [
             30
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "肉芽组织由新生毛细血管、成纤维细胞和炎细胞组成，通常没有神经纤维，故选C。"
           ]
         }
       ]
@@ -306,22 +316,36 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-24",
-          "explanation": "正确答案：A（肺小动脉内发现角化上皮）。\n\n判断思路：诊断应以题干中的特征性线索组合判断，不能由单个症状作结论。关键线索是：病理诊断羊水栓塞的主要依据是。讲义依据：分娩→肺栓塞（肺小动脉和毛细血管内有角化上皮、胎毛等）；隔缺损到达左心、引起体循环栓塞（栓塞各器官小动脉）。因此答案为A（肺小动脉内发现角化上皮）。",
+          "explanation": "正确答案：A。\n\n分娩时羊水进入母体静脉，经右心到达肺循环，肺小动脉内发现胎儿角化上皮等羊水成分是直接证据，A正确。B把主要栓塞部位写成肺小静脉；C透明血栓反映继发DIC，不能证明羊水来源；D嗜酸性粒细胞没有特异诊断意义。",
           "knowledgeConnections": [
-            "题干线索：病理诊断羊水栓塞的主要依据是",
-            "讲义要点：分娩→肺栓塞（肺小动脉和毛细血管内有角化上皮、胎毛等）",
-            "讲义要点：隔缺损到达左心、引起体循环栓塞（栓塞各器官小动脉）",
-            "讲义要点：②长期卧床等下肢深静脉血栓形成后脱落→肺动脉栓塞",
-            "易混项：B. 肺小静脉内发现 胎毛和胎脂；C. 肺毛细血管内发现广泛透明血栓；D. 肺泡内发现大量嗜酸性粒细胞"
+            "羊水成分还包括胎毛、胎脂和黏液。",
+            "羊水栓塞可同时引起急性呼吸循环障碍及DIC。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-24",
+              "sourceSubject": "pathology",
+              "sourceFile": "24 27考研：病理 局部血液循环障碍 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 24,
+              "title": "病理 局部血液循环障碍 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/pathology-93f05c54da-p005.webp",
+              "questionNumbers": [
+                31
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "分娩时羊水进入母体静脉，经右心到达肺循环，肺小动脉内发现胎儿角化上皮等羊水成分是直接证据，A正确。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 局部血液循环障碍",
-        "分娩→肺栓塞（肺小动脉和毛细血管内有角化上皮、胎毛等）",
-        "隔缺损到达左心、引起体循环栓塞（栓塞各器官小动脉）",
-        "②长期卧床等下肢深静脉血栓形成后脱落→肺动脉栓塞",
-        "①亚心炎、二狭、心梗等左心血栓脱落→脑、肠、四肢动脉等体循环栓塞"
+        "分娩时羊水进入母体静脉，经右心到达肺循环，肺小动脉内发现胎儿角化上皮等羊水成分是直接证据，A正确。",
+        "羊水成分还包括胎毛、胎脂和黏液。",
+        "羊水栓塞可同时引起急性呼吸循环障碍及DIC。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-24",
@@ -329,16 +353,15 @@
         "sourceFile": "24 27考研：病理 局部血液循环障碍 核心-真题-串联-导图 天天师兄.pdf",
         "page": 5,
         "pageLabel": "PDF第5页",
+        "lectureNumber": 24,
         "title": "病理 局部血液循环障碍 · 第5页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-24-p05.webp",
-        "description": "第31题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "分娩→肺栓塞（肺小动脉和毛细血管内有角化上皮、胎毛等）",
-          "隔缺损到达左心、引起体循环栓塞（栓塞各器官小动脉）",
-          "②长期卧床等下肢深静脉血栓形成后脱落→肺动脉栓塞"
-        ],
+        "image": "exams/reviewed-mocks-20261104/pathology-93f05c54da-p005.webp",
         "questionNumbers": [
           31
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "分娩时羊水进入母体静脉，经右心到达肺循环，肺小动脉内发现胎儿角化上皮等羊水成分是直接证据，A正确。"
         ]
       },
       "lectureEvidencePages": [
@@ -348,16 +371,15 @@
           "sourceFile": "24 27考研：病理 局部血液循环障碍 核心-真题-串联-导图 天天师兄.pdf",
           "page": 5,
           "pageLabel": "PDF第5页",
+          "lectureNumber": 24,
           "title": "病理 局部血液循环障碍 · 第5页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-24-p05.webp",
-          "description": "第31题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "分娩→肺栓塞（肺小动脉和毛细血管内有角化上皮、胎毛等）",
-            "隔缺损到达左心、引起体循环栓塞（栓塞各器官小动脉）",
-            "②长期卧床等下肢深静脉血栓形成后脱落→肺动脉栓塞"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-93f05c54da-p005.webp",
           "questionNumbers": [
             31
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "分娩时羊水进入母体静脉，经右心到达肺循环，肺小动脉内发现胎儿角化上皮等羊水成分是直接证据，A正确。"
           ]
         }
       ]
@@ -419,22 +441,36 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-24",
-          "explanation": "正确答案：B（坏死的类型）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：器官梗死灶的质地主要取决于。讲义依据：（2）质地取决于坏死类型；四、梗死（缺血缺氧引起的坏死）。因此答案为B（坏死的类型）。",
+          "explanation": "正确答案：B。\n\n梗死灶质地由坏死类型决定：凝固性坏死较实，液化性坏死较软甚至形成囊腔，故选B。含血量主要决定红色或白色；血管分布决定梗死形状；病因本身不能直接规定病灶质地。",
           "knowledgeConnections": [
-            "题干线索：器官梗死灶的质地主要取决于",
-            "讲义要点：（2）质地取决于坏死类型",
-            "讲义要点：四、梗死（缺血缺氧引起的坏死）",
-            "讲义要点：③脑：液化性坏死，贫血性/白色梗死",
-            "易混项：A. 梗死的原因；C. 梗死灶的含血量；D. 血管的分布方式"
+            "心、肾、脾梗死多为凝固性坏死。",
+            "脑梗死为液化性坏死，虽属贫血性梗死仍形成软化灶。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-24",
+              "sourceSubject": "pathology",
+              "sourceFile": "24 27考研：病理 局部血液循环障碍 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 6,
+              "pageLabel": "PDF第6页",
+              "lectureNumber": 24,
+              "title": "病理 局部血液循环障碍 · 第6页",
+              "image": "exams/reviewed-mocks-20261104/pathology-93f05c54da-p006.webp",
+              "questionNumbers": [
+                32
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "梗死灶质地由坏死类型决定：凝固性坏死较实，液化性坏死较软甚至形成囊腔，故选B。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 局部血液循环障碍",
-        "（2）质地取决于坏死类型",
-        "四、梗死（缺血缺氧引起的坏死）",
-        "③脑：液化性坏死，贫血性/白色梗死",
-        "①肝：凝固性坏死+液化性坏死，很难梗死"
+        "梗死灶质地由坏死类型决定：凝固性坏死较实，液化性坏死较软甚至形成囊腔，故选B。",
+        "心、肾、脾梗死多为凝固性坏死。",
+        "脑梗死为液化性坏死，虽属贫血性梗死仍形成软化灶。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-24",
@@ -442,15 +478,15 @@
         "sourceFile": "24 27考研：病理 局部血液循环障碍 核心-真题-串联-导图 天天师兄.pdf",
         "page": 6,
         "pageLabel": "PDF第6页",
+        "lectureNumber": 24,
         "title": "病理 局部血液循环障碍 · 第6页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-24-p06.webp",
-        "description": "第32题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "（2）质地取决于坏死类型",
-          "四、梗死（缺血缺氧引起的坏死）"
-        ],
+        "image": "exams/reviewed-mocks-20261104/pathology-93f05c54da-p006.webp",
         "questionNumbers": [
           32
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "梗死灶质地由坏死类型决定：凝固性坏死较实，液化性坏死较软甚至形成囊腔，故选B。"
         ]
       },
       "lectureEvidencePages": [
@@ -460,15 +496,15 @@
           "sourceFile": "24 27考研：病理 局部血液循环障碍 核心-真题-串联-导图 天天师兄.pdf",
           "page": 6,
           "pageLabel": "PDF第6页",
+          "lectureNumber": 24,
           "title": "病理 局部血液循环障碍 · 第6页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-24-p06.webp",
-          "description": "第32题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "（2）质地取决于坏死类型",
-            "四、梗死（缺血缺氧引起的坏死）"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-93f05c54da-p006.webp",
           "questionNumbers": [
             32
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "梗死灶质地由坏死类型决定：凝固性坏死较实，液化性坏死较软甚至形成囊腔，故选B。"
           ]
         }
       ]
@@ -530,22 +566,54 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-26",
-          "explanation": "正确答案：D（精原细胞瘤）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：以下属于恶性肿瘤的是。讲义依据：（1）这些“瘤”为恶性： 绿色瘤、淋巴瘤、骨髓瘤绿色瘤即粒细胞肉瘤胎盘部位滋养细胞肿瘤注意：卵巢卵泡膜细胞瘤为良性卵黄囊瘤/内胚窦瘤、无性细胞瘤、粒层细胞瘤尤文氏瘤/Ewing 瘤/尤文肉瘤、弥漫型星形细胞瘤注意：脊膜瘤为良性黑色素瘤、精原细胞瘤、脊索瘤（黑精索） 多数母细胞瘤注意：肌母细胞瘤、脂肪母细胞瘤、软骨母细胞瘤、骨母细胞瘤为良性（可以吃的鸡汁软骨为良性）；注意浸润性生长转移多数良性肿瘤 × × 脉管瘤（血管瘤、淋巴管瘤） √（易复发） × 多数恶性肿瘤 √（易复发） √ 皮肤基底细胞癌、卵巢粒层细胞瘤 √ 很少基粒来不及转移。因此答案为D（精原细胞瘤）。",
+          "explanation": "正确答案：D。\n\n精原细胞瘤是恶性生殖细胞肿瘤，D正确。畸胎瘤有成熟性与未成熟性之分，不能一概视为恶性；多形性腺瘤通常为良性；错构瘤也不属于本题所指的明确恶性肿瘤。",
           "knowledgeConnections": [
-            "题干线索：以下属于恶性肿瘤的是",
-            "讲义要点：（1）这些“瘤”为恶性： 绿色瘤、淋巴瘤、骨髓瘤绿色瘤即粒细胞肉瘤胎盘部位滋养细胞肿瘤注意：卵巢卵泡膜细胞瘤为良性卵黄囊瘤/内胚窦瘤、无性细胞瘤、粒层细胞瘤尤文氏瘤/Ewing 瘤/尤文肉瘤、弥漫型星形细胞瘤注意：脊膜瘤为良性黑色素瘤、精原细胞瘤、脊索瘤（黑精索） 多数母细胞瘤注意：肌母细胞瘤、脂肪母细胞瘤、软骨母细胞瘤、骨母细胞瘤为良性（可以吃的鸡汁软骨为良性）",
-            "讲义要点：注意浸润性生长转移多数良性肿瘤 × × 脉管瘤（血管瘤、淋巴管瘤） √（易复发） × 多数恶性肿瘤 √（易复发） √ 皮肤基底细胞癌、卵巢粒层细胞瘤 √ 很少基粒来不及转移",
-            "讲义要点：酸酶均↑）、无性细胞瘤（无间道）、造成胆道梗阻如肝癌",
-            "易混项：A. 畸胎瘤；B. 错构瘤；C. 多形性腺瘤"
+            "肿瘤名称带“瘤”不能直接判断良恶性。",
+            "精原细胞瘤、黑色素瘤、淋巴瘤均属恶性。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-26",
+              "sourceSubject": "pathology",
+              "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 8,
+              "pageLabel": "PDF第8页",
+              "lectureNumber": 26,
+              "title": "病理 肿瘤 · 第8页",
+              "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p008.webp",
+              "questionNumbers": [
+                33
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "精原细胞瘤、黑色素瘤、淋巴瘤等名称带“瘤”但属于恶性肿瘤。"
+              ]
+            },
+            {
+              "lectureId": "foundation-pathology-26",
+              "sourceSubject": "pathology",
+              "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 9,
+              "pageLabel": "PDF第9页",
+              "lectureNumber": 26,
+              "title": "病理 肿瘤 · 第9页",
+              "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p009.webp",
+              "questionNumbers": [
+                33
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "成熟性畸胎瘤可良性，未成熟性可恶性。",
+                "癌一般淋巴转移较早，肉瘤一般血道转移较常见。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 肿瘤",
-        "（1）这些“瘤”为恶性： 绿色瘤、淋巴瘤、骨髓瘤绿色瘤即粒细胞肉瘤胎盘部位滋养细胞肿瘤注意：卵巢卵泡膜细胞瘤为良性卵黄囊瘤/内胚窦瘤、无性细胞瘤、粒层细胞瘤尤文氏瘤/Ewing 瘤/尤文肉瘤、弥漫型星形细胞瘤注意：脊膜瘤为良性黑色素瘤、精原细胞瘤、脊索瘤（黑精索） 多数母细胞瘤注意：肌母细胞瘤、脂肪母细胞瘤、软骨母细胞瘤、骨母细胞瘤为良性（可以吃的鸡汁软骨为良性）",
-        "注意浸润性生长转移多数良性肿瘤 × × 脉管瘤（血管瘤、淋巴管瘤） √（易复发） × 多数恶性肿瘤 √（易复发） √ 皮肤基底细胞癌、卵巢粒层细胞瘤 √ 很少基粒来不及转移",
-        "酸酶均↑）、无性细胞瘤（无间道）、造成胆道梗阻如肝癌",
-        "不转移，如骨巨细胞瘤、带状瘤、侵袭性葡萄胎、卵巢浆液性乳头状囊腺瘤"
+        "精原细胞瘤是恶性生殖细胞肿瘤，D正确。",
+        "肿瘤名称带“瘤”不能直接判断良恶性。",
+        "精原细胞瘤、黑色素瘤、淋巴瘤均属恶性。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-26",
@@ -553,14 +621,15 @@
         "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
         "page": 8,
         "pageLabel": "PDF第8页",
+        "lectureNumber": 26,
         "title": "病理 肿瘤 · 第8页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p08.webp",
-        "description": "第33题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "（1）这些“瘤”为恶性： 绿色瘤、淋巴瘤、骨髓瘤绿色瘤即粒细胞肉瘤胎盘部位滋养细胞肿瘤注意：卵巢卵泡膜细胞瘤为良性卵黄囊瘤/内胚窦瘤、无性细胞瘤、粒层细胞瘤尤文氏瘤/Ewing 瘤/尤文肉瘤、弥漫型星形细胞瘤注意：脊膜瘤为良性黑色素瘤、精原细胞瘤、脊索瘤（黑精索） 多数母细胞瘤注意：肌母细胞瘤、脂肪母细胞瘤、软骨母细胞瘤、骨母细胞瘤为良性（可以吃的鸡汁软骨为良性）"
-        ],
+        "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p008.webp",
         "questionNumbers": [
           33
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "精原细胞瘤、黑色素瘤、淋巴瘤等名称带“瘤”但属于恶性肿瘤。"
         ]
       },
       "lectureEvidencePages": [
@@ -570,31 +639,33 @@
           "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
           "page": 8,
           "pageLabel": "PDF第8页",
+          "lectureNumber": 26,
           "title": "病理 肿瘤 · 第8页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p08.webp",
-          "description": "第33题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "（1）这些“瘤”为恶性： 绿色瘤、淋巴瘤、骨髓瘤绿色瘤即粒细胞肉瘤胎盘部位滋养细胞肿瘤注意：卵巢卵泡膜细胞瘤为良性卵黄囊瘤/内胚窦瘤、无性细胞瘤、粒层细胞瘤尤文氏瘤/Ewing 瘤/尤文肉瘤、弥漫型星形细胞瘤注意：脊膜瘤为良性黑色素瘤、精原细胞瘤、脊索瘤（黑精索） 多数母细胞瘤注意：肌母细胞瘤、脂肪母细胞瘤、软骨母细胞瘤、骨母细胞瘤为良性（可以吃的鸡汁软骨为良性）"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p008.webp",
           "questionNumbers": [
             33
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "精原细胞瘤、黑色素瘤、淋巴瘤等名称带“瘤”但属于恶性肿瘤。"
           ]
         },
         {
           "lectureId": "foundation-pathology-26",
           "sourceSubject": "pathology",
           "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 4,
-          "pageLabel": "PDF第4页",
-          "title": "病理 肿瘤 · 第4页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p04.webp",
-          "description": "第33题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "注意浸润性生长转移多数良性肿瘤 × × 脉管瘤（血管瘤、淋巴管瘤） √（易复发） × 多数恶性肿瘤 √（易复发） √ 皮肤基底细胞癌、卵巢粒层细胞瘤 √ 很少基粒来不及转移",
-            "不转移，如骨巨细胞瘤、带状瘤、侵袭性葡萄胎、卵巢浆液性乳头状囊腺瘤"
-          ],
+          "page": 9,
+          "pageLabel": "PDF第9页",
+          "lectureNumber": 26,
+          "title": "病理 肿瘤 · 第9页",
+          "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p009.webp",
           "questionNumbers": [
             33
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "成熟性畸胎瘤可良性，未成熟性可恶性。",
+            "癌一般淋巴转移较早，肉瘤一般血道转移较常见。"
           ]
         }
       ]
@@ -656,22 +727,36 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-26",
-          "explanation": "正确答案：B（Ki-67）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：能反映肿瘤细胞增殖活性的标记是。讲义依据：（11）Ki-67（肿瘤细胞增殖活性高）：如 Burkitt 淋巴瘤（Ki-kitt）、绒癌；（10）满天星/星空现象：如 Burkitt 淋巴瘤的瘤细胞间分布巨噬细胞，提示预后差。因此答案为B（Ki-67）。",
+          "explanation": "正确答案：B。\n\nKi-67反映细胞增殖活性，B正确。EMA与Keratin提示上皮分化，Syn提示神经内分泌分化；它们是分化方向标记，不是本题的增殖活性指标。",
           "knowledgeConnections": [
-            "题干线索：能反映肿瘤细胞增殖活性的标记是",
-            "讲义要点：（11）Ki-67（肿瘤细胞增殖活性高）：如 Burkitt 淋巴瘤（Ki-kitt）、绒癌",
-            "讲义要点：（10）满天星/星空现象：如 Burkitt 淋巴瘤的瘤细胞间分布巨噬细胞，提示预后差",
-            "讲义要点：（1）实质：肿瘤细胞（特征）",
-            "易混项：A. EMA；C. Syn；D. Keratin"
+            "Ki-67用于评价增殖活跃程度。",
+            "角蛋白、EMA与波形蛋白主要用于鉴别肿瘤来源。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-26",
+              "sourceSubject": "pathology",
+              "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 10,
+              "pageLabel": "PDF第10页",
+              "lectureNumber": 26,
+              "title": "病理 肿瘤 · 第10页",
+              "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p010.webp",
+              "questionNumbers": [
+                34
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "Ki-67反映细胞增殖活性；EMA、CK提示上皮分化；Syn提示神经内分泌分化。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 肿瘤",
-        "（11）Ki-67（肿瘤细胞增殖活性高）：如 Burkitt 淋巴瘤（Ki-kitt）、绒癌",
-        "（10）满天星/星空现象：如 Burkitt 淋巴瘤的瘤细胞间分布巨噬细胞，提示预后差",
-        "（1）实质：肿瘤细胞（特征）",
-        "③VCA-IgA 抗体：鼻咽癌、CHL、Burkitt 淋巴瘤、NK/T 细胞淋巴瘤"
+        "Ki-67反映细胞增殖活性，B正确。",
+        "Ki-67用于评价增殖活跃程度。",
+        "角蛋白、EMA与波形蛋白主要用于鉴别肿瘤来源。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-26",
@@ -679,15 +764,15 @@
         "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
         "page": 10,
         "pageLabel": "PDF第10页",
+        "lectureNumber": 26,
         "title": "病理 肿瘤 · 第10页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p10.webp",
-        "description": "第34题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "（11）Ki-67（肿瘤细胞增殖活性高）：如 Burkitt 淋巴瘤（Ki-kitt）、绒癌",
-          "③VCA-IgA 抗体：鼻咽癌、CHL、Burkitt 淋巴瘤、NK/T 细胞淋巴瘤"
-        ],
+        "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p010.webp",
         "questionNumbers": [
           34
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "Ki-67反映细胞增殖活性；EMA、CK提示上皮分化；Syn提示神经内分泌分化。"
         ]
       },
       "lectureEvidencePages": [
@@ -697,31 +782,15 @@
           "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
           "page": 10,
           "pageLabel": "PDF第10页",
+          "lectureNumber": 26,
           "title": "病理 肿瘤 · 第10页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p10.webp",
-          "description": "第34题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "（11）Ki-67（肿瘤细胞增殖活性高）：如 Burkitt 淋巴瘤（Ki-kitt）、绒癌",
-            "③VCA-IgA 抗体：鼻咽癌、CHL、Burkitt 淋巴瘤、NK/T 细胞淋巴瘤"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p010.webp",
           "questionNumbers": [
             34
-          ]
-        },
-        {
-          "lectureId": "foundation-pathology-26",
-          "sourceSubject": "pathology",
-          "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 21,
-          "pageLabel": "PDF第21页",
-          "title": "病理 肿瘤 · 第21页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p21.webp",
-          "description": "第34题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "（10）满天星/星空现象：如 Burkitt 淋巴瘤的瘤细胞间分布巨噬细胞，提示预后差"
           ],
-          "questionNumbers": [
-            34
+          "optionKeys": [],
+          "knowledgePoints": [
+            "Ki-67反映细胞增殖活性；EMA、CK提示上皮分化；Syn提示神经内分泌分化。"
           ]
         }
       ]
@@ -783,37 +852,52 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-14",
-          "explanation": "正确答案：D（纤维蛋白和中性粒细胞）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：在大叶性肺炎的灰色肝样变期，肺泡腔内主要为。讲义依据：3.小叶性肺炎是细支气管及末梢肺组织的化脓性炎（以中性粒细胞渗出为主） 。；①肺肉质变/机化性肺炎（最常见） ：由于肺泡内渗出的中性粒细胞数量过少或功能缺陷→。因此答案为D（纤维蛋白和中性粒细胞）。",
+          "explanation": "正确答案：D。\n\n灰色肝样变期肺泡内红细胞崩解、纤维蛋白和中性粒细胞增多，D正确。A浆液及红细胞偏向充血水肿期；B大量纤维蛋白及红细胞对应红色肝样变；C未体现灰色肝样变期的纤维蛋白性渗出。",
           "knowledgeConnections": [
-            "题干线索：在大叶性肺炎的灰色肝样变期，肺泡腔内主要为",
-            "讲义要点：3.小叶性肺炎是细支气管及末梢肺组织的化脓性炎（以中性粒细胞渗出为主） 。",
-            "讲义要点：①肺肉质变/机化性肺炎（最常见） ：由于肺泡内渗出的中性粒细胞数量过少或功能缺陷→",
-            "讲义要点：①大叶性肺炎：肺泡的纤维素性炎",
-            "易混项：A. 浆液和红细胞；B. 纤维蛋白和红细胞；C. 浆液和中性粒细胞"
+            "红色肝样变：纤维蛋白、红细胞及中性粒细胞。",
+            "灰色肝样变：红细胞减少，纤维蛋白与中性粒细胞较突出。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-14",
+              "sourceSubject": "pathology",
+              "sourceFile": "14 27考研：病理 肺炎 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 14,
+              "title": "病理 肺炎 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/pathology-ef45c50d5f-p002.webp",
+              "questionNumbers": [
+                35
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "大叶性肺炎属于纤维素性炎；本页含灰色肝样变期病理示图。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 肺炎",
-        "3.小叶性肺炎是细支气管及末梢肺组织的化脓性炎（以中性粒细胞渗出为主） 。",
-        "①肺肉质变/机化性肺炎（最常见） ：由于肺泡内渗出的中性粒细胞数量过少或功能缺陷→",
-        "①大叶性肺炎：肺泡的纤维素性炎",
-        "③纤维素性炎：以纤维素（纤维蛋白）渗出为主的炎"
+        "灰色肝样变期肺泡内红细胞崩解、纤维蛋白和中性粒细胞增多，D正确。",
+        "红色肝样变：纤维蛋白、红细胞及中性粒细胞。",
+        "灰色肝样变：红细胞减少，纤维蛋白与中性粒细胞较突出。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-14",
         "sourceSubject": "pathology",
         "sourceFile": "14 27考研：病理 肺炎 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 3,
-        "pageLabel": "PDF第3页",
-        "title": "病理 肺炎 · 第3页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-14-p03.webp",
-        "description": "第35题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "3.小叶性肺炎是细支气管及末梢肺组织的化脓性炎（以中性粒细胞渗出为主） 。"
-        ],
+        "page": 2,
+        "pageLabel": "PDF第2页",
+        "lectureNumber": 14,
+        "title": "病理 肺炎 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/pathology-ef45c50d5f-p002.webp",
         "questionNumbers": [
           35
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "大叶性肺炎属于纤维素性炎；本页含灰色肝样变期病理示图。"
         ]
       },
       "lectureEvidencePages": [
@@ -821,33 +905,17 @@
           "lectureId": "foundation-pathology-14",
           "sourceSubject": "pathology",
           "sourceFile": "14 27考研：病理 肺炎 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 3,
-          "pageLabel": "PDF第3页",
-          "title": "病理 肺炎 · 第3页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-14-p03.webp",
-          "description": "第35题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "3.小叶性肺炎是细支气管及末梢肺组织的化脓性炎（以中性粒细胞渗出为主） 。"
-          ],
-          "questionNumbers": [
-            35
-          ]
-        },
-        {
-          "lectureId": "foundation-pathology-14",
-          "sourceSubject": "pathology",
-          "sourceFile": "14 27考研：病理 肺炎 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
+          "lectureNumber": 14,
           "title": "病理 肺炎 · 第2页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-14-p02.webp",
-          "description": "第35题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "①肺肉质变/机化性肺炎（最常见） ：由于肺泡内渗出的中性粒细胞数量过少或功能缺陷→",
-            "③纤维素性炎：以纤维素（纤维蛋白）渗出为主的炎"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-ef45c50d5f-p002.webp",
           "questionNumbers": [
             35
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "大叶性肺炎属于纤维素性炎；本页含灰色肝样变期病理示图。"
           ]
         }
       ]
@@ -909,22 +977,53 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-07",
-          "explanation": "正确答案：C（Osler 小结）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：不属于风湿病病理变化的是。讲义依据：二、风湿病的特征是 Aschoff 小体；三、风湿病可累及全身结缔组织的胶原纤维。因此答案为C（Osler 小结）。",
+          "explanation": "正确答案：C。\n\nOsler小结见于感染性心内膜炎，故C不属于风湿病病变。绒毛心为风湿性纤维素性心包炎；McCallum斑为左房内膜病变；小舞蹈病为风湿病的神经系统表现。",
           "knowledgeConnections": [
-            "题干线索：不属于风湿病病理变化的是",
-            "讲义要点：二、风湿病的特征是 Aschoff 小体",
-            "讲义要点：三、风湿病可累及全身结缔组织的胶原纤维",
-            "讲义要点：一、风湿病是与 A 组 β（乙）型溶血性链球菌感染有关的变态反应疾病",
-            "易混项：A. 绒毛心；B. McCallum 斑；D. 小舞蹈病"
+            "风湿病可累及心内膜、心肌和心包。",
+            "感染性心内膜炎可有Osler小结、栓塞和血培养阳性。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-07",
+              "sourceSubject": "pathology",
+              "sourceFile": "07 27考研：病理 风湿病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 7,
+              "title": "病理 风湿病 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/pathology-57d6c19643-p001.webp",
+              "questionNumbers": [
+                36
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "风湿病可累及心内膜、心肌和心包。"
+              ]
+            },
+            {
+              "lectureId": "foundation-pathology-07",
+              "sourceSubject": "pathology",
+              "sourceFile": "07 27考研：病理 风湿病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 7,
+              "title": "病理 风湿病 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/pathology-57d6c19643-p002.webp",
+              "questionNumbers": [
+                36
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "风湿病可累及心内膜、心肌和心包。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 风湿病",
-        "二、风湿病的特征是 Aschoff 小体",
-        "三、风湿病可累及全身结缔组织的胶原纤维",
-        "一、风湿病是与 A 组 β（乙）型溶血性链球菌感染有关的变态反应疾病",
-        "3.风湿性心外膜炎/心包炎"
+        "Osler小结见于感染性心内膜炎，故C不属于风湿病病变。",
+        "风湿病可累及心内膜、心肌和心包。",
+        "感染性心内膜炎可有Osler小结、栓塞和血培养阳性。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-07",
@@ -932,16 +1031,15 @@
         "sourceFile": "07 27考研：病理 风湿病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 1,
         "pageLabel": "PDF第1页",
+        "lectureNumber": 7,
         "title": "病理 风湿病 · 第1页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-07-p01.webp",
-        "description": "第36题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "二、风湿病的特征是 Aschoff 小体",
-          "三、风湿病可累及全身结缔组织的胶原纤维",
-          "一、风湿病是与 A 组 β（乙）型溶血性链球菌感染有关的变态反应疾病"
-        ],
+        "image": "exams/reviewed-mocks-20261104/pathology-57d6c19643-p001.webp",
         "questionNumbers": [
           36
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "风湿病可累及心内膜、心肌和心包。"
         ]
       },
       "lectureEvidencePages": [
@@ -951,16 +1049,32 @@
           "sourceFile": "07 27考研：病理 风湿病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 1,
           "pageLabel": "PDF第1页",
+          "lectureNumber": 7,
           "title": "病理 风湿病 · 第1页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-07-p01.webp",
-          "description": "第36题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "二、风湿病的特征是 Aschoff 小体",
-            "三、风湿病可累及全身结缔组织的胶原纤维",
-            "一、风湿病是与 A 组 β（乙）型溶血性链球菌感染有关的变态反应疾病"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-57d6c19643-p001.webp",
           "questionNumbers": [
             36
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "风湿病可累及心内膜、心肌和心包。"
+          ]
+        },
+        {
+          "lectureId": "foundation-pathology-07",
+          "sourceSubject": "pathology",
+          "sourceFile": "07 27考研：病理 风湿病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 2,
+          "pageLabel": "PDF第2页",
+          "lectureNumber": 7,
+          "title": "病理 风湿病 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/pathology-57d6c19643-p002.webp",
+          "questionNumbers": [
+            36
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "风湿病可累及心内膜、心肌和心包。"
           ]
         }
       ]
@@ -1022,22 +1136,36 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-01",
-          "explanation": "正确答案：B（表面被覆上皮和纤维组织共同修复）。\n\n判断思路：先抓题干的决定性线索，再与讲义中的标准结论对应。关键线索是：胃溃疡的愈合过程需要。讲义依据：组织增生形成瘢痕组织修复，同时周围黏膜上皮再生覆盖溃疡面而愈合；3.胃溃疡的病理变化。因此答案为B（表面被覆上皮和纤维组织共同修复）。",
+          "explanation": "正确答案：B。\n\n溃疡破坏较深，表面由被覆上皮再生覆盖，深部缺损由肉芽组织及瘢痕修复，故选B。A缺少表面覆盖；C只用上皮再生不能填补深部缺损；D混淆肉芽组织与肉芽肿。",
           "knowledgeConnections": [
-            "题干线索：胃溃疡的愈合过程需要",
-            "讲义要点：组织增生形成瘢痕组织修复，同时周围黏膜上皮再生覆盖溃疡面而愈合",
-            "讲义要点：3.胃溃疡的病理变化",
-            "讲义要点：②坏死组织层：伊红色坏死组织（纤维素样坏死）",
-            "易混项：A. 胃黏膜腺体和纤维组织共同修复；C. 胃黏膜腺体和表面被覆上皮共同修复；D. 炎性肉芽肿填充 修复"
+            "胃溃疡底部依次有渗出、坏死、肉芽组织和瘢痕四层。",
+            "肉芽组织负责纤维性修复，肉芽肿是以巨噬细胞为主的特殊炎症。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-01",
+              "sourceSubject": "pathology",
+              "sourceFile": "01 27考研：病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 1,
+              "title": "病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/pathology-d86067596f-p003.webp",
+              "questionNumbers": [
+                37
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "溃疡破坏较深，表面由被覆上皮再生覆盖，深部缺损由肉芽组织及瘢痕修复，故选B。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病",
-        "组织增生形成瘢痕组织修复，同时周围黏膜上皮再生覆盖溃疡面而愈合",
-        "3.胃溃疡的病理变化",
-        "②坏死组织层：伊红色坏死组织（纤维素样坏死）",
-        "③肉芽组织层：大量新生毛细血管和成纤维细胞"
+        "溃疡破坏较深，表面由被覆上皮再生覆盖，深部缺损由肉芽组织及瘢痕修复，故选B。",
+        "胃溃疡底部依次有渗出、坏死、肉芽组织和瘢痕四层。",
+        "肉芽组织负责纤维性修复，肉芽肿是以巨噬细胞为主的特殊炎症。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-01",
@@ -1045,16 +1173,15 @@
         "sourceFile": "01 27考研：病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 3,
         "pageLabel": "PDF第3页",
+        "lectureNumber": 1,
         "title": "病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病 · 第3页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-01-p03.webp",
-        "description": "第37题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "组织增生形成瘢痕组织修复，同时周围黏膜上皮再生覆盖溃疡面而愈合",
-          "3.胃溃疡的病理变化",
-          "②坏死组织层：伊红色坏死组织（纤维素样坏死）"
-        ],
+        "image": "exams/reviewed-mocks-20261104/pathology-d86067596f-p003.webp",
         "questionNumbers": [
           37
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "溃疡破坏较深，表面由被覆上皮再生覆盖，深部缺损由肉芽组织及瘢痕修复，故选B。"
         ]
       },
       "lectureEvidencePages": [
@@ -1064,16 +1191,15 @@
           "sourceFile": "01 27考研：病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 3,
           "pageLabel": "PDF第3页",
+          "lectureNumber": 1,
           "title": "病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病 · 第3页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-01-p03.webp",
-          "description": "第37题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "组织增生形成瘢痕组织修复，同时周围黏膜上皮再生覆盖溃疡面而愈合",
-            "3.胃溃疡的病理变化",
-            "②坏死组织层：伊红色坏死组织（纤维素样坏死）"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-d86067596f-p003.webp",
           "questionNumbers": [
             37
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "溃疡破坏较深，表面由被覆上皮再生覆盖，深部缺损由肉芽组织及瘢痕修复，故选B。"
           ]
         }
       ]
@@ -1135,22 +1261,36 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-16",
-          "explanation": "正确答案：C（类似结核结节肉芽肿，常见异物巨细胞）。\n\n判断思路：亚急性甲状腺炎又称肉芽肿性/巨细胞性甲状腺炎，可见滤泡部分破坏、胶质外溢和异物巨细胞构成的结核样肉芽肿。",
+          "explanation": "正确答案：C。\n\n亚急性肉芽肿性甲状腺炎破坏滤泡、胶质外溢，出现异物巨细胞及类结核结节，C最具特征性。A的均匀肿大不能概括其结节性疼痛表现；B广泛萎缩并非典型；D大量淋巴细胞浸润更应鉴别自身免疫性甲状腺炎。",
           "knowledgeConnections": [
-            "题干线索：以下符合亚急性甲状腺炎的是",
-            "讲义要点：亚急性甲状腺炎又称肉芽肿性/巨细胞性甲状腺炎，可见滤泡部分破坏、胶质外溢和异物巨细胞构成的结核样肉芽肿。",
-            "讲义要点：3.桥本 VS 亚甲炎慢性淋巴细胞性/自身免疫性甲状腺炎/桥本亚急性/肉芽肿性/巨细胞性甲状腺炎免疫介导病毒感染甲状腺双侧弥漫性肿大（对称） 甲状腺不对称、结节状肿大无痛痛质韧，与周围组织无粘连常与周围组织粘连广泛滤泡被破坏、萎缩部分滤泡被破坏、胶质外溢，异物巨细胞类似结核结节肉芽肿（但无干酪样坏死） 伴大量淋巴细胞和不等量的嗜酸性粒细胞浸伴多量中性粒细胞和不等量的嗜酸性粒细润，淋巴滤泡胞、淋巴细胞、浆细胞浸润，微小脓肿",
-            "讲义要点：小结： 机制甲状腺肿大甲功单纯性/弥漫性缺碘致内分泌早期：双侧弥漫性肿大（对称） 非毒性甲状腺肿病理性增生后期：少数变为结甲（不对称） 弥漫性毒性甲状腺肿免疫介导双侧弥漫性肿大（对称） 甲亢 （Graves 病） 常伴突眼慢性淋巴细胞性/自身免免疫介导双侧弥漫性肿大（对称） 甲减疫性甲状腺炎/桥本亚急性/肉芽肿性/巨细病毒感染不对称肿大、压痛可致甲减胞性甲状腺炎",
-            "易混项：A. 甲状腺呈均匀肿大，常有疼痛；B. 甲状腺广泛破坏、萎缩，胶质外溢；D. 大量淋巴细胞和不等量嗜酸性粒细胞浸润"
+            "亚急性甲状腺炎也称巨细胞性甲状腺炎。",
+            "桥本甲状腺炎以淋巴滤泡及嗜酸性变的滤泡上皮为特征。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-16",
+              "sourceSubject": "pathology",
+              "sourceFile": "16 27考研：病理 内分泌系统疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 16,
+              "title": "病理 内分泌系统疾病 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/pathology-e7ac80843a-p003.webp",
+              "questionNumbers": [
+                38
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "亚急性肉芽肿性甲状腺炎破坏滤泡、胶质外溢，出现异物巨细胞及类结核结节，C最具特征性。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 内分泌系统疾病",
-        "亚急性甲状腺炎又称肉芽肿性/巨细胞性甲状腺炎，可见滤泡部分破坏、胶质外溢和异物巨细胞构成的结核样肉芽肿。",
-        "3.桥本 VS 亚甲炎慢性淋巴细胞性/自身免疫性甲状腺炎/桥本亚急性/肉芽肿性/巨细胞性甲状腺炎免疫介导病毒感染甲状腺双侧弥漫性肿大（对称） 甲状腺不对称、结节状肿大无痛痛质韧，与周围组织无粘连常与周围组织粘连广泛滤泡被破坏、萎缩部分滤泡被破坏、胶质外溢，异物巨细胞类似结核结节肉芽肿（但无干酪样坏死） 伴大量淋巴细胞和不等量的嗜酸性粒细胞浸伴多量中性粒细胞和不等量的嗜酸性粒细润，淋巴滤泡胞、淋巴细胞、浆细胞浸润，微小脓肿",
-        "小结： 机制甲状腺肿大甲功单纯性/弥漫性缺碘致内分泌早期：双侧弥漫性肿大（对称） 非毒性甲状腺肿病理性增生后期：少数变为结甲（不对称） 弥漫性毒性甲状腺肿免疫介导双侧弥漫性肿大（对称） 甲亢 （Graves 病） 常伴突眼慢性淋巴细胞性/自身免免疫介导双侧弥漫性肿大（对称） 甲减疫性甲状腺炎/桥本亚急性/肉芽肿性/巨细病毒感染不对称肿大、压痛可致甲减胞性甲状腺炎",
-        "1.结节性甲状腺肿（结甲）"
+        "亚急性肉芽肿性甲状腺炎破坏滤泡、胶质外溢，出现异物巨细胞及类结核结节，C最具特征性。",
+        "亚急性甲状腺炎也称巨细胞性甲状腺炎。",
+        "桥本甲状腺炎以淋巴滤泡及嗜酸性变的滤泡上皮为特征。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-16",
@@ -1158,15 +1298,15 @@
         "sourceFile": "16 27考研：病理 内分泌系统疾病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 3,
         "pageLabel": "PDF第3页",
+        "lectureNumber": 16,
         "title": "病理 内分泌系统疾病 · 第3页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-16-p03.webp",
-        "description": "第38题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "3.桥本 VS 亚甲炎慢性淋巴细胞性/自身免疫性甲状腺炎/桥本亚急性/肉芽肿性/巨细胞性甲状腺炎免疫介导病毒感染甲状腺双侧弥漫性肿大（对称） 甲状腺不对称、结节状肿大无痛痛质韧，与周围组织无粘连常与周围组织粘连广泛滤泡被破坏、萎缩部分滤泡被破坏、胶质外溢，异物巨细胞类似结核结节肉芽肿（但无干酪样坏死） 伴大量淋巴细胞和不等量的嗜酸性粒细胞浸伴多量中性粒细胞和不等量的嗜酸性粒细润，淋巴滤泡胞、淋巴细胞、浆细胞浸润，微小脓肿",
-          "小结： 机制甲状腺肿大甲功单纯性/弥漫性缺碘致内分泌早期：双侧弥漫性肿大（对称） 非毒性甲状腺肿病理性增生后期：少数变为结甲（不对称） 弥漫性毒性甲状腺肿免疫介导双侧弥漫性肿大（对称） 甲亢 （Graves 病） 常伴突眼慢性淋巴细胞性/自身免免疫介导双侧弥漫性肿大（对称） 甲减疫性甲状腺炎/桥本亚急性/肉芽肿性/巨细病毒感染不对称肿大、压痛可致甲减胞性甲状腺炎"
-        ],
+        "image": "exams/reviewed-mocks-20261104/pathology-e7ac80843a-p003.webp",
         "questionNumbers": [
           38
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "亚急性肉芽肿性甲状腺炎破坏滤泡、胶质外溢，出现异物巨细胞及类结核结节，C最具特征性。"
         ]
       },
       "lectureEvidencePages": [
@@ -1176,15 +1316,15 @@
           "sourceFile": "16 27考研：病理 内分泌系统疾病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 3,
           "pageLabel": "PDF第3页",
+          "lectureNumber": 16,
           "title": "病理 内分泌系统疾病 · 第3页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-16-p03.webp",
-          "description": "第38题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "3.桥本 VS 亚甲炎慢性淋巴细胞性/自身免疫性甲状腺炎/桥本亚急性/肉芽肿性/巨细胞性甲状腺炎免疫介导病毒感染甲状腺双侧弥漫性肿大（对称） 甲状腺不对称、结节状肿大无痛痛质韧，与周围组织无粘连常与周围组织粘连广泛滤泡被破坏、萎缩部分滤泡被破坏、胶质外溢，异物巨细胞类似结核结节肉芽肿（但无干酪样坏死） 伴大量淋巴细胞和不等量的嗜酸性粒细胞浸伴多量中性粒细胞和不等量的嗜酸性粒细润，淋巴滤泡胞、淋巴细胞、浆细胞浸润，微小脓肿",
-            "小结： 机制甲状腺肿大甲功单纯性/弥漫性缺碘致内分泌早期：双侧弥漫性肿大（对称） 非毒性甲状腺肿病理性增生后期：少数变为结甲（不对称） 弥漫性毒性甲状腺肿免疫介导双侧弥漫性肿大（对称） 甲亢 （Graves 病） 常伴突眼慢性淋巴细胞性/自身免免疫介导双侧弥漫性肿大（对称） 甲减疫性甲状腺炎/桥本亚急性/肉芽肿性/巨细病毒感染不对称肿大、压痛可致甲减胞性甲状腺炎"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-e7ac80843a-p003.webp",
           "questionNumbers": [
             38
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "亚急性肉芽肿性甲状腺炎破坏滤泡、胶质外溢，出现异物巨细胞及类结核结节，C最具特征性。"
           ]
         }
       ]
@@ -1246,22 +1386,36 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-19",
-          "explanation": "正确答案：B（浸润性小叶癌）。\n\n判断思路：浸润性小叶癌细胞常呈单行串珠样或靶环样排列，常转移至脑脊液、浆膜、卵巢、子宫和骨髓。",
+          "explanation": "正确答案：B。\n\n浸润性小叶癌有转移至脑脊液、浆膜及妇科器官的倾向，B正确。浸润性导管癌最常见，但不以脑脊液转移为此题特征；黏液腺癌和实性乳头状癌也不符合该特征。",
           "knowledgeConnections": [
-            "题干线索：常转移至脑脊液的乳腺癌类型是",
-            "讲义要点：浸润性小叶癌细胞常呈单行串珠样或靶环样排列，常转移至脑脊液、浆膜、卵巢、子宫和骨髓。",
-            "讲义要点：②浸润性小叶癌：由小叶原位癌穿透基膜向间质浸润所致。",
-            "讲义要点：③浸润癌特殊型： 预后较好的类型小管癌/高分化腺癌：大量腺体形成 （比浸润癌非特殊型大量淋巴细胞浸润的髓样癌：巢状等结构、边界清楚、 预后好） 癌细胞大、间质少（大清软软的） 黏液腺癌软软的小实性分泌性癌乳头分泌黏液实性乳头状癌预后较差的类型炎性乳癌（预后最差）、 浸润性微乳头状癌、富于脂质性癌、高级别化生性癌",
-            "易混项：A. 浸润性导管癌；C. 黏液腺癌；D. 实性乳头状癌"
+            "浸润性小叶癌常见细胞呈单列、条索样浸润。",
+            "乳腺癌常见转移部位包括淋巴结、骨、肺和肝；本题考查特殊倾向。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-19",
+              "sourceSubject": "pathology",
+              "sourceFile": "19 27考研：病理 乳腺疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 19,
+              "title": "病理 乳腺疾病 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/pathology-1530ef0a0f-p002.webp",
+              "questionNumbers": [
+                39
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "浸润性小叶癌有转移至脑脊液、浆膜及妇科器官的倾向，B正确。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 乳腺疾病",
-        "浸润性小叶癌细胞常呈单行串珠样或靶环样排列，常转移至脑脊液、浆膜、卵巢、子宫和骨髓。",
-        "②浸润性小叶癌：由小叶原位癌穿透基膜向间质浸润所致。",
-        "③浸润癌特殊型： 预后较好的类型小管癌/高分化腺癌：大量腺体形成 （比浸润癌非特殊型大量淋巴细胞浸润的髓样癌：巢状等结构、边界清楚、 预后好） 癌细胞大、间质少（大清软软的） 黏液腺癌软软的小实性分泌性癌乳头分泌黏液实性乳头状癌预后较差的类型炎性乳癌（预后最差）、 浸润性微乳头状癌、富于脂质性癌、高级别化生性癌",
-        "①浸润癌非特殊型：以前称为浸润性导管癌（最常见）：巢状等结构、边界不清、间质纤"
+        "浸润性小叶癌有转移至脑脊液、浆膜及妇科器官的倾向，B正确。",
+        "浸润性小叶癌常见细胞呈单列、条索样浸润。",
+        "乳腺癌常见转移部位包括淋巴结、骨、肺和肝；本题考查特殊倾向。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-19",
@@ -1269,16 +1423,15 @@
         "sourceFile": "19 27考研：病理 乳腺疾病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 2,
         "pageLabel": "PDF第2页",
+        "lectureNumber": 19,
         "title": "病理 乳腺疾病 · 第2页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-19-p02.webp",
-        "description": "第39题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "②浸润性小叶癌：由小叶原位癌穿透基膜向间质浸润所致。",
-          "③浸润癌特殊型： 预后较好的类型小管癌/高分化腺癌：大量腺体形成 （比浸润癌非特殊型大量淋巴细胞浸润的髓样癌：巢状等结构、边界清楚、 预后好） 癌细胞大、间质少（大清软软的） 黏液腺癌软软的小实性分泌性癌乳头分泌黏液实性乳头状癌预后较差的类型炎性乳癌（预后最差）、 浸润性微乳头状癌、富于脂质性癌、高级别化生性癌",
-          "①浸润癌非特殊型：以前称为浸润性导管癌（最常见）：巢状等结构、边界不清、间质纤"
-        ],
+        "image": "exams/reviewed-mocks-20261104/pathology-1530ef0a0f-p002.webp",
         "questionNumbers": [
           39
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "浸润性小叶癌有转移至脑脊液、浆膜及妇科器官的倾向，B正确。"
         ]
       },
       "lectureEvidencePages": [
@@ -1288,16 +1441,15 @@
           "sourceFile": "19 27考研：病理 乳腺疾病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
+          "lectureNumber": 19,
           "title": "病理 乳腺疾病 · 第2页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-19-p02.webp",
-          "description": "第39题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "②浸润性小叶癌：由小叶原位癌穿透基膜向间质浸润所致。",
-            "③浸润癌特殊型： 预后较好的类型小管癌/高分化腺癌：大量腺体形成 （比浸润癌非特殊型大量淋巴细胞浸润的髓样癌：巢状等结构、边界清楚、 预后好） 癌细胞大、间质少（大清软软的） 黏液腺癌软软的小实性分泌性癌乳头分泌黏液实性乳头状癌预后较差的类型炎性乳癌（预后最差）、 浸润性微乳头状癌、富于脂质性癌、高级别化生性癌",
-            "①浸润癌非特殊型：以前称为浸润性导管癌（最常见）：巢状等结构、边界不清、间质纤"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-1530ef0a0f-p002.webp",
           "questionNumbers": [
             39
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "浸润性小叶癌有转移至脑脊液、浆膜及妇科器官的倾向，B正确。"
           ]
         }
       ]
@@ -1359,22 +1511,36 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-21",
-          "explanation": "正确答案：D（常见原有血管壁轮廓和钙化）。\n\n判断思路：题干要求选择错误项，需先用讲义中的标准结论逐项反向核对。关键线索是：以下关于梅毒特征病变树胶样肿的叙述，错误的是。讲义依据：而类上皮细胞和朗汉斯巨细胞少见，绝少钙化，伴凝固性坏死（可见原有血管壁轮廓）；②树胶样肿/梅毒瘤（肉芽肿）：浆细胞和淋巴细胞多见尤其浆细胞恒定出现（乌梅子酱）。因此答案为D（常见原有血管壁轮廓和钙化）。",
+          "explanation": "正确答案：D。\n\n梅毒树胶样肿为第三期病变，中心凝固性坏死可保留血管壁轮廓，但很少钙化，D将“钙化”并列为常见表现而错误。A病期、B朗汉斯巨细胞少见及C闭塞性动脉内膜炎符合讲义归纳。",
           "knowledgeConnections": [
-            "题干线索：以下关于梅毒特征病变树胶样肿的叙述，错误的是",
-            "讲义要点：而类上皮细胞和朗汉斯巨细胞少见，绝少钙化，伴凝固性坏死（可见原有血管壁轮廓）",
-            "讲义要点：②树胶样肿/梅毒瘤（肉芽肿）：浆细胞和淋巴细胞多见尤其浆细胞恒定出现（乌梅子酱）",
-            "讲义要点：1.基本病变：闭塞性动脉内膜炎、小血管周围炎、肉芽肿（特征）周围塞车肿么办",
-            "易混项：A. 仅见于第三期梅毒；B. 朗汉斯巨细胞较少见；C. 必有闭塞性动脉内膜炎"
+            "梅毒树胶肿：凝固性坏死、血管轮廓残留、钙化少见。",
+            "结核结节：干酪样坏死、朗汉斯巨细胞，陈旧病灶可钙化。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-21",
+              "sourceSubject": "pathology",
+              "sourceFile": "21 27考研：病理 其它传染病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 21,
+              "title": "病理 其它传染病 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/pathology-549e7d0a57-p004.webp",
+              "questionNumbers": [
+                40
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "梅毒树胶样肿为第三期病变，中心凝固性坏死可保留血管壁轮廓，但很少钙化，D将“钙化”并列为常见表现而错误。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 其它传染病",
-        "而类上皮细胞和朗汉斯巨细胞少见，绝少钙化，伴凝固性坏死（可见原有血管壁轮廓）",
-        "②树胶样肿/梅毒瘤（肉芽肿）：浆细胞和淋巴细胞多见尤其浆细胞恒定出现（乌梅子酱）",
-        "1.基本病变：闭塞性动脉内膜炎、小血管周围炎、肉芽肿（特征）周围塞车肿么办",
-        "注意：慢性虫卵结节与结核结节的共同点是常钙化（学姐钙化） 、大量类上皮细胞/上皮样"
+        "梅毒树胶样肿为第三期病变，中心凝固性坏死可保留血管壁轮廓，但很少钙化，D将“钙化”并列为常见表现而错误。",
+        "梅毒树胶肿：凝固性坏死、血管轮廓残留、钙化少见。",
+        "结核结节：干酪样坏死、朗汉斯巨细胞，陈旧病灶可钙化。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-21",
@@ -1382,16 +1548,15 @@
         "sourceFile": "21 27考研：病理 其它传染病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 4,
         "pageLabel": "PDF第4页",
+        "lectureNumber": 21,
         "title": "病理 其它传染病 · 第4页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-21-p04.webp",
-        "description": "第40题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "而类上皮细胞和朗汉斯巨细胞少见，绝少钙化，伴凝固性坏死（可见原有血管壁轮廓）",
-          "②树胶样肿/梅毒瘤（肉芽肿）：浆细胞和淋巴细胞多见尤其浆细胞恒定出现（乌梅子酱）",
-          "1.基本病变：闭塞性动脉内膜炎、小血管周围炎、肉芽肿（特征）周围塞车肿么办"
-        ],
+        "image": "exams/reviewed-mocks-20261104/pathology-549e7d0a57-p004.webp",
         "questionNumbers": [
           40
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "梅毒树胶样肿为第三期病变，中心凝固性坏死可保留血管壁轮廓，但很少钙化，D将“钙化”并列为常见表现而错误。"
         ]
       },
       "lectureEvidencePages": [
@@ -1401,16 +1566,15 @@
           "sourceFile": "21 27考研：病理 其它传染病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 4,
           "pageLabel": "PDF第4页",
+          "lectureNumber": 21,
           "title": "病理 其它传染病 · 第4页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-21-p04.webp",
-          "description": "第40题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "而类上皮细胞和朗汉斯巨细胞少见，绝少钙化，伴凝固性坏死（可见原有血管壁轮廓）",
-            "②树胶样肿/梅毒瘤（肉芽肿）：浆细胞和淋巴细胞多见尤其浆细胞恒定出现（乌梅子酱）",
-            "1.基本病变：闭塞性动脉内膜炎、小血管周围炎、肉芽肿（特征）周围塞车肿么办"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-549e7d0a57-p004.webp",
           "questionNumbers": [
             40
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "梅毒树胶样肿为第三期病变，中心凝固性坏死可保留血管壁轮廓，但很少钙化，D将“钙化”并列为常见表现而错误。"
           ]
         }
       ]
@@ -1472,22 +1636,55 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-26",
-          "explanation": "正确答案：B（淋巴管瘤）。\n\n判断思路：淋巴管瘤属良性脉管肿瘤，可呈局部浸润性生长、易复发，但不发生转移。",
+          "explanation": "正确答案：B。\n\n淋巴管瘤可沿组织间隙浸润生长、易局部复发，但不发生转移，B正确。鼻咽癌常淋巴转移；甲状腺滤泡癌偏血道转移；卵巢粒层细胞瘤是低度恶性肿瘤，“很少转移”不等同于“不转移”。",
           "knowledgeConnections": [
-            "题干线索：呈浸润性生长，不发生淋巴转移的是",
-            "讲义要点：淋巴管瘤属良性脉管肿瘤，可呈局部浸润性生长、易复发，但不发生转移。",
-            "讲义要点：注意浸润性生长转移多数良性肿瘤 × × 脉管瘤（血管瘤、淋巴管瘤） √（易复发） × 多数恶性肿瘤 √（易复发） √ 皮肤基底细胞癌、卵巢粒层细胞瘤 √ 很少基粒来不及转移",
-            "讲义要点：淋巴瘤是恶性肿瘤、 室壁瘤淋巴管瘤是良性肿瘤",
-            "易混项：A. 鼻咽癌；C. 甲状腺滤泡癌；D. 卵巢粒层细胞瘤"
+            "浸润性生长并非恶性肿瘤独有。",
+            "脉管瘤是浸润生长而不转移的良性肿瘤例外。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-26",
+              "sourceSubject": "pathology",
+              "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 26,
+              "title": "病理 肿瘤 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p004.webp",
+              "questionNumbers": [
+                124
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "淋巴管瘤、血管瘤可浸润生长，但不转移。",
+                "卵巢粒层细胞瘤、皮肤基底细胞癌很少转移。"
+              ]
+            },
+            {
+              "lectureId": "foundation-pathology-26",
+              "sourceSubject": "pathology",
+              "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 9,
+              "pageLabel": "PDF第9页",
+              "lectureNumber": 26,
+              "title": "病理 肿瘤 · 第9页",
+              "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p009.webp",
+              "questionNumbers": [
+                124
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "成熟性畸胎瘤可良性，未成熟性可恶性。",
+                "癌一般淋巴转移较早，肉瘤一般血道转移较常见。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 肿瘤",
-        "淋巴管瘤属良性脉管肿瘤，可呈局部浸润性生长、易复发，但不发生转移。",
-        "注意浸润性生长转移多数良性肿瘤 × × 脉管瘤（血管瘤、淋巴管瘤） √（易复发） × 多数恶性肿瘤 √（易复发） √ 皮肤基底细胞癌、卵巢粒层细胞瘤 √ 很少基粒来不及转移",
-        "淋巴瘤是恶性肿瘤、 室壁瘤淋巴管瘤是良性肿瘤",
-        "③血道转移： 肉瘤最早和最常见的转移途径如骨肉瘤极易血道转移至肺（术前拍胸片） 癌多在晚期血道转移（癌细胞多经静如胃肠道癌晚期血道转移→肝（牛眼征）、HCC 脉入血、也可经淋巴管间接入血） 血道转移→肺、肺癌血道转移→脑/肾上腺/骨乳腺癌可在早期血道转移易经椎旁静脉转移至脊椎骨：乳腺癌、甲状腺癌、前列腺癌、肾癌（甲乳省钱）"
+        "淋巴管瘤可沿组织间隙浸润生长、易局部复发，但不发生转移，B正确。",
+        "浸润性生长并非恶性肿瘤独有。",
+        "脉管瘤是浸润生长而不转移的良性肿瘤例外。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-26",
@@ -1495,14 +1692,16 @@
         "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
         "page": 4,
         "pageLabel": "PDF第4页",
+        "lectureNumber": 26,
         "title": "病理 肿瘤 · 第4页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p04.webp",
-        "description": "第124题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "注意浸润性生长转移多数良性肿瘤 × × 脉管瘤（血管瘤、淋巴管瘤） √（易复发） × 多数恶性肿瘤 √（易复发） √ 皮肤基底细胞癌、卵巢粒层细胞瘤 √ 很少基粒来不及转移"
-        ],
+        "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p004.webp",
         "questionNumbers": [
           124
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "淋巴管瘤、血管瘤可浸润生长，但不转移。",
+          "卵巢粒层细胞瘤、皮肤基底细胞癌很少转移。"
         ]
       },
       "lectureEvidencePages": [
@@ -1512,14 +1711,16 @@
           "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
           "page": 4,
           "pageLabel": "PDF第4页",
+          "lectureNumber": 26,
           "title": "病理 肿瘤 · 第4页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p04.webp",
-          "description": "第124题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "注意浸润性生长转移多数良性肿瘤 × × 脉管瘤（血管瘤、淋巴管瘤） √（易复发） × 多数恶性肿瘤 √（易复发） √ 皮肤基底细胞癌、卵巢粒层细胞瘤 √ 很少基粒来不及转移"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p004.webp",
           "questionNumbers": [
             124
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "淋巴管瘤、血管瘤可浸润生长，但不转移。",
+            "卵巢粒层细胞瘤、皮肤基底细胞癌很少转移。"
           ]
         },
         {
@@ -1528,15 +1729,16 @@
           "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
           "page": 9,
           "pageLabel": "PDF第9页",
+          "lectureNumber": 26,
           "title": "病理 肿瘤 · 第9页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p09.webp",
-          "description": "第124题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "淋巴瘤是恶性肿瘤、 室壁瘤淋巴管瘤是良性肿瘤",
-            "4.癌 VS 肉瘤癌肉瘤来源于上皮组织来源于间叶组织（结缔组织、肌肉、脂肪、 血管、淋巴管、淋巴造血、骨、软骨） 发病率高、多见于 40 岁以上发病率低（骨肉瘤等多见于儿童和青少年、 脂肪肉瘤等多见于中老年） 一般质硬、色灰白、干燥一般质软、色灰红、湿润、鱼肉状癌细胞多形成癌巢，实质与间质多分界清肉瘤细胞多弥散分布，实质与间质多分界不楚，纤维组织常有增生清，间质血管丰富、纤维组织少"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p009.webp",
           "questionNumbers": [
             124
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "成熟性畸胎瘤可良性，未成熟性可恶性。",
+            "癌一般淋巴转移较早，肉瘤一般血道转移较常见。"
           ]
         }
       ]
@@ -1598,37 +1800,54 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-26",
-          "explanation": "正确答案：A（鼻咽癌）。\n\n判断思路：鼻咽癌是恶性上皮性肿瘤，呈浸润性生长，并常早期经淋巴道转移至颈部淋巴结。",
+          "explanation": "正确答案：A。\n\n鼻咽癌常早期经淋巴道转移至颈部淋巴结，A正确。淋巴管瘤虽可浸润生长却不转移；滤泡癌偏血道转移；卵巢粒层细胞瘤转移较少，不符合常发生淋巴转移。",
           "knowledgeConnections": [
-            "题干线索：呈浸润性生长，常发生淋巴转移的是",
-            "讲义要点：鼻咽癌是恶性上皮性肿瘤，呈浸润性生长，并常早期经淋巴道转移至颈部淋巴结。",
-            "讲义要点：③VCA-IgA 抗体：鼻咽癌、CHL、Burkitt 淋巴瘤、NK/T 细胞淋巴瘤",
-            "讲义要点：八、致瘤因素致瘤因素常见恶性肿瘤致瘤因素常见恶性肿瘤多环芳烃肺癌、胃癌华支睾吸虫肝内胆管癌芳香胺类膀胱癌血吸虫日本→大肠腺癌 （蹄髈香） 埃及→膀胱鳞癌黄曲霉素肝细胞癌 HPV 宫颈癌、喉癌亚硝胺类结构对称者→肝癌 EBV 鼻咽癌、CHL、Burkitt 淋巴瘤、 结构不对称者→食管癌 NK/T 细胞淋巴瘤（比伯穿 CK） 烷化剂白血病（白化病） HBV、HCV 肝细胞癌紫外线皮肤癌、黑色素瘤 Hp 胃癌、胃淋巴瘤 MALT",
-            "易混项：B. 淋巴管瘤；C. 甲状腺滤泡癌；D. 卵巢粒层细胞瘤"
+            "癌一般以淋巴转移为主，肉瘤一般以血道转移为主。",
+            "甲状腺滤泡癌是较早发生血道转移的癌之一。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-26",
+              "sourceSubject": "pathology",
+              "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 9,
+              "pageLabel": "PDF第9页",
+              "lectureNumber": 26,
+              "title": "病理 肿瘤 · 第9页",
+              "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p009.webp",
+              "questionNumbers": [
+                125
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "成熟性畸胎瘤可良性，未成熟性可恶性。",
+                "癌一般淋巴转移较早，肉瘤一般血道转移较常见。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 肿瘤",
-        "鼻咽癌是恶性上皮性肿瘤，呈浸润性生长，并常早期经淋巴道转移至颈部淋巴结。",
-        "③VCA-IgA 抗体：鼻咽癌、CHL、Burkitt 淋巴瘤、NK/T 细胞淋巴瘤",
-        "八、致瘤因素致瘤因素常见恶性肿瘤致瘤因素常见恶性肿瘤多环芳烃肺癌、胃癌华支睾吸虫肝内胆管癌芳香胺类膀胱癌血吸虫日本→大肠腺癌 （蹄髈香） 埃及→膀胱鳞癌黄曲霉素肝细胞癌 HPV 宫颈癌、喉癌亚硝胺类结构对称者→肝癌 EBV 鼻咽癌、CHL、Burkitt 淋巴瘤、 结构不对称者→食管癌 NK/T 细胞淋巴瘤（比伯穿 CK） 烷化剂白血病（白化病） HBV、HCV 肝细胞癌紫外线皮肤癌、黑色素瘤 Hp 胃癌、胃淋巴瘤 MALT",
-        "1.交界性肿瘤：组织形态、生物学行为介于良恶性之间，呈浸润性生长（易局部复发）、多"
+        "鼻咽癌常早期经淋巴道转移至颈部淋巴结，A正确。",
+        "癌一般以淋巴转移为主，肉瘤一般以血道转移为主。",
+        "甲状腺滤泡癌是较早发生血道转移的癌之一。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-26",
         "sourceSubject": "pathology",
         "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 10,
-        "pageLabel": "PDF第10页",
-        "title": "病理 肿瘤 · 第10页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p10.webp",
-        "description": "第125题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "③VCA-IgA 抗体：鼻咽癌、CHL、Burkitt 淋巴瘤、NK/T 细胞淋巴瘤"
-        ],
+        "page": 9,
+        "pageLabel": "PDF第9页",
+        "lectureNumber": 26,
+        "title": "病理 肿瘤 · 第9页",
+        "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p009.webp",
         "questionNumbers": [
           125
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "成熟性畸胎瘤可良性，未成熟性可恶性。",
+          "癌一般淋巴转移较早，肉瘤一般血道转移较常见。"
         ]
       },
       "lectureEvidencePages": [
@@ -1636,32 +1855,18 @@
           "lectureId": "foundation-pathology-26",
           "sourceSubject": "pathology",
           "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 10,
-          "pageLabel": "PDF第10页",
-          "title": "病理 肿瘤 · 第10页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p10.webp",
-          "description": "第125题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "③VCA-IgA 抗体：鼻咽癌、CHL、Burkitt 淋巴瘤、NK/T 细胞淋巴瘤"
-          ],
+          "page": 9,
+          "pageLabel": "PDF第9页",
+          "lectureNumber": 26,
+          "title": "病理 肿瘤 · 第9页",
+          "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p009.webp",
           "questionNumbers": [
             125
-          ]
-        },
-        {
-          "lectureId": "foundation-pathology-26",
-          "sourceSubject": "pathology",
-          "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 12,
-          "pageLabel": "PDF第12页",
-          "title": "病理 肿瘤 · 第12页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p12.webp",
-          "description": "第125题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "八、致瘤因素致瘤因素常见恶性肿瘤致瘤因素常见恶性肿瘤多环芳烃肺癌、胃癌华支睾吸虫肝内胆管癌芳香胺类膀胱癌血吸虫日本→大肠腺癌 （蹄髈香） 埃及→膀胱鳞癌黄曲霉素肝细胞癌 HPV 宫颈癌、喉癌亚硝胺类结构对称者→肝癌 EBV 鼻咽癌、CHL、Burkitt 淋巴瘤、 结构不对称者→食管癌 NK/T 细胞淋巴瘤（比伯穿 CK） 烷化剂白血病（白化病） HBV、HCV 肝细胞癌紫外线皮肤癌、黑色素瘤 Hp 胃癌、胃淋巴瘤 MALT"
           ],
-          "questionNumbers": [
-            125
+          "optionKeys": [],
+          "knowledgePoints": [
+            "成熟性畸胎瘤可良性，未成熟性可恶性。",
+            "癌一般淋巴转移较早，肉瘤一般血道转移较常见。"
           ]
         }
       ]
@@ -1723,70 +1928,107 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-26",
-          "explanation": "正确答案：C（混合细胞型）。\n\n判断思路：混合细胞型经典型霍奇金淋巴瘤中，典型 RS 细胞（双核镜影细胞）与多种炎细胞混合存在。",
+          "explanation": "正确答案：C。\n\n混合细胞型经典霍奇金淋巴瘤可见较多典型RS镜影细胞，C正确。结节性淋巴细胞为主型以爆米花细胞为特征；结节硬化型有陷窝细胞；淋巴细胞减少型背景淋巴细胞少、异型瘤细胞较多。",
           "knowledgeConnections": [
-            "题干线索：上述霍奇金淋巴瘤中镜影细胞最常见于",
-            "讲义要点：混合细胞型经典型霍奇金淋巴瘤中，典型 RS 细胞（双核镜影细胞）与多种炎细胞混合存在。",
-            "讲义要点：如甲状腺未分化癌（小/梭形/巨/混合细胞型）",
-            "讲义要点：②为淋巴细胞呈递抗原",
-            "易混项：A. 结节性淋巴细胞为主型；B. 结节硬化型；D. 淋巴细胞减少型"
+            "典型RS细胞常为双核，核仁大而红、周围空晕。",
+            "爆米花细胞与陷窝细胞分别提示不同亚型，不宜统称镜影细胞。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-26",
+              "sourceSubject": "med",
+              "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 35,
+              "title": "内科含诊断+病理 淋巴瘤 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/med-83be2318b0-p005.webp",
+              "questionNumbers": [
+                126
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "典型RS细胞可为双核镜影细胞，爆米花细胞见于结节性淋巴细胞为主型。",
+                "经典型霍奇金淋巴瘤有典型RS细胞及混合炎细胞背景。"
+              ]
+            },
+            {
+              "lectureId": "foundation-pathology-26",
+              "sourceSubject": "med",
+              "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 6,
+              "pageLabel": "PDF第6页",
+              "lectureNumber": 35,
+              "title": "内科含诊断+病理 淋巴瘤 · 第6页",
+              "image": "exams/reviewed-mocks-20261104/med-83be2318b0-p006.webp",
+              "questionNumbers": [
+                126
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "经典型霍奇金淋巴瘤的各组织学亚型在背景细胞与EBV关联上不同。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 肿瘤",
-        "混合细胞型经典型霍奇金淋巴瘤中，典型 RS 细胞（双核镜影细胞）与多种炎细胞混合存在。",
-        "如甲状腺未分化癌（小/梭形/巨/混合细胞型）",
-        "②为淋巴细胞呈递抗原",
-        "（2）淋巴瘤：白细胞分化抗原 CD、扁豆素 LCA（淋巴结肿大像扁豆一样）"
+        "混合细胞型经典霍奇金淋巴瘤可见较多典型RS镜影细胞，C正确。",
+        "典型RS细胞常为双核，核仁大而红、周围空晕。",
+        "爆米花细胞与陷窝细胞分别提示不同亚型，不宜统称镜影细胞。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-26",
-        "sourceSubject": "pathology",
-        "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 3,
-        "pageLabel": "PDF第3页",
-        "title": "病理 肿瘤 · 第3页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p03.webp",
-        "description": "第126题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "如甲状腺未分化癌（小/梭形/巨/混合细胞型）"
-        ],
+        "sourceSubject": "med",
+        "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "lectureNumber": 35,
+        "title": "内科含诊断+病理 淋巴瘤 · 第5页",
+        "image": "exams/reviewed-mocks-20261104/med-83be2318b0-p005.webp",
         "questionNumbers": [
           126
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "典型RS细胞可为双核镜影细胞，爆米花细胞见于结节性淋巴细胞为主型。",
+          "经典型霍奇金淋巴瘤有典型RS细胞及混合炎细胞背景。"
         ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "foundation-pathology-26",
-          "sourceSubject": "pathology",
-          "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 3,
-          "pageLabel": "PDF第3页",
-          "title": "病理 肿瘤 · 第3页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p03.webp",
-          "description": "第126题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "如甲状腺未分化癌（小/梭形/巨/混合细胞型）"
-          ],
+          "sourceSubject": "med",
+          "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "lectureNumber": 35,
+          "title": "内科含诊断+病理 淋巴瘤 · 第5页",
+          "image": "exams/reviewed-mocks-20261104/med-83be2318b0-p005.webp",
           "questionNumbers": [
             126
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "典型RS细胞可为双核镜影细胞，爆米花细胞见于结节性淋巴细胞为主型。",
+            "经典型霍奇金淋巴瘤有典型RS细胞及混合炎细胞背景。"
           ]
         },
         {
           "lectureId": "foundation-pathology-26",
-          "sourceSubject": "pathology",
-          "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 20,
-          "pageLabel": "PDF第20页",
-          "title": "病理 肿瘤 · 第20页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p20.webp",
-          "description": "第126题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "②为淋巴细胞呈递抗原"
-          ],
+          "sourceSubject": "med",
+          "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "lectureNumber": 35,
+          "title": "内科含诊断+病理 淋巴瘤 · 第6页",
+          "image": "exams/reviewed-mocks-20261104/med-83be2318b0-p006.webp",
           "questionNumbers": [
             126
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "经典型霍奇金淋巴瘤的各组织学亚型在背景细胞与EBV关联上不同。"
           ]
         }
       ]
@@ -1848,70 +2090,107 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-26",
-          "explanation": "正确答案：D（淋巴细胞减少型）。\n\n判断思路：经典型霍奇金淋巴瘤中，淋巴细胞减少型的 EBV 感染率最高，可接近 100%，且常与 HIV 感染相关。",
+          "explanation": "正确答案：D。\n\n按本卷与讲义的分型归纳，EBV感染最常见于淋巴细胞减少型，选D。混合细胞型也与EBV密切相关；结节硬化型关联较弱；结节性淋巴细胞为主型不属于经典型霍奇金淋巴瘤。",
           "knowledgeConnections": [
-            "题干线索：上述霍奇金淋巴瘤中 EBV 感染最常见于",
-            "讲义要点：经典型霍奇金淋巴瘤中，淋巴细胞减少型的 EBV 感染率最高，可接近 100%，且常与 HIV 感染相关。",
-            "讲义要点：②为淋巴细胞呈递抗原",
-            "讲义要点：（2）间质：结缔组织/成纤维细胞、血管/内皮细胞、淋巴细胞、巨噬细胞（凌晨内噬）",
-            "易混项：A. 结节性淋巴细胞为主型；B. 结节硬化型；C. 混合细胞型"
+            "经典型霍奇金淋巴瘤与EBV有关，但各亚型关联程度不同。",
+            "淋巴细胞减少型预后较差；结节性淋巴细胞为主型预后较好。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-26",
+              "sourceSubject": "med",
+              "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 35,
+              "title": "内科含诊断+病理 淋巴瘤 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/med-83be2318b0-p005.webp",
+              "questionNumbers": [
+                127
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "典型RS细胞可为双核镜影细胞，爆米花细胞见于结节性淋巴细胞为主型。",
+                "经典型霍奇金淋巴瘤有典型RS细胞及混合炎细胞背景。"
+              ]
+            },
+            {
+              "lectureId": "foundation-pathology-26",
+              "sourceSubject": "med",
+              "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 6,
+              "pageLabel": "PDF第6页",
+              "lectureNumber": 35,
+              "title": "内科含诊断+病理 淋巴瘤 · 第6页",
+              "image": "exams/reviewed-mocks-20261104/med-83be2318b0-p006.webp",
+              "questionNumbers": [
+                127
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "经典型霍奇金淋巴瘤的各组织学亚型在背景细胞与EBV关联上不同。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 肿瘤",
-        "经典型霍奇金淋巴瘤中，淋巴细胞减少型的 EBV 感染率最高，可接近 100%，且常与 HIV 感染相关。",
-        "②为淋巴细胞呈递抗原",
-        "（2）间质：结缔组织/成纤维细胞、血管/内皮细胞、淋巴细胞、巨噬细胞（凌晨内噬）",
-        "（2）淋巴瘤：白细胞分化抗原 CD、扁豆素 LCA（淋巴结肿大像扁豆一样）"
+        "按本卷与讲义的分型归纳，EBV感染最常见于淋巴细胞减少型，选D。",
+        "经典型霍奇金淋巴瘤与EBV有关，但各亚型关联程度不同。",
+        "淋巴细胞减少型预后较差；结节性淋巴细胞为主型预后较好。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-26",
-        "sourceSubject": "pathology",
-        "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 20,
-        "pageLabel": "PDF第20页",
-        "title": "病理 肿瘤 · 第20页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p20.webp",
-        "description": "第127题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "②为淋巴细胞呈递抗原"
-        ],
+        "sourceSubject": "med",
+        "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 5,
+        "pageLabel": "PDF第5页",
+        "lectureNumber": 35,
+        "title": "内科含诊断+病理 淋巴瘤 · 第5页",
+        "image": "exams/reviewed-mocks-20261104/med-83be2318b0-p005.webp",
         "questionNumbers": [
           127
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "典型RS细胞可为双核镜影细胞，爆米花细胞见于结节性淋巴细胞为主型。",
+          "经典型霍奇金淋巴瘤有典型RS细胞及混合炎细胞背景。"
         ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "foundation-pathology-26",
-          "sourceSubject": "pathology",
-          "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 20,
-          "pageLabel": "PDF第20页",
-          "title": "病理 肿瘤 · 第20页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p20.webp",
-          "description": "第127题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "②为淋巴细胞呈递抗原"
-          ],
+          "sourceSubject": "med",
+          "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 5,
+          "pageLabel": "PDF第5页",
+          "lectureNumber": 35,
+          "title": "内科含诊断+病理 淋巴瘤 · 第5页",
+          "image": "exams/reviewed-mocks-20261104/med-83be2318b0-p005.webp",
           "questionNumbers": [
             127
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "典型RS细胞可为双核镜影细胞，爆米花细胞见于结节性淋巴细胞为主型。",
+            "经典型霍奇金淋巴瘤有典型RS细胞及混合炎细胞背景。"
           ]
         },
         {
           "lectureId": "foundation-pathology-26",
-          "sourceSubject": "pathology",
-          "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
-          "title": "病理 肿瘤 · 第1页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-26-p01.webp",
-          "description": "第127题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "（2）间质：结缔组织/成纤维细胞、血管/内皮细胞、淋巴细胞、巨噬细胞（凌晨内噬）"
-          ],
+          "sourceSubject": "med",
+          "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "lectureNumber": 35,
+          "title": "内科含诊断+病理 淋巴瘤 · 第6页",
+          "image": "exams/reviewed-mocks-20261104/med-83be2318b0-p006.webp",
           "questionNumbers": [
             127
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "经典型霍奇金淋巴瘤的各组织学亚型在背景细胞与EBV关联上不同。"
           ]
         }
       ]
@@ -1974,22 +2253,36 @@
           "answerMode": "多选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-23",
-          "explanation": "正确答案：AD（Barrett 食管；胃黏膜上皮转变为肠黏膜上皮）。\n\n判断思路：本题为多选题，应按同一讲义判据逐项判断，不能因为某项表述熟悉就漏选。关键线索是：下列属于柱状上皮化生的有。讲义依据：/Ⅱb 型大 2B），慢支炎的黏液腺化生（浆液性腺上皮化生为黏液性腺上皮） ，Barrett 食管和；食管腺癌（胃食管反流病致食管下段鳞状上皮化生为柱状上皮、需定期接受胃镜复查）。因此答案为AD（Barrett 食管；胃黏膜上皮转变为肠黏膜上皮）。",
+          "explanation": "正确答案：AD。\n\nBarrett食管是下段食管鳞状上皮被柱状上皮取代；胃肠化生是胃上皮向肠型柱状上皮转变，故选AD。B宫颈糜烂样改变是柱状上皮外移，不能直接算作化生；C结石刺激常引起鳞状上皮化生。",
           "knowledgeConnections": [
-            "题干线索：下列属于柱状上皮化生的有",
-            "讲义要点：/Ⅱb 型大 2B），慢支炎的黏液腺化生（浆液性腺上皮化生为黏液性腺上皮） ，Barrett 食管和",
-            "讲义要点：食管腺癌（胃食管反流病致食管下段鳞状上皮化生为柱状上皮、需定期接受胃镜复查）",
-            "讲义要点：①鳞状上皮化生最常见：如吸烟、慢支炎、支扩致支气管鳞化（支气管柱状上皮化生为鳞",
-            "易混项：B. 慢性宫颈炎形成的子宫颈糜烂；C. 肝胆结石时发生的化生"
+            "化生是成熟细胞类型被另一成熟细胞类型取代。",
+            "宫颈柱状上皮外移、上皮异型增生与化生是不同概念。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-23",
+              "sourceSubject": "pathology",
+              "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 23,
+              "title": "病理 适应和损伤 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p005.webp",
+              "questionNumbers": [
+                148
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "Barrett食管是下段食管鳞状上皮被柱状上皮取代；胃肠化生是胃上皮向肠型柱状上皮转变，故选AD。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 适应和损伤",
-        "/Ⅱb 型大 2B），慢支炎的黏液腺化生（浆液性腺上皮化生为黏液性腺上皮） ，Barrett 食管和",
-        "食管腺癌（胃食管反流病致食管下段鳞状上皮化生为柱状上皮、需定期接受胃镜复查）",
-        "①鳞状上皮化生最常见：如吸烟、慢支炎、支扩致支气管鳞化（支气管柱状上皮化生为鳞",
-        "1.一种分化成熟的细胞组织转变为"
+        "Barrett食管是下段食管鳞状上皮被柱状上皮取代；胃肠化生是胃上皮向肠型柱状上皮转变，故选AD。",
+        "化生是成熟细胞类型被另一成熟细胞类型取代。",
+        "宫颈柱状上皮外移、上皮异型增生与化生是不同概念。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-23",
@@ -1997,16 +2290,15 @@
         "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
         "page": 5,
         "pageLabel": "PDF第5页",
+        "lectureNumber": 23,
         "title": "病理 适应和损伤 · 第5页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-23-p05.webp",
-        "description": "第148题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "/Ⅱb 型大 2B），慢支炎的黏液腺化生（浆液性腺上皮化生为黏液性腺上皮） ，Barrett 食管和",
-          "食管腺癌（胃食管反流病致食管下段鳞状上皮化生为柱状上皮、需定期接受胃镜复查）",
-          "①鳞状上皮化生最常见：如吸烟、慢支炎、支扩致支气管鳞化（支气管柱状上皮化生为鳞"
-        ],
+        "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p005.webp",
         "questionNumbers": [
           148
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "Barrett食管是下段食管鳞状上皮被柱状上皮取代；胃肠化生是胃上皮向肠型柱状上皮转变，故选AD。"
         ]
       },
       "lectureEvidencePages": [
@@ -2016,16 +2308,15 @@
           "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
           "page": 5,
           "pageLabel": "PDF第5页",
+          "lectureNumber": 23,
           "title": "病理 适应和损伤 · 第5页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-23-p05.webp",
-          "description": "第148题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "/Ⅱb 型大 2B），慢支炎的黏液腺化生（浆液性腺上皮化生为黏液性腺上皮） ，Barrett 食管和",
-            "食管腺癌（胃食管反流病致食管下段鳞状上皮化生为柱状上皮、需定期接受胃镜复查）",
-            "①鳞状上皮化生最常见：如吸烟、慢支炎、支扩致支气管鳞化（支气管柱状上皮化生为鳞"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p005.webp",
           "questionNumbers": [
             148
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "Barrett食管是下段食管鳞状上皮被柱状上皮取代；胃肠化生是胃上皮向肠型柱状上皮转变，故选AD。"
           ]
         }
       ]
@@ -2089,22 +2380,72 @@
           "answerMode": "多选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-23",
-          "explanation": "正确答案：ACD（子宫内膜异位症患者卵巢的巧克力囊肿；蛋白尿患者肾近端小管细胞的玻璃样小体；营养耗竭性患者 萎缩的心肌细胞）。\n\n判断思路：含铁血黄素、近端小管玻璃样小滴和脂褐素均与溶酶体消化/自噬有关；胆汁性肝硬化羽毛状变是胆色素/胆盐淤积损伤。",
+          "explanation": "正确答案：ACD。\n\nA陈旧出血形成的含铁血黄素由巨噬细胞溶酶体分解血红蛋白产生；C近端小管重吸收蛋白与溶酶体融合形成玻璃样小体；D萎缩细胞内自噬溶酶体残体形成脂褐素，故选ACD。B羽毛状变性主要与胆汁淤积损伤有关。",
           "knowledgeConnections": [
-            "题干线索：与溶酶体关系密切的病变包括",
-            "讲义要点：含铁血黄素、近端小管玻璃样小滴和脂褐素均与溶酶体消化/自噬有关；胆汁性肝硬化羽毛状变是胆色素/胆盐淤积损伤。",
-            "讲义要点：②在老年人和营养耗竭性患者，萎缩的心肌细胞、肝细胞核周围有大量脂褐素，是细胞以",
-            "讲义要点：淤血、出血、溶血） 正常情况见于肝、脾、淋巴结、骨髓肺泡腔内的心衰细胞（含有含铁血黄素的巨噬细胞） ：慢性左心衰致慢性肺淤血（肺褐色硬化）：肺静脉端毛细血管静水压和通透性↑、破裂→红细胞漏出至肺泡腔内大叶性肺炎的铁锈色痰、陈旧性出血（如子宫内膜异位症致卵巢巧克力囊肿） 阵发性睡眠性血红蛋白尿 PNH 的含铁血黄素尿（尿 Rous 试验阳性）",
-            "易混项：B. 胆汁性肝硬化患者羽毛状变性的肝细胞"
+            "含铁血黄素对应血红蛋白分解，脂褐素对应自噬残体。",
+            "肾小管玻璃样小体是细胞内蛋白蓄积，不是间质淀粉样变。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-23",
+              "sourceSubject": "pathology",
+              "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 23,
+              "title": "病理 适应和损伤 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p003.webp",
+              "questionNumbers": [
+                149
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "脂褐素来自自噬溶酶体未被彻底消化的残体，常见于萎缩的心肌和肝细胞。"
+              ]
+            },
+            {
+              "lectureId": "foundation-pathology-23",
+              "sourceSubject": "pathology",
+              "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 7,
+              "pageLabel": "PDF第7页",
+              "lectureNumber": 23,
+              "title": "病理 适应和损伤 · 第7页",
+              "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p007.webp",
+              "questionNumbers": [
+                149
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "肾近端小管重吸收蛋白与溶酶体融合形成玻璃样小体。",
+                "淀粉样变为间质内淀粉样蛋白和黏多糖沉积。"
+              ]
+            },
+            {
+              "lectureId": "foundation-pathology-23",
+              "sourceSubject": "pathology",
+              "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 8,
+              "pageLabel": "PDF第8页",
+              "lectureNumber": 23,
+              "title": "病理 适应和损伤 · 第8页",
+              "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p008.webp",
+              "questionNumbers": [
+                149
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "含铁血黄素来自巨噬细胞溶酶体分解血红蛋白。",
+                "陈旧出血和溶血性疾病可出现含铁血黄素沉着。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 适应和损伤",
-        "含铁血黄素、近端小管玻璃样小滴和脂褐素均与溶酶体消化/自噬有关；胆汁性肝硬化羽毛状变是胆色素/胆盐淤积损伤。",
-        "②在老年人和营养耗竭性患者，萎缩的心肌细胞、肝细胞核周围有大量脂褐素，是细胞以",
-        "淤血、出血、溶血） 正常情况见于肝、脾、淋巴结、骨髓肺泡腔内的心衰细胞（含有含铁血黄素的巨噬细胞） ：慢性左心衰致慢性肺淤血（肺褐色硬化）：肺静脉端毛细血管静水压和通透性↑、破裂→红细胞漏出至肺泡腔内大叶性肺炎的铁锈色痰、陈旧性出血（如子宫内膜异位症致卵巢巧克力囊肿） 阵发性睡眠性血红蛋白尿 PNH 的含铁血黄素尿（尿 Rous 试验阳性）",
-        "③细胞内： 细胞定位蓄积物质意义重吸收/玻璃样小体/滴肾近端小管上皮细胞血浆蛋白（与溶酶体融合） 蛋白尿 Mallory 小体肝细胞酒干吗中间丝前角蛋白酒精肝 Rusell 小体浆细胞粗面内质网免疫球蛋白慢性炎症乳浆骨髓瘤"
+        "A陈旧出血形成的含铁血黄素由巨噬细胞溶酶体分解血红蛋白产生；C近端小管重吸收蛋白与溶酶体融合形成玻璃样小体；D萎缩细胞内自噬溶酶体残体形成脂褐素，故选ACD。",
+        "含铁血黄素对应血红蛋白分解，脂褐素对应自噬残体。",
+        "肾小管玻璃样小体是细胞内蛋白蓄积，不是间质淀粉样变。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-23",
@@ -2112,14 +2453,15 @@
         "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
         "page": 3,
         "pageLabel": "PDF第3页",
+        "lectureNumber": 23,
         "title": "病理 适应和损伤 · 第3页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-23-p03.webp",
-        "description": "第149题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "②在老年人和营养耗竭性患者，萎缩的心肌细胞、肝细胞核周围有大量脂褐素，是细胞以"
-        ],
+        "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p003.webp",
         "questionNumbers": [
           149
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "脂褐素来自自噬溶酶体未被彻底消化的残体，常见于萎缩的心肌和肝细胞。"
         ]
       },
       "lectureEvidencePages": [
@@ -2129,14 +2471,33 @@
           "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
           "page": 3,
           "pageLabel": "PDF第3页",
+          "lectureNumber": 23,
           "title": "病理 适应和损伤 · 第3页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-23-p03.webp",
-          "description": "第149题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "②在老年人和营养耗竭性患者，萎缩的心肌细胞、肝细胞核周围有大量脂褐素，是细胞以"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p003.webp",
           "questionNumbers": [
             149
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "脂褐素来自自噬溶酶体未被彻底消化的残体，常见于萎缩的心肌和肝细胞。"
+          ]
+        },
+        {
+          "lectureId": "foundation-pathology-23",
+          "sourceSubject": "pathology",
+          "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "lectureNumber": 23,
+          "title": "病理 适应和损伤 · 第7页",
+          "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p007.webp",
+          "questionNumbers": [
+            149
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "肾近端小管重吸收蛋白与溶酶体融合形成玻璃样小体。",
+            "淀粉样变为间质内淀粉样蛋白和黏多糖沉积。"
           ]
         },
         {
@@ -2145,15 +2506,16 @@
           "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
           "page": 8,
           "pageLabel": "PDF第8页",
+          "lectureNumber": 23,
           "title": "病理 适应和损伤 · 第8页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-23-p08.webp",
-          "description": "第149题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "淤血、出血、溶血） 正常情况见于肝、脾、淋巴结、骨髓肺泡腔内的心衰细胞（含有含铁血黄素的巨噬细胞） ：慢性左心衰致慢性肺淤血（肺褐色硬化）：肺静脉端毛细血管静水压和通透性↑、破裂→红细胞漏出至肺泡腔内大叶性肺炎的铁锈色痰、陈旧性出血（如子宫内膜异位症致卵巢巧克力囊肿） 阵发性睡眠性血红蛋白尿 PNH 的含铁血黄素尿（尿 Rous 试验阳性）",
-            "注意：与溶酶体有关的病变有脂褐素、玻璃样小滴、含铁血黄素"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p008.webp",
           "questionNumbers": [
             149
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "含铁血黄素来自巨噬细胞溶酶体分解血红蛋白。",
+            "陈旧出血和溶血性疾病可出现含铁血黄素沉着。"
           ]
         }
       ]
@@ -2217,22 +2579,36 @@
           "answerMode": "多选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-25",
-          "explanation": "正确答案：ACD（扩张血管；引起发热；引起疼痛）。\n\n判断思路：本题为多选题，应按同一讲义判据逐项判断，不能因为某项表述熟悉就漏选。关键线索是：前列腺素在炎症的发生发展中主要参与。讲义依据：五、炎症介质（由细胞、血浆释放） 血管扩张 C5a、C3a、PG、P 物质、组胺、缓激肽、NO （晚上皮皮煮红鸡蛋） 发热 PG、IL-1、TNF（PGone 惹老总） 疼痛缓激肽、PG、P 物质（缓解屁屁疼痛） 趋化因子 TNF、LTB4、细菌产物、C3a、C5a、IL-8、IL-1 （当老总后白细小三趋之若鹜不能自已） 组织损伤白细胞溶酶体酶、活性氧、NO 主动终止白细胞介素 10（IL-10） 、脂质素、转化生长因子 β（TGF-β） 急性炎症反应 （时钟自转）；（1）血流动力学改变：血管短暂收缩→血管扩张、血流加速→血流缓慢甚至淤滞。因此答案为ACD（扩张血管；引起发热；引起疼痛）。",
+          "explanation": "正确答案：ACD。\n\n前列腺素可扩血管、参与发热并使痛觉敏感，ACD正确。趋化主要与白三烯B4、C5a、细菌产物及趋化因子等有关，B不是前列腺素的主要作用。",
           "knowledgeConnections": [
-            "题干线索：前列腺素在炎症的发生发展中主要参与",
-            "讲义要点：五、炎症介质（由细胞、血浆释放） 血管扩张 C5a、C3a、PG、P 物质、组胺、缓激肽、NO （晚上皮皮煮红鸡蛋） 发热 PG、IL-1、TNF（PGone 惹老总） 疼痛缓激肽、PG、P 物质（缓解屁屁疼痛） 趋化因子 TNF、LTB4、细菌产物、C3a、C5a、IL-8、IL-1 （当老总后白细小三趋之若鹜不能自已） 组织损伤白细胞溶酶体酶、活性氧、NO 主动终止白细胞介素 10（IL-10） 、脂质素、转化生长因子 β（TGF-β） 急性炎症反应 （时钟自转）",
-            "讲义要点：（1）血流动力学改变：血管短暂收缩→血管扩张、血流加速→血流缓慢甚至淤滞",
-            "讲义要点：2.炎症的中心是血管反应",
-            "易混项：B. 趋化作用"
+            "PGE₂参与发热和痛觉敏化。",
+            "白三烯B4偏趋化，组胺偏血管扩张和通透性增加。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-25",
+              "sourceSubject": "pathology",
+              "sourceFile": "25 27考研：病理 炎症 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 7,
+              "pageLabel": "PDF第7页",
+              "lectureNumber": 25,
+              "title": "病理 炎症 · 第7页",
+              "image": "exams/reviewed-mocks-20261104/pathology-3c6a050127-p007.webp",
+              "questionNumbers": [
+                150
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "前列腺素可扩血管、参与发热并使痛觉敏感，ACD正确。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 炎症",
-        "五、炎症介质（由细胞、血浆释放） 血管扩张 C5a、C3a、PG、P 物质、组胺、缓激肽、NO （晚上皮皮煮红鸡蛋） 发热 PG、IL-1、TNF（PGone 惹老总） 疼痛缓激肽、PG、P 物质（缓解屁屁疼痛） 趋化因子 TNF、LTB4、细菌产物、C3a、C5a、IL-8、IL-1 （当老总后白细小三趋之若鹜不能自已） 组织损伤白细胞溶酶体酶、活性氧、NO 主动终止白细胞介素 10（IL-10） 、脂质素、转化生长因子 β（TGF-β） 急性炎症反应 （时钟自转）",
-        "（1）血流动力学改变：血管短暂收缩→血管扩张、血流加速→血流缓慢甚至淤滞",
-        "2.炎症的中心是血管反应",
-        "1.红（血管扩张充血） 、肿（炎性渗出物） 、热（局部和全身）、痛（渗出物压迫及炎症介质"
+        "前列腺素可扩血管、参与发热并使痛觉敏感，ACD正确。",
+        "PGE₂参与发热和痛觉敏化。",
+        "白三烯B4偏趋化，组胺偏血管扩张和通透性增加。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-25",
@@ -2240,14 +2616,15 @@
         "sourceFile": "25 27考研：病理 炎症 核心-真题-串联-导图 天天师兄.pdf",
         "page": 7,
         "pageLabel": "PDF第7页",
+        "lectureNumber": 25,
         "title": "病理 炎症 · 第7页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-25-p07.webp",
-        "description": "第150题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "五、炎症介质（由细胞、血浆释放） 血管扩张 C5a、C3a、PG、P 物质、组胺、缓激肽、NO （晚上皮皮煮红鸡蛋） 发热 PG、IL-1、TNF（PGone 惹老总） 疼痛缓激肽、PG、P 物质（缓解屁屁疼痛） 趋化因子 TNF、LTB4、细菌产物、C3a、C5a、IL-8、IL-1 （当老总后白细小三趋之若鹜不能自已） 组织损伤白细胞溶酶体酶、活性氧、NO 主动终止白细胞介素 10（IL-10） 、脂质素、转化生长因子 β（TGF-β） 急性炎症反应 （时钟自转）"
-        ],
+        "image": "exams/reviewed-mocks-20261104/pathology-3c6a050127-p007.webp",
         "questionNumbers": [
           150
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "前列腺素可扩血管、参与发热并使痛觉敏感，ACD正确。"
         ]
       },
       "lectureEvidencePages": [
@@ -2257,31 +2634,15 @@
           "sourceFile": "25 27考研：病理 炎症 核心-真题-串联-导图 天天师兄.pdf",
           "page": 7,
           "pageLabel": "PDF第7页",
+          "lectureNumber": 25,
           "title": "病理 炎症 · 第7页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-25-p07.webp",
-          "description": "第150题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "五、炎症介质（由细胞、血浆释放） 血管扩张 C5a、C3a、PG、P 物质、组胺、缓激肽、NO （晚上皮皮煮红鸡蛋） 发热 PG、IL-1、TNF（PGone 惹老总） 疼痛缓激肽、PG、P 物质（缓解屁屁疼痛） 趋化因子 TNF、LTB4、细菌产物、C3a、C5a、IL-8、IL-1 （当老总后白细小三趋之若鹜不能自已） 组织损伤白细胞溶酶体酶、活性氧、NO 主动终止白细胞介素 10（IL-10） 、脂质素、转化生长因子 β（TGF-β） 急性炎症反应 （时钟自转）"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-3c6a050127-p007.webp",
           "questionNumbers": [
             150
-          ]
-        },
-        {
-          "lectureId": "foundation-pathology-25",
-          "sourceSubject": "pathology",
-          "sourceFile": "25 27考研：病理 炎症 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
-          "title": "病理 炎症 · 第2页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-25-p02.webp",
-          "description": "第150题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "（1）血流动力学改变：血管短暂收缩→血管扩张、血流加速→血流缓慢甚至淤滞",
-            "2.炎症的中心是血管反应"
           ],
-          "questionNumbers": [
-            150
+          "optionKeys": [],
+          "knowledgePoints": [
+            "前列腺素可扩血管、参与发热并使痛觉敏感，ACD正确。"
           ]
         }
       ]
@@ -2345,22 +2706,55 @@
           "answerMode": "多选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-03",
-          "explanation": "正确答案：ACD（结节直径一般在 3mm 以下，纤维间隔较细；假小叶内的中央静脉缺如、偏位、两个以上；再生的肝细胞体积大，有双核、核大、深染）。\n\n判断思路：小结节性肝硬化的结节通常不超过 3 mm，纤维间隔较细；假小叶中央静脉可缺如、偏位或出现两个以上，再生肝细胞可体积增大、双核、核大深染。",
+          "explanation": "正确答案：ACD。\n\nA小结节性肝硬化肉眼再生结节多≤3mm、大小相仿、纤维间隔细；C假小叶中央静脉可缺如、偏位或多于一个；D再生肝细胞可体积大、核大深染、双核，均正确。B错在“假小叶大小相仿”：讲义明确区分肉眼再生结节与镜下假小叶，假小叶大小不等；“肝细胞排列紊乱”本身符合讲义，不能将它当作B的错误依据。",
           "knowledgeConnections": [
-            "题干线索：下列符合小结节性肝硬化特点描述的是",
-            "讲义要点：小结节性肝硬化的结节通常不超过 3 mm，纤维间隔较细；假小叶中央静脉可缺如、偏位或出现两个以上，再生肝细胞可体积增大、双核、核大深染。",
-            "讲义要点：②中央静脉常缺如、偏位、或两个以上",
-            "讲义要点：1.小结节性/门脉性肝硬化/酒精性肝硬化：再生结节多≤3mm、大小相仿，纤维间隔细，并",
-            "易混项：B. 假小叶大小相仿，其内肝细胞排列紊乱"
+            "肉眼再生结节：小结节性可大小相仿，大结节性常大小不等。",
+            "镜下假小叶：大小不等、肝细胞索排列紊乱、中央静脉位置及数量异常。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-03",
+              "sourceSubject": "pathology",
+              "sourceFile": "03 27考研：病理 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 3,
+              "title": "病理 肝硬化 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/pathology-30fafa58f1-p002.webp",
+              "questionNumbers": [
+                151
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "假小叶大小不等、肝细胞索排列紊乱，中央静脉可缺如、偏位或多个。",
+                "胆汁、淤血及血吸虫性肝纤维化少有肝细胞再生结节与假小叶。"
+              ]
+            },
+            {
+              "lectureId": "foundation-pathology-03",
+              "sourceSubject": "pathology",
+              "sourceFile": "03 27考研：病理 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 3,
+              "title": "病理 肝硬化 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/pathology-30fafa58f1-p003.webp",
+              "questionNumbers": [
+                151
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "小结节性肝硬化的肉眼再生结节多≤3mm、大小相仿，纤维间隔细。",
+                "肉眼再生结节不能与镜下假小叶混为一谈。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 肝硬化",
-        "小结节性肝硬化的结节通常不超过 3 mm，纤维间隔较细；假小叶中央静脉可缺如、偏位或出现两个以上，再生肝细胞可体积增大、双核、核大深染。",
-        "②中央静脉常缺如、偏位、或两个以上",
-        "1.小结节性/门脉性肝硬化/酒精性肝硬化：再生结节多≤3mm、大小相仿，纤维间隔细，并",
-        "④肝细胞索排列紊乱，肝细胞变性坏死、结节状再生（体积大、核大深染、有时见双核"
+        "A小结节性肝硬化肉眼再生结节多≤3mm、大小相仿、纤维间隔细；C假小叶中央静脉可缺如、偏位或多于一个；D再生肝细胞可体积大、核大深染、双核，均正确。",
+        "肉眼再生结节：小结节性可大小相仿，大结节性常大小不等。",
+        "镜下假小叶：大小不等、肝细胞索排列紊乱、中央静脉位置及数量异常。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-03",
@@ -2368,15 +2762,16 @@
         "sourceFile": "03 27考研：病理 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
         "page": 2,
         "pageLabel": "PDF第2页",
+        "lectureNumber": 3,
         "title": "病理 肝硬化 · 第2页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-03-p02.webp",
-        "description": "第151题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "②中央静脉常缺如、偏位、或两个以上",
-          "④肝细胞索排列紊乱，肝细胞变性坏死、结节状再生（体积大、核大深染、有时见双核"
-        ],
+        "image": "exams/reviewed-mocks-20261104/pathology-30fafa58f1-p002.webp",
         "questionNumbers": [
           151
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "假小叶大小不等、肝细胞索排列紊乱，中央静脉可缺如、偏位或多个。",
+          "胆汁、淤血及血吸虫性肝纤维化少有肝细胞再生结节与假小叶。"
         ]
       },
       "lectureEvidencePages": [
@@ -2386,15 +2781,16 @@
           "sourceFile": "03 27考研：病理 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
+          "lectureNumber": 3,
           "title": "病理 肝硬化 · 第2页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-03-p02.webp",
-          "description": "第151题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "②中央静脉常缺如、偏位、或两个以上",
-            "④肝细胞索排列紊乱，肝细胞变性坏死、结节状再生（体积大、核大深染、有时见双核"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-30fafa58f1-p002.webp",
           "questionNumbers": [
             151
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "假小叶大小不等、肝细胞索排列紊乱，中央静脉可缺如、偏位或多个。",
+            "胆汁、淤血及血吸虫性肝纤维化少有肝细胞再生结节与假小叶。"
           ]
         },
         {
@@ -2403,15 +2799,16 @@
           "sourceFile": "03 27考研：病理 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
           "page": 3,
           "pageLabel": "PDF第3页",
+          "lectureNumber": 3,
           "title": "病理 肝硬化 · 第3页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-03-p03.webp",
-          "description": "第151题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "1.小结节性/门脉性肝硬化/酒精性肝硬化：再生结节多≤3mm、大小相仿，纤维间隔细，并",
-            "可以相仿（小结节性肝硬化）"
-          ],
+          "image": "exams/reviewed-mocks-20261104/pathology-30fafa58f1-p003.webp",
           "questionNumbers": [
             151
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "小结节性肝硬化的肉眼再生结节多≤3mm、大小相仿，纤维间隔细。",
+            "肉眼再生结节不能与镜下假小叶混为一谈。"
           ]
         }
       ]
@@ -2475,74 +2872,70 @@
           "answerMode": "多选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-pathology-20",
-          "explanation": "正确答案：ABD（淋巴细胞几乎消失；见大量分枝杆菌；残留少许浆细胞）。\n\n判断思路：本题为多选题，应按同一讲义判据逐项判断，不能因为某项表述熟悉就漏选。关键线索是：符合 HIV 合并肺结核者的晚期淋巴组织病理变化是。讲义依据：①上皮样细胞/类上皮细胞（吞噬结核杆菌的单核-巨噬细胞）；洞壁分三层：内层（干酪样坏死物+大量结核杆菌） 、中层。因此答案为ABD（淋巴细胞几乎消失；见大量分枝杆菌；残留少许浆细胞）。",
+          "explanation": "正确答案：ABD。\n\nHIV晚期细胞免疫严重受损，淋巴组织中淋巴细胞大量减少，仅残留少许浆细胞、巨噬细胞；并发结核时可见大量分枝杆菌，故ABD正确。C需较完整细胞免疫形成的典型结核结节往往不明显。",
           "knowledgeConnections": [
-            "题干线索：符合 HIV 合并肺结核者的晚期淋巴组织病理变化是",
-            "讲义要点：①上皮样细胞/类上皮细胞（吞噬结核杆菌的单核-巨噬细胞）",
-            "讲义要点：洞壁分三层：内层（干酪样坏死物+大量结核杆菌） 、中层",
-            "讲义要点：2.炎症基本病理变化：变质、渗出、增生",
-            "易混项：C. 明显的结核结节"
+            "结核结节形成依赖T细胞介导免疫。",
+            "免疫极低下时菌量可多，而典型肉芽肿反应反而弱。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-pathology-20",
+              "sourceSubject": "pathology",
+              "sourceFile": "17 27考研：病理 免疫性疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 17,
+              "title": "病理 免疫性疾病 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/pathology-8f4f40d04d-p003.webp",
+              "questionNumbers": [
+                152
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "HIV晚期细胞免疫严重受损，淋巴组织中淋巴细胞大量减少，仅残留少许浆细胞、巨噬细胞；并发结核时可见大量分枝杆菌，故ABD正确。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：病理 结核",
-        "①上皮样细胞/类上皮细胞（吞噬结核杆菌的单核-巨噬细胞）",
-        "洞壁分三层：内层（干酪样坏死物+大量结核杆菌） 、中层",
-        "2.炎症基本病理变化：变质、渗出、增生",
-        "结核杆菌不产生毒素，其致病性/毒性依靠菌体细胞壁成分（脂类等）："
+        "HIV晚期细胞免疫严重受损，淋巴组织中淋巴细胞大量减少，仅残留少许浆细胞、巨噬细胞；并发结核时可见大量分枝杆菌，故ABD正确。",
+        "结核结节形成依赖T细胞介导免疫。",
+        "免疫极低下时菌量可多，而典型肉芽肿反应反而弱。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-pathology-20",
         "sourceSubject": "pathology",
-        "sourceFile": "20 27考研：病理 结核 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 1,
-        "pageLabel": "PDF第1页",
-        "title": "病理 结核 · 第1页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-pathology-20-p01.webp",
-        "description": "第152题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "①上皮样细胞/类上皮细胞（吞噬结核杆菌的单核-巨噬细胞）",
-          "2.炎症基本病理变化：变质、渗出、增生",
-          "结核杆菌不产生毒素，其致病性/毒性依靠菌体细胞壁成分（脂类等）："
-        ],
+        "sourceFile": "17 27考研：病理 免疫性疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 3,
+        "pageLabel": "PDF第3页",
+        "lectureNumber": 17,
+        "title": "病理 免疫性疾病 · 第3页",
+        "image": "exams/reviewed-mocks-20261104/pathology-8f4f40d04d-p003.webp",
         "questionNumbers": [
           152
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "HIV晚期细胞免疫严重受损，淋巴组织中淋巴细胞大量减少，仅残留少许浆细胞、巨噬细胞；并发结核时可见大量分枝杆菌，故ABD正确。"
         ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "foundation-pathology-20",
           "sourceSubject": "pathology",
-          "sourceFile": "20 27考研：病理 结核 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
-          "title": "病理 结核 · 第1页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-20-p01.webp",
-          "description": "第152题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "①上皮样细胞/类上皮细胞（吞噬结核杆菌的单核-巨噬细胞）",
-            "2.炎症基本病理变化：变质、渗出、增生",
-            "结核杆菌不产生毒素，其致病性/毒性依靠菌体细胞壁成分（脂类等）："
-          ],
+          "sourceFile": "17 27考研：病理 免疫性疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "lectureNumber": 17,
+          "title": "病理 免疫性疾病 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/pathology-8f4f40d04d-p003.webp",
           "questionNumbers": [
             152
-          ]
-        },
-        {
-          "lectureId": "foundation-pathology-20",
-          "sourceSubject": "pathology",
-          "sourceFile": "20 27考研：病理 结核 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 4,
-          "pageLabel": "PDF第4页",
-          "title": "病理 结核 · 第4页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-pathology-20-p04.webp",
-          "description": "第152题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "洞壁分三层：内层（干酪样坏死物+大量结核杆菌） 、中层"
           ],
-          "questionNumbers": [
-            152
+          "optionKeys": [],
+          "knowledgePoints": [
+            "HIV晚期细胞免疫严重受损，淋巴组织中淋巴细胞大量减少，仅残留少许浆细胞、巨噬细胞；并发结核时可见大量分枝杆菌，故ABD正确。"
           ]
         }
       ]
@@ -2606,76 +2999,74 @@
           "answerMode": "多选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-med-25",
-          "explanation": "正确答案：ABD（不规则瘢痕；肾小管“甲状腺化”；细小动脉壁玻璃样变性）。\n\n判断思路：本题为多选题，应按同一讲义判据逐项判断，不能因为某项表述熟悉就漏选。关键线索是：慢性肾盂肾炎可出现的病变有。讲义依据：4.静脉肾盂/尿路造影 IVP/IVU（慢性肾盂肾炎的金标准）；六、慢性肾盂肾炎 （1）慢性病程（＞半年） ，肾区叩痛，反复的尿菌培养阳性。因此答案为ABD（不规则瘢痕；肾小管“甲状腺化”；细小动脉壁玻璃样变性）。",
+          "explanation": "正确答案：ABD。\n\n慢性肾盂肾炎的间质炎症、纤维化使肾表面形成不规则瘢痕，萎缩肾小管内胶样管型呈甲状腺化，并可继发细小动脉玻璃样变，ABD正确。C颗粒性固缩肾主要见于高血压或慢性肾小球病，不是本病典型外观。",
           "knowledgeConnections": [
-            "题干线索：慢性肾盂肾炎可出现的病变有",
-            "讲义要点：4.静脉肾盂/尿路造影 IVP/IVU（慢性肾盂肾炎的金标准）",
-            "讲义要点：六、慢性肾盂肾炎 （1）慢性病程（＞半年） ，肾区叩痛，反复的尿菌培养阳性",
-            "讲义要点：5.多见于肾盂肾炎的检查：血白细胞和 C 反应蛋白升高、血液细菌培养阳性、白细胞管型、尿 N-乙酰氨基葡萄糖苷酶 NAG↑、尿 β2-微球蛋白 β2-MG↑、输尿管导尿或膀胱冲洗后尿培养阳性、小管功能受损如尿比重和渗透压↓",
-            "易混项：C. 颗粒性固缩肾"
+            "慢性肾盂肾炎以肾盂、肾间质和肾小管病变为主。",
+            "不规则瘢痕伴肾盂肾盏变形，与对称细颗粒固缩肾鉴别。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "foundation-med-25",
+              "sourceSubject": "med",
+              "sourceFile": "27跟课版内科合集【带导图】.pdf",
+              "page": 180,
+              "pageLabel": "PDF第180页",
+              "lectureNumber": 27,
+              "title": "27跟课版内科合集【带导图】 · 第180页",
+              "image": "exams/reviewed-mocks-20261104/med-0827b558e5-p180.webp",
+              "questionNumbers": [
+                153
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "慢性肾盂肾炎可出现肾外形不规则瘢痕、肾盂肾盏变形及不对称改变。"
+              ]
+            }
           ]
         }
       ],
       "lectureSummary": [
-        "模块：内科 尿路感染",
-        "4.静脉肾盂/尿路造影 IVP/IVU（慢性肾盂肾炎的金标准）",
-        "六、慢性肾盂肾炎 （1）慢性病程（＞半年） ，肾区叩痛，反复的尿菌培养阳性",
-        "5.多见于肾盂肾炎的检查：血白细胞和 C 反应蛋白升高、血液细菌培养阳性、白细胞管型、尿 N-乙酰氨基葡萄糖苷酶 NAG↑、尿 β2-微球蛋白 β2-MG↑、输尿管导尿或膀胱冲洗后尿培养阳性、小管功能受损如尿比重和渗透压↓",
-        "（4）持续的小管功能损害 ①浓缩功能下降：夜尿多、尿比重和渗透压↓ ②分泌功能下降：肾小管酸中毒、尿酚红排泄试验 PSP↓"
+        "慢性肾盂肾炎的间质炎症、纤维化使肾表面形成不规则瘢痕，萎缩肾小管内胶样管型呈甲状腺化，并可继发细小动脉玻璃样变，ABD正确。",
+        "慢性肾盂肾炎以肾盂、肾间质和肾小管病变为主。",
+        "不规则瘢痕伴肾盂肾盏变形，与对称细颗粒固缩肾鉴别。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-med-25",
         "sourceSubject": "med",
-        "sourceFile": "25 27考研：内科 尿路感染 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 2,
-        "pageLabel": "PDF第2页",
-        "title": "内科 尿路感染 · 第2页",
-        "image": "exams/foundation-mock-exam-20260907/lecture-med-25-p02.webp",
-        "description": "第153题对应的讲义核心精讲原页。",
-        "knowledgePoints": [
-          "4.静脉肾盂/尿路造影 IVP/IVU（慢性肾盂肾炎的金标准）",
-          "5.多见于肾盂肾炎的检查：血白细胞和 C 反应蛋白升高、血液细菌培养阳性、白细胞管型、尿 N-乙酰氨基葡萄糖苷酶 NAG↑、尿 β2-微球蛋白 β2-MG↑、输尿管导尿或膀胱冲洗后尿培养阳性、小管功能受损如尿比重和渗透压↓"
-        ],
+        "sourceFile": "27跟课版内科合集【带导图】.pdf",
+        "page": 180,
+        "pageLabel": "PDF第180页",
+        "lectureNumber": 27,
+        "title": "27跟课版内科合集【带导图】 · 第180页",
+        "image": "exams/reviewed-mocks-20261104/med-0827b558e5-p180.webp",
         "questionNumbers": [
           153
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "慢性肾盂肾炎可出现肾外形不规则瘢痕、肾盂肾盏变形及不对称改变。"
         ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "foundation-med-25",
           "sourceSubject": "med",
-          "sourceFile": "25 27考研：内科 尿路感染 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
-          "title": "内科 尿路感染 · 第2页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-med-25-p02.webp",
-          "description": "第153题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "4.静脉肾盂/尿路造影 IVP/IVU（慢性肾盂肾炎的金标准）",
-            "5.多见于肾盂肾炎的检查：血白细胞和 C 反应蛋白升高、血液细菌培养阳性、白细胞管型、尿 N-乙酰氨基葡萄糖苷酶 NAG↑、尿 β2-微球蛋白 β2-MG↑、输尿管导尿或膀胱冲洗后尿培养阳性、小管功能受损如尿比重和渗透压↓"
-          ],
+          "sourceFile": "27跟课版内科合集【带导图】.pdf",
+          "page": 180,
+          "pageLabel": "PDF第180页",
+          "lectureNumber": 27,
+          "title": "27跟课版内科合集【带导图】 · 第180页",
+          "image": "exams/reviewed-mocks-20261104/med-0827b558e5-p180.webp",
           "questionNumbers": [
             153
-          ]
-        },
-        {
-          "lectureId": "foundation-med-25",
-          "sourceSubject": "med",
-          "sourceFile": "25 27考研：内科 尿路感染 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 3,
-          "pageLabel": "PDF第3页",
-          "title": "内科 尿路感染 · 第3页",
-          "image": "exams/foundation-mock-exam-20260907/lecture-med-25-p03.webp",
-          "description": "第153题对应的讲义核心精讲原页。",
-          "knowledgePoints": [
-            "六、慢性肾盂肾炎 （1）慢性病程（＞半年） ，肾区叩痛，反复的尿菌培养阳性",
-            "（4）持续的小管功能损害 ①浓缩功能下降：夜尿多、尿比重和渗透压↓ ②分泌功能下降：肾小管酸中毒、尿酚红排泄试验 PSP↓"
           ],
-          "questionNumbers": [
-            153
+          "optionKeys": [],
+          "knowledgePoints": [
+            "慢性肾盂肾炎可出现肾外形不规则瘢痕、肾盂肾盏变形及不对称改变。"
           ]
         }
-      ]
+      ],
+      "lectureEvidenceNotice": "本页可核对慢性肾盂肾炎的临床与形态特点；肾小管甲状腺化等镜下改变在解析中另行归纳。"
     }
   ],
   "pages": [],

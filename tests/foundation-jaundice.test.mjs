@@ -21,7 +21,8 @@ test('hereditary jaundice retains its original B answer and explains all four le
 
 test('the lecture opens the actual four-disease table and provides full per-question reference pages', () => {
   assert.equal(group.lectureEvidence.page, 2)
-  assert.match(group.lectureEvidence.image, /lecture-10-page-02/)
+  assert.equal(group.lectureEvidence.sourceFile, '10 27考研：生化 胆色素代谢 核心-真题-串联-导图 天天师兄.pdf')
+  assert.match(group.lectureEvidence.image, /reviewed-mocks-20261104\/biochemistry-[a-f0-9]+-p002\.webp/)
   assert.deepEqual(group.lectureEvidence.optionKeys, ['A', 'B', 'C', 'D'])
   assert.equal(group.lectureEvidencePages.length, 2)
   assert.deepEqual(group.stems[0].lectureEvidencePages, group.lectureEvidencePages)

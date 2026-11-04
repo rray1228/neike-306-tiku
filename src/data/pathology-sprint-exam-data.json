@@ -64,9 +64,29 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-23",
-          "explanation": "A：不选：实质与间质可同时增生，不能用“不同时”作一般规律。\nB：不选：部分肝切除后的肝细胞增生属于代偿性、生理性增生，不是病理性增生。\nC：不选：运动员骨骼肌肥大主要是肌纤维体积增大，不能据此认定成熟肌细胞数量增多。\nD：选：肿瘤性增殖失去正常调控，具有相对自主性；不同于受正常刺激调控的反应性增生。",
+          "explanation": "正确答案：D。\n\n肿瘤性增生失去正常调控、具有相对自主性，D正确。A增生可伴实质与间质共同增加；B部分肝切除后的代偿性增生为生理性；C成熟骨骼肌主要通过细胞体积增大而肥大。",
           "knowledgeConnections": [
-            "肥大是细胞变大，增生是细胞增多；肝、子宫等某些组织可二者并存，但不能把同样结论直接套到成熟骨骼肌。"
+            "肥大是细胞体积增加，增生是细胞数量增加。",
+            "代偿性增生仍受调控，肿瘤增生具有相对自主性。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-23",
+              "sourceSubject": "pathology",
+              "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 23,
+              "title": "病理 适应和损伤 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p004.webp",
+              "questionNumbers": [
+                29
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "肿瘤性增生失去正常调控、具有相对自主性，D正确。"
+              ]
+            }
           ]
         }
       ],
@@ -76,8 +96,16 @@
         "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
         "page": 4,
         "pageLabel": "PDF第4页",
-        "title": "病理学第23讲《病理 适应和损伤》",
-        "image": "exams/sprint-exam-20261021/lecture-030.webp"
+        "lectureNumber": 23,
+        "title": "病理 适应和损伤 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p004.webp",
+        "questionNumbers": [
+          29
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "肿瘤性增生失去正常调控、具有相对自主性，D正确。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -86,12 +114,25 @@
           "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
           "page": 4,
           "pageLabel": "PDF第4页",
-          "title": "病理学第23讲《病理 适应和损伤》",
-          "image": "exams/sprint-exam-20261021/lecture-030.webp"
+          "lectureNumber": 23,
+          "title": "病理 适应和损伤 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p004.webp",
+          "questionNumbers": [
+            29
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "肿瘤性增生失去正常调控、具有相对自主性，D正确。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "肿瘤性增生失去正常调控、具有相对自主性，D正确。",
+        "肥大是细胞体积增加，增生是细胞数量增加。",
+        "代偿性增生仍受调控，肿瘤增生具有相对自主性。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q030",
@@ -149,32 +190,75 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-23",
-          "explanation": "脂肪组织坏死后释放脂肪酸，与钙结合形成钙皂，即脂肪皂化。含铁血黄素与铁代谢、出血相关，不能替代钙皂。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C。\n\n脂肪坏死时脂肪分解释放脂肪酸，与钙结合形成钙皂，C正确。脂质小体不是本题的坏死产物；含铁血黄素对应血红蛋白分解；苏丹Ⅲ染色用于显示细胞内脂质，不能代替脂肪坏死后皂化的判断。",
+          "knowledgeConnections": [
+            "胰酶性脂肪坏死可形成灰白色钙皂。",
+            "脂肪变性是活细胞内甘油三酯蓄积，与脂肪坏死不同。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-23",
+              "sourceSubject": "pathology",
+              "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 10,
+              "pageLabel": "PDF第10页",
+              "lectureNumber": 23,
+              "title": "病理 适应和损伤 · 第10页",
+              "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p010.webp",
+              "questionNumbers": [
+                30
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "脂肪坏死可由胰酶作用或乳房外伤引起；酶解性脂肪坏死形成钙皂。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-23",
         "sourceSubject": "pathology",
         "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 18,
-        "pageLabel": "PDF第18页",
-        "title": "23 27考研：病理 适应和损伤",
-        "image": "exams/sprint-exam-20261021/lecture-031.webp"
+        "page": 10,
+        "pageLabel": "PDF第10页",
+        "lectureNumber": 23,
+        "title": "病理 适应和损伤 · 第10页",
+        "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p010.webp",
+        "questionNumbers": [
+          30
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "脂肪坏死可由胰酶作用或乳房外伤引起；酶解性脂肪坏死形成钙皂。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-23",
           "sourceSubject": "pathology",
           "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 18,
-          "pageLabel": "PDF第18页",
-          "title": "23 27考研：病理 适应和损伤",
-          "image": "exams/sprint-exam-20261021/lecture-031.webp"
+          "page": 10,
+          "pageLabel": "PDF第10页",
+          "lectureNumber": 23,
+          "title": "病理 适应和损伤 · 第10页",
+          "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p010.webp",
+          "questionNumbers": [
+            30
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "脂肪坏死可由胰酶作用或乳房外伤引起；酶解性脂肪坏死形成钙皂。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "脂肪坏死时脂肪分解释放脂肪酸，与钙结合形成钙皂，C正确。",
+        "胰酶性脂肪坏死可形成灰白色钙皂。",
+        "脂肪变性是活细胞内甘油三酯蓄积，与脂肪坏死不同。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q031",
@@ -232,9 +316,46 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-22",
-          "explanation": "A：选“不会出现”：静脉石是血栓营养不良性钙化的结果；题目按钙化结局与肉芽组织机化相区分。\nB：不选：心肌梗死后坏死心肌由肉芽组织逐步取代，最终形成纤维瘢痕。\nC：不选：红色血栓可以机化，新生毛细血管和成纤维细胞长入血栓，形成肉芽组织。\nD：不选：慢性脓肿周边可形成肉芽组织构成的脓肿膜，再逐渐纤维化；有脓不代表周围没有修复组织。",
+          "explanation": "正确答案：A。\n\n静脉石是血栓钙化的结果，一般不以肉芽组织形成作为该病变特征，A正确。心肌梗死靠肉芽组织机化后形成瘢痕；红色血栓可机化；脓肿壁可由肉芽组织构成。",
           "knowledgeConnections": [
-            "肉芽组织不是肉芽肿。前者是新生毛细血管、成纤维细胞等参与修复；后者是以巨噬细胞为核心的结节性炎症。"
+            "机化是肉芽组织长入并替代坏死物或血栓。",
+            "钙化与机化属于不同结局，可以发生在同一陈旧病灶中。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-22",
+              "sourceSubject": "pathology",
+              "sourceFile": "22 27考研：病理 损伤的修复 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 22,
+              "title": "病理 损伤的修复 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/pathology-14d162d15c-p002.webp",
+              "questionNumbers": [
+                31
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "机化是肉芽组织长入并替代坏死物或血栓。"
+              ]
+            },
+            {
+              "lectureId": "lecture-22",
+              "sourceSubject": "pathology",
+              "sourceFile": "22 27考研：病理 损伤的修复 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 22,
+              "title": "病理 损伤的修复 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/pathology-14d162d15c-p003.webp",
+              "questionNumbers": [
+                31
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "机化是肉芽组织长入并替代坏死物或血栓。"
+              ]
+            }
           ]
         }
       ],
@@ -244,8 +365,16 @@
         "sourceFile": "22 27考研：病理 损伤的修复 核心-真题-串联-导图 天天师兄.pdf",
         "page": 2,
         "pageLabel": "PDF第2页",
-        "title": "病理学第22讲《病理 损伤的修复》",
-        "image": "exams/sprint-exam-20261021/lecture-032.webp"
+        "lectureNumber": 22,
+        "title": "病理 损伤的修复 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/pathology-14d162d15c-p002.webp",
+        "questionNumbers": [
+          31
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "机化是肉芽组织长入并替代坏死物或血栓。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -254,30 +383,42 @@
           "sourceFile": "22 27考研：病理 损伤的修复 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
-          "title": "病理学第22讲《病理 损伤的修复》",
-          "image": "exams/sprint-exam-20261021/lecture-032.webp"
+          "lectureNumber": 22,
+          "title": "病理 损伤的修复 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/pathology-14d162d15c-p002.webp",
+          "questionNumbers": [
+            31
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "机化是肉芽组织长入并替代坏死物或血栓。"
+          ]
         },
         {
           "lectureId": "lecture-22",
           "sourceSubject": "pathology",
           "sourceFile": "22 27考研：病理 损伤的修复 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 4,
-          "pageLabel": "PDF第4页",
-          "title": "病理学第22讲《病理 损伤的修复》",
-          "image": "exams/sprint-exam-20261021/lecture-033.webp"
-        },
-        {
-          "lectureId": "lecture-22",
-          "sourceSubject": "pathology",
-          "sourceFile": "24 27考研：病理 局部血液循环障碍 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 4,
-          "pageLabel": "PDF第4页",
-          "title": "病理学第24讲《病理 局部血液循环障碍》",
-          "image": "exams/sprint-exam-20261021/lecture-034.webp"
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "lectureNumber": 22,
+          "title": "病理 损伤的修复 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/pathology-14d162d15c-p003.webp",
+          "questionNumbers": [
+            31
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "机化是肉芽组织长入并替代坏死物或血栓。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "静脉石是血栓钙化的结果，一般不以肉芽组织形成作为该病变特征，A正确。",
+        "机化是肉芽组织长入并替代坏死物或血栓。",
+        "钙化与机化属于不同结局，可以发生在同一陈旧病灶中。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q032",
@@ -335,32 +476,109 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-25",
-          "explanation": "炎症疼痛一方面来自渗出、肿胀对神经末梢的压迫，另一方面来自缓激肽、前列腺素等炎症介质的刺激或致敏，故选D。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：D。\n\n炎症渗出造成组织张力增加、压迫神经，缓激肽及前列腺素等介质刺激或敏化痛觉，D正确。A坏死、B充血可伴炎症但不是主要直接机制；C增生不是急性炎症疼痛的主要原因。",
+          "knowledgeConnections": [
+            "炎症局部表现为红、肿、热、痛及功能障碍。",
+            "缓激肽可致痛，PGE₂可增强痛觉敏感性。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-25",
+              "sourceSubject": "pathology",
+              "sourceFile": "25 27考研：病理 炎症 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 25,
+              "title": "病理 炎症 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/pathology-3c6a050127-p001.webp",
+              "questionNumbers": [
+                32
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "炎症局部表现为红、肿、热、痛及功能障碍。"
+              ]
+            },
+            {
+              "lectureId": "lecture-25",
+              "sourceSubject": "pathology",
+              "sourceFile": "25 27考研：病理 炎症 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 7,
+              "pageLabel": "PDF第7页",
+              "lectureNumber": 25,
+              "title": "病理 炎症 · 第7页",
+              "image": "exams/reviewed-mocks-20261104/pathology-3c6a050127-p007.webp",
+              "questionNumbers": [
+                32
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "炎症局部表现为红、肿、热、痛及功能障碍。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-25",
         "sourceSubject": "pathology",
         "sourceFile": "25 27考研：病理 炎症 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 3,
-        "pageLabel": "PDF第3页",
-        "title": "25 27考研：病理 炎症",
-        "image": "exams/sprint-exam-20261021/lecture-035.webp"
+        "page": 1,
+        "pageLabel": "PDF第1页",
+        "lectureNumber": 25,
+        "title": "病理 炎症 · 第1页",
+        "image": "exams/reviewed-mocks-20261104/pathology-3c6a050127-p001.webp",
+        "questionNumbers": [
+          32
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "炎症局部表现为红、肿、热、痛及功能障碍。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-25",
           "sourceSubject": "pathology",
           "sourceFile": "25 27考研：病理 炎症 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 3,
-          "pageLabel": "PDF第3页",
-          "title": "25 27考研：病理 炎症",
-          "image": "exams/sprint-exam-20261021/lecture-035.webp"
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "lectureNumber": 25,
+          "title": "病理 炎症 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/pathology-3c6a050127-p001.webp",
+          "questionNumbers": [
+            32
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "炎症局部表现为红、肿、热、痛及功能障碍。"
+          ]
+        },
+        {
+          "lectureId": "lecture-25",
+          "sourceSubject": "pathology",
+          "sourceFile": "25 27考研：病理 炎症 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "lectureNumber": 25,
+          "title": "病理 炎症 · 第7页",
+          "image": "exams/reviewed-mocks-20261104/pathology-3c6a050127-p007.webp",
+          "questionNumbers": [
+            32
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "炎症局部表现为红、肿、热、痛及功能障碍。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "炎症渗出造成组织张力增加、压迫神经，缓激肽及前列腺素等介质刺激或敏化痛觉，D正确。",
+        "炎症局部表现为红、肿、热、痛及功能障碍。",
+        "缓激肽可致痛，PGE₂可增强痛觉敏感性。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q033",
@@ -418,8 +636,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-17",
-          "explanation": "狼疮肾炎的典型活动性重症模式为弥漫增生性病变，伴大量免疫复合物沉积。系膜、膜性或局灶型亦可见，但本题按急性期典型病变取A，并非所有SLE急性期均固定一种肾炎分型。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：A。\n\n急性活动性狼疮肾炎可呈弥漫增生性病变，内皮下大量免疫复合物形成白金耳样改变，A正确。B、C、D也是可能的狼疮肾炎类型，但不能替代本题所问急性期特征。",
+          "knowledgeConnections": [
+            "内皮下免疫复合物沉积可引起毛细血管袢增厚。",
+            "苏木素小体是狼疮肾炎重要的特征性病理线索。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-17",
+              "sourceSubject": "pathology",
+              "sourceFile": "17 27考研：病理 免疫性疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 17,
+              "title": "病理 免疫性疾病 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/pathology-8f4f40d04d-p001.webp",
+              "questionNumbers": [
+                33
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "急性活动性狼疮肾炎可呈弥漫增生性病变，内皮下大量免疫复合物形成白金耳样改变，A正确。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -428,8 +668,16 @@
         "sourceFile": "17 27考研：病理 免疫性疾病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 1,
         "pageLabel": "PDF第1页",
-        "title": "17 27考研：病理 免疫性疾病",
-        "image": "exams/sprint-exam-20261021/lecture-036.webp"
+        "lectureNumber": 17,
+        "title": "病理 免疫性疾病 · 第1页",
+        "image": "exams/reviewed-mocks-20261104/pathology-8f4f40d04d-p001.webp",
+        "questionNumbers": [
+          33
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "急性活动性狼疮肾炎可呈弥漫增生性病变，内皮下大量免疫复合物形成白金耳样改变，A正确。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -438,12 +686,25 @@
           "sourceFile": "17 27考研：病理 免疫性疾病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 1,
           "pageLabel": "PDF第1页",
-          "title": "17 27考研：病理 免疫性疾病",
-          "image": "exams/sprint-exam-20261021/lecture-036.webp"
+          "lectureNumber": 17,
+          "title": "病理 免疫性疾病 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/pathology-8f4f40d04d-p001.webp",
+          "questionNumbers": [
+            33
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "急性活动性狼疮肾炎可呈弥漫增生性病变，内皮下大量免疫复合物形成白金耳样改变，A正确。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "急性活动性狼疮肾炎可呈弥漫增生性病变，内皮下大量免疫复合物形成白金耳样改变，A正确。",
+        "内皮下免疫复合物沉积可引起毛细血管袢增厚。",
+        "苏木素小体是狼疮肾炎重要的特征性病理线索。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q034",
@@ -501,9 +762,46 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-09",
-          "explanation": "A：应选：主动脉粥样硬化常好发于后壁及分支开口处，腹主动脉病变通常较重；A把后壁写成前壁。\nB：不选：冠状动脉病变常累及左前降支，斑块多在心壁侧，符合讲义。\nC：不选：颈内动脉起始部及大脑中动脉都是常见受累部位，并非排斥关系。\nD：不选：肾梗死后机化形成瘢痕，可产生较大的局部凹陷；与弥漫性细动脉病所致细颗粒肾表面要区分。",
+          "explanation": "正确答案：A。\n\n主动脉粥样硬化主要累及后壁及分支开口处，A的“前壁”错误。B左前降支心壁侧、C颈内动脉起始部和大脑中动脉、D肾梗死机化后的较大凹陷瘢痕均符合讲义。",
           "knowledgeConnections": [
-            "主动脉记后壁、分支口；冠脉记前降支、心壁侧；脑血管记大脑中动脉等。反选题在每项旁标“本身正确/错误”，最后只选错误项。"
+            "主动脉以腹主动脉病变最重。",
+            "冠脉以左前降支最常受累，肾梗死可留下不规则凹陷瘢痕。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-09",
+              "sourceSubject": "pathology",
+              "sourceFile": "09 27考研：病理 动脉粥样硬化 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 9,
+              "title": "病理 动脉粥样硬化 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/pathology-4f1fb1a59e-p004.webp",
+              "questionNumbers": [
+                34
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "主动脉以腹主动脉病变最重。"
+              ]
+            },
+            {
+              "lectureId": "lecture-09",
+              "sourceSubject": "pathology",
+              "sourceFile": "09 27考研：病理 动脉粥样硬化 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 9,
+              "title": "病理 动脉粥样硬化 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/pathology-4f1fb1a59e-p005.webp",
+              "questionNumbers": [
+                34
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "主动脉以腹主动脉病变最重。"
+              ]
+            }
           ]
         }
       ],
@@ -513,8 +811,16 @@
         "sourceFile": "09 27考研：病理 动脉粥样硬化 核心-真题-串联-导图 天天师兄.pdf",
         "page": 4,
         "pageLabel": "PDF第4页",
-        "title": "病理学第9讲《病理 动脉粥样硬化》",
-        "image": "exams/sprint-exam-20261021/lecture-037.webp"
+        "lectureNumber": 9,
+        "title": "病理 动脉粥样硬化 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/pathology-4f1fb1a59e-p004.webp",
+        "questionNumbers": [
+          34
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "主动脉以腹主动脉病变最重。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -523,8 +829,16 @@
           "sourceFile": "09 27考研：病理 动脉粥样硬化 核心-真题-串联-导图 天天师兄.pdf",
           "page": 4,
           "pageLabel": "PDF第4页",
-          "title": "病理学第9讲《病理 动脉粥样硬化》",
-          "image": "exams/sprint-exam-20261021/lecture-037.webp"
+          "lectureNumber": 9,
+          "title": "病理 动脉粥样硬化 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/pathology-4f1fb1a59e-p004.webp",
+          "questionNumbers": [
+            34
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "主动脉以腹主动脉病变最重。"
+          ]
         },
         {
           "lectureId": "lecture-09",
@@ -532,12 +846,25 @@
           "sourceFile": "09 27考研：病理 动脉粥样硬化 核心-真题-串联-导图 天天师兄.pdf",
           "page": 5,
           "pageLabel": "PDF第5页",
-          "title": "病理学第9讲《病理 动脉粥样硬化》",
-          "image": "exams/sprint-exam-20261021/lecture-038.webp"
+          "lectureNumber": 9,
+          "title": "病理 动脉粥样硬化 · 第5页",
+          "image": "exams/reviewed-mocks-20261104/pathology-4f1fb1a59e-p005.webp",
+          "questionNumbers": [
+            34
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "主动脉以腹主动脉病变最重。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "主动脉粥样硬化主要累及后壁及分支开口处，A的“前壁”错误。",
+        "主动脉以腹主动脉病变最重。",
+        "冠脉以左前降支最常受累，肾梗死可留下不规则凹陷瘢痕。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q035",
@@ -595,8 +922,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-01",
-          "explanation": "慢性胃溃疡底部小动脉增殖性内膜炎使管腔狭窄、血供不足，妨碍愈合，比单纯大小、深度更能解释其持续不愈。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：D。\n\n胃溃疡瘢痕层的小动脉增殖性内膜炎使管腔狭窄或闭塞，局部供血不足而不易愈合，D最直接。A大小、B深度并非此处核心机制；C神经纤维损伤不等同于供血障碍。",
+          "knowledgeConnections": [
+            "溃疡底部四层：渗出、坏死、肉芽组织、瘢痕。",
+            "瘢痕牵拉可使周围黏膜皱襞向溃疡集中。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-01",
+              "sourceSubject": "pathology",
+              "sourceFile": "01 27考研：病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 1,
+              "title": "病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/pathology-d86067596f-p003.webp",
+              "questionNumbers": [
+                35
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "胃溃疡瘢痕层的小动脉增殖性内膜炎使管腔狭窄或闭塞，局部供血不足而不易愈合，D最直接。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -605,8 +954,16 @@
         "sourceFile": "01 27考研：病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 3,
         "pageLabel": "PDF第3页",
-        "title": "01 27考研：病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病",
-        "image": "exams/sprint-exam-20261021/lecture-039.webp"
+        "lectureNumber": 1,
+        "title": "病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病 · 第3页",
+        "image": "exams/reviewed-mocks-20261104/pathology-d86067596f-p003.webp",
+        "questionNumbers": [
+          35
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "胃溃疡瘢痕层的小动脉增殖性内膜炎使管腔狭窄或闭塞，局部供血不足而不易愈合，D最直接。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -615,12 +972,25 @@
           "sourceFile": "01 27考研：病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 3,
           "pageLabel": "PDF第3页",
-          "title": "01 27考研：病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病",
-          "image": "exams/sprint-exam-20261021/lecture-039.webp"
+          "lectureNumber": 1,
+          "title": "病理 慢性胃炎、消化性溃疡、阑尾炎、胰腺疾病 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/pathology-d86067596f-p003.webp",
+          "questionNumbers": [
+            35
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "胃溃疡瘢痕层的小动脉增殖性内膜炎使管腔狭窄或闭塞，局部供血不足而不易愈合，D最直接。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "胃溃疡瘢痕层的小动脉增殖性内膜炎使管腔狭窄或闭塞，局部供血不足而不易愈合，D最直接。",
+        "溃疡底部四层：渗出、坏死、肉芽组织、瘢痕。",
+        "瘢痕牵拉可使周围黏膜皱襞向溃疡集中。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q036",
@@ -678,32 +1048,75 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-26",
-          "explanation": "结外NK/T细胞淋巴瘤鼻型好发鼻腔及面部中线，可造成局部破坏。颌骨更常作为Burkitt淋巴瘤的经典提示部位。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：B。\n\n结外NK/T细胞淋巴瘤以鼻腔及中线面部破坏为常见表现，B正确。颌骨更提示地方性Burkitt淋巴瘤；淋巴结不是NK/T最常见首发表现；皮肤T细胞淋巴瘤另有蕈样肉芽肿等。",
+          "knowledgeConnections": [
+            "NK/T细胞淋巴瘤与EBV密切相关。",
+            "地方性Burkitt偏颌骨，散发性Burkitt偏回盲部。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-26",
+              "sourceSubject": "med",
+              "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 35,
+              "title": "内科含诊断+病理 淋巴瘤 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-83be2318b0-p004.webp",
+              "questionNumbers": [
+                36
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "结外NK/T细胞淋巴瘤以鼻腔及中线面部破坏为常见表现，B正确。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-26",
         "sourceSubject": "med",
         "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 1,
-        "pageLabel": "PDF第1页",
-        "title": "35 27考研：内科含诊断+病理 淋巴瘤 ",
-        "image": "exams/sprint-exam-20261021/precise-36.webp"
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 35,
+        "title": "内科含诊断+病理 淋巴瘤 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/med-83be2318b0-p004.webp",
+        "questionNumbers": [
+          36
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "结外NK/T细胞淋巴瘤以鼻腔及中线面部破坏为常见表现，B正确。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-26",
           "sourceSubject": "med",
           "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
-          "title": "35 27考研：内科含诊断+病理 淋巴瘤 ",
-          "image": "exams/sprint-exam-20261021/precise-36.webp"
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 35,
+          "title": "内科含诊断+病理 淋巴瘤 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-83be2318b0-p004.webp",
+          "questionNumbers": [
+            36
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "结外NK/T细胞淋巴瘤以鼻腔及中线面部破坏为常见表现，B正确。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "结外NK/T细胞淋巴瘤以鼻腔及中线面部破坏为常见表现，B正确。",
+        "NK/T细胞淋巴瘤与EBV密切相关。",
+        "地方性Burkitt偏颌骨，散发性Burkitt偏回盲部。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q037",
@@ -761,8 +1174,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-16",
-          "explanation": "亚急性肉芽肿性（巨细胞性）甲状腺炎可见滤泡破坏、巨细胞及肉芽肿样反应；自身免疫性甲状腺炎以淋巴细胞浸润及滤泡萎缩为主。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：B。\n\n巨细胞性甲状腺炎即亚急性肉芽肿性甲状腺炎，滤泡破坏、胶质外溢并形成含异物巨细胞的类结核结节，B正确。弥漫性毒性甲状腺肿偏上皮增生；自身免疫性甲状腺炎以淋巴滤泡与滤泡上皮嗜酸性变为主；未分化癌为明显异型性恶性肿瘤。",
+          "knowledgeConnections": [
+            "亚急性甲状腺炎可有疼痛、发热。",
+            "类结核结节不等于结核感染，通常无干酪样坏死。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-16",
+              "sourceSubject": "pathology",
+              "sourceFile": "16 27考研：病理 内分泌系统疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 16,
+              "title": "病理 内分泌系统疾病 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/pathology-e7ac80843a-p003.webp",
+              "questionNumbers": [
+                37
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "巨细胞性甲状腺炎即亚急性肉芽肿性甲状腺炎，滤泡破坏、胶质外溢并形成含异物巨细胞的类结核结节，B正确。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -771,8 +1206,16 @@
         "sourceFile": "16 27考研：病理 内分泌系统疾病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 3,
         "pageLabel": "PDF第3页",
-        "title": "16 27考研：病理 内分泌系统疾病",
-        "image": "exams/sprint-exam-20261021/lecture-041.webp"
+        "lectureNumber": 16,
+        "title": "病理 内分泌系统疾病 · 第3页",
+        "image": "exams/reviewed-mocks-20261104/pathology-e7ac80843a-p003.webp",
+        "questionNumbers": [
+          37
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "巨细胞性甲状腺炎即亚急性肉芽肿性甲状腺炎，滤泡破坏、胶质外溢并形成含异物巨细胞的类结核结节，B正确。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -781,12 +1224,25 @@
           "sourceFile": "16 27考研：病理 内分泌系统疾病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 3,
           "pageLabel": "PDF第3页",
-          "title": "16 27考研：病理 内分泌系统疾病",
-          "image": "exams/sprint-exam-20261021/lecture-041.webp"
+          "lectureNumber": 16,
+          "title": "病理 内分泌系统疾病 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/pathology-e7ac80843a-p003.webp",
+          "questionNumbers": [
+            37
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "巨细胞性甲状腺炎即亚急性肉芽肿性甲状腺炎，滤泡破坏、胶质外溢并形成含异物巨细胞的类结核结节，B正确。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "巨细胞性甲状腺炎即亚急性肉芽肿性甲状腺炎，滤泡破坏、胶质外溢并形成含异物巨细胞的类结核结节，B正确。",
+        "亚急性甲状腺炎可有疼痛、发热。",
+        "类结核结节不等于结核感染，通常无干酪样坏死。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q038",
@@ -844,8 +1300,47 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-18",
-          "explanation": "粒层细胞瘤具有性索来源的内分泌功能，可分泌雌激素；支持—间质细胞肿瘤更偏雄激素作用。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：A。\n\n粒层细胞瘤可分泌雌激素，A正确。无性细胞瘤为生殖细胞肿瘤；支持-间质细胞瘤可分泌雄激素；浆液性囊腺癌是上皮性恶性肿瘤，不以雌激素分泌为特征。",
+          "knowledgeConnections": [
+            "卵巢粒层细胞瘤可引起性早熟或子宫内膜增生、出血。",
+            "支持-间质细胞瘤的雄激素效应可表现为男性化。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-18",
+              "sourceSubject": "pathology",
+              "sourceFile": "18 27考研：病理 生殖系统疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 8,
+              "pageLabel": "PDF第8页",
+              "lectureNumber": 18,
+              "title": "病理 生殖系统疾病 · 第8页",
+              "image": "exams/reviewed-mocks-20261104/pathology-6ddc0c9e3f-p008.webp",
+              "questionNumbers": [
+                38
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "卵巢肿瘤可分为上皮性、生殖细胞性和性索间质性。"
+              ]
+            },
+            {
+              "lectureId": "lecture-18",
+              "sourceSubject": "pathology",
+              "sourceFile": "18 27考研：病理 生殖系统疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 9,
+              "pageLabel": "PDF第9页",
+              "lectureNumber": 18,
+              "title": "病理 生殖系统疾病 · 第9页",
+              "image": "exams/reviewed-mocks-20261104/pathology-6ddc0c9e3f-p009.webp",
+              "questionNumbers": [
+                38
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "粒层细胞瘤分泌雌激素，可有核沟及Call-Exner小体。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -854,8 +1349,16 @@
         "sourceFile": "18 27考研：病理 生殖系统疾病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 8,
         "pageLabel": "PDF第8页",
-        "title": "18 27考研：病理 生殖系统疾病",
-        "image": "exams/sprint-exam-20261021/lecture-042.webp"
+        "lectureNumber": 18,
+        "title": "病理 生殖系统疾病 · 第8页",
+        "image": "exams/reviewed-mocks-20261104/pathology-6ddc0c9e3f-p008.webp",
+        "questionNumbers": [
+          38
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "卵巢肿瘤可分为上皮性、生殖细胞性和性索间质性。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -864,12 +1367,42 @@
           "sourceFile": "18 27考研：病理 生殖系统疾病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 8,
           "pageLabel": "PDF第8页",
-          "title": "18 27考研：病理 生殖系统疾病",
-          "image": "exams/sprint-exam-20261021/lecture-042.webp"
+          "lectureNumber": 18,
+          "title": "病理 生殖系统疾病 · 第8页",
+          "image": "exams/reviewed-mocks-20261104/pathology-6ddc0c9e3f-p008.webp",
+          "questionNumbers": [
+            38
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "卵巢肿瘤可分为上皮性、生殖细胞性和性索间质性。"
+          ]
+        },
+        {
+          "lectureId": "lecture-18",
+          "sourceSubject": "pathology",
+          "sourceFile": "18 27考研：病理 生殖系统疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 9,
+          "pageLabel": "PDF第9页",
+          "lectureNumber": 18,
+          "title": "病理 生殖系统疾病 · 第9页",
+          "image": "exams/reviewed-mocks-20261104/pathology-6ddc0c9e3f-p009.webp",
+          "questionNumbers": [
+            38
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "粒层细胞瘤分泌雌激素，可有核沟及Call-Exner小体。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "粒层细胞瘤可分泌雌激素，A正确。",
+        "卵巢粒层细胞瘤可引起性早熟或子宫内膜增生、出血。",
+        "支持-间质细胞瘤的雄激素效应可表现为男性化。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q039",
@@ -927,9 +1460,29 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-19",
-          "explanation": "A：选：按本课程分型，大量淋巴细胞浸润的髓样癌属于预后相对较好的特殊类型。\nB：不选：粉刺癌是高级别导管原位癌的经典称呼，常见中央粉刺样坏死；首先就不符合题干的浸润性特殊癌范围。\nC：不选：富于脂质性癌在讲义中列为预后较差类型。\nD：不选：浸润性微乳头状癌易有淋巴管侵犯和淋巴结转移，讲义归入预后较差组。",
+          "explanation": "正确答案：A。\n\n乳腺髓样癌属于预后相对较好的特殊类型，A正确。粉刺癌属于导管原位癌类型，非题干限定的浸润性特殊癌；富于脂质性癌与浸润性微乳头状癌不属于该组预后较好的类型。",
           "knowledgeConnections": [
-            "先分原位/浸润，再谈特殊类型及预后。现代分类名称有更新，本题按所给讲义和答案表口径记忆，不将旧名称无限外推。"
+            "髓样癌可伴明显淋巴细胞浸润、边界较清楚。",
+            "分类比较必须同时符合“浸润性”“特殊类型”“预后较好”三个条件。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-19",
+              "sourceSubject": "pathology",
+              "sourceFile": "19 27考研：病理 乳腺疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 19,
+              "title": "病理 乳腺疾病 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/pathology-1530ef0a0f-p002.webp",
+              "questionNumbers": [
+                39
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "乳腺髓样癌属于预后相对较好的特殊类型，A正确。"
+              ]
+            }
           ]
         }
       ],
@@ -939,8 +1492,16 @@
         "sourceFile": "19 27考研：病理 乳腺疾病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 2,
         "pageLabel": "PDF第2页",
-        "title": "病理学第19讲《病理 乳腺疾病》",
-        "image": "exams/sprint-exam-20261021/lecture-043.webp"
+        "lectureNumber": 19,
+        "title": "病理 乳腺疾病 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/pathology-1530ef0a0f-p002.webp",
+        "questionNumbers": [
+          39
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "乳腺髓样癌属于预后相对较好的特殊类型，A正确。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -949,12 +1510,25 @@
           "sourceFile": "19 27考研：病理 乳腺疾病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
-          "title": "病理学第19讲《病理 乳腺疾病》",
-          "image": "exams/sprint-exam-20261021/lecture-043.webp"
+          "lectureNumber": 19,
+          "title": "病理 乳腺疾病 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/pathology-1530ef0a0f-p002.webp",
+          "questionNumbers": [
+            39
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "乳腺髓样癌属于预后相对较好的特殊类型，A正确。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "乳腺髓样癌属于预后相对较好的特殊类型，A正确。",
+        "髓样癌可伴明显淋巴细胞浸润、边界较清楚。",
+        "分类比较必须同时符合“浸润性”“特殊类型”“预后较好”三个条件。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q040",
@@ -1012,8 +1586,47 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-21",
-          "explanation": "慢性虫卵结节围绕虫卵残骸形成异物肉芽肿，可有异物巨细胞；结核结节常见朗格汉斯巨细胞及干酪样坏死。慢性结节中毛蚴并非仍存活。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C。\n\n慢性血吸虫卵结节可有异物巨细胞，C正确。结核结节的巨细胞常为朗汉斯型；干酪样坏死更支持结核；慢性虫卵结节内毛蚴已死，不能选D；淋巴细胞多少不是此处主要鉴别点。",
+          "knowledgeConnections": [
+            "急性虫卵结节可呈嗜酸性脓肿。",
+            "慢性虫卵结节可纤维化、钙化，形成假结核结节。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-21",
+              "sourceSubject": "pathology",
+              "sourceFile": "21 27考研：病理 其它传染病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 21,
+              "title": "病理 其它传染病 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/pathology-549e7d0a57-p003.webp",
+              "questionNumbers": [
+                40
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "急性虫卵结节可呈嗜酸性脓肿。"
+              ]
+            },
+            {
+              "lectureId": "lecture-21",
+              "sourceSubject": "pathology",
+              "sourceFile": "21 27考研：病理 其它传染病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 21,
+              "title": "病理 其它传染病 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/pathology-549e7d0a57-p004.webp",
+              "questionNumbers": [
+                40
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "急性虫卵结节可呈嗜酸性脓肿。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -1022,8 +1635,16 @@
         "sourceFile": "21 27考研：病理 其它传染病 核心-真题-串联-导图 天天师兄.pdf",
         "page": 3,
         "pageLabel": "PDF第3页",
-        "title": "21 27考研：病理 其它传染病",
-        "image": "exams/sprint-exam-20261021/lecture-044.webp"
+        "lectureNumber": 21,
+        "title": "病理 其它传染病 · 第3页",
+        "image": "exams/reviewed-mocks-20261104/pathology-549e7d0a57-p003.webp",
+        "questionNumbers": [
+          40
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "急性虫卵结节可呈嗜酸性脓肿。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -1032,12 +1653,42 @@
           "sourceFile": "21 27考研：病理 其它传染病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 3,
           "pageLabel": "PDF第3页",
-          "title": "21 27考研：病理 其它传染病",
-          "image": "exams/sprint-exam-20261021/lecture-044.webp"
+          "lectureNumber": 21,
+          "title": "病理 其它传染病 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/pathology-549e7d0a57-p003.webp",
+          "questionNumbers": [
+            40
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "急性虫卵结节可呈嗜酸性脓肿。"
+          ]
+        },
+        {
+          "lectureId": "lecture-21",
+          "sourceSubject": "pathology",
+          "sourceFile": "21 27考研：病理 其它传染病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 21,
+          "title": "病理 其它传染病 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/pathology-549e7d0a57-p004.webp",
+          "questionNumbers": [
+            40
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "急性虫卵结节可呈嗜酸性脓肿。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "慢性血吸虫卵结节可有异物巨细胞，C正确。",
+        "急性虫卵结节可呈嗜酸性脓肿。",
+        "慢性虫卵结节可纤维化、钙化，形成假结核结节。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q148",
@@ -1097,8 +1748,31 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-23",
-          "explanation": "溶血和陈旧性出血均可使血红蛋白降解释放铁，形成含铁血黄素；大叶性肺炎红色肝变后亦可见红细胞崩解及含铁巨噬细胞。急性肺淤血尚不足以作为典型含铁血黄素沉积情境。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：BCD。\n\nB大叶性肺炎红细胞崩解、C溶血性疾病及D陈旧出血均可经巨噬细胞分解血红蛋白形成含铁血黄素，BCD正确。急性肺淤血尚缺乏足够时间形成显著含铁血黄素，慢性肺淤血才常见心衰细胞。",
+          "knowledgeConnections": [
+            "含铁血黄素是铁蛋白聚集体，可用普鲁士蓝显示。",
+            "慢性肺淤血的心衰细胞是吞噬含铁血黄素的肺泡巨噬细胞。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-23",
+              "sourceSubject": "pathology",
+              "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 8,
+              "pageLabel": "PDF第8页",
+              "lectureNumber": 23,
+              "title": "病理 适应和损伤 · 第8页",
+              "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p008.webp",
+              "questionNumbers": [
+                148
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "含铁血黄素来自巨噬细胞溶酶体分解血红蛋白。",
+                "陈旧出血和溶血性疾病可出现含铁血黄素沉着。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -1107,8 +1781,17 @@
         "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
         "page": 8,
         "pageLabel": "PDF第8页",
-        "title": "23 27考研：病理 适应和损伤",
-        "image": "exams/sprint-exam-20261021/lecture-126.webp"
+        "lectureNumber": 23,
+        "title": "病理 适应和损伤 · 第8页",
+        "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p008.webp",
+        "questionNumbers": [
+          148
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "含铁血黄素来自巨噬细胞溶酶体分解血红蛋白。",
+          "陈旧出血和溶血性疾病可出现含铁血黄素沉着。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -1117,12 +1800,26 @@
           "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
           "page": 8,
           "pageLabel": "PDF第8页",
-          "title": "23 27考研：病理 适应和损伤",
-          "image": "exams/sprint-exam-20261021/lecture-126.webp"
+          "lectureNumber": 23,
+          "title": "病理 适应和损伤 · 第8页",
+          "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p008.webp",
+          "questionNumbers": [
+            148
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "含铁血黄素来自巨噬细胞溶酶体分解血红蛋白。",
+            "陈旧出血和溶血性疾病可出现含铁血黄素沉着。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "B大叶性肺炎红细胞崩解、C溶血性疾病及D陈旧出血均可经巨噬细胞分解血红蛋白形成含铁血黄素，BCD正确。",
+        "含铁血黄素是铁蛋白聚集体，可用普鲁士蓝显示。",
+        "慢性肺淤血的心衰细胞是吞噬含铁血黄素的肺泡巨噬细胞。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q149",
@@ -1182,9 +1879,29 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-26",
-          "explanation": "A：选：肿瘤实质即肿瘤细胞，可据其形态和标志物等判断分化方向。\nB：不选：按教材基本分工，参与肿瘤免疫反应主要归于间质中的淋巴细胞、巨噬细胞等；不是本题肿瘤实质的列举项。\nC：选：组织学分类主要根据肿瘤细胞来源和分化特点，例如上皮来源恶性肿瘤为癌、间叶来源为肉瘤。\nD：选：肿瘤细胞的遗传及分化特征等决定其主要生物学行为，属于实质的核心作用。",
+          "explanation": "正确答案：ACD。\n\n肿瘤实质细胞决定分化方向、组织学分类与生物学行为，ACD正确。免疫反应主要由浸润的淋巴细胞、巨噬细胞等间质成分承担，B不是题目所问肿瘤实质细胞的主要分类作用。",
           "knowledgeConnections": [
-            "不要把“肿瘤组织”与“肿瘤细胞”当同义词。现代机制中肿瘤细胞当然可影响免疫微环境，本题问的是基础病理学分工，不能据此扩大B。"
+            "实质是肿瘤细胞，间质提供支持和营养。",
+            "异型性、分化程度和核分裂象可用于肿瘤分级。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-26",
+              "sourceSubject": "pathology",
+              "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 26,
+              "title": "病理 肿瘤 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p001.webp",
+              "questionNumbers": [
+                149
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "实质决定分化方向、组织学分类和生物学行为；间质参与支持营养及免疫反应。"
+              ]
+            }
           ]
         }
       ],
@@ -1194,8 +1911,16 @@
         "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
         "page": 1,
         "pageLabel": "PDF第1页",
-        "title": "病理学第26讲《病理 肿瘤》",
-        "image": "exams/sprint-exam-20261021/lecture-127.webp"
+        "lectureNumber": 26,
+        "title": "病理 肿瘤 · 第1页",
+        "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p001.webp",
+        "questionNumbers": [
+          149
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "实质决定分化方向、组织学分类和生物学行为；间质参与支持营养及免疫反应。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -1204,12 +1929,25 @@
           "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
           "page": 1,
           "pageLabel": "PDF第1页",
-          "title": "病理学第26讲《病理 肿瘤》",
-          "image": "exams/sprint-exam-20261021/lecture-127.webp"
+          "lectureNumber": 26,
+          "title": "病理 肿瘤 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p001.webp",
+          "questionNumbers": [
+            149
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "实质决定分化方向、组织学分类和生物学行为；间质参与支持营养及免疫反应。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "肿瘤实质细胞决定分化方向、组织学分类与生物学行为，ACD正确。",
+        "实质是肿瘤细胞，间质提供支持和营养。",
+        "异型性、分化程度和核分裂象可用于肿瘤分级。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q150",
@@ -1269,8 +2007,30 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-15",
-          "explanation": "小细胞癌为高度恶性神经内分泌癌，分化低、与吸烟关系密切且多中央型，突触素可阳性。不能将其概括成鳞状化生上皮起源。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：ACD。\n\n小细胞肺癌分化低，与吸烟密切相关，多中央型，神经内分泌标记Syn可阳性，ACD正确。B从化生上皮发生更适合解释鳞癌，不是小细胞癌的起源特点。",
+          "knowledgeConnections": [
+            "小细胞癌易早期转移，治疗以全身治疗为主。",
+            "神经内分泌分化可用Syn、CgA等标记显示。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-15",
+              "sourceSubject": "pathology",
+              "sourceFile": "15 27考研：病理 呼吸系统肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 15,
+              "title": "病理 呼吸系统肿瘤 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/pathology-94b4da3e10-p002.webp",
+              "questionNumbers": [
+                150
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "小细胞肺癌分化低，与吸烟密切相关，多中央型，神经内分泌标记Syn可阳性，ACD正确。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -1279,8 +2039,16 @@
         "sourceFile": "15 27考研：病理 呼吸系统肿瘤 核心-真题-串联-导图 天天师兄.pdf",
         "page": 2,
         "pageLabel": "PDF第2页",
-        "title": "15 27考研：病理 呼吸系统肿瘤",
-        "image": "exams/sprint-exam-20261021/lecture-128.webp"
+        "lectureNumber": 15,
+        "title": "病理 呼吸系统肿瘤 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/pathology-94b4da3e10-p002.webp",
+        "questionNumbers": [
+          150
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "小细胞肺癌分化低，与吸烟密切相关，多中央型，神经内分泌标记Syn可阳性，ACD正确。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -1289,12 +2057,25 @@
           "sourceFile": "15 27考研：病理 呼吸系统肿瘤 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
-          "title": "15 27考研：病理 呼吸系统肿瘤",
-          "image": "exams/sprint-exam-20261021/lecture-128.webp"
+          "lectureNumber": 15,
+          "title": "病理 呼吸系统肿瘤 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/pathology-94b4da3e10-p002.webp",
+          "questionNumbers": [
+            150
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "小细胞肺癌分化低，与吸烟密切相关，多中央型，神经内分泌标记Syn可阳性，ACD正确。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "小细胞肺癌分化低，与吸烟密切相关，多中央型，神经内分泌标记Syn可阳性，ACD正确。",
+        "小细胞癌易早期转移，治疗以全身治疗为主。",
+        "神经内分泌分化可用Syn、CgA等标记显示。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q151",
@@ -1354,8 +2135,49 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-03",
-          "explanation": "按传统病理分类，胆汁性、淤血性、血吸虫性肝硬化可主要表现间质纤维化，而缺乏典型假小叶式实质重建。酒精性肝硬化通常有结节性再生及小叶结构改建。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：ABD。\n\n胆汁性、淤血性及血吸虫性肝硬化可主要表现为纤维组织增生，而肝细胞再生和小叶改建不明显，ABD正确。酒精性肝硬化属于典型小结节性肝硬化，假小叶和再生结节较明显。",
+          "knowledgeConnections": [
+            "典型肝硬化有弥漫纤维化、再生结节和结构重建。",
+            "血吸虫病以门脉周围纤维化、干线型改变突出。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-03",
+              "sourceSubject": "pathology",
+              "sourceFile": "03 27考研：病理 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 2,
+              "pageLabel": "PDF第2页",
+              "lectureNumber": 3,
+              "title": "病理 肝硬化 · 第2页",
+              "image": "exams/reviewed-mocks-20261104/pathology-30fafa58f1-p002.webp",
+              "questionNumbers": [
+                151
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "假小叶大小不等、肝细胞索排列紊乱，中央静脉可缺如、偏位或多个。",
+                "胆汁、淤血及血吸虫性肝纤维化少有肝细胞再生结节与假小叶。"
+              ]
+            },
+            {
+              "lectureId": "lecture-03",
+              "sourceSubject": "pathology",
+              "sourceFile": "03 27考研：病理 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 3,
+              "pageLabel": "PDF第3页",
+              "lectureNumber": 3,
+              "title": "病理 肝硬化 · 第3页",
+              "image": "exams/reviewed-mocks-20261104/pathology-30fafa58f1-p003.webp",
+              "questionNumbers": [
+                151
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "小结节性肝硬化的肉眼再生结节多≤3mm、大小相仿，纤维间隔细。",
+                "肉眼再生结节不能与镜下假小叶混为一谈。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -1364,8 +2186,17 @@
         "sourceFile": "03 27考研：病理 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
         "page": 2,
         "pageLabel": "PDF第2页",
-        "title": "03 27考研：病理 肝硬化",
-        "image": "exams/sprint-exam-20261021/lecture-129.webp"
+        "lectureNumber": 3,
+        "title": "病理 肝硬化 · 第2页",
+        "image": "exams/reviewed-mocks-20261104/pathology-30fafa58f1-p002.webp",
+        "questionNumbers": [
+          151
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "假小叶大小不等、肝细胞索排列紊乱，中央静脉可缺如、偏位或多个。",
+          "胆汁、淤血及血吸虫性肝纤维化少有肝细胞再生结节与假小叶。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -1374,12 +2205,44 @@
           "sourceFile": "03 27考研：病理 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
           "page": 2,
           "pageLabel": "PDF第2页",
-          "title": "03 27考研：病理 肝硬化",
-          "image": "exams/sprint-exam-20261021/lecture-129.webp"
+          "lectureNumber": 3,
+          "title": "病理 肝硬化 · 第2页",
+          "image": "exams/reviewed-mocks-20261104/pathology-30fafa58f1-p002.webp",
+          "questionNumbers": [
+            151
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "假小叶大小不等、肝细胞索排列紊乱，中央静脉可缺如、偏位或多个。",
+            "胆汁、淤血及血吸虫性肝纤维化少有肝细胞再生结节与假小叶。"
+          ]
+        },
+        {
+          "lectureId": "lecture-03",
+          "sourceSubject": "pathology",
+          "sourceFile": "03 27考研：病理 肝硬化 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 3,
+          "pageLabel": "PDF第3页",
+          "lectureNumber": 3,
+          "title": "病理 肝硬化 · 第3页",
+          "image": "exams/reviewed-mocks-20261104/pathology-30fafa58f1-p003.webp",
+          "questionNumbers": [
+            151
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "小结节性肝硬化的肉眼再生结节多≤3mm、大小相仿，纤维间隔细。",
+            "肉眼再生结节不能与镜下假小叶混为一谈。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "胆汁性、淤血性及血吸虫性肝硬化可主要表现为纤维组织增生，而肝细胞再生和小叶改建不明显，ABD正确。",
+        "典型肝硬化有弥漫纤维化、再生结节和结构重建。",
+        "血吸虫病以门脉周围纤维化、干线型改变突出。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q152",
@@ -1438,32 +2301,177 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "sprint-path-kidney",
-          "explanation": "系膜毛细血管性肾炎以系膜细胞和基质增生等为特点；急性弥漫增生性肾炎可见系膜及内皮增生。膜性肾病以基底膜增厚为主，新月体Ⅰ型以壁层上皮增生为核心。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：CD。\n\n系膜毛细血管性肾炎有系膜细胞与基质增生；急性弥漫性增生性肾炎可有系膜及内皮细胞增生，CD正确。膜性肾病以基膜增厚和上皮下沉积为主；Ⅰ型新月体肾炎以壁层上皮增生形成新月体为主要特征。",
+          "knowledgeConnections": [
+            "双轨征提示系膜毛细血管性肾炎。",
+            "钉突偏膜性肾病，新月体偏急进性肾炎。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "sprint-path-kidney",
+              "sourceSubject": "med",
+              "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 27,
+              "title": "内科含诊断+病理 原发性肾小球疾病 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/med-e648a78052-p004.webp",
+              "questionNumbers": [
+                152
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "急性弥漫性增生性肾炎可见内皮及系膜细胞增生。"
+              ]
+            },
+            {
+              "lectureId": "sprint-path-kidney",
+              "sourceSubject": "med",
+              "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 6,
+              "pageLabel": "PDF第6页",
+              "lectureNumber": 27,
+              "title": "内科含诊断+病理 原发性肾小球疾病 · 第6页",
+              "image": "exams/reviewed-mocks-20261104/med-e648a78052-p006.webp",
+              "questionNumbers": [
+                152
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "新月体性肾炎以肾小囊壁层上皮细胞增生为重要病变。"
+              ]
+            },
+            {
+              "lectureId": "sprint-path-kidney",
+              "sourceSubject": "med",
+              "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 8,
+              "pageLabel": "PDF第8页",
+              "lectureNumber": 27,
+              "title": "内科含诊断+病理 原发性肾小球疾病 · 第8页",
+              "image": "exams/reviewed-mocks-20261104/med-e648a78052-p008.webp",
+              "questionNumbers": [
+                152
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "膜性肾病以基膜增厚、上皮下沉积及钉突为特征。"
+              ]
+            },
+            {
+              "lectureId": "sprint-path-kidney",
+              "sourceSubject": "med",
+              "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 9,
+              "pageLabel": "PDF第9页",
+              "lectureNumber": 27,
+              "title": "内科含诊断+病理 原发性肾小球疾病 · 第9页",
+              "image": "exams/reviewed-mocks-20261104/med-e648a78052-p009.webp",
+              "questionNumbers": [
+                152
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "系膜毛细血管性肾炎有系膜细胞和基质增生，可形成双轨征。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "sprint-path-kidney",
         "sourceSubject": "med",
         "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 9,
-        "pageLabel": "PDF第9页",
-        "title": "27 27考研：内科含诊断+病理 原发性肾小球疾病 ",
-        "image": "exams/sprint-exam-20261021/precise-152.webp"
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 27,
+        "title": "内科含诊断+病理 原发性肾小球疾病 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/med-e648a78052-p004.webp",
+        "questionNumbers": [
+          152
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "急性弥漫性增生性肾炎可见内皮及系膜细胞增生。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "sprint-path-kidney",
           "sourceSubject": "med",
           "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 27,
+          "title": "内科含诊断+病理 原发性肾小球疾病 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/med-e648a78052-p004.webp",
+          "questionNumbers": [
+            152
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "急性弥漫性增生性肾炎可见内皮及系膜细胞增生。"
+          ]
+        },
+        {
+          "lectureId": "sprint-path-kidney",
+          "sourceSubject": "med",
+          "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 6,
+          "pageLabel": "PDF第6页",
+          "lectureNumber": 27,
+          "title": "内科含诊断+病理 原发性肾小球疾病 · 第6页",
+          "image": "exams/reviewed-mocks-20261104/med-e648a78052-p006.webp",
+          "questionNumbers": [
+            152
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "新月体性肾炎以肾小囊壁层上皮细胞增生为重要病变。"
+          ]
+        },
+        {
+          "lectureId": "sprint-path-kidney",
+          "sourceSubject": "med",
+          "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 8,
+          "pageLabel": "PDF第8页",
+          "lectureNumber": 27,
+          "title": "内科含诊断+病理 原发性肾小球疾病 · 第8页",
+          "image": "exams/reviewed-mocks-20261104/med-e648a78052-p008.webp",
+          "questionNumbers": [
+            152
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "膜性肾病以基膜增厚、上皮下沉积及钉突为特征。"
+          ]
+        },
+        {
+          "lectureId": "sprint-path-kidney",
+          "sourceSubject": "med",
+          "sourceFile": "27 27考研：内科含诊断+病理 原发性肾小球疾病 核心-真题-串联-导图 天天师兄.pdf",
           "page": 9,
           "pageLabel": "PDF第9页",
-          "title": "27 27考研：内科含诊断+病理 原发性肾小球疾病 ",
-          "image": "exams/sprint-exam-20261021/precise-152.webp"
+          "lectureNumber": 27,
+          "title": "内科含诊断+病理 原发性肾小球疾病 · 第9页",
+          "image": "exams/reviewed-mocks-20261104/med-e648a78052-p009.webp",
+          "questionNumbers": [
+            152
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "系膜毛细血管性肾炎有系膜细胞和基质增生，可形成双轨征。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "系膜毛细血管性肾炎有系膜细胞与基质增生；急性弥漫性增生性肾炎可有系膜及内皮细胞增生，CD正确。",
+        "双轨征提示系膜毛细血管性肾炎。",
+        "钉突偏膜性肾病，新月体偏急进性肾炎。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q153",
@@ -1523,61 +2531,149 @@
           "answerMode": "多选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-25",
-          "explanation": "A：选：黄色瘤中的泡沫细胞主要是摄取脂质的巨噬细胞，属单核—巨噬细胞系统。\nB：选：肺巨噬细胞吞噬二氧化硅、释放介质，参与硅结节形成及纤维化。\nC：不选：题面是“卫星现象”，指少突胶质细胞等围绕神经元。你想到的“满天星／星空现象”则典型见于Burkitt淋巴瘤，其浅染的星是吞噬凋亡碎屑的反应性巨噬细胞；若选项改成满天星现象，它可以入选，但不能替换当前题面。\nD：选：伤寒小结以吞噬伤寒杆菌、红细胞及碎片的巨噬细胞，即伤寒细胞，为特征。\n核验：错因已依据本人补充更正为“卫星现象与满天星现象名称混淆”。满天星并非Burkitt淋巴瘤绝对特异，也不单凭这一形态独立判断预后；本次只抓星所对应的细胞身份。",
+          "explanation": "正确答案：ABD。\n\n黄色瘤为含脂巨噬细胞聚集；硅结节有吞噬硅尘的巨噬细胞参与；伤寒小结由伤寒细胞形成，ABD正确。卫星现象是少突胶质细胞围绕神经元，并非巨噬细胞的噬神经现象。",
           "knowledgeConnections": [
-            "卫星现象：少突胶质细胞等围绕神经元；满天星／星空现象：巨噬细胞散在于密集肿瘤细胞间，典型见于Burkitt淋巴瘤；噬神经细胞现象：小胶质细胞吞噬受损神经元。先辨完整名称，再辨细胞身份。"
+            "小胶质细胞属中枢神经系统单核吞噬细胞系统。",
+            "卫星现象与小胶质细胞吞噬坏死神经元必须区分。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-25",
+              "sourceSubject": "pathology",
+              "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 20,
+              "pageLabel": "PDF第20页",
+              "lectureNumber": 26,
+              "title": "病理 肿瘤 · 第20页",
+              "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p020.webp",
+              "questionNumbers": [
+                153
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "巨噬细胞参与修复、肉芽组织及伤寒等肉芽肿病变。"
+              ]
+            },
+            {
+              "lectureId": "lecture-25",
+              "sourceSubject": "pathology",
+              "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 21,
+              "pageLabel": "PDF第21页",
+              "lectureNumber": 26,
+              "title": "病理 肿瘤 · 第21页",
+              "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p021.webp",
+              "questionNumbers": [
+                153
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "巨噬细胞吞噬硅尘形成尘细胞、参与硅结节。",
+                "皮下大量吞脂巨噬细胞聚集可形成黄色瘤。"
+              ]
+            },
+            {
+              "lectureId": "lecture-25",
+              "sourceSubject": "pathology",
+              "sourceFile": "21 27考研：病理 其它传染病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 21,
+              "title": "病理 其它传染病 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/pathology-549e7d0a57-p001.webp",
+              "questionNumbers": [
+                153
+              ],
+              "optionKeys": [
+                "C"
+              ],
+              "knowledgePoints": [
+                "小胶质细胞属中枢神经系统单核吞噬细胞系统。"
+              ]
+            }
           ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-25",
         "sourceSubject": "pathology",
-        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
-        "page": 119,
-        "pageLabel": "PDF第119页",
-        "title": "病理跟课合集｜神经系统补充",
-        "image": "exams/sprint-exam-20261021/lecture-131.webp"
+        "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 20,
+        "pageLabel": "PDF第20页",
+        "lectureNumber": 26,
+        "title": "病理 肿瘤 · 第20页",
+        "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p020.webp",
+        "questionNumbers": [
+          153
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "巨噬细胞参与修复、肉芽组织及伤寒等肉芽肿病变。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-25",
           "sourceSubject": "pathology",
-          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
-          "page": 119,
-          "pageLabel": "PDF第119页",
-          "title": "病理跟课合集｜神经系统补充",
-          "image": "exams/sprint-exam-20261021/lecture-131.webp"
+          "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 20,
+          "pageLabel": "PDF第20页",
+          "lectureNumber": 26,
+          "title": "病理 肿瘤 · 第20页",
+          "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p020.webp",
+          "questionNumbers": [
+            153
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "巨噬细胞参与修复、肉芽组织及伤寒等肉芽肿病变。"
+          ]
         },
         {
           "lectureId": "lecture-25",
           "sourceSubject": "pathology",
-          "sourceFile": "13 27考研：病理 肺硅沉着病 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
-          "title": "病理学第13讲《病理 肺硅沉着病》",
-          "image": "exams/sprint-exam-20261021/lecture-132.webp"
+          "sourceFile": "26 27考研：病理 肿瘤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 21,
+          "pageLabel": "PDF第21页",
+          "lectureNumber": 26,
+          "title": "病理 肿瘤 · 第21页",
+          "image": "exams/reviewed-mocks-20261104/pathology-1ac8b0d64a-p021.webp",
+          "questionNumbers": [
+            153
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "巨噬细胞吞噬硅尘形成尘细胞、参与硅结节。",
+            "皮下大量吞脂巨噬细胞聚集可形成黄色瘤。"
+          ]
         },
         {
           "lectureId": "lecture-25",
           "sourceSubject": "pathology",
           "sourceFile": "21 27考研：病理 其它传染病 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
-          "title": "病理学第21讲《病理 其它传染病》",
-          "image": "exams/sprint-exam-20261021/lecture-133.webp"
-        },
-        {
-          "lectureId": "lecture-25",
-          "sourceSubject": "pathology",
-          "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 3,
-          "pageLabel": "PDF第3页",
-          "title": "内科第35讲《淋巴瘤》",
-          "image": "exams/sprint-exam-20261021/lecture-134.webp"
+          "page": 1,
+          "pageLabel": "PDF第1页",
+          "lectureNumber": 21,
+          "title": "病理 其它传染病 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/pathology-549e7d0a57-p001.webp",
+          "questionNumbers": [
+            153
+          ],
+          "optionKeys": [
+            "C"
+          ],
+          "knowledgePoints": [
+            "小胶质细胞属中枢神经系统单核吞噬细胞系统。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "黄色瘤为含脂巨噬细胞聚集；硅结节有吞噬硅尘的巨噬细胞参与；伤寒小结由伤寒细胞形成，ABD正确。",
+        "小胶质细胞属中枢神经系统单核吞噬细胞系统。",
+        "卫星现象与小胶质细胞吞噬坏死神经元必须区分。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q124",
@@ -1635,32 +2731,114 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-23",
-          "explanation": "骨髓瘤免疫球蛋白轻链可形成AL型淀粉样蛋白，在间质沉积形成淀粉样变；并非胶原或血浆蛋白的普通透明变性。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：C。\n\n骨髓瘤产生的单克隆轻链可形成AL型淀粉样蛋白并沉积于间质，C正确。脂肪变性为细胞内甘油三酯；透明变性是蛋白性均质沉积的形态总称；黏液样变以黏多糖蓄积为主。",
+          "knowledgeConnections": [
+            "淀粉样变位于细胞外间质。",
+            "刚果红染色及偏振光下苹果绿双折射支持淀粉样沉积。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-23",
+              "sourceSubject": "pathology",
+              "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 7,
+              "pageLabel": "PDF第7页",
+              "lectureNumber": 23,
+              "title": "病理 适应和损伤 · 第7页",
+              "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p007.webp",
+              "questionNumbers": [
+                124
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "肾近端小管重吸收蛋白与溶酶体融合形成玻璃样小体。",
+                "淀粉样变为间质内淀粉样蛋白和黏多糖沉积。"
+              ]
+            },
+            {
+              "lectureId": "lecture-23",
+              "sourceSubject": "pathology",
+              "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 9,
+              "pageLabel": "PDF第9页",
+              "lectureNumber": 23,
+              "title": "病理 适应和损伤 · 第9页",
+              "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p009.webp",
+              "questionNumbers": [
+                124
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "凝固性坏死可保留原组织轮廓，脑常发生液化性坏死。",
+                "淀粉样变性属于细胞外间质沉积。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-23",
         "sourceSubject": "pathology",
         "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 9,
-        "pageLabel": "PDF第9页",
-        "title": "23 27考研：病理 适应和损伤",
-        "image": "exams/sprint-exam-20261021/lecture-155.webp"
+        "page": 7,
+        "pageLabel": "PDF第7页",
+        "lectureNumber": 23,
+        "title": "病理 适应和损伤 · 第7页",
+        "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p007.webp",
+        "questionNumbers": [
+          124
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "肾近端小管重吸收蛋白与溶酶体融合形成玻璃样小体。",
+          "淀粉样变为间质内淀粉样蛋白和黏多糖沉积。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-23",
           "sourceSubject": "pathology",
           "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 7,
+          "pageLabel": "PDF第7页",
+          "lectureNumber": 23,
+          "title": "病理 适应和损伤 · 第7页",
+          "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p007.webp",
+          "questionNumbers": [
+            124
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "肾近端小管重吸收蛋白与溶酶体融合形成玻璃样小体。",
+            "淀粉样变为间质内淀粉样蛋白和黏多糖沉积。"
+          ]
+        },
+        {
+          "lectureId": "lecture-23",
+          "sourceSubject": "pathology",
+          "sourceFile": "23 27考研：病理 适应和损伤 核心-真题-串联-导图 天天师兄.pdf",
           "page": 9,
           "pageLabel": "PDF第9页",
-          "title": "23 27考研：病理 适应和损伤",
-          "image": "exams/sprint-exam-20261021/lecture-155.webp"
+          "lectureNumber": 23,
+          "title": "病理 适应和损伤 · 第9页",
+          "image": "exams/reviewed-mocks-20261104/pathology-2f52996076-p009.webp",
+          "questionNumbers": [
+            124
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "凝固性坏死可保留原组织轮廓，脑常发生液化性坏死。",
+            "淀粉样变性属于细胞外间质沉积。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "骨髓瘤产生的单克隆轻链可形成AL型淀粉样蛋白并沉积于间质，C正确。",
+        "淀粉样变位于细胞外间质。",
+        "刚果红染色及偏振光下苹果绿双折射支持淀粉样沉积。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q125",
@@ -1718,8 +2896,30 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-08",
-          "explanation": "缓进型高血压细小动脉典型为玻璃样（透明）变，管壁均质嗜酸、管腔狭窄。淀粉样变的沉积物性质不同。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：B。\n\n缓进型高血压细小动脉壁常玻璃样变性，B正确。脂肪变性、淀粉样变与黏液样变不是本题典型血管病变。恶性高血压则需鉴别纤维素样坏死和增生性小动脉硬化。",
+          "knowledgeConnections": [
+            "细小动脉玻璃样变使管壁增厚、管腔狭窄。",
+            "高血压肾常形成细颗粒性固缩肾。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-08",
+              "sourceSubject": "pathology",
+              "sourceFile": "08 27考研：病理 高血压 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 1,
+              "pageLabel": "PDF第1页",
+              "lectureNumber": 8,
+              "title": "病理 高血压 · 第1页",
+              "image": "exams/reviewed-mocks-20261104/pathology-86c2721a65-p001.webp",
+              "questionNumbers": [
+                125
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "缓进型高血压细小动脉壁常玻璃样变性，B正确。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -1728,8 +2928,16 @@
         "sourceFile": "08 27考研：病理 高血压 核心-真题-串联-导图 天天师兄.pdf",
         "page": 1,
         "pageLabel": "PDF第1页",
-        "title": "08 27考研：病理 高血压",
-        "image": "exams/sprint-exam-20261021/lecture-156.webp"
+        "lectureNumber": 8,
+        "title": "病理 高血压 · 第1页",
+        "image": "exams/reviewed-mocks-20261104/pathology-86c2721a65-p001.webp",
+        "questionNumbers": [
+          125
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "缓进型高血压细小动脉壁常玻璃样变性，B正确。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -1738,12 +2946,25 @@
           "sourceFile": "08 27考研：病理 高血压 核心-真题-串联-导图 天天师兄.pdf",
           "page": 1,
           "pageLabel": "PDF第1页",
-          "title": "08 27考研：病理 高血压",
-          "image": "exams/sprint-exam-20261021/lecture-156.webp"
+          "lectureNumber": 8,
+          "title": "病理 高血压 · 第1页",
+          "image": "exams/reviewed-mocks-20261104/pathology-86c2721a65-p001.webp",
+          "questionNumbers": [
+            125
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "缓进型高血压细小动脉壁常玻璃样变性，B正确。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "缓进型高血压细小动脉壁常玻璃样变性，B正确。",
+        "细小动脉玻璃样变使管壁增厚、管腔狭窄。",
+        "高血压肾常形成细颗粒性固缩肾。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q126",
@@ -1801,8 +3022,31 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-26",
-          "explanation": "结节性淋巴细胞为主型霍奇金淋巴瘤的LP细胞又称爆米花细胞；典型镜影RS细胞用于经典型霍奇金淋巴瘤线索。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：B。\n\n爆米花细胞是结节性淋巴细胞为主型霍奇金淋巴瘤的特征，B正确。凹空细胞提示HPV相关病变；泡沫细胞是吞脂细胞；镜影细胞是典型RS细胞。",
+          "knowledgeConnections": [
+            "结节性淋巴细胞为主型与经典型霍奇金淋巴瘤不同。",
+            "结节硬化型还需联系陷窝细胞。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-26",
+              "sourceSubject": "med",
+              "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 5,
+              "pageLabel": "PDF第5页",
+              "lectureNumber": 35,
+              "title": "内科含诊断+病理 淋巴瘤 · 第5页",
+              "image": "exams/reviewed-mocks-20261104/med-83be2318b0-p005.webp",
+              "questionNumbers": [
+                126
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "典型RS细胞可为双核镜影细胞，爆米花细胞见于结节性淋巴细胞为主型。",
+                "经典型霍奇金淋巴瘤有典型RS细胞及混合炎细胞背景。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
@@ -1811,8 +3055,17 @@
         "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
         "page": 5,
         "pageLabel": "PDF第5页",
-        "title": "35 27考研：内科含诊断+病理 淋巴瘤 ",
-        "image": "exams/sprint-exam-20261021/precise-126.webp"
+        "lectureNumber": 35,
+        "title": "内科含诊断+病理 淋巴瘤 · 第5页",
+        "image": "exams/reviewed-mocks-20261104/med-83be2318b0-p005.webp",
+        "questionNumbers": [
+          126
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "典型RS细胞可为双核镜影细胞，爆米花细胞见于结节性淋巴细胞为主型。",
+          "经典型霍奇金淋巴瘤有典型RS细胞及混合炎细胞背景。"
+        ]
       },
       "lectureEvidencePages": [
         {
@@ -1821,12 +3074,26 @@
           "sourceFile": "35 27考研：内科含诊断+病理 淋巴瘤 核心-真题-串联-导图 天天师兄.pdf",
           "page": 5,
           "pageLabel": "PDF第5页",
-          "title": "35 27考研：内科含诊断+病理 淋巴瘤 ",
-          "image": "exams/sprint-exam-20261021/precise-126.webp"
+          "lectureNumber": 35,
+          "title": "内科含诊断+病理 淋巴瘤 · 第5页",
+          "image": "exams/reviewed-mocks-20261104/med-83be2318b0-p005.webp",
+          "questionNumbers": [
+            126
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "典型RS细胞可为双核镜影细胞，爆米花细胞见于结节性淋巴细胞为主型。",
+            "经典型霍奇金淋巴瘤有典型RS细胞及混合炎细胞背景。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "爆米花细胞是结节性淋巴细胞为主型霍奇金淋巴瘤的特征，B正确。",
+        "结节性淋巴细胞为主型与经典型霍奇金淋巴瘤不同。",
+        "结节硬化型还需联系陷窝细胞。"
+      ]
     },
     {
       "id": "pathology-sprint-exam-20261021-q127",
@@ -1884,32 +3151,75 @@
           "answerMode": "单选",
           "answerState": "按本卷答案表录入",
           "lectureId": "lecture-18",
-          "explanation": "尖锐湿疣为HPV相关病变，可见凹空细胞；泡沫细胞富含脂质，不能替代病毒性凹空改变。",
-          "knowledgeConnections": []
+          "explanation": "正确答案：A。\n\n尖锐湿疣由HPV感染引起，可见挖空/凹空细胞，A正确。爆米花细胞对应结节性淋巴细胞为主型霍奇金淋巴瘤；镜影细胞对应经典RS细胞；泡沫细胞不具HPV特异性。",
+          "knowledgeConnections": [
+            "凹空细胞表现为核周空晕及核异型。",
+            "尖锐湿疣常与低危型HPV6、11有关。"
+          ],
+          "lectureEvidencePages": [
+            {
+              "lectureId": "lecture-18",
+              "sourceSubject": "pathology",
+              "sourceFile": "21 27考研：病理 其它传染病 核心-真题-串联-导图 天天师兄.pdf",
+              "page": 4,
+              "pageLabel": "PDF第4页",
+              "lectureNumber": 21,
+              "title": "病理 其它传染病 · 第4页",
+              "image": "exams/reviewed-mocks-20261104/pathology-549e7d0a57-p004.webp",
+              "questionNumbers": [
+                127
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "尖锐湿疣由HPV感染引起，可见挖空/凹空细胞，A正确。"
+              ]
+            }
+          ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-18",
         "sourceSubject": "pathology",
-        "sourceFile": "18 27考研：病理 生殖系统疾病 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 11,
-        "pageLabel": "PDF第11页",
-        "title": "18 27考研：病理 生殖系统疾病",
-        "image": "exams/sprint-exam-20261021/lecture-158.webp"
+        "sourceFile": "21 27考研：病理 其它传染病 核心-真题-串联-导图 天天师兄.pdf",
+        "page": 4,
+        "pageLabel": "PDF第4页",
+        "lectureNumber": 21,
+        "title": "病理 其它传染病 · 第4页",
+        "image": "exams/reviewed-mocks-20261104/pathology-549e7d0a57-p004.webp",
+        "questionNumbers": [
+          127
+        ],
+        "optionKeys": [],
+        "knowledgePoints": [
+          "尖锐湿疣由HPV感染引起，可见挖空/凹空细胞，A正确。"
+        ]
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-18",
           "sourceSubject": "pathology",
-          "sourceFile": "18 27考研：病理 生殖系统疾病 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 11,
-          "pageLabel": "PDF第11页",
-          "title": "18 27考研：病理 生殖系统疾病",
-          "image": "exams/sprint-exam-20261021/lecture-158.webp"
+          "sourceFile": "21 27考研：病理 其它传染病 核心-真题-串联-导图 天天师兄.pdf",
+          "page": 4,
+          "pageLabel": "PDF第4页",
+          "lectureNumber": 21,
+          "title": "病理 其它传染病 · 第4页",
+          "image": "exams/reviewed-mocks-20261104/pathology-549e7d0a57-p004.webp",
+          "questionNumbers": [
+            127
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "尖锐湿疣由HPV感染引起，可见挖空/凹空细胞，A正确。"
+          ]
         }
       ],
       "sourceSection": "病理学",
-      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注"
+      "supplementNotice": "本卷答案表；解析附关键依据，歧义题另注",
+      "lectureSummary": [
+        "尖锐湿疣由HPV感染引起，可见挖空/凹空细胞，A正确。",
+        "凹空细胞表现为核周空晕及核异型。",
+        "尖锐湿疣常与低危型HPV6、11有关。"
+      ]
     }
   ],
   "pages": [
