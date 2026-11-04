@@ -50,9 +50,7 @@
       "ECBDB",
       "AA"
     ],
-    "pendingQuestions": [
-      90
-    ],
+    "pendingQuestions": [],
     "explanationNote": "逐题复习解析及易混点为补充整理，非原卷官方解析；部分争议及版本差异附外部依据。",
     "lectureEvidenceStemCount": 115
   },
@@ -11819,12 +11817,12 @@
       "diseaseTags": [
         "精选执医",
         "执业医师真题（上）",
-        "急性髓系白血病分型信息冲突"
+        "AML-M2与髓系标志"
       ],
       "supplement": true,
-      "supplementNotice": "答案依所给截图（139题依评论更正）；解析为整理补充，非官方解析。争议题暂不自动判分。",
-      "answerSourceLabel": "截图参考答案",
-      "answerSourceName": "2026-10-19用户提供的答案及更正截图",
+      "supplementNotice": "答案已确认，提交后自动判分。",
+      "answerSourceLabel": "用户确认答案",
+      "answerSourceName": "用户于2026-11-04确认",
       "answerRevision": "20261019-v2",
       "options": [
         {
@@ -11865,15 +11863,14 @@
           ],
           "answerDisplay": "C",
           "answerMode": "单选",
-          "answerState": "待原题页核对",
+          "answerState": "用户确认答案",
           "lectureId": "lecture-34",
-          "knowledgePoint": "急性髓系白血病分型信息冲突",
-          "explanation": "截图答案C，评论列为争议。Auer小体和CD33支持髓系，但AML-M2通常MPO阳性，题干却为MPO阴性，NSE阳性且不被NaF抑制也不能唯一确定M2。资料相互矛盾，保留C，不强编排除其他亚型的结论，待原题或讲解复核。",
+          "knowledgePoint": "AML-M2与髓系标志",
+          "explanation": "选C（AML-M2，急性粒细胞白血病部分分化型）。Auer小体和CD33阳性支持髓系来源；CD34是造血干、祖细胞相关标志，不能单凭CD34确定FAB亚型。",
           "knowledgeConnections": [
-            "髓系分型需综合形态、细胞化学、流式及遗传，单一标记不足以确定FAB亚型。"
+            "AML的FAB分型结合形态、细胞化学及免疫表型判断；Auer小体提示髓系，分型时需结合多项检查。"
           ],
           "explanationOrigin": "复习整理，非出版方官方解析",
-          "reviewReason": "截图评论列为争议题",
           "explanationReferences": [
             {
               "title": "WHO第5版髓系肿瘤分类原文",
@@ -11894,7 +11891,7 @@
                 90
               ],
               "knowledgePoints": [
-                "急性髓系白血病分型信息冲突"
+                "AML-M2与髓系标志"
               ]
             },
             {
@@ -11910,10 +11907,14 @@
                 90
               ],
               "knowledgePoints": [
-                "急性髓系白血病分型信息冲突"
+                "AML-M2与髓系标志"
               ]
             }
-          ]
+          ],
+          "answerConfirmation": {
+            "answer": "C",
+            "source": "用户于2026-11-04明确确认：第90题选C（AML-M2）"
+          }
         }
       ],
       "lectureEvidencePages": [
@@ -11930,7 +11931,7 @@
             90
           ],
           "knowledgePoints": [
-            "急性髓系白血病分型信息冲突"
+            "AML-M2与髓系标志"
           ]
         },
         {
@@ -11946,7 +11947,7 @@
             90
           ],
           "knowledgePoints": [
-            "急性髓系白血病分型信息冲突"
+            "AML-M2与髓系标志"
           ]
         }
       ],
@@ -11963,7 +11964,7 @@
           90
         ],
         "knowledgePoints": [
-          "急性髓系白血病分型信息冲突"
+          "AML-M2与髓系标志"
         ]
       }
     },
