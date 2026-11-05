@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "sourcePolicy": "桌面2027分章讲义的核心精讲、专题串联、易错小结、考点补充文字；保留整段条件；真题选项和思维导图不入库",
+  "sourcePolicy": "桌面2027分章讲义的核心精讲、专题串联、易错小结、考点补充文字及人工对照原页核实的图片表格；保留条件与单位；真题选项和思维导图不入库",
   "sources": [
     {
       "subject": "surgery",
@@ -110,7 +110,7 @@
     {
       "subject": "surgery",
       "file": "22 27考研：外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 4
+      "count": 5
     },
     {
       "subject": "surgery",
@@ -130,17 +130,17 @@
     {
       "subject": "surgery",
       "file": "26 27考研：外科 躯干骨骨折 & 脊髓损伤 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 6
+      "count": 8
     },
     {
       "subject": "surgery",
       "file": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 1
+      "count": 6
     },
     {
       "subject": "surgery",
       "file": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 21
+      "count": 24
     },
     {
       "subject": "surgery",
@@ -155,7 +155,7 @@
     {
       "subject": "surgery",
       "file": "31 27考研：外科 体液失衡 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 4
+      "count": 8
     },
     {
       "subject": "surgery",
@@ -180,12 +180,12 @@
     {
       "subject": "surgery",
       "file": "36 27考研：外科 麻醉 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 6
+      "count": 8
     },
     {
       "subject": "surgery",
       "file": "37 27考研：外科 休克（含常考休克小结） 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 9
+      "count": 10
     },
     {
       "subject": "surgery",
@@ -195,7 +195,7 @@
     {
       "subject": "med",
       "file": "01 27考研：内科含诊断 COPD 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 7
+      "count": 8
     },
     {
       "subject": "med",
@@ -230,7 +230,7 @@
     {
       "subject": "med",
       "file": "08 27考研：内科含诊断 肺结核 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 8
+      "count": 9
     },
     {
       "subject": "med",
@@ -255,7 +255,7 @@
     {
       "subject": "med",
       "file": "13 27考研：内科含诊断+外科 胸膜疾病 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 8
+      "count": 9
     },
     {
       "subject": "med",
@@ -320,7 +320,7 @@
     {
       "subject": "med",
       "file": "26 27考研：内科 肾衰竭 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 6
+      "count": 7
     },
     {
       "subject": "med",
@@ -340,7 +340,7 @@
     {
       "subject": "med",
       "file": "30 27考研：内科含诊断 溶血性贫血 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 11
+      "count": 8
     },
     {
       "subject": "med",
@@ -360,7 +360,7 @@
     {
       "subject": "med",
       "file": "34 27考研：内科含诊断 白血病 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 16
+      "count": 17
     },
     {
       "subject": "med",
@@ -380,17 +380,17 @@
     {
       "subject": "med",
       "file": "38 27考研：内科含诊断 糖尿病 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 19
+      "count": 20
     },
     {
       "subject": "med",
       "file": "39 27考研：内科 原醛 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "med",
       "file": "40 27考研：内科 库欣综合征 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "med",
@@ -415,7 +415,7 @@
     {
       "subject": "med",
       "file": "45 27考研：内科+外科 类风湿关节炎 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 4
+      "count": 5
     },
     {
       "subject": "med",
@@ -435,27 +435,27 @@
     {
       "subject": "med",
       "file": "49 27考研：内科 心肌疾病 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 6
+      "count": 7
     },
     {
       "subject": "med",
       "file": "50 27考研：内科含诊断 心包疾病 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 2
+      "count": 3
     },
     {
       "subject": "med",
       "file": "51 27考研：内科 感染性心内膜炎 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 5
+      "count": 7
     },
     {
       "subject": "med",
       "file": "52 27考研：内科含诊断 高血压 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 10
+      "count": 14
     },
     {
       "subject": "med",
       "file": "53 27考研：内科含诊断 心瓣膜病 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 8
+      "count": 16
     },
     {
       "subject": "med",
@@ -465,17 +465,17 @@
     {
       "subject": "med",
       "file": "55 27考研：内科含诊断 收缩性心衰 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 11
+      "count": 12
     },
     {
       "subject": "med",
       "file": "56 27考研：内科含诊断 心律失常 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 25
+      "count": 26
     },
     {
       "subject": "med",
       "file": "57 27考研：内科+外科 心脏骤停 核心-真题-串联-导图 天天师兄.pdf",
-      "count": 2
+      "count": 3
     }
   ],
   "items": [
@@ -661,16 +661,6 @@
           "start": 18,
           "end": 21,
           "answer": "100"
-        },
-        {
-          "start": 27,
-          "end": 30,
-          "answer": "100"
-        },
-        {
-          "start": 36,
-          "end": 38,
-          "answer": "60"
         }
       ],
       "source": {
@@ -682,7 +672,24 @@
         "images": [
           "surgery/lecture-pages/lecture-01-page-02.webp"
         ]
-      }
+      },
+      "hints": [
+        {
+          "start": 23,
+          "end": 44
+        }
+      ],
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-a527d8722cc0ac",
@@ -745,6 +752,16 @@
           "answer": "0.1"
         },
         {
+          "start": 371,
+          "end": 378,
+          "answer": "0.1-0.5"
+        },
+        {
+          "start": 387,
+          "end": 392,
+          "answer": "0.5-2"
+        },
+        {
           "start": 396,
           "end": 400,
           "answer": "5-10"
@@ -765,6 +782,24 @@
           "surgery/lecture-pages/lecture-01-page-03.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            -1,
+            -1,
+            5,
+            6
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -1506,9 +1541,19 @@
           "answer": "0.1"
         },
         {
+          "start": 755,
+          "end": 762,
+          "answer": "0.1-0.5"
+        },
+        {
           "start": 766,
           "end": 770,
           "answer": "5-10"
+        },
+        {
+          "start": 774,
+          "end": 779,
+          "answer": "0.5-2"
         },
         {
           "start": 894,
@@ -1528,6 +1573,24 @@
           "shared/numeric-memory/surgery-01-page-07.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            -1,
+            5,
+            -1,
+            6
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "table",
@@ -2134,7 +2197,7 @@
         {
           "type": "table",
           "start": 0,
-          "end": 250,
+          "end": 244,
           "rows": [
             [
               {
@@ -2185,7 +2248,7 @@
                 "ranges": [
                   [
                     223,
-                    250
+                    244
                   ]
                 ]
               }
@@ -2201,7 +2264,7 @@
         },
         {
           "type": "text",
-          "start": 250,
+          "start": 244,
           "end": 311
         }
       ]
@@ -2219,6 +2282,11 @@
           "start": 38,
           "end": 41,
           "answer": "1-2"
+        },
+        {
+          "start": 53,
+          "end": 56,
+          "answer": "1-2"
         }
       ],
       "source": {
@@ -2230,7 +2298,18 @@
         "images": [
           "surgery/lecture-pages/lecture-03-page-03.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            -1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-2b5f3f19509e8d",
@@ -2351,6 +2430,11 @@
       "category": "诊断与其他数字",
       "blanks": [
         {
+          "start": 8,
+          "end": 11,
+          "answer": "4-7"
+        },
+        {
           "start": 93,
           "end": 94,
           "answer": "2"
@@ -2370,7 +2454,19 @@
         "images": [
           "surgery/lecture-pages/lecture-04-page-01.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            0,
+            1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-e7c9a016803656",
@@ -3200,11 +3296,6 @@
           "answer": "2"
         },
         {
-          "start": 44,
-          "end": 45,
-          "answer": "2"
-        },
-        {
           "start": 57,
           "end": 58,
           "answer": "2"
@@ -3219,7 +3310,24 @@
         "images": [
           "surgery/lecture-pages/lecture-08-page-01.webp"
         ]
-      }
+      },
+      "hints": [
+        {
+          "start": 43,
+          "end": 55
+        }
+      ],
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            2
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-d900d5271414f4",
@@ -4359,11 +4467,6 @@
           "start": 55,
           "end": 56,
           "answer": "2"
-        },
-        {
-          "start": 72,
-          "end": 73,
-          "answer": "2"
         }
       ],
       "source": {
@@ -4376,6 +4479,24 @@
           "surgery/lecture-pages/lecture-12-page-05.webp"
         ]
       },
+      "hints": [
+        {
+          "start": 65,
+          "end": 76
+        }
+      ],
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -5196,6 +5317,11 @@
           "start": 248,
           "end": 251,
           "answer": "4-8"
+        },
+        {
+          "start": 277,
+          "end": 282,
+          "answer": "250-2"
         }
       ],
       "source": {
@@ -5208,6 +5334,21 @@
           "surgery/lecture-pages/lecture-16-page-03.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            -1
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -6256,13 +6397,6 @@
           "rows": [
             [
               {
-                "ranges": [],
-                "context": "ttsx"
-              },
-              {
-                "ranges": []
-              },
-              {
                 "ranges": []
               },
               {
@@ -6308,12 +6442,6 @@
                 ]
               },
               {
-                "ranges": []
-              },
-              {
-                "ranges": []
-              },
-              {
                 "ranges": [
                   [
                     22,
@@ -6354,12 +6482,6 @@
                     130
                   ]
                 ]
-              },
-              {
-                "ranges": []
-              },
-              {
-                "ranges": []
               },
               {
                 "ranges": [
@@ -6404,12 +6526,6 @@
                 ]
               },
               {
-                "ranges": []
-              },
-              {
-                "ranges": []
-              },
-              {
                 "ranges": [
                   [
                     216,
@@ -6444,23 +6560,17 @@
             ],
             [
               {
-                "ranges": []
-              },
-              {
                 "ranges": [
                   [
                     239,
-                    247
+                    251
                   ]
                 ]
               },
               {
-                "ranges": []
-              },
-              {
                 "ranges": [
                   [
-                    247,
+                    251,
                     254
                   ]
                 ]
@@ -6500,12 +6610,6 @@
                 ]
               },
               {
-                "ranges": []
-              },
-              {
-                "ranges": []
-              },
-              {
                 "ranges": [
                   [
                     308,
@@ -6541,12 +6645,6 @@
                     546
                   ]
                 ]
-              },
-              {
-                "ranges": []
-              },
-              {
-                "ranges": []
               },
               {
                 "ranges": [
@@ -6591,12 +6689,6 @@
                 ]
               },
               {
-                "ranges": []
-              },
-              {
-                "ranges": []
-              },
-              {
                 "ranges": [
                   [
                     666,
@@ -6626,23 +6718,17 @@
             ],
             [
               {
-                "ranges": []
-              },
-              {
                 "ranges": [
                   [
                     696,
-                    700
+                    702
                   ]
                 ]
               },
               {
-                "ranges": []
-              },
-              {
                 "ranges": [
                   [
-                    700,
+                    702,
                     708
                   ]
                 ]
@@ -6669,17 +6755,15 @@
             ]
           ],
           "headers": [
-            "项目",
-            "要点1",
-            "要点2",
-            "要点3",
-            "要点4",
-            "要点5",
-            "要点6"
+            "",
+            "黄疸",
+            "胆囊增大",
+            "其它",
+            "主要治疗"
           ],
-          "headerIncluded": false,
+          "headerIncluded": true,
           "rowHeader": true,
-          "columns": 7
+          "columns": 5
         },
         {
           "type": "text",
@@ -6693,23 +6777,17 @@
           "rows": [
             [
               {
-                "ranges": []
-              },
-              {
                 "ranges": [
                   [
                     744,
-                    751
+                    755
                   ]
                 ]
               },
               {
-                "ranges": []
-              },
-              {
                 "ranges": [
                   [
-                    751,
+                    755,
                     761
                   ]
                 ]
@@ -6736,19 +6814,12 @@
             ],
             [
               {
-                "ranges": [],
-                "context": "胰头癌"
-              },
-              {
                 "ranges": [
                   [
                     793,
                     797
                   ]
                 ]
-              },
-              {
-                "ranges": []
               },
               {
                 "ranges": [
@@ -6793,12 +6864,6 @@
                 ]
               },
               {
-                "ranges": []
-              },
-              {
-                "ranges": []
-              },
-              {
                 "ranges": [
                   [
                     857,
@@ -6828,23 +6893,17 @@
             ],
             [
               {
-                "ranges": []
-              },
-              {
                 "ranges": [
                   [
                     900,
-                    905
+                    907
                   ]
                 ]
               },
               {
-                "ranges": []
-              },
-              {
                 "ranges": [
                   [
-                    905,
+                    907,
                     918
                   ]
                 ]
@@ -6871,17 +6930,15 @@
             ]
           ],
           "headers": [
-            "",
-            "先天性",
-            "",
-            "√且间歇性",
-            "",
-            "钝/胀痛、光滑的囊性肿块",
-            "尽早完全切除扩张胆管+胆肠吻合等"
+            "疾病",
+            "黄疸",
+            "胆囊增大",
+            "其它",
+            "主要治疗"
           ],
-          "headerIncluded": true,
+          "headerIncluded": false,
           "rowHeader": true,
-          "columns": 7
+          "columns": 5
         },
         {
           "type": "text",
@@ -6920,9 +6977,19 @@
           "answer": "0.4"
         },
         {
+          "start": 214,
+          "end": 215,
+          "answer": "1"
+        },
+        {
           "start": 233,
           "end": 236,
           "answer": "500"
+        },
+        {
+          "start": 238,
+          "end": 239,
+          "answer": "2"
         },
         {
           "start": 257,
@@ -6930,9 +6997,29 @@
           "answer": "300-500"
         },
         {
+          "start": 273,
+          "end": 274,
+          "answer": "3"
+        },
+        {
           "start": 292,
           "end": 295,
           "answer": "300"
+        },
+        {
+          "start": 297,
+          "end": 298,
+          "answer": "4"
+        },
+        {
+          "start": 314,
+          "end": 315,
+          "answer": "5"
+        },
+        {
+          "start": 331,
+          "end": 332,
+          "answer": "6"
         }
       ],
       "source": {
@@ -6945,6 +7032,34 @@
           "surgery/lecture-pages/lecture-17-page-01.webp"
         ]
       },
+      "hints": [
+        {
+          "start": 265,
+          "end": 272
+        }
+      ],
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            4,
+            -1,
+            5,
+            -1,
+            6,
+            -1,
+            -1,
+            -1
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -7737,6 +7852,11 @@
           "answer": "20"
         },
         {
+          "start": 157,
+          "end": 162,
+          "answer": "20-40"
+        },
+        {
           "start": 175,
           "end": 177,
           "answer": "40"
@@ -7751,7 +7871,20 @@
         "images": [
           "surgery/lecture-pages/lecture-20-page-02.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            -1,
+            2
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-3a411440f7f617",
@@ -7961,6 +8094,238 @@
           "surgery/lecture-pages/lecture-22-page-02.webp"
         ]
       }
+    },
+    {
+      "id": "numeric-da0f12cdf50ef4",
+      "subject": "surgery",
+      "chapter": "手外伤、股骨头坏死、膝关节损伤、神经损伤",
+      "section": "四、周围神经损伤",
+      "title": "臂丛神经",
+      "text": "臂丛神经\n①主要分支：\n胸长神经 损伤致前锯肌萎缩→翼状肩\n腋神经 损伤致三角肌萎缩→方肩（咦胸长的叶芳）\n肌皮神经、正中神经、尺神经、桡神经 鸡中翅呢\n②行程：\n根 由 C5-T1 神经根前支组成（五一）\n干 C5-C6 组成上干，C7 延续为中干，C8-T1 组成下干\n股 各干分为前、后两股\n束 上、中干的前股组成外侧束，下干的前股延续为内侧束，三干的后股组成后束\n支 外侧束分出肌皮神经、正中神经外侧头\n内侧束分出尺神经、正中神经内侧头\n正中神经的内、外侧头汇合成正中神经\n后束分出腋神经、桡神经\n③臂丛神经根部撕脱伤：可致 Horner 综合征，需神经移位术",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 86,
+          "end": 91,
+          "answer": "C5-T1"
+        },
+        {
+          "start": 106,
+          "end": 111,
+          "answer": "C5-C6"
+        },
+        {
+          "start": 117,
+          "end": 119,
+          "answer": "C7"
+        },
+        {
+          "start": 126,
+          "end": 131,
+          "answer": "C8-T1"
+        }
+      ],
+      "source": {
+        "file": "22 27考研：外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          3,
+          4
+        ],
+        "lecture": 22,
+        "images": [
+          "surgery/lecture-pages/lecture-22-page-03.webp",
+          "shared/numeric-memory/surgery-22-page-04.webp"
+        ]
+      },
+      "layout": [
+        {
+          "type": "text",
+          "start": 0,
+          "end": 12
+        },
+        {
+          "type": "table",
+          "start": 12,
+          "end": 76,
+          "rows": [
+            [
+              {
+                "ranges": [
+                  [
+                    12,
+                    17
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    17,
+                    30
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    30,
+                    34
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    34,
+                    54
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    54,
+                    72
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    72,
+                    76
+                  ]
+                ]
+              }
+            ]
+          ],
+          "headers": [
+            "项目",
+            "对应内容"
+          ],
+          "headerIncluded": false,
+          "rowHeader": true,
+          "columns": 2
+        },
+        {
+          "type": "text",
+          "start": 76,
+          "end": 82
+        },
+        {
+          "type": "table",
+          "start": 82,
+          "end": 252,
+          "rows": [
+            [
+              {
+                "ranges": [
+                  [
+                    82,
+                    84
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    84,
+                    104
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    104,
+                    106
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    106,
+                    137
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    137,
+                    139
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    139,
+                    149
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    149,
+                    151
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    151,
+                    186
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    186,
+                    188
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    188,
+                    252
+                  ]
+                ]
+              }
+            ]
+          ],
+          "headers": [
+            "项目",
+            "对应内容"
+          ],
+          "headerIncluded": false,
+          "rowHeader": true,
+          "columns": 2
+        },
+        {
+          "type": "text",
+          "start": 252,
+          "end": 284
+        }
+      ]
     },
     {
       "id": "numeric-c8e457c518d229",
@@ -8947,6 +9312,32 @@
       ]
     },
     {
+      "id": "numeric-327897e31ff254",
+      "subject": "surgery",
+      "chapter": "躯干骨骨折 & 脊髓损伤",
+      "section": "一、脊柱骨折概述",
+      "title": "①好发于 T10-L2（012）",
+      "text": "①好发于 T10-L2（012）\n②X 线是骨科的常规检查，但诊断脊髓、神经、韧带、半月板等损伤首选 MRI（软软的）\n③脊柱骨折急救搬运：平托法、滚动法",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 5,
+          "end": 11,
+          "answer": "T10-L2"
+        }
+      ],
+      "source": {
+        "file": "26 27考研：外科 躯干骨骨折 & 脊髓损伤 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          1
+        ],
+        "lecture": 26,
+        "images": [
+          "shared/numeric-memory/surgery-26-page-01.webp"
+        ]
+      }
+    },
+    {
       "id": "numeric-b5790298d44591",
       "subject": "surgery",
       "chapter": "躯干骨骨折 & 脊髓损伤",
@@ -9039,9 +9430,57 @@
       "category": "诊断与其他数字",
       "blanks": [
         {
+          "start": 22,
+          "end": 24,
+          "answer": "C1"
+        },
+        {
           "start": 83,
           "end": 85,
           "answer": "12"
+        },
+        {
+          "start": 100,
+          "end": 105,
+          "answer": "C3-C7"
+        }
+      ],
+      "source": {
+        "file": "26 27考研：外科 躯干骨骨折 & 脊髓损伤 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          2
+        ],
+        "lecture": 26,
+        "images": [
+          "shared/numeric-memory/surgery-26-page-02.webp"
+        ]
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            0,
+            -1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numeric-cd174890b0a53f",
+      "subject": "surgery",
+      "chapter": "躯干骨骨折 & 脊髓损伤",
+      "section": "二、颈椎骨折",
+      "title": "过伸损伤",
+      "text": "过伸损伤\n①Hangman/缢死者骨折：C2 枢椎椎弓根骨折（二叔上吊）。无移位 Halo 架或牵引固定；否则手术\n②无骨折-脱位的过伸损伤如 Whiplash 挥鞭损伤：后路椎板成形术扩大椎管容积",
+      "category": "干预条件",
+      "blanks": [
+        {
+          "start": 20,
+          "end": 22,
+          "answer": "C2"
         }
       ],
       "source": {
@@ -9084,7 +9523,13 @@
         "images": [
           "shared/numeric-memory/surgery-26-page-02.webp"
         ]
-      }
+      },
+      "hints": [
+        {
+          "start": 48,
+          "end": 69
+        }
+      ]
     },
     {
       "id": "numeric-7d353e72ccd835",
@@ -9104,6 +9549,11 @@
           "start": 135,
           "end": 136,
           "answer": "3"
+        },
+        {
+          "start": 217,
+          "end": 219,
+          "answer": "L1"
         }
       ],
       "source": {
@@ -9115,7 +9565,19 @@
         "images": [
           "surgery/lecture-pages/lecture-26-page-03.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            -1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-86cfe684189d3a",
@@ -9130,6 +9592,26 @@
           "start": 33,
           "end": 36,
           "answer": "2-4"
+        },
+        {
+          "start": 70,
+          "end": 75,
+          "answer": "C1-C4"
+        },
+        {
+          "start": 81,
+          "end": 86,
+          "answer": "C5-T1"
+        },
+        {
+          "start": 97,
+          "end": 102,
+          "answer": "T2-L1"
+        },
+        {
+          "start": 113,
+          "end": 118,
+          "answer": "L2-S3"
         }
       ],
       "source": {
@@ -9141,7 +9623,21 @@
         "images": [
           "surgery/lecture-pages/lecture-26-page-04.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-15cc7f7c911829",
@@ -9168,6 +9664,417 @@
           "surgery/lecture-pages/lecture-26-page-05.webp"
         ]
       }
+    },
+    {
+      "id": "numeric-4119917521943d",
+      "subject": "surgery",
+      "chapter": "颈腰椎退行性病（含损伤平面判断）",
+      "section": "一、概述",
+      "title": "①颈椎 1、2 无椎间盘，颈椎 3-7 有钩椎/Luschka 关节",
+      "text": "①颈椎 1、2 无椎间盘，颈椎 3-7 有钩椎/Luschka 关节\n②椎间盘结构：软骨终板、髓核、纤维环\n③椎间盘易向侧后方突出，第 m-n 椎间盘压迫第 n 神经根\n刺激或压迫神经根致疼痛：机械性压迫、化学性刺激、自身免疫性\n④影像\nX 线 生理曲度异常、骨质增生、钙化、椎间隙狭窄、椎间盘突出间隙不等宽等。X 线不能观察椎间盘\nCT 上述 X 线内容+观察椎间盘，但不能清楚观察神经和脊髓等受压情况\nMRI 上述 CT 内容，清楚观察神经和脊髓等受压情况",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 16,
+          "end": 19,
+          "answer": "3-7"
+        }
+      ],
+      "source": {
+        "file": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          1,
+          2
+        ],
+        "lecture": 27,
+        "images": [
+          "shared/numeric-memory/surgery-27-page-01.webp",
+          "surgery/lecture-pages/lecture-27-page-02.webp"
+        ]
+      },
+      "layout": [
+        {
+          "type": "text",
+          "start": 0,
+          "end": 119
+        },
+        {
+          "type": "table",
+          "start": 119,
+          "end": 230,
+          "rows": [
+            [
+              {
+                "ranges": [
+                  [
+                    119,
+                    123
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    123,
+                    167
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    167,
+                    170
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    170,
+                    203
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    203,
+                    207
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    207,
+                    230
+                  ]
+                ]
+              }
+            ]
+          ],
+          "headers": [
+            "项目",
+            "对应内容"
+          ],
+          "headerIncluded": false,
+          "rowHeader": true,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "id": "numeric-0b598843a61e3c",
+      "subject": "surgery",
+      "chapter": "颈腰椎退行性病（含损伤平面判断）",
+      "section": "二、颈椎病",
+      "title": "C5-6 好发，女性多见（脖子女性多见如甲状腺疾病、我的脖子好 6）",
+      "text": "C5-6 好发，女性多见（脖子女性多见如甲状腺疾病、我的脖子好 6）",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 0,
+          "end": 4,
+          "answer": "C5-6"
+        }
+      ],
+      "source": {
+        "file": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          2
+        ],
+        "lecture": 27,
+        "images": [
+          "surgery/lecture-pages/lecture-27-page-02.webp"
+        ]
+      }
+    },
+    {
+      "id": "numeric-08fab091b201a6",
+      "subject": "surgery",
+      "chapter": "颈腰椎退行性病（含损伤平面判断）",
+      "section": "三、腰椎间盘突出症",
+      "title": "L4-5、L5-S1 好发，男性多见（腰男性多见如肾小球肾炎、我的腰）",
+      "text": "L4-5、L5-S1 好发，男性多见（腰男性多见如肾小球肾炎、我的腰）",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 0,
+          "end": 4,
+          "answer": "L4-5"
+        },
+        {
+          "start": 5,
+          "end": 10,
+          "answer": "L5-S1"
+        }
+      ],
+      "source": {
+        "file": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          3
+        ],
+        "lecture": 27,
+        "images": [
+          "surgery/lecture-pages/lecture-27-page-03.webp"
+        ]
+      }
+    },
+    {
+      "id": "numeric-228424201d8136",
+      "subject": "surgery",
+      "chapter": "颈腰椎退行性病（含损伤平面判断）",
+      "section": "三、腰椎间盘突出症",
+      "title": "临床表现和治疗",
+      "text": "临床表现和治疗\n①腰痛（窦椎神经）+下肢放射痛（坐骨神经），腰部活动受限尤其前屈，腰椎侧凸（内奸外患）\n②损伤平面判断（L4L5S1 伸膝伸足屈足、膝反射没有踝反射、4-股四头肌-伸膝、自己摸）\n受累神经根 对应神经 运动障碍 感觉障碍 深反射障碍\nL4（L3-4 椎间盘） 股神经 伸膝 膝前、小腿前内、内踝 膝反射\nL5（L4-5 椎间盘） 腓总神经 伸踝、伸足 小腿外前、足背内\nS1（L5-S1 椎间盘） 胫神经 屈踝、屈足 小腿后、足外、外踝 踝/跟腱反射\n③膨出型、Schmorl 结节、经骨突出型：无神经根受压→直腿抬高(-)及加强(-)，保守治疗（紧箍不许摸不许碰）\n④突出型、脱出型、游离型：有神经根受压→直腿抬高(+)/Lasegue 征及加强(+)，保守治疗→无效手术。但二便障\n碍（马尾神经受压）急诊手术（注意：只是鞍区感觉异常不用急诊手术）",
+      "category": "干预条件",
+      "blanks": [
+        {
+          "start": 125,
+          "end": 127,
+          "answer": "L4"
+        },
+        {
+          "start": 128,
+          "end": 132,
+          "answer": "L3-4"
+        },
+        {
+          "start": 160,
+          "end": 162,
+          "answer": "L5"
+        },
+        {
+          "start": 163,
+          "end": 167,
+          "answer": "L4-5"
+        },
+        {
+          "start": 193,
+          "end": 195,
+          "answer": "S1"
+        },
+        {
+          "start": 196,
+          "end": 201,
+          "answer": "L5-S1"
+        }
+      ],
+      "source": {
+        "file": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          3,
+          4
+        ],
+        "lecture": 27,
+        "images": [
+          "surgery/lecture-pages/lecture-27-page-03.webp",
+          "surgery/lecture-pages/lecture-27-page-04.webp"
+        ]
+      },
+      "hints": [
+        {
+          "start": 59,
+          "end": 97
+        }
+      ],
+      "layout": [
+        {
+          "type": "text",
+          "start": 0,
+          "end": 98
+        },
+        {
+          "type": "table",
+          "start": 98,
+          "end": 233,
+          "rows": [
+            [
+              {
+                "ranges": [
+                  [
+                    98,
+                    104
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    104,
+                    109
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    109,
+                    114
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    114,
+                    119
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    119,
+                    125
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    125,
+                    138
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    138,
+                    142
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    142,
+                    145
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    145,
+                    156
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    156,
+                    160
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    160,
+                    173
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    173,
+                    178
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    178,
+                    184
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    184,
+                    193
+                  ]
+                ]
+              },
+              {
+                "ranges": []
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    193,
+                    207
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    207,
+                    211
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    211,
+                    217
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    217,
+                    227
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    227,
+                    233
+                  ]
+                ]
+              }
+            ]
+          ],
+          "headers": [
+            "项目",
+            "要点1",
+            "要点2",
+            "要点3",
+            "要点4"
+          ],
+          "headerIncluded": false,
+          "rowHeader": true,
+          "columns": 5
+        },
+        {
+          "type": "text",
+          "start": 233,
+          "end": 383
+        }
+      ]
     },
     {
       "id": "numeric-ead339e1090917",
@@ -9584,6 +10491,58 @@
       }
     },
     {
+      "id": "numeric-93f7f8a6a0a3ac",
+      "subject": "surgery",
+      "chapter": "四肢骨折和脱位",
+      "section": "（五）肱骨髁上骨折（不是内上髁、外上髁骨折）",
+      "title": "解剖基础：肱骨干与肱骨髁轴线有 30-50°的前倾角（01 要我扇我）",
+      "text": "解剖基础：肱骨干与肱骨髁轴线有 30-50°的前倾角（01 要我扇我）",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 16,
+          "end": 21,
+          "answer": "30-50"
+        }
+      ],
+      "source": {
+        "file": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          4
+        ],
+        "lecture": 28,
+        "images": [
+          "shared/numeric-memory/surgery-28-page-04.webp"
+        ]
+      }
+    },
+    {
+      "id": "numeric-eb821fed3e0ebb",
+      "subject": "surgery",
+      "chapter": "四肢骨折和脱位",
+      "section": "（五）肱骨髁上骨折（不是内上髁、外上髁骨折）",
+      "title": "多见于＜10 岁",
+      "text": "多见于＜10 岁",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 4,
+          "end": 6,
+          "answer": "10"
+        }
+      ],
+      "source": {
+        "file": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          4
+        ],
+        "lecture": 28,
+        "images": [
+          "shared/numeric-memory/surgery-28-page-04.webp"
+        ]
+      }
+    },
+    {
       "id": "numeric-ac7700a1a2ba15",
       "subject": "surgery",
       "chapter": "四肢骨折和脱位",
@@ -9794,6 +10753,11 @@
           "start": 91,
           "end": 93,
           "answer": "10"
+        },
+        {
+          "start": 166,
+          "end": 171,
+          "answer": "30-50"
         }
       ],
       "source": {
@@ -9805,7 +10769,18 @@
         "images": [
           "surgery/lecture-pages/lecture-28-page-07.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            -1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-c6d608b5b5b845",
@@ -9915,6 +10890,11 @@
       "category": "诊断与其他数字",
       "blanks": [
         {
+          "start": 20,
+          "end": 25,
+          "answer": "45-60"
+        },
+        {
           "start": 79,
           "end": 80,
           "answer": "5"
@@ -9934,7 +10914,19 @@
         "images": [
           "shared/numeric-memory/surgery-28-page-10.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            0,
+            1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-bf698a53387784",
@@ -9954,6 +10946,49 @@
           "start": 48,
           "end": 50,
           "answer": "24"
+        },
+        {
+          "start": 173,
+          "end": 178,
+          "answer": "12-15"
+        }
+      ],
+      "source": {
+        "file": "28 27考研：外科 四肢骨折和脱位 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          10
+        ],
+        "lecture": 28,
+        "images": [
+          "shared/numeric-memory/surgery-28-page-10.webp"
+        ]
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            -1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numeric-c1a4497aa0cdd2",
+      "subject": "surgery",
+      "chapter": "四肢骨折和脱位",
+      "section": "（三）股骨转子/粗隆间骨折",
+      "title": "①跌倒等外伤、病理性骨折，多见于中老年骨质疏松",
+      "text": "①跌倒等外伤、病理性骨折，多见于中老年骨质疏松\n②转子间压痛，下肢缩短、外旋畸形可达 90°，髋部肿胀和瘀斑多见（囊外骨折）\n③手术\n下肢缩短：股骨颈骨折、股骨转子间骨折、股骨干骨折、髋关节后脱位、部分髋关节前脱位等",
+      "category": "干预条件",
+      "blanks": [
+        {
+          "start": 43,
+          "end": 45,
+          "answer": "90"
         }
       ],
       "source": {
@@ -10154,13 +11189,8 @@
       "blanks": [
         {
           "start": 53,
-          "end": 56,
-          "answer": "1/4"
-        },
-        {
-          "start": 57,
           "end": 60,
-          "answer": "1/3"
+          "answer": "1/4-1/3"
         }
       ],
       "source": {
@@ -10172,7 +11202,17 @@
         "images": [
           "surgery/lecture-pages/lecture-28-page-12.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-1fc05e79168b68",
@@ -10605,9 +11645,19 @@
           "answer": "10-20"
         },
         {
+          "start": 26,
+          "end": 34,
+          "answer": "500-1000"
+        },
+        {
           "start": 44,
           "end": 49,
           "answer": "20-30"
+        },
+        {
+          "start": 51,
+          "end": 60,
+          "answer": "1000-1500"
         },
         {
           "start": 75,
@@ -10640,6 +11690,25 @@
           "surgery/lecture-pages/lecture-30-page-02.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            -1,
+            3,
+            -1,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "table",
@@ -10747,6 +11816,11 @@
           "start": 32,
           "end": 34,
           "answer": "70"
+        },
+        {
+          "start": 40,
+          "end": 46,
+          "answer": "70-100"
         }
       ],
       "source": {
@@ -10759,6 +11833,18 @@
           "surgery/lecture-pages/lecture-30-page-02.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            -1
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "table",
@@ -10876,9 +11962,29 @@
       "category": "用药与补液",
       "blanks": [
         {
+          "start": 48,
+          "end": 55,
+          "answer": "135-150"
+        },
+        {
+          "start": 70,
+          "end": 77,
+          "answer": "280-310"
+        },
+        {
           "start": 89,
           "end": 92,
           "answer": "135"
+        },
+        {
+          "start": 95,
+          "end": 102,
+          "answer": "130-135"
+        },
+        {
+          "start": 106,
+          "end": 113,
+          "answer": "120-130"
         },
         {
           "start": 116,
@@ -10946,6 +12052,31 @@
           "surgery/lecture-pages/lecture-31-page-01.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            -1,
+            0,
+            -1,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "table",
@@ -11163,6 +12294,32 @@
       }
     },
     {
+      "id": "numeric-cd99ac60ad6967",
+      "subject": "surgery",
+      "chapter": "体液失衡",
+      "section": "本章数字界值",
+      "title": "（一）高钾血症（血 K+＞5.5）",
+      "text": "（一）高钾血症（血 K+＞5.5）",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 13,
+          "end": 16,
+          "answer": "5.5"
+        }
+      ],
+      "source": {
+        "file": "31 27考研：外科 体液失衡 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          1
+        ],
+        "lecture": 31,
+        "images": [
+          "surgery/lecture-pages/lecture-31-page-01.webp"
+        ]
+      }
+    },
+    {
       "id": "numeric-871f118739747b",
       "subject": "surgery",
       "chapter": "体液失衡",
@@ -11312,6 +12469,32 @@
       ]
     },
     {
+      "id": "numeric-8f4b74e3e40da0",
+      "subject": "surgery",
+      "chapter": "体液失衡",
+      "section": "本章数字界值",
+      "title": "（二）低钾血症（血 K+＜3.5）",
+      "text": "（二）低钾血症（血 K+＜3.5）",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 13,
+          "end": 16,
+          "answer": "3.5"
+        }
+      ],
+      "source": {
+        "file": "31 27考研：外科 体液失衡 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          2
+        ],
+        "lecture": 31,
+        "images": [
+          "surgery/lecture-pages/lecture-31-page-02.webp"
+        ]
+      }
+    },
+    {
       "id": "numeric-328467119d5af3",
       "subject": "surgery",
       "chapter": "体液失衡",
@@ -11341,19 +12524,9 @@
           "answer": "3"
         },
         {
-          "start": 70,
-          "end": 71,
-          "answer": "4"
-        },
-        {
           "start": 79,
           "end": 81,
           "answer": "20"
-        },
-        {
-          "start": 91,
-          "end": 92,
-          "answer": "2"
         },
         {
           "start": 100,
@@ -11396,6 +12569,36 @@
           "surgery/lecture-pages/lecture-31-page-03.webp"
         ]
       },
+      "hints": [
+        {
+          "start": 65,
+          "end": 75
+        },
+        {
+          "start": 88,
+          "end": 96
+        }
+      ],
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -11600,6 +12803,58 @@
       ]
     },
     {
+      "id": "numeric-c92617bda0e8fc",
+      "subject": "surgery",
+      "chapter": "体液失衡",
+      "section": "本章数字界值",
+      "title": "（一）高钙血症（血 Ca2+＞2.75）",
+      "text": "（一）高钙血症（血 Ca2+＞2.75）",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 15,
+          "end": 19,
+          "answer": "2.75"
+        }
+      ],
+      "source": {
+        "file": "31 27考研：外科 体液失衡 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          3
+        ],
+        "lecture": 31,
+        "images": [
+          "surgery/lecture-pages/lecture-31-page-03.webp"
+        ]
+      }
+    },
+    {
+      "id": "numeric-53b49cff10c5b1",
+      "subject": "surgery",
+      "chapter": "体液失衡",
+      "section": "本章数字界值",
+      "title": "（二）低钙血症（血 Ca2+＜2.25）",
+      "text": "（二）低钙血症（血 Ca2+＜2.25）",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 15,
+          "end": 19,
+          "answer": "2.25"
+        }
+      ],
+      "source": {
+        "file": "31 27考研：外科 体液失衡 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          3
+        ],
+        "lecture": 31,
+        "images": [
+          "surgery/lecture-pages/lecture-31-page-03.webp"
+        ]
+      }
+    },
+    {
       "id": "numeric-448fc7cf30f009",
       "subject": "surgery",
       "chapter": "营养代谢",
@@ -11639,6 +12894,11 @@
           "answer": "18.5"
         },
         {
+          "start": 83,
+          "end": 88,
+          "answer": "24-28"
+        },
+        {
           "start": 93,
           "end": 95,
           "answer": "28"
@@ -11647,6 +12907,11 @@
           "start": 102,
           "end": 104,
           "answer": "30"
+        },
+        {
+          "start": 122,
+          "end": 127,
+          "answer": "25-30"
         },
         {
           "start": 137,
@@ -11674,6 +12939,28 @@
           "surgery/lecture-pages/lecture-32-page-01.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            -1,
+            6,
+            7,
+            -1,
+            8,
+            9,
+            10
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "table",
@@ -11961,6 +13248,31 @@
           "start": 133,
           "end": 140,
           "answer": "1.2-1.5"
+        },
+        {
+          "start": 149,
+          "end": 152,
+          "answer": "1:1"
+        },
+        {
+          "start": 156,
+          "end": 159,
+          "answer": "1:2"
+        },
+        {
+          "start": 167,
+          "end": 168,
+          "answer": "1"
+        },
+        {
+          "start": 170,
+          "end": 177,
+          "answer": "150-200"
+        },
+        {
+          "start": 189,
+          "end": 192,
+          "answer": "1:2"
         }
       ],
       "source": {
@@ -11972,7 +13284,27 @@
         "images": [
           "surgery/lecture-pages/lecture-32-page-02.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-4560338dc42958",
@@ -12614,13 +13946,8 @@
       "blanks": [
         {
           "start": 13,
-          "end": 16,
-          "answer": "1/3"
-        },
-        {
-          "start": 17,
           "end": 20,
-          "answer": "1/2"
+          "answer": "1/3-1/2"
         },
         {
           "start": 48,
@@ -12663,6 +13990,22 @@
           "surgery/lecture-pages/lecture-34-page-01.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -13036,6 +14379,11 @@
           "answer": "2-3"
         },
         {
+          "start": 387,
+          "end": 395,
+          "answer": "5.6-11.2"
+        },
+        {
           "start": 425,
           "end": 431,
           "answer": "140/90"
@@ -13080,7 +14428,38 @@
         "images": [
           "surgery/lecture-pages/lecture-35-page-01.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            -1,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-319afcb23097a8",
@@ -13911,6 +15290,11 @@
       "category": "诊断与其他数字",
       "blanks": [
         {
+          "start": 33,
+          "end": 38,
+          "answer": "20-22"
+        },
+        {
           "start": 42,
           "end": 47,
           "answer": "22-24"
@@ -13925,7 +15309,18 @@
         "images": [
           "surgery/lecture-pages/lecture-36-page-01.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            0
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-ed076ace613eb2",
@@ -13993,8 +15388,33 @@
       "category": "治疗与随访时间",
       "blanks": [
         {
-          "start": 615,
-          "end": 619,
+          "start": 539,
+          "end": 542,
+          "answer": "100"
+        },
+        {
+          "start": 555,
+          "end": 558,
+          "answer": "400"
+        },
+        {
+          "start": 567,
+          "end": 569,
+          "answer": "40"
+        },
+        {
+          "start": 575,
+          "end": 577,
+          "answer": "80"
+        },
+        {
+          "start": 588,
+          "end": 591,
+          "answer": "150"
+        },
+        {
+          "start": 597,
+          "end": 601,
           "answer": "1000"
         }
       ],
@@ -14010,6 +15430,27 @@
           "surgery/lecture-pages/lecture-36-page-04.webp"
         ]
       },
+      "hints": [
+        {
+          "start": 601,
+          "end": 622
+        }
+      ],
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -14101,6 +15542,36 @@
       "category": "诊断与其他数字",
       "blanks": [
         {
+          "start": 5,
+          "end": 7,
+          "answer": "T2"
+        },
+        {
+          "start": 12,
+          "end": 14,
+          "answer": "T4"
+        },
+        {
+          "start": 25,
+          "end": 27,
+          "answer": "T6"
+        },
+        {
+          "start": 37,
+          "end": 39,
+          "answer": "T8"
+        },
+        {
+          "start": 47,
+          "end": 50,
+          "answer": "T10"
+        },
+        {
+          "start": 61,
+          "end": 64,
+          "answer": "T12"
+        },
+        {
           "start": 71,
           "end": 74,
           "answer": "2-3"
@@ -14115,7 +15586,23 @@
         "images": [
           "surgery/lecture-pages/lecture-36-page-04.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            0
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-ee9282b1bec322",
@@ -14140,6 +15627,205 @@
         "lecture": 36,
         "images": [
           "surgery/lecture-pages/lecture-36-page-05.webp"
+        ]
+      }
+    },
+    {
+      "id": "numeric-5860d9bbfe1a6c",
+      "subject": "surgery",
+      "chapter": "麻醉",
+      "section": "四、椎管内麻醉（硬膜外阻滞、蛛网膜下腔阻滞/腰麻）",
+      "title": "骶管和鞍区麻醉可用于  肛门、会阴部手术（除睾丸手术）",
+      "text": "骶管和鞍区麻醉可用于  肛门、会阴部手术（除睾丸手术）\n骶管麻醉 鞍区麻醉\n本质 硬膜外麻醉（阻滞骶脊神经） 蛛网膜下腔麻醉（阻滞骶尾神经）\n体位 侧卧、俯卧位（躺着吃里脊） 坐位（坐在马鞍上）\n定位 骶管裂孔 L3-L5 椎体（扇我下马威）\n主要并发症 全脊髓麻醉、局麻药毒性反应、尿潴留 马尾综合征（二便障碍）、头痛、尿潴留",
+      "category": "干预条件",
+      "blanks": [
+        {
+          "start": 106,
+          "end": 111,
+          "answer": "L3-L5"
+        }
+      ],
+      "source": {
+        "file": "36 27考研：外科 麻醉 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          5
+        ],
+        "lecture": 36,
+        "images": [
+          "surgery/lecture-pages/lecture-36-page-05.webp"
+        ]
+      },
+      "layout": [
+        {
+          "type": "text",
+          "start": 0,
+          "end": 28
+        },
+        {
+          "type": "table",
+          "start": 28,
+          "end": 164,
+          "rows": [
+            [
+              {
+                "ranges": []
+              },
+              {
+                "ranges": [
+                  [
+                    28,
+                    33
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    33,
+                    38
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    38,
+                    41
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    41,
+                    55
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    55,
+                    71
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    71,
+                    74
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    74,
+                    88
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    88,
+                    98
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    98,
+                    101
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    101,
+                    106
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    106,
+                    122
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    122,
+                    128
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    128,
+                    146
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    146,
+                    164
+                  ]
+                ]
+              }
+            ]
+          ],
+          "headers": [
+            "",
+            "骶管麻醉",
+            "鞍区麻醉"
+          ],
+          "headerIncluded": true,
+          "rowHeader": true,
+          "columns": 3
+        }
+      ]
+    },
+    {
+      "id": "numeric-a4c8be70126dbf",
+      "subject": "surgery",
+      "chapter": "休克（含常考休克小结）",
+      "section": "本章数字界值",
+      "title": "二、微循环（20%）",
+      "text": "二、微循环（20%）",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 6,
+          "end": 8,
+          "answer": "20"
+        }
+      ],
+      "source": {
+        "file": "37 27考研：外科 休克（含常考休克小结） 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          1
+        ],
+        "lecture": 37,
+        "images": [
+          "surgery/lecture-pages/lecture-37-page-01.webp"
         ]
       }
     },
@@ -14250,6 +15936,11 @@
           "answer": "200"
         },
         {
+          "start": 79,
+          "end": 84,
+          "answer": "90-70"
+        },
+        {
           "start": 90,
           "end": 92,
           "answer": "70"
@@ -14265,6 +15956,22 @@
           "surgery/lecture-pages/lecture-37-page-02.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            -1,
+            5
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -14820,6 +16527,11 @@
       "category": "诊断与其他数字",
       "blanks": [
         {
+          "start": 12,
+          "end": 15,
+          "answer": "0.5"
+        },
+        {
           "start": 21,
           "end": 26,
           "answer": "1-1.5"
@@ -14839,7 +16551,19 @@
         "images": [
           "surgery/lecture-pages/lecture-37-page-02.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            0,
+            1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-c613c6e16b34f0",
@@ -16043,9 +17767,19 @@
           "answer": "200"
         },
         {
+          "start": 287,
+          "end": 288,
+          "answer": "1"
+        },
+        {
           "start": 293,
           "end": 295,
           "answer": "80"
+        },
+        {
+          "start": 297,
+          "end": 298,
+          "answer": "2"
         },
         {
           "start": 304,
@@ -16053,9 +17787,19 @@
           "answer": "50-79"
         },
         {
+          "start": 311,
+          "end": 312,
+          "answer": "3"
+        },
+        {
           "start": 317,
           "end": 322,
           "answer": "30-49"
+        },
+        {
+          "start": 324,
+          "end": 325,
+          "answer": "4"
         },
         {
           "start": 331,
@@ -16072,7 +17816,28 @@
         "images": [
           "shared/numeric-memory/med-01-page-04.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            4,
+            -1,
+            5,
+            -1,
+            6,
+            -1,
+            7
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-d0c67a1c0f9835",
@@ -16092,6 +17857,31 @@
           "start": 67,
           "end": 68,
           "answer": "2"
+        },
+        {
+          "start": 122,
+          "end": 123,
+          "answer": "0"
+        },
+        {
+          "start": 138,
+          "end": 139,
+          "answer": "1"
+        },
+        {
+          "start": 170,
+          "end": 171,
+          "answer": "2"
+        },
+        {
+          "start": 198,
+          "end": 199,
+          "answer": "3"
+        },
+        {
+          "start": 223,
+          "end": 224,
+          "answer": "4"
         }
       ],
       "source": {
@@ -16104,6 +17894,22 @@
           "med/lecture-pages/lecture-01-page-05.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -16411,6 +18217,32 @@
       }
     },
     {
+      "id": "numeric-bfbd4b9c529645",
+      "subject": "med",
+      "chapter": "COPD",
+      "section": "（一）语音震颤/触觉震颤/语音共振",
+      "title": "语音震颤  最强：肩胛间区、左右胸骨旁 1-2 肋间",
+      "text": "语音震颤  最强：肩胛间区、左右胸骨旁 1-2 肋间\n语音震颤  最弱：肺底",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 20,
+          "end": 23,
+          "answer": "1-2"
+        }
+      ],
+      "source": {
+        "file": "01 27考研：内科含诊断 COPD 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          11
+        ],
+        "lecture": 1,
+        "images": [
+          "shared/numeric-memory/med-01-page-11.webp"
+        ]
+      }
+    },
+    {
       "id": "numeric-4dc5b7f909ed6b",
       "subject": "med",
       "chapter": "肺动脉高压",
@@ -16529,13 +18361,8 @@
       "blanks": [
         {
           "start": 43,
-          "end": 46,
-          "answer": "1/2"
-        },
-        {
-          "start": 47,
           "end": 50,
-          "answer": "2/3"
+          "answer": "1/2-2/3"
         },
         {
           "start": 165,
@@ -16552,7 +18379,18 @@
         "images": [
           "shared/numeric-memory/med-02-page-03.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            2
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-48c58eb20dd930",
@@ -17774,6 +19612,32 @@
       ]
     },
     {
+      "id": "numeric-ea15593f7f0359",
+      "subject": "med",
+      "chapter": "肺结核",
+      "section": "（一）原则",
+      "title": "短程、早期、规律、全程、适量、联合（多联合 3-4 种药）早恋全是短命鬼",
+      "text": "短程、早期、规律、全程、适量、联合（多联合 3-4 种药）早恋全是短命鬼",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 22,
+          "end": 25,
+          "answer": "3-4"
+        }
+      ],
+      "source": {
+        "file": "08 27考研：内科含诊断 肺结核 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          4
+        ],
+        "lecture": 8,
+        "images": [
+          "med/lecture-pages/lecture-08-page-04.webp"
+        ]
+      }
+    },
+    {
       "id": "numeric-8cd65ee24d1f59",
       "subject": "med",
       "chapter": "肺结核",
@@ -17992,11 +19856,6 @@
           "answer": "4"
         },
         {
-          "start": 74,
-          "end": 77,
-          "answer": "3/4"
-        },
-        {
           "start": 102,
           "end": 103,
           "answer": "6"
@@ -18011,7 +19870,21 @@
         "images": [
           "med/lecture-pages/lecture-08-page-04.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            5
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-b7aafa67d64a34",
@@ -18046,6 +19919,11 @@
           "start": 158,
           "end": 159,
           "answer": "1"
+        },
+        {
+          "start": 188,
+          "end": 191,
+          "answer": "1-2"
         }
       ],
       "source": {
@@ -18057,7 +19935,22 @@
         "images": [
           "med/lecture-pages/lecture-08-page-05.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            -1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-6d55ffd1a0a3bb",
@@ -19114,6 +21007,16 @@
           "answer": "300"
         },
         {
+          "start": 48,
+          "end": 55,
+          "answer": "200-300"
+        },
+        {
+          "start": 59,
+          "end": 66,
+          "answer": "100-200"
+        },
+        {
           "start": 70,
           "end": 73,
           "answer": "100"
@@ -19138,7 +21041,22 @@
         "images": [
           "med/lecture-pages/lecture-10-page-02.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            -1,
+            -1,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-ceaff52a0582ad",
@@ -19230,6 +21148,11 @@
           "start": 266,
           "end": 268,
           "answer": "30"
+        },
+        {
+          "start": 315,
+          "end": 323,
+          "answer": "7.25-7.3"
         }
       ],
       "source": {
@@ -19244,6 +21167,20 @@
           "shared/numeric-memory/med-10-page-03.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            -1
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -19513,6 +21450,11 @@
           "answer": "45"
         },
         {
+          "start": 60,
+          "end": 64,
+          "answer": "-2.3"
+        },
+        {
           "start": 85,
           "end": 87,
           "answer": "22"
@@ -19542,7 +21484,25 @@
         "images": [
           "med/lecture-pages/lecture-11-page-03.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-d0ecf64b4f1fd3",
@@ -20938,6 +22898,37 @@
       ]
     },
     {
+      "id": "numeric-7908cabb059ea0",
+      "subject": "med",
+      "chapter": "胸膜疾病",
+      "section": "四、胸腔闭式引流",
+      "title": "位置",
+      "text": "位置\n①气胸：前胸壁锁骨中线第 2 肋间\n②胸水：腋中线与腋后线间第 6-7 肋间",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 16,
+          "end": 17,
+          "answer": "2"
+        },
+        {
+          "start": 35,
+          "end": 38,
+          "answer": "6-7"
+        }
+      ],
+      "source": {
+        "file": "13 27考研：内科含诊断+外科 胸膜疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          6
+        ],
+        "lecture": 13,
+        "images": [
+          "shared/numeric-memory/med-13-page-06.webp"
+        ]
+      }
+    },
+    {
       "id": "numeric-522e7740c170ea",
       "subject": "med",
       "chapter": "胃食管反流病",
@@ -21444,6 +23435,11 @@
       "category": "治疗与随访时间",
       "blanks": [
         {
+          "start": 16,
+          "end": 17,
+          "answer": "2"
+        },
+        {
           "start": 89,
           "end": 94,
           "answer": "10-14"
@@ -21463,7 +23459,19 @@
         "images": [
           "med/lecture-pages/lecture-15-page-02.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            0,
+            1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-17349e7a692bc2",
@@ -22049,16 +24057,6 @@
           "start": 37,
           "end": 40,
           "answer": "6-8"
-        },
-        {
-          "start": 47,
-          "end": 48,
-          "answer": "4"
-        },
-        {
-          "start": 55,
-          "end": 56,
-          "answer": "7"
         }
       ],
       "source": {
@@ -22070,7 +24068,24 @@
         "images": [
           "shared/numeric-memory/med-16-page-04.webp"
         ]
-      }
+      },
+      "hints": [
+        {
+          "start": 42,
+          "end": 61
+        }
+      ],
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-4f2e48e63eb0fd",
@@ -22081,6 +24096,11 @@
       "text": "①四联疗法：PPI+铋剂+2 种抗生素\n②根除 Hp 所需的 1-2 周疗程可重叠在 4-8 周的抑酸疗程内、也可在抑酸疗程结束后进行",
       "category": "治疗与随访时间",
       "blanks": [
+        {
+          "start": 13,
+          "end": 14,
+          "answer": "2"
+        },
         {
           "start": 31,
           "end": 34,
@@ -22101,7 +24121,19 @@
         "images": [
           "shared/numeric-memory/med-16-page-04.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            0,
+            1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-ecaeb77e2ccedb",
@@ -23649,6 +25681,11 @@
           "answer": "2"
         },
         {
+          "start": 563,
+          "end": 569,
+          "answer": "100:40"
+        },
+        {
           "start": 745,
           "end": 746,
           "answer": "1"
@@ -23676,6 +25713,29 @@
           "shared/numeric-memory/med-22-page-05.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            -1,
+            10,
+            11,
+            12
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -25226,6 +27286,32 @@
       ]
     },
     {
+      "id": "numeric-57a83ce56a08cc",
+      "subject": "med",
+      "chapter": "肾衰竭",
+      "section": "本章数字界值",
+      "title": "一、急性肾损伤（60%的 AKI 与创伤、手术相关）",
+      "text": "一、急性肾损伤（60%的 AKI 与创伤、手术相关）",
+      "category": "干预条件",
+      "blanks": [
+        {
+          "start": 8,
+          "end": 10,
+          "answer": "60"
+        }
+      ],
+      "source": {
+        "file": "26 27考研：内科 肾衰竭 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          1
+        ],
+        "lecture": 26,
+        "images": [
+          "med/lecture-pages/lecture-26-page-01.webp"
+        ]
+      }
+    },
+    {
       "id": "numeric-1b3358bf496f3c",
       "subject": "med",
       "chapter": "肾衰竭",
@@ -25359,6 +27445,16 @@
           "answer": "90"
         },
         {
+          "start": 153,
+          "end": 158,
+          "answer": "60-90"
+        },
+        {
+          "start": 162,
+          "end": 167,
+          "answer": "30-59"
+        },
+        {
           "start": 175,
           "end": 177,
           "answer": "30"
@@ -25374,6 +27470,22 @@
           "med/lecture-pages/lecture-26-page-02.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            -1,
+            4
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -25519,6 +27631,26 @@
           "answer": "90"
         },
         {
+          "start": 55,
+          "end": 60,
+          "answer": "60-89"
+        },
+        {
+          "start": 64,
+          "end": 69,
+          "answer": "45-59"
+        },
+        {
+          "start": 73,
+          "end": 78,
+          "answer": "30-44"
+        },
+        {
+          "start": 79,
+          "end": 84,
+          "answer": "15-29"
+        },
+        {
           "start": 86,
           "end": 88,
           "answer": "15"
@@ -25554,6 +27686,25 @@
           "med/lecture-pages/lecture-26-page-03.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "table",
@@ -25731,13 +27882,8 @@
         },
         {
           "start": 47,
-          "end": 50,
-          "answer": "1/3"
-        },
-        {
-          "start": 51,
           "end": 54,
-          "answer": "1/2"
+          "answer": "1/3-1/2"
         }
       ],
       "source": {
@@ -25749,7 +27895,18 @@
         "images": [
           "shared/numeric-memory/med-26-page-04.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            -1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-760574ce81dfab",
@@ -26218,6 +28375,16 @@
           "answer": "90"
         },
         {
+          "start": 108,
+          "end": 113,
+          "answer": "60-90"
+        },
+        {
+          "start": 117,
+          "end": 122,
+          "answer": "30-59"
+        },
+        {
           "start": 129,
           "end": 131,
           "answer": "30"
@@ -26232,7 +28399,21 @@
         "images": [
           "shared/numeric-memory/med-27-page-05.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            -1,
+            -1,
+            2
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-5f6bfb2d0b8e09",
@@ -28014,6 +30195,16 @@
           "answer": "90"
         },
         {
+          "start": 47,
+          "end": 52,
+          "answer": "60-90"
+        },
+        {
+          "start": 56,
+          "end": 61,
+          "answer": "30-59"
+        },
+        {
           "start": 68,
           "end": 70,
           "answer": "30"
@@ -28028,7 +30219,23 @@
         "images": [
           "med/lecture-pages/lecture-28-page-03.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            -1,
+            4
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-1124e2915c689c",
@@ -28060,6 +30267,11 @@
           "answer": "320"
         },
         {
+          "start": 151,
+          "end": 157,
+          "answer": "80-100"
+        },
+        {
           "start": 158,
           "end": 163,
           "answer": "32-36"
@@ -28080,6 +30292,22 @@
           "med/lecture-pages/lecture-28-page-04.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            4,
+            5
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "table",
@@ -28245,6 +30473,11 @@
           "answer": "1.5"
         },
         {
+          "start": 17,
+          "end": 28,
+          "answer": "0.005-0.015"
+        },
+        {
           "start": 58,
           "end": 62,
           "answer": "5-20"
@@ -28269,7 +30502,22 @@
         "images": [
           "med/lecture-pages/lecture-28-page-04.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            -1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-47c660a4c2f2d3",
@@ -28459,32 +30707,6 @@
         "lecture": 29,
         "images": [
           "shared/numeric-memory/med-29-page-02.webp"
-        ]
-      }
-    },
-    {
-      "id": "numeric-82047229358c64",
-      "subject": "med",
-      "chapter": "溶血性贫血",
-      "section": "一、溶贫的分类",
-      "title": "红细胞自身异常（多为遗传性，但 PNH 为获得性）",
-      "text": "红细胞自身异常（多为遗传性，但 PNH 为获得性）\n（1）膜\n①遗传性 X 形细胞增多症\n②阵发性睡眠性血红蛋白尿 PNH（获得性）：糖磷脂酰肌醇（GPI）锚链膜蛋白 CD55/59↓\n（2）酶\n①糖酵解的丙酮酸激酶缺乏症\n②磷酸戊糖途径的 G6PD 缺乏症\n《生物化学》磷酸戊糖途径：\n关键酶：葡萄糖-6-磷酸脱氢酶 G6PD\n作用：产生 NADPH 的主要途径。NADPH 维持 GSH 的还原状态，GSH 维持红细胞膜的稳定性，因此 G6PD 缺乏\n后红细胞膜不稳定、易破裂溶血。若在吃蚕豆时诱发即蚕豆病（G6PD 缺乏症的类型之一）\n（3）珠蛋白（遗传性血红蛋白病）\n①结构：镰刀形细胞贫血（HbS）——点突变→缬氨酸取代了谷氨酸\n②数量：珠蛋白生成障碍性贫血/地中海贫血/海洋性贫血",
-      "category": "治疗与随访时间",
-      "blanks": [
-        {
-          "start": 86,
-          "end": 91,
-          "answer": "55/59"
-        }
-      ],
-      "source": {
-        "file": "30 27考研：内科含诊断 溶血性贫血 核心-真题-串联-导图 天天师兄.pdf",
-        "pages": [
-          1
-        ],
-        "lecture": 30,
-        "images": [
-          "med/lecture-pages/lecture-30-page-01.webp"
         ]
       }
     },
@@ -28920,665 +31142,6 @@
           "type": "text",
           "start": 172,
           "end": 270
-        }
-      ]
-    },
-    {
-      "id": "numeric-5662068a448268",
-      "subject": "med",
-      "chapter": "溶血性贫血",
-      "section": "（五）阵发性睡眠性血红蛋白尿 PNH",
-      "title": "表现",
-      "text": "表现\n①慢性起病、晨起酱油尿\n②可合并缺铁贫、可转化为再障（可全血细胞↓）、可肝静脉血栓形成/布加综合征（死因）\n③流式细胞术：嗜水气单胞菌溶素变异体 FLAER(-)和 GPI 锚链膜蛋白 CD55/59↓（诊断）\n④酸溶血试验 Ham、蔗糖溶血试验（筛查）、蛇毒因子溶血试验（较特异）\n⑤含铁血黄素尿 Rous 试验、NAP↓",
-      "category": "诊断与其他数字",
-      "blanks": [
-        {
-          "start": 98,
-          "end": 103,
-          "answer": "55/59"
-        }
-      ],
-      "source": {
-        "file": "30 27考研：内科含诊断 溶血性贫血 核心-真题-串联-导图 天天师兄.pdf",
-        "pages": [
-          4
-        ],
-        "lecture": 30,
-        "images": [
-          "med/lecture-pages/lecture-30-page-04.webp"
-        ]
-      }
-    },
-    {
-      "id": "numeric-efddc20f8d82a7",
-      "subject": "med",
-      "chapter": "溶血性贫血",
-      "section": "（五）阵发性睡眠性血红蛋白尿 PNH",
-      "title": "治疗",
-      "text": "治疗\n①首选：依库珠单抗抑制补体\n②糖皮质激素、碳酸氢钠碱化尿液、雄激素促造血、补铁、HSCT 根治\n记忆：\n阵发性 慢性\n睡眠性 晨起酱油尿（攒了一晚上酱油）\n血红蛋白尿 血管内溶血\nP Rous\nN NAP(-)（粒粒睡病毒）\nH Ham\n在优衣库 一线治疗依库珠单抗\n打酱油的 晨起酱油尿\n智障  PNH 和再障可相互转化\n赶紧 肝静脉血栓形成是主要死因\n睡觉 阵发性睡眠性血红蛋白尿（从名字入手理顺、学成选择题）\n老铁 可合并缺铁贫\n服啦 FLAER(-)诊断\n我我我就睡觉 CD55/59(-)诊断\n舌头 蛇毒因子溶血试验较特异（每个人舌头不一样）\n好酸 酸溶血试验 Ham\n吃点糖 蔗糖溶血试验筛查（每个人都喜欢吃糖）\n小结：若为遗传需关注家族史\n遗传球 G6PD 缺乏 地贫 温抗体自免溶 冷抗体自免溶 PNH\n遗传-膜 遗传-酶 遗传-珠蛋白 获得-免疫 获得-免疫 获得-膜\n血管外溶血 血管内、外溶血 血管外溶血 血管外溶血 血管内溶血 血管内溶血\n血涂片球形\n细胞↑、渗\n透脆性↑\nG6PD 测定（确\n诊） 、MHbRT\n小细胞低色\n素、靶形、\nHbEP\nCoombs（诊\n断） 、球形细\n胞↑\n冷凝集素 晨起酱油尿、可转化为再障、\nFLAER 和 CD55/59(-)\n切脾 预防为主 HSCT 糖皮质激素 保暖 依库珠单抗首选、HSCT 根治",
-      "category": "诊断与其他数字",
-      "blanks": [
-        {
-          "start": 244,
-          "end": 249,
-          "answer": "55/59"
-        },
-        {
-          "start": 538,
-          "end": 543,
-          "answer": "55/59"
-        }
-      ],
-      "source": {
-        "file": "30 27考研：内科含诊断 溶血性贫血 核心-真题-串联-导图 天天师兄.pdf",
-        "pages": [
-          4,
-          5
-        ],
-        "lecture": 30,
-        "images": [
-          "med/lecture-pages/lecture-30-page-04.webp",
-          "shared/numeric-memory/med-30-page-05.webp"
-        ]
-      },
-      "layout": [
-        {
-          "type": "text",
-          "start": 0,
-          "end": 55
-        },
-        {
-          "type": "table",
-          "start": 55,
-          "end": 315,
-          "rows": [
-            [
-              {
-                "ranges": [
-                  [
-                    55,
-                    59
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    59,
-                    62
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    62,
-                    66
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    66,
-                    81
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    81,
-                    87
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    87,
-                    93
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    93,
-                    95
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    95,
-                    100
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    100,
-                    102
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    102,
-                    116
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    116,
-                    118
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    118,
-                    122
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    122,
-                    127
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    127,
-                    137
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    137,
-                    142
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    142,
-                    148
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    148,
-                    151
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    151,
-                    165
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    165,
-                    168
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    168,
-                    181
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    181,
-                    184
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    184,
-                    211
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    211,
-                    214
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    214,
-                    221
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    221,
-                    224
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    224,
-                    235
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    235,
-                    242
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    242,
-                    255
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    255,
-                    258
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    258,
-                    280
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    280,
-                    283
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    283,
-                    293
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    293,
-                    297
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    297,
-                    315
-                  ]
-                ]
-              }
-            ]
-          ],
-          "headers": [
-            "项目",
-            "对应内容"
-          ],
-          "headerIncluded": false,
-          "rowHeader": true,
-          "columns": 2
-        },
-        {
-          "type": "text",
-          "start": 315,
-          "end": 330
-        },
-        {
-          "type": "table",
-          "start": 330,
-          "end": 584,
-          "rows": [
-            [
-              {
-                "ranges": [
-                  [
-                    330,
-                    334
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    334,
-                    342
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    342,
-                    345
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    345,
-                    352
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    352,
-                    359
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    359,
-                    363
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    363,
-                    368
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    368,
-                    373
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    373,
-                    380
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    380,
-                    386
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    386,
-                    392
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    392,
-                    397
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    397,
-                    403
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    403,
-                    411
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    411,
-                    417
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    417,
-                    423
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    423,
-                    429
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    429,
-                    435
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    435,
-                    452
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    452,
-                    472
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    472,
-                    489
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    489,
-                    509
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    509,
-                    514
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    514,
-                    547
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "ranges": [
-                  [
-                    547,
-                    550
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    550,
-                    555
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    555,
-                    560
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    560,
-                    566
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    566,
-                    569
-                  ]
-                ]
-              },
-              {
-                "ranges": [
-                  [
-                    569,
-                    584
-                  ]
-                ]
-              }
-            ]
-          ],
-          "headers": [
-            "遗传球",
-            "G6PD缺乏",
-            "地贫",
-            "温抗体自免溶",
-            "冷抗体自免溶",
-            "PNH"
-          ],
-          "headerIncluded": true,
-          "rowHeader": false,
-          "columns": 6
         }
       ]
     },
@@ -30371,6 +31934,11 @@
           "start": 37,
           "end": 40,
           "answer": "7/7"
+        },
+        {
+          "start": 62,
+          "end": 66,
+          "answer": "20-5"
         }
       ],
       "source": {
@@ -30382,7 +31950,19 @@
         "images": [
           "med/lecture-pages/lecture-33-page-02.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            -1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-708d2f0912f600",
@@ -30618,11 +32198,6 @@
           "answer": "30"
         },
         {
-          "start": 48,
-          "end": 53,
-          "answer": "13/33"
-        },
-        {
           "start": 89,
           "end": 91,
           "answer": "90"
@@ -30693,6 +32268,28 @@
           "med/lecture-pages/lecture-34-page-02.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -31235,49 +32832,34 @@
       "category": "诊断与其他数字",
       "blanks": [
         {
-          "start": 20,
-          "end": 25,
-          "answer": "10/19"
+          "start": 23,
+          "end": 28,
+          "answer": "19/20"
         },
         {
-          "start": 26,
-          "end": 31,
-          "answer": "20/79"
+          "start": 49,
+          "end": 52,
+          "answer": "2/3"
         },
         {
-          "start": 47,
-          "end": 50,
-          "answer": "1/2"
+          "start": 53,
+          "end": 56,
+          "answer": "4/5"
         },
         {
-          "start": 51,
-          "end": 54,
-          "answer": "3/4"
+          "start": 57,
+          "end": 60,
+          "answer": "7/8"
         },
         {
-          "start": 55,
-          "end": 58,
-          "answer": "5/7"
+          "start": 111,
+          "end": 117,
+          "answer": "33/117"
         },
         {
-          "start": 59,
-          "end": 63,
-          "answer": "8/10"
-        },
-        {
-          "start": 77,
-          "end": 82,
-          "answer": "16/56"
-        },
-        {
-          "start": 108,
-          "end": 113,
-          "answer": "13/33"
-        },
-        {
-          "start": 271,
-          "end": 276,
-          "answer": "41/61"
+          "start": 148,
+          "end": 151,
+          "answer": "3：3"
         }
       ],
       "source": {
@@ -31291,7 +32873,22 @@
           "med/lecture-pages/lecture-34-page-03.webp",
           "med/lecture-pages/lecture-34-page-04.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-62abcb58d3aaa1",
@@ -31401,9 +32998,9 @@
           "answer": "80"
         },
         {
-          "start": 296,
-          "end": 301,
-          "answer": "13/33"
+          "start": 299,
+          "end": 305,
+          "answer": "33/117"
         }
       ],
       "source": {
@@ -31418,6 +33015,19 @@
           "med/lecture-pages/lecture-34-page-05.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            -1
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -31664,6 +33274,37 @@
         "lecture": 34,
         "images": [
           "med/lecture-pages/lecture-34-page-05.webp"
+        ]
+      }
+    },
+    {
+      "id": "numeric-f37ae933a74c68",
+      "subject": "med",
+      "chapter": "白血病",
+      "section": "（六）化疗后结局",
+      "title": "CR 后体内白血病细胞由发病时的 10^10-10^12 降至 10^8-10^9（不救），这些残留的白血病细胞称为可检测残留病灶",
+      "text": "CR 后体内白血病细胞由发病时的 10^10-10^12 降至 10^8-10^9（不救），这些残留的白血病细胞称为可检测残留病灶\n（MRD） ，它是复发的根源，尤其在中枢和睾丸（庇护所）。应定期监测 MRD 以预测复发",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 17,
+          "end": 28,
+          "answer": "10^10-10^12"
+        },
+        {
+          "start": 32,
+          "end": 41,
+          "answer": "10^8-10^9"
+        }
+      ],
+      "source": {
+        "file": "34 27考研：内科含诊断 白血病 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          6
+        ],
+        "lecture": 34,
+        "images": [
+          "med/lecture-pages/lecture-34-page-06.webp"
         ]
       }
     },
@@ -33247,11 +34888,6 @@
           "answer": "5/23"
         },
         {
-          "start": 123,
-          "end": 127,
-          "answer": "5/20"
-        },
-        {
           "start": 177,
           "end": 182,
           "answer": "19/20"
@@ -33302,6 +34938,11 @@
           "answer": "13/33"
         },
         {
+          "start": 427,
+          "end": 430,
+          "answer": "3：3"
+        },
+        {
           "start": 508,
           "end": 513,
           "answer": "41/61"
@@ -33316,7 +34957,39 @@
         "images": [
           "med/lecture-pages/lecture-35-page-06.webp"
         ]
-      }
+      },
+      "hints": [
+        {
+          "start": 111,
+          "end": 118
+        }
+      ],
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            -1,
+            16
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-8ac34c4efd8ca6",
@@ -34361,6 +36034,37 @@
       }
     },
     {
+      "id": "numeric-713f41fd1fea2f",
+      "subject": "med",
+      "chapter": "糖尿病",
+      "section": "（一）酮症酸中毒 DKA",
+      "title": "临床表现",
+      "text": "临床表现\n①T1DM 多见，感染是 DKA 最常见诱因，血压低而尿量多\n②血糖多在 11.1-33.3，尿糖和尿酮强阳性，呼出气烂苹果味（丙酮大部分被肺呼出）\n③代酸：Kussmaul 深快呼吸、pH↓、HCO3-↓、CO2CP↓、BE 负值↑（＜-2.3）、AG↑\n④血浆渗透压正常或轻度↑，血钠不定",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 42,
+          "end": 51,
+          "answer": "11.1-33.3"
+        },
+        {
+          "start": 124,
+          "end": 128,
+          "answer": "-2.3"
+        }
+      ],
+      "source": {
+        "file": "38 27考研：内科含诊断 糖尿病 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          3
+        ],
+        "lecture": 38,
+        "images": [
+          "med/lecture-pages/lecture-38-page-03.webp"
+        ]
+      }
+    },
+    {
       "id": "numeric-a98861349a1907",
       "subject": "med",
       "chapter": "糖尿病",
@@ -34383,6 +36087,11 @@
           "start": 37,
           "end": 46,
           "answer": "1000-2000"
+        },
+        {
+          "start": 133,
+          "end": 137,
+          "answer": "13.9"
         },
         {
           "start": 141,
@@ -34465,6 +36174,33 @@
           "med/lecture-pages/lecture-38-page-03.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            -1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -34584,6 +36320,16 @@
           "answer": "2/3"
         },
         {
+          "start": 53,
+          "end": 62,
+          "answer": "33.3-66.8"
+        },
+        {
+          "start": 86,
+          "end": 93,
+          "answer": "320-430"
+        },
+        {
           "start": 102,
           "end": 105,
           "answer": "150"
@@ -34598,7 +36344,21 @@
         "images": [
           "med/lecture-pages/lecture-38-page-03.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            -1,
+            -1,
+            2
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-86f6755bb23609",
@@ -34630,6 +36390,16 @@
           "answer": "155"
         },
         {
+          "start": 103,
+          "end": 111,
+          "answer": "0.05-0.1"
+        },
+        {
+          "start": 125,
+          "end": 129,
+          "answer": "16.7"
+        },
+        {
           "start": 133,
           "end": 134,
           "answer": "5"
@@ -34644,7 +36414,23 @@
         "images": [
           "med/lecture-pages/lecture-38-page-04.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            -1,
+            4
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-44ade5d0f87d6b",
@@ -35361,6 +37147,11 @@
           "answer": "7"
         },
         {
+          "start": 257,
+          "end": 262,
+          "answer": "4.4-7"
+        },
+        {
           "start": 269,
           "end": 271,
           "answer": "10"
@@ -35376,6 +37167,32 @@
           "med/lecture-pages/lecture-38-page-06.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            -1,
+            15
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -35660,6 +37477,16 @@
       "category": "诊断与其他数字",
       "blanks": [
         {
+          "start": 61,
+          "end": 66,
+          "answer": "3.9-6"
+        },
+        {
+          "start": 74,
+          "end": 77,
+          "answer": "4-8"
+        },
+        {
           "start": 90,
           "end": 93,
           "answer": "3.9"
@@ -35674,7 +37501,19 @@
         "images": [
           "med/lecture-pages/lecture-38-page-08.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            -1,
+            0
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-67b9fcd3b5f0dd",
@@ -35973,6 +37812,34 @@
         "lecture": 39,
         "images": [
           "med/lecture-pages/lecture-39-page-01.webp"
+        ]
+      }
+    },
+    {
+      "id": "numeric-de658a1d7ccf29",
+      "subject": "med",
+      "chapter": "原醛",
+      "section": "三、治疗",
+      "title": "（1）特发性醛固酮增多症",
+      "text": "（1）特发性醛固酮增多症\n①双侧肾上腺球状带增生、有时伴结节\n②螺内酯（首选） 、ACEI（对血管紧张素Ⅱ敏感性增强）\n（2）醛固酮瘤：手术根治，术前用螺内酯\n（3）阿米洛利、氨苯蝶啶、氨氯地平（合成醛固酮需要钙）\n复习肝硬化腹水的一般治疗：利尿剂首选醛固酮受体拮抗剂螺内酯，与呋塞米按 100:40 联合使用\n（肝硬化腹水机制之一是肝对醛固酮和抗利尿激素灭活减弱→继发醛固酮和抗利尿激素增多）",
+      "category": "治疗与随访时间",
+      "blanks": [
+        {
+          "start": 144,
+          "end": 150,
+          "answer": "100:40"
+        }
+      ],
+      "source": {
+        "file": "39 27考研：内科 原醛 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          1,
+          2
+        ],
+        "lecture": 39,
+        "images": [
+          "med/lecture-pages/lecture-39-page-01.webp",
+          "shared/numeric-memory/med-39-page-02.webp"
         ]
       }
     },
@@ -36284,6 +38151,11 @@
       "category": "诊断与其他数字",
       "blanks": [
         {
+          "start": 35,
+          "end": 38,
+          "answer": "2-5"
+        },
+        {
           "start": 109,
           "end": 110,
           "answer": "6"
@@ -36297,6 +38169,43 @@
         "lecture": 45,
         "images": [
           "med/lecture-pages/lecture-45-page-02.webp"
+        ]
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numeric-4d1e3dfe8c6bea",
+      "subject": "med",
+      "chapter": "类风湿关节炎",
+      "section": "本章数字界值",
+      "title": "（二） 《外科学》10 版教材 P756（符合≥4 条标准）",
+      "text": "（二） 《外科学》10 版教材 P756（符合≥4 条标准）",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 24,
+          "end": 25,
+          "answer": "4"
+        }
+      ],
+      "source": {
+        "file": "45 27考研：内科+外科 类风湿关节炎 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          3
+        ],
+        "lecture": 45,
+        "images": [
+          "med/lecture-pages/lecture-45-page-03.webp"
         ]
       }
     },
@@ -36346,8 +38255,8 @@
         },
         {
           "start": 105,
-          "end": 106,
-          "answer": "1"
+          "end": 109,
+          "answer": "1:32"
         }
       ],
       "source": {
@@ -36359,7 +38268,24 @@
         "images": [
           "med/lecture-pages/lecture-45-page-03.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            -1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-852e6220e02647",
@@ -36759,6 +38685,101 @@
       }
     },
     {
+      "id": "numeric-93f7eb98627660",
+      "subject": "med",
+      "chapter": "心肌疾病",
+      "section": "一、肥厚型梗阻性心肌病",
+      "title": "临床特点",
+      "text": "临床特点\n①劳力性呼吸困难（最常见）、胸痛，运动低血压、晕厥\n②可有心尖收缩期杂音\n③胸骨左缘 3-4 肋间收缩期杂音，常喷射样：\n使杂音↑ 强心苷、硝酸酯类（扩静脉→回心血量↓静止）、站位、Valsalva（紧闭声门用力呼气→胸腔负压\n可变为正值→回心血量↓）等\n使杂音↓ β-R 拮抗剂、非二氢吡啶 CCB、蹲位、卧位（蹲下↓、躺下↓）等\n可能可能最可能：胸骨左缘 3-4 肋间收缩期杂音，可有运动晕厥、家族史",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 48,
+          "end": 51,
+          "answer": "3-4"
+        },
+        {
+          "start": 185,
+          "end": 188,
+          "answer": "3-4"
+        }
+      ],
+      "source": {
+        "file": "49 27考研：内科 心肌疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          1,
+          2
+        ],
+        "lecture": 49,
+        "images": [
+          "med/lecture-pages/lecture-49-page-01.webp",
+          "med/lecture-pages/lecture-49-page-02.webp"
+        ]
+      },
+      "layout": [
+        {
+          "type": "text",
+          "start": 0,
+          "end": 66
+        },
+        {
+          "type": "table",
+          "start": 66,
+          "end": 171,
+          "rows": [
+            [
+              {
+                "ranges": [
+                  [
+                    66,
+                    71
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    71,
+                    133
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    133,
+                    138
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    138,
+                    171
+                  ]
+                ]
+              }
+            ]
+          ],
+          "headers": [
+            "项目",
+            "对应内容"
+          ],
+          "headerIncluded": false,
+          "rowHeader": true,
+          "columns": 2
+        },
+        {
+          "type": "text",
+          "start": 171,
+          "end": 207
+        }
+      ]
+    },
+    {
       "id": "numeric-b3e6f86ff23564",
       "subject": "med",
       "chapter": "心肌疾病",
@@ -36830,6 +38851,11 @@
       "category": "诊断与其他数字",
       "blanks": [
         {
+          "start": 62,
+          "end": 65,
+          "answer": "4-5"
+        },
+        {
           "start": 94,
           "end": 96,
           "answer": "40"
@@ -36844,7 +38870,18 @@
         "images": [
           "med/lecture-pages/lecture-49-page-03.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            0
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-fb9c6991e7182c",
@@ -36934,6 +38971,200 @@
       }
     },
     {
+      "id": "numeric-6065fa30843188",
+      "subject": "med",
+      "chapter": "心包疾病",
+      "section": "一、急性纤维蛋白性心包炎",
+      "title": "心包摩擦音（最有价值体征）",
+      "text": "心包摩擦音（最有价值体征）\n① 粗糙搔/抓刮高频音，双相或三相（心房收缩、心室收缩、心室舒张）\n②与心搏一致：屏气后仍有、频率快\n③坐位前倾、胸骨左缘 3-4 肋间最明显\n④对比：\n心包摩擦音-心包炎 胸膜摩擦音-胸膜炎\n性质 粗糙抓/搔刮音\n屏气后 仍有 消失\n出现时机 与心搏一致（频率快），双相或三相 与呼吸一致（频率慢），吸气、呼气两相\n听诊 坐位前倾、胸骨左缘 3-4 肋间最明显\n《内科学》吸气明显、《诊断学》呼气明显\n前下侧胸壁\n吸气末或呼气初最明显\n积液量增多 可消失",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 76,
+          "end": 79,
+          "answer": "3-4"
+        },
+        {
+          "start": 186,
+          "end": 189,
+          "answer": "3-4"
+        }
+      ],
+      "source": {
+        "file": "50 27考研：内科含诊断 心包疾病 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          1
+        ],
+        "lecture": 50,
+        "images": [
+          "med/lecture-pages/lecture-50-page-01.webp"
+        ]
+      },
+      "layout": [
+        {
+          "type": "text",
+          "start": 0,
+          "end": 91
+        },
+        {
+          "type": "table",
+          "start": 91,
+          "end": 242,
+          "rows": [
+            [
+              {
+                "ranges": []
+              },
+              {
+                "ranges": [
+                  [
+                    91,
+                    101
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    101,
+                    111
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    111,
+                    114
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    114,
+                    122
+                  ]
+                ]
+              },
+              {
+                "ranges": []
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    122,
+                    126
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    126,
+                    129
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    129,
+                    132
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    132,
+                    137
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    137,
+                    154
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    154,
+                    173
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    173,
+                    176
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    176,
+                    216
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    216,
+                    233
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    233,
+                    239
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    239,
+                    242
+                  ]
+                ]
+              },
+              {
+                "ranges": []
+              }
+            ]
+          ],
+          "headers": [
+            "",
+            "心包摩擦音-心包炎",
+            "胸膜摩擦音-胸膜炎"
+          ],
+          "headerIncluded": true,
+          "rowHeader": true,
+          "columns": 3
+        }
+      ]
+    },
+    {
       "id": "numeric-16f9a7dc345f1a",
       "subject": "med",
       "chapter": "心包疾病",
@@ -36946,6 +39177,11 @@
           "start": 271,
           "end": 274,
           "answer": "1-3"
+        },
+        {
+          "start": 302,
+          "end": 305,
+          "answer": "3-4"
         }
       ],
       "source": {
@@ -36959,7 +39195,18 @@
           "med/lecture-pages/lecture-50-page-01.webp",
           "shared/numeric-memory/med-50-page-02.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            -1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-84d9fc5b294d2f",
@@ -37355,6 +39602,63 @@
           "end": 443
         }
       ]
+    },
+    {
+      "id": "numeric-5e0de434089444",
+      "subject": "med",
+      "chapter": "感染性心内膜炎",
+      "section": "二、亚心炎发病的血流动力学因素",
+      "title": "瓣膜病最主要",
+      "text": "瓣膜病最主要\n①主闭：胸骨左缘 3-4 肋间舒张期叹气样杂音\n②二闭：心尖部收缩期吹风样杂音",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 16,
+          "end": 19,
+          "answer": "3-4"
+        }
+      ],
+      "source": {
+        "file": "51 27考研：内科 感染性心内膜炎 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          1
+        ],
+        "lecture": 51,
+        "images": [
+          "med/lecture-pages/lecture-51-page-01.webp"
+        ]
+      }
+    },
+    {
+      "id": "numeric-ee9b6f986e61ac",
+      "subject": "med",
+      "chapter": "感染性心内膜炎",
+      "section": "二、亚心炎发病的血流动力学因素",
+      "title": "其次是先心病",
+      "text": "其次是先心病\n①室间隔缺损：胸骨左缘 3-4 肋间收缩期杂音\n②动脉导管未闭：胸骨左缘 2 肋间连续性杂音\n③法洛四联症：室缺、主动脉骑跨、肺动脉狭窄、右心室肥厚（室友肥猪）\n④主动脉缩窄（不是主动脉瓣狭窄）：上肢血压明显高于下肢\n少见基础病：瓣膜狭窄（血流仍是一个方向）\n大面积室缺、房缺\n心衰、房颤（瞎子大房间摔残了）",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 19,
+          "end": 22,
+          "answer": "3-4"
+        },
+        {
+          "start": 44,
+          "end": 45,
+          "answer": "2"
+        }
+      ],
+      "source": {
+        "file": "51 27考研：内科 感染性心内膜炎 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          1
+        ],
+        "lecture": 51,
+        "images": [
+          "med/lecture-pages/lecture-51-page-01.webp"
+        ]
+      }
     },
     {
       "id": "numeric-b05ba6772b002f",
@@ -37801,6 +40105,32 @@
       }
     },
     {
+      "id": "numeric-77bb41c70b0512",
+      "subject": "med",
+      "chapter": "高血压",
+      "section": "本章数字界值",
+      "title": "（一）24 小时动态血压监测",
+      "text": "（一）24 小时动态血压监测",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 3,
+          "end": 5,
+          "answer": "24"
+        }
+      ],
+      "source": {
+        "file": "52 27考研：内科含诊断 高血压 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          1
+        ],
+        "lecture": 52,
+        "images": [
+          "med/lecture-pages/lecture-52-page-01.webp"
+        ]
+      }
+    },
+    {
       "id": "numeric-ab4924f47b8163",
       "subject": "med",
       "chapter": "高血压",
@@ -37872,9 +40202,39 @@
       "category": "诊断与其他数字",
       "blanks": [
         {
+          "start": 27,
+          "end": 28,
+          "answer": "1"
+        },
+        {
+          "start": 35,
+          "end": 36,
+          "answer": "2"
+        },
+        {
+          "start": 43,
+          "end": 44,
+          "answer": "3"
+        },
+        {
           "start": 72,
           "end": 75,
           "answer": "120"
+        },
+        {
+          "start": 76,
+          "end": 83,
+          "answer": "120-139"
+        },
+        {
+          "start": 84,
+          "end": 91,
+          "answer": "140-159"
+        },
+        {
+          "start": 92,
+          "end": 99,
+          "answer": "160-179"
         },
         {
           "start": 101,
@@ -37895,6 +40255,21 @@
           "start": 142,
           "end": 144,
           "answer": "80"
+        },
+        {
+          "start": 145,
+          "end": 150,
+          "answer": "80-89"
+        },
+        {
+          "start": 151,
+          "end": 156,
+          "answer": "90-99"
+        },
+        {
+          "start": 157,
+          "end": 164,
+          "answer": "100-109"
         },
         {
           "start": 166,
@@ -37922,6 +40297,32 @@
           "med/lecture-pages/lecture-52-page-01.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            -1,
+            -1,
+            0,
+            -1,
+            -1,
+            -1,
+            1,
+            2,
+            3,
+            4,
+            -1,
+            -1,
+            -1,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -38232,6 +40633,31 @@
           "start": 101,
           "end": 102,
           "answer": "4"
+        },
+        {
+          "start": 114,
+          "end": 121,
+          "answer": "130-139"
+        },
+        {
+          "start": 126,
+          "end": 131,
+          "answer": "85-89"
+        },
+        {
+          "start": 148,
+          "end": 149,
+          "answer": "1"
+        },
+        {
+          "start": 165,
+          "end": 166,
+          "answer": "2"
+        },
+        {
+          "start": 184,
+          "end": 185,
+          "answer": "3"
         }
       ],
       "source": {
@@ -38244,6 +40670,23 @@
           "med/lecture-pages/lecture-52-page-02.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "table",
@@ -38851,6 +41294,11 @@
           "answer": "5.5"
         },
         {
+          "start": 483,
+          "end": 484,
+          "answer": "2"
+        },
+        {
           "start": 521,
           "end": 523,
           "answer": "30"
@@ -38868,6 +41316,19 @@
           "med/lecture-pages/lecture-52-page-07.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            -1,
+            2
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -39017,6 +41478,189 @@
       ]
     },
     {
+      "id": "numeric-3cd357a2e07ca4",
+      "subject": "med",
+      "chapter": "心瓣膜病",
+      "section": "（三）额外心音/附加心音",
+      "title": "附加在",
+      "text": "附加在\nS1 后的\n收缩期\n额外心音\n心底部收缩早期喀喇音/喷射音（蓄力） 如高血压、肺动脉高压\n心尖部收缩中晚期喀喇音\n（左室与主动脉压力差大→血先射入主动脉）\n二尖瓣脱垂（如急性心肌梗死）\n收地糟糕、种完脱垂\n附加在\nS2 后的\n舒张期\n额外心音\n（开宝马\n心扑通）\n心尖部\n奔马律\n（击毙击毙冠）\nS3 奔马律/舒张早期奔马律/变异的 S3：如心肌\n病尤其扩心病、心肌炎、冠心病、二闭、主闭\nS4 奔马律/舒张晚期奔马律/增强的 S4：如高血\n压、主狭、心肌病尤其肥厚型心肌病、心肌\n炎、冠心病、二闭、主闭\n开瓣音/二尖瓣开放拍击音\n对比：开瓣音-开门-二狭、喀喇音-关门-二闭\n二狭且瓣膜弹性好\n胸骨左缘 3-4 肋间心包叩击音 缩窄性心包炎（主要） 、心包积液\n肿瘤扑落音 心房黏液瘤",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 307,
+          "end": 310,
+          "answer": "3-4"
+        }
+      ],
+      "source": {
+        "file": "53 27考研：内科含诊断 心瓣膜病 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          2
+        ],
+        "lecture": 53,
+        "images": [
+          "med/lecture-pages/lecture-53-page-02.webp"
+        ]
+      },
+      "layout": [
+        {
+          "type": "table",
+          "start": 0,
+          "end": 347,
+          "rows": [
+            [
+              {
+                "ranges": [
+                  [
+                    0,
+                    19
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    19,
+                    38
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    38,
+                    49
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [],
+                "context": "附加在S后的1收缩期额外心音"
+              },
+              {
+                "ranges": [
+                  [
+                    49,
+                    82
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    82,
+                    107
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    107,
+                    136
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    136,
+                    152
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    152,
+                    257
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [],
+                "context": "附加在S后的2舒张期额外心音（开宝马心扑通）"
+              },
+              {
+                "ranges": [
+                  [
+                    257,
+                    293
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    293,
+                    302
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [],
+                "context": "附加在S后的2舒张期额外心音（开宝马心扑通）"
+              },
+              {
+                "ranges": [
+                  [
+                    302,
+                    319
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    319,
+                    336
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [],
+                "context": "附加在S后的2舒张期额外心音（开宝马心扑通）"
+              },
+              {
+                "ranges": [
+                  [
+                    336,
+                    342
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    342,
+                    347
+                  ]
+                ]
+              }
+            ]
+          ],
+          "headers": [
+            "项目",
+            "要点1",
+            "要点2"
+          ],
+          "headerIncluded": false,
+          "rowHeader": true,
+          "columns": 3
+        }
+      ]
+    },
+    {
       "id": "numeric-25249a9a95ed7e",
       "subject": "med",
       "chapter": "心瓣膜病",
@@ -39026,9 +41670,34 @@
       "category": "诊断与其他数字",
       "blanks": [
         {
+          "start": 37,
+          "end": 38,
+          "answer": "5"
+        },
+        {
           "start": 49,
           "end": 54,
           "answer": "0.5-1"
+        },
+        {
+          "start": 67,
+          "end": 68,
+          "answer": "2"
+        },
+        {
+          "start": 82,
+          "end": 83,
+          "answer": "2"
+        },
+        {
+          "start": 109,
+          "end": 112,
+          "answer": "3-4"
+        },
+        {
+          "start": 135,
+          "end": 138,
+          "answer": "4-5"
         },
         {
           "start": 298,
@@ -39051,6 +41720,23 @@
           "med/lecture-pages/lecture-53-page-03.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            0,
+            -1,
+            -1,
+            -1,
+            -1,
+            1,
+            2
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -39405,6 +42091,58 @@
       ]
     },
     {
+      "id": "numeric-d5921981e4c2b1",
+      "subject": "med",
+      "chapter": "心瓣膜病",
+      "section": "（四）杂音",
+      "title": "胸骨右缘 2 肋间收缩期杂音的可能性：①器质性主狭；②严重主闭",
+      "text": "胸骨右缘 2 肋间收缩期杂音的可能性：①器质性主狭；②严重主闭",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 5,
+          "end": 6,
+          "answer": "2"
+        }
+      ],
+      "source": {
+        "file": "53 27考研：内科含诊断 心瓣膜病 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          4
+        ],
+        "lecture": 53,
+        "images": [
+          "med/lecture-pages/lecture-53-page-04.webp"
+        ]
+      }
+    },
+    {
+      "id": "numeric-67fa66a19a6dc7",
+      "subject": "med",
+      "chapter": "心瓣膜病",
+      "section": "本章数字界值",
+      "title": "（五）胸骨左缘 3-4 肋间听诊",
+      "text": "（五）胸骨左缘 3-4 肋间听诊",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 8,
+          "end": 11,
+          "answer": "3-4"
+        }
+      ],
+      "source": {
+        "file": "53 27考研：内科含诊断 心瓣膜病 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          4
+        ],
+        "lecture": 53,
+        "images": [
+          "med/lecture-pages/lecture-53-page-04.webp"
+        ]
+      }
+    },
+    {
       "id": "numeric-9aa6b0d996d56e",
       "subject": "med",
       "chapter": "心瓣膜病",
@@ -39470,6 +42208,21 @@
           "answer": "30"
         },
         {
+          "start": 213,
+          "end": 220,
+          "answer": "1.6-2.5"
+        },
+        {
+          "start": 223,
+          "end": 226,
+          "answer": "5-9"
+        },
+        {
+          "start": 227,
+          "end": 232,
+          "answer": "30-50"
+        },
+        {
           "start": 237,
           "end": 240,
           "answer": "1.6"
@@ -39495,6 +42248,31 @@
           "shared/numeric-memory/med-53-page-06.webp"
         ]
       },
+      "hints": [
+        {
+          "start": 144,
+          "end": 161
+        }
+      ],
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            -1,
+            -1,
+            -1,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -39651,6 +42429,32 @@
       ]
     },
     {
+      "id": "numeric-4bd30c54b1e741",
+      "subject": "med",
+      "chapter": "心瓣膜病",
+      "section": "（三）临床表现",
+      "title": "心脏听诊",
+      "text": "心脏听诊\n（1）心音和额外心音\n①S1 增强呈拍击样。但瓣叶明显钙化僵硬时 S1 可减弱\n②开瓣音/二尖瓣开放拍击音（瓣膜弹性良好时可闻及）：开瓣音紧随 S2 之后（S2 标志舒张期开始），两者相距越近\n提示左房压越高、狭窄越严重（二尖瓣一打开就被纤维化拉停了）\n③出现肺动脉高压时可有 P2 亢进及通常分裂\n（2）杂音\n①心尖、舒张中晚期、低调递增型杂音，常隆隆样（洗衣机脱水）、局限不传导，左侧卧位增强、运动或用力呼气\n时增强\n②Graham-Steell 杂音（功能性杂音）：严重肺动脉高压致肺动脉扩张致相对性肺动脉瓣关闭不全（胸骨左缘 2 肋\n间舒张早期递减型、高调叹气或吹风样杂音）\n③胸骨左缘 4-5 肋间收缩期杂音（功能性杂音）\n④并发房颤时：S1 强弱不等、听不到 S4、舒张晚期杂音可消失",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 303,
+          "end": 306,
+          "answer": "4-5"
+        }
+      ],
+      "source": {
+        "file": "53 27考研：内科含诊断 心瓣膜病 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          6
+        ],
+        "lecture": 53,
+        "images": [
+          "shared/numeric-memory/med-53-page-06.webp"
+        ]
+      }
+    },
+    {
       "id": "numeric-6f4319abc3feb3",
       "subject": "med",
       "chapter": "心瓣膜病",
@@ -39756,6 +42560,32 @@
         "lecture": 53,
         "images": [
           "med/lecture-pages/lecture-53-page-08.webp"
+        ]
+      }
+    },
+    {
+      "id": "numeric-a16f733a7d3638",
+      "subject": "med",
+      "chapter": "心瓣膜病",
+      "section": "（三）临床表现",
+      "title": "杂音",
+      "text": "杂音\n①胸骨右缘 2 肋间、收缩期、递增-递减型杂音，常喷射样/射流样、向颈部传导。有些老年人由于主动脉瓣严重\n钙化、杂音可能在心尖部最清楚\n②杂音越响、持续时间越长、高峰出现越晚，提示瓣膜狭窄程度越重\n③主狭伴主闭时主狭的杂音会增强",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 9,
+          "end": 10,
+          "answer": "2"
+        }
+      ],
+      "source": {
+        "file": "53 27考研：内科含诊断 心瓣膜病 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          9
+        ],
+        "lecture": 53,
+        "images": [
+          "shared/numeric-memory/med-53-page-09.webp"
         ]
       }
     },
@@ -39890,9 +42720,67 @@
       "category": "诊断与其他数字",
       "blanks": [
         {
+          "start": 93,
+          "end": 96,
+          "answer": "3-4"
+        },
+        {
           "start": 162,
           "end": 165,
           "answer": "1.3"
+        },
+        {
+          "start": 223,
+          "end": 224,
+          "answer": "2"
+        }
+      ],
+      "source": {
+        "file": "53 27考研：内科含诊断 心瓣膜病 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          10
+        ],
+        "lecture": 53,
+        "images": [
+          "med/lecture-pages/lecture-53-page-10.webp"
+        ]
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            0,
+            -1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numeric-3b4eede5490f4d",
+      "subject": "med",
+      "chapter": "心瓣膜病",
+      "section": "（二）慢性主闭的临床表现",
+      "title": "杂音",
+      "text": "杂音\n①胸骨左缘 3-4 肋间、舒张期、高调递减型杂音，常叹气样、向心尖传导。慢性轻度反流者杂音仅出现于舒张早\n期、柔和（坐位前倾、呼气末才能闻及） ，而中重度反流者杂音全舒张期、粗糙\n②可致相对性二狭（心尖舒张期杂音/Austin-Flint 杂音）佛主闭关\n③可致相对性主狭（胸骨右缘 2 肋间收缩中期杂音）\n杂音只在中期出现：\n①二狭并发房颤：心尖舒张中期杂音\n②严重二闭→相对性二狭：心尖舒张中期杂音\n③严重主闭→相对性主狭：胸骨右缘 2 肋间收缩中期杂音",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 9,
+          "end": 12,
+          "answer": "3-4"
+        },
+        {
+          "start": 145,
+          "end": 146,
+          "answer": "2"
+        },
+        {
+          "start": 222,
+          "end": 223,
+          "answer": "2"
         }
       ],
       "source": {
@@ -40189,6 +43077,948 @@
       ]
     },
     {
+      "id": "numeric-a811b9076923bb",
+      "subject": "med",
+      "chapter": "心瓣膜病",
+      "section": "（四）鉴别诊断",
+      "title": "G-S VS A-F 杂音",
+      "text": "G-S VS A-F 杂音\nGraham-Steell 杂音 Austin-Flint 杂音\n机制 严重肺动脉高压致肺动脉扩张 二尖瓣位置较高、涡流\n器质性病变 二尖瓣狭窄 主动脉瓣关闭不全\n功能性病变 相对性肺动脉瓣关闭不全 相对性二尖瓣狭窄\n杂音特点 胸骨左缘 2 肋间 心尖\n舒张早期 舒张期\n递减型，高调叹气或吹风样 低调隆隆样",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 133,
+          "end": 134,
+          "answer": "2"
+        }
+      ],
+      "source": {
+        "file": "53 27考研：内科含诊断 心瓣膜病 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          11
+        ],
+        "lecture": 53,
+        "images": [
+          "med/lecture-pages/lecture-53-page-11.webp"
+        ]
+      },
+      "layout": [
+        {
+          "type": "text",
+          "start": 0,
+          "end": 14
+        },
+        {
+          "type": "table",
+          "start": 14,
+          "end": 168,
+          "rows": [
+            [
+              {
+                "ranges": []
+              },
+              {
+                "ranges": [
+                  [
+                    14,
+                    31
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    31,
+                    47
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    47,
+                    50
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    50,
+                    64
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    64,
+                    75
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    75,
+                    81
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    81,
+                    87
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    87,
+                    96
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    96,
+                    102
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    102,
+                    114
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    114,
+                    123
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    123,
+                    128
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    128,
+                    138
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    138,
+                    141
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [],
+                "context": "杂音特点"
+              },
+              {
+                "ranges": [
+                  [
+                    141,
+                    146
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    146,
+                    150
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [],
+                "context": "杂音特点"
+              },
+              {
+                "ranges": [
+                  [
+                    150,
+                    163
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    163,
+                    168
+                  ]
+                ]
+              }
+            ]
+          ],
+          "headers": [
+            "",
+            "Graham-Steell杂音",
+            "Austin-Flint杂音"
+          ],
+          "headerIncluded": true,
+          "rowHeader": true,
+          "columns": 3
+        }
+      ]
+    },
+    {
+      "id": "numeric-7567a733f1f828",
+      "subject": "med",
+      "chapter": "心瓣膜病",
+      "section": "五、全部小结",
+      "title": "二狭 二闭 主狭 主闭",
+      "text": "二狭 二闭 主狭 主闭\n主要病因 风湿病 风湿病、黏液变、心梗 危险因素类似冠心病 感染性心内膜炎、梅毒\n→左室前/容量负荷↓\n左室射血部分向左房反\n流→左室前/容量负荷↑\n左室血进入主动脉受阻\n→左室后/压力负荷↑\n主动脉血部分向左室反\n流→左室前/容量负荷↑\n左室 正常或缩小\n心界不向左下扩大\n慢性：后期离心性肥厚\n急性：早期正常或轻度\n扩大\n向心性肥厚\n之后离心性肥厚\n慢性：后期离心性肥厚\n急性：早期正常或轻度\n扩大\n心尖抬举\n样搏动\n无，可有心前区/剑突\n下抬举样搏动\n有 有 有\n特征杂音\n（呼气\n增强）\n心尖 心尖 胸骨右缘 2 肋间 胸骨左缘 3-4 肋间\n舒张中晚期\n（房颤晚期可消失）\n全收缩期 收缩期 舒张期\n递增 一贯 递增递减 递减\n常隆隆样 常吹风样 常喷射样 常叹气样\n局限、左侧卧位增强 传导 向颈部传导 向心尖传导\n其它杂音 相对性肺闭：胸骨左\n缘 2 肋间舒张早期递\n减（G-S）\n相对性二狭\n海鸥鸣或乐音（腱索断\n裂）\n相对性二狭（A-F）\n相对性主狭\n心音 S1↑\nS1↓\nS2 通常分裂\n（A2 提前出现）\nS1 多正常、也可↓或↑\nA2↓、S2 逆分裂\nS1↓\nA2↓\n额外\n心音\n开瓣音\n（弹性好）\nS3 和 S4 奔马律\n心尖收缩中晚期喀喇音\n（二脱）\nS4 奔马律 S3 和 S4 奔马律\n并发症 最易左心衰、房颤、\n脑栓塞（衰了疯了）\n易左心衰、房颤、脑栓\n塞、感染性心内膜炎\n最易左室肥厚、心绞\n痛、晕厥\n最易感染性心内膜炎\n超声\n心动图\n首选和金标准\nX 线 梨形心\n2B 玩球瞎吃梨助学\n慢性者球形心 心影一般不大或靴形心\n升主动脉扩张\n慢性者靴形心\n治疗 有开瓣音：经皮球囊\n二尖瓣成形术\n合并二闭等：置换术\n置换术\n修复术\n成人：置换术，若老龄\n重度不耐受 TA VR\n儿童青少年非钙化性：\n分离术\n置换术",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 271,
+          "end": 272,
+          "answer": "2"
+        },
+        {
+          "start": 281,
+          "end": 284,
+          "answer": "3-4"
+        },
+        {
+          "start": 393,
+          "end": 394,
+          "answer": "2"
+        }
+      ],
+      "source": {
+        "file": "53 27考研：内科含诊断 心瓣膜病 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          12
+        ],
+        "lecture": 53,
+        "images": [
+          "shared/numeric-memory/med-53-page-12.webp"
+        ]
+      },
+      "layout": [
+        {
+          "type": "table",
+          "start": 0,
+          "end": 785,
+          "rows": [
+            [
+              {
+                "ranges": [],
+                "context": "ttsx"
+              },
+              {
+                "ranges": [
+                  [
+                    0,
+                    3
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    3,
+                    6
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    6,
+                    9
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    9,
+                    12
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    12,
+                    17
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    17,
+                    21
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    21,
+                    32
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    32,
+                    42
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    42,
+                    53
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [],
+                "context": "性感认识"
+              },
+              {
+                "ranges": [
+                  [
+                    53,
+                    64
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    64,
+                    87
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    87,
+                    109
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    109,
+                    132
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    132,
+                    135
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    135,
+                    150
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    150,
+                    175
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    175,
+                    189
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    189,
+                    214
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    214,
+                    223
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    223,
+                    241
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    241,
+                    243
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    243,
+                    245
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    245,
+                    247
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    247,
+                    260
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    260,
+                    263
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    263,
+                    266
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    266,
+                    276
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    276,
+                    288
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [],
+                "context": "特征杂音（呼气增强）"
+              },
+              {
+                "ranges": [
+                  [
+                    288,
+                    304
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    304,
+                    309
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    309,
+                    313
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    313,
+                    317
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [],
+                "context": "特征杂音（呼气增强）"
+              },
+              {
+                "ranges": [
+                  [
+                    317,
+                    320
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    320,
+                    323
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    323,
+                    328
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    328,
+                    331
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [],
+                "context": "特征杂音（呼气增强）"
+              },
+              {
+                "ranges": [
+                  [
+                    331,
+                    336
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    336,
+                    341
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    341,
+                    346
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    346,
+                    351
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [],
+                "context": "特征杂音（呼气增强）"
+              },
+              {
+                "ranges": [
+                  [
+                    351,
+                    361
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    361,
+                    364
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    364,
+                    370
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    370,
+                    376
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    376,
+                    381
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    381,
+                    410
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    410,
+                    430
+                  ]
+                ]
+              },
+              {
+                "ranges": []
+              },
+              {
+                "ranges": [
+                  [
+                    430,
+                    447
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    447,
+                    450
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    450,
+                    453
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    453,
+                    476
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    476,
+                    500
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    500,
+                    507
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    507,
+                    514
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    514,
+                    524
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    524,
+                    552
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    552,
+                    559
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    559,
+                    571
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    571,
+                    575
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    575,
+                    595
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    595,
+                    616
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    616,
+                    631
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    631,
+                    641
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    641,
+                    648
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    648,
+                    655
+                  ]
+                ]
+              },
+              {
+                "ranges": []
+              },
+              {
+                "ranges": []
+              },
+              {
+                "ranges": []
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    655,
+                    659
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    659,
+                    674
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    674,
+                    681
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    681,
+                    699
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    699,
+                    706
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    706,
+                    709
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    709,
+                    736
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    736,
+                    744
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    744,
+                    782
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    782,
+                    785
+                  ]
+                ]
+              }
+            ]
+          ],
+          "headers": [
+            "项目",
+            "要点1",
+            "要点2",
+            "要点3",
+            "要点4"
+          ],
+          "headerIncluded": false,
+          "rowHeader": true,
+          "columns": 5
+        }
+      ]
+    },
+    {
       "id": "numeric-afbcd71bd96190",
       "subject": "med",
       "chapter": "冠心病",
@@ -40255,6 +44085,11 @@
       "category": "诊断与其他数字",
       "blanks": [
         {
+          "start": 35,
+          "end": 40,
+          "answer": "55-60"
+        },
+        {
           "start": 43,
           "end": 48,
           "answer": "50-60"
@@ -40269,7 +44104,18 @@
         "images": [
           "med/lecture-pages/lecture-54-page-05.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            0
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-95911b1e69ef03",
@@ -41673,6 +45519,11 @@
           "start": 8,
           "end": 9,
           "answer": "1"
+        },
+        {
+          "start": 63,
+          "end": 66,
+          "answer": "3-4"
         }
       ],
       "source": {
@@ -41684,7 +45535,18 @@
         "images": [
           "med/lecture-pages/lecture-54-page-10.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            -1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-9b82689b440d08",
@@ -42483,6 +46345,11 @@
           "start": 330,
           "end": 333,
           "answer": "0.1"
+        },
+        {
+          "start": 486,
+          "end": 489,
+          "answer": "3-4"
         }
       ],
       "source": {
@@ -42495,6 +46362,19 @@
           "med/lecture-pages/lecture-54-page-18.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            -1
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -43329,11 +47209,6 @@
           "start": 29,
           "end": 32,
           "answer": "450"
-        },
-        {
-          "start": 49,
-          "end": 50,
-          "answer": "6"
         }
       ],
       "source": {
@@ -43344,6 +47219,51 @@
         "lecture": 55,
         "images": [
           "med/lecture-pages/lecture-55-page-01.webp"
+        ]
+      },
+      "hints": [
+        {
+          "start": 40,
+          "end": 54
+        }
+      ],
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numeric-0887c24980620c",
+      "subject": "med",
+      "chapter": "收缩性心衰",
+      "section": "（二）右心衰",
+      "title": "①劳力性呼吸困难（缺氧）。左心衰发展到右心衰后患者呼吸困难等肺淤血症状反而会减轻",
+      "text": "①劳力性呼吸困难（缺氧）。左心衰发展到右心衰后患者呼吸困难等肺淤血症状反而会减轻\n②消化道症状、颈静脉怒张、肝颈静脉回流征（诊断右心衰最有价值）、肝大伴压痛、双下肢水肿（从身体低垂部\n位开始出现对称性凹陷性水肿）、胸腹水（漏出液）\n③心尖多向左移位，胸骨左缘 4-5 肋间收缩期杂音，奔马律，奇脉/吸停脉",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 130,
+          "end": 133,
+          "answer": "4-5"
+        }
+      ],
+      "source": {
+        "file": "55 27考研：内科含诊断 收缩性心衰 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          3
+        ],
+        "lecture": 55,
+        "images": [
+          "med/lecture-pages/lecture-55-page-03.webp"
         ]
       }
     },
@@ -43365,6 +47285,11 @@
           "start": 55,
           "end": 57,
           "answer": "12"
+        },
+        {
+          "start": 72,
+          "end": 76,
+          "answer": "5-10"
         },
         {
           "start": 89,
@@ -43407,6 +47332,24 @@
           "shared/numeric-memory/med-55-page-04.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            -1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -44500,9 +48443,19 @@
       "category": "诊断与其他数字",
       "blanks": [
         {
+          "start": 12,
+          "end": 16,
+          "answer": "0.04"
+        },
+        {
           "start": 18,
           "end": 21,
           "answer": "0.1"
+        },
+        {
+          "start": 39,
+          "end": 42,
+          "answer": "0.2"
         },
         {
           "start": 44,
@@ -44518,6 +48471,16 @@
           "start": 121,
           "end": 129,
           "answer": "0.25/0.2"
+        },
+        {
+          "start": 164,
+          "end": 172,
+          "answer": "0.12-0.2"
+        },
+        {
+          "start": 174,
+          "end": 177,
+          "answer": "3-5"
         },
         {
           "start": 200,
@@ -44552,6 +48515,27 @@
           "med/lecture-pages/lecture-56-page-02.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            0,
+            -1,
+            1,
+            2,
+            3,
+            -1,
+            -1,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -44827,6 +48811,11 @@
           "start": 72,
           "end": 74,
           "answer": "50"
+        },
+        {
+          "start": 192,
+          "end": 195,
+          "answer": "300"
         }
       ],
       "source": {
@@ -44838,7 +48827,18 @@
         "images": [
           "shared/numeric-memory/med-56-page-05.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            -1
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-88581ab804320e",
@@ -44989,6 +48989,11 @@
           "answer": "250-350"
         },
         {
+          "start": 116,
+          "end": 119,
+          "answer": "2:1"
+        },
+        {
           "start": 128,
           "end": 131,
           "answer": "150"
@@ -45016,6 +49021,21 @@
           "med/lecture-pages/lecture-56-page-12.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            -1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -45418,6 +49438,11 @@
       "category": "治疗与随访时间",
       "blanks": [
         {
+          "start": 81,
+          "end": 84,
+          "answer": "2-3"
+        },
+        {
           "start": 174,
           "end": 175,
           "answer": "2"
@@ -45445,6 +49470,19 @@
           "med/lecture-pages/lecture-56-page-14.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            -1,
+            0,
+            1,
+            2
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -45993,6 +50031,16 @@
           "answer": "2"
         },
         {
+          "start": 68,
+          "end": 69,
+          "answer": "2"
+        },
+        {
+          "start": 89,
+          "end": 90,
+          "answer": "2"
+        },
+        {
           "start": 117,
           "end": 118,
           "answer": "2"
@@ -46018,6 +50066,29 @@
           "shared/numeric-memory/med-56-page-16.webp"
         ]
       },
+      "hints": [
+        {
+          "start": 254,
+          "end": 264
+        }
+      ],
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            -1,
+            -1,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -46279,6 +50350,26 @@
           "answer": "2"
         },
         {
+          "start": 256,
+          "end": 259,
+          "answer": "3:2"
+        },
+        {
+          "start": 262,
+          "end": 265,
+          "answer": "5:4"
+        },
+        {
+          "start": 382,
+          "end": 385,
+          "answer": "3:1"
+        },
+        {
+          "start": 388,
+          "end": 391,
+          "answer": "4:1"
+        },
+        {
           "start": 406,
           "end": 407,
           "answer": "2"
@@ -46321,6 +50412,27 @@
           "med/lecture-pages/lecture-56-page-20.webp"
         ]
       },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            -1,
+            -1,
+            -1,
+            -1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
       "layout": [
         {
           "type": "text",
@@ -46693,6 +50805,11 @@
           "answer": "4/3.5"
         },
         {
+          "start": 68,
+          "end": 71,
+          "answer": "5-1"
+        },
+        {
           "start": 108,
           "end": 112,
           "answer": "0.25"
@@ -46712,7 +50829,22 @@
         "images": [
           "med/lecture-pages/lecture-56-page-23.webp"
         ]
-      }
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            -1,
+            3,
+            4
+          ]
+        }
+      ]
     },
     {
       "id": "numeric-1a3d519dc07c13",
@@ -47197,6 +51329,16 @@
           "answer": "10"
         },
         {
+          "start": 139,
+          "end": 142,
+          "answer": "1:1"
+        },
+        {
+          "start": 151,
+          "end": 155,
+          "answer": "30:2"
+        },
+        {
           "start": 191,
           "end": 192,
           "answer": "1"
@@ -47211,7 +51353,1318 @@
         "images": [
           "med/lecture-pages/lecture-57-page-01.webp"
         ]
+      },
+      "answerRevision": 2,
+      "answerMigrations": [
+        {
+          "fromRevision": 1,
+          "toRevision": 2,
+          "indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            -1,
+            -1,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numeric-4752c91e2c52eb",
+      "subject": "med",
+      "chapter": "心脏骤停",
+      "section": "二、心肺脑复苏（心脏骤停抢救成功的关键）",
+      "title": "电除颤首次能量：单相波 360J、双相波 120-200J",
+      "text": "电除颤首次能量：单相波 360J、双相波 120-200J",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 12,
+          "end": 15,
+          "answer": "360"
+        },
+        {
+          "start": 21,
+          "end": 28,
+          "answer": "120-200"
+        }
+      ],
+      "source": {
+        "file": "57 27考研：内科+外科 心脏骤停 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          1
+        ],
+        "lecture": 57,
+        "images": [
+          "med/lecture-pages/lecture-57-page-01.webp"
+        ]
       }
+    },
+    {
+      "id": "numeric-6a1eed385f0f19",
+      "subject": "surgery",
+      "chapter": "麻醉",
+      "section": "常用局麻药：作用时间与血浆蛋白结合率（原页表15-4）",
+      "title": "常用局麻药：作用时间与血浆蛋白结合率（原页表15-4）",
+      "text": "普鲁卡因\n0.75-1h\n6%\n丁卡因\n2-3h\n76%\n利多卡因\n1-2h\n66%\n布比卡因\n5-6h\n95%\n罗哌卡因\n4-6h\n94%\n",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 5,
+          "end": 11,
+          "answer": "0.75-1"
+        },
+        {
+          "start": 13,
+          "end": 14,
+          "answer": "6"
+        },
+        {
+          "start": 20,
+          "end": 23,
+          "answer": "2-3"
+        },
+        {
+          "start": 25,
+          "end": 27,
+          "answer": "76"
+        },
+        {
+          "start": 34,
+          "end": 37,
+          "answer": "1-2"
+        },
+        {
+          "start": 39,
+          "end": 41,
+          "answer": "66"
+        },
+        {
+          "start": 48,
+          "end": 51,
+          "answer": "5-6"
+        },
+        {
+          "start": 53,
+          "end": 55,
+          "answer": "95"
+        },
+        {
+          "start": 62,
+          "end": 65,
+          "answer": "4-6"
+        },
+        {
+          "start": 67,
+          "end": 69,
+          "answer": "94"
+        }
+      ],
+      "source": {
+        "file": "36 27考研：外科 麻醉 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          4
+        ],
+        "lecture": 36,
+        "images": [
+          "surgery/lecture-pages/lecture-36-page-04.webp"
+        ]
+      },
+      "reviewedImage": true,
+      "layout": [
+        {
+          "type": "table",
+          "start": 0,
+          "end": 71,
+          "rows": [
+            [
+              {
+                "ranges": [
+                  [
+                    0,
+                    5
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    5,
+                    13
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    13,
+                    16
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    16,
+                    20
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    20,
+                    25
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    25,
+                    29
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    29,
+                    34
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    34,
+                    39
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    39,
+                    43
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    43,
+                    48
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    48,
+                    53
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    53,
+                    57
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    57,
+                    62
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    62,
+                    67
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    67,
+                    71
+                  ]
+                ]
+              }
+            ]
+          ],
+          "headers": [
+            "药物",
+            "作用时间",
+            "血浆蛋白结合率"
+          ],
+          "headerIncluded": false,
+          "rowHeader": true,
+          "columns": 3
+        }
+      ]
+    },
+    {
+      "id": "numeric-5e04ddabfa75f4",
+      "subject": "surgery",
+      "chapter": "颈腰椎退行性病（含损伤平面判断）",
+      "section": "脊髓神经损伤平面：体表感觉标志（原页示意图）",
+      "title": "脊髓神经损伤平面：体表感觉标志（原页示意图）",
+      "text": "肩、上臂外侧\nC5\n前臂外侧、拇指\nC6\n中指\nC7\n前臂内侧、小指\nC8\n胸骨角\nT2\n乳头\nT4\n剑突\nT6\n肋弓\nT8\n脐\nT10\n腹股沟\nT12\n膝部、小腿前内侧\nL4\n小腿外前侧、足背内侧\nL5\n小腿后外侧、足跟外侧、外踝\nS1\n",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 7,
+          "end": 9,
+          "answer": "C5"
+        },
+        {
+          "start": 18,
+          "end": 20,
+          "answer": "C6"
+        },
+        {
+          "start": 24,
+          "end": 26,
+          "answer": "C7"
+        },
+        {
+          "start": 35,
+          "end": 37,
+          "answer": "C8"
+        },
+        {
+          "start": 42,
+          "end": 44,
+          "answer": "T2"
+        },
+        {
+          "start": 48,
+          "end": 50,
+          "answer": "T4"
+        },
+        {
+          "start": 54,
+          "end": 56,
+          "answer": "T6"
+        },
+        {
+          "start": 60,
+          "end": 62,
+          "answer": "T8"
+        },
+        {
+          "start": 65,
+          "end": 68,
+          "answer": "T10"
+        },
+        {
+          "start": 73,
+          "end": 76,
+          "answer": "T12"
+        },
+        {
+          "start": 86,
+          "end": 88,
+          "answer": "L4"
+        },
+        {
+          "start": 100,
+          "end": 102,
+          "answer": "L5"
+        },
+        {
+          "start": 117,
+          "end": 119,
+          "answer": "S1"
+        }
+      ],
+      "source": {
+        "file": "27 27考研：外科 颈腰椎退行性病（含损伤平面判断） 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          8
+        ],
+        "lecture": 27,
+        "images": [
+          "shared/numeric-memory/surgery-27-page-08.webp"
+        ]
+      },
+      "reviewedImage": true,
+      "layout": [
+        {
+          "type": "table",
+          "start": 0,
+          "end": 120,
+          "rows": [
+            [
+              {
+                "ranges": [
+                  [
+                    0,
+                    7
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    7,
+                    10
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    10,
+                    18
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    18,
+                    21
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    21,
+                    24
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    24,
+                    27
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    27,
+                    35
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    35,
+                    38
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    38,
+                    42
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    42,
+                    45
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    45,
+                    48
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    48,
+                    51
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    51,
+                    54
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    54,
+                    57
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    57,
+                    60
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    60,
+                    63
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    63,
+                    65
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    65,
+                    69
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    69,
+                    73
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    73,
+                    77
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    77,
+                    86
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    86,
+                    89
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    89,
+                    100
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    100,
+                    103
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    103,
+                    117
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    117,
+                    120
+                  ]
+                ]
+              }
+            ]
+          ],
+          "headers": [
+            "体表标志",
+            "节段"
+          ],
+          "headerIncluded": false,
+          "rowHeader": true,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "id": "numeric-a4a571ab806fb9",
+      "subject": "med",
+      "chapter": "高血压",
+      "section": "高血压心血管预后：危险因素（原页表3-5-3）",
+      "title": "高血压心血管预后：危险因素（原页表3-5-3）",
+      "text": "年龄\n男性＞55岁；女性＞65岁\n血脂异常\nTC≥5.2mmol/L，或LDL-C＞3.4mmol/L，或HDL-C＜1.0mmol/L\n早发心血管病家族史\n一级亲属发病年龄＜50岁\n腹型肥胖或肥胖\n腰围男性≥90cm、女性≥85cm，或BMI≥28kg/m²\n血同型半胱氨酸升高\n≥10μmol/L\n",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 6,
+          "end": 8,
+          "answer": "55"
+        },
+        {
+          "start": 13,
+          "end": 15,
+          "answer": "65"
+        },
+        {
+          "start": 25,
+          "end": 28,
+          "answer": "5.2"
+        },
+        {
+          "start": 42,
+          "end": 45,
+          "answer": "3.4"
+        },
+        {
+          "start": 59,
+          "end": 62,
+          "answer": "1.0"
+        },
+        {
+          "start": 88,
+          "end": 90,
+          "answer": "50"
+        },
+        {
+          "start": 105,
+          "end": 107,
+          "answer": "90"
+        },
+        {
+          "start": 113,
+          "end": 115,
+          "answer": "85"
+        },
+        {
+          "start": 123,
+          "end": 125,
+          "answer": "28"
+        },
+        {
+          "start": 142,
+          "end": 144,
+          "answer": "10"
+        }
+      ],
+      "source": {
+        "file": "52 27考研：内科含诊断 高血压 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          2
+        ],
+        "lecture": 52,
+        "images": [
+          "med/lecture-pages/lecture-52-page-02.webp"
+        ]
+      },
+      "reviewedImage": true,
+      "layout": [
+        {
+          "type": "table",
+          "start": 0,
+          "end": 151,
+          "rows": [
+            [
+              {
+                "ranges": [
+                  [
+                    0,
+                    3
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    3,
+                    17
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    17,
+                    22
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    22,
+                    69
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    69,
+                    79
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    79,
+                    92
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    92,
+                    100
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    100,
+                    131
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    131,
+                    141
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    141,
+                    151
+                  ]
+                ]
+              }
+            ]
+          ],
+          "headers": [
+            "危险因素",
+            "讲义界值"
+          ],
+          "headerIncluded": false,
+          "rowHeader": true,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "id": "numeric-0b2c8665136942",
+      "subject": "med",
+      "chapter": "高血压",
+      "section": "高血压心血管预后：靶器官损害（原页表3-5-3）",
+      "title": "高血压心血管预后：靶器官损害（原页表3-5-3）",
+      "text": "左室肥厚：心电图\nSokolow-Lyon电压＞3.8mV或Cornell乘积＞244mV·ms\n左室肥厚：超声心动图\nLVMI男性≥115g/m²、女性≥95g/m²\n颈动脉超声\nIMT≥0.9mm或动脉粥样硬化斑块\n颈股动脉脉搏波速度\nPWV≥12m/s\n踝臂指数\nABI＜0.9\n肾功能\neGFR 30-59ml/(min·1.73m²)，或肌酐男性115-133μmol/L、女性107-124μmol/L\n微量白蛋白尿\n30-300mg/24h或白蛋白/肌酐≥30mg/g\n",
+      "category": "用药与补液",
+      "blanks": [
+        {
+          "start": 24,
+          "end": 27,
+          "answer": "3.8"
+        },
+        {
+          "start": 40,
+          "end": 43,
+          "answer": "244"
+        },
+        {
+          "start": 67,
+          "end": 70,
+          "answer": "115"
+        },
+        {
+          "start": 78,
+          "end": 80,
+          "answer": "95"
+        },
+        {
+          "start": 95,
+          "end": 98,
+          "answer": "0.9"
+        },
+        {
+          "start": 124,
+          "end": 126,
+          "answer": "12"
+        },
+        {
+          "start": 139,
+          "end": 142,
+          "answer": "0.9"
+        },
+        {
+          "start": 152,
+          "end": 157,
+          "answer": "30-59"
+        },
+        {
+          "start": 178,
+          "end": 185,
+          "answer": "115-133"
+        },
+        {
+          "start": 194,
+          "end": 201,
+          "answer": "107-124"
+        },
+        {
+          "start": 215,
+          "end": 221,
+          "answer": "30-300"
+        },
+        {
+          "start": 235,
+          "end": 237,
+          "answer": "30"
+        }
+      ],
+      "source": {
+        "file": "52 27考研：内科含诊断 高血压 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          2
+        ],
+        "lecture": 52,
+        "images": [
+          "med/lecture-pages/lecture-52-page-02.webp"
+        ]
+      },
+      "reviewedImage": true,
+      "layout": [
+        {
+          "type": "table",
+          "start": 0,
+          "end": 242,
+          "rows": [
+            [
+              {
+                "ranges": [
+                  [
+                    0,
+                    9
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    9,
+                    49
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    49,
+                    60
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    60,
+                    85
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    85,
+                    91
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    91,
+                    110
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    110,
+                    120
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    120,
+                    130
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    130,
+                    135
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    135,
+                    143
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    143,
+                    147
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    147,
+                    208
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    208,
+                    215
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    215,
+                    242
+                  ]
+                ]
+              }
+            ]
+          ],
+          "headers": [
+            "指标",
+            "讲义界值"
+          ],
+          "headerIncluded": false,
+          "rowHeader": true,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "id": "numeric-ee7963c5c48a06",
+      "subject": "med",
+      "chapter": "高血压",
+      "section": "高血压伴临床肾脏疾病（原页表3-5-3）",
+      "title": "高血压伴临床肾脏疾病（原页表3-5-3）",
+      "text": "糖尿病肾病或肾功能受损\neGFR＜30ml/(min·1.73m²)\n血肌酐\n男性≥133μmol/L、女性≥124μmol/L\n蛋白尿\n尿蛋白≥300mg/24h\n",
+      "category": "用药与补液",
+      "blanks": [
+        {
+          "start": 17,
+          "end": 19,
+          "answer": "30"
+        },
+        {
+          "start": 42,
+          "end": 45,
+          "answer": "133"
+        },
+        {
+          "start": 55,
+          "end": 58,
+          "answer": "124"
+        },
+        {
+          "start": 73,
+          "end": 76,
+          "answer": "300"
+        }
+      ],
+      "source": {
+        "file": "52 27考研：内科含诊断 高血压 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          2
+        ],
+        "lecture": 52,
+        "images": [
+          "med/lecture-pages/lecture-52-page-02.webp"
+        ]
+      },
+      "reviewedImage": true,
+      "layout": [
+        {
+          "type": "table",
+          "start": 0,
+          "end": 83,
+          "rows": [
+            [
+              {
+                "ranges": [
+                  [
+                    0,
+                    12
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    12,
+                    35
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    35,
+                    39
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    39,
+                    65
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    65,
+                    69
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    69,
+                    83
+                  ]
+                ]
+              }
+            ]
+          ],
+          "headers": [
+            "指标",
+            "讲义界值"
+          ],
+          "headerIncluded": false,
+          "rowHeader": true,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "id": "numeric-b84fdf11ef654c",
+      "subject": "med",
+      "chapter": "库欣综合征",
+      "section": "大剂量地塞米松抑制试验（原页表7-7-1注释）",
+      "title": "大剂量地塞米松抑制试验（原页表7-7-1注释）",
+      "text": "给药\n每次2mg，每6小时口服1次，连续2天\n抑制判定\n第2天尿17-羟皮质类固醇或尿游离皮质醇降至对照值的50%以下\n",
+      "category": "用药与补液",
+      "blanks": [
+        {
+          "start": 5,
+          "end": 6,
+          "answer": "2"
+        },
+        {
+          "start": 10,
+          "end": 11,
+          "answer": "6"
+        },
+        {
+          "start": 15,
+          "end": 16,
+          "answer": "1"
+        },
+        {
+          "start": 20,
+          "end": 21,
+          "answer": "2"
+        },
+        {
+          "start": 29,
+          "end": 30,
+          "answer": "2"
+        },
+        {
+          "start": 54,
+          "end": 56,
+          "answer": "50"
+        }
+      ],
+      "source": {
+        "file": "40 27考研：内科 库欣综合征 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          2
+        ],
+        "lecture": 40,
+        "images": [
+          "med/lecture-pages/lecture-40-page-02.webp"
+        ]
+      },
+      "reviewedImage": true,
+      "layout": [
+        {
+          "type": "table",
+          "start": 0,
+          "end": 60,
+          "rows": [
+            [
+              {
+                "ranges": [
+                  [
+                    0,
+                    3
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    3,
+                    23
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    23,
+                    28
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    28,
+                    60
+                  ]
+                ]
+              }
+            ]
+          ],
+          "headers": [
+            "项目",
+            "讲义方法"
+          ],
+          "headerIncluded": false,
+          "rowHeader": true,
+          "columns": 2
+        }
+      ]
+    },
+    {
+      "id": "numeric-b6db8a14a0290d",
+      "subject": "med",
+      "chapter": "心律失常",
+      "section": "正常心电图：走纸速度与电压标定（原页示意图）",
+      "title": "正常心电图：走纸速度与电压标定（原页示意图）",
+      "text": "标准走纸速度\n25mm/s\n电压标定\n10mm代表1mV\n",
+      "category": "诊断与其他数字",
+      "blanks": [
+        {
+          "start": 7,
+          "end": 9,
+          "answer": "25"
+        },
+        {
+          "start": 19,
+          "end": 21,
+          "answer": "10"
+        },
+        {
+          "start": 25,
+          "end": 26,
+          "answer": "1"
+        }
+      ],
+      "source": {
+        "file": "56 27考研：内科含诊断 心律失常 核心-真题-串联-导图 天天师兄.pdf",
+        "pages": [
+          1
+        ],
+        "lecture": 56,
+        "images": [
+          "shared/numeric-memory/med-56-page-01.webp"
+        ]
+      },
+      "reviewedImage": true,
+      "layout": [
+        {
+          "type": "table",
+          "start": 0,
+          "end": 29,
+          "rows": [
+            [
+              {
+                "ranges": [
+                  [
+                    0,
+                    7
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    7,
+                    14
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "ranges": [
+                  [
+                    14,
+                    19
+                  ]
+                ]
+              },
+              {
+                "ranges": [
+                  [
+                    19,
+                    29
+                  ]
+                ]
+              }
+            ]
+          ],
+          "headers": [
+            "项目",
+            "数值"
+          ],
+          "headerIncluded": false,
+          "rowHeader": true,
+          "columns": 2
+        }
+      ]
     }
   ],
   "reviewNotes": [
@@ -47219,6 +52672,11 @@
       "file": "35 27考研：外科 围术期 核心-真题-串联-导图 天天师兄.pdf",
       "page": 2,
       "issue": "原文术后1.4天、2.7天含义有疑义，保留核验提示，不生成答案。"
+    },
+    {
+      "file": "6 27考研：外科 腹腔感染 核心-真题-串联-导图 天天师兄.pdf",
+      "page": 1,
+      "issue": "腹膜面积原页仅写约1.5，缺少单位；不推测单位、不生成答案。"
     }
   ],
   "layoutVersion": 1

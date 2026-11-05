@@ -1,7 +1,7 @@
 import Highlight from './SearchHighlight.jsx'
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react'
 import data from './data/numeric-memory-data.json'
-import { filterNumericItems, numericAnswerCorrect, numericRangeParts, numericProseRanges, NUMERIC_SUBJECTS } from './numeric-memory.js'
+import { filterNumericItems, migrateNumericRecords, numericAnswerCorrect, numericRangeParts, numericProseRanges, numericSearchRanges, numericHighlightParts, NUMERIC_SUBJECTS } from './numeric-memory.js'
 import { useNumericShortcuts } from './useNumericShortcuts.js'
 import './numeric-memory.css'
 
@@ -25,11 +25,18 @@ function SourceDialog({ item, onClose }) {
   return <dialog ref={dialogRef} className="numeric-source-dialog" aria-labelledby="numeric-source-title" onCancel={event => { event.preventDefault(); onClose() }}><div className="numeric-source-dialog-heading"><h2 id="numeric-source-title">{item.chapter} · 讲义原页</h2><button className="ghost-button" onClick={onClose}>关闭（Shift / Esc）</button></div><Source item={item} expanded /></dialog>
 }
 
-function FactParts({ item, ranges, practice, values, submitted, onChange, query }) {
+function FactHighlight({item,part,hits}) {
+  return numericHighlightParts(item.text,part.start,part.end,hits).map((hit,index)=>{
+    const text=hit.text.replace(/\n(?=多有突眼|TRAb|慢性淋巴细胞性|有手术指征)/g, '；').replace(/([A-Za-z])\n(?=[A-Za-z])/g, '$1 ').replace(/\s*\n\s*/g, '')
+    return hit.match ? <mark className="memory-search-hit" key={index}>{text}</mark> : text
+  })
+}
+
+function FactParts({ item, ranges, practice, values, submitted, onChange, hits }) {
   return ranges.flatMap(([start, end]) => numericRangeParts(item, start, end)).map((part, i) => part.index === undefined
-    ? <Highlight key={i} text={part.text.replace(/\n(?=多有突眼|TRAb|慢性淋巴细胞性|有手术指征)/g, '；').replace(/([A-Za-z])\n(?=[A-Za-z])/g, '$1 ').replace(/\s*\n\s*/g, '')} query={query} />
+    ? part.hint && practice && !submitted ? <span key={i} className="numeric-pending-hint">（记忆提示提交后显示）</span> : <FactHighlight key={i} item={item} part={part} hits={hits} />
     : practice ? <label className={`numeric-blank ${submitted ? numericAnswerCorrect(values[part.index] || '', part.answer) ? 'correct' : 'wrong' : ''}`} key={i}><span className="sr-only">第{part.index + 1}空</span><input aria-label={`第${part.index + 1}空`} autoComplete="off" value={values[part.index] || ''} disabled={submitted} onChange={e => onChange(part.index, e.target.value)} style={{ width: `${Math.max(4, Math.min(12, part.answer.length + 2))}ch` }} />{submitted ? <small>{numericAnswerCorrect(values[part.index] || '', part.answer) ? '✓' : `正确：${part.answer}`}</small> : <small>{part.index + 1}</small>}</label>
-    : <mark key={i}><Highlight text={part.answer} query={query} /></mark>)
+    : <mark key={i}><FactHighlight item={item} part={part} hits={hits} /></mark>)
 }
 
 function FactTable({ block, item, ...props }) {
@@ -50,6 +57,8 @@ function FactTable({ block, item, ...props }) {
 }
 
 function FactText({ item, ...props }) {
+  const hits=useMemo(()=>numericSearchRanges(item.text,props.query),[item.text,props.query])
+  props={...props,hits}
   const blocks = item.layout || [{ type: 'text', start: 0, end: item.text.length }]
   return <div className="numeric-fact">{blocks.map((block,index) => block.type === 'table'
     ? <FactTable key={index} item={item} block={block} {...props} />
@@ -75,7 +84,7 @@ export default function NumericMemory({ mode = 'practice', targetId, onPractice,
   useEffect(() => {
     try {
       const saved = JSON.parse(localStorage.getItem(STORAGE) || '{}')
-      if (saved && typeof saved === 'object' && !Array.isArray(saved)) setRecords(saved)
+      if (saved && typeof saved === 'object' && !Array.isArray(saved)) setRecords(migrateNumericRecords(saved,data.items))
     } catch { setStorageError(true) }
     try { setOverviewCollapsed(localStorage.getItem(OVERVIEW_STORAGE) === 'true') } catch { /* Keep the overview open when preferences are unavailable. */ }
     setReady(true)
@@ -93,7 +102,7 @@ export default function NumericMemory({ mode = 'practice', targetId, onPractice,
   }, [targetId])
   useEffect(() => { setLimit(30); setKeepReviewId('') }, [subject, chapter, category, deferredQuery, filter])
   const results = useMemo(() => {
-    const filterRecords = filter === 'wrong' && keepReviewId ? { ...records, [keepReviewId]: { ...records[keepReviewId], result: 'wrong' } } : records
+    const filterRecords = keepReviewId ? { ...records, [keepReviewId]: { ...records[keepReviewId], result: filter==='wrong'?'wrong':null } } : records
     return filterNumericItems(data.items, { subject, chapter, category, query: deferredQuery, filter, records: filterRecords })
   }, [subject, chapter, category, deferredQuery, filter, records, keepReviewId])
   const readingItems = useMemo(() => !practice && targetId && results.some(i => i.id === targetId) ? [results.find(i => i.id === targetId), ...results.filter(i => i.id !== targetId)] : results, [practice, targetId, results])
@@ -104,13 +113,13 @@ export default function NumericMemory({ mode = 'practice', targetId, onPractice,
   const record = current ? records[current.id] || EMPTY : EMPTY
   const values = record.values || []
   useEffect(() => { setSourceOpen(false) }, [current?.id, practice])
-  const update = (id, change) => setRecords(previous => ({ ...previous, [id]: { ...previous[id], ...change } }))
+  const update = (id, change) => setRecords(previous => ({ ...previous, [id]: { ...previous[id], ...change, answerRevision:data.items.find(item=>item.id===id)?.answerRevision || 1 } }))
   const favorite = item => update(item.id, { favorite: !records[item.id]?.favorite })
   const move = next => { setCurrentId(results[(next + results.length) % results.length]?.id || ''); setKeepReviewId(''); window.scrollTo({ top: 0, behavior: 'smooth' }) }
   function submit(event) {
     event.preventDefault()
     if (!ready || !current || current.blanks.some((_, i) => !values[i]?.trim())) return
-    if (filter === 'wrong') { setKeepReviewId(current.id); setCurrentId(current.id) }
+    if (filter === 'wrong' || filter === 'new') { setKeepReviewId(current.id); setCurrentId(current.id) }
     update(current.id, { submitted: true, result: current.blanks.every((blank, i) => numericAnswerCorrect(values[i], blank.answer)) ? 'correct' : 'wrong' })
   }
   function redo() {
@@ -120,7 +129,7 @@ export default function NumericMemory({ mode = 'practice', targetId, onPractice,
   useNumericShortcuts({ enabled: practice && ready && Boolean(current), cardRef, itemId: current?.id,
     submitted: Boolean(record.submitted), sourceOpen, onMove: offset => move(index + offset),
     onSubmit: submit, onRedo: redo, onFavorite: () => favorite(current), onToggleSource: () => setSourceOpen(open => !open) })
-  const totals = Object.values(records)
+  const totals = data.items.map(item=>records[item.id]).filter(Boolean)
   const filterSummary = [NUMERIC_SUBJECTS[subject] || '内科与外科', chapter.split(':').slice(1).join(':') || '全部章节', category,
     { favorites: '收藏', wrong: '错题重练', new: '未作答' }[filter], query.trim() ? `“${query.trim()}”` : '', `${results.length} 条`].filter(Boolean).join(' · ')
   return <main className="numeric-memory" aria-label={practice ? '数字填空' : '数字速记'}>
@@ -138,7 +147,7 @@ export default function NumericMemory({ mode = 'practice', targetId, onPractice,
       <form className="numeric-card" ref={cardRef} onSubmit={submit}><div className="numeric-card-meta"><span><Highlight text={`${NUMERIC_SUBJECTS[current.subject]} · ${current.chapter}`} query={deferredQuery} /></span><span><Highlight text={current.category} query={deferredQuery} /> · {index + 1} / {results.length}</span><button type="button" className="ghost-button" aria-pressed={Boolean(record.favorite)} onClick={() => favorite(current)}>{record.favorite ? '★ 已收藏' : '☆ 收藏'}</button></div><h2><Highlight text={current.section || current.chapter} query={deferredQuery} /></h2><FactText item={current} query={deferredQuery} practice values={values} submitted={record.submitted} onChange={(i,value) => { const next = [...values]; next[i] = value; update(current.id, { values: next }) }} />
       <div className="numeric-submit"><span role="status">{record.submitted ? record.result === 'correct' ? '全部正确' : '已标出需复习的数字，可对照完整知识点' : `请填写 ${current.blanks.length} 个空，单位无需重复填写`}</span>{record.submitted ? <button className="ghost-button" type="button" onClick={redo}>重新作答</button> : <button className="primary-button" disabled={!ready || current.blanks.some((_,i) => !values[i]?.trim())}>提交答案</button>}</div>
       {record.submitted ? <details className="numeric-answer" open><summary>完整知识点</summary><FactText item={current} query={deferredQuery} values={[]} /></details> : null}<Source item={current} /></form>
-      <div className="numeric-pager"><button className="ghost-button" onClick={() => move(index - 1)}>← 上一条</button><label>跳转<select aria-label="跳转" value={current.id} onChange={e => setCurrentId(e.target.value)}>{results.map((i,n) => <option key={i.id} value={i.id}>{n+1}. {i.chapter} · {i.section.slice(0,25)}</option>)}</select></label><button className="ghost-button" onClick={() => move(index + 1)}>下一条 →</button></div>
+      <div className="numeric-pager"><button className="ghost-button" onClick={() => move(index - 1)}>← 上一条</button><label>跳转<select aria-label="跳转" value={current.id} onChange={e => {setCurrentId(e.target.value);setKeepReviewId('')}}>{results.map((i,n) => <option key={i.id} value={i.id}>{n+1}. {i.chapter} · {i.section.slice(0,25)}</option>)}</select></label><button className="ghost-button" onClick={() => move(index + 1)}>下一条 →</button></div>
     </> : <><div className="numeric-reading">{readingItems.slice(0,limit).map(item => <article className="numeric-card" key={item.id}><div className="numeric-card-meta"><span><Highlight text={`${NUMERIC_SUBJECTS[item.subject]} · ${item.chapter}`} query={deferredQuery} /></span><span><Highlight text={item.category} query={deferredQuery} /></span><button className="ghost-button" aria-pressed={Boolean(records[item.id]?.favorite)} onClick={() => favorite(item)}>{records[item.id]?.favorite ? '★ 已收藏' : '☆ 收藏'}</button></div><h2><Highlight text={item.section || item.chapter} query={deferredQuery} /></h2><FactText item={item} query={deferredQuery} values={[]} /><Source item={item} /><button className="numeric-practice-link" onClick={() => onPractice(item.id)}>练这一条 →</button></article>)}</div>{results.length > limit ? <button className="ghost-button" onClick={() => setLimit(n => n+30)}>显示更多（{Math.min(limit, results.length)} / {results.length}）</button> : null}</>}
     {practice ? <details className="numeric-shortcut-help"><summary>快捷键（沿用题库操作）</summary><p>A / D：上一空 / 下一空；W / E：上一行 / 下一行；↑ / ↓：切换作答行；← / →：上一条 / 下一条；Enter：提交 / 重新作答；单按 Shift：查看 / 关闭讲义；Esc：关闭讲义；单按 Option（Alt）：收藏 / 取消收藏；⌘ / Ctrl + K：搜索。</p><p>方向键在输入框内保留光标编辑功能；搜索和筛选时不会触发练习快捷键。</p></details> : null}
     {practice && sourceOpen && current ? <SourceDialog item={current} onClose={() => setSourceOpen(false)} /> : null}

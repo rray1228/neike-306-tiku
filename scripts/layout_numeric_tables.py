@@ -29,6 +29,17 @@ def normalized(text):
     return ''.join(chars), offsets
 
 def layout_table(item, rows):
+    # Vector strokes inside merged disease-name cells can look like extra columns
+    # and rows to pdfplumber. Rejoin only this verified seven-column source table.
+    if item['chapter']=='胆系疾病' and max(map(len,rows))==7 and all(len(r)>2 and not r[2] for r in rows):
+        collapsed=[]
+        for row in rows:
+            labels=[v for v in row[:3] if v and v!='ttsx']
+            name=max(labels,key=len) if labels else ''
+            if all(v is None for v in row[3:]) and collapsed:
+                if name not in collapsed[-1][0]:collapsed[-1][0]+='\n'+name
+            else:collapsed.append([name]+row[3:])
+        rows=collapsed
     canonical, offsets = normalized(item['text'])
     cells, table_chars, owners = [], [], []
     for row_index, row in enumerate(rows):
@@ -59,6 +70,10 @@ def layout_table(item, rows):
         for n in range(m.size):
             if low <= m.a+n < high: mapping[offsets[m.a+n]] = owners[m.b+n]
     start, end = offsets[low], offsets[high-1]+1
+    if item['chapter']=='乳房疾病' and len(rows)==3 and max(map(len,rows))==2:
+        # Keep the following TNM staging grid out of the preceding definition cell.
+        boundary=item['text'].find('\nT0 T1 T2 T3 T4',start)
+        if boundary>=0:end=min(end,boundary)
     if len(mapping) < (high-low)*.8: return None
     # Every original character in this interval belongs to one cell exactly once.
     # Fill PDF typography gaps from adjacent aligned characters in the same row.
@@ -104,6 +119,7 @@ def layout_table(item, rows):
     headers = first if has_header else ['项目']+['对应内容' if columns==2 else f'要点{c}' for c in range(1,columns)]
     if not has_header and first[0]=='碘剂' and columns==3: headers=['药物类别','代表药物','作用与注意事项']
     if not has_header and first[0]=='阵发性房颤' and columns==3: headers=['类型','持续时间与特点','记忆提示']
+    if item['chapter']=='胆系疾病' and columns==5 and first[0]=='先天性胆管扩张症': headers=['疾病','黄疸','胆囊增大','其它','主要治疗']
     return dict(type='table', start=start, end=end, rows=output,
         headers=headers, headerIncluded=header_included, rowHeader=not comparison, columns=columns)
 
@@ -122,6 +138,7 @@ def enrich(payload, source=SOURCE):
             with pdfplumber.open(path) as pdf:
                 for p in missing: cached[f'{subject}:{filename}:{p}'] = pdf.pages[p-1].extract_tables()
         for item in items:
+            if item.get('reviewedImage'): continue
             candidates=[]
             for p in item['source']['pages']:
                 for table in cached[f'{subject}:{filename}:{p}']:

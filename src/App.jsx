@@ -841,6 +841,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     const onPopState = () => {
       const requested = new URLSearchParams(window.location.search).get('view')
       const next = ['tests', 'mnemonics', 'numbers'].includes(requested) ? requested : 'questions'
+      setMnemonicSearch(new URLSearchParams(window.location.search).get('q') || '')
       setMemoryKind(new URLSearchParams(window.location.search).get('memory') === 'numbers' ? 'numbers' : 'mnemonics')
       selectView(next, false)
     }

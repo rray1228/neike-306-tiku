@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync, existsSync } from 'node:fs'
-import { numericAnswerCorrect, numericParts, numericRows, numericRangeParts, numericProseRanges, filterNumericItems } from '../src/numeric-memory.js'
+import { migrateNumericRecords, numericSearchRanges, numericHighlightParts, numericAnswerCorrect, numericParts, numericRows, numericRangeParts, numericProseRanges, filterNumericItems } from '../src/numeric-memory.js'
 import { studyViewUrl } from '../src/supplement-tests.js'
 import { highlightParts, memoryTextMatches, indexMnemonics, searchMnemonics } from '../src/mnemonic-search.js'
 
@@ -117,4 +117,60 @@ test('search, subject, chapter, category, favorites and wrong-answer filters com
 test('numeric view preserves old mnemonic links and clears only incompatible route state', () => {
   assert.equal(new URL(studyViewUrl('https://example.com/?view=mnemonics&memory=numbers&q=test', 'numbers')).search, '?view=numbers')
   assert.equal(new URL(studyViewUrl('https://example.com/?view=mnemonics&memory=numbers', 'mnemonics')).searchParams.get('memory'), 'numbers')
+})
+
+test('reviewed numeric additions cover energies, ratios, short facts, negative values and scientific powers', () => {
+  const answers = text => data.items.filter(i=>i.text.includes(text)).flatMap(i=>i.blanks.map(b=>b.answer.replace(/\s/g,'')))
+  for(const answer of ['360','120-200']) assert.ok(answers('除颤').includes(answer),answer)
+  assert.ok(answers('30:2').includes('30:2'))
+  assert.ok(answers('多见于＜10 岁').includes('10'))
+  assert.ok(answers('BE').includes('-2.3'))
+  assert.ok(answers('CR 后体内白血病细胞').includes('10^10-10^12'))
+  assert.ok(answers('CR 后体内白血病细胞').includes('10^8-10^9'))
+  const anesthesia=data.items.find(i=>i.text.includes('一次限量小结 mg'))
+  for(const answer of ['100','400','40','80','150','1000']) assert.ok(anesthesia.blanks.some(b=>b.answer===answer),answer)
+  for(const i of data.items) for(const hint of i.hints || []) assert.ok(!i.blanks.some(b=>b.start<hint.end&&b.end>hint.start),i.id)
+  assert.ok(data.items.filter(i=>i.reviewedImage).length>=7)
+  assert.ok(numericAnswerCorrect('10¹⁰–10¹²','10^10-10^12'))
+  assert.ok(numericAnswerCorrect('C5-C6','C5-6'))
+  assert.ok(numericAnswerCorrect('30：2','30/2'))
+  assert.ok(numericAnswerCorrect('−2.30','-2.3'))
+})
+
+test('saved attempts migrate across multiple answer revisions without reassigning values to other blanks', () => {
+  const item={id:'test',blanks:[{answer:'2'},{answer:'1'}],answerRevision:3,answerMigrations:[{fromRevision:1,toRevision:2,indices:[-1,0,1]},{fromRevision:2,toRevision:3,indices:[2,1]}]}
+  const saved={test:{values:['1','2'],submitted:true,result:'correct',favorite:true},other:{favorite:true}}
+  const result=migrateNumericRecords(saved,[item])
+  assert.deepEqual(result.test,{values:['2','1'],submitted:true,result:'correct',favorite:true,answerRevision:3})
+  assert.deepEqual(saved.test.values,['1','2'])
+  assert.equal(result.other,saved.other)
+  assert.equal(migrateNumericRecords(result,[item]),result)
+  const added={...item,blanks:[{answer:'2'},{answer:'3'}],answerRevision:2,answerMigrations:[{fromRevision:1,toRevision:2,indices:[1,-1]}]}
+  const migrated=migrateNumericRecords(saved,[added]).test
+  assert.deepEqual(migrated.values,['2',''])
+  assert.equal(migrated.submitted,false)
+  assert.equal(migrated.result,null)
+  assert.equal(migrated.favorite,true)
+  const wrong=migrateNumericRecords({test:{...saved.test,result:'wrong'}},[added]).test
+  assert.equal(wrong.result,'wrong')
+})
+
+test('search highlighting spans a number blank and its following unit using source offsets', () => {
+  const text='术后6-8周复查，另有16-8周'
+  const hits=numericSearchRanges(text,'6–8周')
+  assert.deepEqual(hits,[[2,6]])
+  assert.deepEqual(numericHighlightParts(text,2,5,hits),[{text:'6-8',match:true}])
+  assert.deepEqual(numericHighlightParts(text,5,text.length,hits),[{text:'周',match:true},{text:'复查，另有16-8周',match:false}])
+})
+
+test('biliary comparison restores merged disease labels and removes phantom columns', () => {
+  const item=data.items.find(i=>i.id==='numeric-786c4ebb90a7a4')
+  const tables=item.layout.filter(b=>b.type==='table')
+  assert.equal(tables.length,2)
+  for(const table of tables)assert.equal(table.columns,5)
+  const rows=tables.flatMap(t=>t.rows).map(row=>row.map(cell=>cell.ranges.map(([a,b])=>item.text.slice(a,b)).join('').replace(/\s/g,'')))
+  assert.ok(rows.some(row=>row[0]==='肝内胆管结石及炎症'&&row[1]==='多×'))
+  assert.ok(rows.some(row=>row[0]==='胆管闭锁'&&row[1]==='√且持续性'))
+  assert.ok(rows.some(row=>row[0]==='先天性胆管扩张症'&&row[1]==='√且间歇性'))
+  assert.ok(rows.some(row=>row[0]==='十二指肠癌'&&row[1].includes('晚、慢、浅')))
 })
