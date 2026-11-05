@@ -18,7 +18,7 @@ const reviewedBiochemistry=read('biochemistry-reviewed-lecture-evidence')
 const reviewedOrtho=read('surgery-ortho-reviewed-lecture-evidence')
 const strip=({lectureEvidence,lectureEvidencePages,lectureEvidenceNotice,...rest})=>({...rest,...(rest.stems ? {stems:rest.stems.map(strip)} : {})})
 for (const [subject,groups,review,count,stems] of [
- ['surgery',surgery,reviewedSurgery,343,1025],
+ ['surgery',surgery,reviewedSurgery,343,1026],
  ['biochemistry',biochemistry,reviewedBiochemistry,336,1005],
 ]) {
  test(`${subject}: all requested groups receive per-stem evidence without content or storage changes`,()=>{

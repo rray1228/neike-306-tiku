@@ -7668,6 +7668,12 @@
           "label": "克雷伯杆菌",
           "sourceText": "P. 克雷伯杆菌",
           "ocrScore": 1.0
+        },
+        {
+          "key": "Q",
+          "label": "讲义未列具体疾病",
+          "sourceText": "Q. 讲义未列具体疾病",
+          "ocrScore": 1.0
         }
       ],
       "stems": [
@@ -7714,17 +7720,28 @@
           "ocrScore": 1.0
         },
         {
-          "text": "淋巴系统直接感染",
+          "text": "淋巴系统",
+          "answer": [
+            "Q"
+          ],
+          "answerMode": "单选",
+          "sourceText": "淋巴系统（Q）",
+          "ocrScore": 1.0,
+          "explanation": "第13讲第1页的感染途径表中，淋巴系统这一行的右栏为空。开放性肝损伤列在下一行“直接感染”下。"
+        },
+        {
+          "text": "直接感染",
           "answer": [
             "O"
           ],
           "answerMode": "单选",
-          "sourceText": "淋巴系统直接感染（O）",
+          "sourceText": "直接感染（O）",
           "sourceY": 238.067985114478,
           "ocrScore": 1.0
         }
       ],
-      "sourceText": "细菌性肝脓肿感染途径 | A. 心内膜炎 | B. 阑尾炎 | C. 胆道结石 | D. 皮肤化脓 | E. 蛔虫 | F. 痔感染 | G. 肿瘤 | H. 骨髓炎 | I. 胆肠吻合口狭窄（如Whipple术后） | J. 菌痢 | K. 大肠杆菌 | L. 金葡菌 | M. 厌氧菌 | O. 开放性肝损伤尤其中央型 | P. 克雷伯杆菌 | 胆道梗阻（CEGIKMP） | 肝动脉（ADHL） | 门静脉（BFJK） | 淋巴系统直接感染（O）",
+      "sourceText": "细菌性肝脓肿感染途径 | A. 心内膜炎 | B. 阑尾炎 | C. 胆道结石 | D. 皮肤化脓 | E. 蛔虫 | F. 痔感染 | G. 肿瘤 | H. 骨髓炎 | I. 胆肠吻合口狭窄（如Whipple术后） | J. 菌痢 | K. 大肠杆菌 | L. 金葡菌 | M. 厌氧菌 | O. 开放性肝损伤尤其中央型 | P. 克雷伯杆菌 | Q. 讲义未列具体疾病 | 胆道梗阻（CEGIKMP） | 肝动脉（ADHL） | 门静脉（BFJK） | 淋巴系统（Q） | 直接感染（O）",
+      "answerRevision": "liver-abscess-infection-routes-20261105",
       "reviewState": "已逐题清理乱码并复核",
       "reviewIssues": [],
       "topic": "肝胆胰疾病",

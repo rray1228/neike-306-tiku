@@ -136,6 +136,23 @@ def main() -> None:
     for group_id, title in TITLE_UPDATES.items():
         groups[group_id]["title"] = title
 
+    # Lecture 13, page 1: the lymphatic row is blank; liver injury is on the
+    # following direct-infection row. Q is an editorial marker, not a disease.
+    routes = groups["p17-g1"]
+    if not any(option["key"] == "Q" for option in routes["options"]):
+        routes["options"].append({"key": "Q", "label": "讲义未列具体疾病"})
+    routes["stems"] = routes["stems"][:3] + [
+        {
+            "text": "淋巴系统", "answer": ["Q"], "answerMode": "单选",
+            "explanation": "第13讲第1页的感染途径表中，淋巴系统这一行的右栏为空。开放性肝损伤列在下一行“直接感染”下。",
+        },
+        {
+            **routes["stems"][-1],
+            "text": "直接感染", "answer": ["O"], "answerMode": "单选",
+        },
+    ]
+    routes["answerRevision"] = "liver-abscess-infection-routes-20261105"
+
     # The source page used OCR-style lowercase keys beyond Z. Replace them with
     # readable circled keys and remap every answer that refers to them.
     composite = groups["p23-g1"]

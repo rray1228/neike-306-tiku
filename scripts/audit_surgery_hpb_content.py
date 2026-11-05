@@ -22,6 +22,16 @@ def main() -> None:
     )
     assert not any(value in visible_text for value in forbidden)
 
+    routes = by_id["p17-g1"]
+    assert [(stem["text"], "".join(stem["answer"])) for stem in routes["stems"]] == [
+        ("胆道梗阻", "CEGIKMP"), ("肝动脉", "ADHL"), ("门静脉", "BFJK"),
+        ("淋巴系统", "Q"), ("直接感染", "O"),
+    ]
+    route_options = {option["key"]: option["label"] for option in routes["options"]}
+    assert route_options["Q"] == "讲义未列具体疾病"
+    assert route_options["O"] == "开放性肝损伤尤其中央型"
+    assert routes["answerRevision"] == "liver-abscess-infection-routes-20261105"
+
     group6 = by_id["p18-g2"]
     assert {option["key"]: option["label"] for option in group6["options"]} == {
         "A": "门静脉压力↑", "B": "再出血率↓", "C": "临床常用",
