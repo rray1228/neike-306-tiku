@@ -17,6 +17,7 @@ import { fillNavigationTarget } from './fill-navigation.js'
 import { EncouragementDialog, usePracticeEncouragement, VisitorCount } from './StudySupport.jsx'
 import { groupHasResponses } from './study-milestones.js'
 
+const NumericMemory = lazy(() => import('./NumericMemory.jsx'))
 const MnemonicLibrary = lazy(() => import('./MnemonicLibrary.jsx'))
 const ALL_TEST_CATALOG = [...testCatalog, ...foundationMockExamCatalog]
 const TEST_COLLECTIONS = Object.fromEntries([...new Set(ALL_TEST_CATALOG.map(paper => paper.subject))].map(subject => [subject, testCollectionForSubject(ALL_TEST_CATALOG, subject)]))
@@ -753,6 +754,10 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   const [loadError, setLoadError] = useState(null)
   const [storageReady, setStorageReady] = useState(false)
   const [viewMode, setViewMode] = useState(initialView)
+  const [memoryKind, setMemoryKind] = useState('mnemonics')
+  const [numericTargetId, setNumericTargetId] = useState('')
+  const isReferenceView = viewMode === 'mnemonics' || viewMode === 'numbers'
+  const isNumericView = viewMode === 'numbers' || (viewMode === 'mnemonics' && memoryKind === 'numbers')
   const content = useMemo(() => loadedContent && loadedSubjectRef.current === subject ? scopeTestContent(loadedContent, viewMode === 'tests' ? TEST_COLLECTIONS[subject] : testPaper) : EMPTY_CONTENT, [loadedContent, testPaper, subject, viewMode])
   const isLoadingContent = loadedContent === null || loadedSubjectRef.current !== subject
   const counts = useMemo(() => topicCounts(content.groups), [content])
@@ -791,7 +796,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   const [topbarCollapsed, setTopbarCollapsed] = useState(false)
   const [keyboardStem, setKeyboardStem] = useState(null)
   const { notice: encouragement, recordCompletion, dismiss: dismissEncouragement } = usePracticeEncouragement(
-    storageReady && viewMode !== 'mnemonics' && !isLoadingContent,
+    storageReady && !isReferenceView && !isLoadingContent,
     Boolean(showSource || showLectureEvidence || mobileEvidence),
   )
   const questionCardRef = useRef(null)
@@ -805,6 +810,8 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search)
     const requestedView = params.get('view') || initialView
+    if (!testPaper && params.get('memory') === 'numbers') setMemoryKind('numbers')
+    if (!testPaper && requestedView === 'numbers') setViewMode('numbers')
     if (!testPaper && requestedView === 'tests') setViewMode('tests')
     if (!testPaper && params.get('view') === 'mnemonics') {
       setViewMode('mnemonics')
@@ -832,7 +839,8 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     if (testPaper) return undefined
     const onPopState = () => {
       const requested = new URLSearchParams(window.location.search).get('view')
-      const next = ['tests', 'mnemonics'].includes(requested) ? requested : 'questions'
+      const next = ['tests', 'mnemonics', 'numbers'].includes(requested) ? requested : 'questions'
+      setMemoryKind(new URLSearchParams(window.location.search).get('memory') === 'numbers' ? 'numbers' : 'mnemonics')
       selectView(next, false)
     }
     window.addEventListener('popstate', onPopState)
@@ -840,14 +848,14 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   }, [testPaper, viewMode, subject, topic, chapterId, search, typeFilter, groupIndex, jumpGroupId, favoritesOnly, keyboardStem, sidebarCollapsed, evidenceCollapsed, topbarCollapsed])
 
   useEffect(() => {
-    if (viewMode !== 'mnemonics' || mnemonicData || import.meta.env.SSR) return undefined
+    if (viewMode !== 'mnemonics' || memoryKind !== 'mnemonics' || mnemonicData || import.meta.env.SSR) return undefined
     let cancelled = false
     setMnemonicLoadError(false)
     import('./data/mnemonics-data.json').then(module => {
       if (!cancelled) setMnemonicData(module.default)
     }).catch(() => { if (!cancelled) setMnemonicLoadError(true) })
     return () => { cancelled = true }
-  }, [viewMode, mnemonicData, mnemonicLoadAttempt])
+  }, [viewMode, memoryKind, mnemonicData, mnemonicLoadAttempt])
 
   useEffect(() => {
     if (storageReady) window.localStorage.setItem('study-mnemonic-favorites-v1', JSON.stringify(mnemonicFavorites))
@@ -858,7 +866,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       if ((event.metaKey || event.ctrlKey) && !event.altKey && !event.isComposing && event.key.toLowerCase() === 'k') {
         event.preventDefault()
         setTopbarCollapsed(false)
-        window.requestAnimationFrame(() => { searchInputRef.current?.focus(); searchInputRef.current?.select() })
+        window.requestAnimationFrame(() => { const input = searchInputRef.current || document.querySelector('.numeric-controls input'); input?.focus(); input?.select() })
       }
     }
     window.addEventListener('keydown', focusSearch)
@@ -880,6 +888,14 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     const ids = new Set([id, ...alternateIds])
     setMnemonicFavorites(previous => previous.some(item => ids.has(item)) ? previous.filter(item => !ids.has(item)) : [...previous, id])
   }, [])
+
+  function selectMemoryKind(kind) {
+    setMemoryKind(kind)
+    const url = new URL(window.location.href)
+    if (kind === 'numbers') url.searchParams.set('memory', 'numbers')
+    else url.searchParams.delete('memory')
+    window.history.replaceState(null, '', url)
+  }
 
   function selectView(nextView, updateUrl = true) {
     let nextSubject = subject
@@ -922,7 +938,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   }
 
   useEffect(() => {
-    if (!storageReady || viewMode === 'mnemonics' || (loadedSubjectRef.current === subject && loadedContent)) return undefined
+    if (!storageReady || isReferenceView || (loadedSubjectRef.current === subject && loadedContent)) return undefined
     let cancelled = false
     setLoadedContent(null)
     setLoadError(null)
@@ -1130,7 +1146,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     let shiftTap = null
 
     function canUseLectureShortcut(event) {
-      if (viewMode === 'mnemonics' || encouragement) return false
+      if (isReferenceView || encouragement) return false
       if (event.defaultPrevented || event.isComposing || event.keyCode === 229
         || event.altKey || event.ctrlKey || event.metaKey) return false
       const target = event.target instanceof Element ? event.target : null
@@ -1187,7 +1203,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   }, [activeStemIndex, encouragement, filteredGroups.length, group, isLoadingContent, showLectureEvidence, showSource, viewMode])
 
   useEffect(() => {
-    if (viewMode === 'mnemonics' || isLoadingContent || !filteredGroups.length || showSource || showLectureEvidence || mobileEvidence || encouragement) return undefined
+    if (isReferenceView || isLoadingContent || !filteredGroups.length || showSource || showLectureEvidence || mobileEvidence || encouragement) return undefined
     let sequence = ''
     let timer
 
@@ -1320,7 +1336,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     const cancel = () => { optionTap = null }
     function allowed(event) {
       const target = event.target instanceof Element ? event.target : null
-      return viewMode !== 'mnemonics' && !isLoadingContent && filteredGroups.length > 0
+      return !isReferenceView && !isLoadingContent && filteredGroups.length > 0
         && !showSource && !showLectureEvidence && !encouragement
         && !event.defaultPrevented && !event.isComposing && event.keyCode !== 229
         && !event.ctrlKey && !event.metaKey && !event.shiftKey
@@ -1430,7 +1446,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     if (typeof window !== 'undefined' && window.innerWidth > 720) setSidebarCollapsed(false)
   }
 
-  if (isLoadingContent && viewMode !== 'mnemonics') {
+  if (isLoadingContent && !isReferenceView) {
     return (
       <main className="app-loading" aria-live="polite">
         <div className="app-loading-mark"><Icon name="book" size={26} stroke="white" /></div>
@@ -1448,26 +1464,26 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   }
 
   return (
-    <div className={`app-shell ${topbarCollapsed ? 'topbar-collapsed' : ''} ${viewMode === 'mnemonics' ? 'mnemonic-mode' : ''}`}>
+    <div className={`app-shell ${topbarCollapsed ? 'topbar-collapsed' : ''} ${isReferenceView ? 'mnemonic-mode' : ''}`}>
       <div className="topbar-region">
         <header id="study-topbar" className="topbar" hidden={topbarCollapsed}>
           <div className="brand-lockup">
             <div className="brand-mark"><Icon name="book" size={23} stroke="white" /></div>
-            <div className="brand-copy"><strong>{testPaper ? testPaper.title : viewMode === 'tests' ? `${subjectConfig.label} · 补充测试` : viewMode === 'mnemonics' ? '五科口诀库' : subjectConfig.title}</strong><span>{viewMode === 'mnemonics' ? '原口诀 · 对应知识点' : subjectConfig.subtitle}</span></div>
+            <div className="brand-copy"><strong>{testPaper ? testPaper.title : viewMode === 'tests' ? `${subjectConfig.label} · 补充测试` : viewMode === 'numbers' ? '内外科 · 数字填空' : viewMode === 'mnemonics' ? '西综速记库' : subjectConfig.title}</strong><span>{isReferenceView ? '口诀 · 数字 · 对应知识点' : subjectConfig.subtitle}</span></div>
           </div>
-          <div className="study-mode-switch" aria-label="学习内容">{testPaper ? <><button onClick={onReturnToQuestions}>题库</button><button className="active" onClick={onExitTest}>全部测试</button></> : <><button className={viewMode === 'questions' ? 'active' : ''} aria-pressed={viewMode === 'questions'} onClick={() => selectView('questions')}>题库</button><button className={viewMode === 'mnemonics' ? 'active' : ''} aria-pressed={viewMode === 'mnemonics'} onClick={() => selectView('mnemonics')}>口诀</button><button className={viewMode === 'tests' ? 'active' : ''} aria-pressed={viewMode === 'tests'} onClick={() => selectView('tests')}>补充测试</button></>}</div>
-          {!testPaper && <div className="subject-switch" aria-label="选择科目">
+          <div className="study-mode-switch" aria-label="学习内容">{testPaper ? <><button onClick={onReturnToQuestions}>题库</button><button className="active" onClick={onExitTest}>全部测试</button></> : <><button className={viewMode === 'questions' ? 'active' : ''} aria-pressed={viewMode === 'questions'} onClick={() => selectView('questions')}>题库</button><button className={viewMode === 'mnemonics' ? 'active' : ''} aria-pressed={viewMode === 'mnemonics'} onClick={() => selectView('mnemonics')}>速记</button><button className={viewMode === 'numbers' ? 'active' : ''} aria-pressed={viewMode === 'numbers'} onClick={() => selectView('numbers')}>数字填空</button><button className={viewMode === 'tests' ? 'active' : ''} aria-pressed={viewMode === 'tests'} onClick={() => selectView('tests')}>补充测试</button></>}</div>
+          {!testPaper && !isNumericView && <div className="subject-switch" aria-label="选择科目">
             {viewMode === 'mnemonics' ? <><button className={mnemonicSubject === 'all' ? 'active' : ''} aria-pressed={mnemonicSubject === 'all'} onClick={() => { setMnemonicSubject('all'); setMnemonicChapter('') }}>五科</button>{Object.entries(MNEMONIC_SUBJECTS).map(([key, label]) => <button key={key} className={mnemonicSubject === key ? 'active' : ''} aria-pressed={mnemonicSubject === key} onClick={() => { setMnemonicSubject(key); setMnemonicChapter('') }}>{label}</button>)}</> : Object.entries(SUBJECTS).sort(([a], [b]) => (a === 'politics') - (b === 'politics')).map(([key, item]) => <button key={key} className={subject === key ? 'active' : ''} onClick={() => switchSubject(key)}>{item.label}</button>)}
           </div>}
-          {viewMode !== 'mnemonics' ? <div className="progress-strip">
+          {!isReferenceView ? <div className="progress-strip">
             <span>本轮进度</span><strong>{filteredGroups.length ? `${Math.min(groupIndex + 1, filteredGroups.length)} / ${filteredGroups.length} 组` : '暂无匹配题组'}</strong>
             <div className="progress-bar"><i style={{ width: `${filteredGroups.length ? ((groupIndex + 1) / filteredGroups.length) * 100 : 0}%` }} /></div>
             <span>{filteredGroups.length ? Math.round(((groupIndex + 1) / filteredGroups.length) * 100) : 0}%</span>
           </div> : null}
-          <div className="top-actions">
+          {!isNumericView && <div className="top-actions">
             <label className="search-box"><Icon name="search" size={18} /><input ref={searchInputRef} value={viewMode === 'mnemonics' ? mnemonicSearch : search} onChange={(event) => { if (viewMode === 'mnemonics') setMnemonicSearch(event.target.value); else { setSearch(event.target.value); setJumpGroupId(''); setGroupIndex(0) } }} placeholder={viewMode === 'mnemonics' ? '搜索口诀 / 疾病 / 知识点' : '搜索题目 / 关键词'} aria-label={viewMode === 'mnemonics' ? '搜索五科口诀' : '搜索题目'} />{(viewMode === 'mnemonics' ? mnemonicSearch : search) ? <button className="search-clear" aria-label="清空搜索" type="button" onClick={() => { if (viewMode === 'mnemonics') setMnemonicSearch(''); else { setSearch(''); setGroupIndex(0) } searchInputRef.current?.focus() }}>×</button> : <kbd>⌘ K</kbd>}</label>
             {viewMode === 'mnemonics' ? <label className="filter-box"><Icon name="sliders" size={17} /><select aria-label="筛选口诀章节" value={mnemonicChapter} onChange={event => setMnemonicChapter(event.target.value)}><option value="">全部章节</option>{mnemonicChapters.map(([id, title]) => <option key={id} value={id}>{title}</option>)}</select><Icon name="chevron" size={15} /></label> : <><label className="filter-box"><Icon name="sliders" size={17} /><select value={typeFilter} onChange={(event) => { setTypeFilter(event.target.value); setJumpGroupId(''); setGroupIndex(0) }}><option>全部题型</option><option>B型题</option><option>单项选择</option><option>填空题</option><option>排序题</option><option>多项选择</option><option>匹配 / 归类</option><option>判断订正</option><option>思路训练</option><option>画图与简答</option><option>复盘笔记</option><option>原题页核对</option></select><Icon name="chevron" size={15} /></label><button className="icon-button" aria-label="设置"><Icon name="settings" size={19} /></button></>}
-          </div>
+          </div>}
         </header>
         <button className="topbar-toggle" onClick={() => setTopbarCollapsed((value) => !value)} aria-controls="study-topbar study-chapter-controls" aria-expanded={!topbarCollapsed} aria-label={topbarCollapsed ? '展开顶部栏' : '收起顶部栏'} title={topbarCollapsed ? '展开顶部栏' : '收起顶部栏'}>
           <Icon name={topbarCollapsed ? 'chevron' : 'chevronUp'} size={14} />
@@ -1475,7 +1491,8 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
         </button>
       </div>
 
-      {viewMode === 'mnemonics' ? <Suspense fallback={<main className="mnemonic-library"><p role="status">正在加载口诀库…</p></main>}><MnemonicLibrary data={mnemonicData} query={mnemonicSearch} subject={mnemonicSubject} chapter={mnemonicChapter} favorites={mnemonicFavorites} onFavorite={toggleMnemonicFavorite} onNavigate={(nextSubject, nextChapter) => { setMnemonicSubject(nextSubject); setMnemonicChapter(nextChapter); setMnemonicSearch(''); window.scrollTo({ top: 0 }) }} onClear={() => { setMnemonicSearch(''); setMnemonicSubject('all'); setMnemonicChapter('') }} error={mnemonicLoadError} onRetry={() => setMnemonicLoadAttempt(value => value + 1)} /></Suspense> : <div className={`workspace ${sidebarCollapsed ? 'sidebar-collapsed' : ''} ${evidenceCollapsed ? 'evidence-collapsed' : ''}`}>
+      {viewMode === 'mnemonics' && <div className="memory-tabs" aria-label="速记内容"><button className={memoryKind === 'mnemonics' ? 'active' : ''} aria-pressed={memoryKind === 'mnemonics'} onClick={() => selectMemoryKind('mnemonics')}>口诀</button><button className={memoryKind === 'numbers' ? 'active' : ''} aria-pressed={memoryKind === 'numbers'} onClick={() => selectMemoryKind('numbers')}>数字</button></div>}
+      {isNumericView ? <Suspense fallback={<main className="mnemonic-library" role="status">正在加载讲义数字…</main>}><NumericMemory key={viewMode} mode={viewMode === 'numbers' ? 'practice' : 'read'} targetId={numericTargetId} onPractice={id => { setNumericTargetId(id || ''); selectView('numbers') }} onRead={id => { setNumericTargetId(id || ''); setMemoryKind('numbers'); selectView('mnemonics'); const url = new URL(window.location.href); url.searchParams.set('memory', 'numbers'); window.history.replaceState(null, '', url) }} /></Suspense> : viewMode === 'mnemonics' ? <Suspense fallback={<main className="mnemonic-library"><p role="status">正在加载口诀库…</p></main>}><MnemonicLibrary data={mnemonicData} query={mnemonicSearch} subject={mnemonicSubject} chapter={mnemonicChapter} favorites={mnemonicFavorites} onFavorite={toggleMnemonicFavorite} onNavigate={(nextSubject, nextChapter) => { setMnemonicSubject(nextSubject); setMnemonicChapter(nextChapter); setMnemonicSearch(''); window.scrollTo({ top: 0 }) }} onClear={() => { setMnemonicSearch(''); setMnemonicSubject('all'); setMnemonicChapter('') }} error={mnemonicLoadError} onRetry={() => setMnemonicLoadAttempt(value => value + 1)} /></Suspense> : <div className={`workspace ${sidebarCollapsed ? 'sidebar-collapsed' : ''} ${evidenceCollapsed ? 'evidence-collapsed' : ''}`}>
         <aside className="sidebar">
           <div className="sidebar-heading"><div className="sidebar-title">{subjectConfig.sectionLabel}</div><button className="sidebar-toggle" onClick={() => setSidebarCollapsed((value) => !value)} aria-label={sidebarCollapsed ? '展开章节目录' : '收起章节目录'}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={17} /></button></div>
           <nav className="topic-nav">
@@ -1560,7 +1577,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       <VisitorCount />
       {encouragement && <EncouragementDialog notice={encouragement} onDismiss={dismissEncouragement} />}
       <div className="site-watermark" aria-hidden="true">
-        {viewMode !== 'mnemonics' && showContentWatermark && <span>内容制作byBi8bo</span>}
+        {!isReferenceView && showContentWatermark && <span>内容制作byBi8bo</span>}
         <span>网站制作by戒不掉甜食</span>
       </div>
     </div>

@@ -15,6 +15,7 @@ export function studyViewUrl(href, view) {
   else url.searchParams.set('view', view)
   url.searchParams.delete('paper')
   if (view !== 'mnemonics') {
+    url.searchParams.delete('memory')
     url.searchParams.delete('q')
     url.searchParams.delete('mnemonicSubject')
   }

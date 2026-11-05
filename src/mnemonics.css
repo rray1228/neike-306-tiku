@@ -1,6 +1,10 @@
 .study-mode-switch { display: flex; flex: 0 0 auto; align-items: center; gap: 2px; padding: 3px; border: 1px solid var(--line); border-radius: 9px; background: #f5f7fb; }
 .study-mode-switch button { height: 30px; border: 0; border-radius: 6px; padding: 0 11px; background: transparent; color: #6e7d91; font-size: 12px; font-weight: 700; white-space: nowrap; }
 .study-mode-switch button.active { background: white; color: var(--blue); box-shadow: 0 2px 6px #25395214; }
+.memory-tabs { display: flex; gap: 8px; max-width: 1100px; margin: 24px auto 0; padding: 0 28px; }
+.memory-tabs button { border: 1px solid var(--line); border-radius: 7px; background: white; padding: 8px 14px; color: #718096; }
+.memory-tabs button.active { background: #edf4ff; border-color: #9bbdef; color: var(--blue); }
+@media(max-width: 720px) { .memory-tabs { padding: 0 16px; } }
 .search-box .search-clear { display: grid; place-items: center; flex: 0 0 auto; width: 20px; height: 24px; padding: 0; border: 0; background: transparent; color: #8591a4; font-size: 20px; }
 .mnemonic-mode .brand-lockup { flex-basis: 150px; max-width: 210px; }
 .mnemonic-mode .brand-copy strong { font-size: 18px; letter-spacing: -.02em; }
