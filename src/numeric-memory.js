@@ -1,3 +1,5 @@
+import { memoryTextMatches } from './mnemonic-search.js'
+
 export const NUMERIC_SUBJECTS = { surgery: '外科', med: '内科' }
 
 // Normalize typography, never discard inequality signs or reorder range ends.
@@ -62,11 +64,10 @@ export function numericProseRanges(item, start, end) {
 }
 
 export function filterNumericItems(items, { subject = 'all', chapter = '', category = '', query = '', filter = 'all', records = {} } = {}) {
-  const tokens = query.normalize('NFKC').toLowerCase().trim().split(/\s+/).filter(Boolean)
   return items.filter(item => (subject === 'all' || item.subject === subject)
     && (!chapter || `${item.subject}:${item.chapter}` === chapter)
     && (!category || item.category === category)
-    && tokens.every(token => `${item.chapter} ${item.section} ${item.text} ${item.category}`.normalize('NFKC').toLowerCase().includes(token))
+    && memoryTextMatches(`${item.chapter} ${item.section} ${item.text} ${item.category}`, query)
     && (filter !== 'favorites' || records[item.id]?.favorite)
     && (filter !== 'wrong' || records[item.id]?.result === 'wrong')
     && (filter !== 'new' || !records[item.id]?.result))

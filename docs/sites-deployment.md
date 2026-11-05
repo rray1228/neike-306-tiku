@@ -15,6 +15,8 @@
   base. The Sites build deliberately does not copy `public/` into `dist`, while
   local development and the GitHub Pages build continue to use the same source
   images from `public/`.
+- Numeric-memory pages under `shared/numeric-memory/` ship with the Site and
+  use its own origin. Existing images keep their current CDN addresses.
 
 Never create an orphan commit, initialize a temporary repository, replay a
 patch on a snapshot, or force-push a generated tree during normal deployment.
@@ -55,3 +57,15 @@ The check intentionally fails when either remote ref was not fetched, the two
 histories have no merge base, the local source is not exactly `origin/main`, or
 the Sites source branch cannot fast-forward. Resolve the source-history problem
 instead of bypassing the check.
+
+## Explicit Site release while GitHub writes are unavailable
+
+When the user explicitly requests a public release and GitHub cannot accept
+writes, local `main` may be released first to the user-owned Sites source
+repository. Preserve the same history: local `main` must descend from both
+the last fetched `origin/main` and the fetched Sites source head. Validate the
+clean release worktree against that local `main` with
+`CANONICAL_REF=main bash scripts/check-deployment-history.sh`, then use only a
+normal fast-forward Sites push and publish its exact commit and built archive.
+Record GitHub synchronization as pending; later push the same commits normally.
+This does not authorize a GitHub write through another account or any force push.

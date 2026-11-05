@@ -30,6 +30,8 @@ pnpm run dev --host 0.0.0.0 --port 4173
 `src/data/numeric-memory-data.json`，支持科目、章节、类别、多关键词搜索，
 以及收藏、错题重练和未作答筛选。作答、收藏和错题保存在当前浏览器，暂不跨设备同步。
 可在一条知识点的完整展示与对应填空之间跳转。
+口诀、数字速记和数字填空共用顶部搜索框，切换入口保留搜索词；命中的标题、正文、数字与表格内容统一标红。
+数字范围支持 `6-8`、`6–8`、`6～8` 等写法，搜索范围时不会将其误合并为 `68`。
 
 直接入口：`/?view=numbers`、`/?view=mnemonics&memory=numbers`。
 范围接受 `-`、`～`、`至` 等写法；单位和比较符号保留在题干中。
@@ -55,7 +57,7 @@ pnpm run dev --host 0.0.0.0 --port 4173
 
 ### 原有口诀库说明
 
-在顶栏选择“口诀”，复用原搜索框查找口诀、疾病或知识点；首页按科目、系统／章节展示目录。搜索区分口诀名称与知识点，名称直接命中优先；卡片仅展示经过精简的对应关系及必要条件，支持当前浏览器收藏。
+在顶栏选择“速记 → 口诀”，使用共用搜索框查找口诀、疾病或知识点；首页按科目、系统／章节展示目录。搜索区分口诀名称与知识点，名称直接命中优先；卡片仅展示经过精简的对应关系及必要条件，支持当前浏览器收藏。
 直接入口：`/?view=mnemonics`。可附加 `q` 和 `mnemonicSubject` 参数。
 
 数据来自五科现有 Notion 口诀文档，原始 2557 条，经明确重复合并及无效边注清理后为 2363 条；跨科重复保留多个分类入口，搜索只呈现一条。来源标识、合并记录和各科条数保存在 `src/data/mnemonics-data.json`。更新时将五页正文导出为 `mnemonic-source-{subject}.md`，再运行 `python3 scripts/import_mnemonics.py <导出目录>`；去重及排除清单保存在 `src/data/mnemonic-consolidation.json`；逐条修订保存在 `src/data/mnemonic-curation.json`，导入会调用 `scripts/curate_mnemonics.py`。搜索和导入完整性校验：`node --test tests/mnemonics.test.mjs`。

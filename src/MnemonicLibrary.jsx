@@ -1,11 +1,9 @@
+import Highlight from './SearchHighlight.jsx'
 import { memo, useDeferredValue, useEffect, useMemo, useState } from 'react'
-import { blockText, highlightParts, indexMnemonics, mnemonicDirectory, MNEMONIC_SUBJECTS, previewBlocks, searchMnemonics } from './mnemonic-search.js'
+import { blockText, indexMnemonics, mnemonicDirectory, MNEMONIC_SUBJECTS, previewBlocks, searchMnemonics } from './mnemonic-search.js'
 
 const PAGE_SIZE = 40
 
-function Highlight({ text, query }) {
-  return highlightParts(text, query).map((part, index) => part.match ? <mark key={index}>{part.text}</mark> : part.text)
-}
 
 function KnowledgeBlock({ block, query }) {
   const text = blockText(block)
@@ -21,7 +19,7 @@ const MnemonicCard = memo(function MnemonicCard({ item, query, favorite, onFavor
   return <article className="mnemonic-card" aria-labelledby={`mnemonic-${item.id}`}>
     <div className="mnemonic-card-heading">
       <div className="mnemonic-card-title">
-        <div className="mnemonic-meta">{[...new Set([item.subject, ...(item.locations || []).map(location => location.subject)])].map(subject => <span key={subject} className={`mnemonic-subject mnemonic-subject-${subject}`}>{MNEMONIC_SUBJECTS[subject]}</span>)}<span>{item.section || item.chapter}</span><span className="mnemonic-number">{String(item.number).padStart(3, '0')}</span></div>
+        <div className="mnemonic-meta">{[...new Set([item.subject, ...(item.locations || []).map(location => location.subject)])].map(subject => <span key={subject} className={`mnemonic-subject mnemonic-subject-${subject}`}>{MNEMONIC_SUBJECTS[subject]}</span>)}<span><Highlight text={item.section || item.chapter} query={query} /></span><span className="mnemonic-number">{String(item.number).padStart(3, '0')}</span></div>
         <h3 id={`mnemonic-${item.id}`}><Highlight text={item.title} query={query} /></h3>
         {item.scope ? <p className="mnemonic-scope"><Highlight text={item.scope} query={query} /></p> : null}
       </div>

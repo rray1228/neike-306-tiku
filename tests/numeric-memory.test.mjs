@@ -3,6 +3,7 @@ import assert from 'node:assert/strict'
 import { readFileSync, existsSync } from 'node:fs'
 import { numericAnswerCorrect, numericParts, numericRows, numericRangeParts, numericProseRanges, filterNumericItems } from '../src/numeric-memory.js'
 import { studyViewUrl } from '../src/supplement-tests.js'
+import { highlightParts, memoryTextMatches, indexMnemonics, searchMnemonics } from '../src/mnemonic-search.js'
 
 const data = JSON.parse(readFileSync(new URL('../src/data/numeric-memory-data.json', import.meta.url)))
 
@@ -39,6 +40,21 @@ test('answer normalization accepts range typography and equivalent decimals, pre
   for (const value of ['', '3-2', '23', '2', '>2-3', '2-3天']) assert.ok(!numericAnswerCorrect(value, '2-3'))
   assert.ok(numericAnswerCorrect('0.50', '0.5'))
   assert.ok(numericAnswerCorrect('140 / 90', '140/90'))
+})
+
+test('shared search accepts range typography without merging numbers and highlights only actual matches', () => {
+  for (const query of ['6-8','6–8','６～８','6 - 8']) {
+    assert.ok(memoryTextMatches('术后 6-8 周复查',query))
+    for (const text of ['68周','16-8周','6-80周']) assert.ok(!memoryTextMatches(text,query),`${text} / ${query}`)
+    const parts=highlightParts('6-8周，另有68周和16-8周',query)
+    assert.deepEqual(parts.filter(p=>p.match).map(p=>p.text),['6-8'])
+  }
+  assert.ok(memoryTextMatches('术后 6-8 周复查','术后 6～8'))
+  const indexed=indexMnemonics(['6-8周','68周','16-8周'].map((text,n)=>({id:String(n),title:text,subject:'med',chapter:'测试',blocks:[{kind:'fact',parts:[{text}]}]})))
+  assert.deepEqual(searchMnemonics(indexed,{query:'6–8'}).map(i=>i.id),['0'])
+  const a=filterNumericItems(data.items,{query:'6-8'}).map(i=>i.id)
+  assert.ok(a.length)
+  assert.deepEqual(filterNumericItems(data.items,{query:'6–8'}).map(i=>i.id),a)
 })
 
 test('keyboard rows preserve the complete fact and original blank indices across line breaks', () => {

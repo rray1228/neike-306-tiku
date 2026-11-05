@@ -18,6 +18,16 @@ const hasMathTerm = (text, term) => {
 }
 
 export const queryWords = (query) => query.trim().split(/\s+/u).map(normalizeMnemonicText).filter(Boolean)
+export const normalizeMemorySearchText = text => text.normalize('NFKC').toLowerCase().replace(/[–—～~－]/g, '-').replace(/\s+/g, '')
+export const memoryQueryWords = query => query.normalize('NFKC').replace(/(\d)\s*[-–—～~－]\s*(?=\d)/g, '$1-').trim().split(/\s+/u).filter(Boolean)
+const rangeTerms = query => [...query.normalize('NFKC').matchAll(/\d+(?:\.\d+)?\s*[-–—～~－]\s*\d+(?:\.\d+)?/g)].map(match => normalizeMemorySearchText(match[0]))
+export function memoryTextMatches(text, query) {
+  const normalized = normalizeMemorySearchText(text)
+  return memoryQueryWords(query).every(word => {
+    const token = normalizeMemorySearchText(word)
+    return rangeTerms(word).length ? hasMathTerm(normalized, token) : normalized.includes(token)
+  })
+}
 
 export function indexMnemonics(items) {
   return items.map(item => ({ ...item,
@@ -32,6 +42,7 @@ export function indexMnemonics(items) {
 export function searchMnemonics(items, { query = '', subject = 'all', chapter = '', favoritesOnly = false, favorites = [], matchMode = 'auto' } = {}) {
   const words = queryWords(query)
   const formulas = mathTerms(query)
+  const ranges = rangeTerms(query)
   const favoriteIds = new Set(favorites)
   const matches = []
   for (const item of items) {
@@ -40,6 +51,10 @@ export function searchMnemonics(items, { query = '', subject = 'all', chapter = 
     if (favoritesOnly && !favoriteIds.has(item.id) && !(item.alternateIds || []).some(id => favoriteIds.has(id))) continue
     const combined = matchMode === 'title' ? item.searchTitle : matchMode === 'knowledge' ? item.searchContext + item.searchBody : item.searchTitle + item.searchContext + item.searchBody
     if (!words.every(word => combined.includes(word))) continue
+    if (ranges.length) {
+      const text = matchMode === 'title' ? item.mathTitle : matchMode === 'knowledge' ? item.mathBody : item.mathTitle + ' ' + item.mathBody
+      if (!ranges.every(term => hasMathTerm(normalizeMemorySearchText(text), term))) continue
+    }
     if (formulas.length) {
       const math = matchMode === 'title' ? item.mathTitle : matchMode === 'knowledge' ? item.mathBody : item.mathTitle + ' ' + item.mathBody
       if (!formulas.every(term => hasMathTerm(math, term))) continue
@@ -65,22 +80,26 @@ export function previewBlocks(item, query) {
 }
 
 export function highlightParts(text, query) {
-  const targets = queryWords(query)
+  const targets = memoryQueryWords(query).map(word => ({ word, range: rangeTerms(word).length > 0 }))
   if (!targets.length) return [{ text, match: false }]
   const characters = Array.from(text)
-  let normalized = ''
-  const positions = []
-  characters.forEach((character, index) => {
-    const part = normalizeMnemonicText(character)
-    normalized += part
-    for (let offset = 0; offset < part.length; offset++) positions.push(index)
-  })
   const marked = new Set()
-  for (const target of targets) {
+  for (const { word, range } of targets) {
+    const normalize = range ? normalizeMemorySearchText : normalizeMnemonicText
+    const target = normalize(word)
+    if (!target) continue
+    let normalized = ''
+    const positions = []
+    characters.forEach((character,index) => {
+      const part = normalize(character)
+      normalized += part
+      for (let offset=0;offset<part.length;offset++) positions.push(index)
+    })
     let from = 0
     while (from < normalized.length) {
       const at = normalized.indexOf(target, from)
       if (at < 0) break
+      if (range && ((/^\d/.test(target) && /[\d.]/.test(normalized[at-1] || '')) || (/\d$/.test(target) && /[\d.]/.test(normalized[at+target.length] || '')))) { from = at + target.length; continue }
       for (let i = positions[at]; i <= positions[at + target.length - 1]; i++) marked.add(i)
       from = at + target.length
     }

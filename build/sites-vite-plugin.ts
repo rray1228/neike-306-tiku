@@ -34,6 +34,16 @@ export function sites(): Plugin {
           await cp(resolve(root, "public", page.image), target);
         }
       }
+      // New numeric-memory source pages travel with the Site release, so a
+      // separate GitHub Pages publication is not required to display them.
+      const numeric = JSON.parse(await readFile(resolve(root, "src", "data", "numeric-memory-data.json"), "utf8"));
+      const numericImages = new Set<string>(numeric.items.flatMap((item: { source: { images: string[] } }) => item.source.images).filter((image: string) => image.startsWith("shared/numeric-memory/")));
+      await rm(resolve(root, "dist", "client", "shared", "numeric-memory"), { recursive: true, force: true });
+      for (const image of numericImages) {
+        const target = resolve(root, "dist", "client", image);
+        await mkdir(dirname(target), { recursive: true });
+        await cp(resolve(root, "public", image), target);
+      }
       const drizzleSource = resolve(root, "drizzle");
       await rm(outputDirectory, { recursive: true, force: true });
       await mkdir(outputDirectory, { recursive: true });
