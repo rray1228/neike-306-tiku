@@ -14,7 +14,7 @@ import { combineSharedClinicalCases, migrateSharedClinicalCases } from './shared
 import { chapterLectureIds, organizeChapterPractice, originalQuestionsFirst } from './chapter-practice.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
 import { fillNavigationTarget } from './fill-navigation.js'
-import { EncouragementDialog, usePracticeEncouragement, VisitorCount } from './StudySupport.jsx'
+import { EncouragementDialog, PracticeSettingsDialog, usePracticeEncouragement, VisitorCount } from './StudySupport.jsx'
 import { groupHasResponses } from './study-milestones.js'
 
 const NumericMemory = lazy(() => import('./NumericMemory.jsx'))
@@ -790,14 +790,15 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   const [showSource, setShowSource] = useState(false)
   const [showLectureEvidence, setShowLectureEvidence] = useState(false)
   const [showNote, setShowNote] = useState(false)
+  const [showPracticeSettings, setShowPracticeSettings] = useState(false)
   const [mobileEvidence, setMobileEvidence] = useState(false)
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false)
   const [evidenceCollapsed, setEvidenceCollapsed] = useState(false)
   const [topbarCollapsed, setTopbarCollapsed] = useState(false)
   const [keyboardStem, setKeyboardStem] = useState(null)
-  const { notice: encouragement, recordCompletion, dismiss: dismissEncouragement } = usePracticeEncouragement(
+  const { notice: encouragement, recordCompletion, dismiss: dismissEncouragement, popupsEnabled, setPopupsEnabled } = usePracticeEncouragement(
     storageReady && !isReferenceView && !isLoadingContent,
-    Boolean(showSource || showLectureEvidence || mobileEvidence),
+    Boolean(showSource || showLectureEvidence || mobileEvidence || showPracticeSettings),
   )
   const questionCardRef = useRef(null)
   const pendingOptionRef = useRef(null)
@@ -865,6 +866,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
 
   useEffect(() => {
     function focusSearch(event) {
+      if (showPracticeSettings) return
       if ((event.metaKey || event.ctrlKey) && !event.altKey && !event.isComposing && event.key.toLowerCase() === 'k') {
         event.preventDefault()
         setTopbarCollapsed(false)
@@ -873,7 +875,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     }
     window.addEventListener('keydown', focusSearch)
     return () => window.removeEventListener('keydown', focusSearch)
-  }, [])
+  }, [showPracticeSettings])
 
   useEffect(() => {
     if (!isReferenceView) return
@@ -1156,6 +1158,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     let shiftTap = null
 
     function canUseLectureShortcut(event) {
+      if (showPracticeSettings) return false
       if (isReferenceView || encouragement) return false
       if (event.defaultPrevented || event.isComposing || event.keyCode === 229
         || event.altKey || event.ctrlKey || event.metaKey) return false
@@ -1210,10 +1213,10 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       window.removeEventListener('blur', cancelShiftTap)
       window.removeEventListener('pointerdown', cancelShiftTap, true)
     }
-  }, [activeStemIndex, encouragement, filteredGroups.length, group, isLoadingContent, showLectureEvidence, showSource, viewMode])
+  }, [activeStemIndex, encouragement, filteredGroups.length, group, isLoadingContent, showLectureEvidence, showPracticeSettings, showSource, viewMode])
 
   useEffect(() => {
-    if (isReferenceView || isLoadingContent || !filteredGroups.length || showSource || showLectureEvidence || mobileEvidence || encouragement) return undefined
+    if (isReferenceView || isLoadingContent || !filteredGroups.length || showSource || showLectureEvidence || mobileEvidence || encouragement || showPracticeSettings) return undefined
     let sequence = ''
     let timer
 
@@ -1326,7 +1329,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       window.removeEventListener('blur', clearSequence)
       clearSequence()
     }
-  }, [activeStemIndex, answerStorageId, encouragement, filteredGroups.length, flushPendingOption, goTo, isLoadingContent, isSubmitted, mobileEvidence, redoGroup, showLectureEvidence, showSource, submitGroup, viewMode])
+  }, [activeStemIndex, answerStorageId, encouragement, filteredGroups.length, flushPendingOption, goTo, isLoadingContent, isSubmitted, mobileEvidence, redoGroup, showLectureEvidence, showPracticeSettings, showSource, submitGroup, viewMode])
 
   function jumpTo(index) {
     if (!filteredGroups.length) return
@@ -1347,7 +1350,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     function allowed(event) {
       const target = event.target instanceof Element ? event.target : null
       return !isReferenceView && !isLoadingContent && filteredGroups.length > 0
-        && !showSource && !showLectureEvidence && !encouragement
+        && !showSource && !showLectureEvidence && !encouragement && !showPracticeSettings
         && !event.defaultPrevented && !event.isComposing && event.keyCode !== 229
         && !event.ctrlKey && !event.metaKey && !event.shiftKey
         && !event.getModifierState?.('AltGraph')
@@ -1377,7 +1380,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       window.removeEventListener('blur', cancel)
       window.removeEventListener('pointerdown', cancel, true)
     }
-  }, [encouragement, filteredGroups.length, groupStorageId, isLoadingContent, showLectureEvidence, showSource, viewMode])
+  }, [encouragement, filteredGroups.length, groupStorageId, isLoadingContent, showLectureEvidence, showPracticeSettings, showSource, viewMode])
 
   function toggleFavoriteNotebook() {
     setFavoritesOnly((value) => !value)
@@ -1492,7 +1495,8 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
           </div> : null}
           <div className="top-actions">
             <label className="search-box"><Icon name="search" size={18} /><input ref={searchInputRef} value={isReferenceView ? mnemonicSearch : search} onChange={(event) => { if (isReferenceView) setMnemonicSearch(event.target.value); else { setSearch(event.target.value); setJumpGroupId(''); setGroupIndex(0) } }} placeholder={isReferenceView ? '搜索口诀 / 数字 / 疾病 / 知识点' : '搜索题目 / 关键词'} aria-label={isReferenceView ? '搜索速记与数字' : '搜索题目'} />{(isReferenceView ? mnemonicSearch : search) ? <button className="search-clear" aria-label="清空搜索" type="button" onClick={() => { if (isReferenceView) setMnemonicSearch(''); else { setSearch(''); setGroupIndex(0) } searchInputRef.current?.focus() }}>×</button> : <kbd>⌘ K</kbd>}</label>
-            {!isNumericView && (viewMode === 'mnemonics' ? <label className="filter-box"><Icon name="sliders" size={17} /><select aria-label="筛选口诀章节" value={mnemonicChapter} onChange={event => setMnemonicChapter(event.target.value)}><option value="">全部章节</option>{mnemonicChapters.map(([id, title]) => <option key={id} value={id}>{title}</option>)}</select><Icon name="chevron" size={15} /></label> : <><label className="filter-box"><Icon name="sliders" size={17} /><select value={typeFilter} onChange={(event) => { setTypeFilter(event.target.value); setJumpGroupId(''); setGroupIndex(0) }}><option>全部题型</option><option>B型题</option><option>单项选择</option><option>填空题</option><option>排序题</option><option>多项选择</option><option>匹配 / 归类</option><option>判断订正</option><option>思路训练</option><option>画图与简答</option><option>复盘笔记</option><option>原题页核对</option></select><Icon name="chevron" size={15} /></label><button className="icon-button" aria-label="设置"><Icon name="settings" size={19} /></button></>)}
+            {!isNumericView && (viewMode === 'mnemonics' ? <label className="filter-box"><Icon name="sliders" size={17} /><select aria-label="筛选口诀章节" value={mnemonicChapter} onChange={event => setMnemonicChapter(event.target.value)}><option value="">全部章节</option>{mnemonicChapters.map(([id, title]) => <option key={id} value={id}>{title}</option>)}</select><Icon name="chevron" size={15} /></label> : <><label className="filter-box"><Icon name="sliders" size={17} /><select value={typeFilter} onChange={(event) => { setTypeFilter(event.target.value); setJumpGroupId(''); setGroupIndex(0) }}><option>全部题型</option><option>B型题</option><option>单项选择</option><option>填空题</option><option>排序题</option><option>多项选择</option><option>匹配 / 归类</option><option>判断订正</option><option>思路训练</option><option>画图与简答</option><option>复盘笔记</option><option>原题页核对</option></select><Icon name="chevron" size={15} /></label></>)}
+            <button type="button" className="icon-button practice-settings-trigger" aria-label="设置" title="学习设置" aria-haspopup="dialog" onClick={() => setShowPracticeSettings(true)}><Icon name="settings" size={19} /></button>
           </div>
         </header>
         <button className="topbar-toggle" onClick={() => setTopbarCollapsed((value) => !value)} aria-controls="study-topbar study-chapter-controls" aria-expanded={!topbarCollapsed} aria-label={topbarCollapsed ? '展开顶部栏' : '收起顶部栏'} title={topbarCollapsed ? '展开顶部栏' : '收起顶部栏'}>
@@ -1585,6 +1589,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       {showSource && currentPage && <SourceModal group={group} page={currentPage} pages={content.pages} sourceName={group.sourceName || subjectConfig.sourceName} onClose={() => setShowSource(false)} />}
       {showLectureEvidence && <LectureEvidenceModal notice={group.lectureEvidenceNotice} pages={group.lectureEvidencePages} evidence={typeof showLectureEvidence === 'object' ? showLectureEvidence : group.lectureEvidence} onClose={() => setShowLectureEvidence(false)} />}
       <VisitorCount />
+      {showPracticeSettings && <PracticeSettingsDialog enabled={popupsEnabled} onChange={setPopupsEnabled} onClose={() => setShowPracticeSettings(false)} />}
       {encouragement && <EncouragementDialog notice={encouragement} onDismiss={dismissEncouragement} />}
       <div className="site-watermark" aria-hidden="true">
         {!isReferenceView && showContentWatermark && <span>内容制作byBi8bo</span>}

@@ -1,14 +1,17 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { advancePractice, completePracticeGroup, HALF_HOUR, newPractice, restorePractice, takePracticeNotice } from './study-milestones.js'
+import { advancePractice, completePracticeGroup, HALF_HOUR, newPractice, NOTICE_GROUP_INTERVAL, NOTICE_TIME_INTERVAL, restorePractice, takePracticeNotice } from './study-milestones.js'
 import { drawEncouragement } from './encouragements.js'
 import { countVisitors, readVisitorCache, writeVisitorCache, visitorDay, LEGACY_VISITOR_CACHE_KEY, VISITOR_START } from './visitor-counts.js'
 
 const SESSION_KEY = 'study-practice-session-v1'
 const MESSAGE_KEY = 'study-encouragement-deck-v3'
+const ENABLED_KEY = 'study-encouragement-enabled-v1'
 
 export function usePracticeEncouragement(enabled, blocked) {
   const session = useRef(null)
   const [notice, setNotice] = useState(null)
+  const [preference, setPreference] = useState(null)
+  const active = enabled && preference === true
   const noticeRef = useRef(null)
   const initialized = useRef(false)
   const messageDeck = useRef(null)
@@ -16,11 +19,22 @@ export function usePracticeEncouragement(enabled, blocked) {
     try { sessionStorage.setItem(SESSION_KEY, JSON.stringify(session.current)) } catch { /* Practice still works without storage. */ }
   }, [])
   useEffect(() => {
+    try { setPreference(localStorage.getItem(ENABLED_KEY) !== 'off') } catch { setPreference(true) }
+  }, [])
+  const setPopupsEnabled = useCallback(next => {
+    setPreference(next)
+    try { localStorage.setItem(ENABLED_KEY, next ? 'on' : 'off') } catch { /* Preference still applies to this page. */ }
+    if (!next) {
+      noticeRef.current = null
+      setNotice(null)
+    }
+  }, [])
+  useEffect(() => {
     if (!initialized.current) {
       try { session.current = restorePractice(sessionStorage.getItem(SESSION_KEY), Date.now()) } catch { session.current = newPractice(Date.now()) }
       initialized.current = true
     }
-    if (!enabled) return undefined
+    if (!active) return undefined
     let previousTick = Date.now()
     let wasVisible = document.visibilityState === 'visible' && document.hasFocus()
     function interact(event) {
@@ -70,12 +84,12 @@ export function usePracticeEncouragement(enabled, blocked) {
       window.removeEventListener('focus', tick)
       save()
     }
-  }, [enabled, blocked, save])
+  }, [active, blocked, save])
   const recordCompletion = useCallback(id => {
-    if (!session.current) return
+    if (!active || !session.current) return
     session.current = completePracticeGroup(session.current, id, Date.now())
     save()
-  }, [save])
+  }, [active, save])
   const dismiss = useCallback((pause = false) => {
     session.current.paused = pause
     session.current.lastInteractionAt = Date.now()
@@ -83,7 +97,28 @@ export function usePracticeEncouragement(enabled, blocked) {
     setNotice(null)
     save()
   }, [save])
-  return { notice, recordCompletion, dismiss }
+  return { notice, recordCompletion, dismiss, popupsEnabled: preference !== false, setPopupsEnabled }
+}
+
+export function PracticeSettingsDialog({ enabled, onChange, onClose }) {
+  const dialog = useRef(null)
+  useEffect(() => {
+    const node = dialog.current
+    const previous = document.activeElement
+    node.showModal()
+    return () => {
+      if (node.open) node.close()
+      if (previous?.isConnected) previous.focus({ preventScroll: true })
+    }
+  }, [])
+  return <dialog ref={dialog} className="practice-settings-dialog" aria-labelledby="practice-settings-title" onCancel={event => { event.preventDefault(); onClose() }}>
+    <h2 id="practice-settings-title">学习设置</h2>
+    <label className="practice-settings-row">
+      <span><strong>学习鼓励弹窗</strong><small id="practice-settings-description">开启后，每完成 {NOTICE_GROUP_INTERVAL} 个题组，或累计有效学习 {NOTICE_TIME_INTERVAL / 60000} 分钟，弹出一句鼓励。</small></span>
+      <input type="checkbox" role="switch" aria-label="学习鼓励弹窗" aria-describedby="practice-settings-description" checked={enabled} onChange={event => onChange(event.target.checked)} />
+    </label>
+    <div className="encouragement-actions"><button type="button" className="primary-button" onClick={onClose}>完成</button></div>
+  </dialog>
 }
 
 export function EncouragementDialog({ notice, onDismiss }) {
