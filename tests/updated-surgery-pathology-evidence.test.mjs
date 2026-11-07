@@ -17,7 +17,7 @@ const surgeryReview = read('surgery-updated-lecture-evidence')
 const pathologyReview = read('pathology-reviewed-lecture-evidence')
 const strip = ({ lectureEvidence, lectureEvidencePages, lectureEvidenceNotice, ...rest }) => ({ ...rest, ...(rest.stems ? { stems: rest.stems.map(strip) } : {}) })
 for (const [subject, groups, review, count, stems] of [
-  ['surgery', surgery, surgeryReview, 485, 1484],
+  ['surgery', surgery, surgeryReview, 485, 1483],
   ['pathology', pathology, pathologyReview, 218, 456],
 ]) {
   test(`${subject}: every loaded group and stem has reviewed evidence without changing questions or saved-answer keys`, () => {

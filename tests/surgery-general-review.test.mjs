@@ -13,7 +13,7 @@ const sourceAnswer = (group, stem) => stem.answer.map(key => group.options.find(
 
 test('all general-surgery pools have valid answers and no repeated or self-answering correct options', () => {
   assert.equal(groups.length, 93)
-  assert.equal(groups.reduce((count, group) => count + group.stems.length, 0), 400)
+  assert.equal(groups.reduce((count, group) => count + group.stems.length, 0), 399)
   for (const group of groups) {
     const labels = group.options.map(option => option.label)
     assert.equal(new Set(labels).size, labels.length, group.id)
@@ -32,6 +32,20 @@ test('all general-surgery pools have valid answers and no repeated or self-answe
       for (const accepted of stem.acceptedAnswers || []) assert.equal(accepted.length, stem.answer.length, group.id)
     }
   }
+})
+
+test('frozen plasma and cryoprecipitate share one question but retain distinct indications', () => {
+  const group = get('surgery-general-core-t04')
+  assert.equal(group.stems.length, 5)
+  const stem = group.stems[4]
+  assert.equal(stem.text, '冰冻血浆或冷沉淀的适用情形')
+  assert.equal(stem.answerMode, '多选')
+  assert.deepEqual([...stem.answer].sort(), ['C', 'E', 'J'])
+  assert.deepEqual(stem.answer.map(key => group.options.find(option => option.key === key).label), [
+    '纤维蛋白原缺乏症', '甲型血友病', '肝疾病伴凝血障碍',
+  ])
+  assert.match(stem.explanation, /肝疾病伴凝血障碍对应冰冻血浆；纤维蛋白原缺乏症、甲型血友病列在冷沉淀下/)
+  assert.equal(group.answerRevision, 'transfusion-plasma-cryo-combined-20261107')
 })
 
 test('decimals remain decimals, while genuine ranges retain separate endpoints', () => {

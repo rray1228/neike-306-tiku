@@ -14,7 +14,7 @@ const byId = new Map(groups.map((group) => [group.id, group]))
 assert.deepEqual(content.topics, ['外科总论'])
 assert.equal(groups.length, 29)
 assert.equal(byId.size, 29)
-assert.equal(groups.reduce((sum, group) => sum + group.stems.length, 0), 123)
+assert.equal(groups.reduce((sum, group) => sum + group.stems.length, 0), 122)
 assert.equal(groups.reduce((sum, group) => sum + group.options.length, 0), 245)
 assert.equal(groups.filter((group) => group.kind === 'B').length, 25)
 assert.equal(groups.filter((group) => group.kind === 'FILL').length, 4)
@@ -23,7 +23,7 @@ const expectedChoiceAnswers = {
   'surgery-general-core-t01': ['GJ', 'DFHI', 'BC', 'A', 'E', 'K'],
   'surgery-general-core-t02': ['DH', 'G', 'ABFI', 'E'],
   'surgery-general-core-t03': ['D', 'A', 'C', 'B'],
-  'surgery-general-core-t04': ['G', 'BHJK', 'ABDFJ', 'AI', 'L', 'CE'],
+  'surgery-general-core-t04': ['G', 'BHJK', 'ABDFJ', 'AI', 'CEL'],
   'surgery-general-core-f01': ['BEFJN', 'DHMOS', 'AEGIKLQ', 'CPR'],
   'surgery-general-core-f02': ['ABCFKLNPQV', 'DEGHIJMORSTUW'],
   'surgery-general-core-f03a': ['AEFHJ', 'BCDGI'],
@@ -130,4 +130,4 @@ assert.deepEqual(groups.filter((group) => group.id.startsWith('surgery-general-c
   'surgery-general-core-b04a', 'surgery-general-core-b04b', 'surgery-general-core-b04c',
 ])
 
-console.log({ groups: 29, stems: 123, options: 245, choice: 25, fill: 4, lecturePages: 12, status: 'ok' })
+console.log({ groups: 29, stems: 122, options: 245, choice: 25, fill: 4, lecturePages: 12, status: 'ok' })
