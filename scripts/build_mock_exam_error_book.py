@@ -135,6 +135,10 @@ def extract_exam(source: Path) -> tuple[dict[int, dict], dict[int, str]]:
     for m in re.finditer(r"\((\d+)-(\d+)\s*题共用题干\)(.*?)(?=\n\s*\1\.)", raw, re.S):
         start, end = int(m.group(1)), int(m.group(2))
         stem = normalize(m.group(3))
+        if (start, end) == (103, 105):
+            # PDF text extraction moves the T₉ subscript into the adjacent words.
+            stem = stem.replace("T 压痛，叩痛明 9 显", "T₉压痛，叩痛明显")
+            stem = stem.replace("T 椎弓根 9 及", "T₉椎弓根及")
         for q in range(start, end + 1):
             shared[q] = stem
 
@@ -158,6 +162,9 @@ def extract_exam(source: Path) -> tuple[dict[int, dict], dict[int, str]]:
         for j, om in enumerate(markers[:4]):
             oend = markers[j + 1].start() if j + 1 < 4 else len(block)
             opts[om.group(1)] = normalize(block[om.end():oend])
+        if q == 103:
+            opts = {key: re.sub(r"^T (肿瘤|结核|转移瘤|骨髓炎) 9$", r"T₉\1", label)
+                    for key, label in opts.items()}
         questions[q] = {"stem": stem, "sharedStem": shared.get(q), "options": opts}
 
     for q, (option_text, stem) in B_OVERRIDES.items():

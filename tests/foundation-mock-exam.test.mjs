@@ -38,6 +38,17 @@ test('shared clinical vignettes are separated from subquestions without parser d
   assert.doesNotMatch(question81.text, /间歇性乏力、腹胀/)
 })
 
+test('questions 103–105 keep the T₉ level intact in the shared stem and options', () => {
+  const [q103, q104, q105] = [103, 104, 105].map(number =>
+    groups.find(group => Number(group.sourceQuestion) === number))
+  assert.deepEqual(q103.options.map(option => option.label), ['T₉肿瘤', 'T₉结核', 'T₉转移瘤', 'T₉骨髓炎'])
+  const stems = [q103, q104, q105].map(group => group.stems[0])
+  assert.equal(new Set(stems.map(stem => stem.sharedText)).size, 1)
+  assert.match(stems[0].sharedText, /T₉压痛，叩痛明显/)
+  assert.match(stems[0].sharedText, /T₉椎弓根及椎体后缘/)
+  assert.deepEqual(stems.map(stem => stem.answer), [['C'], ['D'], ['C']])
+})
+
 test('rewritten explanations and lecture evidence remain tied to the tested point', () => {
   const question51 = groups.find(group => group.sourceQuestion === '51')
   assert.match(question51.stems[0].explanation, /机械性肠梗阻/)

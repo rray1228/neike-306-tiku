@@ -15,10 +15,10 @@ test('both papers retain every original question, option, answer and study-recor
       answerRaw: s.answerRaw, answerMode: s.answerMode, answerState: s.answerState, number: s.number })),
   }))
   assert.equal(rows.length, 330)
-  // The only option change from the reviewed baseline is the removal of the
-  // exam's closing note from foundation question 165, option D.
+  // Reviewed text corrections: foundation questions 103–105 restore the T₉
+  // subscripts; question 165 option D excludes the exam's closing note.
   assert.equal(createHash('sha256').update(JSON.stringify(rows)).digest('hex'),
-    'bf98f6be93cb920c242cb136119f35432a0891aeb53d544380c0dcb7fd569743')
+    '21b845d7da24a4dc4b57a9f7cc4fcc1afd1dd5acf1e258b79907c94b8eef9cae')
 })
 
 test('every question has reviewed, specific notes instead of OCR paragraph templates', () => {
