@@ -17,6 +17,17 @@ test('foundation mock contains exactly 165 complete, unique questions', () => {
   }
 })
 
+test('the final question has no closing note in its options and keeps its original key', () => {
+  const finalQuestion = groups.find(group => group.sourceQuestion === '165')
+  assert.deepEqual(finalQuestion.options.map(({ key, label }) => [key, label]), [
+    ['A', '髋臼发育不良'],
+    ['B', '股骨颈前倾角增大'],
+    ['C', '关节韧带松弛症'],
+    ['D', '股骨头发育不良'],
+  ])
+  assert.deepEqual(finalQuestion.stems[0].answer, ['A', 'C'])
+})
+
 test('shared clinical vignettes are separated from subquestions without parser debris', () => {
   assert.equal(groups.filter(group => group.stems[0].sharedText).length, 40)
   const debris = /\[共用题干\]|\[\d+题\]|题共用题干|ttsx|\d{4}N\d+|真题解析[·・]/

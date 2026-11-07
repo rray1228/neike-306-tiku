@@ -146,6 +146,9 @@ def extract_exam(source: Path) -> tuple[dict[int, dict], dict[int, str]]:
             continue
         end = starts[i + 1].start() if i + 1 < len(starts) else len(raw)
         block = raw[match.end():end]
+        if q == 165:
+            # The closing note follows the final option, not another question.
+            block = re.split(r"恭喜同学们\s*完成本套试卷", block, maxsplit=1)[0]
         block = re.split(r"\(\d+-\d+\s*题共用题干\)", block)[0]
         markers = list(re.finditer(r"(?m)^\s*([ABCD])\.", block))
         if len(markers) < 4:
