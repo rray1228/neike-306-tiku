@@ -1,5 +1,13 @@
 const unique = values => [...new Set(values)]
 
+// This shared thyroid-surgery case belongs at the end of the thyroid chapter,
+// even though question 94 links to the anesthesia handout for its explanation.
+const THYROID_SPRINT_CASE_IDS = new Set([
+  'surgery-sprint-exam-20261021-q093',
+  'surgery-sprint-exam-20261021-q094',
+  'surgery-sprint-exam-20261021-q095',
+])
+
 // Imported papers keep their original lecture/evidence identifiers. Only the
 // navigation address is shared with the corresponding 学成 chapter.
 export function chapterLectureIds(group) {
@@ -33,8 +41,9 @@ export function organizeChapterPractice(content, subject) {
   // Ethics has no 学成 chapter; both papers belong to the same ethics chapter.
   if (subject === 'med' && lectureMap.has('lecture-99')) aliases.set('foundation-medical-humanities', 'lecture-99')
 
+  const isThyroidSprintCase = group => subject === 'surgery' && THYROID_SPRINT_CASE_IDS.has(group.id)
   const groups = content.groups.map(group => {
-    const ids = chapterLectureIds(group).map(id => aliases.get(id) ?? id)
+    const ids = isThyroidSprintCase(group) ? ['lecture-01'] : chapterLectureIds(group).map(id => aliases.get(id) ?? id)
     const primary = ids[0]?.match(/^lecture-(\d+)$/)
     const topic = group.supplement && primary ? chapterTopic(subject, Number(primary[1]), group.topic) : group.topic
     return { ...group, topic, chapterLectureIds: unique(ids) }
@@ -47,6 +56,7 @@ export function organizeChapterPractice(content, subject) {
   const rank = group => Math.min(...chapterLectureIds(group).map(id => lectureOrder.get(id) ?? Infinity))
   groups.sort((a, b) => topicOrder.get(a.topic) - topicOrder.get(b.topic)
     || rank(a) - rank(b)
-    || Number(Boolean(a.supplement)) - Number(Boolean(b.supplement)))
+    || Number(Boolean(a.supplement)) - Number(Boolean(b.supplement))
+    || Number(isThyroidSprintCase(a)) - Number(isThyroidSprintCase(b)))
   return { ...content, groups, topics, lectures, meta: { ...content.meta, lectureCount: lectures.filter(lecture => !aliases.has(lecture.id)).length } }
 }

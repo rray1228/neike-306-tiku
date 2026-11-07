@@ -2,6 +2,7 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { chapterLectureIds, organizeChapterPractice, originalQuestionsFirst } from '../src/chapter-practice.js'
+import { combineSharedClinicalCases } from '../src/shared-clinical-cases.js'
 
 const read = name => JSON.parse(readFileSync(new URL(`../src/data/${name}.json`, import.meta.url)))
 const subjects = ['med', 'pathology', 'physiology', 'surgery', 'biochemistry']
@@ -84,4 +85,25 @@ test('foreign references retain their actual discipline and ethics papers share 
   assert.deepEqual(chapterLectureIds(bilirubin), ['foundation-biochemistry-10'])
   assert.equal(bilirubin.lectureEvidence.sourceSubject, 'biochemistry')
   assert.ok(content.groups.filter(group => group.topic === '医学人文').every(group => chapterLectureIds(group).includes('lecture-99')))
+})
+
+test('the thyroid sprint case is last in the thyroid chapter and does not create a second anesthesia entry', () => {
+  const base = bank('surgery')
+  const original = combineSharedClinicalCases({
+    ...base,
+    groups: [...base.groups, ...read('surgery-general-data').groups, ...read('surgery-practitioner-upper-data').groups],
+  })
+  const caseId = 'surgery-sprint-exam-20261021-q093'
+  const before = original.groups.find(group => group.id === caseId)
+  assert.deepEqual(before.lectureIds, ['lecture-01', 'lecture-36'])
+  assert.deepEqual(before.stems.map(stem => stem.sourceQuestion), [93, 94, 95])
+  const content = organizeChapterPractice(original, 'surgery')
+  const thyroid = originalQuestionsFirst(content.groups.filter(group => chapterLectureIds(group).includes('lecture-01')))
+  assert.equal(thyroid.at(-1).id, caseId)
+  const { chapterLectureIds: navigation, ...after } = thyroid.at(-1)
+  assert.deepEqual(navigation, ['lecture-01'])
+  assert.deepEqual(after, before)
+  const anesthesia = content.groups.filter(group => chapterLectureIds(group).includes('lecture-36'))
+  assert.equal(anesthesia.length, 17)
+  assert.ok(anesthesia.every(group => group.topic === '外科总论' && !group.supplement))
 })
