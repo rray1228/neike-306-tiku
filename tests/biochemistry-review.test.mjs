@@ -74,7 +74,6 @@ test('shared biochemical mechanisms remain complete after splitting', () => {
 })
 
 test('drug targets and RNA recognition describe the actual chemistry', () => {
-  assert.match(labels('bio-09-07', 4).join(' '), /尿嘧啶/)
   assert.match(labels('bio-09-08', 3).join(' '), /DNA聚合酶/)
   assert.doesNotMatch(labels('bio-09-08', 2).join(' '), /合成嘌呤核苷酸/)
   assert.match(labels('bio-18-08', 3).join(' '), /ADP-核糖基化/)

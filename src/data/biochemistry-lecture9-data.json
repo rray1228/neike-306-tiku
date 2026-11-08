@@ -971,7 +971,7 @@
       "options": [
         {
           "key": "A",
-          "label": "尿嘧啶"
+          "label": "胸腺嘧啶（T）"
         },
         {
           "key": "B",
@@ -1020,12 +1020,13 @@
         },
         {
           "number": 4,
-          "text": "5-氟尿嘧啶（5-FU）类似于",
+          "text": "按讲义抗代谢物表，5-氟尿嘧啶（5-FU）类似于",
           "answerRaw": "A",
           "answer": [
             "A"
           ],
-          "answerMode": "单选"
+          "answerMode": "单选",
+          "explanation": "讲义书内第65页的核苷酸抗代谢物表将5-FU的类似物列为T（胸腺嘧啶）。"
         },
         {
           "number": 5,
@@ -1049,7 +1050,7 @@
       "sourceText": "核苷酸抗代谢物：类似物辨析",
       "reviewState": "已按 2027 考研讲义与思维导图核对",
       "reviewIssues": [],
-      "reviewNotes": [],
+      "reviewNotes": ["第4小题按用户校正及讲义抗代谢物表，将A项改为胸腺嘧啶（T）。"],
       "topic": "核苷酸代谢",
       "lectureIds": [
         "lecture-09"
@@ -1059,14 +1060,18 @@
         "lectureId": "lecture-09",
         "lectureNumber": 9,
         "lectureTitle": "生化 核苷酸代谢",
-        "page": 3,
-        "image": "biochemistry/lecture-pages/lecture-09-page-03.webp",
-        "title": "第 09 讲《生化 核苷酸代谢》· 第 3 页",
-        "description": "已按该讲义页逐项核对答案；点击可查看讲义原页。",
-        "method": "按知识点人工映射至 2027 考研生化第 09 讲，并逐项复核。"
+        "page": 6,
+        "pageLabel": "书内第65页 · 合集PDF第80页",
+        "image": "biochemistry/lecture-pages/lecture-09-page-06.webp",
+        "title": "核苷酸抗代谢物 · 书内第65页",
+        "description": "六种抗代谢物的类似物、作用酶与抑制过程。",
+        "sourcePdfPage": 80,
+        "sourceBookPage": 65,
+        "sourceName": "27生化跟课版合集【带导图】.pdf",
+        "method": "按讲义表格的“类似”栏校对第4小题。"
       },
-      "answerRevision": "bio-review-20261017",
-      "reviewedAt": "2026-10-17"
+      "answerRevision": "bio-5fu-analogue-20261108-v2",
+      "reviewedAt": "2026-11-08"
     },
     {
       "id": "bio-09-08",

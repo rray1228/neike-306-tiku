@@ -3,10 +3,25 @@ import assert from 'node:assert/strict'
 import test from 'node:test'
 
 const bank = JSON.parse(readFileSync(new URL('../src/data/biochemistry-lecture9-data.json', import.meta.url)))
+const analogues = bank.groups.find(g => g.id === 'bio-09-07')
 const group = bank.groups.find(g => g.id === 'bio-09-08')
 const processes = bank.groups.find(g => g.id === 'bio-09-08-focus-2')
 const activation = bank.groups.find(g => g.id === 'bio-09-08-focus-3')
 const labels = (g, n) => g.stems[n - 1].answer.map(k => g.options.find(o => o.key === k).label)
+
+test('the 5-FU analogue answer follows the lecture table without changing the other matches', () => {
+  assert.deepEqual(analogues.stems.map((_, i) => labels(analogues, i + 1)), [
+    ['次黄嘌呤'], ['次黄嘌呤'], ['胞苷'], ['胸腺嘧啶（T）'], ['叶酸'], ['谷氨酰胺'],
+  ])
+  const s = analogues.stems[3]
+  assert.match(s.text, /按讲义抗代谢物表/)
+  assert.equal(s.answerRaw, 'A')
+  assert.equal(s.answerMode, '单选')
+  assert.match(s.explanation, /T（胸腺嘧啶）/)
+  assert.equal(analogues.lectureEvidence.sourceBookPage, 65)
+  assert.equal(analogues.lectureEvidence.sourcePdfPage, 80)
+  assert.equal(analogues.answerRevision, 'bio-5fu-analogue-20261108-v2')
+})
 
 test('six antimetabolites have separate target and process questions', () => {
   assert.equal(bank.groups.length, 15)
