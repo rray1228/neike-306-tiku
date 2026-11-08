@@ -14,11 +14,12 @@ import { combineSharedClinicalCases, migrateSharedClinicalCases } from './shared
 import { chapterLectureIds, organizeChapterPractice, originalQuestionsFirst } from './chapter-practice.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
 import { fillNavigationTarget } from './fill-navigation.js'
-import { EncouragementDialog, PracticeSettingsDialog, usePracticeEncouragement, VisitorCount } from './StudySupport.jsx'
+import { EncouragementDialog, PracticeSettingsDialog, StudyUpdateNotice, usePracticeEncouragement, VisitorCount } from './StudySupport.jsx'
 import { groupHasResponses } from './study-milestones.js'
 
 const NumericMemory = lazy(() => import('./NumericMemory.jsx'))
 const MnemonicLibrary = lazy(() => import('./MnemonicLibrary.jsx'))
+const STUDY_UPDATE_NOTICE_KEY = 'study-update-notice-2026-11-anesthesia-v1'
 const ALL_TEST_CATALOG = [...testCatalog, ...foundationMockExamCatalog]
 const TEST_COLLECTIONS = Object.fromEntries([...new Set(ALL_TEST_CATALOG.map(paper => paper.subject))].map(subject => [subject, testCollectionForSubject(ALL_TEST_CATALOG, subject)]))
 const TEST_SOURCE_CATEGORIES = new Map(ALL_TEST_CATALOG.flatMap(source => source.groupIds.map(id => [id, source.category])))
@@ -791,6 +792,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   const [showLectureEvidence, setShowLectureEvidence] = useState(false)
   const [showNote, setShowNote] = useState(false)
   const [showPracticeSettings, setShowPracticeSettings] = useState(false)
+  const [showUpdateNotice, setShowUpdateNotice] = useState(false)
   const [mobileEvidence, setMobileEvidence] = useState(false)
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false)
   const [evidenceCollapsed, setEvidenceCollapsed] = useState(false)
@@ -834,6 +836,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     setSidebarCollapsed(window.innerWidth <= 720 ? true : readLocalStorage('med-sidebar-collapsed', false))
     setEvidenceCollapsed(readLocalStorage('med-evidence-collapsed', false))
     setTopbarCollapsed(readLocalStorage('study-topbar-collapsed', false))
+    setShowUpdateNotice(!readLocalStorage(STUDY_UPDATE_NOTICE_KEY, false))
     setStorageReady(true)
   }, [])
 
@@ -1459,6 +1462,16 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     if (typeof window !== 'undefined' && window.innerWidth > 720) setSidebarCollapsed(false)
   }
 
+  function dismissUpdateNotice() {
+    setShowUpdateNotice(false)
+    try { window.localStorage.setItem(STUDY_UPDATE_NOTICE_KEY, 'true') } catch { /* Dismiss for this visit even without storage. */ }
+  }
+
+  function openPracticeSettings() {
+    if (showUpdateNotice) dismissUpdateNotice()
+    setShowPracticeSettings(true)
+  }
+
   if (isLoadingContent && !isReferenceView) {
     return (
       <main className="app-loading" aria-live="polite">
@@ -1496,13 +1509,14 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
           <div className="top-actions">
             <label className="search-box"><Icon name="search" size={18} /><input ref={searchInputRef} value={isReferenceView ? mnemonicSearch : search} onChange={(event) => { if (isReferenceView) setMnemonicSearch(event.target.value); else { setSearch(event.target.value); setJumpGroupId(''); setGroupIndex(0) } }} placeholder={isReferenceView ? '搜索口诀 / 数字 / 疾病 / 知识点' : '搜索题目 / 关键词'} aria-label={isReferenceView ? '搜索速记与数字' : '搜索题目'} />{(isReferenceView ? mnemonicSearch : search) ? <button className="search-clear" aria-label="清空搜索" type="button" onClick={() => { if (isReferenceView) setMnemonicSearch(''); else { setSearch(''); setGroupIndex(0) } searchInputRef.current?.focus() }}>×</button> : <kbd>⌘ K</kbd>}</label>
             {!isNumericView && (viewMode === 'mnemonics' ? <label className="filter-box"><Icon name="sliders" size={17} /><select aria-label="筛选口诀章节" value={mnemonicChapter} onChange={event => setMnemonicChapter(event.target.value)}><option value="">全部章节</option>{mnemonicChapters.map(([id, title]) => <option key={id} value={id}>{title}</option>)}</select><Icon name="chevron" size={15} /></label> : <><label className="filter-box"><Icon name="sliders" size={17} /><select value={typeFilter} onChange={(event) => { setTypeFilter(event.target.value); setJumpGroupId(''); setGroupIndex(0) }}><option>全部题型</option><option>B型题</option><option>单项选择</option><option>填空题</option><option>排序题</option><option>多项选择</option><option>匹配 / 归类</option><option>判断订正</option><option>思路训练</option><option>画图与简答</option><option>复盘笔记</option><option>原题页核对</option></select><Icon name="chevron" size={15} /></label></>)}
-            <button type="button" className="icon-button practice-settings-trigger" aria-label="设置" title="学习设置" aria-haspopup="dialog" onClick={() => setShowPracticeSettings(true)}><Icon name="settings" size={19} /></button>
+            <button type="button" className="icon-button practice-settings-trigger" aria-label="设置" title="学习设置" aria-haspopup="dialog" onClick={openPracticeSettings}><Icon name="settings" size={19} /></button>
           </div>
         </header>
         <button className="topbar-toggle" onClick={() => setTopbarCollapsed((value) => !value)} aria-controls="study-topbar study-chapter-controls" aria-expanded={!topbarCollapsed} aria-label={topbarCollapsed ? '展开顶部栏' : '收起顶部栏'} title={topbarCollapsed ? '展开顶部栏' : '收起顶部栏'}>
           <Icon name={topbarCollapsed ? 'chevron' : 'chevronUp'} size={14} />
           <span>{topbarCollapsed ? '展开顶栏' : '收起顶栏'}</span>
         </button>
+        {showUpdateNotice && !showPracticeSettings && !encouragement && !showSource && !showLectureEvidence && !mobileEvidence && <StudyUpdateNotice onDismiss={dismissUpdateNotice} onOpenSettings={openPracticeSettings} />}
       </div>
 
       {viewMode === 'mnemonics' && <div className="memory-tabs" aria-label="速记内容"><button className={memoryKind === 'mnemonics' ? 'active' : ''} aria-pressed={memoryKind === 'mnemonics'} onClick={() => selectMemoryKind('mnemonics')}>口诀</button><button className={memoryKind === 'numbers' ? 'active' : ''} aria-pressed={memoryKind === 'numbers'} onClick={() => selectMemoryKind('numbers')}>数字</button></div>}
