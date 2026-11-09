@@ -49,6 +49,19 @@ test('questions 103–105 keep the T₉ level intact in the shared stem and opti
   assert.deepEqual(stems.map(stem => stem.answer), [['C'], ['D'], ['C']])
 })
 
+test('questions 106–107 retain the shared case and display intact lumbar levels', () => {
+  const [q106, q107] = ['106', '107'].map(number => groups.find(group => group.sourceQuestion === number))
+  assert.deepEqual(q106.options.map(({ key, label }) => [key, label]), [
+    ['A', 'L₂–L₃'],
+    ['B', 'L₃–L₄'],
+    ['C', 'L₄–L₅'],
+    ['D', 'L₅–S₁'],
+  ])
+  assert.equal(q106.stems[0].sharedText, q107.stems[0].sharedText)
+  assert.deepEqual([q106, q107].map(group => group.stems[0].answer), [['D'], ['D']])
+  assert.equal(q107.options.find(option => option.key === 'D').label, '髓核摘除术')
+})
+
 test('rewritten explanations and lecture evidence remain tied to the tested point', () => {
   const question51 = groups.find(group => group.sourceQuestion === '51')
   assert.match(question51.stems[0].explanation, /机械性肠梗阻/)

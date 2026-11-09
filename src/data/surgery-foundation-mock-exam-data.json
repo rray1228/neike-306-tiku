@@ -3074,22 +3074,22 @@
         {
           "key": "A",
           "displayKey": "A",
-          "label": "L 2-3"
+          "label": "L₂–L₃"
         },
         {
           "key": "B",
           "displayKey": "B",
-          "label": "L 3-4"
+          "label": "L₃–L₄"
         },
         {
           "key": "C",
           "displayKey": "C",
-          "label": "L 4-5"
+          "label": "L₄–L₅"
         },
         {
           "key": "D",
           "displayKey": "D",
-          "label": "L -S 5 1"
+          "label": "L₅–S₁"
         }
       ],
       "stems": [

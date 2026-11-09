@@ -165,6 +165,10 @@ def extract_exam(source: Path) -> tuple[dict[int, dict], dict[int, str]]:
         if q == 103:
             opts = {key: re.sub(r"^T (肿瘤|结核|转移瘤|骨髓炎) 9$", r"T₉\1", label)
                     for key, label in opts.items()}
+        if q == 106:
+            # Restore the lumbar and sacral levels split by PDF text extraction.
+            levels = {"L 2-3": "L₂–L₃", "L 3-4": "L₃–L₄", "L 4-5": "L₄–L₅", "L -S 5 1": "L₅–S₁"}
+            opts = {key: levels.get(label, label) for key, label in opts.items()}
         questions[q] = {"stem": stem, "sharedStem": shared.get(q), "options": opts}
 
     for q, (option_text, stem) in B_OVERRIDES.items():
