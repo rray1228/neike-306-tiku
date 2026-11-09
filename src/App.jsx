@@ -14,12 +14,11 @@ import { combineSharedClinicalCases, migrateSharedClinicalCases } from './shared
 import { chapterLectureIds, organizeChapterPractice, originalQuestionsFirst } from './chapter-practice.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
 import { fillNavigationTarget } from './fill-navigation.js'
-import { EncouragementDialog, PracticeSettingsDialog, StudyUpdateNotice, usePracticeEncouragement, VisitorCount } from './StudySupport.jsx'
+import { EncouragementDialog, PracticeSettingsDialog, usePracticeEncouragement, VisitorCount } from './StudySupport.jsx'
 import { groupHasResponses } from './study-milestones.js'
 
 const NumericMemory = lazy(() => import('./NumericMemory.jsx'))
 const MnemonicLibrary = lazy(() => import('./MnemonicLibrary.jsx'))
-const STUDY_UPDATE_NOTICE_KEY = 'study-update-notice-2026-11-anesthesia-v1'
 const ALL_TEST_CATALOG = [...testCatalog, ...foundationMockExamCatalog]
 const TEST_COLLECTIONS = Object.fromEntries([...new Set(ALL_TEST_CATALOG.map(paper => paper.subject))].map(subject => [subject, testCollectionForSubject(ALL_TEST_CATALOG, subject)]))
 const TEST_SOURCE_CATEGORIES = new Map(ALL_TEST_CATALOG.flatMap(source => source.groupIds.map(id => [id, source.category])))
@@ -792,7 +791,6 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   const [showLectureEvidence, setShowLectureEvidence] = useState(false)
   const [showNote, setShowNote] = useState(false)
   const [showPracticeSettings, setShowPracticeSettings] = useState(false)
-  const [showUpdateNotice, setShowUpdateNotice] = useState(false)
   const [mobileEvidence, setMobileEvidence] = useState(false)
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false)
   const [evidenceCollapsed, setEvidenceCollapsed] = useState(false)
@@ -836,7 +834,6 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     setSidebarCollapsed(window.innerWidth <= 720 ? true : readLocalStorage('med-sidebar-collapsed', false))
     setEvidenceCollapsed(readLocalStorage('med-evidence-collapsed', false))
     setTopbarCollapsed(readLocalStorage('study-topbar-collapsed', false))
-    setShowUpdateNotice(!readLocalStorage(STUDY_UPDATE_NOTICE_KEY, false))
     setStorageReady(true)
   }, [])
 
@@ -1462,13 +1459,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     if (typeof window !== 'undefined' && window.innerWidth > 720) setSidebarCollapsed(false)
   }
 
-  function dismissUpdateNotice() {
-    setShowUpdateNotice(false)
-    try { window.localStorage.setItem(STUDY_UPDATE_NOTICE_KEY, 'true') } catch { /* Dismiss for this visit even without storage. */ }
-  }
-
   function openPracticeSettings() {
-    if (showUpdateNotice) dismissUpdateNotice()
     setShowPracticeSettings(true)
   }
 
@@ -1516,7 +1507,6 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
           <Icon name={topbarCollapsed ? 'chevron' : 'chevronUp'} size={14} />
           <span>{topbarCollapsed ? '展开顶栏' : '收起顶栏'}</span>
         </button>
-        {showUpdateNotice && !showPracticeSettings && !encouragement && !showSource && !showLectureEvidence && !mobileEvidence && <StudyUpdateNotice onDismiss={dismissUpdateNotice} onOpenSettings={openPracticeSettings} />}
       </div>
 
       {viewMode === 'mnemonics' && <div className="memory-tabs" aria-label="速记内容"><button className={memoryKind === 'mnemonics' ? 'active' : ''} aria-pressed={memoryKind === 'mnemonics'} onClick={() => selectMemoryKind('mnemonics')}>口诀</button><button className={memoryKind === 'numbers' ? 'active' : ''} aria-pressed={memoryKind === 'numbers'} onClick={() => selectMemoryKind('numbers')}>数字</button></div>}

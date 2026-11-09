@@ -100,18 +100,6 @@ export function usePracticeEncouragement(enabled, blocked) {
   return { notice, recordCompletion, dismiss, popupsEnabled: preference !== false, setPopupsEnabled }
 }
 
-export function StudyUpdateNotice({ onDismiss, onOpenSettings }) {
-  return <aside className="study-update-notice" aria-labelledby="study-update-title">
-    <h2 id="study-update-title">外科麻醉题库已修复</h2>
-    <p>麻醉题目已恢复，可在「题库 → 外科 → 外科总论 → 麻醉」练习。</p>
-    <p>不想再看到学习鼓励弹窗？点右上角的太阳图标，在「学习设置」里关闭「学习鼓励弹窗」。</p>
-    <div className="study-update-actions">
-      <button type="button" className="ghost-button" onClick={onOpenSettings} aria-haspopup="dialog">打开学习设置</button>
-      <button type="button" className="primary-button" onClick={onDismiss}>知道了</button>
-    </div>
-  </aside>
-}
-
 export function PracticeSettingsDialog({ enabled, onChange, onClose }) {
   const dialog = useRef(null)
   useEffect(() => {
