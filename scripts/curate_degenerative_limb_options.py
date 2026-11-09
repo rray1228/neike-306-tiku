@@ -138,10 +138,17 @@ def curate_degenerative_spine() -> None:
     )
 
     imaging = group(payload, "degenerative-spine-g01")
+    # The limitation is listed under CT in the lecture, but also applies to plain radiography.
+    xray = next(stem for stem in imaging["stems"] if stem["text"] == "X线")
+    neural_limitation = option_by_source(imaging, "G")["key"]
+    if neural_limitation not in xray["answer"]:
+        xray["answer"].append(neural_limitation)
     # “包含X线所见内容”“包含CT所见内容”只提示层级关系，不检验具体知识。
     rekey(imaging, drop_sources={"A", "E"})
     for stem in imaging["stems"]:
         stem["reviewMethod"] = "已按第27讲第2页逐项校对；删除提示答案的层级复述项并同步重映射答案"
+    xray["reviewMethod"] = "已按第27讲第2页核对；按共用选项字面补计B"
+    xray["explanation"] = "普通X线平片不能直接显示神经根、脊髓或椎间盘本身，也不能直接判断神经根或脊髓是否受压（B、C）；可见骨赘、椎间隙狭窄等改变（D）。"
 
     save(name, payload)
 

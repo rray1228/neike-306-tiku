@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 EXPECTED_SOURCE_ANSWERS = {
-    "degenerative-spine-g01": [set("BF"), set("DFG"), set("CDF")],
+    "degenerative-spine-g01": [set("BFG"), set("DFG"), set("CDF")],
     "degenerative-spine-g02": [set("BDHILOR"), set("ACFGJKMN"), set("BPQ"), set("BE"), set("BS")],
     "degenerative-spine-g03": [set("FG"), set("EI"), set("A"), set("CH"), set("BD")],
     "degenerative-spine-g04": [set("F"), set("A"), set("C"), set("E"), set("B"), set("D")],
@@ -73,6 +73,9 @@ def main() -> None:
     imaging = groups[0]
     assert len(imaging["options"]) == 5
     assert not {"包含X线所见内容", "包含CT所见内容"} & {option["label"] for option in imaging["options"]}
+    assert [stem["text"] for stem in imaging["stems"]] == ["X线", "CT", "MRI"]
+    assert [stem["answer"] for stem in imaging["stems"]] == [list("BCD"), list("BDE"), list("ADE")]
+    assert imaging["sourceAnswer"] == ["BFG", "DFG", "CDF"]
 
     print({"groups": 9, "stems": 39, "options": 77, "shuffled": 8, "fill": 1, "status": "ok"})
 

@@ -64,13 +64,15 @@
         {
           "text": "X线",
           "answer": [
+            "B",
             "C",
             "D"
           ],
           "answerMode": "多选",
           "sourceText": "X线",
           "ocrScore": 1,
-          "reviewMethod": "已按第27讲第2页逐项校对；删除提示答案的层级复述项并同步重映射答案"
+          "reviewMethod": "已按第27讲第2页核对；按共用选项字面补计B",
+          "explanation": "普通X线平片不能直接显示神经根、脊髓或椎间盘本身，也不能直接判断神经根或脊髓是否受压（B、C）；可见骨赘、椎间隙狭窄等改变（D）。"
         },
         {
           "text": "CT",
@@ -109,7 +111,7 @@
       "sourcePdf": null,
       "sourcePage": null,
       "sourceAnswer": [
-        "BF",
+        "BFG",
         "DFG",
         "CDF"
       ],
