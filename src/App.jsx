@@ -22,6 +22,14 @@ const MnemonicLibrary = lazy(() => import('./MnemonicLibrary.jsx'))
 const ALL_TEST_CATALOG = [...testCatalog, ...foundationMockExamCatalog]
 const TEST_COLLECTIONS = Object.fromEntries([...new Set(ALL_TEST_CATALOG.map(paper => paper.subject))].map(subject => [subject, testCollectionForSubject(ALL_TEST_CATALOG, subject)]))
 const TEST_SOURCE_CATEGORIES = new Map(ALL_TEST_CATALOG.flatMap(source => source.groupIds.map(id => [id, source.category])))
+const XUECHENG_37_TITLE = '37不yy老师的学成选择题'
+const XUECHENG_37_LOADERS = {
+  med: () => import('./data/med-xuecheng-37-data.json'),
+  pathology: () => import('./data/pathology-xuecheng-37-data.json'),
+  physiology: () => import('./data/physiology-xuecheng-37-data.json'),
+  surgery: () => import('./data/surgery-xuecheng-37-data.json'),
+}
+const testSourceCategory = group => TEST_SOURCE_CATEGORIES.get(group.id) || (group.questionAuthor ? group.sourceLabel : '')
 
 const SUBJECTS = {
   politics: {
@@ -779,7 +787,11 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   const searchInputRef = useRef(null)
   const [typeFilter, setTypeFilter] = useState('全部题型')
   const [testSourceFilter, setTestSourceFilter] = useState('')
-  const testSourceCategories = useMemo(() => [...new Set(ALL_TEST_CATALOG.filter(source => source.subject === subject).map(source => source.category))], [subject])
+  const testSourceCategories = useMemo(() => {
+    const categories = ALL_TEST_CATALOG.filter(source => source.subject === subject).map(source => source.category)
+    if (XUECHENG_37_LOADERS[subject]) categories.push(XUECHENG_37_TITLE)
+    return unique(categories)
+  }, [subject])
   const [groupIndex, setGroupIndex] = useState(0)
   const [jumpGroupId, setJumpGroupId] = useState('')
   const [selections, setSelections] = useState({})
@@ -957,9 +969,15 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     const slow = setTimeout(() => {
       if (!cancelled) setLoadError('连接较慢，可以刷新重试或切换其他科目。')
     }, 15_000)
-    CONTENT_LOADERS[subject]().then((nextContent) => {
+    const loadXuecheng = XUECHENG_37_LOADERS[subject]
+    Promise.all([CONTENT_LOADERS[subject](), loadXuecheng ? loadJson(loadXuecheng) : []]).then(([nextContent, groups]) => {
       clearTimeout(slow)
-      if (!cancelled) { loadedSubjectRef.current = subject; setLoadedContent(organizeChapterPractice(subject === 'politics' ? nextContent : combineSharedClinicalCases(nextContent), subject)) }
+      if (cancelled) return
+      const organized = organizeChapterPractice(subject === 'politics' ? nextContent : combineSharedClinicalCases(nextContent), subject)
+      // Append after chapter sorting so each existing practice sequence keeps its order.
+      const newContent = groups.length ? appendSupplement(organized, { groups, pages: [] }) : organized
+      loadedSubjectRef.current = subject
+      setLoadedContent(newContent)
     }).catch(() => {
       clearTimeout(slow)
       if (!cancelled) setLoadError('题库数据暂时加载失败，请检查网络后重试。')
@@ -1034,10 +1052,10 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       }
       if (favoritesOnly && !favorites.includes(groupStorageKey(subject, group.id))) return false
       if (typeFilter !== '全部题型' && group.kindLabel !== typeFilter) return false
-      if (viewMode === 'tests' && testSourceFilter && TEST_SOURCE_CATEGORIES.get(group.id) !== testSourceFilter) return false
+      if (viewMode === 'tests' && testSourceFilter && testSourceCategory(group) !== testSourceFilter) return false
       if (!query) return true
-      const sourceTerms = viewMode === 'tests' ? [TEST_SOURCE_CATEGORIES.get(group.id), group.sourceLabel, group.sourceName, group.sourceSection] : []
-      const haystack = [group.title, group.topic, group.sourceText, ...sourceTerms, ...(group.diseaseTags || []), ...group.options.map((item) => item.label), ...group.stems.flatMap((stem) => [stem.text, stem.sourceTextForSearch])].join(' ').toLowerCase()
+      const sourceTerms = viewMode === 'tests' || group.questionAuthor ? [testSourceCategory(group), group.sourceLabel, group.sourceName, group.sourceSection] : []
+      const haystack = [group.title, group.topic, group.sourceText, group.promptContext, ...sourceTerms, ...(group.diseaseTags || []), ...group.options.map((item) => item.label), ...group.stems.flatMap((stem) => [stem.text, stem.sharedText, stem.sourceTextForSearch])].join(' ').toLowerCase()
       return haystack.includes(query)
     })
     return chapterId ? originalQuestionsFirst(groups) : groups
@@ -1048,7 +1066,9 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   }, [filteredGroups.length, groupIndex, isLoadingContent])
 
   const group = (jumpGroupId && filteredGroups.find((item) => item.id === jumpGroupId)) || filteredGroups[groupIndex] || content.groups[0]
-  const groupNotice = group.studyNotice || (group.supplement
+  const groupNotice = group.questionAuthor
+    ? `${group.sourceSection} · 原稿第 ${group.sourceQuestion} 题`
+    : group.studyNotice || (group.supplement
     ? `${group.sourceLabel || '教师课后巩固'} · ${group.sourceSection} · 第 ${group.sourceQuestion} 题 · ${group.supplementNotice || '原资料答案，尚未按讲义逐项复核'}${group.reviewIssues?.length ? `；${group.reviewIssues.join('；')}` : ''}`
     : '')
   const groupStorageId = groupStorageKey(subject, group.id)
@@ -1560,7 +1580,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
           {!filteredGroups.length && <div className="empty-state"><div className="empty-state-icon"><Icon name={favoritesOnly ? 'bookmark' : 'search'} size={22} /></div><h1>{favoritesOnly ? `${notebookName}暂无题组` : '当前筛选下没有题组'}</h1><p>{favoritesOnly ? '点击题组右上角的“收藏”后，它会自动进入当前科目与章节的收藏本。' : '请尝试清除搜索词、切换章节或选择其他题型。'}</p><button className="primary-button" onClick={favoritesOnly ? showAllGroupsInChapter : () => { setTopic('全部'); setChapterId(''); setJumpGroupId(''); setSearch(''); setTypeFilter('全部题型'); setTestSourceFilter(''); setGroupIndex(0) }}>{favoritesOnly ? '返回本章全部题组' : '显示全部题库'} <Icon name="arrow" size={17} /></button></div>}
           {filteredGroups.length > 0 && <div className={`study-content ${group.originalMatching ? 'original-matching' : ''}`} data-study-content>
           {favoritesOnly && <div className="favorite-notebook-banner"><span className="favorite-notebook-icon"><Icon name="bookmarkFill" size={18} /></span><div><strong>{notebookName}</strong><small>正在复习已收藏题组 · 共 {filteredGroups.length} 组</small></div><button onClick={showAllGroupsInChapter}>退出收藏本</button></div>}
-          <div className="breadcrumb"><span>{group.topic || '综合'}</span>{currentChapter ? <><Icon name="chevron" size={13} /><span>{currentChapter.title}</span></> : null}<Icon name="chevron" size={13} /><span>{viewMode === 'tests' ? TEST_SOURCE_CATEGORIES.get(group.id) || '补充练习' : group.supplement ? '教师补充' : group.kindLabel}</span>{group.hideSource ? null : <><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></>}</div>
+          <div className="breadcrumb"><span>{group.topic || '综合'}</span>{currentChapter ? <><Icon name="chevron" size={13} /><span>{currentChapter.title}</span></> : null}<Icon name="chevron" size={13} /><span>{viewMode === 'tests' ? testSourceCategory(group) || '补充练习' : group.questionAuthor ? group.kindLabel : group.supplement ? '教师补充' : group.kindLabel}</span>{group.hideSource ? null : <><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></>}</div>
           <div className="content-heading">
             <div><h1>{group.title || '题库原题'}</h1>{groupNotice && <p>{groupNotice}</p>}</div>
             <div className="heading-actions"><button className={`ghost-button ${favorite ? 'selected' : ''}`} onClick={toggleFavorite} aria-pressed={favorite} title={`${favorite ? `从${group.topic}收藏本移除` : `收藏到${group.topic}收藏本`} · Option（⌥）收藏 / 取消收藏`}><Icon name={favorite ? 'bookmarkFill' : 'bookmark'} size={17} />{favorite ? '已收藏' : '收藏'}</button><button className="ghost-button" onClick={() => setShowNote((value) => !value)}><Icon name="note" size={17} />笔记</button></div>
@@ -1574,6 +1594,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
           <section className="question-card" ref={questionCardRef} onClickCapture={lockStem} onFocusCapture={lockStem}>
             <div className="question-card-top"><span className="question-type">{group.kindLabel}</span><span>题组 {groupIndex + 1} / {filteredGroups.length}</span>{group.hideSource ? null : <span>来源页 {group.page}</span>}</div>
             {group.sharedStem ? <div className="shared-stem-panel"><strong>共用题干</strong><p>{group.sharedStem}</p><span>以下 {group.sharedQuestionCount || group.stems.length} 题共用此题干</span></div> : null}
+            {group.promptContext ? <div className="shared-stem-panel question-prompt-context"><p>{group.promptContext}</p></div> : null}
             <QuestionList subject={subject} group={group} selections={currentSelections} submitted={isSubmitted} onSelect={updateSelection} onFill={updateFillSelection} activeStemIndex={activeStemIndex} />
             <div className="question-card-bottom">
               {isSubmitted ? <div className={`submit-summary ${waitingForAnswers ? 'pending-answer-summary' : ''}`}><Icon name={waitingForAnswers ? 'file' : 'check'} size={18} /><span>{group.selfReview ? '草稿已保存 · 请对照参考要点自评' : waitingForAnswers ? '已保存作答 · 待补答案，暂不计分' : group.stems.every((stem) => stem.answerState === '暂无参考答案') ? '已提交 · 暂无参考答案，本题不计分' : `已提交 · ${group.stems.filter((stem, index) => !isUnresolvedStem(stem) && stemIsCorrect(currentSelections[index] || [], stem)).length} / ${group.stems.filter((stem) => !isUnresolvedStem(stem)).length} 个题干正确${group.stems.some(isUnresolvedStem) ? ` · ${group.stems.filter(isUnresolvedStem).length} 个待原题核对` : ''}`}</span></div> : <span className="hint-text">{group.selfReview ? '先写下思路，保存后展开参考要点；可随时继续修改草稿。' : waitingForAnswers ? '答案待补；可先完成作答并保存，之后继续修改。' : '完成后按 Enter 或点击按钮提交；排序题按点击先后记录，填空题按空格顺序判分。'}</span>}
@@ -1596,7 +1617,9 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       {showPracticeSettings && <PracticeSettingsDialog enabled={popupsEnabled} onChange={setPopupsEnabled} onClose={() => setShowPracticeSettings(false)} />}
       {encouragement && <EncouragementDialog notice={encouragement} onDismiss={dismissEncouragement} />}
       <div className="site-watermark" aria-hidden="true">
-        {!isReferenceView && showContentWatermark && <span>内容制作byBi8bo</span>}
+        {!isReferenceView && filteredGroups.length > 0 && group.questionAuthor
+          ? <span className="question-author-watermark">出题人：{group.questionAuthor}</span>
+          : !isReferenceView && showContentWatermark ? <span>内容制作byBi8bo</span> : null}
         <span>网站制作by戒不掉甜食</span>
       </div>
     </div>
@@ -1806,7 +1829,9 @@ function PoliticsEvidence({ group, submitted, mobileEvidence, evidenceCollapsed,
 function EvidencePanel({ subject, content, group, page, sourceName, submitted, setShowSource, setShowLectureEvidence, mobileEvidence, setMobileEvidence, evidenceCollapsed, setEvidenceCollapsed }) {
   if (subject === 'politics') return <PoliticsEvidence {...{ group, submitted, mobileEvidence, evidenceCollapsed, setEvidenceCollapsed, setMobileEvidence, setShowLectureEvidence }} />
   const lectureItems = group.lectureIds.map((id) => content.lectures.find((lecture) => lecture.id === id)).filter(Boolean)
-  const supplementDescription = ['按考点归入讲义', group.supplementNotice ?? '答案尚未逐项复核'].filter(Boolean).join('；')
+  const supplementDescription = group.questionAuthor
+    ? '按考点归入现有章节 · 答案沿用原稿'
+    : ['按考点归入讲义', group.supplementNotice ?? '答案尚未逐项复核'].filter(Boolean).join('；')
   const currentEvidence = group.lectureEvidence
   const evidencePages = group.lectureEvidencePages?.length ? group.lectureEvidencePages : (currentEvidence ? [currentEvidence] : [])
   const currentEvidenceLocation = currentEvidence?.pageLabel || (typeof currentEvidence?.page === 'number' ? `对应第 ${currentEvidence.page} 页` : (currentEvidence?.page ? `对应${currentEvidence.page}` : '已关联讲义'))
