@@ -809,6 +809,19 @@ def apply_manual_repairs(groups: list[dict]) -> list[dict]:
                 "title": "第六组终末血尿补充 I",
                 "body": "原题页选项I为“多数肾结核”，但终末血尿圈选答案漏写I。按第18讲第3页，肾和膀胱结核均可出现终末血尿，答案由BDFH修正为BDFHI。",
             }]
+        if group_id == "p27-g2":
+            # Keep sourceText as the record of the original question and key.
+            options = {option["key"]: option for option in group["options"]}
+            options["A"]["label"] = "间歇性无痛性全程肉眼血尿"
+            options["B"]["label"] = "少数患者可伴膀胱刺激征，并非只在晚期出现"
+            stems = {stem["text"]: stem for stem in group["stems"]}
+            stems["膀胱癌"].update(
+                text="膀胱癌：典型血尿表现及膀胱刺激征特点",
+                answer=["A", "B"],
+                answerMode="多选",
+                explanation="A 是膀胱癌最常见的首发表现。B 是伴随症状的频率特点：仅少数患者有尿频、尿急、尿痛等膀胱刺激征，原位癌也可出现，并非只见于晚期。C 只列出刺激征，不符合本题所考的典型表现。",
+            )
+            stems["泌外恶性肿瘤（多数膀胱癌、上尿路癌、肾癌等）"]["text"] = "其他泌尿系恶性肿瘤（如上尿路癌、肾癌）：典型血尿表现"
         if group_id == "p28-g2":
             group["lectureEvidence"] = {
                 "lectureId": "lecture-19",
