@@ -812,16 +812,13 @@ def apply_manual_repairs(groups: list[dict]) -> list[dict]:
         if group_id == "p27-g2":
             # Keep sourceText as the record of the original question and key.
             options = {option["key"]: option for option in group["options"]}
-            options["A"]["label"] = "间歇性无痛性全程肉眼血尿"
-            options["B"]["label"] = "少数患者可伴膀胱刺激征，并非只在晚期出现"
+            options["A"]["label"] = "无痛肉眼血尿"
             stems = {stem["text"]: stem for stem in group["stems"]}
             stems["膀胱癌"].update(
-                text="膀胱癌：典型血尿表现及膀胱刺激征特点",
                 answer=["A", "B"],
                 answerMode="多选",
-                explanation="A 是膀胱癌最常见的首发表现。B 是伴随症状的频率特点：仅少数患者有尿频、尿急、尿痛等膀胱刺激征，原位癌也可出现，并非只见于晚期。C 只列出刺激征，不符合本题所考的典型表现。",
+                explanation="第18讲第2页列出膀胱癌的膀胱刺激症特点（B），第3页将多数膀胱癌列为无痛肉眼全程血尿（A）。",
             )
-            stems["泌外恶性肿瘤（多数膀胱癌、上尿路癌、肾癌等）"]["text"] = "其他泌尿系恶性肿瘤（如上尿路癌、肾癌）：典型血尿表现"
         if group_id == "p28-g2":
             group["lectureEvidence"] = {
                 "lectureId": "lecture-19",

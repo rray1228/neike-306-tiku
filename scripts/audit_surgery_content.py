@@ -79,15 +79,15 @@ VERIFIED_GROUPS = {
     "p27-g2": {
         "title": "膀胱结石",
         "options": {
-            "A": "间歇性无痛性全程肉眼血尿",
-            "B": "少数患者可伴膀胱刺激征，并非只在晚期出现",
+            "A": "无痛肉眼血尿",
+            "B": "无膀胱刺激症或晚期出现",
             "C": "膀胱刺激症",
             "D": "排尿突然中断、改变体位又排尿",
             "E": "血尿常在膀胱刺激症后出现",
         },
         "stems": {
-            "膀胱结石": "CD", "膀胱癌：典型血尿表现及膀胱刺激征特点": "AB", "肾结核": "CE",
-            "其他泌尿系恶性肿瘤（如上尿路癌、肾癌）：典型血尿表现": "A", "膀胱炎": "C", "膀胱结核": "CE",
+            "膀胱结石": "CD", "膀胱癌": "AB", "肾结核": "CE",
+            "泌外恶性肿瘤（多数膀胱癌、上尿路癌、肾癌等）": "A", "膀胱炎": "C", "膀胱结核": "CE",
         },
     },
     "p28-g2": {
@@ -280,8 +280,10 @@ def main() -> None:
             f"{group_id}: option drift"
         assert {item["text"]: "".join(item["answer"]) for item in group["stems"]} == expected["stems"], \
             f"{group_id}: stem/answer drift"
-    bladder_cancer = groups_by_id["p27-g2"]["stems"][1]
-    assert bladder_cancer["answerMode"] == "多选" and "原位癌也可出现" in bladder_cancer["explanation"]
+    urinary_stems = groups_by_id["p27-g2"]["stems"]
+    assert urinary_stems[1]["text"] == "膀胱癌" and urinary_stems[1]["answerMode"] == "多选"
+    assert urinary_stems[3]["text"] == "泌外恶性肿瘤（多数膀胱癌、上尿路癌、肾癌等）"
+    assert urinary_stems[3]["answerMode"] == "单选"
 
     hernia_ids = {group["id"] for group in payload["groups"] if group["topic"] == "腹外疝"}
     assert hernia_ids == set(VERIFIED_HERNIA_GROUPS), f"hernia group drift: {sorted(hernia_ids)}"
