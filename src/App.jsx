@@ -786,7 +786,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   const [mnemonicFavorites, setMnemonicFavorites] = useState([])
   const searchInputRef = useRef(null)
   const [typeFilter, setTypeFilter] = useState('全部题型')
-  const [testSourceFilter, setTestSourceFilter] = useState('')
+  const [selectedTestSources, setSelectedTestSources] = useState([])
   const testSourceCategories = useMemo(() => {
     const categories = ALL_TEST_CATALOG.filter(source => source.subject === subject).map(source => source.category)
     if (XUECHENG_37_LOADERS[subject]) categories.push(XUECHENG_37_TITLE)
@@ -860,7 +860,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     }
     window.addEventListener('popstate', onPopState)
     return () => window.removeEventListener('popstate', onPopState)
-  }, [testPaper, viewMode, subject, topic, chapterId, search, typeFilter, groupIndex, jumpGroupId, favoritesOnly, keyboardStem, sidebarCollapsed, evidenceCollapsed, topbarCollapsed])
+  }, [testPaper, viewMode, subject, topic, chapterId, search, typeFilter, selectedTestSources, groupIndex, jumpGroupId, favoritesOnly, keyboardStem, sidebarCollapsed, evidenceCollapsed, topbarCollapsed])
 
   useEffect(() => {
     if (viewMode !== 'mnemonics' || memoryKind !== 'mnemonics' || mnemonicData || import.meta.env.SSR) return undefined
@@ -924,7 +924,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   function selectView(nextView, updateUrl = true) {
     let nextSubject = subject
     if (nextView !== viewMode) {
-      navigationByView.current[viewMode] = { subject, topic, chapterId, search, typeFilter, testSourceFilter, groupIndex, jumpGroupId, favoritesOnly, keyboardStem, sidebarCollapsed, evidenceCollapsed, topbarCollapsed }
+      navigationByView.current[viewMode] = { subject, topic, chapterId, search, typeFilter, selectedTestSources, groupIndex, jumpGroupId, favoritesOnly, keyboardStem, sidebarCollapsed, evidenceCollapsed, topbarCollapsed }
       if (nextView !== 'mnemonics') {
         const saved = navigationByView.current[nextView]
         nextSubject = saved?.subject || subject
@@ -933,7 +933,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
         setChapterId(saved?.chapterId || '')
         setSearch(saved?.search || '')
         setTypeFilter(saved?.typeFilter || '全部题型')
-        setTestSourceFilter(saved?.testSourceFilter || '')
+        setSelectedTestSources(saved?.selectedTestSources || [])
         setGroupIndex(saved?.groupIndex || 0)
         setJumpGroupId(saved?.jumpGroupId || '')
         setFavoritesOnly(saved?.favoritesOnly || false)
@@ -1052,14 +1052,14 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       }
       if (favoritesOnly && !favorites.includes(groupStorageKey(subject, group.id))) return false
       if (typeFilter !== '全部题型' && group.kindLabel !== typeFilter) return false
-      if (viewMode === 'tests' && testSourceFilter && testSourceCategory(group) !== testSourceFilter) return false
+      if (viewMode === 'tests' && selectedTestSources.length > 0 && !selectedTestSources.includes(testSourceCategory(group))) return false
       if (!query) return true
       const sourceTerms = viewMode === 'tests' || group.questionAuthor ? [testSourceCategory(group), group.sourceLabel, group.sourceName, group.sourceSection] : []
       const haystack = [group.title, group.topic, group.sourceText, group.promptContext, ...sourceTerms, ...(group.diseaseTags || []), ...group.options.map((item) => item.label), ...group.stems.flatMap((stem) => [stem.text, stem.sharedText, stem.sourceTextForSearch])].join(' ').toLowerCase()
       return haystack.includes(query)
     })
     return chapterId ? originalQuestionsFirst(groups) : groups
-  }, [chapterId, content, currentChapter, favorites, favoritesOnly, search, subject, topic, typeFilter, testSourceFilter, viewMode])
+  }, [chapterId, content, currentChapter, favorites, favoritesOnly, search, subject, topic, typeFilter, selectedTestSources, viewMode])
 
   useEffect(() => {
     if (!isLoadingContent && groupIndex >= filteredGroups.length) setGroupIndex(0)
@@ -1255,7 +1255,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       const editable = target?.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"]), [role="textbox"], [role="combobox"]')
       const plain = !event.altKey && !event.ctrlKey && !event.metaKey && !event.shiftKey
       const fillInput = editable?.matches('.fill-answers input') ? editable : null
-      const control = target?.closest('button, a, [role="button"]')
+      const control = target?.closest('button, a, summary, [role="button"]')
       if (control && !control.matches('.answer-chip, .question-card-bottom .primary-button, .pager-button')) return
 
       if (plain && ['a', 'd', 'w', 'e'].includes(event.key) && (!editable || fillInput)) {
@@ -1458,11 +1458,17 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     }
   }
 
+  function changeTestSources(nextSources) {
+    setSelectedTestSources(nextSources)
+    setJumpGroupId('')
+    setGroupIndex(0)
+  }
+
   function switchSubject(nextSubject) {
     if (nextSubject === subject) return
     const nextConfig = SUBJECTS[nextSubject]
     setSubject(nextSubject)
-    setTestSourceFilter('')
+    setSelectedTestSources([])
     const url = new URL(window.location.href)
     url.searchParams.set('subject', nextSubject)
     window.history.replaceState(null, '', url)
@@ -1562,7 +1568,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
               <button className="text-button directory-button" onClick={() => setSidebarCollapsed((value) => !value)}><Icon name={sidebarCollapsed ? 'right' : 'left'} size={16} />{sidebarCollapsed ? '章节' : '收起目录'}</button>
               <select value={topic} onChange={(event) => selectTopic(event.target.value)} aria-label="选择系统">{content.topics.map((item) => <option key={item}>{item}</option>)}</select>
               <select value={chapterId} onChange={(event) => event.target.value ? selectChapter(event.target.value) : selectTopic(topic)} aria-label="选择讲义章节"><option value="">全部讲义章节</option>{chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}</select>
-              {viewMode === 'tests' && <select className="test-source-filter" aria-label="题目来源" value={testSourceFilter} onChange={event => { setTestSourceFilter(event.target.value); setJumpGroupId(''); setGroupIndex(0) }}><option value="">全部来源</option>{testSourceCategories.map(category => <option key={category}>{category}</option>)}</select>}
+              {viewMode === 'tests' && <TestSourceFilter key={subject} categories={testSourceCategories} selected={selectedTestSources} onChange={changeTestSources} />}
               <button className={`text-button mobile-favorite-button ${favoritesOnly ? 'selected' : ''}`} onClick={toggleFavoriteNotebook} aria-pressed={favoritesOnly}><Icon name={favoritesOnly ? 'bookmarkFill' : 'bookmark'} size={16} />收藏本 {currentFavoriteCount}</button>
               <button className="text-button" onClick={() => setMobileEvidence((value) => !value)}>{mobileEvidence ? '隐藏讲义' : '显示讲义'} <Icon name="file" size={16} /></button>
               {filteredGroups.length > 0 && activeSystem !== '全部' ? <button className="text-button system-redo-button" onClick={redoSystem} title={`清空${activeSystem}系统全部作答，收藏和笔记保留`} aria-label={`重做${activeSystem}系统，清空全部作答`}><Icon name="redo" size={16} />重做{activeSystem}{systemAttemptedGroups ? ` · ${systemAttemptedGroups}` : ''}</button> : null}
@@ -1573,11 +1579,11 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
                 <option value="">{topic === '全部' ? '全部章节' : `${topic} · 全部章节`}</option>
                 {chapterTree.map(({ topic: system, chapters }) => chapters.length > 0 ? <optgroup key={system} label={system}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</optgroup> : null)}
               </select>
-              {viewMode === 'tests' && <select className="test-source-filter" aria-label="题目来源" value={testSourceFilter} onChange={event => { setTestSourceFilter(event.target.value); setJumpGroupId(''); setGroupIndex(0) }}><option value="">全部来源</option>{testSourceCategories.map(category => <option key={category}>{category}</option>)}</select>}
+              {viewMode === 'tests' && <TestSourceFilter key={subject} categories={testSourceCategories} selected={selectedTestSources} onChange={changeTestSources} />}
               {filteredGroups.length > 0 && activeSystem !== '全部' ? <button className="system-redo-button" onClick={redoSystem} title={`清空${activeSystem}系统全部作答，收藏和笔记保留`} aria-label={`重做${activeSystem}系统，清空全部作答`}><Icon name="redo" size={15} />重做{activeSystem}{systemAttemptedGroups ? ` · ${systemAttemptedGroups}` : ''}</button> : null}
             </div>
           </div>
-          {!filteredGroups.length && <div className="empty-state"><div className="empty-state-icon"><Icon name={favoritesOnly ? 'bookmark' : 'search'} size={22} /></div><h1>{favoritesOnly ? `${notebookName}暂无题组` : '当前筛选下没有题组'}</h1><p>{favoritesOnly ? '点击题组右上角的“收藏”后，它会自动进入当前科目与章节的收藏本。' : '请尝试清除搜索词、切换章节或选择其他题型。'}</p><button className="primary-button" onClick={favoritesOnly ? showAllGroupsInChapter : () => { setTopic('全部'); setChapterId(''); setJumpGroupId(''); setSearch(''); setTypeFilter('全部题型'); setTestSourceFilter(''); setGroupIndex(0) }}>{favoritesOnly ? '返回本章全部题组' : '显示全部题库'} <Icon name="arrow" size={17} /></button></div>}
+          {!filteredGroups.length && <div className="empty-state"><div className="empty-state-icon"><Icon name={favoritesOnly ? 'bookmark' : 'search'} size={22} /></div><h1>{favoritesOnly ? `${notebookName}暂无题组` : '当前筛选下没有题组'}</h1><p>{favoritesOnly ? '点击题组右上角的“收藏”后，它会自动进入当前科目与章节的收藏本。' : '请尝试清除搜索词、切换章节或选择其他题型。'}</p><button className="primary-button" onClick={favoritesOnly ? showAllGroupsInChapter : () => { setTopic('全部'); setChapterId(''); setJumpGroupId(''); setSearch(''); setTypeFilter('全部题型'); setSelectedTestSources([]); setGroupIndex(0) }}>{favoritesOnly ? '返回本章全部题组' : '显示全部题库'} <Icon name="arrow" size={17} /></button></div>}
           {filteredGroups.length > 0 && <div className={`study-content ${group.originalMatching ? 'original-matching' : ''}`} data-study-content>
           {favoritesOnly && <div className="favorite-notebook-banner"><span className="favorite-notebook-icon"><Icon name="bookmarkFill" size={18} /></span><div><strong>{notebookName}</strong><small>正在复习已收藏题组 · 共 {filteredGroups.length} 组</small></div><button onClick={showAllGroupsInChapter}>退出收藏本</button></div>}
           <div className="breadcrumb"><span>{group.topic || '综合'}</span>{currentChapter ? <><Icon name="chevron" size={13} /><span>{currentChapter.title}</span></> : null}<Icon name="chevron" size={13} /><span>{viewMode === 'tests' ? testSourceCategory(group) || '补充练习' : group.questionAuthor ? group.kindLabel : group.supplement ? '教师补充' : group.kindLabel}</span>{group.hideSource ? null : <><Icon name="chevron" size={13} /><strong>原题第 {group.page} 页</strong></>}</div>
@@ -1623,6 +1629,48 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
         <span>网站制作by戒不掉甜食</span>
       </div>
     </div>
+  )
+}
+
+function TestSourceFilter({ categories, selected, onChange }) {
+  const menuRef = useRef(null)
+
+  useEffect(() => {
+    function closeOutside(event) {
+      const menu = menuRef.current
+      if (menu?.open && !menu.contains(event.target)) menu.open = false
+    }
+    document.addEventListener('pointerdown', closeOutside)
+    return () => document.removeEventListener('pointerdown', closeOutside)
+  }, [])
+
+  function closeOnEscape(event) {
+    if (event.key !== 'Escape' || !event.currentTarget.open) return
+    event.preventDefault()
+    event.currentTarget.open = false
+    event.currentTarget.querySelector('summary').focus()
+  }
+
+  const label = selected.length ? `已选 ${selected.length} 个来源` : '全部来源'
+  return (
+    <details className="test-source-filter" ref={menuRef} onKeyDown={closeOnEscape}>
+      <summary aria-label={`题目来源，${label}`}>{label}</summary>
+      <div className="test-source-options" role="group" aria-label="筛选题目来源">
+        <button type="button" aria-pressed={selected.length === 0} onClick={() => onChange([])}>全部来源</button>
+        {categories.map(category => (
+          <label key={category}>
+            <input
+              type="checkbox"
+              checked={selected.includes(category)}
+              onChange={event => onChange(event.target.checked
+                ? [...selected, category]
+                : selected.filter(source => source !== category))}
+            />
+            {category}
+          </label>
+        ))}
+      </div>
+    </details>
   )
 }
 
