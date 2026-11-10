@@ -811,8 +811,6 @@ def apply_manual_repairs(groups: list[dict]) -> list[dict]:
             }]
         if group_id == "p27-g2":
             # Keep sourceText as the record of the original question and key.
-            options = {option["key"]: option for option in group["options"]}
-            options["A"]["label"] = "无痛肉眼血尿"
             stems = {stem["text"]: stem for stem in group["stems"]}
             stems["膀胱癌"].update(
                 answer=["A", "B"],
