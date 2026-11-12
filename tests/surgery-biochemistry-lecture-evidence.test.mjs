@@ -16,6 +16,7 @@ const biochemistry=collect('biochemistry')
 const reviewedSurgery=read('surgery-remaining-reviewed-lecture-evidence')
 const reviewedBiochemistry=read('biochemistry-reviewed-lecture-evidence')
 const reviewedOrtho=read('surgery-ortho-reviewed-lecture-evidence')
+const biochemistryCollection='27生化跟课版合集【带导图】.pdf'
 const strip=({lectureEvidence,lectureEvidencePages,lectureEvidenceNotice,...rest})=>({...rest,...(rest.stems ? {stems:rest.stems.map(strip)} : {})})
 for (const [subject,groups,review,count,stems] of [
  ['surgery',surgery,reviewedSurgery,343,1025],
@@ -39,7 +40,7 @@ for (const [subject,groups,review,count,stems] of [
   }
  })
  test(`${subject}: every source page is bounded and backed by a genuine AVIF file`,()=>{
-  const bounds={'27 外科跟课合集【带导图】.pdf':286,'27跟课版内科合集【带导图】.pdf':482,'【精编版】生化合集.pdf':183,'27生化跟课版合集【带导图】.pdf':193}
+  const bounds={'27 外科跟课合集【带导图】.pdf':286,'27跟课版内科合集【带导图】.pdf':482,[biochemistryCollection]:193}
   for(const p of Object.values(review.pages)){
    assert.ok(bounds[p.sourceFile],p.sourceFile)
    assert.ok(p.page>=1&&p.page<=bounds[p.sourceFile],p.image)
@@ -57,11 +58,32 @@ test('orthopedic and other surgery reviews coexist across all surgery sources',(
  const caseGroup=result.groups.find(g=>g.id==='surgery-teacher-02-02-03')
  assert.ok(caseGroup.lectureEvidencePages.some(p=>p.sourceSubject==='med'&&p.lectureNumber===13))
 })
-test('biochemistry favors the selected precise collection and the small-gene and DNA rows have knowledge pages',()=>{
- assert.equal(reviewedBiochemistry.sourceFile,'【精编版】生化合集.pdf')
- assert.ok(Object.values(reviewedBiochemistry.pages).filter(p=>p.sourceFile===reviewedBiochemistry.sourceFile).length>=100)
- assert.ok(Object.values(reviewedBiochemistry.pages).some(p=>p.page===90))
- assert.ok(Object.values(reviewedBiochemistry.pages).some(p=>p.page===183))
+test('biochemistry uses the collection with mind maps for question groups and both imported exams',()=>{
+ assert.equal(reviewedBiochemistry.sourceFile,biochemistryCollection)
+ const pages=Object.values(reviewedBiochemistry.pages)
+ assert.ok(pages.every(p=>p.sourceFile===biochemistryCollection))
+ assert.ok(pages.some(p=>p.page===105))
+ assert.ok(pages.some(p=>p.page===193))
+ const assetByPage=new Map(pages.map(p=>[p.page,p.image]))
+ const additionalQuestions=read('biochemistry-xuecheng-37-data')
+ assert.deepEqual(additionalQuestions.map(group=>group.lectureEvidence.page),[6,6,7,9])
+ for(const group of additionalQuestions){
+  assert.deepEqual(group.lectureEvidencePages,[group.lectureEvidence],group.id)
+  assert.equal(group.lectureEvidence.sourceFile,biochemistryCollection,group.id)
+  assert.equal(group.lectureEvidence.image,assetByPage.get(group.lectureEvidence.page),group.id)
+ }
+ for(const name of ['biochemistry-foundation-mock-exam-data','biochemistry-sprint-exam-data']){
+  for(const group of read(name).groups){
+   assert.deepEqual(group.lectureEvidence,group.lectureEvidencePages[0],group.id)
+   for(const stem of group.stems)assert.deepEqual(stem.lectureEvidencePages,group.lectureEvidencePages,group.id)
+   const evidence=group.lectureEvidencePages.filter(p=>p.sourceFile)
+   assert.ok(evidence.length,group.id)
+   for(const p of evidence){
+    assert.equal(p.sourceFile,biochemistryCollection,group.id)
+    assert.equal(p.image,assetByPage.get(p.page),group.id)
+   }
+  }
+ }
 })
 
 test('TNM knowledge on mixed exam/summary pages and the adult-heart supplement are retained',()=>{
@@ -73,5 +95,5 @@ test('TNM knowledge on mixed exam/summary pages and the adult-heart supplement a
  }
  const biochemistryResult=applyReviewedEvidence({groups:biochemistry},reviewedBiochemistry)
  const exam=biochemistryResult.groups.find(g=>g.id==='biochemistry-stage-exam-2026-10-q006')
- assert.ok(exam.lectureEvidencePages.some(p=>p.sourceFile==='27生化跟课版合集【带导图】.pdf'&&p.page===45))
+ assert.ok(exam.lectureEvidencePages.some(p=>p.sourceFile===biochemistryCollection&&p.page===45))
 })

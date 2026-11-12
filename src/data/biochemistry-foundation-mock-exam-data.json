@@ -75,11 +75,11 @@
             {
               "lectureId": "foundation-biochemistry-08",
               "sourceSubject": "biochemistry",
-              "sourceFile": "【精编版】生化合集.pdf",
-              "page": 51,
-              "pageLabel": "PDF第51页",
-              "title": "【精编版】生化合集 · 第51页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p051.webp",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 67,
+              "pageLabel": "带导图合集 · PDF第67页",
+              "title": "生化带导图合集 · PDF第67页",
+              "image": "site-assets/biochemistry-collection/page-067.avif",
               "questionNumbers": [
                 17
               ],
@@ -98,11 +98,11 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-08",
         "sourceSubject": "biochemistry",
-        "sourceFile": "【精编版】生化合集.pdf",
-        "page": 51,
-        "pageLabel": "PDF第51页",
-        "title": "【精编版】生化合集 · 第51页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p051.webp",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 67,
+        "pageLabel": "带导图合集 · PDF第67页",
+        "title": "生化带导图合集 · PDF第67页",
+        "image": "site-assets/biochemistry-collection/page-067.avif",
         "questionNumbers": [
           17
         ],
@@ -115,11 +115,11 @@
         {
           "lectureId": "foundation-biochemistry-08",
           "sourceSubject": "biochemistry",
-          "sourceFile": "【精编版】生化合集.pdf",
-          "page": 51,
-          "pageLabel": "PDF第51页",
-          "title": "【精编版】生化合集 · 第51页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p051.webp",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 67,
+          "pageLabel": "带导图合集 · PDF第67页",
+          "title": "生化带导图合集 · PDF第67页",
+          "image": "site-assets/biochemistry-collection/page-067.avif",
           "questionNumbers": [
             17
           ],
@@ -196,12 +196,12 @@
             {
               "lectureId": "foundation-biochemistry-15",
               "sourceSubject": "biochemistry",
-              "sourceFile": "15 27考研：生化 核酸 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 2,
-              "pageLabel": "PDF第2页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 121,
+              "pageLabel": "带导图合集 · PDF第121页",
               "lectureNumber": 15,
-              "title": "生化 核酸 · 第2页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-1a6cf37315-p002.webp",
+              "title": "生化带导图合集 · PDF第121页",
+              "image": "site-assets/biochemistry-collection/page-121.avif",
               "questionNumbers": [
                 18
               ],
@@ -213,12 +213,12 @@
             {
               "lectureId": "foundation-biochemistry-15",
               "sourceSubject": "biochemistry",
-              "sourceFile": "15 27考研：生化 核酸 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 3,
-              "pageLabel": "PDF第3页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 122,
+              "pageLabel": "带导图合集 · PDF第122页",
               "lectureNumber": 15,
-              "title": "生化 核酸 · 第3页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-1a6cf37315-p003.webp",
+              "title": "生化带导图合集 · PDF第122页",
+              "image": "site-assets/biochemistry-collection/page-122.avif",
               "questionNumbers": [
                 18
               ],
@@ -237,12 +237,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-15",
         "sourceSubject": "biochemistry",
-        "sourceFile": "15 27考研：生化 核酸 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 2,
-        "pageLabel": "PDF第2页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 121,
+        "pageLabel": "带导图合集 · PDF第121页",
         "lectureNumber": 15,
-        "title": "生化 核酸 · 第2页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-1a6cf37315-p002.webp",
+        "title": "生化带导图合集 · PDF第121页",
+        "image": "site-assets/biochemistry-collection/page-121.avif",
         "questionNumbers": [
           18
         ],
@@ -255,12 +255,12 @@
         {
           "lectureId": "foundation-biochemistry-15",
           "sourceSubject": "biochemistry",
-          "sourceFile": "15 27考研：生化 核酸 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 121,
+          "pageLabel": "带导图合集 · PDF第121页",
           "lectureNumber": 15,
-          "title": "生化 核酸 · 第2页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-1a6cf37315-p002.webp",
+          "title": "生化带导图合集 · PDF第121页",
+          "image": "site-assets/biochemistry-collection/page-121.avif",
           "questionNumbers": [
             18
           ],
@@ -272,12 +272,12 @@
         {
           "lectureId": "foundation-biochemistry-15",
           "sourceSubject": "biochemistry",
-          "sourceFile": "15 27考研：生化 核酸 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 3,
-          "pageLabel": "PDF第3页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 122,
+          "pageLabel": "带导图合集 · PDF第122页",
           "lectureNumber": 15,
-          "title": "生化 核酸 · 第3页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-1a6cf37315-p003.webp",
+          "title": "生化带导图合集 · PDF第122页",
+          "image": "site-assets/biochemistry-collection/page-122.avif",
           "questionNumbers": [
             18
           ],
@@ -354,12 +354,12 @@
             {
               "lectureId": "foundation-biochemistry-12",
               "sourceSubject": "biochemistry",
-              "sourceFile": "12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 1,
-              "pageLabel": "PDF第1页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 94,
+              "pageLabel": "带导图合集 · PDF第94页",
               "lectureNumber": 12,
-              "title": "生化 酶 · 第1页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-e1750fc190-p001.webp",
+              "title": "生化带导图合集 · PDF第94页",
+              "image": "site-assets/biochemistry-collection/page-094.avif",
               "questionNumbers": [
                 19
               ],
@@ -371,12 +371,12 @@
             {
               "lectureId": "foundation-biochemistry-12",
               "sourceSubject": "biochemistry",
-              "sourceFile": "13 27考研：生化 维生素 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 2,
-              "pageLabel": "PDF第2页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 107,
+              "pageLabel": "带导图合集 · PDF第107页",
               "lectureNumber": 13,
-              "title": "生化 维生素 · 第2页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-8237f63f81-p002.webp",
+              "title": "生化带导图合集 · PDF第107页",
+              "image": "site-assets/biochemistry-collection/page-107.avif",
               "questionNumbers": [
                 19
               ],
@@ -395,12 +395,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-12",
         "sourceSubject": "biochemistry",
-        "sourceFile": "12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 1,
-        "pageLabel": "PDF第1页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 94,
+        "pageLabel": "带导图合集 · PDF第94页",
         "lectureNumber": 12,
-        "title": "生化 酶 · 第1页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-e1750fc190-p001.webp",
+        "title": "生化带导图合集 · PDF第94页",
+        "image": "site-assets/biochemistry-collection/page-094.avif",
         "questionNumbers": [
           19
         ],
@@ -413,12 +413,12 @@
         {
           "lectureId": "foundation-biochemistry-12",
           "sourceSubject": "biochemistry",
-          "sourceFile": "12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 94,
+          "pageLabel": "带导图合集 · PDF第94页",
           "lectureNumber": 12,
-          "title": "生化 酶 · 第1页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-e1750fc190-p001.webp",
+          "title": "生化带导图合集 · PDF第94页",
+          "image": "site-assets/biochemistry-collection/page-094.avif",
           "questionNumbers": [
             19
           ],
@@ -430,12 +430,12 @@
         {
           "lectureId": "foundation-biochemistry-12",
           "sourceSubject": "biochemistry",
-          "sourceFile": "13 27考研：生化 维生素 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 107,
+          "pageLabel": "带导图合集 · PDF第107页",
           "lectureNumber": 13,
-          "title": "生化 维生素 · 第2页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-8237f63f81-p002.webp",
+          "title": "生化带导图合集 · PDF第107页",
+          "image": "site-assets/biochemistry-collection/page-107.avif",
           "questionNumbers": [
             19
           ],
@@ -512,12 +512,12 @@
             {
               "lectureId": "foundation-biochemistry-01",
               "sourceSubject": "biochemistry",
-              "sourceFile": "06 27考研：生化 脂肪代谢 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 1,
-              "pageLabel": "PDF第1页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 43,
+              "pageLabel": "带导图合集 · PDF第43页",
               "lectureNumber": 6,
-              "title": "生化 脂肪代谢 · 第1页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-c35a2b29d1-p001.webp",
+              "title": "生化带导图合集 · PDF第43页",
+              "image": "site-assets/biochemistry-collection/page-043.avif",
               "questionNumbers": [
                 20
               ],
@@ -536,12 +536,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-01",
         "sourceSubject": "biochemistry",
-        "sourceFile": "06 27考研：生化 脂肪代谢 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 1,
-        "pageLabel": "PDF第1页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 43,
+        "pageLabel": "带导图合集 · PDF第43页",
         "lectureNumber": 6,
-        "title": "生化 脂肪代谢 · 第1页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-c35a2b29d1-p001.webp",
+        "title": "生化带导图合集 · PDF第43页",
+        "image": "site-assets/biochemistry-collection/page-043.avif",
         "questionNumbers": [
           20
         ],
@@ -554,12 +554,12 @@
         {
           "lectureId": "foundation-biochemistry-01",
           "sourceSubject": "biochemistry",
-          "sourceFile": "06 27考研：生化 脂肪代谢 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 43,
+          "pageLabel": "带导图合集 · PDF第43页",
           "lectureNumber": 6,
-          "title": "生化 脂肪代谢 · 第1页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-c35a2b29d1-p001.webp",
+          "title": "生化带导图合集 · PDF第43页",
+          "image": "site-assets/biochemistry-collection/page-043.avif",
           "questionNumbers": [
             20
           ],
@@ -636,12 +636,12 @@
             {
               "lectureId": "foundation-biochemistry-04",
               "sourceSubject": "biochemistry",
-              "sourceFile": "04 27考研：生化 血浆脂蛋白 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 2,
-              "pageLabel": "PDF第2页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 33,
+              "pageLabel": "带导图合集 · PDF第33页",
               "lectureNumber": 4,
-              "title": "生化 血浆脂蛋白 · 第2页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-d336c36d07-p002.webp",
+              "title": "生化带导图合集 · PDF第33页",
+              "image": "site-assets/biochemistry-collection/page-033.avif",
               "questionNumbers": [
                 21
               ],
@@ -660,12 +660,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-04",
         "sourceSubject": "biochemistry",
-        "sourceFile": "04 27考研：生化 血浆脂蛋白 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 2,
-        "pageLabel": "PDF第2页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 33,
+        "pageLabel": "带导图合集 · PDF第33页",
         "lectureNumber": 4,
-        "title": "生化 血浆脂蛋白 · 第2页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-d336c36d07-p002.webp",
+        "title": "生化带导图合集 · PDF第33页",
+        "image": "site-assets/biochemistry-collection/page-033.avif",
         "questionNumbers": [
           21
         ],
@@ -678,12 +678,12 @@
         {
           "lectureId": "foundation-biochemistry-04",
           "sourceSubject": "biochemistry",
-          "sourceFile": "04 27考研：生化 血浆脂蛋白 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 33,
+          "pageLabel": "带导图合集 · PDF第33页",
           "lectureNumber": 4,
-          "title": "生化 血浆脂蛋白 · 第2页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-d336c36d07-p002.webp",
+          "title": "生化带导图合集 · PDF第33页",
+          "image": "site-assets/biochemistry-collection/page-033.avif",
           "questionNumbers": [
             21
           ],
@@ -760,12 +760,12 @@
             {
               "lectureId": "foundation-biochemistry-07",
               "sourceSubject": "biochemistry",
-              "sourceFile": "07 27考研：生化 氨基酸代谢 & 氨基酸 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 2,
-              "pageLabel": "PDF第2页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 54,
+              "pageLabel": "带导图合集 · PDF第54页",
               "lectureNumber": 7,
-              "title": "生化 氨基酸代谢 & 氨基酸 · 第2页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-f7d8afad51-p002.webp",
+              "title": "生化带导图合集 · PDF第54页",
+              "image": "site-assets/biochemistry-collection/page-054.avif",
               "questionNumbers": [
                 22
               ],
@@ -784,12 +784,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-07",
         "sourceSubject": "biochemistry",
-        "sourceFile": "07 27考研：生化 氨基酸代谢 & 氨基酸 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 2,
-        "pageLabel": "PDF第2页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 54,
+        "pageLabel": "带导图合集 · PDF第54页",
         "lectureNumber": 7,
-        "title": "生化 氨基酸代谢 & 氨基酸 · 第2页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-f7d8afad51-p002.webp",
+        "title": "生化带导图合集 · PDF第54页",
+        "image": "site-assets/biochemistry-collection/page-054.avif",
         "questionNumbers": [
           22
         ],
@@ -802,12 +802,12 @@
         {
           "lectureId": "foundation-biochemistry-07",
           "sourceSubject": "biochemistry",
-          "sourceFile": "07 27考研：生化 氨基酸代谢 & 氨基酸 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 54,
+          "pageLabel": "带导图合集 · PDF第54页",
           "lectureNumber": 7,
-          "title": "生化 氨基酸代谢 & 氨基酸 · 第2页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-f7d8afad51-p002.webp",
+          "title": "生化带导图合集 · PDF第54页",
+          "image": "site-assets/biochemistry-collection/page-054.avif",
           "questionNumbers": [
             22
           ],
@@ -884,12 +884,12 @@
             {
               "lectureId": "foundation-biochemistry-16",
               "sourceSubject": "biochemistry",
-              "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 2,
-              "pageLabel": "PDF第2页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 133,
+              "pageLabel": "带导图合集 · PDF第133页",
               "lectureNumber": 16,
-              "title": "生化 DNA的合成 · 第2页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-bacc8b791a-p002.webp",
+              "title": "生化带导图合集 · PDF第133页",
+              "image": "site-assets/biochemistry-collection/page-133.avif",
               "questionNumbers": [
                 23
               ],
@@ -901,12 +901,12 @@
             {
               "lectureId": "foundation-biochemistry-16",
               "sourceSubject": "biochemistry",
-              "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 8,
-              "pageLabel": "PDF第8页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 139,
+              "pageLabel": "带导图合集 · PDF第139页",
               "lectureNumber": 16,
-              "title": "生化 DNA的合成 · 第8页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-bacc8b791a-p008.webp",
+              "title": "生化带导图合集 · PDF第139页",
+              "image": "site-assets/biochemistry-collection/page-139.avif",
               "questionNumbers": [
                 23
               ],
@@ -925,12 +925,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-16",
         "sourceSubject": "biochemistry",
-        "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 2,
-        "pageLabel": "PDF第2页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 133,
+        "pageLabel": "带导图合集 · PDF第133页",
         "lectureNumber": 16,
-        "title": "生化 DNA的合成 · 第2页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-bacc8b791a-p002.webp",
+        "title": "生化带导图合集 · PDF第133页",
+        "image": "site-assets/biochemistry-collection/page-133.avif",
         "questionNumbers": [
           23
         ],
@@ -943,12 +943,12 @@
         {
           "lectureId": "foundation-biochemistry-16",
           "sourceSubject": "biochemistry",
-          "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 133,
+          "pageLabel": "带导图合集 · PDF第133页",
           "lectureNumber": 16,
-          "title": "生化 DNA的合成 · 第2页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-bacc8b791a-p002.webp",
+          "title": "生化带导图合集 · PDF第133页",
+          "image": "site-assets/biochemistry-collection/page-133.avif",
           "questionNumbers": [
             23
           ],
@@ -960,12 +960,12 @@
         {
           "lectureId": "foundation-biochemistry-16",
           "sourceSubject": "biochemistry",
-          "sourceFile": "16 27考研：生化 DNA的合成 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 8,
-          "pageLabel": "PDF第8页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 139,
+          "pageLabel": "带导图合集 · PDF第139页",
           "lectureNumber": 16,
-          "title": "生化 DNA的合成 · 第8页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-bacc8b791a-p008.webp",
+          "title": "生化带导图合集 · PDF第139页",
+          "image": "site-assets/biochemistry-collection/page-139.avif",
           "questionNumbers": [
             23
           ],
@@ -1042,12 +1042,12 @@
             {
               "lectureId": "foundation-biochemistry-17",
               "sourceSubject": "biochemistry",
-              "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 5,
-              "pageLabel": "PDF第5页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 150,
+              "pageLabel": "带导图合集 · PDF第150页",
               "lectureNumber": 17,
-              "title": "生化 转录 · 第5页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-07851e4590-p005.webp",
+              "title": "生化带导图合集 · PDF第150页",
+              "image": "site-assets/biochemistry-collection/page-150.avif",
               "questionNumbers": [
                 24
               ],
@@ -1066,12 +1066,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-17",
         "sourceSubject": "biochemistry",
-        "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 5,
-        "pageLabel": "PDF第5页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 150,
+        "pageLabel": "带导图合集 · PDF第150页",
         "lectureNumber": 17,
-        "title": "生化 转录 · 第5页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-07851e4590-p005.webp",
+        "title": "生化带导图合集 · PDF第150页",
+        "image": "site-assets/biochemistry-collection/page-150.avif",
         "questionNumbers": [
           24
         ],
@@ -1084,12 +1084,12 @@
         {
           "lectureId": "foundation-biochemistry-17",
           "sourceSubject": "biochemistry",
-          "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 5,
-          "pageLabel": "PDF第5页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 150,
+          "pageLabel": "带导图合集 · PDF第150页",
           "lectureNumber": 17,
-          "title": "生化 转录 · 第5页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-07851e4590-p005.webp",
+          "title": "生化带导图合集 · PDF第150页",
+          "image": "site-assets/biochemistry-collection/page-150.avif",
           "questionNumbers": [
             24
           ],
@@ -1166,12 +1166,12 @@
             {
               "lectureId": "foundation-biochemistry-17",
               "sourceSubject": "biochemistry",
-              "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 3,
-              "pageLabel": "PDF第3页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 148,
+              "pageLabel": "带导图合集 · PDF第148页",
               "lectureNumber": 17,
-              "title": "生化 转录 · 第3页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-07851e4590-p003.webp",
+              "title": "生化带导图合集 · PDF第148页",
+              "image": "site-assets/biochemistry-collection/page-148.avif",
               "questionNumbers": [
                 25
               ],
@@ -1183,12 +1183,12 @@
             {
               "lectureId": "foundation-biochemistry-17",
               "sourceSubject": "biochemistry",
-              "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 4,
-              "pageLabel": "PDF第4页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 149,
+              "pageLabel": "带导图合集 · PDF第149页",
               "lectureNumber": 17,
-              "title": "生化 转录 · 第4页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-07851e4590-p004.webp",
+              "title": "生化带导图合集 · PDF第149页",
+              "image": "site-assets/biochemistry-collection/page-149.avif",
               "questionNumbers": [
                 25
               ],
@@ -1207,12 +1207,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-17",
         "sourceSubject": "biochemistry",
-        "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 3,
-        "pageLabel": "PDF第3页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 148,
+        "pageLabel": "带导图合集 · PDF第148页",
         "lectureNumber": 17,
-        "title": "生化 转录 · 第3页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-07851e4590-p003.webp",
+        "title": "生化带导图合集 · PDF第148页",
+        "image": "site-assets/biochemistry-collection/page-148.avif",
         "questionNumbers": [
           25
         ],
@@ -1225,12 +1225,12 @@
         {
           "lectureId": "foundation-biochemistry-17",
           "sourceSubject": "biochemistry",
-          "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 3,
-          "pageLabel": "PDF第3页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 148,
+          "pageLabel": "带导图合集 · PDF第148页",
           "lectureNumber": 17,
-          "title": "生化 转录 · 第3页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-07851e4590-p003.webp",
+          "title": "生化带导图合集 · PDF第148页",
+          "image": "site-assets/biochemistry-collection/page-148.avif",
           "questionNumbers": [
             25
           ],
@@ -1242,12 +1242,12 @@
         {
           "lectureId": "foundation-biochemistry-17",
           "sourceSubject": "biochemistry",
-          "sourceFile": "17 27考研：生化 转录 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 4,
-          "pageLabel": "PDF第4页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 149,
+          "pageLabel": "带导图合集 · PDF第149页",
           "lectureNumber": 17,
-          "title": "生化 转录 · 第4页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-07851e4590-p004.webp",
+          "title": "生化带导图合集 · PDF第149页",
+          "image": "site-assets/biochemistry-collection/page-149.avif",
           "questionNumbers": [
             25
           ],
@@ -1324,12 +1324,12 @@
             {
               "lectureId": "foundation-biochemistry-19",
               "sourceSubject": "biochemistry",
-              "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 1,
-              "pageLabel": "PDF第1页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 172,
+              "pageLabel": "带导图合集 · PDF第172页",
               "lectureNumber": 19,
-              "title": "生化 基因表达调控 · 第1页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p001.webp",
+              "title": "生化带导图合集 · PDF第172页",
+              "image": "site-assets/biochemistry-collection/page-172.avif",
               "questionNumbers": [
                 26
               ],
@@ -1348,12 +1348,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-19",
         "sourceSubject": "biochemistry",
-        "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 1,
-        "pageLabel": "PDF第1页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 172,
+        "pageLabel": "带导图合集 · PDF第172页",
         "lectureNumber": 19,
-        "title": "生化 基因表达调控 · 第1页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p001.webp",
+        "title": "生化带导图合集 · PDF第172页",
+        "image": "site-assets/biochemistry-collection/page-172.avif",
         "questionNumbers": [
           26
         ],
@@ -1366,12 +1366,12 @@
         {
           "lectureId": "foundation-biochemistry-19",
           "sourceSubject": "biochemistry",
-          "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 172,
+          "pageLabel": "带导图合集 · PDF第172页",
           "lectureNumber": 19,
-          "title": "生化 基因表达调控 · 第1页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p001.webp",
+          "title": "生化带导图合集 · PDF第172页",
+          "image": "site-assets/biochemistry-collection/page-172.avif",
           "questionNumbers": [
             26
           ],
@@ -1448,11 +1448,28 @@
             {
               "lectureId": "foundation-biochemistry-14",
               "sourceSubject": "biochemistry",
-              "sourceFile": "【精编版】生化合集.pdf",
-              "page": 110,
-              "pageLabel": "PDF第110页",
-              "title": "【精编版】生化合集 · 第110页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p110.webp",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 111,
+              "pageLabel": "带导图合集 · PDF第111页",
+              "title": "生化带导图合集 · PDF第111页",
+              "image": "site-assets/biochemistry-collection/page-111.avif",
+              "questionNumbers": [
+                27
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "逆转录病毒RNA先逆转录为DNA，再形成可整合的双链DNA。",
+                "基因重组的克隆载体与基因治疗递送载体用途不同；整合也须联系插入突变风险。"
+              ]
+            },
+            {
+              "lectureId": "foundation-biochemistry-14",
+              "sourceSubject": "biochemistry",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 141,
+              "pageLabel": "带导图合集 · PDF第141页",
+              "title": "生化带导图合集 · PDF第141页",
+              "image": "site-assets/biochemistry-collection/page-141.avif",
               "questionNumbers": [
                 27
               ],
@@ -1472,11 +1489,11 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-14",
         "sourceSubject": "biochemistry",
-        "sourceFile": "【精编版】生化合集.pdf",
-        "page": 110,
-        "pageLabel": "PDF第110页",
-        "title": "【精编版】生化合集 · 第110页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p110.webp",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 111,
+        "pageLabel": "带导图合集 · PDF第111页",
+        "title": "生化带导图合集 · PDF第111页",
+        "image": "site-assets/biochemistry-collection/page-111.avif",
         "questionNumbers": [
           27
         ],
@@ -1490,11 +1507,28 @@
         {
           "lectureId": "foundation-biochemistry-14",
           "sourceSubject": "biochemistry",
-          "sourceFile": "【精编版】生化合集.pdf",
-          "page": 110,
-          "pageLabel": "PDF第110页",
-          "title": "【精编版】生化合集 · 第110页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p110.webp",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 111,
+          "pageLabel": "带导图合集 · PDF第111页",
+          "title": "生化带导图合集 · PDF第111页",
+          "image": "site-assets/biochemistry-collection/page-111.avif",
+          "questionNumbers": [
+            27
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "逆转录病毒RNA先逆转录为DNA，再形成可整合的双链DNA。",
+            "基因重组的克隆载体与基因治疗递送载体用途不同；整合也须联系插入突变风险。"
+          ]
+        },
+        {
+          "lectureId": "foundation-biochemistry-14",
+          "sourceSubject": "biochemistry",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 141,
+          "pageLabel": "带导图合集 · PDF第141页",
+          "title": "生化带导图合集 · PDF第141页",
+          "image": "site-assets/biochemistry-collection/page-141.avif",
           "questionNumbers": [
             27
           ],
@@ -1572,11 +1606,11 @@
             {
               "lectureId": "foundation-biochemistry-08",
               "sourceSubject": "biochemistry",
-              "sourceFile": "【精编版】生化合集.pdf",
-              "page": 51,
-              "pageLabel": "PDF第51页",
-              "title": "【精编版】生化合集 · 第51页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p051.webp",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 69,
+              "pageLabel": "带导图合集 · PDF第69页",
+              "title": "生化带导图合集 · PDF第69页",
+              "image": "site-assets/biochemistry-collection/page-069.avif",
               "questionNumbers": [
                 28
               ],
@@ -1588,11 +1622,11 @@
             {
               "lectureId": "foundation-biochemistry-08",
               "sourceSubject": "biochemistry",
-              "sourceFile": "【精编版】生化合集.pdf",
-              "page": 56,
-              "pageLabel": "PDF第56页",
-              "title": "【精编版】生化合集 · 第56页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p056.webp",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 74,
+              "pageLabel": "带导图合集 · PDF第74页",
+              "title": "生化带导图合集 · PDF第74页",
+              "image": "site-assets/biochemistry-collection/page-074.avif",
               "questionNumbers": [
                 28
               ],
@@ -1611,11 +1645,11 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-08",
         "sourceSubject": "biochemistry",
-        "sourceFile": "【精编版】生化合集.pdf",
-        "page": 51,
-        "pageLabel": "PDF第51页",
-        "title": "【精编版】生化合集 · 第51页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p051.webp",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 69,
+        "pageLabel": "带导图合集 · PDF第69页",
+        "title": "生化带导图合集 · PDF第69页",
+        "image": "site-assets/biochemistry-collection/page-069.avif",
         "questionNumbers": [
           28
         ],
@@ -1628,11 +1662,11 @@
         {
           "lectureId": "foundation-biochemistry-08",
           "sourceSubject": "biochemistry",
-          "sourceFile": "【精编版】生化合集.pdf",
-          "page": 51,
-          "pageLabel": "PDF第51页",
-          "title": "【精编版】生化合集 · 第51页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p051.webp",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 69,
+          "pageLabel": "带导图合集 · PDF第69页",
+          "title": "生化带导图合集 · PDF第69页",
+          "image": "site-assets/biochemistry-collection/page-069.avif",
           "questionNumbers": [
             28
           ],
@@ -1644,11 +1678,11 @@
         {
           "lectureId": "foundation-biochemistry-08",
           "sourceSubject": "biochemistry",
-          "sourceFile": "【精编版】生化合集.pdf",
-          "page": 56,
-          "pageLabel": "PDF第56页",
-          "title": "【精编版】生化合集 · 第56页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p056.webp",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 74,
+          "pageLabel": "带导图合集 · PDF第74页",
+          "title": "生化带导图合集 · PDF第74页",
+          "image": "site-assets/biochemistry-collection/page-074.avif",
           "questionNumbers": [
             28
           ],
@@ -1725,12 +1759,12 @@
             {
               "lectureId": "foundation-biochemistry-02",
               "sourceSubject": "biochemistry",
-              "sourceFile": "01 27考研：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 5,
-              "pageLabel": "PDF第5页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 7,
+              "pageLabel": "带导图合集 · PDF第7页",
               "lectureNumber": 1,
-              "title": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 · 第5页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-cce9937b13-p005.webp",
+              "title": "生化带导图合集 · PDF第7页",
+              "image": "site-assets/biochemistry-collection/page-007.avif",
               "questionNumbers": [
                 120
               ],
@@ -1742,12 +1776,12 @@
             {
               "lectureId": "foundation-biochemistry-02",
               "sourceSubject": "biochemistry",
-              "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 2,
-              "pageLabel": "PDF第2页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 24,
+              "pageLabel": "带导图合集 · PDF第24页",
               "lectureNumber": 2,
-              "title": "生化 氧化磷酸化 · 第2页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-e3cc083b30-p002.webp",
+              "title": "生化带导图合集 · PDF第24页",
+              "image": "site-assets/biochemistry-collection/page-024.avif",
               "questionNumbers": [
                 120
               ],
@@ -1766,12 +1800,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-02",
         "sourceSubject": "biochemistry",
-        "sourceFile": "01 27考研：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 5,
-        "pageLabel": "PDF第5页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 7,
+        "pageLabel": "带导图合集 · PDF第7页",
         "lectureNumber": 1,
-        "title": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 · 第5页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-cce9937b13-p005.webp",
+        "title": "生化带导图合集 · PDF第7页",
+        "image": "site-assets/biochemistry-collection/page-007.avif",
         "questionNumbers": [
           120
         ],
@@ -1784,12 +1818,12 @@
         {
           "lectureId": "foundation-biochemistry-02",
           "sourceSubject": "biochemistry",
-          "sourceFile": "01 27考研：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 5,
-          "pageLabel": "PDF第5页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 7,
+          "pageLabel": "带导图合集 · PDF第7页",
           "lectureNumber": 1,
-          "title": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 · 第5页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-cce9937b13-p005.webp",
+          "title": "生化带导图合集 · PDF第7页",
+          "image": "site-assets/biochemistry-collection/page-007.avif",
           "questionNumbers": [
             120
           ],
@@ -1801,12 +1835,12 @@
         {
           "lectureId": "foundation-biochemistry-02",
           "sourceSubject": "biochemistry",
-          "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 24,
+          "pageLabel": "带导图合集 · PDF第24页",
           "lectureNumber": 2,
-          "title": "生化 氧化磷酸化 · 第2页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-e3cc083b30-p002.webp",
+          "title": "生化带导图合集 · PDF第24页",
+          "image": "site-assets/biochemistry-collection/page-024.avif",
           "questionNumbers": [
             120
           ],
@@ -1883,12 +1917,12 @@
             {
               "lectureId": "foundation-biochemistry-03",
               "sourceSubject": "biochemistry",
-              "sourceFile": "03 27考研：生化 磷酸戊糖途径、糖原、糖异生 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 1,
-              "pageLabel": "PDF第1页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 15,
+              "pageLabel": "带导图合集 · PDF第15页",
               "lectureNumber": 3,
-              "title": "生化 磷酸戊糖途径、糖原、糖异生 · 第1页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-4323c3ebc2-p001.webp",
+              "title": "生化带导图合集 · PDF第15页",
+              "image": "site-assets/biochemistry-collection/page-015.avif",
               "questionNumbers": [
                 121
               ],
@@ -1907,12 +1941,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-03",
         "sourceSubject": "biochemistry",
-        "sourceFile": "03 27考研：生化 磷酸戊糖途径、糖原、糖异生 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 1,
-        "pageLabel": "PDF第1页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 15,
+        "pageLabel": "带导图合集 · PDF第15页",
         "lectureNumber": 3,
-        "title": "生化 磷酸戊糖途径、糖原、糖异生 · 第1页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-4323c3ebc2-p001.webp",
+        "title": "生化带导图合集 · PDF第15页",
+        "image": "site-assets/biochemistry-collection/page-015.avif",
         "questionNumbers": [
           121
         ],
@@ -1925,12 +1959,12 @@
         {
           "lectureId": "foundation-biochemistry-03",
           "sourceSubject": "biochemistry",
-          "sourceFile": "03 27考研：生化 磷酸戊糖途径、糖原、糖异生 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 15,
+          "pageLabel": "带导图合集 · PDF第15页",
           "lectureNumber": 3,
-          "title": "生化 磷酸戊糖途径、糖原、糖异生 · 第1页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-4323c3ebc2-p001.webp",
+          "title": "生化带导图合集 · PDF第15页",
+          "image": "site-assets/biochemistry-collection/page-015.avif",
           "questionNumbers": [
             121
           ],
@@ -2007,12 +2041,12 @@
             {
               "lectureId": "foundation-biochemistry-18",
               "sourceSubject": "biochemistry",
-              "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 2,
-              "pageLabel": "PDF第2页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 160,
+              "pageLabel": "带导图合集 · PDF第160页",
               "lectureNumber": 18,
-              "title": "生化 翻译 · 第2页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-510a1aa1bd-p002.webp",
+              "title": "生化带导图合集 · PDF第160页",
+              "image": "site-assets/biochemistry-collection/page-160.avif",
               "questionNumbers": [
                 122
               ],
@@ -2031,12 +2065,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-18",
         "sourceSubject": "biochemistry",
-        "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 2,
-        "pageLabel": "PDF第2页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 160,
+        "pageLabel": "带导图合集 · PDF第160页",
         "lectureNumber": 18,
-        "title": "生化 翻译 · 第2页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-510a1aa1bd-p002.webp",
+        "title": "生化带导图合集 · PDF第160页",
+        "image": "site-assets/biochemistry-collection/page-160.avif",
         "questionNumbers": [
           122
         ],
@@ -2049,12 +2083,12 @@
         {
           "lectureId": "foundation-biochemistry-18",
           "sourceSubject": "biochemistry",
-          "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 160,
+          "pageLabel": "带导图合集 · PDF第160页",
           "lectureNumber": 18,
-          "title": "生化 翻译 · 第2页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-510a1aa1bd-p002.webp",
+          "title": "生化带导图合集 · PDF第160页",
+          "image": "site-assets/biochemistry-collection/page-160.avif",
           "questionNumbers": [
             122
           ],
@@ -2131,12 +2165,12 @@
             {
               "lectureId": "foundation-biochemistry-18",
               "sourceSubject": "biochemistry",
-              "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 2,
-              "pageLabel": "PDF第2页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 160,
+              "pageLabel": "带导图合集 · PDF第160页",
               "lectureNumber": 18,
-              "title": "生化 翻译 · 第2页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-510a1aa1bd-p002.webp",
+              "title": "生化带导图合集 · PDF第160页",
+              "image": "site-assets/biochemistry-collection/page-160.avif",
               "questionNumbers": [
                 123
               ],
@@ -2148,12 +2182,12 @@
             {
               "lectureId": "foundation-biochemistry-18",
               "sourceSubject": "biochemistry",
-              "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 4,
-              "pageLabel": "PDF第4页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 163,
+              "pageLabel": "带导图合集 · PDF第163页",
               "lectureNumber": 18,
-              "title": "生化 翻译 · 第4页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-510a1aa1bd-p004.webp",
+              "title": "生化带导图合集 · PDF第163页",
+              "image": "site-assets/biochemistry-collection/page-163.avif",
               "questionNumbers": [
                 123
               ],
@@ -2172,12 +2206,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-18",
         "sourceSubject": "biochemistry",
-        "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 2,
-        "pageLabel": "PDF第2页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 160,
+        "pageLabel": "带导图合集 · PDF第160页",
         "lectureNumber": 18,
-        "title": "生化 翻译 · 第2页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-510a1aa1bd-p002.webp",
+        "title": "生化带导图合集 · PDF第160页",
+        "image": "site-assets/biochemistry-collection/page-160.avif",
         "questionNumbers": [
           123
         ],
@@ -2190,12 +2224,12 @@
         {
           "lectureId": "foundation-biochemistry-18",
           "sourceSubject": "biochemistry",
-          "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 160,
+          "pageLabel": "带导图合集 · PDF第160页",
           "lectureNumber": 18,
-          "title": "生化 翻译 · 第2页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-510a1aa1bd-p002.webp",
+          "title": "生化带导图合集 · PDF第160页",
+          "image": "site-assets/biochemistry-collection/page-160.avif",
           "questionNumbers": [
             123
           ],
@@ -2207,12 +2241,12 @@
         {
           "lectureId": "foundation-biochemistry-18",
           "sourceSubject": "biochemistry",
-          "sourceFile": "18 27考研：生化 翻译 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 4,
-          "pageLabel": "PDF第4页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 163,
+          "pageLabel": "带导图合集 · PDF第163页",
           "lectureNumber": 18,
-          "title": "生化 翻译 · 第4页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-510a1aa1bd-p004.webp",
+          "title": "生化带导图合集 · PDF第163页",
+          "image": "site-assets/biochemistry-collection/page-163.avif",
           "questionNumbers": [
             123
           ],
@@ -2291,12 +2325,12 @@
             {
               "lectureId": "foundation-biochemistry-12",
               "sourceSubject": "biochemistry",
-              "sourceFile": "12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 3,
-              "pageLabel": "PDF第3页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 96,
+              "pageLabel": "带导图合集 · PDF第96页",
               "lectureNumber": 12,
-              "title": "生化 酶 · 第3页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-e1750fc190-p003.webp",
+              "title": "生化带导图合集 · PDF第96页",
+              "image": "site-assets/biochemistry-collection/page-096.avif",
               "questionNumbers": [
                 142
               ],
@@ -2308,12 +2342,12 @@
             {
               "lectureId": "foundation-biochemistry-12",
               "sourceSubject": "biochemistry",
-              "sourceFile": "01 27考研：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 4,
-              "pageLabel": "PDF第4页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 6,
+              "pageLabel": "带导图合集 · PDF第6页",
               "lectureNumber": 1,
-              "title": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 · 第4页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-cce9937b13-p004.webp",
+              "title": "生化带导图合集 · PDF第6页",
+              "image": "site-assets/biochemistry-collection/page-006.avif",
               "questionNumbers": [
                 142
               ],
@@ -2332,12 +2366,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-12",
         "sourceSubject": "biochemistry",
-        "sourceFile": "12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 3,
-        "pageLabel": "PDF第3页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 96,
+        "pageLabel": "带导图合集 · PDF第96页",
         "lectureNumber": 12,
-        "title": "生化 酶 · 第3页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-e1750fc190-p003.webp",
+        "title": "生化带导图合集 · PDF第96页",
+        "image": "site-assets/biochemistry-collection/page-096.avif",
         "questionNumbers": [
           142
         ],
@@ -2350,12 +2384,12 @@
         {
           "lectureId": "foundation-biochemistry-12",
           "sourceSubject": "biochemistry",
-          "sourceFile": "12 27考研：生化 酶 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 3,
-          "pageLabel": "PDF第3页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 96,
+          "pageLabel": "带导图合集 · PDF第96页",
           "lectureNumber": 12,
-          "title": "生化 酶 · 第3页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-e1750fc190-p003.webp",
+          "title": "生化带导图合集 · PDF第96页",
+          "image": "site-assets/biochemistry-collection/page-096.avif",
           "questionNumbers": [
             142
           ],
@@ -2367,12 +2401,12 @@
         {
           "lectureId": "foundation-biochemistry-12",
           "sourceSubject": "biochemistry",
-          "sourceFile": "01 27考研：生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 4,
-          "pageLabel": "PDF第4页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 6,
+          "pageLabel": "带导图合集 · PDF第6页",
           "lectureNumber": 1,
-          "title": "生化 糖无氧氧化、糖有氧氧化、红细胞代谢、高能化合物 · 第4页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-cce9937b13-p004.webp",
+          "title": "生化带导图合集 · PDF第6页",
+          "image": "site-assets/biochemistry-collection/page-006.avif",
           "questionNumbers": [
             142
           ],
@@ -2451,12 +2485,12 @@
             {
               "lectureId": "foundation-biochemistry-02",
               "sourceSubject": "biochemistry",
-              "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 1,
-              "pageLabel": "PDF第1页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 23,
+              "pageLabel": "带导图合集 · PDF第23页",
               "lectureNumber": 2,
-              "title": "生化 氧化磷酸化 · 第1页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-e3cc083b30-p001.webp",
+              "title": "生化带导图合集 · PDF第23页",
+              "image": "site-assets/biochemistry-collection/page-023.avif",
               "questionNumbers": [
                 143
               ],
@@ -2468,11 +2502,11 @@
             {
               "lectureId": "foundation-biochemistry-02",
               "sourceSubject": "biochemistry",
-              "sourceFile": "【精编版】生化合集.pdf",
-              "page": 43,
-              "pageLabel": "PDF第43页",
-              "title": "【精编版】生化合集 · 第43页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p043.webp",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 45,
+              "pageLabel": "带导图合集 · PDF第45页",
+              "title": "生化带导图合集 · PDF第45页",
+              "image": "site-assets/biochemistry-collection/page-045.avif",
               "questionNumbers": [
                 143
               ],
@@ -2493,12 +2527,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-02",
         "sourceSubject": "biochemistry",
-        "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 1,
-        "pageLabel": "PDF第1页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 23,
+        "pageLabel": "带导图合集 · PDF第23页",
         "lectureNumber": 2,
-        "title": "生化 氧化磷酸化 · 第1页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-e3cc083b30-p001.webp",
+        "title": "生化带导图合集 · PDF第23页",
+        "image": "site-assets/biochemistry-collection/page-023.avif",
         "questionNumbers": [
           143
         ],
@@ -2511,12 +2545,12 @@
         {
           "lectureId": "foundation-biochemistry-02",
           "sourceSubject": "biochemistry",
-          "sourceFile": "02 27考研：生化 氧化磷酸化 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 1,
-          "pageLabel": "PDF第1页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 23,
+          "pageLabel": "带导图合集 · PDF第23页",
           "lectureNumber": 2,
-          "title": "生化 氧化磷酸化 · 第1页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-e3cc083b30-p001.webp",
+          "title": "生化带导图合集 · PDF第23页",
+          "image": "site-assets/biochemistry-collection/page-023.avif",
           "questionNumbers": [
             143
           ],
@@ -2528,11 +2562,11 @@
         {
           "lectureId": "foundation-biochemistry-02",
           "sourceSubject": "biochemistry",
-          "sourceFile": "【精编版】生化合集.pdf",
-          "page": 43,
-          "pageLabel": "PDF第43页",
-          "title": "【精编版】生化合集 · 第43页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p043.webp",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 45,
+          "pageLabel": "带导图合集 · PDF第45页",
+          "title": "生化带导图合集 · PDF第45页",
+          "image": "site-assets/biochemistry-collection/page-045.avif",
           "questionNumbers": [
             143
           ],
@@ -2613,12 +2647,12 @@
             {
               "lectureId": "foundation-biochemistry-09",
               "sourceSubject": "biochemistry",
-              "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 2,
-              "pageLabel": "PDF第2页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 76,
+              "pageLabel": "带导图合集 · PDF第76页",
               "lectureNumber": 9,
-              "title": "生化 核苷酸代谢 · 第2页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-5d46f3a947-p002.webp",
+              "title": "生化带导图合集 · PDF第76页",
+              "image": "site-assets/biochemistry-collection/page-076.avif",
               "questionNumbers": [
                 144
               ],
@@ -2630,12 +2664,12 @@
             {
               "lectureId": "foundation-biochemistry-09",
               "sourceSubject": "biochemistry",
-              "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 3,
-              "pageLabel": "PDF第3页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 77,
+              "pageLabel": "带导图合集 · PDF第77页",
               "lectureNumber": 9,
-              "title": "生化 核苷酸代谢 · 第3页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-5d46f3a947-p003.webp",
+              "title": "生化带导图合集 · PDF第77页",
+              "image": "site-assets/biochemistry-collection/page-077.avif",
               "questionNumbers": [
                 144
               ],
@@ -2647,12 +2681,12 @@
             {
               "lectureId": "foundation-biochemistry-09",
               "sourceSubject": "biochemistry",
-              "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 6,
-              "pageLabel": "PDF第6页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 80,
+              "pageLabel": "带导图合集 · PDF第80页",
               "lectureNumber": 9,
-              "title": "生化 核苷酸代谢 · 第6页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-5d46f3a947-p006.webp",
+              "title": "生化带导图合集 · PDF第80页",
+              "image": "site-assets/biochemistry-collection/page-080.avif",
               "questionNumbers": [
                 144
               ],
@@ -2671,12 +2705,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-09",
         "sourceSubject": "biochemistry",
-        "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 2,
-        "pageLabel": "PDF第2页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 76,
+        "pageLabel": "带导图合集 · PDF第76页",
         "lectureNumber": 9,
-        "title": "生化 核苷酸代谢 · 第2页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-5d46f3a947-p002.webp",
+        "title": "生化带导图合集 · PDF第76页",
+        "image": "site-assets/biochemistry-collection/page-076.avif",
         "questionNumbers": [
           144
         ],
@@ -2689,12 +2723,12 @@
         {
           "lectureId": "foundation-biochemistry-09",
           "sourceSubject": "biochemistry",
-          "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 2,
-          "pageLabel": "PDF第2页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 76,
+          "pageLabel": "带导图合集 · PDF第76页",
           "lectureNumber": 9,
-          "title": "生化 核苷酸代谢 · 第2页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-5d46f3a947-p002.webp",
+          "title": "生化带导图合集 · PDF第76页",
+          "image": "site-assets/biochemistry-collection/page-076.avif",
           "questionNumbers": [
             144
           ],
@@ -2706,12 +2740,12 @@
         {
           "lectureId": "foundation-biochemistry-09",
           "sourceSubject": "biochemistry",
-          "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 3,
-          "pageLabel": "PDF第3页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 77,
+          "pageLabel": "带导图合集 · PDF第77页",
           "lectureNumber": 9,
-          "title": "生化 核苷酸代谢 · 第3页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-5d46f3a947-p003.webp",
+          "title": "生化带导图合集 · PDF第77页",
+          "image": "site-assets/biochemistry-collection/page-077.avif",
           "questionNumbers": [
             144
           ],
@@ -2723,12 +2757,12 @@
         {
           "lectureId": "foundation-biochemistry-09",
           "sourceSubject": "biochemistry",
-          "sourceFile": "09 27考研：生化 核苷酸代谢 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 6,
-          "pageLabel": "PDF第6页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 80,
+          "pageLabel": "带导图合集 · PDF第80页",
           "lectureNumber": 9,
-          "title": "生化 核苷酸代谢 · 第6页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-5d46f3a947-p006.webp",
+          "title": "生化带导图合集 · PDF第80页",
+          "image": "site-assets/biochemistry-collection/page-080.avif",
           "questionNumbers": [
             144
           ],
@@ -2807,11 +2841,11 @@
             {
               "lectureId": "foundation-biochemistry-08",
               "sourceSubject": "biochemistry",
-              "sourceFile": "【精编版】生化合集.pdf",
-              "page": 156,
-              "pageLabel": "PDF第156页",
-              "title": "【精编版】生化合集 · 第156页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p156.webp",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 165,
+              "pageLabel": "带导图合集 · PDF第165页",
+              "title": "生化带导图合集 · PDF第165页",
+              "image": "site-assets/biochemistry-collection/page-165.avif",
               "questionNumbers": [
                 145
               ],
@@ -2830,11 +2864,11 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-08",
         "sourceSubject": "biochemistry",
-        "sourceFile": "【精编版】生化合集.pdf",
-        "page": 156,
-        "pageLabel": "PDF第156页",
-        "title": "【精编版】生化合集 · 第156页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p156.webp",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 165,
+        "pageLabel": "带导图合集 · PDF第165页",
+        "title": "生化带导图合集 · PDF第165页",
+        "image": "site-assets/biochemistry-collection/page-165.avif",
         "questionNumbers": [
           145
         ],
@@ -2847,11 +2881,11 @@
         {
           "lectureId": "foundation-biochemistry-08",
           "sourceSubject": "biochemistry",
-          "sourceFile": "【精编版】生化合集.pdf",
-          "page": 156,
-          "pageLabel": "PDF第156页",
-          "title": "【精编版】生化合集 · 第156页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p156.webp",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 165,
+          "pageLabel": "带导图合集 · PDF第165页",
+          "title": "生化带导图合集 · PDF第165页",
+          "image": "site-assets/biochemistry-collection/page-165.avif",
           "questionNumbers": [
             145
           ],
@@ -2930,12 +2964,12 @@
             {
               "lectureId": "foundation-biochemistry-19",
               "sourceSubject": "biochemistry",
-              "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 6,
-              "pageLabel": "PDF第6页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 177,
+              "pageLabel": "带导图合集 · PDF第177页",
               "lectureNumber": 19,
-              "title": "生化 基因表达调控 · 第6页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p006.webp",
+              "title": "生化带导图合集 · PDF第177页",
+              "image": "site-assets/biochemistry-collection/page-177.avif",
               "questionNumbers": [
                 146
               ],
@@ -2947,12 +2981,12 @@
             {
               "lectureId": "foundation-biochemistry-19",
               "sourceSubject": "biochemistry",
-              "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 7,
-              "pageLabel": "PDF第7页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 178,
+              "pageLabel": "带导图合集 · PDF第178页",
               "lectureNumber": 19,
-              "title": "生化 基因表达调控 · 第7页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p007.webp",
+              "title": "生化带导图合集 · PDF第178页",
+              "image": "site-assets/biochemistry-collection/page-178.avif",
               "questionNumbers": [
                 146
               ],
@@ -2964,12 +2998,12 @@
             {
               "lectureId": "foundation-biochemistry-19",
               "sourceSubject": "biochemistry",
-              "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
-              "page": 8,
-              "pageLabel": "PDF第8页",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 179,
+              "pageLabel": "带导图合集 · PDF第179页",
               "lectureNumber": 19,
-              "title": "生化 基因表达调控 · 第8页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p008.webp",
+              "title": "生化带导图合集 · PDF第179页",
+              "image": "site-assets/biochemistry-collection/page-179.avif",
               "questionNumbers": [
                 146
               ],
@@ -2988,12 +3022,12 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-19",
         "sourceSubject": "biochemistry",
-        "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
-        "page": 6,
-        "pageLabel": "PDF第6页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 177,
+        "pageLabel": "带导图合集 · PDF第177页",
         "lectureNumber": 19,
-        "title": "生化 基因表达调控 · 第6页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p006.webp",
+        "title": "生化带导图合集 · PDF第177页",
+        "image": "site-assets/biochemistry-collection/page-177.avif",
         "questionNumbers": [
           146
         ],
@@ -3006,12 +3040,12 @@
         {
           "lectureId": "foundation-biochemistry-19",
           "sourceSubject": "biochemistry",
-          "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 6,
-          "pageLabel": "PDF第6页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 177,
+          "pageLabel": "带导图合集 · PDF第177页",
           "lectureNumber": 19,
-          "title": "生化 基因表达调控 · 第6页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p006.webp",
+          "title": "生化带导图合集 · PDF第177页",
+          "image": "site-assets/biochemistry-collection/page-177.avif",
           "questionNumbers": [
             146
           ],
@@ -3023,12 +3057,12 @@
         {
           "lectureId": "foundation-biochemistry-19",
           "sourceSubject": "biochemistry",
-          "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 7,
-          "pageLabel": "PDF第7页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 178,
+          "pageLabel": "带导图合集 · PDF第178页",
           "lectureNumber": 19,
-          "title": "生化 基因表达调控 · 第7页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p007.webp",
+          "title": "生化带导图合集 · PDF第178页",
+          "image": "site-assets/biochemistry-collection/page-178.avif",
           "questionNumbers": [
             146
           ],
@@ -3040,12 +3074,12 @@
         {
           "lectureId": "foundation-biochemistry-19",
           "sourceSubject": "biochemistry",
-          "sourceFile": "19 27考研：生化 基因表达调控 核心-真题-串联-导图 天天师兄.pdf",
-          "page": 8,
-          "pageLabel": "PDF第8页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 179,
+          "pageLabel": "带导图合集 · PDF第179页",
           "lectureNumber": 19,
-          "title": "生化 基因表达调控 · 第8页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-abdb3a5806-p008.webp",
+          "title": "生化带导图合集 · PDF第179页",
+          "image": "site-assets/biochemistry-collection/page-179.avif",
           "questionNumbers": [
             146
           ],
@@ -3124,11 +3158,11 @@
             {
               "lectureId": "foundation-biochemistry-14",
               "sourceSubject": "biochemistry",
-              "sourceFile": "【精编版】生化合集.pdf",
-              "page": 111,
-              "pageLabel": "PDF第111页",
-              "title": "【精编版】生化合集 · 第111页",
-              "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p111.webp",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 110,
+              "pageLabel": "带导图合集 · PDF第110页",
+              "title": "生化带导图合集 · PDF第110页",
+              "image": "site-assets/biochemistry-collection/page-110.avif",
               "questionNumbers": [
                 147
               ],
@@ -3148,11 +3182,11 @@
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-14",
         "sourceSubject": "biochemistry",
-        "sourceFile": "【精编版】生化合集.pdf",
-        "page": 111,
-        "pageLabel": "PDF第111页",
-        "title": "【精编版】生化合集 · 第111页",
-        "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p111.webp",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 110,
+        "pageLabel": "带导图合集 · PDF第110页",
+        "title": "生化带导图合集 · PDF第110页",
+        "image": "site-assets/biochemistry-collection/page-110.avif",
         "questionNumbers": [
           147
         ],
@@ -3166,11 +3200,11 @@
         {
           "lectureId": "foundation-biochemistry-14",
           "sourceSubject": "biochemistry",
-          "sourceFile": "【精编版】生化合集.pdf",
-          "page": 111,
-          "pageLabel": "PDF第111页",
-          "title": "【精编版】生化合集 · 第111页",
-          "image": "exams/reviewed-mocks-20261104/biochemistry-ce4e68bb0c-p111.webp",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 110,
+          "pageLabel": "带导图合集 · PDF第110页",
+          "title": "生化带导图合集 · PDF第110页",
+          "image": "site-assets/biochemistry-collection/page-110.avif",
           "questionNumbers": [
             147
           ],

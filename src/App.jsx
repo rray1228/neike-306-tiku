@@ -245,6 +245,7 @@ const CONTENT_LOADERS = {
       meta: {
         ...biochemistryContent.meta,
         title: '生物化学题库',
+        lectureCollectionTitle: reviewedEvidence.sourceFile.replace(/\.pdf$/i, ''),
         lectureCount: 20,
         groupCount: groups.length,
         stemCount: groups.reduce((sum, group) => sum + group.stems.length, 0),
@@ -1558,7 +1559,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
           </nav>
           <div className="sidebar-footer">
             <div className="source-stat"><span>题库来源</span><strong>{content.meta.sourceLabel || '学成选择题（题目数据版）'}</strong><small>{content.groups.length} 个题组 · {content.groups.reduce((sum, item) => sum + item.stems.length, 0)} 个题干</small></div>
-            <div className="lecture-stat"><span>讲义依据</span><strong>{subject === 'politics' ? `${content.meta.groupCount} 组 · ${content.meta.stemCount} 个小题` : `${subjectConfig.label}讲义 PDF 共 ${content.meta.lectureCount} 份`}</strong><Icon name="file" size={18} /></div>
+            <div className="lecture-stat"><span>{content.meta.lectureCollectionTitle ? `讲义依据 · ${content.meta.lectureCount} 讲` : '讲义依据'}</span><strong>{content.meta.lectureCollectionTitle ?? (subject === 'politics' ? `${content.meta.groupCount} 组 · ${content.meta.stemCount} 个小题` : `${subjectConfig.label}讲义 PDF 共 ${content.meta.lectureCount} 份`)}</strong><Icon name="file" size={18} /></div>
           </div>
         </aside>
 
@@ -1878,6 +1879,8 @@ function PoliticsEvidence({ group, submitted, mobileEvidence, evidenceCollapsed,
 function EvidencePanel({ subject, content, group, page, sourceName, submitted, setShowSource, setShowLectureEvidence, mobileEvidence, setMobileEvidence, evidenceCollapsed, setEvidenceCollapsed }) {
   if (subject === 'politics') return <PoliticsEvidence {...{ group, submitted, mobileEvidence, evidenceCollapsed, setEvidenceCollapsed, setMobileEvidence, setShowLectureEvidence }} />
   const lectureItems = group.lectureIds.map((id) => content.lectures.find((lecture) => lecture.id === id)).filter(Boolean)
+  const collectionTitle = content.meta.lectureCollectionTitle
+  const lectureDescription = collectionTitle ?? (lectureItems.length ? `已关联 ${lectureItems.length} 份讲义` : '按章节关联讲义')
   const supplementDescription = group.questionAuthor
     ? '按考点归入现有章节 · 答案沿用原稿'
     : ['按考点归入讲义', group.supplementNotice ?? '答案尚未逐项复核'].filter(Boolean).join('；')
@@ -1892,9 +1895,12 @@ function EvidencePanel({ subject, content, group, page, sourceName, submitted, s
         <span className="evidence-rail-label">讲义</span>
       </div>
       <div className="evidence-panel-content">
-      <div className="evidence-section evidence-section-top"><div className="evidence-title"><span className="evidence-icon"><Icon name={group.supplement ? 'file' : 'check'} size={18} /></span><div><h2>{group.supplement && !currentEvidence ? '章节定位' : '讲义依据'}</h2><p>{group.supplement ? supplementDescription : (lectureItems.length ? `已关联 ${lectureItems.length} 份讲义` : '按章节关联讲义')}</p></div>{group.supplement ? null : <span className="verified-dot"><Icon name="check" size={13} /></span>}<button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏" aria-expanded="true" title="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="chevron" size={16} /></button></div>
-        {lectureItems.slice(0, 4).map((lecture) => <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 讲 · {currentEvidence?.lectureId === lecture.id ? currentEvidenceLocation : `共 ${lecture.pageCount} 页`}</span></div><span className="relevance">对应</span></div>)}
-        <div className="all-lectures">查看全部 {content.meta.lectureCount} 份讲义 <Icon name="right" size={15} /></div>
+      <div className="evidence-section evidence-section-top"><div className="evidence-title"><span className="evidence-icon"><Icon name={group.supplement ? 'file' : 'check'} size={18} /></span><div><h2>{group.supplement && !currentEvidence ? '章节定位' : '讲义依据'}</h2><p>{group.supplement ? supplementDescription : lectureDescription}</p></div>{group.supplement ? null : <span className="verified-dot"><Icon name="check" size={13} /></span>}<button className="evidence-toggle desktop-evidence-toggle" onClick={() => setEvidenceCollapsed(true)} aria-label="收起讲义栏" aria-expanded="true" title="收起讲义栏"><Icon name="right" size={17} /></button><button className="panel-close mobile-panel-close" onClick={() => setMobileEvidence(false)} aria-label="关闭讲义"><Icon name="chevron" size={16} /></button></div>
+        {lectureItems.slice(0, 4).map((lecture) => {
+          const location = currentEvidence?.lectureId === lecture.id ? currentEvidenceLocation : (collectionTitle ? null : `共 ${lecture.pageCount} 页`)
+          return <div className="lecture-item" key={lecture.id}><Icon name="file" size={18} /><div><strong>{lecture.title}</strong><span>第 {lecture.number} 讲{location ? ` · ${location}` : ''}</span></div><span className="relevance">对应</span></div>
+        })}
+        {collectionTitle ? null : <div className="all-lectures">查看全部 {content.meta.lectureCount} 份讲义 <Icon name="right" size={15} /></div>}
       </div>
       {group.lectureEvidenceNotice ? <p className="lecture-evidence-notice">{group.lectureEvidenceNotice}</p> : null}
       {group.lectureSummary?.length ? <div className="evidence-section lecture-summary"><div className="lecture-summary-heading"><span>讲义要点</span><strong>{group.title}</strong></div><ul>{group.lectureSummary.map((item, index) => <li key={index}>{item}</li>)}</ul></div> : null}
