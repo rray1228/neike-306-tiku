@@ -27,6 +27,7 @@ const XUECHENG_37_LOADERS = {
   med: () => import('./data/med-xuecheng-37-data.json'),
   pathology: () => import('./data/pathology-xuecheng-37-data.json'),
   physiology: () => import('./data/physiology-xuecheng-37-data.json'),
+  biochemistry: () => import('./data/biochemistry-xuecheng-37-data.json'),
   surgery: () => import('./data/surgery-xuecheng-37-data.json'),
 }
 const testSourceCategory = group => TEST_SOURCE_CATEGORIES.get(group.id) || (group.questionAuthor ? group.sourceLabel : '')
