@@ -32,7 +32,7 @@ test('six antimetabolites have separate target and process questions', () => {
   for (const g of [group, processes, activation]) {
     assert.equal(g.sourceGroupId, 'bio-09-08')
     assert.equal(g.answerRevision, 'bio-focused-20261017-v1')
-    assert.ok(g.options.length <= 7)
+    assert.ok(g.options.length <= 8)
     for (const s of g.stems) {
       assert.equal(s.answerRaw, s.answer.join('、'))
       assert.equal(s.answerMode, s.answer.length > 1 ? '多选' : '单选')
@@ -41,14 +41,15 @@ test('six antimetabolites have separate target and process questions', () => {
   assert.doesNotMatch(group.options.map(o => o.label).join(' '), /次黄嘌呤|嘌呤核苷酸从头合成|结构类似物/)
 })
 
-test('activation, targets and overlapping processes remain correct after relettering', () => {
-  assert.deepEqual(labels(group, 1), ['PRPP酰胺转移酶'])
+test('targets and processes match the annotated lecture table', () => {
+  assert.deepEqual(labels(group, 1), ['PRPP酰胺转移酶', 'HGPRT', 'APRT'])
   assert.deepEqual(labels(group, 2), ['黄嘌呤氧化酶'])
-  assert.deepEqual(labels(group, 3), ['DNA聚合酶'])
+  assert.deepEqual(labels(group, 3), ['CDP 还原酶'])
   assert.deepEqual(labels(group, 4), ['胸苷酸合酶'])
   assert.deepEqual(labels(group, 5), ['二氢叶酸还原酶（DHFR）'])
   assert.deepEqual(labels(group, 6), ['CPS-Ⅱ', 'PRPP酰胺转移酶'])
   assert.deepEqual(labels(activation, 1), ['HGPRT'])
+  assert.deepEqual(labels(processes, 3), ['合成 dCDP（CDP → dCDP）'])
   assert.deepEqual(labels(processes, 5), ['嘌呤核苷酸从头合成', 'dTMP合成（dUMP → dTMP）'])
   assert.deepEqual(labels(processes, 6), ['嘌呤核苷酸从头合成', '嘧啶核苷酸从头合成'])
 })

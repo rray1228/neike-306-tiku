@@ -34,7 +34,7 @@ test('all user-authorized draft answers are attributed, explained and never labe
   assert.deepEqual(data.meta.draftAnswerQuestions, data.meta.missingOfficialAnswerQuestions)
   assert.equal(data.meta.answerRows, undefined)
   assert.deepEqual(data.groups.map(g => g.stems[0].answerRaw), [
-    'B', 'D', 'BC', 'ABC', 'D', 'ABD', 'C', 'B', 'A', 'AC',
+    'B', 'D', 'BC', 'ABC', 'D', 'AB', 'C', 'B', 'A', 'AC',
     'ABCD', 'D', 'ABD', 'B', 'B', 'B', 'B', 'AC', 'D', 'B',
     'ABD', 'ACD', 'C', 'B', 'D',
   ])
@@ -43,7 +43,7 @@ test('all user-authorized draft answers are attributed, explained and never labe
     assert.equal(g.supplementNotice, '')
     assert.equal(g.studyNotice, '生物化学')
     assert.equal(g.answerSourceLabel, '答案')
-    const corrected = [10, 21].includes(s.number)
+    const corrected = [6, 10, 21].includes(s.number)
     assert.match(g.answerSourceName, corrected ? /用户.*校正/ : /用户授权拟答/)
     assert.equal(g.answerRevision, s.number === 21 ? 'bio-stage-p53-20261102-v2' : s.number === 10 ? 'bio-answer-audit-20261029-v1' : 'bio-stage-draft-20261017-v1')
     assert.deepEqual(s.answer, s.answerRaw.split(''))
@@ -55,6 +55,15 @@ test('all user-authorized draft answers are attributed, explained and never labe
     assert.doesNotMatch([g.supplementNotice, g.studyNotice, g.answerSourceLabel, s.explanation].join(' '), /拟答|暂拟|非官方|后续校正|待你校正|保留原卷多选操作|本题口径待复核/)
     for (const a of s.acceptedAnswers || []) assert.ok(a.length && a.every(k => g.options.some(o => o.key === k)))
   }
+})
+
+test('question 6 accepts A and B only and uses the annotated lecture for the explanation', () => {
+  const g = q(6), s = g.stems[0]
+  assert.deepEqual(g.options.map(o => o.label), ['肝', '心', '脑', '肾'])
+  assert.deepEqual(s.answer, ['A', 'B'])
+  assert.deepEqual(s.acceptedAnswers || [], [])
+  assert.match(s.explanation, /第45页.*肝.*成人心肌/)
+  assert.doesNotMatch(s.explanation, /肾/)
 })
 
 test('ambiguous source wording is explicit and CPSII is not confused with CPSI', () => {

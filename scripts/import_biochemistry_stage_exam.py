@@ -29,7 +29,7 @@ TOPICS = {2: '生物氧化', 3: '糖代谢', 6: '脂代谢',
           16: '核酸', 17: '核酸', 18: '核酸', 19: '核酸', 20: '核酸'}
 
 # Requested by the user on 2026-10-17, not transcribed from an official key.
-DRAFT_ANSWERS = ['B', 'D', 'BC', 'ABC', 'D', 'ABD', 'C', 'B', 'A', 'A',
+DRAFT_ANSWERS = ['B', 'D', 'BC', 'ABC', 'D', 'AB', 'C', 'B', 'A', 'A',
                  'ABCD', 'D', 'ABD', 'B', 'B', 'B', 'B', 'AC', 'D', 'B',
                  'ABD', 'ACD', 'C', 'B', 'D']
 EXPLANATIONS = {
@@ -38,7 +38,7 @@ EXPLANATIONS = {
     3: '拟答BC。磷酸戊糖途径提供5-磷酸核糖和NADPH，分别满足核酸合成和脂肪酸等还原性合成的需要。糖异生或尿素合成增强本身并不必然要求该途径增强。',
     4: '暂拟ABC。肌糖原经糖酵解形成乳酸，乳酸到肝经糖异生形成葡萄糖；按题目“可经过”的宽口径，也包括乳酸经三碳途径形成肝糖原。若只考经典乳酸—葡萄糖闭合循环，AB同样有依据，本题暂同时接受AB；肝糖原合成是可能去路，不是每轮必经步骤。D不是乳酸循环的必要途径。',
     5: '拟答D。胞质脂肪酸合成中，延长中的酰基由ACP（酰基载体蛋白）的磷酸泛酰巯基乙胺臂携带。生物素主要参与羧化反应，不能据此选作延长酰基的载体。',
-    6: '拟答ABD。按正常成人的典型供能特点，肝、心及肾（尤其肾皮质）大量利用脂肪酸；脑通常不以长链脂肪酸β氧化为主要能源。肾髓质与肾皮质不同，不能将“肾”理解为所有肾细胞均主要氧化脂肪酸。',
+    6: '讲义第45页写明，正常进食时肝主要通过氧化脂肪酸获得能量，成人心肌也主要消耗脂肪酸。本题选A、B。',
     7: '拟答C。P/O约1.4接近通常所用的1.5，提示绕过复合体Ⅰ、在辅酶Q水平进入呼吸链；NADH经复合体Ⅰ进入时常按约2.5计算。',
     8: '拟答B。鸟氨酸脱羧酶催化鸟氨酸生成腐胺，是多胺合成的关键调节酶；注意是脱羧，不是脱氨。',
     9: '拟答A。蛋氨酸经SAM提供甲基，参与磷脂酰胆碱等代谢；缺乏可影响肝内脂质输出，促进脂肪肝形成。',
@@ -63,6 +63,7 @@ EXPLANATIONS = {
 # scientific certainty. Both defensible readings receive credit in Q4/Q11.
 ACCEPTED_ALTERNATIVES = {4: [list('AB')], 11: [list('ABC')]}
 REVIEW_QUESTIONS = [4, 10, 11, 18, 24]
+USER_CORRECTIONS = {6: '用户按讲义校正（2026-11-12）', 21: '用户按书校正（2026-11-02）'}
 REFERENCES = {
     4: ['https://pubmed.ncbi.nlm.nih.gov/1747116/'],
     10: ['https://pubmed.ncbi.nlm.nih.gov/14651476/'],
@@ -159,15 +160,15 @@ def build():
             'answerLayout': 'rows', 'topic': TOPICS[lecture], 'lectureIds': [lid],
             'supplement': True, 'supplementNotice': '', 'studyNotice': '生物化学',
             'answerSourceLabel': '答案',
-            'answerSourceName': '用户按书校正（2026-11-02）' if n == 21 else '用户授权拟答：讲义与补充资料核对（2026-10-17）',
+            'answerSourceName': USER_CORRECTIONS.get(n, '用户授权拟答：讲义与补充资料核对（2026-10-17）'),
             'answerRevision': 'bio-stage-p53-20261102-v2' if n == 21 else 'bio-stage-draft-20261017-v1',
             'options': [{'key': key, 'displayKey': key, 'label': value}
                         for key, value in q['options'].items()],
             'stems': [{'number': n, 'sourceQuestion': n, 'sourcePage': q['page'],
                        'text': q['text'], 'answerRaw': answer, 'answer': list(answer),
                        'answerMode': mode, 'sourceAnswerMode': mode,
-                       'answerState': '用户校正' if n == 21 else '讲义核对拟答（非官方）',
-                       'answerProvenance': 'user-correction' if n == 21 else 'assistant-draft',
+                       'answerState': '用户校正' if n in USER_CORRECTIONS else '讲义核对拟答（非官方）',
+                       'answerProvenance': 'user-correction' if n in USER_CORRECTIONS else 'assistant-draft',
                        'explanation': display_explanation(n),
                        **({'acceptedAnswers': ACCEPTED_ALTERNATIVES[n]} if n in ACCEPTED_ALTERNATIVES else {}),
                        **({'answerReviewNote': '原题表述/题型口径需复核，详见答后解析'} if n in REVIEW_QUESTIONS else {}),

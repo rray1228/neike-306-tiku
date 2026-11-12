@@ -613,10 +613,6 @@
         {
           "key": "C",
           "label": "线粒体"
-        },
-        {
-          "key": "D",
-          "label": "内质网膜相关酶，催化位点朝向内质网腔"
         }
       ],
       "stems": [
@@ -649,11 +645,11 @@
         },
         {
           "number": 4,
-          "text": "葡萄糖-6-磷酸酶的定位",
+          "text": "讲义第17页标注的葡萄糖-6-磷酸酶定位",
           "answer": [
-            "D"
+            "A"
           ],
-          "answerRaw": "D",
+          "answerRaw": "A",
           "answerMode": "单选"
         }
       ],
@@ -772,13 +768,14 @@
         },
         {
           "number": 3,
-          "text": "果糖双磷酸酶-1的经典反馈抑制剂（不将其底物作调节物）",
+          "text": "讲义第17页列出的果糖双磷酸酶-1抑制剂",
           "sourceText": "3. 果糖双磷酸酶-1 的抑制剂",
-          "answerRaw": "B",
+          "answerRaw": "J、B",
           "answer": [
+            "J",
             "B"
           ],
-          "answerMode": "单选"
+          "answerMode": "多选"
         },
         {
           "number": 4,

@@ -273,13 +273,15 @@
       "stems": [
         {
           "number": 1,
-          "text": "通过碱基识别、校对和修复直接维持DNA复制保真度的因素（不选复制方式或复制叉形态）",
-          "answerRaw": "H、I、F、G",
+          "text": "讲义第134页“高保真性”条目列出的因素",
+          "answerRaw": "A、D、F、G、I、H",
           "answer": [
-            "H",
-            "I",
+            "A",
+            "D",
             "F",
-            "G"
+            "G",
+            "I",
+            "H"
           ],
           "answerMode": "多选"
         }
@@ -342,7 +344,7 @@
         },
         {
           "number": 2,
-          "text": "除复制主酶外，主要参与损伤修复及复制重启、具有3′→5′校对活性的原核聚合酶",
+          "text": "讲义第134页标注为“应急低保真复制”的原核DNA聚合酶",
           "answerRaw": "A",
           "answer": [
             "A"
@@ -782,7 +784,7 @@
         },
         {
           "number": 2,
-          "text": "主要参与碱基切除修复中短片段DNA缺口填补的聚合酶",
+          "text": "讲义第139页表中标注“应急低保真复制、错配修复”的真核DNA聚合酶",
           "answerRaw": "C",
           "answer": [
             "C"
@@ -1432,9 +1434,21 @@
           "answerMode": "填空",
           "explanation": "复合物的引物酶亚基合成RNA引物，DNA聚合酶α随后接续合成一小段DNA；DNA聚合酶α催化亚基本身不是RNA引物酶。",
           "acceptedAnswers": [
-            ["DNApol α-引物酶复合物", "FEN1", "RNase H"],
-            ["DNA聚合酶α-引物酶复合物", "RNase H", "FEN1"],
-            ["DNA聚合酶α-引物酶复合物", "FEN1", "RNase H"]
+            [
+              "DNApol α-引物酶复合物",
+              "FEN1",
+              "RNase H"
+            ],
+            [
+              "DNA聚合酶α-引物酶复合物",
+              "RNase H",
+              "FEN1"
+            ],
+            [
+              "DNA聚合酶α-引物酶复合物",
+              "FEN1",
+              "RNase H"
+            ]
           ]
         },
         {

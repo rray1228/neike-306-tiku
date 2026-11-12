@@ -1550,15 +1550,13 @@
           "biochemistry-collection-091"
         ],
         [
-          "biochemistry-collection-088",
           "biochemistry-collection-091"
         ],
         [
           "biochemistry-collection-088",
           "biochemistry-collection-091"
         ]
-      ],
-      "notice": "原讲义对 Rotor 综合征的摄取、再摄取及贮存环节仅作简要归纳。"
+      ]
     },
     "bio-10-05-focus-2": {
       "pages": [
@@ -1575,7 +1573,6 @@
           "biochemistry-collection-091"
         ],
         [
-          "biochemistry-collection-088",
           "biochemistry-collection-091"
         ],
         [
@@ -3073,8 +3070,7 @@
           "biochemistry-collection-135"
         ],
         [
-          "biochemistry-collection-134",
-          "biochemistry-collection-193"
+          "biochemistry-collection-134"
         ],
         [
           "biochemistry-collection-134"
@@ -3188,8 +3184,7 @@
           "biochemistry-collection-193"
         ],
         [
-          "biochemistry-collection-139",
-          "biochemistry-collection-193"
+          "biochemistry-collection-139"
         ],
         [
           "biochemistry-collection-139",
@@ -3203,8 +3198,7 @@
           "biochemistry-collection-139",
           "biochemistry-collection-193"
         ]
-      ],
-      "notice": "原讲义将 DNApol β 简写为修复相关；本题进一步区分碱基切除修复中的短片段填补功能。"
+      ]
     },
     "bio-16-09": {
       "pages": [
@@ -3799,11 +3793,9 @@
       ],
       "stemPages": [
         [
-          "biochemistry-collection-161",
-          "biochemistry-collection-163"
+          "biochemistry-collection-161"
         ]
-      ],
-      "notice": "讲义批注中“EF-G 无 GTP 酶活性”的表述与题库已核对机制有出入；此题保留 EF-G 属于 GTP 酶的判分。"
+      ]
     },
     "bio-18-04": {
       "pages": [
@@ -3968,8 +3960,7 @@
         [
           "biochemistry-collection-167"
         ]
-      ],
-      "notice": "讲义对嘌呤霉素及蓖麻毒蛋白作简写；本题细分提前释放肽链与 28S rRNA 特定位点脱嘌呤的机制。"
+      ]
     },
     "bio-18-08-focus-2": {
       "pages": [
@@ -4696,8 +4687,7 @@
         [
           "biochemistry-collection-193"
         ]
-      ],
-      "notice": "原讲义将 Fanconi 贫血列在跨损伤／SOS 修复归纳下；本题按 DNA 链间交联修复通路区分。"
+      ]
     },
     "bio-03-01": {
       "pages": [
@@ -4861,7 +4851,7 @@
           "biochemistry-collection-017"
         ],
         [
-          "biochemistry-collection-022"
+          "biochemistry-collection-017"
         ],
         [
           "biochemistry-collection-022"
@@ -5667,8 +5657,7 @@
           "biochemistry-collection-047",
           "biochemistry-collection-052"
         ]
-      ],
-      "notice": "讲义沿用三类“必需脂肪酸”的宽泛归纳；本题区分正常情况下必须由膳食直接提供的亚油酸与 α-亚麻酸。"
+      ]
     },
     "bio-07-01": {
       "pages": [
@@ -6565,8 +6554,7 @@
           "biochemistry-collection-080",
           "biochemistry-collection-086"
         ]
-      ],
-      "notice": "原讲义把阿糖胞苷列为 CDP 还原酶相关抑制；本题询问活性三磷酸代谢物主要靶点，仍按 DNA 聚合酶判分。"
+      ]
     },
     "bio-09-08-focus-2": {
       "pages": [
@@ -6598,8 +6586,7 @@
           "biochemistry-collection-080",
           "biochemistry-collection-086"
         ]
-      ],
-      "notice": "原讲义阿糖胞苷一栏为简化归纳；本题区分其主要抑制 DNA 链延长的作用。"
+      ]
     },
     "bio-09-08-focus-3": {
       "pages": [
@@ -6676,9 +6663,7 @@
         [
           "biochemistry-collection-045"
         ]
-      ],
-      "notice": "讲义已补充肝和成人心肌的脂肪酸供能，肾的能量利用在此页未展开。",
-      "reviewNote": "带导图合集 PDF 第45页补充了成人心肌利用脂肪酸供能。"
+      ]
     },
     "biochemistry-stage-exam-2026-10-q007": {
       "pages": [

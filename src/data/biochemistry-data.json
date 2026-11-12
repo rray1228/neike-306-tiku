@@ -686,7 +686,7 @@
         },
         {
           "key": "E",
-          "label": "葡萄糖-6-磷酸",
+          "label": "葡萄糖-1-磷酸",
           "sourceText": "E. 葡萄糖-1-磷酸"
         },
         {
@@ -746,11 +746,12 @@
         },
         {
           "number": 2,
-          "text": "高能磷酸键",
+          "text": "讲义第9页列在“高能磷酸键”下的有",
           "sourceText": "2. 高能磷酸键",
-          "answerRaw": "C、F、I、J、L",
+          "answerRaw": "C、E、F、I、J、L",
           "answer": [
             "C",
+            "E",
             "F",
             "I",
             "J",

@@ -64,21 +64,29 @@ test('vitamin group question eight preserves the supplied lecture list including
   assert.deepEqual(stem(g.id, 4).answer, ['D', 'I'])
 })
 
-test('shared biochemical mechanisms remain complete after splitting', () => {
-  assert.ok(labels('bio-18-03-focus-3', 1).includes('EF-G'))
+test('question wording and grading follow the linked lecture tables', () => {
+  assert.deepEqual(labels('bio-18-03-focus-3', 1), ['IF2', 'EF-Tu', 'RF3'])
   assert.ok(labels('bio-17-05-focus-2', 1).includes('参与翻译的起始过程'))
   assert.ok(labels('bio-17-05-focus-2', 2).includes('参与翻译的起始过程'))
-  assert.deepEqual(new Set(labels('bio-08-02', 3)), new Set(['离子键 / 盐键', '二硫键', '范德华力', '疏水键', '氢键']))
+  assert.deepEqual(labels('bio-08-02', 3), ['疏水键', '二硫键'])
+  assert.deepEqual(labels('bio-08-02', 4), ['氢键', '离子键 / 盐键'])
   assert.deepEqual(labels('bio-07-10', 1), ['色氨酸'])
-  assert.match(labels('bio-03-04-focus-2', 4).join(' '), /内质网/)
+  assert.deepEqual(labels('bio-03-04-focus-2', 4), ['胞浆'])
+  assert.deepEqual(labels('bio-03-05', 3), ['果糖-1,6-二磷酸', '果糖-2,6-二磷酸'])
+  assert.ok(labels('bio-01-05', 2).includes('葡萄糖-1-磷酸'))
+  assert.deepEqual(labels('bio-06-02', 3), ['柠檬酸', '异柠檬酸', '乙酰 CoA', '丙二酰 CoA'])
+  assert.deepEqual(labels('bio-06-10', 2), ['亚油酸', '亚麻酸', '花生四烯酸'])
+  assert.deepEqual(labels('bio-10-05', 3), ['胆红素摄取、排泄障碍'])
+  assert.deepEqual(labels('bio-10-05-focus-2', 3), ['UCB↑、CB↑'])
+  assert.deepEqual(labels('bio-20-07', 4), ['Fanconi贫血'])
 })
 
-test('drug targets and RNA recognition describe the actual chemistry', () => {
-  assert.match(labels('bio-09-08', 3).join(' '), /DNA聚合酶/)
+test('drug targets and RNA recognition use the source labels', () => {
+  assert.deepEqual(labels('bio-09-08', 3), ['CDP 还原酶'])
   assert.doesNotMatch(labels('bio-09-08', 2).join(' '), /合成嘌呤核苷酸/)
-  assert.match(labels('bio-18-08', 3).join(' '), /ADP-核糖基化/)
-  assert.match(labels('bio-18-08', 4).join(' '), /脱嘌呤/)
-  assert.match(labels('bio-17-08', 4).join(' '), /rut/)
+  assert.deepEqual(labels('bio-18-08', 3), ['使eEF2糖基化失活'])
+  assert.match(labels('bio-18-08', 4).join(' '), /降解28S rRNA/)
+  assert.deepEqual(labels('bio-17-08', 4), ['RNA 3′端的polyC'])
   assert.deepEqual(labels('bio-20-06-focus-2', 3), ['复制后新生链中的碱基错配'])
   assert.match(labels('bio-20-06-focus-2', 1).join(' '), /糖苷酶/)
 })

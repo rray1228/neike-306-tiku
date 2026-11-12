@@ -1050,7 +1050,9 @@
       "sourceText": "核苷酸抗代谢物：类似物辨析",
       "reviewState": "已按 2027 考研讲义与思维导图核对",
       "reviewIssues": [],
-      "reviewNotes": ["第4小题按用户校正及讲义抗代谢物表，将A项改为胸腺嘧啶（T）。"],
+      "reviewNotes": [
+        "第4小题按用户校正及讲义抗代谢物表，将A项改为胸腺嘧啶（T）。"
+      ],
       "topic": "核苷酸代谢",
       "lectureIds": [
         "lecture-09"
@@ -1086,7 +1088,7 @@
         },
         {
           "key": "B",
-          "label": "DNA聚合酶"
+          "label": "CDP 还原酶"
         },
         {
           "key": "C",
@@ -1107,17 +1109,23 @@
         {
           "key": "G",
           "label": "APRT"
+        },
+        {
+          "key": "H",
+          "label": "HGPRT"
         }
       ],
       "stems": [
         {
           "number": 1,
-          "text": "6-MP活性代谢物抑制嘌呤从头合成时的靶酶",
+          "text": "讲义第80页抗代谢物表中，6-MP的“竞争”栏列出哪些酶？",
           "answer": [
-            "D"
+            "D",
+            "H",
+            "G"
           ],
-          "answerRaw": "D",
-          "answerMode": "单选"
+          "answerRaw": "D、H、G",
+          "answerMode": "多选"
         },
         {
           "number": 2,
@@ -1130,7 +1138,7 @@
         },
         {
           "number": 3,
-          "text": "阿糖胞苷活性三磷酸代谢物的主要靶酶",
+          "text": "讲义第80页抗代谢物表中，阿糖胞苷的“竞争”栏列出哪种酶？",
           "answer": [
             "B"
           ],
@@ -1211,7 +1219,7 @@
         },
         {
           "key": "C",
-          "label": "DNA链延长"
+          "label": "合成 dCDP（CDP → dCDP）"
         },
         {
           "key": "D",
@@ -1243,7 +1251,7 @@
         },
         {
           "number": 3,
-          "text": "阿糖胞苷主要抑制哪一过程？",
+          "text": "讲义第80页抗代谢物表中，阿糖胞苷的“抑制”栏列出哪个过程？",
           "answer": [
             "C"
           ],

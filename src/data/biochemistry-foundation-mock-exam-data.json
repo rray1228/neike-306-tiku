@@ -719,22 +719,22 @@
         {
           "key": "A",
           "displayKey": "A",
-          "label": "VitB 、VitB 1 2"
+          "label": "VitB₁、VitB₂"
         },
         {
           "key": "B",
           "displayKey": "B",
-          "label": "VitB 、VitB 2 6"
+          "label": "VitB₂、VitB₆"
         },
         {
           "key": "C",
           "displayKey": "C",
-          "label": "VitB 、VitB 6 12"
+          "label": "VitB₆、VitB₁₂"
         },
         {
           "key": "D",
           "displayKey": "D",
-          "label": "VitB 、VitPP 6"
+          "label": "VitB₆、VitPP"
         }
       ],
       "stems": [
@@ -751,10 +751,10 @@
           "answerMode": "单选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-biochemistry-07",
-          "explanation": "正确答案：D（VitB 、VitPP 6）。\n\nD：联合脱氨包括转氨和谷氨酸氧化脱氨。转氨酶需磷酸吡哆醛，来自VitB₆；谷氨酸脱氢酶需NAD⁺/NADP⁺，对应VitPP。A、B、C均未同时包括这一组合。",
+          "explanation": "正确答案：D（VitB₆、VitPP）。转氨酶的辅因子是磷酸吡哆醛（VitB₆）。L-谷氨酸脱氢酶可用NAD或NADP作辅因子，两者均含VitPP。",
           "knowledgeConnections": [
-            "多数氨基酸先把氨基转给α-酮戊二酸形成谷氨酸，再释放NH₃。",
-            "VitB₆也参与氨基酸脱羧；VitPP构成NAD⁺/NADP⁺。"
+            "转氨酶的辅因子是磷酸吡哆醛（VitB₆）。",
+            "L-谷氨酸脱氢酶可用NAD或NADP作辅因子，两者均含VitPP。"
           ],
           "lectureEvidencePages": [
             {
@@ -771,15 +771,32 @@
               ],
               "optionKeys": [],
               "knowledgePoints": [
-                "多数氨基酸先把氨基转给α-酮戊二酸形成谷氨酸，再释放NH₃。"
+                "L-谷氨酸脱氢酶可用NAD或NADP作辅因子，两者均含VitPP。"
+              ]
+            },
+            {
+              "sourceSubject": "biochemistry",
+              "sourceFile": "27生化跟课版合集【带导图】.pdf",
+              "page": 105,
+              "pageLabel": "带导图合集 · PDF第105页",
+              "title": "生化带导图合集 · PDF第105页 · 维生素",
+              "image": "site-assets/biochemistry-collection/page-105.avif",
+              "lectureId": "lecture-13",
+              "lectureNumber": 13,
+              "questionNumbers": [
+                22
+              ],
+              "optionKeys": [],
+              "knowledgePoints": [
+                "转氨酶的辅因子是磷酸吡哆醛（VitB₆）。"
               ]
             }
           ]
         }
       ],
       "lectureSummary": [
-        "多数氨基酸先把氨基转给α-酮戊二酸形成谷氨酸，再释放NH₃。",
-        "VitB₆也参与氨基酸脱羧；VitPP构成NAD⁺/NADP⁺。"
+        "转氨酶的辅因子是磷酸吡哆醛（VitB₆）。",
+        "L-谷氨酸脱氢酶可用NAD或NADP作辅因子，两者均含VitPP。"
       ],
       "lectureEvidence": {
         "lectureId": "foundation-biochemistry-07",
@@ -795,7 +812,7 @@
         ],
         "optionKeys": [],
         "knowledgePoints": [
-          "多数氨基酸先把氨基转给α-酮戊二酸形成谷氨酸，再释放NH₃。"
+          "L-谷氨酸脱氢酶可用NAD或NADP作辅因子，两者均含VitPP。"
         ]
       },
       "lectureEvidencePages": [
@@ -813,7 +830,24 @@
           ],
           "optionKeys": [],
           "knowledgePoints": [
-            "多数氨基酸先把氨基转给α-酮戊二酸形成谷氨酸，再释放NH₃。"
+            "L-谷氨酸脱氢酶可用NAD或NADP作辅因子，两者均含VitPP。"
+          ]
+        },
+        {
+          "sourceSubject": "biochemistry",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "page": 105,
+          "pageLabel": "带导图合集 · PDF第105页",
+          "title": "生化带导图合集 · PDF第105页 · 维生素",
+          "image": "site-assets/biochemistry-collection/page-105.avif",
+          "lectureId": "lecture-13",
+          "lectureNumber": 13,
+          "questionNumbers": [
+            22
+          ],
+          "optionKeys": [],
+          "knowledgePoints": [
+            "转氨酶的辅因子是磷酸吡哆醛（VitB₆）。"
           ]
         }
       ]

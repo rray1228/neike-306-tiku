@@ -49,10 +49,10 @@ test('amino acid classification follows the supplied lecture without adding tryp
   assert.equal(get('bio-07-02').answerRevision, 'bio-amino-classification-20261103-v2')
 })
 
-test('mammalian phospholipid pathways no longer import microbial routes or indirect methylation', () => {
-  assert.match(stem('bio-05-03', 2).text, /哺乳动物/)
-  assert.deepEqual(answers('bio-05-03', 2), ['B', 'M'])
-  assert.match(stem('bio-05-03', 2).explanation, /碱基交换/)
+test('the phospholipid pathway question follows the collection diagram', () => {
+  assert.match(stem('bio-05-03', 2).text, /第42页/)
+  assert.deepEqual(answers('bio-05-03', 2), ['B', 'G', 'M'])
+  assert.match(stem('bio-05-03', 2).explanation, /磷脂酰丝氨酸/)
   assert.deepEqual(answers('bio-05-04', 1), ['B'])
   assert.equal(stem('bio-05-04', 1).answerMode, '单选')
   assert.match(stem('bio-05-04', 1).text, /直接/)
@@ -69,10 +69,10 @@ test('overlapping cofactor, interferon and polymerase distractors no longer crea
 test('molecular mechanisms distinguish bases, nucleosides, protein factors and origin elements', () => {
   assert.equal(label('bio-20-04-focus-2', 'B'), '腺嘌呤→次黄嘌呤')
   assert.match(label('bio-18-03', 'H'), /核苷酸交换因子/)
-  assert.match(label('bio-18-08', 'F'), /E位.*转位/)
+  assert.equal(label('bio-18-08', 'F'), '结合真核60S亚基而抑制成肽')
   assert.match(label('bio-19-07-focus-2', 'A'), /降解减少.*稳定积累/)
-  assert.match(label('bio-17-02', 'D'), /组装.*UP元件/)
-  assert.doesNotMatch(label('bio-17-02', 'B'), /募集σ/)
+  assert.match(label('bio-17-02', 'D'), /决定转录特异性/)
+  assert.match(label('bio-17-02', 'B'), /募集σ/)
   assert.match(label('bio-17-01-focus-4', 'B'), /初级转录本/)
   assert.match(stem('bio-16-05', 1).text, /DnaA盒/)
 })

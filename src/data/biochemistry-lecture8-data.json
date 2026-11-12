@@ -297,27 +297,22 @@
         },
         {
           "number": 3,
-          "text": "维持蛋白质三级结构的常见相互作用力（选择所有适用项）",
+          "text": "讲义第67页表中列出的蛋白质三级结构维系键",
           "answer": [
-            "A",
-            "B",
-            "D",
             "E",
-            "F"
+            "B"
           ],
-          "answerRaw": "A、B、D、E、F",
+          "answerRaw": "E、B",
           "answerMode": "多选"
         },
         {
           "number": 4,
-          "text": "维持蛋白质四级结构中亚基间结合的常见非共价作用力",
+          "text": "讲义第67页表中列出的蛋白质四级结构维系键",
           "answer": [
-            "A",
-            "D",
-            "E",
-            "F"
+            "F",
+            "A"
           ],
-          "answerRaw": "A、D、E、F",
+          "answerRaw": "F、A",
           "answerMode": "多选"
         }
       ],

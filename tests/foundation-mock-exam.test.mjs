@@ -28,6 +28,16 @@ test('the final question has no closing note in its options and keeps its origin
   assert.deepEqual(finalQuestion.stems[0].answer, ['A', 'C'])
 })
 
+test('question 22 preserves each vitamin subscript and the original D answer', () => {
+  const question = groups.find(group => group.sourceQuestion === '22')
+  assert.deepEqual(question.options.map(option => option.label), [
+    'VitB₁、VitB₂', 'VitB₂、VitB₆', 'VitB₆、VitB₁₂', 'VitB₆、VitPP',
+  ])
+  assert.deepEqual(question.stems[0].answer, ['D'])
+  assert.match(question.stems[0].explanation, /磷酸吡哆醛.*NAD或NADP/)
+  assert.deepEqual(question.lectureEvidencePages.map(page => page.page), [54, 105])
+})
+
 test('shared clinical vignettes are separated from subquestions without parser debris', () => {
   assert.equal(groups.filter(group => group.stems[0].sharedText).length, 40)
   const debris = /\[共用题干\]|\[\d+题\]|题共用题干|ttsx|\d{4}N\d+|真题解析[·・]/

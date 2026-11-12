@@ -216,6 +216,9 @@ def main() -> None:
     for q in range(1, 166):
         site_subject, evidence_subject, lecture_no = assignments[q]
         question = questions[q]
+        if q == 22:
+            # PDF text extraction places the vitamin subscripts at the end of each option.
+            question["options"] = dict(zip("ABCD", ("VitB₁、VitB₂", "VitB₂、VitB₆", "VitB₆、VitB₁₂", "VitB₆、VitPP")))
         answer = answers[q]
         correct_labels = [question["options"][letter] for letter in answer]
         lecture_id = f"foundation-{evidence_subject}-{lecture_no:02d}" if lecture_no else "foundation-medical-humanities"

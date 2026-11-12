@@ -15,10 +15,11 @@ test('both papers retain every original question, option, answer and study-recor
       answerRaw: s.answerRaw, answerMode: s.answerMode, answerState: s.answerState, number: s.number })),
   }))
   assert.equal(rows.length, 330)
-  // Reviewed text corrections: foundation questions 103–105 restore T₉,
+  // Reviewed text corrections: foundation question 22 restores vitamin subscripts,
+  // questions 103–105 restore T₉,
   // question 106 restores the lumbar levels, and question 165 excludes the closing note.
   assert.equal(createHash('sha256').update(JSON.stringify(rows)).digest('hex'),
-    '07ebf07a7e5309aadd7e9839d7e85d0f17a779a8acafe62ad5c78296963a3030')
+    '1f2fbc406357766c7332e78309af1bd974f806cff3cbdede023581df002fd4a1')
 })
 
 test('every question has reviewed, specific notes instead of OCR paragraph templates', () => {

@@ -1545,14 +1545,14 @@
     ]
   },
   "biochemistry-foundation-mock-exam-20260907-q022": {
-    "explanation": "正确答案：D（VitB 、VitPP 6）。\n\nD：联合脱氨包括转氨和谷氨酸氧化脱氨。转氨酶需磷酸吡哆醛，来自VitB₆；谷氨酸脱氢酶需NAD⁺/NADP⁺，对应VitPP。A、B、C均未同时包括这一组合。",
+    "explanation": "正确答案：D（VitB₆、VitPP）。转氨酶的辅因子是磷酸吡哆醛（VitB₆）。L-谷氨酸脱氢酶可用NAD或NADP作辅因子，两者均含VitPP。",
     "knowledgeConnections": [
-      "多数氨基酸先把氨基转给α-酮戊二酸形成谷氨酸，再释放NH₃。",
-      "VitB₆也参与氨基酸脱羧；VitPP构成NAD⁺/NADP⁺。"
+      "转氨酶的辅因子是磷酸吡哆醛（VitB₆）。",
+      "L-谷氨酸脱氢酶可用NAD或NADP作辅因子，两者均含VitPP。"
     ],
     "lectureSummary": [
-      "多数氨基酸先把氨基转给α-酮戊二酸形成谷氨酸，再释放NH₃。",
-      "VitB₆也参与氨基酸脱羧；VitPP构成NAD⁺/NADP⁺。"
+      "转氨酶的辅因子是磷酸吡哆醛（VitB₆）。",
+      "L-谷氨酸脱氢酶可用NAD或NADP作辅因子，两者均含VitPP。"
     ],
     "evidencePages": [
       {
@@ -1560,7 +1560,7 @@
         "sourceFile": "07 27考研：生化 氨基酸代谢 & 氨基酸 核心-真题-串联-导图 天天师兄.pdf",
         "page": 2,
         "knowledgePoints": [
-          "多数氨基酸先把氨基转给α-酮戊二酸形成谷氨酸，再释放NH₃。"
+          "L-谷氨酸脱氢酶可用NAD或NADP作辅因子，两者均含VitPP。"
         ],
         "sourcePath": "/Users/ray/Desktop/📚 考研备考/🩺 西综/306/生物化学/讲义/07 27考研：生化 氨基酸代谢 & 氨基酸 核心-真题-串联-导图 天天师兄.pdf"
       }

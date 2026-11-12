@@ -457,7 +457,7 @@
       "supplementNotice": "",
       "studyNotice": "生物化学",
       "answerSourceLabel": "答案",
-      "answerSourceName": "用户授权拟答：讲义与补充资料核对（2026-10-17）",
+      "answerSourceName": "用户按讲义校正（2026-11-12）",
       "answerRevision": "bio-stage-draft-20261017-v1",
       "options": [
         {
@@ -487,20 +487,19 @@
           "sourceQuestion": 6,
           "sourcePage": 2,
           "text": "成人主要消耗脂肪酸、而不是葡萄糖的器官组织有",
-          "answerRaw": "ABD",
+          "answerRaw": "AB",
           "answer": [
             "A",
-            "B",
-            "D"
+            "B"
           ],
           "answerMode": "多选",
           "sourceAnswerMode": "多选",
-          "answerState": "讲义核对拟答（非官方）",
-          "answerProvenance": "assistant-draft",
-          "explanation": "按正常成人的典型供能特点，肝、心及肾（尤其肾皮质）大量利用脂肪酸；脑通常不以长链脂肪酸β氧化为主要能源。肾髓质与肾皮质不同，不能将“肾”理解为所有肾细胞均主要氧化脂肪酸。",
+          "answerState": "用户校正",
+          "answerProvenance": "user-correction",
+          "explanation": "讲义第45页写明，正常进食时肝主要通过氧化脂肪酸获得能量，成人心肌也主要消耗脂肪酸。本题选A、B。",
           "lectureId": "lecture-06",
           "knowledgeConnections": [
-            "脑主要利用葡萄糖，长期饥饿可增加酮体利用；成熟红细胞无线粒体，不能靠脂肪酸氧化供能。"
+            "讲义第45页列明，脑不能进行脂肪酸β氧化。"
           ]
         }
       ]
