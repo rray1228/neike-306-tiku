@@ -1,5 +1,22 @@
 import { Children, useEffect, useLayoutEffect, useRef, useState } from 'react'
 
+function observeLayout(update, ...elements) {
+  let frame = null
+  // Apply layout changes after the observer's notification cycle.
+  const observer = new ResizeObserver(() => {
+    if (frame !== null) return
+    frame = requestAnimationFrame(() => {
+      frame = null
+      update()
+    })
+  })
+  for (const element of elements) observer.observe(element)
+  return () => {
+    observer.disconnect()
+    if (frame !== null) cancelAnimationFrame(frame)
+  }
+}
+
 export function AdaptiveStudyGrid({ group, children }) {
   const [phone, setPhone] = useState(false)
   const [narrow, setNarrow] = useState(false)
@@ -28,11 +45,10 @@ export function AdaptiveStudyGrid({ group, children }) {
       }
     }
     update()
-    const observer = new ResizeObserver(update)
-    observer.observe(grid)
+    const stopObserving = observeLayout(update, grid)
     let active = true
     document.fonts.ready.then(() => { if (active) update() })
-    return () => { active = false; observer.disconnect() }
+    return () => { active = false; stopObserving() }
   }, [group])
   useEffect(() => {
     const update = () => {
@@ -53,9 +69,7 @@ export function AdaptiveAnswerLayout({ minTableWidth, table, children }) {
     const container = containerRef.current
     const update = () => setFits(container.clientWidth >= minTableWidth)
     update()
-    const observer = new ResizeObserver(update)
-    observer.observe(container)
-    return () => observer.disconnect()
+    return observeLayout(update, container)
   }, [minTableWidth])
   return <div ref={containerRef} className="adaptive-answer-layout">{fits ? table : children}</div>
 }
@@ -107,12 +121,10 @@ export function BalancedAnswerChoices({ count, children, judgement, className = 
       setRowCount((previous) => previous === rows ? previous : rows)
     }
     update()
-    const observer = new ResizeObserver(update)
-    observer.observe(choices)
-    observer.observe(row)
+    const stopObserving = observeLayout(update, choices, row)
     let active = true
     document.fonts.ready.then(() => { if (active) update() })
-    return () => { active = false; observer.disconnect() }
+    return () => { active = false; stopObserving() }
   }, [count, judgement])
   const buttons = Children.toArray(children)
   let offset = 0
