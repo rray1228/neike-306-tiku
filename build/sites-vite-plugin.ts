@@ -24,11 +24,12 @@ export function sites(): Plugin {
       const outputDirectory = resolve(root, "dist", ".openai");
       const hostingConfig = resolve(root, ".openai", "hosting.json");
       // Reviewed lecture pages ship with the Site; legacy teaching assets remain on their existing CDN.
-      const manifests = ["med-reviewed-lecture-evidence", "med-remaining-reviewed-lecture-evidence", "surgery-updated-lecture-evidence", "pathology-reviewed-lecture-evidence", "biochemistry-reviewed-lecture-evidence"];
+      const manifests = ["med-reviewed-lecture-evidence", "med-remaining-reviewed-lecture-evidence", "surgery-updated-lecture-evidence", "pathology-reviewed-lecture-evidence", "biochemistry-reviewed-lecture-evidence", "physiology-reviewed-lecture-evidence"];
       await rm(resolve(root, "dist", "client", "site-assets"), { recursive: true, force: true });
       for (const manifest of manifests) {
         const review = JSON.parse(await readFile(resolve(root, "src", "data", `${manifest}.json`), "utf8"));
         for (const page of Object.values(review.pages) as { image: string }[]) {
+          if (!page.image.startsWith("site-assets/")) continue;
           const target = resolve(root, "dist", "client", page.image);
           await mkdir(dirname(target), { recursive: true });
           await cp(resolve(root, "public", page.image), target);

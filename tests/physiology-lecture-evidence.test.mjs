@@ -73,7 +73,7 @@ test('uncovered stems are explicit and cannot fall back to a distractor or anoth
 })
 
 test('every attached collection page is bounded and has a genuine image', () => {
-  assert.equal(Object.keys(review.pages).length, 262)
+  assert.equal(Object.keys(review.pages).length, 263)
   for (const p of Object.values(review.pages)) {
     assert.equal(p.sourceFile, '27跟课生理合集【带导图】.pdf')
     assert.ok(p.page > 0 && p.page <= 437)

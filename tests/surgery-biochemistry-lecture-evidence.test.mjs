@@ -66,7 +66,7 @@ test('biochemistry uses the collection with mind maps for question groups and bo
  assert.ok(pages.some(p=>p.page===193))
  const assetByPage=new Map(pages.map(p=>[p.page,p.image]))
  const additionalQuestions=read('biochemistry-xuecheng-37-data')
- assert.deepEqual(additionalQuestions.map(group=>group.lectureEvidence.page),[6,6,7,9])
+ assert.deepEqual(additionalQuestions.map(group=>group.lectureEvidence.page),[6,6,7,9,25])
  for(const group of additionalQuestions){
   assert.deepEqual(group.lectureEvidencePages,[group.lectureEvidence],group.id)
   assert.equal(group.lectureEvidence.sourceFile,biochemistryCollection,group.id)
