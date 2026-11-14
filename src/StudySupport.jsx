@@ -100,6 +100,23 @@ export function usePracticeEncouragement(enabled, blocked) {
   return { notice, recordCompletion, dismiss, popupsEnabled: preference !== false, setPopupsEnabled }
 }
 
+export function StudySiteNotice({ onClose }) {
+  const dialog = useRef(null)
+  useEffect(() => {
+    const node = dialog.current
+    node.showModal()
+    return () => { if (node.open) node.close() }
+  }, [])
+
+  return <dialog ref={dialog} className="practice-settings-dialog study-site-notice" aria-labelledby="study-site-notice-title" onCancel={event => { event.preventDefault(); onClose() }}>
+    <h2 id="study-site-notice-title">关于题库使用和答疑</h2>
+    <p>大家好，这个题库是我备考时个人整理、分享的。平时由我抽空打理，时间和精力都有限，反馈和网站问题没办法逐一处理，也无法提供答疑，还请大家多多包涵。</p>
+    <p>遇到不会的题，可以先翻一翻旁边的讲义。37不yy老师的题目如果有疑问，可以按题目日期去找当天的讨论帖，看看帖里的答案和讨论。</p>
+    <p>有些题目的答案我还没来得及逐一校对，站内答案仅供参考。建议以讲义为主，借题目查漏补缺。谢谢大家的理解，也祝大家复习顺利！</p>
+    <div className="encouragement-actions"><button type="button" className="primary-button" onClick={onClose}>知道了</button></div>
+  </dialog>
+}
+
 export function PracticeSettingsDialog({ enabled, onChange, onClose }) {
   const dialog = useRef(null)
   useEffect(() => {

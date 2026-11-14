@@ -14,7 +14,7 @@ import { combineSharedClinicalCases, migrateSharedClinicalCases } from './shared
 import { chapterLectureIds, organizeChapterPractice, originalQuestionsFirst } from './chapter-practice.js'
 import { matchShortcut, optionShortcut, shortcutCharacter } from './keyboard-shortcuts.js'
 import { fillNavigationTarget } from './fill-navigation.js'
-import { EncouragementDialog, PracticeSettingsDialog, usePracticeEncouragement, VisitorCount } from './StudySupport.jsx'
+import { EncouragementDialog, PracticeSettingsDialog, StudySiteNotice, usePracticeEncouragement, VisitorCount } from './StudySupport.jsx'
 import { groupHasResponses } from './study-milestones.js'
 
 const NumericMemory = lazy(() => import('./NumericMemory.jsx'))
@@ -23,6 +23,7 @@ const ALL_TEST_CATALOG = [...testCatalog, ...foundationMockExamCatalog]
 const TEST_COLLECTIONS = Object.fromEntries([...new Set(ALL_TEST_CATALOG.map(paper => paper.subject))].map(subject => [subject, testCollectionForSubject(ALL_TEST_CATALOG, subject)]))
 const TEST_SOURCE_CATEGORIES = new Map(ALL_TEST_CATALOG.flatMap(source => source.groupIds.map(id => [id, source.category])))
 const XUECHENG_37_TITLE = '37不yy老师的学成选择题'
+const STUDY_SITE_NOTICE_KEY = 'study-site-notice-2026-11-14-v1'
 const XUECHENG_37_LOADERS = {
   med: () => import('./data/med-xuecheng-37-data.json'),
   pathology: () => import('./data/pathology-xuecheng-37-data.json'),
@@ -813,6 +814,8 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   const [showLectureEvidence, setShowLectureEvidence] = useState(false)
   const [showNote, setShowNote] = useState(false)
   const [showPracticeSettings, setShowPracticeSettings] = useState(false)
+  const [showSiteNotice, setShowSiteNotice] = useState(false)
+  const studyDialogOpen = showPracticeSettings || showSiteNotice
   const [mobileEvidence, setMobileEvidence] = useState(false)
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false)
   const [evidenceCollapsed, setEvidenceCollapsed] = useState(false)
@@ -820,7 +823,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
   const [keyboardStem, setKeyboardStem] = useState(null)
   const { notice: encouragement, recordCompletion, dismiss: dismissEncouragement, popupsEnabled, setPopupsEnabled } = usePracticeEncouragement(
     storageReady && !isReferenceView && !isLoadingContent,
-    Boolean(showSource || showLectureEvidence || mobileEvidence || showPracticeSettings),
+    Boolean(showSource || showLectureEvidence || mobileEvidence || studyDialogOpen),
   )
   const questionCardRef = useRef(null)
   const pendingOptionRef = useRef(null)
@@ -858,8 +861,14 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     setSidebarCollapsed(window.innerWidth <= 720 ? true : readLocalStorage('med-sidebar-collapsed', false))
     setEvidenceCollapsed(readLocalStorage('med-evidence-collapsed', false))
     setTopbarCollapsed(readLocalStorage('study-topbar-collapsed', false))
+    if (!testPaper) setShowSiteNotice(!readLocalStorage(STUDY_SITE_NOTICE_KEY, false))
     setStorageReady(true)
   }, [])
+
+  function dismissSiteNotice() {
+    setShowSiteNotice(false)
+    try { window.localStorage.setItem(STUDY_SITE_NOTICE_KEY, 'true') } catch { /* The notice can still close if storage is unavailable. */ }
+  }
 
   useEffect(() => {
     if (testPaper) return undefined
@@ -890,7 +899,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
 
   useEffect(() => {
     function focusSearch(event) {
-      if (showPracticeSettings) return
+      if (studyDialogOpen) return
       if ((event.metaKey || event.ctrlKey) && !event.altKey && !event.isComposing && event.key.toLowerCase() === 'k') {
         event.preventDefault()
         setTopbarCollapsed(false)
@@ -899,7 +908,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     }
     window.addEventListener('keydown', focusSearch)
     return () => window.removeEventListener('keydown', focusSearch)
-  }, [showPracticeSettings])
+  }, [studyDialogOpen])
 
   useEffect(() => {
     if (!isReferenceView) return
@@ -1195,7 +1204,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     let shiftTap = null
 
     function canUseLectureShortcut(event) {
-      if (showPracticeSettings) return false
+      if (studyDialogOpen) return false
       if (isReferenceView || encouragement) return false
       if (event.defaultPrevented || event.isComposing || event.keyCode === 229
         || event.altKey || event.ctrlKey || event.metaKey) return false
@@ -1250,10 +1259,10 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       window.removeEventListener('blur', cancelShiftTap)
       window.removeEventListener('pointerdown', cancelShiftTap, true)
     }
-  }, [activeStemIndex, encouragement, filteredGroups.length, group, isLoadingContent, showLectureEvidence, showPracticeSettings, showSource, viewMode])
+  }, [activeStemIndex, encouragement, filteredGroups.length, group, isLoadingContent, showLectureEvidence, showSource, studyDialogOpen, viewMode])
 
   useEffect(() => {
-    if (isReferenceView || isLoadingContent || !filteredGroups.length || showSource || showLectureEvidence || mobileEvidence || encouragement || showPracticeSettings) return undefined
+    if (isReferenceView || isLoadingContent || !filteredGroups.length || showSource || showLectureEvidence || mobileEvidence || encouragement || studyDialogOpen) return undefined
     let sequence = ''
     let timer
 
@@ -1366,7 +1375,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       window.removeEventListener('blur', clearSequence)
       clearSequence()
     }
-  }, [activeStemIndex, answerStorageId, encouragement, filteredGroups.length, flushPendingOption, goTo, isLoadingContent, isSubmitted, mobileEvidence, redoGroup, showLectureEvidence, showPracticeSettings, showSource, submitGroup, viewMode])
+  }, [activeStemIndex, answerStorageId, encouragement, filteredGroups.length, flushPendingOption, goTo, isLoadingContent, isSubmitted, mobileEvidence, redoGroup, showLectureEvidence, showSource, studyDialogOpen, submitGroup, viewMode])
 
   function jumpTo(index) {
     if (!filteredGroups.length) return
@@ -1387,7 +1396,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     function allowed(event) {
       const target = event.target instanceof Element ? event.target : null
       return !isReferenceView && !isLoadingContent && filteredGroups.length > 0
-        && !showSource && !showLectureEvidence && !encouragement && !showPracticeSettings
+        && !showSource && !showLectureEvidence && !encouragement && !studyDialogOpen
         && !event.defaultPrevented && !event.isComposing && event.keyCode !== 229
         && !event.ctrlKey && !event.metaKey && !event.shiftKey
         && !event.getModifierState?.('AltGraph')
@@ -1417,7 +1426,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       window.removeEventListener('blur', cancel)
       window.removeEventListener('pointerdown', cancel, true)
     }
-  }, [encouragement, filteredGroups.length, groupStorageId, isLoadingContent, showLectureEvidence, showPracticeSettings, showSource, viewMode])
+  }, [encouragement, filteredGroups.length, groupStorageId, isLoadingContent, showLectureEvidence, showSource, studyDialogOpen, viewMode])
 
   function toggleFavoriteNotebook() {
     setFavoritesOnly((value) => !value)
@@ -1644,6 +1653,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       {showSource && currentPage && <SourceModal group={group} page={currentPage} pages={content.pages} sourceName={group.sourceName || subjectConfig.sourceName} onClose={() => setShowSource(false)} />}
       {showLectureEvidence && <LectureEvidenceModal notice={group.lectureEvidenceNotice} pages={group.lectureEvidencePages} evidence={typeof showLectureEvidence === 'object' ? showLectureEvidence : group.lectureEvidence} onClose={() => setShowLectureEvidence(false)} />}
       <VisitorCount />
+      {showSiteNotice && <StudySiteNotice onClose={dismissSiteNotice} />}
       {showPracticeSettings && <PracticeSettingsDialog enabled={popupsEnabled} onChange={setPopupsEnabled} onClose={() => setShowPracticeSettings(false)} />}
       {encouragement && <EncouragementDialog notice={encouragement} onDismiss={dismissEncouragement} />}
       <div className="site-watermark" aria-hidden="true">
