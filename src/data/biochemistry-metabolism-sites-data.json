@@ -1,0 +1,434 @@
+[
+  {
+    "id": "bio-metabolism-sites-p09-lecture-01",
+    "page": 9,
+    "title": "代谢部位小结｜糖的氧化",
+    "kind": "B",
+    "kindLabel": "B型题",
+    "topic": "糖代谢",
+    "lectureIds": [
+      "lecture-01"
+    ],
+    "sourceName": "狂背【基础学科横向大串联】 天天师兄27考研 我包上岸！.pdf",
+    "sourceKey": "foundation-metabolism-sites",
+    "sourceSection": "代谢部位小结",
+    "studyNotice": "出题依据《狂背【基础学科横向大串联】 天天师兄27考研 我包上岸！.pdf》第 9 页上半表",
+    "hideSource": true,
+    "options": [
+      {
+        "key": "A",
+        "label": "线粒体"
+      },
+      {
+        "key": "B",
+        "label": "胞浆"
+      },
+      {
+        "key": "C",
+        "label": "滑面内质网"
+      },
+      {
+        "key": "D",
+        "label": "胞浆和线粒体"
+      }
+    ],
+    "stems": [
+      {
+        "number": 1,
+        "text": "糖酵解及糖的无氧氧化发生在什么部位？",
+        "answer": [
+          "B"
+        ],
+        "answerMode": "单选",
+        "explanation": "糖酵解的各步反应和丙酮酸还原为乳酸都在胞浆。"
+      },
+      {
+        "number": 2,
+        "text": "丙酮酸经丙酮酸脱氢酶复合体氧化脱羧生成乙酰 CoA，发生在什么部位？",
+        "answer": [
+          "A"
+        ],
+        "answerMode": "单选",
+        "explanation": "丙酮酸进入线粒体后，在基质中氧化脱羧生成乙酰 CoA。"
+      },
+      {
+        "number": 3,
+        "text": "三羧酸循环发生在什么部位？",
+        "answer": [
+          "A"
+        ],
+        "answerMode": "单选",
+        "explanation": "三羧酸循环的多数酶位于线粒体基质，琥珀酸脱氢酶定位于线粒体内膜。"
+      }
+    ]
+  },
+  {
+    "id": "bio-metabolism-sites-p09-lecture-02",
+    "page": 9,
+    "title": "代谢部位小结｜氧化磷酸化与还原当量穿梭",
+    "kind": "B",
+    "kindLabel": "B型题",
+    "topic": "生物氧化",
+    "lectureIds": [
+      "lecture-02"
+    ],
+    "sourceName": "狂背【基础学科横向大串联】 天天师兄27考研 我包上岸！.pdf",
+    "sourceKey": "foundation-metabolism-sites",
+    "sourceSection": "代谢部位小结",
+    "studyNotice": "出题依据《狂背【基础学科横向大串联】 天天师兄27考研 我包上岸！.pdf》第 9 页上半表",
+    "hideSource": true,
+    "options": [
+      {
+        "key": "A",
+        "label": "胞浆和线粒体"
+      },
+      {
+        "key": "B",
+        "label": "胞浆"
+      },
+      {
+        "key": "C",
+        "label": "滑面内质网"
+      },
+      {
+        "key": "D",
+        "label": "线粒体"
+      }
+    ],
+    "stems": [
+      {
+        "number": 1,
+        "text": "呼吸链偶联的氧化磷酸化发生在什么部位？",
+        "answer": [
+          "D"
+        ],
+        "answerMode": "单选",
+        "explanation": "呼吸链和 ATP 合酶位于线粒体内膜，ATP 合酶利用跨膜质子梯度合成 ATP。"
+      },
+      {
+        "number": 2,
+        "text": "α-磷酸甘油穿梭（α-磷酸甘油与磷酸二羟丙酮互变）涉及哪些部位？",
+        "answer": [
+          "A"
+        ],
+        "answerMode": "单选",
+        "explanation": "胞浆中的脱氢酶利用 NADH 生成 α-磷酸甘油，线粒体内膜上的脱氢酶再把还原当量经 FAD 传给辅酶 Q。"
+      },
+      {
+        "number": 3,
+        "text": "苹果酸–天冬氨酸穿梭涉及哪些部位？",
+        "answer": [
+          "A"
+        ],
+        "answerMode": "单选",
+        "explanation": "胞浆和线粒体基质内的反应通过内膜转运体相连，使胞浆 NADH 的还原当量在线粒体基质侧生成 NADH。"
+      }
+    ]
+  },
+  {
+    "id": "bio-metabolism-sites-p09-lecture-03",
+    "page": 9,
+    "title": "代谢部位小结｜糖原、磷酸戊糖途径与糖异生",
+    "kind": "B",
+    "kindLabel": "B型题",
+    "topic": "糖代谢",
+    "lectureIds": [
+      "lecture-03"
+    ],
+    "sourceName": "狂背【基础学科横向大串联】 天天师兄27考研 我包上岸！.pdf",
+    "sourceKey": "foundation-metabolism-sites",
+    "sourceSection": "代谢部位小结",
+    "studyNotice": "出题依据《狂背【基础学科横向大串联】 天天师兄27考研 我包上岸！.pdf》第 9 页上半表",
+    "hideSource": true,
+    "options": [
+      {
+        "key": "A",
+        "label": "滑面内质网"
+      },
+      {
+        "key": "B",
+        "label": "胞浆和线粒体"
+      },
+      {
+        "key": "C",
+        "label": "胞浆"
+      },
+      {
+        "key": "D",
+        "label": "线粒体"
+      }
+    ],
+    "stems": [
+      {
+        "number": 1,
+        "text": "糖原的合成和常规磷酸解主要发生在什么部位？",
+        "answer": [
+          "C"
+        ],
+        "answerMode": "单选",
+        "explanation": "糖原颗粒和负责合成、磷酸解的主要酶都在胞浆。肝细胞释放游离葡萄糖前的脱磷酸另涉及内质网。"
+      },
+      {
+        "number": 2,
+        "text": "磷酸戊糖途径发生在什么部位？",
+        "answer": [
+          "C"
+        ],
+        "answerMode": "单选",
+        "explanation": "磷酸戊糖途径在胞浆进行，可提供 NADPH 和核糖-5-磷酸。"
+      },
+      {
+        "number": 3,
+        "text": "以丙酮酸为原料的糖异生，在生成葡萄糖-6-磷酸以前主要涉及哪些部位？",
+        "answer": [
+          "B"
+        ],
+        "answerMode": "单选",
+        "explanation": "丙酮酸先在线粒体内羧化，后续多步反应在胞浆。最后由葡萄糖-6-磷酸生成游离葡萄糖的反应涉及内质网，题干所问范围截至葡萄糖-6-磷酸。"
+      },
+      {
+        "number": 4,
+        "text": "乳酸循环中，肌肉生成乳酸和肝利用乳酸糖异生至葡萄糖-6-磷酸，合起来涉及哪些细胞内部位？",
+        "answer": [
+          "B"
+        ],
+        "answerMode": "单选",
+        "explanation": "肌肉在胞浆生成乳酸，乳酸经血运到肝，肝内由乳酸回补糖的过程涉及胞浆和线粒体。"
+      }
+    ]
+  },
+  {
+    "id": "bio-metabolism-sites-p09-lecture-05",
+    "page": 9,
+    "title": "代谢部位小结｜磷脂和胆固醇合成",
+    "kind": "B",
+    "kindLabel": "B型题",
+    "topic": "脂代谢",
+    "lectureIds": [
+      "lecture-05"
+    ],
+    "sourceName": "狂背【基础学科横向大串联】 天天师兄27考研 我包上岸！.pdf",
+    "sourceKey": "foundation-metabolism-sites",
+    "sourceSection": "代谢部位小结",
+    "studyNotice": "出题依据《狂背【基础学科横向大串联】 天天师兄27考研 我包上岸！.pdf》第 9 页上半表",
+    "hideSource": true,
+    "options": [
+      {
+        "key": "A",
+        "label": "线粒体"
+      },
+      {
+        "key": "B",
+        "label": "滑面内质网"
+      },
+      {
+        "key": "C",
+        "label": "胞浆和滑面内质网"
+      },
+      {
+        "key": "D",
+        "label": "胞浆和线粒体"
+      }
+    ],
+    "stems": [
+      {
+        "number": 1,
+        "text": "以磷脂酰胆碱为例，经 CDP-胆碱途径合成的最后一步主要发生在什么部位？",
+        "answer": [
+          "B"
+        ],
+        "answerMode": "单选",
+        "explanation": "磷酸胆碱基转移到二酰甘油形成磷脂酰胆碱，主要在内质网膜的胞浆侧进行。讲义将这一合成部位归在滑面内质网。"
+      },
+      {
+        "number": 2,
+        "text": "由乙酰 CoA 从头合成胆固醇主要涉及哪些部位？",
+        "answer": [
+          "C"
+        ],
+        "answerMode": "单选",
+        "explanation": "胆固醇合成需要胞浆和滑面内质网的酶。关键酶 HMG-CoA 还原酶位于内质网膜。"
+      }
+    ]
+  },
+  {
+    "id": "bio-metabolism-sites-p09-lecture-06",
+    "page": 9,
+    "title": "代谢部位小结｜脂肪动员、脂肪酸合成与氧化",
+    "kind": "B",
+    "kindLabel": "B型题",
+    "topic": "脂代谢",
+    "lectureIds": [
+      "lecture-06"
+    ],
+    "sourceName": "狂背【基础学科横向大串联】 天天师兄27考研 我包上岸！.pdf",
+    "sourceKey": "foundation-metabolism-sites",
+    "sourceSection": "代谢部位小结",
+    "studyNotice": "出题依据《狂背【基础学科横向大串联】 天天师兄27考研 我包上岸！.pdf》第 9 页上半表",
+    "hideSource": true,
+    "options": [
+      {
+        "key": "A",
+        "label": "胞浆和线粒体"
+      },
+      {
+        "key": "B",
+        "label": "滑面内质网"
+      },
+      {
+        "key": "C",
+        "label": "线粒体"
+      },
+      {
+        "key": "D",
+        "label": "胞浆"
+      }
+    ],
+    "stems": [
+      {
+        "number": 1,
+        "text": "脂肪动员时，脂肪细胞中储存的甘油三酯主要在什么部位被水解？",
+        "answer": [
+          "D"
+        ],
+        "answerMode": "单选",
+        "explanation": "脂解酶在胞浆内脂滴表面依次水解储存的甘油三酯，释放脂肪酸和甘油。"
+      },
+      {
+        "number": 2,
+        "text": "从头合成脂肪酸时，脂肪酸合酶催化生成软脂酸的主要部位是什么？",
+        "answer": [
+          "D"
+        ],
+        "answerMode": "单选",
+        "explanation": "乙酰 CoA 羧化酶和脂肪酸合酶参与的从头合成主要在胞浆进行。"
+      },
+      {
+        "number": 3,
+        "text": "柠檬酸–丙酮酸循环涉及哪些部位？",
+        "answer": [
+          "A"
+        ],
+        "answerMode": "单选",
+        "explanation": "柠檬酸在线粒体形成后转出，在胞浆裂解，给胞浆脂肪酸合成提供乙酰 CoA。"
+      },
+      {
+        "number": 4,
+        "text": "按讲义的部位归纳，长链脂肪酸在线粒体外先活化、随后进入线粒体氧化，两阶段合起来涉及哪些部位？",
+        "answer": [
+          "A"
+        ],
+        "answerMode": "单选",
+        "explanation": "活化发生在线粒体外或膜的胞浆侧，经过肉碱转运后，β 氧化的反复反应在线粒体基质进行。上下两个环节合计跨胞浆侧和线粒体。"
+      },
+      {
+        "number": 5,
+        "text": "长链脂酰基通过肉碱转运后，反复进行脱氢、水化、再脱氢和硫解的部位是什么？",
+        "answer": [
+          "C"
+        ],
+        "answerMode": "单选",
+        "explanation": "这四步是 β 氧化循环本身，在此途径中发生在线粒体基质，与进入线粒体前的活化属于不同环节。"
+      }
+    ]
+  },
+  {
+    "id": "bio-metabolism-sites-p09-lecture-07",
+    "page": 9,
+    "title": "代谢部位小结｜尿素循环及相连穿梭",
+    "kind": "B",
+    "kindLabel": "B型题",
+    "topic": "氨基酸与蛋白质",
+    "lectureIds": [
+      "lecture-07"
+    ],
+    "sourceName": "狂背【基础学科横向大串联】 天天师兄27考研 我包上岸！.pdf",
+    "sourceKey": "foundation-metabolism-sites",
+    "sourceSection": "代谢部位小结",
+    "studyNotice": "出题依据《狂背【基础学科横向大串联】 天天师兄27考研 我包上岸！.pdf》第 9 页上半表",
+    "hideSource": true,
+    "options": [
+      {
+        "key": "A",
+        "label": "胞浆"
+      },
+      {
+        "key": "B",
+        "label": "线粒体"
+      },
+      {
+        "key": "C",
+        "label": "胞浆和线粒体"
+      },
+      {
+        "key": "D",
+        "label": "滑面内质网"
+      }
+    ],
+    "stems": [
+      {
+        "number": 1,
+        "text": "鸟氨酸循环合成尿素的各步反应合起来涉及哪些部位？",
+        "answer": [
+          "C"
+        ],
+        "answerMode": "单选",
+        "explanation": "氨基甲酰磷酸和瓜氨酸在线粒体基质形成。瓜氨酸转入胞浆继续反应，精氨酸在胞浆水解释放尿素。"
+      },
+      {
+        "number": 2,
+        "text": "连接尿素循环和三羧酸循环的天冬氨酸–精氨酸代琥珀酸穿梭，按两条循环的衔接整体涉及哪些部位？",
+        "answer": [
+          "C"
+        ],
+        "answerMode": "单选",
+        "explanation": "尿素循环在胞浆生成的延胡索酸可转为苹果酸，苹果酸可进入线粒体参与三羧酸循环。天冬氨酸则可回到胞浆，为尿素循环提供一个氮原子。"
+      }
+    ]
+  },
+  {
+    "id": "bio-metabolism-sites-p09-lecture-10",
+    "page": 9,
+    "title": "代谢部位小结｜血红素合成",
+    "kind": "B",
+    "kindLabel": "B型题",
+    "topic": "胆色素代谢与生物转化",
+    "lectureIds": [
+      "lecture-10"
+    ],
+    "sourceName": "狂背【基础学科横向大串联】 天天师兄27考研 我包上岸！.pdf",
+    "sourceKey": "foundation-metabolism-sites",
+    "sourceSection": "代谢部位小结",
+    "studyNotice": "出题依据《狂背【基础学科横向大串联】 天天师兄27考研 我包上岸！.pdf》第 9 页上半表",
+    "hideSource": true,
+    "options": [
+      {
+        "key": "A",
+        "label": "胞浆"
+      },
+      {
+        "key": "B",
+        "label": "胞浆和线粒体"
+      },
+      {
+        "key": "C",
+        "label": "线粒体"
+      },
+      {
+        "key": "D",
+        "label": "胞浆和滑面内质网"
+      }
+    ],
+    "stems": [
+      {
+        "number": 1,
+        "text": "血红素从生成 δ-氨基酮戊酸到最后插入 Fe²⁺，完整合成途径涉及哪些部位？",
+        "answer": [
+          "B"
+        ],
+        "answerMode": "单选",
+        "explanation": "第一步在线粒体进行，中间几步在胞浆进行，最后几步回到线粒体完成，包括把 Fe²⁺ 插入原卟啉 IX。"
+      }
+    ]
+  }
+]
