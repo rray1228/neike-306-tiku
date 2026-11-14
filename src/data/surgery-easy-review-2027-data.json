@@ -1,0 +1,1526 @@
+{
+  "meta": {
+    "title": "外科 · 易错小结（真题）",
+    "sourceLabel": "外科 · 易错小结（真题）"
+  },
+  "groups": [
+    {
+      "id": "surgery-easy-2027-1990n80",
+      "title": "高渗性缺水",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "5%葡萄糖液"
+        },
+        {
+          "key": "B",
+          "label": "10%葡萄糖液"
+        },
+        {
+          "key": "C",
+          "label": "5%葡萄糖盐水"
+        },
+        {
+          "key": "D",
+          "label": "林格氏液"
+        },
+        {
+          "key": "E",
+          "label": "平衡盐溶液"
+        }
+      ],
+      "stems": [
+        {
+          "text": "男性，64岁。进行性吞咽困难 3个月，近 10天来每日饮水少许，极度口渴、乏力、唇干舌燥，皮肤弹性差，眼窝凹陷，尿少、比重1.030。该患者应静滴",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "长期进水不足伴口渴明显、皮肤弹性差和少量浓缩尿，提示失水多于失钠。本题按旧教材选择可补自由水的 5% 葡萄糖液。",
+          "sourceQuestion": "1990N80"
+        }
+      ],
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-31"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-31",
+        "page": 237,
+        "pageLabel": "合集 PDF 第 237 页",
+        "title": "外科合集 · PDF 第 237 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-237.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-31",
+          "page": 237,
+          "pageLabel": "合集 PDF 第 237 页",
+          "title": "外科合集 · PDF 第 237 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-237.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "1990N80",
+      "sourceText": "1990N80 1990N80",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1990N80 · 外科《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "surgery-easy-2027-2001n157",
+      "title": "碳酸氢钠与高钾血症",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "增加血容量，K+得到稀释"
+        },
+        {
+          "key": "B",
+          "label": "使K+移入细胞内或由尿排出，减轻酸中毒"
+        },
+        {
+          "key": "C",
+          "label": "Na+可对抗 K+的作用"
+        },
+        {
+          "key": "D",
+          "label": "对抗心律失常"
+        }
+      ],
+      "stems": [
+        {
+          "text": "治疗高钾血症时，静脉注射高渗碱性溶液（5%碳酸氢钠）的作用是",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "按旧题口径，扩容稀释、纠酸促进钾移入细胞，以及钠负荷相关的电生理拮抗作用均被计入。临床遇高钾伴心电图改变，保护心肌与降钾需分别处理。",
+          "sourceQuestion": "2001N157"
+        }
+      ],
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-31"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-31",
+        "page": 238,
+        "pageLabel": "合集 PDF 第 238 页",
+        "title": "外科合集 · PDF 第 238 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-238.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-31",
+          "page": 238,
+          "pageLabel": "合集 PDF 第 238 页",
+          "title": "外科合集 · PDF 第 238 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-238.avif"
+        },
+        {
+          "lectureId": "lecture-31",
+          "page": 241,
+          "pageLabel": "合集 PDF 第 241 页",
+          "title": "外科合集 · PDF 第 241 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-241.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "2001N157",
+      "sourceText": "2001N157 2001N157",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2001N157 · 外科《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "surgery-easy-2027-2011n80",
+      "title": "术后输液的生理需要和额外损失",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "5%葡萄糖盐水 1000ml+10%葡萄糖 2500ml"
+        },
+        {
+          "key": "B",
+          "label": "5%葡萄糖盐水 1500ml+10%葡萄糖 1000ml"
+        },
+        {
+          "key": "C",
+          "label": "5%葡萄糖盐水 1500ml+10%葡萄糖 2500ml"
+        },
+        {
+          "key": "D",
+          "label": "5%葡萄糖盐水 2000ml+10%葡萄糖 2800ml"
+        }
+      ],
+      "stems": [
+        {
+          "text": "男性，50岁，昨日在全麻下进行右半结肠切除术，全天胃肠减压量 800ml，尿量 2000ml，今晨电解质正常。今日输液的最佳方案应是",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "正常尿量属于估算日常水需求的一部分，不能再全额叠加；另补胃肠减压的损失。本题例题按约 3500 mL 比较，A 与 B 总量相同，主要辨别糖盐水和补水的比例。",
+          "sourceQuestion": "2011N80"
+        }
+      ],
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-31"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-31",
+        "page": 240,
+        "pageLabel": "合集 PDF 第 240 页",
+        "title": "外科合集 · PDF 第 240 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-240.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-31",
+          "page": 240,
+          "pageLabel": "合集 PDF 第 240 页",
+          "title": "外科合集 · PDF 第 240 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-240.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "2011N80",
+      "sourceText": "2011N80 2011N80",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2011N80 · 外科《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "surgery-easy-2027-2008n177",
+      "title": "幽门梗阻的术前准备",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "禁食，胃肠减压"
+        },
+        {
+          "key": "B",
+          "label": "纠正水电解质失调和低蛋白血症"
+        },
+        {
+          "key": "C",
+          "label": "应用广谱抗生素"
+        },
+        {
+          "key": "D",
+          "label": "温盐水洗胃"
+        }
+      ],
+      "stems": [
+        {
+          "text": "幽门梗阻患者术前应做的准备有",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "禁食减压、温盐水洗胃、纠正脱水、电解质和营养问题是重点。广谱抗生素并非无感染时针对幽门梗阻本身的常规处理。",
+          "sourceQuestion": "2008N177"
+        }
+      ],
+      "topic": "胃十二指肠疾病",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "page": 50,
+        "pageLabel": "合集 PDF 第 50 页",
+        "title": "外科合集 · PDF 第 50 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-050.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-05",
+          "page": 50,
+          "pageLabel": "合集 PDF 第 50 页",
+          "title": "外科合集 · PDF 第 50 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-050.avif"
+        },
+        {
+          "lectureId": "lecture-05",
+          "page": 52,
+          "pageLabel": "合集 PDF 第 52 页",
+          "title": "外科合集 · PDF 第 52 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-052.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "2008N177",
+      "sourceText": "2008N177 2008N177",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2008N177 · 外科《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "surgery-easy-2027-1995n91",
+      "title": "破伤风最紧急的治疗目标",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "彻底清创、引流伤口、消除毒素来源"
+        },
+        {
+          "key": "B",
+          "label": "使用破伤风抗毒素中和游离的毒素"
+        },
+        {
+          "key": "C",
+          "label": "控制和解除痉挛、预防窒息"
+        },
+        {
+          "key": "D",
+          "label": "给予大量青霉素、抑制破伤风杆菌"
+        },
+        {
+          "key": "E",
+          "label": "积极支持治疗"
+        }
+      ],
+      "stems": [
+        {
+          "text": "在破伤风的治疗措施中，下列哪项最关键",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "破伤风发作直接威胁生命的是痉挛造成窒息，先控制痉挛并保护气道；清创、中和游离毒素和抗感染仍是治疗组成部分。",
+          "sourceQuestion": "1995N91"
+        }
+      ],
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-34"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-34",
+        "page": 257,
+        "pageLabel": "合集 PDF 第 257 页",
+        "title": "外科合集 · PDF 第 257 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-257.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-34",
+          "page": 257,
+          "pageLabel": "合集 PDF 第 257 页",
+          "title": "外科合集 · PDF 第 257 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-257.avif"
+        },
+        {
+          "lectureId": "lecture-34",
+          "page": 258,
+          "pageLabel": "合集 PDF 第 258 页",
+          "title": "外科合集 · PDF 第 258 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-258.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "1995N91",
+      "sourceText": "1995N91 1995N91",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1995N91 · 外科《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "surgery-easy-2027-2011n178",
+      "title": "气性坏疽的诊断与治疗重点",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "是梭状芽孢杆菌所致的肌坏死或肌炎"
+        },
+        {
+          "key": "B",
+          "label": "常是几种细菌的混合感染"
+        },
+        {
+          "key": "C",
+          "label": "可出现黄疸"
+        },
+        {
+          "key": "D",
+          "label": "抗生素治疗最关键"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列关于气性坏疽的叙述，正确的有",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "梭状芽孢杆菌感染造成肌坏死，可伴混合感染及溶血性黄疸。抗生素不能代替及时外科清除失活组织。",
+          "sourceQuestion": "2011N178"
+        }
+      ],
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-34"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-34",
+        "page": 253,
+        "pageLabel": "合集 PDF 第 253 页",
+        "title": "外科合集 · PDF 第 253 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-253.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-34",
+          "page": 253,
+          "pageLabel": "合集 PDF 第 253 页",
+          "title": "外科合集 · PDF 第 253 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-253.avif"
+        },
+        {
+          "lectureId": "lecture-34",
+          "page": 258,
+          "pageLabel": "合集 PDF 第 258 页",
+          "title": "外科合集 · PDF 第 258 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-258.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "2011N178",
+      "sourceText": "2011N178 2011N178",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2011N178 · 外科《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "surgery-easy-2027-2009n81",
+      "title": "烧伤面积与旧题补液公式",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "3500ml"
+        },
+        {
+          "key": "B",
+          "label": "4600ml"
+        },
+        {
+          "key": "C",
+          "label": "5000ml"
+        },
+        {
+          "key": "D",
+          "label": "5500ml"
+        }
+      ],
+      "stems": [
+        {
+          "text": "一位消防队员，体重 65kg，在救火中不幸烧伤了面部、双上肢、躯干前方和会阴部，对该患者第一个 24小时应补的液体总量为",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "成人面部 3%、双上肢 18%、躯干前面 13%、会阴 1%，合计 35%。按本题旧公式，65×35×1.5＋2000≈5413 mL，取最接近的 5500 mL。",
+          "sourceQuestion": "2009N81"
+        }
+      ],
+      "topic": "外科总论",
+      "lectureIds": [
+        "lecture-33"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "page": 248,
+        "pageLabel": "合集 PDF 第 248 页",
+        "title": "外科合集 · PDF 第 248 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-248.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-33",
+          "page": 248,
+          "pageLabel": "合集 PDF 第 248 页",
+          "title": "外科合集 · PDF 第 248 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-248.avif"
+        },
+        {
+          "lectureId": "lecture-33",
+          "page": 249,
+          "pageLabel": "合集 PDF 第 249 页",
+          "title": "外科合集 · PDF 第 249 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-249.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "2009N81",
+      "sourceText": "2009N81 2009N81",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2009N81 · 外科《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "surgery-easy-2027-1999n85",
+      "title": "妊娠期间甲亢与手术时机",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "服用抗甲状腺药物"
+        },
+        {
+          "key": "B",
+          "label": "终止妊娠后，服用抗甲状腺药物"
+        },
+        {
+          "key": "C",
+          "label": "终止妊娠后，手术治疗"
+        },
+        {
+          "key": "D",
+          "label": "终止妊娠后，131I 治疗"
+        },
+        {
+          "key": "E",
+          "label": "不终止妊娠，手术治疗"
+        }
+      ],
+      "stems": [
+        {
+          "text": "女性，30岁，妊娠 6周发生甲状腺功能亢进，甲状腺肿大伴有局部压迫症状，选择下列哪项治疗最恰当",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "explanation": "题干强调有局部压迫，是选择手术的关键；「不终止妊娠」并不等于在孕 6 周立刻手术。复习时另记有手术指征时通常优先考虑孕中期以及妊娠禁用放射性碘。",
+          "sourceQuestion": "1999N85"
+        }
+      ],
+      "topic": "颈部疾病",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 5,
+        "pageLabel": "合集 PDF 第 5 页",
+        "title": "外科合集 · PDF 第 5 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-005.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-01",
+          "page": 5,
+          "pageLabel": "合集 PDF 第 5 页",
+          "title": "外科合集 · PDF 第 5 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-005.avif"
+        },
+        {
+          "lectureId": "lecture-01",
+          "page": 6,
+          "pageLabel": "合集 PDF 第 6 页",
+          "title": "外科合集 · PDF 第 6 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-006.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "1999N85",
+      "sourceText": "1999N85 1999N85",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1999N85 · 外科《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "surgery-easy-2027-2013n81",
+      "title": "偶发甲状腺乳头状微小癌",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "切除右叶甲状腺加颈淋巴结清扫"
+        },
+        {
+          "key": "B",
+          "label": "手术切除剩余的右叶甲状腺"
+        },
+        {
+          "key": "C",
+          "label": "终生口服甲状腺素钠"
+        },
+        {
+          "key": "D",
+          "label": "加用外照射治疗"
+        }
+      ],
+      "stems": [
+        {
+          "text": "女性，55岁。因结节性甲状腺肿行双侧甲状腺次全切除术，术后病理报告，右叶甲状腺有 5mm 乳头状癌结节。该患者进一步的处理是",
+          "answer": [],
+          "answerMode": "单选",
+          "explanation": "合集原题标出历史答案 A 与新版学习口径 C。5 mm、无其他高危信息的偶发微小癌已切除，不能仅凭癌名自动推导再次切除或颈清扫。本题保留原题并暂不自动判分。",
+          "sourceQuestion": "2013N81",
+          "answerState": "待原题页核对"
+        }
+      ],
+      "topic": "颈部疾病",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 9,
+        "pageLabel": "合集 PDF 第 9 页",
+        "title": "外科合集 · PDF 第 9 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-009.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-01",
+          "page": 9,
+          "pageLabel": "合集 PDF 第 9 页",
+          "title": "外科合集 · PDF 第 9 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-009.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "2013N81",
+      "sourceText": "2013N81 2013N81",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2013N81 · 外科《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "surgery-easy-2027-1991n112",
+      "title": "结肠损伤的术式选择",
+      "kind": "C",
+      "kindLabel": "C型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "修补或肠切除吻合"
+        },
+        {
+          "key": "B",
+          "label": "肠外置或造口术"
+        },
+        {
+          "key": "C",
+          "label": "两者均可"
+        },
+        {
+          "key": "D",
+          "label": "两者均不可"
+        }
+      ],
+      "stems": [
+        {
+          "text": "结肠损伤的手术方法通常是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "按毁损、血供、污染及全身情况，既可修补或切除吻合，也可外置或造口。题干未进一步限定，选择两者均可。",
+          "sourceQuestion": "1991N112"
+        }
+      ],
+      "topic": "腹部损伤与感染",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "page": 43,
+        "pageLabel": "合集 PDF 第 43 页",
+        "title": "外科合集 · PDF 第 43 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-043.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-07",
+          "page": 43,
+          "pageLabel": "合集 PDF 第 43 页",
+          "title": "外科合集 · PDF 第 43 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-043.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "1991N112",
+      "sourceText": "1991N112 1991N112",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1991N112 · 外科《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "surgery-easy-2027-2011n113",
+      "title": "不典型阑尾炎与局部肠麻痹",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "急性阑尾炎"
+        },
+        {
+          "key": "B",
+          "label": "急性胃肠炎"
+        },
+        {
+          "key": "C",
+          "label": "急性盆腔炎"
+        },
+        {
+          "key": "D",
+          "label": "急性肠梗阻"
+        }
+      ],
+      "stems": [
+        {
+          "text": "最可能的诊断是",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "腹痛由上腹向下转移，伴局限压痛、肌紧张和白细胞升高，支持阑尾炎，即使同时腹泻。",
+          "sourceQuestion": "2011N113"
+        }
+      ],
+      "topic": "小肠与阑尾疾病",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "page": 56,
+        "pageLabel": "合集 PDF 第 56 页",
+        "title": "外科合集 · PDF 第 56 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-056.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-09",
+          "page": 56,
+          "pageLabel": "合集 PDF 第 56 页",
+          "title": "外科合集 · PDF 第 56 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-056.avif"
+        },
+        {
+          "lectureId": "lecture-09",
+          "page": 60,
+          "pageLabel": "合集 PDF 第 60 页",
+          "title": "外科合集 · PDF 第 60 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-060.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "2011N113",
+      "sourceText": "2011N113 2011N113-114",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2011N113 · 外科《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案",
+      "promptContext": "患者，女，35岁。2天前开始腹痛，先上腹后脐周，有阵发性加剧，伴恶心、呕吐 2次胃内容物，腹泻 3-5次/日，稀便。查体：体温 37.5 度，下腹中部压痛，轻度肌紧张，肠鸣音活跃。化验血 WBC 12.5×10⁹/L，大便常规 WBC 2-4/HP。腹部 X线平片未见膈下游离气体，中下腹可见数个液气平面。"
+    },
+    {
+      "id": "surgery-easy-2027-2011n114",
+      "title": "不典型阑尾炎与局部肠麻痹",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "为肠梗阻的表现"
+        },
+        {
+          "key": "B",
+          "label": "为腹泻的表现"
+        },
+        {
+          "key": "C",
+          "label": "有肠麻痹"
+        },
+        {
+          "key": "D",
+          "label": "盆腔炎症刺激所致"
+        }
+      ],
+      "stems": [
+        {
+          "text": "该患者腹部 X线平片出现液气平面的原因是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "阑尾周围腹膜炎可造成局限性麻痹性肠梗阻而出现液气面，不能仅凭该影像判为机械梗阻。",
+          "sourceQuestion": "2011N114"
+        }
+      ],
+      "topic": "小肠与阑尾疾病",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "page": 56,
+        "pageLabel": "合集 PDF 第 56 页",
+        "title": "外科合集 · PDF 第 56 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-056.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-09",
+          "page": 56,
+          "pageLabel": "合集 PDF 第 56 页",
+          "title": "外科合集 · PDF 第 56 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-056.avif"
+        },
+        {
+          "lectureId": "lecture-09",
+          "page": 60,
+          "pageLabel": "合集 PDF 第 60 页",
+          "title": "外科合集 · PDF 第 60 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-060.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "2011N114",
+      "sourceText": "2011N114 2011N113-114",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2011N114 · 外科《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案",
+      "promptContext": "患者，女，35岁。2天前开始腹痛，先上腹后脐周，有阵发性加剧，伴恶心、呕吐 2次胃内容物，腹泻 3-5次/日，稀便。查体：体温 37.5 度，下腹中部压痛，轻度肌紧张，肠鸣音活跃。化验血 WBC 12.5×10⁹/L，大便常规 WBC 2-4/HP。腹部 X线平片未见膈下游离气体，中下腹可见数个液气平面。"
+    },
+    {
+      "id": "surgery-easy-2027-2008n85",
+      "title": "坐骨直肠窝脓肿",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "急性膀胱炎"
+        },
+        {
+          "key": "B",
+          "label": "血栓性外痔"
+        },
+        {
+          "key": "C",
+          "label": "肛周脓肿"
+        },
+        {
+          "key": "D",
+          "label": "坐骨直肠窝脓肿"
+        }
+      ],
+      "stems": [
+        {
+          "text": "患者，男性，32 岁。1 周来发热伴会阴部疼痛，逐渐加重，大便有里急后重感，且排尿困难，直肠指检因疼痛不合作未能进行，白细胞 17.5×10⁹/L。最可能的诊断是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "较深的坐骨直肠窝脓肿可表现为高热、会阴深部疼痛、里急后重及排尿困难；浅表肛周脓肿更多见局部红肿。",
+          "sourceQuestion": "2008N85"
+        }
+      ],
+      "topic": "结直肠与肛管疾病",
+      "lectureIds": [
+        "lecture-11"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-11",
+        "page": 139,
+        "pageLabel": "合集 PDF 第 139 页",
+        "title": "外科合集 · PDF 第 139 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-139.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-11",
+          "page": 139,
+          "pageLabel": "合集 PDF 第 139 页",
+          "title": "外科合集 · PDF 第 139 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-139.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "2008N85",
+      "sourceText": "2008N85 2008N85",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2008N85 · 外科《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "surgery-easy-2027-2011n87",
+      "title": "左半结肠癌梗阻的手术取舍",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "横结肠造口术、二期左半结肠切除术"
+        },
+        {
+          "key": "B",
+          "label": "左半结肠切除术、横结肠乙状结肠吻合术"
+        },
+        {
+          "key": "C",
+          "label": "肿瘤切除术、横结肠造口术"
+        },
+        {
+          "key": "D",
+          "label": "横结肠、乙状结肠侧侧吻合术"
+        }
+      ],
+      "stems": [
+        {
+          "text": "患者，男性，75 岁。肠梗阻 5 天急行手术探查，术中发现结肠脾曲癌致结肠梗阻，无转移征象，横结肠扩张、水肿。恰当的手术方法是",
+          "answer": [],
+          "answerMode": "单选",
+          "explanation": "这道旧题按先近端造口减压再二期根治处理，考点是明显水肿时避免急诊一期吻合。桌面合集还列出切除病灶加近端造口的现代处理选项；本题两种口径冲突，暂不自动判分。",
+          "sourceQuestion": "2011N87",
+          "answerState": "待原题页核对"
+        }
+      ],
+      "topic": "结直肠与肛管疾病",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-10",
+        "page": 62,
+        "pageLabel": "合集 PDF 第 62 页",
+        "title": "外科合集 · PDF 第 62 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-062.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-10",
+          "page": 62,
+          "pageLabel": "合集 PDF 第 62 页",
+          "title": "外科合集 · PDF 第 62 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-062.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "2011N87",
+      "sourceText": "2011N87 2011N87",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2011N87 · 外科《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "surgery-easy-2027-2000n89",
+      "title": "胆管癌的主要转移方式",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "上段胆管癌比下段发病率高"
+        },
+        {
+          "key": "B",
+          "label": "病理组织学类型大多是腺癌"
+        },
+        {
+          "key": "C",
+          "label": "局限性生长较多"
+        },
+        {
+          "key": "D",
+          "label": "主要转移方式是血行转移"
+        },
+        {
+          "key": "E",
+          "label": "先天性胆管扩张症发生癌变机会较高"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列关于胆管癌哪项不正确",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "胆管癌多为腺癌，以沿胆管浸润和淋巴转移为重点，血行转移不是题目问的主要转移方式；先天性胆管扩张增加癌变风险。",
+          "sourceQuestion": "2000N89"
+        }
+      ],
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 106,
+        "pageLabel": "合集 PDF 第 106 页",
+        "title": "外科合集 · PDF 第 106 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-106.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "page": 106,
+          "pageLabel": "合集 PDF 第 106 页",
+          "title": "外科合集 · PDF 第 106 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-106.avif"
+        },
+        {
+          "lectureId": "lecture-16",
+          "page": 109,
+          "pageLabel": "合集 PDF 第 109 页",
+          "title": "外科合集 · PDF 第 109 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-109.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "2000N89",
+      "sourceText": "2000N89 2000N89",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2000N89 · 外科《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "surgery-easy-2027-2008n111",
+      "title": "胆源性急性胰腺炎",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "急性胃炎"
+        },
+        {
+          "key": "B",
+          "label": "急性胆囊炎"
+        },
+        {
+          "key": "C",
+          "label": "急性胰腺炎"
+        },
+        {
+          "key": "D",
+          "label": "急性弥漫性腹膜炎"
+        }
+      ],
+      "stems": [
+        {
+          "text": "该患者最可能的诊断是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "持续上腹痛、胰腺肿大伴周围液体和淀粉酶升高，合并小胆石病史，优先考虑急性胰腺炎。",
+          "sourceQuestion": "2008N111"
+        }
+      ],
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 116,
+        "pageLabel": "合集 PDF 第 116 页",
+        "title": "外科合集 · PDF 第 116 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-116.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "page": 116,
+          "pageLabel": "合集 PDF 第 116 页",
+          "title": "外科合集 · PDF 第 116 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-116.avif"
+        },
+        {
+          "lectureId": "lecture-16",
+          "page": 118,
+          "pageLabel": "合集 PDF 第 118 页",
+          "title": "外科合集 · PDF 第 118 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-118.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "2008N111",
+      "sourceText": "2008N111 2008N111-112",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2008N111 · 外科《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案",
+      "promptContext": "患者，女性，39岁。因持续上腹痛伴恶心、呕吐 3天入院。5 年来有胆囊结石病史，常有短暂上腹不适症状。B 超显示胆囊多发小结石，总胆管宽 9mm，其内未见结石，胰腺肿大增厚，周围有积液。查体：体温 37.7 度，脉率 106次/分，呼吸 28次/分，血压 132/86mmHg，巩膜不黄，上腹压痛，轻度肌紧张和反跳痛，肠鸣音较弱。化验白细胞 13.5×10⁹/L，血、尿淀粉酶高出正常一倍以上。"
+    },
+    {
+      "id": "surgery-easy-2027-2008n112",
+      "title": "胆源性急性胰腺炎",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "禁食、胃肠减压，补液止痛"
+        },
+        {
+          "key": "B",
+          "label": "即刻急诊手术引流"
+        },
+        {
+          "key": "C",
+          "label": "抗感染，体温超过 38.5度则手术引流"
+        },
+        {
+          "key": "D",
+          "label": "腹腔灌洗"
+        }
+      ],
+      "stems": [
+        {
+          "text": "该患者的最佳治疗方案是",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "本题按旧题选择初期补液、镇痛等支持治疗；题干没有急诊手术的证据。进食及内镜时机应与临床现行标准另行区分。",
+          "sourceQuestion": "2008N112"
+        }
+      ],
+      "topic": "肝胆胰疾病",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 116,
+        "pageLabel": "合集 PDF 第 116 页",
+        "title": "外科合集 · PDF 第 116 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-116.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "page": 116,
+          "pageLabel": "合集 PDF 第 116 页",
+          "title": "外科合集 · PDF 第 116 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-116.avif"
+        },
+        {
+          "lectureId": "lecture-16",
+          "page": 118,
+          "pageLabel": "合集 PDF 第 118 页",
+          "title": "外科合集 · PDF 第 118 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-118.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "2008N112",
+      "sourceText": "2008N112 2008N111-112",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2008N112 · 外科《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案",
+      "promptContext": "患者，女性，39岁。因持续上腹痛伴恶心、呕吐 3天入院。5 年来有胆囊结石病史，常有短暂上腹不适症状。B 超显示胆囊多发小结石，总胆管宽 9mm，其内未见结石，胰腺肿大增厚，周围有积液。查体：体温 37.7 度，脉率 106次/分，呼吸 28次/分，血压 132/86mmHg，巩膜不黄，上腹压痛，轻度肌紧张和反跳痛，肠鸣音较弱。化验白细胞 13.5×10⁹/L，血、尿淀粉酶高出正常一倍以上。"
+    },
+    {
+      "id": "surgery-easy-2027-2006n127",
+      "title": "脊髓损伤平面与上下运动神经元体征",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "四肢硬瘫"
+        },
+        {
+          "key": "B",
+          "label": "四肢软瘫"
+        },
+        {
+          "key": "C",
+          "label": "上肢软瘫，下肢硬瘫"
+        },
+        {
+          "key": "D",
+          "label": "上肢完好，下肢硬瘫"
+        },
+        {
+          "key": "E",
+          "label": "上肢完好，下肢软瘫"
+        }
+      ],
+      "stems": [
+        {
+          "text": "脊柱胸 2水平损伤可引起",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "胸 2 水平伤不损及上肢节段，下肢出现损伤平面以下的锥体束征；脊髓休克早期可例外。",
+          "sourceQuestion": "2006N127"
+        }
+      ],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "page": 201,
+        "pageLabel": "合集 PDF 第 201 页",
+        "title": "外科合集 · PDF 第 201 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-201.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-26",
+          "page": 201,
+          "pageLabel": "合集 PDF 第 201 页",
+          "title": "外科合集 · PDF 第 201 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-201.avif"
+        },
+        {
+          "lectureId": "lecture-26",
+          "page": 202,
+          "pageLabel": "合集 PDF 第 202 页",
+          "title": "外科合集 · PDF 第 202 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-202.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "2006N127",
+      "sourceText": "2006N127 2006N127-128",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2006N127 · 外科《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "surgery-easy-2027-2006n128",
+      "title": "脊髓损伤平面与上下运动神经元体征",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "四肢硬瘫"
+        },
+        {
+          "key": "B",
+          "label": "四肢软瘫"
+        },
+        {
+          "key": "C",
+          "label": "上肢软瘫，下肢硬瘫"
+        },
+        {
+          "key": "D",
+          "label": "上肢完好，下肢硬瘫"
+        },
+        {
+          "key": "E",
+          "label": "上肢完好，下肢软瘫"
+        }
+      ],
+      "stems": [
+        {
+          "text": "脊柱腰 3水平损伤可引起",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "explanation": "腰 3 椎骨处通常已在脊髓圆锥以下，主要伤及马尾，表现为下肢弛缓性瘫痪。",
+          "sourceQuestion": "2006N128"
+        }
+      ],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "page": 201,
+        "pageLabel": "合集 PDF 第 201 页",
+        "title": "外科合集 · PDF 第 201 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-201.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-26",
+          "page": 201,
+          "pageLabel": "合集 PDF 第 201 页",
+          "title": "外科合集 · PDF 第 201 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-201.avif"
+        },
+        {
+          "lectureId": "lecture-26",
+          "page": 202,
+          "pageLabel": "合集 PDF 第 202 页",
+          "title": "外科合集 · PDF 第 202 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-202.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "2006N128",
+      "sourceText": "2006N128 2006N127-128",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2006N128 · 外科《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "surgery-easy-2027-2005n150",
+      "title": "恶性骨肿瘤的侵袭性表现",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "X线平片见骨质破坏、骨膜增生"
+        },
+        {
+          "key": "B",
+          "label": "肿物生长快"
+        },
+        {
+          "key": "C",
+          "label": "血清酸性磷酸酶增高"
+        },
+        {
+          "key": "D",
+          "label": "局部软组织侵袭明显"
+        }
+      ],
+      "stems": [
+        {
+          "text": "诊断恶性骨肿瘤的依据是",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "生长快、侵袭邻近软组织以及侵袭性骨质破坏和骨膜反应都支持恶性；单项酸性磷酸酶升高不能作为通用判据，确诊仍依病理。",
+          "sourceQuestion": "2005N150"
+        }
+      ],
+      "topic": "骨科",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "page": 177,
+        "pageLabel": "合集 PDF 第 177 页",
+        "title": "外科合集 · PDF 第 177 页",
+        "sourceFile": "27 外科跟课合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/surgery-177.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-25",
+          "page": 177,
+          "pageLabel": "合集 PDF 第 177 页",
+          "title": "外科合集 · PDF 第 177 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-177.avif"
+        },
+        {
+          "lectureId": "lecture-25",
+          "page": 178,
+          "pageLabel": "合集 PDF 第 178 页",
+          "title": "外科合集 · PDF 第 178 页",
+          "sourceFile": "27 外科跟课合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/surgery-178.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "外科",
+      "sourceQuestion": "2005N150",
+      "sourceText": "2005N150 2005N150",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2005N150 · 外科《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    }
+  ],
+  "pages": [],
+  "topics": [
+    "外科总论",
+    "胃十二指肠疾病",
+    "颈部疾病",
+    "腹部损伤与感染",
+    "小肠与阑尾疾病",
+    "结直肠与肛管疾病",
+    "肝胆胰疾病",
+    "骨科"
+  ]
+}

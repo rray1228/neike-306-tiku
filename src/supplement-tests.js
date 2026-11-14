@@ -29,7 +29,21 @@ export function questionBankUrl(href) {
 }
 
 export function scopeTestContent(content, paper) {
-  if (!paper) return content
+  if (!paper) {
+    const groups = content.groups.filter(group => !group.supplementOnly)
+    if (groups.length === content.groups.length) return content
+    const topics = new Set(groups.map(group => group.topic))
+    return {
+      ...content,
+      groups,
+      topics: content.topics.filter(topic => topic === '全部' || topics.has(topic)),
+      meta: {
+        ...content.meta,
+        groupCount: groups.length,
+        stemCount: groups.reduce((sum, group) => sum + group.stems.length, 0),
+      },
+    }
+  }
   const ids = new Set(paper.groupIds)
   const groups = content.groups.filter(group => ids.has(group.id) || (paper.includeSupplements && group.supplement))
   return {

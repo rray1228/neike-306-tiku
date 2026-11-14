@@ -84,3 +84,31 @@ test('new explicitly supplemental questions appear without requiring a manual ID
   const collection = testCollectionForSubject(catalog, 'med')
   assert.deepEqual(scopeTestContent({ groups: [group], meta: {} }, collection).groups, [group])
 })
+
+test('easy review stays in supplementary tests and every question has a valid answer or a review flag, explanation and collection page', () => {
+  const expected = { med: 21, pathology: 45, surgery: 20, physiology: 38, biochemistry: 64 }
+  for (const [subject, count] of Object.entries(expected)) {
+    const paper = catalog.find(item => item.id === `${subject}-easy-review-2027`)
+    assert.equal(paper.category, '易错小结（真题）')
+    const content = read(paper.sourceFile)
+    assert.equal(paper.stemCount, count)
+    assert.equal(scopeTestContent(content, null).groups.length, 0)
+    assert.equal(scopeTestContent(content, paper).groups.length, count)
+    for (const group of content.groups) {
+      assert.ok(group.supplementOnly && group.supplement)
+      assert.match(group.sourceQuestion, /^\d{4}N\d+$/)
+      for (const stem of group.stems) {
+        assert.ok(stem.explanation.length >= 20)
+        assert.ok(stem.answer.length || stem.answerState === '待原题页核对')
+        assert.ok(stem.answer.every(key => group.options.some(option => option.key === key)))
+      }
+      assert.ok(group.lectureEvidencePages.length > 0)
+      for (const page of group.lectureEvidencePages) {
+        assert.match(page.sourceFile, /^27.*合集.*\.pdf$/)
+        assert.equal(page.pageLabel, `合集 PDF 第 ${page.page} 页`)
+        const file = readFileSync(new URL(`../public/${page.image}`, import.meta.url))
+        assert.equal(file.toString('ascii', 4, 12), 'ftypavif', page.image)
+      }
+    }
+  }
+})

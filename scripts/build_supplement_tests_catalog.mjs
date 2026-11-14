@@ -12,7 +12,8 @@ for (const file of readdirSync(directory).filter(name => name.endsWith('.json') 
   // Other subjects explicitly mark imported homework, exams and practitioner questions.
   const groups = data.groups.filter(group => group.supplement || subject === 'politics' || file === 'physiology-endocrine-summary-data.json')
   if (!groups.length) continue
-  const category = file.includes('sprint-exam') ? '冲刺押题卷'
+  const category = file.includes('easy-review-2027') ? '易错小结（真题）'
+    : file.includes('sprint-exam') ? '冲刺押题卷'
     : file.includes('practitioner') ? '执医题'
     : file.includes('stage-exam') ? '阶段考试'
       : file.includes('teacher') ? '课后巩固'

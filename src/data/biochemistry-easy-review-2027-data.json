@@ -1,0 +1,5049 @@
+{
+  "meta": {
+    "title": "生化 · 易错小结（真题）",
+    "sourceLabel": "生化 · 易错小结（真题）"
+  },
+  "groups": [
+    {
+      "id": "biochemistry-easy-2027-1990n58",
+      "title": "蛋白质中的含硫氨基酸",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "同型半胱氨酸"
+        },
+        {
+          "key": "B",
+          "label": "半胱氨酸"
+        },
+        {
+          "key": "C",
+          "label": "胱氨酸"
+        },
+        {
+          "key": "D",
+          "label": "甲硫氨酸"
+        },
+        {
+          "key": "E",
+          "label": "鸟氨酸"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列氨基酸中哪一种是体内蛋白质中所没有的含硫氨基酸",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "同型半胱氨酸含硫，但属于代谢中间产物，不由核糖体编入蛋白质；蛋白质内两半胱氨酸残基氧化可形成胱氨酸。鸟氨酸不含硫。",
+          "sourceQuestion": "1990N58"
+        }
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "page": 58,
+        "pageLabel": "合集 PDF 第 58 页",
+        "title": "生化合集 · PDF 第 58 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-058.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-07",
+          "page": 58,
+          "pageLabel": "合集 PDF 第 58 页",
+          "title": "生化合集 · PDF 第 58 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-058.avif"
+        },
+        {
+          "lectureId": "lecture-07",
+          "page": 171,
+          "pageLabel": "合集 PDF 第 171 页",
+          "title": "生化合集 · PDF 第 171 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-171.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1990N58",
+      "sourceText": "1990N58 1990N58",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1990N58 · 生化《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1992n39",
+      "title": "赖氨酸的侧链",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "Lys"
+        },
+        {
+          "key": "B",
+          "label": "Trp"
+        },
+        {
+          "key": "C",
+          "label": "Val"
+        },
+        {
+          "key": "D",
+          "label": "Glu"
+        },
+        {
+          "key": "E",
+          "label": "Leu"
+        }
+      ],
+      "stems": [
+        {
+          "text": "含有两个氨基的氨基酸是",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "赖氨酸除 α-氨基外，还有一个 ε-氨基。色氨酸的吲哚环氮不算第二个氨基。",
+          "sourceQuestion": "1992N39"
+        }
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "page": 58,
+        "pageLabel": "合集 PDF 第 58 页",
+        "title": "生化合集 · PDF 第 58 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-058.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-07",
+          "page": 58,
+          "pageLabel": "合集 PDF 第 58 页",
+          "title": "生化合集 · PDF 第 58 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-058.avif"
+        },
+        {
+          "lectureId": "lecture-07",
+          "page": 61,
+          "pageLabel": "合集 PDF 第 61 页",
+          "title": "生化合集 · PDF 第 61 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-061.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1992N39",
+      "sourceText": "1992N39 1992N39",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1992N39 · 生化《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2001n19",
+      "title": "蛋白质构象的稳定力",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "氢键"
+        },
+        {
+          "key": "B",
+          "label": "盐键"
+        },
+        {
+          "key": "C",
+          "label": "酯键"
+        },
+        {
+          "key": "D",
+          "label": "疏水键"
+        },
+        {
+          "key": "E",
+          "label": "范德华力"
+        }
+      ],
+      "stems": [
+        {
+          "text": "对稳定蛋白质构象通常不起作用的化学键是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "氢键、离子相互作用、疏水相互作用和范德华力都能稳定蛋白质构象；酯键不是普通蛋白质构象的典型稳定力。",
+          "sourceQuestion": "2001N19"
+        }
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "page": 69,
+        "pageLabel": "合集 PDF 第 69 页",
+        "title": "生化合集 · PDF 第 69 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-069.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-08",
+          "page": 69,
+          "pageLabel": "合集 PDF 第 69 页",
+          "title": "生化合集 · PDF 第 69 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-069.avif"
+        },
+        {
+          "lectureId": "lecture-08",
+          "page": 71,
+          "pageLabel": "合集 PDF 第 71 页",
+          "title": "生化合集 · PDF 第 71 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-071.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2001N19",
+      "sourceText": "2001N19 2001N19",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2001N19 · 生化《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1990n52",
+      "title": "B 型 DNA 双螺旋",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "两股核苷酸链呈反向平行"
+        },
+        {
+          "key": "B",
+          "label": "两股链间有严格的碱基配对关系"
+        },
+        {
+          "key": "C",
+          "label": "为右手螺旋，每圈含 10对碱基"
+        },
+        {
+          "key": "D",
+          "label": "极性磷酸二酯键位于双螺旋内侧"
+        },
+        {
+          "key": "E",
+          "label": "螺旋直径约为 2nm"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列关于 DNA 双螺旋结构模型的叙述中，除了哪一项外其余都是正确的",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "带负电、亲水的糖与磷酸骨架在外，碱基在内堆叠配对，两链反向平行。选项 C 的「每个」指每一螺旋圈。",
+          "sourceQuestion": "1990N52"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 121,
+        "pageLabel": "合集 PDF 第 121 页",
+        "title": "生化合集 · PDF 第 121 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-121.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "page": 121,
+          "pageLabel": "合集 PDF 第 121 页",
+          "title": "生化合集 · PDF 第 121 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-121.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1990N52",
+      "sourceText": "1990N52 1990N52",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1990N52 · 生化《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2005n24",
+      "title": "DNA 变性的增色效应",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "多聚核苷酸链水解成单核苷酸"
+        },
+        {
+          "key": "B",
+          "label": "最大光吸收峰波长发生转移"
+        },
+        {
+          "key": "C",
+          "label": "碱基对以共价键连接"
+        },
+        {
+          "key": "D",
+          "label": "在260nm波长处的吸光度增高"
+        },
+        {
+          "key": "E",
+          "label": "溶液黏度增加"
+        }
+      ],
+      "stems": [
+        {
+          "text": "DNA受热变性时，出现的现象是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "受热使氢键及碱基堆叠作用减弱，双链分离，A₂₆₀增高；磷酸二酯键通常未断，溶液黏度通常下降。",
+          "sourceQuestion": "2005N24"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 122,
+        "pageLabel": "合集 PDF 第 122 页",
+        "title": "生化合集 · PDF 第 122 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-122.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "page": 122,
+          "pageLabel": "合集 PDF 第 122 页",
+          "title": "生化合集 · PDF 第 122 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-122.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2005N24",
+      "sourceText": "2005N24 2005N24",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2005N24 · 生化《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2009n27",
+      "title": "DNA 熔解温度",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "腺嘌呤和胸腺嘧啶含量为 20%"
+        },
+        {
+          "key": "B",
+          "label": "腺嘌呤和胸腺嘧啶含量为 60%"
+        },
+        {
+          "key": "C",
+          "label": "鸟嘌呤和胞嘧啶含量为 30%"
+        },
+        {
+          "key": "D",
+          "label": "鸟嘌呤和胞嘧啶含量为 50%"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列DNA分子中，可以使 Tm值达到最高的是",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "同等长度和环境下，GC 比例越高，通常 Tm 越高。A 给出 A+T 为 20%，即 G+C 为 80%。",
+          "sourceQuestion": "2009N27"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 122,
+        "pageLabel": "合集 PDF 第 122 页",
+        "title": "生化合集 · PDF 第 122 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-122.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "page": 122,
+          "pageLabel": "合集 PDF 第 122 页",
+          "title": "生化合集 · PDF 第 122 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-122.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2009N27",
+      "sourceText": "2009N27 2009N27",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2009N27 · 生化《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2000n22",
+      "title": "酶的活性中心",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "所有的酶都有活性中心"
+        },
+        {
+          "key": "B",
+          "label": "所有酶的活性中心都含有辅酶"
+        },
+        {
+          "key": "C",
+          "label": "所有酶的活性中心都含有金属离子"
+        },
+        {
+          "key": "D",
+          "label": "所有的抑制剂都作用于酶的活性中心"
+        },
+        {
+          "key": "E",
+          "label": "酶的必需基团都位于活性中心内"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列关于酶活性中心的叙述中正确的是",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "活性中心具备结合底物与催化反应所需基团；辅酶和金属并非所有酶都需要，且维持构象的必需基团可位于活性中心之外。",
+          "sourceQuestion": "2000N22"
+        }
+      ],
+      "topic": "酶",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "page": 94,
+        "pageLabel": "合集 PDF 第 94 页",
+        "title": "生化合集 · PDF 第 94 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-094.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-12",
+          "page": 94,
+          "pageLabel": "合集 PDF 第 94 页",
+          "title": "生化合集 · PDF 第 94 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-094.avif"
+        },
+        {
+          "lectureId": "lecture-12",
+          "page": 96,
+          "pageLabel": "合集 PDF 第 96 页",
+          "title": "生化合集 · PDF 第 96 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-096.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2000N22",
+      "sourceText": "2000N22 2000N22",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2000N22 · 生化《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2007n133",
+      "title": "酶与一般催化剂的区别",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "反应条件温和，可在常温、常压下进行"
+        },
+        {
+          "key": "B",
+          "label": "加速化学反应速度，可改变反应平衡点"
+        },
+        {
+          "key": "C",
+          "label": "在化学反应前后酶本身不发生质和量的改变"
+        },
+        {
+          "key": "D",
+          "label": "专一性强，一种酶只作用一种或一类物质"
+        }
+      ],
+      "stems": [
+        {
+          "text": "酶与一般催化剂相比，不同点有",
+          "answer": [
+            "A",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "高专一性和温和反应条件是酶的典型特点。催化剂都不改变平衡位置，反应前后总体上也不被消耗。",
+          "sourceQuestion": "2007N133"
+        }
+      ],
+      "topic": "酶",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "page": 94,
+        "pageLabel": "合集 PDF 第 94 页",
+        "title": "生化合集 · PDF 第 94 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-094.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-12",
+          "page": 94,
+          "pageLabel": "合集 PDF 第 94 页",
+          "title": "生化合集 · PDF 第 94 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-094.avif"
+        },
+        {
+          "lectureId": "lecture-12",
+          "page": 95,
+          "pageLabel": "合集 PDF 第 95 页",
+          "title": "生化合集 · PDF 第 95 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-095.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2007N133",
+      "sourceText": "2007N133 2007N133",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2007N133 · 生化《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2004n27",
+      "title": "变构调节的结构基础",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "变构酶催化非平衡反应"
+        },
+        {
+          "key": "B",
+          "label": "多为代谢途径的关键酶"
+        },
+        {
+          "key": "C",
+          "label": "与变构效应剂呈可逆结合"
+        },
+        {
+          "key": "D",
+          "label": "都具有催化亚基和调节亚基"
+        },
+        {
+          "key": "E",
+          "label": "酶构象变化后活性可升高或降低"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列关于变构酶的叙述，错误的是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "调节位点和催化位点可以在同一多肽链上，不能把「位点不同」等同于「必有独立亚基」；效应剂可正向或负向调节。",
+          "sourceQuestion": "2004N27"
+        }
+      ],
+      "topic": "酶",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "page": 96,
+        "pageLabel": "合集 PDF 第 96 页",
+        "title": "生化合集 · PDF 第 96 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-096.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-12",
+          "page": 96,
+          "pageLabel": "合集 PDF 第 96 页",
+          "title": "生化合集 · PDF 第 96 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-096.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2004N27",
+      "sourceText": "2004N27 2004N27",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2004N27 · 生化《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1988n56",
+      "title": "硫胺素与丙酮酸脱氢",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "吡哆醇"
+        },
+        {
+          "key": "B",
+          "label": "硫胺素"
+        },
+        {
+          "key": "C",
+          "label": "叶酸"
+        },
+        {
+          "key": "D",
+          "label": "维生素 PP"
+        },
+        {
+          "key": "E",
+          "label": "生物素"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列何种营养成分缺乏可造成体内丙酮酸积累",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "维生素 B₁活性形式 TPP 参与丙酮酸氧化脱羧；缺乏时丙酮酸进入乙酰辅酶 A 的反应受阻。",
+          "sourceQuestion": "1988N56"
+        }
+      ],
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 5,
+        "pageLabel": "合集 PDF 第 5 页",
+        "title": "生化合集 · PDF 第 5 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-005.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-01",
+          "page": 5,
+          "pageLabel": "合集 PDF 第 5 页",
+          "title": "生化合集 · PDF 第 5 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-005.avif"
+        },
+        {
+          "lectureId": "lecture-01",
+          "page": 6,
+          "pageLabel": "合集 PDF 第 6 页",
+          "title": "生化合集 · PDF 第 6 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-006.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1988N56",
+      "sourceText": "1988N56 1988N56",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1988N56 · 生化《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1990n55",
+      "title": "三羧酸循环的产能比较",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "柠檬酸→异柠檬酸"
+        },
+        {
+          "key": "B",
+          "label": "异柠檬酸→α-酮戊二酸"
+        },
+        {
+          "key": "C",
+          "label": "α-酮戊二酸→琥珀酸"
+        },
+        {
+          "key": "D",
+          "label": "琥珀酸→苹果酸"
+        },
+        {
+          "key": "E",
+          "label": "苹果酸→草酰乙酸"
+        }
+      ],
+      "stems": [
+        {
+          "text": "在三羧酸循环和有关的呼吸链中，生成 ATP最多的阶段是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "α-酮戊二酸至琥珀酸这段先生成 NADH，再由琥珀酰辅酶 A 转成琥珀酸时发生底物水平磷酸化，合计最多。",
+          "sourceQuestion": "1990N55"
+        }
+      ],
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 5,
+        "pageLabel": "合集 PDF 第 5 页",
+        "title": "生化合集 · PDF 第 5 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-005.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-01",
+          "page": 5,
+          "pageLabel": "合集 PDF 第 5 页",
+          "title": "生化合集 · PDF 第 5 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-005.avif"
+        },
+        {
+          "lectureId": "lecture-01",
+          "page": 8,
+          "pageLabel": "合集 PDF 第 8 页",
+          "title": "生化合集 · PDF 第 8 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-008.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1990N55",
+      "sourceText": "1990N55 1990N55",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1990N55 · 生化《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2013n157",
+      "title": "6-磷酸葡萄糖在糖代谢中的位置",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "糖酵解"
+        },
+        {
+          "key": "B",
+          "label": "磷酸戊糖途径"
+        },
+        {
+          "key": "C",
+          "label": "三羧酸循环"
+        },
+        {
+          "key": "D",
+          "label": "糖原分解"
+        }
+      ],
+      "stems": [
+        {
+          "text": "6-磷酸葡萄糖直接参与的代谢途径有",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "它可进入糖酵解和磷酸戊糖途径，也是糖原分解产生 1-磷酸葡萄糖后的互变产物；不直接进入三羧酸循环。",
+          "sourceQuestion": "2013N157"
+        }
+      ],
+      "topic": "糖异生",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "page": 18,
+        "pageLabel": "合集 PDF 第 18 页",
+        "title": "生化合集 · PDF 第 18 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-018.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "page": 18,
+          "pageLabel": "合集 PDF 第 18 页",
+          "title": "生化合集 · PDF 第 18 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-018.avif"
+        },
+        {
+          "lectureId": "lecture-03",
+          "page": 19,
+          "pageLabel": "合集 PDF 第 19 页",
+          "title": "生化合集 · PDF 第 19 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-019.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2013N157",
+      "sourceText": "2013N157 2013N157",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2013N157 · 生化《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1990n59",
+      "title": "进食后的肝糖原合成",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "糖酵解"
+        },
+        {
+          "key": "B",
+          "label": "糖有氧氧化"
+        },
+        {
+          "key": "C",
+          "label": "糖原合成"
+        },
+        {
+          "key": "D",
+          "label": "磷酸戊糖途径"
+        },
+        {
+          "key": "E",
+          "label": "转变为其它单糖"
+        }
+      ],
+      "stems": [
+        {
+          "text": "从量上说，餐后肝内葡萄糖去路最多的代谢途径是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "本题考查摄食后胰岛素推动肝脏将葡萄糖储存为糖原。磷酸戊糖途径虽然重要，但不是这道题按量比较的主要去路。",
+          "sourceQuestion": "1990N59"
+        }
+      ],
+      "topic": "糖异生",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "page": 15,
+        "pageLabel": "合集 PDF 第 15 页",
+        "title": "生化合集 · PDF 第 15 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-015.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "page": 15,
+          "pageLabel": "合集 PDF 第 15 页",
+          "title": "生化合集 · PDF 第 15 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-015.avif"
+        },
+        {
+          "lectureId": "lecture-03",
+          "page": 18,
+          "pageLabel": "合集 PDF 第 18 页",
+          "title": "生化合集 · PDF 第 18 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-018.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1990N59",
+      "sourceText": "1990N59 1990N59",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1990N59 · 生化《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2007n134",
+      "title": "磷酸戊糖途径的功能",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "是糖、脂、氨基酸的代谢枢纽"
+        },
+        {
+          "key": "B",
+          "label": "为核酸合成提供原料"
+        },
+        {
+          "key": "C",
+          "label": "为脂肪酸合成提供 NADPH"
+        },
+        {
+          "key": "D",
+          "label": "为胆固醇合成提供 NADPH"
+        }
+      ],
+      "stems": [
+        {
+          "text": "磷酸戊糖途径的重要生理功能有",
+          "answer": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "该途径提供核苷酸合成所需核糖和脂肪酸、胆固醇合成所需 NADPH；糖、脂和氨基酸间的共同代谢枢纽主要指三羧酸循环。",
+          "sourceQuestion": "2007N134"
+        }
+      ],
+      "topic": "糖异生",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "page": 15,
+        "pageLabel": "合集 PDF 第 15 页",
+        "title": "生化合集 · PDF 第 15 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-015.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "page": 15,
+          "pageLabel": "合集 PDF 第 15 页",
+          "title": "生化合集 · PDF 第 15 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-015.avif"
+        },
+        {
+          "lectureId": "lecture-03",
+          "page": 16,
+          "pageLabel": "合集 PDF 第 16 页",
+          "title": "生化合集 · PDF 第 16 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-016.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2007N134",
+      "sourceText": "2007N134 2007N134",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2007N134 · 生化《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1991n117",
+      "title": "葡萄糖转为脂质",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "酮体"
+        },
+        {
+          "key": "B",
+          "label": "胆固醇"
+        },
+        {
+          "key": "C",
+          "label": "脂肪酸"
+        },
+        {
+          "key": "D",
+          "label": "乙酰乙酸"
+        }
+      ],
+      "stems": [
+        {
+          "text": "葡萄糖在体内代谢时通常可转变成",
+          "answer": [
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "通常摄食条件下，葡萄糖可转为脂肪酸和胆固醇。乙酰乙酸就是酮体之一，酮体生成主要在低糖、高脂肪氧化状态增强。",
+          "sourceQuestion": "1991N117"
+        }
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "page": 39,
+        "pageLabel": "合集 PDF 第 39 页",
+        "title": "生化合集 · PDF 第 39 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-039.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-06",
+          "page": 39,
+          "pageLabel": "合集 PDF 第 39 页",
+          "title": "生化合集 · PDF 第 39 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-039.avif"
+        },
+        {
+          "lectureId": "lecture-06",
+          "page": 44,
+          "pageLabel": "合集 PDF 第 44 页",
+          "title": "生化合集 · PDF 第 44 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-044.avif"
+        },
+        {
+          "lectureId": "lecture-06",
+          "page": 57,
+          "pageLabel": "合集 PDF 第 57 页",
+          "title": "生化合集 · PDF 第 57 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-057.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1991N117",
+      "sourceText": "1991N117 1991N117",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1991N117 · 生化《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1994n8",
+      "title": "葡萄糖的常见代谢去向",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "乙酰乙酸"
+        },
+        {
+          "key": "B",
+          "label": "胆固醇"
+        },
+        {
+          "key": "C",
+          "label": "脂肪酸"
+        },
+        {
+          "key": "D",
+          "label": "丙氨酸"
+        },
+        {
+          "key": "E",
+          "label": "核糖"
+        }
+      ],
+      "stems": [
+        {
+          "text": "葡萄糖在体内代谢时，通常不会转变生成的化合物是",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "葡萄糖可供脂质合成，丙酮酸可经转氨形成丙氨酸，磷酸戊糖途径可生成核糖；乙酰乙酸属于酮体。",
+          "sourceQuestion": "1994N8"
+        }
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "page": 44,
+        "pageLabel": "合集 PDF 第 44 页",
+        "title": "生化合集 · PDF 第 44 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-044.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-06",
+          "page": 44,
+          "pageLabel": "合集 PDF 第 44 页",
+          "title": "生化合集 · PDF 第 44 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-044.avif"
+        },
+        {
+          "lectureId": "lecture-06",
+          "page": 57,
+          "pageLabel": "合集 PDF 第 57 页",
+          "title": "生化合集 · PDF 第 57 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-057.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1994N8",
+      "sourceText": "1994N8 1994N8",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1994N8 · 生化《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1996n27",
+      "title": "草酰乙酸的直接去向",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "天冬氨酸"
+        },
+        {
+          "key": "B",
+          "label": "磷酸烯醇式丙酮酸"
+        },
+        {
+          "key": "C",
+          "label": "苹果酸"
+        },
+        {
+          "key": "D",
+          "label": "柠檬酸"
+        },
+        {
+          "key": "E",
+          "label": "乙酰乙酸"
+        }
+      ],
+      "stems": [
+        {
+          "text": "在体内不能直接由草酰乙酸转变而来的化合物是",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "explanation": "草酰乙酸可转氨、还原、转为 PEP，或与乙酰辅酶 A 缩合成柠檬酸；乙酰乙酸由生酮途径形成。",
+          "sourceQuestion": "1996N27"
+        }
+      ],
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 5,
+        "pageLabel": "合集 PDF 第 5 页",
+        "title": "生化合集 · PDF 第 5 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-005.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-01",
+          "page": 5,
+          "pageLabel": "合集 PDF 第 5 页",
+          "title": "生化合集 · PDF 第 5 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-005.avif"
+        },
+        {
+          "lectureId": "lecture-01",
+          "page": 57,
+          "pageLabel": "合集 PDF 第 57 页",
+          "title": "生化合集 · PDF 第 57 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-057.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1996N27",
+      "sourceText": "1996N27 1996N27",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1996N27 · 生化《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2011n30",
+      "title": "甘油进入糖异生",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "硬脂酸"
+        },
+        {
+          "key": "B",
+          "label": "油酸"
+        },
+        {
+          "key": "C",
+          "label": "β-羟丁酸"
+        },
+        {
+          "key": "D",
+          "label": "α-磷酸甘油"
+        }
+      ],
+      "stems": [
+        {
+          "text": "以下可以转变为糖的化合物的是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "α-磷酸甘油可转为磷酸二羟丙酮，进入糖异生。偶数碳脂肪酸和 β-羟丁酸形成的乙酰辅酶 A 不能净合成葡萄糖。",
+          "sourceQuestion": "2011N30"
+        }
+      ],
+      "topic": "糖异生",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "page": 18,
+        "pageLabel": "合集 PDF 第 18 页",
+        "title": "生化合集 · PDF 第 18 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-018.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "page": 18,
+          "pageLabel": "合集 PDF 第 18 页",
+          "title": "生化合集 · PDF 第 18 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-018.avif"
+        },
+        {
+          "lectureId": "lecture-03",
+          "page": 22,
+          "pageLabel": "合集 PDF 第 22 页",
+          "title": "生化合集 · PDF 第 22 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-022.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2011N30",
+      "sourceText": "2011N30 2011N30",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2011N30 · 生化《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1996n21",
+      "title": "奇数碳脂肪酸的生糖部分",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "硬脂酸"
+        },
+        {
+          "key": "B",
+          "label": "乙酰 CoA"
+        },
+        {
+          "key": "C",
+          "label": "酮体"
+        },
+        {
+          "key": "D",
+          "label": "丙酰 CoA"
+        },
+        {
+          "key": "E",
+          "label": "油酸"
+        }
+      ],
+      "stems": [
+        {
+          "text": "以下脂肪降解和氧化产物可以转化为糖的有",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "丙酰辅酶 A 可变成琥珀酰辅酶 A，补充循环中间物而参与糖异生；偶数碳脂肪酸产生的乙酰辅酶 A 不行。",
+          "sourceQuestion": "1996N21"
+        }
+      ],
+      "topic": "糖异生",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "page": 22,
+        "pageLabel": "合集 PDF 第 22 页",
+        "title": "生化合集 · PDF 第 22 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-022.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "page": 22,
+          "pageLabel": "合集 PDF 第 22 页",
+          "title": "生化合集 · PDF 第 22 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-022.avif"
+        },
+        {
+          "lectureId": "lecture-03",
+          "page": 57,
+          "pageLabel": "合集 PDF 第 57 页",
+          "title": "生化合集 · PDF 第 57 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-057.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1996N21",
+      "sourceText": "1996N21 1996N21",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1996N21 · 生化《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2011n31",
+      "title": "脂肪组织的甘油骨架来源",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "糖酵解"
+        },
+        {
+          "key": "B",
+          "label": "糖异生"
+        },
+        {
+          "key": "C",
+          "label": "脂肪动员"
+        },
+        {
+          "key": "D",
+          "label": "氨基酸转化"
+        }
+      ],
+      "stems": [
+        {
+          "text": "脂肪细胞合成甘油三酯所需的 3-磷酸甘油主要来源于",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "脂肪细胞的甘油激酶活性低，通常由糖酵解中间物磷酸二羟丙酮还原生成 3-磷酸甘油。",
+          "sourceQuestion": "2011N31"
+        }
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "page": 43,
+        "pageLabel": "合集 PDF 第 43 页",
+        "title": "生化合集 · PDF 第 43 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-043.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-06",
+          "page": 43,
+          "pageLabel": "合集 PDF 第 43 页",
+          "title": "生化合集 · PDF 第 43 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-043.avif"
+        },
+        {
+          "lectureId": "lecture-06",
+          "page": 44,
+          "pageLabel": "合集 PDF 第 44 页",
+          "title": "生化合集 · PDF 第 44 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-044.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2011N31",
+      "sourceText": "2011N31 2011N31",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2011N31 · 生化《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2008n157",
+      "title": "脂肪酸 β 氧化的辅因子",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "NAD+"
+        },
+        {
+          "key": "B",
+          "label": "NADP+"
+        },
+        {
+          "key": "C",
+          "label": "CoASH"
+        },
+        {
+          "key": "D",
+          "label": "FAD"
+        }
+      ],
+      "stems": [
+        {
+          "text": "以下化合物中，参与脂肪酸 β-氧化的有",
+          "answer": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "两次氧化需要 FAD 和 NAD⁺，硫解需要 CoASH。NADPH 常用于脂肪酸合成，此处的 NADP⁺不是 β 氧化的辅因子。",
+          "sourceQuestion": "2008N157"
+        }
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "page": 46,
+        "pageLabel": "合集 PDF 第 46 页",
+        "title": "生化合集 · PDF 第 46 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-046.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-06",
+          "page": 46,
+          "pageLabel": "合集 PDF 第 46 页",
+          "title": "生化合集 · PDF 第 46 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-046.avif"
+        },
+        {
+          "lectureId": "lecture-06",
+          "page": 47,
+          "pageLabel": "合集 PDF 第 47 页",
+          "title": "生化合集 · PDF 第 47 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-047.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2008N157",
+      "sourceText": "2008N157 2008N157",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2008N157 · 生化《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2007n28",
+      "title": "脂肪酸氧化与酮体、胆固醇的联系",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "乙酰乙酰辅酶 A"
+        },
+        {
+          "key": "B",
+          "label": "甲基二羟戊酸"
+        },
+        {
+          "key": "C",
+          "label": "HMG-CoA"
+        },
+        {
+          "key": "D",
+          "label": "乙酰乙酸"
+        }
+      ],
+      "stems": [
+        {
+          "text": "脂肪酸 β氧化、酮体生成及胆固醇合成的共同中间产物是",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "乙酰乙酰辅酶 A 可见于短链末轮 β 氧化，也是酮体及胆固醇合成通向 HMG-CoA 的共同中间物；HMG-CoA 不是 β 氧化的中间物。",
+          "sourceQuestion": "2007N28"
+        }
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "page": 46,
+        "pageLabel": "合集 PDF 第 46 页",
+        "title": "生化合集 · PDF 第 46 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-046.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-06",
+          "page": 46,
+          "pageLabel": "合集 PDF 第 46 页",
+          "title": "生化合集 · PDF 第 46 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-046.avif"
+        },
+        {
+          "lectureId": "lecture-06",
+          "page": 49,
+          "pageLabel": "合集 PDF 第 49 页",
+          "title": "生化合集 · PDF 第 49 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-049.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2007N28",
+      "sourceText": "2007N28 2007N28",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2007N28 · 生化《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1988n149",
+      "title": "氨基酸参与含氮化合物合成",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "嘌呤及嘧啶类衍生物"
+        },
+        {
+          "key": "B",
+          "label": "肌酸"
+        },
+        {
+          "key": "C",
+          "label": "乙醇胺"
+        },
+        {
+          "key": "D",
+          "label": "胆碱"
+        }
+      ],
+      "stems": [
+        {
+          "text": "肝脏可利用氨基酸合成以下哪些含氮化合物",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "氨基酸可提供核苷酸和肌酸的原子；磷脂代谢也把丝氨酸来源的碳氮骨架连到乙醇胺和胆碱。",
+          "sourceQuestion": "1988N149"
+        }
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "page": 54,
+        "pageLabel": "合集 PDF 第 54 页",
+        "title": "生化合集 · PDF 第 54 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-054.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-07",
+          "page": 54,
+          "pageLabel": "合集 PDF 第 54 页",
+          "title": "生化合集 · PDF 第 54 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-054.avif"
+        },
+        {
+          "lectureId": "lecture-07",
+          "page": 62,
+          "pageLabel": "合集 PDF 第 62 页",
+          "title": "生化合集 · PDF 第 62 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-062.avif"
+        },
+        {
+          "lectureId": "lecture-07",
+          "page": 76,
+          "pageLabel": "合集 PDF 第 76 页",
+          "title": "生化合集 · PDF 第 76 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-076.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1988N149",
+      "sourceText": "1988N149 1988N149",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1988N149 · 生化《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2000n143",
+      "title": "糖异生底物的判别",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "软脂酸"
+        },
+        {
+          "key": "B",
+          "label": "丝氨酸"
+        },
+        {
+          "key": "C",
+          "label": "甘油"
+        },
+        {
+          "key": "D",
+          "label": "亮氨酸"
+        }
+      ],
+      "stems": [
+        {
+          "text": "哺乳动物肝内能进行糖异生的物质是",
+          "answer": [
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "丝氨酸可变为丙酮酸，甘油可变为磷酸二羟丙酮；软脂酸是偶数碳脂肪酸，亮氨酸为纯生酮氨基酸。",
+          "sourceQuestion": "2000N143"
+        }
+      ],
+      "topic": "糖异生",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "page": 17,
+        "pageLabel": "合集 PDF 第 17 页",
+        "title": "生化合集 · PDF 第 17 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-017.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "page": 17,
+          "pageLabel": "合集 PDF 第 17 页",
+          "title": "生化合集 · PDF 第 17 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-017.avif"
+        },
+        {
+          "lectureId": "lecture-03",
+          "page": 18,
+          "pageLabel": "合集 PDF 第 18 页",
+          "title": "生化合集 · PDF 第 18 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-018.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2000N143",
+      "sourceText": "2000N143 2000N143",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2000N143 · 生化《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1989n151",
+      "title": "短期饥饿的代谢重排",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "脂肪动员加强"
+        },
+        {
+          "key": "B",
+          "label": "肝脏酮体生成增加"
+        },
+        {
+          "key": "C",
+          "label": "糖异生作用加强"
+        },
+        {
+          "key": "D",
+          "label": "胰岛素释放增加"
+        }
+      ],
+      "stems": [
+        {
+          "text": "短期饥饿时体内的代谢特点是",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "胰岛素相对下降，脂肪动员、糖异生及酮体生成增强。早期肝糖原也会分解供血糖。",
+          "sourceQuestion": "1989N151"
+        }
+      ],
+      "topic": "糖异生",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "page": 17,
+        "pageLabel": "合集 PDF 第 17 页",
+        "title": "生化合集 · PDF 第 17 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-017.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "page": 17,
+          "pageLabel": "合集 PDF 第 17 页",
+          "title": "生化合集 · PDF 第 17 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-017.avif"
+        },
+        {
+          "lectureId": "lecture-03",
+          "page": 43,
+          "pageLabel": "合集 PDF 第 43 页",
+          "title": "生化合集 · PDF 第 43 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-043.avif"
+        },
+        {
+          "lectureId": "lecture-03",
+          "page": 51,
+          "pageLabel": "合集 PDF 第 51 页",
+          "title": "生化合集 · PDF 第 51 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-051.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1989N151",
+      "sourceText": "1989N151 1989N151",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1989N151 · 生化《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2009n157",
+      "title": "游离氨的同化",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "尿酸"
+        },
+        {
+          "key": "B",
+          "label": "肌酸"
+        },
+        {
+          "key": "C",
+          "label": "谷氨酸"
+        },
+        {
+          "key": "D",
+          "label": "谷氨酰胺"
+        }
+      ],
+      "stems": [
+        {
+          "text": "体内氨基酸脱氨基作用产生的氨可参与合成的物质有",
+          "answer": [
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "游离氨可通过谷氨酸脱氢酶参与生成谷氨酸，也可经谷氨酰胺合成酶生成谷氨酰胺；本题不把嘌呤分解产物尿酸或肌酸当作直接去向。",
+          "sourceQuestion": "2009N157"
+        }
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "page": 55,
+        "pageLabel": "合集 PDF 第 55 页",
+        "title": "生化合集 · PDF 第 55 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-055.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-07",
+          "page": 55,
+          "pageLabel": "合集 PDF 第 55 页",
+          "title": "生化合集 · PDF 第 55 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-055.avif"
+        },
+        {
+          "lectureId": "lecture-07",
+          "page": 63,
+          "pageLabel": "合集 PDF 第 63 页",
+          "title": "生化合集 · PDF 第 63 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-063.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2009N157",
+      "sourceText": "2009N157 2009N157",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2009N157 · 生化《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1999n143",
+      "title": "甘氨酸的代谢用途",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "肌酸的合成"
+        },
+        {
+          "key": "B",
+          "label": "嘌呤核苷酸的合成"
+        },
+        {
+          "key": "C",
+          "label": "嘧啶核苷酸的合成"
+        },
+        {
+          "key": "D",
+          "label": "血红素的合成"
+        }
+      ],
+      "stems": [
+        {
+          "text": "甘氨酸参与的代谢过程有",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "甘氨酸参与肌酸和血红素合成，并提供嘌呤环的原子；嘧啶环供料主要是天冬氨酸与氨基甲酰磷酸。",
+          "sourceQuestion": "1999N143"
+        }
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "page": 54,
+        "pageLabel": "合集 PDF 第 54 页",
+        "title": "生化合集 · PDF 第 54 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-054.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-07",
+          "page": 54,
+          "pageLabel": "合集 PDF 第 54 页",
+          "title": "生化合集 · PDF 第 54 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-054.avif"
+        },
+        {
+          "lectureId": "lecture-07",
+          "page": 76,
+          "pageLabel": "合集 PDF 第 76 页",
+          "title": "生化合集 · PDF 第 76 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-076.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1999N143",
+      "sourceText": "1999N143 1999N143",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1999N143 · 生化《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2013n158",
+      "title": "谷氨酰胺运氨与供氮",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "储存和运输氨"
+        },
+        {
+          "key": "B",
+          "label": "参与嘌呤核苷酸的从头合成"
+        },
+        {
+          "key": "C",
+          "label": "参与嘧啶核苷酸的从头合成"
+        },
+        {
+          "key": "D",
+          "label": "参与脂肪酸的生物合成"
+        }
+      ],
+      "stems": [
+        {
+          "text": "谷氨酰胺的生物学作用有",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "谷氨酰胺可运氨，其酰胺氮用于嘌呤和嘧啶合成。基础考试通常不把它列为脂肪酸从头合成的直接原料。",
+          "sourceQuestion": "2013N158"
+        }
+      ],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "page": 55,
+        "pageLabel": "合集 PDF 第 55 页",
+        "title": "生化合集 · PDF 第 55 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-055.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-09",
+          "page": 55,
+          "pageLabel": "合集 PDF 第 55 页",
+          "title": "生化合集 · PDF 第 55 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-055.avif"
+        },
+        {
+          "lectureId": "lecture-09",
+          "page": 76,
+          "pageLabel": "合集 PDF 第 76 页",
+          "title": "生化合集 · PDF 第 76 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-076.avif"
+        },
+        {
+          "lectureId": "lecture-09",
+          "page": 77,
+          "pageLabel": "合集 PDF 第 77 页",
+          "title": "生化合集 · PDF 第 77 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-077.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2013N158",
+      "sourceText": "2013N158 2013N158",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2013N158 · 生化《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2011n159",
+      "title": "天冬氨酸的合成用途",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "尿素生成"
+        },
+        {
+          "key": "B",
+          "label": "血红素合成"
+        },
+        {
+          "key": "C",
+          "label": "嘌呤核苷酸合成"
+        },
+        {
+          "key": "D",
+          "label": "嘧啶核苷酸合成"
+        }
+      ],
+      "stems": [
+        {
+          "text": "天冬氨酸在体内参与的代谢途径有",
+          "answer": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "天冬氨酸提供尿素第二个氮，也参与嘌呤、嘧啶核苷酸合成；卟啉环起始底物是甘氨酸和琥珀酰辅酶 A。",
+          "sourceQuestion": "2011N159"
+        }
+      ],
+      "topic": "核苷酸代谢",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "page": 56,
+        "pageLabel": "合集 PDF 第 56 页",
+        "title": "生化合集 · PDF 第 56 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-056.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-09",
+          "page": 56,
+          "pageLabel": "合集 PDF 第 56 页",
+          "title": "生化合集 · PDF 第 56 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-056.avif"
+        },
+        {
+          "lectureId": "lecture-09",
+          "page": 76,
+          "pageLabel": "合集 PDF 第 76 页",
+          "title": "生化合集 · PDF 第 76 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-076.avif"
+        },
+        {
+          "lectureId": "lecture-09",
+          "page": 77,
+          "pageLabel": "合集 PDF 第 77 页",
+          "title": "生化合集 · PDF 第 77 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-077.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2011N159",
+      "sourceText": "2011N159 2011N159",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2011N159 · 生化《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2006n134",
+      "title": "谷氨酰胺的碳氮去向",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "参与血红素的合成"
+        },
+        {
+          "key": "B",
+          "label": "参与嘌呤嘧啶核苷酸的合成"
+        },
+        {
+          "key": "C",
+          "label": "异生成糖"
+        },
+        {
+          "key": "D",
+          "label": "氧化供能"
+        }
+      ],
+      "stems": [
+        {
+          "text": "谷氨酰胺在体内的代谢去路是",
+          "answer": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "可为核苷酸合成供氮，也可经谷氨酸、α-酮戊二酸进入循环，氧化供能或支持糖异生；不是血红素合成的直接原料。",
+          "sourceQuestion": "2006N134"
+        }
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "page": 55,
+        "pageLabel": "合集 PDF 第 55 页",
+        "title": "生化合集 · PDF 第 55 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-055.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-07",
+          "page": 55,
+          "pageLabel": "合集 PDF 第 55 页",
+          "title": "生化合集 · PDF 第 55 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-055.avif"
+        },
+        {
+          "lectureId": "lecture-07",
+          "page": 57,
+          "pageLabel": "合集 PDF 第 57 页",
+          "title": "生化合集 · PDF 第 57 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-057.avif"
+        },
+        {
+          "lectureId": "lecture-07",
+          "page": 76,
+          "pageLabel": "合集 PDF 第 76 页",
+          "title": "生化合集 · PDF 第 76 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-076.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2006N134",
+      "sourceText": "2006N134 2006N134",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2006N134 · 生化《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2002n144",
+      "title": "琥珀酰辅酶 A 的代谢去向",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "可异生为糖"
+        },
+        {
+          "key": "B",
+          "label": "可氧化供能"
+        },
+        {
+          "key": "C",
+          "label": "是合成卟啉化合物的原料"
+        },
+        {
+          "key": "D",
+          "label": "参与酮体的氧化"
+        }
+      ],
+      "stems": [
+        {
+          "text": "以下关于琥珀酰辅酶 A代谢去路的描述，正确的是",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "它可经循环补充草酰乙酸并支持糖异生，也可用于氧化供能、卟啉合成，并为肝外酮体利用提供 CoA。",
+          "sourceQuestion": "2002N144"
+        }
+      ],
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 46,
+        "pageLabel": "合集 PDF 第 46 页",
+        "title": "生化合集 · PDF 第 46 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-046.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-01",
+          "page": 46,
+          "pageLabel": "合集 PDF 第 46 页",
+          "title": "生化合集 · PDF 第 46 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-046.avif"
+        },
+        {
+          "lectureId": "lecture-01",
+          "page": 57,
+          "pageLabel": "合集 PDF 第 57 页",
+          "title": "生化合集 · PDF 第 57 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-057.avif"
+        },
+        {
+          "lectureId": "lecture-01",
+          "page": 89,
+          "pageLabel": "合集 PDF 第 89 页",
+          "title": "生化合集 · PDF 第 89 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-089.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2002N144",
+      "sourceText": "2002N144 2002N144",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2002N144 · 生化《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1994n141",
+      "title": "肝脏功能与氨及胆红素",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "血氨增高"
+        },
+        {
+          "key": "B",
+          "label": "血酮体增高"
+        },
+        {
+          "key": "C",
+          "label": "血清游离胆红素增高"
+        },
+        {
+          "key": "D",
+          "label": "血浆蛋白质降低"
+        }
+      ],
+      "stems": [
+        {
+          "text": "狗切除肝脏后，在未死亡前可观察到有重大变化的物质代谢指标是",
+          "answer": [
+            "A",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "切肝后尿素合成和胆红素结合能力丧失，血氨与非结合胆红素可增高。酮体主要由肝生成，短期内已有血浆蛋白也不会立即耗尽。",
+          "sourceQuestion": "1994N141"
+        }
+      ],
+      "topic": "胆色素代谢与生物转化",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-10",
+        "page": 55,
+        "pageLabel": "合集 PDF 第 55 页",
+        "title": "生化合集 · PDF 第 55 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-055.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-10",
+          "page": 55,
+          "pageLabel": "合集 PDF 第 55 页",
+          "title": "生化合集 · PDF 第 55 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-055.avif"
+        },
+        {
+          "lectureId": "lecture-10",
+          "page": 89,
+          "pageLabel": "合集 PDF 第 89 页",
+          "title": "生化合集 · PDF 第 89 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-089.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1994N141",
+      "sourceText": "1994N141 1994N141",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1994N141 · 生化《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2004n115",
+      "title": "代谢途径的交叉中间物",
+      "kind": "C",
+      "kindLabel": "C型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "3-磷酸甘油酸"
+        },
+        {
+          "key": "B",
+          "label": "α-酮戊二酸"
+        },
+        {
+          "key": "C",
+          "label": "二者均是"
+        },
+        {
+          "key": "D",
+          "label": "二者均非"
+        }
+      ],
+      "stems": [
+        {
+          "text": "糖代谢和脂肪分解代谢可转变生成的是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "糖及脂肪分解产物可借甘油转入糖代谢，或借乙酰辅酶 A 进入循环，按本题口径两者均可生成。",
+          "sourceQuestion": "2004N115"
+        }
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "page": 54,
+        "pageLabel": "合集 PDF 第 54 页",
+        "title": "生化合集 · PDF 第 54 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-054.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-07",
+          "page": 54,
+          "pageLabel": "合集 PDF 第 54 页",
+          "title": "生化合集 · PDF 第 54 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-054.avif"
+        },
+        {
+          "lectureId": "lecture-07",
+          "page": 57,
+          "pageLabel": "合集 PDF 第 57 页",
+          "title": "生化合集 · PDF 第 57 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-057.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2004N115",
+      "sourceText": "2004N115 2004N115-116",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2004N115 · 生化《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2004n116",
+      "title": "代谢途径的交叉中间物",
+      "kind": "C",
+      "kindLabel": "C型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "3-磷酸甘油酸"
+        },
+        {
+          "key": "B",
+          "label": "α-酮戊二酸"
+        },
+        {
+          "key": "C",
+          "label": "二者均是"
+        },
+        {
+          "key": "D",
+          "label": "二者均非"
+        }
+      ],
+      "stems": [
+        {
+          "text": "氨基酸氧化分解代谢的中间产物是",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "多种氨基酸分解汇入 α-酮戊二酸；题干问氧化分解的经典中间产物，不把间接糖异生后产物列入。",
+          "sourceQuestion": "2004N116"
+        }
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "page": 54,
+        "pageLabel": "合集 PDF 第 54 页",
+        "title": "生化合集 · PDF 第 54 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-054.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-07",
+          "page": 54,
+          "pageLabel": "合集 PDF 第 54 页",
+          "title": "生化合集 · PDF 第 54 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-054.avif"
+        },
+        {
+          "lectureId": "lecture-07",
+          "page": 57,
+          "pageLabel": "合集 PDF 第 57 页",
+          "title": "生化合集 · PDF 第 57 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-057.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2004N116",
+      "sourceText": "2004N116 2004N115-116",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2004N116 · 生化《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2001n24",
+      "title": "PFK-1 的变构抑制物",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "6-磷酸果糖"
+        },
+        {
+          "key": "B",
+          "label": "1,6-二磷酸果糖"
+        },
+        {
+          "key": "C",
+          "label": "柠檬酸"
+        },
+        {
+          "key": "D",
+          "label": "乙酰 CoA"
+        },
+        {
+          "key": "E",
+          "label": "AMP"
+        }
+      ],
+      "stems": [
+        {
+          "text": "磷酸果糖激酶-1 的别构抑制剂是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "柠檬酸提示供能中间物充足，对 PFK-1 有抑制作用；AMP 提示能量不足，反而促进糖酵解。",
+          "sourceQuestion": "2001N24"
+        }
+      ],
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 6,
+        "pageLabel": "合集 PDF 第 6 页",
+        "title": "生化合集 · PDF 第 6 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-006.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-01",
+          "page": 6,
+          "pageLabel": "合集 PDF 第 6 页",
+          "title": "生化合集 · PDF 第 6 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-006.avif"
+        },
+        {
+          "lectureId": "lecture-01",
+          "page": 11,
+          "pageLabel": "合集 PDF 第 11 页",
+          "title": "生化合集 · PDF 第 11 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-011.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2001N24",
+      "sourceText": "2001N24 2001N24",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2001N24 · 生化《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2006n26",
+      "title": "乙酰辅酶 A 羧化酶的调节",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 8,
+      "options": [
+        {
+          "key": "A",
+          "label": "6-磷酸果糖激酶-1"
+        },
+        {
+          "key": "B",
+          "label": "丙酮酸激酶"
+        },
+        {
+          "key": "C",
+          "label": "丙酮酸羧化酶"
+        },
+        {
+          "key": "D",
+          "label": "乙酰 CoA羧化酶"
+        },
+        {
+          "key": "E",
+          "label": "丙酮酸脱氢酶复合体"
+        }
+      ],
+      "stems": [
+        {
+          "text": "柠檬酸是以下哪种酶的变构激活剂",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "柠檬酸变构激活乙酰辅酶 A 羧化酶，促进丙二酰辅酶 A 生成；对 PFK-1 的作用方向相反。",
+          "sourceQuestion": "2006N26"
+        }
+      ],
+      "topic": "脂代谢",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "page": 37,
+        "pageLabel": "合集 PDF 第 37 页",
+        "title": "生化合集 · PDF 第 37 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-037.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-06",
+          "page": 37,
+          "pageLabel": "合集 PDF 第 37 页",
+          "title": "生化合集 · PDF 第 37 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-037.avif"
+        },
+        {
+          "lectureId": "lecture-06",
+          "page": 43,
+          "pageLabel": "合集 PDF 第 43 页",
+          "title": "生化合集 · PDF 第 43 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-043.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2006N26",
+      "sourceText": "2006N26 2006N26",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2006N26 · 生化《易错小结（真题）》原题页：第 8 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1998n146",
+      "title": "能量状态与糖分解",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 8,
+      "options": [
+        {
+          "key": "A",
+          "label": "己糖激酶"
+        },
+        {
+          "key": "B",
+          "label": "6-磷酸果糖激酶-1"
+        },
+        {
+          "key": "C",
+          "label": "3-磷酸甘油醛脱氢酶"
+        },
+        {
+          "key": "D",
+          "label": "丙酮酸脱氢酶复合体"
+        }
+      ],
+      "stems": [
+        {
+          "text": "细胞内ATP/AMP 比值增加可以抑制",
+          "answer": [
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "ATP/AMP 升高提示能量充足，抑制 PFK-1 并抑制丙酮酸脱氢酶复合体活性。己糖激酶的经典反馈抑制物是 G-6-P。",
+          "sourceQuestion": "1998N146"
+        }
+      ],
+      "topic": "糖无氧氧化与糖有氧氧化",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 6,
+        "pageLabel": "合集 PDF 第 6 页",
+        "title": "生化合集 · PDF 第 6 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-006.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-01",
+          "page": 6,
+          "pageLabel": "合集 PDF 第 6 页",
+          "title": "生化合集 · PDF 第 6 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-006.avif"
+        },
+        {
+          "lectureId": "lecture-01",
+          "page": 11,
+          "pageLabel": "合集 PDF 第 11 页",
+          "title": "生化合集 · PDF 第 11 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-011.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1998N146",
+      "sourceText": "1998N146 1998N146",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1998N146 · 生化《易错小结（真题）》原题页：第 8 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1988n60",
+      "title": "变构激活与抑制的方向",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 8,
+      "options": [
+        {
+          "key": "A",
+          "label": "能接受变构调节的酶常是两个以上的亚基组成的聚合体"
+        },
+        {
+          "key": "B",
+          "label": "G-6-P是己糖激酶的变构抑制剂"
+        },
+        {
+          "key": "C",
+          "label": "AMP是磷酸果糖激酶的变构激活剂"
+        },
+        {
+          "key": "D",
+          "label": "ATP是柠檬酸合酶的变构激活剂"
+        },
+        {
+          "key": "E",
+          "label": "乙酰 CoA是丙酮酸羧化酶的变构激活剂"
+        }
+      ],
+      "stems": [
+        {
+          "text": "以下有关变构酶的描述，错误的是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "高 ATP 抑制柠檬酸合酶；AMP 激活 PFK-1，乙酰辅酶 A 激活丙酮酸羧化酶，G-6-P 可抑制常见己糖激酶。",
+          "sourceQuestion": "1988N60"
+        }
+      ],
+      "topic": "酶",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "page": 6,
+        "pageLabel": "合集 PDF 第 6 页",
+        "title": "生化合集 · PDF 第 6 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-006.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-12",
+          "page": 6,
+          "pageLabel": "合集 PDF 第 6 页",
+          "title": "生化合集 · PDF 第 6 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-006.avif"
+        },
+        {
+          "lectureId": "lecture-12",
+          "page": 96,
+          "pageLabel": "合集 PDF 第 96 页",
+          "title": "生化合集 · PDF 第 96 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-096.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1988N60",
+      "sourceText": "1988N60 1988N60",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1988N60 · 生化《易错小结（真题）》原题页：第 8 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2007n136",
+      "title": "真核基因组的常见特征",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 8,
+      "options": [
+        {
+          "key": "A",
+          "label": "基因不连续性"
+        },
+        {
+          "key": "B",
+          "label": "单顺反子"
+        },
+        {
+          "key": "C",
+          "label": "含重复序列"
+        },
+        {
+          "key": "D",
+          "label": "一个启动基因后接有几个编码基因"
+        }
+      ],
+      "stems": [
+        {
+          "text": "真核基因的结构特点有",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "真核常见断裂基因、重复序列和单顺反子转录产物。一个共同启动区后有多个编码基因是原核操纵子的典型组织方式。",
+          "sourceQuestion": "2007N136"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "page": 187,
+        "pageLabel": "合集 PDF 第 187 页",
+        "title": "生化合集 · PDF 第 187 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-187.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "page": 187,
+          "pageLabel": "合集 PDF 第 187 页",
+          "title": "生化合集 · PDF 第 187 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-187.avif"
+        },
+        {
+          "lectureId": "lecture-19",
+          "page": 188,
+          "pageLabel": "合集 PDF 第 188 页",
+          "title": "生化合集 · PDF 第 188 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-188.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2007N136",
+      "sourceText": "2007N136 2007N136",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2007N136 · 生化《易错小结（真题）》原题页：第 8 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2005n133",
+      "title": "DNA 拓扑异构酶的作用",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 8,
+      "options": [
+        {
+          "key": "A",
+          "label": "解开 DNA 超螺旋"
+        },
+        {
+          "key": "B",
+          "label": "切断单链 DNA"
+        },
+        {
+          "key": "C",
+          "label": "结合单链 DNA"
+        },
+        {
+          "key": "D",
+          "label": "连接 3,5-磷酸二酯键"
+        }
+      ],
+      "stems": [
+        {
+          "text": "拓扑异构酶对 DNA 分子的作用有",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "它通过暂时切开再封合 DNA 改变拓扑状态；Ⅰ型可切一条链。「结合单链 DNA」在复制分工中是单链结合蛋白的典型职责。",
+          "sourceQuestion": "2005N133"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 132,
+        "pageLabel": "合集 PDF 第 132 页",
+        "title": "生化合集 · PDF 第 132 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-132.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "page": 132,
+          "pageLabel": "合集 PDF 第 132 页",
+          "title": "生化合集 · PDF 第 132 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-132.avif"
+        },
+        {
+          "lectureId": "lecture-16",
+          "page": 135,
+          "pageLabel": "合集 PDF 第 135 页",
+          "title": "生化合集 · PDF 第 135 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-135.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2005N133",
+      "sourceText": "2005N133 2005N133",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2005N133 · 生化《易错小结（真题）》原题页：第 8 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2004n134",
+      "title": "复制相关的磷酸二酯键",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 9,
+      "options": [
+        {
+          "key": "A",
+          "label": "引物酶"
+        },
+        {
+          "key": "B",
+          "label": "DNA聚合酶"
+        },
+        {
+          "key": "C",
+          "label": "拓扑异构酶"
+        },
+        {
+          "key": "D",
+          "label": "解螺旋酶"
+        }
+      ],
+      "stems": [
+        {
+          "text": "复制过程中具有催化 3,5-磷酸二酯键生成的酶有",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "引物酶和 DNA 聚合酶通过聚合生成该键；拓扑异构酶既切断也重接。解螺旋酶分开双链，不负责生成该键。",
+          "sourceQuestion": "2004N134"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 135,
+        "pageLabel": "合集 PDF 第 135 页",
+        "title": "生化合集 · PDF 第 135 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-135.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "page": 135,
+          "pageLabel": "合集 PDF 第 135 页",
+          "title": "生化合集 · PDF 第 135 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-135.avif"
+        },
+        {
+          "lectureId": "lecture-16",
+          "page": 139,
+          "pageLabel": "合集 PDF 第 139 页",
+          "title": "生化合集 · PDF 第 139 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-139.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2004N134",
+      "sourceText": "2004N134 2004N134",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2004N134 · 生化《易错小结（真题）》原题页：第 9 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2003n134",
+      "title": "冈崎片段的成熟",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 9,
+      "options": [
+        {
+          "key": "A",
+          "label": "DNApol Ⅰ"
+        },
+        {
+          "key": "B",
+          "label": "DNApol Ⅲ"
+        },
+        {
+          "key": "C",
+          "label": "DnaA蛋白"
+        },
+        {
+          "key": "D",
+          "label": "DNA连接酶"
+        }
+      ],
+      "stems": [
+        {
+          "text": "DNA复制过程中，参与冈崎片段之间连接的酶有",
+          "answer": [
+            "A",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "原核 DNA 聚合酶Ⅰ去掉引物并补上 DNA，连接酶封住缺口。DNA 聚合酶Ⅲ负责合成片段本身，不负责把片段接起来。",
+          "sourceQuestion": "2003N134"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 139,
+        "pageLabel": "合集 PDF 第 139 页",
+        "title": "生化合集 · PDF 第 139 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-139.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "page": 139,
+          "pageLabel": "合集 PDF 第 139 页",
+          "title": "生化合集 · PDF 第 139 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-139.avif"
+        },
+        {
+          "lectureId": "lecture-16",
+          "page": 141,
+          "pageLabel": "合集 PDF 第 141 页",
+          "title": "生化合集 · PDF 第 141 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-141.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2003N134",
+      "sourceText": "2003N134 2003N134",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2003N134 · 生化《易错小结（真题）》原题页：第 9 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1991n19",
+      "title": "原核 DNA 复制步骤",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 9,
+      "options": [
+        {
+          "key": "A",
+          "label": "④→③→①→②→⑤"
+        },
+        {
+          "key": "B",
+          "label": "②→③→④→①→⑤"
+        },
+        {
+          "key": "C",
+          "label": "④→②→①→⑤→③"
+        },
+        {
+          "key": "D",
+          "label": "④→②→①→③→⑤"
+        },
+        {
+          "key": "E",
+          "label": "②→④→①→③→⑤"
+        }
+      ],
+      "stems": [
+        {
+          "text": "DNA复制需要①DNA 聚合酶Ⅲ、②解螺旋酶、③DNA 聚合酶Ⅰ、 ④DNA 指导的 RNA 聚合酶、⑤DNA 连接酶。其作用的顺序是",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "explanation": "按试题次序先解链，由引物酶合成 RNA 引物，再由聚合酶Ⅲ延伸、聚合酶Ⅰ除去引物并补齐，最后由连接酶封口。",
+          "sourceQuestion": "1991N19"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 135,
+        "pageLabel": "合集 PDF 第 135 页",
+        "title": "生化合集 · PDF 第 135 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-135.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "page": 135,
+          "pageLabel": "合集 PDF 第 135 页",
+          "title": "生化合集 · PDF 第 135 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-135.avif"
+        },
+        {
+          "lectureId": "lecture-16",
+          "page": 139,
+          "pageLabel": "合集 PDF 第 139 页",
+          "title": "生化合集 · PDF 第 139 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-139.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1991N19",
+      "sourceText": "1991N19 1991N19",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1991N19 · 生化《易错小结（真题）》原题页：第 9 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2011n160",
+      "title": "真核与原核复制比较",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 9,
+      "options": [
+        {
+          "key": "A",
+          "label": "真核生物的复制可能需要端粒酶参与"
+        },
+        {
+          "key": "B",
+          "label": "真核生物的冈崎片段短于原核生物"
+        },
+        {
+          "key": "C",
+          "label": "真核生物的复制起始点少于原核生物"
+        },
+        {
+          "key": "D",
+          "label": "真核生物 DNA 聚合酶的催化速率低于原核生物"
+        }
+      ],
+      "stems": [
+        {
+          "text": "以下真核生物与原核生物复制特点的比较中，正确的有",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "真核线性染色体可能需端粒酶，冈崎片段较短，单个复制叉的合成速度通常较慢；真核通常有更多复制起点。",
+          "sourceQuestion": "2011N160"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 139,
+        "pageLabel": "合集 PDF 第 139 页",
+        "title": "生化合集 · PDF 第 139 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-139.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "page": 139,
+          "pageLabel": "合集 PDF 第 139 页",
+          "title": "生化合集 · PDF 第 139 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-139.avif"
+        },
+        {
+          "lectureId": "lecture-16",
+          "page": 140,
+          "pageLabel": "合集 PDF 第 140 页",
+          "title": "生化合集 · PDF 第 140 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-140.avif"
+        },
+        {
+          "lectureId": "lecture-16",
+          "page": 142,
+          "pageLabel": "合集 PDF 第 142 页",
+          "title": "生化合集 · PDF 第 142 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-142.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2011N160",
+      "sourceText": "2011N160 2011N160",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2011N160 · 生化《易错小结（真题）》原题页：第 9 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2017n24",
+      "title": "转录的不对称性",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 9,
+      "options": [
+        {
+          "key": "A",
+          "label": "都以操纵子模式进行调控"
+        },
+        {
+          "key": "B",
+          "label": "RNA聚合酶相同"
+        },
+        {
+          "key": "C",
+          "label": "转录都具有不对称性"
+        },
+        {
+          "key": "D",
+          "label": "产物都需要在胞核加工"
+        }
+      ],
+      "stems": [
+        {
+          "text": "真核生物与原核生物转录的相同点是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "两类生物都针对特定基因选择一条模板链转录；RNA 聚合酶和调控体系不同，原核没有细胞核。",
+          "sourceQuestion": "2017N24"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "page": 146,
+        "pageLabel": "合集 PDF 第 146 页",
+        "title": "生化合集 · PDF 第 146 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-146.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-17",
+          "page": 146,
+          "pageLabel": "合集 PDF 第 146 页",
+          "title": "生化合集 · PDF 第 146 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-146.avif"
+        },
+        {
+          "lectureId": "lecture-17",
+          "page": 154,
+          "pageLabel": "合集 PDF 第 154 页",
+          "title": "生化合集 · PDF 第 154 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-154.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2017N24",
+      "sourceText": "2017N24 2017N24",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2017N24 · 生化《易错小结（真题）》原题页：第 9 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2013n159",
+      "title": "前体 mRNA 的加工",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 10,
+      "options": [
+        {
+          "key": "A",
+          "label": "mRNA 编辑"
+        },
+        {
+          "key": "B",
+          "label": "3’-末端加多聚 A"
+        },
+        {
+          "key": "C",
+          "label": "前体 mRNA 剪接去除内含子"
+        },
+        {
+          "key": "D",
+          "label": "在分子伴侣协助下折叠成天然构象"
+        }
+      ],
+      "stems": [
+        {
+          "text": "真核生物前体 mRNA 合成后的加工有",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "可见 RNA 编辑、3′端加尾和剪接。分子伴侣协助折叠天然构象主要描述翻译后蛋白质成熟。",
+          "sourceQuestion": "2013N159"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "page": 150,
+        "pageLabel": "合集 PDF 第 150 页",
+        "title": "生化合集 · PDF 第 150 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-150.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-17",
+          "page": 150,
+          "pageLabel": "合集 PDF 第 150 页",
+          "title": "生化合集 · PDF 第 150 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-150.avif"
+        },
+        {
+          "lectureId": "lecture-17",
+          "page": 155,
+          "pageLabel": "合集 PDF 第 155 页",
+          "title": "生化合集 · PDF 第 155 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-155.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2013N159",
+      "sourceText": "2013N159 2013N159",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2013N159 · 生化《易错小结（真题）》原题页：第 10 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1999n29",
+      "title": "mRNA 加工与修饰",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 10,
+      "options": [
+        {
+          "key": "A",
+          "label": "5’-末端加帽"
+        },
+        {
+          "key": "B",
+          "label": "3’-末端加多聚 A 尾"
+        },
+        {
+          "key": "C",
+          "label": "甲基化修饰"
+        },
+        {
+          "key": "D",
+          "label": "磷酸化修饰"
+        },
+        {
+          "key": "E",
+          "label": "剪接去除内含子并连接外显子"
+        }
+      ],
+      "stems": [
+        {
+          "text": "真核生物转录生成的前体 mRNA 的加工过程不包括",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "经典加工包括加帽、加尾、剪接及相关甲基化；通常所说的磷酸化修饰不是这道题指的 mRNA 成熟步骤。",
+          "sourceQuestion": "1999N29"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "page": 150,
+        "pageLabel": "合集 PDF 第 150 页",
+        "title": "生化合集 · PDF 第 150 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-150.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-17",
+          "page": 150,
+          "pageLabel": "合集 PDF 第 150 页",
+          "title": "生化合集 · PDF 第 150 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-150.avif"
+        },
+        {
+          "lectureId": "lecture-17",
+          "page": 155,
+          "pageLabel": "合集 PDF 第 155 页",
+          "title": "生化合集 · PDF 第 155 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-155.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1999N29",
+      "sourceText": "1999N29 1999N29",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1999N29 · 生化《易错小结（真题）》原题页：第 10 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2019n145",
+      "title": "真核启动子调控的基因",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 10,
+      "options": [
+        {
+          "key": "A",
+          "label": "microRNA"
+        },
+        {
+          "key": "B",
+          "label": "rRNA"
+        },
+        {
+          "key": "C",
+          "label": "tRNA"
+        },
+        {
+          "key": "D",
+          "label": "DNApol Ⅱ"
+        }
+      ],
+      "stems": [
+        {
+          "text": "以下物质的基因受真核启动子调控的有",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "miRNA、rRNA、tRNA 对应基因都受启动子调控，使用的聚合酶和启动子结构可不同。原稿 D 记作「DNApol Ⅱ」，这里按老题选项的酶名称口径；它不应与真核 RNA 聚合酶Ⅱ混写。",
+          "sourceQuestion": "2019N145"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "page": 150,
+        "pageLabel": "合集 PDF 第 150 页",
+        "title": "生化合集 · PDF 第 150 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-150.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-17",
+          "page": 150,
+          "pageLabel": "合集 PDF 第 150 页",
+          "title": "生化合集 · PDF 第 150 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-150.avif"
+        },
+        {
+          "lectureId": "lecture-17",
+          "page": 154,
+          "pageLabel": "合集 PDF 第 154 页",
+          "title": "生化合集 · PDF 第 154 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-154.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2019N145",
+      "sourceText": "2019N145 2019N145",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2019N145 · 生化《易错小结（真题）》原题页：第 10 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2010n131",
+      "title": "TATA 盒和 GC 盒",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "page": 10,
+      "options": [
+        {
+          "key": "A",
+          "label": "TATA盒"
+        },
+        {
+          "key": "B",
+          "label": "GC盒"
+        },
+        {
+          "key": "C",
+          "label": "CAAT盒"
+        },
+        {
+          "key": "D",
+          "label": "CCAAT 盒"
+        }
+      ],
+      "stems": [
+        {
+          "text": "TF ⅡD的结合位点是",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "TFⅡD 的 TBP 亚基识别 TATA 盒。",
+          "sourceQuestion": "2010N131"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "page": 179,
+        "pageLabel": "合集 PDF 第 179 页",
+        "title": "生化合集 · PDF 第 179 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-179.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "page": 179,
+          "pageLabel": "合集 PDF 第 179 页",
+          "title": "生化合集 · PDF 第 179 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-179.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2010N131",
+      "sourceText": "2010N131 2010N131-132",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2010N131 · 生化《易错小结（真题）》原题页：第 10 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2010n132",
+      "title": "TATA 盒和 GC 盒",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "page": 10,
+      "options": [
+        {
+          "key": "A",
+          "label": "TATA盒"
+        },
+        {
+          "key": "B",
+          "label": "GC盒"
+        },
+        {
+          "key": "C",
+          "label": "CAAT盒"
+        },
+        {
+          "key": "D",
+          "label": "CCAAT 盒"
+        }
+      ],
+      "stems": [
+        {
+          "text": "转录因子 Sp1 的结合位点是",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "Sp1 识别富含 G、C 的 GC 盒。不要与 CAAT 盒混淆。",
+          "sourceQuestion": "2010N132"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "page": 179,
+        "pageLabel": "合集 PDF 第 179 页",
+        "title": "生化合集 · PDF 第 179 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-179.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "page": 179,
+          "pageLabel": "合集 PDF 第 179 页",
+          "title": "生化合集 · PDF 第 179 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-179.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2010N132",
+      "sourceText": "2010N132 2010N131-132",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2010N132 · 生化《易错小结（真题）》原题页：第 10 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2017n146",
+      "title": "围绕 TATA 盒组装起始复合物",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 10,
+      "options": [
+        {
+          "key": "A",
+          "label": "RNA 聚合酶Ⅱ"
+        },
+        {
+          "key": "B",
+          "label": "TF ⅡD"
+        },
+        {
+          "key": "C",
+          "label": "拓扑异构酶"
+        },
+        {
+          "key": "D",
+          "label": "组蛋白"
+        }
+      ],
+      "stems": [
+        {
+          "text": "能够与 TATA 盒结合的蛋白质有",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerMode": "多选",
+          "explanation": "按本题口径，TFⅡD 直接识别 TATA 盒，RNA 聚合酶Ⅱ经通用因子招募后进入同一复合物。两者不是以同样方式直接结合 DNA。",
+          "sourceQuestion": "2017N146"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "page": 147,
+        "pageLabel": "合集 PDF 第 147 页",
+        "title": "生化合集 · PDF 第 147 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-147.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-17",
+          "page": 147,
+          "pageLabel": "合集 PDF 第 147 页",
+          "title": "生化合集 · PDF 第 147 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-147.avif"
+        },
+        {
+          "lectureId": "lecture-17",
+          "page": 179,
+          "pageLabel": "合集 PDF 第 179 页",
+          "title": "生化合集 · PDF 第 179 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-179.avif"
+        },
+        {
+          "lectureId": "lecture-17",
+          "page": 183,
+          "pageLabel": "合集 PDF 第 183 页",
+          "title": "生化合集 · PDF 第 183 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-183.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2017N146",
+      "sourceText": "2017N146 2017N146",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2017N146 · 生化《易错小结（真题）》原题页：第 10 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2009n159",
+      "title": "hnRNA 转录前起始复合物",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 11,
+      "options": [
+        {
+          "key": "A",
+          "label": "TF ⅡD"
+        },
+        {
+          "key": "B",
+          "label": "TF ⅡA"
+        },
+        {
+          "key": "C",
+          "label": "TBP"
+        },
+        {
+          "key": "D",
+          "label": "TF Ⅲ"
+        }
+      ],
+      "stems": [
+        {
+          "text": "参与真核生物 hnRNA 转录前起始复合物形成的因子有",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "TFⅡD（含 TBP）以及 TFⅡA 参与 RNA 聚合酶Ⅱ的起始复合物组装。TFⅢ指向聚合酶Ⅲ体系。",
+          "sourceQuestion": "2009N159"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "page": 147,
+        "pageLabel": "合集 PDF 第 147 页",
+        "title": "生化合集 · PDF 第 147 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-147.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-17",
+          "page": 147,
+          "pageLabel": "合集 PDF 第 147 页",
+          "title": "生化合集 · PDF 第 147 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-147.avif"
+        },
+        {
+          "lectureId": "lecture-17",
+          "page": 183,
+          "pageLabel": "合集 PDF 第 183 页",
+          "title": "生化合集 · PDF 第 183 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-183.avif"
+        },
+        {
+          "lectureId": "lecture-17",
+          "page": 184,
+          "pageLabel": "合集 PDF 第 184 页",
+          "title": "生化合集 · PDF 第 184 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-184.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2009N159",
+      "sourceText": "2009N159 2009N159",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2009N159 · 生化《易错小结（真题）》原题页：第 11 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2012n131",
+      "title": "真核与原核的转录调控序列",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "page": 11,
+      "options": [
+        {
+          "key": "A",
+          "label": "终止子"
+        },
+        {
+          "key": "B",
+          "label": "外显子"
+        },
+        {
+          "key": "C",
+          "label": "TATA盒"
+        },
+        {
+          "key": "D",
+          "label": "操纵基因"
+        }
+      ],
+      "stems": [
+        {
+          "text": "常见的参与真核生物基因转录调控的 DNA 结构是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "按这组题的对照，真核常考启动子中的 TATA 盒。",
+          "sourceQuestion": "2012N131"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "page": 173,
+        "pageLabel": "合集 PDF 第 173 页",
+        "title": "生化合集 · PDF 第 173 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-173.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "page": 173,
+          "pageLabel": "合集 PDF 第 173 页",
+          "title": "生化合集 · PDF 第 173 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-173.avif"
+        },
+        {
+          "lectureId": "lecture-19",
+          "page": 179,
+          "pageLabel": "合集 PDF 第 179 页",
+          "title": "生化合集 · PDF 第 179 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-179.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2012N131",
+      "sourceText": "2012N131 2012N131-132",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2012N131 · 生化《易错小结（真题）》原题页：第 11 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2012n132",
+      "title": "真核与原核的转录调控序列",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "page": 11,
+      "options": [
+        {
+          "key": "A",
+          "label": "终止子"
+        },
+        {
+          "key": "B",
+          "label": "外显子"
+        },
+        {
+          "key": "C",
+          "label": "TATA盒"
+        },
+        {
+          "key": "D",
+          "label": "操纵基因"
+        }
+      ],
+      "stems": [
+        {
+          "text": "常见的参与原核生物基因转录调控的 DNA 结构是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "原核操纵子常考操纵序列与阻遏蛋白结合，影响结构基因转录。",
+          "sourceQuestion": "2012N132"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "page": 173,
+        "pageLabel": "合集 PDF 第 173 页",
+        "title": "生化合集 · PDF 第 173 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-173.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "page": 173,
+          "pageLabel": "合集 PDF 第 173 页",
+          "title": "生化合集 · PDF 第 173 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-173.avif"
+        },
+        {
+          "lectureId": "lecture-19",
+          "page": 179,
+          "pageLabel": "合集 PDF 第 179 页",
+          "title": "生化合集 · PDF 第 179 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-179.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2012N132",
+      "sourceText": "2012N132 2012N131-132",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2012N132 · 生化《易错小结（真题）》原题页：第 11 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1989n150",
+      "title": "操纵子的构成",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 11,
+      "options": [
+        {
+          "key": "A",
+          "label": "启动基因"
+        },
+        {
+          "key": "B",
+          "label": "操纵基因"
+        },
+        {
+          "key": "C",
+          "label": "结构基因"
+        },
+        {
+          "key": "D",
+          "label": "调节基因"
+        }
+      ],
+      "stems": [
+        {
+          "text": "操纵子包括的结构有",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "操纵子核心由启动区、操纵区及受共同控制的结构基因组成；调节基因可编码阻遏蛋白，但往往独立转录，不必归入操纵子。",
+          "sourceQuestion": "1989N150"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "page": 173,
+        "pageLabel": "合集 PDF 第 173 页",
+        "title": "生化合集 · PDF 第 173 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-173.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "page": 173,
+          "pageLabel": "合集 PDF 第 173 页",
+          "title": "生化合集 · PDF 第 173 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-173.avif"
+        },
+        {
+          "lectureId": "lecture-19",
+          "page": 175,
+          "pageLabel": "合集 PDF 第 175 页",
+          "title": "生化合集 · PDF 第 175 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-175.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1989N150",
+      "sourceText": "1989N150 1989N150",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1989N150 · 生化《易错小结（真题）》原题页：第 11 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2018n145",
+      "title": "调节转录的顺式元件",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 11,
+      "options": [
+        {
+          "key": "A",
+          "label": "启动子"
+        },
+        {
+          "key": "B",
+          "label": "衰减子"
+        },
+        {
+          "key": "C",
+          "label": "增强子"
+        },
+        {
+          "key": "D",
+          "label": "密码子"
+        }
+      ],
+      "stems": [
+        {
+          "text": "参与基因转录调控的主要结构有",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "启动子、衰减子和增强子影响转录起始或延伸；密码子主要用于翻译时指定氨基酸或终止。",
+          "sourceQuestion": "2018N145"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "page": 175,
+        "pageLabel": "合集 PDF 第 175 页",
+        "title": "生化合集 · PDF 第 175 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-175.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "page": 175,
+          "pageLabel": "合集 PDF 第 175 页",
+          "title": "生化合集 · PDF 第 175 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-175.avif"
+        },
+        {
+          "lectureId": "lecture-19",
+          "page": 183,
+          "pageLabel": "合集 PDF 第 183 页",
+          "title": "生化合集 · PDF 第 183 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-183.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2018N145",
+      "sourceText": "2018N145 2018N145",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2018N145 · 生化《易错小结（真题）》原题页：第 11 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2008n26",
+      "title": "原核核糖体的大亚基",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 11,
+      "options": [
+        {
+          "key": "A",
+          "label": "28S rRNA"
+        },
+        {
+          "key": "B",
+          "label": "23S rRNA"
+        },
+        {
+          "key": "C",
+          "label": "16S rRNA"
+        },
+        {
+          "key": "D",
+          "label": "hnRNA"
+        }
+      ],
+      "stems": [
+        {
+          "text": "以下 RNA 中，参与形成原核生物 50S大亚基的是",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "50S 含 23S 和 5S rRNA。16S 属于原核 30S 小亚基，28S 属于真核核糖体大亚基。",
+          "sourceQuestion": "2008N26"
+        }
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "page": 126,
+        "pageLabel": "合集 PDF 第 126 页",
+        "title": "生化合集 · PDF 第 126 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-126.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-18",
+          "page": 126,
+          "pageLabel": "合集 PDF 第 126 页",
+          "title": "生化合集 · PDF 第 126 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-126.avif"
+        },
+        {
+          "lectureId": "lecture-18",
+          "page": 160,
+          "pageLabel": "合集 PDF 第 160 页",
+          "title": "生化合集 · PDF 第 160 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-160.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2008N26",
+      "sourceText": "2008N26 2008N26",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2008N26 · 生化《易错小结（真题）》原题页：第 11 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2013n36",
+      "title": "原核生物的翻译特点",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 11,
+      "options": [
+        {
+          "key": "A",
+          "label": "释放因子是 eRF"
+        },
+        {
+          "key": "B",
+          "label": "一条 mRNA 编码几种蛋白质"
+        },
+        {
+          "key": "C",
+          "label": "80S核蛋白体参与合成"
+        }
+      ],
+      "stems": [
+        {
+          "text": "以下原核生物蛋白质合成的叙述中，正确的是",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "一条原核多顺反子 mRNA 可编码多种蛋白质。原核核糖体为 70S，真核的释放因子称 eRF。",
+          "sourceQuestion": "2013N36"
+        }
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "page": 159,
+        "pageLabel": "合集 PDF 第 159 页",
+        "title": "生化合集 · PDF 第 159 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-159.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-18",
+          "page": 159,
+          "pageLabel": "合集 PDF 第 159 页",
+          "title": "生化合集 · PDF 第 159 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-159.avif"
+        },
+        {
+          "lectureId": "lecture-18",
+          "page": 167,
+          "pageLabel": "合集 PDF 第 167 页",
+          "title": "生化合集 · PDF 第 167 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-167.avif"
+        },
+        {
+          "lectureId": "lecture-18",
+          "page": 188,
+          "pageLabel": "合集 PDF 第 188 页",
+          "title": "生化合集 · PDF 第 188 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-188.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2013N36",
+      "sourceText": "2013N36 2013N36",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2013N36 · 生化《易错小结（真题）》原题页：第 11 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1988n59",
+      "title": "原核翻译延长的移位",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 12,
+      "options": [
+        {
+          "key": "A",
+          "label": "空载 tRNA 的脱落发生在 A 位上"
+        },
+        {
+          "key": "B",
+          "label": "肽酰 tRNA 由 P 位转向 A 位"
+        },
+        {
+          "key": "C",
+          "label": "肽酰 tRNA 的转位要求 EF-G 和 GTP"
+        },
+        {
+          "key": "D",
+          "label": "核蛋白体沿 mRNA 3’→5’方向相对移动"
+        },
+        {
+          "key": "E",
+          "label": "核蛋白体与 mRNA 相对移动距离相当于 1个核苷酸的长度"
+        }
+      ],
+      "stems": [
+        {
+          "text": "关于核蛋白体上的移位，以下正确的是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "延长因子 EF-G 利用 GTP 推动核糖体沿 mRNA 5′→3′移动一个密码子，肽酰 tRNA 从 A 位移向 P 位。",
+          "sourceQuestion": "1988N59"
+        }
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "page": 167,
+        "pageLabel": "合集 PDF 第 167 页",
+        "title": "生化合集 · PDF 第 167 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-167.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-18",
+          "page": 167,
+          "pageLabel": "合集 PDF 第 167 页",
+          "title": "生化合集 · PDF 第 167 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-167.avif"
+        },
+        {
+          "lectureId": "lecture-18",
+          "page": 168,
+          "pageLabel": "合集 PDF 第 168 页",
+          "title": "生化合集 · PDF 第 168 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-168.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1988N59",
+      "sourceText": "1988N59 1988N59",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1988N59 · 生化《易错小结（真题）》原题页：第 12 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2006n113",
+      "title": "抗生素与细菌核糖体",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "page": 12,
+      "options": [
+        {
+          "key": "A",
+          "label": "四环素"
+        },
+        {
+          "key": "B",
+          "label": "氯霉素"
+        },
+        {
+          "key": "C",
+          "label": "链霉素"
+        },
+        {
+          "key": "D",
+          "label": "嘌呤霉素"
+        },
+        {
+          "key": "E",
+          "label": "放线菌酮"
+        }
+      ],
+      "stems": [
+        {
+          "text": "能与原核生物核蛋白体小亚基结合，引起读码错误的抗生素是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "链霉素作用于细菌小亚基，可造成读码错误。",
+          "sourceQuestion": "2006N113"
+        }
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "page": 167,
+        "pageLabel": "合集 PDF 第 167 页",
+        "title": "生化合集 · PDF 第 167 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-167.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-18",
+          "page": 167,
+          "pageLabel": "合集 PDF 第 167 页",
+          "title": "生化合集 · PDF 第 167 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-167.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2006N113",
+      "sourceText": "2006N113 2006N113-114",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2006N113 · 生化《易错小结（真题）》原题页：第 12 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2006n114",
+      "title": "抗生素与细菌核糖体",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "page": 12,
+      "options": [
+        {
+          "key": "A",
+          "label": "四环素"
+        },
+        {
+          "key": "B",
+          "label": "氯霉素"
+        },
+        {
+          "key": "C",
+          "label": "链霉素"
+        },
+        {
+          "key": "D",
+          "label": "嘌呤霉素"
+        },
+        {
+          "key": "E",
+          "label": "放线菌酮"
+        }
+      ],
+      "stems": [
+        {
+          "text": "能与原核生物的核蛋白体大亚基结合的抗生素是",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "氯霉素作用于细菌大亚基，抑制肽基转移反应。",
+          "sourceQuestion": "2006N114"
+        }
+      ],
+      "topic": "氨基酸与蛋白质",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "page": 167,
+        "pageLabel": "合集 PDF 第 167 页",
+        "title": "生化合集 · PDF 第 167 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-167.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-18",
+          "page": 167,
+          "pageLabel": "合集 PDF 第 167 页",
+          "title": "生化合集 · PDF 第 167 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-167.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2006N114",
+      "sourceText": "2006N114 2006N113-114",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2006N114 · 生化《易错小结（真题）》原题页：第 12 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2004n135",
+      "title": "含 RNA 成分的催化体系",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 12,
+      "options": [
+        {
+          "key": "A",
+          "label": "核酶"
+        },
+        {
+          "key": "B",
+          "label": "端粒酶"
+        },
+        {
+          "key": "C",
+          "label": "逆转录酶"
+        },
+        {
+          "key": "D",
+          "label": "RNase"
+        }
+      ],
+      "stems": [
+        {
+          "text": "以下含有 RNA 的酶有",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerMode": "多选",
+          "explanation": "核酶本身就是具有催化活性的 RNA；端粒酶含作为模板的 RNA。逆转录酶使用 RNA 底物并不等于其本身含有 RNA。",
+          "sourceQuestion": "2004N135"
+        }
+      ],
+      "topic": "核酸",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 142,
+        "pageLabel": "合集 PDF 第 142 页",
+        "title": "生化合集 · PDF 第 142 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-142.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "page": 142,
+          "pageLabel": "合集 PDF 第 142 页",
+          "title": "生化合集 · PDF 第 142 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-142.avif"
+        },
+        {
+          "lectureId": "lecture-16",
+          "page": 153,
+          "pageLabel": "合集 PDF 第 153 页",
+          "title": "生化合集 · PDF 第 153 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-153.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2004N135",
+      "sourceText": "2004N135 2004N135",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2004N135 · 生化《易错小结（真题）》原题页：第 12 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-1994n140",
+      "title": "分子生物学技术的类别",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 12,
+      "options": [
+        {
+          "key": "A",
+          "label": "分子杂交技术"
+        },
+        {
+          "key": "B",
+          "label": "DNA 探针技术"
+        },
+        {
+          "key": "C",
+          "label": "质粒重组技术"
+        },
+        {
+          "key": "D",
+          "label": "基因调控技术"
+        }
+      ],
+      "stems": [
+        {
+          "text": "进行基因工程实验时，常用的技术有",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "老题比较的是技术名称：分子杂交、DNA 探针和质粒重组属于常见技术类别；「基因调控」是生物学过程，不是该题所列的一项检测或操作技术。",
+          "sourceQuestion": "1994N140"
+        }
+      ],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "page": 110,
+        "pageLabel": "合集 PDF 第 110 页",
+        "title": "生化合集 · PDF 第 110 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-110.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-14",
+          "page": 110,
+          "pageLabel": "合集 PDF 第 110 页",
+          "title": "生化合集 · PDF 第 110 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-110.avif"
+        },
+        {
+          "lectureId": "lecture-14",
+          "page": 114,
+          "pageLabel": "合集 PDF 第 114 页",
+          "title": "生化合集 · PDF 第 114 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-114.avif"
+        },
+        {
+          "lectureId": "lecture-14",
+          "page": 119,
+          "pageLabel": "合集 PDF 第 119 页",
+          "title": "生化合集 · PDF 第 119 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-119.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "1994N140",
+      "sourceText": "1994N140 1994N140",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1994N140 · 生化《易错小结（真题）》原题页：第 12 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "biochemistry-easy-2027-2008n162",
+      "title": "基因表达的检测对象",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 12,
+      "options": [
+        {
+          "key": "A",
+          "label": "Northern blotting"
+        },
+        {
+          "key": "B",
+          "label": "Southern blotting"
+        },
+        {
+          "key": "C",
+          "label": "Western blotting"
+        },
+        {
+          "key": "D",
+          "label": "RT-PCR"
+        }
+      ],
+      "stems": [
+        {
+          "text": "常用于研究基因表达的分子生物学技术有",
+          "answer": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "Northern 和 RT-PCR 可反映转录产物，Western 检测相应蛋白。Southern 主要检测 DNA，不直接反映表达量。",
+          "sourceQuestion": "2008N162"
+        }
+      ],
+      "topic": "小基因",
+      "lectureIds": [
+        "lecture-14"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-14",
+        "page": 116,
+        "pageLabel": "合集 PDF 第 116 页",
+        "title": "生化合集 · PDF 第 116 页",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/biochemistry-116.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-14",
+          "page": 116,
+          "pageLabel": "合集 PDF 第 116 页",
+          "title": "生化合集 · PDF 第 116 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-116.avif"
+        },
+        {
+          "lectureId": "lecture-14",
+          "page": 117,
+          "pageLabel": "合集 PDF 第 117 页",
+          "title": "生化合集 · PDF 第 117 页",
+          "sourceFile": "27生化跟课版合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/biochemistry-117.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生化",
+      "sourceQuestion": "2008N162",
+      "sourceText": "2008N162 2008N162",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2008N162 · 生化《易错小结（真题）》原题页：第 12 页",
+      "answerSourceLabel": "参考答案"
+    }
+  ],
+  "pages": [],
+  "topics": [
+    "氨基酸与蛋白质",
+    "核酸",
+    "酶",
+    "糖无氧氧化与糖有氧氧化",
+    "糖异生",
+    "脂代谢",
+    "核苷酸代谢",
+    "胆色素代谢与生物转化",
+    "小基因"
+  ]
+}

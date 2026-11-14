@@ -1,0 +1,3417 @@
+{
+  "meta": {
+    "title": "病理 · 易错小结（真题）",
+    "sourceLabel": "病理 · 易错小结（真题）"
+  },
+  "groups": [
+    {
+      "id": "pathology-easy-2027-2009n41",
+      "title": "萎缩的形态与功能",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "自噬小体增多"
+        },
+        {
+          "key": "B",
+          "label": "器官均匀性缩小"
+        },
+        {
+          "key": "C",
+          "label": "器官功能低下"
+        },
+        {
+          "key": "D",
+          "label": "细胞核固缩"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列选项中，不符合萎缩特点的是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "萎缩细胞体积缩小，自噬小体可增多，器官可变小且功能下降。核固缩是细胞坏死时的核改变。",
+          "sourceQuestion": "2009N41"
+        }
+      ],
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 135,
+        "pageLabel": "合集 PDF 第 135 页",
+        "title": "病理合集 · PDF 第 135 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-135.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-23",
+          "page": 135,
+          "pageLabel": "合集 PDF 第 135 页",
+          "title": "病理合集 · PDF 第 135 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-135.avif"
+        },
+        {
+          "lectureId": "lecture-23",
+          "page": 150,
+          "pageLabel": "合集 PDF 第 150 页",
+          "title": "病理合集 · PDF 第 150 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-150.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2009N41",
+      "sourceText": "2009N41 2009N41",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2009N41 · 病理《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2006n137",
+      "title": "肥大与增生",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "高血压病心肌病理性肥大"
+        },
+        {
+          "key": "B",
+          "label": "运动员骨骼肌生理性肥大"
+        },
+        {
+          "key": "C",
+          "label": "妊娠子宫生理性肥大"
+        },
+        {
+          "key": "D",
+          "label": "哺乳期乳腺生理性肥大"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列选项中，不伴有细胞增生的肥大有",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerMode": "多选",
+          "explanation": "成年心肌和骨骼肌细胞主要通过细胞变大实现肥大；妊娠子宫及哺乳期乳腺可同时出现肥大与细胞增生。",
+          "sourceQuestion": "2006N137"
+        }
+      ],
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 135,
+        "pageLabel": "合集 PDF 第 135 页",
+        "title": "病理合集 · PDF 第 135 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-135.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-23",
+          "page": 135,
+          "pageLabel": "合集 PDF 第 135 页",
+          "title": "病理合集 · PDF 第 135 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-135.avif"
+        },
+        {
+          "lectureId": "lecture-23",
+          "page": 136,
+          "pageLabel": "合集 PDF 第 136 页",
+          "title": "病理合集 · PDF 第 136 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-136.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2006N137",
+      "sourceText": "2006N137 2006N137",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2006N137 · 病理《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2009n163",
+      "title": "上皮与间叶化生",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "纤维结缔组织中出现软骨细胞"
+        },
+        {
+          "key": "B",
+          "label": "支气管上皮中出现鳞状上皮细胞"
+        },
+        {
+          "key": "C",
+          "label": "肌肉组织中出现类上皮细胞"
+        },
+        {
+          "key": "D",
+          "label": "血栓中出现毛细血管及成纤维细胞"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列选项中，属于化生的有",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerMode": "多选",
+          "explanation": "纤维结缔组织出现软骨和支气管鳞状上皮替代均为化生。肉芽肿的类上皮细胞源于巨噬细胞，血栓内新生血管及成纤维细胞属于机化。",
+          "sourceQuestion": "2009N163"
+        }
+      ],
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 137,
+        "pageLabel": "合集 PDF 第 137 页",
+        "title": "病理合集 · PDF 第 137 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-137.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-23",
+          "page": 137,
+          "pageLabel": "合集 PDF 第 137 页",
+          "title": "病理合集 · PDF 第 137 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-137.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2009N163",
+      "sourceText": "2009N163 2009N163",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2009N163 · 病理《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2000n34",
+      "title": "淀粉样变性",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "可见于结核病"
+        },
+        {
+          "key": "B",
+          "label": "可见于骨髓瘤"
+        },
+        {
+          "key": "C",
+          "label": "可以是全身性病变"
+        },
+        {
+          "key": "D",
+          "label": "可以是局灶性病变"
+        },
+        {
+          "key": "E",
+          "label": "由免疫球蛋白沉积而成"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列哪项关于淀粉样变性的叙述是错误的",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "explanation": "沉积物是具有共同结构特征的异常纤维蛋白。骨髓瘤相关 AL 可来自免疫球蛋白轻链，慢性炎症相关 AA 来源不同，不能一概说是免疫球蛋白沉积。",
+          "sourceQuestion": "2000N34"
+        }
+      ],
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 139,
+        "pageLabel": "合集 PDF 第 139 页",
+        "title": "病理合集 · PDF 第 139 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-139.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-23",
+          "page": 139,
+          "pageLabel": "合集 PDF 第 139 页",
+          "title": "病理合集 · PDF 第 139 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-139.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2000N34",
+      "sourceText": "2000N34 2000N34",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2000N34 · 病理《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2010n41",
+      "title": "病理性钙化",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "肝内血吸虫卵钙化"
+        },
+        {
+          "key": "B",
+          "label": "肾小管钙化"
+        },
+        {
+          "key": "C",
+          "label": "淋巴结干酪样坏死钙化"
+        },
+        {
+          "key": "D",
+          "label": "主动脉粥瘤钙化"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列钙化中，属于转移性钙化的是",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "转移性钙化可发生于高钙或高磷状态的肾小管等相对正常组织；坏死淋巴结、虫卵和粥瘤处的钙化是营养不良性钙化。",
+          "sourceQuestion": "2010N41"
+        }
+      ],
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 140,
+        "pageLabel": "合集 PDF 第 140 页",
+        "title": "病理合集 · PDF 第 140 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-140.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-23",
+          "page": 140,
+          "pageLabel": "合集 PDF 第 140 页",
+          "title": "病理合集 · PDF 第 140 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-140.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2010N41",
+      "sourceText": "2010N41 2010N41",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2010N41 · 病理《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-1995n127",
+      "title": "病毒性肝炎的坏死类型",
+      "kind": "C",
+      "kindLabel": "C型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "凝固性坏死"
+        },
+        {
+          "key": "B",
+          "label": "液化性坏死"
+        },
+        {
+          "key": "C",
+          "label": "两者均有"
+        },
+        {
+          "key": "D",
+          "label": "两者均无"
+        }
+      ],
+      "stems": [
+        {
+          "text": "病毒性肝炎",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "可见单个细胞的嗜酸性固缩坏死，也可见点状、灶状或更大片的溶解坏死。原 C 型题按两种均有判断。",
+          "sourceQuestion": "1995N127"
+        }
+      ],
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "page": 8,
+        "pageLabel": "合集 PDF 第 8 页",
+        "title": "病理合集 · PDF 第 8 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-008.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-02",
+          "page": 8,
+          "pageLabel": "合集 PDF 第 8 页",
+          "title": "病理合集 · PDF 第 8 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-008.avif"
+        },
+        {
+          "lectureId": "lecture-02",
+          "page": 144,
+          "pageLabel": "合集 PDF 第 144 页",
+          "title": "病理合集 · PDF 第 144 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-144.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "1995N127",
+      "sourceText": "1995N127 1995N127",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1995N127 · 病理《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-1998n34",
+      "title": "坏死与固缩",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "核缩、核碎、核溶是细胞坏死的主要形态改变"
+        },
+        {
+          "key": "B",
+          "label": "干酪样坏死常由结核杆菌引起"
+        },
+        {
+          "key": "C",
+          "label": "胰腺坏死常为液化性坏死"
+        },
+        {
+          "key": "D",
+          "label": "固缩坏死只见于细胞的生理性死亡"
+        },
+        {
+          "key": "E",
+          "label": "坏疽是坏死组织经腐败菌作用的结果"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列有关坏死的描述中，哪项不正确",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "固缩性死亡可见于病理条件，如病毒性肝炎的嗜酸性小体；不能限定在生理性死亡。坏死的核形态改变包括核固缩、核碎裂及核溶解。",
+          "sourceQuestion": "1998N34"
+        }
+      ],
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 142,
+        "pageLabel": "合集 PDF 第 142 页",
+        "title": "病理合集 · PDF 第 142 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-142.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-23",
+          "page": 142,
+          "pageLabel": "合集 PDF 第 142 页",
+          "title": "病理合集 · PDF 第 142 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-142.avif"
+        },
+        {
+          "lectureId": "lecture-23",
+          "page": 144,
+          "pageLabel": "合集 PDF 第 144 页",
+          "title": "病理合集 · PDF 第 144 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-144.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "1998N34",
+      "sourceText": "1998N34 1998N34",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1998N34 · 病理《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2009n133",
+      "title": "不同细胞的再生能力",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "小肠黏膜被覆上皮细胞"
+        },
+        {
+          "key": "B",
+          "label": "肝细胞"
+        },
+        {
+          "key": "C",
+          "label": "神经细胞"
+        },
+        {
+          "key": "D",
+          "label": "心肌细胞"
+        }
+      ],
+      "stems": [
+        {
+          "text": "属于不稳定细胞的是",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "肠黏膜上皮持续脱落，由隐窝中增殖的细胞补充，所以归为不稳定细胞。",
+          "sourceQuestion": "2009N133"
+        }
+      ],
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 126,
+        "pageLabel": "合集 PDF 第 126 页",
+        "title": "病理合集 · PDF 第 126 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-126.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-22",
+          "page": 126,
+          "pageLabel": "合集 PDF 第 126 页",
+          "title": "病理合集 · PDF 第 126 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-126.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2009N133",
+      "sourceText": "2009N133 2009N133-134",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2009N133 · 病理《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2009n134",
+      "title": "不同细胞的再生能力",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "小肠黏膜被覆上皮细胞"
+        },
+        {
+          "key": "B",
+          "label": "肝细胞"
+        },
+        {
+          "key": "C",
+          "label": "神经细胞"
+        },
+        {
+          "key": "D",
+          "label": "心肌细胞"
+        }
+      ],
+      "stems": [
+        {
+          "text": "属于稳定细胞的是",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "肝细胞平时分裂少，受损后可重入细胞周期，属于稳定细胞。神经元及心肌细胞的再生能力很弱。",
+          "sourceQuestion": "2009N134"
+        }
+      ],
+      "topic": "损伤与修复",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 126,
+        "pageLabel": "合集 PDF 第 126 页",
+        "title": "病理合集 · PDF 第 126 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-126.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-22",
+          "page": 126,
+          "pageLabel": "合集 PDF 第 126 页",
+          "title": "病理合集 · PDF 第 126 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-126.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2009N134",
+      "sourceText": "2009N134 2009N133-134",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2009N134 · 病理《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2010n163",
+      "title": "慢性肺淤血",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "肺泡壁毛细血管扩张、充盈"
+        },
+        {
+          "key": "B",
+          "label": "肺泡腔内心衰细胞聚集"
+        },
+        {
+          "key": "C",
+          "label": "肺泡腔内蛋白性水肿液聚集"
+        },
+        {
+          "key": "D",
+          "label": "肺间质纤维增生"
+        }
+      ],
+      "stems": [
+        {
+          "text": "慢性肺淤血的病理变化有",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "肺泡隔毛细血管充盈，肺泡内有水肿液和含铁血黄素巨噬细胞；长期可合并间质纤维化，形成肺褐色硬化。",
+          "sourceQuestion": "2010N163"
+        }
+      ],
+      "topic": "局部血液循环障碍",
+      "lectureIds": [
+        "lecture-24"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-24",
+        "page": 152,
+        "pageLabel": "合集 PDF 第 152 页",
+        "title": "病理合集 · PDF 第 152 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-152.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-24",
+          "page": 152,
+          "pageLabel": "合集 PDF 第 152 页",
+          "title": "病理合集 · PDF 第 152 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-152.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2010N163",
+      "sourceText": "2010N163 2010N163",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2010N163 · 病理《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-1995n149",
+      "title": "慢性肝淤血",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "肝细胞萎缩变性"
+        },
+        {
+          "key": "B",
+          "label": "肝细胞内淤胆"
+        },
+        {
+          "key": "C",
+          "label": "肝脏纤维组织增生"
+        },
+        {
+          "key": "D",
+          "label": "肝细胞异型增生"
+        }
+      ],
+      "stems": [
+        {
+          "text": "慢性肝淤血可见的病理变化有",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "中央静脉周围缺氧可致肝细胞萎缩或变性，并见淤胆；长期可有纤维组织增生。异型增生不是淤血的特征。",
+          "sourceQuestion": "1995N149"
+        }
+      ],
+      "topic": "局部血液循环障碍",
+      "lectureIds": [
+        "lecture-24"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-24",
+        "page": 153,
+        "pageLabel": "合集 PDF 第 153 页",
+        "title": "病理合集 · PDF 第 153 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-153.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-24",
+          "page": 153,
+          "pageLabel": "合集 PDF 第 153 页",
+          "title": "病理合集 · PDF 第 153 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-153.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "1995N149",
+      "sourceText": "1995N149 1995N149",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1995N149 · 病理《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2003n36",
+      "title": "白色血栓",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "延续性血栓的体部"
+        },
+        {
+          "key": "B",
+          "label": "阻塞冠状动脉左前降支的血栓"
+        },
+        {
+          "key": "C",
+          "label": "阻塞肺动脉主干的血栓栓子"
+        },
+        {
+          "key": "D",
+          "label": "疣状心内膜炎的疣状赘生物"
+        },
+        {
+          "key": "E",
+          "label": "基底动脉的血栓"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列选项中，属于白色血栓的是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "白色血栓以血小板为主，经典例子是赘生物及延续性血栓头部；延续性血栓体部多为混合血栓。",
+          "sourceQuestion": "2003N36"
+        }
+      ],
+      "topic": "局部血液循环障碍",
+      "lectureIds": [
+        "lecture-24"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-24",
+        "page": 154,
+        "pageLabel": "合集 PDF 第 154 页",
+        "title": "病理合集 · PDF 第 154 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-154.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-24",
+          "page": 154,
+          "pageLabel": "合集 PDF 第 154 页",
+          "title": "病理合集 · PDF 第 154 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-154.avif"
+        },
+        {
+          "lectureId": "lecture-24",
+          "page": 155,
+          "pageLabel": "合集 PDF 第 155 页",
+          "title": "病理合集 · PDF 第 155 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-155.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2003N36",
+      "sourceText": "2003N36 2003N36",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2003N36 · 病理《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2012n165",
+      "title": "出血性梗死",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "组织蛋白质含量高"
+        },
+        {
+          "key": "B",
+          "label": "组织有严重的淤血"
+        },
+        {
+          "key": "C",
+          "label": "组织有双重血供"
+        },
+        {
+          "key": "D",
+          "label": "组织疏松"
+        }
+      ],
+      "stems": [
+        {
+          "text": "除了贫血性梗死形成所需的条件外，出血性梗死的形成还需要的条件有",
+          "answer": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "疏松结构便于血液进入坏死区域，严重淤血及双重血供也有利于形成出血性梗死。组织含蛋白高、结构致密倾向贫血性梗死。",
+          "sourceQuestion": "2012N165"
+        }
+      ],
+      "topic": "局部血液循环障碍",
+      "lectureIds": [
+        "lecture-24"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-24",
+        "page": 157,
+        "pageLabel": "合集 PDF 第 157 页",
+        "title": "病理合集 · PDF 第 157 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-157.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-24",
+          "page": 157,
+          "pageLabel": "合集 PDF 第 157 页",
+          "title": "病理合集 · PDF 第 157 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-157.avif"
+        },
+        {
+          "lectureId": "lecture-24",
+          "page": 158,
+          "pageLabel": "合集 PDF 第 158 页",
+          "title": "病理合集 · PDF 第 158 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-158.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2012N165",
+      "sourceText": "2012N165 2012N165",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2012N165 · 病理《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2013n163",
+      "title": "炎症的基本病理变化",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "血管反应"
+        },
+        {
+          "key": "B",
+          "label": "肉芽组织形成"
+        },
+        {
+          "key": "C",
+          "label": "炎细胞浸润"
+        },
+        {
+          "key": "D",
+          "label": "上皮细胞增生"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列形态改变中，属于炎症的主要病理变化有",
+          "answer": [
+            "A",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "血管反应和炎细胞浸润是本题所问的主要变化。特定炎症可有肉芽组织形成或上皮增生，不能作为这里的通用答案。合集同题调换了选项顺序。",
+          "sourceQuestion": "2013N163"
+        }
+      ],
+      "topic": "炎症",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "page": 162,
+        "pageLabel": "合集 PDF 第 162 页",
+        "title": "病理合集 · PDF 第 162 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-162.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-25",
+          "page": 162,
+          "pageLabel": "合集 PDF 第 162 页",
+          "title": "病理合集 · PDF 第 162 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-162.avif"
+        },
+        {
+          "lectureId": "lecture-25",
+          "page": 169,
+          "pageLabel": "合集 PDF 第 169 页",
+          "title": "病理合集 · PDF 第 169 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-169.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2013N163",
+      "sourceText": "2013N163 2013N163",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2013N163 · 病理《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-1994n149",
+      "title": "血管通透性升高的机制",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "内皮细胞间连接缝隙增大"
+        },
+        {
+          "key": "B",
+          "label": "内皮细胞的变性坏死"
+        },
+        {
+          "key": "C",
+          "label": "内皮细胞吞饮增加"
+        },
+        {
+          "key": "D",
+          "label": "基底膜受损"
+        }
+      ],
+      "stems": [
+        {
+          "text": "炎症时血管通透性增高是由于",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "内皮间隙增宽、内皮损伤、穿胞转运增加均可致漏出；血管壁损伤累及基底膜也可增加漏出。",
+          "sourceQuestion": "1994N149"
+        }
+      ],
+      "topic": "炎症",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "page": 164,
+        "pageLabel": "合集 PDF 第 164 页",
+        "title": "病理合集 · PDF 第 164 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-164.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-25",
+          "page": 164,
+          "pageLabel": "合集 PDF 第 164 页",
+          "title": "病理合集 · PDF 第 164 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-164.avif"
+        },
+        {
+          "lectureId": "lecture-25",
+          "page": 167,
+          "pageLabel": "合集 PDF 第 167 页",
+          "title": "病理合集 · PDF 第 167 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-167.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "1994N149",
+      "sourceText": "1994N149 1994N149",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1994N149 · 病理《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2001n149",
+      "title": "炎症时的通透性",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "血管内皮细胞损伤"
+        },
+        {
+          "key": "B",
+          "label": "新生毛细血管增多"
+        },
+        {
+          "key": "C",
+          "label": "血管扩张"
+        },
+        {
+          "key": "D",
+          "label": "内皮细胞间隙加宽"
+        }
+      ],
+      "stems": [
+        {
+          "text": "炎症时引起血管通透性增加的因素有",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "内皮损伤、细胞间隙加宽及新生毛细血管的高通透性均能提高漏出。单有管径扩大与血流增加不能等同通透性升高。",
+          "sourceQuestion": "2001N149"
+        }
+      ],
+      "topic": "炎症",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "page": 164,
+        "pageLabel": "合集 PDF 第 164 页",
+        "title": "病理合集 · PDF 第 164 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-164.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-25",
+          "page": 164,
+          "pageLabel": "合集 PDF 第 164 页",
+          "title": "病理合集 · PDF 第 164 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-164.avif"
+        },
+        {
+          "lectureId": "lecture-25",
+          "page": 170,
+          "pageLabel": "合集 PDF 第 170 页",
+          "title": "病理合集 · PDF 第 170 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-170.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2001N149",
+      "sourceText": "2001N149 2001N149",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2001N149 · 病理《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-1995n37",
+      "title": "白细胞游出过程",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "在炎症反应中，中性粒细胞进入边流、附壁"
+        },
+        {
+          "key": "B",
+          "label": "内皮细胞收缩，使中性粒细胞从间隙游出血管"
+        },
+        {
+          "key": "C",
+          "label": "中性粒细胞通过伸出巨大伪足，逐渐从内皮细胞间隙游出血管"
+        },
+        {
+          "key": "D",
+          "label": "在趋化因子的作用下，中性粒细胞到达炎症部位"
+        },
+        {
+          "key": "E",
+          "label": "补体 C3、C5是重要的炎性因子"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下述关于急性炎症时白细胞渗出的描述中，哪项是错误的",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "白细胞经历边集、滚动、黏附和移出，靠黏附分子与自身变形迁移；不能简单归因为内皮收缩把白细胞放出去。补体片段可参与炎症和趋化。",
+          "sourceQuestion": "1995N37"
+        }
+      ],
+      "topic": "炎症",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "page": 164,
+        "pageLabel": "合集 PDF 第 164 页",
+        "title": "病理合集 · PDF 第 164 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-164.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-25",
+          "page": 164,
+          "pageLabel": "合集 PDF 第 164 页",
+          "title": "病理合集 · PDF 第 164 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-164.avif"
+        },
+        {
+          "lectureId": "lecture-25",
+          "page": 167,
+          "pageLabel": "合集 PDF 第 167 页",
+          "title": "病理合集 · PDF 第 167 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-167.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "1995N37",
+      "sourceText": "1995N37 1995N37",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1995N37 · 病理《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2002n148",
+      "title": "化脓性炎的典型疾病",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "急性阑尾炎"
+        },
+        {
+          "key": "B",
+          "label": "病毒性肝炎"
+        },
+        {
+          "key": "C",
+          "label": "流行性乙型脑炎"
+        },
+        {
+          "key": "D",
+          "label": "流行性脑膜炎"
+        }
+      ],
+      "stems": [
+        {
+          "text": "以化脓性炎为主要表现的疾病有",
+          "answer": [
+            "A",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "常见急性化脓性阑尾炎和流行性脑脊髓膜炎均以中性粒细胞渗出为主；病毒性肝炎和乙脑的主导病变不同。",
+          "sourceQuestion": "2002N148"
+        }
+      ],
+      "topic": "炎症",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "page": 165,
+        "pageLabel": "合集 PDF 第 165 页",
+        "title": "病理合集 · PDF 第 165 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-165.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-25",
+          "page": 165,
+          "pageLabel": "合集 PDF 第 165 页",
+          "title": "病理合集 · PDF 第 165 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-165.avif"
+        },
+        {
+          "lectureId": "lecture-25",
+          "page": 170,
+          "pageLabel": "合集 PDF 第 170 页",
+          "title": "病理合集 · PDF 第 170 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-170.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2002N148",
+      "sourceText": "2002N148 2002N148",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2002N148 · 病理《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2008n44",
+      "title": "感染性与非感染性肉芽肿",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "树胶样肿"
+        },
+        {
+          "key": "B",
+          "label": "伤寒小结"
+        },
+        {
+          "key": "C",
+          "label": "风湿小结"
+        },
+        {
+          "key": "D",
+          "label": "结核结节"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列病变中，属于非感染性肉芽肿的是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "风湿小结是风湿病免疫损伤的组织反应，归入非感染性肉芽肿；梅毒、伤寒和结核由病原体所致。",
+          "sourceQuestion": "2008N44"
+        }
+      ],
+      "topic": "炎症",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "page": 39,
+        "pageLabel": "合集 PDF 第 39 页",
+        "title": "病理合集 · PDF 第 39 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-039.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-25",
+          "page": 39,
+          "pageLabel": "合集 PDF 第 39 页",
+          "title": "病理合集 · PDF 第 39 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-039.avif"
+        },
+        {
+          "lectureId": "lecture-25",
+          "page": 166,
+          "pageLabel": "合集 PDF 第 166 页",
+          "title": "病理合集 · PDF 第 166 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-166.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2008N44",
+      "sourceText": "2008N44 2008N44",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2008N44 · 病理《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2002n41",
+      "title": "肿瘤命名的易错例子",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "淋巴瘤"
+        },
+        {
+          "key": "B",
+          "label": "黑色素瘤"
+        },
+        {
+          "key": "C",
+          "label": "神经鞘瘤"
+        },
+        {
+          "key": "D",
+          "label": "肾母细胞瘤"
+        },
+        {
+          "key": "E",
+          "label": "精原细胞瘤"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列肿瘤中，属于良性的是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "神经鞘瘤通常为良性。淋巴瘤、黑色素瘤、肾母细胞瘤和精原细胞瘤虽然名称含「瘤」，按病理性质属于恶性肿瘤。",
+          "sourceQuestion": "2002N41"
+        }
+      ],
+      "topic": "肿瘤",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "page": 176,
+        "pageLabel": "合集 PDF 第 176 页",
+        "title": "病理合集 · PDF 第 176 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-176.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-26",
+          "page": 176,
+          "pageLabel": "合集 PDF 第 176 页",
+          "title": "病理合集 · PDF 第 176 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-176.avif"
+        },
+        {
+          "lectureId": "lecture-26",
+          "page": 177,
+          "pageLabel": "合集 PDF 第 177 页",
+          "title": "病理合集 · PDF 第 177 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-177.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2002N41",
+      "sourceText": "2002N41 2002N41",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2002N41 · 病理《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2002n149",
+      "title": "鳞癌的发生部位",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "宫颈"
+        },
+        {
+          "key": "B",
+          "label": "肾盂"
+        },
+        {
+          "key": "C",
+          "label": "口腔黏膜"
+        },
+        {
+          "key": "D",
+          "label": "支气管"
+        }
+      ],
+      "stems": [
+        {
+          "text": "鳞癌可发生于",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "宫颈与口腔有鳞状上皮，支气管与肾盂可经鳞状化生后发生鳞癌；肾盂通常见尿路上皮癌，不排除鳞癌。",
+          "sourceQuestion": "2002N149"
+        }
+      ],
+      "topic": "肿瘤",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "page": 136,
+        "pageLabel": "合集 PDF 第 136 页",
+        "title": "病理合集 · PDF 第 136 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-136.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-26",
+          "page": 136,
+          "pageLabel": "合集 PDF 第 136 页",
+          "title": "病理合集 · PDF 第 136 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-136.avif"
+        },
+        {
+          "lectureId": "lecture-26",
+          "page": 185,
+          "pageLabel": "合集 PDF 第 185 页",
+          "title": "病理合集 · PDF 第 185 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-185.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2002N149",
+      "sourceText": "2002N149 2002N149",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2002N149 · 病理《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-1997n40",
+      "title": "腺癌的组织学判定",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "肿瘤出血坏死明显"
+        },
+        {
+          "key": "B",
+          "label": "肿瘤呈浸润性生长"
+        },
+        {
+          "key": "C",
+          "label": "肿瘤细胞异型性明显"
+        },
+        {
+          "key": "D",
+          "label": "肿瘤发生于实体腺"
+        },
+        {
+          "key": "E",
+          "label": "肿瘤细胞呈腺样排列"
+        }
+      ],
+      "stems": [
+        {
+          "text": "诊断腺癌时下列指标中哪项最重要",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "explanation": "腺样排列提示腺性分化，可以把腺癌与其他恶性肿瘤区分开；浸润和异型性主要提示恶性，并不能独自确定腺癌。",
+          "sourceQuestion": "1997N40"
+        }
+      ],
+      "topic": "肿瘤",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "page": 185,
+        "pageLabel": "合集 PDF 第 185 页",
+        "title": "病理合集 · PDF 第 185 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-185.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-26",
+          "page": 185,
+          "pageLabel": "合集 PDF 第 185 页",
+          "title": "病理合集 · PDF 第 185 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-185.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "1997N40",
+      "sourceText": "1997N40 1997N40",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1997N40 · 病理《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-1998n39",
+      "title": "乳腺导管原位癌",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "小肝癌"
+        },
+        {
+          "key": "B",
+          "label": "胃黏膜内癌"
+        },
+        {
+          "key": "C",
+          "label": "大肠黏膜下癌"
+        },
+        {
+          "key": "D",
+          "label": "早期食管癌"
+        },
+        {
+          "key": "E",
+          "label": "乳腺导管内癌"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下述哪种是原位癌",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "explanation": "原位癌尚未突破基底膜；乳腺导管内癌符合这一点。「早期」「小」和「黏膜内」等命名不自动等于原位。",
+          "sourceQuestion": "1998N39"
+        }
+      ],
+      "topic": "乳腺疾病",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "page": 109,
+        "pageLabel": "合集 PDF 第 109 页",
+        "title": "病理合集 · PDF 第 109 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-109.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "page": 109,
+          "pageLabel": "合集 PDF 第 109 页",
+          "title": "病理合集 · PDF 第 109 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-109.avif"
+        },
+        {
+          "lectureId": "lecture-19",
+          "page": 110,
+          "pageLabel": "合集 PDF 第 110 页",
+          "title": "病理合集 · PDF 第 110 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-110.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "1998N39",
+      "sourceText": "1998N39 1998N39",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1998N39 · 病理《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2003n42",
+      "title": "移植慢性排斥的血管损伤",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "血管内膜纤维化"
+        },
+        {
+          "key": "B",
+          "label": "血管肌层肥厚"
+        },
+        {
+          "key": "C",
+          "label": "血管外膜纤维组织增生"
+        },
+        {
+          "key": "D",
+          "label": "血管壁纤维素样坏死"
+        },
+        {
+          "key": "E",
+          "label": "血管壁玻璃样变性"
+        }
+      ],
+      "stems": [
+        {
+          "text": "慢性排斥反应中，移植物的血管病变特点是",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "慢性移植血管病典型是血管内膜纤维性增厚，腔逐渐变窄；纤维素样坏死更提示急性血管损伤。",
+          "sourceQuestion": "2003N42"
+        }
+      ],
+      "topic": "免疫性疾病",
+      "lectureIds": [
+        "lecture-17"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-17",
+        "page": 91,
+        "pageLabel": "合集 PDF 第 91 页",
+        "title": "病理合集 · PDF 第 91 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-091.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-17",
+          "page": 91,
+          "pageLabel": "合集 PDF 第 91 页",
+          "title": "病理合集 · PDF 第 91 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-091.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2003N42",
+      "sourceText": "2003N42 2003N42",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2003N42 · 病理《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2011n50",
+      "title": "粥样斑块形成细胞",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "内皮细胞"
+        },
+        {
+          "key": "B",
+          "label": "平滑肌细胞"
+        },
+        {
+          "key": "C",
+          "label": "单核细胞"
+        },
+        {
+          "key": "D",
+          "label": "成纤维细胞"
+        }
+      ],
+      "stems": [
+        {
+          "text": "与动脉粥样硬化斑块形成无关的细胞是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "内皮受损、单核细胞变成巨噬泡沫细胞，平滑肌迁移增殖并产生基质，是斑块形成的主要环节。",
+          "sourceQuestion": "2011N50"
+        }
+      ],
+      "topic": "心血管系统",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "page": 43,
+        "pageLabel": "合集 PDF 第 43 页",
+        "title": "病理合集 · PDF 第 43 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-043.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-09",
+          "page": 43,
+          "pageLabel": "合集 PDF 第 43 页",
+          "title": "病理合集 · PDF 第 43 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-043.avif"
+        },
+        {
+          "lectureId": "lecture-09",
+          "page": 44,
+          "pageLabel": "合集 PDF 第 44 页",
+          "title": "病理合集 · PDF 第 44 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-044.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2011N50",
+      "sourceText": "2011N50 2011N50",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2011N50 · 病理《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-1992n142",
+      "title": "脑动脉粥样硬化的后果",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "萎缩"
+        },
+        {
+          "key": "B",
+          "label": "软化"
+        },
+        {
+          "key": "C",
+          "label": "梗死"
+        },
+        {
+          "key": "D",
+          "label": "出血"
+        }
+      ],
+      "stems": [
+        {
+          "text": "脑动脉粥样硬化时，脑组织可发生",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "慢性缺血可致脑萎缩；血栓阻塞可致脑梗死，梗死液化表现为软化；基础血管病变也可并发脑出血。",
+          "sourceQuestion": "1992N142"
+        }
+      ],
+      "topic": "心血管系统",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "page": 47,
+        "pageLabel": "合集 PDF 第 47 页",
+        "title": "病理合集 · PDF 第 47 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-047.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-09",
+          "page": 47,
+          "pageLabel": "合集 PDF 第 47 页",
+          "title": "病理合集 · PDF 第 47 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-047.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "1992N142",
+      "sourceText": "1992N142 1992N142",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1992N142 · 病理《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-1992n32",
+      "title": "风湿性心脏炎与关节炎",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "风湿性心内膜炎最常累及二尖瓣和主动脉瓣"
+        },
+        {
+          "key": "B",
+          "label": "疣状心内膜炎赘生物不易脱落"
+        },
+        {
+          "key": "C",
+          "label": "风湿性心肌炎可导致心肌纤维化"
+        },
+        {
+          "key": "D",
+          "label": "风湿性心外膜炎可导致心包粘连"
+        },
+        {
+          "key": "E",
+          "label": "风湿性关节炎不会导致关节畸形"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列描述中，哪一项是错误的",
+          "answer": [],
+          "answerMode": "单选",
+          "explanation": "重点对照风湿性心内膜赘生物与感染性赘生物，以及活动期炎症和瘢痕期改变。在旧题中，部分资料对「不易脱落」与累及瓣膜的表述有差异；本站暂不自动判分。",
+          "sourceQuestion": "1992N32",
+          "answerState": "待原题页核对"
+        }
+      ],
+      "topic": "心血管系统",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "page": 36,
+        "pageLabel": "合集 PDF 第 36 页",
+        "title": "病理合集 · PDF 第 36 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-036.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-07",
+          "page": 36,
+          "pageLabel": "合集 PDF 第 36 页",
+          "title": "病理合集 · PDF 第 36 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-036.avif"
+        },
+        {
+          "lectureId": "lecture-07",
+          "page": 38,
+          "pageLabel": "合集 PDF 第 38 页",
+          "title": "病理合集 · PDF 第 38 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-038.avif"
+        },
+        {
+          "lectureId": "lecture-07",
+          "page": 39,
+          "pageLabel": "合集 PDF 第 39 页",
+          "title": "病理合集 · PDF 第 39 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-039.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "1992N32",
+      "sourceText": "1992N32 1992N32",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1992N32 · 病理《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2003n118",
+      "title": "风湿病的纤维素样坏死",
+      "kind": "C",
+      "kindLabel": "C型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "血管壁纤维素样坏死"
+        },
+        {
+          "key": "B",
+          "label": "血管壁玻璃样变性"
+        },
+        {
+          "key": "C",
+          "label": "两者均有"
+        },
+        {
+          "key": "D",
+          "label": "两者均无"
+        }
+      ],
+      "stems": [
+        {
+          "text": "风湿病可引起",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "风湿病可形成结缔组织纤维素样坏死，可累及小血管壁；血管玻璃样变典型见缓进型高血压等。",
+          "sourceQuestion": "2003N118"
+        }
+      ],
+      "topic": "心血管系统",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "page": 36,
+        "pageLabel": "合集 PDF 第 36 页",
+        "title": "病理合集 · PDF 第 36 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-036.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-07",
+          "page": 36,
+          "pageLabel": "合集 PDF 第 36 页",
+          "title": "病理合集 · PDF 第 36 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-036.avif"
+        },
+        {
+          "lectureId": "lecture-07",
+          "page": 37,
+          "pageLabel": "合集 PDF 第 37 页",
+          "title": "病理合集 · PDF 第 37 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-037.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2003N118",
+      "sourceText": "2003N118 2003N118",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2003N118 · 病理《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2000n43",
+      "title": "肺小细胞癌与异位分泌",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "与吸烟关系不密切"
+        },
+        {
+          "key": "B",
+          "label": "可伴有异位激素分泌"
+        },
+        {
+          "key": "C",
+          "label": "起源于化生的上皮细胞"
+        },
+        {
+          "key": "D",
+          "label": "5年存活率高"
+        },
+        {
+          "key": "E",
+          "label": "发病率在肺癌中居首位"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列哪项符合肺小细胞癌",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "肺小细胞癌有神经内分泌分化，可异位分泌 ADH、ACTH 等；与吸烟密切相关，较早转移、预后较差。",
+          "sourceQuestion": "2000N43"
+        }
+      ],
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "page": 79,
+        "pageLabel": "合集 PDF 第 79 页",
+        "title": "病理合集 · PDF 第 79 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-079.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-15",
+          "page": 79,
+          "pageLabel": "合集 PDF 第 79 页",
+          "title": "病理合集 · PDF 第 79 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-079.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2000N43",
+      "sourceText": "2000N43 2000N43",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2000N43 · 病理《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-1999n147",
+      "title": "急性重型病毒性肝炎",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "肝细胞点状坏死"
+        },
+        {
+          "key": "B",
+          "label": "肝体积明显缩小"
+        },
+        {
+          "key": "C",
+          "label": "肝质地柔软，呈黄色或红褐色"
+        },
+        {
+          "key": "D",
+          "label": "肝细胞再生不明显"
+        }
+      ],
+      "stems": [
+        {
+          "text": "急性重型肝炎的病理特点是",
+          "answer": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "短期内肝细胞大片坏死，肝体积缩小，呈黄色或红褐色，来不及发生明显再生；点状坏死更符合轻型病变。",
+          "sourceQuestion": "1999N147"
+        }
+      ],
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "page": 8,
+        "pageLabel": "合集 PDF 第 8 页",
+        "title": "病理合集 · PDF 第 8 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-008.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-02",
+          "page": 8,
+          "pageLabel": "合集 PDF 第 8 页",
+          "title": "病理合集 · PDF 第 8 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-008.avif"
+        },
+        {
+          "lectureId": "lecture-02",
+          "page": 9,
+          "pageLabel": "合集 PDF 第 9 页",
+          "title": "病理合集 · PDF 第 9 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-009.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "1999N147",
+      "sourceText": "1999N147 1999N147",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1999N147 · 病理《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2009n56",
+      "title": "肝硬化的假小叶",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "肉眼下见肝内大小不等的结节"
+        },
+        {
+          "key": "B",
+          "label": "再生的肝细胞所形成的结节"
+        },
+        {
+          "key": "C",
+          "label": "广泛增生的纤维组织包绕的肝细胞结节"
+        },
+        {
+          "key": "D",
+          "label": "异型增生的肝细胞所形成的结节"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列肝硬化的病变中，符合假小叶的是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "假小叶必须包含被增生纤维间隔分隔包绕的肝细胞结节；只有再生结节或肉眼结节不够。",
+          "sourceQuestion": "2009N56"
+        }
+      ],
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "page": 15,
+        "pageLabel": "合集 PDF 第 15 页",
+        "title": "病理合集 · PDF 第 15 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-015.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "page": 15,
+          "pageLabel": "合集 PDF 第 15 页",
+          "title": "病理合集 · PDF 第 15 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-015.avif"
+        },
+        {
+          "lectureId": "lecture-03",
+          "page": 16,
+          "pageLabel": "合集 PDF 第 16 页",
+          "title": "病理合集 · PDF 第 16 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-016.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2009N56",
+      "sourceText": "2009N56 2009N56",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2009N56 · 病理《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-1998n149",
+      "title": "肝硬化门脉高压的机制",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "小叶下静脉受压"
+        },
+        {
+          "key": "B",
+          "label": "中央静脉及肝静脉窦受压"
+        },
+        {
+          "key": "C",
+          "label": "肝动脉与门静脉异常吻合支形成"
+        },
+        {
+          "key": "D",
+          "label": "肝静脉阻塞"
+        }
+      ],
+      "stems": [
+        {
+          "text": "肝硬化时，门静脉高压症形成的原因有",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "纤维组织和再生结节造成肝窦、中央及小叶下静脉受压；肝动脉与门静脉异常交通提高门脉压力。原发肝静脉阻塞是另一个病因。",
+          "sourceQuestion": "1998N149"
+        }
+      ],
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "page": 17,
+        "pageLabel": "合集 PDF 第 17 页",
+        "title": "病理合集 · PDF 第 17 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-017.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "page": 17,
+          "pageLabel": "合集 PDF 第 17 页",
+          "title": "病理合集 · PDF 第 17 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-017.avif"
+        },
+        {
+          "lectureId": "lecture-03",
+          "page": 18,
+          "pageLabel": "合集 PDF 第 18 页",
+          "title": "病理合集 · PDF 第 18 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-018.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "1998N149",
+      "sourceText": "1998N149 1998N149",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1998N149 · 病理《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2004n40",
+      "title": "早期癌与淋巴结转移",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "早期食管癌"
+        },
+        {
+          "key": "B",
+          "label": "早期胃癌"
+        },
+        {
+          "key": "C",
+          "label": "早期大肠癌"
+        },
+        {
+          "key": "D",
+          "label": "早期肺鳞癌"
+        },
+        {
+          "key": "E",
+          "label": "胰腺癌"
+        }
+      ],
+      "stems": [
+        {
+          "text": "无淋巴结转移的癌是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "本题按旧教材区分：早期肺鳞癌的旧定义强调无淋巴结转移；早期胃癌和大肠癌常按浸润深度界定，不能由「早期」一概推定无转移。",
+          "sourceQuestion": "2004N40"
+        }
+      ],
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "page": 31,
+        "pageLabel": "合集 PDF 第 31 页",
+        "title": "病理合集 · PDF 第 31 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-031.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-05",
+          "page": 31,
+          "pageLabel": "合集 PDF 第 31 页",
+          "title": "病理合集 · PDF 第 31 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-031.avif"
+        },
+        {
+          "lectureId": "lecture-05",
+          "page": 32,
+          "pageLabel": "合集 PDF 第 32 页",
+          "title": "病理合集 · PDF 第 32 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-032.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2004N40",
+      "sourceText": "2004N40 2004N40",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2004N40 · 病理《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2011n167",
+      "title": "大肠癌前病变",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "家族性腺瘤性息肉病"
+        },
+        {
+          "key": "B",
+          "label": "幼年性息肉"
+        },
+        {
+          "key": "C",
+          "label": "炎症性息肉"
+        },
+        {
+          "key": "D",
+          "label": "腺瘤性息肉"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列大肠息肉病变中，属于癌前病变的有",
+          "answer": [
+            "A",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "腺瘤性息肉以及家族性腺瘤性息肉病有癌变风险；散发单发幼年性和炎性息肉不是本题的典型癌前病变。",
+          "sourceQuestion": "2011N167"
+        }
+      ],
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-05"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-05",
+        "page": 31,
+        "pageLabel": "合集 PDF 第 31 页",
+        "title": "病理合集 · PDF 第 31 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-031.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-05",
+          "page": 31,
+          "pageLabel": "合集 PDF 第 31 页",
+          "title": "病理合集 · PDF 第 31 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-031.avif"
+        },
+        {
+          "lectureId": "lecture-05",
+          "page": 34,
+          "pageLabel": "合集 PDF 第 34 页",
+          "title": "病理合集 · PDF 第 34 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-034.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2011N167",
+      "sourceText": "2011N167 2011N167",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2011N167 · 病理《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2011n53",
+      "title": "前体 B 细胞淋巴母细胞肿瘤",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "老年患者多见"
+        },
+        {
+          "key": "B",
+          "label": "95%TdT阳性"
+        },
+        {
+          "key": "C",
+          "label": "白细胞计数超过 100×10⁹/L"
+        },
+        {
+          "key": "D",
+          "label": "BCL-2蛋白过度表达"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列选项中，符合前体 B细胞淋巴母细胞白血病/淋巴瘤的叙述是",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "TdT 阳性提示不成熟淋巴细胞；前体 B 细胞肿瘤常见于儿童，BCL-2 过表达并非本题识别标志。此考点取自内科合集血液章。",
+          "sourceQuestion": "2011N53"
+        }
+      ],
+      "topic": "肿瘤",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "page": 213,
+        "pageLabel": "合集 PDF 第 213 页",
+        "title": "内科合集 · PDF 第 213 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-213.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-26",
+          "page": 213,
+          "pageLabel": "合集 PDF 第 213 页",
+          "title": "内科合集 · PDF 第 213 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-213.avif"
+        },
+        {
+          "lectureId": "lecture-26",
+          "page": 230,
+          "pageLabel": "合集 PDF 第 230 页",
+          "title": "内科合集 · PDF 第 230 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-230.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2011N53",
+      "sourceText": "2011N53 2011N53",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2011N53 · 病理《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2010n165",
+      "title": "结节硬化型霍奇金淋巴瘤",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "可见多量陷窝细胞"
+        },
+        {
+          "key": "B",
+          "label": "可见典型 R-S细胞"
+        },
+        {
+          "key": "C",
+          "label": "可见混合性炎症细胞反应"
+        },
+        {
+          "key": "D",
+          "label": "纤维组织带状增生"
+        }
+      ],
+      "stems": [
+        {
+          "text": "结节硬化型霍奇金淋巴瘤的病理特点有",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "宽纤维束把病灶分成结节，陷窝型细胞典型，也可见经典 R-S 细胞；混合炎症细胞只是可能的背景，此题按亚型特征区分。此考点取自内科合集。",
+          "sourceQuestion": "2010N165"
+        }
+      ],
+      "topic": "肿瘤",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "page": 225,
+        "pageLabel": "合集 PDF 第 225 页",
+        "title": "内科合集 · PDF 第 225 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-225.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-26",
+          "page": 225,
+          "pageLabel": "合集 PDF 第 225 页",
+          "title": "内科合集 · PDF 第 225 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-225.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2010N165",
+      "sourceText": "2010N165 2010N165",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2010N165 · 病理《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2012n163",
+      "title": "微小病变肾病的肾小管改变",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 8,
+      "options": [
+        {
+          "key": "A",
+          "label": "水样变性"
+        },
+        {
+          "key": "B",
+          "label": "脂肪变性"
+        },
+        {
+          "key": "C",
+          "label": "玻璃样变性"
+        },
+        {
+          "key": "D",
+          "label": "纤维素样变性"
+        }
+      ],
+      "stems": [
+        {
+          "text": "在微小病变性肾小球肾炎中，肾小管容易形成的变性有",
+          "answer": [
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "大量蛋白尿使近端小管上皮出现蛋白重吸收小滴，脂质代谢异常可伴小管脂肪变；肾小球光镜下近正常。此考点取自内科合集。",
+          "sourceQuestion": "2012N163"
+        }
+      ],
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 165,
+        "pageLabel": "合集 PDF 第 165 页",
+        "title": "内科合集 · PDF 第 165 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-165.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-23",
+          "page": 165,
+          "pageLabel": "合集 PDF 第 165 页",
+          "title": "内科合集 · PDF 第 165 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-165.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2012N163",
+      "sourceText": "2012N163 2012N163",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2012N163 · 病理《易错小结（真题）》原题页：第 8 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2013n168",
+      "title": "乳腺髓样癌的形态",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 8,
+      "options": [
+        {
+          "key": "A",
+          "label": "边界清楚"
+        },
+        {
+          "key": "B",
+          "label": "癌细胞体积大"
+        },
+        {
+          "key": "C",
+          "label": "有较多的淋巴细胞浸润"
+        },
+        {
+          "key": "D",
+          "label": "HER2/neu过表达"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列属于乳腺髓样癌形态特点的有",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "肿瘤边界清楚，癌细胞大，间质见大量淋巴细胞；HER2 过表达不是该形态类别的特点。",
+          "sourceQuestion": "2013N168"
+        }
+      ],
+      "topic": "乳腺疾病",
+      "lectureIds": [
+        "lecture-19"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-19",
+        "page": 109,
+        "pageLabel": "合集 PDF 第 109 页",
+        "title": "病理合集 · PDF 第 109 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-109.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-19",
+          "page": 109,
+          "pageLabel": "合集 PDF 第 109 页",
+          "title": "病理合集 · PDF 第 109 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-109.avif"
+        },
+        {
+          "lectureId": "lecture-19",
+          "page": 110,
+          "pageLabel": "合集 PDF 第 110 页",
+          "title": "病理合集 · PDF 第 110 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-110.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2013N168",
+      "sourceText": "2013N168 2013N168",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2013N168 · 病理《易错小结（真题）》原题页：第 8 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2013n56",
+      "title": "甲状腺乳头状癌的核特征",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 8,
+      "options": [
+        {
+          "key": "A",
+          "label": "乳头状癌"
+        },
+        {
+          "key": "B",
+          "label": "滤泡状癌"
+        },
+        {
+          "key": "C",
+          "label": "髓样癌"
+        },
+        {
+          "key": "D",
+          "label": "未分化癌"
+        }
+      ],
+      "stems": [
+        {
+          "text": "一例甲状腺肿瘤，呈浸润性生长，镜下可见癌细胞呈滤泡状排列， 细胞核呈毛玻璃状，核重叠，核沟明显。应诊断为",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "诊断着重毛玻璃样核、核沟与核重叠；即使呈滤泡状排列，也可以是乳头状癌的滤泡亚型。",
+          "sourceQuestion": "2013N56"
+        }
+      ],
+      "topic": "内分泌系统",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 82,
+        "pageLabel": "合集 PDF 第 82 页",
+        "title": "病理合集 · PDF 第 82 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-082.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "page": 82,
+          "pageLabel": "合集 PDF 第 82 页",
+          "title": "病理合集 · PDF 第 82 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-082.avif"
+        },
+        {
+          "lectureId": "lecture-16",
+          "page": 85,
+          "pageLabel": "合集 PDF 第 85 页",
+          "title": "病理合集 · PDF 第 85 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-085.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2013N56",
+      "sourceText": "2013N56 2013N56",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2013N56 · 病理《易错小结（真题）》原题页：第 8 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-1999n148",
+      "title": "流行性乙型脑炎病理",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 8,
+      "options": [
+        {
+          "key": "A",
+          "label": "神经细胞变性坏死"
+        },
+        {
+          "key": "B",
+          "label": "蛛网膜下腔大量中性粒细胞渗出"
+        },
+        {
+          "key": "C",
+          "label": "胶质细胞增生"
+        },
+        {
+          "key": "D",
+          "label": "主要累及大脑灰质及神经核团"
+        }
+      ],
+      "stems": [
+        {
+          "text": "流行性乙型脑炎的基本病变有",
+          "answer": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "主要累及灰质及神经核团，可见神经元变性坏死、胶质细胞反应；蛛网膜下腔大量中性粒细胞渗出更符合化脓性脑膜炎。",
+          "sourceQuestion": "1999N148"
+        }
+      ],
+      "topic": "传染病",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "page": 119,
+        "pageLabel": "合集 PDF 第 119 页",
+        "title": "病理合集 · PDF 第 119 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-119.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-21",
+          "page": 119,
+          "pageLabel": "合集 PDF 第 119 页",
+          "title": "病理合集 · PDF 第 119 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-119.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "1999N148",
+      "sourceText": "1999N148 1999N148",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1999N148 · 病理《易错小结（真题）》原题页：第 8 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2003n138",
+      "title": "继发性肺结核的分布",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 8,
+      "options": [
+        {
+          "key": "A",
+          "label": "多局限于肺内"
+        },
+        {
+          "key": "B",
+          "label": "多从右肺尖开始"
+        },
+        {
+          "key": "C",
+          "label": "病变新旧不一"
+        },
+        {
+          "key": "D",
+          "label": "病变上重下轻"
+        }
+      ],
+      "stems": [
+        {
+          "text": "继发性肺结核的病理特点有",
+          "answer": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "继发肺结核常始于肺尖，旧题按讲义常见描述理解为右肺尖起病、向下播散；病灶可新旧不一、上重下轻，多局限于肺。",
+          "sourceQuestion": "2003N138"
+        }
+      ],
+      "topic": "传染病",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "page": 113,
+        "pageLabel": "合集 PDF 第 113 页",
+        "title": "病理合集 · PDF 第 113 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-113.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-20",
+          "page": 113,
+          "pageLabel": "合集 PDF 第 113 页",
+          "title": "病理合集 · PDF 第 113 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-113.avif"
+        },
+        {
+          "lectureId": "lecture-20",
+          "page": 117,
+          "pageLabel": "合集 PDF 第 117 页",
+          "title": "病理合集 · PDF 第 117 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-117.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2003N138",
+      "sourceText": "2003N138 2003N138",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2003N138 · 病理《易错小结（真题）》原题页：第 8 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-1993n29",
+      "title": "中毒性细菌性痢疾",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 9,
+      "options": [
+        {
+          "key": "A",
+          "label": "儿童多见"
+        },
+        {
+          "key": "B",
+          "label": "肠道症状轻"
+        },
+        {
+          "key": "C",
+          "label": "多由毒力强的痢疾杆菌引起"
+        },
+        {
+          "key": "D",
+          "label": "全身症状明显"
+        },
+        {
+          "key": "E",
+          "label": "患者对细菌毒素反应强烈"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下述哪项有关中毒性痢疾的描述是不正确的",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "儿童多见，可出现严重全身中毒和循环障碍，肠道症状却较轻；重点是宿主对毒素的强烈反应，不要求菌株特别强毒。",
+          "sourceQuestion": "1993N29"
+        }
+      ],
+      "topic": "传染病",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "page": 120,
+        "pageLabel": "合集 PDF 第 120 页",
+        "title": "病理合集 · PDF 第 120 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-120.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-21",
+          "page": 120,
+          "pageLabel": "合集 PDF 第 120 页",
+          "title": "病理合集 · PDF 第 120 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-120.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "1993N29",
+      "sourceText": "1993N29 1993N29",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1993N29 · 病理《易错小结（真题）》原题页：第 9 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2000n46",
+      "title": "梅毒的基本病变",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 9,
+      "options": [
+        {
+          "key": "A",
+          "label": "均为性传播"
+        },
+        {
+          "key": "B",
+          "label": "树胶肿内可见大量类上皮细胞"
+        },
+        {
+          "key": "C",
+          "label": "树胶肿和血管炎是基本病变"
+        },
+        {
+          "key": "D",
+          "label": "可导致主动脉瓣狭窄"
+        },
+        {
+          "key": "E",
+          "label": "骨骼不受累"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下述哪项关于梅毒的叙述是正确的",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "血管炎和树胶肿为典型病变。梅毒并不全经性接触传播，晚期心血管梅毒可因主动脉根部扩张出现主动脉瓣关闭不全。",
+          "sourceQuestion": "2000N46"
+        }
+      ],
+      "topic": "传染病",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "page": 122,
+        "pageLabel": "合集 PDF 第 122 页",
+        "title": "病理合集 · PDF 第 122 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-122.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-21",
+          "page": 122,
+          "pageLabel": "合集 PDF 第 122 页",
+          "title": "病理合集 · PDF 第 122 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-122.avif"
+        },
+        {
+          "lectureId": "lecture-21",
+          "page": 123,
+          "pageLabel": "合集 PDF 第 123 页",
+          "title": "病理合集 · PDF 第 123 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-123.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2000N46",
+      "sourceText": "2000N46 2000N46",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2000N46 · 病理《易错小结（真题）》原题页：第 9 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-2003n140",
+      "title": "急性血吸虫卵肉芽肿",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 9,
+      "options": [
+        {
+          "key": "A",
+          "label": "上皮样细胞增生"
+        },
+        {
+          "key": "B",
+          "label": "异物巨细胞形成"
+        },
+        {
+          "key": "C",
+          "label": "嗜酸性粒细胞浸润"
+        },
+        {
+          "key": "D",
+          "label": "卵壳附有放射状棒状物"
+        }
+      ],
+      "stems": [
+        {
+          "text": "急性血吸虫卵结节的病理变化有",
+          "answer": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "急性虫卵结节见嗜酸性粒细胞、异物巨细胞和卵壳周围放射状嗜酸性棒状物；上皮样细胞更突出于较陈旧结节。",
+          "sourceQuestion": "2003N140"
+        }
+      ],
+      "topic": "传染病",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "page": 121,
+        "pageLabel": "合集 PDF 第 121 页",
+        "title": "病理合集 · PDF 第 121 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-121.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-21",
+          "page": 121,
+          "pageLabel": "合集 PDF 第 121 页",
+          "title": "病理合集 · PDF 第 121 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-121.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "2003N140",
+      "sourceText": "2003N140 2003N140",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2003N140 · 病理《易错小结（真题）》原题页：第 9 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "pathology-easy-2027-1992n34",
+      "title": "消化道病变好发部位",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 9,
+      "options": [
+        {
+          "key": "A",
+          "label": "慢性胃溃疡——胃窦及移行部"
+        },
+        {
+          "key": "B",
+          "label": "十二指肠溃疡——十二指肠起始部"
+        },
+        {
+          "key": "C",
+          "label": "伤寒——回肠上段"
+        },
+        {
+          "key": "D",
+          "label": "细菌性痢疾——大肠下段"
+        },
+        {
+          "key": "E",
+          "label": "阿米巴痢疾——结肠上段"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列疾病好发部位描述中，错误的是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "伤寒病变突出于回肠末端集合淋巴结。题目其余选项分别抓胃窦附近、十二指肠起始部、结肠远端或近端这些定位。",
+          "sourceQuestion": "1992N34"
+        }
+      ],
+      "topic": "传染病",
+      "lectureIds": [
+        "lecture-21"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-21",
+        "page": 120,
+        "pageLabel": "合集 PDF 第 120 页",
+        "title": "病理合集 · PDF 第 120 页",
+        "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/pathology-120.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-21",
+          "page": 120,
+          "pageLabel": "合集 PDF 第 120 页",
+          "title": "病理合集 · PDF 第 120 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-120.avif"
+        },
+        {
+          "lectureId": "lecture-21",
+          "page": 124,
+          "pageLabel": "合集 PDF 第 124 页",
+          "title": "病理合集 · PDF 第 124 页",
+          "sourceFile": "27病理跟课版合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/pathology-124.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "病理",
+      "sourceQuestion": "1992N34",
+      "sourceText": "1992N34 1992N34",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1992N34 · 病理《易错小结（真题）》原题页：第 9 页",
+      "answerSourceLabel": "参考答案"
+    }
+  ],
+  "pages": [],
+  "topics": [
+    "损伤与修复",
+    "消化系统",
+    "局部血液循环障碍",
+    "炎症",
+    "肿瘤",
+    "乳腺疾病",
+    "免疫性疾病",
+    "心血管系统",
+    "呼吸系统",
+    "泌尿系统",
+    "内分泌系统",
+    "传染病"
+  ]
+}

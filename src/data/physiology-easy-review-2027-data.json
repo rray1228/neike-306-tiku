@@ -1,0 +1,2870 @@
+{
+  "meta": {
+    "title": "生理 · 易错小结（真题）",
+    "sourceLabel": "生理 · 易错小结（真题）"
+  },
+  "groups": [
+    {
+      "id": "physiology-easy-2027-1999n139",
+      "title": "正反馈",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "血液凝固过程"
+        },
+        {
+          "key": "B",
+          "label": "心室肌纤维动作电位 0期去极时的 Na+内流"
+        },
+        {
+          "key": "C",
+          "label": "排卵前成熟的卵泡分泌大量雌激素对腺垂体分泌黄体生成素的影响"
+        },
+        {
+          "key": "D",
+          "label": "妇女绝经后由于卵巢激素分泌减少引起的血和尿中的促性腺激素浓度升高"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列哪些现象中存在正反馈",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "凝血级联、去极触发更多钠通道开放、排卵前雌激素促 LH 峰，都是强化原变化。绝经后促性腺激素升高源于负反馈减弱。",
+          "sourceQuestion": "1999N139"
+        }
+      ],
+      "topic": "绪论",
+      "lectureIds": [
+        "lecture-01"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-01",
+        "page": 9,
+        "pageLabel": "合集 PDF 第 9 页",
+        "title": "生理合集 · PDF 第 9 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-009.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-01",
+          "page": 9,
+          "pageLabel": "合集 PDF 第 9 页",
+          "title": "生理合集 · PDF 第 9 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-009.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "1999N139",
+      "sourceText": "1999N139 1999N139",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1999N139 · 生理《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-1991n113",
+      "title": "跨膜转运",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "O2、CO2和NH3属于单纯扩散"
+        },
+        {
+          "key": "B",
+          "label": "葡萄糖进入红细胞膜属于主动转运"
+        },
+        {
+          "key": "C",
+          "label": "安静时细胞内 K+向细胞外移动为易化扩散"
+        },
+        {
+          "key": "D",
+          "label": "Na+从细胞内到细胞外为主动转运"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列各种物质通过细胞膜的转运方式正确的说法为",
+          "answer": [
+            "A",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "O₂、CO₂、NH₃可单纯扩散；静息时 K⁺经通道外流。红细胞摄取葡萄糖依赖 GLUT 的易化扩散；钠泵耗 ATP 将 Na⁺泵出。",
+          "sourceQuestion": "1991N113"
+        }
+      ],
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "page": 22,
+        "pageLabel": "合集 PDF 第 22 页",
+        "title": "生理合集 · PDF 第 22 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-022.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-02",
+          "page": 22,
+          "pageLabel": "合集 PDF 第 22 页",
+          "title": "生理合集 · PDF 第 22 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-022.avif"
+        },
+        {
+          "lectureId": "lecture-02",
+          "page": 23,
+          "pageLabel": "合集 PDF 第 23 页",
+          "title": "生理合集 · PDF 第 23 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-023.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "1991N113",
+      "sourceText": "1991N113 1991N113",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1991N113 · 生理《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2008n151",
+      "title": "钠泵抑制",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "静息电位绝对值减小"
+        },
+        {
+          "key": "B",
+          "label": "动作电位幅度降低"
+        },
+        {
+          "key": "C",
+          "label": "Na+-Ca2+交换增加"
+        },
+        {
+          "key": "D",
+          "label": "胞质渗透压升高"
+        }
+      ],
+      "stems": [
+        {
+          "text": "用哇巴因抑制钠泵活动后，细胞功能发生的变化有",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "钠泵受抑后膜内 Na⁺积聚，静息电位绝对值及动作电位幅度降低，胞质渗透压升高；Na⁺梯度下降会削弱正向 Na⁺–Ca²⁺交换排钙。",
+          "sourceQuestion": "2008N151"
+        }
+      ],
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-02"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-02",
+        "page": 17,
+        "pageLabel": "合集 PDF 第 17 页",
+        "title": "生理合集 · PDF 第 17 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-017.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-02",
+          "page": 17,
+          "pageLabel": "合集 PDF 第 17 页",
+          "title": "生理合集 · PDF 第 17 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-017.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2008N151",
+      "sourceText": "2008N151 2008N151",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2008N151 · 生理《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2001n2",
+      "title": "静息电位的电化学梯度",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "跨膜电位梯度和 Na+的浓度梯度方向相同"
+        },
+        {
+          "key": "B",
+          "label": "跨膜电位梯度和 Cl-的浓度梯度方向相同"
+        },
+        {
+          "key": "C",
+          "label": "跨膜电位梯度和 K+的浓度梯度方向相同"
+        },
+        {
+          "key": "D",
+          "label": "跨膜电位梯度阻碍 K+外流"
+        },
+        {
+          "key": "E",
+          "label": "跨膜电位梯度阻碍 Na+外流"
+        }
+      ],
+      "stems": [
+        {
+          "text": "神经纤维安静时， 下列说法错误的是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "静息细胞内负、外正。K⁺浓度梯度驱动外流，电场将 K⁺向内拉，所以二者方向相反。",
+          "sourceQuestion": "2001N2"
+        }
+      ],
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "page": 30,
+        "pageLabel": "合集 PDF 第 30 页",
+        "title": "生理合集 · PDF 第 30 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-030.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "page": 30,
+          "pageLabel": "合集 PDF 第 30 页",
+          "title": "生理合集 · PDF 第 30 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-030.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2001N2",
+      "sourceText": "2001N2 2001N2",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2001N2 · 生理《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2001n3",
+      "title": "低外钾与驱动力",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "Na+-K+泵向胞外转运 Na+增多"
+        },
+        {
+          "key": "B",
+          "label": "膜电位负值减小"
+        },
+        {
+          "key": "C",
+          "label": "膜的 K+电导增大"
+        },
+        {
+          "key": "D",
+          "label": "Na+内流的驱动力增加"
+        },
+        {
+          "key": "E",
+          "label": "K+平衡电位的负值减小"
+        }
+      ],
+      "stems": [
+        {
+          "text": "细胞外液的 K+浓度明显降低时，将引起",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "外 K⁺降低时，按本题考查的静息膜电位关系，K⁺平衡电位更负，膜超极化使 Na⁺内流的电驱动力增加；K⁺平衡电位负值不会减小。",
+          "sourceQuestion": "2001N3"
+        }
+      ],
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "page": 40,
+        "pageLabel": "合集 PDF 第 40 页",
+        "title": "生理合集 · PDF 第 40 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-040.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "page": 40,
+          "pageLabel": "合集 PDF 第 40 页",
+          "title": "生理合集 · PDF 第 40 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-040.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2001N3",
+      "sourceText": "2001N3 2001N3",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2001N3 · 生理《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2001n4",
+      "title": "电压门控钠通道失活",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "动作电位的上升相"
+        },
+        {
+          "key": "B",
+          "label": "动作电位的下降相"
+        },
+        {
+          "key": "C",
+          "label": "动作电位超射时"
+        },
+        {
+          "key": "D",
+          "label": "绝对不应期"
+        },
+        {
+          "key": "E",
+          "label": "相对不应期"
+        }
+      ],
+      "stems": [
+        {
+          "text": "在神经纤维， Na+通道失活的时间在",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "上升相主要靠 Na⁺通道激活；下降相钠通道多数已失活，K⁺外流主导复极。失活与绝对不应期有关，但两者不是同一个时间定义。",
+          "sourceQuestion": "2001N4"
+        }
+      ],
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-03"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-03",
+        "page": 33,
+        "pageLabel": "合集 PDF 第 33 页",
+        "title": "生理合集 · PDF 第 33 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-033.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-03",
+          "page": 33,
+          "pageLabel": "合集 PDF 第 33 页",
+          "title": "生理合集 · PDF 第 33 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-033.avif"
+        },
+        {
+          "lectureId": "lecture-03",
+          "page": 34,
+          "pageLabel": "合集 PDF 第 34 页",
+          "title": "生理合集 · PDF 第 34 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-034.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2001N4",
+      "sourceText": "2001N4 2001N4",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2001N4 · 生理《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2001n5",
+      "title": "终板膜 N₂ 型受体通道",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "对Na+和 K+均有选择性"
+        },
+        {
+          "key": "B",
+          "label": "当终板膜去极化时打开"
+        },
+        {
+          "key": "C",
+          "label": "开放时产生终板电位"
+        },
+        {
+          "key": "D",
+          "label": "是N2-ACh受体通道"
+        },
+        {
+          "key": "E",
+          "label": "受体和通道是一个大分子"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列有关神经 -肌肉接头处终板膜上离子通道的叙述，错误的是",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "N₂ 型受体是 ACh 门控的阳离子通道，结合 ACh 后开放，Na⁺净内流造成终板膜去极化。先开通道，后有去极化。",
+          "sourceQuestion": "2001N5"
+        }
+      ],
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "page": 46,
+        "pageLabel": "合集 PDF 第 46 页",
+        "title": "生理合集 · PDF 第 46 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-046.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-04",
+          "page": 46,
+          "pageLabel": "合集 PDF 第 46 页",
+          "title": "生理合集 · PDF 第 46 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-046.avif"
+        },
+        {
+          "lectureId": "lecture-04",
+          "page": 47,
+          "pageLabel": "合集 PDF 第 47 页",
+          "title": "生理合集 · PDF 第 47 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-047.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2001N5",
+      "sourceText": "2001N5 2001N5",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2001N5 · 生理《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2007n151",
+      "title": "终板电位的特点",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "其大小与乙酰胆碱释放量无关"
+        },
+        {
+          "key": "B",
+          "label": "不存在时间和空间总和"
+        },
+        {
+          "key": "C",
+          "label": "由Ca2+内流产生"
+        },
+        {
+          "key": "D",
+          "label": "只去极化，而不出现反极化"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列关于骨骼肌终板电位特点的叙述，正确的是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "终板电位主要由 Na⁺净内流形成，属于可总和的局部去极化，幅度受 ACh 释放量影响，通常不发生反极化。",
+          "sourceQuestion": "2007N151"
+        }
+      ],
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "page": 47,
+        "pageLabel": "合集 PDF 第 47 页",
+        "title": "生理合集 · PDF 第 47 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-047.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-04",
+          "page": 47,
+          "pageLabel": "合集 PDF 第 47 页",
+          "title": "生理合集 · PDF 第 47 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-047.avif"
+        },
+        {
+          "lectureId": "lecture-04",
+          "page": 56,
+          "pageLabel": "合集 PDF 第 56 页",
+          "title": "生理合集 · PDF 第 56 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-056.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2007N151",
+      "sourceText": "2007N151 2007N151",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2007N151 · 生理《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2010n151",
+      "title": "阻断神经肌接头",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "促使 Ca2+进入运动神经末梢"
+        },
+        {
+          "key": "B",
+          "label": "抑制运动神经末梢释放递质"
+        },
+        {
+          "key": "C",
+          "label": "阻断终板膜上一价非选择性阳离子通道"
+        },
+        {
+          "key": "D",
+          "label": "抑制胆碱酯酶活性"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列选项中，可使骨骼肌松弛的途径有",
+          "answer": [
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "抑制 ACh 释放或阻断终板阳离子通道都会减少肌膜兴奋。增加神经末梢 Ca²⁺内流、抑制胆碱酯酶则会增强或延长传递。",
+          "sourceQuestion": "2010N151"
+        }
+      ],
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "page": 46,
+        "pageLabel": "合集 PDF 第 46 页",
+        "title": "生理合集 · PDF 第 46 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-046.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-04",
+          "page": 46,
+          "pageLabel": "合集 PDF 第 46 页",
+          "title": "生理合集 · PDF 第 46 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-046.avif"
+        },
+        {
+          "lectureId": "lecture-04",
+          "page": 47,
+          "pageLabel": "合集 PDF 第 47 页",
+          "title": "生理合集 · PDF 第 47 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-047.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2010N151",
+      "sourceText": "2010N151 2010N151",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2010N151 · 生理《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2008n3",
+      "title": "完全强直收缩",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "足够强度的单个阈刺激"
+        },
+        {
+          "key": "B",
+          "label": "足够持续时间的单个阈刺激"
+        },
+        {
+          "key": "C",
+          "label": "间隔小于收缩期的一串阈刺激"
+        },
+        {
+          "key": "D",
+          "label": "间隔大于收缩期的一串阈刺激"
+        }
+      ],
+      "stems": [
+        {
+          "text": "能使骨骼肌发生完全强直收缩的刺激条件是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "后一次刺激在前一次收缩尚未结束时到来，机械反应叠加成平滑的完全强直；单次刺激不够。",
+          "sourceQuestion": "2008N3"
+        }
+      ],
+      "topic": "细胞基本功能",
+      "lectureIds": [
+        "lecture-04"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-04",
+        "page": 55,
+        "pageLabel": "合集 PDF 第 55 页",
+        "title": "生理合集 · PDF 第 55 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-055.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-04",
+          "page": 55,
+          "pageLabel": "合集 PDF 第 55 页",
+          "title": "生理合集 · PDF 第 55 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-055.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2008N3",
+      "sourceText": "2008N3 2008N3",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2008N3 · 生理《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-1989n147",
+      "title": "凝血的延缓与抑制",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "血液中加入枸橼酸钠"
+        },
+        {
+          "key": "B",
+          "label": "血液置于硅胶管中"
+        },
+        {
+          "key": "C",
+          "label": "血液中加入肝素"
+        },
+        {
+          "key": "D",
+          "label": "血液中加入双香豆素"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列情况中可延缓或防止凝血的是",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "枸橼酸钠结合 Ca²⁺，硅胶管减少接触激活，肝素增强抗凝血酶作用；双香豆素在体内拮抗维生素 K，直接加进离体血液不能立刻抗凝。选项 D 写的是直接加进已经取出的血液，因此不选。",
+          "sourceQuestion": "1989N147"
+        }
+      ],
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-08"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-08",
+        "page": 102,
+        "pageLabel": "合集 PDF 第 102 页",
+        "title": "生理合集 · PDF 第 102 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-102.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-08",
+          "page": 102,
+          "pageLabel": "合集 PDF 第 102 页",
+          "title": "生理合集 · PDF 第 102 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-102.avif"
+        },
+        {
+          "lectureId": "lecture-08",
+          "page": 103,
+          "pageLabel": "合集 PDF 第 103 页",
+          "title": "生理合集 · PDF 第 103 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-103.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "1989N147",
+      "sourceText": "1989N147 1989N147",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1989N147 · 生理《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-1988n43",
+      "title": "ABO 血型抗原",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "抗原的肽链"
+        },
+        {
+          "key": "B",
+          "label": "蛋白水解酶"
+        },
+        {
+          "key": "C",
+          "label": "磷脂酶"
+        },
+        {
+          "key": "D",
+          "label": "转糖基酶"
+        },
+        {
+          "key": "E",
+          "label": "蛋白合成酶"
+        }
+      ],
+      "stems": [
+        {
+          "text": "决定A、B及 H抗原的基因是控制细胞合成某种特异的",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "基因编码糖基转移酶，决定在前体或 H 抗原上添加什么末端糖。A、B、H 的抗原差别在糖链。",
+          "sourceQuestion": "1988N43"
+        }
+      ],
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-06"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-06",
+        "page": 83,
+        "pageLabel": "合集 PDF 第 83 页",
+        "title": "生理合集 · PDF 第 83 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-083.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-06",
+          "page": 83,
+          "pageLabel": "合集 PDF 第 83 页",
+          "title": "生理合集 · PDF 第 83 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-083.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "1988N43",
+      "sourceText": "1988N43 1988N43",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1988N43 · 生理《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2001n7",
+      "title": "血压骤升与心脏后负荷",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "左室射血速度增快"
+        },
+        {
+          "key": "B",
+          "label": "心输出量增加"
+        },
+        {
+          "key": "C",
+          "label": "左室收缩末期容积增加"
+        },
+        {
+          "key": "D",
+          "label": "左室射血时达到最高室压的时间缩短"
+        },
+        {
+          "key": "E",
+          "label": "左室射血时的最高室压下降"
+        }
+      ],
+      "stems": [
+        {
+          "text": "动脉血压突然升高时，将引起",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "主动脉压突然上升即后负荷增加，等容收缩延长、射血变少，收缩末期残余血量增加。",
+          "sourceQuestion": "2001N7"
+        }
+      ],
+      "topic": "循环系统",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "page": 114,
+        "pageLabel": "合集 PDF 第 114 页",
+        "title": "生理合集 · PDF 第 114 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-114.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-09",
+          "page": 114,
+          "pageLabel": "合集 PDF 第 114 页",
+          "title": "生理合集 · PDF 第 114 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-114.avif"
+        },
+        {
+          "lectureId": "lecture-09",
+          "page": 115,
+          "pageLabel": "合集 PDF 第 115 页",
+          "title": "生理合集 · PDF 第 115 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-115.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2001N7",
+      "sourceText": "2001N7 2001N7",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2001N7 · 生理《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2007n5",
+      "title": "心肌等长调节",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "心肌收缩能力增强"
+        },
+        {
+          "key": "B",
+          "label": "肌节的初长度增加"
+        },
+        {
+          "key": "C",
+          "label": "横桥联结的数目增多"
+        },
+        {
+          "key": "D",
+          "label": "心室舒张末期容积增大"
+        }
+      ],
+      "stems": [
+        {
+          "text": "心肌通过等长调节来调节心脏的泵血功能，其主要原因是",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "在初长度不变时，心肌靠改变收缩能力调节泵血；初长度、舒张末期容积变化属于异长调节线索。",
+          "sourceQuestion": "2007N5"
+        }
+      ],
+      "topic": "循环系统",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "page": 115,
+        "pageLabel": "合集 PDF 第 115 页",
+        "title": "生理合集 · PDF 第 115 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-115.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-09",
+          "page": 115,
+          "pageLabel": "合集 PDF 第 115 页",
+          "title": "生理合集 · PDF 第 115 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-115.avif"
+        },
+        {
+          "lectureId": "lecture-09",
+          "page": 116,
+          "pageLabel": "合集 PDF 第 116 页",
+          "title": "生理合集 · PDF 第 116 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-116.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2007N5",
+      "sourceText": "2007N5 2007N5",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2007N5 · 生理《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-1990n41",
+      "title": "大动脉弹性与脉压",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "射血期延长"
+        },
+        {
+          "key": "B",
+          "label": "外周阻力增大"
+        },
+        {
+          "key": "C",
+          "label": "心率加快"
+        },
+        {
+          "key": "D",
+          "label": "体循环平均压降低"
+        },
+        {
+          "key": "E",
+          "label": "大动脉的可扩张性减小"
+        }
+      ],
+      "stems": [
+        {
+          "text": "能使脉压增大的情况是",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "explanation": "大动脉可扩张性降低，缓冲能力下降，使收缩压升高、舒张压降低，脉压增大。",
+          "sourceQuestion": "1990N41"
+        }
+      ],
+      "topic": "循环系统",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-10",
+        "page": 125,
+        "pageLabel": "合集 PDF 第 125 页",
+        "title": "生理合集 · PDF 第 125 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-125.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-10",
+          "page": 125,
+          "pageLabel": "合集 PDF 第 125 页",
+          "title": "生理合集 · PDF 第 125 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-125.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "1990N41",
+      "sourceText": "1990N41 1990N41",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1990N41 · 生理《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2008n153",
+      "title": "静脉回流的影响因素",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "从卧位到站立"
+        },
+        {
+          "key": "B",
+          "label": "注射肾上腺素"
+        },
+        {
+          "key": "C",
+          "label": "慢速跑步"
+        },
+        {
+          "key": "D",
+          "label": "浸泡在水中"
+        }
+      ],
+      "stems": [
+        {
+          "text": "可使静脉回流加速的因素有",
+          "answer": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "慢跑的肌肉泵和浸水后的外部压力有利于回流；肾上腺素可通过静脉收缩和心脏作用促进回流。卧位转直立时下肢淤血，回流先减少。",
+          "sourceQuestion": "2008N153"
+        }
+      ],
+      "topic": "循环系统",
+      "lectureIds": [
+        "lecture-10"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-10",
+        "page": 128,
+        "pageLabel": "合集 PDF 第 128 页",
+        "title": "生理合集 · PDF 第 128 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-128.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-10",
+          "page": 128,
+          "pageLabel": "合集 PDF 第 128 页",
+          "title": "生理合集 · PDF 第 128 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-128.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2008N153",
+      "sourceText": "2008N153 2008N153",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2008N153 · 生理《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2006n130",
+      "title": "儿茶酚胺与心肌电活动",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "使慢反应细胞动作电位 0期 Ca2+内流增快"
+        },
+        {
+          "key": "B",
+          "label": "加强自律细胞 4期自动去极化速度"
+        },
+        {
+          "key": "C",
+          "label": "使复极相 K+外流减慢"
+        },
+        {
+          "key": "D",
+          "label": "使快反应细胞动作电位上升速度减慢"
+        }
+      ],
+      "stems": [
+        {
+          "text": "儿茶酚胺对心肌生物电活动的作用有",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerMode": "多选",
+          "explanation": "β₁效应增加慢反应细胞的 Ca²⁺内流，加快 0 期上升及 4 期自动去极化。复极 K⁺外流减慢、快反应上升减慢都不是典型作用。",
+          "sourceQuestion": "2006N130"
+        }
+      ],
+      "topic": "循环系统",
+      "lectureIds": [
+        "lecture-12"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-12",
+        "page": 147,
+        "pageLabel": "合集 PDF 第 147 页",
+        "title": "生理合集 · PDF 第 147 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-147.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-12",
+          "page": 147,
+          "pageLabel": "合集 PDF 第 147 页",
+          "title": "生理合集 · PDF 第 147 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-147.avif"
+        },
+        {
+          "lectureId": "lecture-12",
+          "page": 149,
+          "pageLabel": "合集 PDF 第 149 页",
+          "title": "生理合集 · PDF 第 149 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-149.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2006N130",
+      "sourceText": "2006N130 2006N130",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2006N130 · 生理《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2007n7",
+      "title": "肾上腺素的血管作用",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "使心肌收缩力增强"
+        },
+        {
+          "key": "B",
+          "label": "使心率加快"
+        },
+        {
+          "key": "C",
+          "label": "使内脏和皮肤血管收缩"
+        },
+        {
+          "key": "D",
+          "label": "使骨骼肌血管收缩"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列选项中，肾上腺素不具有的作用是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "按常用考试比较，肾上腺素使心肌收缩力和心率增加，皮肤内脏血管以 α 缩血管效应为主，骨骼肌血管以 β₂ 舒张效应为主。",
+          "sourceQuestion": "2007N7"
+        }
+      ],
+      "topic": "循环系统",
+      "lectureIds": [
+        "lecture-13"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "page": 158,
+        "pageLabel": "合集 PDF 第 158 页",
+        "title": "生理合集 · PDF 第 158 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-158.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-13",
+          "page": 158,
+          "pageLabel": "合集 PDF 第 158 页",
+          "title": "生理合集 · PDF 第 158 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-158.avif"
+        },
+        {
+          "lectureId": "lecture-13",
+          "page": 163,
+          "pageLabel": "合集 PDF 第 163 页",
+          "title": "生理合集 · PDF 第 163 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-163.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2007N7",
+      "sourceText": "2007N7 2007N7",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2007N7 · 生理《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-1997n140",
+      "title": "冠脉灌流",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "动脉舒张压升高"
+        },
+        {
+          "key": "B",
+          "label": "主动脉瓣关闭不全"
+        },
+        {
+          "key": "C",
+          "label": "心室舒张期延长"
+        },
+        {
+          "key": "D",
+          "label": "心搏频率增加"
+        }
+      ],
+      "stems": [
+        {
+          "text": "在下列哪些情况下，冠状动脉血流量增多",
+          "answer": [
+            "A",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "左冠脉主要在舒张期灌流。舒张压升高或舒张期延长均有利；主动脉瓣关闭不全降低舒张压，心率加快一般缩短舒张时间。",
+          "sourceQuestion": "1997N140"
+        }
+      ],
+      "topic": "循环系统",
+      "lectureIds": [
+        "lecture-11"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-11",
+        "page": 132,
+        "pageLabel": "合集 PDF 第 132 页",
+        "title": "生理合集 · PDF 第 132 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-132.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-11",
+          "page": 132,
+          "pageLabel": "合集 PDF 第 132 页",
+          "title": "生理合集 · PDF 第 132 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-132.avif"
+        },
+        {
+          "lectureId": "lecture-11",
+          "page": 133,
+          "pageLabel": "合集 PDF 第 133 页",
+          "title": "生理合集 · PDF 第 133 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-133.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "1997N140",
+      "sourceText": "1997N140 1997N140",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1997N140 · 生理《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2006n10",
+      "title": "肺表面活性物质",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "肺弹性阻力减小"
+        },
+        {
+          "key": "B",
+          "label": "肺顺应性增大"
+        },
+        {
+          "key": "C",
+          "label": "肺泡表面张力降低"
+        },
+        {
+          "key": "D",
+          "label": "小肺泡内压小于大肺泡内压"
+        },
+        {
+          "key": "E",
+          "label": "肺不易扩张"
+        }
+      ],
+      "stems": [
+        {
+          "text": "肺表面活性物质减少时可导致",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "explanation": "表面活性物质减小时，肺泡表面张力和回缩力升高，顺应性下降，肺更难扩张，小肺泡也更容易萎陷。",
+          "sourceQuestion": "2006N10"
+        }
+      ],
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-15"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-15",
+        "page": 177,
+        "pageLabel": "合集 PDF 第 177 页",
+        "title": "生理合集 · PDF 第 177 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-177.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-15",
+          "page": 177,
+          "pageLabel": "合集 PDF 第 177 页",
+          "title": "生理合集 · PDF 第 177 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-177.avif"
+        },
+        {
+          "lectureId": "lecture-15",
+          "page": 178,
+          "pageLabel": "合集 PDF 第 178 页",
+          "title": "生理合集 · PDF 第 178 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-178.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2006N10",
+      "sourceText": "2006N10 2006N10",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2006N10 · 生理《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2001n14",
+      "title": "组织利用氧与静脉血氧",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "氰化物中毒"
+        },
+        {
+          "key": "B",
+          "label": "体育锻炼"
+        },
+        {
+          "key": "C",
+          "label": "心输出量降低"
+        },
+        {
+          "key": "D",
+          "label": "贫血"
+        },
+        {
+          "key": "E",
+          "label": "CO中毒"
+        }
+      ],
+      "stems": [
+        {
+          "text": "导致静脉O2分压增高的情况有",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "氰化物抑制细胞呼吸，组织无法充分利用氧，静脉血氧分压可升高。运动或低心排血量通常增加组织从单位血液提取的氧。",
+          "sourceQuestion": "2001N14"
+        }
+      ],
+      "topic": "呼吸系统",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 194,
+        "pageLabel": "合集 PDF 第 194 页",
+        "title": "生理合集 · PDF 第 194 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-194.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "page": 194,
+          "pageLabel": "合集 PDF 第 194 页",
+          "title": "生理合集 · PDF 第 194 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-194.avif"
+        },
+        {
+          "lectureId": "lecture-16",
+          "page": 195,
+          "pageLabel": "合集 PDF 第 195 页",
+          "title": "生理合集 · PDF 第 195 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-195.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2001N14",
+      "sourceText": "2001N14 2001N14",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2001N14 · 生理《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2007n131",
+      "title": "胃肠平滑肌动作电位",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "在慢波基础上发生"
+        },
+        {
+          "key": "B",
+          "label": "去极相由 Ca2+内流引起"
+        },
+        {
+          "key": "C",
+          "label": "复极相由 K+外流引起"
+        },
+        {
+          "key": "D",
+          "label": "幅度越高，肌肉收缩强度越大"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列关于胃肠平滑肌动作电位的叙述，正确的有",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "动作电位在慢波基础上出现，去极主要是 Ca²⁺内流，复极主要是 K⁺外流；收缩强度与动作电位发放频率有关。",
+          "sourceQuestion": "2007N131"
+        }
+      ],
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "page": 208,
+        "pageLabel": "合集 PDF 第 208 页",
+        "title": "生理合集 · PDF 第 208 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-208.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-18",
+          "page": 208,
+          "pageLabel": "合集 PDF 第 208 页",
+          "title": "生理合集 · PDF 第 208 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-208.avif"
+        },
+        {
+          "lectureId": "lecture-18",
+          "page": 209,
+          "pageLabel": "合集 PDF 第 209 页",
+          "title": "生理合集 · PDF 第 209 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-209.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2007N131",
+      "sourceText": "2007N131 2007N131",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2007N131 · 生理《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-1990n147",
+      "title": "胆囊收缩素的作用",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "抑制 HCO3-分泌"
+        },
+        {
+          "key": "B",
+          "label": "促进肝胆汁分泌"
+        },
+        {
+          "key": "C",
+          "label": "引起胰岛素释放"
+        },
+        {
+          "key": "D",
+          "label": "促进胰酶分泌"
+        }
+      ],
+      "stems": [
+        {
+          "text": "胆囊收缩素的主要生理作用有",
+          "answer": [
+            "B",
+            "C",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "按这道老题的口径，缩胆囊素促进胆汁排出及相关分泌、胰酶和胰岛素释放。不要把它与主要促进胰液 HCO₃⁻ 分泌的促胰液素混为一谈。",
+          "sourceQuestion": "1990N147"
+        }
+      ],
+      "topic": "消化系统",
+      "lectureIds": [
+        "lecture-22"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-22",
+        "page": 235,
+        "pageLabel": "合集 PDF 第 235 页",
+        "title": "生理合集 · PDF 第 235 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-235.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-22",
+          "page": 235,
+          "pageLabel": "合集 PDF 第 235 页",
+          "title": "生理合集 · PDF 第 235 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-235.avif"
+        },
+        {
+          "lectureId": "lecture-22",
+          "page": 236,
+          "pageLabel": "合集 PDF 第 236 页",
+          "title": "生理合集 · PDF 第 236 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-236.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "1990N147",
+      "sourceText": "1990N147 1990N147",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1990N147 · 生理《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2000n120",
+      "title": "视前区冷热敏神经元",
+      "kind": "C",
+      "kindLabel": "C型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "热敏神经元"
+        },
+        {
+          "key": "B",
+          "label": "冷敏神经元"
+        },
+        {
+          "key": "C",
+          "label": "二者都是"
+        },
+        {
+          "key": "D",
+          "label": "二者都无"
+        }
+      ],
+      "stems": [
+        {
+          "text": "脑组织温度下降时，放电频率增加的是",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "温度下降使冷敏神经元放电增加、热敏神经元放电减少；冷敏不是指冷时被抑制。",
+          "sourceQuestion": "2000N120"
+        }
+      ],
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-23"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-23",
+        "page": 250,
+        "pageLabel": "合集 PDF 第 250 页",
+        "title": "生理合集 · PDF 第 250 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-250.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-23",
+          "page": 250,
+          "pageLabel": "合集 PDF 第 250 页",
+          "title": "生理合集 · PDF 第 250 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-250.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2000N120",
+      "sourceText": "2000N120 2000N120",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2000N120 · 生理《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2005n131",
+      "title": "肾小球滤过率",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "剧烈运动和交感神经强烈兴奋"
+        },
+        {
+          "key": "B",
+          "label": "肾盂或输尿管结石引起尿路梗阻"
+        },
+        {
+          "key": "C",
+          "label": "糖尿病伴有尿量增多"
+        },
+        {
+          "key": "D",
+          "label": "高血压引起小动脉硬化"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列哪些生理或病理因素可影响肾小球超滤液的生成量",
+          "answer": [
+            "A",
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "强交感兴奋和小动脉硬化可减少肾灌流，尿路结石可提高囊内压。糖尿病题干只给出尿量增加，不能由渗透性利尿直接推出超滤液生成量变化。",
+          "sourceQuestion": "2005N131"
+        }
+      ],
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-25"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-25",
+        "page": 268,
+        "pageLabel": "合集 PDF 第 268 页",
+        "title": "生理合集 · PDF 第 268 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-268.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-25",
+          "page": 268,
+          "pageLabel": "合集 PDF 第 268 页",
+          "title": "生理合集 · PDF 第 268 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-268.avif"
+        },
+        {
+          "lectureId": "lecture-25",
+          "page": 272,
+          "pageLabel": "合集 PDF 第 272 页",
+          "title": "生理合集 · PDF 第 272 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-272.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2005N131",
+      "sourceText": "2005N131 2005N131",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2005N131 · 生理《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-1988n141",
+      "title": "尿素与肾髓质高渗梯度",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "肾小球滤过率增加"
+        },
+        {
+          "key": "B",
+          "label": "抗利尿激素分泌减少"
+        },
+        {
+          "key": "C",
+          "label": "血浆胶体渗透压下降"
+        },
+        {
+          "key": "D",
+          "label": "尿素生成减少"
+        }
+      ],
+      "stems": [
+        {
+          "text": "营养不良患者肾的浓缩功能减弱，这是由于",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "持续营养不良使尿素生成下降，内髓质高渗梯度减弱，集合管重吸收水的驱动力降低，尿的浓缩能力变差。",
+          "sourceQuestion": "1988N141"
+        }
+      ],
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "page": 288,
+        "pageLabel": "合集 PDF 第 288 页",
+        "title": "生理合集 · PDF 第 288 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-288.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-26",
+          "page": 288,
+          "pageLabel": "合集 PDF 第 288 页",
+          "title": "生理合集 · PDF 第 288 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-288.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "1988N141",
+      "sourceText": "1988N141 1988N141",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1988N141 · 生理《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2000n139",
+      "title": "尿崩症与渗透性利尿",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "ADH释放减少"
+        },
+        {
+          "key": "B",
+          "label": "胰岛素分泌明显减少"
+        },
+        {
+          "key": "C",
+          "label": "大量出汗、严重呕吐或腹泻"
+        },
+        {
+          "key": "D",
+          "label": "有效循环血量增多"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列哪些可引起大量饮水和尿量增多",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerMode": "多选",
+          "explanation": "ADH不足使水重吸收减少；胰岛素不足可造成高血糖和糖尿，引发渗透性利尿。失水导致的口渴通常伴尿量减少。",
+          "sourceQuestion": "2000N139"
+        }
+      ],
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "page": 273,
+        "pageLabel": "合集 PDF 第 273 页",
+        "title": "生理合集 · PDF 第 273 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-273.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-26",
+          "page": 273,
+          "pageLabel": "合集 PDF 第 273 页",
+          "title": "生理合集 · PDF 第 273 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-273.avif"
+        },
+        {
+          "lectureId": "lecture-26",
+          "page": 288,
+          "pageLabel": "合集 PDF 第 288 页",
+          "title": "生理合集 · PDF 第 288 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-288.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2000N139",
+      "sourceText": "2000N139 2000N139",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2000N139 · 生理《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-1991n159",
+      "title": "失血后的少尿",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "肾小球毛细血管血压下降"
+        },
+        {
+          "key": "B",
+          "label": "抗利尿激素分泌增加"
+        },
+        {
+          "key": "C",
+          "label": "血浆胶体渗透压降低"
+        },
+        {
+          "key": "D",
+          "label": "滤过膜通透性减低"
+        }
+      ],
+      "stems": [
+        {
+          "text": "急性失血时尿量减少的原因有",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerMode": "多选",
+          "explanation": "失血降低肾灌流与有效滤过压，同时非渗透性刺激增加 ADH 释放，促进水重吸收。",
+          "sourceQuestion": "1991N159"
+        }
+      ],
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "page": 273,
+        "pageLabel": "合集 PDF 第 273 页",
+        "title": "生理合集 · PDF 第 273 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-273.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-26",
+          "page": 273,
+          "pageLabel": "合集 PDF 第 273 页",
+          "title": "生理合集 · PDF 第 273 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-273.avif"
+        },
+        {
+          "lectureId": "lecture-26",
+          "page": 290,
+          "pageLabel": "合集 PDF 第 290 页",
+          "title": "生理合集 · PDF 第 290 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-290.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "1991N159",
+      "sourceText": "1991N159 1991N159",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1991N159 · 生理《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2009n153",
+      "title": "肾素释放的信号",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "血浆晶体渗透压降低"
+        },
+        {
+          "key": "B",
+          "label": "肾交感神经兴奋增强"
+        },
+        {
+          "key": "C",
+          "label": "肾小球滤过的 Na+量增多"
+        },
+        {
+          "key": "D",
+          "label": "肾血流量减少"
+        }
+      ],
+      "stems": [
+        {
+          "text": "引起肾的颗粒细胞释放肾素的因素",
+          "answer": [
+            "B",
+            "D"
+          ],
+          "answerMode": "多选",
+          "explanation": "肾交感 β₁作用和肾灌流降低均促肾素释放；致密斑感受到的是远端 NaCl 递送减少。",
+          "sourceQuestion": "2009N153"
+        }
+      ],
+      "topic": "泌尿系统",
+      "lectureIds": [
+        "lecture-26"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-26",
+        "page": 258,
+        "pageLabel": "合集 PDF 第 258 页",
+        "title": "生理合集 · PDF 第 258 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-258.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-26",
+          "page": 258,
+          "pageLabel": "合集 PDF 第 258 页",
+          "title": "生理合集 · PDF 第 258 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-258.avif"
+        },
+        {
+          "lectureId": "lecture-26",
+          "page": 262,
+          "pageLabel": "合集 PDF 第 262 页",
+          "title": "生理合集 · PDF 第 262 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-262.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2009N153",
+      "sourceText": "2009N153 2009N153",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2009N153 · 生理《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2005n16",
+      "title": "视近物的调节",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "视远物时需调节才能清晰成像于视网膜"
+        },
+        {
+          "key": "B",
+          "label": "晶状体变凸有助于消除球面像差和色像差"
+        },
+        {
+          "key": "C",
+          "label": "瞳孔缩小可避免强光对视网膜的有害刺激"
+        },
+        {
+          "key": "D",
+          "label": "双眼球会聚可避免复视而形成单视视觉"
+        },
+        {
+          "key": "E",
+          "label": "调节能力随年龄的增长而得到加强"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列关于正常人眼调节的叙述，正确的是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "看近处时双眼会聚，让物像落在两眼对应部位，防止复视；瞳孔缩小在近反射中主要帮助减少像差和增大景深。",
+          "sourceQuestion": "2005N16"
+        }
+      ],
+      "topic": "感觉系统",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "page": 299,
+        "pageLabel": "合集 PDF 第 299 页",
+        "title": "生理合集 · PDF 第 299 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-299.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-27",
+          "page": 299,
+          "pageLabel": "合集 PDF 第 299 页",
+          "title": "生理合集 · PDF 第 299 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-299.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2005N16",
+      "sourceText": "2005N16 2005N16",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2005N16 · 生理《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2010n125",
+      "title": "肾上腺素能受体阻断",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "瞳孔开大"
+        },
+        {
+          "key": "B",
+          "label": "气道阻力增加"
+        },
+        {
+          "key": "C",
+          "label": "血压降低"
+        },
+        {
+          "key": "D",
+          "label": "血糖降低"
+        }
+      ],
+      "stems": [
+        {
+          "text": "在周围神经系统中，α1肾上腺素能受体被阻断后，可出现的生理功能改变是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "阻断 α₁减弱血管缩血管效应，外周阻力减小、血压下降。",
+          "sourceQuestion": "2010N125"
+        }
+      ],
+      "topic": "中枢神经系统",
+      "lectureIds": [
+        "lecture-32"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-32",
+        "page": 358,
+        "pageLabel": "合集 PDF 第 358 页",
+        "title": "生理合集 · PDF 第 358 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-358.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-32",
+          "page": 358,
+          "pageLabel": "合集 PDF 第 358 页",
+          "title": "生理合集 · PDF 第 358 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-358.avif"
+        },
+        {
+          "lectureId": "lecture-32",
+          "page": 359,
+          "pageLabel": "合集 PDF 第 359 页",
+          "title": "生理合集 · PDF 第 359 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-359.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2010N125",
+      "sourceText": "2010N125 2010N125-126",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2010N125 · 生理《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2010n126",
+      "title": "肾上腺素能受体阻断",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "瞳孔开大"
+        },
+        {
+          "key": "B",
+          "label": "气道阻力增加"
+        },
+        {
+          "key": "C",
+          "label": "血压降低"
+        },
+        {
+          "key": "D",
+          "label": "血糖降低"
+        }
+      ],
+      "stems": [
+        {
+          "text": "在周围神经系统中，β1肾上腺素能受体被阻断后，可出现的生理功能改变是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "阻断 β₁减弱心脏兴奋和肾素分泌，也可降低血压，气道阻力主要对应 β₂。",
+          "sourceQuestion": "2010N126"
+        }
+      ],
+      "topic": "中枢神经系统",
+      "lectureIds": [
+        "lecture-32"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-32",
+        "page": 358,
+        "pageLabel": "合集 PDF 第 358 页",
+        "title": "生理合集 · PDF 第 358 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-358.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-32",
+          "page": 358,
+          "pageLabel": "合集 PDF 第 358 页",
+          "title": "生理合集 · PDF 第 358 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-358.avif"
+        },
+        {
+          "lectureId": "lecture-32",
+          "page": 359,
+          "pageLabel": "合集 PDF 第 359 页",
+          "title": "生理合集 · PDF 第 359 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-359.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2010N126",
+      "sourceText": "2010N126 2010N125-126",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2010N126 · 生理《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2011n156",
+      "title": "α 肾上腺素受体效应",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "骨骼肌血管收缩"
+        },
+        {
+          "key": "B",
+          "label": "瞳孔开大"
+        },
+        {
+          "key": "C",
+          "label": "脂肪分解加强"
+        },
+        {
+          "key": "D",
+          "label": "胃肠平滑肌收缩"
+        }
+      ],
+      "stems": [
+        {
+          "text": "由α肾上腺素能受体介导的生理活动有",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerMode": "多选",
+          "explanation": "α₁介导血管平滑肌收缩和瞳孔开大肌收缩；脂解多与 β 受体有关，胃肠平滑肌收缩不是本题所考的 α 效应。",
+          "sourceQuestion": "2011N156"
+        }
+      ],
+      "topic": "中枢神经系统",
+      "lectureIds": [
+        "lecture-32"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-32",
+        "page": 358,
+        "pageLabel": "合集 PDF 第 358 页",
+        "title": "生理合集 · PDF 第 358 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-358.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-32",
+          "page": 358,
+          "pageLabel": "合集 PDF 第 358 页",
+          "title": "生理合集 · PDF 第 358 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-358.avif"
+        },
+        {
+          "lectureId": "lecture-32",
+          "page": 359,
+          "pageLabel": "合集 PDF 第 359 页",
+          "title": "生理合集 · PDF 第 359 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-359.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2011N156",
+      "sourceText": "2011N156 2011N156",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2011N156 · 生理《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-1998n15",
+      "title": "突触前抑制",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "突触前膜超极化"
+        },
+        {
+          "key": "B",
+          "label": "突触前轴突末梢释放抑制性递质"
+        },
+        {
+          "key": "C",
+          "label": "突触后膜的兴奋性降低"
+        },
+        {
+          "key": "D",
+          "label": "突触后膜的兴奋性突触后电位降低"
+        },
+        {
+          "key": "E",
+          "label": "通过轴突-树突突触的活动实现"
+        }
+      ],
+      "stems": [
+        {
+          "text": "突触前抑制的特点是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "轴突-轴突突触减少兴奋性末梢递质释放，故突触后 EPSP 变小；突触后膜的自身兴奋性不必降低。",
+          "sourceQuestion": "1998N15"
+        }
+      ],
+      "topic": "中枢神经系统",
+      "lectureIds": [
+        "lecture-31"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-31",
+        "page": 351,
+        "pageLabel": "合集 PDF 第 351 页",
+        "title": "生理合集 · PDF 第 351 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-351.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-31",
+          "page": 351,
+          "pageLabel": "合集 PDF 第 351 页",
+          "title": "生理合集 · PDF 第 351 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-351.avif"
+        },
+        {
+          "lectureId": "lecture-31",
+          "page": 352,
+          "pageLabel": "合集 PDF 第 352 页",
+          "title": "生理合集 · PDF 第 352 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-352.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "1998N15",
+      "sourceText": "1998N15 1998N15",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1998N15 · 生理《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2000n141",
+      "title": "屈反射与后发放",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "是多突触反射"
+        },
+        {
+          "key": "B",
+          "label": "脊髓离断后减弱"
+        },
+        {
+          "key": "C",
+          "label": "后发放是它的一个特征"
+        },
+        {
+          "key": "D",
+          "label": "Babinski征属于屈反射"
+        }
+      ],
+      "stems": [
+        {
+          "text": "关于屈反射",
+          "answer": [
+            "A",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "屈反射有多个中间神经元，环式联系可在刺激停止后继续放电。病理性 Babinski 征不等同于本题的屈肌回撤反射。",
+          "sourceQuestion": "2000N141"
+        }
+      ],
+      "topic": "中枢神经系统",
+      "lectureIds": [
+        "lecture-33"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-33",
+        "page": 367,
+        "pageLabel": "合集 PDF 第 367 页",
+        "title": "生理合集 · PDF 第 367 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-367.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-33",
+          "page": 367,
+          "pageLabel": "合集 PDF 第 367 页",
+          "title": "生理合集 · PDF 第 367 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-367.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2000N141",
+      "sourceText": "2000N141 2000N141",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2000N141 · 生理《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2002n17",
+      "title": "甲状腺激素与胆固醇",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "氨基酸"
+        },
+        {
+          "key": "B",
+          "label": "葡萄糖"
+        },
+        {
+          "key": "C",
+          "label": "胆固醇"
+        },
+        {
+          "key": "D",
+          "label": "血钙"
+        },
+        {
+          "key": "E",
+          "label": "尿酸"
+        }
+      ],
+      "stems": [
+        {
+          "text": "甲状腺功能亢进患者血中，下列哪一种物质的浓度降低",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "甲亢时胆固醇分解和清除增强，常见血胆固醇降低；不能从代谢普遍亢进推断所有底物同向变化。",
+          "sourceQuestion": "2002N17"
+        }
+      ],
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-39"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-39",
+        "page": 398,
+        "pageLabel": "合集 PDF 第 398 页",
+        "title": "生理合集 · PDF 第 398 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-398.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-39",
+          "page": 398,
+          "pageLabel": "合集 PDF 第 398 页",
+          "title": "生理合集 · PDF 第 398 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-398.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2002N17",
+      "sourceText": "2002N17 2002N17",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2002N17 · 生理《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2008n24",
+      "title": "雌激素的靶组织效应",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "抑制输卵管运动"
+        },
+        {
+          "key": "B",
+          "label": "促进子宫内膜腺体增生和分泌"
+        },
+        {
+          "key": "C",
+          "label": "促进阴道上皮细胞增生和角化"
+        },
+        {
+          "key": "D",
+          "label": "促进乳腺发育并引起泌乳"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列关于雌激素生理作用的叙述，正确的是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "雌激素促阴道上皮增生和角化，促子宫内膜增殖；分泌期改变主要靠孕激素，泌乳主要靠催乳素。",
+          "sourceQuestion": "2008N24"
+        }
+      ],
+      "topic": "生殖系统",
+      "lectureIds": [
+        "lecture-41"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-41",
+        "page": 428,
+        "pageLabel": "合集 PDF 第 428 页",
+        "title": "生理合集 · PDF 第 428 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-428.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-41",
+          "page": 428,
+          "pageLabel": "合集 PDF 第 428 页",
+          "title": "生理合集 · PDF 第 428 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-428.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2008N24",
+      "sourceText": "2008N24 2008N24",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2008N24 · 生理《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "physiology-easy-2027-2010n24",
+      "title": "妊娠期胎盘内分泌",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "下丘脑促垂体区分泌活动加强"
+        },
+        {
+          "key": "B",
+          "label": "腺垂体分泌活动加强"
+        },
+        {
+          "key": "C",
+          "label": "卵巢分泌活动加强"
+        },
+        {
+          "key": "D",
+          "label": "胎盘分泌活动加强"
+        }
+      ],
+      "stems": [
+        {
+          "text": "妊娠后期孕妇血中雌激素和孕激素处于高水平的原因是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "妊娠早期由黄体维持，之后胎盘接替；妊娠后期高雌激素、高孕激素主要来自胎盘。",
+          "sourceQuestion": "2010N24"
+        }
+      ],
+      "topic": "生殖系统",
+      "lectureIds": [
+        "lecture-41"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-41",
+        "page": 429,
+        "pageLabel": "合集 PDF 第 429 页",
+        "title": "生理合集 · PDF 第 429 页",
+        "sourceFile": "27跟课生理合集【带导图】.pdf",
+        "image": "site-assets/easy-review-2027/physiology-429.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-41",
+          "page": 429,
+          "pageLabel": "合集 PDF 第 429 页",
+          "title": "生理合集 · PDF 第 429 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-429.avif"
+        },
+        {
+          "lectureId": "lecture-41",
+          "page": 433,
+          "pageLabel": "合集 PDF 第 433 页",
+          "title": "生理合集 · PDF 第 433 页",
+          "sourceFile": "27跟课生理合集【带导图】.pdf",
+          "image": "site-assets/easy-review-2027/physiology-433.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "生理",
+      "sourceQuestion": "2010N24",
+      "sourceText": "2010N24 2010N24",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2010N24 · 生理《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    }
+  ],
+  "pages": [],
+  "topics": [
+    "绪论",
+    "细胞基本功能",
+    "血液",
+    "循环系统",
+    "呼吸系统",
+    "消化系统",
+    "泌尿系统",
+    "感觉系统",
+    "中枢神经系统",
+    "内分泌",
+    "生殖系统"
+  ]
+}

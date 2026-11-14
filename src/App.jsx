@@ -30,6 +30,13 @@ const XUECHENG_37_LOADERS = {
   biochemistry: () => import('./data/biochemistry-xuecheng-37-data.json'),
   surgery: () => import('./data/surgery-xuecheng-37-data.json'),
 }
+const EASY_REVIEW_LOADERS = {
+  med: () => import('./data/med-easy-review-2027-data.json'),
+  pathology: () => import('./data/pathology-easy-review-2027-data.json'),
+  surgery: () => import('./data/surgery-easy-review-2027-data.json'),
+  physiology: () => import('./data/physiology-easy-review-2027-data.json'),
+  biochemistry: () => import('./data/biochemistry-easy-review-2027-data.json'),
+}
 const testSourceCategory = group => TEST_SOURCE_CATEGORIES.get(group.id) || (group.questionAuthor ? group.sourceLabel : '')
 
 const SUBJECTS = {
@@ -836,7 +843,9 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     }
     const savedMnemonics = readLocalStorage('study-mnemonic-favorites-v1', [])
     setMnemonicFavorites(Array.isArray(savedMnemonics) ? savedMnemonics.filter(id => typeof id === 'string') : [])
-    const requestedSubject = params.get('subject') || ALL_TEST_CATALOG.find(paper => paper.id === params.get('paper'))?.subject
+    const requestedPaper = ALL_TEST_CATALOG.find(paper => paper.id === params.get('paper'))
+    const requestedSubject = params.get('subject') || requestedPaper?.subject
+    if (!testPaper && requestedView === 'tests' && requestedPaper && requestedPaper.subject === requestedSubject) setSelectedTestSources([requestedPaper.category])
     const storedSubject = SUBJECTS[requestedSubject] ? requestedSubject : readLocalStorage('study-subject', 'med')
     const nextSubject = testPaper?.subject || (SUBJECTS[storedSubject] ? storedSubject : 'med')
     setSubject(nextSubject)
@@ -972,14 +981,19 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
       if (!cancelled) setLoadError('连接较慢，可以刷新重试或切换其他科目。')
     }, 15_000)
     const loadXuecheng = XUECHENG_37_LOADERS[subject]
-    Promise.all([CONTENT_LOADERS[subject](), loadXuecheng ? loadJson(loadXuecheng) : []]).then(([nextContent, groups]) => {
+    const loadEasyReview = EASY_REVIEW_LOADERS[subject]
+    Promise.all([
+      CONTENT_LOADERS[subject](),
+      loadXuecheng ? loadJson(loadXuecheng) : [],
+      loadEasyReview ? loadJson(loadEasyReview) : null,
+    ]).then(([nextContent, groups, easyReview]) => {
       clearTimeout(slow)
       if (cancelled) return
       const organized = organizeChapterPractice(subject === 'politics' ? nextContent : combineSharedClinicalCases(nextContent), subject)
       // Append after chapter sorting so each existing practice sequence keeps its order.
       const newContent = groups.length ? appendSupplement(organized, { groups, pages: [] }) : organized
       loadedSubjectRef.current = subject
-      setLoadedContent(newContent)
+      setLoadedContent(easyReview ? appendSupplement(newContent, easyReview) : newContent)
     }).catch(() => {
       clearTimeout(slow)
       if (!cancelled) setLoadError('题库数据暂时加载失败，请检查网络后重试。')
@@ -1462,6 +1476,12 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
 
   function changeTestSources(nextSources) {
     setSelectedTestSources(nextSources)
+    const url = new URL(window.location.href)
+    if (url.searchParams.has('paper')) {
+      url.searchParams.delete('paper')
+      url.searchParams.set('subject', subject)
+      window.history.replaceState(null, '', url)
+    }
     setJumpGroupId('')
     setGroupIndex(0)
   }
@@ -1473,6 +1493,7 @@ function App({ testPaper = null, onExitTest, onReturnToQuestions, initialView = 
     setSelectedTestSources([])
     const url = new URL(window.location.href)
     url.searchParams.set('subject', nextSubject)
+    url.searchParams.delete('paper')
     window.history.replaceState(null, '', url)
     setTopic(viewMode === 'tests' ? '全部' : nextConfig.defaultTopic)
     setChapterId('')
@@ -1879,7 +1900,7 @@ function PoliticsEvidence({ group, submitted, mobileEvidence, evidenceCollapsed,
 function EvidencePanel({ subject, content, group, page, sourceName, submitted, setShowSource, setShowLectureEvidence, mobileEvidence, setMobileEvidence, evidenceCollapsed, setEvidenceCollapsed }) {
   if (subject === 'politics') return <PoliticsEvidence {...{ group, submitted, mobileEvidence, evidenceCollapsed, setEvidenceCollapsed, setMobileEvidence, setShowLectureEvidence }} />
   const lectureItems = group.lectureIds.map((id) => content.lectures.find((lecture) => lecture.id === id)).filter(Boolean)
-  const collectionTitle = content.meta.lectureCollectionTitle
+  const collectionTitle = group.supplementOnly ? group.lectureEvidence?.sourceFile : content.meta.lectureCollectionTitle
   const lectureDescription = collectionTitle ?? (lectureItems.length ? `已关联 ${lectureItems.length} 份讲义` : '按章节关联讲义')
   const supplementDescription = group.questionAuthor
     ? '按考点归入现有章节 · 答案沿用原稿'

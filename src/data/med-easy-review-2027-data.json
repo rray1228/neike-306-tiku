@@ -1,0 +1,1608 @@
+{
+  "meta": {
+    "title": "内科 · 易错小结（真题）",
+    "sourceLabel": "内科 · 易错小结（真题）"
+  },
+  "groups": [
+    {
+      "id": "med-easy-2027-2001n54",
+      "title": "哮喘发作的呼吸体征",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "强迫端坐位"
+        },
+        {
+          "key": "B",
+          "label": "出现严重呼气性呼吸困难"
+        },
+        {
+          "key": "C",
+          "label": "呼吸动度增大，呈吸气位"
+        },
+        {
+          "key": "D",
+          "label": "语音震颤减弱"
+        },
+        {
+          "key": "E",
+          "label": "大汗淋漓伴紫绀"
+        }
+      ],
+      "stems": [
+        {
+          "text": "关于支气管哮喘发作的临床表现，下列哪项不正确",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "严重哮喘可被迫端坐，出现呼气困难、发绀、大汗、语音震颤减弱。胸廓可呈吸气位，但过度充气时呼吸动度并不增大。",
+          "sourceQuestion": "2001N54"
+        }
+      ],
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-09"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-09",
+        "page": 19,
+        "pageLabel": "合集 PDF 第 19 页",
+        "title": "内科合集 · PDF 第 19 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-019.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-09",
+          "page": 19,
+          "pageLabel": "合集 PDF 第 19 页",
+          "title": "内科合集 · PDF 第 19 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-019.avif"
+        },
+        {
+          "lectureId": "lecture-09",
+          "page": 50,
+          "pageLabel": "合集 PDF 第 50 页",
+          "title": "内科合集 · PDF 第 50 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-050.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2001N54",
+      "sourceText": "2001N54 2001N54",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2001N54 · 内科《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-1992n9",
+      "title": "肺炎克雷伯菌的影像线索",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "肺炎链球菌肺炎"
+        },
+        {
+          "key": "B",
+          "label": "克雷伯杆菌肺炎"
+        },
+        {
+          "key": "C",
+          "label": "铜绿假单胞菌肺炎"
+        },
+        {
+          "key": "D",
+          "label": "金黄色葡萄球菌肺炎"
+        },
+        {
+          "key": "E",
+          "label": "干酪性肺炎"
+        }
+      ],
+      "stems": [
+        {
+          "text": "男性，68岁。高热 3天伴咳嗽、胸痛，多量黄绿色脓性痰。X 线示右下肺实变，其间有不规则透亮区，叶间隙下坠，伴少量胸腔积液。该患者最可能的诊断是",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "实变中不规则透亮区提示坏死，叶间裂向下膨出提示病叶体积增加，结合脓痰支持克雷伯菌肺炎。",
+          "sourceQuestion": "1992N9"
+        }
+      ],
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-07"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-07",
+        "page": 24,
+        "pageLabel": "合集 PDF 第 24 页",
+        "title": "内科合集 · PDF 第 24 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-024.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-07",
+          "page": 24,
+          "pageLabel": "合集 PDF 第 24 页",
+          "title": "内科合集 · PDF 第 24 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-024.avif"
+        },
+        {
+          "lectureId": "lecture-07",
+          "page": 37,
+          "pageLabel": "合集 PDF 第 37 页",
+          "title": "内科合集 · PDF 第 37 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-037.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "1992N9",
+      "sourceText": "1992N9 1992N9",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1992N9 · 内科《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-2000n54",
+      "title": "闭合性气胸的旧题排气方式",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 1,
+      "options": [
+        {
+          "key": "A",
+          "label": "积气量少于该侧胸腔容量的 30%，不抽气"
+        },
+        {
+          "key": "B",
+          "label": "积气量多时应立即将气抽尽，恢复肺功能"
+        },
+        {
+          "key": "C",
+          "label": "积气量多时应立即行闭式水封瓶引流"
+        },
+        {
+          "key": "D",
+          "label": "积气量多时可一日多次抽气，每次 1L直至抽尽"
+        },
+        {
+          "key": "E",
+          "label": "积气量多时可每日或隔日抽气一次，每次小于 1L"
+        }
+      ],
+      "stems": [
+        {
+          "text": "关于闭合性气胸的排气治疗，下列哪项正确",
+          "answer": [
+            "E"
+          ],
+          "answerMode": "单选",
+          "explanation": "原题考查相对缓慢、少量排气，不主张短时间多次抽到尽。现在的初始处理还取决于症状、是否属于原发性、自身风险等，不能套用本题旧排气量。",
+          "sourceQuestion": "2000N54",
+          "explanationReferences": [
+            {
+              "title": "英国胸科学会：胸膜疾病指南（自发性气胸）",
+              "url": "https://www.brit-thoracic.org.uk/clinical-resources/guidelines/pleural-disease/"
+            }
+          ]
+        }
+      ],
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-13"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-13",
+        "page": 73,
+        "pageLabel": "合集 PDF 第 73 页",
+        "title": "内科合集 · PDF 第 73 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-073.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-13",
+          "page": 73,
+          "pageLabel": "合集 PDF 第 73 页",
+          "title": "内科合集 · PDF 第 73 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-073.avif"
+        },
+        {
+          "lectureId": "lecture-13",
+          "page": 77,
+          "pageLabel": "合集 PDF 第 77 页",
+          "title": "内科合集 · PDF 第 77 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-077.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2000N54",
+      "sourceText": "2000N54 2000N54",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2000N54 · 内科《易错小结（真题）》原题页：第 1 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-2007n58",
+      "title": "慢性Ⅱ型呼吸衰竭的肾代偿",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "脊柱后侧凸"
+        },
+        {
+          "key": "B",
+          "label": "吸入异物"
+        },
+        {
+          "key": "C",
+          "label": "脑干出血"
+        },
+        {
+          "key": "D",
+          "label": "支气管哮喘急性发作"
+        }
+      ],
+      "stems": [
+        {
+          "text": "血气分析结果显示：PaO2下降，PaCO2升高，pH 下降或正常， HCO3-升高。符合的疾病是",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "低氧和高碳酸血症提示肺泡通气不足；HCO₃⁻升高提示肾脏已进行一定时间代偿。脊柱畸形比其余急性病因更符合。",
+          "sourceQuestion": "2007N58"
+        }
+      ],
+      "topic": "呼吸",
+      "lectureIds": [
+        "lecture-11"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-11",
+        "page": 60,
+        "pageLabel": "合集 PDF 第 60 页",
+        "title": "内科合集 · PDF 第 60 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-060.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-11",
+          "page": 60,
+          "pageLabel": "合集 PDF 第 60 页",
+          "title": "内科合集 · PDF 第 60 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-060.avif"
+        },
+        {
+          "lectureId": "lecture-11",
+          "page": 62,
+          "pageLabel": "合集 PDF 第 62 页",
+          "title": "内科合集 · PDF 第 62 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-062.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2007N58",
+      "sourceText": "2007N58 2007N58",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2007N58 · 内科《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-2010n141",
+      "title": "阵发性与持续性房颤",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "急性心房颤动"
+        },
+        {
+          "key": "B",
+          "label": "阵发性心房颤动"
+        },
+        {
+          "key": "C",
+          "label": "持续性心房颤动"
+        },
+        {
+          "key": "D",
+          "label": "永久性心房颤动"
+        }
+      ],
+      "stems": [
+        {
+          "text": "女性，45 岁。患风湿性心脏病二尖瓣狭窄 20年。近 1个月来多次突发心悸，心电图证实为心房颤动，持续几分钟至几小时不等，可自行恢复，应诊断为",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "持续几分钟至数小时且自行恢复，符合阵发性房颤。",
+          "sourceQuestion": "2010N141"
+        }
+      ],
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-56"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-56",
+        "page": 376,
+        "pageLabel": "合集 PDF 第 376 页",
+        "title": "内科合集 · PDF 第 376 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-376.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-56",
+          "page": 376,
+          "pageLabel": "合集 PDF 第 376 页",
+          "title": "内科合集 · PDF 第 376 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-376.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2010N141",
+      "sourceText": "2010N141 2010N141-142",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2010N141 · 内科《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-2010n142",
+      "title": "阵发性与持续性房颤",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "page": 2,
+      "options": [
+        {
+          "key": "A",
+          "label": "急性心房颤动"
+        },
+        {
+          "key": "B",
+          "label": "阵发性心房颤动"
+        },
+        {
+          "key": "C",
+          "label": "持续性心房颤动"
+        },
+        {
+          "key": "D",
+          "label": "永久性心房颤动"
+        }
+      ],
+      "stems": [
+        {
+          "text": "男性，47 岁。心悸 3年，动态心电图检查示：快心室率心房颤动。曾服用胺碘酮转复为窦性心律并维持。1 个月前心房颤动再发，改用电复律成功，应诊断为",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "此次持续约一个月，需电复律且转复成功，符合持续性，不能归作永久性房颤。",
+          "sourceQuestion": "2010N142"
+        }
+      ],
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-56"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-56",
+        "page": 376,
+        "pageLabel": "合集 PDF 第 376 页",
+        "title": "内科合集 · PDF 第 376 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-376.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-56",
+          "page": 376,
+          "pageLabel": "合集 PDF 第 376 页",
+          "title": "内科合集 · PDF 第 376 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-376.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2010N142",
+      "sourceText": "2010N142 2010N141-142",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2010N142 · 内科《易错小结（真题）》原题页：第 2 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-2007n78",
+      "title": "初发型与恶化型心绞痛",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 3,
+      "options": [
+        {
+          "key": "A",
+          "label": "劳力型心绞痛"
+        },
+        {
+          "key": "B",
+          "label": "变异型心绞痛"
+        },
+        {
+          "key": "C",
+          "label": "初发型心绞痛"
+        },
+        {
+          "key": "D",
+          "label": "恶化型心绞痛"
+        }
+      ],
+      "stems": [
+        {
+          "text": "男性，58岁。2 周来晨练行走 300米左右出现胸部闷胀压抑感，放射到咽喉部，有紧缩感，持续 5-10分钟，自行停止活动，休息约3-5 分钟后缓解。近 1周来自觉上一层楼即感上述症状，口含硝酸甘油有效。既往高血压25 年，高脂血症 8年，糖尿病 6年。对该患者正确的诊断应是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "症状首次出现仅两周，已达到较轻活动就诱发的程度，按旧题归初发型。恶化型通常强调此前存在相对稳定的劳力型心绞痛，之后明显加重。",
+          "sourceQuestion": "2007N78"
+        }
+      ],
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-54"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-54",
+        "page": 337,
+        "pageLabel": "合集 PDF 第 337 页",
+        "title": "内科合集 · PDF 第 337 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-337.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-54",
+          "page": 337,
+          "pageLabel": "合集 PDF 第 337 页",
+          "title": "内科合集 · PDF 第 337 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-337.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2007N78",
+      "sourceText": "2007N78 2007N78",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2007N78 · 内科《易错小结（真题）》原题页：第 3 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-2002n49",
+      "title": "高血压危险分层",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "高血压 2级伴 1个危险因素"
+        },
+        {
+          "key": "B",
+          "label": "高血压 2 级伴 2 个危险因素"
+        },
+        {
+          "key": "C",
+          "label": "高血压 2 级伴靶器官损害"
+        },
+        {
+          "key": "D",
+          "label": "高血压 1-2级伴 3个危险因素"
+        },
+        {
+          "key": "E",
+          "label": "高血压 3 级"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列哪项符合原发性高血压高度危险组标准",
+          "answer": [],
+          "answerMode": "单选",
+          "explanation": "按桌面合集分层表，2 级伴靶器官损害、1–2 级伴至少 3 个危险因素、单纯 3 级都可能归高危；2 级伴 1–2 个其他危险因素还可能分到中危或高危。原题为单选，保留题面供复习。",
+          "sourceQuestion": "2002N49",
+          "answerState": "待原题页核对"
+        }
+      ],
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-52"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-52",
+        "page": 311,
+        "pageLabel": "合集 PDF 第 311 页",
+        "title": "内科合集 · PDF 第 311 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-311.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-52",
+          "page": 311,
+          "pageLabel": "合集 PDF 第 311 页",
+          "title": "内科合集 · PDF 第 311 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-311.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2002N49",
+      "sourceText": "2002N49 2002N49",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2002N49 · 内科《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-2008n62",
+      "title": "收缩性心衰合并肾功能受损",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 4,
+      "options": [
+        {
+          "key": "A",
+          "label": "卡托普利+呋塞米+美托洛尔"
+        },
+        {
+          "key": "B",
+          "label": "卡托普利+氢氯噻嗪+硝酸酯类"
+        },
+        {
+          "key": "C",
+          "label": "氯沙坦钾+呋塞米+螺内酯"
+        },
+        {
+          "key": "D",
+          "label": "氯沙坦钾+美托洛尔+硝酸酯类"
+        }
+      ],
+      "stems": [
+        {
+          "text": "男性，52岁。患扩张型心肌病 16年，呼吸困难、活动受限、下肢水肿 4年，来院检查。查体：血压 90/60mmHg，心率 96次/分，心律整，双肺底多数湿啰音，左心室舒张末内径 69mm，LVEF 31%，尿蛋白微量，肾小球滤过率 25ml/min。对该患者最适合的治疗药物是",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "本题在给出的历史选项中，GFR 25、明显淤血使袢利尿剂优于噻嗪，并不支持螺内酯；A 是考试比较结果。实际用药需同时评估血压、失代偿程度和药物耐受性。",
+          "sourceQuestion": "2008N62",
+          "explanationReferences": [
+            {
+              "title": "ACC：射血分数降低型心衰治疗共识",
+              "url": "https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2024/03/06/19/22/2024-acc-expert-consensus-hfref"
+            }
+          ]
+        }
+      ],
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-55"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-55",
+        "page": 359,
+        "pageLabel": "合集 PDF 第 359 页",
+        "title": "内科合集 · PDF 第 359 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-359.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-55",
+          "page": 359,
+          "pageLabel": "合集 PDF 第 359 页",
+          "title": "内科合集 · PDF 第 359 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-359.avif"
+        },
+        {
+          "lectureId": "lecture-55",
+          "page": 391,
+          "pageLabel": "合集 PDF 第 391 页",
+          "title": "内科合集 · PDF 第 391 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-391.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2008N62",
+      "sourceText": "2008N62 2008N62",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2008N62 · 内科《易错小结（真题）》原题页：第 4 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-2008n169",
+      "title": "急性二尖瓣关闭不全的表现",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "胸部X线片示肺血增加影像"
+        },
+        {
+          "key": "B",
+          "label": "超声心动图示左心室收缩加强"
+        },
+        {
+          "key": "C",
+          "label": "心电图示心房颤动"
+        },
+        {
+          "key": "D",
+          "label": "左心室肥厚"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列检查结果中，可在急性二尖瓣脱垂患者中出现的有",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "按旧题将急性脱垂所致反流理解：可迅速出现肺淤血、超声见左室收缩亢进，也可能合并房颤；急性期来不及出现慢性容量负荷引起的室壁肥厚。",
+          "sourceQuestion": "2008N169"
+        }
+      ],
+      "topic": "循环",
+      "lectureIds": [
+        "lecture-53"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-53",
+        "page": 324,
+        "pageLabel": "合集 PDF 第 324 页",
+        "title": "内科合集 · PDF 第 324 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-324.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-53",
+          "page": 324,
+          "pageLabel": "合集 PDF 第 324 页",
+          "title": "内科合集 · PDF 第 324 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-324.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2008N169",
+      "sourceText": "2008N169 2008N169",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2008N169 · 内科《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-2005n149",
+      "title": "胃溃疡症状变化与癌变评估",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "大便潜血检查"
+        },
+        {
+          "key": "B",
+          "label": "胃酸测定"
+        },
+        {
+          "key": "C",
+          "label": "胃镜检查并取活检"
+        },
+        {
+          "key": "D",
+          "label": "腹部平片"
+        }
+      ],
+      "stems": [
+        {
+          "text": "男性，62岁，胃溃疡多年，2个月来上腹痛发作频繁，无规律，食欲下降。该患者需要进行的检查有",
+          "answer": [
+            "A",
+            "B",
+            "C"
+          ],
+          "answerMode": "多选",
+          "explanation": "旧题考查胃溃疡患者出现疼痛失去规律、食欲下降时的检查。胃镜取活检是关键，可配合隐血及旧教材所列胃酸检查；腹部平片不能判断溃疡是否癌变。",
+          "sourceQuestion": "2005N149"
+        }
+      ],
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-16"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-16",
+        "page": 91,
+        "pageLabel": "合集 PDF 第 91 页",
+        "title": "内科合集 · PDF 第 91 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-091.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-16",
+          "page": 91,
+          "pageLabel": "合集 PDF 第 91 页",
+          "title": "内科合集 · PDF 第 91 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-091.avif"
+        },
+        {
+          "lectureId": "lecture-16",
+          "page": 94,
+          "pageLabel": "合集 PDF 第 94 页",
+          "title": "内科合集 · PDF 第 94 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-094.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2005N149",
+      "sourceText": "2005N149 2005N149",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2005N149 · 内科《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-2009n99",
+      "title": "溃疡性结肠炎的诊断和并发症",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "溃疡性结肠炎"
+        },
+        {
+          "key": "B",
+          "label": "克罗恩病"
+        },
+        {
+          "key": "C",
+          "label": "肠结核"
+        },
+        {
+          "key": "D",
+          "label": "慢性细菌性痢疾"
+        }
+      ],
+      "stems": [
+        {
+          "text": "该患者最可能的诊断是",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "反复脓血便、病原培养阴性，以及乙状结肠袋消失提示溃疡性结肠炎。",
+          "sourceQuestion": "2009N99"
+        }
+      ],
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "page": 104,
+        "pageLabel": "合集 PDF 第 104 页",
+        "title": "内科合集 · PDF 第 104 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-104.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-18",
+          "page": 104,
+          "pageLabel": "合集 PDF 第 104 页",
+          "title": "内科合集 · PDF 第 104 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-104.avif"
+        },
+        {
+          "lectureId": "lecture-18",
+          "page": 108,
+          "pageLabel": "合集 PDF 第 108 页",
+          "title": "内科合集 · PDF 第 108 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-108.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2009N99",
+      "sourceText": "2009N99 2009N99-101",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2009N99 · 内科《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案",
+      "promptContext": "女性，45岁。反复发作脓血便10余年，此期间有时伴有膝关节疼痛，多次大便细菌培养阴性，X线钡剂检查见乙状结肠袋消失，肠壁变硬，肠管变细。"
+    },
+    {
+      "id": "med-easy-2027-2009n100",
+      "title": "溃疡性结肠炎的诊断和并发症",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "腹痛-进食-缓解"
+        },
+        {
+          "key": "B",
+          "label": "腹痛-进食-加重"
+        },
+        {
+          "key": "C",
+          "label": "腹痛-便意-便后缓解"
+        },
+        {
+          "key": "D",
+          "label": "腹痛-便意-便后无变化"
+        }
+      ],
+      "stems": [
+        {
+          "text": "该病腹痛的特点是",
+          "answer": [
+            "C"
+          ],
+          "answerMode": "单选",
+          "explanation": "腹痛后有便意，排便后缓解，是溃疡性结肠炎的常见节律。与消化性溃疡相比，关键线索是排便而非进食。",
+          "sourceQuestion": "2009N100"
+        }
+      ],
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "page": 104,
+        "pageLabel": "合集 PDF 第 104 页",
+        "title": "内科合集 · PDF 第 104 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-104.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-18",
+          "page": 104,
+          "pageLabel": "合集 PDF 第 104 页",
+          "title": "内科合集 · PDF 第 104 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-104.avif"
+        },
+        {
+          "lectureId": "lecture-18",
+          "page": 108,
+          "pageLabel": "合集 PDF 第 108 页",
+          "title": "内科合集 · PDF 第 108 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-108.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2009N100",
+      "sourceText": "2009N100 2009N99-101",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2009N100 · 内科《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案",
+      "promptContext": "女性，45岁。反复发作脓血便10余年，此期间有时伴有膝关节疼痛，多次大便细菌培养阴性，X线钡剂检查见乙状结肠袋消失，肠壁变硬，肠管变细。"
+    },
+    {
+      "id": "med-easy-2027-2009n101",
+      "title": "溃疡性结肠炎的诊断和并发症",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 5,
+      "options": [
+        {
+          "key": "A",
+          "label": "中毒性巨结肠"
+        },
+        {
+          "key": "B",
+          "label": "癌变"
+        },
+        {
+          "key": "C",
+          "label": "肠出血"
+        },
+        {
+          "key": "D",
+          "label": "肠梗阻"
+        }
+      ],
+      "stems": [
+        {
+          "text": "该患者最不可能出现的并发症是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "中毒性巨结肠、癌变、出血均是已知并发症；器质性肠梗阻在此对照中相对更不常见。",
+          "sourceQuestion": "2009N101"
+        }
+      ],
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-18"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-18",
+        "page": 104,
+        "pageLabel": "合集 PDF 第 104 页",
+        "title": "内科合集 · PDF 第 104 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-104.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-18",
+          "page": 104,
+          "pageLabel": "合集 PDF 第 104 页",
+          "title": "内科合集 · PDF 第 104 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-104.avif"
+        },
+        {
+          "lectureId": "lecture-18",
+          "page": 108,
+          "pageLabel": "合集 PDF 第 108 页",
+          "title": "内科合集 · PDF 第 108 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-108.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2009N101",
+      "sourceText": "2009N101 2009N99-101",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2009N101 · 内科《易错小结（真题）》原题页：第 5 页",
+      "answerSourceLabel": "参考答案",
+      "promptContext": "女性，45岁。反复发作脓血便10余年，此期间有时伴有膝关节疼痛，多次大便细菌培养阴性，X线钡剂检查见乙状结肠袋消失，肠壁变硬，肠管变细。"
+    },
+    {
+      "id": "med-easy-2027-2011n141",
+      "title": "肝性脑病分期",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "扑翼样震颤无法引出"
+        },
+        {
+          "key": "B",
+          "label": "轻度性格改变和行为失常"
+        },
+        {
+          "key": "C",
+          "label": "昏睡和精神错乱"
+        },
+        {
+          "key": "D",
+          "label": "意识错乱和睡眠倒错"
+        }
+      ],
+      "stems": [
+        {
+          "text": "肝性脑病二期的表现是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "二期突出行为异常、意识错乱和睡眠倒错，可有扑翼样震颤。",
+          "sourceQuestion": "2011N141"
+        }
+      ],
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "page": 114,
+        "pageLabel": "合集 PDF 第 114 页",
+        "title": "内科合集 · PDF 第 114 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-114.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-20",
+          "page": 114,
+          "pageLabel": "合集 PDF 第 114 页",
+          "title": "内科合集 · PDF 第 114 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-114.avif"
+        },
+        {
+          "lectureId": "lecture-20",
+          "page": 115,
+          "pageLabel": "合集 PDF 第 115 页",
+          "title": "内科合集 · PDF 第 115 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-115.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2011N141",
+      "sourceText": "2011N141 2011N141-142",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2011N141 · 内科《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-2011n142",
+      "title": "肝性脑病分期",
+      "kind": "B",
+      "kindLabel": "B型题",
+      "page": 6,
+      "options": [
+        {
+          "key": "A",
+          "label": "扑翼样震颤无法引出"
+        },
+        {
+          "key": "B",
+          "label": "轻度性格改变和行为失常"
+        },
+        {
+          "key": "C",
+          "label": "昏睡和精神错乱"
+        },
+        {
+          "key": "D",
+          "label": "意识错乱和睡眠倒错"
+        }
+      ],
+      "stems": [
+        {
+          "text": "肝性脑病四期的表现是",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "四期是昏迷，不能合作做持姿检查，无法引出扑翼样震颤。",
+          "sourceQuestion": "2011N142"
+        }
+      ],
+      "topic": "消化",
+      "lectureIds": [
+        "lecture-20"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-20",
+        "page": 114,
+        "pageLabel": "合集 PDF 第 114 页",
+        "title": "内科合集 · PDF 第 114 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-114.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-20",
+          "page": 114,
+          "pageLabel": "合集 PDF 第 114 页",
+          "title": "内科合集 · PDF 第 114 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-114.avif"
+        },
+        {
+          "lectureId": "lecture-20",
+          "page": 115,
+          "pageLabel": "合集 PDF 第 115 页",
+          "title": "内科合集 · PDF 第 115 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-115.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2011N142",
+      "sourceText": "2011N142 2011N141-142",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2011N142 · 内科《易错小结（真题）》原题页：第 6 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-2005n74",
+      "title": "新月体性肾炎的鉴别",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "急进性肾小球肾炎"
+        },
+        {
+          "key": "B",
+          "label": "重症毛细血管内增生性肾小球肾炎"
+        },
+        {
+          "key": "C",
+          "label": "狼疮肾炎"
+        },
+        {
+          "key": "D",
+          "label": "肺出血-肾炎综合征"
+        },
+        {
+          "key": "E",
+          "label": "过敏性紫癜肾炎"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列不形成新月体的肾小球肾炎是",
+          "answer": [
+            "B"
+          ],
+          "answerMode": "单选",
+          "explanation": "新月体代表较重的肾小球毛细血管壁损伤，可见于急进性病变、抗基底膜病、狼疮和紫癜肾炎。原考题将毛细血管内增生性肾炎作为相对不典型项；重症并非绝对不能形成新月体。",
+          "sourceQuestion": "2005N74"
+        }
+      ],
+      "topic": "肾脏",
+      "lectureIds": [
+        "lecture-27"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-27",
+        "page": 169,
+        "pageLabel": "合集 PDF 第 169 页",
+        "title": "内科合集 · PDF 第 169 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-169.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-27",
+          "page": 169,
+          "pageLabel": "合集 PDF 第 169 页",
+          "title": "内科合集 · PDF 第 169 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-169.avif"
+        },
+        {
+          "lectureId": "lecture-27",
+          "page": 172,
+          "pageLabel": "合集 PDF 第 172 页",
+          "title": "内科合集 · PDF 第 172 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-172.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2005N74",
+      "sourceText": "2005N74 2005N74",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2005N74 · 内科《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-2007n144",
+      "title": "急性早幼粒细胞白血病的表型",
+      "kind": "X",
+      "kindLabel": "X型题",
+      "page": 7,
+      "options": [
+        {
+          "key": "A",
+          "label": "CD13(+)"
+        },
+        {
+          "key": "B",
+          "label": "CD33(+)"
+        },
+        {
+          "key": "C",
+          "label": "CD56(+)"
+        },
+        {
+          "key": "D",
+          "label": "CD68(+)"
+        }
+      ],
+      "stems": [
+        {
+          "text": "下列支持急性早幼粒细胞白血病的免疫表型有",
+          "answer": [
+            "A",
+            "B"
+          ],
+          "answerMode": "多选",
+          "explanation": "常见髓系标志 CD13、CD33，并可结合 PML::RARA 判断；CD56 或 CD68 不是本题支持该亚型的典型选项。",
+          "sourceQuestion": "2007N144"
+        }
+      ],
+      "topic": "血液",
+      "lectureIds": [
+        "lecture-34"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-34",
+        "page": 212,
+        "pageLabel": "合集 PDF 第 212 页",
+        "title": "内科合集 · PDF 第 212 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-212.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-34",
+          "page": 212,
+          "pageLabel": "合集 PDF 第 212 页",
+          "title": "内科合集 · PDF 第 212 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-212.avif"
+        },
+        {
+          "lectureId": "lecture-34",
+          "page": 215,
+          "pageLabel": "合集 PDF 第 215 页",
+          "title": "内科合集 · PDF 第 215 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-215.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2007N144",
+      "sourceText": "2007N144 2007N144",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2007N144 · 内科《易错小结（真题）》原题页：第 7 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-2010n109",
+      "title": "糖尿病肾病与二甲双胍",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 9,
+      "options": [
+        {
+          "key": "A",
+          "label": "胰岛素"
+        },
+        {
+          "key": "B",
+          "label": "阿卡波糖"
+        },
+        {
+          "key": "C",
+          "label": "格列喹酮"
+        },
+        {
+          "key": "D",
+          "label": "二甲双胍"
+        }
+      ],
+      "stems": [
+        {
+          "text": "男性，65岁，患糖尿病 15年，高血压 10年。查体：双下肢轻度水肿。尿蛋白(++)，血肌酐 160umol/L。眼底检查示视网膜出现棉絮状软性渗出。 该患者不宜选用的降糖药物是",
+          "answer": [
+            "D"
+          ],
+          "answerMode": "单选",
+          "explanation": "老题以明显肾功能受损提示二甲双胍蓄积和乳酸酸中毒风险。现代说明书用 eGFR 评估，而不是把题给的单个血肌酐数值直接当作通用禁忌阈值。",
+          "sourceQuestion": "2010N109",
+          "explanationReferences": [
+            {
+              "title": "FDA 二甲双胍缓释片说明书",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/021748s031lbl.pdf"
+            }
+          ]
+        }
+      ],
+      "topic": "内分泌",
+      "lectureIds": [
+        "lecture-38"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-38",
+        "page": 263,
+        "pageLabel": "合集 PDF 第 263 页",
+        "title": "内科合集 · PDF 第 263 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-263.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-38",
+          "page": 263,
+          "pageLabel": "合集 PDF 第 263 页",
+          "title": "内科合集 · PDF 第 263 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-263.avif"
+        },
+        {
+          "lectureId": "lecture-38",
+          "page": 359,
+          "pageLabel": "合集 PDF 第 359 页",
+          "title": "内科合集 · PDF 第 359 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-359.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2010N109",
+      "sourceText": "2010N109 2010N109",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2010N109 · 内科《易错小结（真题）》原题页：第 9 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-2005n84",
+      "title": "狼疮危象的激素冲击适应证",
+      "kind": "A",
+      "kindLabel": "A型题",
+      "page": 9,
+      "options": [
+        {
+          "key": "A",
+          "label": "急性肾衰竭"
+        },
+        {
+          "key": "B",
+          "label": "NP狼疮的癫痫发作"
+        },
+        {
+          "key": "C",
+          "label": "NP狼疮的明显精神症状"
+        },
+        {
+          "key": "D",
+          "label": "严重溶血性贫血"
+        },
+        {
+          "key": "E",
+          "label": "严重血小板减少性紫癜"
+        }
+      ],
+      "stems": [
+        {
+          "text": "在SLE应用激素冲击疗法中，下列哪项一般不是适应症",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "选项 B–E 均具体指向严重活动性狼疮表现。单写急性肾衰竭未交代病因；活动性、急进性狼疮肾炎仍可属于冲击治疗指征。",
+          "sourceQuestion": "2005N84"
+        }
+      ],
+      "topic": "风湿",
+      "lectureIds": [
+        "lecture-44"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-44",
+        "page": 275,
+        "pageLabel": "合集 PDF 第 275 页",
+        "title": "内科合集 · PDF 第 275 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-275.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-44",
+          "page": 275,
+          "pageLabel": "合集 PDF 第 275 页",
+          "title": "内科合集 · PDF 第 275 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-275.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "2005N84",
+      "sourceText": "2005N84 2005N84",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "2005N84 · 内科《易错小结（真题）》原题页：第 9 页",
+      "answerSourceLabel": "参考答案"
+    },
+    {
+      "id": "med-easy-2027-1998n134",
+      "title": "有机磷中毒旧题的导泻剂区别",
+      "kind": "C",
+      "kindLabel": "C型题",
+      "page": 9,
+      "options": [
+        {
+          "key": "A",
+          "label": "硫酸钠导泻"
+        },
+        {
+          "key": "B",
+          "label": "硫酸镁导泻"
+        },
+        {
+          "key": "C",
+          "label": "二者均可"
+        },
+        {
+          "key": "D",
+          "label": "二者均不可"
+        }
+      ],
+      "stems": [
+        {
+          "text": "昏迷患者导泻用",
+          "answer": [
+            "A"
+          ],
+          "answerMode": "单选",
+          "explanation": "旧题对照为硫酸钠和硫酸镁，昏迷者不选可能增加中枢和呼吸抑制风险的镁盐。这里只说明真题辨析，昏迷急救先考虑气道保护和专业处置。",
+          "sourceQuestion": "1998N134"
+        }
+      ],
+      "topic": "中毒",
+      "lectureIds": [
+        "lecture-48"
+      ],
+      "lectureEvidence": {
+        "lectureId": "lecture-48",
+        "page": 289,
+        "pageLabel": "合集 PDF 第 289 页",
+        "title": "内科合集 · PDF 第 289 页",
+        "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+        "image": "site-assets/easy-review-2027/med-289.avif"
+      },
+      "lectureEvidencePages": [
+        {
+          "lectureId": "lecture-48",
+          "page": 289,
+          "pageLabel": "合集 PDF 第 289 页",
+          "title": "内科合集 · PDF 第 289 页",
+          "sourceFile": "27跟课版内科合集【不带导图】.pdf",
+          "image": "site-assets/easy-review-2027/med-289.avif"
+        }
+      ],
+      "showOptionText": true,
+      "sourceLabel": "天天师兄 27考研 · 易错小结（真题）",
+      "sourceSection": "内科",
+      "sourceQuestion": "1998N134",
+      "sourceText": "1998N134 1998N134",
+      "supplement": true,
+      "supplementOnly": true,
+      "supplementNotice": "对应桌面跟课合集",
+      "studyNotice": "1998N134 · 内科《易错小结（真题）》原题页：第 9 页",
+      "answerSourceLabel": "参考答案"
+    }
+  ],
+  "pages": [],
+  "topics": [
+    "呼吸",
+    "循环",
+    "消化",
+    "肾脏",
+    "血液",
+    "内分泌",
+    "风湿",
+    "中毒"
+  ]
+}
