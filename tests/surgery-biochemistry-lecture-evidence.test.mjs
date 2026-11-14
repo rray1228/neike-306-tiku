@@ -7,7 +7,7 @@ import { surgeryGeneralInfectionGroups, surgeryGeneralLaterGroups } from '../src
 const directory = new URL('../src/data/',import.meta.url)
 const read = name => JSON.parse(readFileSync(new URL(`${name}.json`,directory)))
 // Imported papers carry their own evidence and are checked in their import tests.
-const collect = subject => readdirSync(directory).filter(name=>name.startsWith(subject)&&name.endsWith('.json')&&!/(?:sprint-exam|foundation-mock-exam)-data\.json$/.test(name)).flatMap(name=>{
+const collect = subject => readdirSync(directory).filter(name=>name.startsWith(subject)&&name.endsWith('.json')&&!/(?:sprint-exam|foundation-mock-exam|easy-review-2027)-data\.json$/.test(name)).flatMap(name=>{
  const d=JSON.parse(readFileSync(new URL(name,directory)))
  return Array.isArray(d.groups) ? d.groups : []
 })
@@ -66,12 +66,16 @@ test('biochemistry uses the collection with mind maps for question groups and bo
  assert.ok(pages.some(p=>p.page===193))
  const assetByPage=new Map(pages.map(p=>[p.page,p.image]))
  const additionalQuestions=read('biochemistry-xuecheng-37-data')
- assert.deepEqual(additionalQuestions.map(group=>group.lectureEvidence.page),[6,6,7,9,25])
+ assert.deepEqual(additionalQuestions.map(group=>group.lectureEvidencePages.map(page=>page.page)),[[6],[6],[7],[9],[25],[5],[24],[17,6],[17],[33],[33],[37,38]])
  for(const group of additionalQuestions){
-  assert.deepEqual(group.lectureEvidencePages,[group.lectureEvidence],group.id)
-  assert.equal(group.lectureEvidence.sourceFile,biochemistryCollection,group.id)
-  assert.equal(group.lectureEvidence.image,assetByPage.get(group.lectureEvidence.page),group.id)
+  assert.deepEqual(group.lectureEvidence,group.lectureEvidencePages[0],group.id)
+  for(const page of group.lectureEvidencePages){
+   assert.equal(page.sourceFile,biochemistryCollection,group.id)
+   assert.equal(page.image,assetByPage.get(page.page),group.id)
+  }
  }
+ const enzymeGroup=additionalQuestions.find(group=>group.id==='xuecheng-37-20261114-q04')
+ assert.deepEqual(enzymeGroup.stems.map((_,index)=>lectureForStem(enzymeGroup,index).page),[17,6])
  for(const name of ['biochemistry-foundation-mock-exam-data','biochemistry-sprint-exam-data']){
   for(const group of read(name).groups){
    assert.deepEqual(group.lectureEvidence,group.lectureEvidencePages[0],group.id)

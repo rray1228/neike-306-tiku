@@ -7,7 +7,7 @@ import { surgeryGeneralInfectionGroups, surgeryGeneralLaterGroups } from '../src
 const directory = new URL('../src/data/', import.meta.url)
 const read = name => JSON.parse(readFileSync(new URL(`${name}.json`, directory)))
 // Keep this review's original scope; paper-specific evidence has separate checks.
-const collect = subject => readdirSync(directory).filter(name => name.startsWith(subject) && name.endsWith('.json') && !/(?:sprint-exam|foundation-mock-exam)-data\.json$/.test(name)).flatMap(name => {
+const collect = subject => readdirSync(directory).filter(name => name.startsWith(subject) && name.endsWith('.json') && !/(?:sprint-exam|foundation-mock-exam|easy-review-2027)-data\.json$/.test(name)).flatMap(name => {
   const data = JSON.parse(readFileSync(new URL(name, directory)))
   return Array.isArray(data.groups) ? data.groups : []
 })
