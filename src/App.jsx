@@ -1828,7 +1828,8 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
     ? group.options.filter((option) => !stem.optionCategory || option.category === stem.optionCategory)
     : answer.map((item) => ({ key: item, displayKey: item }))
   const choiceCategories = unique(choiceOptions.map((option) => option.category).filter(Boolean))
-  const compact = !stem.image && !fill && !selfReview && !choiceCategories.length
+  const fullTextOptions = group.supplementOnly && group.showOptionText
+  const compact = !fullTextOptions && !stem.image && !fill && !selfReview && !choiceCategories.length
   const keys = choiceOptions.map((option) => option.key)
   const answerDisplay = stem.answerDisplay || answer.map((item) => group.options.find((option) => option.key === item)?.displayKey || item).join('、')
   const unresolvedLabel = stem.answerState === '待补答案' ? '待补答案' : (stem.answerState === '暂无参考答案' ? '暂无答案' : '待核对')
@@ -1845,7 +1846,7 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
     return <button key={item} data-option-label={label} aria-pressed={active} aria-label={`选项 ${label}${group.judgement || group.showOptionText ? ` ${option.label}` : ''}${stateLabel}`} className={`answer-chip ${group.showOptionText ? 'labeled-option' : ''} ${group.judgement ? 'judgement-chip' : ''} ${active ? 'active' : ''} ${isAnswer ? 'answer' : ''} ${isMissed ? 'missed' : ''} ${isWrong ? 'wrong' : ''}`} onClick={() => onSelect(index, item)} disabled={submitted}>{group.showOptionText ? <><b>{label}</b><span>{option.label}</span></> : group.judgement ? `${label} · ${option.label}` : label}{order && <sup className="rank-order">{order}</sup>}</button>
   }
   return (
-    <div data-stem-index={index} data-keyboard-active={keyboardActive} tabIndex={0} aria-label={`小题 ${index + 1}`} className={`stem-row ${compact ? 'compact-stem' : ''} ${fill || selfReview ? 'written-stem' : ''} ${stem.image ? 'image-stem' : ''} ${group.dailySelftest ? 'daily-fill-stem' : ''} ${choiceCategories.length ? 'has-choice-categories' : ''} ${submitted && !unresolved ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
+    <div data-stem-index={index} data-keyboard-active={keyboardActive} tabIndex={0} aria-label={`小题 ${index + 1}`} className={`stem-row ${fullTextOptions ? 'test-text-stem' : ''} ${compact ? 'compact-stem' : ''} ${fill || selfReview ? 'written-stem' : ''} ${stem.image ? 'image-stem' : ''} ${group.dailySelftest ? 'daily-fill-stem' : ''} ${choiceCategories.length ? 'has-choice-categories' : ''} ${submitted && !unresolved ? (correct ? 'is-correct' : 'is-wrong') : ''}`}>
       <div className="stem-main"><span className="stem-number">{String(sourceStemNumber(group, stem, index)).padStart(2, '0')}</span><div className="stem-copy">{stem.image && <figure className="stem-figure"><img src={assetPath(stem.image)} alt={stem.imageAlt || '心电图题干'} /></figure>}{group.dailySelftest && stem.image ? <details className="daily-prompt-zoom"><summary>放大题干（可左右滑动）</summary><div><img src={assetPath(stem.image)} alt={stem.imageAlt || '填空题原文'} loading="lazy" /></div></details> : null}{stem.sharedText ? <div className="shared-stem-box"><strong>病例资料</strong><p>{stem.sharedText}</p></div> : null}{stem.text ? <div className="stem-heading"><p>{stem.text}</p><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div> : <div className="stem-image-heading"><span className={`answer-mode ${(multi || fill) ? 'is-multi' : ''}`}>{selfReview ? '自评' : unresolved ? unresolvedLabel : (fill ? '填空' : (ordered ? '排序' : (multi ? '多选' : stem.answerMode === '判断' ? '判断' : '单选')))}</span></div>}</div></div>
       {selfReview ? <div className="review-draft"><label>我的思路<textarea aria-label={`小题${index + 1}作答草稿`} value={selection[0] || ''} onChange={event => onFill(index, 0, event.target.value)} disabled={submitted} placeholder="先写自己的思路或在纸上画图后记下说明，再保存查看参考要点…" rows={5} /></label><small>草稿自动保存在当前浏览器；本题不自动判分。</small></div> : fill
         ? <div className="fill-answers">{answer.map((_, blankIndex) => <label key={blankIndex}>{group.dailySelftest ? <span>空{blankIndex + 1}</span> : null}<input placeholder={group.dailySelftest ? `第${blankIndex + 1}空` : undefined} value={selection[blankIndex] || ''} onChange={(event) => onFill(index, blankIndex, event.target.value)} disabled={submitted} inputMode={stem.inputMode || 'text'} aria-label={`${stem.text}第${blankIndex + 1}空${stem.blankLabels?.[blankIndex] ? `，${stem.blankLabels[blankIndex]}` : ''}`} /></label>)}</div>
@@ -1857,7 +1858,9 @@ function StemRow({ group, stem, index, selection, submitted, onSelect, onFill, a
               {group.showOptionText ? <div className="labeled-category-choices">{options.map(renderChoiceButton)}</div> : <BalancedAnswerChoices count={options.length} className="category-choices">{options.map(renderChoiceButton)}</BalancedAnswerChoices>}
             </div>
           })}</div>
-          : <BalancedAnswerChoices count={choiceOptions.length} judgement={group.judgement}>{choiceOptions.map(renderChoiceButton)}</BalancedAnswerChoices>)}
+          : fullTextOptions
+            ? <div className="test-text-options">{choiceOptions.map(renderChoiceButton)}</div>
+            : <BalancedAnswerChoices count={choiceOptions.length} judgement={group.judgement}>{choiceOptions.map(renderChoiceButton)}</BalancedAnswerChoices>)}
       {submitted && <div className={`result-line ${unresolved ? 'pending' : (correct ? 'ok' : 'bad')}`}><Icon name={unresolved ? 'file' : (correct ? 'check' : 'alert')} size={15} />{selfReview ? '草稿已保存 · 对照下方参考要点自评' : unresolved ? unresolvedResult : (correct ? '正确' : `${group.answerSourceLabel || '讲义答案'}：${answerDisplay}`)}{missed && <span className="missed-legend">橙色 = 漏选</span>}</div>}
       {submitted ? <QuestionStudyNotes stem={stem} /> : null}
     </div>

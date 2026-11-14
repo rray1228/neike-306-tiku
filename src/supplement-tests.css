@@ -47,3 +47,12 @@
 .test-paper-bar button { border: 0; background: transparent; color: #2464d8; cursor: pointer; padding: 4px 0; font: inherit; font-weight: 650; }
 @media (max-width: 900px) { .tests-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .tests-toolbar { align-items: flex-start; flex-direction: column; gap: 16px; } }
 @media (max-width: 560px) { .supplement-tests { padding: 22px 20px 40px; } .tests-intro { margin-top: 38px; } .tests-grid { grid-template-columns: minmax(0, 1fr); gap: 14px; } .test-paper-card { padding: 22px; } .tests-search, .tests-search input { width: 100%; } .tests-toolbar nav { gap: 3px; } .tests-toolbar button { padding: 8px 11px; } }
+
+.stem-row.test-text-stem { grid-template-columns: minmax(0, 1fr); align-items: start; }
+.test-text-options { display: grid; gap: 6px; margin-inline-start: 30px; min-width: 0; }
+.test-text-options .labeled-option { width: 100%; min-height: 40px; padding-inline: 12px; justify-content: flex-start; }
+.test-text-options .labeled-option b { flex: 0 0 16px; }
+@media (max-width: 560px) {
+  .test-text-options { margin-inline-start: 0; }
+  .test-text-options .labeled-option { min-height: 44px; }
+}
