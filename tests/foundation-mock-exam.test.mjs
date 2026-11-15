@@ -72,6 +72,18 @@ test('questions 106–107 retain the shared case and display intact lumbar level
   assert.equal(q107.options.find(option => option.key === 'D').label, '髓核摘除术')
 })
 
+test('question 138 displays intact scientific notation and retains the BCD answer', () => {
+  const question = groups.find(group => group.sourceQuestion === '138')
+  assert.deepEqual(question.options.map(({ key, label }) => [key, label]), [
+    ['A', '氧解离曲线右移'],
+    ['B', 'Hb 与 H⁺ 的结合能力降低'],
+    ['C', 'Hb 与 CO₂ 的结合能力降低'],
+    ['D', 'P₅₀ 降低'],
+  ])
+  assert.deepEqual(question.stems[0].answer, ['B', 'C', 'D'])
+  assert.match(question.stems[0].explanation, /P₅₀ 升高.*H⁺、CO₂ 的结合能力增强/)
+})
+
 test('rewritten explanations and lecture evidence remain tied to the tested point', () => {
   const question51 = groups.find(group => group.sourceQuestion === '51')
   assert.match(question51.stems[0].explanation, /机械性肠梗阻/)

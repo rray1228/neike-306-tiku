@@ -169,6 +169,15 @@ def extract_exam(source: Path) -> tuple[dict[int, dict], dict[int, str]]:
             # Restore the lumbar and sacral levels split by PDF text extraction.
             levels = {"L 2-3": "L₂–L₃", "L 3-4": "L₃–L₄", "L 4-5": "L₄–L₅", "L -S 5 1": "L₅–S₁"}
             opts = {key: levels.get(label, label) for key, label in opts.items()}
+        if q == 138:
+            # Restore scientific notation split by PDF text extraction.
+            labels = {
+                "氧解离曲线 右移": "氧解离曲线右移",
+                "Hb 与 H+的结合能力降低": "Hb 与 H⁺ 的结合能力降低",
+                "Hb 与 CO 的结合能力降低 2": "Hb 与 CO₂ 的结合能力降低",
+                "P 降低 50": "P₅₀ 降低",
+            }
+            opts = {key: labels.get(label, label) for key, label in opts.items()}
         questions[q] = {"stem": stem, "sharedStem": shared.get(q), "options": opts}
 
     for q, (option_text, stem) in B_OVERRIDES.items():

@@ -3209,22 +3209,22 @@
         {
           "key": "A",
           "displayKey": "A",
-          "label": "氧解离曲线 右移"
+          "label": "氧解离曲线右移"
         },
         {
           "key": "B",
           "displayKey": "B",
-          "label": "Hb 与 H+的结合能力降低"
+          "label": "Hb 与 H⁺ 的结合能力降低"
         },
         {
           "key": "C",
           "displayKey": "C",
-          "label": "Hb 与 CO 的结合能力降低 2"
+          "label": "Hb 与 CO₂ 的结合能力降低"
         },
         {
           "key": "D",
           "displayKey": "D",
-          "label": "P 降低 50"
+          "label": "P₅₀ 降低"
         }
       ],
       "stems": [
@@ -3243,7 +3243,7 @@
           "answerMode": "多选",
           "answerState": "按用户提供的答案图录入",
           "lectureId": "foundation-physiology-16",
-          "explanation": "正确答案：BCD（Hb 与 H+的结合能力降低；Hb 与 CO 的结合能力降低 2；P 降低 50）。\n\n本题选错误项。R型高亲氧、T型低亲氧，R→T使曲线右移、P₅₀升高，故A正确、D错误。T型更易结合H⁺及CO₂而促进组织气体交换，B、C“结合能力降低”均写反。",
+          "explanation": "正确答案：BCD。\n\n本题选错误项。Hb 由 R 型转为 T 型时，对 O₂ 的亲和力下降，氧解离曲线右移，P₅₀ 升高，因此 A 正确、D 错误。T 型 Hb 与 H⁺、CO₂ 的结合能力增强，因此 B、C 错误。",
           "knowledgeConnections": [
             "P₅₀是Hb氧饱和度50%时的PO₂；P₅₀↑表示亲和力↓。",
             "组织H⁺、CO₂增加促进Hb释氧；肺部氧合有利于Hb释放H⁺和CO₂。"
