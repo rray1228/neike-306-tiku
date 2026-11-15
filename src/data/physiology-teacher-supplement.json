@@ -3800,7 +3800,7 @@
       "stems": [
         {
           "number": 5,
-          "text": "以下关于肺通气的阻力，描述正确的有（单选）",
+          "text": "以下关于肺通气的阻力，描述正确的有（多选）",
           "answerRaw": "BCD",
           "answer": [
             "B",
@@ -3808,7 +3808,7 @@
             "D"
           ],
           "answerMode": "多选",
-          "answerState": "待原题页核对",
+          "answerState": "用户确认答案",
           "explanation": "选BCD。肺的弹性回缩力向内，始终阻碍吸气、帮助呼气；深吸气时胸廓被扩张而向内回缩，深呼气时胸廓被压缩而向外回弹。气道摩擦阻力在吸呼两相都与气流相反，A错在把吸气时的气道阻力当动力。",
           "knowledgeConnections": [
             "胸廓在约67%肺总量处有其自然位置，位置改变决定胸廓弹性力方向。"
@@ -3821,12 +3821,10 @@
         "lecture-15"
       ],
       "diseaseTags": [],
-      "reviewState": "教师资料答案，未按讲义逐项复核",
+      "reviewState": "用户已确认多选答案",
       "answerSourceLabel": "教师资料答案",
       "supplement": true,
-      "reviewIssues": [
-        "原题标为单选，参考答案为BCD；站内按参考答案设为多选，需复核。"
-      ]
+      "supplementNotice": "答案已确认"
     },
     {
       "id": "phys-teacher-08-06",

@@ -171,6 +171,14 @@ def parse_choices(section: int, texts: dict[int, str], answers: list[str]) -> li
             group["reviewState"] = "用户已确认多选答案"
             group["supplementNotice"] = "答案已确认"
             group.pop("reviewIssues", None)
+        if section == 8 and question["number"] == 5:
+            # User confirmed BCD; the source's single-choice label is a typo.
+            assert raw_answer == "BCD"
+            group["stems"][0]["text"] = "以下关于肺通气的阻力，描述正确的有（多选）"
+            group["stems"][0]["answerState"] = "用户确认答案"
+            group["reviewState"] = "用户已确认多选答案"
+            group["supplementNotice"] = "答案已确认"
+            group.pop("reviewIssues", None)
         result.append(group)
     return result
 
@@ -261,7 +269,8 @@ def main() -> None:
             refs = "、".join(f"{section_chinese(group['sourceSection'])}-{group['sourceQuestion']}" for group in lecture)
             lines.append(f"| 第 {number} 讲 | {len(lecture)} | {refs} |")
     issues = [group for group in ordered if group.get("reviewIssues")]
-    lines += ["", "## 待复核", ""]
+    if issues:
+        lines += ["", "## 待复核", ""]
     for group in issues:
         lines.append(f"- PDF 第 {group['page']} 页，{group['sourceSection']}第 {group['sourceQuestion']} 题：{group['reviewIssues'][0]}本站保留原答案，但暂不自动判分。")
     tagged = [group for group in ordered if group["diseaseTags"]]
