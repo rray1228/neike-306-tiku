@@ -25,15 +25,15 @@ test('all 805 homework and stage questions have individual explanations and conc
   assert.equal(total, 805)
 })
 
-test('lecture corrections retain source answers and invalidate previous grading storage', () => {
-  for (const [file, id, original, corrected] of [
-    ['surgery-teacher-supplement', 'surgery-teacher-06-03', 'C', 'B'],
-    ['physiology-teacher-supplement', 'phys-teacher-14-06', 'ABD', 'ABCD'],
+test('answer revisions retain source keys and invalidate previous grading storage', () => {
+  for (const [file, id, original, corrected, revision] of [
+    ['surgery-teacher-supplement', 'surgery-teacher-06-03', 'C', 'B', 'lecture-analysis-20261017-v1'],
+    ['physiology-teacher-supplement', 'phys-teacher-14-06', 'ABD', 'ABD', 'rem-teacher-key-20261116'],
   ]) {
     const group = read(file).groups.find(g => g.id === id)
     assert.equal(group.stems[0].sourceAnswerRaw, original)
     assert.equal(group.stems[0].answerRaw, corrected)
     assert.deepEqual(group.stems[0].answer, corrected.split(''))
-    assert.ok(group.answerRevision)
+    assert.equal(group.answerRevision, revision)
   }
 })

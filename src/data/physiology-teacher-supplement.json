@@ -7131,15 +7131,14 @@
         {
           "number": 6,
           "text": "在快速眼动睡眠时相（多选）",
-          "answerRaw": "ABCD",
+          "answerRaw": "ABD",
           "answer": [
             "A",
             "B",
-            "C",
             "D"
           ],
           "answerMode": "多选",
-          "explanation": "选ABCD。REM脑电为低幅高频去同步化波，下丘脑体温调节明显减弱，脑耗氧和血流增多；同时可出现交感增强、阵发血压升高、心率和呼吸加快等表现。C符合讲义快波睡眠的阵发性自主神经活动。",
+          "explanation": "按教师原资料选 ABD。快速眼动睡眠时，脑电呈低幅高频去同步化波，下丘脑体温调节减弱，脑耗氧量和血流量增加。C 描述的交感活动增强和血压升高可阵发出现，本题按原资料答案判分。",
           "knowledgeConnections": [
             "REM骨骼肌张力低而眼外肌快速活动，脑活动增加不等于全身肌张力增加。"
           ],
@@ -7155,7 +7154,7 @@
       "reviewState": "教师资料答案，未按讲义逐项复核",
       "answerSourceLabel": "教师资料答案",
       "supplement": true,
-      "answerRevision": "lecture-analysis-20261017-v1"
+      "answerRevision": "rem-teacher-key-20261116"
     },
     {
       "id": "phys-teacher-14-07",
