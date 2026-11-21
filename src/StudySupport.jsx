@@ -109,10 +109,12 @@ export function StudySiteNotice({ onClose }) {
   }, [])
 
   return <dialog ref={dialog} className="practice-settings-dialog study-site-notice" aria-labelledby="study-site-notice-title" onCancel={event => { event.preventDefault(); onClose() }}>
-    <h2 id="study-site-notice-title">关于题库使用和答疑</h2>
-    <p>大家好，这个题库是我备考时个人整理、分享的。平时由我抽空打理，时间和精力都有限，反馈和网站问题没办法逐一处理，也无法提供答疑，还请大家多多包涵。</p>
-    <p>遇到不会的题，可以先翻一翻旁边的讲义。37不yy老师的题目如果有疑问，可以按题目日期去找当天的讨论帖，看看帖里的答案和讨论。</p>
-    <p>有些题目的答案我还没来得及逐一校对，站内答案仅供参考。建议以讲义为主，借题目查漏补缺。谢谢大家的理解，也祝大家复习顺利！</p>
+    <h2 id="study-site-notice-title">📢 考前的一点小通知</h2>
+    <p>距离考试越来越近啦，想和大家说几件事：</p>
+    <p>① <strong>网站之后将不再进行题目纠错，但仍会保持更新。大家有疑问请以讲义为准。易错小结的早年真题，我找不到答案合集，所以答案是由 GPT 编写的，请见谅。</strong>接下来我会把更多精力放在模拟题复习和考试重点的整理上，希望大家理解～</p>
+    <p>② <strong>讨论帖和小红书的带动复习笔记也会适当减少。</strong>一方面是因为时间有限，另一方面是重新整理、上传图片确实有些麻烦。如果需要我的复习笔记，可以去小红书查看置顶笔记，我也会尽量持续更新到考试前！</p>
+    <p>③ 最后，希望大家都能按照自己的节奏好好复习，不要太焦虑，也不要忘记休息。</p>
+    <p><strong>祝大家复习愉快，努力都能有所收获！🌷</strong></p>
     <div className="encouragement-actions"><button type="button" className="primary-button" onClick={onClose}>知道了</button></div>
   </dialog>
 }

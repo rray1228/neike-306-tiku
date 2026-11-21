@@ -23,7 +23,7 @@ const ALL_TEST_CATALOG = [...testCatalog, ...foundationMockExamCatalog]
 const TEST_COLLECTIONS = Object.fromEntries([...new Set(ALL_TEST_CATALOG.map(paper => paper.subject))].map(subject => [subject, testCollectionForSubject(ALL_TEST_CATALOG, subject)]))
 const TEST_SOURCE_CATEGORIES = new Map(ALL_TEST_CATALOG.flatMap(source => source.groupIds.map(id => [id, source.category])))
 const XUECHENG_37_TITLE = '37不yy老师的学成选择题'
-const STUDY_SITE_NOTICE_KEY = 'study-site-notice-2026-11-14-v1'
+const STUDY_SITE_NOTICE_KEY = 'study-site-notice-2026-11-21-preexam-v1'
 const XUECHENG_37_LOADERS = {
   med: () => import('./data/med-xuecheng-37-data.json'),
   pathology: () => import('./data/pathology-xuecheng-37-data.json'),
