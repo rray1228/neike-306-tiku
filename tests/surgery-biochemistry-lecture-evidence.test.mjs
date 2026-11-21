@@ -68,7 +68,8 @@ test('biochemistry uses the collection with mind maps for question groups and bo
  const additionalQuestions=read('biochemistry-xuecheng-37-data')
  assert.deepEqual(additionalQuestions.map(group=>group.lectureEvidencePages.map(page=>page.page)),[[6],[6],[7],[9],[25],[5],[24],[17,6],[17],[33],[33],[37,38],[46,37,45],[8],[43,44],[54,38],[53],[56],[62],[67,69],[67],[69,74],[58,54],[58],
   [80,77],[80],[45,54],[89],[93],[87,92],[89,8],
-  [6],[4],[25],[62,105],[23,24],[110],[109,114],[109],[109,142],[115],[124],[124],[44]])
+  [6],[4],[25],[62,105],[23,24],[110],[109,114],[109],[109,142],[115],[124],[124],[44],
+  [98],[106,15,105,99],[134],[135]])
  for(const group of additionalQuestions){
   assert.deepEqual(group.lectureEvidence,group.lectureEvidencePages[0],group.id)
   for(const page of group.lectureEvidencePages){
