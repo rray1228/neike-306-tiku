@@ -208,7 +208,7 @@ const CONTENT_LOADERS = {
     return applyReviewedEvidence(appendSupplement({
       ...surgeryContent,
       meta: { ...surgeryContent.meta, lectureCount: surgeryContent.meta.lectureCount + surgeryTeacherContent.lectures.length + surgeryExamContent.lectures.length + surgeryPractitionerContent.lectures.length },
-      lectures: [...surgeryContent.lectures, ...surgeryTeacherContent.lectures, ...surgeryExamContent.lectures, ...surgeryPractitionerContent.lectures],
+      lectures: [...surgeryContent.lectures, ...surgeryTeacherContent.lectures, ...surgeryExamContent.lectures, ...surgeryPractitionerContent.lectures, ...surgeryPractitionerLowerContent.lectures],
       topics: [...surgeryContent.topics.filter((topic) => topic !== '综合'), '骨科', '外科总论', '综合'],
       groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryChronicInjuryContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryNonpurulentArthritisContent.groups, ...surgeryBoneTumorContent.groups, ...surgeryTrunkSpineContent.groups, ...surgeryDegenerativeSpineContent.groups, ...surgeryLimbFractureContent.groups, ...surgeryGeneralCoreContent.groups, ...surgeryGeneralLateContent.surgeryGeneralInfectionGroups, ...surgeryGeneralContent.groups, ...surgeryGeneralLateContent.surgeryGeneralLaterGroups],
     }, {
