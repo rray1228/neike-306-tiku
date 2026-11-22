@@ -7,7 +7,7 @@ import { surgeryGeneralInfectionGroups, surgeryGeneralLaterGroups } from '../src
 const directory = new URL('../src/data/',import.meta.url)
 const read = name => JSON.parse(readFileSync(new URL(`${name}.json`,directory)))
 // Imported papers carry their own evidence and are checked in their import tests.
-const collect = subject => readdirSync(directory).filter(name=>name.startsWith(subject)&&name.endsWith('.json')&&!/(?:sprint-exam|foundation-mock-exam|easy-review-2027)-data\.json$/.test(name)).flatMap(name=>{
+const collect = subject => readdirSync(directory).filter(name=>name.startsWith(subject)&&name.endsWith('.json')&&!/(?:sprint-exam|foundation-mock-exam|practitioner-lower|easy-review-2027)-data\.json$/.test(name)).flatMap(name=>{
  const d=JSON.parse(readFileSync(new URL(name,directory)))
  return Array.isArray(d.groups) ? d.groups : []
 })
@@ -69,7 +69,8 @@ test('biochemistry uses the collection with mind maps for question groups and bo
  assert.deepEqual(additionalQuestions.map(group=>group.lectureEvidencePages.map(page=>page.page)),[[6],[6],[7],[9],[25],[5],[24],[17,6],[17],[33],[33],[37,38],[46,37,45],[8],[43,44],[54,38],[53],[56],[62],[67,69],[67],[69,74],[58,54],[58],
   [80,77],[80],[45,54],[89],[93],[87,92],[89,8],
   [6],[4],[25],[62,105],[23,24],[110],[109,114],[109],[109,142],[115],[124],[124],[44],
-  [98],[106,15,105,99],[134],[135]])
+  [98],[106,15,105,99],[134],[135],
+  [108],[109],[150],[148],[149],[151],[152]])
  for(const group of additionalQuestions){
   assert.deepEqual(group.lectureEvidence,group.lectureEvidencePages[0],group.id)
   for(const page of group.lectureEvidencePages){

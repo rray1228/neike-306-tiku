@@ -131,18 +131,19 @@ const CONTENT_LOADERS = {
     return organizePoliticsContent(practice, matching, technique, bookCompletion, techniqueCompletion, dailySelftest)
   },
   med: async () => {
-    const [content, homework, exam, practitioner, foundationMockExam, reviewedEvidence, remainingEvidence] = await Promise.all([
+    const [content, homework, exam, practitioner, practitionerLower, foundationMockExam, reviewedEvidence, remainingEvidence] = await Promise.all([
       loadJson(() => import('./data/med-data.json')),
       loadJson(() => import('./data/med-teacher-supplement.json')),
       loadJson(() => import('./data/med-stage-exam-data.json')),
       loadJson(() => import('./data/med-practitioner-upper-data.json')),
+      loadJson(() => import('./data/med-practitioner-lower-data.json')),
       loadJson(() => import('./data/med-foundation-mock-exam-data.json')),
       loadJson(() => import('./data/med-reviewed-lecture-evidence.json')),
       loadJson(() => import('./data/med-remaining-reviewed-lecture-evidence.json')),
     ])
     return applyReviewedEvidence(appendSupplement(content, {
-      groups: [...homework.groups, ...exam.groups, ...practitioner.groups, ...foundationMockExam.groups],
-      pages: [...homework.pages, ...exam.pages, ...practitioner.pages, ...foundationMockExam.pages],
+      groups: [...homework.groups, ...exam.groups, ...practitioner.groups, ...practitionerLower.groups, ...foundationMockExam.groups],
+      pages: [...homework.pages, ...exam.pages, ...practitioner.pages, ...practitionerLower.pages, ...foundationMockExam.pages],
       topics: foundationMockExam.topics,
       lectures: foundationMockExam.lectures,
     }), reviewedEvidence, remainingEvidence)
@@ -182,7 +183,7 @@ const CONTENT_LOADERS = {
     }), reviewedEvidence)
   },
   surgery: async () => {
-    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent, surgeryTeacherContent, surgeryExamContent, surgeryPractitionerContent, foundationMockExam, updatedEvidence] = await Promise.all([
+    const [surgeryContent, surgeryFractureContent, surgeryDeformityContent, surgeryChronicInjuryContent, surgeryOrthoMixedContent, surgeryOrthoInfectionContent, surgeryNonpurulentArthritisContent, surgeryBoneTumorContent, surgeryTrunkSpineContent, surgeryDegenerativeSpineContent, surgeryLimbFractureContent, surgeryGeneralContent, surgeryGeneralCoreContent, surgeryGeneralLateContent, surgeryTeacherContent, surgeryExamContent, surgeryPractitionerContent, surgeryPractitionerLowerContent, foundationMockExam, updatedEvidence] = await Promise.all([
       loadJson(() => import('./data/surgery-data.json')),
       loadJson(() => import('./data/surgery-fracture-data.json')),
       loadJson(() => import('./data/surgery-deformity-data.json')),
@@ -200,6 +201,7 @@ const CONTENT_LOADERS = {
       loadJson(() => import('./data/surgery-teacher-supplement.json')),
       loadJson(() => import('./data/surgery-stage-exam-data.json')),
       loadJson(() => import('./data/surgery-practitioner-upper-data.json')),
+      loadJson(() => import('./data/surgery-practitioner-lower-data.json')),
       loadJson(() => import('./data/surgery-foundation-mock-exam-data.json')),
       loadJson(() => import('./data/surgery-updated-lecture-evidence.json')),
     ])
@@ -210,8 +212,8 @@ const CONTENT_LOADERS = {
       topics: [...surgeryContent.topics.filter((topic) => topic !== '综合'), '骨科', '外科总论', '综合'],
       groups: [...surgeryContent.groups, ...surgeryFractureContent.groups, ...surgeryDeformityContent.groups, ...surgeryChronicInjuryContent.groups, ...surgeryOrthoMixedContent.groups, ...surgeryOrthoInfectionContent.groups, ...surgeryNonpurulentArthritisContent.groups, ...surgeryBoneTumorContent.groups, ...surgeryTrunkSpineContent.groups, ...surgeryDegenerativeSpineContent.groups, ...surgeryLimbFractureContent.groups, ...surgeryGeneralCoreContent.groups, ...surgeryGeneralLateContent.surgeryGeneralInfectionGroups, ...surgeryGeneralContent.groups, ...surgeryGeneralLateContent.surgeryGeneralLaterGroups],
     }, {
-      groups: [...surgeryTeacherContent.groups, ...surgeryExamContent.groups, ...surgeryPractitionerContent.groups, ...foundationMockExam.groups],
-      pages: [...surgeryTeacherContent.pages, ...surgeryExamContent.pages, ...surgeryPractitionerContent.pages, ...foundationMockExam.pages],
+      groups: [...surgeryTeacherContent.groups, ...surgeryExamContent.groups, ...surgeryPractitionerContent.groups, ...surgeryPractitionerLowerContent.groups, ...foundationMockExam.groups],
+      pages: [...surgeryTeacherContent.pages, ...surgeryExamContent.pages, ...surgeryPractitionerContent.pages, ...surgeryPractitionerLowerContent.pages, ...foundationMockExam.pages],
       topics: foundationMockExam.topics,
       lectures: foundationMockExam.lectures,
     }), updatedEvidence)
