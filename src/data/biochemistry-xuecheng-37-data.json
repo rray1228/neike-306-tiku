@@ -53,5 +53,807 @@
   {"id": "xuecheng-37-20261122-q04", "topic": "核酸", "title": "37不yy老师的学成选择题", "kindLabel": "单项选择", "sourceLabel": "37不yy老师的学成选择题", "sourceName": "生化-转录、原癌基因抑癌基因、小基因", "sourceSection": "11月22日", "sourceQuestion": 4, "questionAuthor": "37不yy", "supplement": true, "hideSource": true, "answerSourceLabel": "原稿答案", "lectureIds": ["lecture-17"], "chapterLectureIds": ["lecture-17"], "options": [{"key": "A", "label": "闭合转录复合物的形成"}, {"key": "B", "label": "开放转录复合物的形成"}, {"key": "C", "label": "转录起始复合物的形成"}, {"key": "D", "label": "起始复合物的形成"}], "stems": [{"text": "可被利福平抑制的是：", "answer": ["C"], "answerMode": "单选", "explanation": "利福平作用于细菌 RNA 聚合酶的 β 亚基，阻碍转录早期短 RNA 链的合成。按本题讲义对转录起始过程的归纳，选“转录起始复合物的形成”。"}], "lectureEvidence": {"sourceSubject": "biochemistry", "sourceFile": "27生化跟课版合集【带导图】.pdf", "page": 148, "pageLabel": "带导图合集 · PDF第148页", "title": "生化带导图合集 · PDF第148页 · 转录及调控", "image": "site-assets/biochemistry-collection/page-148.avif", "lectureId": "lecture-17", "lectureNumber": 17}, "lectureEvidencePages": [{"sourceSubject": "biochemistry", "sourceFile": "27生化跟课版合集【带导图】.pdf", "page": 148, "pageLabel": "带导图合集 · PDF第148页", "title": "生化带导图合集 · PDF第148页 · 转录及调控", "image": "site-assets/biochemistry-collection/page-148.avif", "lectureId": "lecture-17", "lectureNumber": 17}]},
   {"id": "xuecheng-37-20261122-q05", "topic": "核酸", "title": "37不yy老师的学成选择题", "kindLabel": "单项选择", "sourceLabel": "37不yy老师的学成选择题", "sourceName": "生化-转录、原癌基因抑癌基因、小基因", "sourceSection": "11月22日", "sourceQuestion": 5, "questionAuthor": "37不yy", "supplement": true, "hideSource": true, "answerSourceLabel": "原稿答案", "lectureIds": ["lecture-17"], "chapterLectureIds": ["lecture-17"], "options": [{"key": "A", "label": "磷酸二酯酶"}, {"key": "B", "label": "解旋酶"}, {"key": "C", "label": "RNA聚合酶"}, {"key": "D", "label": "核酸酶"}], "stems": [{"text": "ρ因子具有的酶活性是：", "answer": ["B"], "answerMode": "单选", "explanation": "ρ 因子为依赖 ATP 的 RNA 转位酶，并具有解旋活性。它沿新生 RNA 移动，在依赖 ρ 的转录终止过程中帮助解离转录复合物。"}], "lectureEvidence": {"sourceSubject": "biochemistry", "sourceFile": "27生化跟课版合集【带导图】.pdf", "page": 149, "pageLabel": "带导图合集 · PDF第149页", "title": "生化带导图合集 · PDF第149页 · 转录及调控", "image": "site-assets/biochemistry-collection/page-149.avif", "lectureId": "lecture-17", "lectureNumber": 17}, "lectureEvidencePages": [{"sourceSubject": "biochemistry", "sourceFile": "27生化跟课版合集【带导图】.pdf", "page": 149, "pageLabel": "带导图合集 · PDF第149页", "title": "生化带导图合集 · PDF第149页 · 转录及调控", "image": "site-assets/biochemistry-collection/page-149.avif", "lectureId": "lecture-17", "lectureNumber": 17}]},
   {"id": "xuecheng-37-20261122-q06", "topic": "核酸", "title": "37不yy老师的学成选择题", "kindLabel": "多项选择", "sourceLabel": "37不yy老师的学成选择题", "sourceName": "生化-转录、原癌基因抑癌基因、小基因", "sourceSection": "11月22日", "sourceQuestion": 6, "questionAuthor": "37不yy", "supplement": true, "hideSource": true, "answerSourceLabel": "原稿答案", "lectureIds": ["lecture-17"], "chapterLectureIds": ["lecture-17"], "options": [{"key": "A", "label": "其长度与mRNA寿命正相关"}, {"key": "B", "label": "参与翻译起始过程"}, {"key": "C", "label": "形成稀有碱基"}, {"key": "D", "label": "防止脱腺苷酸化酶攻击"}], "stems": [{"text": "前体mRNA 3端多聚腺苷酸polyA的意义有：（多选）", "answer": ["A", "B", "D"], "answerMode": "多选", "explanation": "按原稿选 A、B、D。poly(A) 尾及其结合蛋白参与 mRNA 稳定性和翻译起始调控，保护 3′ 端。脱腺苷酸化仍是正常 mRNA 降解的重要起始步骤，尾长与寿命的关系也依细胞和转录本而异。稀有碱基形成属于其他 RNA 加工内容。"}], "lectureEvidence": {"sourceSubject": "biochemistry", "sourceFile": "27生化跟课版合集【带导图】.pdf", "page": 151, "pageLabel": "带导图合集 · PDF第151页", "title": "生化带导图合集 · PDF第151页 · 转录及调控", "image": "site-assets/biochemistry-collection/page-151.avif", "lectureId": "lecture-17", "lectureNumber": 17}, "lectureEvidencePages": [{"sourceSubject": "biochemistry", "sourceFile": "27生化跟课版合集【带导图】.pdf", "page": 151, "pageLabel": "带导图合集 · PDF第151页", "title": "生化带导图合集 · PDF第151页 · 转录及调控", "image": "site-assets/biochemistry-collection/page-151.avif", "lectureId": "lecture-17", "lectureNumber": 17}]},
-  {"id": "xuecheng-37-20261122-q07", "topic": "核酸", "title": "37不yy老师的学成选择题", "kindLabel": "单项选择", "sourceLabel": "37不yy老师的学成选择题", "sourceName": "生化-转录、原癌基因抑癌基因、小基因", "sourceSection": "11月22日", "sourceQuestion": 7, "questionAuthor": "37不yy", "supplement": true, "hideSource": true, "answerSourceLabel": "原稿答案", "lectureIds": ["lecture-17"], "chapterLectureIds": ["lecture-17"], "options": [{"key": "A", "label": "RNA编辑"}, {"key": "B", "label": "RNA自身剪接"}, {"key": "C", "label": "RNA加帽"}, {"key": "D", "label": "RNA加多聚A尾"}], "stems": [{"text": "体内存在两种apoB蛋白的可能原因是：", "answer": ["A"], "answerMode": "单选", "explanation": "小肠中的 apoB mRNA 可经 C→U 编辑产生提前终止密码子，生成较短的 apoB48。肝脏表达未在该位点编辑的转录本，生成 apoB100。"}], "lectureEvidence": {"sourceSubject": "biochemistry", "sourceFile": "27生化跟课版合集【带导图】.pdf", "page": 152, "pageLabel": "带导图合集 · PDF第152页", "title": "生化带导图合集 · PDF第152页 · 转录及调控", "image": "site-assets/biochemistry-collection/page-152.avif", "lectureId": "lecture-17", "lectureNumber": 17}, "lectureEvidencePages": [{"sourceSubject": "biochemistry", "sourceFile": "27生化跟课版合集【带导图】.pdf", "page": 152, "pageLabel": "带导图合集 · PDF第152页", "title": "生化带导图合集 · PDF第152页 · 转录及调控", "image": "site-assets/biochemistry-collection/page-152.avif", "lectureId": "lecture-17", "lectureNumber": 17}]}
+  {"id": "xuecheng-37-20261122-q07", "topic": "核酸", "title": "37不yy老师的学成选择题", "kindLabel": "单项选择", "sourceLabel": "37不yy老师的学成选择题", "sourceName": "生化-转录、原癌基因抑癌基因、小基因", "sourceSection": "11月22日", "sourceQuestion": 7, "questionAuthor": "37不yy", "supplement": true, "hideSource": true, "answerSourceLabel": "原稿答案", "lectureIds": ["lecture-17"], "chapterLectureIds": ["lecture-17"], "options": [{"key": "A", "label": "RNA编辑"}, {"key": "B", "label": "RNA自身剪接"}, {"key": "C", "label": "RNA加帽"}, {"key": "D", "label": "RNA加多聚A尾"}], "stems": [{"text": "体内存在两种apoB蛋白的可能原因是：", "answer": ["A"], "answerMode": "单选", "explanation": "小肠中的 apoB mRNA 可经 C→U 编辑产生提前终止密码子，生成较短的 apoB48。肝脏表达未在该位点编辑的转录本，生成 apoB100。"}], "lectureEvidence": {"sourceSubject": "biochemistry", "sourceFile": "27生化跟课版合集【带导图】.pdf", "page": 152, "pageLabel": "带导图合集 · PDF第152页", "title": "生化带导图合集 · PDF第152页 · 转录及调控", "image": "site-assets/biochemistry-collection/page-152.avif", "lectureId": "lecture-17", "lectureNumber": 17}, "lectureEvidencePages": [{"sourceSubject": "biochemistry", "sourceFile": "27生化跟课版合集【带导图】.pdf", "page": 152, "pageLabel": "带导图合集 · PDF第152页", "title": "生化带导图合集 · PDF第152页 · 转录及调控", "image": "site-assets/biochemistry-collection/page-152.avif", "lectureId": "lecture-17", "lectureNumber": 17}]},
+  {
+    "id": "xuecheng-37-20261123-q01",
+    "topic": "氨基酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "单项选择",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-氨基酸代谢、小基因、翻译",
+    "sourceSection": "11月23日",
+    "sourceQuestion": 1,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-07"
+    ],
+    "chapterLectureIds": [
+      "lecture-07"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "线粒体"
+      },
+      {
+        "key": "B",
+        "label": "胞浆"
+      },
+      {
+        "key": "C",
+        "label": "两者都对"
+      },
+      {
+        "key": "D",
+        "label": "两者都不对"
+      }
+    ],
+    "stems": [
+      {
+        "text": "尿素合成中尿素的合成部位在：",
+        "answer": [
+          "B"
+        ],
+        "answerMode": "单选",
+        "explanation": "本题问尿素分子最终生成的位置。精氨酸酶在胞浆中催化精氨酸水解生成尿素与鸟氨酸，因此选B。若问整个尿素循环的进行部位，则前段在线粒体、后段在胞浆，须与本题的最终产物生成步骤区分。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 56,
+            "pageLabel": "带导图合集 · PDF第56页",
+            "title": "生化带导图合集 · PDF第56页 · 氨基酸代谢与氨基酸",
+            "image": "site-assets/biochemistry-collection/page-056.avif",
+            "lectureId": "lecture-07",
+            "lectureNumber": 7
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 56,
+      "pageLabel": "带导图合集 · PDF第56页",
+      "title": "生化带导图合集 · PDF第56页 · 氨基酸代谢与氨基酸",
+      "image": "site-assets/biochemistry-collection/page-056.avif",
+      "lectureId": "lecture-07",
+      "lectureNumber": 7
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 56,
+        "pageLabel": "带导图合集 · PDF第56页",
+        "title": "生化带导图合集 · PDF第56页 · 氨基酸代谢与氨基酸",
+        "image": "site-assets/biochemistry-collection/page-056.avif",
+        "lectureId": "lecture-07",
+        "lectureNumber": 7
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261123-q02",
+    "topic": "小基因",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "单项选择",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-氨基酸代谢、小基因、翻译",
+    "sourceSection": "11月23日",
+    "sourceQuestion": 2,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-14"
+    ],
+    "chapterLectureIds": [
+      "lecture-14"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "标记双联DNA3’端"
+      },
+      {
+        "key": "B",
+        "label": "DNA5’磷酸化"
+      },
+      {
+        "key": "C",
+        "label": "DNA3’加尾"
+      },
+      {
+        "key": "D",
+        "label": "切除末端磷酸基团"
+      }
+    ],
+    "stems": [
+      {
+        "text": "末端转移酶的作用是：",
+        "answer": [
+          "C"
+        ],
+        "answerMode": "单选",
+        "explanation": "末端转移酶可在DNA的3′端添加核苷酸，讲义对应“3′端加尾”。讲义中标记双链DNA 3′端列于DNA聚合酶Ⅰ/Klenow片段；核酸5′端磷酸化由多聚核苷酸激酶完成，切除末端磷酸基团则对应碱性磷酸酶。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 109,
+            "pageLabel": "带导图合集 · PDF第109页",
+            "title": "生化带导图合集 · PDF第109页 · 原癌基因、抑癌基因、基因重组与分子生物学技术",
+            "image": "site-assets/biochemistry-collection/page-109.avif",
+            "lectureId": "lecture-14",
+            "lectureNumber": 14
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 109,
+      "pageLabel": "带导图合集 · PDF第109页",
+      "title": "生化带导图合集 · PDF第109页 · 原癌基因、抑癌基因、基因重组与分子生物学技术",
+      "image": "site-assets/biochemistry-collection/page-109.avif",
+      "lectureId": "lecture-14",
+      "lectureNumber": 14
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 109,
+        "pageLabel": "带导图合集 · PDF第109页",
+        "title": "生化带导图合集 · PDF第109页 · 原癌基因、抑癌基因、基因重组与分子生物学技术",
+        "image": "site-assets/biochemistry-collection/page-109.avif",
+        "lectureId": "lecture-14",
+        "lectureNumber": 14
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261123-q03",
+    "topic": "小基因",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "单项选择",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-氨基酸代谢、小基因、翻译",
+    "sourceSection": "11月23日",
+    "sourceQuestion": 3,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-14"
+    ],
+    "chapterLectureIds": [
+      "lecture-14"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "同一RE的黏性末端连接"
+      },
+      {
+        "key": "B",
+        "label": "不同RE的黏性末端连接"
+      },
+      {
+        "key": "C",
+        "label": "平端连接"
+      },
+      {
+        "key": "D",
+        "label": "黏-平端连接"
+      }
+    ],
+    "stems": [
+      {
+        "text": "可定向克隆的重组DNA连接策略是：",
+        "answer": [
+          "B"
+        ],
+        "answerMode": "单选",
+        "explanation": "按讲义的连接策略，使用两种不同限制性核酸内切酶形成不同黏性末端，可使目的片段按特定方向插入载体，减少载体自连、片段反向插入和多拷贝串连。原稿选B。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 109,
+            "pageLabel": "带导图合集 · PDF第109页",
+            "title": "生化带导图合集 · PDF第109页 · 原癌基因、抑癌基因、基因重组与分子生物学技术",
+            "image": "site-assets/biochemistry-collection/page-109.avif",
+            "lectureId": "lecture-14",
+            "lectureNumber": 14
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 109,
+      "pageLabel": "带导图合集 · PDF第109页",
+      "title": "生化带导图合集 · PDF第109页 · 原癌基因、抑癌基因、基因重组与分子生物学技术",
+      "image": "site-assets/biochemistry-collection/page-109.avif",
+      "lectureId": "lecture-14",
+      "lectureNumber": 14
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 109,
+        "pageLabel": "带导图合集 · PDF第109页",
+        "title": "生化带导图合集 · PDF第109页 · 原癌基因、抑癌基因、基因重组与分子生物学技术",
+        "image": "site-assets/biochemistry-collection/page-109.avif",
+        "lectureId": "lecture-14",
+        "lectureNumber": 14
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261123-q04",
+    "topic": "核酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "单项选择",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-氨基酸代谢、小基因、翻译",
+    "sourceSection": "11月23日",
+    "sourceQuestion": 4,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-18"
+    ],
+    "chapterLectureIds": [
+      "lecture-18"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "A位"
+      },
+      {
+        "key": "B",
+        "label": "P位"
+      },
+      {
+        "key": "C",
+        "label": "E位"
+      },
+      {
+        "key": "D",
+        "label": "RBS"
+      }
+    ],
+    "stems": [
+      {
+        "text": "mRNA与核糖体准确定位在：",
+        "answer": [
+          "D"
+        ],
+        "answerMode": "单选",
+        "explanation": "原核mRNA起始密码子AUG上游的核糖体结合位点RBS，即S-D序列，可与小亚基16S rRNA互补配对，使mRNA与核糖体小亚基准确定位。A、P、E分别是核糖体上与氨酰tRNA、肽酰tRNA和空载tRNA相关的功能位点。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 159,
+            "pageLabel": "带导图合集 · PDF第159页",
+            "title": "生化带导图合集 · PDF第159页 · 翻译",
+            "image": "site-assets/biochemistry-collection/page-159.avif",
+            "lectureId": "lecture-18",
+            "lectureNumber": 18
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 159,
+      "pageLabel": "带导图合集 · PDF第159页",
+      "title": "生化带导图合集 · PDF第159页 · 翻译",
+      "image": "site-assets/biochemistry-collection/page-159.avif",
+      "lectureId": "lecture-18",
+      "lectureNumber": 18
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 159,
+        "pageLabel": "带导图合集 · PDF第159页",
+        "title": "生化带导图合集 · PDF第159页 · 翻译",
+        "image": "site-assets/biochemistry-collection/page-159.avif",
+        "lectureId": "lecture-18",
+        "lectureNumber": 18
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261123-q05",
+    "topic": "核酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "多项选择",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-氨基酸代谢、小基因、翻译",
+    "sourceSection": "11月23日",
+    "sourceQuestion": 5,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-18"
+    ],
+    "chapterLectureIds": [
+      "lecture-18"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "一条mRNA上有多个核糖体同时合成多条肽链"
+      },
+      {
+        "key": "B",
+        "label": "一条mRNA上有多个核糖体同时合成同一条肽链"
+      },
+      {
+        "key": "C",
+        "label": "缩短了合成每条肽链的时间"
+      },
+      {
+        "key": "D",
+        "label": "提高了合成肽链的效率"
+      }
+    ],
+    "stems": [
+      {
+        "text": "以下关于多聚核糖体说法正确的有：（多选）",
+        "answer": [
+          "B",
+          "D"
+        ],
+        "answerMode": "多选",
+        "explanation": "按原稿选B、D。讲义将多聚核糖体概括为多个核糖体合成“同一条多肽链”，结合页下注释应理解为同种多肽链：每个核糖体分别合成自己的肽链，所得肽链序列相同。同时合成提高总体产量和效率，但不缩短合成每一条肽链所需的时间。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 161,
+            "pageLabel": "带导图合集 · PDF第161页",
+            "title": "生化带导图合集 · PDF第161页 · 翻译",
+            "image": "site-assets/biochemistry-collection/page-161.avif",
+            "lectureId": "lecture-18",
+            "lectureNumber": 18
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 161,
+      "pageLabel": "带导图合集 · PDF第161页",
+      "title": "生化带导图合集 · PDF第161页 · 翻译",
+      "image": "site-assets/biochemistry-collection/page-161.avif",
+      "lectureId": "lecture-18",
+      "lectureNumber": 18
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 161,
+        "pageLabel": "带导图合集 · PDF第161页",
+        "title": "生化带导图合集 · PDF第161页 · 翻译",
+        "image": "site-assets/biochemistry-collection/page-161.avif",
+        "lectureId": "lecture-18",
+        "lectureNumber": 18
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261123-q06",
+    "topic": "核酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "多项选择",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-氨基酸代谢、小基因、翻译",
+    "sourceSection": "11月23日",
+    "sourceQuestion": 6,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-18"
+    ],
+    "chapterLectureIds": [
+      "lecture-18"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "酶原激活"
+      },
+      {
+        "key": "B",
+        "label": "丝氨酸的乙酰化"
+      },
+      {
+        "key": "C",
+        "label": "半胱氨酸生成胱氨酸"
+      },
+      {
+        "key": "D",
+        "label": "二硫键异构酶"
+      }
+    ],
+    "stems": [
+      {
+        "text": "以下属于翻译后加工修饰一级结构的有：（多选）",
+        "answer": [
+          "A",
+          "B",
+          "C"
+        ],
+        "answerMode": "多选",
+        "explanation": "酶原激活通过切除部分肽段修饰一级结构；丝氨酸乙酰化属于氨基酸的化学修饰；两个半胱氨酸氧化形成胱氨酸及二硫键，讲义列为可修饰一级结构或空间结构。二硫键异构酶在讲义中归于协助正确折叠的异构酶条目，因此本题按原稿选A、B、C。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 165,
+            "pageLabel": "带导图合集 · PDF第165页",
+            "title": "生化带导图合集 · PDF第165页 · 翻译",
+            "image": "site-assets/biochemistry-collection/page-165.avif",
+            "lectureId": "lecture-18",
+            "lectureNumber": 18
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 165,
+      "pageLabel": "带导图合集 · PDF第165页",
+      "title": "生化带导图合集 · PDF第165页 · 翻译",
+      "image": "site-assets/biochemistry-collection/page-165.avif",
+      "lectureId": "lecture-18",
+      "lectureNumber": 18
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 165,
+        "pageLabel": "带导图合集 · PDF第165页",
+        "title": "生化带导图合集 · PDF第165页 · 翻译",
+        "image": "site-assets/biochemistry-collection/page-165.avif",
+        "lectureId": "lecture-18",
+        "lectureNumber": 18
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261123-q07",
+    "topic": "核酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "单项选择",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-氨基酸代谢、小基因、翻译",
+    "sourceSection": "11月23日",
+    "sourceQuestion": 7,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-18"
+    ],
+    "chapterLectureIds": [
+      "lecture-18"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "scRNA"
+      },
+      {
+        "key": "B",
+        "label": "snRNA"
+      },
+      {
+        "key": "C",
+        "label": "snoRNA"
+      },
+      {
+        "key": "D",
+        "label": "5srRNA"
+      }
+    ],
+    "stems": [
+      {
+        "text": "参与靶向输送蛋白质的是：",
+        "answer": [
+          "A"
+        ],
+        "answerMode": "单选",
+        "explanation": "胞质小RNA scRNA与蛋白质组成信号识别颗粒SRP；SRP识别新生肽链的信号肽，引导相关蛋白进入内质网继续合成。snRNA主要与剪接有关，snoRNA参与核仁中的rRNA加工，5S rRNA是核糖体组成成分。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 167,
+            "pageLabel": "带导图合集 · PDF第167页",
+            "title": "生化带导图合集 · PDF第167页 · 翻译",
+            "image": "site-assets/biochemistry-collection/page-167.avif",
+            "lectureId": "lecture-18",
+            "lectureNumber": 18
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 167,
+      "pageLabel": "带导图合集 · PDF第167页",
+      "title": "生化带导图合集 · PDF第167页 · 翻译",
+      "image": "site-assets/biochemistry-collection/page-167.avif",
+      "lectureId": "lecture-18",
+      "lectureNumber": 18
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 167,
+        "pageLabel": "带导图合集 · PDF第167页",
+        "title": "生化带导图合集 · PDF第167页 · 翻译",
+        "image": "site-assets/biochemistry-collection/page-167.avif",
+        "lectureId": "lecture-18",
+        "lectureNumber": 18
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261123-q08",
+    "topic": "核酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "单项选择",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-氨基酸代谢、小基因、翻译",
+    "sourceSection": "11月23日",
+    "sourceQuestion": 8,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-18"
+    ],
+    "chapterLectureIds": [
+      "lecture-18"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "取代酪氨酰tRNA进位"
+      },
+      {
+        "key": "B",
+        "label": "使真核60s亚基失活"
+      },
+      {
+        "key": "C",
+        "label": "抑制翻译起始复合物"
+      },
+      {
+        "key": "D",
+        "label": "结合原核50s亚基抑制成肽"
+      }
+    ],
+    "stems": [
+      {
+        "text": "嘌呤霉素的作用机制是：",
+        "answer": [
+          "A"
+        ],
+        "answerMode": "单选",
+        "explanation": "嘌呤霉素与酪氨酰tRNA结构相似，可取代其进位，干扰肽链延长并使肽链提前释放，原稿选A。使真核60S亚基失活对应蓖麻毒蛋白；抑制起始复合物对应伊短菌素；结合原核50S亚基抑制成肽对应氯霉素、林可霉素、红霉素等。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 167,
+            "pageLabel": "带导图合集 · PDF第167页",
+            "title": "生化带导图合集 · PDF第167页 · 翻译",
+            "image": "site-assets/biochemistry-collection/page-167.avif",
+            "lectureId": "lecture-18",
+            "lectureNumber": 18
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 167,
+      "pageLabel": "带导图合集 · PDF第167页",
+      "title": "生化带导图合集 · PDF第167页 · 翻译",
+      "image": "site-assets/biochemistry-collection/page-167.avif",
+      "lectureId": "lecture-18",
+      "lectureNumber": 18
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 167,
+        "pageLabel": "带导图合集 · PDF第167页",
+        "title": "生化带导图合集 · PDF第167页 · 翻译",
+        "image": "site-assets/biochemistry-collection/page-167.avif",
+        "lectureId": "lecture-18",
+        "lectureNumber": 18
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261123-q09",
+    "topic": "核酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "B型题",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-氨基酸代谢、小基因、翻译",
+    "sourceSection": "11月23日",
+    "sourceQuestion": 9,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-18"
+    ],
+    "chapterLectureIds": [
+      "lecture-18"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "粉霉素"
+      },
+      {
+        "key": "B",
+        "label": "干扰素"
+      },
+      {
+        "key": "C",
+        "label": "微球菌素"
+      },
+      {
+        "key": "D",
+        "label": "白喉毒素"
+      }
+    ],
+    "stems": [
+      {
+        "text": "糖基化失活eEF2的是：",
+        "answer": [
+          "D"
+        ],
+        "answerMode": "单选",
+        "explanation": "白喉毒素使真核延长因子eEF2失活，阻断翻译延长；讲义对应“糖基化失活”，选D。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 167,
+            "pageLabel": "带导图合集 · PDF第167页",
+            "title": "生化带导图合集 · PDF第167页 · 翻译",
+            "image": "site-assets/biochemistry-collection/page-167.avif",
+            "lectureId": "lecture-18",
+            "lectureNumber": 18
+          }
+        ]
+      },
+      {
+        "text": "磷酸化失活eIF2的是：",
+        "answer": [
+          "B"
+        ],
+        "answerMode": "单选",
+        "explanation": "干扰素可通过诱导eIF2磷酸化使其失活，抑制翻译起始；讲义还列出其可间接激活核酸内切酶而降解病毒mRNA，选B。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 167,
+            "pageLabel": "带导图合集 · PDF第167页",
+            "title": "生化带导图合集 · PDF第167页 · 翻译",
+            "image": "site-assets/biochemistry-collection/page-167.avif",
+            "lectureId": "lecture-18",
+            "lectureNumber": 18
+          }
+        ]
+      },
+      {
+        "text": "抑制EF-TU的是：",
+        "answer": [
+          "A"
+        ],
+        "answerMode": "单选",
+        "explanation": "粉霉素与黄色霉素抑制原核延长因子EF-Tu，干扰氨酰tRNA进位，选A。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 167,
+            "pageLabel": "带导图合集 · PDF第167页",
+            "title": "生化带导图合集 · PDF第167页 · 翻译",
+            "image": "site-assets/biochemistry-collection/page-167.avif",
+            "lectureId": "lecture-18",
+            "lectureNumber": 18
+          }
+        ]
+      },
+      {
+        "text": "抑制EF-G的是：",
+        "answer": [
+          "C"
+        ],
+        "answerMode": "单选",
+        "explanation": "微球菌素与夫西地酸抑制原核延长因子EF-G，干扰核糖体转位，选C。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 167,
+            "pageLabel": "带导图合集 · PDF第167页",
+            "title": "生化带导图合集 · PDF第167页 · 翻译",
+            "image": "site-assets/biochemistry-collection/page-167.avif",
+            "lectureId": "lecture-18",
+            "lectureNumber": 18
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 167,
+      "pageLabel": "带导图合集 · PDF第167页",
+      "title": "生化带导图合集 · PDF第167页 · 翻译",
+      "image": "site-assets/biochemistry-collection/page-167.avif",
+      "lectureId": "lecture-18",
+      "lectureNumber": 18
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 167,
+        "pageLabel": "带导图合集 · PDF第167页",
+        "title": "生化带导图合集 · PDF第167页 · 翻译",
+        "image": "site-assets/biochemistry-collection/page-167.avif",
+        "lectureId": "lecture-18",
+        "lectureNumber": 18
+      }
+    ]
+  }
+
 ]
