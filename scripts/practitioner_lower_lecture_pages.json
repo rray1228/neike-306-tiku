@@ -1844,11 +1844,11 @@
       "question": 59,
       "sourceSubject": "surgery",
       "wordPage": 208,
-      "collectionPage": 171,
+      "collectionPage": 172,
       "textSimilarity": 1.0,
-      "image": "site-assets/surgery-review-20261023/page-208.avif",
-      "scope": "word-page-index",
-      "notice": ""
+      "image": "site-assets/practitioner-lower-lectures-20261124/q059-page-172.avif",
+      "scope": "reviewed-knowledge-point",
+      "notice": "肱骨外科颈无移位骨折：NeerⅠ型、轻度移位Ⅱ型采用三角巾悬吊。"
     },
     {
       "subject": "surgery",
@@ -1901,9 +1901,9 @@
       "wordPage": 217,
       "collectionPage": 180,
       "textSimilarity": 1.0,
-      "image": "site-assets/surgery-review-20261023/page-217.avif",
-      "scope": "word-page-index",
-      "notice": ""
+      "image": "site-assets/practitioner-lower-lectures-20261124/q064-page-180.avif",
+      "scope": "reviewed-knowledge-point",
+      "notice": "股骨干下1/3骨折：近折端向前、远折端向后移位。"
     },
     {
       "subject": "surgery",

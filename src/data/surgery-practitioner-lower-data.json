@@ -7495,7 +7495,7 @@
           "explanation": "肱骨外科颈无移位骨折通常三角巾悬吊固定。\n三步诊断  ①主诉：老人摔倒后肩部疼痛、活动受限②辅助检查/体征：X线肱骨外科颈骨折，无明显移位③最可能：稳定型无移位肱骨外科颈骨折；通常悬吊固定，无需先想切开复位",
           "explanationOrigin": "用户提供的逐题答案与讲义页码索引",
           "knowledgeConnections": [
-            "所附Word讲义索引：外科 PDF第208页"
+            "已复核讲义：外科修改合集PDF第172页；肱骨外科颈无移位骨折：NeerⅠ型、轻度移位Ⅱ型采用三角巾悬吊。"
           ],
           "lectureEvidencePages": [
             {
@@ -7503,21 +7503,21 @@
               "sourceSubject": "surgery",
               "lectureNumber": 28,
               "sourceFile": "27 外科跟课合集改.pdf",
-              "page": 171,
-              "chapterPage": 2,
-              "pageLabel": "修改合集 · PDF第171页",
-              "title": "外科第28讲 · 四肢骨折和脱位 · 修改合集第171页",
-              "image": "site-assets/surgery-review-20261023/page-208.avif",
+              "page": 172,
+              "chapterPage": 3,
+              "pageLabel": "修改合集 · PDF第172页 · 分章第3页",
+              "title": "外科合集第172页 · 肱骨近端骨折：无移位骨折的治疗",
+              "image": "site-assets/practitioner-lower-lectures-20261124/q059-page-172.avif",
               "previousSourceFile": "27 外科跟课合集【带导图】.pdf",
-              "previousPage": 208,
-              "collectionPage": 171,
+              "previousPage": 209,
               "questionNumbers": [
                 59
               ],
-              "referenceScope": "word-page-index",
               "knowledgePoints": [
-                "按所附Word讲义索引定位：外科 四肢骨折和脱位"
-              ]
+                "肱骨外科颈无移位骨折：NeerⅠ型、轻度移位Ⅱ型采用三角巾悬吊。"
+              ],
+              "referenceScope": "reviewed-knowledge-point",
+              "collectionPage": 172
             }
           ]
         }
@@ -7527,21 +7527,21 @@
         "sourceSubject": "surgery",
         "lectureNumber": 28,
         "sourceFile": "27 外科跟课合集改.pdf",
-        "page": 171,
-        "chapterPage": 2,
-        "pageLabel": "修改合集 · PDF第171页",
-        "title": "外科第28讲 · 四肢骨折和脱位 · 修改合集第171页",
-        "image": "site-assets/surgery-review-20261023/page-208.avif",
+        "page": 172,
+        "chapterPage": 3,
+        "pageLabel": "修改合集 · PDF第172页 · 分章第3页",
+        "title": "外科合集第172页 · 肱骨近端骨折：无移位骨折的治疗",
+        "image": "site-assets/practitioner-lower-lectures-20261124/q059-page-172.avif",
         "previousSourceFile": "27 外科跟课合集【带导图】.pdf",
-        "previousPage": 208,
-        "collectionPage": 171,
+        "previousPage": 209,
         "questionNumbers": [
           59
         ],
-        "referenceScope": "word-page-index",
         "knowledgePoints": [
-          "按所附Word讲义索引定位：外科 四肢骨折和脱位"
-        ]
+          "肱骨外科颈无移位骨折：NeerⅠ型、轻度移位Ⅱ型采用三角巾悬吊。"
+        ],
+        "referenceScope": "reviewed-knowledge-point",
+        "collectionPage": 172
       },
       "lectureEvidencePages": [
         {
@@ -7549,21 +7549,21 @@
           "sourceSubject": "surgery",
           "lectureNumber": 28,
           "sourceFile": "27 外科跟课合集改.pdf",
-          "page": 171,
-          "chapterPage": 2,
-          "pageLabel": "修改合集 · PDF第171页",
-          "title": "外科第28讲 · 四肢骨折和脱位 · 修改合集第171页",
-          "image": "site-assets/surgery-review-20261023/page-208.avif",
+          "page": 172,
+          "chapterPage": 3,
+          "pageLabel": "修改合集 · PDF第172页 · 分章第3页",
+          "title": "外科合集第172页 · 肱骨近端骨折：无移位骨折的治疗",
+          "image": "site-assets/practitioner-lower-lectures-20261124/q059-page-172.avif",
           "previousSourceFile": "27 外科跟课合集【带导图】.pdf",
-          "previousPage": 208,
-          "collectionPage": 171,
+          "previousPage": 209,
           "questionNumbers": [
             59
           ],
-          "referenceScope": "word-page-index",
           "knowledgePoints": [
-            "按所附Word讲义索引定位：外科 四肢骨折和脱位"
-          ]
+            "肱骨外科颈无移位骨折：NeerⅠ型、轻度移位Ⅱ型采用三角巾悬吊。"
+          ],
+          "referenceScope": "reviewed-knowledge-point",
+          "collectionPage": 172
         }
       ]
     },
@@ -8140,7 +8140,7 @@
           "explanation": "股骨干下1/3骨折：讲义明确近折端向前移位、远折端向后移位，因此本题选B。",
           "explanationOrigin": "用户提供的逐题答案与讲义页码索引",
           "knowledgeConnections": [
-            "所附Word讲义索引：外科 PDF第217页△"
+            "已复核讲义：外科修改合集PDF第180页；股骨干下1/3骨折：近折端向前、远折端向后移位。"
           ],
           "lectureEvidencePages": [
             {
@@ -8150,19 +8150,19 @@
               "sourceFile": "27 外科跟课合集改.pdf",
               "page": 180,
               "chapterPage": 11,
-              "pageLabel": "修改合集 · PDF第180页",
-              "title": "外科第28讲 · 四肢骨折和脱位 · 修改合集第180页",
-              "image": "site-assets/surgery-review-20261023/page-217.avif",
+              "pageLabel": "修改合集 · PDF第180页 · 分章第11页",
+              "title": "外科合集第180页 · 股骨干下1/3骨折的移位方向",
+              "image": "site-assets/practitioner-lower-lectures-20261124/q064-page-180.avif",
               "previousSourceFile": "27 外科跟课合集【带导图】.pdf",
               "previousPage": 217,
-              "collectionPage": 180,
               "questionNumbers": [
                 64
               ],
-              "referenceScope": "word-page-index",
               "knowledgePoints": [
-                "按所附Word讲义索引定位：外科 四肢骨折和脱位"
-              ]
+                "股骨干下1/3骨折：近折端向前、远折端向后移位。"
+              ],
+              "referenceScope": "reviewed-knowledge-point",
+              "collectionPage": 180
             }
           ]
         }
@@ -8174,19 +8174,19 @@
         "sourceFile": "27 外科跟课合集改.pdf",
         "page": 180,
         "chapterPage": 11,
-        "pageLabel": "修改合集 · PDF第180页",
-        "title": "外科第28讲 · 四肢骨折和脱位 · 修改合集第180页",
-        "image": "site-assets/surgery-review-20261023/page-217.avif",
+        "pageLabel": "修改合集 · PDF第180页 · 分章第11页",
+        "title": "外科合集第180页 · 股骨干下1/3骨折的移位方向",
+        "image": "site-assets/practitioner-lower-lectures-20261124/q064-page-180.avif",
         "previousSourceFile": "27 外科跟课合集【带导图】.pdf",
         "previousPage": 217,
-        "collectionPage": 180,
         "questionNumbers": [
           64
         ],
-        "referenceScope": "word-page-index",
         "knowledgePoints": [
-          "按所附Word讲义索引定位：外科 四肢骨折和脱位"
-        ]
+          "股骨干下1/3骨折：近折端向前、远折端向后移位。"
+        ],
+        "referenceScope": "reviewed-knowledge-point",
+        "collectionPage": 180
       },
       "lectureEvidencePages": [
         {
@@ -8196,19 +8196,19 @@
           "sourceFile": "27 外科跟课合集改.pdf",
           "page": 180,
           "chapterPage": 11,
-          "pageLabel": "修改合集 · PDF第180页",
-          "title": "外科第28讲 · 四肢骨折和脱位 · 修改合集第180页",
-          "image": "site-assets/surgery-review-20261023/page-217.avif",
+          "pageLabel": "修改合集 · PDF第180页 · 分章第11页",
+          "title": "外科合集第180页 · 股骨干下1/3骨折的移位方向",
+          "image": "site-assets/practitioner-lower-lectures-20261124/q064-page-180.avif",
           "previousSourceFile": "27 外科跟课合集【带导图】.pdf",
           "previousPage": 217,
-          "collectionPage": 180,
           "questionNumbers": [
             64
           ],
-          "referenceScope": "word-page-index",
           "knowledgePoints": [
-            "按所附Word讲义索引定位：外科 四肢骨折和脱位"
-          ]
+            "股骨干下1/3骨折：近折端向前、远折端向后移位。"
+          ],
+          "referenceScope": "reviewed-knowledge-point",
+          "collectionPage": 180
         }
       ]
     },
