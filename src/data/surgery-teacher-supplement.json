@@ -5413,14 +5413,14 @@
           "sourceParagraph": 574,
           "lectureId": "lecture-23",
           "answer": [
-            "C"
+            "D"
           ],
-          "answerRaw": "C",
+          "answerRaw": "D",
           "answerMode": "单选",
-          "answerState": "文末参考答案",
-          "explanation": "儿童和青少年关节结核以髋关节多见，膝关节亦常见；脊柱属于骨关节结核总体高发部位，但不是该题给定的四个关节选项。",
+          "answerState": "按合集讲义复核",
+          "explanation": "按本题配套外科合集，骨与关节结核的发病率顺序为脊柱结核＞膝关节结核＞髋关节结核。本题选项仅列关节，因此选D（膝关节）。髋关节结核“多见于儿童和青少年”是其好发年龄，不能据此推断髋关节是本题最好发的关节。",
           "knowledgeConnections": [
-            "髋关节病变可牵涉到膝部疼痛，儿童长期跛行或膝痛时不能漏查髋。"
+            "外科修改合集PDF第134页：骨与关节结核发病率排序；与第135页髋关节结核的好发年龄区分。"
           ]
         }
       ],
@@ -5431,9 +5431,9 @@
       "sourceText": "儿童和青少年的关节结核最好发于",
       "supplement": true,
       "hideSource": true,
-      "supplementNotice": "已录入文末参考答案",
-      "answerSourceLabel": "课后题答案",
-      "answerSourceName": "外科课后巩固_文字大留白笔记版.docx"
+      "supplementNotice": "答案已按配套合集讲义复核",
+      "answerSourceLabel": "合集讲义复核",
+      "answerSourceName": "27 外科跟课合集改.pdf"
     },
     {
       "id": "surgery-teacher-06-16",

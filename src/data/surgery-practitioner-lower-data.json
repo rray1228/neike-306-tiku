@@ -8656,66 +8656,72 @@
           "explanation": "膝外侧包扎压迫腓总神经可致足背屈障碍，而跖屈保留。\n三步诊断  ①主诉：膝置换加压包扎后新出现足背屈障碍②辅助检查/体征：跖屈正常，足背动脉正常③最可能：腓总神经压迫性损伤最可能；分离神经功能障碍与动脉缺血",
           "explanationOrigin": "用户提供的逐题答案与讲义页码索引",
           "knowledgeConnections": [
-            "所附Word讲义索引：外科 PDF第159页"
+            "已复核讲义：外科修改合集PDF第128页，周围神经损伤对照表；原Word第159页为相关真题页。"
           ],
           "lectureEvidencePages": [
             {
               "lectureId": "lecture-22",
-              "lectureNumber": 22,
               "sourceSubject": "surgery",
+              "lectureNumber": 22,
               "sourceFile": "27 外科跟课合集改.pdf",
-              "page": 130,
-              "title": "外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 · 合集第130页",
-              "image": "site-assets/practitioner-lower-lectures-20261122/surgery-page-130.webp",
-              "collectionPage": 130,
-              "pageLabel": "修改合集 · PDF第130页",
+              "page": 128,
+              "chapterPage": 5,
+              "pageLabel": "修改合集 · PDF第128页 · 分章第5页",
+              "title": "外科第22讲 · 手外伤、股骨头坏死、膝关节损伤、神经损伤 · 修改合集第128页",
+              "image": "site-assets/surgery-review-20261023/page-157.avif",
+              "previousSourceFile": "27 外科跟课合集【带导图】.pdf",
+              "previousPage": 157,
               "questionNumbers": [
                 68
               ],
-              "referenceScope": "word-page-index",
               "knowledgePoints": [
-                "按所附Word讲义索引定位：外科 手外伤、股骨头坏死、膝关节损伤、神经损伤"
-              ]
+                "腓总神经损伤：足背屈、外翻及伸趾障碍；与胫神经所支配的跖屈功能对照。"
+              ],
+              "referenceScope": "reviewed-knowledge-point"
             }
           ]
         }
       ],
       "lectureEvidence": {
         "lectureId": "lecture-22",
-        "lectureNumber": 22,
         "sourceSubject": "surgery",
+        "lectureNumber": 22,
         "sourceFile": "27 外科跟课合集改.pdf",
-        "page": 130,
-        "title": "外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 · 合集第130页",
-        "image": "site-assets/practitioner-lower-lectures-20261122/surgery-page-130.webp",
-        "collectionPage": 130,
-        "pageLabel": "修改合集 · PDF第130页",
+        "page": 128,
+        "chapterPage": 5,
+        "pageLabel": "修改合集 · PDF第128页 · 分章第5页",
+        "title": "外科第22讲 · 手外伤、股骨头坏死、膝关节损伤、神经损伤 · 修改合集第128页",
+        "image": "site-assets/surgery-review-20261023/page-157.avif",
+        "previousSourceFile": "27 外科跟课合集【带导图】.pdf",
+        "previousPage": 157,
         "questionNumbers": [
           68
         ],
-        "referenceScope": "word-page-index",
         "knowledgePoints": [
-          "按所附Word讲义索引定位：外科 手外伤、股骨头坏死、膝关节损伤、神经损伤"
-        ]
+          "腓总神经损伤：足背屈、外翻及伸趾障碍；与胫神经所支配的跖屈功能对照。"
+        ],
+        "referenceScope": "reviewed-knowledge-point"
       },
       "lectureEvidencePages": [
         {
           "lectureId": "lecture-22",
-          "lectureNumber": 22,
           "sourceSubject": "surgery",
+          "lectureNumber": 22,
           "sourceFile": "27 外科跟课合集改.pdf",
-          "page": 130,
-          "title": "外科 手外伤、股骨头坏死、膝关节损伤、神经损伤 · 合集第130页",
-          "image": "site-assets/practitioner-lower-lectures-20261122/surgery-page-130.webp",
-          "collectionPage": 130,
-          "pageLabel": "修改合集 · PDF第130页",
+          "page": 128,
+          "chapterPage": 5,
+          "pageLabel": "修改合集 · PDF第128页 · 分章第5页",
+          "title": "外科第22讲 · 手外伤、股骨头坏死、膝关节损伤、神经损伤 · 修改合集第128页",
+          "image": "site-assets/surgery-review-20261023/page-157.avif",
+          "previousSourceFile": "27 外科跟课合集【带导图】.pdf",
+          "previousPage": 157,
           "questionNumbers": [
             68
           ],
-          "referenceScope": "word-page-index",
           "knowledgePoints": [
-            "按所附Word讲义索引定位：外科 手外伤、股骨头坏死、膝关节损伤、神经损伤"
-          ]
+            "腓总神经损伤：足背屈、外翻及伸趾障碍；与胫神经所支配的跖屈功能对照。"
+          ],
+          "referenceScope": "reviewed-knowledge-point"
         }
       ]
     },

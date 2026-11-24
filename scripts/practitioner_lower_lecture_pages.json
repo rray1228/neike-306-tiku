@@ -1943,11 +1943,11 @@
       "question": 68,
       "sourceSubject": "surgery",
       "wordPage": 159,
-      "collectionPage": 130,
+      "collectionPage": 128,
       "textSimilarity": 1.0,
-      "image": "site-assets/practitioner-lower-lectures-20261122/surgery-page-130.webp",
-      "scope": "word-page-index",
-      "notice": ""
+      "image": "site-assets/surgery-review-20261023/page-157.avif",
+      "scope": "reviewed-knowledge-point",
+      "notice": "已按腓总神经损伤对照表复核，替代原Word索引对应的相关真题页。"
     },
     {
       "subject": "surgery",
