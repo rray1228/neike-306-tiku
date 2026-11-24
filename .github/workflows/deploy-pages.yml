@@ -50,33 +50,44 @@ jobs:
         with:
           path: dist-pages
 
-      - name: Wait for Pages artifact metadata
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          node --input-type=module <<'NODE'
-          import { setTimeout } from 'node:timers/promises';
-          const url = `${process.env.GITHUB_API_URL}/repos/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}/artifacts?name=github-pages`;
-          for (let attempt = 1; attempt <= 12; attempt++) {
-            const response = await fetch(url, {
-              headers: {
-                Authorization: `Bearer ${process.env.GH_TOKEN}`,
-                Accept: 'application/vnd.github+json',
-                'X-GitHub-Api-Version': '2022-11-28',
-              },
-            });
-            if (!response.ok) throw new Error(`Artifact metadata request failed: ${response.status}`);
-            const { artifacts = [] } = await response.json();
-            if (artifacts.some(artifact => artifact.name === 'github-pages' && !artifact.expired)) {
-              console.log('Pages artifact metadata is available.');
-              process.exit(0);
-            }
-            console.log(`Waiting for Pages artifact metadata (${attempt}/12).`);
-            await setTimeout(5000);
-          }
-          throw new Error('Pages artifact metadata did not become available within 60 seconds.');
-          NODE
-
       - name: Deploy to Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // Use the REST artifact ID: the runner-scoped artifact listing can lag behind uploads.
+            const route = '/repos/{owner}/{repo}';
+            const scope = { owner: context.repo.owner, repo: context.repo.repo };
+            const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+            let artifact;
+            for (let attempt = 0; attempt < 12; attempt++) {
+              const { data } = await github.request('GET ' + route + '/actions/runs/{run_id}/artifacts', {
+                ...scope, run_id: context.runId, name: 'github-pages',
+              });
+              const matches = data.artifacts.filter(item => item.name === 'github-pages' && !item.expired);
+              if (matches.length > 1) throw new Error('Multiple Pages artifacts found for this run.');
+              if (matches.length === 1) { artifact = matches[0]; break; }
+              await delay(5000);
+            }
+            if (!artifact) throw new Error('Pages artifact unavailable for this workflow run.');
+            const idToken = await core.getIDToken();
+            core.setSecret(idToken);
+            const { data: deployment } = await github.request('POST ' + route + '/pages/deployments', {
+              ...scope, artifact_id: artifact.id, pages_build_version: context.sha, oidc_token: idToken,
+            });
+            core.setOutput('page_url', deployment.page_url);
+            core.info('Created Pages deployment ' + deployment.id);
+            for (let attempt = 0; attempt < 120; attempt++) {
+              const { data: status } = await github.request('GET ' + route + '/pages/deployments/{deployment_id}', {
+                ...scope, deployment_id: deployment.id,
+              });
+              if (status.status === 'succeed') {
+                core.info('Pages deployment succeeded.');
+                return;
+              }
+              if (['errored', 'failed', 'deployment_failed', 'deployment_content_failed', 'deployment_cancelled', 'cancelled'].includes(status.status)) {
+                throw new Error('Pages deployment failed: ' + status.status);
+              }
+              await delay(5000);
+            }
+            throw new Error('Pages deployment timed out.');
