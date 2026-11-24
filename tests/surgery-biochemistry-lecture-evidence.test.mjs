@@ -71,7 +71,8 @@ test('biochemistry uses the collection with mind maps for question groups and bo
   [6],[4],[25],[62,105],[23,24],[110],[109,114],[109],[109,142],[115],[124],[124],[44],
   [98],[106,15,105,99],[134],[135],
   [108],[109],[150],[148],[149],[151],[152],
-  [56],[109],[109],[159],[161],[165],[167],[167],[167]])
+  [56],[109],[109],[159],[161],[165],[167],[167],[167],
+  [148,181],[187,146,140],[172],[174,175,176],[177],[178],[180],[180],[193],[193]])
  for(const group of additionalQuestions){
   assert.deepEqual(group.lectureEvidence,group.lectureEvidencePages[0],group.id)
   for(const page of group.lectureEvidencePages){

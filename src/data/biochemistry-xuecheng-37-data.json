@@ -854,6 +854,1064 @@
         "lectureNumber": 18
       }
     ]
+  },
+  {
+    "id": "xuecheng-37-20261124-q01",
+    "topic": "核酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "B型题",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-基因表达调控、真核基因、DNA 损伤",
+    "sourceSection": "11月24日",
+    "sourceQuestion": 1,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-17",
+      "lecture-19"
+    ],
+    "chapterLectureIds": [
+      "lecture-17",
+      "lecture-19"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "microRNA"
+      },
+      {
+        "key": "B",
+        "label": "rRNA"
+      },
+      {
+        "key": "C",
+        "label": "tRNA"
+      },
+      {
+        "key": "D",
+        "label": "DNA polδ"
+      }
+    ],
+    "stems": [
+      {
+        "text": "以下物质的基因受真核启动子调控的有：（多选）",
+        "answer": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "answerMode": "多选",
+        "explanation": "真核启动子分Ⅰ、Ⅱ、Ⅲ类，分别对应不同RNA聚合酶及转录产物。microRNA、rRNA、tRNA以及编码DNA polδ的基因均涉及真核转录调控，因此第一问按原稿全选。不要将“真核启动子”直接等同于“Ⅱ类启动子”。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 148,
+            "pageLabel": "带导图合集 · PDF第148页",
+            "title": "生化带导图合集 · PDF第148页 · 转录及调控",
+            "image": "site-assets/biochemistry-collection/page-148.avif",
+            "lectureId": "lecture-17",
+            "lectureNumber": 17
+          },
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 181,
+            "pageLabel": "带导图合集 · PDF第181页",
+            "title": "生化带导图合集 · PDF第181页 · 基因表达的调控",
+            "image": "site-assets/biochemistry-collection/page-181.avif",
+            "lectureId": "lecture-19",
+            "lectureNumber": 19
+          }
+        ]
+      },
+      {
+        "text": "以下物质的基因受Ⅱ类启动子调控的有：（多选）",
+        "answer": [
+          "A",
+          "D"
+        ],
+        "answerMode": "多选",
+        "explanation": "microRNA主要由RNA polⅡ转录；DNA polδ是蛋白质，其编码基因先转录为mRNA，也由Ⅱ类启动子调控。45S rRNA前体对应RNA polⅠ，5S rRNA和tRNA对应RNA polⅢ，因此第二问按原稿选A、D。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 148,
+            "pageLabel": "带导图合集 · PDF第148页",
+            "title": "生化带导图合集 · PDF第148页 · 转录及调控",
+            "image": "site-assets/biochemistry-collection/page-148.avif",
+            "lectureId": "lecture-17",
+            "lectureNumber": 17
+          },
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 181,
+            "pageLabel": "带导图合集 · PDF第181页",
+            "title": "生化带导图合集 · PDF第181页 · 基因表达的调控",
+            "image": "site-assets/biochemistry-collection/page-181.avif",
+            "lectureId": "lecture-19",
+            "lectureNumber": 19
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 148,
+      "pageLabel": "带导图合集 · PDF第148页",
+      "title": "生化带导图合集 · PDF第148页 · 转录及调控",
+      "image": "site-assets/biochemistry-collection/page-148.avif",
+      "lectureId": "lecture-17",
+      "lectureNumber": 17
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 148,
+        "pageLabel": "带导图合集 · PDF第148页",
+        "title": "生化带导图合集 · PDF第148页 · 转录及调控",
+        "image": "site-assets/biochemistry-collection/page-148.avif",
+        "lectureId": "lecture-17",
+        "lectureNumber": 17
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 181,
+        "pageLabel": "带导图合集 · PDF第181页",
+        "title": "生化带导图合集 · PDF第181页 · 基因表达的调控",
+        "image": "site-assets/biochemistry-collection/page-181.avif",
+        "lectureId": "lecture-19",
+        "lectureNumber": 19
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261124-q02",
+    "topic": "核酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "多项选择",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-基因表达调控、真核基因、DNA 损伤",
+    "sourceSection": "11月24日",
+    "sourceQuestion": 2,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-20",
+      "lecture-17",
+      "lecture-16"
+    ],
+    "chapterLectureIds": [
+      "lecture-20",
+      "lecture-17",
+      "lecture-16"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "存在双向启动子、假基因"
+      },
+      {
+        "key": "B",
+        "label": "转录产物是多顺反子"
+      },
+      {
+        "key": "C",
+        "label": "基因转录的不对称性"
+      },
+      {
+        "key": "D",
+        "label": "富含G四联体的端粒DNA"
+      }
+    ],
+    "stems": [
+      {
+        "text": "原核生物基因组的特点有：（多选）",
+        "answer": [
+          "B",
+          "C"
+        ],
+        "answerMode": "多选",
+        "explanation": "按讲义的原核与真核典型特点对照，原核操纵子可转录出多顺反子mRNA；转录具有不对称性，一个转录单位仅以DNA的一条链为模板。讲义将双向启动子、假基因列在真核基因特点中，富含G四联体的端粒属于真核线性染色体相关结构，本题按原稿选B、C。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 187,
+            "pageLabel": "带导图合集 · PDF第187页",
+            "title": "生化带导图合集 · PDF第187页 · 真核基因",
+            "image": "site-assets/biochemistry-collection/page-187.avif",
+            "lectureId": "lecture-20",
+            "lectureNumber": 20
+          },
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 146,
+            "pageLabel": "带导图合集 · PDF第146页",
+            "title": "生化带导图合集 · PDF第146页 · 转录及调控",
+            "image": "site-assets/biochemistry-collection/page-146.avif",
+            "lectureId": "lecture-17",
+            "lectureNumber": 17
+          },
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 140,
+            "pageLabel": "带导图合集 · PDF第140页",
+            "title": "生化带导图合集 · PDF第140页 · DNA 的合成",
+            "image": "site-assets/biochemistry-collection/page-140.avif",
+            "lectureId": "lecture-16",
+            "lectureNumber": 16
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 187,
+      "pageLabel": "带导图合集 · PDF第187页",
+      "title": "生化带导图合集 · PDF第187页 · 真核基因",
+      "image": "site-assets/biochemistry-collection/page-187.avif",
+      "lectureId": "lecture-20",
+      "lectureNumber": 20
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 187,
+        "pageLabel": "带导图合集 · PDF第187页",
+        "title": "生化带导图合集 · PDF第187页 · 真核基因",
+        "image": "site-assets/biochemistry-collection/page-187.avif",
+        "lectureId": "lecture-20",
+        "lectureNumber": 20
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 146,
+        "pageLabel": "带导图合集 · PDF第146页",
+        "title": "生化带导图合集 · PDF第146页 · 转录及调控",
+        "image": "site-assets/biochemistry-collection/page-146.avif",
+        "lectureId": "lecture-17",
+        "lectureNumber": 17
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 140,
+        "pageLabel": "带导图合集 · PDF第140页",
+        "title": "生化带导图合集 · PDF第140页 · DNA 的合成",
+        "image": "site-assets/biochemistry-collection/page-140.avif",
+        "lectureId": "lecture-16",
+        "lectureNumber": 16
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261124-q03",
+    "topic": "核酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "多项选择",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-基因表达调控、真核基因、DNA 损伤",
+    "sourceSection": "11月24日",
+    "sourceQuestion": 3,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-19"
+    ],
+    "chapterLectureIds": [
+      "lecture-19"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "对核酸酶高度敏感的超敏位点"
+      },
+      {
+        "key": "B",
+        "label": "组蛋白发生泛素化、磷酸化等修饰"
+      },
+      {
+        "key": "C",
+        "label": "CpG岛乙酰化减少"
+      },
+      {
+        "key": "D",
+        "label": "组蛋白与DNA亲和力下降"
+      }
+    ],
+    "stems": [
+      {
+        "text": "活性染色质的特点有：（多选）",
+        "answer": [
+          "A",
+          "B",
+          "D"
+        ],
+        "answerMode": "多选",
+        "explanation": "活性染色质较松弛，DNA更易接触核酸酶和调节蛋白，故出现核酸酶超敏位点。讲义列出组蛋白乙酰化、磷酸化、泛素化等修饰，并指出组蛋白与DNA亲和力下降。CpG岛在这里讨论的是DNA甲基化降低，不能写成“CpG岛乙酰化减少”，因此选A、B、D。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 172,
+            "pageLabel": "带导图合集 · PDF第172页",
+            "title": "生化带导图合集 · PDF第172页 · 基因表达的调控",
+            "image": "site-assets/biochemistry-collection/page-172.avif",
+            "lectureId": "lecture-19",
+            "lectureNumber": 19
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 172,
+      "pageLabel": "带导图合集 · PDF第172页",
+      "title": "生化带导图合集 · PDF第172页 · 基因表达的调控",
+      "image": "site-assets/biochemistry-collection/page-172.avif",
+      "lectureId": "lecture-19",
+      "lectureNumber": 19
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 172,
+        "pageLabel": "带导图合集 · PDF第172页",
+        "title": "生化带导图合集 · PDF第172页 · 基因表达的调控",
+        "image": "site-assets/biochemistry-collection/page-172.avif",
+        "lectureId": "lecture-19",
+        "lectureNumber": 19
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261124-q04",
+    "topic": "核酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "B型题",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-基因表达调控、真核基因、DNA 损伤",
+    "sourceSection": "11月24日",
+    "sourceQuestion": 4,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-19"
+    ],
+    "chapterLectureIds": [
+      "lecture-19"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "阻遏蛋白与操纵序列结合"
+      },
+      {
+        "key": "B",
+        "label": "RNApol与启动子结合"
+      },
+      {
+        "key": "C",
+        "label": "诱导型操纵子关闭"
+      },
+      {
+        "key": "D",
+        "label": "诱导性操纵子开放"
+      },
+      {
+        "key": "E",
+        "label": "操纵子转录活性低"
+      },
+      {
+        "key": "F",
+        "label": "衰减子表达的肽不完整"
+      },
+      {
+        "key": "G",
+        "label": "前导mRNA序列3/4形成发卡结构"
+      }
+    ],
+    "stems": [
+      {
+        "text": "原核生物乳糖含量不足，葡萄糖含量较充足时：（多选）",
+        "answer": [
+          "A",
+          "C"
+        ],
+        "answerMode": "多选",
+        "explanation": "按本题设置，乳糖不足时缺少有效诱导，阻遏蛋白结合操纵序列，乳糖操纵子关闭；葡萄糖充足也不利于cAMP-CAP的正性调节。原稿答案为A、C。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 174,
+            "pageLabel": "带导图合集 · PDF第174页",
+            "title": "生化带导图合集 · PDF第174页 · 基因表达的调控",
+            "image": "site-assets/biochemistry-collection/page-174.avif",
+            "lectureId": "lecture-19",
+            "lectureNumber": 19
+          }
+        ]
+      },
+      {
+        "text": "原核生物乳糖含量充足，葡萄糖含量不足时：（多选）",
+        "answer": [
+          "B",
+          "D"
+        ],
+        "answerMode": "多选",
+        "explanation": "乳糖充足可使阻遏蛋白解除对操纵序列的抑制；葡萄糖不足时cAMP-CAP正性调节增强，有利于RNA聚合酶结合启动子、提高乳糖操纵子的转录，原稿选B、D。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 174,
+            "pageLabel": "带导图合集 · PDF第174页",
+            "title": "生化带导图合集 · PDF第174页 · 基因表达的调控",
+            "image": "site-assets/biochemistry-collection/page-174.avif",
+            "lectureId": "lecture-19",
+            "lectureNumber": 19
+          }
+        ]
+      },
+      {
+        "text": "原核生物内色氨酸含量充足时：（多选）",
+        "answer": [
+          "A",
+          "G"
+        ],
+        "answerMode": "多选",
+        "explanation": "高色氨酸时，色氨酸与阻遏蛋白结合，使其结合操纵序列，抑制转录起始；对于已经开始的转录，前导肽可完整合成，前导mRNA形成3/4终止发卡结构，发生衰减。粗调与精调分别对应A、G。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 175,
+            "pageLabel": "带导图合集 · PDF第175页",
+            "title": "生化带导图合集 · PDF第175页 · 基因表达的调控",
+            "image": "site-assets/biochemistry-collection/page-175.avif",
+            "lectureId": "lecture-19",
+            "lectureNumber": 19
+          },
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 176,
+            "pageLabel": "带导图合集 · PDF第176页",
+            "title": "生化带导图合集 · PDF第176页 · 基因表达的调控",
+            "image": "site-assets/biochemistry-collection/page-176.avif",
+            "lectureId": "lecture-19",
+            "lectureNumber": 19
+          }
+        ]
+      },
+      {
+        "text": "原核生物内色氨酸含量不足时：（多选）",
+        "answer": [
+          "B",
+          "F"
+        ],
+        "answerMode": "多选",
+        "explanation": "低色氨酸时阻遏作用解除，RNA聚合酶可结合启动子。核糖体在前导肽的色氨酸密码子处停顿，前导肽不完整，有利于形成2/3反终止结构，使下游转录继续，因此原稿选B、F。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 175,
+            "pageLabel": "带导图合集 · PDF第175页",
+            "title": "生化带导图合集 · PDF第175页 · 基因表达的调控",
+            "image": "site-assets/biochemistry-collection/page-175.avif",
+            "lectureId": "lecture-19",
+            "lectureNumber": 19
+          },
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 176,
+            "pageLabel": "带导图合集 · PDF第176页",
+            "title": "生化带导图合集 · PDF第176页 · 基因表达的调控",
+            "image": "site-assets/biochemistry-collection/page-176.avif",
+            "lectureId": "lecture-19",
+            "lectureNumber": 19
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 174,
+      "pageLabel": "带导图合集 · PDF第174页",
+      "title": "生化带导图合集 · PDF第174页 · 基因表达的调控",
+      "image": "site-assets/biochemistry-collection/page-174.avif",
+      "lectureId": "lecture-19",
+      "lectureNumber": 19
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 174,
+        "pageLabel": "带导图合集 · PDF第174页",
+        "title": "生化带导图合集 · PDF第174页 · 基因表达的调控",
+        "image": "site-assets/biochemistry-collection/page-174.avif",
+        "lectureId": "lecture-19",
+        "lectureNumber": 19
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 175,
+        "pageLabel": "带导图合集 · PDF第175页",
+        "title": "生化带导图合集 · PDF第175页 · 基因表达的调控",
+        "image": "site-assets/biochemistry-collection/page-175.avif",
+        "lectureId": "lecture-19",
+        "lectureNumber": 19
+      },
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 176,
+        "pageLabel": "带导图合集 · PDF第176页",
+        "title": "生化带导图合集 · PDF第176页 · 基因表达的调控",
+        "image": "site-assets/biochemistry-collection/page-176.avif",
+        "lectureId": "lecture-19",
+        "lectureNumber": 19
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261124-q05",
+    "topic": "核酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "单项选择",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-基因表达调控、真核基因、DNA 损伤",
+    "sourceSection": "11月24日",
+    "sourceQuestion": 5,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-19"
+    ],
+    "chapterLectureIds": [
+      "lecture-19"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "Hogness盒"
+      },
+      {
+        "key": "B",
+        "label": "Pribnow盒"
+      },
+      {
+        "key": "C",
+        "label": "CAAT盒"
+      },
+      {
+        "key": "D",
+        "label": "SP1"
+      }
+    ],
+    "stems": [
+      {
+        "text": "真核生物转录出mRNA的对应启动子的核心序列是：",
+        "answer": [
+          "A"
+        ],
+        "answerMode": "单选",
+        "explanation": "RNA polⅡ对应的Ⅱ类启动子核心序列是TATA盒，也称Hogness盒。Pribnow盒为原核启动子-10区；CAAT盒是Ⅱ类启动子上游元件；SP1是可结合GC盒的转录因子，均不属于本题所问核心序列。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 177,
+            "pageLabel": "带导图合集 · PDF第177页",
+            "title": "生化带导图合集 · PDF第177页 · 基因表达的调控",
+            "image": "site-assets/biochemistry-collection/page-177.avif",
+            "lectureId": "lecture-19",
+            "lectureNumber": 19
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 177,
+      "pageLabel": "带导图合集 · PDF第177页",
+      "title": "生化带导图合集 · PDF第177页 · 基因表达的调控",
+      "image": "site-assets/biochemistry-collection/page-177.avif",
+      "lectureId": "lecture-19",
+      "lectureNumber": 19
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 177,
+        "pageLabel": "带导图合集 · PDF第177页",
+        "title": "生化带导图合集 · PDF第177页 · 基因表达的调控",
+        "image": "site-assets/biochemistry-collection/page-177.avif",
+        "lectureId": "lecture-19",
+        "lectureNumber": 19
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261124-q06",
+    "topic": "核酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "多项选择",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-基因表达调控、真核基因、DNA 损伤",
+    "sourceSection": "11月24日",
+    "sourceQuestion": 6,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-19"
+    ],
+    "chapterLectureIds": [
+      "lecture-19"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "对启动子没有严格专一性"
+      },
+      {
+        "key": "B",
+        "label": "属于远端调控元件，但发挥作用距离所调控基因可近可远"
+      },
+      {
+        "key": "C",
+        "label": "决定基因时空特异性最重要的反式作用因子"
+      },
+      {
+        "key": "D",
+        "label": "与序列方向无关"
+      }
+    ],
+    "stems": [
+      {
+        "text": "增强子的特点包括：（多选）",
+        "answer": [
+          "A",
+          "B",
+          "D"
+        ],
+        "answerMode": "多选",
+        "explanation": "讲义列出增强子对启动子没有严格专一性、作用位置可近可远、与序列方向无关。增强子是DNA上的顺式作用元件；“决定时空特异性最重要的反式作用因子”对应特异转录因子，不能把增强子称为反式作用因子，因此选A、B、D。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 178,
+            "pageLabel": "带导图合集 · PDF第178页",
+            "title": "生化带导图合集 · PDF第178页 · 基因表达的调控",
+            "image": "site-assets/biochemistry-collection/page-178.avif",
+            "lectureId": "lecture-19",
+            "lectureNumber": 19
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 178,
+      "pageLabel": "带导图合集 · PDF第178页",
+      "title": "生化带导图合集 · PDF第178页 · 基因表达的调控",
+      "image": "site-assets/biochemistry-collection/page-178.avif",
+      "lectureId": "lecture-19",
+      "lectureNumber": 19
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 178,
+        "pageLabel": "带导图合集 · PDF第178页",
+        "title": "生化带导图合集 · PDF第178页 · 基因表达的调控",
+        "image": "site-assets/biochemistry-collection/page-178.avif",
+        "lectureId": "lecture-19",
+        "lectureNumber": 19
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261124-q07",
+    "topic": "核酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "多项选择",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-基因表达调控、真核基因、DNA 损伤",
+    "sourceSection": "11月24日",
+    "sourceQuestion": 7,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-19"
+    ],
+    "chapterLectureIds": [
+      "lecture-19"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "TAF"
+      },
+      {
+        "key": "B",
+        "label": "TFⅠ"
+      },
+      {
+        "key": "C",
+        "label": "可诱导因子"
+      },
+      {
+        "key": "D",
+        "label": "中介子"
+      },
+      {
+        "key": "E",
+        "label": "GC盒"
+      }
+    ],
+    "stems": [
+      {
+        "text": "参与RNApolⅡ结合启动子过程的蛋白质有：（多选）",
+        "answer": [
+          "A",
+          "C",
+          "D"
+        ],
+        "answerMode": "多选",
+        "explanation": "TAF与中介子在调节因子和RNA polⅡ-TFⅡ复合物之间发挥辅助、桥梁作用；可诱导因子属于转录激活因子，可参与调控该过程。RNA polⅡ对应的是TFⅡ，而选项B写的是TFⅠ。GC盒是DNA顺式元件，不是蛋白质，所以选A、C、D。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 180,
+            "pageLabel": "带导图合集 · PDF第180页",
+            "title": "生化带导图合集 · PDF第180页 · 基因表达的调控",
+            "image": "site-assets/biochemistry-collection/page-180.avif",
+            "lectureId": "lecture-19",
+            "lectureNumber": 19
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 180,
+      "pageLabel": "带导图合集 · PDF第180页",
+      "title": "生化带导图合集 · PDF第180页 · 基因表达的调控",
+      "image": "site-assets/biochemistry-collection/page-180.avif",
+      "lectureId": "lecture-19",
+      "lectureNumber": 19
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 180,
+        "pageLabel": "带导图合集 · PDF第180页",
+        "title": "生化带导图合集 · PDF第180页 · 基因表达的调控",
+        "image": "site-assets/biochemistry-collection/page-180.avif",
+        "lectureId": "lecture-19",
+        "lectureNumber": 19
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261124-q08",
+    "topic": "核酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "多项选择",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-基因表达调控、真核基因、DNA 损伤",
+    "sourceSection": "11月24日",
+    "sourceQuestion": 8,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-19"
+    ],
+    "chapterLectureIds": [
+      "lecture-19"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "DnaB蛋白"
+      },
+      {
+        "key": "B",
+        "label": "TFⅡH"
+      },
+      {
+        "key": "C",
+        "label": "TFⅡF"
+      },
+      {
+        "key": "D",
+        "label": "RNA聚合酶的β亚基"
+      },
+      {
+        "key": "E",
+        "label": "ρ因子"
+      }
+    ],
+    "stems": [
+      {
+        "text": "有解旋酶活性的包括：（多选）",
+        "answer": [
+          "A",
+          "B",
+          "E"
+        ],
+        "answerMode": "多选",
+        "explanation": "DnaB参与原核DNA复制时的解链；TFⅡH参与真核转录起始，具有ATP酶、解旋酶及蛋白激酶活性；ρ因子参与原核转录终止。TFⅡF主要结合、募集RNA polⅡ；选项D的β亚基与讲义列出的β′亚基不同，β亚基主要催化磷酸二酯键生成，因此原稿选A、B、E。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 180,
+            "pageLabel": "带导图合集 · PDF第180页",
+            "title": "生化带导图合集 · PDF第180页 · 基因表达的调控",
+            "image": "site-assets/biochemistry-collection/page-180.avif",
+            "lectureId": "lecture-19",
+            "lectureNumber": 19
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 180,
+      "pageLabel": "带导图合集 · PDF第180页",
+      "title": "生化带导图合集 · PDF第180页 · 基因表达的调控",
+      "image": "site-assets/biochemistry-collection/page-180.avif",
+      "lectureId": "lecture-19",
+      "lectureNumber": 19
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 180,
+        "pageLabel": "带导图合集 · PDF第180页",
+        "title": "生化带导图合集 · PDF第180页 · 基因表达的调控",
+        "image": "site-assets/biochemistry-collection/page-180.avif",
+        "lectureId": "lecture-19",
+        "lectureNumber": 19
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261124-q09",
+    "topic": "核酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "多项选择",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-基因表达调控、真核基因、DNA 损伤",
+    "sourceSection": "11月24日",
+    "sourceQuestion": 9,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-21"
+    ],
+    "chapterLectureIds": [
+      "lecture-21"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "光裂合酶直接修复"
+      },
+      {
+        "key": "B",
+        "label": "链的共价交联"
+      },
+      {
+        "key": "C",
+        "label": "p53参与的碱基切除修复"
+      },
+      {
+        "key": "D",
+        "label": "核苷酸切除修复"
+      },
+      {
+        "key": "E",
+        "label": "末端连接修复"
+      }
+    ],
+    "stems": [
+      {
+        "text": "嘧啶二聚体的修复方式有：（多选）",
+        "answer": [
+          "A",
+          "D"
+        ],
+        "answerMode": "多选",
+        "explanation": "讲义将光裂合酶/光复活酶修复嘧啶二聚体列为直接修复；核苷酸切除修复可识别双螺旋扭曲并切除含损伤的片段，再补缺、连接。链的共价交联是损伤形式；碱基切除修复和末端连接修复分别对应其他损伤处理，因此原稿选A、D。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 193,
+            "pageLabel": "带导图合集 · PDF第193页",
+            "title": "生化带导图合集 · PDF第193页 · DNA 损伤",
+            "image": "site-assets/biochemistry-collection/page-193.avif",
+            "lectureId": "lecture-21",
+            "lectureNumber": 21
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 193,
+      "pageLabel": "带导图合集 · PDF第193页",
+      "title": "生化带导图合集 · PDF第193页 · DNA 损伤",
+      "image": "site-assets/biochemistry-collection/page-193.avif",
+      "lectureId": "lecture-21",
+      "lectureNumber": 21
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 193,
+        "pageLabel": "带导图合集 · PDF第193页",
+        "title": "生化带导图合集 · PDF第193页 · DNA 损伤",
+        "image": "site-assets/biochemistry-collection/page-193.avif",
+        "lectureId": "lecture-21",
+        "lectureNumber": 21
+      }
+    ]
+  },
+  {
+    "id": "xuecheng-37-20261124-q10",
+    "topic": "核酸",
+    "title": "37不yy老师的学成选择题",
+    "kindLabel": "单项选择",
+    "sourceLabel": "37不yy老师的学成选择题",
+    "sourceName": "生化-基因表达调控、真核基因、DNA 损伤",
+    "sourceSection": "11月24日",
+    "sourceQuestion": 10,
+    "questionAuthor": "37不yy",
+    "supplement": true,
+    "hideSource": true,
+    "answerSourceLabel": "原稿答案",
+    "lectureIds": [
+      "lecture-21"
+    ],
+    "chapterLectureIds": [
+      "lecture-21"
+    ],
+    "options": [
+      {
+        "key": "A",
+        "label": "核苷酸切除修复缺陷"
+      },
+      {
+        "key": "B",
+        "label": "错配修复缺陷"
+      },
+      {
+        "key": "C",
+        "label": "重组修复缺陷"
+      },
+      {
+        "key": "D",
+        "label": "跨越损伤DNA合成修复"
+      }
+    ],
+    "stems": [
+      {
+        "text": "着色性干皮病XP的发生机制是：",
+        "answer": [
+          "A"
+        ],
+        "answerMode": "单选",
+        "explanation": "按本题和配套讲义的缺陷-疾病对应表，着色性干皮病XP对应核苷酸切除修复缺陷。错配修复缺陷对应遗传性非息肉病性结肠癌等；重组修复属于另一类DNA损伤修复机制。本题原稿选A。",
+        "lectureEvidencePages": [
+          {
+            "sourceSubject": "biochemistry",
+            "sourceFile": "27生化跟课版合集【带导图】.pdf",
+            "page": 193,
+            "pageLabel": "带导图合集 · PDF第193页",
+            "title": "生化带导图合集 · PDF第193页 · DNA 损伤",
+            "image": "site-assets/biochemistry-collection/page-193.avif",
+            "lectureId": "lecture-21",
+            "lectureNumber": 21
+          }
+        ]
+      }
+    ],
+    "lectureEvidence": {
+      "sourceSubject": "biochemistry",
+      "sourceFile": "27生化跟课版合集【带导图】.pdf",
+      "page": 193,
+      "pageLabel": "带导图合集 · PDF第193页",
+      "title": "生化带导图合集 · PDF第193页 · DNA 损伤",
+      "image": "site-assets/biochemistry-collection/page-193.avif",
+      "lectureId": "lecture-21",
+      "lectureNumber": 21
+    },
+    "lectureEvidencePages": [
+      {
+        "sourceSubject": "biochemistry",
+        "sourceFile": "27生化跟课版合集【带导图】.pdf",
+        "page": 193,
+        "pageLabel": "带导图合集 · PDF第193页",
+        "title": "生化带导图合集 · PDF第193页 · DNA 损伤",
+        "image": "site-assets/biochemistry-collection/page-193.avif",
+        "lectureId": "lecture-21",
+        "lectureNumber": 21
+      }
+    ]
   }
 
 ]
