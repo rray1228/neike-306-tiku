@@ -7,6 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -48,6 +49,33 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist-pages
+
+      - name: Wait for Pages artifact metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          node --input-type=module <<'NODE'
+          import { setTimeout } from 'node:timers/promises';
+          const url = `${process.env.GITHUB_API_URL}/repos/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}/artifacts?name=github-pages`;
+          for (let attempt = 1; attempt <= 12; attempt++) {
+            const response = await fetch(url, {
+              headers: {
+                Authorization: `Bearer ${process.env.GH_TOKEN}`,
+                Accept: 'application/vnd.github+json',
+                'X-GitHub-Api-Version': '2022-11-28',
+              },
+            });
+            if (!response.ok) throw new Error(`Artifact metadata request failed: ${response.status}`);
+            const { artifacts = [] } = await response.json();
+            if (artifacts.some(artifact => artifact.name === 'github-pages' && !artifact.expired)) {
+              console.log('Pages artifact metadata is available.');
+              process.exit(0);
+            }
+            console.log(`Waiting for Pages artifact metadata (${attempt}/12).`);
+            await setTimeout(5000);
+          }
+          throw new Error('Pages artifact metadata did not become available within 60 seconds.');
+          NODE
 
       - name: Deploy to Pages
         id: deployment
