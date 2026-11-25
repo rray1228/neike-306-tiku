@@ -10,7 +10,9 @@
       "27 外科跟课合集改.pdf"
     ],
     "lectureEvidenceReviewDate": "2026-11-22",
-    "lectureBackgroundOnlyCount": 7
+    "lectureBackgroundOnlyCount": 7,
+    "answerReviewDate": "2026-11-25",
+    "answerSource": "用户提供的老师讲解答案表（内科1–109题、外科1–80题）"
   },
   "groups": [
     {
@@ -34,8 +36,8 @@
         "lecture-01"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -154,8 +156,8 @@
         "lecture-01"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -277,8 +279,8 @@
         "lecture-09"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -400,8 +402,8 @@
         "lecture-05"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -523,8 +525,8 @@
         "lecture-06"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -646,8 +648,8 @@
         "lecture-07"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -769,8 +771,8 @@
         "lecture-06"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -892,8 +894,8 @@
         "lecture-07"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -1016,8 +1018,8 @@
         "lecture-06"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -1139,8 +1141,8 @@
         "lecture-08"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -1262,8 +1264,8 @@
         "lecture-08"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -1290,13 +1292,13 @@
         {
           "number": 11,
           "text": "该患者最可能的感染途径是",
-          "answerRaw": "B",
+          "answerRaw": "A",
           "answer": [
-            "B"
+            "A"
           ],
           "answerMode": "单选",
-          "explanation": "结核分枝杆菌主要经呼吸道飞沫传播；勿与继发感染后的支气管播散混淆。\n三步诊断  ①主诉：消瘦、干咳咯血2个月，近期发热②辅助检查/体征：上肺实变伴虫蚀样空洞，白细胞不显著升高③最可能：最可能干酪性肺炎（结核相关）；第11题再由病原传播方式作答，不把肺内播散误作初始感染途径",
-          "explanationOrigin": "用户提供的逐题答案与讲义页码索引",
+          "explanation": "本题按老师讲解选A：淋巴结支气管瘘。注意本题问的是病例中的感染途径，不能用结核病一般经呼吸道飞沫传播的知识替代本题答案。",
+          "explanationOrigin": "用户提供的老师讲解答案表；2026年11月25日校正",
           "knowledgeConnections": [
             "所附Word讲义索引：内科 PDF第42页△"
           ],
@@ -1386,8 +1388,8 @@
         "lecture-03"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -1509,8 +1511,8 @@
         "lecture-03"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -1633,8 +1635,8 @@
         "lecture-03"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -1756,8 +1758,8 @@
         "lecture-13"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -1876,8 +1878,8 @@
         "lecture-13"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -1999,8 +2001,8 @@
         "lecture-13"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -2122,8 +2124,8 @@
         "lecture-10"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -2245,8 +2247,8 @@
         "lecture-11"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -2369,8 +2371,8 @@
         "lecture-55"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -2492,8 +2494,8 @@
         "lecture-55"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -2615,8 +2617,8 @@
         "lecture-56"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -2738,8 +2740,8 @@
         "lecture-56"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -2861,8 +2863,8 @@
         "lecture-52"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -2984,8 +2986,8 @@
         "lecture-56"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -3107,8 +3109,8 @@
         "lecture-56"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -3230,8 +3232,8 @@
         "lecture-56"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -3354,8 +3356,8 @@
         "lecture-56"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -3477,8 +3479,8 @@
         "lecture-56"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -3600,8 +3602,8 @@
         "lecture-56"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -3628,13 +3630,13 @@
         {
           "number": 30,
           "text": "男，36岁，胸痛、胸闷 6小时来诊，查体：血压 130/80mmHg，心率 120次/分，心音强弱不等，心律不齐，可闻及频发室性期前收缩（37次/分），心电图检查 II、III、aVF导联抬高 0.2～0.3mV。为控制该心律失常首选的药物是",
-          "answerRaw": "A",
+          "answerRaw": "C",
           "answer": [
-            "A"
+            "C"
           ],
           "answerMode": "单选",
-          "explanation": "急性心肌梗死后频发室性早搏，讲义将利多卡因列为此特定情形的用药；一般室早的治疗选择需另行区分。\n三步诊断  ①主诉：急性胸痛胸闷6小时②辅助检查/体征：下壁导联ST抬高＋频发室早③最可能：考虑急性下壁心肌梗死伴室性早搏；先认清缺血背景，再选控制室性心律失常的药",
-          "explanationOrigin": "用户提供的逐题答案与讲义页码索引",
+          "explanation": "本题按老师讲解选C：胺碘酮。病例要点是胸痛、胸闷6小时，Ⅱ、Ⅲ、aVF导联ST段抬高，并有频发室性期前收缩；本题控制该心律失常选择胺碘酮。",
+          "explanationOrigin": "用户提供的老师讲解答案表；2026年11月25日校正",
           "knowledgeConnections": [
             "所附Word讲义索引：内科 PDF第388页"
           ],
@@ -3723,8 +3725,8 @@
         "lecture-54"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -3846,8 +3848,8 @@
         "lecture-54"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -3969,8 +3971,8 @@
         "lecture-54"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -4092,8 +4094,8 @@
         "lecture-54"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -4215,8 +4217,8 @@
         "lecture-54"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -4243,13 +4245,13 @@
         {
           "number": 35,
           "text": "女，52岁，半年来间断胸骨后疼痛，向左肩部放射持续 20分钟左右可缓解，心电图示发作时 ST段抬高，胸痛缓解后心电图正常。首选的药物为",
-          "answerRaw": "D",
+          "answerRaw": "B",
           "answer": [
-            "D"
+            "B"
           ],
           "answerMode": "单选",
-          "explanation": "变异型心绞痛首选钙通道阻滞剂。讲义明确举例为硝苯地平，按讲义选D；B地尔硫䓬同属钙通道阻滞剂，题目存在同类药物的选项竞争。\n三步诊断  ①主诉：反复胸痛，发作时与缓解后心电图不同②辅助检查/体征：胸痛时ST抬高，缓解后恢复正常③最可能：变异型心绞痛；先诊断血管痉挛表型，再在钙拮抗剂中比较用药",
-          "explanationOrigin": "用户提供的逐题答案与讲义页码索引",
+          "explanation": "本题按老师讲解选B：地尔硫卓。反复胸痛，发作时ST段抬高、缓解后心电图恢复正常，提示变异型心绞痛；给定选项中按老师答案选择地尔硫卓。",
+          "explanationOrigin": "用户提供的老师讲解答案表；2026年11月25日校正",
           "knowledgeConnections": [
             "所附Word讲义索引：内科 PDF第337页"
           ],
@@ -4338,8 +4340,8 @@
         "lecture-57"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -4461,8 +4463,8 @@
         "lecture-54"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -4584,8 +4586,8 @@
         "lecture-55"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -4707,8 +4709,8 @@
         "lecture-52"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -4830,8 +4832,8 @@
         "lecture-52"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -4953,8 +4955,8 @@
         "lecture-49"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -5076,8 +5078,8 @@
         "lecture-49"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -5200,8 +5202,8 @@
         "lecture-49"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -5323,8 +5325,8 @@
         "lecture-53"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -5446,8 +5448,8 @@
         "lecture-53"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -5569,8 +5571,8 @@
         "lecture-50"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -5692,8 +5694,8 @@
         "lecture-51"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -5815,8 +5817,8 @@
         "lecture-14"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -5938,8 +5940,8 @@
         "lecture-15"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -6062,8 +6064,8 @@
         "lecture-15"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -6185,8 +6187,8 @@
         "lecture-15"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -6308,8 +6310,8 @@
         "lecture-15"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -6431,8 +6433,8 @@
         "lecture-16"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -6554,8 +6556,8 @@
         "lecture-16"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -6677,8 +6679,8 @@
         "lecture-16"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -6801,8 +6803,8 @@
         "lecture-16"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -6924,8 +6926,8 @@
         "lecture-17"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -7047,8 +7049,8 @@
         "lecture-18"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -7170,8 +7172,8 @@
         "lecture-19"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -7293,8 +7295,8 @@
         "lecture-19"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -7416,8 +7418,8 @@
         "lecture-22"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -7539,8 +7541,8 @@
         "lecture-20"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -7662,8 +7664,8 @@
         "lecture-16"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -7782,8 +7784,8 @@
         "lecture-20"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -7906,8 +7908,8 @@
         "lecture-23"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -8030,8 +8032,8 @@
         "lecture-23"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -8154,8 +8156,8 @@
         "lecture-16"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -8274,8 +8276,8 @@
         "lecture-16"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -8394,8 +8396,8 @@
         "lecture-26"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -8517,8 +8519,8 @@
         "lecture-26"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -8641,8 +8643,8 @@
         "lecture-27"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -8764,8 +8766,8 @@
         "lecture-27"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -8887,8 +8889,8 @@
         "lecture-27"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -9010,8 +9012,8 @@
         "lecture-27"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -9134,8 +9136,8 @@
         "lecture-25"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -9258,8 +9260,8 @@
         "lecture-25"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -9381,8 +9383,8 @@
         "lecture-26"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -9505,8 +9507,8 @@
         "lecture-26"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -9628,8 +9630,8 @@
         "lecture-26"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -9751,8 +9753,8 @@
         "lecture-26"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -9881,8 +9883,8 @@
         "lecture-33"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -10004,8 +10006,8 @@
         "lecture-34"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -10127,8 +10129,8 @@
         "lecture-34"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -10247,8 +10249,8 @@
         "lecture-34"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -10370,8 +10372,8 @@
         "lecture-34"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -10494,8 +10496,8 @@
         "lecture-34"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -10615,8 +10617,8 @@
         "lecture-34"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -10738,8 +10740,8 @@
         "lecture-34"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -10861,8 +10863,8 @@
         "lecture-35"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -10984,8 +10986,8 @@
         "lecture-35"
       ],
       "supplement": true,
-      "answerSourceLabel": "用户纠错答案",
-      "supplementNotice": "题目按原卷录入，本题答案及解析已按用户纠错更新。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -11107,8 +11109,8 @@
         "lecture-36"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -11230,8 +11232,8 @@
         "lecture-36"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -11353,8 +11355,8 @@
         "lecture-39"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -11476,8 +11478,8 @@
         "lecture-42"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -11599,8 +11601,8 @@
         "lecture-42"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -11724,8 +11726,8 @@
         "lecture-38"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -11848,8 +11850,8 @@
         "lecture-38"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -11973,8 +11975,8 @@
         "lecture-38"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -12097,8 +12099,8 @@
         "lecture-38"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -12220,8 +12222,8 @@
         "lecture-38"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -12344,8 +12346,8 @@
         "lecture-45"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -12467,8 +12469,8 @@
         "lecture-44"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -12590,8 +12592,8 @@
         "lecture-44"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -12714,8 +12716,8 @@
         "lecture-43"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -12837,8 +12839,8 @@
         "lecture-48"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -12960,8 +12962,8 @@
         "lecture-48"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -13083,8 +13085,8 @@
         "lecture-48"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -13207,8 +13209,8 @@
         "lecture-48"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
@@ -13331,8 +13333,8 @@
         "lecture-48"
       ],
       "supplement": true,
-      "answerSourceLabel": "所附Word答案",
-      "supplementNotice": "题目按原卷录入，答案与解析来自所附Word。",
+      "answerSourceLabel": "老师讲解答案",
+      "supplementNotice": "题目按原卷录入，答案以老师讲解答案表为准。",
       "options": [
         {
           "key": "A",
